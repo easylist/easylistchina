@@ -46,6 +46,7 @@
 ||cpm9v.cn^$third-party
 ||v.cpp9v.cn^$third-party
 !--sort by domain
+||1188.com^$third-party
 ||000wan.com^$third-party
 ||007.mx^$third-party
 ||100tone.com^$third-party
@@ -453,7 +454,7 @@
 ||ujoin.net^$third-party
 ||ujian.cc^$third-party
 ||ulink.cc^$third-party
-||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com
+||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com|~huihui.cn
 ||union001.$third-party
 ||union009.com^$third-party
 ||union178.com^$third-party
@@ -643,7 +644,7 @@ blog.dausos.com##.adt
 dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
 freegroup.org##.ad-box
-freegroup.org##div[style="width:336px; height:280px; margin:20px auto; text-align:center;"]
+freegroup.org##div[style^="width:336px; height:280px;"]
 freehao123.com##.box
 freehao123.com###jieweigg
 ftchinese.com###story_main_mpu
@@ -2866,8 +2867,11 @@ suning.com#@##topAd
 !--大众点评
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
+!---------- chinalist update
+@@||js.tudouui.com/bin/player2/$object
+yyets.com##a[href="http://ehdw.taobao.com/"]
+@@||js.tudouui.com/bin/player2/$object
 !------------------------End of List-------------------------
-!-----------------------Added by cui 201402141106-----------------------!
 !-----------------------General advert blocking filters-----------------------!
 .info/admg/
 .info/js/ads/
