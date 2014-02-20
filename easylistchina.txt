@@ -1473,7 +1473,6 @@ jd.com#@#.adwords
 @@||baidu.com^$domain=7958.com
 @@||baidustatic.com^$domain=7958.com
 ||7958.com/static/disk/images/tija_gif.gif
-7958.com##[id^="cproIframe"]
 !---8684
 @@||js.973.com/ad/sys_ad_complete.js$domain=8684.cn
 @@||js.973.com/gjs/169.js
@@ -4101,6 +4100,8 @@ suning.com#@##topAd
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
+7958.com###cproIframe1
+7958.com###cproIframe2
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_Banner
 autofan.com.cn,jiaodong.net,yb983.com###ALayer1
@@ -5107,7 +5108,6 @@ unpcn.com##div[style="line-height: 22px;margin-bottom: 25px; min-width: 1000px;p
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 kbcool.com##div[style="margin:0 auto 8px auto;width:980px;height:50px"]
 sznews.com##div[style="width:1000px; height:120px; position:relative;"]
-yyets.com##div[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 jwb.com.cn##div[style="width:960px; height:84px; overflow:hidden; background-color:#FFFFFF;"] + .jwwsy
 chinacbe.com##div[style="width:960px; padding:0px; margin:4px 0; border:0px solid #CCC;"]
 bbs.ithome.com##div[style="width:960px;height:120px;padding:0 20px;margin: 0 auto;background:#fff;"]
