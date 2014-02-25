@@ -7,8 +7,7 @@
 !
 !
 ! Fork of: ChinaList https://github.com/chinalist/chinalist
-!----GNU LGPL Licensed----
-!  Sat, 22 Feb 2014 20:07:27 +0800
+!  Mon, 24 Feb 2014 20:45:34 +0800
 !*** chinalist-adservers.txt ***
 !--中国电信
 /clicktotal/ClickTotal.js
@@ -196,6 +195,7 @@
 ||adsbro.com^$third-party
 ||adszui.com^$third-party
 ||adunioncode.com^$third-party
+||adver.com.tw^$third-party
 ||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
@@ -537,6 +537,7 @@
 ||zhanzhang.net^$third-party
 ||zhiad.com^$third-party
 ||zwads.com^$third-party
+||zytwq.net^$third-party
 !*** chinalist-generic.txt ***
 /acmsd/*
 /adfiles/*
@@ -899,7 +900,6 @@ jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
 ||same.jrj.com.cn^$script,subdocument
 www.jrj.com.cn##[class^="mw a"]
-||i0.jrjimg.cn/homev2/ad/
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
 ||libertytimes.com.tw/IService2/AdLinkList.php
@@ -1177,6 +1177,7 @@ cnmo.com##div[id*="pop"],div[class*="pop"]
 ||disp.cc/ads_data/
 disp.cc###ads_page_b
 disp.cc###ads_page_r
+disp.cc##.ads_bot_block
 ||dj520.com/js/stj.js
 dj520.com##.a304
 dj520.com##.pal
@@ -1985,12 +1986,19 @@ iplaysoft.com##[style="margin:-10px 0 0 0;overflow:hidden"]
 ||download.it168.com/jscript/bubble.js
 it168.com##[id^="ADV"]
 it168.com##.gg
+!---ITHome
+ithome.com.tw###ad-on-top
+ithome.com.tw##.ad-text-in-middle
+ithome.com.tw##[class="span4"]
+ithome.com.tw##.span4:nth-child(5)
+ithome.com.tw##.span4:nth-child(8)
 !---小猪快跑
 ||imanke.com/static/imanke/pigbbs.js
 ||jumpcn.com/show/
 ||jumpcn.com/javascript/tshow.js
 bbs.jumpcn.com###framesh74cG
 !---煎蛋
+||jdstatic.tankr.net/ajax/125.js
 ||jdstatic.tankr.net/ajax/banner.js
 ||jdstatic.tankr.net/s/$image
 !---江门网
@@ -2471,8 +2479,6 @@ haozu.com##.index7ad
 !--HOUSE365
 ||house365.com/js/lbpopup.js
 house365.com##.m_coup-big
-!--SimpleCD
-||simplecd.me/static/js/adcpm.js
 !---山西新闻网
 ||images.daynews.com.cn/flash/
 ||images.daynews.com.cn/zzbframe/2008daynews/ad/
@@ -2876,9 +2882,6 @@ suning.com#@##topAd
 ||5293.com^$third-party
 |https://*/ad/$domain=~pay.suning.com
 ||wangpanwu.com/images/aoyou.gif
-!--生物谷
-bioon.com###ad_tb
-bioon.com##.grid_6
 !------------------------End of List-------------------------
 !-----------------------General advert blocking filters-----------------------!
 .info/admg/
@@ -4118,7 +4121,11 @@ bioon.com##.grid_6
 ||zsjjob.com/user/member/google.htm
 ||xrba.net/250-*.js
 ||xrba.net/ce.js
+||simplecd.me/static/js/adcpm.js
+||jrjimg.cn/homev2/ad/
 !------------------------Specific element hiding rules------------------------!
+bioon.com###ad_tb
+bioon.com##.grid_6
 portablesoft.org##.eLeft
 t.qq.com###homeBannerNew
 fsehome.com##.ka_mod1
@@ -4999,6 +5006,7 @@ news.cjn.cn##.w300.h250.of
 dbw.cn##.w720
 27.cn##.w960[style*="height:100px;"]
 xdf.cn##.w_ads
+lady8844.com##.wad
 10jqka.com.cn##.wbanner
 v.ku6.com##.wcr_ad1
 ptbus.com##.weixin_ad
