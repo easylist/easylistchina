@@ -3035,6 +3035,7 @@ suning.com#@##topAd
 ||yeyebt.com^$popup,third-party
 ||yuanjiaomeii.com^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
+||36tv.cn/statics/images/jinhuatv/ad
 ||masadora.net/kakusan-
 ||xxshe.com/img/newyeye.swf
 ||wuyougo.info/03.jpg
@@ -4157,6 +4158,8 @@ suning.com#@##topAd
 ||wifi.com.cn/logo/ad-
 ||buytong.cn/images/*%*.swf
 !------------------------Specific element hiding rules------------------------!
+36tv.cn###sidead_left
+36tv.cn###sidead_left2
 buytong.cn##.hy_top_left
 liulanmi.com##.endads
 jokeji.cn##.ad360_280
@@ -5214,7 +5217,7 @@ upan.cc##div[style^="width: 960px;height: 9"]
 lanyes.org##div[style^="width:250px;height:250px;"]
 jpwind.com##div[style^="width:730px; height:90px;"]
 tc.cn##div[style^="width:930px; height:70px;"]
-36tv.cn##div[style^="width:960px;height:80px;"]
+36tv.cn###container > DIV[style^="height:"]
 www.jstv.com##div[style^="width:978px; height:100px;"]
 feixiangtv.com##div[style^="width:984px; height:83px;"]
 hiapk.com##font.jammer
