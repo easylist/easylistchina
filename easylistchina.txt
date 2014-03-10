@@ -7,7 +7,7 @@
 !
 !
 ! Fork of: ChinaList https://github.com/chinalist/chinalist
-! Mon, 03 Mar 2014 11:11:08 +0800
+!  Fri, 07 Mar 2014 14:47:58 +0800
 !*** chinalist-adservers.txt ***
 !--中国电信
 /clicktotal/ClickTotal.js
@@ -608,8 +608,9 @@
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://acs.
-|http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~qjwm.com|~wsj.com
+|http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~gridsumdissector.com|~qjwm.com|~wsj.com
 |http://gg.$~stylesheet,domain=~gg.ma
+|https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 !##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
@@ -2226,9 +2227,12 @@ oeeee.com##[class^="ad-"]
 ||pconline.com.cn/js/ivy.js
 pconline.com.cn##.ivyBaidu
 !---人民网
+@@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing$subdocument,~third-party
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||msn.people.com.cn/css/2010tianrun/
+||people.com.cn/adv/
+||people.com.cn/img/*/p_libraryad.min.js
 msn.people.com.cn##.banNSch
 !---PIXNET
 /blog/addvisit^
@@ -2838,7 +2842,7 @@ yaolan.com##div[id^="topAd"]
 yaolan.com##div[id^="underZs"]
 yaolanimage.cn/home/js/adinsert_new.js
 !*** chinalist-temp.txt ***
-!---2014.02
+!---2014.03
 ||qtfy30.cn/top_690.gif
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
@@ -2889,7 +2893,6 @@ suning.com#@##topAd
 @@||union.mapbar.com/apis/maps/$script
 !--missing
 ||5293.com^$third-party
-|https://*/ad/$domain=~pay.suning.com
 ||wangpanwu.com/images/aoyou.gif
 !------------------------End of List-------------------------
 !-----------------------General advert blocking filters-----------------------!
