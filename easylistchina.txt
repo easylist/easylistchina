@@ -7,7 +7,7 @@
 !
 !
 ! Fork of: ChinaList https://github.com/chinalist/chinalist
-!  Fri, 07 Mar 2014 14:47:58 +0800
+!  Sun, 16 Mar 2014 23:54:16 +0800
 !*** chinalist-adservers.txt ***
 !--中国电信
 /clicktotal/ClickTotal.js
@@ -175,6 +175,7 @@
 ||adhai.com^$third-party
 ||adjwl.com^$third-party
 ||adkongjian.com^$third-party
+||admaji.com^$third-party
 ||admaster.com.cn^$third-party
 ||admin6.com^$third-party
 ||adnets.cn^$third-party
@@ -608,7 +609,6 @@
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://acs.
-|http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~gridsumdissector.com|~qjwm.com|~wsj.com
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
@@ -649,6 +649,7 @@ coolapk.com##.ga200
 crsky.com##[id$="_TL"]
 dmzj.com##iframe[width="960"]
 downg.com##.content.ad-b950x50
+du00.com###ad
 fbook.net##.head-d
 freegroup.org##.ad-box
 freegroup.org##div[style^="width:336px; height:280px;"]
@@ -1269,6 +1270,7 @@ www.jstv.com##.jadv
 ||qzwb.com^$object
 ||s.tankr.net/s/$script
 ||school.itzcn.com/popup.js
+||share.dmhy.*/*?$image
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 ||soaspx.com/images/hws.gif
@@ -1356,6 +1358,7 @@ ph66.com##[class^="ad_"]
 qiushibaike.com##.sitelink
 qzwb.com##.area[style^="height:70px;"]
 ruten.com.tw###supertop-bar
+share.dmhy.me,share.dmhy.org##[id$="_ad"]
 subpig.net##.a_p
 tianyayidu.com##div[style^="width:728px;"]
 tiexue.net###Baidu_WWW_TopAD4
@@ -1726,15 +1729,6 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 !--gzdaily
 /pub/news/gzrb/*$script
 ||gzdaily.dayoo.com/tpl/banner$object
-!---动漫花园
-||share.dmhy.*/MY$image
-||share.dmhy.*/MZ$image
-||share.dmhy.*/QS$image
-||share.dmhy.*/shareman$image
-||share.dmhy.*/WLGO$image
-share.dmhy.me,share.dmhy.org###shareman_ad
-share.dmhy.me,share.dmhy.org###WLGO_ad
-share.dmhy.me,share.dmhy.org##.ad
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
@@ -1784,11 +1778,10 @@ dm5.com,dm5.hk##.cl970
 ||market.duowan.com^
 !---东方财富网
 ||cmsjs.eastmoney.com/js/fixedSoft$script
-||eastmoney.com/images/uma.html
-||eastmoney.com/js/fs2012.js
+||cmsjs.eastmoney.com^$subdocument
+||dfcfw.com/js/*/emfloatmedia$script
 ||same.eastmoney.com^
 eastmoney.com##.banner
-eastmoney.com##.bannerE
 eastmoney.com##.lyad
 !---生物通
 @@||ebiotrade.com/jslibrary/js44.js
@@ -2770,12 +2763,10 @@ soku.com###ab_282
 ||v.stats.yytcdn.com^
 ||yytcdn.com/uploads/page_advertisement/
 !---人人影视
-@@||res.yyets.com/ads/bd-160.js
 ||copy.ousns.com^
-||res.yyets.com/ads/
 yyets.com##.games-rec-list
-yyets.com##.tb-box
-yyets.com##[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
+yyets.com##.joke
+yyets.com##.j-t
 yyets.com##a[href="http://ehdw.taobao.com/"]
 !---叶子猪游戏网
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -2819,7 +2810,6 @@ sz.zj.cn###popup
 ||static.zongheng.com^*/adClickStat.js
 ||static.zongheng.com^*/index_r_b.js
 ||static.zongheng.com^*/logger.min.js
-||static.zongheng.com/comic/pic/*/*.swf
 zongheng.com###bigImgPop
 !--MMZH
 mmzh.com###dlle
@@ -2849,6 +2839,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 !*** chinalist-white.txt ***
 !2tu.cc#@#.adds
+@@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||ad.qyer.com^
 @@||adcdn.pingan.com^
@@ -2857,6 +2848,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 @@||bbs.byr.cn/board/Advertising?
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
+@@||houdask.com/data/advertising/$image
 @@||icbc.com.cn/ICBC_ADJS/$script,~third-party
 @@||kanknim.allyes.com^$object-subrequest
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
@@ -2893,6 +2885,7 @@ suning.com#@##topAd
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
 !--missing
+|http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~gridsumdissector.com|~qjwm.com|~wsj.com
 ||5293.com^$third-party
 ||wangpanwu.com/images/aoyou.gif
 !------------------------End of List-------------------------
