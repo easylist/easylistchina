@@ -7,7 +7,7 @@
 !
 !
 ! Fork of: ChinaList https://github.com/chinalist/chinalist
-!  Sun, 16 Mar 2014 23:54:16 +0800
+!  Tue, 18 Mar 2014 23:14:14 +0800
 !*** chinalist-adservers.txt ***
 !--中国电信
 /clicktotal/ClickTotal.js
@@ -612,7 +612,7 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
-!##.wumii-widget-ad
+##.wumii-widget-ad
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 1000fr.net##center
 17k.com##.b950
@@ -1732,8 +1732,7 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
-!---Discuz
-! & PHPWind etc.
+!---Discuz! & PHPWind etc.
 ###ad_headerbanner
 ###sitefocus.focus
 ##.a_fl
@@ -2838,7 +2837,7 @@ yaolanimage.cn/home/js/adinsert_new.js
 ||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 ||zasv.net/data/attachment/forum/201301/10/103254zzrl6yrr7zr2765y.gif
 !*** chinalist-white.txt ***
-!2tu.cc#@#.adds
+2tu.cc#@#.adds
 @@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||ad.qyer.com^
