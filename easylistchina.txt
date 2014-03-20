@@ -3048,6 +3048,9 @@ suning.com#@##topAd
 ||yeyebt.com^$popup,third-party
 ||yuanjiaomeii.com^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
+||lepan.cc/templates/32666/images/zsz001.gif
+||lepan.cc/img/96039.gif
+||lepan.cc/templates/32666/images/vipc.jpg
 ||jiaodong.net/2014/*960_50.gif
 ||90oo.com/tp/*980.gif
 ||90oo.com/tp/*480.gif
@@ -4224,6 +4227,8 @@ suning.com#@##topAd
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
 ||pcgames.com.cn/download/newnq/
 !------------------------Specific element hiding rules------------------------!
+lepan.cc##.ad
+lepan.cc##DIV[style="width:960px;height:110px;margin:5px auto;"]
 skycn.com##.couplet-ad-left
 skycn.com##.couplet-ad-right
 marstv.com###live_ad
@@ -5356,6 +5361,7 @@ sdzbcg.com##td[width="297"] img
 gx.xinhuanet.com##td[width="970"][bgcolor="#ffffff"]
 lywww.com##ul[id^="addimg_"]
 !---------------------------------Whitelists----------------------------------!
+@@||lepan.cc/templates/32666/images/ads/
 @@||sinaimg.cn/large/696b3be5tw1edul5buf5jg206e01yt8p.gif
 @@/show_ads.js$domain=flvxz.com
 @@.jstv.com/c/gg/
