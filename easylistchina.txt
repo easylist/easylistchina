@@ -94,7 +94,6 @@
 ||333wan.com^$third-party
 ||334700.com^$third-party
 ||336.com^$third-party
-||3393.com^$third-party
 ||33hy.com^$third-party
 ||360.rbc.cn^$third-party
 ||360kaixin.com^$third-party
@@ -194,7 +193,6 @@
 ||adunioncode.com^$third-party
 ||adver.com.tw^$third-party
 ||advooe.com^$third-party
-||advprotraffic.com^$third-party
 ||adwww.cn^$third-party
 ||adyeye.com^$third-party
 ||adyun.com^$third-party
@@ -224,7 +222,6 @@
 ||bolebank.com^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
-||btnibbler.com^$third-party
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
 ||buzz-time.com.cn^$third-party
@@ -237,7 +234,6 @@
 ||chenjingli.com^$third-party
 ||chinaih.com^$third-party
 ||chinauma.net^$third-party
-||chitika.com^$third-party
 ||click.5j.com^$third-party
 ||click.com^$third-party
 ||cluclick.leshu.com^$third-party
@@ -269,7 +265,6 @@
 ||dmclick.cn^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||doubleadv.com^$third-party
-||doublemax.net^$third-party
 ||down.jialichuang.com^$third-party
 ||e.phpwind.com^$third-party
 ||ee4kdushuba.com^$third-party
@@ -394,7 +389,6 @@
 ||pixelinteractivemedia.com^$third-party
 ||pk38.com^$third-party
 ||pk840.com^$third-party
-||plugrush.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
 ||ps123.net^$third-party
@@ -561,13 +555,10 @@
 /adfiles/*
 /adflash/*
 /adimage/*
-/adjs/*
 /adphoto/*
 /adpics/*
-/adpolestar/*
 /adpshow.
 /adpuba/*
-/adservice/*
 /advpic/*
 /attachments/ad/*
 /data/ad/*
@@ -659,7 +650,6 @@ freegroup.org##.ad-box
 freegroup.org##div[style^="width:336px; height:280px;"]
 freehao123.com###jieweigg
 freehao123.com##.box
-ftchinese.com###story_main_mpu
 fun698.com##table[width="958"]
 fun698.com##table[width="960"]
 gamebase.com.tw###ad118_728
@@ -854,7 +844,6 @@ rsdown.cn#@#.banner-ads
 ||pic.bahamut.com.tw/js/ad.js
 ||traceplay.5054399.com^$domain=4399.com
 ||wowmovies.cn/img/vda/
-club.tgfcer.com#@##content_adv
 comic.131.com##.mh_frbk > dl
 gamefy.cn##.ad68060
 gamefy.cn##.float_bottom_right
@@ -939,7 +928,6 @@ dzwww.com##.ad
 jjxw.cn##[class$="_ad"]
 jjxw.cn##[class^="head_ad"]
 news.580k.com##.contentAD
-newtalk.tw###ad_top_banner
 newtalk.tw##.ind_news_station
 strtv.cn##body > .container:first-child
 sun0769.com###topgg
@@ -1651,7 +1639,6 @@ www.eol.cn##.adtop1_info
 !---中国新闻网
 /ad2008/*$domain=chinanews.com
 /fileftp/*$object,domain=chinanews.com
-chinanews.com###adhzh
 chinanews.com###ngg
 chinanews.com###qizhi_div980
 !---CCTV
@@ -1753,7 +1740,7 @@ dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; ove
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ~3600gz.cn,~forum.xitek.com,~it168.com,~wxkds.com##.a_mu
 ~bbs.wps.cn##.a_pt
-~dsjunshi.com##[id^="ad_thread"]
+~dsjunshi.com##div[id^="ad_thread"]
 ~hk-pub.com##.ad_footerbanner
 ~xdjz.net###ads_c_tpc
 !---discuss.com.hk
@@ -2155,7 +2142,6 @@ newyx.net##.adh450
 !---NextMedia
 !-HK
 @@||cdn.inskinmedia.com/isfe/$domain=nextmedia.com
-@@||video.appledaily.com.hk/admedia/
 ||hk.image1.nextmedia.com^$object
 ||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
 hk.dv.nextmedia.com##[id^="ndx_"]
@@ -2789,7 +2775,6 @@ vga.zol.com.cn##.banner250
 www.zol.com.cn##.adwindow
 www.zol.com.cn##[id^="Bar"]
 www.zol.com.cn#@##search_ad
-zol.com.cn###rightAdDiv1
 zol.com.cn##.ad
 zol.com.cn##.ad-box
 zol.com.cn##.hot_tj
@@ -2892,7 +2877,7 @@ suning.com#@##topAd
 |http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~gridsumdissector.com|~qjwm.com|~wsj.com
 ||5293.com^$third-party
 ||wangpanwu.com/images/aoyou.gif
-!------------------------End of List-------------------------
+!------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .info/admg/
 .info/js/ads/
@@ -4075,7 +4060,6 @@ suning.com#@##topAd
 ||wishdown.com^*/myad
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
-||wlshw.com/js/showadjs.js
 ||woxiu.com/xapi/offsite_swf_more.php?
 ||wp.ylaop.com^
 ||wpjam.qiniudn.com/wpjam/banner/host91.jpg
@@ -4665,7 +4649,6 @@ tv110.com##.ad960-90
 kumi.cn##.ad96060Box
 huanqiu.com##.ad960x185
 huanqiu.com##.ad960x90
-dbw.cn,sohu.com##.ad980
 danlan.org##.ad98090
 9u8u.com##.ad980x80
 hf365.com,sohu.com##.adA
@@ -4685,7 +4668,6 @@ kekenet.com##.ad_catagory
 55bbs.com,jnnews.tv,my0832.com##.ad_div
 my0832.com##.ad_e_wrap
 putclub.com##.ad_fastReading
-fx678.com##.ad_img
 reyoo.com,reyoo.net##.ad_img02
 0573ren.com##.ad_jl
 zhibo8.cc##.ad_left
@@ -5160,7 +5142,6 @@ hualady.com##.tu_guangao
 hualady.com##.tu_guangao2
 7060.com,y80s.com##.tuiguang
 ltaaa.com##.txtads
-liba.com,stcn.com##.ui-ad
 iciba.com##.vRecomm
 neihan8.com##.viewbox > div[style="overflow: hidden; height: 250px;"]
 m1905.com##.vod-external
