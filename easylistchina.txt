@@ -611,7 +611,7 @@
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 1000fr.net##center
 17k.com##.b950
-17k.com##div[id^="ad0"]
+17k.com##[id^="ad0"]
 17k.com##div[id^="PAGE_AD"]
 17ppt.com##.ad80
 17ppt.com#@#.topads
@@ -5209,7 +5209,7 @@ kutj.com##a[target="_blank"] > img[src*="gao/"]
 qzntv.com,qzwb.com##body > .area[style^="height:190px;"]
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 qzntv.com,qzwb.com##body > .area[style^="height:80px;"]
-taihainet.com##body > .wrapper:first-child
+taihainet.com##body > .wrapper:nth-child(2)
 danyang.com##body > div[align="center"]
 shangdu.com##body > div[class="bt"]
 dm456.com##body > div[style^="height:90px;"]
