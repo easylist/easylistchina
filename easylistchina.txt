@@ -2868,6 +2868,7 @@ suning.com#@##topAd
 |http://ad.$domain=~opinion.cw.com.tw|~gridsum.com|~gridsumdissector.com|~qjwm.com|~wsj.com
 ||5293.com^$third-party
 ||wangpanwu.com/images/aoyou.gif
+||soufun.com/afp/door/
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .info/admg/
@@ -5413,6 +5414,8 @@ xinhuanet.com###right_ad1
 xinhuanet.com###right_ad2
 xinhuanet.com###right_ad3
 d586.com##DIV[class^="yd_ad"]
+kbcool.com###read_m_yytf1
+kbcool.com##DIV[id^="read_ad_"]
 !---------------------------------Whitelists----------------------------------!
 @@||52cons.cn/data/attachment/*_300_250_
 @@||xda.cn/data/attachment/common/cf/
@@ -5495,6 +5498,8 @@ ishangman.com#@#.bottom_ad
 szonline.net#@#.ad310
 tiancity.com#@#.main_ad
 yaerwen.com#@##adtop
-!----------------------------------Temporary----------------------------------!
-||soufun.com/afp/door/
+!---------------------------------ABP for Chrome------------------------------!
+ks.js.cn##embed[src*="yytf/"]
+ks.js.cn##object[data^="yytf/"]
+ks.js.cn##.leftgg
 !----------------------------------The End------------------------------------!
