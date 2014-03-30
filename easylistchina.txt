@@ -2973,7 +2973,6 @@ suning.com#@##topAd
 ##A[href^="http://www.s889.net/?aff="]
 ##A[href="http://www.188433.com/"]
 !---------------------------Third-party advertisers---------------------------!
-||linkbucks.com^*/?ref=$popup
 ||ggmm777.com^$third-party,domain=~uwan177.net
 ||668559.com^$third-party
 ||8989u.com^$third-party
@@ -3023,6 +3022,7 @@ suning.com#@##topAd
 ||zhichangwo.com^$third-party
 ||zoomei.com^$third-party
 !---------------------------Popups--------------------------------------------!
+||linkbucks.com^*/?ref=$popup
 ||qidian.com/showavd.$popup
 .com/playad.html$popup
 .info/diantan.html$popup
@@ -3048,6 +3048,7 @@ suning.com#@##topAd
 ||yeyebt.com^$popup,third-party
 ||yuanjiaomeii.com^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
+qoocc.com##.adver300
 ||ps123.net/MyFile/
 ||paipai.fm/images/gtj*.jpg
 ||paipai.fm/images/paipai/ktpd*.jpg
@@ -5466,6 +5467,7 @@ xinhuanet.com###right_ad2
 xinhuanet.com###right_ad3
 d586.com##DIV[class^="yd_ad"]
 !---------------------------------Whitelists----------------------------------!
+@@||qoocc.com/js/news/image/ad-gallery.js
 @@||ps123.net/MyFile/toptxt.js
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||52cons.cn/data/attachment/*_300_250_
