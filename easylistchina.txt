@@ -4297,7 +4297,7 @@ qoocc.com##.adver300
 ||fengbuy.com/recommend-new.php
 ||183.129.206.25:18180/i.php?z=
 !------------------------Specific element hiding rules------------------------!
-imanhua.com##DIV[style^="width:980px;margin:"]
+imanhua.com##div[style*="980"][style*="26px"]
 imanhua.com##DIV[style="width: 978px; height: 70px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc; text-align: center; position:relative; z-index:1; "]
 imanhua.com###sider-left
 imanhua.com###sider-right
