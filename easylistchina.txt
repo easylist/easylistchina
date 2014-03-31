@@ -5485,6 +5485,7 @@ paipai.fm###pic_div
 mobile01.com##.fast-ad
 nownews.com##.ads
 nownews.com##.simon
+ncno1.playno1.com##.eis_box_s > DIV:first-child
 !---------------------------------Whitelists----------------------------------!
 @@||ad1.nownews.com/*.php?ownerid=1355
 @@||ad1.nownews.com/ads.php?ownerid=1294
@@ -5583,13 +5584,6 @@ szonline.net#@#.ad310
 tiancity.com#@#.main_ad
 yaerwen.com#@##adtop
 mobile01.com#@#.navad
-playno1.com##.mn > [style="margin-bottom:10px;"]
-playno1.com##[style="border-top:1px dashed #CDCDCD;padding-top:10px; padding-bottom:15px"]
-ncno1.playno1.com##.eis_box_s > div:nth-child(1)
-stno1.playno1.com###diy1 > .frame
-avno1.playno1.com##.eis_adv2 + div[style^=" padding"]
-playno1.com##.eis_adv2
-playno1.com##.eis_adv
 @@||playno1.com^*/common/cf/
 !---------------------------------ABP for Chrome------------------------------!
 ks.js.cn##embed[src*="yytf/"]
