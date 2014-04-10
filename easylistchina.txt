@@ -427,7 +427,6 @@
 ||t.iloveyouxi.com^$third-party
 ||t3nlink.com^$third-party
 ||tajianedu.com^$third-party
-||tanx.com^$third-party,domain=~alimama.com|~taobao.com|~tmall.com
 ||tazhao.com^$third-party
 ||tbjfw.com^$third-party
 ||tenoad.com^$third-party
@@ -2961,7 +2960,8 @@ suning.com#@##topAd
 ##a[href^="http://www.xinghad.com/iclk/"]
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 !----------------------------------ads-union----------------------------------!
-||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~taobao.com|~taobao.com.cn
+||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~taobao.com|~taobao.com.cn|~foctop.com
+||tanx.com^$third-party,domain=~alimama.com|~taobao.com|~tmall.com|~foctop.com
 ||d3otqu317bbc85.cloudfront.net^
 ||chapm.com^$third-party
 ||cnxad.net^
@@ -5690,6 +5690,7 @@ youdaili.cn##.topslogan_ad
 rrting.net##[class^="gg"]
 rrting.net###adinex
 !---------------------------------Whitelists----------------------------------!
+@@||taobaocdn.com/tfscom/$domain=foctop.com
 012.tw#@#.ad728
 @@.beautifulphoto.net/ads/music
 @@.jstv.com/c/gg/
