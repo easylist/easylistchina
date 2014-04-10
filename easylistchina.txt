@@ -1639,7 +1639,6 @@ china.com##.gg950
 !---中国网
 china.com.cn##img[width="180"]
 china.com.cn##td[width="406"]
-news.china.com.cn##.Photos > ul:first-child
 ||images.china.cn^*first/$subdocument
 ||union.china.com.cn^
 ||www.china.com.cn/node_$domain=news.china.com.cn
@@ -4402,6 +4401,7 @@ qoocc.com##.adver300
 ||caipiao.cntv.cn/website/cntv/box_news.shtml
 !------------------------Specific element hiding rules------------------------!
 cntv.cn###main > DIV[style="position:relative; width:637px; overflow:hidden;"]
+news.china.com.cn##.Wrapper > DIV[style]
 ali213.net##.newright
 weibo.com##.ad-adidas
 rrting.net##.ggw960h60
