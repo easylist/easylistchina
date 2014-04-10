@@ -4403,6 +4403,7 @@ qoocc.com##.adver300
 ||yyets.com/ads/
 ||poxiao.com/template/default/images/12345.js
 ||ithome.com/block/lagou.htm
+||kshot.com/other/yytf/
 !------------------------Specific element hiding rules------------------------!
 ithome.com##.sb_list > .bx
 cntv.cn###main > DIV[style="position:relative; width:637px; overflow:hidden;"]
@@ -5617,6 +5618,10 @@ jwb.com.cn##div[id^="jwwsy_ad"]
 91town.com##div[id^="mid_ad"]
 cnyw.net##div[id^="portal_ad_"]
 kbcool.com##div[id^="read_ad_"]
+kshot.com###read_m_yytf1
+kshot.com##DIV[id^="read_ad_"]
+kshot.com##[id^="ads_r_"]
+kshot.com###read_m_yytf
 cnhubei.com##div[id^="scrollDiv_"]
 lzep.cn##div[id^="site_ad"]
 smzdm.com##div[id^="text-"]
@@ -5718,6 +5723,7 @@ iqilu.com##.gg580140
 youdaili.cn##.topslogan_ad
 rrting.net##.gads
 rrting.net##.newgads
+rrting.net###adindex
 !---------------------------------Whitelists----------------------------------!
 @@||taobaocdn.com/tfscom/$domain=foctop.com
 012.tw#@#.ad728
