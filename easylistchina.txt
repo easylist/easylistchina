@@ -1688,10 +1688,6 @@ download.csdn.net##.ad_area_1
 ||info-database.csdn.net/Upload/$image,third-party
 ||iteye.com/iframe_ggbd/
 !---CTdisk
-400gb.com###ad_right_side
-400gb.com##.ad_area
-@@||cpro.baidustatic.com/cpro/ui/f.js$domain=400gb.com
-@@||pos.baidu.com^$script,domain=400gb.com
 ||doubleclick.tv002.com^
 !---当当
 ||a.dangdang.com/smart.js?
@@ -4488,7 +4484,7 @@ udn.com###ad_300_100
 gpcxw.com###ad_dl
 gpcxw.com###ad_dl2
 fengbao.com###ad_lazyload
-bego.cc,pipipan.com###ad_right_side
+400gb.com,bego.cc,pipipan.com###ad_right_side
 bioon.com###ad_tb
 makepolo.com###ad_text_id
 voc.com.cn###adbody_hidden
@@ -4915,7 +4911,7 @@ qq.com##.ad_670_90
 szonline.net##.ad_950
 hupu.com##.ad_980
 cheshi.com##.ad_980105
-bego.cc,pipipan.com,shenchuang.com##.ad_area
+400gb.com,bego.cc,pipipan.com,shenchuang.com##.ad_area
 kekenet.com##.ad_catagory
 55bbs.com,jnnews.tv,my0832.com##.ad_div
 my0832.com##.ad_e_wrap
@@ -5751,6 +5747,11 @@ gx.xinhuanet.com##td[width="970"][bgcolor="#ffffff"]
 lywww.com##ul[id^="addimg_"]
 taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-color:#ffffff;"]
 ||toptour.cn###ess_ctr7021_ContentPane
+ks.js.cn##.leftgg
+go-gddq.com##div[style="float: left; height: 260px; width: 310px; clear: left; background: 0000; margin: 5px 3px 3px 0;"]
+ks.js.cn##embed[src*="yytf/"]
+ks.js.cn##object[data^="yytf/"]
+400gb.com,bego.cc,pipipan.com##DIV[id^="BAIDU_DUP_"]
 !---------------------------------Whitelists----------------------------------!
 012.tw#@#.ad728
 2kk.cc#@#.ad960
@@ -5811,7 +5812,9 @@ taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-
 @@||citysbs.com^*/swfupload/
 @@||colafile.com/js/ad_test.js
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=9duli.com|colafile.com|ffpan.com|l7po.com
-@@||cpro.baidustatic.com/cpro/ui/f.js$domain=bego.cc|pipipan.com
+@@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|pipipan.com
+@@||cpro.baidu.com/cpro/ui/uijs.php?$domain=400gb.com|bego.cc|pipipan.com
+@@||pos.baidu.com^$script,domain=400gb.com|bego.cc|pipipan.com
 @@||czsrc.com/Adpic/
 @@||de.as.pptv.com^$object-subrequest
 @@||down.99ddd.com^
@@ -5831,7 +5834,6 @@ taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||playno1.com^*/common/cf/
 @@||pos.baidu.com/ecom?$domain=9duli.com|l7po.com
-@@||pos.baidu.com^$script,domain=bego.cc|pipipan.com
 @@||ps123.net/MyFile/toptxt.js
 @@||qingcheng.com^*/ad
 @@||qoocc.com/js/news/image/ad-gallery.js
@@ -5878,9 +5880,4 @@ sohu.com#@#.label-ad
 szonline.net#@#.ad310
 tiancity.com#@#.main_ad
 yaerwen.com#@##adtop
-!---------------------------------ABP for Chrome------------------------------!
-ks.js.cn##.leftgg
-go-gddq.com##div[style="float: left; height: 260px; width: 310px; clear: left; background: 0000; margin: 5px 3px 3px 0;"]
-ks.js.cn##embed[src*="yytf/"]
-ks.js.cn##object[data^="yytf/"]
 !----------------------------------The End------------------------------------!
