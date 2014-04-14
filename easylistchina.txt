@@ -600,19 +600,7 @@
 !*** chinalist-hide.txt ***
 51caiju.com###hint + .AdTop-Article-QQ
 ck101.com##.a_cn
-u-car.com.tw##.contad
-yunkeji.com##.content > p:nth-last-of-type(2)
-yunkeji.com##.content > p:nth-last-of-type(3)
-downg.com##.content.ad-b950x50
-www.shupeng.com##.dk-weixin
-xiachufang.com##.g-ga.g-bg-white
-coolapk.com##.ga200
-appinn.com##.gad
-fbook.net##.head-d
 51caiju.com##.l_qq_com
-www.shupeng.com##.mod.msg-mod.msg-notice + .mod
-lkong.net##.myadvs
-u-car.com.tw##.sidead_text
 kocpc.com.tw##.sidebar:nth-child(2)
 kocpc.com.tw##.sidebar:nth-child(3)
 baiwandu.com##.space_wz > div[align="center"]:nth-child(3)
@@ -620,7 +608,6 @@ suopao.org##.t5[style^="margin-top:8px;"]
 saraba1st.com##.tac.mb5
 price.com.hk##.tb
 lvye.cn##.text-ad1
-u-car.com.tw##.top
 52wubi.com##.top960
 gamebase.com.tw##.wait_gbno1
 web20share.com##.widget:nth-of-type(5)
@@ -4387,6 +4374,15 @@ qoocc.com##.adver300
 ||alixixi.com/adsview/
 ||7c.com/7c_top.html
 !------------------------Specific element hiding rules------------------------!
+www.shupeng.com##.mod.msg-mod.msg-notice + .mod
+shupeng.com###J_download_fav
+fbook.net##.head-d
+coolapk.com##.ga200
+downg.com##.content.ad-b950x50
+yunkeji.com##.content > p:nth-last-of-type(2)
+yunkeji.com##.content > p:nth-last-of-type(3)
+u-car.com.tw##.contad
+u-car.com.tw##.top
 baihe.com##.blockUI
 cnbeta.com##.bd_r
 17k.com##div[id^="PAGE_AD"]
@@ -4452,7 +4448,6 @@ aipai.com###GmAppBanner
 hupu.com###HCFull
 i-part.com.tw###HeaderAd
 21ic.com###IC2008Ad
-shupeng.com###J_download_fav
 youth.cn###J_swim
 xinhuanet.com###Javascript\.LeftDiv
 eastmoney.com###ListPage_r_Ad
