@@ -600,18 +600,6 @@
 !*** chinalist-hide.txt ***
 51caiju.com###hint + .AdTop-Article-QQ
 ck101.com##.a_cn
-mobile01.com##.admicrobtn
-blog.dausos.com##.adr
-appinn.com,portal.opera.com##.ads
-appinn.com##.ads-m
-blog.dausos.com##.adt
-portal.opera.com##.alt-ads
-xfastest.com##.articles-left-olny
-17k.com##.b950
-cnbeta.com##.bd_r
-baihe.com##.blockUI
-hdpfans.com##.boxleftconm
-hdpfans.com##.boxrightcom
 u-car.com.tw##.contad
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
@@ -639,7 +627,6 @@ web20share.com##.widget:nth-of-type(5)
 ##.wumii-widget-ad
 itopdog.cn##.xoxo > [id^="text-"]
 17k.com##[id^="ad0"]
-mobile01.com##a[href^="adredir.php"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
 1000fr.net##center
@@ -650,7 +637,6 @@ haogongju.net,www.alibuybuy.com##div[class^="ad_"]
 loltw.gamebase.com.tw##div[class^="adsense-"]
 crsky.com##div[id$="_TL"]
 infzm.com##div[id$="adv"]
-17k.com##div[id^="PAGE_AD"]
 xfastest.com##div[id^="ad"].block
 paoshu8.net##div[id^="ad_"]
 itopdog.cn##div[id^="itopdog_ad-"]
@@ -4401,6 +4387,16 @@ qoocc.com##.adver300
 ||alixixi.com/adsview/
 ||7c.com/7c_top.html
 !------------------------Specific element hiding rules------------------------!
+baihe.com##.blockUI
+cnbeta.com##.bd_r
+17k.com##div[id^="PAGE_AD"]
+17k.com##.b950
+appinn.com##.ads
+appinn.com##.ads-m
+blog.dausos.com##.adr
+blog.dausos.com##.adt
+mobile01.com##.admicrobtn
+mobile01.com##a[href^="adredir.php"]
 blog.dausos.com##.ad_h
 17ppt.com##.ad80
 freegroup.org##div[style^="width:336px; height:280px;"]
