@@ -599,15 +599,7 @@
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 51caiju.com###hint + .AdTop-Article-QQ
-51.la###zanzhu
-51.la###zztxt
-3dmgame.com##.R1
 ck101.com##.a_cn
-cn.reuters.com##.ad
-freegroup.org##.ad-box
-17ppt.com##.ad80
-blog.dausos.com##.ad_h
-hdpfans.com##.adimglistbox
 mobile01.com##.admicrobtn
 blog.dausos.com##.adr
 appinn.com,portal.opera.com##.ads
@@ -616,8 +608,6 @@ blog.dausos.com##.adt
 portal.opera.com##.alt-ads
 xfastest.com##.articles-left-olny
 17k.com##.b950
-www.3dmgame.com##.banner_1
-3dmgame.com##.banner_2
 cnbeta.com##.bd_r
 baihe.com##.blockUI
 hdpfans.com##.boxleftconm
@@ -644,7 +634,6 @@ price.com.hk##.tb
 lvye.cn##.text-ad1
 u-car.com.tw##.top
 52wubi.com##.top960
-17ppt.com#@#.topads
 gamebase.com.tw##.wait_gbno1
 web20share.com##.widget:nth-of-type(5)
 ##.wumii-widget-ad
@@ -668,7 +657,6 @@ itopdog.cn##div[id^="itopdog_ad-"]
 amznz.com##div[style="float:left;width:250px;height:250px;"]
 wcxiaoshuo.com##div[style="margin:10px auto; width:960px;height:90px;"]
 ceil.me##div[style="position:relative;height:250px"]
-freegroup.org##div[style^="width:336px; height:280px;"]
 dmzj.com##iframe[width="960"]
 infzm.com##p[style="text-align: center;display:block;padding-bottom:10px "]
 zjol.com.cn##span.lqgg
@@ -4413,6 +4401,16 @@ qoocc.com##.adver300
 ||alixixi.com/adsview/
 ||7c.com/7c_top.html
 !------------------------Specific element hiding rules------------------------!
+blog.dausos.com##.ad_h
+17ppt.com##.ad80
+freegroup.org##div[style^="width:336px; height:280px;"]
+freegroup.org##.ad-box
+cn.reuters.com##.ad
+www.3dmgame.com##.banner_1
+3dmgame.com##.banner_2
+3dmgame.com##.R1
+51.la###zanzhu
+51.la###zztxt
 portableappc.com###text-7
 vmelon.com###text-4
 vmelon.com##.focus
@@ -5905,4 +5903,5 @@ szonline.net#@#.ad310
 tiancity.com#@#.main_ad
 yaerwen.com#@##adtop
 @@||rlogs.youdao.com/rlog.js
+17ppt.com#@#.topads
 !----------------------------------The End------------------------------------!
