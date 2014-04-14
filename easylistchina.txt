@@ -599,7 +599,6 @@
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 gamebase.com.tw###ad118_728
-briian.com###content > div:nth-of-type(2) > p
 gamebase.com.tw###crazy_ad_728
 360doc.com###divadleft
 bbs.imuyang.com###diy1
@@ -4428,6 +4427,7 @@ qoocc.com##.adver300
 ||article.pchome.net/Index.php?c=Intel&
 ||zol.com.cn/intelcorp/
 !------------------------Specific element hiding rules------------------------!
+briian.com##.entry-content > P[style="height: 85px;"]
 price.com.hk###ad0
 yaolan.com##.abstract_ad
 bbs.yzz.cn##.ad200x340
