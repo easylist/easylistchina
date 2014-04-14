@@ -598,11 +598,7 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
-bbs.imuyang.com###diy1
-yingzheng.com###diy1.area
-www.infoq.com###gbanner.gbanner
 51caiju.com###hint + .AdTop-Article-QQ
-naruto.hk###jieshao div
 freehao123.com###jieweigg
 kugz.net###portal_block_241
 ck101.com###portal_block_563
@@ -643,7 +639,6 @@ xiachufang.com##.g-ga.g-bg-white
 coolapk.com##.ga200
 appinn.com##.gad
 fbook.net##.head-d
-www.infoq.com##.home_banner
 51caiju.com##.l_qq_com
 www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 lkong.net##.myadvs
@@ -672,7 +667,6 @@ itopdog.cn,news.cnyes.com##div[class^="ad"]
 lvye.cn##div[class^="ad"]:not(.ad1)
 haogongju.net,www.alibuybuy.com##div[class^="ad_"]
 loltw.gamebase.com.tw##div[class^="adsense-"]
-infoq.com##div[class^="related_sponsors"]
 crsky.com##div[id$="_TL"]
 infzm.com##div[id$="adv"]
 17k.com##div[id^="PAGE_AD"]
@@ -4424,6 +4418,11 @@ qoocc.com##.adver300
 ||article.pchome.net/Index.php?c=Intel&
 ||zol.com.cn/intelcorp/
 !------------------------Specific element hiding rules------------------------!
+naruto.hk###bdbqy
+www.infoq.com###gbanner.gbanner
+www.infoq.com##.home_banner
+infoq.com##div[class^="related_sponsors"]
+bbs.imuyang.com###diy1
 360doc.com##.both[style^="padding-top:"]
 briian.com##.entry-content > P[style="height: 85px;"]
 gamebase.com.tw##.news_ad_top
