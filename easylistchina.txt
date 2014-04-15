@@ -599,14 +599,6 @@
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
-1000fr.net##center
-infzm.com##div[class$="adv"]
-itopdog.cn,news.cnyes.com##div[class^="ad"]
-lvye.cn##div[class^="ad"]:not(.ad1)
-haogongju.net,www.alibuybuy.com##div[class^="ad_"]
-loltw.gamebase.com.tw##div[class^="adsense-"]
-crsky.com##div[id$="_TL"]
-infzm.com##div[id$="adv"]
 xfastest.com##div[id^="ad"].block
 paoshu8.net##div[id^="ad_"]
 itopdog.cn##div[id^="itopdog_ad-"]
@@ -4366,6 +4358,9 @@ qoocc.com##.adver300
 ||y2.ifengimg.com/6e0e559e19f25e8b/2013/1231/lj-dfnl-b.swf
 ||115.com/static/plug/download/images/yun.jpg
 !------------------------Specific element hiding rules------------------------!
+1000fr.net##center
+itopdog.cn,news.cnyes.com##div[class^="ad"]
+haogongju.net,www.alibuybuy.com##div[class^="ad_"]
 115.com##.bottom-banner
 ifeng.com##.leftpopad
 ttmeiju.com###ad_couplet
