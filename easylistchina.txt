@@ -598,12 +598,6 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
-51caiju.com###hint + .AdTop-Article-QQ
-ck101.com##.a_cn
-51caiju.com##.l_qq_com
-kocpc.com.tw##.sidebar:nth-child(2)
-kocpc.com.tw##.sidebar:nth-child(3)
-baiwandu.com##.space_wz > div[align="center"]:nth-child(3)
 suopao.org##.t5[style^="margin-top:8px;"]
 saraba1st.com##.tac.mb5
 price.com.hk##.tb
@@ -4378,6 +4372,11 @@ qoocc.com##.adver300
 ||house.jschina.com.cn/userfiles/flash/
 ||house.jschina.com.cn/userfiles/image/20131106/061805022f21d2d8737937.gif
 !------------------------Specific element hiding rules------------------------!
+kocpc.com.tw##.sidebar:nth-child(2)
+kocpc.com.tw##.sidebar:nth-child(3)
+51caiju.com###hint + .AdTop-Article-QQ
+ck101.com##.a_cn
+51caiju.com##.l_qq_com
 www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 shupeng.com###J_download_fav
 fbook.net##.head-d
