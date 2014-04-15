@@ -598,11 +598,6 @@
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
-52wubi.com##.top960
-gamebase.com.tw##.wait_gbno1
-web20share.com##.widget:nth-of-type(5)
-##.wumii-widget-ad
-itopdog.cn##.xoxo > [id^="text-"]
 17k.com##[id^="ad0"]
 ttmeiju.com##a[href^="http://www.ttmeiju.com/adclick.php?"]
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
@@ -2844,6 +2839,7 @@ suning.com#@##topAd
 ##.gg_full
 ##.google_adsense2
 ~3n5b.com,~kafan.cn,~lblove-ai.com##.wp.a_t
+##.wumii-widget-ad
 ##.wumii-bottom-popup
 ##.wzad
 ##a[href*=".222ing.com.tw"]
@@ -4367,7 +4363,10 @@ qoocc.com##.adver300
 ||dig.chouti.com/advert
 ||house.jschina.com.cn/userfiles/flash/
 ||house.jschina.com.cn/userfiles/image/20131106/061805022f21d2d8737937.gif
+||itopdog.cn/itopdog/d*.js
 !------------------------Specific element hiding rules------------------------!
+52wubi.com##.top960
+web20share.com##.widget:nth-of-type(5)
 suopao.org##.t5[style^="margin-top:8px;"]
 lvye.cn##.text-ad1
 lvye.cn##div[class^="ad"]
