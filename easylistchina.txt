@@ -599,13 +599,6 @@
 |https://*/ad/$domain=~pay.suning.com
 !*** chinalist-hide.txt ***
 ##a[target="_blank"][onmousedown^="this.href='http://p.ujian.cc/?url="]
-dmzj.com##iframe[width="960"]
-infzm.com##p[style="text-align: center;display:block;padding-bottom:10px "]
-zjol.com.cn##span.lqgg
-zjol.com.cn##span.qqt
-ithome.com.tw##table[height="110"]
-av199.com,hd199.com##table[height="30"]
-bcc.com.tw##table[width="100%"] tr > td[height="80"]
 fun698.com##table[width="958"]
 fun698.com##table[width="960"]
 verycd.gdajie.com##th[colspan="3"]
@@ -4351,7 +4344,10 @@ qoocc.com##.adver300
 ||itopdog.cn/itopdog/d*.js
 ||y2.ifengimg.com/6e0e559e19f25e8b/2013/1231/lj-dfnl-b.swf
 ||115.com/static/plug/download/images/yun.jpg
+||bcc.com.tw/imgs/adv/
 !------------------------Specific element hiding rules------------------------!
+zjol.com.cn##span.lqgg
+zjol.com.cn##span.qqt
 ceil.me###adindex
 1000fr.net##center
 itopdog.cn,news.cnyes.com##div[class^="ad"]
