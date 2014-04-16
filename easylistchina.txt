@@ -602,19 +602,8 @@ fun698.com##table[width="958"]
 fun698.com##table[width="960"]
 !*** chinalist-miscellaneous.txt ***
 !---Blog Sites
-/banner/*$domain=steachs.com
-/krads-images/*$domain=36kr.com
-cwyuni.tw###banner > h2
-cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632):not(#box1026387)
-cwyuni.tw##a[href*="rakuten.tw"]
-steachs.com###banner
 ||iapp.com.tw/iapp_ad.php
 ||img.chromi.org/2011/12/where-is-chromi.png
-||mifengtd.cn/images/timetang-1.jpg
-||mifengtd.cn/images/youdao_ads_160600.gif
-||mifengtd.cn/images/zhulituan-ad.jpg
-||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
-||rakuten-static.com^$domain=cwyuni.tw
 ||ruanyifeng.com/blog/images/ad_
 !---Download Sites
 orsoon.com###adsmid
@@ -2951,6 +2940,9 @@ suning.com#@##topAd
 ||wuyougo.info^$popup,third-party
 ||wvvwwvwvvvw.bobooke.com^$popup
 !----------------------Specific advert blocking filters-----------------------!
+||qiniudn.com/ad-doitim-
+||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
+||rakuten-static.com^$domain=cwyuni.tw
 ||wallstreetcn.com/sites/all/themes/wallstcn/ads/
 ||xsjie.com/ads/
 ||yizhai.net/myjs/f*.js
@@ -4351,7 +4343,12 @@ qoocc.com##.adver300
 ||mimg.127.net/m/smartad/img/welcome/
 ||mimg.127.net/ggimg/all/img18/140218_yixin_780x96.jpg
 ||mimg.127.net/m/smartad/img/inboxBottom/
+/banner/*$domain=steachs.com
 !------------------------Specific element hiding rules------------------------!
+cwyuni.tw###banner > h2
+cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632):not(#box1026387)
+cwyuni.tw##a[href*="rakuten.tw"]
+steachs.com###banner
 mail.126.com,mail.163.com##.uR
 mail.126.com,mail.163.com###dvWelcomeRightUp
 afwing.com##.w970
