@@ -601,25 +601,12 @@
 fun698.com##table[width="958"]
 fun698.com##table[width="960"]
 !*** chinalist-miscellaneous.txt ***
-!---Blog Sites
-||iapp.com.tw/iapp_ad.php
-||img.chromi.org/2011/12/where-is-chromi.png
-||ruanyifeng.com/blog/images/ad_
 !---Download Sites
-orsoon.com###adsmid
-32666.com##.ad
-rsdown.cn#@#.banner-ads
-32666.com##.fmright
-33lc.com##.soft-info:first-child
-33lc.com##.soft-show2
-@@||32666.com/templates/32666/images/ad/down.js
 @@||vdisk.cn/img/loading.gif
 @@||vdisk.cn/img/logo$image
 |http://$popup,domain=rmdown.com
 ||05sun.com^$script
 ||2345.com/duoteimg/duotehtml/
-||32666.com/img/
-||33lc.com/lvcha/jquery.gotop.js
 ||52zy.com/other/js/
 ||54new.com/da/
 ||54new.com/pop_right_bottom/js/msn.js
@@ -665,8 +652,6 @@ rsdown.cn#@#.banner-ads
 ||maizituan.com/yanzi/$domain=54new.com
 ||myhack58.com/js/
 ||onegreen.net/MyFile/
-||orsoon.com/code_2013/
-||orsoon.com/orsoon/$script
 ||ouyaoxiazai.com^$script,subdocument
 ||oyksoft.com/oyksoft_js/
 ||pc6.com/js/html/
@@ -4344,7 +4329,18 @@ qoocc.com##.adver300
 ||mimg.127.net/ggimg/all/img18/140218_yixin_780x96.jpg
 ||mimg.127.net/m/smartad/img/inboxBottom/
 /banner/*$domain=steachs.com
+||iapp.com.tw/iapp_ad.php
+||ruanyifeng.com/blog/images/ad_
+||orsoon.com/code_2013/
+||orsoon.com/orsoon/$script
+||33lc.com/lvcha/jquery.gotop.js
+||32666.com/img/
 !------------------------Specific element hiding rules------------------------!
+33lc.com##.soft-info:first-child
+33lc.com##.soft-show2
+32666.com##.ad
+32666.com##.fmright
+orsoon.com###adsmid
 cwyuni.tw###banner > h2
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box533632):not(#box1026387)
 cwyuni.tw##a[href*="rakuten.tw"]
@@ -5930,4 +5926,5 @@ yaerwen.com#@##adtop
 17ppt.com#@#.topads
 @@||adobe.com^*/afr?auid=
 @@||g.163.com/jr?site=netease&affiliate=freemail
+rsdown.cn#@#.banner-ads
 !----------------------------------The End------------------------------------!
