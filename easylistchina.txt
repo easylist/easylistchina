@@ -389,7 +389,6 @@
 ||pk840.com^$third-party
 ||ppunion.com^$third-party
 ||prohost.com.tw^$third-party
-||ps123.net^$third-party
 ||qi-yue.com^$third-party
 ||qiyou.com^$third-party
 ||qizhao.com^$third-party
@@ -604,14 +603,6 @@ fun698.com##table[width="960"]
 !---Download Sites
 ||cnzz.cn^*zanzhu
 ||free.xue5.com/qq/qq.js
-||onegreen.net/MyFile/
-||ouyaoxiazai.com^$script,subdocument
-||oyksoft.com/oyksoft_js/
-||pc6.com/js/html/
-||pc6.com/js/un/
-||piaohua.com/js/wlfloat.js
-||piaohua.com/js/yzz/$script
-||portablesoft.b0.upaiyun.com/wp-content/uploads/2013/12/vstart-*.gif
 ||quick8.cn/softimg/*AD.gif
 ||rsdown.cn/rsdown_2012_img/
 ||shooter.cn/a/*adv$script
@@ -4320,7 +4311,16 @@ qoocc.com##.adver300
 ||myhack58.com/abcd01/
 ||myhack58.com/js/banner.js
 ||myhack58.com/js/top
+||onegreen.net/MyFile/
+||ouyaoxiazai.com^$script,subdocument
+||pc6.com/js/un/
+||piaohua.com/js/wlfloat.js
+||piaohua.com/js/yzz/$script
+||portablesoft.b0.upaiyun.com/wp-content/uploads/2013/12/vstart-*.gif
 !------------------------Specific element hiding rules------------------------!
+portablesoft.org##.downcenter
+portablesoft.org##.bad
+portablesoft.org##.rightside > :nth-child(n+2)
 33lc.com##.soft-info:first-child
 33lc.com##.soft-show2
 32666.com##.ad
