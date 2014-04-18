@@ -589,7 +589,6 @@
 |http://*.tw/ad/$domain=~atmovies.com.tw
 |http://*/*_ad.js$domain=~cntv.cn
 |http://*/gg/$~stylesheet,domain=~cnr.cn|~coo8.com|~guokr.com
-|http://*/i.js$third-party,domain=~liuyanbaike.com
 |http://*/js/ad.
 |http://*/js/ad/
 |http://*/js/tc.js
@@ -603,8 +602,6 @@ fun698.com##table[width="960"]
 !---Download Sites
 ||cnzz.cn^*zanzhu
 !---Net Disks
-gxp.cc##.adx223
-gxp.cc##.adx90
 bego.cc##.kk_xshow
 /shortcounter.jsp$domain=ref.so
 /ys168/*$domain=ys168.com
@@ -2609,7 +2606,6 @@ suning.com#@##topAd
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
 !--missing
-|http://ad.$domain=~gridsum.com|~gridsumdissector.com|~opinion.cw.com.tw|~wsj.com
 ||5293.com^$third-party
 ||soufun.com/afp/door/
 ||wangpanwu.com/images/aoyou.gif
@@ -2643,6 +2639,8 @@ suning.com#@##topAd
 |http://*.tv/ad/
 |http://*.us/ad/
 |http://*/ad.js?sn=
+|http://*/i.js$third-party,domain=~liuyanbaike.com
+|http://ad.$domain=~gridsum.com|~gridsumdissector.com|~opinion.cw.com.tw|~wsj.com
 !------------------------General element hiding rules-------------------------!
 ###QQ_Full
 ###ad_box1
