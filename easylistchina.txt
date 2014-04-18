@@ -577,7 +577,6 @@
 /proxy.html?id=
 /tan.js
 /tan1.js
-/tanchuang.
 /tuiguang/*
 /u/_sponsor/*
 /webafp?
@@ -602,14 +601,7 @@ fun698.com##table[width="960"]
 !---Download Sites
 ||cnzz.cn^*zanzhu
 !---Net Disks
-||log.vdisk.cn^
-||static.115img.com/static/delivery/
-||yimuhe.com/n_ad/
-||yunfile.com^*/offline_banner/
 !---News Sites
-sun0769.com###topgg
-www.pcpop.com##.Content > .l1:first-child
-dzwww.com##.ad
 67.com##.ad275-250
 67.com##.ad710-120a
 580k.com#@#.ad960
@@ -619,7 +611,6 @@ workercn.cn#@#.ad_main
 news.580k.com##.contentAD
 zdnet.com.cn##.headads
 newtalk.tw##.ind_news_station
-/sungg/*$domain=sun0769.com
 /ycpiframe.aspx$domain=strtv.cn
 strtv.cn##body > .container:first-child
 jjxw.cn##div[class$="_ad"]
@@ -629,7 +620,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||36krcnd.com/poster/$image
 ||67.com/img/$object
 ||am.zdnet.com.cn/www/images/$object
-||app.acm.dzwww.com^
 ||ashow.pcpop.com^
 ||backchina.com/banners/
 ||businessweekly.com.tw/event/$subdocument
@@ -637,7 +627,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||cn.nytimes.com/o.php?
 ||cnhubei.com/gg_10/
 ||download.china.cn/market/
-||dzwww.com/data/js/asp_$script
 ||forum.techweb.com.cn/advtcnt.php
 ||go.hangzhou.com.cn^
 ||hebei.com.cn/eap/
@@ -2389,7 +2378,6 @@ xj163.cn##div[class^="ad"]
 kankan.com##div[id^="cm"].banner
 kuai.xunlei.com##.adv_area
 ||analytics-union.sandai.net^
-||analytics-union.xunlei.com^
 ||biz*.sandai.net^
 ||cop.my.sandai.net^$third-party
 ||float.sandai.net^$object-subrequest
@@ -2601,6 +2589,7 @@ suning.com#@##topAd
 ||wangpanwu.com/images/aoyou.gif
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/tanchuang.
 .cc/js/ads/
 .info/admg/
 .info/js/ads/
@@ -4298,10 +4287,16 @@ qoocc.com##.adver300
 ||t1.qpic.cn/mblogpic/$domain=neonan.com
 ||xmfish.com/images/chanel/www/index2/jjsecond.jpg
 ||weather.com.cn/m2/j/iphone_tan.js
-/shortcounter.jsp$domain=ref.so
 ||bego.cc/img/
 ||d.119g.com/fanwan/$script
+||115img.com/static/delivery/
+||yimuhe.com/n_ad/
+||yunfile.com^*/offline_banner/
+/sungg/*$domain=sun0769.com
+||app.acm.dzwww.com^
+||dzwww.com/data/js/asp_$script
 !------------------------Specific element hiding rules------------------------!
+dzwww.com##.ad
 xmfish.com###marry_laping
 neonan.com###razer_ad
 ys168.com###idzdy1
@@ -5912,4 +5907,8 @@ rsdown.cn#@#.banner-ads
 @@||downbank.cn/s1/yl.js
 @@||131js.131.com/home/resouces/js/index_20120420.js
 @@||plu.cn/d/js/acmsd/thea44.js
+!--------------------------------tracking systems-----------------------------!
+/shortcounter.jsp$domain=ref.so
+||log.vdisk.cn^
+||analytics-union.xunlei.com^
 !----------------------------------The End------------------------------------!
