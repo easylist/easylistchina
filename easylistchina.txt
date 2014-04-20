@@ -130,7 +130,6 @@
 ||6721.com^$third-party
 ||6788787.com^$third-party
 ||6dad.com^$third-party
-||70e.com^$third-party
 ||70yx.com^$third-party
 ||74lm.com^$third-party
 ||778669.com^$third-party
@@ -141,7 +140,6 @@
 ||77union.cn^$third-party
 ||77zhuan.com^$third-party
 ||789un.com^$third-party
-||7clink.com^$third-party
 ||7k7k.com^$script,third-party
 ||7pk.com^$third-party
 ||7stk.com^$third-party
@@ -855,8 +853,6 @@ wasu.cn##.sp313x262
 @@||yihaodian.com/product/ajaxAds.do?$xmlhttprequest
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 asp300.com##.asp300-indexAD
-bbs.fobshanghai.com##.maintable > div:nth-child(7)
-bbs.fobshanghai.com##.t_infoline
 bbs.lephone.cc##.mbn.cl
 bbs.macd.cn###advlist
 bbs.uueasy.com###banner
@@ -1007,7 +1003,6 @@ zxtjd.com###it_an
 ||ld0766.com/*20*a/
 ||leiphone.com/wp-content/uploads/*/18touch
 ||life.e0575.com^
-||link.fobshanghai.com^
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/y9.js
 ||log.mtime.cn^
@@ -2698,6 +2693,8 @@ suning.com#@##topAd
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 ##A[href="https://www.18vpn.biz/r.php?r=proxy"]
 !----------------------------------ads-union----------------------------------!
+||70e.com^$third-party
+||7clink.com^$third-party
 ||superfish.com^$third-party
 ||appnext.com^$third-party
 ||apikozakanet-a.akamaihd.net^
@@ -4316,7 +4313,10 @@ qoocc.com##.adver300
 ||yu64.com/aajjss/
 ||ie.5500w.com/market/404230/pop_browser.js
 ||img.china.alibaba.com/img/ibank/
+||link.fobshanghai.com^
+||duowan.com/img/ad/
 !------------------------Specific element hiding rules------------------------!
+bbs.fobshanghai.com##.maintable > div:nth-child(7)
 bbs.fobshanghai.com##TABLE[cellpadding="4"][style="background: #D6E0EF"]
 gkpass.com##.tbanner
 51jifenbao.net##.banner
