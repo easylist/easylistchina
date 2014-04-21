@@ -2392,7 +2392,6 @@ cn.yahoo.com##.p_sider
 @@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/*/790840_*.swf
 @@||l.yimg.com/f/a/tw/elephant/*240x94*.swf
-@@||l.yimg.com/f/a/tw/js/flash_general_20090213.js$domain=tw.yahoo.com
 @@||l.yimg.com/zz/combo?*/ads/$script
 tw.news.yahoo.com##.gn_sub_blue
 tw.yahoo.com###ad_exp
@@ -2403,11 +2402,13 @@ tw.yahoo.com##.admod
 tw.yahoo.com##.colpadding > .tabmd
 tw.yahoo.com##.newsad
 tw.yahoo.com##.pa-banner
+||s.yimg.com/gs/apex/
+||s.yimg.com/ja/ap/tw/js/
+||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
+||yimg.com/*/ysm/
 ||l.yimg.com/d/lib/bc/bcr_2.0.5.js
 ||l.yimg.com/pq/
 ||l.yimg.com^*/a/tw/$~stylesheet
-||l.yimg.com^*/tw/ysm/
-||s.yimg.com/bf/ysm/$subdocument
 ||tw.dictionary.search.yahoo.com/beacon/
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
 ||tw.rd.yahoo.com^$image
