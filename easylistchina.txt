@@ -2890,7 +2890,11 @@ qoocc.com##.adver300
 ||down.51cto.com/images/yuyoukeji.gif
 ||51gugu.com/popwin/AutoHAdShow.aspx
 ||51img.ajiang.net^*.gif
-||51test.net/js_new/article_
+||51test.net/js_new/*_banner.js
+||51test.net/js_new/*_right_middle.js
+||51test.net/js_new/*_content_down.js
+||51test.net/baiduunion/
+||51test.net/js_new/*_content_up.js
 ||51testing.com/images/sz51com.swf
 ||51testing.com/imagesnew/307x90.gif
 ||51testing.com/imagesnew/642x53.gif
@@ -4319,6 +4323,8 @@ jjxw.cn##div[class$="_ad"]
 jjxw.cn##div[class^="head_ad"]
 qq.com##.in-top-ad-wr
 qq.com##.mod-ad-full
+51test.net##.show_content_declaration > P
+51test.net##.article-show:nth-child(2n+3)
 zol.com.cn##DIV[style="width:980px;height:90px;text-align:center;float:none"]
 newtalk.tw##.ind_news_station
 hebei.com.cn##.banner_right
