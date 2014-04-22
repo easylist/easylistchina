@@ -598,8 +598,6 @@ fun698.com##table[width="960"]
 ||cnzz.cn^*zanzhu
 !---Net Disks
 !---News Sites
-jjxw.cn##div[class$="_ad"]
-jjxw.cn##div[class^="head_ad"]
 www.jrj.com.cn##div[class^="mw a"]
 taihe.net##script[src="/js/ad.js"] + #table1
 ||36krcnd.com/poster/$image
@@ -621,7 +619,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||image.wenweipo.com/*/ad_
 ||imgs.ccw.com.cn/ccw/1.htm
 ||imgs.ccw.com.cn^*_260_80.
-||jjxw.cn^$object
 ||js.tlt.cn/js/
 ||junshier.com/adspic/
 ||junshijia.com/new/$script
@@ -4314,6 +4311,7 @@ qoocc.com##.adver300
 ||jianli-sky.com/templets/edu/js/jianli.js
 ||25xz.com/ads/
 ||strtv.cn/publicimg/sitelink/
+||jjxw.cn^$object
 /ycpiframe.aspx$domain=strtv.cn
 ||hot.580k.com/share/Ad_
 ||jj59.com/sy/ibanner.js
@@ -4321,7 +4319,10 @@ qoocc.com##.adver300
 !------------------------Specific element hiding rules------------------------!
 580k.com##DIV[style^="height:285px;width:360px;"]
 580k.com##DIV[style="width: 300px; height: 250px; float: left; margin:18px 10px 5px;border:solid 1px #ddd"]
+jjxw.cn##div[class$="_ad"]
+jjxw.cn##div[class^="head_ad"]
 newtalk.tw##.ind_news_station
+jrj.com.cn##.ipo-ad
 zdnet.com.cn##.headads
 news.580k.com##.contentAD
 uzzf.com##.boxl
