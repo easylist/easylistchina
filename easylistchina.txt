@@ -598,10 +598,6 @@ fun698.com##table[width="960"]
 ||cnzz.cn^*zanzhu
 !---Net Disks
 !---News Sites
-zdnet.com.cn##.headads
-newtalk.tw##.ind_news_station
-/ycpiframe.aspx$domain=strtv.cn
-strtv.cn##body > .container:first-child
 jjxw.cn##div[class$="_ad"]
 jjxw.cn##div[class^="head_ad"]
 www.jrj.com.cn##div[class^="mw a"]
@@ -641,8 +637,6 @@ taihe.net##script[src="/js/ad.js"] + #table1
 ||sinovision.net/ui/js/adm.js
 ||solidot.org/admanage/
 ||stnn.cc/images/*ad*.js
-||strtv.cn/publicimg/sitelink/
-||strtv.cn/video/ad_
 ||taihe.net/js/ad
 ||tlt.cn/floater/float.php
 ||we.pcinlife.com/banner/company/
@@ -4319,12 +4313,16 @@ qoocc.com##.adver300
 ||jsd.haolecdn.com^
 ||jianli-sky.com/templets/edu/js/jianli.js
 ||25xz.com/ads/
+||strtv.cn/publicimg/sitelink/
+/ycpiframe.aspx$domain=strtv.cn
 ||hot.580k.com/share/Ad_
 ||jj59.com/sy/ibanner.js
 ||jj59.com/sy/banner.js
 !------------------------Specific element hiding rules------------------------!
 580k.com##DIV[style^="height:285px;width:360px;"]
 580k.com##DIV[style="width: 300px; height: 250px; float: left; margin:18px 10px 5px;border:solid 1px #ddd"]
+newtalk.tw##.ind_news_station
+zdnet.com.cn##.headads
 news.580k.com##.contentAD
 uzzf.com##.boxl
 php100.com##DL[style="background-color: #fff;border: 1px solid #D3D4D5; margin:0 0 20px 0;"]
