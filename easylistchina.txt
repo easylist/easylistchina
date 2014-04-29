@@ -604,12 +604,8 @@ fun698.com##table[width="960"]
 @@||wcxiaoshuo.com/js/index.js
 bengou.com###header + div[style]
 binhuo.com##table[width="950PX"]
-faloo.com##div[class^="ad_"]
 haoqi99.com###ad2
 hotsk.com###shop + table[align="center"]
-imanhua.com###topmon
-ranhen.com###box_con > div[align="center"]
-ranwen.net##.ads
 shuhe.cc###TXT > a:not(:last-of-type)
 shuhe.cc##.ad250left
 shumilou.com/style/aadd.js
@@ -617,11 +613,6 @@ shushuw.cn##.bdad
 wanshulou.com###ad2
 wanshulou.com##body > .wrap:nth-child(4)
 xzcl.com##.m_ads
-||ranhen.com/js/
-||ranwen.net/ssi/
-||readnovel.com/js/$subdocument
-||ruyu.org/js/
-||s.faloo.com/novel/ad.js
 ||saesky.net/js/$script
 ||shanwen.com^$script
 ||shuhe.cc/ssi/
@@ -2548,6 +2539,7 @@ suning.com#@##topAd
 .com/page/?s=$third-party
 .net/page/?s=$third-party
 /page/s.php?s=$third-party
+||haomm.com^$third-party
 ||007y.net^$third-party
 ||100cpc.com^$third-party
 ||12l22.net^$third-party
@@ -4337,9 +4329,15 @@ qoocc.com##.adver300
 ||jj.5ccc.net/scripts/new/
 ||ktkkt.com/js/cnbeta/
 ||quanben.com/themes/quanben/qj.js
+||ranwen.net/ssi/
+||readnovel.com/js/$subdocument
+||xsduo.com/js/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ranwen.net##.ads
+imanhua.com###topmon
+faloo.com##div[class^="ad_"]
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_Banner
 3gsc.com.cn##.read_otherbook + A
