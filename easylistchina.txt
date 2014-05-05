@@ -587,11 +587,6 @@ fun698.com##table[width="960"]
 @@/configs/article/pagebottom.js
 @@/configs/article/pagetop.js
 !---Miscellaneous
-/banner/*$domain=dolc.de|dolc.info
-/gif/*$image,domain=txzqw.com
-/Images/ak47/*$domain=hanzify.net|hanzify.org
-/img/*$image,domain=txzqw.com
-/large/*$domain=tiyuba.tv
 23sc.cn##div[class^="ad"]
 23sc.cn/007/js/$script
 2500sz.com##div[id^="Layer"]
@@ -3315,7 +3310,7 @@ qoocc.com##.adver300
 ||hangzhou.com.cn/extra/flash/hzwarticle300.swf
 ||hangzhou.com.cn/images/flashyingpian.swf
 ||hangzhou.com.cn/inc_hzw/
-||hanzify.org/Main/Template/Images/chinabank.gif
+||hanzify.*/Main/Template/Images/chinabank.gif
 ||hao.rising.cn/catalog/bottom.html
 ||hao.rising.cn/images/nsdgg.jpg
 ||hao.rising.cn/images/wanng.swf
@@ -4344,6 +4339,10 @@ qoocc.com##.adver300
 ||66ys.cc/d/$script
 ||0756.la/ad-htm/
 ||jisuxz.com/2747/
+/gif/*$image,domain=txzqw.com
+/img/*$image,domain=txzqw.com
+/banner/*$domain=dolc.de|dolc.info
+/Images/ak47/*$domain=hanzify.net|hanzify.org
 ||zhuangpin.com^*/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
