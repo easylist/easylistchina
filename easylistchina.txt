@@ -583,42 +583,19 @@ fun698.com##table[width="960"]
 @@/configs/article/pagebottom.js
 @@/configs/article/pagetop.js
 !---Miscellaneous
-disp.cc###ads_page_b
-disp.cc###ads_page_r
-bbs.macd.cn###advlist
-bbs.uueasy.com###banner
-2y2r.org###hd + .wp.cl
 zxtjd.com###it_an
 jb51.net###liad_list
 kuwo.cn###rbtip
-frdic.com,godic.net###sidebar1
-dolc.de,dolc.info###sitefocus
 ruten.com.tw###supertop-bar
-dj520.com##.a304
 subpig.net##.a_p
-2u.com.cn#@#.adSpace
-disp.cc##.ads_bot_block
 p5w.net##.advcommon
 qzwb.com##.area[style^="height:70px;"]
-asp300.com##.asp300-indexAD
 mscbsc.com##.bao1
-frdic.com,godic.net##.headBar
 bbs.lephone.cc##.mbn.cl
 zhaozi.cn##.mt3
-dj520.com##.pal
 qiushibaike.com##.sitelink
-9ist.com##.tab_mb[width="100%"]
-e0575.cn##.textMes
-@@||chiphell.com/activity/*/*/$image,script,stylesheet
-@@||yihaodian.com/advertise/$xmlhttprequest
-@@||yihaodian.com/product/ajaxAds.do?$xmlhttprequest
-@@||zhaozi.cn/d/js/acmsd/ggao5$script
 ph66.com##div[class^="ad_"]
-5dlinux.com##div[class^="ggadtext"]
-cnmo.com##div[id*="pop"],div[class*="pop"]
-cnmo.com##div[id^="AD"]
 jpwind.com##div[id^="ShowAD"]
-etf88.com##div[id^="double_ad"]
 maxpda.com##div[id^="dp-ads"]
 !*** chinalist-specific.txt ***
 !---网易
@@ -2017,7 +1994,6 @@ vga.zol.com.cn##.banner250
 zol.com.cn##.hot_tj
 www.zol.com.cn##div[id^="Bar"]
 zol.com.cn##div[id^="ad_"]
-||ca.cbsi.com.cn/rpv?
 ||icon.zol-img.com.cn/mainpage/js/click.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||imp.zol.com.cn^
@@ -4268,6 +4244,16 @@ qoocc.com##.adver300
 ||027down.com/images/banner760-60.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+godic.net###right-side-bar
+e0575.cn##.textMes
+dj520.com##.pal
+dj520.com##.a304
+disp.cc###ads_page_b
+disp.cc###ads_page_r
+disp.cc##.ads_bot_block
+cnmo.com##div[id*="pop"],div[class*="pop"]
+cnmo.com##div[id^="AD"]
+asp300.com##.asp300-indexAD
 webkaka.com###Table1
 pchome.com.tw##DIV[id^="ad_div_"]
 tiexue.net##.banner
@@ -6064,6 +6050,8 @@ workercn.cn#@#.ad_content
 workercn.cn#@#.ad_main
 yaerwen.com#@##adtop
 @@||drmcmm.baidu.com/media/$domain=zhibo8.cc
+2u.com.cn#@#.adSpace
+@@||zhaozi.cn/d/js/acmsd/ggao5$script
 !--------------------------------tracking systems-----------------------------!
 /shortcounter.jsp$domain=ref.so
 @@||tajs.qq.com/stats?sId=30861886
@@ -6086,6 +6074,7 @@ yaerwen.com#@##adtop
 ||log.mtime.cn^
 ||stat.2u.com.cn/ol_2u.js
 ||tongji.500wan.com^
+||ca.cbsi.com.cn/rpv?
 !----------------------------------Mobile-------------------------------------!
 ||ads.uc.cn^
 ||uc.cn:8080/Images/11/21/71c5c8d2a3af13f2.jpeg
