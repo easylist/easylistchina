@@ -587,25 +587,9 @@ bbs.lephone.cc##.mbn.cl
 !*** chinalist-specific.txt ***
 !--有道
 ||a.youdao.com^
-!---17173
-||17173.com/new/
 !---178
-/atcount.php?$domain=178.com
-178.com#@#.ad_box
-||178.com/glr.js
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
-||market.178.com^
 ||tuiguang.178.com^
-!---19楼
-19lou.com##div[class$="ad-cycle"]
-||citysbs.com^*swf
-!---21CN
-21cn.com##.h-gg
-21cn.com##.xuantu
-21cn.com##div[class^="topAds"]
-||bbs.hiapk.com/meihua.html
-||market.21cn.com^
-||shows.21cn.com^
 !---奇虎
 so.360.cn,so.com##.spread
 ||h.qhimg.com/js/iwt-hao360.js
@@ -4182,13 +4166,23 @@ qoocc.com##.adver300
 ||uc.cn:8080/Images/11/21/71c5c8d2a3af13f2.jpeg
 |http://*/if/$domain=17173.com
 ||51testing.com/imagesnew/*.swf
+||17173.com/new/
+||market.178.com^
+||178.com/glr.js
+||citysbs.com^*swf
+||shows.21cn.com^
+||market.21cn.com^
 ||i.firefoxchina.cn/img/skin/spicemother/theme_bg.jpg
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 youth.cn###ads
+21cn.com##.h-gg
 th7.cn###PcPoPmarket
+21cn.com##.xuantu
+21cn.com##div[class^="topAds"]
 www.youdao.com###ext
+19lou.com##div[class$="ad-cycle"]
 youdao.com##.sp-h
 chinaz.com##DIV[style="border: 1px solid #BBD7E6;padding:5px;margin:10px 0px 10px 0px;background-color:#FFFFFF;"]
 qidian.com###elevenactive
@@ -6039,6 +6033,7 @@ yaerwen.com#@##adtop
 @@||adm.cnzz.net/appgcm.php?sid=262910&$domain=400gb.com|bego.cc|pipipan.com
 @@/advview2013.php?ad_pos=0$domain=400gb.com|bego.cc|pipipan.com
 @@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|pipipan.com
+178.com#@#.ad_box
 !--------------------------------tracking systems-----------------------------!
 /shortcounter.jsp$domain=ref.so
 @@||tajs.qq.com/stats?sId=30861886
@@ -6067,4 +6062,5 @@ yaerwen.com#@##adtop
 ||youdao.com/ctlog?
 ||youdao.com/tl?
 ||js.17173.com/ping.js
+/atcount.php?$domain=178.com
 !----------------------------------The End------------------------------------!
