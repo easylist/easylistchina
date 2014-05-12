@@ -585,27 +585,10 @@ fun698.com##table[width="960"]
 !---Miscellaneous
 bbs.lephone.cc##.mbn.cl
 !*** chinalist-specific.txt ***
-!---网易
-163.com##div[class^="gg"]
-www.163.com##div[class^="ad"]
-||adgeo.163.com^
-||g.163.com/*&affiliate=
-||img1.126.net^
-||img2.126.net^
-||stat.ws.126.net^
 !--有道
-www.youdao.com###ext
-youdao.com###sp
-youdao.com##.sp-h
 ||a.youdao.com^
-||impservice*.youdao.com^
-||youdao.com/ctlog?
-||youdao.com/tl?
 !---17173
-.com/x/$domain=17173.com|17173.tv.sohu.com
-|http://*/if/$domain=17173.com
 ||17173.com/new/
-||js.17173.com/ping.js
 !---178
 /atcount.php?$domain=178.com
 178.com#@#.ad_box
@@ -2120,6 +2103,7 @@ suning.com#@##topAd
 .net/page/?s=$third-party
 /page/s.php?s=$third-party
 :81/page/?s=$third-party
+||ads.uc.cn^
 ||fv99.com^
 ||007y.net^$third-party
 ||0756j.com^$third-party
@@ -4190,14 +4174,25 @@ qoocc.com##.adver300
 ||0dian8.org/data/js/
 ||xczhibo.com/xml/
 ||hx95.com/images/vip.gif
+||g.163.com/*&affiliate=
+||img1.126.net^
+||img2.126.net^
+||impservice*.youdao.com^
+.com/x/$domain=17173.com|17173.tv.sohu.com
+||uc.cn:8080/Images/11/21/71c5c8d2a3af13f2.jpeg
+|http://*/if/$domain=17173.com
 ||i.firefoxchina.cn/img/skin/spicemother/theme_bg.jpg
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 youth.cn###ads
+www.youdao.com###ext
+youdao.com##.sp-h
 chinaz.com##DIV[style="border: 1px solid #BBD7E6;padding:5px;margin:10px 0px 10px 0px;background-color:#FFFFFF;"]
 qidian.com###elevenactive
 tv.cntv.cn##div[class^="ad_"]
+www.163.com##div[class^="ad"]
+163.com##div[class^="gg"]
 fuliba.asia,fuliba.net###sidebar > UL:first-child
 sex169.org##.ad_top_980
 yyets.com##.clearfix+.block:nth-child(8)
@@ -5832,6 +5827,15 @@ verycd.gdajie.com##th[colspan="3"]
 lywww.com##ul[id^="addimg_"]
 taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-color:#ffffff;"]
 00sy.com##ul[style="width: 830px;margin:0 auto;height:250px;text-align:center;margin-top:10px;"]
+400gb.com,bego.cc,pipipan.com###ad_right_side
+400gb.com,bego.cc,pipipan.com###cproIframe1holder
+400gb.com,bego.cc,pipipan.com###cproIframe2holder
+400gb.com,bego.cc,pipipan.com,shenchuang.com##.ad_area
+400gb.com,bego.cc,pipipan.com##.downpage_l > .row-fluid:nth-child(4)
+400gb.com,bego.cc,pipipan.com##.downpage_r
+400gb.com,bego.cc,pipipan.com##.table-striped
+400gb.com,bego.cc,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
+400gb.com,bego.cc,pipipan.com##div[id^="BAIDU_DUP_"]
 !---------------------------------Whitelists----------------------------------!
 012.tw#@#.ad728
 17ppt.com#@#.topads
@@ -6029,6 +6033,10 @@ yaerwen.com#@##adtop
 @@||17173im.allyes.com/crossdomain.xml
 @@||17173im.allyes.com/main/s?
 @@||cctv.com/js/cntv_Advertise.js
+@@||adm.cnzz.net/appgcm.php?sid=262909&$domain=400gb.com|bego.cc|pipipan.com
+@@||adm.cnzz.net/appgcm.php?sid=262910&$domain=400gb.com|bego.cc|pipipan.com
+@@/advview2013.php?ad_pos=0$domain=400gb.com|bego.cc|pipipan.com
+@@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|pipipan.com
 !--------------------------------tracking systems-----------------------------!
 /shortcounter.jsp$domain=ref.so
 @@||tajs.qq.com/stats?sId=30861886
@@ -6052,25 +6060,9 @@ yaerwen.com#@##adtop
 ||tcss.qq.com^
 ||tongji.500wan.com^
 ||users.51.la^$third-party
-!----------------------------------Mobile-------------------------------------!
-||ads.uc.cn^
-||uc.cn:8080/Images/11/21/71c5c8d2a3af13f2.jpeg
-!--------------------------------Temporary------------------------------------!
-!--400gb
-400gb.com,bego.cc,pipipan.com###ad_right_side
-400gb.com,bego.cc,pipipan.com###cproIframe1holder
-400gb.com,bego.cc,pipipan.com###cproIframe2holder
-400gb.com,bego.cc,pipipan.com,shenchuang.com##.ad_area
-400gb.com,bego.cc,pipipan.com##.downpage_l > .row-fluid:nth-child(4)
-400gb.com,bego.cc,pipipan.com##.downpage_r
-400gb.com,bego.cc,pipipan.com##.table-striped
-400gb.com,bego.cc,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
-@@||adm.cnzz.net/appgcm.php?sid=262909&$domain=400gb.com|bego.cc|pipipan.com
-@@||adm.cnzz.net/appgcm.php?sid=262910&$domain=400gb.com|bego.cc|pipipan.com
-400gb.com,bego.cc,pipipan.com##div[id^="BAIDU_DUP_"]
-!@@||cpro.baidu.com/cpro/ui/uijs.php?$domain=400gb.com|bego.cc|pipipan.com
-!@@||pos.baidu.com^$script,domain=400gb.com|bego.cc|pipipan.com
-!@@||adm.cnzz.net/appgcm.php?sid=107640&$domain=400gb.com|bego.cc|pipipan.com
-@@/advview2013.php?ad_pos=0$domain=400gb.com|bego.cc|pipipan.com
-@@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|pipipan.com
+||adgeo.163.com^
+||stat.ws.126.net^
+||youdao.com/ctlog?
+||youdao.com/tl?
+||js.17173.com/ping.js
 !----------------------------------The End------------------------------------!
