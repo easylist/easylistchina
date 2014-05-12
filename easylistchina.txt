@@ -805,14 +805,6 @@ eol.cn##div[id^="s1_"]
 ||img.eol.cn/images/ed/$~image
 !---中国新闻网
 chinanews.com###qizhi_div980
-!---CCTV
-@@||cctv.com/js/cntv_Advertise.js
-@@||player.cntv.cn/adplayer/cntvAdPlayer.swf
-@@||player.cntv.cn/creator/documentary_bg_ad.js
-@@||tansuo.cntv.cn^*/tansuo_Advertise.js
-cntv.cn##.ad_w960
-tv.cntv.cn##div[class^="ad_"]
-||cctv.com/Library/a2.js
 !---中华网
 /googleAds3Wide.js
 china.com##.gg
@@ -4184,6 +4176,7 @@ qoocc.com##.adver300
 ||sinaimg.cn/mw690/a6a976a2gw1efnkhnx81vg207e02ajrk.gif
 ||sinaimg.cn/mw690/a6a976a2gw1eg4s3ya5vjj207e02aaa5.jpg
 ||techweb.com.cn/static/images/lagou/lagougg.jpg
+||cctv.com/Library/a2.js
 ||zzqhy.com^*/page/
 ||cfanhome.com/lmimages/yinsub.gif
 ||xitong8.com/theme/default/images/index_13.jpg
@@ -4195,6 +4188,7 @@ qoocc.com##.adver300
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 youth.cn###ads
+tv.cntv.cn##div[class^="ad_"]
 fuliba.asia,fuliba.net###sidebar > UL:first-child
 sex169.org##.ad_top_980
 yyets.com##.clearfix+.block:nth-child(8)
@@ -6025,6 +6019,7 @@ yaerwen.com#@##adtop
 @@||biz.gexing.com/bottom_
 @@||17173im.allyes.com/crossdomain.xml
 @@||17173im.allyes.com/main/s?
+@@||cctv.com/js/cntv_Advertise.js
 !--------------------------------tracking systems-----------------------------!
 /shortcounter.jsp$domain=ref.so
 @@||tajs.qq.com/stats?sId=30861886
