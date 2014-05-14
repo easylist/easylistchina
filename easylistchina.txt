@@ -617,12 +617,6 @@ bitauto.com##.con_ad
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
 @@||union.bokecc.com/servlet/playinfo?
-!---中国网
-china.com.cn##img[width="180"]
-china.com.cn##td[width="406"]
-||images.china.cn^*first/$subdocument
-||union.china.com.cn^
-||www.china.com.cn/node_$domain=news.china.com.cn
 !---中国战略网
 chinaiiss.com###content_text > span[style]
 chinaiiss.com##.nav_r:nth-child(6)
@@ -3069,8 +3063,6 @@ qoocc.com##.adver300
 ||image.shoudian.org/diantong/sunwayman131011a.gif
 ||image.sportscn.com/other/live/
 ||image.wenweipo.com/*/ad_
-||images.china.cn/images1/ch/2013first/131125-hd.jpg
-||images.china.cn/images1/ch/2013first/131206-gh.jpg
 ||images.chinaz.com^
 ||images.jurong.cn/bbs/
 ||images.mydrivers.com/2009
@@ -4064,6 +4056,9 @@ qoocc.com##.adver300
 ||eol.cn/images/index/ad2011/bxspt
 ||eol.cn/js/global/jQuery_ads.js
 ||blog.china.com/u/dvpush/$subdocument
+||images.china.cn^*first/$subdocument
+||union.china.com.cn^
+||www.china.com.cn/node_$domain=news.china.com.cn
 ||dvs.china.com^
 ||zyzczs.com/js/tj.txt
 ||img.iknow.bdimg.com/promotion/270-170.jpg?
@@ -4071,6 +4066,7 @@ qoocc.com##.adver300
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+china.com.cn##img[width="180"]
 gdtv.cn###ADVbuttom
 chinanews.com###qizhi_div980
 china.com##.gg
