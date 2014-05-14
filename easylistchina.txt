@@ -484,7 +484,6 @@
 ||y2126.com^$third-party
 ||yczpw.com^$third-party
 ||yeeunion.com^$third-party
-||yigao.com^$third-party
 ||yimeiads.com^$third-party
 ||yinoo.cn^$third-party
 ||yiqifa.com^$third-party
@@ -618,14 +617,6 @@ bitauto.com##.con_ad
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
 @@||union.bokecc.com/servlet/playinfo?
-!---中国新闻网
-chinanews.com###qizhi_div980
-!---中华网
-/googleAds3Wide.js
-china.com##.gg
-china.com##.gg950
-||blog.china.com/u/dvpush/$subdocument
-||dvs.china.com^
 !---中国网
 china.com.cn##img[width="180"]
 china.com.cn##td[width="406"]
@@ -1990,6 +1981,7 @@ dnserror*.wo.com.cn^
 ||gf1353.com^$third-party
 ||ggmm777.com^$third-party
 ||gzqudou.com^
+||yigao.com^$third-party
 ||haomm.com^$third-party
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
@@ -4071,6 +4063,8 @@ qoocc.com##.adver300
 ||img.eol.cn/images/ed/$~image
 ||eol.cn/images/index/ad2011/bxspt
 ||eol.cn/js/global/jQuery_ads.js
+||blog.china.com/u/dvpush/$subdocument
+||dvs.china.com^
 ||zyzczs.com/js/tj.txt
 ||img.iknow.bdimg.com/promotion/270-170.jpg?
 ||zzqhy.com^*/page/
@@ -4078,6 +4072,9 @@ qoocc.com##.adver300
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 gdtv.cn###ADVbuttom
+chinanews.com###qizhi_div980
+china.com##.gg
+china.com##.gg1000
 g1080.com###duilian
 eol.cn###big-ad-img
 eol.cn##div[id^="s1_"]
