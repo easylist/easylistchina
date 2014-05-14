@@ -601,12 +601,7 @@ cet.99sushe.com###div_bottom
 ||strip.taobaocdn.com^$third-party
 ||taobao.com/go/$third-party,domain=~tmall.com
 !---Baidu
-baike.baidu.com###mabox
-zhidao.baidu.com###union-qbbanner
-www.baidu.com##.sftip_red
 www.baidu.com##.tools > .shouji
-zhidao.baidu.com##.wgt-ads
-||baidu.com/ecom$image,script
 ||music.baidu.com/static/html/cbjs.html
 ||news.baidu.com/nocache/mp/b.jpg
 ||play.baidu.com/player/static/audio/10s.mp3
@@ -4109,12 +4104,17 @@ qoocc.com##.adver300
 ||zxip.com/2013ad/
 ||zxxk.com/js/articleinfo/JS_
 ||zymao.net/img/taolink.jpg
+||baidu.com/ecom$image,script
 ||zyzczs.com/js/tj.txt
+||img.iknow.bdimg.com/promotion/270-170.jpg?
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 gdtv.cn###ADVbuttom
+baike.baidu.com###mabox
+zhidao.baidu.com###union-qbbanner
+zhidao.baidu.com##.wgt-ads
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###ec_im_container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ec_bdtg
 sina.com.cn###AD_Background_Wall_BG
@@ -4942,7 +4942,6 @@ douban.com##.channel_promo
 firefoxchina.cn##.chip-banners
 yyets.com##.clearfix + .block:nth-child(8)
 hunantv.com##.click-s-r1
-zhidao.baidu.com##.cms-slide > .optimus
 24en.com##.cnt_banner
 114la.com##.col-row01 > dt
 gamefy.cn##.col-vlist-l > span
