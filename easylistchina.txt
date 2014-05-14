@@ -617,36 +617,6 @@ bitauto.com##.con_ad
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
 @@||union.bokecc.com/servlet/playinfo?
-!---常熟零距离
-bbs.cs090.com,bbs.wm090.com###portal_block_4
-bbs.cs090.com,bbs.wm090.com##.bill
-/biz_icon/*$domain=cs090.com|wm090.com
-/portal/*$domain=cs090.com|wm090.com
-cs090.com,wm090.com##div[style^="margin:0px auto; width:960px;"]
-!---CSDN
-csdn.net##.ad_960
-download.csdn.net##.ad_area_1
-||csdn.net/ggmm/
-!--iteye
-||info-database.csdn.net/Upload/$image,third-party
-||iteye.com/iframe_ggbd/
-!---CTdisk
-||doubleclick.tv002.com^
-!---当当
-||a.dangdang.com/smart.js?
-||ddimg.cn^$object
-!---大洋网
-dayoo.com##.advertising
-dayoo.com##.cn
-dayoo.com##div[id^="ad"]
-dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; overflow: hidden; left: 1px; position: fixed;"]
-dayoo.com##div[style="top: 10px; height: 320px; width: 100px; z-index: 1000; overflow: hidden; right: 1px; position: fixed;"]
-||dayoo.com/AdPub/adpub/$image
-||images.dayoo.com/dywimg/
-||yunyu120.com/dayang/
-!--gzdaily
-/pub/news/gzrb/*$script
-||gzdaily.dayoo.com/tpl/banner$object
 !---豆瓣
 ||douban.com^*/fm_bgad.js
 ||img3.douban.com/js/packed_ad
@@ -4043,6 +4013,16 @@ qoocc.com##.adver300
 ||chinatimes.com/2009Cti/cthead/Scripts-utf8/yahoo.js
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.cngoldres.com/web/js/*_advs.js
+/biz_icon/*$domain=cs090.com|wm090.com
+/portal/*$domain=cs090.com|wm090.com
+||csdn.net/ggmm/
+||info-database.csdn.net/Upload/$image,third-party
+||iteye.com/iframe_ggbd/
+||doubleclick.tv002.com^
+||dayoo.com/AdPub/adpub/$image
+||images.dayoo.com/dywimg/
+/pub/news/gzrb/*$script
+||gzdaily.dayoo.com/tpl/banner$object
 ||dvs.china.com^
 ||hanfanba.com/template/hanfanba/img/tb-
 ||zyzczs.com/js/tj.txt
@@ -4052,6 +4032,12 @@ qoocc.com##.adver300
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 china.com.cn##img[width="180"]
+csdn.net##.ad_960
+dayoo.com##div[id^="ad"]
+cs090.com,wm090.com##div[style^="margin:0px auto; width:960px;"]
+download.csdn.net##.ad_area_1
+bbs.cs090.com,bbs.wm090.com###portal_block_4
+bbs.cs090.com,bbs.wm090.com##.bill
 feng.com##DIV[class^="wep_e_"]
 chinatimes.com##.ad
 gdtv.cn###ADVbuttom
@@ -4248,7 +4234,7 @@ ylnet.com.cn###container > div[style*="990px;"]
 36tv.cn###container > div[style^="height:"]
 bxs.cc###content > a[id^="a_"]
 qidian.com###content > p:last-child > a
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [data-click^="\7b \"fm\""]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > :not([id])
 jpwind.com###content_right_ad
 0597kk.com###cool_fixed
 360.cn###corner-flash
