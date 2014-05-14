@@ -615,22 +615,9 @@ bitauto.com##.con_ad
 ||gimg1.bitautoimg.com/ResourceFiles/0/0/817/20140417084616646.jpg
 !---CC视频
 @@||union.bokecc.com/crossdomain.xml
-@@||union.bokecc.com/flash/$object
 @@||union.bokecc.com/js/player/
-@@||union.bokecc.com/player?
 @@||union.bokecc.com/servlet/GetUserInfo?
-@@||union.bokecc.com/servlet/getvideofile?
 @@||union.bokecc.com/servlet/playinfo?
-||click.bokecc.com^
-||imedia.bokecc.com^
-||play.bokecc.com/servlet/PlayVideo?
-!---中国教育在线
-eol.cn###big-ad-img
-eol.cn##div[id^="s1_"]
-||eol.cn/images/ed/gaokao/2012/bx.jpg
-||eol.cn/images/index/ad2011/bxspt
-||eol.cn/js/global/jQuery_ads.js
-||img.eol.cn/images/ed/$~image
 !---中国新闻网
 chinanews.com###qizhi_div980
 !---中华网
@@ -4080,6 +4067,10 @@ qoocc.com##.adver300
 ||a.baomihua.com^
 ||bkill.com/css/js/bkill.js
 ||bkill.com/images/di.js
+||eol.cn/images/ed/gaokao/2012/bx.jpg
+||img.eol.cn/images/ed/$~image
+||eol.cn/images/index/ad2011/bxspt
+||eol.cn/js/global/jQuery_ads.js
 ||zyzczs.com/js/tj.txt
 ||img.iknow.bdimg.com/promotion/270-170.jpg?
 ||zzqhy.com^*/page/
@@ -4088,6 +4079,8 @@ qoocc.com##.adver300
 gpcxw.com###AA2
 gdtv.cn###ADVbuttom
 g1080.com###duilian
+eol.cn###big-ad-img
+eol.cn##div[id^="s1_"]
 sucaijiayuan.com##.gg250
 sucaijiayuan.com##.gg1000
 sucaijiayuan.com##.jsPart1Right
@@ -5979,6 +5972,9 @@ house.shangdu.com#@#.top_ad
 @@||zhibowu.com/ad2.htm
 @@||static.hdslb.com/ad-images/$image
 @@||dnvod.eu/ads/$object-subrequest
+@@||union.bokecc.com/flash/$object
+@@||union.bokecc.com/player?
+@@||union.bokecc.com/servlet/getvideofile?
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
@@ -6024,4 +6020,7 @@ house.shangdu.com#@#.top_ad
 ||hm.baidu.com^$third-party
 ||dq.baidu.com/nocipher?
 ||msg.iqiyi.com^
+||click.bokecc.com^
+||imedia.bokecc.com^
+||play.bokecc.com/servlet/PlayVideo?
 !----------------------------------The End------------------------------------!
