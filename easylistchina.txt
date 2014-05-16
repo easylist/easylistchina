@@ -645,20 +645,6 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 uwants.com###foruminfo + div[align="center"]
 ||n2.hk/groupon/
 ||networld.hk/ad2/
-!---豆丁
-||docin.com/app/a_d/
-||inte.sogou.com^
-||pics.wanlibo.com/js/pagemodulestat.js
-!---多玩游戏网
-||duowan.com/duowan.js
-||market.duowan.com^
-!---东方财富网
-eastmoney.com##.banner
-eastmoney.com##.lyad
-||cmsjs.eastmoney.com/js/fixedSoft$script
-||cmsjs.eastmoney.com^$subdocument
-||dfcfw.com/js/*/emfloatmedia$script
-||same.eastmoney.com^
 !---生物通
 ebiotrade.com###pop_banner1
 ebiotrade.com##.fk2
@@ -4029,11 +4015,21 @@ qoocc.com##.adver300
 /newtc.js$domain=dm5.com|dm5.hk
 /wxh.js$domain=dm5.com|dm5.hk
 /wxhfm.html$domain=dm5.com|dm5.hk
+||docin.com/app/a_d/
+||inte.sogou.com^
+||pics.wanlibo.com/js/pagemodulestat.js
+||duowan.com/duowan.js
+||market.duowan.com^
+||cmsjs.eastmoney.com/js/fixedSoft$script
+||cmsjs.eastmoney.com^$subdocument
+||same.eastmoney.com^
 ||mzyz.com/image/tj/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 weigongkai.com###showRccode
+eastmoney.com##.banner
+eastmoney.com##.lyad
 v.hao123.com###btn-dl-bro
 dm5.com,dm5.hk###beitou
 dm5.com,dm5.hk##.cl760
