@@ -645,18 +645,6 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 uwants.com###foruminfo + div[align="center"]
 ||n2.hk/groupon/
 ||networld.hk/ad2/
-!---ETtoday
-ettoday.net###for-ec
-ettoday.net###ticker_3
-ettoday.net##.ec_menu
-||ettoday.travelrich.com^
-||msg.ettoday.net^
-!---粉酷多
-fankudo.com###enhancedtextwidget-29
-fankudo.com##.adsense-right-big
-fankudo.com##.adsense-right-square
-/pagead/*$domain=fankudo.com
-||fankudo.com/3C.html
 !---蜂鸟
 bbs.fengniao.com##.sing_ad_text
 fengniao.com##div[id^="AD"]
@@ -4010,11 +3998,17 @@ qoocc.com##.adver300
 ||ebiotrade.com/newsf/js/news_top_banner.js
 ||ebiotrade.com/jslibrary/js
 ||ebiotrade.com/web_images/$object
+/pagead/*$domain=fankudo.com
 ||mzyz.com/image/tj/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fankudo.com###sidebar-primary > DIV:nth-child(-n+2)
+fankudo.com##.adsense-right-square
 enet.com.cn##div[class^="ad"]
+ettoday.net###for-ec
+ettoday.net###ticker_3
+ettoday.net##.ec_menu
 weigongkai.com###showRccode
 eastmoney.com##.banner
 eastmoney.com##.lyad
@@ -5999,4 +5993,5 @@ house.shangdu.com#@#.top_ad
 ||chinatimes.com/analytics/
 ||count.enet.com.cn^
 ||frame.enet.com.cn/a.php
+||msg.ettoday.net^
 !----------------------------------The End------------------------------------!
