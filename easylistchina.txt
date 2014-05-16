@@ -645,17 +645,6 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 uwants.com###foruminfo + div[align="center"]
 ||n2.hk/groupon/
 ||networld.hk/ad2/
-!---生物通
-ebiotrade.com###pop_banner1
-ebiotrade.com##.fk2
-ebiotrade.com##.fk_input
-@@||ebiotrade.com/jslibrary/js44.js
-ebiotrade.com##div[id^="couplet_"]
-ebiotrade.com##div[id^=adA]
-ebiotrade.com##table[width="220"]
-ebiotrade.com##td[height="135"]
-||ebiotrade.com/jslibrary/js
-||ebiotrade.com/web_images/$object
 !---矽谷动力
 enet.com.cn##div[class^="ad"]
 ||count.enet.com.cn^
@@ -4023,6 +4012,10 @@ qoocc.com##.adver300
 ||cmsjs.eastmoney.com/js/fixedSoft$script
 ||cmsjs.eastmoney.com^$subdocument
 ||same.eastmoney.com^
+||ebiotrade.com/newsf/js/inpic.js
+||ebiotrade.com/newsf/js/news_top_banner.js
+||ebiotrade.com/jslibrary/js
+||ebiotrade.com/web_images/$object
 ||mzyz.com/image/tj/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -4030,6 +4023,11 @@ gpcxw.com###AA2
 weigongkai.com###showRccode
 eastmoney.com##.banner
 eastmoney.com##.lyad
+ebiotrade.com###pop_banner1
+ebiotrade.com##div[id^="couplet_"]
+ebiotrade.com##div[id^=adA]
+ebiotrade.com##table[width="220"]
+ebiotrade.com##td[height="135"]
 v.hao123.com###btn-dl-bro
 dm5.com,dm5.hk###beitou
 dm5.com,dm5.hk##.cl760
@@ -5954,6 +5952,7 @@ house.shangdu.com#@#.top_ad
 @@||union.bokecc.com/servlet/getvideofile?
 @@||feng.com/aoodoo/*logo.png
 @@||re-vat.com/advs/
+@@||ebiotrade.com/jslibrary/js44.js
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
