@@ -617,9 +617,6 @@ bitauto.com##.con_ad
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
 @@||union.bokecc.com/servlet/playinfo?
-!---豆瓣
-||douban.com^*/fm_bgad.js
-||img3.douban.com/js/packed_ad
 !---Discuz! & PHPWind etc.
 ###ad_headerbanner
 ~xdjz.net###ads_c_tpc
@@ -648,14 +645,6 @@ discuss.com.hk,uwants.com##a[href^="http://ad"]
 uwants.com###foruminfo + div[align="center"]
 ||n2.hk/groupon/
 ||networld.hk/ad2/
-!---动漫屋
-/newtc.js$domain=dm5.com|dm5.hk
-/wxh.js$domain=dm5.com|dm5.hk
-/wxhfm.html$domain=dm5.com|dm5.hk
-dm5.com,dm5.hk###beitou
-dm5.com,dm5.hk##.cl760
-dm5.com,dm5.hk##.cl970
-||by.tel.cdndm.com^
 !---豆丁
 ||docin.com/app/a_d/
 ||inte.sogou.com^
@@ -4036,12 +4025,19 @@ qoocc.com##.adver300
 ||tv380.com/ovp/ovp_home/*/adi/
 ||weiqitv.com/Uploads/video_left.jpg
 ||weiqitv.com/Uploads/video_right.jpg
+||douban.com^*/fm_bgad.js
+/newtc.js$domain=dm5.com|dm5.hk
+/wxh.js$domain=dm5.com|dm5.hk
+/wxhfm.html$domain=dm5.com|dm5.hk
 ||mzyz.com/image/tj/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 weigongkai.com###showRccode
 v.hao123.com###btn-dl-bro
+dm5.com,dm5.hk###beitou
+dm5.com,dm5.hk##.cl760
+dm5.com,dm5.hk##.cl970
 tiexue.net###duilianAd
 china.com.cn##img[width="180"]
 csdn.net##.ad_960
