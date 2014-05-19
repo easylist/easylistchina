@@ -637,15 +637,6 @@ bitauto.com##.con_ad
 @@/common/cf/*.thumb$image
 ~dsjunshi.com##div[id^="ad_thread"]
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
-!---火狐主页
-i.firefoxchina.cn###ad_links1
-i.firefoxchina.cn###advBlock
-i.firefoxchina.cn###banner_show1
-i.firefoxchina.cn###taobao_frame2
-i.firefoxchina.cn###topbanner
-||firefoxchina.cn/fragments/cms/read_head_link.js
-||firefoxchina.cn/js/money/
-||i.firefoxchina.cn/iframe/
 !---搜狐焦点
 focus.cn##.ad
 ||focus.cn/ad_publish/$script
@@ -4016,11 +4007,13 @@ qoocc.com##.adver300
 ||k618.cn/images/feijiplane.gif
 ||jide123.com/jsa/
 ||jide123.com/template/*/images/g_js/
+||i.firefoxchina.cn/html/taobao_focus_250x250.html
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+i.firefoxchina.cn###advBlock
 uwants.com###foruminfo + div[align="center"]
 k618.cn###headads
 discuss.com.hk##.ad
