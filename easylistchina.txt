@@ -637,18 +637,6 @@ bitauto.com##.con_ad
 @@/common/cf/*.thumb$image
 ~dsjunshi.com##div[id^="ad_thread"]
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
-!---即得
-/3721upApiAd.png$domain=good.gd
-||good.gd/good.gd/js/downloadPrograss.js
-||good.gd/js/loadpopads.aspx
-!---GTV
-gtv.com.cn###duilian
-gtv.com.cn###video_url_ad
-gtv.com.cn##.rightext1
-gtv.com.cn##.t6r2
-gtv.com.cn##.t8r2
-gtv.com.cn##.zs_banner
-||gtv.com.cn/js/cache_data_tjw.js
 !---南海网
 hinews.cn##a[href="http://www.08980898.com/"]
 hinews.cn##a[href="http://www.hnxydec.com/index.asp"]
@@ -3988,11 +3976,16 @@ qoocc.com##.adver300
 ||gamersky.com^$subdocument
 ||imgf.gamersky.com^$image
 ||gamme.com.tw/ga/
+||good.gd/good.gd/js/downloadPrograss.js
+||good.gd/js/loadpopads.aspx
+||gtv.com.cn/js/cache_data_tjw.js
+||gtv.com.cn/public/images/2014-03/20/71_12931395286234.jpg
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+g1080.com##.zdgx_right_bottom
 gamme.com.tw##[class^="sidead_"]
 gamme.com.tw###bd
 i.firefoxchina.cn###advBlock
