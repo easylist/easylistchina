@@ -637,13 +637,6 @@ bitauto.com##.con_ad
 @@/common/cf/*.thumb$image
 ~dsjunshi.com##div[id^="ad_thread"]
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
-!---蜂鸟
-bbs.fengniao.com##.sing_ad_text
-fengniao.com##div[id^="AD"]
-||bbs.fengniao.com/forum/clientscript/vbb_scroll.js
-||bbs.fengniao.com/forum/var/vbb_scroll_content.js
-||pic.fengniao.com^
-||service.zol.com.cn/cgimp/zc.js
 !---火狐主页
 i.firefoxchina.cn###ad_links1
 i.firefoxchina.cn###advBlock
@@ -4013,6 +4006,7 @@ qoocc.com##.adver300
 ||94ava.com/ggad/
 ||2981.com/static/www/1.gif
 /aeiou/*$domain=discuss.com.hk|uwants.com
+||pic.fengniao.com^
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
@@ -4020,6 +4014,7 @@ qoocc.com##.adver300
 gpcxw.com###AA2
 uwants.com###foruminfo + div[align="center"]
 discuss.com.hk##.ad
+fengniao.com##div[id^="AD"]
 17qingsong.com##.detail-gads
 hk.yahoo.com###ad_cont3
 cnbeta.com##A[href^="http://www.lagou.com/subject/s_tesla.html/?"]
@@ -6015,4 +6010,6 @@ txnews.zjol.com.cn#@#.adtop
 ||users.51.la^$third-party
 ||youdao.com/ctlog?
 ||youdao.com/tl?
+||stat.zol.com.cn^
+||zol.com.cn/cgimp/zc.js
 !----------------------------------The End------------------------------------!
