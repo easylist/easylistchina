@@ -637,14 +637,6 @@ bitauto.com##.con_ad
 @@/common/cf/*.thumb$image
 ~dsjunshi.com##div[id^="ad_thread"]
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
-!---discuss.com.hk
-/aeiou/*$domain=discuss.com.hk|uwants.com
-/overture/*$domain=discuss.com.hk|uwants.com
-discuss.com.hk##.ad
-discuss.com.hk,uwants.com##a[href^="http://ad"]
-uwants.com###foruminfo + div[align="center"]
-||n2.hk/groupon/
-||networld.hk/ad2/
 !---蜂鸟
 bbs.fengniao.com##.sing_ad_text
 fengniao.com##div[id^="AD"]
@@ -4020,11 +4012,14 @@ qoocc.com##.adver300
 ||56ads.com/js/main.js
 ||94ava.com/ggad/
 ||2981.com/static/www/1.gif
+/aeiou/*$domain=discuss.com.hk|uwants.com
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+uwants.com###foruminfo + div[align="center"]
+discuss.com.hk##.ad
 17qingsong.com##.detail-gads
 hk.yahoo.com###ad_cont3
 cnbeta.com##A[href^="http://www.lagou.com/subject/s_tesla.html/?"]
