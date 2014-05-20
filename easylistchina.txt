@@ -676,29 +676,6 @@ ifeng.com##div[id^="flash_outer_"]
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-!---ITHome
-ithome.com.tw###ad-on-top
-ithome.com.tw##.ad-text-in-middle
-ithome.com.tw##.span4:nth-child(5)
-ithome.com.tw##.span4:nth-child(8)
-ithome.com.tw##div[class="span4"]
-!---小猪快跑
-bbs.jumpcn.com###framesh74cG
-||imanke.com/static/imanke/pigbbs.js
-||jumpcn.com/javascript/tshow.js
-||jumpcn.com/show/
-!---煎蛋
-||jdstatic.tankr.net/ajax/125.js
-||jdstatic.tankr.net/ajax/banner.js
-||jdstatic.tankr.net/s/$image
-!---江门网
-jmnews.com.cn###ad1
-jmnews.com.cn###msg_win
-jmnews.com.cn###viewCon > div:first-child
-jmnews.com.cn##.marbot5
-jmnews.com.cn##body > table[width="995"]:nth-child(2)
-jmnews.com.cn##div[id^="couplet_"]
-||jmnews.com.cn/js/ff.js
 !---激动网
 joy.cn###AdLayer10168
 ||86file.megajoy.com^
@@ -3934,7 +3911,17 @@ cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+jmnews.com.cn###msg_win
+jmnews.com.cn##.marbot5
+jmnews.com.cn##div[id^="couplet_"]
+jmnews.com.cn##.index_banner
+bbs.jumpcn.com###framesh74cG
 bbs.hupu.com##.hp-ad250-250
+ithome.com.tw###ad-on-top
+ithome.com.tw##.ad-text-in-middle
+ithome.com.tw##.span4:nth-child(5)
+ithome.com.tw##.span4:nth-child(8)
+ithome.com.tw##div[class="span4"]
 it168.com##.gg
 it168.com##div[id^="ADV"]
 ipc.me###crumb_r
