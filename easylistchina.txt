@@ -676,14 +676,6 @@ ifeng.com##div[id^="flash_outer_"]
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-!---卡饭论坛
-kafan.cn##.header_gg
-||a.ikafan.com/2/b.js
-||a.ikafan.com/3/
-||a.ikafan.com/4/tengyou.gif
-!---东吴网
-@@||jinhongweiqi.com/ad/update/$image,~third-party
-||jinhongweiqi.com/cache/ads.js
 !---看看新闻网
 @@||interface.kankanews.com/kkapi/adxmlconverter3.php$object-subrequest
 www.kankanews.com###J-zsb
@@ -3904,11 +3896,13 @@ cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /img/kana.jpg$domain=jpfans.com|jpseek.com
 ||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
 ||bdstatic.com/tb/r/image/2014-05-16/371b05c2374597ca85dfbf47d44d5dc3.gif
+||jinhongweiqi.com/cache/ads.js
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+kafan.cn##.header_gg
 joy.cn###AdLayer10168
 jpfans.com,jpseek.com##TABLE[cellspacing="1"][cellpadding="6"]
 onefunnyjoke.com##.single-bottom-responsive
@@ -5916,6 +5910,7 @@ gamme.com.tw#@#.adlist
 @@||joy.cn/service.php?*&showad=
 @@||juxiangyou.com/advert/
 @@||hd.duba.net/vip.ijinshan.com/repository/ad-images/$image,domain=vip.ijinshan.com
+@@||jinhongweiqi.com/ad/update/$image,~third-party
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
