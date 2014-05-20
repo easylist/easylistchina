@@ -676,21 +676,6 @@ ifeng.com##div[id^="flash_outer_"]
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-!---凯迪网络
-club.kdnet.net###dispbbs30
-club.kdnet.net##.slide-banner
-||jilupian.lekan.com/external/kdnet/
-||panda.kdnet.net^
-||super.cat898.com^
-||super.kdnet.net^
-!---极影动漫
-/javascripts/abcde/*$domain=kkkmh.com|ktxp.com
-/javascripts/stats.js$domain=kkkmh.com|ktxp.com
-bt.ktxp.com##.ad
-kkkmh.com##div[class^="mm-"]
-||bt.ktxp.com/iframe/statistics.js
-||kkkmh.com/iframe/
-||ktxp.com/javascripts/nmjui/
 !---Ku6
 ||sdo.com^$object-subrequest,domain=v.ku6.com
 ||st.vq.ku6.cn^
@@ -3892,11 +3877,19 @@ cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||jinhongweiqi.com/cache/ads.js
 ||gtimg.com/www/asset/project/qqDownload_
 ||ptimg.org:88/dapenti/DLEw61p5/3YznI.jpg
+||panda.kdnet.net^
+||super.cat898.com^
+||super.kdnet.net^
+||kkkmh.com/iframe/
+||kkkmh.com/javascripts/abcde/
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+kkkmh.com##div[class^="mm-"]
+club.kdnet.net###dispbbs30
+club.kdnet.net##.slide-banner
 kafan.cn##.header_gg
 qidian.com###two_dimensional
 joy.cn###AdLayer10168
@@ -5962,4 +5955,5 @@ gamme.com.tw#@#.adlist
 ||stat.zol.com.cn^
 ||zol.com.cn/cgimp/zc.js
 /att_count.js
+||bt.ktxp.com/iframe/statistics.js
 !----------------------------------The End------------------------------------!
