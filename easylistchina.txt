@@ -676,12 +676,6 @@ ifeng.com##div[id^="flash_outer_"]
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-!---日搜
-jpfans.com,jpseek.com##div[align="center"] + table[width="98%"]
-||jpunion.com^$domain=jpfans.com|jpseek.com
-||riju.com/pr/$domain=jpfans.com|jpseek.com
-||riju.com/uranai.htm
-||u.riju.com/click.php
 !---卡饭论坛
 kafan.cn##.header_gg
 ||a.ikafan.com/2/b.js
@@ -3906,12 +3900,17 @@ cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||86file.megajoy.com^
 ||pcs1.app.joy.cn^
 ||onefunnyjoke.com/wp-content/themes/funnyjoke_v4/images/temp/
+||jpunion.com^$domain=jpfans.com|jpseek.com
+||u.riju.com/click.php
+||jpseek.com/pr/click2.jpg
+/img/kana.jpg$domain=jpfans.com|jpseek.com
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 joy.cn###AdLayer10168
+jpfans.com,jpseek.com##TABLE[cellspacing="1"][cellpadding="6"]
 onefunnyjoke.com##.single-bottom-responsive
 jmnews.com.cn###msg_win
 jmnews.com.cn##.marbot5
