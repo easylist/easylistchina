@@ -676,27 +676,6 @@ ifeng.com##div[id^="flash_outer_"]
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-!---MSN
-!-CN
-@@||msn.wrating.com/a1.js
-@@||stjscn.s-msn.com/portal/hp/2011/udctrack.
-cn.msn.com##.advLf
-cn.msn.com##.topNav
-!-TW
-tw.msn.com###adgrouponca2
-tw.msn.com###admomoca2
-news.msn.com.tw###adv_images_l
-tw.msn.com###area1 > .ro:nth-child(6)
-tw.msn.com###ectabs
-tw.msn.com###promotionlink
-news.msn.com.tw##.three
-||promotion.msn.com.tw^
-!---未名空间
-mitbbs.com##.newskuang2
-mitbbs.com##table[width="950"]
-||jiaoyou8.com^$domain=mitbbs.com
-||mitbbs.com/ad_
-||mitbbs.com/servicedata/static_ad.php
 !---猫扑
 dzh.mop.com##.adarea_top
 tt.mop.com##.gg01
@@ -3871,13 +3850,26 @@ cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||sdo.com^$object-subrequest,domain=v.ku6.com
 ||st.vq.ku6.cn^
 ||dc.letv.com^
+||promotion.msn.com.tw^
 ||s-msn.com/portal/xiatui.js
+||jiaoyou8.com^$domain=mitbbs.com
+||mitbbs.com/ad_
+||mitbbs.com/servicedata/static_ad.php
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 dm456.com###addToFav
+mitbbs.com##.newskuang2
+mitbbs.com##TD[align="right"] + TD > TABLE[width="1000"]:first-child
+tw.msn.com###adgrouponca2
+tw.msn.com###admomoca2
+news.msn.com.tw###adv_images_l
+tw.msn.com###area1 > .ro:nth-child(6)
+tw.msn.com###ectabs
+tw.msn.com###promotionlink
+news.msn.com.tw##.three
 letv.com##.Ad
 kkkmh.com##div[class^="mm-"]
 club.kdnet.net###dispbbs30
@@ -5891,6 +5883,8 @@ gamme.com.tw#@#.adlist
 @@||juxiangyou.com/advert/
 @@||hd.duba.net/vip.ijinshan.com/repository/ad-images/$image,domain=vip.ijinshan.com
 @@||jinhongweiqi.com/ad/update/$image,~third-party
+@@||msn.wrating.com/a1.js
+@@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
