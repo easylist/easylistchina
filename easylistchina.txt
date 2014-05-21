@@ -676,19 +676,6 @@ ifeng.com##div[id^="flash_outer_"]
 ||img.ifeng.com/tres/ifeng/
 ||img.ifeng.com/tres/market/
 ||play.ifeng.com/resource_new/js/playbox.js
-!---猫扑
-dzh.mop.com##.adarea_top
-tt.mop.com##.gg01
-tt.mop.com##.gg02
-www.mop.com##.gg03
-mop.com##.ggP2
-mop.com##a[href^="http://trackx.mop.com/"]
-mop.com##div[class^="adP"]
-||imgpub.mop.com^
-||mopimg.cn/dc/
-||mopimg.cn/tj/
-||pub.mop.com^
-||task.mop.com/mop_treasure.jsp
 !---恶意网站实验室
 ||mwsl-mwsl.stor.sinaapp.com/caiyun1.png
 ||mwsl-mwsl.stor.sinaapp.com/choujiang.png
@@ -3862,11 +3849,22 @@ cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 ||jiaoyou8.com^$domain=mitbbs.com
 ||mitbbs.com/ad_
 ||mitbbs.com/servicedata/static_ad.php
+||mopimg.cn/dc/
+||mopimg.cn/tj/
+||pub.mop.com^
+||task.mop.com/mop_treasure.jsp
 ||static.tianyaui.com/gamify/broadcast/js/broadcast.
 ||bdimg.com/site/games/yxtg/*.js
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+mop.com##.adarea_120
+dzh.mop.com##.adarea_top
+mop.com##div[class^="adP"]
+tt.mop.com##.gg01
+tt.mop.com##.gg02
+www.mop.com##.gg03
+mop.com##a[href^="http://trackx.mop.com/"]
 dm456.com###addToFav
 mitbbs.com##.newskuang2
 mitbbs.com##TD[align="right"] + TD > TABLE[width="1000"]:first-child
