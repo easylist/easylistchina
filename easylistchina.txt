@@ -597,7 +597,7 @@ cet.99sushe.com###div_bottom
 !--淘宝
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/atp.js
-||strip.taobaocdn.com^$third-party
+||strip.taobaocdn.com^$third-party,domain=~57zhe.com|~youhuiyouhui.com.cn
 ||taobao.com/go/$third-party,domain=~tmall.com
 !--iQIYI
 ||qiyipic.com/common/$object-subrequest
@@ -5841,8 +5841,6 @@ house.shangdu.com#@#.top_ad
 @@||static.csbew.com^$domain=cankaoxiaoxi.com
 @@||static.hdslb.com/ad-images/$image
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
-@@||strip.taobaocdn.com/tfscom/$domain=youhuiyouhui.com.cn
-@@||strip.taobaocdn.com^$domain=57zhe.com
 @@||sznews.com/*.files/$stylesheet
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
