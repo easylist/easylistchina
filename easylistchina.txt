@@ -647,10 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---远景
-bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
-bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
-||bbs.pcbeta.com/static/image/biz/
 !---PCHome.net
 club.pchome.net###shop_promotion
 kdslife.com,pchome.net##div[class^="ad"]
@@ -2755,7 +2751,6 @@ qoocc.com##.adver300
 ||inhe.net/javascript/ad_js/
 ||inhe.net/javascript/indexad/
 ||inhe.net/javascript/quanpad_js/
-||inimc.com/activities/*_build2014/
 ||inlishui.com/index.php?m=poster
 ||inte.sogou.com^
 ||ipeen.com.tw/js/frame/ad-actions.js
@@ -3790,6 +3785,7 @@ qoocc.com##.adver300
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 chinaz.com##.ad
+bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 chinaz.com##.etc-b-head
 chinaz.com##.etc-t-head
 jandan.net##.commentlist > .row:nth-child(4)
