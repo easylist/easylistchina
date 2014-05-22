@@ -647,17 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---PCHome.net
-club.pchome.net###shop_promotion
-kdslife.com,pchome.net##div[class^="ad"]
-kdslife.com,pchome.net##div[id^="AD"]
-pchome.net##div[id^="Bar"]
-||btm.pchome.net^
-||btn.pchome.net^
-||club.pchome.net/*/localexchange.php$subdocument
-||js-1.pchome.net^
-||jscss.kdslife.com/club/html/img/aoyou.jpg
-||stat.pchome.net^
 !---南方都市报
 oeeee.com###lj.clearfix
 oeeee.com##.content.clearfix[style="height:75px;"]
@@ -3780,11 +3769,15 @@ qoocc.com##.adver300
 ||nownews.com/include_house/
 ||s.tankr.net/n/01.js
 ||chinaz.com/newshome/
+||js-1.pchome.net^
+||btn.pchome.net^
+||club.pchome.net/*/localexchange.php$subdocument
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 chinaz.com##.ad
+kdslife.com,~car.kdslife.com,pchome.net##div[class^="ad"]
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 chinaz.com##.etc-b-head
 chinaz.com##.etc-t-head
@@ -5901,4 +5894,5 @@ money18.on.cc#@#.ads-bg
 ||youdao.com/ctlog?
 ||youdao.com/tl?
 ||zol.com.cn/cgimp/zc.js
+||stat.pchome.net^
 !----------------------------------The End------------------------------------!
