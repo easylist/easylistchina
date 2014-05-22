@@ -647,17 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---南召都市网
-nzdsw.com###FullAdscontent
-nzdsw.com###FullAdscontent + script + .wrap.mt
-nzdsw.com##.focus
-||nzdsw.com/UploadFiles/upload/ad/
-||nzdsw.com/js/focus.js
-!---东方电视
-@@||home.on.cc/adv/web/corp/$~image
-@@||tv.on.cc/ad/skin_$subdocument
-money18.on.cc#@#.ads-bg
-|http://ad*.on.cc^
 !---远景
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 bbs.pcbeta.com##.forum_top + div[style]:nth-child(3)
@@ -3794,10 +3783,12 @@ qoocc.com##.adver300
 ||douban.com/misc/mixed_static/529c8492e26293cb.js
 ||ifeng.com/statics/comment_baidu.html
 ||nownews.com/include_house/
+||chinaz.com/newshome/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+chinaz.com##.ad
 nownews.com###nownews_pickup
 nownews.com###focus_area
 nownews.com###focus_board
@@ -5853,6 +5844,7 @@ house.shangdu.com#@#.top_ad
 @@||zhibowu.com/ad2.htm
 @@/adframe.$domain=btspread.com|javzoo.com
 @@||cdn.inskinmedia.com/isfe/$domain=nextmedia.com
+money18.on.cc#@#.ads-bg
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /att_count.js
