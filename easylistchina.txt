@@ -647,19 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---NewHua
-onlinedown.net##.adv
-onlinedown.net##.adr
-onlinedown.net##.ban
-newhua.com##.i1
-onlinedown.net##.newsbox
-onlinedown.net##.r1
-/newhuagg/*_right
-/newhuagg/index_
-/newhuagg/news_top.js
-@@||onlinedown.net/newhuagg/sort_pic_24_24.js
-newhua.com##div[class^="ad_"]
-||onlinedown.net/newhuagg/*_pic_$script
 !---牛游戏网
 newyx.net##.ad
 newyx.net##.adh450
@@ -3822,13 +3809,20 @@ qoocc.com##.adver300
 ||narutom.com/js/jsg2.js
 ||22mt.com/js/bd*.js
 ||22mt.com/js/zj_*.js
+/newhuagg/*_right
+/newhuagg/index_
+||onlinedown.net/newhuagg/*_pic_$script
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+onlinedown.net##.adv
+newhua.com##.i1
 hornydragon.blogspot.com###HTML8
 hornydragon.blogspot.com###HTML3
+newhua.com##div[class^="ad_"]
 narutom.com##div[class^="wrap2 vtg"]
+onlinedown.net##.r1
 gdtv.cn###ADVbuttom
 narutom.com###naruto_desk
 myfiles.com.cn##div[id^="ad_"]
