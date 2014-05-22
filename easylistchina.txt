@@ -647,21 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---Nownews
-nownews.com###anypost_topbuy
-nownews.com###focus_area
-nownews.com###focus_board
-nownews.com###hotchannel > .block_content:nth-child(3)
-nownews.com###index_headline_box + .page_title
-nownews.com###nownews_pickup
-||nowlife.nownews.com/iframe/
-||nownews.com/common/anypost/
-||nownews.com/events/extad
-||nownews.com/greenbug/
-||nownews.com/include_house/
-||nownews.com/include_v11/js/googlad_top.js
-||nownews.com/include_v11/js/more.js
-||yes123.com.tw/nownews/
 !---南召都市网
 nzdsw.com###FullAdscontent
 nzdsw.com###FullAdscontent + script + .wrap.mt
@@ -3808,10 +3793,15 @@ qoocc.com##.adver300
 ||qidian.com/javascript/ppccload.js
 ||douban.com/misc/mixed_static/529c8492e26293cb.js
 ||ifeng.com/statics/comment_baidu.html
+||nownews.com/include_house/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+nownews.com###nownews_pickup
+nownews.com###focus_area
+nownews.com###focus_board
+nownews.com###hotchannel > .block_content:nth-child(3)
 hefei.cc##.bbs_tanchuang
 nanrenwo.net##.ad-container
 nanrenwo.net##.ad3
