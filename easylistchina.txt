@@ -647,16 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---NextMedia
-!-HK
-@@||cdn.inskinmedia.com/isfe/$domain=nextmedia.com
-appledaily.com.tw###mask_wrapper
-appledaily.com.tw##.ads
-hk.dv.nextmedia.com##div[id^="ndx_"]
-||advideoadmin.appledaily.com.tw/ov_player/
-||hk.image1.nextmedia.com^$object
-||hk.ndx.nextmedia.com/DFA/js_ndxtag_v409.cfm^$domain=~hk.dv.nextmedia.com
-||lccnet.com.tw^$subdocument,domain=appledaily.com.tw
 !---Nownews
 nownews.com###anypost_topbuy
 nownews.com###focus_area
@@ -3810,6 +3800,7 @@ qoocc.com##.adver300
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 onlinedown.net##.adv
+appledaily.com.tw##.ads
 newhua.com##.i1
 hornydragon.blogspot.com###HTML8
 hornydragon.blogspot.com###HTML3
@@ -5847,6 +5838,7 @@ house.shangdu.com#@#.top_ad
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
 @@/adframe.$domain=btspread.com|javzoo.com
+@@||cdn.inskinmedia.com/isfe/$domain=nextmedia.com
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /att_count.js
