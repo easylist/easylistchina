@@ -647,30 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---人民网
-msn.people.com.cn##.banNSch
-||hi.people.com.cn/NMediaFile/$object
-||hi.people.com.cn/NMediaFile/*.gif
-||msn.people.com.cn/css/2010tianrun/
-||people.com.cn/adv/
-||people.com.cn/img/*/p_libraryad.min.js
-!---PIXNET
-www.pixnet.net###extradiv2
-www.pixnet.net###extradiv5
-cwyuni.tw,pixnet.net###pixblogad
-pixnet.net##.ad
-/blog/addvisit^
-pixnet.net##div[id*="-AD-"]
-pixnet.net##div[id*="-Ad-"]
-pixnet.net##div[id*="-aD-"]
-pixnet.net##div[id*="-ad-"]
-||api.pixnet.tv/count^
-||counter.pixplug.in/count.php
-||error.pixplug.in^
-||pixfs.net/js/mib.min.js
-||pixgold.com^
-||pixnet.net^*sticker$object
-||referer.pixplug.in^
 !---Plurk
 plurk.com###plurk_ads
 plurk.com###sliderAds
@@ -1128,7 +1104,6 @@ tw.yahoo.com##.pa-banner
 ||tw.rd.yahoo.com^$image
 ||tw.yimg.com/a/tw/
 ||yimg.com/*/ysm/
-||yimg.com/no/$domain=~yahoo.com
 !--HK
 hk.yahoo.com###eu
 hk.dictionary.yahoo.com###fr-adv
@@ -3722,10 +3697,24 @@ qoocc.com##.adver300
 ||pconline.com.cn/js/ivy.js
 ||pconline.com.cn/download/*/intf*.js
 ||people.com.cn/img/2013people/wza/domready.js
+||msn.people.com.cn/css/2010tianrun/
+||hi.people.com.cn/NMediaFile/$object
+||hi.people.com.cn/NMediaFile/*.gif
+||pixfs.net/js/mib.min.js
+||yimg.com/no/$domain=~yahoo.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+cwyuni.tw,pixnet.net###pixblogad
+pixnet.net##div[id*="-AD-"]
+pixnet.net##div[id*="-Ad-"]
+pixnet.net##div[id*="-aD-"]
+pixnet.net##div[id*="-ad-"]
+www.pixnet.net###extradiv2
+www.pixnet.net###extradiv5
+pixnet.net##.ad
+msn.people.com.cn##.banNSch
 pconline.com.cn##.ivyBaidu
 oeeee.com##div[class^="ad-"]
 sina.com.cn##.zhitou-wrap
@@ -5784,6 +5773,8 @@ house.shangdu.com#@#.top_ad
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
+@@||cbjs.baidu.com/js/m.js$domain=redocn.com
+@@||cb.baidu.com/ecom?*di=329758$domain=redocn.com
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /att_count.js
@@ -5843,4 +5834,8 @@ house.shangdu.com#@#.top_ad
 ||zol.com.cn/cgimp/zc.js
 ||cloudfront.net/atrk.js
 ||acount.pconline.com.cn^
+||counter.pixplug.in/count.php
+||api.pixnet.tv/count^
+||error.pixplug.in^
+||referer.pixplug.in^
 !----------------------------------The End------------------------------------!
