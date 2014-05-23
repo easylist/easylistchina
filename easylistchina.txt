@@ -647,12 +647,6 @@ bitauto.com##.con_ad
 ||p4u.hinet.net^
 ||p8u.hinet.net^
 ||town.xuite.net/_ad/
-!---太平洋电脑网
-pconline.com.cn##.ivyBaidu
-||acount.pconline.com.cn^
-||pcgames.com.cn/g/
-||pconline.com.cn/download/*/intf*.js
-||pconline.com.cn/js/ivy.js
 !---人民网
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing$subdocument,~third-party
 msn.people.com.cn##.banNSch
@@ -3726,10 +3720,13 @@ qoocc.com##.adver300
 ||sina.com.cn/js/1006/luck/content/sinaLoginReward2014
 ||oeeee.com/static/js/AD2v1.1.js
 /nddailyfile/webadv/*
+||pconline.com.cn/js/ivy.js
+||pconline.com.cn/download/*/intf*.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+pconline.com.cn##.ivyBaidu
 oeeee.com##div[class^="ad-"]
 sina.com.cn##.zhitou-wrap
 gdtv.cn###ADVbuttom
@@ -5845,4 +5842,5 @@ house.shangdu.com#@#.top_ad
 ||youdao.com/tl?
 ||zol.com.cn/cgimp/zc.js
 ||cloudfront.net/atrk.js
+||acount.pconline.com.cn^
 !----------------------------------The End------------------------------------!
