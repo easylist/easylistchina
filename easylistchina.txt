@@ -655,9 +655,6 @@ bitauto.com##.con_ad
 ||sy.sdo.com^
 !---sina
 !--sina.com
-dailynews.sina.com##.TopNav + table
-||sina.com/assets/js/dart/
-||sina.com/rm/
 !--sina.com.cn
 /iframe/book/*$domain=sina.com.cn
 /iframe/finance/*$domain=sina.com.cn
@@ -3634,13 +3631,18 @@ qoocc.com##.adver300
 /afp/*$domain=scol.com.cn
 ||scol.com.cn/js/def_
 ||scol.com.cn/scol-3/js/08scol_text_
+||sina.com/assets/js/dart/
+||dailynews.sina.com/gb/ads/
+||sina.com/rm/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 renren.com##.ad_rx
 renren.com##.wp-rrzm-popup
+dailynews.sina.com##.TopNav + table
 qingdaonews.com##.commonrightad
+dailynews.sina.com##.ads
 qingdaonews.com##.surround
 travel.qingdaonews.com##TABLE[style="height:200px; overflow:hidden;"]
 qqread.com##div[class$="ad"]
