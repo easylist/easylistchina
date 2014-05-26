@@ -656,20 +656,12 @@ bitauto.com##.con_ad
 !---QQ
 @@||mat1.gtimg.com/www/*/pop.js$domain=qq.com
 ent.qq.com###ent_ad
-mail.qq.com##.tipbook-top
 ||l.qq.com/p?
 ||promreport.crm2.qq.com/wpadisplay/r.gif?
 ||qq.com/livemsg?
 ||ra.gtimg.com/adsame/
 ||wa.gtimg.com^
 ||yz.qq.com^$popup
-!---大渝网
-@@||cq.qq.com/js/cody/*scroll_ad.js
-cq.qq.com##div[class^="ad-box"]
-cq.qq.com##div[style^="width:960px;"]
-||mat1.gtimg.com/cd/images/icon/float_ad_replay.gif
-||mat1.gtimg.com/cq/flash/
-||wit.qq.com^$third-party
 !--qzone
 qzone.qq.com##.gdtads_box
 ||gdt.qq.com^
@@ -2886,7 +2878,6 @@ qoocc.com##.adver300
 ||market.duowan.com^
 ||masadora.net/kakusan-
 ||masok.cn/red/
-||mat1.gtimg.com/hb/0000huangshi/dlian.jpg
 ||mat1.gtimg.com/news/news2013/imgs/201311011458.jpg
 ||mcbbs.net/data/myattachment/forum/201308/02/122628rfrrrvfzgjvaassq.jpg
 ||media.cheshi-img.com^
@@ -3683,11 +3674,15 @@ qoocc.com##.adver300
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||cj.qidian.com/Picture/$domain=sosu.qidian.com
 ||gtimg.com/sports/pics/hv1/208/52/1595/103728343.jpg
+||mat1.gtimg.com/cq/flash/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jjwxc.net##table[style^="width:984px;"]
+mycq.qq.com##DIV[style^="width:960px;"]
+cq.qq.com##div[class^="ad-box"]
+mail.qq.com##.tipbook-top
 tech.qq.com##.kjad2
 qq.com##.l_qq_com
 www.qq.com##div[class^="adRight"]
@@ -5779,6 +5774,7 @@ house.shangdu.com#@#.top_ad
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
+@@||cq.qq.com/js/cody/*scroll_ad.js
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /att_count.js
@@ -5843,4 +5839,5 @@ house.shangdu.com#@#.top_ad
 ||youdao.com/tl?
 ||zol.com.cn/cgimp/zc.js
 ||login.sdo.com/sdo/PRes/js/sdo_beacon.js
+||wit.qq.com^$third-party
 !----------------------------------The End------------------------------------!
