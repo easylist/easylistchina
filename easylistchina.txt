@@ -653,21 +653,6 @@ bitauto.com##.con_ad
 ||adrs.sdo.com^
 ||ck.sdo.com^
 ||sy.sdo.com^
-!--qzone
-qzone.qq.com##.gdtads_box
-||gdt.qq.com^
-||isdspeed.qq.com^
-||users.qzone.qq.com/cgi-bin/pos/cgi_getpos?
-!---巧巧读书
-@@||qqread.com/swf/qqread_rollpic.swf
-qqread.com##div[class$="ad"]
-||qqread.com/*js/$script
-||qqread.com/swf/
-!---青岛新闻网,海奥网
-qingdaonews.com##.commonrightad
-qingdaonews.com##.surround
-up.qingdaonews.com/up/$object,script
-||up.hiao.com^
 !---人人
 renren.com##.wp-rrzm-popup
 ||ebp.renren.com^
@@ -3667,10 +3652,18 @@ qoocc.com##.adver300
 ||gtimg.com/sports/pics/hv1/208/52/1595/103728343.jpg
 ||gtimg.com/cq/0000/0001/index_0505_330_302.swf
 ||mat1.gtimg.com/cq/flash/
+||qqread.com/*js/$script
+||qqread.com/swf/
+||up.qingdaonews.com/up/$object,script
+||up.hiao.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qingdaonews.com##.commonrightad
+qingdaonews.com##.surround
+travel.qingdaonews.com##TABLE[style="height:200px; overflow:hidden;"]
+qqread.com##div[class$="ad"]
 tieba.baidu.com##.game_content
 tieba.baidu.com##.game_tab
 jjwxc.net##table[style^="width:984px;"]
@@ -5770,6 +5763,7 @@ house.shangdu.com#@#.top_ad
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
 @@||cq.qq.com/js/cody/*scroll_ad.js
+@@||qqread.com/swf/qqread_rollpic.swf
 !--------------------------------tracking systems-----------------------------!
 /atcount.php?$domain=178.com
 /att_count.js
@@ -5837,4 +5831,6 @@ house.shangdu.com#@#.top_ad
 ||wit.qq.com^$third-party
 ||l.qq.com/p?
 ||qq.com/livemsg?
+||gdt.qq.com^
+||isdspeed.qq.com^
 !----------------------------------The End------------------------------------!
