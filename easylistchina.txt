@@ -663,18 +663,12 @@ bitauto.com##.con_ad
 /iframe/sports/*$domain=sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 ||log.interest.mix.sina.com.cn^
-||news.sina.com.cn/pvcounter/
 ||v.sina.com.cn^$subdocument
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
 ~sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
 !-house
-||adm.leju.sina.com.cn/get_abp_list/
-||bj.house.sina.com.cn^$script
 ||img.house.sina.com.cn/a/swf/
-!-mail
-||mail.sina.com.cn/admail/
-||mail.sina.com.cn/freemail/news/oneline-notice.html
 !-sh.sina.com.cn
 ||sh.sina.com.cn/iframe/408/
 ||sh.sina.com.cn/iframe/522/
@@ -3625,6 +3619,8 @@ qoocc.com##.adver300
 ||sinaimg.cn^*/deco/$script
 ||rm.sina.com.cn^$domain=~lady.weibo.com
 ||p4p.sina.com.cn^
+||adm.leju.sina.com.cn/get_abp_list/
+||bj.house.sina.com.cn^$script
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -5817,4 +5813,5 @@ house.shangdu.com#@#.top_ad
 ||isdspeed.qq.com^
 /1.gif?$domain=scol.com.cn
 ||rs.sinajs.cn^
+||news.sina.com.cn/pvcounter/
 !----------------------------------The End------------------------------------!
