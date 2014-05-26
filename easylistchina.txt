@@ -662,7 +662,6 @@ bitauto.com##.con_ad
 /iframe/no/*$domain=sina.com.cn
 /iframe/sports/*$domain=sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
-wx.sina.com.cn###artibody > .article-video
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||log.interest.mix.sina.com.cn^
 ||news.sina.com.cn/pvcounter/
@@ -3631,11 +3630,13 @@ qoocc.com##.adver300
 ||d5.sina.com.cn^$object,object-subrequest,script
 ||sinaimg.cn/unipro/
 ||news.sina.com.cn/js/792/*head*.js
+||wx.sina.com.cn/iframe/pdps/
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+wx.sina.com.cn###artibody > .article-video
 sina.com.cn##.ad_main_top
 news.sina.com.cn##div[class^="ATopTxt"]
 www.sina.com.cn##.mod-01
