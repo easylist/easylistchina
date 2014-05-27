@@ -654,30 +654,13 @@ bitauto.com##.con_ad
 ||ck.sdo.com^
 ||sy.sdo.com^
 !---sina
-!--sina.com
-!--sina.com.cn
-/iframe/finance/*$domain=sina.com.cn
-/iframe/gn/*$domain=sina.com.cn
-/iframe/sports/*$domain=sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 ||log.interest.mix.sina.com.cn^
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-~sina.com.cn##a[href^="http://sina.allyes.com/main/adfclick?"]
-!-house
-||img.house.sina.com.cn/a/swf/
 !-sh.sina.com.cn
 ||sh.sina.com.cn/iframe/408/
 ||sh.sina.com.cn/iframe/522/
-!-video
-||dcads.sina.com.cn^
-||l.you.video.sina.com.cn^$object-subrequest
-||video.sina.com.cn/iframe/
-!-weibo
-weibo.com##.right_content.hot_topic.hot_topicad1
-weibo.com##div[ad-data]
-weibo.com##div[feedtype="ad"]
-||biz.weibo.com^
 !--sina.com.hk
 sina.com.hk##.sidebarItem:nth-child(10)
 ||as.sinahk.net^
@@ -3642,12 +3625,16 @@ qoocc.com##.adver300
 ||xian.qq.com/js/mouseonoff/adswf_tl_object.js
 ||qq.com/bbs/bbs_topgg.htm
 ||pcgames.com.cn/jctj/
+||biz.weibo.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 so.rkanr.com##.bill
 dbw.cn##.ad980top
+weibo.com##.right_content.hot_topic.hot_topicad1
+weibo.com##div[ad-data]
+weibo.com##div[feedtype="ad"]
 ks321.com###N_a3
 ks321.com###N_a6
 ks321.com###N_a5
