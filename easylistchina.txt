@@ -658,19 +658,10 @@ bitauto.com##.con_ad
 ||log.interest.mix.sina.com.cn^
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-!-sh.sina.com.cn
-||sh.sina.com.cn/iframe/408/
-||sh.sina.com.cn/iframe/522/
-!--sina.com.hk
-sina.com.hk##.sidebarItem:nth-child(10)
-||as.sinahk.net^
 !--sina.com.tw
 find.sina.com.tw###show_ysm + div[style]
-||buy.sina.com.tw/js/sina_popup.php
 ||ezprice.com.tw/partner/sina/ez2sina.js
 ||news.sina.com.tw/_data/adsbro_hotspot.js
-||news.sina.com.tw/js/ti.js
-||sina.com.tw^$subdocument
 !---水母网
 shm.com.cn##.surround2
 ||a.shm.com.cn/up/content.js
@@ -3626,6 +3617,12 @@ qoocc.com##.adver300
 ||qq.com/bbs/bbs_topgg.htm
 ||pcgames.com.cn/jctj/
 ||biz.weibo.com^
+||sh.sina.com.cn/iframe/408/
+||sh.sina.com.cn/iframe/522/
+||as.sinahk.net^
+||buy.sina.com.tw/js/sina_popup.php
+||sina.com.tw^$subdocument
+||news.sina.com.tw/js/ti.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
