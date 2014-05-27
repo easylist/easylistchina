@@ -3620,6 +3620,7 @@ qoocc.com##.adver300
 ||p4p.sina.com.cn^
 ||adm.leju.sina.com.cn/get_abp_list/
 ||bj.house.sina.com.cn^$script
+||img1.efu.com.cn/upfile/bew/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -5505,12 +5506,7 @@ lywww.com##ul[id^="addimg_"]
 taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-color:#ffffff;"]
 00sy.com##ul[style="width: 830px;margin:0 auto;height:250px;text-align:center;margin-top:10px;"]
 v.pps.tv##.pps-app-layer
-efu.com.cn##.layout-a.layout
-efu.com.cn##.ad-Float
-efu.com.cn##.banner-aa.mtop10
-efu.com.cn##.banner-bbb
-fashion.efu.com.cn##.banner-top
-fashion.efu.com.cn##.smar-banner
+efu.com.cn##DIV[class*="banner-"]
 !---------------------------------Whitelists----------------------------------!
 920url.com#@##AdDiv
 gohome.com.hk#@##adFrame
