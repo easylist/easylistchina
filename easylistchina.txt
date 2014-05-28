@@ -666,16 +666,7 @@ sogou.com###zhuanqu
 ||file.cloud.sogou.com/*/superzone/
 ||lu.sogou.com^$subdocument
 !---搜房
-soufun.com##.adtextlink
-soufun.com##.photo02
-soufun.com##.photo03
-soufun.com##.topbanner
-soufun.com##div[class^="ad_"]
-news.sh.soufun.com##table[width="270"][height="400"][align="left"]
 ||hezuo.sh.soufun.com^$subdocument,third-party
-||imgn.jiatx.com/jiatx/mall/outer/
-||news.sh.soufun.com^$subdocument
-||show.soufun.com/adsunion/
 ||soufun.com/html/homepage/ad/
 !--好租网
 haozu.com##.index7ad
@@ -1055,7 +1046,6 @@ suning.com#@##topAd
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
 !--missing
-||soufun.com/afp/door/
 ||wangpanwu.com/images/aoyou.gif
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
@@ -3179,7 +3169,6 @@ qoocc.com##.adver300
 ||softhy.net/hp/
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||soommyl.com/tselang/cpv.js
-||soufunimg.com/news/2014_04/11/1397183781043.jpg
 ||source.qunar.com/site/images/wns/
 ||southmoney.com/page/inc/
 ||southmoney.com/page/top
@@ -3598,10 +3587,15 @@ qoocc.com##.adver300
 ||js.tv.itc.cn/gg$script
 ||sohu.com/ssi/ad.js
 ||wan.sogou.com/pop/
+||soufun.com/afp/door/
+||imgn.jiatx.com/jiatx/mall/outer/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+soufun.com##.photo02
+soufun.com##div[class^="ad_"]
+soufun.com##.photo03
 tv.sohu.com###miaozhenad
 sogou.com###rads
 sohu.com##.adB
