@@ -668,27 +668,9 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!--好租网
-haozu.com##.index7ad
-||haozu.com/ajax/loadindexads$subdocument
-!--HOUSE365
-house365.com##.m_coup-big
-||house365.com/js/lbpopup.js
-!---山西新闻网
-www.sxrb.com###f_div
-www.sxrb.com##.ad2
-www.sxrb.com##.area1_2_ad2
-www.sxrb.com##.itemFloat
-www.sxrb.com##img[height="70"]
-www.sxrb.com##img[width="650"][height="90"]
-||images.daynews.com.cn/flash/
-||images.daynews.com.cn/zzbframe/2008daynews/ad/
 !---深圳
 sznews.com###MyMoveAd
-||countpage.sznews.com^
-||sznews.com/*.files/$~script
 ||sznews.com/2008gg/
-||sznews.com/css/$script
 ||sznews.com/top/page_stat.js
 !---淘股吧
 taoguba.com.cn##.flash_div
@@ -3589,10 +3571,16 @@ qoocc.com##.adver300
 ||wan.sogou.com/pop/
 ||soufun.com/afp/door/
 ||imgn.jiatx.com/jiatx/mall/outer/
+||house365.com/js/lbpopup.js
+||images.daynews.com.cn/zzbframe/2008daynews/ad/
+||sznews.com/*.files/$~script
+||sznews.com/css/$script
+||sznews.com/js/$image,object
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+house365.com##.m_coup-big
 soufun.com##.photo02
 soufun.com##div[class^="ad_"]
 soufun.com##.photo03
@@ -5812,4 +5800,5 @@ house.shangdu.com#@#.top_ad
 ||hd.sohu.com.cn^$object-subrequest
 ||itc.cn^*/tracker.js
 ||sogou.com/js/pb_*.js
+||countpage.sznews.com^
 !----------------------------------The End------------------------------------!
