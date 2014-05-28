@@ -669,13 +669,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---TOM.COM
-tom.com##.conttopad
-||post.weiqi.tom.com/pfprt.php
-!-tom365
-tom365.com###t365
-||ff.wanlicity.com^
-||tom365.com/newjs/
 !---天山网
 /mysql/count/*$script,domain=ts.cn
 ts.cn##.new_banner
@@ -3559,11 +3552,14 @@ qoocc.com##.adver300
 ||news.tom.com/v2008.js
 ||tom.com/templets/tomwq/ad/
 ||sc.tom.com^
+||tom365.com/js/*0
+||tom365.com/newjs/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 tianya.cn##div[id*="_AD_"]
+tom365.com###t365
 tgbus.com##.ad79
 tgbus.com###neck_970
 tgbus.com##.ad200x375
