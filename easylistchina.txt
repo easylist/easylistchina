@@ -660,34 +660,21 @@ bitauto.com##.con_ad
 ||simg.sinajs.cn/blog7style/images/special/
 !---搜狐
 news.sohu.com###adList
-www.sohu.com###ad_TOP
-www.sohu.com###contentC > .columnC
-sohu.com###turn-ad
-sohu.com##.adB
 pinglun.sohu.com##.sogouAd1
 ting.m.sohu.com##.topPic
-~cbachina.sports.sohu.com,sohu.com##sohuadcode
-||images.sohu.com/bill/
-||images.sohu.com/cs/
 ||itc.cn^*/tracker.js
 ||news.sohu.com/upload/article/2012/images/swf/
-||xls.go.sohu.com^
 ||z.t.sohu.com^
 !--tv
 tv.sohu.com###miaozhenad
 tv.sohu.com##.skyAD
 ||hd.sohu.com.cn^$object-subrequest
 ||images.sohu.com/ytv/$subdocument
-||images.sohu.com/ytv/*.swf
-||js.tv.itc.cn/gg$script
-||vm.aty.sohu.com^
 !--Sogou
 map.sogou.com###CboardDlg_1
 sogou.com###zhuanqu
-||brand.sogou.com^
 ||file.cloud.sogou.com/*/superzone/
 ||lu.sogou.com^$subdocument
-||pb.sogou.com^$image
 ||sogou.com/js/pb_*.js
 ||wan.sogou.com/pop/
 !---搜房
@@ -3617,10 +3604,20 @@ qoocc.com##.adver300
 ||zyzczs.com/js/tj.txt
 ||shm.com.cn/css/m.js
 ||shm.com.cn/shm/Html/Item/conn.js
+||images.sohu.com/bill/
+||images.sohu.com/cs/
+||images.sohu.com/ytv/*.swf
+||js.tv.itc.cn/gg$script
+||sohu.com/ssi/ad.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sohu.com##.adB
+sohu.com###turn-ad
+www.sohu.com###ad_TOP
+www.sohu.com###contentC > .columnC
+~cbachina.sports.sohu.com,sohu.com##sohuadcode
 shm.com.cn##.surround2
 shm.com.cn##.ad_baidu_300250
 shm.com.cn##.ad_taobao
@@ -5824,4 +5821,7 @@ house.shangdu.com#@#.top_ad
 ||youdao.com/ctlog?
 ||youdao.com/tl?
 ||zol.com.cn/cgimp/zc.js
+||brand.sogou.com^
+||xls.go.sohu.com^
+||pb.sogou.com^$image
 !----------------------------------The End------------------------------------!
