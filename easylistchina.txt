@@ -662,12 +662,9 @@ bitauto.com##.con_ad
 tv.sohu.com##.skyAD
 ||images.sohu.com/ytv/$subdocument
 !--Sogou
-map.sogou.com###CboardDlg_1
 sogou.com###zhuanqu
 ||file.cloud.sogou.com/*/superzone/
 ||lu.sogou.com^$subdocument
-||sogou.com/js/pb_*.js
-||wan.sogou.com/pop/
 !---搜房
 soufun.com##.adtextlink
 soufun.com##.photo02
@@ -3600,11 +3597,13 @@ qoocc.com##.adver300
 ||images.sohu.com/ytv/*.swf
 ||js.tv.itc.cn/gg$script
 ||sohu.com/ssi/ad.js
+||wan.sogou.com/pop/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 tv.sohu.com###miaozhenad
+sogou.com###rads
 sohu.com##.adB
 sohu.com###turn-ad
 www.sohu.com###ad_TOP
@@ -5818,4 +5817,5 @@ house.shangdu.com#@#.top_ad
 ||pb.sogou.com^$image
 ||hd.sohu.com.cn^$object-subrequest
 ||itc.cn^*/tracker.js
+||sogou.com/js/pb_*.js
 !----------------------------------The End------------------------------------!
