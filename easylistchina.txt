@@ -668,23 +668,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---淘股吧
-taoguba.com.cn##.flash_div
-taoguba.com.cn##.label2
-||img.taoguba.com.cn/gbimg/
-||img.taoguba.com.cn/images/$object
-||img.taoguba.com.cn/js/tgbduilian.js
-!---电玩巴士
-@@||gg.tgbus.com^$image,domain=android.tgbus.com|ipad.tgbus.com|iphone.tgbus.com
-tgbus.com###duilian
-tgbus.com##.ad79
-tgbus.com##.t8
-tgbus.com##div[id^="TGBUS_VISTA_CONTAINER_"]
-||17446.com/a/
-||inc.tgbus.com/frame/article_*_google.htm
-||inc.tgbus.com/frame/youxi.html
-||tgbus.com/sf/taobao/
-||vista.tgbusdata.cn/s.js$domain=~android.tgbus.com|~ipad.tgbus.com|~iphone.tgbus.com
 !---TianYa
 focus.tianya.cn###jpgw
 tianya.cn##.pinpaiContent
@@ -3572,10 +3555,20 @@ qoocc.com##.adver300
 ||sznews.com/css/$script
 ||sznews.com/js/$image,object
 /sznews/images/bbsgg
+||img.taoguba.com.cn/gbimg/
+||img.taoguba.com.cn/images/$object
+||img.taoguba.com.cn/js/tgbduilian.js
+||vista.tgbusdata.cn/s.js
+||inc.tgbus.com/frame/youxi.html
+||tgbus.com/sf/taobao/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tgbus.com##.ad79
+tgbus.com##.t8
+taoguba.com.cn##.flash_div
+taoguba.com.cn##.label2
 sznews.com##.right_flash
 sznews.com##DIV[style="border:solid 1px #ddd; padding-bottom:10px; padding-top:10px; margin-bottom:10px; width:670px; overflow:hidden; zoom:1; font-family:SimSun ;"]
 house365.com##.m_coup-big
@@ -5720,6 +5713,7 @@ house.shangdu.com#@#.top_ad
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
+ipad.tgbus.com#@#.ads01
 !--------------------------------tracking systems-----------------------------!
 /1.gif?$domain=scol.com.cn
 /atcount.php?$domain=178.com
