@@ -669,23 +669,9 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---TianYa
-focus.tianya.cn###jpgw
-tianya.cn##.pinpaiContent
-tianya.cn##div[class^="ad_"]
-tianya.cn##div[id*="_AD_"]
-||8*.tianya.cn^
-||blog.tianya.cn/tuijian/tanchu.js
-||click.tianyaui.com^
-||global.tianyaui.com/global/wizard/js/wizard.js
-||static.tianyaui.com^*/stat_20080313.js
-||wres.mangocity.com/js/w/hezuo/
 !---TOM.COM
 tom.com##.conttopad
-||js.pub.tom.com^
-||news.tom.com/v2008.js
 ||post.weiqi.tom.com/pfprt.php
-||sc.tom.com^
 !-tom365
 tom365.com###t365
 ||ff.wanlicity.com^
@@ -3565,10 +3551,19 @@ qoocc.com##.adver300
 ||rising.com.cn/weblog/
 ||rising.cn/index/20130717/images/wifiad.png
 ||qdjimo.com/html/js/
+||8*.tianya.cn^
+||static.tianyaui.com^*/stat_20080313.js
+||global.tianyaui.com/global/wizard/js/wizard.js
+||blog.tianya.cn/tuijian/tanchu.js
+||js.pub.tom.com^
+||news.tom.com/v2008.js
+||tom.com/templets/tomwq/ad/
+||sc.tom.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tianya.cn##div[id*="_AD_"]
 tgbus.com##.ad79
 tgbus.com###neck_970
 tgbus.com##.ad200x375
@@ -5804,4 +5799,5 @@ ipad.tgbus.com#@#.ads01
 ||itc.cn^*/tracker.js
 ||sogou.com/js/pb_*.js
 ||countpage.sznews.com^
+||click.tianyaui.com^
 !----------------------------------The End------------------------------------!
