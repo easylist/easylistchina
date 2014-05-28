@@ -691,16 +691,6 @@ verypsp.com##table[width="960"]
 ||verypsp.com/bbs.html
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
-!---威锋
-feng.com,weiphone.com##.b_adlink
-feng.com,weiphone.com##.brand
-feng.com,weiphone.com##div[class^="wea_d_"]
-||aoodoo.feng.com^
-||aoodoo.weiphone.com^
-||feng.com/baidu.html
-||lab.feng.com/images_new/ad-
-||lab.weiphone.com/images_new/ad-
-||weiphone.com/baidu.html
 !---绿色软件联盟
 xdowns.com###part_1
 ||xdowns.com/cc/
@@ -3529,6 +3519,8 @@ weather.com.cn##div[class^="adpos"]
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
 ||464mnk.com/templets/new/static/js/common.js
+||aoodoo.feng.com^
+||lab.feng.com/images_new/ad-
 ||adm.265g.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
@@ -3540,6 +3532,8 @@ weather.com.cn##div[class^="adpos"]
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jiancai365.cn##div[style^="position:fixed;+position"]
+feng.com##.brand
+feng.com##div[class^="wea_d_"]
 voc.com.cn###ad_top_gg
 voc.com.cn##.banner-box1
 voc.com.cn##.banner1000_60
@@ -5257,7 +5251,6 @@ qidian.com##div[class^="show_ggpic_"]
 21cn.com##div[class^="topAds"]
 tuzuan.com##div[class^="tuzuanad"]
 feng.com##div[class^="wep_d_"]
-feng.com##div[class^="wep_e_"]
 narutom.com##div[class^="wrap2 vtg"]
 junshigang.com##div[class^="ww300"]
 d586.com##div[class^="yd_ad"]
