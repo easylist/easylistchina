@@ -669,11 +669,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---U17
-u17.com###rd280
-u17.com##.mylife
-u17.com##div[id^="u17-advert"]
-||s.u17t.com/leaflet/upload/
 !---游久网
 uuu9.com###cm1337
 www.uuu9.com##.T_banner
@@ -3547,10 +3542,12 @@ qoocc.com##.adver300
 ||tom365.com/js/*0
 ||tom365.com/newjs/
 ||ts.cn^*/site1/$object
+||s.u17t.com/leaflet/upload/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+u17.com##div[id^="u17-advert"]
 ts.cn##IMG[width="1000"][src*="/site1/"]
 ts.cn##div[class^="ad"]
 tianya.cn##div[id*="_AD_"]
