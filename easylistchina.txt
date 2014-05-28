@@ -691,9 +691,6 @@ verypsp.com##table[width="960"]
 ||verypsp.com/bbs.html
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
-weather.com.cn##.post_st
-weather.com.cn##div[class^="adpos"]
-||poster.weather.com.cn^
 !---威锋
 feng.com,weiphone.com##.b_adlink
 feng.com,weiphone.com##.brand
@@ -1209,7 +1206,7 @@ dnserror*.wo.com.cn^
 .info/diantan.html$popup
 .info/luoliao/$popup
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=5278.cc|5278bbs.com|coual.com|downp2p.com|dwbpy.com|jandown.com|jxedt.com|mimima.com|queoh.com|rmdown.com|see3r.com|shclk.com|ttft.in|xhcbb.com|xunfs.com
+|http:$popup,third-party,domain=5278.cc|5278bbs.com|coual.com|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|mimima.com|queoh.com|rmdown.com|see3r.com|shclk.com|ttft.in|xhcbb.com|xunfs.com
 ||133gp.com^$popup
 ||90hnbb.com^$popup,script
 ||922xxx.pw/dh$popup
@@ -1247,7 +1244,7 @@ dnserror*.wo.com.cn^
 .com/ys/ad_top$domain=9baka.com|9gal.com
 .html|$domain=www.gamer.com.tw
 /2kk.cc-330-50.gif
-/?age=1&$domain=coual.com|dwbpy.com|queoh.com|see3r.com|shclk.com|ttft.in|xhcbb.com
+/?age=1&$domain=coual.com|dwbpy.com|kxddd.com|queoh.com|see3r.com|shclk.com|ttft.in|xhcbb.com
 /adm/*$domain=ganji.com
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /afp/*$domain=scol.com.cn
@@ -3524,6 +3521,9 @@ qoocc.com##.adver300
 ||bbs.voc.com.cn/s.js
 ||voc.com.cn/Frame/qqms_cs.html
 ||hunan.voc.com.cn/Script/ArticleContentAD.js
+weather.com.cn##.post_st
+weather.com.cn##div[class^="adpos"]
+||poster.weather.com.cn^
 ||adm.265g.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
