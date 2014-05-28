@@ -669,14 +669,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---天山网
-/mysql/count/*$script,domain=ts.cn
-ts.cn##.new_banner
-ts.cn##.search
-ts.cn##div[class^="ad"]
-||ts.cn/14441.files/$object
-||ts.cn/special/$subdocument
-||ts.cn^*/site1/$object
 !---U17
 u17.com###rd280
 u17.com##.mylife
@@ -3554,10 +3546,13 @@ qoocc.com##.adver300
 ||sc.tom.com^
 ||tom365.com/js/*0
 ||tom365.com/newjs/
+||ts.cn^*/site1/$object
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ts.cn##IMG[width="1000"][src*="/site1/"]
+ts.cn##div[class^="ad"]
 tianya.cn##div[id*="_AD_"]
 tom365.com###t365
 tgbus.com##.ad79
@@ -5796,4 +5791,5 @@ ipad.tgbus.com#@#.ads01
 ||sogou.com/js/pb_*.js
 ||countpage.sznews.com^
 ||click.tianyaui.com^
+/mysql/count/*$script,domain=ts.cn
 !----------------------------------The End------------------------------------!
