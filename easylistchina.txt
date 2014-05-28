@@ -669,17 +669,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---游久网
-uuu9.com###cm1337
-www.uuu9.com##.T_banner
-uuu9.com##.adbox
-uuu9.com##.adfocusbox
-uuu9.com##.h_50
-news.uuu9.com##.ng_banner
-uuu9.com##div[class^="ad_140"]
-||uuu9.com/code/tool_netgame/$image
-||uuu9.com/news/css/news_content_in.js
-||uuu9.com/photolog.html
 !--265G
 265g.com###sfmt
 265g.com##.bg_ban
@@ -3109,7 +3098,7 @@ qoocc.com##.adver300
 ||ssshot.com/dddaaa/
 ||st.vq.ku6.cn^
 ||starnnews.com/banner/
-||stat.uuu9.com/stat/shouye/
+||uuu9.com/stat/shouye/
 ||static.1000eb.com/www/img/rili.gif
 ||static.aizhan.com/jsa/
 ||static.cnbetacdn.com/slide/2014/0515/1400129258.jpg
@@ -3543,12 +3532,16 @@ qoocc.com##.adver300
 ||tom365.com/newjs/
 ||ts.cn^*/site1/$object
 ||s.u17t.com/leaflet/upload/
+||uuu9.com/news/css/news_content_in.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 ||xitongzhijia.net/theme/default/images/udaxia2.gif
 ||xitongzhijia.net/theme/default/images/725x90.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+uuu9.com###cm1337
+uuu9.com###top
+uuu9.com##div[class^="ad_140"]
 u17.com##div[id^="u17-advert"]
 ts.cn##IMG[width="1000"][src*="/site1/"]
 ts.cn##div[class^="ad"]
@@ -5791,4 +5784,5 @@ ipad.tgbus.com#@#.ads01
 ||countpage.sznews.com^
 ||click.tianyaui.com^
 /mysql/count/*$script,domain=ts.cn
+||uuu9.com/photolog.html
 !----------------------------------The End------------------------------------!
