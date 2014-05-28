@@ -669,14 +669,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!--265G
-265g.com###sfmt
-265g.com##.bg_ban
-265g.com##.bg_ban_bar
-265g.com##.play_fmt
-265g.com##div[class^="ban"]
-||265g.com/indexapp/$popup
-||adm.265g.com^
 !---udn
 /PROJ_AD/*$domain=udn.com
 @@||video.udn.com/player/Adv.swf$object-subrequest
@@ -3533,12 +3525,19 @@ qoocc.com##.adver300
 ||ts.cn^*/site1/$object
 ||s.u17t.com/leaflet/upload/
 ||uuu9.com/news/css/news_content_in.js
+||adm.265g.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 ||xitongzhijia.net/theme/default/images/udaxia2.gif
 ||xitongzhijia.net/theme/default/images/725x90.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+265g.com##.play_fmt
+265g.com###cont_pm
+265g.com###sfmt
+265g.com##.bg_ban
+265g.com##.bg_ban_bar
+265g.com##div[class^="ban"]
 uuu9.com###cm1337
 uuu9.com###top
 uuu9.com##div[class^="ad_140"]
