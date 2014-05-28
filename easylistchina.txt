@@ -668,10 +668,6 @@ sogou.com###zhuanqu
 !---搜房
 ||hezuo.sh.soufun.com^$subdocument,third-party
 ||soufun.com/html/homepage/ad/
-!---深圳
-sznews.com###MyMoveAd
-||sznews.com/2008gg/
-||sznews.com/top/page_stat.js
 !---淘股吧
 taoguba.com.cn##.flash_div
 taoguba.com.cn##.label2
@@ -3580,6 +3576,8 @@ qoocc.com##.adver300
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sznews.com##.right_flash
+sznews.com##DIV[style="border:solid 1px #ddd; padding-bottom:10px; padding-top:10px; margin-bottom:10px; width:670px; overflow:hidden; zoom:1; font-family:SimSun ;"]
 house365.com##.m_coup-big
 soufun.com##.photo02
 soufun.com##div[class^="ad_"]
