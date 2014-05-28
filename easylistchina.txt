@@ -658,17 +658,8 @@ bitauto.com##.con_ad
 ||log.interest.mix.sina.com.cn^
 !-blog feed
 ||simg.sinajs.cn/blog7style/images/special/
-!---搜狐
-news.sohu.com###adList
-pinglun.sohu.com##.sogouAd1
-ting.m.sohu.com##.topPic
-||itc.cn^*/tracker.js
-||news.sohu.com/upload/article/2012/images/swf/
-||z.t.sohu.com^
 !--tv
-tv.sohu.com###miaozhenad
 tv.sohu.com##.skyAD
-||hd.sohu.com.cn^$object-subrequest
 ||images.sohu.com/ytv/$subdocument
 !--Sogou
 map.sogou.com###CboardDlg_1
@@ -3613,6 +3604,7 @@ qoocc.com##.adver300
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tv.sohu.com###miaozhenad
 sohu.com##.adB
 sohu.com###turn-ad
 www.sohu.com###ad_TOP
@@ -5824,4 +5816,6 @@ house.shangdu.com#@#.top_ad
 ||brand.sogou.com^
 ||xls.go.sohu.com^
 ||pb.sogou.com^$image
+||hd.sohu.com.cn^$object-subrequest
+||itc.cn^*/tracker.js
 !----------------------------------The End------------------------------------!
