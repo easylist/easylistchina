@@ -691,23 +691,6 @@ verypsp.com##table[width="960"]
 ||verypsp.com/bbs.html
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
-!---西陆网
-xilu.com##.advtable
-!---新华网
-@@||xinhuanet.com/static/rmedia/pv.swf
-_iframe.htm|$domain=news.cn|xinhuanet.com
-||xinhuanet.com/classad/
-||xinhuanet.com^*/ad_
-||xinhuanet.com^*_tl_$script
-!---西子湖畔
-xizi.com##.main_mod.cc
-xizi.com##.top_recommend
-||a.xizi.com^
-||app2.xizi.com/uploadfile/
-||xizi.com/js/rotator.js
-!---新丝路
-xj163.cn##div[class^="ad"]
-||61.128.121.99/nsrad/
 !---XunLei
 kankan.com##div[id^="cm"].banner
 kuai.xunlei.com##.adv_area
@@ -3510,10 +3493,19 @@ weather.com.cn##div[class^="adpos"]
 ||content.xilu.com^$object
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
+||xinhuanet.com/classad/
+||xinhuanet.com^*/ad_
+||xinhuanet.com^*_tl_$script
+_iframe.htm|$domain=news.cn|xinhuanet.com
+||a.xizi.com^
+||xizi.com/js/rotator.js
+||61.128.121.99/nsrad/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xj163.cn###ad
+xj163.cn##div[class^="ad"]
 xcar.com.cn##div[class^="adset"]
 xilu.com##.shehuibanner
 xilu.com##.shopLinks
@@ -5685,6 +5677,7 @@ house.shangdu.com#@#.top_ad
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
+@@||xinhuanet.com/static/rmedia/pv.swf
 !--------------------------------tracking systems-----------------------------!
 /1.gif?$domain=scol.com.cn
 /atcount.php?$domain=178.com
