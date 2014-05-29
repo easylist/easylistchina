@@ -747,12 +747,8 @@ hk.yahoo.com###ysm-ad
 yaolan.com###j_focus_img
 yaolan.com###j_focus_num
 yaolan.com##.SybAd
-yaolan.com##.focus
 yaolan.com##.fwBotAd
-/adscript/crazyad.js
-yaolan.com##div[id*="underHdAd"]
 yaolan.com##div[id^="active_ad"]
-yaolan.com##div[id^="bot_ad"]
 yaolan.com##div[id^="fmAdCenter"]
 yaolan.com##div[id^="frPicWzAd"]
 yaolan.com##div[id^="frWzAd"]
@@ -760,7 +756,6 @@ yaolan.com##div[id^="mama_ad"]
 yaolan.com##div[id^="topAd"]
 yaolan.com##div[id^="underZs"]
 yaolanimage.cn/home/js/adinsert_new.js
-||adpub.yaolan.com^
 !*** chinalist-temp.txt ***
 !---2014.03
 ||qtfy30.cn/top_690.gif
@@ -3437,12 +3432,19 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||static.zongheng.com^*/index_r_b.js
 ||static.zongheng.com/upload/ad/
 ||static.zongheng.com/upload/zhds/
+/adscript/crazyad.js
+||adpub.yaolan.com^
 ||tucao.cc/index.php?m=poster&
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 sz.zj.cn###popup
+yaolan.com###AD
+yaolan.com###yuer_top
+yaolan.com##.focus
+yaolan.com##div[id*="underHdAd"]
+yaolan.com##div[id^="bot_ad"]
 mmzh.com###dlle
 mmzh.com###dlri
 zol.com.cn##.ad-box
