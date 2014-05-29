@@ -693,10 +693,6 @@ verypsp.com##table[width="960"]
 @@||poster.weather.com.cn/p_files/base/$image
 !---西陆网
 xilu.com##.advtable
-||content.xilu.com^$object
-||newspage.xilu.com/model/visitlog.js
-||xilu.com/iframe/pagepic/
-||xilu.com/js/bd.js
 !---新华网
 @@||xinhuanet.com/static/rmedia/pv.swf
 _iframe.htm|$domain=news.cn|xinhuanet.com
@@ -3511,11 +3507,15 @@ weather.com.cn##div[class^="adpos"]
 ||xdowns.com/js/lefttuijian.js
 ||d0.xcar.com.cn^
 ||adm.xmfish.com^
+||content.xilu.com^$object
+||xilu.com/iframe/pagepic/
+||xilu.com/js/bd.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 xcar.com.cn##div[class^="adset"]
+xilu.com##.shehuibanner
 bbs.xmfish.com##.cmp_v
 bbs.xmfish.com##span[id^="ads"]
 xdowns.com###part_1
@@ -5767,4 +5767,5 @@ house.shangdu.com#@#.top_ad
 ||youdao.com/tl?
 ||zol.com.cn/cgimp/zc.js
 ||dw.xcar.com.cn^
+||newspage.xilu.com/model/visitlog.js
 !----------------------------------The End------------------------------------!
