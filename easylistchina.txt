@@ -743,25 +743,6 @@ hk.yahoo.com###ysm-ad
 @@||union.maccms.com/gg/baidu.html
 @@||union.maccms.com/gg/qvod.html
 @@||union.maccms.com/player8/init.js
-!---江南
-home.sz.zj.cn##.mb10.tips
-sz.zj.cn###popup
-|sz.zj.cn/rxy/
-||gqgc.sz.zj.cn^
-||rc.sz.zj.cn/yidong/yidong.swf
-||www.sz.zj.cn$subdocument
-!---纵横中文网
-zongheng.com###bigImgPop
-||log.zongheng.com^
-||static.zongheng.com/upload/ad/
-||static.zongheng.com/upload/zhds/
-||static.zongheng.com^*/ad_click.js
-||static.zongheng.com^*/adClickStat.js
-||static.zongheng.com^*/index_r_b.js
-||static.zongheng.com^*/logger.min.js
-!--MMZH
-mmzh.com###dlle
-mmzh.com###dlri
 !--摇篮网
 yaolan.com###j_focus_img
 yaolan.com###j_focus_num
@@ -3450,11 +3431,20 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||p.zol.com.cn^$script
 ||p.zol-img.com.cn^
 ||pc3w.com/js/
+||gqgc.sz.zj.cn^
+||rc.sz.zj.cn/yidong/yidong.swf
+||www.sz.zj.cn$subdocument
+||static.zongheng.com^*/index_r_b.js
+||static.zongheng.com/upload/ad/
+||static.zongheng.com/upload/zhds/
 ||tucao.cc/index.php?m=poster&
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sz.zj.cn###popup
+mmzh.com###dlle
+mmzh.com###dlri
 zol.com.cn##.ad-box
 qiku8.com##.gg01
 qiku8.com##LI[style*="310"][style*="265"]
@@ -5749,4 +5739,8 @@ www.zol.com.cn#@##search_ad
 ||icon.zol-img.com.cn/mainpage/js/click.js
 ||icon.zol-img.com.cn/public/js/web_foot.js
 ||imp.zol.com.cn^
+||static.zongheng.com^*/ad_click.js
+||static.zongheng.com^*/adClickStat.js
+||static.zongheng.com^*/logger.min.js
+||log.zongheng.com^
 !----------------------------------The End------------------------------------!
