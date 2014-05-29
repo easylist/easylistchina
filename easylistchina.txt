@@ -736,15 +736,6 @@ hk.yahoo.com###ysm-ad
 ||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
-!---北青网
-ynet.com##div.fr
-ynet.com##div[id^="ads_"]
-ynet.com##div[style$="width:300px;height:100px;"]
-ynet.com##div[style="width:300px;height:250px;"]
-||fun.ynet.com^
-||msn.ynet.com/c/stat/uv.js
-||msn.ynet.com/c/tj_comm.js
-||ranking.ynet.com^
 !---优酷
 soku.com###ab_282
 ||atm.youku.com^
@@ -3496,11 +3487,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||cdndm.com^*/js/newtc.js
 ||float.sandai.net^$object-subrequest
 ||biz*.sandai.net^
+||fun.ynet.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 kankan.com##div[id^="cm"].banner
+ynet.com##div[id^="ads_"]
+ynet.com##div.fr
 xj163.cn###ad
 xj163.cn##div[class^="ad"]
 xcar.com.cn##div[class^="adset"]
@@ -5762,4 +5756,7 @@ house.shangdu.com#@#.top_ad
 ||analytics-union.sandai.net^
 ||kkpgv2.xunlei.com^
 ||img.kuai.xunlei.com/js/statistics.js
+||ranking.ynet.com^
+||msn.ynet.com/c/stat/uv.js
+||msn.ynet.com/c/tj_comm.js
 !----------------------------------The End------------------------------------!
