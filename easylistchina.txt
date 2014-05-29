@@ -691,19 +691,6 @@ verypsp.com##table[width="960"]
 ||verypsp.com/bbs.html
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
-!---爱卡
-xcar.com.cn##.txright_boxb
-xcar.com.cn##div[class^="adset"]
-xcar.com.cn##div[id^="xcarWindow_"]
-||d0.xcar.com.cn^
-||d1.xcarimg.com^
-||dw.xcar.com.cn^
-!---厦门小鱼
-/client.xmfish.com/attachments/bar/*$image
-bbs.xmfish.com##.cmp_v
-bbs.xmfish.com##[id^="ads"]
-||adm.xmfish.com^
-||bbs.xmfish.com/images/atm/$image
 !---西陆网
 xilu.com##.advtable
 ||content.xilu.com^$object
@@ -3390,7 +3377,6 @@ weather.com.cn##div[class^="adpos"]
 ||xkxs.org/js/bd
 ||xkxs.org/js/tl
 ||xkxs.org/js/tongji.js
-||xmfish.com/images/chanel/www/index2/jjsecond.jpg
 ||xnimg.cn/imgpro/home/a/niucuilai_
 ||xnnews.com.cn/images/smsline_double.js
 ||xnnews.com.cn/images/yr_wsm.js
@@ -3523,10 +3509,15 @@ weather.com.cn##div[class^="adpos"]
 ||xdowns.com/ggco.js
 ||xdowns.com/info.js
 ||xdowns.com/js/lefttuijian.js
+||d0.xcar.com.cn^
+||adm.xmfish.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xcar.com.cn##div[class^="adset"]
+bbs.xmfish.com##.cmp_v
+bbs.xmfish.com##span[id^="ads"]
 xdowns.com###part_1
 gdtv.cn###ADVbuttom
 sina.com.cn###AD_Background_Wall_BG
@@ -5775,4 +5766,5 @@ house.shangdu.com#@#.top_ad
 ||youdao.com/ctlog?
 ||youdao.com/tl?
 ||zol.com.cn/cgimp/zc.js
+||dw.xcar.com.cn^
 !----------------------------------The End------------------------------------!
