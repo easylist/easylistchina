@@ -736,15 +736,7 @@ hk.yahoo.com###ysm-ad
 ||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
-!---优酷
-soku.com###ab_282
-||atm.youku.com^
-||hz.youku.com/red/
-||l.ykimg.com^
-||static.youku.com/*/index/js/iresearch.js
-||static.youku.com/*/js/cps.js
 !--土豆
-/cv/*&uuid=$object-subrequest
 @@||js.tudouui.com/bin/player2/$object
 ||player.pb.ops.tudou.com/info.php?
 ||tudou.com^*/outside.php
@@ -3488,6 +3480,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||float.sandai.net^$object-subrequest
 ||biz*.sandai.net^
 ||fun.ynet.com^
+||atm.youku.com^
+||tucao.cc/index.php?m=poster&
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -3560,7 +3554,6 @@ hao123.com###\5f _wgt_0_2
 hao123.com###__elm_0_4
 bbs.07430743.com###a2
 admin5.com###a22
-youku.com###ab_26
 183.81.166.100###abuBox
 cnedu.cn,dyhong.com,jqgcw.com,js404.com,wenkudaquan.com,xinhuanet.com,ylnet.com.cn###ad
 ruten.com.tw###ad-467
@@ -5079,7 +5072,6 @@ techweb.com.cn##.xxbox_news
 hz66.com##.ydad
 hkwb.net##.yeshu
 youku.com##.yk-AD-tong
-youku.com##.yk-tv-AD
 geiliwx.com##.yueduads
 house.ks.js.cn##.yytf_960_ha
 zol.com.cn##.z-hot-pro
@@ -5760,4 +5752,9 @@ house.shangdu.com#@#.top_ad
 ||ranking.ynet.com^
 ||msn.ynet.com/c/stat/uv.js
 ||msn.ynet.com/c/tj_comm.js
+||hz.youku.com/red/
+||l.ykimg.com^
+||static.youku.com/*/index/js/iresearch.js
+||static.youku.com/*/js/cps.js
+/cv/*&uuid=$object-subrequest
 !----------------------------------The End------------------------------------!
