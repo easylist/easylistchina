@@ -737,23 +737,12 @@ hk.yahoo.com###ysm-ad
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
 !--土豆
-@@||js.tudouui.com/bin/player2/$object
 ||player.pb.ops.tudou.com/info.php?
 ||tudou.com^*/outside.php
 !---宇宙点播
 @@||union.maccms.com/gg/baidu.html
 @@||union.maccms.com/gg/qvod.html
 @@||union.maccms.com/player8/init.js
-!---ZOL
-zol.com.cn##.ad
-www.zol.com.cn##.adwindow
-vga.zol.com.cn##.banner250
-zol.com.cn##div[id^="ad_"]
-!--中关村在线武汉站
-pc3w.com###ad_down_title
-pc3w.com###title_ad
-pc3w.com##table[width="925"][height="305"]
-||pc3w.com/js/
 !---江南
 home.sz.zj.cn##.mb10.tips
 sz.zj.cn###popup
@@ -3460,12 +3449,20 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||pic.zol-img.com.cn^$object
 ||p.zol.com.cn^$script
 ||p.zol-img.com.cn^
+||pc3w.com/js/
 ||tucao.cc/index.php?m=poster&
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zol.com.cn##.ad-box
+xiaot.com###\5f sc_dialog
+xiaot.com###\5f sc_overlay
+xiaot.com###diy_chart
+pc3w.com###ad_down_title
+pc3w.com###title_ad
+vga.zol.com.cn##.banner250
+zol.com.cn##div[id^="ad_"]
 zol.com.cn##.hot_tj
 www.zol.com.cn##div[id^="Bar"]
 kankan.com##div[id^="cm"].banner
@@ -5648,6 +5645,7 @@ house.shangdu.com#@#.top_ad
 @@||xinhuanet.com/static/rmedia/pv.swf
 www.zol.com.cn#@##search_ad
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
+@@||js.tudouui.com/bin/player2/$object
 !--------------------------------tracking systems-----------------------------!
 /1.gif?$domain=scol.com.cn
 /atcount.php?$domain=178.com
