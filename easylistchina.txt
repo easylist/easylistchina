@@ -692,18 +692,12 @@ verypsp.com##table[width="960"]
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
 !---XunLei
-kankan.com##div[id^="cm"].banner
 kuai.xunlei.com##.adv_area
-||analytics-union.sandai.net^
-||biz*.sandai.net^
 ||cop.my.sandai.net^$third-party
-||float.sandai.net^$object-subrequest
 ||gouwu.vip.xunlei.com^$third-party
 ||img.kuai.xunlei.com/img/v2/fen/
-||img.kuai.xunlei.com/js/statistics.js
 ||js.kankan.xunlei.com/5.2/mp4/js/kankan_commercial_mp4_563.js
 ||jsunion.kankan.xunlei.com^$third-party
-||kkpgv2.xunlei.com^
 ||record.kuai.xunlei.com^
 !---Yahoo
 !--TW
@@ -742,15 +736,6 @@ hk.yahoo.com###ysm-ad
 ||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
-!---北青网
-ynet.com##div.fr
-ynet.com##div[id^="ads_"]
-ynet.com##div[style$="width:300px;height:100px;"]
-ynet.com##div[style="width:300px;height:250px;"]
-||fun.ynet.com^
-||msn.ynet.com/c/stat/uv.js
-||msn.ynet.com/c/tj_comm.js
-||ranking.ynet.com^
 !---优酷
 soku.com###ab_282
 ||atm.youku.com^
@@ -3500,10 +3485,16 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xizi.com/js/rotator.js
 ||61.128.121.99/nsrad/
 ||cdndm.com^*/js/newtc.js
+||float.sandai.net^$object-subrequest
+||biz*.sandai.net^
+||fun.ynet.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+kankan.com##div[id^="cm"].banner
+ynet.com##div[id^="ads_"]
+ynet.com##div.fr
 xj163.cn###ad
 xj163.cn##div[class^="ad"]
 xcar.com.cn##div[class^="adset"]
@@ -5763,4 +5754,10 @@ house.shangdu.com#@#.top_ad
 ||zol.com.cn/cgimp/zc.js
 ||dw.xcar.com.cn^
 ||newspage.xilu.com/model/visitlog.js
+||analytics-union.sandai.net^
+||kkpgv2.xunlei.com^
+||img.kuai.xunlei.com/js/statistics.js
+||ranking.ynet.com^
+||msn.ynet.com/c/stat/uv.js
+||msn.ynet.com/c/tj_comm.js
 !----------------------------------The End------------------------------------!
