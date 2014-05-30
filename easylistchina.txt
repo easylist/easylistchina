@@ -554,9 +554,6 @@
 /tuiguang/*
 /u/_sponsor/*
 /webafp?
-@@/data/preview/*$image
-@@||tbcdn.cn/apps/tuiguang/$domain=tmall.com
-@@||zerodm.net/js/ads/zxdmxz.js
 |http://*.cn/ad/$domain=~easybuy.com.cn
 |http://*.hk/ad/
 |http://*.tw/ad/$domain=~atmovies.com.tw
@@ -568,12 +565,6 @@
 |http://acs.
 |http://gg.$~stylesheet,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
-!*** chinalist-hide.txt ***
-fun698.com##table[width="958"]
-fun698.com##table[width="960"]
-!*** chinalist-miscellaneous.txt ***
-!---Download Sites
-||cnzz.cn^*zanzhu
 !---Online Novel/Comic Sites
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
@@ -581,8 +572,6 @@ fun698.com##table[width="960"]
 @@/configs/article/bottom.js
 @@/configs/article/pagebottom.js
 @@/configs/article/pagetop.js
-!---Miscellaneous
-bbs.lephone.cc##.mbn.cl
 !*** chinalist-specific.txt ***
 !--有道
 ||a.youdao.com^
@@ -597,8 +586,6 @@ cet.99sushe.com###div_bottom
 !--淘宝
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/atp.js
-||strip.taobaocdn.com^$third-party,domain=~57zhe.com|~youhuiyouhui.com.cn
-||taobao.com/go/$third-party,domain=~tmall.com
 !--iQIYI
 ||qiyipic.com/common/$object-subrequest
 !---易车网
@@ -743,18 +730,10 @@ hk.yahoo.com###ysm-ad
 @@||union.maccms.com/gg/baidu.html
 @@||union.maccms.com/gg/qvod.html
 @@||union.maccms.com/player8/init.js
-!*** chinalist-temp.txt ***
-!---2014.03
-||xiuxiu.meitu.com/images/banner/meitushop_fixed_816.gif
 !*** chinalist-white.txt ***
 @@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
-@@||fireeye.ijinshan.com/static/js/analyse.js
-@@||ganji.com/findjob/send_resume.php?$subdocument
 @@||sdc.pingan.com^$~image
-!--大众点评
-@@||dianping.com/adwords/$xmlhttprequest
-@@||union.mapbar.com/apis/maps/$script
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
@@ -910,6 +889,8 @@ dnserror*.wo.com.cn^
 ||adpush.cn^$third-party
 ||ads.uc.cn^
 ||ajaxcdn.org^
+||strip.taobaocdn.com^$third-party,domain=~57zhe.com|~youhuiyouhui.com.cn
+||taobao.com/go/$third-party,domain=~tmall.com
 ||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~foctop.com|~taobao.com|~taobao.com.cn
 ||amazingmagics.com^
 ||aoparking.com^$third-party
@@ -5595,6 +5576,7 @@ house.shangdu.com#@#.top_ad
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@||ad.3.cn/ads/mgets?$script,domain=item.jd.com
 @@||js.gomein.net.cn^*/template.min.js$domain=gome.com.cn
+@@||ganji.com/findjob/send_resume.php?$subdocument
 @@||v.rbc.cn/ad/
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||vmall.com^*&adUrl=
