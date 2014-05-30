@@ -751,20 +751,7 @@ hk.yahoo.com###ysm-ad
 @@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
-@@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
-@@||online.unionpay.com/ads/$script,~third-party
 @@||sdc.pingan.com^$~image
-@@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
-@@||zhuanlan.zhihu.com/api/columns/adman/posts$xmlhttprequest
-@@||zj.189.cn/wt_uac/login/wt/js/pop.js
-!---Shopping websites
-@@/adbanner/*$image,domain=books.com.tw
-@@/advertise/*$domain=suning.com
-@@||a.banggo.com/Ad/getAdPosList.shtml
-@@||ad.3.cn/ads/mgets?$script,domain=item.jd.com
-@@||js.gomein.net.cn^*/template.min.js$domain=gome.com.cn
-@@||smart.51buy.com/w/ad/getad
-suning.com#@##topAd
 !--bbs.vc52.cn
 @@||gg.a.5d6d.$image,object-subrequest
 !--大众点评
@@ -3398,11 +3385,13 @@ weather.com.cn##div[class^="adpos"]
 ||zymao.net/img/taolink.jpg
 /ysm.ezprice.net/*
 ||zyzczs.com/js/tj.txt
+||poppur.com/banner/962x100.gif
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+we.poppur.com##.wrap > DIV[style="height:112px"]
 gdtv.cn###ADVbuttom
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_Banner
@@ -5601,7 +5590,15 @@ house.shangdu.com#@#.top_ad
 @@||houdask.com/data/advertising/$image
 @@||icbc.com.cn/icbc/include/AD_
 @@||icbc.com.cn/ICBC_ADJS/
+@@||online.unionpay.com/ads/$script,~third-party
+@@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
+@@/adbanner/*$image,domain=books.com.tw
+@@/advertise/*$domain=suning.com
+@@||a.banggo.com/Ad/getAdPosList.shtml
+@@||ad.3.cn/ads/mgets?$script,domain=item.jd.com
+@@||js.gomein.net.cn^*/template.min.js$domain=gome.com.cn
 @@||v.rbc.cn/ad/
+@@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||vmall.com^*&adUrl=
 @@||wowsai.com/data/files/ad/
 @@||woxiu.com/xapi/offsite_swf_more.php?*&type=
