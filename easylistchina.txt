@@ -752,13 +752,9 @@ hk.yahoo.com###ysm-ad
 @@||fireeye.ijinshan.com/static/js/analyse.js
 @@||ganji.com/findjob/send_resume.php?$subdocument
 @@||sdc.pingan.com^$~image
-!--bbs.vc52.cn
-@@||gg.a.5d6d.$image,object-subrequest
 !--大众点评
 @@||dianping.com/adwords/$xmlhttprequest
 @@||union.mapbar.com/apis/maps/$script
-!--missing
-||wangpanwu.com/images/aoyou.gif
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
@@ -3385,12 +3381,14 @@ weather.com.cn##div[class^="adpos"]
 ||zymao.net/img/taolink.jpg
 /ysm.ezprice.net/*
 ||zyzczs.com/js/tj.txt
+||wangpanwu.com/images/*guanggao
 ||poppur.com/banner/962x100.gif
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+wangpanwu.com##TABLE[width="978"][align="center"]
 we.poppur.com##.wrap > DIV[style="height:112px"]
 gdtv.cn###ADVbuttom
 sina.com.cn###AD_Background_Wall_BG
