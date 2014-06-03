@@ -3403,12 +3403,14 @@ weather.com.cn##div[class^="adpos"]
 ||557vv.com/d/file/p/
 ||557vv.com/images/
 ||chinaqking.com/images/qkw/jobApply1.jpg
+||mahua.com/api/$subdocument
 ||shared.ydstatic.com/images/hao163/600-45_2.jpg
 ||static.u17i.com/v3/www/images/other/
 ||jinzhuedu.com/k/img/swt.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jxold.com##DIV[style="margin: 0 auto;  height: 60px;  "]
+mahua.com##.Rad
 qidian.com##.gg990X90
 hao.163.com###topTip
 557vv.com##.duilian
@@ -5015,7 +5017,9 @@ ptbus.com##.weixin_ad
 qqkj.cn,ttplay8.cn,xk77.com##.wenad
 zhidao.baidu.com##.wgt-ads
 zhidao.baidu.com##.wgt-bottom-ask
-hao123.com##.widget-adbar > span
+hao123.com###box-inner-adbar A
+hao123.com###layout-guess
+qq.com##.action_ad
 leiphone.com##.widget.spn
 web20share.com##.widget:nth-of-type(5)
 51jifenbao.net##.widget_text:last-child
