@@ -563,7 +563,6 @@
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://acs.
-|http://gg.$image,object,script,subdocument,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !---Online Novel/Comic Sites
 /configs/article/*$script,subdocument
@@ -753,6 +752,7 @@ hk.yahoo.com###ysm-ad
 /static/adsview/*
 /tan.js
 /tanchuang.
+|http://gg.$third-party
 |http://*.cc/ad/
 |http://*.in/ad/
 |http://*.tv/ad/
