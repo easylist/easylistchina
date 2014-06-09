@@ -563,7 +563,7 @@
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://acs.
-|http://gg.$~stylesheet,domain=~gg.ma
+|http://gg.$image,object,script,subdocument,domain=~gg.ma
 |https://*/ad/$domain=~pay.suning.com
 !---Online Novel/Comic Sites
 /configs/article/*$script,subdocument
@@ -3091,7 +3091,6 @@ weather.com.cn##div[class^="adpos"]
 ||tinypic.com^$domain=54xr.com|xrba.net
 ||tk001.com/quote$subdocument
 ||tlt.cn/index.php?action=bbs&
-||tmcdn.net/img/h000/h59/img20130828202923456460.jpg
 ||tntdown.com/News/js/C_
 ||tom.com/templets/tomwq/ad/
 ||tom365.com/js/*0
@@ -3454,12 +3453,14 @@ weather.com.cn##div[class^="adpos"]
 ||top.taobao.com/interface_v2.php?$domain=gougousoso.com
 ||downxia.com/zejs/y/
 ||downxia.com/zejs/ad*.js
+||tmcdn.net/img/h000/h67/img201405211716540f9230.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
 94as.com##TABLE[width="950"][height="124"]
+61.hz.letv.com##.view[style="height:547px;"]
 kafan.cn##.gg
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecr_pc_game_"]
 guokr.com##.side-adv
