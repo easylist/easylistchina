@@ -1031,7 +1031,6 @@ dnserror*.wo.com.cn^
 .html|$domain=www.gamer.com.tw
 /2kk.cc-330-50.gif
 /?age=1&$domain=coual.com|dwbpy.com|kxddd.com|queoh.com|see3r.com|shclk.com|ttft.in|xhcbb.com
-/adm/*$domain=ganji.com
 /adscript/crazyad.js
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /afp/*$domain=scol.com.cn
@@ -3495,6 +3494,9 @@ weather.com.cn##div[class^="adpos"]
 ||114so.cn/js/nm*.js
 ||114so.cn^$subdocument
 ||ifeng.com/bbsfile/js/ifeng_tip.js
+||ganjituiguang.ganji.com^
+||ganjistatic2.com/public/app/common/uniontgm/
+||ganjistatic1.com/att/adm/
 ||zzsky.cn/images/zzskycom_
 ||houdao.com/images/houdaov3/ban.png
 ||shangdu.com/1002/1002030101.js
@@ -3505,6 +3507,7 @@ weather.com.cn##div[class^="adpos"]
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+ganji.com##DIV[data-widget="app/ms_v2/common/base_page.js#selfDirectionBind"]
 ifeng.com##.ad728_tit
 86wan.com##.top_banner
 7y7.com##.ad_640
