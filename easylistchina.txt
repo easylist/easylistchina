@@ -845,6 +845,7 @@ hk.yahoo.com###ysm-ad
 :81/page/?s=$third-party
 :99/page/?s=$third-party
 dnserror*.wo.com.cn^
+||cloudad.asia^$third-party
 ||88rpg.net^
 ||007y.net^$third-party
 ||0756j.com^$third-party
@@ -3521,6 +3522,7 @@ weather.com.cn##div[class^="adpos"]
 ||g.cnzz.cn/Static/js/*-
 ||rexuedongman.com/scripts/suiji
 ||dhfun.cn/dhfun_ad/
+|http:$subdocument,domain=howbbs.com|tytl.tk
 ||mwsl.qiniudn.com/puma-faas300v3.jpg
 ||mwsl.qiniudn.com/wp-content/uploads/2014/06/duckduckgo.png
 ||ly.shangdu.com/lyinfo/zlwz/flash/$object
