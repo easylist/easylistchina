@@ -4615,7 +4615,7 @@ iplaysoft.com##.d250
 ipc.me##.d300
 51jifenbao.net,daqianduan.com##.d_banner
 51jifenbao.net##.d_slidebanner
-hkepc.com##.datatable > tbody:not([id]):nth-child(n+7)
+hkepc.com##TBODY[id^="normalthread_"] + TBODY:not([id])
 cq.qq.com##.dayuw_maintext
 junshigang.com##.dd3001
 junshigang.com##.dd3002
