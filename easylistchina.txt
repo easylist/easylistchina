@@ -3554,6 +3554,8 @@ weather.com.cn##div[class^="adpos"]
 ||cnchu.com/templates/cnchu2014/images/14.jpg
 ||cnchu.com/templates/cnchu2014/images/15.jpg
 ||61.164.108.104:4275/ad*.gif
+||jd.com^$subdocument,domain=cjn.cn
+||cjn.cn^*/ad/
 ||ly.shangdu.com/lyinfo/zlwz/flash/$object
 ||shangdu.com/comiis_ad/
 !------------------------Specific element hiding rules------------------------!
@@ -3561,6 +3563,8 @@ gpcxw.com###AA2
 yaolan.com###AD
 ybvv.com###diy1
 cyol.net##.AD
+cjn.cn###slidelr
+cjn.cn##.sidebar
 cyol.net##.AD960_90
 cnchu.com##.leftadv
 hkgolden.com##SPAN[id^="lineImage"]
@@ -3760,7 +3764,7 @@ xdnice.com###auto_gen_2
 ocucn.com###bad
 chinaiiss.com###baidu_300_250
 club.dl.sohu.com###baidu_popad
-cjn.cn,huacolor.com,news.shangdu.com,qiwen999.com,steachs.com###banner
+huacolor.com,news.shangdu.com,qiwen999.com,steachs.com###banner
 cwyuni.tw###banner > h2
 xpghost.com###banner-1
 99tianji.com###banner_gg
@@ -4165,8 +4169,6 @@ kan300.com,xxdm.com###tiepianDIV
 wpsoso.com###tips
 xinhuanet.com###tisoad
 pc3w.com###title_ad
-cjn.cn###to-left
-cjn.cn###to-right
 wenku8.cn,xinhuanet.com###tonglan
 uuu9.com###top
 bbs.houdao.com###top-banner
@@ -5241,7 +5243,6 @@ hdpfans.com##.vk_nv_sub
 m1905.com##.vod-external
 hupu.com##.voice-ad300-250
 10jqka.com.cn##.w1000
-news.cjn.cn##.w300.h250.of
 dbw.cn##.w720
 27.cn##.w960[style*="height:100px;"]
 afwing.com##.w970
