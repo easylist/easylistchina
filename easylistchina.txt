@@ -4462,8 +4462,8 @@ dzh.mop.com##.adarea_top
 hd.zhijia.com,house.bdinfo.net,inhe.net##.adb
 ifeng.com##.adbest
 keke001.com,oogps.com##.adbg
-17173.tv.sohu.com,68design.net,caixun.com,hsw.cn,jrj.com.cn,yesky.com##.adbox
 ~cq.ifeng.com,ifeng.com##.adbox
+17173.tv.sohu.com,68design.net,caixun.com,hsw.cn,jrj.com.cn,yesky.com##.adbox
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
 qq.com##.adbutton-Aritcle-QQ
@@ -5431,8 +5431,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 yesky.com##div[class^="ad1"]
@@ -5725,7 +5725,7 @@ verycd.gdajie.com##th[colspan="3"]
 lywww.com##ul[id^="addimg_"]
 taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-color:#ffffff;"]
 00sy.com##ul[style="width: 830px;margin:0 auto;height:250px;text-align:center;margin-top:10px;"]
-!---------------------------------Whitelists----------------------------------!
+!---------------------------------Whitelists_css------------------------------!
 920url.com#@##AdDiv
 news.now.com#@##ad-2
 gohome.com.hk#@##adFrame
@@ -5769,6 +5769,7 @@ tiancity.com#@#.main_ad
 mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 17ppt.com#@#.topads
+!---------------------------------Whitelists_url------------------------------!
 @@,modules/adMedia.
 @@.beautifulphoto.net/ads/music
 @@.cntv.cn/adplayer/
@@ -5783,8 +5784,7 @@ house.shangdu.com#@#.top_ad
 @@/advert_$domain=wb.qq.com
 @@/advertise/*$domain=suning.com
 @@/advs/*$domain=gotobuy.com.tw
-@@/guanggao/*$domain=igame.qq.com
-@@/guanggao/*$domain=tuan.duba.com
+@@/guanggao/*$domain=igame.qq.com|tuan.duba.com
 @@/images/ad$domain=2kuai.com|32666.com|baopan.cc|dxrr.com|fmdisk.com|lepan.cc|nyhx.com
 @@/pop.js|$domain=189.cn
 @@/qplayer.swf?*&showAd=
@@ -5872,9 +5872,7 @@ house.shangdu.com#@#.top_ad
 @@||cb.baidu.com/ecom?di=893557&
 @@||cb.baidu.com/ecom?di=931706&$domain=narutom.com
 @@||cb.baidu.com/ecom?di=98779&
-@@||cbjs.baidu.com/js/m.js$domain=colafile.com|shumilou.com|shushu5.com|shushuw.cn
-@@||cbjs.baidu.com/js/m.js$domain=narutom.com
-@@||cbjs.baidu.com/js/m.js$domain=www.redocn.com
+@@||cbjs.baidu.com/js/m.js$domain=colafile.com|narutom.com|shumilou.com|shushu5.com|shushuw.cn|www.redocn.com
 @@||cbjs.baidu.com/js/o.js$domain=52pk.com|9ku.com|yue365.com
 @@||cctv.com/js/cntv_Advertise.js
 @@||cdn.inskinmedia.com/isfe/$domain=nextmedia.com
@@ -5883,9 +5881,7 @@ house.shangdu.com#@#.top_ad
 @@||colafile.com/js/ad_test.js
 @@||counter.sina.com.cn/time?fm=JS$domain=finance.sina.com.cn
 @@||cpro.baidu.com/cpro/ui/c.js$domain=520tingshu.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=9duli.com|colafile.com|ffpan.com|l7po.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=cgtsj.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=gqpdf.com|gqzzw.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=9duli.com|cgtsj.com|colafile.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||czsrc.com/Adpic/
 @@||de.as.pptv.com^$object-subrequest
@@ -5912,11 +5908,11 @@ house.shangdu.com#@#.top_ad
 @@||hm.baidu.com^$domain=cankaoxiaoxi.com
 @@||houdask.com/data/advertising/$image
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
-@@||icbc.com.cn/ICBC_ADJS/
 @@||icbc.com.cn/icbc/include/AD_
+@@||icbc.com.cn/ICBC_ADJS/
 @@||img.jb51.net/inc/content.js
-@@||indeep.com.tw/Images/Upload/AdPic/
 @@||indeep.com.tw/images/ad.swf?
+@@||indeep.com.tw/Images/Upload/AdPic/
 @@||indeep.com.tw^*/Showad.
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||jinhongweiqi.com/ad/update/$image,~third-party
@@ -5939,13 +5935,12 @@ house.shangdu.com#@#.top_ad
 @@||new7574.u.qiniudn.com^*^ad
 @@||news.u17i.com/advert/
 @@||online.unionpay.com/ads/$script,~third-party
-@@||ooomm.com/ad/Whoyao_logo114.png
 @@||ooomm.com/ad/icon/
+@@||ooomm.com/ad/Whoyao_logo114.png
 @@||ourgame.com/new/images/ad/$domain=ourgame.com
 @@||ouyaoxiazai.com/shouyead.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pcdvd.com.tw
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=pcdvd.com.tw
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=tu265.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=pcdvd.com.tw|tu265.com
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||playno1.com^*/common/cf/
 @@||plu.cn/d/js/acmsd/thea44.js
