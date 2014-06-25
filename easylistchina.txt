@@ -836,7 +836,7 @@ hk.yahoo.com###ysm-ad
 ##a[href^="http://www.xiaojie520.com"]
 ##a[href^="http://www.xinghad.com/iclk/"]
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
-!----------------------------------ads-union----------------------------------!
+!----------------------------------Ads-Union----------------------------------!
 .cc/page/?s=$third-party
 .cn/page/?s=$third-party
 .com/page/?s=$third-party
@@ -3604,12 +3604,15 @@ weather.com.cn##div[class^="adpos"]
 ||zxip.com/2013ad/
 ||zxxk.com/js/articleinfo/JS_
 ||zymao.net/img/taolink.jpg
+||g.gxorg.com^
+||gxorg.com/2014/0523/20140523034947291.gif
 ||zyzczs.com/js/tj.txt
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+gxorg.com###banner
 21yq.com###AD1
 gdtv.cn###ADVbuttom
 sina.com.cn###AD_Background_Wall_BG
@@ -5725,7 +5728,7 @@ verycd.gdajie.com##th[colspan="3"]
 lywww.com##ul[id^="addimg_"]
 taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-color:#ffffff;"]
 00sy.com##ul[style="width: 830px;margin:0 auto;height:250px;text-align:center;margin-top:10px;"]
-!---------------------------------Whitelists_css------------------------------!
+!---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
 news.now.com#@##ad-2
 gohome.com.hk#@##adFrame
@@ -5769,7 +5772,7 @@ tiancity.com#@#.main_ad
 mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 17ppt.com#@#.topads
-!---------------------------------Whitelists_url------------------------------!
+!---------------------------------URL Whitelist-------------------------------!
 @@,modules/adMedia.
 @@.beautifulphoto.net/ads/music
 @@.cntv.cn/adplayer/
@@ -6006,7 +6009,7 @@ house.shangdu.com#@#.top_ad
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
-!--------------------------------tracking systems-----------------------------!
+!--------------------------------Tracking Systems-----------------------------!
 /1.gif?$domain=scol.com.cn
 /atcount.php?$domain=178.com
 /att_count.js
