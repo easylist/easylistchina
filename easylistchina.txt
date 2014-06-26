@@ -2166,11 +2166,9 @@ weather.com.cn##div[class^="adpos"]
 ||hk3318.net/template/2014/images/160X610.jpg
 ||hk3318.net/template/2014/images/990X60.jpg
 ||hkepc.com/forum/api/unimhk_
-||hkepc.com/prepared/images/3ca6.png
 ||hkepc.com/prepared/images/b608.png
 ||hkheadline.com/*banner$script
 ||hkheadline.com/*promo/
-||hkwb.net/extra/1992.files/yeshu.swf
 ||hkwb.net/images/float_
 ||hlj3.com/55.gif
 ||hn.xinhuanet.com/hnstatics/bannermini
@@ -3616,6 +3614,7 @@ weather.com.cn##div[class^="adpos"]
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+hkwb.net##.guangg
 gexing.com.cn##.ggline
 hk3318.net##.ad990x90
 hkgolden.com###mainTopicTable + DIV[style="width: 954px"] > TABLE[width="100%"] > TBODY > TR > TD:not([align]) > TABLE > TBODY > tr:not([id])
@@ -5363,7 +5362,6 @@ zj.com##.xx_gg
 techweb.com.cn##.xxbox
 techweb.com.cn##.xxbox_news
 hz66.com##.ydad
-hkwb.net##.yeshu
 youku.com##.yk-AD-tong
 geiliwx.com##.yueduads
 house.ks.js.cn##.yytf_960_ha
