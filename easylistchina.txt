@@ -2030,8 +2030,8 @@ weather.com.cn##div[class^="adpos"]
 ||gd.sina.com.cn/iframe/22/
 ||geiliwx.com/read/ad$script
 ||get.766.com^$script
-||gexing.com.cn/statics/images/shenxian1.jpg
-||gexing.com.cn/statics/images/yingxiong.jpg
+||gexing.com.cn/statics/images/1a.jpg
+||gexing.com.cn/statics/images/jr.jpg
 ||gezila.com/gimg/yinsu
 ||gfan.com/plugin.php?id=gfan_viewpic:gfan_adView
 ||gfan.com/press/
@@ -3615,6 +3615,8 @@ weather.com.cn##div[class^="adpos"]
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+gexing.com.cn##.inqqgx > A:first-child
+gexing.com.cn##.huline > A:first-child
 gaominews.com##.con3-c
 gaominews.com##.con7-c
 gaominews.com##.itemFloat
@@ -4332,7 +4334,7 @@ pbhz.com##.a-ds-post
 tucao.cc##.a2013d
 dj520.com##.a304
 03tt.cn,360safe.com,backtrack.org.cn,bbs.muzhiwan.com,btscg.com,ck101.com,jdbbs.com,repaik.com,zasv.com##.a_cn
-bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,cjdby.net,forum.bet007.com,gn00.com,luanren.com,xdf.cn##.a_p
+bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,cjdby.net,forum.bet007.com,luanren.com,xdf.cn##.a_p
 yaolan.com##.abstract_ad
 jiaju.shangdu.com##.accordion
 qq.com##.action_ad
@@ -5411,7 +5413,6 @@ shangdu.com##body > div[class="bt"]
 qiushibaike.info##body > div[style]
 dm456.com##body > div[style^="height:90px;"]
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
-www.gdzjdaily.com.cn##body > table[width="980"]:first-child
 1000fr.net##center
 cq.qq.com##div.clearfix[style*="1000"]
 ynet.com##div.fr
@@ -5996,7 +5997,6 @@ house.shangdu.com#@#.top_ad
 @@||tmatch.simba.taobao.com/?name=mcad$script
 @@||tompda.com/images/pix.swf
 @@||totheglory.im/pic/ttg_logo.png
-@@||tqimg.cn/adv/
 @@||tw.m.yimg.com/res/ads/$domain=tw.buy.yahoo.com
 @@||union.bokecc.com/flash/$object
 @@||union.bokecc.com/player?
