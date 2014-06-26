@@ -761,6 +761,7 @@ hk.yahoo.com###ysm-ad
 ###ad_box1
 ###ad_box2
 ###ad_full
+##._cggp
 ###ad_text + div[style="width:960px;margin: auto;"]
 ###ads_top_homepage
 ###ads_top_video
@@ -1033,7 +1034,6 @@ dnserror*.wo.com.cn^
 ||wuyougo.info^$popup,third-party
 ||yeb.189.gd^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
-.com/images/$domain=cao01.com|cao79.com|ri86.com|ri96.com
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 .com/link/$image,domain=i-ab.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
@@ -3610,6 +3610,8 @@ weather.com.cn##div[class^="adpos"]
 |http:$subdocument,domain=pc6.com
 ||gdtv.cn/2014/0616/1402914668473.png
 ||show.qx15.com^$subdocument
+.com/images/$domain=cao01.com|cao79.com|cao89.com|caoporn.com|ri86.com|ri96.com
+/moneymaker/js/piaopp.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
