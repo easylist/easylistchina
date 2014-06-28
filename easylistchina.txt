@@ -2077,7 +2077,7 @@ weather.com.cn##div[class^="adpos"]
 ||gscn.com.cn/pic/0/10/34/27/10342786_994137.gif
 ||gter.net^*adv
 ||gtimg.com/cq/0000/0001/index_0505_330_302.swf
-||gtimg.com/hb/ad/
+||gtimg.com^*/ad/
 ||gtimg.com/sports/000_AD/
 ||gtimg.com/www/asset/project/qqDownload_
 ||gtimg.com/www/test/300_250.swf
@@ -2609,7 +2609,6 @@ weather.com.cn##div[class^="adpos"]
 ||market.duowan.com^
 ||masadora.net/kakusan-
 ||masok.cn/red/
-||mat1.gtimg.com/2014/ad/
 ||mat1.gtimg.com/2014/vikkydu/GA/haier
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
@@ -3616,12 +3615,15 @@ weather.com.cn##div[class^="adpos"]
 ||66rnrn.com/sxgg/
 ||chao33.com/t/
 ||xiangai365.com/ad_js/
+||shiliclub.act.qq.com/images/banner.jpg
+||shiliclub.act.qq.com/images/bg_0*.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 ||e.hnr.cn/choose/view/%7B*%7D.js^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+shiliclub.act.qq.com##.float
 image.baidu.com###plz-head-banner
 image.baidu.com##.right-banner-area
 tianya.cn###ty_msg_mod
@@ -5770,6 +5772,7 @@ hnr.cn##.duilian_close
 hnr.cn##.duilian
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
+2014.qq.com#@##adIframe
 news.now.com#@##ad-2
 gohome.com.hk#@##adFrame
 unisharp.com#@##ad_banner
