@@ -1077,8 +1077,6 @@ dnserror*.wo.com.cn^
 /jsa/*$domain=jide123.com|jide123.net
 /jsc/book_$domain=99770.cc|99comic.com|99manga.com
 /jsc/Copy.js$domain=99770.cc|99comic.com|99manga.com
-/kafan_bd/bottom.js?
-/kafan_bd/top1.js?
 /kocpc.myweb.hinet.net^
 /l0130zace0z.p702.1.mp4
 /moneymaker/js/float.js
@@ -2521,7 +2519,6 @@ weather.com.cn##div[class^="adpos"]
 ||k618.cn/images/140321zyg.jpg
 ||k618.cn/images/feijiplane.gif
 ||k618.cn/tlgg/
-||k618.cn/zthd/201404/W020140507376194578501.jpg
 ||k6777.com/*0.swf
 ||k7mm.com/js/t*.js
 ||kaixin001.com.cn/i3/client/hflgad/adlj.png
@@ -3636,12 +3633,15 @@ weather.com.cn##div[class^="adpos"]
 ||zymao.net/img/taolink.jpg
 ||upaiyun.com/image/ad_ina/
 ||zyzczs.com/js/tj.txt
+||jrj.com.cn/iframe/zjgjs.html?
+||jrjimg.cn/aigu/adcj.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+jrj.com.cn##.data-collect
 news18a.com##.ina_ad_left
 news18a.com##DIV[id^="ina_click_"]
 gdtv.cn###ADVbuttom
@@ -4962,7 +4962,6 @@ iciba.com##.head_ad4
 youdaili.cn##.head_adimg
 zdnet.com.cn##.headads
 biz.ifeng.com##.header
-kafan.cn##.header_gg
 softblog.tw##.headerbn
 hgitv.com##.heng01
 fqlook.cn,meineihan.com,yawen8.com##.hengfu
