@@ -1058,7 +1058,6 @@ dnserror*.wo.com.cn^
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /game/aplus/pptv/*
 /gif/*$image,domain=txzqw.com
-/hookimg/20603_13934933271.gif$domain=i-part.com.tw
 /ifengRotatorAd.js
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/content/1436/*$domain=chineseinla.com
@@ -3629,6 +3628,7 @@ weather.com.cn##div[class^="adpos"]
 ||sinaimg.cn/large/4c929964tw1ehl05gs6m0g20jg00uq2s.gif
 ||ifengimg.com^*couplet$script
 ||i-part.com.tw/hookimg/20445_13907889291.jpg
+/20992_14037554051.gif$domain=i-part.com.tw
 ||hiao.com/node/node_27508.htm
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
@@ -3638,6 +3638,8 @@ rfidworld.com.cn##.newAdDivClass
 nj.house.163.com##.area > DIV[style*="position:absolute; z-index:"]
 mopiaoyao.com###gg
 d5yuansu.com##.ad1
+i-part.com.tw##TD[width="165"] > TABLE[width="150"][cellpadding="5"]:last-child
+i-part.com.tw###ContentFrame_Left > DIV[style]:last-child
 i-part.com.tw##.newAd
 phoenixtv.com##.adbox
 fuliba.asia,fuliba.net,fuliba.mobi###content > DIV:first-child > A:first-child:last-child
