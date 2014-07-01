@@ -846,6 +846,7 @@ hk.yahoo.com###ysm-ad
 :81/page/?s=$third-party
 :99/page/?s=$third-party
 dnserror*.wo.com.cn^
+||cpcv.cc^
 ||182.92.81.104^
 ||ejin56.com^$third-party
 ||007y.net^$third-party
@@ -3655,12 +3656,16 @@ weather.com.cn##div[class^="adpos"]
 ||ifengimg.com^*Float$script
 ||siqiboke.com/upload/winpop.js
 ||1000eb.com/www/img/1000eb.gif
+||xhub.cn/cache/320asds250.gif
+||xhub.cn/cache/ads.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+btup.net##.bottom_ad_ylc_right
+btup.net##.bottom_ad_ylc_left
 1080pdy.com###it_an
 mtrend.cn##.new_right > .new_blog_bg:nth-child(3)
 mtrend.cn##.new_right > .newindex_title:nth-child(2)
@@ -6117,6 +6122,7 @@ house.shangdu.com#@#.top_ad
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhiboche.com/images/zhiboche_ad.js
+@@||xhub.cn/cache/i.js
 @@||zhibowu.com/ad2.htm
 !--------------------------------Tracking Systems-----------------------------!
 /1.gif?$domain=scol.com.cn
