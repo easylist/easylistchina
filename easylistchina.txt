@@ -847,6 +847,7 @@ hk.yahoo.com###ysm-ad
 :99/page/?s=$third-party
 dnserror*.wo.com.cn^
 ||cpcv.cc^
+||mycctvmedia.com^$third-party
 ||wqsph.net^
 ||tc600.com^
 ||182.92.81.104^
@@ -1023,7 +1024,6 @@ dnserror*.wo.com.cn^
 ||item.taobao.com^$popup,domain=fmdisk.com
 ||javjunkies.com/JAV.php$popup
 ||jjwxc.net/jjad*.html$popup
-||jump.mycctvmedia.com/iclk/?zoneid=$popup
 ||mfll1.com^$popup,script
 ||qidian.com/showavd.$popup
 ||tanguk.com/out.html$popup
@@ -3656,7 +3656,6 @@ weather.com.cn##div[class^="adpos"]
 ||kfcdn.com/upload/analysis/20140626/9mmh58z7itqv7g75.jpg
 ||cnrdn.com^$script,domain=tianshangrenjian123.com
 ||vvtor.com/wordpress/wp-content/themes/NewsPro2/images/youbo.gif
-||mycctvmedia.com/a/tu/bfq/flash/600400
 ||kfcdn.com/upload/analysis/20140625/21ln3ovhre9djgri.jpg
 ||kfcdn.com/upload/analysis/20140423/v7ny7ap9fr9hekj9.jpg
 ||zdfans.com/yinsu.gif
