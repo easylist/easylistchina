@@ -847,6 +847,7 @@ hk.yahoo.com###ysm-ad
 :99/page/?s=$third-party
 dnserror*.wo.com.cn^
 ||eyeota.net^$third-party
+||baifendian.com^$third-party
 ||cpms.cc^
 ||007y.net^$third-party
 ||0591101.com^$third-party
@@ -3705,6 +3706,7 @@ weather.com.cn##div[class^="adpos"]
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+cnbeta.com###bfd_box_vav + .clearfix + .other_news
 letpub.com.cn###letpubjournalmessagebox
 mail.126.com,mail.163.com##.lotteryPopup2
 missyuan.com##.spaceborder
