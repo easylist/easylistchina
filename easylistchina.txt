@@ -846,6 +846,7 @@ hk.yahoo.com###ysm-ad
 :81/page/?s=$third-party
 :99/page/?s=$third-party
 dnserror*.wo.com.cn^
+||eyeota.net^$third-party
 ||cpms.cc^
 ||007y.net^$third-party
 ||0591101.com^$third-party
@@ -3695,6 +3696,8 @@ weather.com.cn##div[class^="adpos"]
 ||ezprice.com.tw/js/*_ysm_
 ||ezprice.com.tw/ezysm/
 ||133918.com/business/
+||cool3c.com/sites/all/themes/coolthemes/cwww/ysm_
+||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||qstatic.com/baike/js/ad_
 ||missyuan.com/sy/
 ||zzqhy.com^*/page/
