@@ -719,6 +719,7 @@ hk.yahoo.com###ysm-ad
 @@||sdc.pingan.com^$~image
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+.in/js/ads/
 .cc/js/ads/
 .info/admg/
 .info/js/ads/
@@ -838,6 +839,7 @@ hk.yahoo.com###ysm-ad
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 !----------------------------------Ads-Union----------------------------------!
 .cc/page/?s=$third-party
+.la/page/?s=$third-party
 .cn/page/?s=$third-party
 .com/page/?s=$third-party
 .net/page/?s=$third-party
