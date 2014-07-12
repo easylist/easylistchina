@@ -3721,6 +3721,8 @@ weather.com.cn##div[class^="adpos"]
 ||letsebuy.com/static/image/common/dm_cn_130.jpg
 ||dealmoon.com/data/app/banners/
 ||dealmoon.com/images/n/*250.
+||nmgnews.com.cn/swf/0/10/$object,domain=www.nmgnews.com.cn
+||nmgnews.com.cn/0/10/71/66/10716601_990205.gif
 ||dealmoon.com/images/ul/13/09/30/2qHlKwU.jpg
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
 ||zzqhy.com^*/page/
@@ -3728,6 +3730,7 @@ weather.com.cn##div[class^="adpos"]
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+nmgnews.com.cn##IMG[width="247"][height="50"]
 dealmoon.com##.pic_ad
 nen.com.cn##.topAd
 ncnews.com.cn##.Container_banner
@@ -5243,7 +5246,6 @@ tieba.baidu.com##.lzl_panel_wrapper > tbody > tr > td[style="width: 75%;"]
 myexception.cn##.m_a
 house365.com##.m_coup-big
 0439.com##.m_ggad
-nmgnews.com.cn##.main1 + table
 hongfen.org##.main_adser
 cnbeta.com##.main_content_right > .cber[style]:nth-child(7)
 hgitv.com##.main_gg02
