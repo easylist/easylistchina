@@ -1589,7 +1589,6 @@ weather.com.cn##div[class^="adpos"]
 ||aiyuke.com/index.php?c=position&
 ||ali213.net/js/ALi_Site.js
 ||alicdn.com/tps/*-950-90.
-||alicdn.com^*-280-220.
 ||alixixi.com/adsview/
 ||am.6park.com^
 ||am.szhome.com^
@@ -3107,7 +3106,6 @@ weather.com.cn##div[class^="adpos"]
 ||sinaimg.cn/large/$domain=360-bo.com|btshare.net|kiees.cn|kqiuba.com|pptiyu.com|qqzhibo.com
 ||sinaimg.cn/large/*?$domain=zhaofuli.net
 ||sinaimg.cn/large/4c929964tw1ehl05gs6m0g20jg00uq2s.gif
-||sinaimg.cn/large/643e6c89gw1eh$domain=lightnovel.cn
 ||sinaimg.cn/large/7044f931gw1eftzzokbs4j20d70230ua.jpg
 ||sinaimg.cn/large/710c121btw1ecexo6z2e2j20qe02ijrz.jpg
 ||sinaimg.cn/large/710c121btw1ecexp4p1d1j20qe02i74t.jpg
@@ -3718,12 +3716,15 @@ weather.com.cn##div[class^="adpos"]
 ||oogps.com/oogps/aiostech.jpg
 ||sinaimg.cn/large/7e2fcc5btw1e$domain=oxgood.com
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
+||taobaocdn.com/tps/$domain=lknovel.lightnovel.cn
 ||zzqhy.com^*/page/
 ||mtksj.com/images/icoean.gif
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 oogps.com###divAll > .a
+lknovel.lightnovel.cn##.lk-g-search + .lk-block
+lknovel.lightnovel.cn##.row-fluid.mb-20.ml-20
 nmgnews.com.cn##IMG[width="247"][height="50"]
 sjzbus.com.cn##.duilian
 oxgood.com##.ads
