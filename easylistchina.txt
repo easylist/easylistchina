@@ -3816,12 +3816,16 @@ weather.com.cn##div[class^="adpos"]
 ||125.46.61.28/1003/1003031301.swf
 ||sogou.com/skins/images/skinlist_ad.
 ||sdgundam.cn/upload/2014-07/dca9b1a643b1f3ca.jpg
+||srzc.com/images/qlgjdh.gif
+||srzc.com/templets/srxw/img/373.jpg
 ||srzc.com/js/zwfjs/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+srzc.com###ad
+srzc.com###pageright > .padding:nth-child(2)
 srzc.com##.tlgg_one
 srzc.com##.zt_tonglang1
 sohu.com##.ad_couplet
