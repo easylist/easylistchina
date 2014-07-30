@@ -3810,7 +3810,6 @@ weather.com.cn##div[class^="adpos"]
 ||shangdu.com/1002/1002031301.js
 ||125.46.61.28/1003/1003031301.swf
 ||sogou.com/skins/images/skinlist_ad.
-/^http:\/\/\w+\.duowan\.com(\/\w+){8,}/$script,domain=5253.com|duowan.com
 ||sdgundam.cn/upload/2014-07/dca9b1a643b1f3ca.jpg
 ||srzc.com/images/qlgjdh.gif
 ||srzc.com/templets/srxw/img/373.jpg
@@ -3823,6 +3822,7 @@ weather.com.cn##div[class^="adpos"]
 ||ychr.com/dlad.js
 ||ychr.com/swf/new0515netcom.swf
 ||jgzj.net/bbs/attachments/month_1111/
+/^http:\/\/(?!lol|www|comment)\w+\.duowan\.com(\/\w+=*)+\.js$/$script,domain=5253.com|duowan.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
