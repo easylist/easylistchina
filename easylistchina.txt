@@ -3827,12 +3827,15 @@ weather.com.cn##div[class^="adpos"]
 ||2muslim.com/data/attachment/portal/201407/09/185300xlal7nahvvh9sogg.jpg
 ||58.com/ui7/fang/list/img/gongyu.png
 ||58.com/ui7/fang/list/img/graduation.png
+||taihainet.com/skin/v2014/index/images/aa_10.jpg
 /^http:\/\/(?!bbs|kf|web|comment|lol|vot|news|tu|wen|www)\w+\.duowan\.com\/.*?\w{10}/$script,domain=5253.com|duowan.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+taihainet.com##.lzhb
+taihainet.com##.menu_bg + .box10 + .wrapper
 58.com##.coupad_l
 jgzj.net##.adcss
 58.com##DIV[id$="_gdbg"]
@@ -5767,7 +5770,6 @@ kutj.com##a[target="_blank"] > img[src*="gao/"]
 qzntv.com,qzwb.com##body > .area[style^="height:190px;"]
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 qzntv.com,qzwb.com##body > .area[style^="height:80px;"]
-taihainet.com##body > .wrapper:nth-child(2)
 danyang.com##body > div[align="center"]
 shangdu.com##body > div[class="bt"]
 qiushibaike.info##body > div[style]
