@@ -1997,12 +1997,10 @@ weather.com.cn##div[class^="adpos"]
 ||duba.com/images/*960_60.jpg
 ||duba.com/info/images/ycepf06.gif
 ||dugu123.com^$subdocument
-||duowan.com/crossdomain.xml
 ||duowan.com/img/ad/
 ||duowan.com/index.php?r=anuncio/getanuncio
 ||duowan.com/s/v2/topHeziAd.js
 ||duowan.com/s/yuanbao-entrance.js
-||duowan.com/|$object-subrequest
 ||duoxiai.com.cn/imgad/
 ||dvs.china.com^
 ||dwstatic.com/amkit/p/livetip/main.js
@@ -3832,7 +3830,9 @@ weather.com.cn##div[class^="adpos"]
 ||jn.auto.sina.com.cn/iframe/13/
 ||sd.sina.com.cn/auto/iframe/13/
 ||douguo.net/upload/post/d/
-/^http:\/\/(?!bbs|kf|web|comment|lol|vot|news|tu|wen|www)\w+\.duowan\.com\/.*?[A-Z]{2}/$match-case,script,domain=5253.com|duowan.com
+||duowan.com/public/s/market_count.js
+||vupload.duowan.com^
+||untitled.dwstatic.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 ||5156edu.com/js/lwx.js
@@ -6305,7 +6305,6 @@ czbj.js.cn#@#.adArea
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=9duli.com|cgtsj.com|colafile.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||czsrc.com/Adpic/
-@@||danmu.v.duowan.com/crossdomain.xml
 @@||de.as.pptv.com^$object-subrequest
 @@||dianxinos.com/advs/
 @@||dnvod.eu/ads/$object-subrequest
