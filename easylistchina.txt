@@ -3838,6 +3838,10 @@ weather.com.cn##div[class^="adpos"]
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+jc001.cn##.ADS
+javlibrary.com###announcement
+cyzone.cn##.tzkd_bottom
+cyzone.cn##.tzkd_top
 gzmama.com###zone_right_couplet
 gzmama.com###zone_left_couplet
 tc.cn###codefans_net
@@ -6178,9 +6182,6 @@ dianmi.net#@#.top-ads
 house.shangdu.com#@#.top_ad
 17ppt.com#@#.topads
 czbj.js.cn#@#.adArea
-cyzone.cn##.tzkd_bottom.clearfix
-cyzone.cn##.tzkd_top.clearfix
-jc001.cn##.ADS
 !---------------------------------URL Whitelist-------------------------------!
 @@,modules/adMedia.
 @@.beautifulphoto.net/ads/music
@@ -6335,8 +6336,8 @@ jc001.cn##.ADS
 @@||indeep.com.tw/Images/Upload/AdPic/
 @@||indeep.com.tw^*/Showad.
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
-@@||javlibrary.com/js/jquery.
-@@||javlibrary.com/js/main.
+@@||javlibrary.com/js/*jquery.
+@@||javlibrary.com/js/*main.
 @@||javlibrary.com/js/videocensored.
 @@||jinhongweiqi.com/ad/update/$image,~third-party
 @@||jj.5ccc.net/scripts/new/pagetop.js
