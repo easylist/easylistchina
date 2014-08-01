@@ -1746,7 +1746,7 @@ weather.com.cn##div[class^="adpos"]
 ||biz.weibo.com^
 ||bj.house.sina.com.cn/iframe/
 ||bj.house.sina.com.cn^$script
-||bjmama.net/a/spc_
+||ad.bjmama.net^
 ||bjmxw.net/bd/
 ||bkill.com/css/abc/
 ||bkill.com/css/js/bkill.js
@@ -3834,10 +3834,12 @@ weather.com.cn##div[class^="adpos"]
 /^http:\/\/(?!bbs|kf|web|comment|lol|vot|news|tu|wen|www)\w+\.duowan\.com\/.*?[A-Z]{2}/$match-case,script,domain=5253.com|duowan.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
-||www.5156edu.com/js/lwx.js
+||5156edu.com/js/lwx.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+gzmama.com###zone_right_couplet
+gzmama.com###zone_left_couplet
 tc.cn###codefans_net
 100jia.cn###diy_vk_ad_2
 100jia.cn###frameD15LAU
@@ -6179,9 +6181,6 @@ czbj.js.cn#@#.adArea
 cyzone.cn##.tzkd_bottom.clearfix
 cyzone.cn##.tzkd_top.clearfix
 jc001.cn##.ADS
-gzmama.com##.gz_mama_main_master_banner
-gzmama.com###zone_right_couplet
-gzmama.com###zone_left_couplet
 !---------------------------------URL Whitelist-------------------------------!
 @@,modules/adMedia.
 @@.beautifulphoto.net/ads/music
