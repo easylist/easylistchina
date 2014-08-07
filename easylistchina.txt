@@ -1159,7 +1159,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 qoocc.com##.adver300
 weather.com.cn##.post_st
 weather.com.cn##div[class^="adpos"]
-|http:$script,domain=javlibrary.com
+||javlibrary.com/js/bnr_
+|http:$script,third-party,domain=javlibrary.com
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk
 |http:*/BD/$subdocument,domain=udn.com
 |http:*/p$script,domain=99770.cc|99comic.com|99manga.com
@@ -6397,8 +6398,6 @@ house.shangdu.com#@#.top_ad
 @@||indeep.com.tw/Images/Upload/AdPic/
 @@||indeep.com.tw^*/Showad.
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
-@@||javlibrary.com/js/*.min.js
-@@||javlibrary.com/js/videocensored.
 @@||jinhongweiqi.com/ad/update/$image,~third-party
 @@||jj.5ccc.net/scripts/new/pagetop.js
 @@||joy.cn/service.php?*&showad=
