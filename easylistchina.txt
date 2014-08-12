@@ -513,20 +513,14 @@
 !*** chinalist-generic.txt ***
 .cn/ads/
 .com.cn/js/ad.
-.com/js/ad_
 .info/ad/
 /acmsd/*
 /adflash/*
-/adphoto/*
-/adpics/*
-/adpshow.
 /adpuba/*
 /advpic/*
 /attachments/ad/*
 /data/ad/*
-/dkgg/*
 /duilian.
-/events/ad/*
 /floatad.
 /gaog/*
 /gg1.
@@ -539,7 +533,6 @@
 /guangg/*
 /guanggao.
 /guanggao/*
-/images/prom/*
 /main/s?
 /paypic/*
 /piaofu.js
@@ -550,17 +543,6 @@
 /tan1.js
 /tuiguang/*
 /u/_sponsor/*
-/webafp?
-|http://*.cn/ad/
-|http://*.hk/ad/
-|http://*.tw/ad/
-|http://*/*_ad.js
-|http://*/gg/
-|http://*/js/ad.
-|http://*/js/ad/
-|http://*/js/tc.js
-|http://acs.
-|https://*/ad/
 !---Online Novel/Comic Sites
 /configs/article/*$script,subdocument
 /configs/article/gggg/*
@@ -699,6 +681,7 @@ hk.yahoo.com###ysm-ad
 @@||sdc.pingan.com^$~image
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+.com/js/ad_
 .cc/js/ads/
 .in/js/ads/
 .info/admg/
@@ -728,6 +711,16 @@ hk.yahoo.com###ysm-ad
 /tan.js
 /tanchuang.
 ?adid=*&tcca=$script
+|http://*.cn/ad/
+|http://*.hk/ad/
+|http://*.tw/ad/
+|http://*/*_ad.js
+|http://*/gg/
+|http://*/js/ad.
+|http://*/js/ad/
+|http://*/js/tc.js
+|http://acs.
+|https://*/ad/
 |http://*.cc/ad/
 |http://*.in/ad/
 |http://*.tv/ad/
