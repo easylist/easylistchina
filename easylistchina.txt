@@ -431,7 +431,7 @@
 ||ujoin.net^$third-party
 ||ulink.cc^$third-party
 ||un.5d6d.com^
-||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
+||union.$third-party
 ||union001.$third-party
 ||union009.com^$third-party
 ||union178.com^$third-party
@@ -513,7 +513,7 @@
 !*** chinalist-generic.txt ***
 .cn/ads/
 .com.cn/js/ad.
-.com/js/ad_$domain=~eslite.com
+.com/js/ad_
 .info/ad/
 /acmsd/*
 /adflash/*
@@ -735,7 +735,7 @@ hk.yahoo.com###ysm-ad
 |http://*/ad.js?sn=
 |http://*/ad.js?v=
 |http://*/i.js$third-party,domain=~liuyanbaike.com
-|http://ad.$domain=~gridsum.com|~gridsumdissector.com|~opinion.cw.com.tw|~wsj.com
+|http://ad.
 |http://gg.$third-party
 !------------------------General element hiding rules-------------------------!
 ###QQ_Full
@@ -6522,6 +6522,7 @@ house.shangdu.com#@#.top_ad
 @@||xinhuanet.com/static/rmedia/pv.swf
 @@||xunleihao.com/a-d-j-s/a-d-7.js
 @@||ychr.com/picad/
+@@||ad.cw.com.tw^
 @@/ttkdweb/page/js/ad.js
 @@||yimg.jp/combo?*/ad/
 @@||yiqifa.com/ad_images/$~third-party
