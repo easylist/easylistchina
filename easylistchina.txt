@@ -551,10 +551,10 @@
 /tuiguang/*
 /u/_sponsor/*
 /webafp?
-|http://*.cn/ad/$domain=~easybuy.com.cn
+|http://*.cn/ad/
 |http://*.hk/ad/
-|http://*.tw/ad/$domain=~atmovies.com.tw
-|http://*/*_ad.js$domain=~cntv.cn
+|http://*.tw/ad/
+|http://*/*_ad.js
 |http://*/gg/$~stylesheet,domain=~cnr.cn|~coo8.com|~guokr.com
 |http://*/js/ad.
 |http://*/js/ad/
@@ -6485,6 +6485,7 @@ house.shangdu.com#@#.top_ad
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||snh48.com/images/ad/
+@@||cntv.cn^*_ad.js
 @@||static.csbew.com^$domain=cankaoxiaoxi.com
 @@||static.hdslb.com/ad-images/$image
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
