@@ -488,13 +488,6 @@
 /proxy.html?id=
 /tan1.js
 /tuiguang/*
-!---Online Novel/Comic Sites
-/configs/article/*$script,subdocument
-/configs/article/gggg/*
-/contentjs/*$script
-@@/configs/article/bottom.js
-@@/configs/article/pagebottom.js
-@@/configs/article/pagetop.js
 !*** chinalist-specific.txt ***
 !--有道
 ||a.youdao.com^
@@ -3844,6 +3837,7 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||121down.com/js/*.html
 ||vikilife.com/huaban.jpg
 ||mifengtd.cn/ad-rishiqing-180.png
+||2200book.com/configs/article/pagebottom1yc.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -6451,8 +6445,6 @@ house.shangdu.com#@#.top_ad
 @@||rm.sina.com.cn/minisite/$domain=weibo.com
 @@||s.acs86.com/FrameWork/AFP/ASP_v523.swf$domain=mytv365.com
 @@||sc.jb51.net/adimg/*.jpg
-@@||shanwen.com/configs/article/pagetop3.js
-@@||shanwen.com/configs/article/spagebottom1.js
 @@||share.dmhy.*/generate-captcha?
 @@||shu008.com/heibing/js/ad/style1.js
 @@||sina.com.cn/litong/zhitou/pic/close-
