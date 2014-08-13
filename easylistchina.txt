@@ -690,7 +690,6 @@ hk.yahoo.com###ysm-ad
 .net/js/ads/
 .us/js/ads/
 /a_tc.js?adid=
-/adf/img/link/*
 /AdPreview/*
 /ajds/*
 /caches/poster_js/*
@@ -1031,7 +1030,6 @@ dnserror*.wo.com.cn^
 ||we.577gc.info^$popup,third-party
 ||we.577gc.me^$popup,third-party
 ||we.577gc.net^$popup,third-party
-||witvc.com/show/$popup
 ||wuyougo.info/tao.php$popup
 ||wuyougo.info^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
@@ -3879,6 +3877,7 @@ jthysh.com##.home-banner
 shuobar.cn###fc_ad
 haixiachina.com##.banner
 hangzhou.com.cn##.ads
+witvc.com##DIV[style="position:relative; height:255px; width:958px; overflow:hidden;"]
 dianxinnews.com##A[style="color:red;"][href="http://finance.huanqiu.com/"]
 dianxinnews.com##DIV[class^="dd-cont-"]
 dianxinnews.com##DIV[style="margin:0;padding:0;width:660px;height:250px;overflow:hidden;background-color:#fff;"]
