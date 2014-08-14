@@ -14,7 +14,6 @@
 !  Mon, 24 Mar 2014 09:28:37 +0800
 !*** chinalist-adservers.txt ***
 !--中国电信
-/clicktotal/ClickTotal.js
 ||189.cn/dns/
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
@@ -458,7 +457,6 @@
 ||zwads.com^$third-party
 ||zytwq.net^$third-party
 !*** chinalist-generic.txt ***
-.cn/ads/
 .com.cn/js/ad.
 .info/ad/
 /acmsd/*
@@ -619,6 +617,8 @@ hk.yahoo.com###ysm-ad
 @@||sdc.pingan.com^$~image
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/clicktotal/ClickTotal.js
+.cn/ads/
 .cc/js/ads/
 .com/js/ad_
 .in/js/ads/
@@ -3535,7 +3535,7 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||wacowla.com/wp-content/uploads/*140x400
 ||wacowla.com/wp-content/uploads/*320x250
 ||wal8.com^$domain=52jifenbao.net
-||wallstreetcn.com/sites/all/themes/wallstcn/ads/
+/wallstcn/img/head-event-
 ||wan.sogou.com/cdn/$subdocument
 ||wan.sogou.com/pop/
 ||wandoou.com/heibing/js/640X60.js
