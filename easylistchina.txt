@@ -465,7 +465,6 @@
 /advpic/*
 /attachments/ad/*
 /data/ad/*
-/duilian.
 /floatad.
 /gaog/*
 /gg1.
@@ -616,6 +615,7 @@ hk.yahoo.com###ysm-ad
 @@||sdc.pingan.com^$~image
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/duilian.
 /tuiguang/*
 /clicktotal/ClickTotal.js
 .cn/ads/
@@ -2114,8 +2114,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||games.ifeng.com^$subdocument
 ||gamme.com.tw/ga/
 ||ganjistatic1.com^*/adm/
-||ganjistatic2.com/public/app/common/uniontgm/
-||ganjistatic2.com/public/app/ms_v2/mall/trade/ad.
 ||ganjituiguang.ganji.com^
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gd.sina.com.cn/iframe/22/
@@ -2145,11 +2143,9 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||ghostxp3.com/xf.js
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||gminfo.cn/flash/
-||gminfo.cn/images/fcgj.jpg
 ||gminfo.cn/js/ad-
 ||gminfo.cn/qds/gmszyy.swf
 ||gmw.cn/banner/
-||gmzp.net/data/comads/
 ||go.hangzhou.com.cn^
 ||go2tutor.com/lifebox.asp
 ||good.gd/good.gd/js/downloadPrograss.js
@@ -2171,8 +2167,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||gridsumdissector.com/track.ashx?gsadid=
 ||groupa.onlylady.com^
 ||gscn.com.cn/home/images/advscroll.js
-||gscn.com.cn/home/images/duilian2014.js
-||gscn.com.cn/home/images/TopScrollAda.js
 ||gscn.com.cn/pic/0/10/34/27/10342786_994137.gif
 ||gter.net^*adv
 ||gtimg.com/news/news/2014ad/
@@ -3815,6 +3809,7 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||appinn.com/images/201407/lcf.png
 ||dygod.net/js/728.js
 ||67.198.134.10/*.js|
+||ganjistatic1.com^*-banner-
 ||txt99.cc/skin/script/*.js
 ||hqcx.net/index.php?m=poster&
 ||zzqhy.com^*/page/
@@ -3822,6 +3817,7 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+ganji.com##.banner
 gamefy.cn##.con + DIV[style="float:right; width:326px;"]
 www.xdkb.net##.col0b
 xdkb.net##.banner-l
@@ -4868,7 +4864,6 @@ zhlzw.com##.article_ad2
 zhlzw.com##.article_oo
 asp300.com##.asp300-indexAD
 gamefy.cn##.att-bar
-beva.com##.av-1
 qiwen999.com##.ax-arc610161
 qiwen999.com##.ax_ri300120
 junqing123.com##.axing_ad_300_120
@@ -5662,7 +5657,7 @@ cn.msn.com,ifeng.com,nen.com.cn,sina.com.tw##.topAd
 yeyou.com##.topBackgroundAdv_bgbody
 mnw.cn##.top_960_50
 jokeji.cn##.top_adreg
-51testing.com,86wan.com,ganji.com,xitek.com,xitong8.com##.top_banner
+51testing.com,86wan.com,xitek.com,xitong8.com##.top_banner
 qidian.com##.top_game_info
 xizi.com##.top_gg
 5iyq.com##.top_l
@@ -5892,7 +5887,6 @@ pixnet.net##div[id*="-aD-"]
 pixnet.net##div[id*="-ad-"]
 chinaluxus.com##div[id*="ExtraAD"]
 tianya.cn##div[id*="_AD_"]
-beva.com##div[id*="_BANNER_"]
 e23.cn##div[id*="adv"]
 jump.bdimg.com,tieba.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
