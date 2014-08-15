@@ -1018,7 +1018,6 @@ dnserror*.wo.com.cn^
 ||ashleymadison.com/app/public/index.p$popup
 ||cnyjk.com^$popup,third-party
 ||gxp.cc^$popup,third-party
-||item.taobao.com^$popup,domain=fmdisk.com
 ||javjunkies.com/JAV.php$popup
 ||jjwxc.net/jjad*.html$popup
 ||qidian.com/showavd.$popup
@@ -2033,7 +2032,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||epinv.com/wp-content/themes/ep/js/single.js
 ||eprice.com.tw/js/swfobject-2.3.js
 ||erji.com/acton.swf
-||erji.net/ejnew.gif
 ||erji.net/photo/
 ||etdown.net/images/ad1
 ||etf88.com/jjb/*_ad$script
@@ -2062,7 +2060,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||feng.com/aoodoo/
 ||feng.com^*/index_treasure/
 ||fengbuy.com/recommend-new.php
-||ffpan.com/FFyoudao/
 ||fftxt.net/js/baidu
 ||file.ws.126.net/house/*/js/tc_
 ||file.ws.126.net/house/jn/*.swf
@@ -2074,7 +2071,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||fj.sina.com.cn/iframe/63/
 ||fj007.com/money/
 ||fkctgl.qiniudn.com/lls_1_1_640100.png
-||fkvod.com/js/taobao/
 ||flash.mycar168.com/data/js/
 ||flash8.net/flash8_a_d_s/
 ||float.sandai.net^$object-subrequest
@@ -2109,10 +2105,8 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||g.rexian.net.cn/js/
 ||g1.0573ren.com^
 ||g1.sdo.com^
-||g1080.com/js/cache_bg.js
 ||g4.beva.com/data-js-
 ||gamefy.cn/cookiead.php
-||gamefy.cn/style/swf/adv.xml
 ||gamersky.com/bgpic/
 ||gamersky.com/img/
 ||gamersky.com/piaofu*/
@@ -2186,7 +2180,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||gtimg.com/www/asset/project/qqDownload_
 ||gtimg.com/www/test/300_250.swf
 ||gtimg.com^*/ad/
-||gtv.com.cn/js/cache_data_tjw.js
 ||gtv.com.cn/public/images/2014-03/20/71_12931395286234.jpg
 ||guofs.com/images/578-60.gif
 ||guqu.net/Cooperate/
@@ -2275,7 +2268,6 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 ||hn.xinhuanet.com/imgs/huayuecheng1.gif
 ||hn.xinhuanet.com/imgs/klgjad.jpg
 ||hn.xinhuanet.com/imgs/sycad.gif
-||home.focus.cn/fad/
 ||hongdou.gxnews.com.cn/upload/index/$~object-subrequest
 ||hongshu.com/hs/
 ||hongxiu.com/images/home20140530.gif
@@ -3830,6 +3822,7 @@ kocpc.com.tw/wp-content/uploads/2014/08/1407140607-3025174b05e96b4eb4dbf61c9f079
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+gamefy.cn##.con + DIV[style="float:right; width:326px;"]
 www.xdkb.net##.col0b
 xdkb.net##.banner-l
 xdkb.net##.news-l-yg
@@ -4498,7 +4491,6 @@ pbhz.com###text-html-widget-2
 ref.so###tg2_main
 kmplayer.cn###thead
 i.firefoxchina.cn###theme-side-banner
-i.firefoxchina.cn###theme-side-bar-recommend
 163.com###thread_inside_ad
 ettoday.net###ticker_3
 kan300.com,xxdm.com###tiepianDIV
@@ -4706,7 +4698,7 @@ hupu.com##.ad720-90
 ifeng.com##.ad728_tit
 tgbus.com##.ad79
 17ppt.com##.ad80
-6pingm.com,focus.cn,ifeng.com,laohe360.com,laohe360.net,sohu.com##.ad950
+6pingm.com,ifeng.com,laohe360.com,laohe360.net,sohu.com##.ad950
 pharmnet.com.cn##.ad950-t
 pharmnet.com.cn##.ad9502
 xiaoxiucai.org##.ad950_90
@@ -5436,7 +5428,6 @@ zhifang.com##.newhousegg002
 ali213.net##.newright
 cnhan.com,longhoo.net##.news-5
 news.duba.com##.news_ad > .hot_list:first-child
-gamebase.com.tw##.news_ad_top
 zhcw.com##.news_blanck
 tianqi.com##.news_ggimg
 news.cn2che.com##.newsad
@@ -5505,7 +5496,6 @@ dnvod.eu##.r-ad2
 northnews.cn##.r-con > div[style^="width:334px;"]
 ahtv.cn,onlinedown.net##.r1
 act.qq.com##.r_b_ad
-g1080.com##.r_img_m
 0597kk.com##.radioBox
 junshi.cn,qichelian.com,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.rbanner
 3gsc.com.cn##.read_otherbook + a
@@ -5749,7 +5739,6 @@ youku.com##.yk-AD-tong
 geiliwx.com##.yueduads
 house.ks.js.cn##.yytf_960_ha
 zol.com.cn##.z-hot-pro
-g1080.com##.zdgx_right_bottom
 sina.com.cn##.zhitou-wrap
 srzc.com##.zt_tonglang1
 yb983.com##A[href*="/ClickAd"]
