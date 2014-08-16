@@ -583,14 +583,10 @@ tw.yahoo.com##.pa-banner
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
 ||tw.rd.yahoo.com^$image
 ||tw.yimg.com/a/tw/
-||yimg.com/*/ysm/
 !--HK
-hk.yahoo.com###eu
 hk.dictionary.yahoo.com###fr-adv
 hk.yahoo.com###mntl1
-hk.yahoo.com###mt_ugc
 hk.search.auctions.yahoo.com###yauadysmh
-hk.yahoo.com###ysm-ad
 ||l.yimg.com/*/a/hk/$~stylesheet
 ||l.yimg.com/mq/hk/promotions/
 ||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
@@ -1118,7 +1114,6 @@ dnserror*.wo.com.cn^
 /xiao1234.com/ads/*
 /ycpiframe.aspx$domain=strtv.cn
 /ysm.ezprice.net/*
-/yyets280_80.gif
 _iframe.htm|$domain=news.cn|xinhuanet.com
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk
 |http:*/BD/$subdocument,domain=udn.com
@@ -1690,7 +1685,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||bestxl.com/langzi/0403/ld.jpg
 ||bf2.zzc.cn/b/live_b
 ||bh111.com/js/tan_center.js
-/html/ads-arc.js
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -3057,7 +3051,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||s.tankr.net/s/$script
 ||s.tkurl.com
 ||s.u17t.com/leaflet/upload/
-||s.yimg.com/ja/ap/hk/biotherm/
 ||s.yimg.com/ja/ap/hk/rm/hk_rm_tab_20140226.js
 ||s1.pplive.cn/sta.js
 ||s3-ap-northeast-1.amazonaws.com/unalisbucket/10/
@@ -3600,7 +3593,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yimg.com/no/$domain=~yahoo.com
 ||yimuhe.com/n_ad/
-||yinfu.cc/img/ad$image
 ||yinyuetai.com/partner/$object-subrequest
 ||yizhai.net/myjs/f*.js
 ||yktj.yzz.cn^
@@ -3730,11 +3722,16 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||sogou.com/adpub/
 ||webkaka.com/script/duilian_
 ||xinhuanet.com/v2/ads/
+||yimg.com/*/ysm/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+ynet.com##.adt
+hk.yahoo.com###mt_ugc
+hk.yahoo.com###ysm-ad
+hk.yahoo.com###eu
 163.com###bobo
 hefei.cc###pb_sm_l
 xinhuanet.com##.dlads01
@@ -4463,7 +4460,6 @@ quanji.com###xinxi
 sina.com.cn###xj_sy_wm950109
 xizi.com###xz_8
 redocn.com###yc_adv_1_2
-tw.bid.yahoo.com###ychpnexpando
 v17go.com###yd10086
 starbaby.cn###yindex_ads
 yaolan.com###yuer_top
@@ -4534,7 +4530,7 @@ ihome99.com##.ad-980x60
 weibo.com##.ad-adidas
 baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
-freegroup.org,qq.com,yunpan.cn,zol.com.cn##.ad-box
+freegroup.org,qq.com,zol.com.cn##.ad-box
 nanrenwo.net##.ad-container
 simplecd.me##.ad-entry-sidebar-1
 simplecd.me##.ad-entry-sidebar-2
@@ -5773,7 +5769,7 @@ dayoo.com,mycar168.com,pchome.net,qz828.com##div[id^="ad"]
 joy.cn##div[id^="ad_300_"]
 pchome.com.tw##div[id^="ad_div_"]
 ccidnet.com##div[id^="ad_dst"]
-cbmland.com,ynet.com##div[id^="ads_"]
+cbmland.com##div[id^="ads_"]
 txzqw.com##div[id^="ads_c_"]
 mgbbs.cn##div[id^="ads_d_"]
 chinayk.com,e0575.cn,eyuyan.com,tiboo.cn##div[id^="ads_r_"]
