@@ -617,7 +617,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 .com/js/ad_
 .in/js/ads/
 .info/ad.js
-.info/admg/
 .info/js/ads/
 .net/js/ads/
 .us/js/ads/
@@ -670,7 +669,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ###ad_full
 ###ad_text + div[style="width:960px;margin: auto;"]
 ###adtop1
-###adx_gg
 ###adx_cggp
 ###doyoo_monitor
 ###duilian_left
@@ -698,9 +696,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ###tr_ad9
 ###tr_ad10
 ###tr_ad11
-##._ads
 ##._cggp
-##._ggs
 ##.ad250left
 ##.ad72060
 ##.adbox3
@@ -708,7 +704,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##.adsense160
 ##.adsense200
 ~winba.me##.baiduad
-##.bander_ad960
 ##.content_ad_300
 ##.gg_full
 ##.google_adsense2
@@ -1003,7 +998,7 @@ dnserror*.wo.com.cn^
 ||greenet.cn^*_popu_$popup
 /?ref=$popup,domain=allanalpass.com|any.gs|cash4files.com|deb.gs|dyo.gs|filesonthe.net|goneviral.com|linkbucks.com|picbucks.com|qqc.co|theseblogs.com|tnabucks.com|urlbeat.net|yyv.co|zff.co
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=520cc.cc|5278.cc|5278bbs.com|coual.com|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|mimima.com|rmdown.com|see3r.com|shclk.com|ttft.in|xhcbb.com|xunfs.com
+|http:$popup,third-party,domain=520cc.cc|5278.cc|5278bbs.com|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|mimima.com|rmdown.com|see3r.com|shclk.com|ttft.in|xhcbb.com|xunfs.com
 ||133gp.com^$popup
 ||189.gd^*.html?p=$popup,third-party
 ||90hnbb.pw^$popup,script
@@ -1043,7 +1038,7 @@ dnserror*.wo.com.cn^
 /2222.js$domain=114lala.info|6699xx.info
 /2kk.cc-330-50.gif
 /2tu/ads/*
-/?age=1&$domain=coual.com|dwbpy.com|kxddd.com|see3r.com|shclk.com|ttft.in|xhcbb.com
+/?age=1&$domain=dwbpy.com|kxddd.com|see3r.com|shclk.com|ttft.in|xhcbb.com
 /adscript/crazyad.js
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /afp/*$domain=scol.com.cn
@@ -1080,7 +1075,6 @@ dnserror*.wo.com.cn^
 /kocpc.myweb.hinet.net^
 /l0130zace0z.p702.1.mp4
 /modules/video/player/nuevo/midroll.php?
-/moneymaker/js/float.js
 /moneymaker/js/piaopp.js
 /nddailyfile/webadv/*
 /neaDm.jpg$domain=17domn.com|97down.info|kidown.com|pidown.info|wkdown.info
@@ -1273,7 +1267,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||2ccc.com/images/show/
 ||2ccc.com/images/WebXone.gif
 ||2kuai.com/images/12.gif
-||2kuai.com/images/2.jpg
 ||2kuai.com/images/vip.gif
 ||2muslim.com/data/attachment/portal/201407/09/185300xlal7nahvvh9sogg.jpg
 ||2u.com.cn/js/2012_movie.js
@@ -1524,7 +1517,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||99danji.com/otherhtml/
 ||99re.com/images/close.gif
 ||204.12.228.235/*.png
-||9duli.com/images/kankan70.jpg
 ||9ht.com/skin2012/js/tlAd.js
 ||9ihome.com/adimgs/
 ||9ihome.com/info/ADTopvnet/
@@ -2275,7 +2267,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||hudong.pl.youku.com^
 ||huizhou.cn/adintrs/
 ||huizhou.cn/webfile/*/images/scroll.js
-||hunantv.com/mediafiles/$object-subrequest
 ||hunantv.com/ui/2014/images/hao123.jpg
 ||huodong.liaoing.com/haibao/2013/800zhinengsuo_0702/zhineng.swf
 ||huoxingyu.com/images/hxy_350_330.gif
@@ -6106,7 +6097,6 @@ house.shangdu.com#@#.top_ad
 @@||adobe.com^*/afr?auid=
 @@||ads.i8.com.cn/hd/dzs/
 @@||ads.myopen.vip.com^$domain=vip.com
-@@||afp.acs86.com^$object-subrequest,domain=imgo.tv
 @@||ali213.net/*/pop.js
 @@||ali213.net/*/tj.js
 @@||allyes.com.cn/player/AllyesAdPlayerV1.swf?$domain=jstv.com
