@@ -615,6 +615,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 .cn/ads/
 .cc/js/ads/
 .com/js/ad_
+.com/a_d/
 .in/js/ads/
 .info/ad.js
 .info/js/ads/
@@ -622,7 +623,9 @@ hk.search.auctions.yahoo.com###yauadysmh
 .us/js/ads/
 /a_tc.js?adid=
 /AdPreview/*
+/adintrs/*
 /ajds/*
+/cache/ad_js/*
 /caches/poster_js/*
 /content/plugins/em_ad/*
 /data/cache/myad-
@@ -1298,7 +1301,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||36krcnd.com/poster/$image
 ||36tv.cn/ad_pic/
 ||36tv.cn/statics/images/jinhuatv/ad
-||3bbb.net/system/cache/ad_js/
 ||3boys2girls.com/newfile/image2010/banner_housead_
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 ||3boys2girls.com^$subdocument
@@ -1603,7 +1605,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||amd.cn/yyets.js
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
-||ankang.biz/system/cache/ad_js/
 ||anywlan.com/link/nyt.gif
 ||aoodoo.feng.com^
 ||apas.aipai.com/www/api/aipaiPlayFull2.js?0.
@@ -1958,7 +1959,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||e0421.com/*tj.js
 ||e0421.com/css/js/bd
 ||e0421.com/css/js/tl
-||e0514.com/a_d/
 ||e0575.cn/images/v1/dl/
 ||e0575.cn/js/float.js
 ||e0575.com/pic/AD_
@@ -2265,7 +2265,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||huanwen.com/Public/images/banner/
 ||huarenjie.com/files/140257728854.jpg
 ||hudong.pl.youku.com^
-||huizhou.cn/adintrs/
 ||huizhou.cn/webfile/*/images/scroll.js
 ||hunantv.com/ui/2014/images/hao123.jpg
 ||huodong.liaoing.com/haibao/2013/800zhinengsuo_0702/zhineng.swf
@@ -2492,7 +2491,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||jpunion.com^$domain=jpfans.com|jpseek.com
 ||jpwind.com/images/partner/
 ||jpwind.com^*/scroll.js
-||jpxsw.com/a_d/
 ||jq22.com/css/img/g300x300.jpg
 ||jrj.com.cn/iframe/zjgjs.html?
 ||jrjimg.cn/aigu/adcj.jpg
@@ -2640,7 +2638,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||live8bo.com/j/Lad6.js
 ||ln.xinhuanet.com/inc/
 ||lnd.com.cn/site1/*.swf
-||lnzq5.com/a_d/
 ||lnzq5.com/js/shuanglian.js
 ||lofter.com/mailEntry.do?blogad=
 ||longhoo.net/36732.files/banner_shi.gif
@@ -3262,7 +3259,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||thethirdmedia.com/a1/*960x
 ||tianjinwe.com/images/qssx/
 ||tianjinwe.com/together/szbz/
-||tianjinwe.com:8081/adintrs/
 ||tianmu.com/abbsd/
 ||tianmu.com/js/qq.js
 ||tianqi.com/static/js/gg.js
@@ -3598,7 +3594,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||yunaw.com/content/templates/yunaw/images/2345banner
 ||yunfile.com^*/offline_banner/
 ||yxdown.com/ghtml/
-||yxingqiu.com/system/cache/ad_js/
 ||yxlady.com/cdd/
 ||yy521.com/qq/qq.js
 ||yytcdn.com/swf/plugins_new.xml?
@@ -3630,7 +3625,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zhibok8.com/js/ding.js
 ||zhibok8.com/js/scroll.js
 ||zhibowu.com/js/ad
-||zhoushan.cn/adintrs/
 ||zhoushan.cn/new.js
 ||zhuangpin.com^*/ad/
 ||zhuankeba.net/rw/tyrw/top.jpg
@@ -3716,6 +3710,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 gpcxw.com###AA2
 yaolan.com###AD
 ynet.com##.adt
+zbgl.net##.ad
+zbgl.net###ad1
 wcjbb.com###frame2TVWk2
 55music.net##.d_banner
 sznews.com###yindao05 + .indexcon07
