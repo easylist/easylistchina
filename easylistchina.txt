@@ -299,8 +299,6 @@
 ||maxreturn.cn^$third-party
 ||mediav.com^$third-party
 ||meidulm.com^$third-party
-||miaozhen.com^$third-party
-||mobads.baidu.com^$third-party
 ||molidao.com^$third-party
 ||mosa86.com^$third-party
 ||mtxsk.com^$third-party
@@ -527,13 +525,10 @@ sogou.com###zhuanqu
 !---中国天气
 @@||poster.weather.com.cn/p_files/base/$image
 !---XunLei
-kuai.xunlei.com##.adv_area
 ||cop.my.sandai.net^$third-party
 ||gouwu.vip.xunlei.com^$third-party
-||img.kuai.xunlei.com/img/v2/fen/
 ||js.kankan.xunlei.com/5.2/mp4/js/kankan_commercial_mp4_563.js
 ||jsunion.kankan.xunlei.com^$third-party
-||record.kuai.xunlei.com^
 !--TW
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
 @@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
@@ -561,9 +556,6 @@ hk.yahoo.com###mntl1
 !--土豆
 ||player.pb.ops.tudou.com/info.php?
 ||tudou.com^*/outside.php
-!*** chinalist-white.txt ***
-@@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
-@@||sdc.pingan.com^$~image
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
@@ -732,6 +724,8 @@ hk.yahoo.com###mntl1
 /code/popjs.
 .adver.com.tw/
 dnserror*.wo.com.cn^
+||miaozhen.com^$third-party
+||mobads.baidu.com^$third-party
 ||acs86.com^$third-party
 ||007.mx^$third-party
 ||allyes.$third-party
@@ -3657,12 +3651,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||pchome.com.tw/main_top_frame/
 ||xdcad.net/source/plugin/disad/disad.js
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
+||img.kuai.xunlei.com/img/v2/fen/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+kuai.xunlei.com##.adv_area
 tw.news.yahoo.com##.gn_sub_blue
 tw.yahoo.com###ad_exp
 tw.yahoo.com###ad_mntl
@@ -6241,6 +6237,7 @@ house.shangdu.com#@#.top_ad
 @@||xinhuanet.com/static/rmedia/pv.swf
 @@||xunleihao.com/a-d-j-s/a-d-7.js
 @@||ychr.com/picad/
+@@||sdc.pingan.com^$~image
 @@||ad.ourgame.com^
 @@||yimg.jp/combo?*/ad/
 @@||yiqifa.com/ad_images/$~third-party
@@ -6263,6 +6260,7 @@ house.shangdu.com#@#.top_ad
 ||adgeo.163.com^
 ||analytics-union.sandai.net^
 ||analytics-union.xunlei.com^
+||record.kuai.xunlei.com^
 ||analytics.tv189.cn^
 ||api.pixnet.tv/count^
 ||atpanel.com^$image
