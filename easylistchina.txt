@@ -42,7 +42,6 @@
 !--sort by domain
 .all4ad.$third-party
 ||000wan.com^$third-party
-||007.mx^$third-party
 ||100fenlm.cn^$third-party
 ||100peng.com^$third-party
 ||100tone.com^$third-party
@@ -145,7 +144,6 @@
 ||a1click.aiqun.com^$third-party
 ||a3p4.com^$third-party
 ||aaalian.com^$third-party
-||acs86.com^$third-party
 ||ad8.cc^$third-party
 ||adcenter.conn.tw^$third-party
 ||adhai.com^$third-party
@@ -167,7 +165,6 @@
 ||aiweb.tw^$third-party
 ||aldm88.com^$third-party
 ||algj-27dy.cn^$third-party
-||allyes.$third-party
 ||allyesky.cn^$third-party
 ||arpg2.com^$third-party
 ||artxun.com^$third-party
@@ -496,26 +493,6 @@ cet.99sushe.com###div_bottom
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
 @@||union.bokecc.com/servlet/playinfo?
-!---Discuz! & PHPWind etc.
-###ad_headerbanner
-~xdjz.net###ads_c_tpc
-###sitefocus.focus
-##.a_fl
-##.a_fr
-##.a_h
-~3600gz.cn,~forum.xitek.com,~it168.com,~wxkds.com##.a_mu
-##.a_pb
-##.a_pr
-~bbs.wps.cn##.a_pt
-~hk-pub.com##.ad_footerbanner
-##.ad_headerbanner
-##.archiver_banne
-##.bm.a_c
-##.wp.a_f
-/common/cf/*$image,object
-@@/common/cf/*.thumb$image
-~dsjunshi.com##div[id^="ad_thread"]
-||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 !---HiNet
 @@||hichannel.hinet.net^$object-subrequest
 @@||hinet.net/*bien*/$image,domain=webhd.xuite.net
@@ -557,16 +534,8 @@ kuai.xunlei.com##.adv_area
 ||js.kankan.xunlei.com/5.2/mp4/js/kankan_commercial_mp4_563.js
 ||jsunion.kankan.xunlei.com^$third-party
 ||record.kuai.xunlei.com^
-!---Yahoo
 !--TW
-tw.yahoo.com###ad_exp
-tw.yahoo.com###ad_mntl
 tw.yahoo.com###eyebrow > a:not(#sethomepage)
-tw.yahoo.com###ticker
-tw.yahoo.com##.colpadding > .tabmd
-tw.news.yahoo.com##.gn_sub_blue
-tw.yahoo.com##.newsad
-tw.yahoo.com##.pa-banner
 @@||ads.yimg.com/ja/a/$image,domain=tw.yahoo.com
 @@||l.yimg.com/f/a/tw/*/790840_*.swf
 @@||l.yimg.com/f/a/tw/elephant/*240x94*.swf
@@ -579,7 +548,6 @@ tw.yahoo.com##.pa-banner
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
 ||tw.dictionary.search.yahoo.com/beacon/
 ||tw.img.webmaster.yahoo.com^*/ystats.gif
-||tw.rd.yahoo.com^$image
 ||tw.yimg.com/a/tw/
 !--HK
 hk.dictionary.yahoo.com###fr-adv
@@ -593,13 +561,8 @@ hk.yahoo.com###mntl1
 !--土豆
 ||player.pb.ops.tudou.com/info.php?
 ||tudou.com^*/outside.php
-!---宇宙点播
-@@||union.maccms.com/gg/baidu.html
-@@||union.maccms.com/gg/qvod.html
-@@||union.maccms.com/player8/init.js
 !*** chinalist-white.txt ***
 @@||ad.gridsumdissector.com/v1/Content/images/ad-dissector-icon.png
-@@||ad.ourgame.com/cgi-bin/insertflasha.js
 @@||sdc.pingan.com^$~image
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
@@ -663,7 +626,23 @@ hk.yahoo.com###mntl1
 |http://ad.
 |http://gg.$third-party
 |https://*/ad/
+/common/cf/*$image,object
 !------------------------General element hiding rules-------------------------!
+###ad_headerbanner
+~xdjz.net###ads_c_tpc
+###sitefocus.focus
+##.a_fl
+##.a_fr
+##.a_h
+~3600gz.cn,~forum.xitek.com,~it168.com,~wxkds.com##.a_mu
+##.a_pb
+##.a_pr
+~bbs.wps.cn##.a_pt
+~hk-pub.com##.ad_footerbanner
+##.ad_headerbanner
+##.bm.a_c
+##.wp.a_f
+~dsjunshi.com##div[id^="ad_thread"]
 ###QQ_Full
 ###ad_box1
 ###ad_box2
@@ -753,6 +732,9 @@ hk.yahoo.com###mntl1
 /code/popjs.
 .adver.com.tw/
 dnserror*.wo.com.cn^
+||acs86.com^$third-party
+||007.mx^$third-party
+||allyes.$third-party
 ||7pk.com^$third-party
 ||007y.net^$third-party
 ||0591101.com^$third-party
@@ -3674,12 +3656,20 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/main_top_frame/
 ||xdcad.net/source/plugin/disad/disad.js
+||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+tw.news.yahoo.com##.gn_sub_blue
+tw.yahoo.com###ad_exp
+tw.yahoo.com###ad_mntl
+tw.yahoo.com###ticker
+tw.yahoo.com##.colpadding > .tabmd
+tw.yahoo.com##.newsad
+tw.yahoo.com##.pa-banner
 sogou.com##.ad
 mail.pchome.com.tw##.sceng
 mail.pchome.com.tw##.good_ad
@@ -6251,6 +6241,7 @@ house.shangdu.com#@#.top_ad
 @@||xinhuanet.com/static/rmedia/pv.swf
 @@||xunleihao.com/a-d-j-s/a-d-7.js
 @@||ychr.com/picad/
+@@||ad.ourgame.com^
 @@||yimg.jp/combo?*/ad/
 @@||yiqifa.com/ad_images/$~third-party
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
@@ -6351,5 +6342,6 @@ house.shangdu.com#@#.top_ad
 ||xls.go.sohu.com^
 ||youdao.com/ctlog?
 ||youdao.com/tl?
+||tw.rd.yahoo.com^$image
 ||zol.com.cn/cgimp/zc.js
 !----------------------------------The End------------------------------------!
