@@ -3708,12 +3708,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zxxk.com/js/articleinfo/JS_
 ||zyzczs.com/js/tj.txt
 ||1518.com/ss/
+=http://pic.adver.com.tw/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+sogou.com##.ad
 pixiv.net##.ad-footer + .hover-item
 gdtv.cn###ADVbuttom
 gdtv.cn###ADVbuttom1
@@ -6295,7 +6297,7 @@ house.shangdu.com#@#.top_ad
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
 /mysql/count/*$script,domain=ts.cn
 /shortcounter.jsp$domain=ref.so
-@@||tajs.qq.com^$domain=qq.com
+@@||tajs.qq.com/stats?$domain=qq.com
 ||a.tbcdn.cn/s/tb-tracer-min.js
 ||acookie.*.gif?
 ||acount.pconline.com.cn^
