@@ -3692,11 +3692,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xinminweekly.com.cn/images/*-banner
 ||xinminweekly.com.cn/images/index-985x93-
 ||adspending01.bwnet.com.tw^
+/www.soft4fun.net/wp-content/uploads/*_banner
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+soft4fun.net###linkcat-2 + DIV:nth-last-child(2)
 xinminweekly.com.cn##.top_xt
 businessweekly.com.tw###featurelist
 businessweekly.com.tw##.channelname > .hot_kw
