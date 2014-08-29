@@ -3747,6 +3747,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||law-lib.com/2009_ad/
 ||baidu.com/static/api/js/view/select_view.js
 /adm.js$domain=400gb.com|bego.cc|pipipan.com
+||qidian.com/ploy/*swf
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -5792,7 +5793,6 @@ d586.com##div[class^="yd_ad"]
 ganji.com##div[data-widget="app/ms_v2/common/base_page.js#selfDirectionBind"]
 txooo.com##div[duilian]
 weibo.com##div[feedtype="ad"]
-qidian.com##div[height="60"][width="990"]
 qvodsou.com##div[id$="-union"]
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 share.dmhy.me,share.dmhy.org##div[id$="_ad"]
@@ -6385,6 +6385,7 @@ house.shangdu.com#@#.top_ad
 @@||ychr.com/picad/
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=tw.news.yahoo.com
 @@||yimg.jp/combo?*/ad/
+@@||qidian.com/ploy/20*.swf
 @@&ad_type=$domain=x.jd.com
 @@.com/ad/$domain=x.jd.com
 @@&ad_width=810&$domain=jd.com
