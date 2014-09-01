@@ -3771,6 +3771,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||tietuku.com^$domain=potplayer.org
 ||23us.com/scripts/*_tan.js
 ||23us.com/scripts/fmt.js
+||pic.zol-img.com.cn/20*background
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -3778,6 +3779,9 @@ gpcxw.com###AA2
 yaolan.com###AD
 8090kk.com##.b950
 lebo.tv###gga
+zol.com.cn###intel_touch_ad
+zol.com.cn##.zbk-scroll-news
+zol.com.cn##DIV[style^="width:980px;height:90px;text-align:center;"]
 vipyl.com##DIV[style="width:692px;height:282px;margin:0px 10px 0px 10px; padding:0px;float:right; overflow:hidden"]
 wwwzqr.cn###diytp
 zznews.cn##DIV[class^="ad"]
