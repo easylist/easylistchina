@@ -351,7 +351,6 @@
 ||tttccc.net^$third-party
 ||tuigoo.com^$third-party
 ||tuite8.com^$third-party
-||twcczhu.com^$third-party
 ||txjy2008.com^$third-party
 ||u-link.nbb.tw^$third-party
 ||u.*.iciba.com^$third-party
@@ -610,6 +609,8 @@ hk.yahoo.com###mntl1
 ###ad_box2
 ###ad_full
 ###ad_headerbanner
+###cs_right_couplet
+###cs_left_couplet
 ###ad_text + div[style="width:960px;margin: auto;"]
 ~xdjz.net###ads_c_tpc
 ###adtop1
@@ -711,6 +712,7 @@ hk.yahoo.com###mntl1
 /page/index.php?s=$third-party
 /page/s.php?s=$third-party
 dnserror*.wo.com.cn^
+||twcczhu.com^$third-party
 ||youxicool.net^$third-party
 ||xp3366.com^$third-party
 ||mtxsk.com^$third-party
@@ -3772,6 +3774,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||23us.com/scripts/*_tan.js
 ||23us.com/scripts/fmt.js
 ||pic.zol-img.com.cn/20*background
+||djwma.com/tc.js
+||biz37.net^*.swf?uid=
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
