@@ -3724,9 +3724,9 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||djccc.com/js/c*.js
 :88/lighttpd/default/
 ||tompda.com/images/2014/800*.gif
-||inimc.com//static/image/pcbeta/1.jpg
-||inimc.com//static/image/pcbeta/2.jpg
-||inimc.com//static/image/pcbeta/3.jpg
+||inimc.com//static/image/*/1.jpg
+||inimc.com//static/image/*/2.jpg
+||inimc.com//static/image/*/3.jpg
 ||wpmeeimg.b0.upaiyun.com/2014/04/hczj.jpg
 ||wpmeeimg.b0.upaiyun.com/2014/08/ali0801.jpg
 ||awaker.hk/wp-content/uploads/2013/12/T2Ao15XgJbXXXXXXXX_
@@ -3799,6 +3799,8 @@ zol.com.cn##.ecma-baokuan-text
 onlinedown.net##.downList > LI > .btn
 zol.com.cn###intel_touch_ad
 zol.com.cn##.zbk-scroll-news
+pcbeta.com##.forum_top ~ [class]
+pcbeta.com##BODY > DIV[id][style="height: 300px;"]
 58dm.com##.mt10[style="border:1px solid #ddd; width:978px; height:90px;"]
 zol.com.cn##DIV[style^="width:980px;height:90px;text-align:center;"]
 vipyl.com##DIV[style="width:692px;height:282px;margin:0px 10px 0px 10px; padding:0px;float:right; overflow:hidden"]
@@ -5095,7 +5097,6 @@ gamebase.com.tw##.forum_ad_sidebar
 gamebase.com.tw##.forum_ad_text_top
 gamebase.com.tw##.forum_ad_top
 chineseinla.com##.forum_banner_ads
-pcbeta.com##.forum_top + :last-child
 imanhua.com##.fr[style^="width: 250px;"]
 gmttchat.over-blog.com##.freeModule
 luo.bo##.friendlink
