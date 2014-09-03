@@ -531,7 +531,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 /guangao/*
-.cc/adv/
 /gg1.
 /gg2.
 /paypic/*
@@ -3792,6 +3791,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 /gyw_index/*/images/ad_
 ||gywb.cn/gggl/content_gg/
 ||86696.com/images/indexad.jpg
+||xlpu.cc/adv/
+||on.cc/js/v2/iframe_ysm_
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -6403,7 +6404,6 @@ house.shangdu.com#@#.top_ad
 @@||quumii.com/videolist/popout.$popup
 @@||rapoo.cn/images/ad/
 @@||re-vat.com/advs/
-@@||home.on.cc/adv/web/corp/$~image
 @@||ref.so/templates/ref/short_show/adview_
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||resource.ws.kukuplay.com/upload/$object-subrequest
