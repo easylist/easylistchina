@@ -214,7 +214,6 @@
 ||ezsaving.com^$third-party
 ||feedsportal.com^$third-party
 ||feesee.com^$third-party
-||feitian001.com^$third-party
 ||flashwing.net^$third-party
 ||flunion.cn^$third-party
 ||game141.com^$third-party
@@ -436,7 +435,6 @@
 /ggao/*
 /ggjs/*
 /ggpic/*
-/guanggao.
 /main/s?
 /pic/ad/*
 /picad/*
@@ -530,6 +528,7 @@ hk.yahoo.com###mntl1
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/guanggao.
 /guangao/*
 /gg1.
 /gg2.
@@ -599,6 +598,7 @@ hk.yahoo.com###mntl1
 |https://*/ad/
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
+##.leftadv
 ###QQ_Full
 ###ad_box1
 ###ad_box2
@@ -693,6 +693,7 @@ hk.yahoo.com###mntl1
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 ~dsjunshi.com##div[id^="ad_thread"]
 !----------------------------------Ads-Union----------------------------------!
+||feitian001.com^$third-party
 ||3975lm.com^$third-party
 /adscpv/*
 /AShow.aspx?AID=
@@ -3162,7 +3163,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||shangdu.com/1002/1002031301.js
 ||shangdu.com/comiis_ad/
 ||shangdu.com/newfile2007/ad/tu/flash/3dboard.swf
-||shanhe.cc/index.php?m=poster
+||shanhe.cc/index.php?m=poster&
 ||shanhe.cc/Scripts/ads_dl.js
 ||shanhe.cc/Scripts/main-pf.js
 ||shanwen.com^$script
@@ -3805,7 +3806,6 @@ yaolan.com###AD
 cdyee.com##.adbox
 maolihui.com##.ad
 gnhome.com###ads
-gnhome.com##.leftadv
 ithome.com##.zhaopin
 pcbeta.com###BXZ93D2v2OSd
 gywb.cn##DIV.bill-box1.mb5
@@ -5319,7 +5319,6 @@ haxiu.com##.left_a2_04
 lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
-cnchu.com,hkwb.net,xinhuanet.com##.leftadv
 hao123.com##.leftbanner
 ks.js.cn##.leftgg
 ifeng.com##.leftpopad
