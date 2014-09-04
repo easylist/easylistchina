@@ -439,7 +439,6 @@
 /pic/ad/*
 /picad/*
 /proxy.htm?id=
-/proxy.html?id=
 /tan1.js
 !*** chinalist-specific.txt ***
 !--有道
@@ -528,6 +527,7 @@ hk.yahoo.com###mntl1
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/proxy.html?id=
 /guanggao.
 /guangao/*
 /gg1.
@@ -5763,7 +5763,7 @@ weiqitv.com##a[href^="http://www.yiwugou.com/"]
 kqiuba.com##a[name="thegg"]
 verygoogle.com##a[style="color: red;text-decoration: underline;  "]
 dianxinnews.com##a[style="color:red;"][href="http://finance.huanqiu.com/"]
-houdao.com##a[style^="background:url(http://bbs.houdao."]
+houdao.com##A[style^="background:url"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 danyang.com##body > div[align="center"]
