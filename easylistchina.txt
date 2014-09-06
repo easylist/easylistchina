@@ -430,7 +430,6 @@
 /data/ad/*
 /floatad.
 /gaog/*
-/ggao/*
 /ggpic/*
 /main/s?
 /pic/ad/*
@@ -523,6 +522,7 @@ hk.yahoo.com###mntl1
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/ggao/*
 /proxy.htm?id=
 .cc/js/ads/
 .cn/ads/
@@ -3817,11 +3817,15 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zyzczs.com/js/tj.txt
 ||shangdu.com/lyinfo/ad/
 ||zznews.cn/home/js/duilian1.js
+||zymk.cn/Public/editor/attached/20140819080822_33400.jpg
 ||ossweb-img.qq.com/upload/webplat/info/*_imageAddr.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+zymk.cn###bb
+zymk.cn###tanchuang
+zymk.cn##.zhouk_tu
 yaolan.com###AD
 21yq.com###AD1
 iyaxin.com##.ruan_ad
