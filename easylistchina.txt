@@ -435,7 +435,6 @@
 /main/s?
 /pic/ad/*
 /picad/*
-/proxy.htm?id=
 /tan1.js
 !*** chinalist-specific.txt ***
 !--有道
@@ -524,6 +523,7 @@ hk.yahoo.com###mntl1
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/proxy.htm?id=
 .cc/js/ads/
 .cn/ads/
 .com/a_d/
@@ -3824,6 +3824,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 gpcxw.com###AA2
 yaolan.com###AD
 21yq.com###AD1
+iyaxin.com##.ruan_ad
 shangdu.com##DIV[id^="ads_d_"]
 gdtv.cn###ADVbuttom
 gdtv.cn###ADVbuttom1
