@@ -321,7 +321,6 @@
 ||rsccs.com^$third-party
 ||s.vipcnzz.com^$third-party
 ||samboc.com^$third-party
-||scupio.com^$third-party
 ||shendu.cc^$third-party
 ||shouyibao.com^$third-party
 ||shurumedia.com^
@@ -691,6 +690,7 @@ hk.yahoo.com###mntl1
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 ~dsjunshi.com##div[id^="ad_thread"]
 !----------------------------------Ads-Union----------------------------------!
+||scupio.com^$third-party
 /adscpv/*
 /99vjj/*$third-party
 /AShow.aspx?AID=
@@ -3825,11 +3825,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||xizhongzi.net/bootstrap/dist/img/
 ||zymk.cn/Public/editor/attached/20140819080822_33400.jpg
 ||ossweb-img.qq.com/upload/webplat/info/*_imageAddr.jpg
+||fhm.com.tw/js/colorbox/jquery.colorbox.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zymk.cn###bb
+fhm.com.tw###adBig
+fhm.com.tw##.ad
 oneplusbbs.com###diy4
 zuile8.com###playertipian
 gohubei.com###comiis_pd_kuxw01
