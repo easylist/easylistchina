@@ -3298,10 +3298,9 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||spn.com.cn/admin_new/imgs/b2.jpg
 ||spn.com.cn/media/jackmm.js
 ||srzc.com/images/*.swf
-||srzc.com/images/qlgjdh.gif
 ||srzc.com/js/Adsjs/
-||srzc.com/js/zwfjs/
-||srzc.com/templets/srxw/img/373.jpg
+||srzc.com^*/zwfjs/
+||srzc.com/templets/srxw/img/000ad.jpg
 ||st.vq.ku6.cn^
 ||starbaby.cc/201407/15/59a2614f61c358.jpg
 ||starbaby.cc/images/index/ikjt_words.gif
@@ -3838,6 +3837,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zymk.cn###bb
+srzc.com###srzcad
+srzc.com##.nry_dbtongl
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 fuyang.net##.eis_fbox_260:nth-child(n+3)
