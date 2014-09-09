@@ -416,7 +416,6 @@
 ||yxcpm.com^$third-party
 ||yy32.com^$third-party
 ||zdy.cc^$third-party
-||ze5.com^$third-party
 ||zfjiu.com^$third-party
 ||zhiad.com^$third-party
 ||zwads.com^$third-party
@@ -427,7 +426,6 @@
 /adflash/*
 /attachments/ad/*
 /data/ad/*
-/floatad.
 /ggpic/*
 /main/s?
 /pic/ad/*
@@ -520,6 +518,7 @@ hk.yahoo.com###mntl1
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/floatad.
 /gaog/*
 /ggao/*
 /proxy.htm?id=
@@ -690,6 +689,7 @@ hk.yahoo.com###mntl1
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 ~dsjunshi.com##div[id^="ad_thread"]
 !----------------------------------Ads-Union----------------------------------!
+||ze5.com^$third-party
 ||scupio.com^$third-party
 /adscpv/*
 /99vjj/*$third-party
@@ -3834,6 +3834,9 @@ gpcxw.com###AA2
 zymk.cn###bb
 fhm.com.tw###adBig
 fhm.com.tw##.ad
+0743ds.com###diy1
+0743ds.com###diy28
+0743ds.com###diy32
 515fa.com##TD[height="286"][align="center"]
 oneplusbbs.com###diy4
 zuile8.com###playertipian
