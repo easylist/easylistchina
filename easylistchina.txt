@@ -3857,10 +3857,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||baidu.com/ur/scun?di=contentunion
 ||img2.www.fmdisk.com^
 ||0597ok.com/ilike/597/
+||fjlyfdc.com.cn/hxhad/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fjlyfdc.com.cn##DIV[id^="hxhad"]
+fjlyfdc.com.cn##IMG[width="950"][height="80"]
 0597ok.com##.div_ad
 admin5.com##.sp_top
 5652.com##A[style^="background: url("][onclick^="views('ad',"]
