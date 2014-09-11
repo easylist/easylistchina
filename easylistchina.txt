@@ -3864,10 +3864,15 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||piaoliang.com/uploads/allimg/*.gif
 ||piaoliang.com/js/gg_*.htm
 ||piaoliang.com/ruanwen/
+||neihan8.com/templets/default/images/dubo
+||neihan8.com/templets/default/images/porf.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+neihan8.com##.myad
+neihan8.com##DIV[style="width: 630px; height: 250px; margin: 15px auto;"]
+neihan8.com##DIV[style="width:728px; margin: 20px auto 0px;"]
 lhk.gov.cn###codefans_net
 itxueyuan.org###ad-beifeng-729-90
 piaoliang.com##.hot960
@@ -6122,7 +6127,6 @@ witvc.com##div[style="position:relative; height:255px; width:958px; overflow:hid
 house.sina.com.cn##div[style="width: 1000px; height: 120px; margin-bottom:15px; position: relative;"]
 sogou.com##div[style="width: 250px;height: 400px;overflow: hidden;position: relative;margin-left: 15px;margin-bottom: 15px;"]
 580k.com##div[style="width: 300px; height: 250px; float: left; margin:18px 10px 5px;border:solid 1px #ddd"]
-neihan8.com##div[style="width: 620px; height: 250px; margin: 15px auto;"]
 imanhua.com##div[style="width: 978px; height: 70px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc; text-align: center; position:relative; z-index:1; "]
 sznews.com##div[style="width:1000px; height:120px; position:relative;"]
 wj001.com##div[style="width:1000px; height:auto; overflow:hidden; margin:0 auto;"]:first-child
@@ -6434,9 +6438,8 @@ house.shangdu.com#@#.top_ad
 @@||cb.baidu.com/ecom?di=892769&
 @@||cb.baidu.com/ecom?di=893557&
 @@||cb.baidu.com/ecom?di=931706&$domain=narutom.com
-@@||cb.baidu.com/ecom?di=945810$domain=neihan8.com
 @@||cb.baidu.com/ecom?di=98779&
-@@||cbjs.baidu.com/js/m.js$domain=colafile.com|narutom.com|neihan8.com|shumilou.com|shushu5.com|shushuw.cn|www.redocn.com
+@@||cbjs.baidu.com/js/m.js$domain=colafile.com|narutom.com|shumilou.com|shushu5.com|shushuw.cn|www.redocn.com
 @@||cbjs.baidu.com/js/o.js$domain=52pk.com|9ku.com|yue365.com
 @@||cctcw.cn/advert/
 @@||cctv.com/js/cntv_Advertise.js
@@ -6519,7 +6522,7 @@ house.shangdu.com#@#.top_ad
 @@||ouyaoxiazai.com/shouyead.js
 @@||p.tanx.com/ex?i=mm_12852562_1778064_
 @@||p.tanx.com/ex?i=mm_33231655_8000000_
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=neihan8.com|pcdvd.com.tw
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pcdvd.com.tw
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=greedio.com|pcdvd.com.tw|tu265.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=pcdvd.com.tw
 @@||pcdvd.com.tw/advertisement.js
