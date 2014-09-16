@@ -2504,9 +2504,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||inhe.net/javascript/Jsduilian.js
 ||inhe.net/Uploadfiles/ad_2014/
 ||inhe.net/Uploadfiles/adpublish2012/
-||inimc.com//static/image/*/1.jpg
-||inimc.com//static/image/*/2.jpg
-||inimc.com//static/image/*/3.jpg
 ||inimc.com/public/javascript/*_9zhounian/
 ||inlishui.com/index.php?m=poster&
 ||inte.sogou.com^
@@ -3880,10 +3877,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||downza.cn/html/skin/default/ad/
 ||sz5.cn/template/comiis_kmsjx3hlx/ads/ad
 ||haxiu.miaotiao.com^
+||inimc.com//static/image/5PYs
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bbs.pcbeta.com##BODY > DIV[style^="height:"]
 duba.com###ad-detail-banner
 mymusic.net.tw###prom
 csdn.net##.ad_class
@@ -3918,7 +3917,6 @@ qq.com###AdRight-Article-QQ
 1677.net###AdsE
 1677.net###AdsT
 zol.com.cn###Article_Top_Banner
-pcbeta.com###BXZ93D2v2OSd
 firefang.cn###BaiduAd1
 firefang.cn###BaiduAd2
 firefang.cn###BaiduAd3
@@ -5894,7 +5892,6 @@ kutj.com##a[target="_blank"] > img[src*="gao/"]
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 danyang.com##body > div[align="center"]
 shangdu.com##body > div[class="bt"]
-pcbeta.com##body > div[id][style="height: 300px;"]
 baqiushi.com,qiushibaike.info##body > div[style]
 dm456.com##body > div[style^="height:90px;"]
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
