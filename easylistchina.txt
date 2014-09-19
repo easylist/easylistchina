@@ -3892,11 +3892,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||kuaihei.com/js/view.js
 ||kuaihei.com/js/xiazaishang.js
 ||saaee.com/view/youkuvip/*ad.gif
+||rexuedongman.com/scripts/show/3
+||rexuedongman.com/scripts/show/a
 /inimc\.com.*?[A-Z]/$match-case,image,domain=pcbeta.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+rexuedongman.com##.w980.uzmh-0
 ltaaa.com##.lAds
 ltaaa.com##.topAds2
 jump.bdimg.com,tieba.baidu.com##.live_show_aside
@@ -5819,7 +5822,6 @@ cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
 jump.bdimg.com,tieba.baidu.com##.u9_head
 7sel.com##.ui-sponsor950
-rexuedongman.com##.uzmh-vv.w980.uzmh-0
 iciba.com##.vRecomm
 400gb.com,bego.cc,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
 kanxi123.com##.viewt_77
