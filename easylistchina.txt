@@ -3890,12 +3890,15 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||kuaihei.com/js/980
 ||kuaihei.com/js/view.js
 ||kuaihei.com/js/xiazaishang.js
+||saaee.com/view/youkuvip/*ad.gif
 /inimc\.com.*?[A-Z]/$match-case,image,domain=pcbeta.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jump.bdimg.com,tieba.baidu.com##.live_show_aside
+saaee.com##.lad
+saaee.com##.rad
 ifxtx.com##.ad
 pcbeta.com##BODY > [style*="height:"]
 so.360.cn,so.com###e_idea_pp
