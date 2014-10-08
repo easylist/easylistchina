@@ -3989,10 +3989,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 /hushiwin/images/gouqi.jpg
 ||eastday.com/k.js
 ||rugao35.com/Public/config/Couplet/Index
+||6665432.com^*.gif
+||img.90bfw.com^*.gif
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+90bfw.com##DIV[id^="ShowTopAds_"]
+live.90bfw.com##TD[height="22"][bgcolor="#FFFEE0"]
 win007.com##TD[height="18"][bgcolor="#FFFFE8"]
 188bifen.com##.ad_left
 500.com###live_top_ad
