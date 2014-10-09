@@ -4004,6 +4004,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hkgolden.com###mainTopicTable > TBODY > TR:nth-child(3):not([id])
+hkgolden.com###mainTopicTable > TBODY > TR[id] + TR:not([id])
 yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
