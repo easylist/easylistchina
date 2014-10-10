@@ -4002,6 +4002,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fzlbase.com##.block-long[style*="90px;"]
+fzlbase.com##.block-long[style="HEIGHT: 74px;"]
 2345.com##.mzdh_bottom
 neonan.com###login_footer
 meili.cn##.w300
@@ -5183,7 +5185,6 @@ starbaby.cn##.big_ada
 bbs.cs090.com,bbs.wm090.com,rkanr.com,weiqitv.com##.bill
 kaifu.com##.bk_ad
 yyets.com##.block > .box_4:only-child
-fzlbase.com##.block-long
 baihe.com##.blockUI
 daqi88.com##.blog_content_ad
 oogps.com##.bnn
