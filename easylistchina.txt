@@ -4008,10 +4008,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 /zsz*.gif|$domain=lepan.cc|sx566.com|vvpan.com
 /img/*.gif$domain=lepan.cc|sx566.com|vvpan.com
 ||sinajs.cn/xblogstyle/images/activity/xinyue_ad/banner
+||bjxxw.com/themes/portal/local/special_*.swf
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bjxxw.com###xBanner
+bjxxw.com##.ad_ad
 beareyes.com.cn##.header.clearB
 sina.com.cn##.sinaReader
 didiaotv.com##DIV[id^="HTML"]:not(#HTML3)
