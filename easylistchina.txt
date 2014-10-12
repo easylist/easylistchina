@@ -3314,8 +3314,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
 ||sfile.baidu.com/%E6%97%A0%E6%A0%87%E9%A2%98.png
 ||sfile.baidu.com/img/load.gif
-||sg169.com/resource/2013*.swf
-||sg169.com/tp/news/
 ||sgg.southcn.com^
 ||sh.sina.com.cn/iframe/408/
 ||sh.sina.com.cn/iframe/522/
@@ -4014,10 +4012,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||7edown.com/greensoft/js/
 ||7edown.com/images/logo/sl978.gif
 ||zhuanyewanjia.com/upload/show/
+||sg169.com/uploadfile/*.swf
+||sg169.com/uploadfile/*.gif
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sg169.com###tab1
 7edown.com##.adcontent
 sj998.com##.focus-320-240
 wanmei.com###body_right
@@ -4644,7 +4645,6 @@ so.360.cn,so.com###qiyu-brand-container
 chinanews.com###qizhi_div980
 bbs.xineurope.com###qmenu_menu + .wp
 hbzkw.com###qq-bottom
-sg169.com###qq_panel
 gdtv.cn###qrcode
 duowan.com###qrcodeDownloadBar
 creaders.net###rBox > div[class^="jc"]
@@ -6411,7 +6411,6 @@ hiapk.com##font.jammer
 intercept.onedns.net##h5
 javlibrary.com##iframe
 china.com.cn##iframe#rerr
-sg169.com##iframe[width="300"][src^="http://www.sg169.com/html/"]
 0756.la##img[lowsrc*="/ad-htm/"]
 hi.people.com.cn,xizi.com##img[width="1000"]
 ts.cn##img[width="1000"][src*="/site1/"]
