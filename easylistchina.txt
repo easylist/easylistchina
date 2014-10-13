@@ -4025,6 +4025,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+lysq.com###leftDiv
+lysq.com###main + .GM_960
+lysq.com###main > .view-hover
+lysq.com###rightDiv
+lysq.com##.GM_gridC + .GM_960
+lysq.com##.view-hover + .GM_960 > .GM_gridC
 dl-l-tax.gov.cn##DIV[id^="clip"]
 hao.360.cn###j-mall-hotsale
 hao.360.cn###j-mall-reco
