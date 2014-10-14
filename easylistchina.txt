@@ -1192,7 +1192,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||131.com/common/alertwindow.html
 ||131.com/home/resouces/js/
 ||131.com/js/131InsideAD$script
-||131458.com/union/union_index.js
+||131458.com/union/
 ||133918.com/business/
 ||133ip.com/add/
 ||133uu.com/html/
@@ -4029,6 +4029,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+131.com##div[style="position:fixed;bottom:0;right:0;"]
+131458.com###header_gg
+131458.com##.divGuanggao
+131458.com##.inq_01
+131458.com##.inq_02_C_z
+131458.com##.inq_04 + DIV + .inq_05
+131458.com##.inq_07
+131458.com##DIV[style="width:788px;border:solid 1px #def0e1;padding:0 10px;overflow:hidden;background:#fff9f3; height:35px;line-height:35px;"]
 7m.cn##.ad3
 7m.cn##.ad4
 acgzone.us##A[href^="http://www.S99966.com/?aff="]
@@ -6616,9 +6624,6 @@ mobile01.com#@#.navad
 dianmi.net#@#.top-ads
 house.shangdu.com#@#.top_ad
 17ppt.com#@#.topads
-131.com##div[style="position:fixed;bottom:0;right:0;"]
-131458.com###header_gg
-131458.com##[id^="union_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@||cb.baidu.com/ecom?$domain=play.yue365.com
