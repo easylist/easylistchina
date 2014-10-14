@@ -4029,10 +4029,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||gimhoy.com/201404/cute.jpg
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
+||qiyipic.com/zongyi/fix/runningman20141008_bg02.jpg
+||qiyipic.com/zongyi/fix/runningman20141008_bg03.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+iqiyi.com##.headerLink01
+iqiyi.com##.headerLink02
 weather.com.cn##DIV[id^="adpos"]
 gdzjdaily.com.cn##.big_news + DIV
 gdzjdaily.com.cn##.headBg + TABLE + TABLE[width="980"]
@@ -6733,7 +6737,6 @@ house.shangdu.com#@#.top_ad
 @@||adm.cnzz.net/js/abase.js$domain=longbuluo.com|xuandy.com
 @@||adm.cnzz.net/prebat.*.xuandy.com%2F|$domain=longbuluo.com|xuandy.com
 @@||adm.cnzz.net^*.jpg$domain=longbuluo.com|xuandy.com
-@@||admaster.com.cn^$~third-party
 @@||admin5.com/hezuo/action/inner.head.logo.js
 @@||adobe.com^*/afr?auid=
 @@||ads.i8.com.cn/hd/dzs/
