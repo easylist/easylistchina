@@ -13,7 +13,7 @@
 ! Fork of: ChinaList https://github.com/chinalist/chinalist
 !  Mon, 24 Mar 2014 09:28:37 +0800
 !*** chinalist-adservers.txt ***
-!--中国电信
+!189.cn
 ||189.cn/dns/
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
@@ -22,9 +22,9 @@
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com^*/push/$popup,third-party
 ||jxad.jx163.com^
-!--联通
+!10010.com
 ||kdly.net^$third-party
-!--广东电信
+!gd.189.cn
 /js/utils51.js
 /js/utils78.js
 !--popup
@@ -423,21 +423,21 @@
 /pic/ad/*
 /tan1.js
 !*** chinalist-specific.txt ***
-!--有道
+!youdao.com
 ||a.youdao.com^
 !---178
 ||tuiguang.178.com^
-!---99宿舍
+!99sushe.com
 cet.99sushe.com###div_bottom
 ||img.99sushe.com/*/buttom_
 ||img.99sushe.com/cet/$object
 ||img.99sushe.com/cet/banner
-!--淘宝
+!taobao
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/atp.js
 !--iQIYI
 ||qiyipic.com/common/$object-subrequest
-!---CC视频
+!---CC
 @@||union.bokecc.com/crossdomain.xml
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
@@ -451,7 +451,7 @@ cet.99sushe.com###div_bottom
 ||hichannel.hinet.net/videoad2/
 ||p4u.hinet.net^
 ||town.xuite.net/_ad/
-!---盛大
+!sdo.com
 ||aagw.sdo.com^
 ||adrs.sdo.com^
 ||ck.sdo.com^
@@ -472,7 +472,7 @@ sogou.com###zhuanqu
 ||udn.com/1024/NEWS/INCLUDE/
 ||udn.com/images/forumimg/digad.html
 ||udn.com/NEWS/watermark_omo_2010.js
-!---中国天气
+!weather.com.cn
 @@||poster.weather.com.cn/p_files/base/$image
 !---XunLei
 ||cop.my.sandai.net^$third-party
@@ -503,7 +503,7 @@ hk.yahoo.com###mntl1
 ||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
-!--土豆
+!tudou.com
 ||player.pb.ops.tudou.com/info.php?
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
