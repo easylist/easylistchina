@@ -4034,10 +4034,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||sinaimg.cn/large/ed5e6a1djw1el85wjziclg20r803cq51.gif
 ||hackbase.com/vip/topbanner.html
 ||loveshang.com/pic/*.swf
+||verygoogle.com/static/img/taocan.png
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+verygoogle.com##.post-content > P:first-child
 loveshang.com###infobox + DIV[style="margin:0 auto 5px;width:980px;"]
 loveshang.com##DIV[class^="float-ad-"]
 chinaz.com###b_14 > H1 > DIV[style="float:right; color:Red;"]
