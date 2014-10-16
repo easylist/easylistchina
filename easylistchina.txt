@@ -4033,10 +4033,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||heshan.gov.cn/JS/ddgg.js
 ||sinaimg.cn/large/ed5e6a1djw1el85wjziclg20r803cq51.gif
 ||hackbase.com/vip/topbanner.html
+||loveshang.com/pic/*.swf
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+loveshang.com##DIV[class^="float-ad-"]
 chinaz.com###b_14 > H1 > DIV[style="float:right; color:Red;"]
 chinaz.com##.titright
 gaoqing.la##A[href^="http://www.jianguo.tv/"]
