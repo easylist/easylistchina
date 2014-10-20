@@ -4080,10 +4080,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||luoweihua.cn/wp-content/themes/QQOQ2.1/img/nad.jpg
 ||img.3sjt.com^
 ||36dm.com/images/250_250.jpg
+||doguo.com/api/vip_discount.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+pctowap.com##.dowap_ads
 luoweihua.cn##.k_ad
 iwan.baidu.com###j-media
 iwan.baidu.com###j-ditu
@@ -6744,6 +6746,9 @@ house.shangdu.com#@#.top_ad
 17ppt.com#@#.topads
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||cb.baidu.com/ecom?$domain=pctowap.com
+@@||cbjs.baidu.com/js/m.js$domain=pctowap.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=pctowap.com
 @@||gg.woniu.com^$domain=snail.com
 @@||down.cc/down/js/ad.js
 @@&ad_width=810&$domain=jd.com
