@@ -1644,8 +1644,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||admin5.com/lib/js/*_article
 ||adp.cnool.net^
 ||adpub.yaolan.com^
-||adsame.liba.com^
-||adsame.libaclub.com^
+.adsame.libaclub.com^
 ||adsclick.yx.js.cn^
 ||adspending01.bwnet.com.tw^
 ||adwordsing.com/img/1.jpg
@@ -6263,7 +6262,6 @@ mopiaoyao.com##a[href="/html/zanzhu.html"]
 bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
 mobile01.com##a[href^="adredir.php"]
 17kqw.com##a[href^="gg.php?"]
-liba.com##a[href^="http://adsame.liba.com"]
 qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 life.21cn.com##a[href^="http://news.haxiu.com/"]
@@ -6552,7 +6550,6 @@ imanhua.com##div[style="width: 978px; height: 70px; overflow: hidden; margin: 0 
 uhaoye.com##div[style="width:100%;text-align:center;margin-bottom:-6px;"]
 sznews.com##div[style="width:1000px; height:120px; position:relative;"]
 wj001.com##div[style="width:1000px; height:auto; overflow:hidden; margin:0 auto;"]:first-child
-liba.com##div[style="width:1000px;height:100px;border:none;padding:0px;margin:0px;overflow:hidden;"]
 jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidden;"]
 9baka.com,9gal.com##div[style="width:180px;color:#9999FF;line-height:20px;text-align:center;border:1px #DDDDFF solid;padding:5px;"]
 cd.qq.com##div[style="width:300px;height:250px;margin:10px auto 15px;overflow:hidden;"]
@@ -6764,6 +6761,7 @@ house.shangdu.com#@#.top_ad
 17ppt.com#@#.topads
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@/adsame.$domain=liba.com|libaclub.com
 @@||cb.baidu.com/ecom?$domain=pctowap.com
 @@||cbjs.baidu.com/js/m.js$domain=pctowap.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=pctowap.com
