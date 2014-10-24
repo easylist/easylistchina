@@ -4136,11 +4136,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 /wangyuedeux/imgs/dianbaobao.gif
 ||info.lm.tv.sohu.com^$domain=gezila.com
 ||baixing.net/201408/44ae53da8e70f59d702fe3a852f04ec0.jpg
+||pediy.com/temp/2345.gif
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-pediy.com##.logo_con + .fr
+pediy.com###header_right_cell[width="603"]
+pediy.com##.search
 18p2p.com##A[href*="/?aff="]
 6.gy##IMG[title="ad"]
 6.gy##IMG[width="300"][height="250"]
