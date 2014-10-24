@@ -4131,10 +4131,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||121.199.49.111/show.js
 /10jqka_info/html/ad_
 ||cp126.com/888zr11.gif
+||6.gy/wp-content/uploads/*/ad
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+6.gy##IMG[title="ad"]
+6.gy##IMG[width="300"][height="250"]
+6.gy##P[style="text-align: center;"]
 dbw.cn##DIV[style*="width:300px; height:250px;"]
 dbw.cn##TABLE[width="980"][height="100"]
 400gb.com,bego.cc,pipipan.com###advLeft
