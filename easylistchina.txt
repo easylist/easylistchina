@@ -1048,7 +1048,6 @@ hk.yahoo.com###mntl1
 /biz_icon/*$domain=cs090.com|wm090.com
 /bmw9.gif$domain=17domn.com|97down.info|kidown.com|pidown.info|wkdown.info
 /bt.php?$domain=17domn.com|97down.info|kidown.com|pidown.info|wkdown.info
-/comiis_ydzx/ads/*
 /config.js$domain=03ssss.com|147rr.com|216xx.com|55xxx.info|66kkk.info|66riri.com|822zzz.pw|922xxx.pw|yypeng.com
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /dddaaa/*$domain=920hot.com|shipinhot.com|ssshhh8.com
@@ -1138,7 +1137,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||027down.com/images/banner760-60.gif
 ||03jd.cn/data/attachment/portal/
 ||03ssss.com/js/tou.js
-||0439.com/*/RevealTrans_main_banner.js
 ||0439.com/html/js/ad_r_300x220.js
 ||0439.com/html/js/sytl.js
 ||0439.com/html/js/tuiguang.js
@@ -1156,7 +1154,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||05sun.com/js/downinfo.js
 ||0678.com/statics/images/aabbcc.jpg
 ||06abc.com/images/adstr/
-||0743ds.com/data/attachment/portal/201408/29/102918zwy5h9xyeh6agyvw.gif
 ||0756.la/ad-htm/
 ||0758net.com/data/attachment/portal/
 ||07908.com/images/
@@ -4158,6 +4155,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+0743ds.com###comiis_ad00
+0743ds.com##DIV[id^="comiisad"]
 stormmediagroup.com###index_popup
 stormmediagroup.com##.ad_video
 cnliti.com##A[style="position:absolute;width: 450px;height: 140px;right: 200px;top: 150px;"]
@@ -4499,12 +4498,10 @@ jdcjsr.com###divl2
 jdcjsr.com###divr1
 123du.cc,bokon.net###divtop1
 123du.cc,bokon.net###divtop2
-07430743.com,0743ds.com,0830bbs.com,174.139.95.28,99nets.me,aayx.net,bbs.0562.cc,bbs.52life.cc,bbs.dengfeng.cn,bbs.imuyang.com,bbs.mahoupao.net,chcj.net,cnyw.net,hh010.com,kugz.com,ld0766.com,pc3w.com,qhf.cm,qilanxiaozhu.co,qilanxiaozhu.com,right.com.cn,ybvv.com###diy1
+07430743.com,0830bbs.com,174.139.95.28,99nets.me,aayx.net,bbs.0562.cc,bbs.52life.cc,bbs.dengfeng.cn,bbs.imuyang.com,bbs.mahoupao.net,chcj.net,cnyw.net,hh010.com,kugz.com,ld0766.com,pc3w.com,qhf.cm,qilanxiaozhu.co,qilanxiaozhu.com,right.com.cn,ybvv.com###diy1
 stno1.playno1.com###diy1 > .frame
 d7w.net###diy10
 yb.jl.cn###diy100
-0743ds.com###diy28
-0743ds.com###diy32
 0830bbs.com,oneplusbbs.com,xiaot.com###diy4
 bbs.dt123.net###diy6
 qilanxiaozhu.co,qilanxiaozhu.com,qzss.cn,xiaot.com###diy_chart
@@ -4850,7 +4847,6 @@ hbtv.com.cn###right > div[style="margin-bottom:23px;"]
 90oo.com###right > div[style^="height:60px; width:750px;"]
 esdict.cn,frdic.com,godic.net###right-side-colume
 wenkudaquan.com###rightAD
-0439.com###rightDIVa
 66rd.cn,cao1024.com,cs.com.cn,cssqt.com,gdzjdaily.com.cn,lysq.com,mxwz.com,qiannao.com###rightDiv
 gxnews.com.cn###right_3_ad
 xinhuanet.com###right_ad1
@@ -6380,7 +6376,6 @@ life.21cn.com##a[href^="http://news.haxiu.com/"]
 xdjz.net##a[href^="http://p.xdsq.net/ad/"]
 vikilife.com##a[href^="http://s.click.taobao.com/"]
 mop.com##a[href^="http://trackx.mop.com/"]
-##a[href^="http://www.0743ds.com/ad/"]
 acgzone.us##a[href^="http://www.S99966.com/?aff="]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 win007.com##a[href^="http://www.edewin.com/"]
