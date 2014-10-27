@@ -4155,6 +4155,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+start.firefoxchina.cn##.wrap > DIV[style]:last-child
 jd-bbs.com##IMG[width="900"][height="100"]
 js0573.com###adv1
 js0573.com###adv2
@@ -6649,7 +6650,6 @@ qidian.com##div[style="margin:0 auto;width:375px;height:63px;padding-top:5px"]
 dianxinnews.com##div[style="margin:0;padding:0;width:660px;height:250px;overflow:hidden;background-color:#fff;"]
 mnw.cn##div[style="margin:0px auto;padding:0px 0px 5px;width:950px;height:70px;overflow:hidden;"]
 ipc.me##div[style="margin:46px auto 66px auto;width:660px;height:140px"]
-start.firefoxchina.cn##div[style="padding:10px 0px;text-align:center;color:#666;"]
 emuch.net##div[style="padding:15px;border:1px solid #648EB2;width:468px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 131.com##div[style="position:fixed;bottom:0;right:0;"]
