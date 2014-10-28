@@ -4161,10 +4161,15 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||126.net/house/chengdu/flash/*+
 ||126.net/house/hangzhou/ad/
 ||163.com/special/*/ace_downbig.js
+||126.net/house/hrb/flash/*X
+||126.net/house/hrb/js/
+||163.com/special/$subdocument,domain=hrb.house.163.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+163.com###zxgc_gg
+hrb.house.163.com##.move-img
 house.163.com##DIV[style*="960"][style*="60"]
 163.com##.area_brand_ad
 163.com##.area_top_ad
