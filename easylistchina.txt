@@ -3446,7 +3446,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||shaoxing.com.cn^*gg.
 ||share.dmhy.*/*?$image
 ||share.gzdsw.com^
-||shared.ydstatic.com/images/hao163/600-45_2.jpg
 ||shenmaxiaoshuo.com/js/hf
 ||shenmaxiaoshuo.com/js/lu.js
 ||shenmaxiaoshuo.com/js/mu.js
@@ -4158,6 +4157,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+163.com##.area_brand_ad
+163.com##.area_top_ad
 yyets.com###ad_644_100 + DIV[style="margin-top:1em;text-align:center;"]
 start.firefoxchina.cn##.wrap > DIV[style]:last-child
 jd-bbs.com##IMG[width="900"][height="100"]
@@ -6117,7 +6118,6 @@ pediy.com##.search
 99114.com##.search_keywordAd
 ijia360.com##.search_radlist
 cnool.net##.second-banner
-163.com##.sect_top_ad
 jq-school.com##.setfarme:nth-child(7)
 sogou.com##.sg-ad
 sogou.com##.sg-ad-r
