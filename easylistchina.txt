@@ -413,7 +413,6 @@
 /data/ad/*
 /ggpic/*
 /main/s?
-/pic/ad/*
 /tan1.js
 !*** chinalist-specific.txt ***
 !youdao.com
@@ -546,6 +545,7 @@ hk.yahoo.com###mntl1
 /module/adsview/*
 /paypic/*
 /piaofu.js
+/pic/ad/*
 /picad/*
 /proxy.htm?id=
 /proxy.html?id=
@@ -1242,7 +1242,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||1lou.com/ceo888.gif
 ||1m1m.cn/bar/
 ||1pxpx.net/BOJS/
-||200.cc/js/zhoujiatian/
 ||2008xxx.com:888
 ||204.12.228.235/*.png
 ||208.94.244.98/*ts.js
@@ -4166,6 +4165,9 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 game2.cn###rb
+2500sz.com###tuisong
+2500sz.com##.ad-fumeiti
+2500sz.com##.ad-quanping
 wangyueblog.com##.ad
 heu8.com###widget_ada
 bbs.it168.com##.daoh2 + .bor8
@@ -5333,7 +5335,6 @@ cngold.org,qq.com,tongxiang.net##.advs
 gscn.com.cn##.advscroll
 gamme.com.tw##.adwrpt
 padhz.com,pbhz.com##.agoogled
-2500sz.com##.aline-2 + .tl
 4493.com##.allright
 finance.ifeng.com##.an
 5253.com##.app5253-intro-ctn
@@ -5382,7 +5383,6 @@ softonic.cn##.banner-caption
 91.com##.banner-gg
 xdkb.net##.banner-l
 crsky.com##.banner-leader
-2500sz.com##.banner-table
 firefoxchina.cn##.banner-words
 gminfo.cn##.banner.mt7
 qikzj.com##.banner.push-right
