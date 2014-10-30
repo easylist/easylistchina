@@ -4153,6 +4153,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+51.com##.webim_ad_word
 52jifenbao.net##.banner
 520rr.com##.ad
 sogou.com,soso.com##.buy_mxx
@@ -5684,7 +5685,6 @@ qidian.com##.game_tj
 yyets.com##.games-rec-list
 zymk.cn##.ganggao_top
 so.com##.garllery_ad
-51.com##.gather_left > .block_frame:nth-last-child(3)
 115.com##.gb-advs
 qzone.qq.com##.gb-bill-area
 1kkk.com,5068.com,51caiju.com,china.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,kaifu.com,qianyan001.com,shangdu.com,stjunshi.com,taodake.com,xhonline.cn##.gg
@@ -6721,7 +6721,7 @@ ieche.com##div[style^="width: 298px;height:250px;"]
 guofs.com##div[style^="width: 882px;"]
 my0538.com##div[style^="width:1000px;"][style*="50px;"]
 lanyes.org##div[style^="width:250px;height:250px;"]
-51.com,freegroup.org##div[style^="width:336px; height:280px;"]
+freegroup.org##div[style^="width:336px; height:280px;"]
 jpwind.com##div[style^="width:730px; height:90px;"]
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 tc.cn##div[style^="width:930px; height:70px;"]
@@ -6906,6 +6906,7 @@ dianmi.net#@#.top-ads
 house.shangdu.com#@#.top_ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||51img1.com/??*/adsys.
 @@||pos.baidu.com/acom?di=u1671167&
 @@||pos.baidu.com/acom?di=u1460926&
 @@||pos.baidu.com/acom?di=u1705639&
