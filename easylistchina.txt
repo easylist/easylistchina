@@ -4146,11 +4146,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||ajiang.net/b4_dnslak.png
 ||adhome.1fangchan.com^
 ||admaimai.com/inc/adv
+||dbw.cn/images/cpad.jpg
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cnbeta.com##.imgbox240x310 > :not([href*=".cnbeta."])
+cnbeta.com##.imgbox240x310 > a:not([href*=".cnbeta."])
 admaimai.com##DIV[class^="inv9_ad0"]
 tieba.baidu.com##.advertise
 m.baidu.com##.news_ad
@@ -6638,7 +6639,7 @@ pchome.com.tw##div[style*="982"][style*="85"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 aixuefu.com,dmhua.net##div[style*="height:90px;"]
 gzcol.com##div[style*="width:1000px;"]
-dbw.cn##div[style*="width:300px; height:250px;"]
+dbw.cn##div[style*="width:300px; height:250px; "]
 divcss5.com##div[style*="width:336px;height:280px;"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 7574.com##div[style*="width:960px;height:90px;"]
