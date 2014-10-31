@@ -1416,7 +1416,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||557xx.com/d/file/p/
 ||557xx.com/images/
 ||557xx.com/js/
-||55bbs.com/55bbs/201405/haier
 ||55music.net/dazhe.jpg
 ||55xxx.info/js/t1.js
 ||56.com/js/promo/
@@ -1426,7 +1425,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||58.com/ds/jinrong/ban/
 ||58.com/ds/tgbrand/
 ||58.com/ui7/*banner_
-||58.com/ui7/fang/list/img/gongyu.png
 ||591.xxx/images/*.gif
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/dll.js
@@ -4153,7 +4151,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl^="right_qunar_hotel"]
+55bbs.com##.head-ad
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
 click108.com.tw##.AD_240240
 click108.com.tw##.AD_300250
 click108.com.tw##.AD_730280
@@ -4259,7 +4258,6 @@ firefang.cn###BaiduAd1
 firefang.cn###BaiduAd2
 firefang.cn###BaiduAd3
 firefang.cn###BaiduAd4
-55bbs.com###Bar10362_big
 i-part.com.tw###ContentFrame_Left > div[style]:last-child
 qidian.com###DoublePop_left
 qidian.com###DoublePop_right
