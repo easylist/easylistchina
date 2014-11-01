@@ -428,7 +428,7 @@ cet.99sushe.com###div_bottom
 ||a.tbcdn.cn/s/atp.js
 !--iQIYI
 ||qiyipic.com/common/$object-subrequest
-!---CC
+!---bokecc
 @@||union.bokecc.com/crossdomain.xml
 @@||union.bokecc.com/js/player/
 @@||union.bokecc.com/servlet/GetUserInfo?
@@ -4151,6 +4151,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+epochtimes.com##.adbox
 15w.com###rec
 yaolan.com###AD
 21yq.com###AD1
@@ -6854,6 +6855,8 @@ taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-
 wanshuge.net##ul[style="width: 880px;margin:0 auto;text-align:center;margin-top:10px;"]
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
+epochtimes.com#@#.adbox1
+epochtimes.com#@#div[id^="div-gpt-ad-"]
 the-sun.on.cc#@##ContentAd1
 news.now.com#@##ad-2
 d77.com#@##ad-wrap
