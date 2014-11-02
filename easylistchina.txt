@@ -4155,10 +4155,10 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-576tv.com##.subject_list > LI > A[href^="http://"]:not([href*=".576tv."])
+576tv.com##.subject_list > LI > A[href^="http"]:not([href*=".576tv."])
 0597kk.com##IMG[width^="37"][height="30"]
 2000fun.com###frameA20TTA
-yyets.com###focus a:not([href^="http://www.yyets."]):not([href^="http://cps.youku."])
+yyets.com###focus a[href^="http"]:not([href^="http://www.yyets."]):not([href^="http://cps.youku."])
 yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -6179,7 +6179,7 @@ findprice.com.tw##.sitemajiad
 soku.com##.sk_banner
 club.kdnet.net##.slide-banner
 vvic.com##.slide-img
-cnbeta.com##.slide_area a:not([href^="http://www.cnbeta."])
+cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
 33lc.com##.soft-info:first-child
 33lc.com##.soft-show2
 sohu.com##.sogouService
