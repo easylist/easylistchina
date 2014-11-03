@@ -4155,6 +4155,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 72bbb.com##.ad
+9724.com##.detail_fix
+9724.com##DIV[style="width:990px; height:82px; display:block; margin:10px auto"]
 800j.com.cn##DIV[style="width:980px;height:185px;padding:2px 0px 0px 0px;"]
 78dm.net###Javascript\.LeftDiv
 78dm.net###Javascript\.RightDiv
@@ -4701,8 +4703,6 @@ tiexue.net###junphRandom
 nazolog.com###kf2a
 jinzhuedu.com###kfbox
 0597kk.com###kk_content1_left_ad1
-9724.com###l12
-9724.com###l13
 hao123.com###layout-guess
 zhidao.baidu.com###left-promotion
 sdgundam.cn###left-sponsor
@@ -6364,7 +6364,6 @@ we.poppur.com##.wrap > div[style="height:112px"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
 hcwang.cn##.wz2
 hcwang.cn##.wz3
-9724.com##.xL_ad
 familydoctor.com.cn##.xg
 xilu.com##.xlad
 xilu.com##.xladAdvList
