@@ -1669,7 +1669,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||adwordsing.com/img/1.jpg
 ||adwordsing.com/img/2.jpg
 ||ah.sina.com.cn/iframe/
-||ahlife.com/20140606hd.swf
 ||ahlife.com/api.php?mod=adv&
 ||aibang.com/?area=ajax&cmd=adv&
 ||aid.chinayk.com^
@@ -4155,6 +4154,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+anjuke.com##DIV[class$="-ad"]
 yaolan.com###AD
 21yq.com###AD1
 app01.com.tw##.coverAD
@@ -4871,7 +4871,6 @@ xfastest.com###showRightOverFlow
 yzz.cn###showSlideAD_big
 yzz.cn###showSlideAD_small
 softonic.cn###show_banner_medium_rectangle
-ahlife.com###show_or_hide_you_gess
 find.sina.com.tw###show_ysm + div[style]
 vyming.com###showcontent > .pdp > a
 vyming.com###showcontent > .pdp:last-child
