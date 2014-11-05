@@ -127,7 +127,6 @@
 ||92cg.com^$third-party
 ||98766.com^$third-party
 ||999d.com^$third-party
-||99ddd.com^$third-party,domain=~ali213.net
 ||9buo.com^$third-party
 ||9wad.com^$third-party
 ||9wee.com^$third-party
@@ -1673,7 +1672,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||aibang.com/?area=ajax&cmd=adv&
 ||aid.chinayk.com^
 ||aikongke.com/wp-content/uploads/2014/06/0f000KdGOFFPAF_yxHIN76.gif
-||ailu.me/46860.js
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||airenti.org^$script
@@ -1739,7 +1737,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||baidud.cn/aoao/down_
 ||baishuku.com/news/$script
 ||baishulou.net/html/
-||baixing.net/201408/44ae53da8e70f59d702fe3a852f04ec0.jpg
 ||ballive.com/jsgg/
 ||bamuyu.com/skin/js/bgad.js
 ||bang5mai.com/upload/plugin/assets/main/js/b5m.adv.js
@@ -6653,7 +6650,6 @@ eyuyao.com##div[id^="x_ad_"]
 hiapk.com##div[id^="zone_"][class*="g2_"]
 hiapk.com##div[id^="zoneid"][class^="g2_"]
 ebiotrade.com##div[id^=adA]
-azhibo.com##div[onclick="DeleteAds();"]
 co188.com##div[style$="height:250px;margin:15px 0;"]
 co188.com##div[style$="height:90px;margin-top:15px;"]
 dfafei.com##div[style$="width:960px;height:90px;"]
@@ -6964,6 +6960,7 @@ house.shangdu.com#@#.top_ad
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||ali213.net/*/pop.js
 @@||emome.net/files/advertising/
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -7060,14 +7057,12 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||adm.cnzz.net/js/abase.js$domain=longbuluo.com|xuandy.com
 @@||adm.cnzz.net/prebat.*.xuandy.com%2F|$domain=longbuluo.com|xuandy.com
 @@||adm.cnzz.net^*.jpg$domain=longbuluo.com|xuandy.com
-@@||admin5.com/hezuo/action/inner.head.logo.js
 @@||adobe.com^*/afr?auid=
 @@||ads.i8.com.cn/hd/dzs/
 @@||ads.myopen.vip.com^$domain=vip.com
 @@||ads.ribiaozi.info^*.jpg
 @@||adsense.woso.cn^$domain=woso.cn
 @@||advertise.shijue.cvidea.cn^
-@@||ali213.net/*/pop.js
 @@||allyes.com.cn/player/AllyesAdPlayerV1.swf?$domain=jstv.com
 @@||aoodoo.feng.com/view.php?what=zone:94&
 @@||appbyme.com/adclient/
