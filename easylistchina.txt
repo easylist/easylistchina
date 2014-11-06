@@ -4164,11 +4164,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zznews.cn/home/js/duilian1.js
 ||lululu.club/wp-content/uploads/*/QQ
 ||jjwxc.net/images/wap/wap.gif
+||eap.big5.enorth.com.cn^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 yaolan.com###AD
+enorth.com.cn##DIV[class^="guanggao"]
 jump.bdimg.com,tieba.baidu.com##.wanle_tab_tip
 qq.com##.ad-foot
 house.qq.com##DIV[style="width:100%; height:100px; position:fixed; left:0; bottom:0; z-index:9999;"]
@@ -5763,7 +5765,7 @@ bioon.com##.grid_6
 putclub.com##.gtest
 58.com##.guaguabox
 hkwb.net##.guangg
-131458.com,adreep.cn,enorth.com.cn,nen.com.cn,sqkz.com##.guanggao
+131458.com,adreep.cn,nen.com.cn,sqkz.com##.guanggao
 my0538.com##.guanggao1
 my0538.com,tgbus.com##.guanggao2
 cnmo.com##.guanggao_type
