@@ -2426,7 +2426,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||hdpfans.com/images/icons/*x70.
 ||hdpfans.com/images/icons/*x75.
 ||hdslb.com/u_user/$object-subrequest,domain=bilibili.com|bilibili.tv|kankanews.com
-||hdslb.com/u_user/d5860b108d877b58593a58b0fa9df6c8.jpg
 ||hdsq.cc/data/attachment/portal/
 ||hebei.com.cn/eap/
 ||hebei.com.cn/swf/
@@ -3782,7 +3781,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||v-56.com^
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v.huanqiu.com/tres/xml/vda.xml
-||v1.freep.cn/3tb_140318090733pgee512293.png
 ||v2ex.com/assets/sidebar/
 ||v7v3.com/images/lxhost.png
 ||vanpeople.com/adrotate2.php
@@ -4165,10 +4163,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||eap.big5.enorth.com.cn^
 ||ntpcb.com/10rmb.gif
 ||alicdn.com^$domain=lightnovel.cn
+||iwanad.baidu.com^
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+baidu.com###j-ad-first
+baidu.com###j-ad-side
 lightnovel.cn##A[href*=".taobao.com/"]
 lightnovel.cn##A[href^="http://tb.cn/"]
 lightnovel.cn##A[href*=".tmall.com/"]
@@ -5509,7 +5510,6 @@ huarenjie.com##.cfad
 douban.com##.channel_promo
 businessweekly.com.tw##.channelname > .hot_kw
 cb.com.cn##.chbox_r_ad
-baidu.com##.chinajoy-couplet
 firefoxchina.cn##.chip-banners
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
