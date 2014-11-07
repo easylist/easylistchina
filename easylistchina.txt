@@ -4165,10 +4165,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||itc.cn/channel/v1/index_images/us_
 ||cosersuki.org^*/150x600.
 ||cosersuki.org^*/AD
+||taobaocdn.com^$domain=lightnovel.cn
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+lightnovel.cn##IMG[src*=".taobao"]
 sohu.com##.adv_960
 cosersuki.org##A[href*=".taobao.com/"]
 iqiyi.com##DIV[class^="ad-piclist-"]
