@@ -4181,10 +4181,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||qiyipic.com/common/$object-subrequest
 ||gameapps.hk/images/apps/ad/
 ||feedburner.com/beauty2013?
+||lightnovel.cn/img1/
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+lknovel.lightnovel.cn##A[target="_blank"]:not([href^="http://www.lightnovel."]):not([href^="http://lknovel.lightnovel."]):not([href^="/"])
 xianguo.com##.ad
 meikutv.org###block-block-6
 gameapps.hk###adTopClickAreaLeft
