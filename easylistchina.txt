@@ -2944,8 +2944,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||liaoing.com/image/picture_g/zhengzhou/index/*.swf
 ||liaoing.com/image/picture_g/zhengzhou/index/20
 ||life.e0575.com^
-||lightnovel.cn/img/
-||lightnovel.cn/img1/
 ||link.fobshanghai.com^
 ||linkhelper.cn/mmshow
 ||links.cn/mmshow
@@ -4192,6 +4190,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||baidu.com/tb/cms/forum_skin/file_
 ||bdstatic.com/tb/cms/com/mis/spreadad/dasense_iframe_api.js
 ||baidu.com/tb/zt/wen_da_pc.html
+/^http\:\/\/lknovel\.lightnovel\.cn\/(?!(resouses|cover)\/)/$image,domain=lknovel.lightnovel.cn
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -6517,7 +6516,7 @@ cnliti.com##a[style="position:absolute;width: 450px;height: 140px;right: 200px;t
 5652.com##a[style^="background: url("][onclick^="views('ad',"]
 houdao.com##a[style^="background:url"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
-lknovel.lightnovel.cn##a[target="_blank"]:not([href^="http://www.lightnovel."]):not([href^="http://lknovel.lightnovel."]):not([href^="/"])
+lknovel.lightnovel.cn##a[target="_blank"]:not([href^="http://www.lightnovel."]):not([href^="http://lknovel.lightnovel."])
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 pcbeta.com##body > [style*="height:"]
 danyang.com##body > div[align="center"]
