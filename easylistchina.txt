@@ -4209,6 +4209,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ea3w.com##DIV[id^="left_big_ad_"]
+ea3w.com##DIV[id^="right_big_ad_"]
 cbber.com###diy_chart
 china.com###BJ
 china.com##DIV[style="width:680px;height:90px;padding-left:10px"]
@@ -7489,5 +7491,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||stat.cnmo.com^
 ||zdw.*/p.ht?
 ||zdnet.com.cn/js/pv.js
+||ea3w.com/pv.js
+||stat.ea3w.com^
 ||pvtest.zol.com.cn^
 !----------------------------------The End------------------------------------!
