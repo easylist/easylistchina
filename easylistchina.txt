@@ -1043,7 +1043,6 @@ hk.yahoo.com###mntl1
 /404.safedog.cn/sitedog_stat_new.html
 /5B18D06D98BB6B41A12C73EE4E4C2ECA.jpg
 /?age=1&$domain=dwbpy.com|kxddd.com|scokl.com|see3r.com|shclk.com|ttft.in|xhcbb.com
-/^http\:\/\/lknovel\.lightnovel\.cn\/resouses\/(?!assets\/)/$image,domain=lknovel.lightnovel.cn
 /adscript/crazyad.js
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /Aemplate/dd_1010/baidu
@@ -4202,10 +4201,13 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
+/^http\:\/\/lknovel\.lightnovel\.cn\/(?!(resouses|cover|illustration)\/)/$image,domain=lknovel.lightnovel.cn
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+lknovel.lightnovel.cn##A[rel="nofollow"]
+lknovel.lightnovel.cn##a[target="_blank"]:not([href^="http://lknovel.lightnovel.cn/main/"]):not([href*="/main/#"])
 yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -6475,7 +6477,6 @@ gamebase.com.tw##[id^="aid_"]
 400gb.com,bego.cc,pipipan.com##[id^="cproIframe"]
 51240.com##[id^="ggwz"]
 jump.bdimg.com,tieba.baidu.com##[id^="spreadad_"]
-lknovel.lightnovel.cn##a[data-href]
 image.baidu.com##a[data-nsclick="p=all&event_type=ad.text.clk"]
 chdbits.org,hdcmct.org,wuleba.com##a[href*=".taobao"]
 cosersuki.org,lightnovel.cn##a[href*=".taobao.com/"]
@@ -6528,7 +6529,6 @@ cnliti.com##a[style="position:absolute;width: 450px;height: 140px;right: 200px;t
 5652.com##a[style^="background: url("][onclick^="views('ad',"]
 houdao.com##a[style^="background:url"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
-lknovel.lightnovel.cn##a[target="_blank"]:not([href^="http://lknovel.lightnovel.cn/main/"])
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 pcbeta.com##body > [style*="height:"]
