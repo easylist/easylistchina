@@ -1951,9 +1951,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||cmsjs.eastmoney.com^$subdocument
 ||cnblogs.com/ooooo/
 ||cnchu.com/aps/
-||cnchu.com/templates/cnchu2014/images/13.jpg
-||cnchu.com/templates/cnchu2014/images/14.jpg
-||cnchu.com/templates/cnchu2014/images/15.jpg
 ||cncrk.com/505/
 ||cndesign.com/Content/img/*x90_
 ||cndesign.com/Content/img/175x60_
@@ -4214,12 +4211,16 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||chinamil.com.cn/attachement/jpg/site351/20140721/082e5f135a1a15370df503.jpg
 ||cnbeta.com/assets/js/pages/google.js
 ||cnbeta.com/assets/js/pages/lagou.js
+||qhimg.com/t0195f1dd7f043a0f67.jpg
+||qhimg.com/t0112a629c05781c62d.jpg
+||qhimg.com/t01a73aeee19e81078f.jpg
+||upaiyun.com/css88/*/1008
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 css88.com##A[href^="http://www.liepin.com"]
-||upaiyun.com/css88/*/1008
+xiaohua.hao.360.cn##A[href$="?realtime"]
 yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -7509,5 +7510,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||youdao.com/tl?
 ||zdnet.com.cn/js/pv.js
 ||zdw.*/p.ht?
+||qhimg.com/js/iwt.js
 ||zol.com.cn/cgimp/zc.js
 !----------------------------------The End------------------------------------!
