@@ -4214,6 +4214,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+esdict.cn,eudic.net,frdic.com,godic.net##.ads_info
+esdict.cn,eudic.net,frdic.com,godic.net##.ads_info ~ p
 9724.com##.game_detail
 9724.com##.game_details
 lgn.yy.com##.m_left > A[href="https://pay.yy.com/hjb/page/act/lighten"]
@@ -4913,7 +4915,6 @@ sogou.com,soso.com###right > .atTrunk
 2345.com###right > div:first-child
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
 90oo.com###right > div[style^="height:60px; width:750px;"]
-esdict.cn,frdic.com,godic.net###right-side-colume
 wenkudaquan.com###rightAD
 66rd.cn,cao1024.com,cssqt.com,gdzjdaily.com.cn,lysq.com,mxwz.com,qiannao.com###rightDiv
 gxnews.com.cn###right_3_ad
