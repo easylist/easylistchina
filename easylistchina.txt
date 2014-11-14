@@ -4227,11 +4227,12 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||dnwx.com/pic/*-960x60.
 ||hjdn.cn/img/hjgq.gif
 ||ykimg.com/051000005417E43D6737B32E06066ABA
-/^http\:\/\/top\.jobbole.com\/wp-content\/uploads\/sites\/8\/201[45]/\d{2}/\w{30,}\./$domain=blog.jobbole.com
+/^http\:\/\/top\.jobbole.com\/wp-content\/uploads\/sites\/8\/201[45]/\d{2}/\w{30,}\./$domain=jobbole.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hujiang.com##.top_banner
 lknovel.lightnovel.cn##.J_a1d_link
 lknovel.lightnovel.cn##BODY > DIV[style]:last-child
 lknovel.lightnovel.cn##:not([href^="/illustration/image/"]) > img[src*="/illustration/"]
