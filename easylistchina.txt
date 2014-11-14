@@ -1042,7 +1042,7 @@ hk.yahoo.com###mntl1
 /404.safedog.cn/sitedog_stat_new.html
 /5B18D06D98BB6B41A12C73EE4E4C2ECA.jpg
 /?age=1&$domain=dwbpy.com|kxddd.com|scokl.com|see3r.com|shclk.com|ttft.in|xhcbb.com
-/^http\:\/\/lknovel\.lightnovel\.cn\/(?!(resouses|cover|illustration)\/)/$image,domain=lknovel.lightnovel.cn
+/^http\:\/\/lknovel\.lightnovel\.cn\/(?!(resouses|cover|illustration\/image)\/)/$image,domain=lknovel.lightnovel.cn
 /adscript/crazyad.js
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /Aemplate/dd_1010/baidu
@@ -4233,6 +4233,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+lknovel.lightnovel.cn##:not([href^="/illustration/image/"]) > img[src*="/illustration/"]
 html-js.com##.ad-blank
 html-js.com##.ads
 html-js.com##.ad320-index
@@ -6519,7 +6520,7 @@ yb983.com##A[href*="/ClickAd"]
 5184.com##[class^="gk_gg"]
 gamme.com.tw##[class^="sidead_"]
 69zw.com##[class^="yd_ad"]
-lknovel.lightnovel.cn##[href^="http"][href*="#"]
+lknovel.lightnovel.cn##[href^="/"][href*="#"]
 jjwxc.net##[id^="adp_"]
 kbcool.com,kshot.com##[id^="ads_"]
 0598yu.com,e0575.cn##[id^="ads_c_"]
