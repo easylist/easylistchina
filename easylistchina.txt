@@ -4233,6 +4233,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+lknovel.lightnovel.cn##.J_a1d_link
+lknovel.lightnovel.cn##BODY > DIV[style]:last-child
 lknovel.lightnovel.cn##:not([href^="/illustration/image/"]) > img[src*="/illustration/"]
 html-js.com##.ad-blank
 html-js.com##.ads
