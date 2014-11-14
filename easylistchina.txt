@@ -2805,7 +2805,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||jmsyzj.com^
 ||jn.auto.sina.com.cn/iframe/13/
 ||jnnews.tv/indexad/
-||jobbole.com/wp-content/uploads/sites/8/2014/09/
 ||jobtong.com/openSiteAd?
 ||joyes.com/image/06.jpg
 ||jpseek.com/pr/click2.jpg
@@ -4228,6 +4227,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||dnwx.com/pic/*-960x60.
 ||hjdn.cn/img/hjgq.gif
 ||ykimg.com/051000005417E43D6737B32E06066ABA
+/^http\:\/\/top\.jobbole.com\/wp-content\/uploads\/sites\/8\/201[45]/\d{2}/\w{30,}\./$domain=blog.jobbole.com
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
@@ -7097,6 +7097,7 @@ house.shangdu.com#@#.top_ad
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||jobbole.com/wp-content/uploads/sites/8/2014/07/36c4ed88b6ffefc5c83fce3881952875.png
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
