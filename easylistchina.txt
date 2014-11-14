@@ -4231,10 +4231,14 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||219.238.159.181^*.html
 ||letvimg.com/yunzhuanma/*_640_360.
 ||61.235.249.195^*/Default.aspx?id=
+||neihan8.com/templets/default/images/dui
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+neihan8.com##.duileft
+neihan8.com##.duiright
+neihan8.com##DIV[style*="728"][style*="90"]
 hujiang.com##.top_banner
 lknovel.lightnovel.cn##.J_a1d_link
 lknovel.lightnovel.cn##BODY > DIV[style]:last-child
