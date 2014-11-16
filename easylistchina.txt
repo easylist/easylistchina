@@ -3933,7 +3933,6 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||whinfo.net.cn/ad20
 ||whnews.cn/wh_public/dl/
 ||whnews.cn/wh_public/xuxu/homegg/
-||wholehk.com/aderfly$subdocument
 ||wholehk.com/madads$subdocument
 ||whqyw.com/file/upload/201408/01/09-41-45-92-1.jpg
 ||windows7en.com/adsihai/banner.js
@@ -7105,8 +7104,12 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yuexw.com#@#.con_ad
 epochtimes.com#@#div[id^="div-gpt-ad-"]
+wholehk.com#@##ad_headerbanner
+wholehk.com#@##adsense
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=wholehk.com
+@@||wholehk.com/madads728.htm
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
