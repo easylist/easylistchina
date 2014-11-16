@@ -2956,6 +2956,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||lelevod.com/js/money/
 ||letsebuy.com/static/image/common/dm_cn_130.jpg
 ||letvcdn.com/js/*_focus_flash.js
+||letvimg.com/cms/201411/06/2ba9c8af5b248b0eafd93494e9f770906239.png
 ||letvimg.com/cms/201411/07/cdc98f3fc2034494aab82dfa81821d5f.jpg
 ||letvimg.com/gugwl/$object-subrequest
 ||letvimg.com/gugwl/*.swf
@@ -4232,15 +4233,10 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||letvimg.com/cms/201411/06/2ba9c8af5b248b0eafd93494e9f770906239.png
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-letv.com##DIV[style="overflow:hidden; height:100px; width:970px; background:#ffffff"]
-yyets.com##.AreaLL > .box_4[style="margin-top:1em;"]
-yyets.com##.box_4[style="border:none;border-bottom:4px solid #EBEBEB;"]
-yyets.com##.box_4[style="margin-top:1em;overflow:hidden;height:175px;"]
 yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -5136,6 +5132,7 @@ juqingba.cn##.Ad_300_2
 xinhuanet.com##.AdvColumn1
 js0573.com##.Adv_banner
 feixiangtv.com##.Advertisement
+yyets.com##.AreaLL > .box_4[style="margin-top:1em;"]
 yyets.com##.AreaR2 > .box_4:first-child + .clearfix + .box_4
 tiexue.net##.AreaR_ad
 qiwen999.com##.Axing_add_Page
@@ -5572,6 +5569,8 @@ csdn.net##.box.hot
 9ku.com##.box.mb10[style^="width:960px;"]
 mobanwang.com##.box960x90
 pengfu.com##.boxBan
+yyets.com##.box_4[style="border:none;border-bottom:4px solid #EBEBEB;"]
+yyets.com##.box_4[style="margin-top:1em;overflow:hidden;height:175px;"]
 uzzf.com##.boxl
 feng.com##.brand
 2345.com##.browserTxt
@@ -6630,8 +6629,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -6848,6 +6847,7 @@ yyets.com##div[style="margin:0;padding:0;width:640px;height:345px;overflow:hidde
 dianxinnews.com##div[style="margin:0;padding:0;width:660px;height:250px;overflow:hidden;background-color:#fff;"]
 mnw.cn##div[style="margin:0px auto;padding:0px 0px 5px;width:950px;height:70px;overflow:hidden;"]
 ipc.me##div[style="margin:46px auto 66px auto;width:660px;height:140px"]
+letv.com##div[style="overflow:hidden; height:100px; width:970px; background:#ffffff"]
 emuch.net##div[style="padding:15px;border:1px solid #648EB2;width:468px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 131.com##div[style="position:fixed;bottom:0;right:0;"]
