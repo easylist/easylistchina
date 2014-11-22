@@ -4278,7 +4278,8 @@ _vmind.qqvideo.tc.qq.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 taoyoudu.com###left_layer
-taoyoudu.com##.searchTaobaoAccountInfo
+cha.haogeba.com,taoyoudu.com##.xinyongBox > :not(dd)
+haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 taoyoudu.com##BR + .k_serach
 btkitty.org##A[href^="/g.php?to="]
 btkitty.org##A[href^="http://simplevpn.us"]
