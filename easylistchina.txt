@@ -196,7 +196,6 @@
 ||dingge.cc^$third-party
 ||diyiunion.com^$third-party
 ||dmclick.cn^$third-party
-||doubleadv.com^$third-party
 ||down.jialichuang.com^$third-party
 ||e.phpwind.com^$third-party
 ||ee4kdushuba.com^$third-party
@@ -678,6 +677,7 @@ hk.yahoo.com###mntl1
 ~dsjunshi.com##div[id^="ad_thread"]
 ###tanx-con-1
 !----------------------------------Ads-Union----------------------------------!
+||doubleadv.com^$third-party
 /99vjj/*$third-party
 /adscpv/*
 /AShow.aspx?AID=
@@ -1076,7 +1076,6 @@ hk.yahoo.com###mntl1
 /front/adv/getpmadvlist
 /game/aplus/pptv/*
 /gif/*$image,domain=txzqw.com
-/guancha/ad/*$domain=guancha.cn
 /gyw_index/*/images/ad_
 /house/images/*$domain=bbs.linyiren.com
 /hushiwin/images/gouqi.jpg
@@ -2397,7 +2396,6 @@ _vmind.qqvideo.tc.qq.com^
 ||good.gd/js/loadpopads.aspx
 ||goodlife.tw/system/banners/
 ||goto.www.iciba.com^
-||gougousoso.com/css/dy.js
 ||goyeah.com/homepage.html
 ||gp.jstv.com^$domain=live.jstv.com
 ||gpcxw.com/file/js/img/*.gif
@@ -3576,8 +3574,6 @@ _vmind.qqvideo.tc.qq.com^
 ||shenmaxiaoshuo.com/js/lu.js
 ||shenmaxiaoshuo.com/js/mu.js
 ||shfq.com/data/attachment/portal/
-||shixin.court.gov.cn/static/images/xglHammerEdge.jpg
-||shixin.court.gov.cn/static/javascript/move.js
 ||shm.com.cn/css/m.js
 ||shm.com.cn/js/load.swf
 ||shm.com.cn/shm/Html/Item/conn.js
@@ -3828,7 +3824,6 @@ _vmind.qqvideo.tc.qq.com^
 ||tongxiang.net/template/default/js/index/
 ||tongzhuo100.com/img/jianzhi.gif
 ||toowa.com/Js/Inc_Foot.js
-||top.taobao.com/interface_v2.php?$domain=gougousoso.com
 ||top81.com.cn/page/jph/
 ||toptour.cn/Portals/0/images/meilizhongguo.swf
 ||totheglory.im/pic/fangtuo.jpg
@@ -4303,6 +4298,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ziranzhi.com##.shicha
 fun.tv###network-mobile
 firefoxchina.cn##.module-banner
 i.firefoxchina.cn###module-site + DIV[class]
@@ -7221,6 +7217,7 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||gg1z.com/statics/gg/greendown/logo.gif
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
