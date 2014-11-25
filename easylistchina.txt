@@ -1852,7 +1852,6 @@ _vmind.qqvideo.tc.qq.com^
 ||bjmxw.net/bd/
 ||bjxxw.com/themes/portal/local/special_*.swf
 ||bkill.com/css/abc/
-||bkill.com/css/js/bkill.js
 ||bkill.com/images/di.js
 ||bkjia.com/bkjia/js/art_rightad
 ||bkjia.com/bkjia/js/banner
@@ -4300,6 +4299,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bxs.cc##A[href="http://www.aoye.cc/"]
 bejson.com##DIV[style="width:900px;text-align:center"]
 hcwang.cn###LeftAda
 hcwang.cn###RightAda
@@ -4599,7 +4599,6 @@ gate.baidu.com,m.baidu.com###container
 ylnet.com.cn###container > div[style*="990px;"]
 36tv.cn###container > div[style^="height:"]
 fuli.ba,fuliba.asia,fuliba.mobi###content > a
-bxs.cc###content > a[id^="a_"]
 fuli.ba,fuliba.asia,fuliba.mobi###content > div:first-child > a:first-child:last-child
 fuli.ba,fuliba.asia,fuliba.mobi###content > ul[style="list-style-type: none;"]
 www.sohu.com###contentC > .columnC
@@ -6194,7 +6193,6 @@ sdo.com##.mod-public-ads
 www.shupeng.com##.mod.msg-mod.msg-notice + .mod
 pptv.com##.mod_960x90
 qq.com##.mod_custom_ad
-btspread.com,javzoo.com##.modal-backdrop.fade.in
 37.com##.moduel-pub
 firefoxchina.cn##.module-banner
 hrb.house.163.com##.move-img
@@ -7030,7 +7028,6 @@ mycq.qq.com##div[style^="width:960px;"]
 www.jstv.com##div[style^="width:978px; height:100px;"]
 21yq.com##div[style^="width:980px;height:80px;"]
 zol.com.cn##div[style^="width:980px;height:90px;text-align:center;"]
-btspread.com,javzoo.com##div[tabindex="-1"][style="display: block;"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecr_pc_game_"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
@@ -7384,7 +7381,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||chinahr.com/images/phpads/
 @@||citysbs.com^*/swfupload/
 @@||click.union.jd.com^
-@@||clkrev.com/adServe/banners?$domain=btspread.com
 @@||cmbchina.com/ads/
 @@||cnr.cn/gg/
 @@||cntv.cn^*_ad.js
@@ -7412,7 +7408,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||eden.org.tw/themes/liger/images/banner_
 @@||edgesuite.net^*/ad.css?
 @@||emome.net/files/advertising/
-@@||exoclick.com/ads.js$domain=javzoo.com
 @@||feng.com/aoodoo/*logo.png
 @@||feng.com/aoodoo/view.php?what=zone:93&
 @@||fmdisk.com/ima/ads/ad/
