@@ -1082,7 +1082,7 @@ hk.yahoo.com###mntl1
 /images/*.gif$domain=174.37.129.197|174.37.147.136|iu91.co|sejie.com|ukhuaren.co
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/cc.js$domain=174.123.15.33|70.86.24.117|mayahh.com|mimiok.com
-/images/content/1436/*$domain=chineseinla.com
+||chineseinla.com/images/content/1436/
 /images/gtj*.jpg$domain=paipai.fm|paipaitxt.com
 /images/paipai/tgm*.jpg$domain=paipai.fm|paipaitxt.com
 /images/tuangou$domain=bjxxw.com
@@ -1114,8 +1114,9 @@ hk.yahoo.com###mntl1
 /r/video/*$domain=youxi.baidu.com
 /right_img/right$domain=9baka.com|9gal.com
 /rq5zFnYidRA?$domain=stormmediagroup.com
-/sc_ifeng/*$domain=ifeng.com
-/sda/*$domain=chineseinla.com
+/sc_ifeng/*
+||chineseinla.com/sda/
+||nychinaren.com/sda/
 /shout.js$domain=shipinhot.com|ssshhh8.com
 /sinaLoginReward2014.
 /sinaLoginReward2014_comment.
@@ -1125,7 +1126,8 @@ hk.yahoo.com###mntl1
 /sznews/images/bbsgg
 /tb780x90.gif$domain=btmee.com|btmee.net
 /tonghuacun/skin/zxf/kan_hree.js
-/tres/recommend/*$domain=ifeng.com
+||ifeng.com/tres/recommend/
+||ifengimg.com/tres/recommend/
 /tt7z.js$domain=tt7z.com|ttrar.com
 /upload/gad/*$domain=pbzy.com|shanzhaiben.com
 /view/youkuvip/*ad.gif
@@ -4303,10 +4305,12 @@ _vmind.qqvideo.tc.qq.com^
 ||chinamil.com.cn/18903.files/app
 ||chinamil.com.cn/18903.files/javascript.cdn.js
 ||cdyee.com/external/5070.files/ad/
+||77bike.com/img/cyclistad.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+77bike.com##[id^="ads_"]
 chinamil.com.cn##.ad_banner_1000x120
 chinamil.com.cn##.duilian
 365.kv700.com##TABLE[bordercolor="#ffcc66"][width="900"]
