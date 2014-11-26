@@ -2105,7 +2105,7 @@ _vmind.qqvideo.tc.qq.com^
 ||dfafei.com/Runtime/js/vod300.js
 ||dfafei.com/Runtime/js/vod960
 ||dfafei.com/Runtime/js/vod_xiazai
-||dfcfw.com/js/news/emfloatmedia_
+||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/pinzhong/bd_pz_side_
 ||dfcfw.com/js/pinzhong/bdbottom_
 ||dg.073img.com^
@@ -2923,7 +2923,7 @@ _vmind.qqvideo.tc.qq.com^
 ||kekenet.com/images/2014/akasuo
 ||kekenet.com/images/2014/weibo960.jpg
 ||key8.com/cache/www/banner_
-/^http\:\/\/image\.keyan\.cc\/data\/bcs\/\d{4}\/\d{4}\/\d+_/$domain=emuch.net
+||keyan.cc/data/bcs/ 
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kfcdn.com/upload/analysis/20140423/v7ny7ap9fr9hekj9.jpg
 ||kfcdn.com/upload/analysis/20140625/21ln3ovhre9djgri.jpg
@@ -7247,6 +7247,7 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||keyan.cc/data/bcs/*w
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
