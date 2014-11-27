@@ -4310,10 +4310,16 @@ _vmind.qqvideo.tc.qq.com^
 ||bz55.com/bz55/tc.htm
 ||tigtag.com/r/Adv/
 ||tigtag.com/ttad/
+||tigtag.com/styles/phpcms/js/tigtag/ads.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tigtag.com###Home1000x70_A29
+tigtag.com###Home942x70_A1
+tigtag.com##.couplet_l
+tigtag.com##.couplet_r
+tigtag.com##DIV[id^="Home942x70_"]
 zhibo8.cc##A[href="http://daogou.zhibo8.cc/"]
 zhibo8.cc##A[href^="http://caipiao."]
 108.62.192.124,plus28.com###ad_text + div[style="width:960px;margin: auto;"]
@@ -5432,7 +5438,6 @@ letv.com##.ad_layer
 188bifen.com,zhibo8.cc##.ad_left
 66rd.cn##.ad_list
 luo.bo##.ad_logobanner
-tigtag.com##.ad_lr
 sina.com.cn##.ad_main_top
 hb163.cn##.ad_panel_980
 letv.com##.ad_pop
