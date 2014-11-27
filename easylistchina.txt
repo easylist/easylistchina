@@ -567,7 +567,7 @@ hk.yahoo.com###mntl1
 |http://*/ad.js?sn=
 |http://*/ad.js?v=
 |http://*/gg/
-|http://*/i.js$third-party,domain=~liuyanbaike.com
+|http://*/i.js$third-party
 |http://*/js/ad.
 |http://*/js/ad/
 |http://*/js/tc.js
@@ -583,7 +583,6 @@ hk.yahoo.com###mntl1
 ###ad_full
 ###ad_headerbanner
 ###ad_id
-###ad_text + div[style="width:960px;margin: auto;"]
 ~xdjz.net###ads_c_tpc
 ###adtop1
 ###adx_cggp
@@ -2833,7 +2832,6 @@ _vmind.qqvideo.tc.qq.com^
 ||jirou.com/plus/mytag_js.php
 ||jisuxz.com/2747/
 ||jitapu.com/inc/adv
-||jiyun360.com/content/js/aqiooad.min.js
 ||jj.5ccc.net/scripts/new/
 ||jj59.com/sy/banner.js
 ||jj59.com/sy/ibanner.js
@@ -4311,6 +4309,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+108.62.192.124,plus28.com###ad_text + div[style="width:960px;margin: auto;"]
 daqianduan.com##.widget_ui_ads
 yaolan.com###AD
 21yq.com###AD1
