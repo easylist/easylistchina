@@ -534,8 +534,8 @@ hk.yahoo.com###mntl1
 /guanggao/*
 /ina_ad_
 /j/Lad6_2.js
-/jsadv/*
 /js/utils78.js
+/jsadv/*
 /lenovo/pc/all.js
 /module/adsview/*
 /paypic/*
@@ -678,8 +678,6 @@ hk.yahoo.com###mntl1
 ~dsjunshi.com##div[id^="ad_thread"]
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
-||jsjxhd.com^$third-party
-||ju33.com^$third-party
 /adscpc/*
 /adscpv/*
 /AShow.aspx?AID=
@@ -887,7 +885,9 @@ hk.yahoo.com###mntl1
 ||jixing8.net^$third-party
 ||jk939.com^
 ||jntmedia.cn^$third-party
+||jsjxhd.com^$third-party
 ||jtxh.net^$third-party
+||ju33.com^$third-party
 ||juandou.com^$third-party
 ||junnew.com^$third-party
 ||jwqj.net^
@@ -1085,6 +1085,7 @@ hk.yahoo.com###mntl1
 /gif/*$image,domain=txzqw.com
 /gyw_index/*/images/ad_
 /house/images/*$domain=bbs.linyiren.com
+/html/taobao_focus_
 /hushiwin/images/gouqi.jpg
 /ifengRotatorAd.js
 /images/*.gif$domain=174.37.129.197|174.37.147.136|iu91.co|sejie.com|ukhuaren.co
@@ -1377,6 +1378,7 @@ _vmind.qqvideo.tc.qq.com^
 ||33.autoimg.cn/t/Adhtmlnet/*.swf
 ||3399.com/act/5599/js/kuang
 ||3399.com/Common/OnlineServer.html
+||33cfcf.com/js/config.js
 ||33lc.com/lvcha/jquery.gotop.js
 ||33xs.com/hot/
 ||33xs.com/js/g
@@ -1440,6 +1442,7 @@ _vmind.qqvideo.tc.qq.com^
 ||51bczx.com/img/51bczx/
 ||51bczx.com/img/zhibok8/
 ||51bczx.com/js/float.js
+||51cto.com/js/blog_top_list.php
 ||51gaojian.com/js/tj.js
 ||51gugu.com/popwin/AutoHAdShow.aspx
 ||51hanhua.com/2013/
@@ -2302,6 +2305,7 @@ _vmind.qqvideo.tc.qq.com^
 ||firefox.com.cn/gfox/ad/
 ||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/res/js/fchina_video-min.js
+||firefoxchina.cn^*49560.
 ||firefoxchina.cn^*_couplet
 ||firefoxchina.cn^*_topbanner
 ||fj.sina.com.cn/iframe/63/
@@ -2356,6 +2360,7 @@ _vmind.qqvideo.tc.qq.com^
 ||games.ifeng.com^$subdocument
 ||gamme.com.tw/ga/
 ||gamme.com.tw/uploads/2014/45/387c93d820c5d219e49acc49eb2a8119.jpg
+||ganji.com/content.php
 ||ganjistatic1.com^*-banner-
 ||ganjistatic1.com^*/adm/
 ||ganjituiguang.ganji.com^
@@ -2607,6 +2612,7 @@ _vmind.qqvideo.tc.qq.com^
 ||huodong.liaoing.com/haibao/2013/800zhinengsuo_0702/zhineng.swf
 ||huoone.com/templets/hanfeng/js/qdtwo.js
 ||huoxingyu.com/images/hxy_350_330.gif
+||hur.cn/AhurD/$image
 ||hutc.zj.cn/skins/hutc2012/js/fp.js
 ||huxiu.com/static/js/jobAds/
 ||hx95.com/images/sn88.gif
@@ -2627,7 +2633,6 @@ _vmind.qqvideo.tc.qq.com^
 ||i-part.com.tw/images2/index/HouseStar/
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
 ||i.fgi.tw/images/survey_of_woman
-/html/taobao_focus_
 ||i548.com/ad46860/
 ||iads.xinmin.cn^
 ||iapolo.com/myjs/
@@ -3271,6 +3276,8 @@ _vmind.qqvideo.tc.qq.com^
 ||panda.kdnet.net^
 ||pc0359.cn/data/xzb_haha.js
 ||pc0359.cn/sczy/
+||pc141.com/statics/new_img/info_left.png
+||pc141.com/statics/new_img/jianjie.png
 ||pc3w.com/js/
 ||pc6.com/js/un/
 ||pc6.com^$subdocument
@@ -4319,25 +4326,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||51cto.com/js/blog_top_list.php
-||firefoxchina.cn^*49560.
-||ganji.com/content.php
-||pc141.com/statics/new_img/info_left.png
-||pc141.com/statics/new_img/jianjie.png
-||hur.cn/AhurD/$image
-||33cfcf.com/js/config.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hur.cn###ad810_2
-hur.cn###ad810_6
-firefox.com.cn###promote-top-list
-firefox.com.cn##.main-promote-sites
-firefox.com.cn##.side-notice
-i.firefoxchina.cn##.sp-content
-sina.com.hk###pinp
-sina.com.hk###pinp2
 yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -4456,6 +4448,8 @@ xinhuanet.com###ad4
 price.com.hk###ad5
 zhaozi.cn###ad5js
 gamebase.com.tw###ad725
+hur.cn###ad810_2
+hur.cn###ad810_6
 ik123.com###ad960a
 fhm.com.tw###adBig
 baidu.com###adCard
@@ -4998,6 +4992,8 @@ jump.bdimg.com,tieba.baidu.com###pc2client
 ithome.com,win7china.com,win8china.com###pc_c
 ifeng.com###picAdposition
 bbs.houdao.com,paipai.fm,paipaitxt.com###pic_div
+sina.com.hk###pinp
+sina.com.hk###pinp2
 sina.com.cn###pip_taobao
 cwyuni.tw,pixnet.net###pixblogad
 hao.360.cn###plane > .plane-hd
@@ -5023,7 +5019,7 @@ fuyang.net###portal_block_502
 k7mm.com###premium-yva-close
 9le8.com###program_play_right
 mymusic.net.tw###prom
-i.firefoxchina.cn###promote-top-list
+firefox.com.cn,i.firefoxchina.cn###promote-top-list
 tw.msn.com###promotionlink
 bt49.com###pt + center
 langxi.org###pt + div > table
@@ -6205,7 +6201,7 @@ sohu.com##.m_ad
 house365.com##.m_coup-big
 0439.com##.m_ggad
 lgn.yy.com##.m_left > a[href="https://pay.yy.com/hjb/page/act/lighten"]
-firefoxchina.cn##.main-promote-sites
+firefox.com.cn,firefoxchina.cn##.main-promote-sites
 hongfen.org##.main_adser
 cnbeta.com##.main_content_right > .cber[style]:nth-child(7)
 hgitv.com##.main_gg02
@@ -6444,7 +6440,7 @@ aohua.com.au##.sidBoxNoborder
 laifudao.com##.side-adinner
 guokr.com##.side-adv
 ruten.com.tw##.side-advertise
-i.firefoxchina.cn##.side-notice
+firefox.com.cn,i.firefoxchina.cn##.side-notice
 firefoxchina.cn##.side-recommend
 xiaoliaolianmeng.com##.side-sponer
 i.firefoxchina.cn##.side-tool-outer > div[class]:first-child
@@ -6475,6 +6471,7 @@ hao.360.cn##.small-obj
 sohu.com##.sogouService
 5nd.com##.songAds
 jq.131458.com##.soso_02
+i.firefoxchina.cn##.sp-content
 youdao.com##.sp-h
 wasu.cn##.sp_search_ad
 admin5.com##.sp_top
@@ -6797,8 +6794,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
