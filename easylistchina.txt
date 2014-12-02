@@ -4341,10 +4341,13 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
 ||hbrc.com/bd1.html
+||dvbcn.com/index.php?m=poster&
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dvbcn.com###leftDiv
+dvbcn.com###rightDiv
 hbrc.com##DIV[style="width:570px; height:250px; padding:20px 0;"]
 hbrc.com##DIV[style^="width:960px; height:90px; "]
 520xs.com##.zhangjieTXT > A[target="_blank"]
@@ -7308,6 +7311,7 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||dvbcn.com/caches/poster_js/23.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
