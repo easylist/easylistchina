@@ -3675,7 +3675,6 @@ _vmind.qqvideo.tc.qq.com^
 ||sinaimg.cn/large/adde8400gw1ehkji88zq1j20tg01ot9j.jpg
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/ed5e6a1d*.gif
-||sinaimg.cn/large/ed5e6a1djw1el85wjziclg20r803cq51.gif
 ||sinaimg.cn/mw690/60006c33jw*206y
 ||sinaimg.cn/mw690/6285c8e0*208c02i
 ||sinaimg.cn/mw690/7d1c8e96gw1ehjblxlj39j206y06ydgi.jpg
@@ -4354,6 +4353,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+gaoqing.la###sidebar > .widget:nth-child(-n+3)
+gaoqing.la###sidebar-follow
 jump.bdimg.com,tieba.baidu.com##DIV[data-daid]
 eastmoney.com##DIV[style="width: 300px; height: 250px; margin-top: 10px;"]
 educity.cn##.content_relate:nth-child(5)
@@ -5126,7 +5127,6 @@ qiushibaike.com###sidebar > div[class="mb-m"]
 iplaysoft.com###sidebar > ul > .widget:first-child
 iplaysoft.com###sidebar > ul > .widget:nth-child(3)
 xici.net###sidebar-bd > #pbox:last-child
-gaoqing.la###sidebar-follow > .widget:first-child
 fankudo.com###sidebar-primary > div:nth-child(-n+2)
 vikilife.com###sidebar-tab[style^="height:"]
 iplaysoft.com###sidebar_scroll_bdad
@@ -6769,7 +6769,6 @@ chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 acgzone.us##a[href^="http://www.S99966.com/?aff="]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 win007.com##a[href^="http://www.edewin.com/"]
-gaoqing.la##a[href^="http://www.jianguo.tv/"]
 top81.com.cn##a[href^="http://www.junpinhui.com/goods."]
 css88.com##a[href^="http://www.liepin.com"]
 dasai8.com##a[href^="http://www.lmny6.com/?p="]
