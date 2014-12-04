@@ -2112,7 +2112,6 @@ _vmind.qqvideo.tc.qq.com^
 ||dbw.cn/0/07/18/40/7184029_146090.jpg
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/js/cp.js
-||dc.letv.com^
 ||dcfever.com/campaigns/
 ||dclick.autonet.com.tw/90/AC_RunActiveContent.js
 ||dd.xdnice.com^
@@ -7480,7 +7479,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||down.cc/down/js/ad.js
 @@||downbank.cn/s1/yl.js
 @@||dvbcn.com/caches/poster_js/23.js
-@@||dw.xcar.com.cn/analytics.php
 @@||ebiotrade.com/jslibrary/js44.js
 @@||ecitic.com/ads_
 @@||ecitic.com/eshop/advertise/
@@ -7652,9 +7650,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ! Fixed Malware Domains rules
 @@/[/.]js\.tv\.itc\.cn\/(?!(gg|hdpv))/$domain=tv.sohu.com
 !--------------------------------Tracking Systems-----------------------------!
-/1.gif?$domain=scol.com.cn
-/atcount.php?$domain=178.com
-/att_count.js
+||hexun.com/js/att_count.js
 /cv/*&uuid=$object-subrequest
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
 /mysql/count/*$script,domain=ts.cn
@@ -7692,9 +7688,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||chinatimes.com/analytics/
 ||chinauma.net^$third-party
 ||cig.com.cn^$third-party
-||click.bokecc.com^
 ||click.tianyaui.com^
-||cloudfront.net/atrk.js
 ||cnmo.com/pv.js
 ||count.enet.com.cn^
 ||counter.pixplug.in/count.php
@@ -7702,7 +7696,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||data.xici.net^
 ||dianping.com/hippo.gif?
 ||doc88.com/js/count.js
-||dw.xcar.com.cn^
+||dw.xcar.com.cn^*.gif?
 ||ea3w.com/pv.js
 ||error.pixplug.in^
 ||fengniao.com/pv.js
@@ -7731,7 +7725,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||itc.cn^*/tracker.js
 ||js.17173.com/ping.js
 ||kkpgv2.xunlei.com^
-||l.qq.com/p?
 ||l.ykimg.com^
 ||log.51cto.com^
 ||log.daqi.com^
@@ -7743,7 +7736,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||login.sdo.com/sdo/PRes/js/sdo_beacon.js
 ||logs.51cto.com^
 ||mediav.com^$third-party
-||mmstat.com^$third-party
 ||msg.71.am^
 ||msg.ettoday.net^
 ||msg.iqiyi.com^
@@ -7753,12 +7745,10 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||news.baidu.com/nocache/mp/b.jpg
 ||news.sina.com.cn/pvcounter/
 ||newspage.xilu.com/model/visitlog.js
-||pb.sogou.com^$image
 ||play.bokecc.com/servlet/PlayVideo?
 ||pvtest.zol.com.cn^
 ||qhimg.com/js/iwt.js
 ||qq.com/livemsg?
-||ranking.ynet.com^
 ||record.kuai.xunlei.com^
 ||referer.pixplug.in^
 ||rs.sinajs.cn^
@@ -7780,7 +7770,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||stat.v.17173.com^
 ||stat.ws.126.net^
 ||stat.xgo.com.cn^
-||stat.zol.com.cn^
 ||static.gridsumdissector.com^
 ||static.hd.baofeng.com/script/baidu_
 ||static.youku.com/*/index/js/iresearch.js
@@ -7802,6 +7791,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||youdao.com/ctlog?
 ||youdao.com/tl?
 ||zdnet.com.cn/js/pv.js
-||zdw.*/p.ht?
+||zdw.w8.com.cn/p.ht?
 ||zol.com.cn/cgimp/zc.js
+||dc.letv.com^
 !----------------------------------The End------------------------------------!
