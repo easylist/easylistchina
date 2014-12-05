@@ -4338,7 +4338,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ganji.com##DIV[class$="-recommend"]
+ganji.com##DIV[class*="-recommend"]
 jd-bbs.com##TABLE[cellspacing="5"][bordercolor="#9dbedd"]
 360che.com##DIV[style$="width:960px;height:60px;"]
 360che.com##DIV[style*="950"][style*="90"]
@@ -6878,7 +6878,6 @@ junshigang.com##div[class^="ww300"]
 d586.com##div[class^="yd_ad"]
 jump.bdimg.com,tieba.baidu.com##div[data-daid]
 sina.com.cn##div[data-sudaclick="ad_ppzq"]
-ganji.com##div[data-widget="app/ms_v2/common/base_page.js#selfDirectionBind"]
 txooo.com##div[duilian]
 weibo.com##div[feedtype="ad"]
 qvodsou.com##div[id$="-union"]
