@@ -4382,6 +4382,8 @@ _vmind.qqvideo.tc.qq.com^
 ||qq.com/livemsg?
 ||adnetpub.yaolan.com^
 ||kanzhihu.com/acatpbl/lagou_
+||7k7k.com/ad-*.htm
+||7k7k.com/loading/loading.htm
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
@@ -7711,6 +7713,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||zhibowu.com/ad2.htm
 ! Fixed Malware Domains rules
 @@/[/.]js\.tv\.itc\.cn\/(?!(gg|hdpv))/$domain=tv.sohu.com
+@@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 !--------------------------------Tracking Systems-----------------------------!
 /cv/*&uuid=$object-subrequest
 /mysql/count/*$script,domain=ts.cn
