@@ -575,6 +575,7 @@ hk.yahoo.com###mntl1
 |https://*/ad/
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
+##SCRIPT + .sptable[cellpadding="5"]
 ###QQ_Full
 ###ad_box1
 ###ad_box2
@@ -6558,7 +6559,6 @@ sogou.com,soso.com##.sponsored
 163.com##.sports_300x60_ad1
 so.360.cn,so.com##.spread
 jump.bdimg.com,tieba.baidu.com##.spreadad
-clcl.me,lesile.net,ooand.com,s1.lv,t66y.com,woyao.cl,zlvc.net##.sptable
 10jqka.com.cn##.subbanner
 576tv.com##.subject_list > li > a[href^="http"]:not([href*=".576tv."])
 etest8.com##.subtop2right
