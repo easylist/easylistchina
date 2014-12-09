@@ -4394,10 +4394,15 @@ _vmind.qqvideo.tc.qq.com^
 ||fuli2.com/wp-content/plugins/ad-blocking-detector/
 ||eprice.cn/image/upload/ad/
 ||yyets.com/public/rooms?
+||cdn.wdlm.cn^
+||wdlm.cn/img/ad1/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+wdlm.cn###ad_coupleleft
+wdlm.cn###ad_coupleright
+wdlm.cn##.tonglanbanner
 jump.bdimg.com,tieba.baidu.com###game_cover_head_wrapper
 eprice.cn##DIV[style="width: 1094px; height: 80px; margin: 10px auto; border: 1px solid #e5e5e5; padding: 2px;"]
 hanzify.org##SPAN[style^="float:right;"]
@@ -7389,6 +7394,7 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||cdn.wdlm.cn^*/
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
