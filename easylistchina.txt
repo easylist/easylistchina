@@ -961,7 +961,7 @@ hk.yahoo.com###mntl1
 ||sgbfjs.info^
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
-||show.kc.taotaosou.com^
+||show.kc.taotaosou.com^$third-party
 ||sin114.com^$third-party
 ||snyu.com^$third-party
 ||spcode.baidu.com^
@@ -7557,6 +7557,7 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@?adType=$domain=taotaosou.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
