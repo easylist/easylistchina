@@ -2726,8 +2726,6 @@ _vmind.qqvideo.tc.qq.com^
 ||ie.5500w.com/market/404230/pop_browser.js
 ||ieche.com/global/*/ad/
 ||ieche.com/InAds/
-||ifanr.cn/wp-content/uploads/*/banner-
-||ifanr.cn/wp-content/uploads/2014/07/rss-01.png
 ||ifeng.com/bbsfile/js/ifeng_tip.js
 ||ifeng.com/iframe/quickbet
 ||ifeng.com/iframe/toquickbet
@@ -4498,6 +4496,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ipc.me##DIV[style$="width:300px;height:600px"]
+ipc.me##DIV[style="width:336px;height:280px;margin:20px auto 30px auto"]
+ipc.me##LI[style="margin-bottom:20px;width:300px;height:100px;_display:block"]
 it.com.cn##A[href^="http://s.click.taobao.com/"]
 im286.com###ad1
 wuleba.com###wulebashowcpc
@@ -6570,7 +6571,7 @@ anzhuo365.com,pzzc.net##.portal_block_summary
 iplaysoft.com##.post > center
 verygoogle.com##.post-content > p:first-child
 softblog.tw##.post-top-ad
-ihacksoft.com,ipc.me##.post-top-gg
+ihacksoft.com##.post-top-gg
 gamme.com.tw##.post_adwrpt
 phpvar.com##.post_content_linkad
 weather.com.cn##.post_st
@@ -7382,7 +7383,6 @@ gog.com.cn##img[width^="100"]
 jump.bdimg.com,tieba.baidu.com##li[data-daid]
 letv.com##li[data-info*="prom.gome.com.cn/"]
 qiku8.com##li[style*="310"][style*="265"]
-ipc.me##li[style="_display:block;height:252px;width:301px;overflow:hidden;margin-bottom:7px"]
 ks.js.cn##object[data^="yytf/"]
 5j.com##object[width="1000"]
 china.com.cn##object[width="300"][height="60"]
