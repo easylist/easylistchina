@@ -4823,7 +4823,8 @@ tsdm.net###content_box_60090
 tsdm.net###content_box_72890
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[style="display:block !important"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > table[style="display:table !important"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left [id*="00"]:not([id="100"])
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not([id="100"])
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"]:not([id="100"])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
 jpwind.com###content_right_ad
 0597kk.com###cool_fixed
