@@ -4524,11 +4524,13 @@ _vmind.qqvideo.tc.qq.com^
 /weeiy.com_2014-12-10_05-26-04.jpg
 ||51ou.com/images/taoping
 ||c114.net/images/c114/ad_
+||c114.net*/images_a/*.swf
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 qz930.com##.ads
+c114.net##SCRIPT + A[href^="http"]
 qz930.com##.jsl_ad
 juyouqu.com##.ad630
 hc360.com,yaolan.com###AD
