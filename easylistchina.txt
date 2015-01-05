@@ -4529,6 +4529,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ksbbs.com##DIV[id^="read_ad_"]
+ksbbs.com###banner_top
+ksbbs.com##[id^="ads_"]
 kdnet.net##.banner
 klss.cn##.stat8
 huabian.com##DIV[style="height:250px;"]
@@ -4780,7 +4783,7 @@ shangdu.com###banner960
 99tianji.com###banner_gg
 766.com###banner_left
 766.com###banner_right
-766.com,kbcool.com,kshot.com###banner_top
+766.com,kshot.com###banner_top
 ipeen.com.tw###bar-header
 zymk.cn###bb
 emuch.net###bbsmain > div[style="padding:10px 0;"] > table
@@ -7015,7 +7018,7 @@ yb983.com##A[href*="/ClickAd"]
 gamme.com.tw##[class^="sidead_"]
 lknovel.lightnovel.cn##[href^="/"][href*="#"]
 jjwxc.net##[id^="adp_"]
-77bike.com,kbcool.com,kshot.com##[id^="ads_"]
+77bike.com,kshot.com##[id^="ads_"]
 0598yu.com,e0575.cn##[id^="ads_c_"]
 gamebase.com.tw##[id^="aid_"]
 400gb.com,bego.cc,pipipan.com##[id^="cproIframe"]
@@ -7270,7 +7273,7 @@ tc.cn##div[id^="lm"]
 hk.yahoo.com##div[id^="my-ads"]
 ifeng.com##div[id^="padhide_"]
 cnyw.net##div[id^="portal_ad_"]
-kbcool.com,kshot.com##div[id^="read_ad_"]
+kshot.com##div[id^="read_ad_"]
 kbcool.com,kshot.com##div[id^="read_m_yytf"]
 mtrend.cn##div[id^="renqi9_show_"]
 www.rkanr.com##div[id^="rkrCp"]
