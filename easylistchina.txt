@@ -1814,6 +1814,9 @@ _vmind.qqvideo.tc.qq.com^
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com^$domain=lightnovel.cn|wangyueblog.com
 ||alixixi.com/adsview/
+||alu.cn*/aluad/
+||alu.cn/2011/images/conglin.gif
+||alu.cn/aluTrade/Fragments/ListAdvertisementProducts.
 ||am.6park.com^
 ||am.szhome.com^
 ||am.zdnet.com.cn/www/images/$image,object,subdocument
@@ -2731,6 +2734,7 @@ _vmind.qqvideo.tc.qq.com^
 ||huanqiu.com/script/HuanQiuAllBottom.Js
 ||huanqiukexue.com/uploads/images/hqkx_11.jpg
 ||huaxieyu.com/wp-content/themes/HotNewspro20140605/images/default.jpg
+||hudong.pl.youku.com^
 ||huizhou.cn/webfile/*/images/scroll.js
 ||hunantv.com/ui/2014/images/hao123.jpg
 ||huodong.liaoing.com/haibao/2013/800zhinengsuo_0702/zhineng.swf
@@ -4536,23 +4540,11 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||hudong.pl.youku.com^
-||alu.cn*/aluad/
-||alu.cn/2011/images/conglin.gif
-||alu.cn/aluTrade/Fragments/ListAdvertisementProducts.
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||tk.504pk.com/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-linyiren.com###adone
-alu.cn###sanjia
-alu.cn##.ad235x60
-alu.cn##.ad240x60
-alu.cn##.ad260
-alu.cn##.ad315x60
-alu.cn##.ad720x70
-cool-de.com###diy_vk_ad_top
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -4743,6 +4735,7 @@ tw.msn.com###adgrouponca2
 ceil.me,rrting.net###adindex
 dgmei.com###admhdiv_abc
 tw.msn.com###admomoca2
+linyiren.com###adone
 bejson.com,chuchushoe.blogspot.com,frdic.com,fububu.com,gnhome.com,it168.com,jjxw.cn,lol.moa.tw,piao.com.cn,udn.com###ads
 danyang.com###ads-hd
 njdaily.cn###ads-qadjs-link
@@ -4933,6 +4926,7 @@ yb.jl.cn###diy100
 hcwang.cn###diy111
 0830bbs.com,gpshk.cc,oneplusbbs.com,xiaot.com###diy4
 cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
+cool-de.com###diy_vk_ad_top
 luanren.com###diyhlx01
 playno1.com###diylt1
 174.139.95.28,3dezu.cn,52ch.net,bbs.liao1.com,bbs.qbaobei.com,chcj.net,cnyw.net###diynavtop
@@ -4958,8 +4952,8 @@ gongkong.com###dull_left
 gongkong.com###dull_right
 so.com###e_idea_left
 so.com###e_idea_pp
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-pptm-general > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-temai-category
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-temai-general
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-weigou-view-container
 hao123.com###ecom
 image.baidu.com###ecomContainer
@@ -5318,6 +5312,7 @@ discuss.com.hk,uwants.com###right_column
 gamersky.com###right_fixed
 pingpang.info###rwc
 5173.com###sPic_zs
+alu.cn###sanjia
 wpsoso.com###scontent > div[style]
 kocpc.com.tw###scroll_div
 uisdc.com###sdcTopAD
@@ -5619,12 +5614,15 @@ ifeng.com##.ad200-2
 bbs.yzz.cn##.ad200x340
 tgbus.com##.ad200x375
 huanqiuauto.com##.ad220160
+alu.cn##.ad235x60
 yaolan.com##.ad24090
+alu.cn##.ad240x60
 dbw.cn##.ad245
 jokeji.cn##.ad250_1
 jokeji.cn##.ad250_2
-163.com##.ad260
+163.com,alu.cn##.ad260
 7m.cn,china3-d.com,izhufu.com,nanrenwo.net,sportscn.com##.ad3
+alu.cn##.ad315x60
 html-js.com##.ad320-index
 d5wx.com##.ad336left
 jokeji.cn##.ad3602
@@ -5648,6 +5646,7 @@ kb.cc##.ad700
 yaolan.com##.ad71090
 tompda.com##.ad713
 hupu.com##.ad720-90
+alu.cn##.ad720x70
 ifeng.com##.ad728_tit
 5adm.net##.ad780
 8264.com##.ad780_80
@@ -7155,9 +7154,9 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7674,13 +7673,6 @@ www.54xr.com,xr8.me###gg1
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||valf.atm.youku.com/vf?
-@@||static.atm.youku.com^*.swf
-@@||a.ads.cn.miaozhen.com^
-@@||atm.youku.com/cast/getFlvUrl.
-@@u-ads.adap.tv*youku.com
-@@||hudong.pl.youku.com/crossdomain.xml
-@@||hudong.pl.youku.com/player/getLive?liveid=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -7717,6 +7709,7 @@ www.54xr.com,xr8.me###gg1
 @@?adType=$domain=taotaosou.com
 @@?bannerId=$domain=qianbao666.com
 @@_!!329633983.png$domain=i-ab.com
+@@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
 @@|http:$script,~third-party,domain=btspread.com|javzoo.com
 @@|http:*/ad$domain=meiziweibo.com
@@ -7755,6 +7748,7 @@ www.54xr.com,xr8.me###gg1
 @@||8591.com.tw^*/buyAd.css
 @@||95599.cn^*/images/ad.
 @@||9588.com/images/ad/
+@@||a.ads.cn.miaozhen.com^
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@||abchina.com^*/images/ad.
 @@||ad.10010.com^
@@ -7803,6 +7797,7 @@ www.54xr.com,xr8.me###gg1
 @@||artxun.com^$domain=findart.com.cn
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
+@@||atm.youku.com/cast/getFlvUrl.
 @@||baidu.com/js/m.js$domain=baidu.56.com|baidu.baomihua.com|baidu.funshion.com|baidu.hd.baofeng.com|baidu.hz.letv.com|baidu.kankanews.com|baidu.ku6.com|baidu.pptv.com|baidu.v.126.net|baidu.v.ifeng.com|baidu.v1.cn|baidu.video.sina.com|baidu.yinyuetai.com
 @@||baidu.com^$domain=7958.com
 @@||baidustatic.com^$domain=7958.com
@@ -7895,6 +7890,8 @@ www.54xr.com,xr8.me###gg1
 @@||hh010.com/static/js/adsbygoogle_ad_adview_pic_cpc_cpm_cpa_guanggao_gg.js
 @@||hkjc.com/banners/
 @@||houdask.com.cn^*/advertising/
+@@||hudong.pl.youku.com/crossdomain.xml
+@@||hudong.pl.youku.com/player/getLive?liveid=
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||icbc.com.cn/icbc/include/AD_
 @@||icbc.com.cn/ICBC_ADJS/
@@ -7988,6 +7985,7 @@ www.54xr.com,xr8.me###gg1
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||snh48.com/images/ad/
 @@||spbonow.com/images/ads/logo.gif
+@@||static.atm.youku.com^*.swf
 @@||static.hdslb.com/ad-images/$image
 @@||sx566.com/templates/default/images/ad
 @@||szhr.com.cn^$document,domain=szhr.com.cn
@@ -8012,6 +8010,7 @@ www.54xr.com,xr8.me###gg1
 @@||unisharp.com/images/ad.jpg
 @@||v.rbc.cn/ad/
 @@||v1.cn/player/cloud/cloud_player
+@@||valf.atm.youku.com/vf?
 @@||veimg.cn/adimg/
 @@||veimg.cn/AdsShow/
 @@||video.appledaily.com.hk/admedia/$object-subrequest,domain=appledaily.com
