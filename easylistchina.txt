@@ -683,8 +683,6 @@ hk.yahoo.com###mntl1
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
-||ad8.cc^$third-party
-||le123.cn^$third-party
 /99vjj/*$third-party
 /adscpc/*
 /adscpv/*
@@ -783,6 +781,7 @@ hk.yahoo.com###mntl1
 ||a7shun.com^$third-party
 ||acs86.com^$third-party
 ||ad-plus.cn^$third-party
+||ad8.cc^$third-party
 ||adcenter.conn.tw^$third-party
 ||adingo.jp^$third-party
 ||adkongjian.com^$third-party
@@ -922,6 +921,7 @@ hk.yahoo.com###mntl1
 ||kingwam.com^
 ||knet.cn^$third-party
 ||ku63.com^$third-party
+||le123.cn^$third-party
 ||lnr1.com^$third-party
 ||mamamiyu.com^$third-party
 ||media8.cn^$third-party
@@ -1502,6 +1502,7 @@ _vmind.qqvideo.tc.qq.com^
 ||51bczx.com/img/51bczx/
 ||51bczx.com/img/zhibok8/
 ||51bczx.com/js/float.js
+||51credit.com/credit/images/*/xyb
 ||51cto.com/js/blog_top_list.php
 ||51gaojian.com/js/tj.js
 ||51gugu.com/popwin/AutoHAdShow.aspx
@@ -2225,7 +2226,9 @@ _vmind.qqvideo.tc.qq.com^
 ||de.as.pptv.com^
 ||dealmoon.com/data/app/banners/
 ||dealmoon.com/hotdeals/
+||dealmoon.com/images/n/creditcard-160.png
 ||dealmoon.com/images/ul/13/09/30/2qHlKwU.jpg
+||dealmoon.com/upload/dealmoon_app.jpg
 ||demo.528500.com^*.swf
 ||deyangs.com/img/
 ||dfad.dfdaily.com^
@@ -2350,6 +2353,7 @@ _vmind.qqvideo.tc.qq.com^
 ||edu24ol.com/web_news/images/cj_news.jpg
 ||edu24ol.com/web_news/js/1100.jpg
 ||educity.cn/self_text/text_disp.aspx?id=
+||eeee42.com/Ads/
 ||eeyy.com/otherhtml/js/ad650.js
 ||eeyy.com/templates/js/other/yxj.js
 ||eeyy.com/uploadfile/img/beitou
@@ -2390,6 +2394,7 @@ _vmind.qqvideo.tc.qq.com^
 ||fancai.com/Images/2014*.gif
 ||fang.com/afp/door/
 ||fang99.com/JavaScript/advjs/
+||fanhaoyun.com/view/css/ku.js
 ||fantizi5.com/js/ad*.js
 ||fantizi5.com/js/baiduad
 ||faxingw.cn/js/*0
@@ -3129,6 +3134,8 @@ _vmind.qqvideo.tc.qq.com^
 ||lanrenzhijia.com/uploads/ibeifeng.jpg
 ||lanxicy.com/images/rili.gif
 ||lanyes.org/content/templates/default/images/no
+||lanyes.org/content/uploadfile/10086china.gif
+||lanyes.org/content/uploadfile/jishulianmeng.gif
 ||laogu.com/laogubbs/my/
 ||laogu.com/my/ad
 ||laoyuegou.com/img/*/banner/
@@ -3287,6 +3294,7 @@ _vmind.qqvideo.tc.qq.com^
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
 ||money.qz828.com^
+||moonbbs.com/static/image/banner/fashionmoon.png
 ||moonbt.com/template/skin1/images/g_js/
 ||mopimg.cn/dc/
 ||morningpost.com.cn/2014/0711/1405045486670.jpg
@@ -4554,21 +4562,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
 ||zzsky.cn/images/zzskycom_
-||51credit.com/credit/images/*/xyb
-||lanyes.org/content/uploadfile/10086china.gif
-||lanyes.org/content/uploadfile/jishulianmeng.gif
-||dealmoon.com/images/n/creditcard-160.png
-||dealmoon.com/upload/dealmoon_app.jpg
-||moonbbs.com/static/image/banner/fashionmoon.png
-||fanhaoyun.com/view/css/ku.js
-||eeee42.com/Ads/
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-download.enet.com.cn###middle_new > .font2
-leiting001.com,leitingcn.com###ad
-leitingcn.com##.wlt670 > DIV[style]
-leitingcn.com##DIV[style="height:308px"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -4668,7 +4664,7 @@ hao123.com###__elm_0_4
 admin5.com###a22
 weather.com.cn###ab
 hao.360.cn###activity
-cnedu.cn,jqgcw.com,rj.baidu.com,srzc.com,wenkudaquan.com,win007.com,xinhuanet.com,xj163.cn,xue5.com,ylnet.com.cn###ad
+cnedu.cn,jqgcw.com,leiting001.com,leitingcn.com,rj.baidu.com,srzc.com,wenkudaquan.com,win007.com,xinhuanet.com,xj163.cn,xue5.com,ylnet.com.cn###ad
 ruten.com.tw###ad-467
 itxueyuan.org###ad-beifeng-729-90
 80s.la###ad-bigbanner
@@ -5228,6 +5224,7 @@ ezvivi.com###marsk2
 yaolan.com###maryAd
 qtfy30.cn###menu + a
 tv.sohu.com###miaozhenad
+download.enet.com.cn###middle_new > .font2
 emu999.net,webjx.com###middleimg
 xici.net###middoc
 mnw.cn###mnw_content_ads
@@ -7032,6 +7029,7 @@ bgbk.org##.widget_banner
 51jifenbao.net##.widget_text:last-child
 daqianduan.com##.widget_ui_ads
 wangyueblog.com##.wigget_sponsors
+leitingcn.com##.wlt670 > div[style]
 jump.bdimg.com,tieba.baidu.com##.worldcup_info_banner_dialog
 renren.com##.wp-rrzm-popup
 seowhy.com##.wp[style="margin-top:10px;"]
@@ -7193,8 +7191,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
 hupu.com,~my.hupu.com##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7396,6 +7394,7 @@ lol.178.com##div[style="height: 60px; text-align: center;"]
 huabian.com##div[style="height:250px;"]
 060s.com##div[style="height:250px;width:300px"]
 top.chinaz.com##div[style="height:280px; width:100%; text-align:center;"]
+leitingcn.com##div[style="height:308px"]
 howfile.com##div[style="height:30px;padding:2px;border:1px dashed #555555"]
 ezvivi.com##div[style="height:336px; width:100%"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
@@ -7709,7 +7708,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8004,6 +8002,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||ref.so/templates/ref/short_show/adview_
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||rm.sina.com.cn/minisite/$domain=weibo.com
+@@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.acs86.com/FrameWork/AFP/ASP_v523.swf$domain=mytv365.com
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sc.jb51.net/adimg/*.jpg
