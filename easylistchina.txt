@@ -4568,10 +4568,13 @@ _vmind.qqvideo.tc.qq.com^
 ||liba.com/ads/
 ||qtfy30.cn/680_*.gif
 ||ljia.net/vipflash/pop_footer.js
+||taiwandaily.net/uploadimages%
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+taiwandaily.net##SPAN[id$="_Label_Ads"]
+taiwandaily.net##TABLE[width="200"] > TBODY > TR > TD[height="50"]
 mei521.com##.fs_ad1
 mei521.com##.google
 libaclub.com##.ui-adsame
