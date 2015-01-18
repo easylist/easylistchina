@@ -1418,13 +1418,7 @@ _vmind.qqvideo.tc.qq.com^
 ||2muslim.com/data/attachment/portal/
 ||2u-img.com.cn/modules/38_module_images/4747.jpg
 ||2u.com.cn/js/2012_movie.js
-||2zzt.com/images/3hhost.jpg
-||2zzt.com/images/ce250.gif
-||2zzt.com/images/enkj.gif
-||2zzt.com/images/hczj.png
-||2zzt.com/images/lxzjnf.jpg
-||2zzt.com/images/weixiang.jpg
-||2zzt.com/images/weixinhost.jpg
+||2zzt.com/images/
 ||310v.com/adh.js
 ||310v.com/images/lingdai.gif
 ||310v.com/images/tmp_adpic
@@ -4601,10 +4595,15 @@ _vmind.qqvideo.tc.qq.com^
 ||liyuanwang.com/guoqing.gif
 ||6.cn/cvbnm/62/5c/26/76db16b5ca7d2253c88c3cc9795f4a40.jpg
 ||liyuanwang.com/nongli.gif
+||diancloud.com/ghost/banner/
+||cloudleft.com/statics/images/clouelft350_60.gif
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+2zzt.com###zdownload > A[class^="xz"]
+2zzt.com##.titlead
+2zzt.com##.wza-d
 bdinfo.net###header_AD
 hao123.com###shortcut-tuiguang
 hc360.com,yaolan.com###AD
@@ -5562,7 +5561,6 @@ xfastest.com##.AD800
 cyol.net##.AD960_90
 jc001.cn##.ADS
 hf365.com##.AD_01
-2zzt.com##.AD_1080_1
 click108.com.tw##.AD_240240
 click108.com.tw##.AD_300250
 click108.com.tw##.AD_730280
