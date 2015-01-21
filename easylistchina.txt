@@ -1059,7 +1059,7 @@ hk.yahoo.com###mntl1
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
-|http://$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|bforu.info|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com
+|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|bforu.info|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
 ||90hnbb.pw^$popup,script
@@ -1210,7 +1210,7 @@ hk.yahoo.com###mntl1
 ?method=baidu.ting.commercial.tactics&
 _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
-|http://$subdocument,domain=howbbs.com|pc6.com|tytl.tk
+|http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk
 |http://*.7m.cn/b/
 |http://*/BD/$subdocument,domain=udn.com
 |http://*/p$script,domain=99770.cc|99comic.com|99manga.com
@@ -7851,8 +7851,8 @@ atgfw.org#@#.ads3
 @@?bannerId=$domain=qianbao666.com
 @@_!!329633983.png$domain=i-ab.com
 @@u-ads.adap.tv*youku.com
-@@|http://$image,script,domain=jjcast.com
-@@|http://$script,~third-party,domain=btspread.com|javzoo.com
+@@|http:$image,script,domain=jjcast.com
+@@|http:$script,~third-party,domain=btspread.com|javzoo.com
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=dou6.cc|kk369.net|uuu123.net
 @@|http://*/gg/*.css
