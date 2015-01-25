@@ -4633,10 +4633,13 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
 ||yinhangkahao.com/go/
+||feng.com/aodoo1/
+||fengbuy.com/recommend-new.php
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+feng.com##.bbs_treasure
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -7835,6 +7838,9 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
+@@/%*logo.png|$domain=feng.com
+@@/view.php?what=zone:93&$domain=feng.com
+@@/view.php?what=zone:94&$domain=feng.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -7957,7 +7963,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||advertise.shijue.cvidea.cn^
 @@||ali213.net/*/pop.js
 @@||allyes.com.cn/player/AllyesAdPlayerV1.swf?$domain=jstv.com
-@@||aoodoo.feng.com/view.php?what=zone:94&
 @@||appbyme.com/adclient/
 @@||appbyme.com^*/Advertisement.css
 @@||artxun.com^$domain=findart.com.cn
@@ -8035,8 +8040,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||eden.org.tw/themes/liger/images/banner_
 @@||edgesuite.net^*/ad.css?
 @@||emome.net/files/advertising/
-@@||feng.com/aoodoo/*logo.png
-@@||feng.com/aoodoo/view.php?what=zone:93&
 @@||forum.51nb.com/images/*/
 @@||fwxgx.com^*/floatad.
 @@||g.163.com/jr?site=netease&affiliate=freemail
