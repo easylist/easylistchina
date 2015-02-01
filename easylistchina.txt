@@ -684,6 +684,8 @@ hk.yahoo.com###mntl1
 ##a[href^="https://www.18vpn.biz/r.php"]
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + .sptable[cellpadding="5"]
+###js_ads_banner_top
+###js_ads_banner_top_slide
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
 ||yiwad.com^$third-party
@@ -4676,10 +4678,15 @@ _vmind.qqvideo.tc.qq.com^
 ||sinaimg.cn/large/005yyi5Jjw1eo0a59ak40j30oq02imy5.jpg
 ||gamme.com.tw/uploads/2015/05/932989beea7aa782ce0a883a4a13ac4f.jpg
 ||alicdn.com/tps/i2/TB1xSqMHXXXXXaXXpXXQO4D5VXX-440-180.jpg
+||fpdisplay.com/images/*960X230.
+||fpdisplay.com/images/*960X30.
+||fpdisplay.com/templates/default/js/palyflash_
+||fpdisplay.com/upload/n_ad/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fpdisplay.com##TABLE[width="960"][height="110"]
 outofmemory.cn##.tgBar
 jn256.com##.main_gg1
 jn256.com##.main_gg4
@@ -5306,8 +5313,6 @@ yb983.com###jihuaslide
 gog.com.cn###jqzxAd
 sznews.com###jsGG1
 sznews.com###jsGG2
-my0538.com###js_ads_banner_top
-hf365.com,my0538.com,weather.com.cn###js_ads_banner_top_slide
 tiexue.net###junph
 tiexue.net###junphRandom
 nazolog.com###kf2a
