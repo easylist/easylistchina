@@ -685,8 +685,8 @@ hk.yahoo.com###mntl1
 ##a[href^="http://www.xinghad.com/iclk/"]
 ##a[href^="https://www.18vpn.biz/r.php"]
 ~dsjunshi.com##div[id^="ad_thread"]
-##script + .sptable[cellpadding="5"]
 ##script + #rbbox
+##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
 /adscpc/*
@@ -1192,6 +1192,7 @@ hk.yahoo.com###mntl1
 /rq5zFnYidRA?$domain=stormmediagroup.com
 /s?z=yesky&c=
 /sc_ifeng/*
+/scripts/sui$domain=jumpcn.cc|rexuedongman.com
 /sda/*$domain=chineseinla.com
 /shout.js$domain=shipinhot.com|ssshhh8.com
 /sinaLoginReward2014.
@@ -3041,6 +3042,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ithome.com/images/lagou/
 ||ithome.com/images/partner/
 ||ithome.com/js/recommend.js
+||itmsc.cn/files/*/ad0
 ||itmxc.com/mxc-news/960x
 ||itmxc.com/mxckb.gif
 ||itocp.com/html/gk/*/*x50.
@@ -3154,6 +3156,8 @@ _vmind.qqvideo.tc.qq.com^
 ||jthysh.com/uploadfile/poster/trt.swf
 ||jtimg.com/beauty/nowater/201408/101124358.jpg
 ||jtyskq.com^*/js/_a.js
+||jumpcn.cc/scripts/show/3
+||jumpcn.cc/scripts/show/a
 ||junph.cn^$domain=tiexue.net
 ||jusesz.com/images/
 ||jusesz.com/js/
@@ -3231,6 +3235,7 @@ _vmind.qqvideo.tc.qq.com^
 ||kyocdn.com/upload/1316059709x983128031.gif
 ||l.qq.com/lview?
 ||l7po.com/images/tree/
+||l7po.com/templates/ff_style/led/
 ||lab.feng.com/images_new/ad-
 ||lady100.net/760-90.js
 ||lady100.net/top.js
@@ -3768,6 +3773,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qzzn.com/statics/
 ||rakuten-static.com^$domain=cwyuni.tw
 ||ranwen.net/ssi/
+||ranwen.org/ssi/
 ||rar8.net/htmljs/
 ||read.2200book.com/images/bloading.gif
 ||readnovel.com/js/$subdocument
@@ -3778,9 +3784,6 @@ _vmind.qqvideo.tc.qq.com^
 ||res.cngoldres.com/web/js/*_advs.js
 ||res.hunantv.com^
 ||res.ythouse.com/image/index/2012/
-||jumpcn.cc/scripts/show/3
-||jumpcn.cc/scripts/show/a
-/scripts/sui$domain=jumpcn.cc|rexuedongman.com
 ||rfidworld.com.cn/js/a.js
 ||rfidworld.com.cn/js/b.js
 ||rfidworld.com.cn/js/c.html
@@ -4528,6 +4531,7 @@ _vmind.qqvideo.tc.qq.com^
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yiku51.com/xinzeng/js/
 ||yimg.com/*/ysm/
+||yimg.com/cv/ae/tw/bwchou/bubble_
 ||yimg.com/ja/ap/*/hk_rm_umu_
 ||yimg.com/ja/ap/*_wallpaper
 ||yimg.com/no/$domain=~yahoo.com
@@ -4682,18 +4686,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||yimg.com/cv/ae/tw/bwchou/bubble_
-||l7po.com/templates/ff_style/led/
-||ranwen.org/ssi/
-||itmsc.cn/files/*/ad0
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hjenglish.com,hujiang.com##.lamu_banner
-ranwen.org##.ads
-haoting5.com###bdSider
-zdfans.com###live
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -4963,7 +4959,7 @@ gamme.com.tw###bd
 120ask.com###bd-wm-1
 120ask.com###bd-wm-1 + div[style="margin-top:10px;height:60px;"]
 manhuadao.com###bd1
-dm456.com###bdSider
+dm456.com,haoting5.com###bdSider
 naruto.hk###bdbqy
 sogou.com,soso.com###bdfs0
 baidu.com###bdyx_float_rb
@@ -4997,7 +4993,6 @@ club.topsage.com###brbox
 zol.com.cn###btmLoginLayer
 v.hao123.com###btn-dl-bro
 mengmao.org###cat3
-redocn.com##.apositions
 weather.com.cn###ccs
 jbtalks.cc###center-popup-bg
 jbtalks.cc###center-popup-show
@@ -5326,6 +5321,7 @@ sdgundam.cn###link-roll ~ .box-set-2
 soft4fun.net###linkcat-2 + div:nth-last-child(2)
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box1026387):not(#box34614)
 51cto.com###list4
+zdfans.com###live
 live.90bfw.com###live > table[cellspacing="0"][cellpadding="0"]
 marstv.com###live_ad
 500.com###live_top_ad
@@ -5967,7 +5963,7 @@ blog.dausos.com,qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-100bt.com,591.xxx,appinn.com,appledaily.com.tw,danyang.com,hangzhou.com.cn,haokan5.com,hc360.com,html-js.com,lanrenzhijia.com,nownews.com,oxgood.com,pc841.com,qz930.com,ranwen.net,sina.com,xunleihd.com,yeeyi.com##.ads
+100bt.com,591.xxx,appinn.com,appledaily.com.tw,danyang.com,hangzhou.com.cn,haokan5.com,hc360.com,html-js.com,lanrenzhijia.com,nownews.com,oxgood.com,pc841.com,qz930.com,ranwen.net,ranwen.org,sina.com,xunleihd.com,yeeyi.com##.ads
 tianya.cn##.ads-loc-holder
 appinn.com##.ads-m
 360.cn##.ads-pic
@@ -6027,6 +6023,7 @@ down.51cto.com##.ag
 padhz.com,pbhz.com##.agoogled
 frdic.com##.alert
 4493.com##.allright
+redocn.com##.apositions
 5253.com##.app5253-intro-ctn
 jump.bdimg.com,tieba.baidu.com,tieba.com##.app_forum_top_nav
 keywin.org##.appdownload
@@ -6065,6 +6062,7 @@ aibang.com##.b_similar
 pinshan.com##.b_taobao
 gome.com.cn##.backbox
 portablesoft.org##.bad
+hao.rising.cn##.baidu-banner
 quumii.com##.baidu960
 17k.com##.baiduBox
 2345.com##.baiduHotWordsR
@@ -6680,6 +6678,7 @@ jump.bdimg.com,tieba.baidu.com,tieba.com##.l_banner
 51caiju.com,qq.com##.l_qq_com
 taoguba.com.cn##.label2
 3jy.com,i51yy.com##.lad
+hjenglish.com,hujiang.com##.lamu_banner
 letv.com##.lay_body[style^="width:490px;height:320px;"]
 letv.com##.lay_body[style^="width:980px;height:100px;"]
 letv.com##.lay_body[style^="width:980px;height:90px;"]
@@ -6857,7 +6856,6 @@ actoys.net##.p_top_ad
 tw.yahoo.com##.pa-banner
 cjdby.net##.page_right_ad
 qqyy.com##.par-ad336
-hao.rising.cn##.baidu-banner
 www.sina.com.cn##.part-k-l > .mod-13
 www.sina.com.cn##.part-l
 bbs.52life.cc##.part1
@@ -7412,9 +7410,9 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7879,6 +7877,7 @@ tt1069.com#@##adbrite
 atgfw.org#@##ads-wrapper
 pcdvd.com.tw,wholehk.com#@##adsense
 leduwo.com,yaerwen.com#@##adtop
+dmzj.com#@##advt
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 52vfx.com#@##head_ad
 hutc.zj.cn#@##index_ad
@@ -7944,7 +7943,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
-dmzj.com#@##advt
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
@@ -8388,6 +8386,7 @@ dmzj.com#@##advt
 ||ea3w.com/pv.js
 ||fengniao.com/pv.js
 ||frame.enet.com.cn/a.php
+||ftchinese.com/log/analytics.js
 ||g.yccdn.com^
 ||gdt.qq.com^
 ||gridsumdissector.cn/gs.gif?
@@ -8479,5 +8478,4 @@ dmzj.com#@##advt
 ||zdw.w8.com.cn/p.ht?
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
-||ftchinese.com/log/analytics.js
 !----------------------------------The End------------------------------------!
