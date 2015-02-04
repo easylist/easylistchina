@@ -1156,7 +1156,7 @@ hk.yahoo.com###mntl1
 /house/images/*$domain=bbs.linyiren.com|www.linyiren.com
 /html/taobao_focus_
 /ifengRotatorAd.js
-/images/*.gif$domain=174.37.129.197|174.37.147.136|iu91.co|sejie.com|ukhuaren.co
+/images/*.gif$domain=174.37.129.197|174.37.147.136|74bao.com|96ri.com|cao25.com|cao79.com|caoporn.com|fuck01.com|gao08.com|iu91.co|men00.com|ri15.com|ri96.com|sejie.com|ukhuaren.co
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/ccc.js$domain=70.86.24.118|iimaya.com|mayazz.com|mimiok.com
 /images/content/1436/*$domain=chineseinla.com
@@ -1175,7 +1175,9 @@ hk.yahoo.com###mntl1
 /kocpc.myweb.hinet.net^
 /modules/video/player/nuevo/midroll.php?
 /moneymaker/images/*.gif
+/moneymaker/js/fkpp.js
 /moneymaker/js/kppp.js
+/moneymaker/js/videoplayer.js
 /my0538/img/ad/*
 /nddailyfile/webadv/*
 /neaDm.jpg$domain=17domn.com|97down.info|kidown.com|pidown.info|wkdown.info
@@ -1723,6 +1725,8 @@ _vmind.qqvideo.tc.qq.com^
 ||7k7k.com/ad-*.htm
 ||7k7k.com/loading/loading.htm
 ||7k7kimg.cn/uploads/js/adlink
+||7kankan.com/c/123.gif
+||7mad.7m.cn^
 ||7scs.com/js/TOP.js
 ||7sehu.com/zy/
 ||7xdown.com/adgg/
@@ -2361,6 +2365,7 @@ _vmind.qqvideo.tc.qq.com^
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
 ||douban.com^*/rda/$object-subrequest
+||doubanio.com^*/js/ad.
 ||doubleclick.tv002.com^
 ||douguo.net/upload/post/d/
 ||down.admin5.com/z/
@@ -4163,6 +4168,8 @@ _vmind.qqvideo.tc.qq.com^
 ||tompda.com^$object
 ||tongxiang.net/template/default/js/index/
 ||tongzhuo100.com/img/jianzhi.gif
+||tonnn.com/promotion2/*.js
+||top.taobao.com/interface_v2.php?$domain=gougousoso.com
 ||top81.com.cn/page/jph/
 ||toptour.cn/Portals/0/images/meilizhongguo.swf
 ||totheglory.im/pic/fangtuo.jpg
@@ -4522,6 +4529,7 @@ _vmind.qqvideo.tc.qq.com^
 ||yehaolu.com/js/jjss
 ||yesky.com/TLimages2009/yesky/js/xznr_bdsd.js
 ||yeyou.com/2013/new/yeyou-float-window.js
+||ygdy8.com/jsy/
 ||yiku51.com/xinzeng/js/
 ||yimg.com/*/ysm/
 ||yimg.com/cv/ae/tw/bwchou/bubble_
@@ -4679,20 +4687,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||top.taobao.com/interface_v2.php?$domain=gougousoso.com
-||tonnn.com/promotion2/*.js
-||7kankan.com/c/123.gif
-||ygdy8.com/jsy/
-||7mad.7m.cn^
-||doubanio.com^*/js/ad.
-/images/*.gif$domain=74bao.com|96ri.com|cao25.com|cao79.com|caoporn.com|fuck01.com|gao08.com|men00.com|ri15.com|ri96.com
-/moneymaker/js/fkpp.js
-/moneymaker/js/videoplayer.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-games.qq.com##.dc-kf_list
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -6292,6 +6290,7 @@ jrj.com.cn##.data-collect
 cq.qq.com##.dayuw_maintext
 zdfans.com##.db_post
 51junshi.com##.dbgg
+games.qq.com##.dc-kf_list
 jstv.com##.delayadv
 17qingsong.com##.detail-gads
 9724.com##.detail_fix
@@ -7410,8 +7409,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -7951,7 +7950,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@.com/ad/$domain=jd.com
 @@.jstv.com/c/gg/
 @@.s1979.com/ad/ad*.mp4
-@@/%*logo.png|$domain=feng.com
 @@/168logo.gif$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 @@/2kuai/images/ad
 @@/32666/images/ad
@@ -8324,6 +8322,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !--------------------------------Tracking Systems-----------------------------!
 /cv/*&uuid=$object-subrequest
 /mysql/count/*$script,domain=ts.cn
+@@||7m.cn/v2/js/analyse.js
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hm.baidu.com^$domain=ihome99.com
 @@||msn.wrating.com/a1.js
@@ -8338,6 +8337,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||39.net/js/wt.js
 ||55bbs.com/pv.js
 ||56img.com/script/fn/stat/
+||8cnd.com^
 ||a.tbcdn.cn/s/ac.js
 ||a.tbcdn.cn/s/atp.js
 ||a.tbcdn.cn/s/tb-tracer-min.js
@@ -8474,6 +8474,4 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ||zdw.w8.com.cn/p.ht?
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
-@@||7m.cn/v2/js/analyse.js
-||8cnd.com^
 !----------------------------------The End------------------------------------!
