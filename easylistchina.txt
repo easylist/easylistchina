@@ -2828,9 +2828,7 @@ _vmind.qqvideo.tc.qq.com^
 ||house.jschina.com.cn/userfiles/flash/
 ||house.sina.com.cn/2.0/abp/
 ||house.sina.com.cn/2.0/ads/
-||house365.com/hfads/
 ||house365.com/js/lbpopup.js
-||house365.com/njads/
 ||houyi.baofeng.net^*.html
 ||how361.com/data/js.php?id=
 ||how361.com/images/letou/20130111.gif
@@ -4706,10 +4704,12 @@ _vmind.qqvideo.tc.qq.com^
 ||99re1.com/images/*.gif
 ||jiujiure.com/media/banners/
 ||dbw.cn/eap/js/hl/hlj_ad
+||house365.com/*ads/201
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+house365.com##DIV[id^="AD-bottom"]
 hao.rising.cn##.search-right
 hao.rising.cn##.shop-site
 aiquanji.com###weizhi-a
