@@ -561,10 +561,10 @@ hk.yahoo.com###mntl1
 |http://*/js/ad.
 |http://*/js/ad/
 |http://*/js/tc.js
+|http://*/s.js?sp=*&r=$third-party
 |http://acs.
 |http://ad.
 |http://gg.$third-party
-|http://*/s.js?sp=*&r=$third-party
 |https://*/ad/$domain=~yande.re
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
@@ -1629,6 +1629,7 @@ _vmind.qqvideo.tc.qq.com^
 ||58.com/ui7/*banner_
 ||58cdn.com.cn/ds/tgbrand/
 ||591.xxx/images/*.gif
+||591.xxx/media/banners/
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/dll.js
 ||591hx.com/js/floatbox.js
@@ -1795,7 +1796,9 @@ _vmind.qqvideo.tc.qq.com^
 ||99btgc01.info/uploads/*.gif
 ||99danji.com/otherhtml/
 ||99mst.com/upfiles/adv/main02.jpg
+||99re.co/media/banners/
 ||99re.com/images/close.gif
+||99re1.com/images/*.gif
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
 ||9ht.com/skin2012/js/tlAd.js
@@ -2298,6 +2301,7 @@ _vmind.qqvideo.tc.qq.com^
 ||db28.cn/cache/ads.js
 ||dbw.cn/0/07/18/40/7184029_146090.jpg
 ||dbw.cn/eap/js/db/dbwad_
+||dbw.cn/eap/js/hl/hlj_ad
 ||dbw.cn/js/cp.js
 ||dcfever.com/campaigns/
 ||dclick.autonet.com.tw/90/AC_RunActiveContent.js
@@ -2827,6 +2831,7 @@ _vmind.qqvideo.tc.qq.com^
 ||house.jschina.com.cn/userfiles/flash/
 ||house.sina.com.cn/2.0/abp/
 ||house.sina.com.cn/2.0/ads/
+||house365.com/*ads/201
 ||house365.com/js/lbpopup.js
 ||houyi.baofeng.net^*.html
 ||how361.com/data/js.php?id=
@@ -3100,6 +3105,7 @@ _vmind.qqvideo.tc.qq.com^
 ||jirou.com/plus/mytag_js.php
 ||jisuxz.com/2747/
 ||jitapu.com/inc/adv
+||jiujiure.com/media/banners/
 ||jj.5ccc.net/scripts/new/
 ||jj20.com/images/960-60.gif
 ||jj20.com/js/x
@@ -4698,24 +4704,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||591.xxx/media/banners/
-||99re.co/media/banners/
-||99re1.com/images/*.gif
-||jiujiure.com/media/banners/
-||dbw.cn/eap/js/hl/hlj_ad
-||house365.com/*ads/201
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-house365.com##DIV[id^="AD-bottom"]
-hao.rising.cn##.search-right
-hao.rising.cn##.shop-site
-aiquanji.com###weizhi-a
-aiquanji.com###weizhi-t
-aiquanji.com###xinxi
-software8.co##.side_bar_2345
-software8.co##DIV[style="width:640px;margin-right:10px;height:60px;margin:0 auto;padding-bottom:15px;"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -5639,8 +5631,8 @@ xemh.com###view_ads3
 jstv.com###vplayad
 kamlm.com###wanmeiffad1
 sogou.com###weixin_adv
-quanji.com###weizhi-a
-quanji.com###weizhi-t
+aiquanji.com,quanji.com###weizhi-a
+aiquanji.com,quanji.com###weizhi-t
 maxthon.cn###widget-main-ad
 maxthon.cn###widget-main-external-link-groupbuy
 ccav1.com###widget_12090ad
@@ -5666,7 +5658,7 @@ dychao.com###x-adtop-player
 0598yu.com###x2
 bjxxw.com###xBanner
 xinhuanet.com###xiangguanad
-quanji.com###xinxi
+aiquanji.com,quanji.com###xinxi
 sina.com.cn###xj_sy_wm950109
 xizi.com###xz_8
 redocn.com###yc_adv_1_2
@@ -7014,6 +7006,7 @@ playno1.com##.sd.pph
 yeeyi.com##.sd.pph > .mbm.hm
 yeeyi.com##.sd[style="width:208px;text-align:left;float:right;overflow-x:hidden;"]
 pediy.com##.search
+hao.rising.cn##.search-right
 haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 99114.com##.search_keywordAd
 ijia360.com##.search_radlist
@@ -7029,6 +7022,7 @@ xilu.com##.shehuibanner
 ziranzhi.com##.shicha
 0452e.com##.shop
 sogou.com,soso.com##.shop-info-list
+hao.rising.cn##.shop-site
 sogou.com,soso.com##.shop-title
 xilu.com##.shopLinks
 sogou.com,soso.com##.shopSort
@@ -7049,6 +7043,7 @@ firefoxchina.cn##.side-recommend
 xiaoliaolianmeng.com##.side-sponer
 17huohu.com,firefoxchina.cn##.side-tool-outer > div[class]:first-child
 niutuku.com##.sideAD
+software8.co##.side_bar_2345
 duba.com##.side_other > .img
 businessweekly.com.tw##.side_slidebox
 qzone.qq.com##.side_wrapper.side_wrapper_v3
@@ -7435,9 +7430,9 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7521,6 +7516,7 @@ bxs.cc##div[id="728ad"]
 iqiyi.com##div[id^="100000000"]
 taiwan.cn##div[id^="2014sy_gg"]
 3qit.com,cnmo.com,ea3w.com,fengniao.com##div[id^="AD"]
+house365.com##div[id^="AD-bottom"]
 5703.com##div[id^="AD14"]
 it168.com##div[id^="ADV"]
 xgo.com.cn##div[id^="AD_"]
@@ -7688,6 +7684,7 @@ ipc.me##div[style="width:336px;height:280px;margin:20px auto 30px auto"]
 niwota.com##div[style="width:365px;height:310px;border:0px solid #ccc;float:left; margin: 0px 10px 5px 0px;"]
 pengfu.com##div[style="width:500px; height:200px; background:#ccc; margin:0 auto 40px;"]
 jgtj.com.cn##div[style="width:500px; height:200px; margin:auto; margin-top:10px; margin-bottom:10px;"]
+software8.co##div[style="width:640px;margin-right:10px;height:60px;margin:0 auto;padding-bottom:15px;"]
 china.com##div[style="width:680px;height:90px;padding-left:10px"]
 vipyl.com##div[style="width:692px;height:282px;margin:0px 10px 0px 10px; padding:0px;float:right; overflow:hidden"]
 neihan8.com##div[style="width:728px; margin: 20px auto 0px;"]
@@ -7920,6 +7917,7 @@ szonline.net#@#.ad310
 10086.cn,2kk.cc,520tingshu.com,580k.com#@#.ad960
 xuduba.com#@#.ad980
 189.cn,czbj.js.cn#@#.adArea
+xa.house365.com#@#.adBox
 kijiji.com.tw#@#.adImg
 icbc.com.cn#@#.adLeft
 189.cn#@#.adOne
@@ -7953,6 +7951,7 @@ jd.com#@#.adwords
 tt1069.com#@#.afs_ads
 dingdong.ganji.com#@#.banner
 rsdown.cn#@#.banner-ads
+192.168.128.1#@#.banner_ad
 ishangman.com#@#.bottom_ad
 yuexw.com#@#.con_ad
 douban.com#@#.download-ad
@@ -7967,8 +7966,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
-192.168.128.1#@#.banner_ad
-xa.house365.com#@#.adBox
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
