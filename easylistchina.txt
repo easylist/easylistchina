@@ -1084,14 +1084,12 @@ hk.yahoo.com###mntl1
 ||zp265.com^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-|http:$popup,third-party,domain=lamp99.com
-|http:$popup,third-party,domain=wpan.cc
 .com/?Intr=$popup
 /?ref=$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|bforu.info|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com
+|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|bforu.info|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|wpan.cc|xhcbb.com|xunfs.com
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
 ||90hnbb.pw^$popup,script
@@ -4732,7 +4730,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-fyjs.cn##.ad_sxp
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -4975,6 +4972,7 @@ xyfdcw.com.cn###area2_2 > .mb5
 gxnews.com.cn###art_adunioncode
 wx.sina.com.cn###artibody > .article-video
 zhuankebar.com###article-cnt > a
+fyjs.cn###article_content > div[style*="float:right;"]
 fzlbase.com###article_extinfo + .block-long
 doyo.cn###article_top_down
 baidu.com###asideLeft
@@ -5971,6 +5969,7 @@ cngba.com##.ad_ri
 bitauto.com,hc360.com,zhibo8.cc##.ad_right
 hushiwin.com##.ad_ritht_1
 hushiwin.com##.ad_ritht_3
+fyjs.cn##.ad_sxp
 shm.com.cn##.ad_taobao
 zjstv.com##.ad_tl
 jb51.net##.ad_tonglan
@@ -7461,9 +7460,9 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7754,7 +7753,6 @@ imanhua.com##div[style^="width: 978px;"]
 my0538.com##div[style^="width:1000px;"][style*="50px;"]
 lanyes.org##div[style^="width:250px;height:250px;"]
 74bao.com,96ri.com,cao25.com,cao79.com,caoporn.com,fuck01.com,gao08.com,men00.com,ri15.com,ri96.com##div[style^="width:300px;height:250px;"]
-fyjs.cn###article_content > DIV[style*="float:right;"]
 hbrc.com##div[style^="width:500px; height:200px;"]
 jschina.com.cn##div[style^="width:640px;"][style$="margin:0 auto;overflow:hidden;"]
 jpwind.com##div[style^="width:730px; height:90px;"]
@@ -7931,6 +7929,7 @@ pcdvd.com.tw,wholehk.com#@##adsense
 leduwo.com,yaerwen.com#@##adtop
 dmzj.com#@##advt
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
+fmdisk.com#@##googleadsense
 52vfx.com#@##head_ad
 hutc.zj.cn#@##index_ad
 www.zol.com.cn#@##search_ad
@@ -7982,7 +7981,7 @@ jd.com#@#.adwords
 tt1069.com#@#.afs_ads
 dingdong.ganji.com#@#.banner
 rsdown.cn#@#.banner-ads
-192.168.128.1#@#.banner_ad
+10.10.5.12,192.168.128.1#@#.banner_ad
 ishangman.com#@#.bottom_ad
 yuexw.com#@#.con_ad
 douban.com#@#.download-ad
@@ -7997,13 +7996,9 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
-fmdisk.com#@##googleadsense
-10.10.5.12#@#.banner_ad
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||qiyipic.com/common/fix/pub_images/
-@@||serve.netsh.org/pub/ads.js?
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8290,6 +8285,7 @@ fmdisk.com#@##googleadsense
 @@||qidian.com/ploy/20*.swf
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
+@@||qiyipic.com/common/fix/pub_images/
 @@||qq.com/bossweb/jifen/
 @@||qq.com/server/website/CommWebGameSelect_ad.js
 @@||qq.com^*?ADTAG=
@@ -8307,6 +8303,7 @@ fmdisk.com#@##googleadsense
 @@||sc.jb51.net/adimg/*.jpg
 @@||sdc.pingan.com^$~image
 @@||selfimg.com.cn/??
+@@||serve.netsh.org/pub/ads.js?
 @@||sf-express.com/.galleries/advertisement/
 @@||share.dmhy.*/generate-captcha?
 @@||shu008.com/heibing/js/ad/style1.js
@@ -8493,6 +8490,7 @@ fmdisk.com#@##googleadsense
 ||qunar.com/js/ga.min.js
 ||record.kuai.xunlei.com^
 ||rs.sinajs.cn^
+||runsky.com/phpstat/
 ||s.360.cn^
 ||s.so.360.cn^
 ||shrek.6.cn^
@@ -8537,5 +8535,4 @@ fmdisk.com#@##googleadsense
 ||zdw.w8.com.cn/p.ht?
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
-||runsky.com/phpstat/
 !----------------------------------The End------------------------------------!
