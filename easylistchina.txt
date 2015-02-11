@@ -8042,7 +8042,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||jwpcdn.com^*/vast.js$domain=connectcast.tv
+@@||jwpcdn.com^*/vast.js$script,third-party
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8285,7 +8285,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||joy.cn/service.php?*&showad=
 @@||js.tudouui.com/bin/player2/$object
 @@||juxiangyou.com/advert/
-@@||jwpcdn.com^*/vast.js$domain=mingpao.com
 @@||kbcool.com/advpic/$domain=ks.js.cn
 @@||keyan.cc/data/bcs/*w
 @@||keyrun.cn^$domain=400gb.com|bego.cc|pipipan.com
