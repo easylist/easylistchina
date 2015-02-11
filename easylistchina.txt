@@ -1421,6 +1421,7 @@ _vmind.qqvideo.tc.qq.com^
 ||198.40.56.242/ad/
 ||198zone.com/images/*noad.jpg
 ||198zone.com/images/17558/198zone.gif
+||199001.com/public/images/activiti_pic/weidian780.png
 ||19lou.com/topic/html/2014/shopping/
 ||1dot.cn/spider/1dotAd.php
 ||1fun.com.hk/bb/189X180B.swf
@@ -1917,6 +1918,7 @@ _vmind.qqvideo.tc.qq.com^
 ||alicdn.com^$domain=lightnovel.cn|wangyueblog.com
 ||alifeifei.net/s/*.js
 ||alixixi.com/adsview/
+||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alu.cn*/aluad/
 ||alu.cn/2011/images/conglin.gif
 ||alu.cn/aluTrade/Fragments/ListAdvertisementProducts.
@@ -2687,6 +2689,8 @@ _vmind.qqvideo.tc.qq.com^
 ||gscn.com.cn/home/images/advscroll.js
 ||gscn.com.cn/pic/0/10/34/27/10342786_994137.gif
 ||gter.net^*adv
+||gtimg.com/comic/pics/hv1/29/74/1631/106074674.jpg
+||gtimg.com/ent/final2009/dp_tebu_logo.png
 ||gtimg.com/news/news/2014ad/
 ||gtimg.com/newsapp_ls/0/27161189/0
 ||gtimg.com/qqlive/
@@ -4430,6 +4434,7 @@ _vmind.qqvideo.tc.qq.com^
 ||www.sz.zj.cn^$subdocument
 ||wx.56.com/youxitg/
 ||wx.sina.com.cn/iframe/pdps/
+||wxrb.com/g/js/baidu.cbjs.m.js
 ||wz.zj.cn/2014/0703/ty.gif
 ||wzi9.com/static/js/function.js
 ||x-berry.com/wordpress/wp-content/uploads/*vpn
@@ -4742,26 +4747,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||199001.com/public/images/activiti_pic/weidian780.png
-||gtimg.com/comic/pics/hv1/29/74/1631/106074674.jpg
-||gtimg.com/ent/final2009/dp_tebu_logo.png
-||wxrb.com/g/js/baidu.cbjs.m.js
-||allbeauty.com.tw/GoldPrice/*_CF.php
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dl.pconline.com.cn##.dlTips
-wxrb.com##.AD
-wxrb.com##.AD1000
-wxrb.com##.AD305
-wxrb.com##.AD340
-wxrb.com##.AD640
-wxrb.com##.ADtxt
-qq.com##.adv1000
-cityjs.com###a
-qq.com###comic_ad
-weather.com.cn##DIV[style="margin:0 auto;width:1000px;margin-top:3px;height:90px;"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 gdtv.cn###ADVbuttom
@@ -4865,6 +4854,7 @@ hao123.com###\5f _wgt_0_2
 xiaot.com###\5f sc_dialog
 xiaot.com###\5f sc_overlay
 hao123.com###__elm_0_4
+cityjs.com###a
 admin5.com###a22
 letv.com###a_body_11628
 letv.com###a_title_11628
@@ -5085,6 +5075,7 @@ chinaqking.com###cnt-ad
 mydrivers.com###code_lb
 lhk.gov.cn,shayang.gov.cn,tc.cn###codefans_net
 qingdaonews.com###codex
+qq.com###comic_ad
 0743ds.com###comiis_ad00
 haianw.com###comiis_haianw01
 haianw.com###comiis_haianw13
@@ -5738,8 +5729,12 @@ lh168.net###zt1Box
 51.la###zztxt
 qlwb.com.cn##.A1
 qlwb.com.cn##.A9
-csdn.net,cul.shangdu.com,cyol.net,yam.com##.AD
+csdn.net,cul.shangdu.com,cyol.net,wxrb.com,yam.com##.AD
+wxrb.com##.AD1000
 imeee.cn##.AD300x250
+wxrb.com##.AD305
+wxrb.com##.AD340
+wxrb.com##.AD640
 xfastest.com##.AD800
 cyol.net##.AD960_90
 jc001.cn##.ADS
@@ -5749,6 +5744,7 @@ click108.com.tw##.AD_300250
 click108.com.tw##.AD_730280
 tzfdc.com##.AD_A
 tzfdc.com##.AD_B
+wxrb.com##.ADtxt
 mail.126.com,mail.163.com##.APP-dashi-botBanner
 letv.com##.Ad
 aohua.com.au,qq.com##.AdBox-Article-QQ
@@ -6073,6 +6069,7 @@ chinaz.com,jrj.com.cn##.adtext
 52solution.com##.adv-hb
 52solution.com##.adv-lb
 52solution.com##.adv-sq
+qq.com##.adv1000
 ddpan.com##.adv2
 myhack58.com##.adv32
 qikuyou.com##.adv640
@@ -6384,6 +6381,7 @@ qqdaohang.com##.dhad
 131458.com##.divGuanggao
 0597ok.com##.div_ad
 91town.com##.dlAd
+dl.pconline.com.cn##.dlTips
 gfan.com##.dl_AD
 letv.com##.dl_mobile
 xinhuanet.com##.dlads01
@@ -7500,8 +7498,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -7719,6 +7717,7 @@ northnews.cn##div[style="margin: 0px 50px 20px 0px; width: 290px; display: inlin
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
 sina.com.cn##div[style="margin:0 0 10px 0;overflow: hidden;overflow:hidden;width:980px;height:90px;margin:0 auto;font-size:12px;"]
 manhuadao.com##div[style="margin:0 auto 12px; adding:0;width:920px;height:250px;overflow:hidden;"]
+weather.com.cn##div[style="margin:0 auto;width:1000px;margin-top:3px;height:90px;"]
 qidian.com##div[style="margin:0 auto;width:375px;height:63px;padding-top:5px"]
 bendibao.com,rrys.tv,rrys123.com,yyets.com,zimuzu.tv##div[style="margin:0;padding:0;width:640px;height:345px;overflow:hidden;background-color:#fff;"]
 dianxinnews.com##div[style="margin:0;padding:0;width:660px;height:250px;overflow:hidden;background-color:#fff;"]
