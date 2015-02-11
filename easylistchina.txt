@@ -547,6 +547,7 @@ hk.yahoo.com###mntl1
 /u/_sponsor/*
 :1010/openV5.js
 :7011/ads/
+:8898/ads_
 ?adid=*&tcca=$script
 |http://*.cc/ad/
 |http://*.cn/ad/
@@ -1561,9 +1562,9 @@ _vmind.qqvideo.tc.qq.com^
 ||464mnk.com/templets/new/static/js/common.js
 ||4kkbb.com/JSs/*.js
 ||50.115.123.38/ad/
-||50.7.31.230:8898/ads_
-||50.7.31.230:8898/gennie_b.htm
 ||50.7.98.226/x1.gif
+/gennie_b.htm$domain=50.7.31.230|tvboxnow.com
+/ipower.htm$domain=50.7.31.230|tvboxnow.com
 ||5068.com/uploads/allimg/150116/71_150116175734_1.jpg
 ||51.com/up/bdfmt/
 ||512ms.com/js/index_ggw_show.js
@@ -4760,6 +4761,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+50.7.31.230,tvboxnow.com##TD[style="width:15%;height:100%;"]
 itavcn.com###ADE
 itavcn.com###msg_win
 itavcn.com##.ad
