@@ -8441,4 +8441,15 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 ! Fixed Malware Domains rules
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 @@||web.xdcdn.net^$domain=nc.xd.com
+!--------------------------------Tracking Systems-----------------------------!
+@@||7m.cn/v2/js/analyse.js
+@@||analytics.163.com/ntes.js
+@@||guahao.cn/common/js/plugins/fingerprint.js
+@@||hm.baidu.com^$domain=ihome99.com
+@@||msn.wrating.com/a1.js
+@@||pingjs.qq.com/ping.js
+@@||scorecardresearch.com/beacon.js$domain=hktvmall.com
+@@||stjscn.s-msn.com/portal/hp/2011/udctrack.
+@@||tajs.qq.com/stats?$domain=qq.com
+@@||tbcdn.cn^*/click_track.js
 !----------------------------------The End------------------------------------!
