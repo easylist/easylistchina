@@ -1387,6 +1387,7 @@ _vmind.qqvideo.tc.qq.com^
 ||1677.net/js/cad*.js
 ||1677.net/js/gb*.js
 ||168.it168.com^$script
+||1684.cc/js/1684/
 ||1688.com.au/site1/1688ad/
 ||16888.com/ajax/loadcardata.php
 ||16sucai.com/ads/
@@ -3890,10 +3891,10 @@ _vmind.qqvideo.tc.qq.com^
 ||sav10.com/lanmu.js
 ||sav10.com/pic/fckimg/
 ||sax.sina.com.cn/crossdomain.xml
+||saydigi.com/wp-content/uploads/*-240x250.
 ||saydigi.com/wp-content/uploads/*-banner
 ||saydigi.com/wp-content/uploads/2014/01/mii2.gif
 ||saydigi.com/wp-content/uploads/2015/01/gogo.png
-||saydigi.com/wp-content/uploads/*-240x250.
 ||sc.chinaiiss.com/do.php?do=ad&
 ||sc.tom.com^
 ||scntts.com/125270.gif
@@ -3981,9 +3982,11 @@ _vmind.qqvideo.tc.qq.com^
 ||shulink.com/js/pagetop5.js
 ||shuobar.cn/images/task/300x200wl.swf
 ||simplecd.me/static/js/adcpm.js
+||sina.com.cn/js/*/AdvertisingByNewIndex_
 ||sina.com.cn/js/*/bgads.js
 ||sina.com.cn/js/87/20140101/hongbao/
 ||sina.com.cn/litong/
+||sina.com.cn/NewIndexAdStart.js
 ||sina.com.cn/rwei/hapi2014/64video_titu_logo_500x90.gif
 ||sina.com.cn/tgy/pop_js/ad.js
 ||sina.com.tw/game_data/adsbro_
@@ -4072,6 +4075,7 @@ _vmind.qqvideo.tc.qq.com^
 ||southmoney.com/page/top
 ||soxia.cc/img/baoyue*.gif
 ||sp.cc/html/click/dot.gif
+||spbonow.com/images/fyt.gif
 ||spbonow.com/js/float.js
 ||spn.com.cn/admin_new/imgs/b2.jpg
 ||spn.com.cn/media/jackmm.js
@@ -4751,27 +4755,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||sina.com.cn/NewIndexAdStart.js
-||sina.com.cn/js/*/AdvertisingByNewIndex_
-||spbonow.com/images/fyt.gif
-||1684.cc/js/1684/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-86zw.org##TABLE[height="266"]
-1684.cc##.banner_top
-scsn.cn##.AVu4
-jump.bdimg.com,tieba.baidu.com,tieba.com##.u9_aside
-saydigi.com###menu_banner
-steachs.com##.adsensebanner
-sina.com.cn##.adA
-sina.com.cn##.adC
-sina.com.cn##.adF
-sina.com.cn##.adG
-sina.com.cn##.adH
-sina.com.tw##.adbig300_mid
-anquan.org##.gj_download
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5452,6 +5439,7 @@ ezvivi.com###marsk2
 yaolan.com###maryAd
 yzz.cn###media_float_right
 qtfy30.cn###menu + a
+saydigi.com###menu_banner
 tv.sohu.com###miaozhenad
 download.enet.com.cn###middle_new > .font2
 emu999.net,webjx.com###middleimg
@@ -5761,6 +5749,7 @@ tzfdc.com##.AD_A
 tzfdc.com##.AD_B
 wxrb.com##.ADtxt
 mail.126.com,mail.163.com##.APP-dashi-botBanner
+scsn.cn##.AVu4
 letv.com##.Ad
 aohua.com.au,qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -5946,13 +5935,17 @@ danlan.org##.ad98090
 dbw.cn##.ad980top
 hk3318.net##.ad990x130
 hk3318.net##.ad990x90
-hf365.com,sohu.com##.adA
+hf365.com,sina.com.cn,sohu.com##.adA
 sohu.com##.adB
+sina.com.cn##.adC
 hkgalden.com##.adContainer
 huanqiu.com##.adDingT
 familydoctor.com.cn##.adExtra
+sina.com.cn##.adF
 v1.cn##.adFr01
 newcger.com##.adFullwidth90
+sina.com.cn##.adG
+sina.com.cn##.adH
 ifeng.com##.adL660
 jschina.com.cn##.adR
 ifeng.com##.adR01
@@ -6032,6 +6025,7 @@ itavcn.com##.ad_wordxin
 house.bdinfo.net##.adb
 ifeng.com##.adbest
 keke001.com,oogps.com##.adbg
+sina.com.tw##.adbig300_mid
 17173.tv.sohu.com,68design.net,cdyee.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,jrj.com.cn,phoenixtv.com,xineurope.com,yesky.com##.adbox
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
@@ -6078,6 +6072,7 @@ esdict.cn,eudic.net,frdic.com,godic.net##.ads_info
 esdict.cn,eudic.net,frdic.com,godic.net##.ads_info ~ p
 6949.com##.adse
 fankudo.com##.adsense-right-square
+steachs.com##.adsensebanner
 qqjia.com##.adshang
 blog.dausos.com,ynet.com##.adt
 chinaz.com,jrj.com.cn##.adtext
@@ -6223,6 +6218,7 @@ jinghua.cn##.banner_pic01
 jinghua.cn##.banner_pic02
 ifanr.com##.banner_post_bottom
 15w.com##.banner_s_3
+1684.cc##.banner_top
 szhome.com##.bannerad3cbox
 jisuzhibo.net##.bannerhead
 moejam.com##.bannerleftfull
@@ -6597,6 +6593,7 @@ eastday.com##.gglist
 55188.com,g138.com##.ggtishiall
 rrting.net##.ggw960h60
 iqiyi.com##.ggwBox
+anquan.org##.gj_download
 gameapps.hk##.gkTabsGK5
 jiaju.shangdu.com##.global-ad-img
 jiaju.shangdu.com##.global-banner-ad
@@ -7306,6 +7303,7 @@ bamuyu.com##.tui_tu
 ltaaa.com##.txtads
 cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
+jump.bdimg.com,tieba.baidu.com,tieba.com##.u9_aside
 jump.bdimg.com,tieba.baidu.com,tieba.com##.u9_head
 libaclub.com##.ui-adsame
 131458.com##.ulfooter_top
@@ -7518,8 +7516,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7890,6 +7888,7 @@ yys5.com##table[cellspacing="1"][cellpadding="3"]:first-child:last-child
 iguaji.com##table[cellspacing="1"][cellpadding="4"]
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jd-bbs.com##table[cellspacing="5"][bordercolor="#9dbedd"]
+86zw.org##table[height="266"]
 sdzbcg.com##table[height="41"]:last-child
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
 travel.qingdaonews.com##table[style="height:200px; overflow:hidden;"]
@@ -8061,7 +8060,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||daoju.qq.com/time/*/js/ad/
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8245,6 +8243,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||czsrc.com/Adpic/
 @@||damai.cn^*/TopAd/
+@@||daoju.qq.com/time/*/js/ad/
 @@||de.as.pptv.com^$object-subrequest
 @@||dianxinos.com/advs/
 @@||disney.com.tw/tv/global/swf/banner728x90.swf
