@@ -8083,12 +8083,15 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
+serve.netsh.org#@#.adsbygoogle
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@/adsbygoogle.$domain=serve.netsh.org
-@@||stockstar.com/ad/$domain=live.stockstar.com
+@@/show_ads_impl.js$domain=serve.netsh.org
 @@.php?*&validate=$domain=serve.netsh.org
+@@/g.doubleclick.net.js?$domain=serve.netsh.org
+@@||stockstar.com/ad/$domain=live.stockstar.com
 @@/images/ad$domain=10pan.cc
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
