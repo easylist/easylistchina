@@ -2862,6 +2862,8 @@ _vmind.qqvideo.tc.qq.com^
 ||houdao.com/images/xxd.jpg
 ||house.inhe.net/javascript/flashdiv.js
 ||house.jschina.com.cn/userfiles/flash/
+||house.shangdu.com/d/file/p/*.swf
+||house.shangdu.com/house/js/fmt_swf/
 ||house.sina.com.cn/2.0/abp/
 ||house.sina.com.cn/2.0/ads/
 ||house365.com/*ads/201
@@ -4150,6 +4152,8 @@ _vmind.qqvideo.tc.qq.com^
 ||sxrom.com/images/download/top
 ||sxrom.com/images/zz.jpg
 ||sy.ln.cn/08gg/
+||syd.com.cn/pic_index/duilian
+||syd.com.cn/pic_index/lalian
 ||synacast.com^
 ||sz1001.net/ab1/index*.js
 ||sz1001.net^*/soft_*.js
@@ -4776,19 +4780,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||house.shangdu.com/d/file/p/*.swf
-||house.shangdu.com/house/js/fmt_swf/
-||syd.com.cn/pic_index/duilian
-||syd.com.cn/pic_index/lalian
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-syd.com.cn##.adDown
-house.shangdu.com###FlatLayer
-house.shangdu.com##.fmt_main
-house.shangdu.com##.zbtad
-house.shangdu.com##DIV[id^="advertise"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -4822,7 +4817,7 @@ qidian.com###DoublePop_left
 qidian.com###DoublePop_right
 cnfol.com###FixedLeft
 cnfol.com###FixedRight
-liaoing.com###FlatLayer
+house.shangdu.com,liaoing.com###FlatLayer
 subaonet.com###Float2270
 pcworld.com.cn###FloatDIV
 chinatp.com.cn###FloatL_2
@@ -5974,6 +5969,7 @@ sohu.com##.adB
 sina.com.cn##.adC
 hkgalden.com##.adContainer
 huanqiu.com##.adDingT
+syd.com.cn##.adDown
 familydoctor.com.cn##.adExtra
 sina.com.cn##.adF
 v1.cn##.adFr01
@@ -6509,6 +6505,7 @@ qunar.com##.flight_ad
 www.163.com##.float-bar
 spbonow.com##.floatAD
 3987.com##.floatAd
+house.shangdu.com##.fmt_main
 vmelon.com,yaolan.com##.focus
 newcger.com##.focus + .block934
 sj998.com##.focus-320-240
@@ -7422,6 +7419,7 @@ hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
 geiliwx.com##.yueduads
 house.ks.js.cn##.yytf_960_ha
 zol.com.cn##.zbk-scroll-news
+house.shangdu.com##.zbtad
 g1080.com##.zdgx_right_bottom
 520xs.com##.zhangjieTXT > a[target="_blank"]
 ithome.com##.zhaopin
@@ -7672,6 +7670,7 @@ cbmland.com##div[id^="ads_"]
 mgbbs.cn,shangdu.com##div[id^="ads_d_"]
 chinayk.com,e0575.cn,eyuyan.com,tiboo.cn##div[id^="ads_r_"]
 fx678.com,wangdaizhijia.com,xiancn.com,zhulang.com##div[id^="adv"]
+house.shangdu.com##div[id^="advertise"]
 ali213.net##div[id^="ali-ad-js-"]
 8591.com.tw##div[id^="baidu"]
 qianzhan.com##div[id^="baidu_ad_"]
@@ -7834,7 +7833,6 @@ yule.iqiyi.com##div[style="width:970px;margin:0 auto;padding:10px 0;text-align:c
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 800j.com.cn##div[style="width:980px;height:185px;padding:2px 0px 0px 0px;"]
 duowan.com##div[style="width:980px;height:60px;margin:0 auto 10px;"]
-9724.com##DIV[style^="width:9"][style*="height:82px;"]
 gaominews.com##div[style="width:992px; height:50px; position:relative; margin:0 auto; overflow:hidden; float:left; margin-top:4px;"]
 tongzhuo100.com##div[style="width:998px; height:90px;  border:1px solid #CCC; margin-top:5px"]
 pc360.net##div[style^="border:none;height:90px;width:728px;"]
@@ -7857,6 +7855,7 @@ hbrc.com##div[style^="width:500px; height:200px;"]
 jschina.com.cn##div[style^="width:640px;"][style$="margin:0 auto;overflow:hidden;"]
 jpwind.com##div[style^="width:730px; height:90px;"]
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
+9724.com##div[style^="width:9"][style*="height:82px;"]
 tc.cn##div[style^="width:930px; height:70px;"]
 hbrc.com##div[style^="width:960px; height:90px; "]
 dmzj.com,mycq.qq.com##div[style^="width:960px;"]
@@ -8105,7 +8104,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||bingfeng.tw^$elemhide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8252,6 +8250,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdstatic.com/??
 @@||beanfun.com/ADClient/
+@@||bingfeng.tw^$elemhide
 @@||biz.gexing.com/bottom_
 @@||blemall.com^$elemhide
 @@||blimage.com/picserver/ggpic/
