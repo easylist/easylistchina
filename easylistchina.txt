@@ -3531,6 +3531,7 @@ _vmind.qqvideo.tc.qq.com^
 ||narutom.com/js/jsg2.js
 ||narutom.com/v2/js/ca.js
 ||narutom.com/v2/v/$subdocument
+||nb155.com/images/mysshok.png
 ||nba95.com/xyh66.gif
 ||ncdiy.com/webindex/300-250AD.swf
 ||ncnews.com.cn/statics/js/ban/ix/ban
@@ -3821,6 +3822,8 @@ _vmind.qqvideo.tc.qq.com^
 ||qtfy30.cn/980-90.gif
 ||quanji.com/static/bd/
 ||quick8.cn/softimg/*AD.gif
+||qunar.com/render/*Advertisement.jsp?
+||qunar.com/vata?chan=
 ||qunar.com/vataframe/b.html?
 ||qunar.com/vataplan?framId=ifrNTOPAD&
 ||qunaso.cn/Data/upload/ad/
@@ -3948,7 +3951,9 @@ _vmind.qqvideo.tc.qq.com^
 ||shangdu.com/1002/1002030801.js
 ||shangdu.com/1002/1002030901.js
 ||shangdu.com/1002/1002031301.js
+||shangdu.com/2013pic/09cn.jpg
 ||shangdu.com/2013pic/kuahailong.jpg
+||shangdu.com/bbs/1005010601.js
 ||shangdu.com/comiis_ad/
 ||shangdu.com/lyinfo/ad/
 ||shangdu.com/newfile2007/ad/tu/flash/3dboard.swf
@@ -3962,6 +3967,7 @@ _vmind.qqvideo.tc.qq.com^
 ||share666.com/30033.gif
 ||share666.com/adad2014/
 ||sharewa.com/themes/*.fancybox.
+||shejizhan.org/images/myssh
 ||shenmaxiaoshuo.com/js/hf
 ||shenmaxiaoshuo.com/js/lu.js
 ||shenmaxiaoshuo.com/js/mu.js
@@ -4126,6 +4132,7 @@ _vmind.qqvideo.tc.qq.com^
 ||stnn.cc/images/xy/*80px
 ||stnn.cc/images/xy/*x80$image,object
 ||stnn.cc/images/xy/300$subdocument
+||stnn.cc/images/xy/640_100/
 ||stnn.cc/images/xy/yy.swf
 ||sto.cn*/temp/adv.jpg
 ||stockstar.com/*DUILIAN&t=
@@ -4772,24 +4779,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||qunar.com/render/*Advertisement.jsp?
-||qunar.com/vata?chan=
-||shangdu.com/bbs/1005010601.js
-||shangdu.com/2013pic/09cn.jpg
-||nb155.com/images/mysshok.png
-||shejizhan.org/images/myssh
-||stnn.cc/images/xy/640_100/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-news.shangdu.com###newsBanner
-daili.cye.com.cn##TABLE[width="976"][height="228"]:nth-child(11)
-daili.cye.com.cn##TABLE[width="976"][height="90"]
-shejizhan.org###foottext
-shejizhan.org###rb_ad
-qunar.com##.list_promotion_bar
-flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5263,6 +5256,7 @@ nownews.com###focus_board
 mxzmz.com###focus_right > dl
 baigoogledu.com###footer + #link
 www.qlwb.com.cn###footer > div[class^="A"]
+shejizhan.org###foottext
 ettoday.net###for-ec
 uwants.com###foruminfo + div[align="center"]
 wcjbb.com###frame2TVWk2
@@ -5492,6 +5486,7 @@ fun.tv###network-mobile
 hc360.com###newAppBox
 hc360.com###newAppBox1
 chinaqking.com###newsAD
+news.shangdu.com###newsBanner
 yawen8.com###notify + table[width="100%"]
 live.win007.com###notify > a[target="_blank"]
 nownews.com###nownews_pickup
@@ -5562,6 +5557,7 @@ gdtv.cn###qrcode
 user.qzone.qq.com###qz_notification
 creaders.net###rBox > div[class^="jc"]
 game2.cn###rb
+shejizhan.org###rb_ad
 u17.com###rdpop
 chinaqking.com###readerServiceDIV
 15w.com###rec
@@ -6805,6 +6801,7 @@ ahtv.cn##.l1
 ltaaa.com##.lAds
 jump.bdimg.com,tieba.baidu.com,tieba.com##.l_banner
 51caiju.com,qq.com##.l_qq_com
+flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 taoguba.com.cn##.label2
 3jy.com,i51yy.com##.lad
 hjenglish.com,hujiang.com##.lamu_banner
@@ -6838,6 +6835,7 @@ niutuku.com##.listAD
 hljtv.com##.listAd1
 99114.com##.listR_ad
 niotv.com##.list[height="60"]
+qunar.com##.list_promotion_bar
 sjzbus.com.cn##.litBanner
 sjzbus.com.cn##.litGg
 jump.bdimg.com,tieba.baidu.com,tieba.com##.live_show_aside
@@ -7554,8 +7552,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -7965,8 +7963,9 @@ fpdisplay.com##table[width="960"][height="110"]
 gpcxw.com,kanguba.com##table[width="960"][height="90"]
 ppmsg.com##table[width="960"][height]
 xindm.cn##table[width="976"][background="/image/04/line2.gif"]
+daili.cye.com.cn##table[width="976"][height="228"]:nth-child(11)
 xindm.cn##table[width="976"][height="60"]
-xindm.cn##table[width="976"][height="90"]
+daili.cye.com.cn,xindm.cn##table[width="976"][height="90"]
 xindm.cn##table[width="976"][height="96"]
 6park.com##table[width="978"] > tbody > tr > td[width="234"]
 wangpanwu.com##table[width="978"][align="center"]
