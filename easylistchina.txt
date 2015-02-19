@@ -4030,7 +4030,6 @@ _vmind.qqvideo.tc.qq.com^
 ||sinaimg.cn/large/3e6f6cd8jw1eo37jzh3t2j206406474w.jpg
 ||sinaimg.cn/large/3e6f6cd8jw1eo6pcyw9n6j20kk03275j.jpg
 ||sinaimg.cn/large/68299a77jw1en2erd8vthj206205k0t2.jpg
-||sinaimg.cn/large/996d0f17gw1en4mu35fx7g20gy028js6.gif
 ||sinaimg.cn/large/a6a976a2gw1el1emqy0lsj20go01o3ys.jpg
 ||sinaimg.cn/large/a6a976a2tw1ebkde9gubkj206y06y0tw.jpg
 ||sinaimg.cn/mw690/005GRsDJjw1eo1jledg4cj30b40b4go4.jpg
@@ -4090,7 +4089,6 @@ _vmind.qqvideo.tc.qq.com^
 ||sogou.com/adpub/
 ||sogou.com/skins/images/skinlist_ad.
 ||sohu.com.cn/ppp/bms/bms.popup.
-||somag.qiniudn.com/uploads/image/20141013000733_14164.gif
 ||soso.com/baike/js/ad_
 ||soul-plus.net/images/manqu
 ||source.qunar.com/site/images/wns/
@@ -4788,10 +4786,12 @@ _vmind.qqvideo.tc.qq.com^
 ||tingroom.com/images/hy*.js
 ||tingroom.com/skin/pt/images/tingroombanner.gif
 ||tingroom.com/images/qsbdc.gif
+||sinaimg.cn^$domain=btago.com
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+btago.com##A[style="width:610px;height:80px;display:block;margin:5px 0"]
 top81.com.cn##.jphggw
 tzfdc.com.cn###tc
 tzfdc.com.cn##.advbox
@@ -7139,7 +7139,6 @@ hao.rising.cn##.search-right
 haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 99114.com##.search_keywordAd
 ijia360.com##.search_radlist
-btago.com##.search_tip
 cnool.net##.second-banner
 jq-school.com##.setfarme:nth-child(7)
 sogou.com##.sg-ad
@@ -8117,6 +8116,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
+btago.com#@##adcontent
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
