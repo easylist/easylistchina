@@ -698,8 +698,6 @@ hk.yahoo.com###mntl1
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
-||111111qb.com^
-||tdayi.com^
 /adscpc/*
 /adscpv/*
 /AShow.aspx?AID=
@@ -734,6 +732,7 @@ hk.yahoo.com###mntl1
 ||100cpc.com^$third-party
 ||104.195.62.12^
 ||110160.com^$third-party
+||111111qb.com^
 ||1133.cc^$third-party
 ||114la.com^$third-party
 ||116.55.227.242^
@@ -1027,6 +1026,7 @@ hk.yahoo.com###mntl1
 ||taotu001.com^$third-party
 ||tbjfw.com^$third-party
 ||tc600.com^
+||tdayi.com^
 ||tg.1155t.cn^
 ||tk.*.php?id=*&step=
 ||top888.com^$third-party
@@ -1155,6 +1155,7 @@ hk.yahoo.com###mntl1
 /?age=1&$domain=dwbpy.com|kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com
 /^http\:\/\/lknovel\.lightnovel\.cn\/(?!(resouses|cover|illustration\/image\/201\d{5}\/\d{14}_\d{5}\.jpg$|images\/grey\.gif))/$image,domain=lknovel.lightnovel.cn
 /Addsa.dsj/Bsdd_1010/*Baidu
+/ads/*$domain=240513.com|ozdpt.com
 /adscript/crazyad.js
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /Aemplate/dd_1010/baidu
@@ -1442,6 +1443,7 @@ _vmind.qqvideo.tc.qq.com^
 ||1kejian.com/js/topA.js
 ||1lou.com/ceo888.gif
 ||1m1m.cn/bar/
+||1pad.cn/ahead/01.gif
 ||1pxpx.net/BOJS/
 ||2008xxx.com:888
 ||204.12.228.235^*.png
@@ -4782,13 +4784,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-/ads/*$domain=240513.com|ozdpt.com
-||1pad.cn/ahead/01.gif
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gz0668.com###diynavtop
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5190,7 +5189,7 @@ cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###
 cool-de.com###diy_vk_ad_top
 luanren.com###diyhlx01
 luanren.com###diyhlx8
-174.139.95.28,3dezu.cn,52ch.net,bbs.liao1.com,bbs.qbaobei.com,chcj.net,cnyw.net,mcncc.com###diynavtop
+174.139.95.28,3dezu.cn,52ch.net,bbs.liao1.com,bbs.qbaobei.com,chcj.net,cnyw.net,gz0668.com,mcncc.com###diynavtop
 bbs.pcbeta.com###diynavtop + style + div[class]
 wwwzqr.cn###diytp
 cnr.cn###dl1
@@ -7559,9 +7558,9 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8113,7 +8112,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@.cntv.cn/adplayer/
 @@.com/ad/$domain=jd.com
 @@.jstv.com/c/gg/
-@@|http:$script,xmlhttprequest,~third-party,domain=serve.netsh.org
 @@.s1979.com/ad/ad*.mp4
 @@/168logo.gif$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 @@/2kuai/images/ad
@@ -8153,6 +8151,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
 @@|http:$script,~third-party,domain=btspread.com|javzoo.com
+@@|http:$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@|http://*/??$domain=gome.com.cn
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=dou6.cc|kk369.net|uuu123.net
