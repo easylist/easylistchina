@@ -2106,6 +2106,7 @@ _vmind.qqvideo.tc.qq.com^
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
 ||btkitty.org/static/images/*.gif
+||btkuaisou.com/ac/tb.jpg
 ||btn.onlylady.com^
 ||btn.pchome.net^
 ||bttiantang.com/style/*ad$script
@@ -2843,6 +2844,7 @@ _vmind.qqvideo.tc.qq.com^
 ||hkgolden.com/yahoo_ad
 ||hkheadline.com/*banner$script
 ||hkheadline.com/*promo/
+||hkheadline.com^*/right_promo.js
 ||hkslg.com/gaogao/
 ||hkwb.net/extra/1992.files/960%C3%9768.gif
 ||hkwb.net/images/123.gif
@@ -4056,7 +4058,7 @@ _vmind.qqvideo.tc.qq.com^
 ||sinaimg.cn/mw690/ea495f08gw1ehcsmx6dlzg20eq04gt9c.gif
 ||sinaimg.cn/rny/sinamail57/images/110316/threeKingdoms2.
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=360bo.cc|btshare.net|cililian.org|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|sav10.com|www.lightnovel.cn|xxxbt.com|zhaofuli.net|zhaofuli.org|zhiboche.com
+||sinaimg.cn^$domain=360bo.cc|btago.com|btshare.net|cililian.org|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|sav10.com|www.lightnovel.cn|xxxbt.com|zhaofuli.club|zhaofuli.net|zhaofuli.org|zhiboche.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
 ||sinajs.cn/xblogstyle/images/activity/xinyue_ad/banner
@@ -4232,7 +4234,14 @@ _vmind.qqvideo.tc.qq.com^
 ||tingchina.com/js/990
 ||tingchina.com/js/allad.js
 ||tingchina.com/js/dp468
+||tingroom.com/file/A2
 ||tingroom.com/file/A3
+||tingroom.com/images/hy*.js
+||tingroom.com/images/qsbdc.gif
+||tingroom.com/skin/*/js/ad_
+||tingroom.com/skin/dy/images/2400200
+||tingroom.com/skin/pt/images/tingroombanner.gif
+||tingroom.com/tingroom/ad/
 ||tk.504pk.com^
 ||tk001.com/quote$subdocument
 ||tmmov.com/js/inc/
@@ -4777,29 +4786,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||sinaimg.cn^$domain=zhaofuli.club
-||hkheadline.com^*/right_promo.js
-||tingroom.com/tingroom/ad/
-||tingroom.com/skin/*/js/ad_
-||tingroom.com/skin/dy/images/2400200
-||tingroom.com/file/A2
-||tingroom.com/images/hy*.js
-||tingroom.com/skin/pt/images/tingroombanner.gif
-||tingroom.com/images/qsbdc.gif
-||sinaimg.cn^$domain=btago.com
-||btkuaisou.com/ac/tb.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-btago.com##A[onclick^="window.open('http://cnrdn.com/rd.htm?"]
-top81.com.cn##.jphggw
-tzfdc.com.cn###tc
-tzfdc.com.cn##.advbox
-tingroom.com###ifram_563
-tingroom.com###play_ggr
-sznews.com##.banner6
-sznews.com##.indexcon07
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5364,6 +5354,7 @@ mzyz.com###idTransformView2
 ys168.com###idzdy1
 fuli.ba,fuliba.asia,fuliba.mobi###ifanr_social_widget-4 + .widget
 ifeng.com###ifengAehovering_small
+tingroom.com###ifram_563
 youthwant.com.tw###ig_cont
 cnjxol.com,jintoutiao.com###img
 pharmnet.com.cn###img1
@@ -5531,6 +5522,7 @@ sina.com.cn###pip_taobao
 cwyuni.tw,pixnet.net###pixblogad
 hao.360.cn###plane > .plane-hd
 jump.bdimg.com,tieba.baidu.com,tieba.com###platform_left_float
+tingroom.com###play_ggr
 7k7k.com###player-tools-ad
 yxingqiu.com,zuile8.com###playertipian
 mail.qq.com###plp_ad_container
@@ -5663,6 +5655,7 @@ zymk.cn###tanchuang
 e23.cn###taobaorba
 findprice.com.tw###tb_ad
 23zw.com###tbad
+tzfdc.com.cn###tc
 vgugu.com###test
 vgugu.com###test1
 techorange.com###text-34
@@ -6144,7 +6137,7 @@ wangdaizhijia.com##.adv_box
 autohome.com.cn##.advarticle
 rznews.cn##.advavr
 v1.cn##.advbigJs
-autohome.com.cn##.advbox
+autohome.com.cn,tzfdc.com.cn##.advbox
 v1.cn##.adverBox300
 jiaonan.net##.adverframe
 ce.cn,eastmoney.com,sz.zj.cn##.advert
@@ -6235,6 +6228,7 @@ gdtv.cn,iqiyi.com,uusee.com##.banner3
 pengfu.com##.banner300x250
 pengfu.com##.banner300x270
 guitarchina.com,iqiyi.com##.banner4
+sznews.com##.banner6
 ting89.com,tingshuge.com##.banner688_1
 ting89.com,tingshuge.com##.banner688_2
 acousticguitar.com.cn##.banner7
@@ -6766,6 +6760,7 @@ jianshen114.com##.index_temp
 ijia360.com##.indexad_1
 sznews.com##.indexcon01
 sznews.com##.indexcon02
+sznews.com##.indexcon07
 chinairn.com##.industry
 du8du8.com##.infos + .mulu_list
 wangyeba.com##.innner950
@@ -6796,6 +6791,7 @@ sogou.com,soso.com##.jd-box
 973.com##.jk_ku
 huxiu.com##.jobs-view
 tiexue.net##.jph-goods
+top81.com.cn##.jphggw
 jrj.com.cn##.jrj-ad
 finance.jrj.com.cn##.jrj-wrap[style="margin-bottom:2px;"]
 sucaijiayuan.com##.jsPart1Right
@@ -7513,6 +7509,7 @@ weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 360-bo.com,360bo.cc,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 fhm.com.tw##a[onclick^="adClick("]
+btago.com##a[onclick^="window.open('http://cnrdn.com/rd.htm?"]
 lknovel.lightnovel.cn##a[rel="nofollow"]
 uzzf.com##a[reurl^="http://down.t071.com/"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
@@ -7569,9 +7566,9 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8117,7 +8114,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-btago.com#@##adcontent
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8498,6 +8494,7 @@ btago.com#@##adcontent
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
+btago.com#@##adcontent
 ! Fixed Malware Domains rules
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 @@||web.xdcdn.net^$domain=nc.xd.com
