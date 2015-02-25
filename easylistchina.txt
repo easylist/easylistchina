@@ -473,7 +473,6 @@ hk.yahoo.com###mntl1
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/data/ad/*
 .cc/js/ads/
 .cn/ads/
 .com/a_d/
@@ -502,6 +501,7 @@ hk.yahoo.com###mntl1
 /clicktotal/ClickTotal.js
 /common/cf/*$image,object
 /content/plugins/em_ad/*
+/data/ad/*
 /data/cache/myad-
 /diantan.js
 /duilian.
@@ -1623,6 +1623,8 @@ _vmind.qqvideo.tc.qq.com^
 ||51zxw.net/images/zhaopin.jpg
 ||520kankan.com/960x80.gif
 ||520rr.com*/baidu/
+||521000.com/bbs/inc/Dv_Adv.js
+||521000.com/com/BBS_AD.
 ||52ch.net/data/advimg/
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
@@ -4174,6 +4176,7 @@ _vmind.qqvideo.tc.qq.com^
 ||taoguba.com.cn/gbimg/2014/07/16/zumpuo5u14sg.jpg
 ||taoguba.com.cn/gbimg/2014/08/20/0jweamfa6a4e.gif
 ||taoguba.com.cn/gbimg/2014/08/20/1icvpvg4cgea.gif
+||taoguba.com.cn/js/hezuo/
 ||taoguba.com.cn/js/tgbduilian
 ||taoyoudu.com/img/top.jpg
 ||tc.cn/ad123/
@@ -4291,6 +4294,8 @@ _vmind.qqvideo.tc.qq.com^
 ||ucbug.com/js/left.js
 ||ucbug.com/js/tongl.js
 ||ucbug.com/templets/default/js/sharp.js
+||udn.com/2010MAIN/inc/t03-CMS.html
+||udn.com/common/iframe/
 ||udn.com/SSI/neckFrameFlash
 ||udn.com^*/ad/
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
@@ -4327,6 +4332,7 @@ _vmind.qqvideo.tc.qq.com^
 ||vanpeople.com/adrotate2.php
 ||vanpeople.com/images_site/adb/
 ||vansky.com/images/banner.gif
+||vansky.com/images/goldenflat2.jpg
 ||vansky.com/index_files/*.gif
 ||vas.funshion.com^
 ||vc52.cn/data/attachment/forum/201407/28/115351zb26p62jojh6oo49.gif
@@ -4765,21 +4771,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||udn.com/common/iframe/
-||udn.com/2010MAIN/inc/t03-CMS.html
-||taoguba.com.cn/js/hezuo/
-||521000.com/bbs/inc/Dv_Adv.js
-||521000.com/com/BBS_AD.
-||vansky.com/images/goldenflat2.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-azpan.com##.Page_left > .gg-up-line
-vansky.com###ads
-udn.com###ad_mag
-uc123.com##.quick-links > A
-123yq.com##.Messageml
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -4955,6 +4950,7 @@ autohome.com.cn###ad_ic_video
 7lili.com###ad_index_2
 7lili.com###ad_index_3
 fengbao.com###ad_lazyload
+udn.com###ad_mag
 tw.yahoo.com###ad_mntl
 c114.net###ad_r1
 jbtalks.cc###ad_region_E
@@ -4982,7 +4978,7 @@ ceil.me###adindex
 dgmei.com###admhdiv_abc
 linyiren.com###adone
 dayanzai.me###adrt
-bejson.com,chuchushoe.blogspot.com,frdic.com,fububu.com,gnhome.com,it168.com,jjxw.cn,lol.moa.tw,piao.com.cn###ads
+bejson.com,chuchushoe.blogspot.com,frdic.com,fububu.com,gnhome.com,it168.com,jjxw.cn,lol.moa.tw,piao.com.cn,vansky.com###ads
 danyang.com###ads-hd
 njdaily.cn###ads-qadjs-link
 dmfans.net###ads_250_250
@@ -5829,8 +5825,9 @@ cwan.com##.L_ad_12
 cwan.com##.L_ad_22
 shenchuang.com##.MainR_ad3
 hifidiy.net##.MainRight > .marginTop[style]
-shuhe.cc##.Messageml
+123yq.com,shuhe.cc##.Messageml
 cn.bing.com##.OpInNwWndw
+azpan.com##.Page_left > .gg-up-line
 3dmgame.com##.R1
 3jy.com,i51yy.com##.Rad
 198zone.com##.Rad2
@@ -7056,6 +7053,7 @@ hao.163.com##.qa
 qidian.com##.qd_sms_pop
 jump.bdimg.com,tieba.baidu.com,tieba.com##.qipai_thread
 qq.com##.qiye-Article-QQ
+uc123.com##.quick-links > a
 mop.com##.quickReply-ad
 gfan.com##.r-ad
 dnvod.eu##.r-ad2
@@ -7561,8 +7559,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
