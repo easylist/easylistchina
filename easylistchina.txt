@@ -3112,7 +3112,6 @@ _vmind.qqvideo.tc.qq.com^
 ||itxtbook.com/game/images/kuping
 ||ivsoo.com/template/ivsoos.jpg
 ||iwanad.baidu.com^
-||webacg.com/http/js/1.js
 ||iweihai.cn/js/float.js
 ||iyaxin.com/assert/js/m.js
 ||iyaya.info/newmshow.php
@@ -3545,6 +3544,8 @@ _vmind.qqvideo.tc.qq.com^
 ||neotv.com.cn/images/avs/tc/tc.js
 ||neotv.com.cn/wp-content/uploads/2014/06/20140505.jpg
 ||neotv.com.cn^*/620x70.
+||netdna-cdn.com/wp-content/uploads/*/Feb_Fus_140x400_CH.gif
+||netdna-cdn.com/wp-content/uploads/*/Wave_Feb_Banner.png
 ||netease.com/house/2014/10/22/20141022111935d89f4.jpg
 ||new-icon.ol-img.com/article/xinjiemeng/img/728x90gaoxiao.jpg
 ||new-icon.ol-img.com/jslib/ad.down.js
@@ -4368,6 +4369,7 @@ _vmind.qqvideo.tc.qq.com^
 ||wan.sogou.com/pop/
 ||wandoou.com/heibing/js/640X60.js
 ||wandoou.com/heibing/js/wdgg.js
+||wangdaizhijia.com/data/attachment/portal/
 ||wangdaizhijia.com/wdzj/js/front/ads.js
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/images/js/YlFloat.js
@@ -4384,7 +4386,9 @@ _vmind.qqvideo.tc.qq.com^
 ||wdown.cn/falala/
 ||we54.com/54index_ad/
 ||we54.com/poster/
+||weathertv.cn/a/wuYangGuangGao.html
 ||webacg.com/data/js/
+||webacg.com/http/js/1.js
 ||webcars.com.cn/CarsPhoto/PictureHousePic/News/4/4/7/461947.jpg
 ||webjx.com/zanzhushang/
 ||webkaka.com*/click/$image
@@ -4393,6 +4397,7 @@ _vmind.qqvideo.tc.qq.com^
 ||weeiy.com/wp-content/uploads/2013/12/2345ie.jpg
 ||wehefei.com/uploadfile/flashad/
 ||wei2008.com/js/960X90
+||wei2008.com/js/copyright
 ||wei2008.com/js/down
 ||wei2008.com/js/img
 ||wei2008.com/js/index_
@@ -4444,6 +4449,7 @@ _vmind.qqvideo.tc.qq.com^
 ||wuyougo.info/03.jpg
 ||www.china.com.cn/node_$domain=news.china.com.cn
 ||www.sz.zj.cn^$subdocument
+||wwwzqr.cn/template/comiis_kmsjx3hlx/ads/
 ||wx.56.com/youxitg/
 ||wx.sina.com.cn/iframe/pdps/
 ||wxrb.com/g/js/baidu.cbjs.m.js
@@ -4763,23 +4769,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||wangdaizhijia.com/data/attachment/portal/
-||wwwzqr.cn/template/comiis_kmsjx3hlx/ads/
-||wei2008.com/js/copyright
-||weathertv.cn/a/wuYangGuangGao.html
-||netdna-cdn.com/wp-content/uploads/*/Feb_Fus_140x400_CH.gif
-||netdna-cdn.com/wp-content/uploads/*/Wave_Feb_Banner.png
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dmzj.com##.ad_time
-weathertv.cn##.guangGao
-weathertv.cn##DIV[style="width:960px;margin:0 auto;background:#fff;height:100px; "]
-wcjbb.com###frame37boCx
-bbs.gfan.com##.wpp
-wuleba.com###text-2
-wuleba.com###text-9
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5260,6 +5253,7 @@ ettoday.net###for-ec
 uwants.com###foruminfo + div[align="center"]
 wcjbb.com###frame2TVWk2
 528500.com###frame2Z7QYx
+wcjbb.com###frame37boCx
 yangluo.cn###frame51RcxP
 211600.com###frame5B94Fv
 2000fun.com###frameA20TTA
@@ -5267,8 +5261,8 @@ yangluo.cn###frame51RcxP
 vyming.com###frameDj3u3d_left
 shhouhuayuan.net###frameMLzskg_left
 dabin69.com###frameOa2lrD
-yangluo.cn###frameVw7574
 wangdaizhijia.com###frameVjrRzL
+yangluo.cn###frameVw7574
 wcjbb.com###frameo834m9
 bbs.liao1.com###frameppbC61
 zc173.com###frameq7Hf1J
@@ -5654,9 +5648,10 @@ findprice.com.tw###tb_ad
 tzfdc.com.cn###tc
 vgugu.com###test
 vgugu.com###test1
+wuleba.com###text-2
 vmelon.com###text-4
 uisdc.com###text-6
-zhainanba.net###text-9
+wuleba.com,zhainanba.net###text-9
 free.com.tw###text-94
 pbhz.com###text-html-widget-2
 hc360.com###textadv
@@ -6047,6 +6042,7 @@ hushiwin.com##.ad_ritht_1
 hushiwin.com##.ad_ritht_3
 fyjs.cn##.ad_sxp
 shm.com.cn##.ad_taobao
+dmzj.com##.ad_time
 zjstv.com##.ad_tl
 jb51.net##.ad_tonglan
 sex169.org##.ad_top_980
@@ -6644,6 +6640,7 @@ jiaodong.net##.grayB
 bioon.com##.grid_6
 putclub.com##.gtest
 58.com##.guaguabox
+weathertv.cn##.guangGao
 hkwb.net##.guangg
 131458.com,adreep.cn,hgitv.com,nen.com.cn,sqkz.com##.guanggao
 my0538.com##.guanggao1
@@ -7399,6 +7396,7 @@ renren.com##.wp-rrzm-popup
 seowhy.com##.wp[style="margin-top:10px;"]
 jd-bbs.com##.wp[style="padding:10px; border:1px solid #9db3c5"]
 tui18.com##.wp[style^="width:"]
+bbs.gfan.com##.wpp
 we.poppur.com##.wrap > div[style="height:112px"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
 paipai.fm,paipaitxt.com##.wrapbg
@@ -7732,6 +7730,7 @@ taodake.com##div[style$="width:960px; height:60px;"]
 cq.qq.com##div[style*="1000"][style*="60"]
 265g.com##div[style*="185"][style*="256"]
 39.net##div[style*="300"][style*="250"]
+wufangbo.com##div[style*="300px;"][style*="250px;"]
 dotamax.com##div[style*="300px;"][style*="250px;float:right;"]
 lknovel.lightnovel.cn##div[style*="450"][style*="122"]
 da-fan-shu.cn##div[style*="468"][style*="60"]
@@ -7752,7 +7751,6 @@ divcss5.com##div[style*="width:336px;height:280px;"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 7574.com##div[style*="width:960px;height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
-wufangbo.com##DIV[style*="300px;"][style*="250px;"]
 jjj8.cn##div[style="MARGIN: 0px auto 5px auto; WIDTH: 960px; HEIGHT: 100px"]
 aohua.com.au##div[style="WIDTH: 960px; HEIGHT: 100px"]
 itpub.net##div[style="border-collapse: separate !important;color: #000000;empty-cells: show;margin-top:2px;"]
@@ -7840,6 +7838,7 @@ dxrr.com##div[style="width:960px;height:110px;margin:5px auto;"]
 gfan.com##div[style="width:960px;height:90px;margin-top:10px;"]
 co188.com##div[style="width:960px;height:90px;margin:0 auto;"]
 soxia.cc##div[style="width:960px;height:90px;margin:10px auto;"]
+weathertv.cn##div[style="width:960px;margin:0 auto;background:#fff;height:100px; "]
 yule.iqiyi.com##div[style="width:970px;margin:0 auto;padding:10px 0;text-align:center;"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 800j.com.cn##div[style="width:980px;height:185px;padding:2px 0px 0px 0px;"]
