@@ -695,6 +695,7 @@ hk.yahoo.com###mntl1
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.tipadds
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
 /adscpc/*
@@ -7277,7 +7278,6 @@ jump.bdimg.com,tieba.baidu.com,tieba.com##.thread_local_58
 jbtalks.cc##.threadad
 cndesign.com##.throughAdPic
 wenku.baidu.com##.tiger-vip-dialog
-fengyunzhibo.com,kukuplay.com##.tipadds
 mail.qq.com##.tipbook-top
 3gsc.com.cn##.tipsA
 gamefy.cn##.tit > span[style="float:right; width:285px;"]
@@ -8120,7 +8120,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||kukuplay.com/upload/zhangyu*.swf
+@@||kukuplay.com/upload/*.*.swf
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
