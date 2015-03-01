@@ -657,6 +657,7 @@ hk.yahoo.com###mntl1
 ##.leftadv
 ##.mlad
 ##.pagead_3
+##.tipadds
 ##.wf_ad_block
 ##.wp.a_f
 ~aircn.org,~steamcn.com##.wp.a_t
@@ -695,7 +696,6 @@ hk.yahoo.com###mntl1
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.tipadds
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
 /adscpc/*
@@ -1149,6 +1149,7 @@ hk.yahoo.com###mntl1
 /18av/adcg/MVAD_imageshack.swf
 /18avdayad/*
 /18touch-guanggao.js
+/2015new.js$domain=kv130.com|kv700.com
 /2222.js$domain=114lala.info|6699xx.info
 /2tu/ads/*
 /2tu/heisiwang.js
@@ -1534,6 +1535,7 @@ _vmind.qqvideo.tc.qq.com^
 ||360bo.cc/js/float.js
 ||360safego.com^
 ||3634.com/qq/
+||365.*/83/$domain=kv130.com|kv700.com
 ||36dm.com/images/250_250.jpg
 ||36dm.com/images/950_90.jpg
 ||36tv.cn/ad_pic/
@@ -3290,7 +3292,6 @@ _vmind.qqvideo.tc.qq.com^
 ||kukudm.com/js/play-
 ||kutj.com/*/*x80.jpg
 ||kutj.com/shijiebei/shijiebei.gif
-/2015new.js$domain=kv130.com|kv700.com
 ||kyocdn.com/forum/201312/20/151925t52ey4l34ck0lkgv.jpg
 ||kyocdn.com/upload/1316059709x983128031.gif
 ||l.qq.com/lview?
@@ -4773,7 +4774,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||365.*/83/$domain=kv130.com|kv700.com
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
@@ -7569,8 +7569,8 @@ ithome.com.tw##div[class="span4"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8120,11 +8120,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
-@@||gov.cn/scripts/Comm/AdRotator.js
-@@||cb.baidu.com/ecom?di=$domain=excelhome.net
-@@||cbjs.baidu.com^$domain=excelhome.net
-@@||ubmcmm.baidustatic.com^$domain=excelhome.net
-@@||kukuplay.com/upload/*.*.swf
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8283,6 +8278,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||bzfxw.com/adfile/syycss.js
 @@||bzfxw.com/adfile/xzhf3.js
 @@||cb.baidu.com/ecom?$domain=colafile.com|pctowap.com|play.yue365.com|shushuw.cn
+@@||cb.baidu.com/ecom?di=$domain=excelhome.net
 @@||cb.baidu.com/ecom?di=106878&
 @@||cb.baidu.com/ecom?di=373107&
 @@||cb.baidu.com/ecom?di=654997&
@@ -8296,6 +8292,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||cbjs.baidu.com/js/m.js$domain=77mh.com|colafile.com|narutom.com|pctowap.com|pic.tiexue.net|shushu5.com|shushuw.cn|xiiku.com
 @@||cbjs.baidu.com/js/o.js$domain=666ccc.com|g3000.com.cn|missioncouver.com.cn|op.52pk.com|yue365.com
 @@||cbjs.baidu.com/js/s.js$domain=play.yue365.com
+@@||cbjs.baidu.com^$domain=excelhome.net
 @@||cctcw.cn/advert/
 @@||cdn.wdlm.cn^*/
 @@||chinahr.com/images/phpads/
@@ -8345,6 +8342,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||gg1z.com/statics/gg/greendown/logo.gif
 @@||gimhoy.com/advertisement.js
 @@||go.goyeah.com/adpolestar/$object-subrequest
+@@||gov.cn/scripts/Comm/AdRotator.js
 @@||gpsdlm.com/images/ad.
 @@||gqdzs.com/gg/adview_
 @@||gqzzw.com/gg/adview_
@@ -8376,6 +8374,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||kbcool.com/advpic/$domain=ks.js.cn
 @@||keyan.cc/data/bcs/*w
 @@||keyrun.cn^$domain=400gb.com|bego.cc|pipipan.com
+@@||kukuplay.com/upload/*.*.swf
 @@||l.qq.com/livemsg?ty=web&ad_type=
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||launcher.lenovo.com/launcher/data/attachment/common/cf/
@@ -8464,6 +8463,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||totheglory.im/pic/ttg_logo.png
 @@||tw.m.yimg.com/res/ads/$domain=tw.buy.yahoo.com
 @@||u9pan.com/images/ads/
+@@||ubmcmm.baidustatic.com^$domain=excelhome.net
 @@||ujinbi.com/AD/
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||union.$domain=union.163.com
