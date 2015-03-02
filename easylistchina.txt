@@ -1407,6 +1407,7 @@ _vmind.qqvideo.tc.qq.com^
 ||17173cdn.com^*/flash/OnLineTime.swf
 ||172.15.2.28:3438/*.js
 ||173.208.173.117/a*.gif
+||173.255.143.197^*.png
 ||173kt.com/ads/
 ||174.123.15.43:8080
 ||174.139.95.28/ad/
@@ -1628,6 +1629,7 @@ _vmind.qqvideo.tc.qq.com^
 ||521000.com/bbs/inc/Dv_Adv.js
 ||521000.com/com/BBS_AD.
 ||52ch.net/data/advimg/
+||52ch.net/data/attachment/portal/
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
 ||52hardware.com/images/baimg/
@@ -4387,6 +4389,7 @@ _vmind.qqvideo.tc.qq.com^
 ||wangyouxs.com/A/$script
 ||wanwan.sina.com.cn/third_party/
 ||wanyx.com/js/bt.js
+||wanyx.com/js/gamead.js
 ||wanyx.com/js/gg.js
 ||wbzol.com/show/images/show.htm
 ||wd147.com/templets/mm/js/cs.js
@@ -4421,6 +4424,7 @@ _vmind.qqvideo.tc.qq.com^
 ||wendu.cn/templates/wzdsb/js/yanue.pop.js
 ||wenwo.com^*/js/common/adAudit.
 ||wenyoutai.com/template/comiis_xwyt/ads/
+||wfcmw.cn/js/baiduun.js
 ||wfcmw.cn/uploadfile/Article/*.swf
 ||whinfo.net.cn/ad20
 ||whnews.cn/wh_public/dl/
@@ -4774,21 +4778,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||173.255.143.197^*.png
-||wfcmw.cn/js/baiduun.js
-||wanyx.com/js/gamead.js
-||52ch.net/data/attachment/portal/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-52ch.net##DIV[id^="adv"]
-123cha.com##.n_ads_box + .box > .tbl > TBODY > TR:last-child > TD[bgcolor="#eeeeee"][width="350"]:last-child
-26lady.com##.ngg
-wfcmw.cn##.ifra_tx
-wfcmw.cn##.news_top_ad2
-wfcmw.cn##DIV[style="width:640px; height:190px; margin:0 auto;"]
-t6t8.com##DIV[style^="width: 965px;height:90px;"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -6733,6 +6726,7 @@ easylife.tw,ettoday.net##.idleAd
 leiphone.com##.idx-adver1
 haodou.com##.idx_ad_box
 divcss5.com##.if1000
+wfcmw.cn##.ifra_tx
 anjuke.com##.ifx-ad-r-box
 aiyuke.com##.igamead
 edu24ol.com##.image_01
@@ -6951,6 +6945,7 @@ myday.com.tw##.myday_ad_right
 2345.com##.mzdh_bottom
 jgtj.com.cn##.n_ad1
 123cha.com##.n_ads_box
+123cha.com##.n_ads_box + .box > .tbl > tbody > tr:last-child > td[bgcolor="#eeeeee"][width="350"]:last-child
 gucheng.com##.n_s_300250
 gucheng.com##.n_s_3002502
 ab126.com##.nav + div[align="center"]
@@ -6978,11 +6973,13 @@ jgtj.com.cn,m.baidu.com,wuseng.com##.news_ad
 acousticguitar.com.cn##.news_b
 zhcw.com##.news_blanck
 tianqi.com##.news_ggimg
+wfcmw.cn##.news_top_ad2
 news.cn2che.com,tw.yahoo.com##.newsad
 mitbbs.com##.newskuang2
 icnkr.com##.newsmainbox_midder_top
 022net.com##.newssidead
 house.ifeng.com##.next
+26lady.com##.ngg
 admin5.com##.notice
 maituan.com##.novice
 sucaitianxia.com##.nr_02
@@ -7691,7 +7688,7 @@ weather.com.cn##div[id^="adpos"]
 cbmland.com##div[id^="ads_"]
 mgbbs.cn,shangdu.com##div[id^="ads_d_"]
 chinayk.com,e0575.cn,eyuyan.com,tiboo.cn##div[id^="ads_r_"]
-fx678.com,wangdaizhijia.com,xiancn.com,zhulang.com##div[id^="adv"]
+52ch.net,fx678.com,wangdaizhijia.com,xiancn.com,zhulang.com##div[id^="adv"]
 house.shangdu.com##div[id^="advertise"]
 ali213.net##div[id^="ali-ad-js-"]
 8591.com.tw##div[id^="baidu"]
@@ -7838,6 +7835,7 @@ ipc.me##div[style="width:336px;height:280px;margin:20px auto 30px auto"]
 niwota.com##div[style="width:365px;height:310px;border:0px solid #ccc;float:left; margin: 0px 10px 5px 0px;"]
 pengfu.com##div[style="width:500px; height:200px; background:#ccc; margin:0 auto 40px;"]
 jgtj.com.cn##div[style="width:500px; height:200px; margin:auto; margin-top:10px; margin-bottom:10px;"]
+wfcmw.cn##div[style="width:640px; height:190px; margin:0 auto;"]
 software8.co##div[style="width:640px;margin-right:10px;height:60px;margin:0 auto;padding-bottom:15px;"]
 china.com##div[style="width:680px;height:90px;padding-left:10px"]
 vipyl.com##div[style="width:692px;height:282px;margin:0px 10px 0px 10px; padding:0px;float:right; overflow:hidden"]
@@ -7873,6 +7871,7 @@ blog.sina.com.cn##div[style^="position: fixed; width:"][style*="height: 330px;"]
 jiancai365.cn##div[style^="position:fixed;+position"]
 ieche.com##div[style^="width: 298px;height:250px;"]
 guofs.com##div[style^="width: 882px;"]
+t6t8.com##div[style^="width: 965px;height:90px;"]
 imanhua.com##div[style^="width: 978px;"]
 my0538.com##div[style^="width:1000px;"][style*="50px;"]
 lanyes.org##div[style^="width:250px;height:250px;"]
@@ -8104,6 +8103,7 @@ ipad.tgbus.com#@#.ads01
 atgfw.org#@#.ads1
 atgfw.org#@#.ads3
 zhaopin.com#@#.adsBox
+long7.qq.com#@#.adsbox
 qq.com#@#.adside
 txnews.zjol.com.cn#@#.adtop
 veryeast.cn#@#.adv-right
@@ -8126,12 +8126,8 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
-long7.qq.com#@#.adsbox
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
-@@/adsbox.$domain=long7.qq.com
-@@/LoadAds.$domain=webcars.com.cn
-@@||52ch.net/data/attachment/portal/201502/12/205202f34vy0p5g7q7bd0b.png
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -8149,6 +8145,7 @@ long7.qq.com#@#.adsbox
 @@/adimg/*$domain=itools.cn|laniqu.com|tdx.com.cn|veryeast.cn
 @@/ads/*$domain=189.cn
 @@/adsame.$domain=liba.com|libaclub.com
+@@/adsbox.$domain=long7.qq.com
 @@/adsbygoogle.$domain=serve.netsh.org
 @@/adsense/*$domain=taobao.com
 @@/advert_$domain=wb.qq.com
@@ -8165,6 +8162,7 @@ long7.qq.com#@#.adsbox
 @@/images/*/*.gif$domain=107.150.17.66|174.37.129.197|174.37.147.136|23.226.134.115|23.226.134.116|23.226.138.28|iu91.co|maichun5.info|myhhg.com|sejie.com|ukhuaren.co|yh1.info|yh10.info|yh2.info
 @@/images/ad$domain=10pan.cc
 @@/img_ad/*$domain=yy960.com
+@@/LoadAds.$domain=webcars.com.cn
 @@/page/adv.html?advId=$subdocument
 @@/pop.js|$domain=189.cn
 @@/sda/weixin$domain=chineseinla.com
@@ -8207,6 +8205,7 @@ long7.qq.com#@#.adsbox
 @@||5060.com^$elemhide,domain=5060.com
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
+@@||52ch.net/data/attachment/portal/201502/12/205202f34vy0p5g7q7bd0b.png
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
 @@||58.com/ds/tgbrand/$domain=brandsales.58.com
