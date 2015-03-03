@@ -1025,7 +1025,7 @@ hk.yahoo.com###mntl1
 ||tanchuang002.info^$third-party
 ||p.tanx.com/ex?i=$domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
 ||cdn.tanx.com/t/$domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
-||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tmall.com
+||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
 ||taotu001.com^$third-party
 ||tbjfw.com^$third-party
 ||tc600.com^
@@ -8155,6 +8155,8 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||valf.atm.youku.com/crossdomain.xml$domain=~tudou.com
 @@&ad_type=$domain=x.jd.com
+@@/adx.$domain=tanx.com
+@@||alimama.com^$domain=tanx.com
 @@||wishdown.com/images/logo.gif
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
