@@ -854,7 +854,6 @@ hk.yahoo.com###mntl1
 ||caob5.info^
 ||cb.baidu.com^
 ||cbjs.baidu.com^
-||cdn.tanx.com/t/$domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
 ||chanet.com.cn^$third-party
 ||chapm.com^$third-party
 ||chinauma.net^$third-party
@@ -992,7 +991,7 @@ hk.yahoo.com###mntl1
 ||okm918.com^
 ||okokw.com^$third-party
 ||onetad.com^$third-party
-||p.tanx.com/ex?i=$domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
+||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
 ||p0y.cn^$image
 ||p0y.cn^*.swf
 ||pagechoice.net^$third-party
@@ -1177,9 +1176,9 @@ hk.yahoo.com###mntl1
 /cari/banner/*
 /cari/daybanner/*
 /comiis_yccs/ads/*
-/config.js$domain=06ssss.com|11xsxs.com|216xx.com|22ufuf.com|33cfcf.com|459ff.com|468jj.com|468xx.com|987abc.com|9jj.com|avtt66.com|fefe22.com|fufu66.com|jiji44.com|wcwc99.com
+/config.js$domain=12345bo.com|11xsxs.com|216xx.com|22ufuf.com|33cfcf.com|459ff.com|468jj.com|468xx.com|987abc.com|9jj.com|avtt66.com|fefe22.com|fufu66.com|jiji44.com|wcwc99.com
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
-/ddd.js$domain=06ssss.com|882qq.com
+/ddd.js$domain=12345bo.com|882qq.com
 /dddaaa/*$domain=920hot.com|shipinhot.com|ssshhh8.com
 /dhfun_ad/*
 /front/adv/getpmadvlist
