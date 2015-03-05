@@ -4776,6 +4776,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hlyy.cc##.ui-sponsor
 dahe.cn###adArea1
 hc360.com,yaolan.com###AD
 21yq.com###AD1
@@ -8129,6 +8130,7 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
+btago.com#@##adcontent
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@||28.com/top_adv_$domain=28.com
@@ -8523,7 +8525,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||zhaozi.cn/d/js/acmsd/ggao5$script
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
-btago.com#@##adcontent
 ! Fixed Malware Domains rules
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 @@||web.xdcdn.net^$domain=nc.xd.com
