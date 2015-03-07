@@ -4786,6 +4786,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+yawin.cn##.ad
+yawin.cn##.adtext
+bbs.yawin.cn##.lmP
 2345.com##.cnxh_box
 174.139.109.38##TABLE[width="960"]
 xfastest.com###ad270scupio
@@ -8152,6 +8155,7 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||yawin.cn/ad/$object-subrequest
 @@/images/ad/*$domain=518pan.cc|5i5j.com|9588.com|dod-tec.com|diantai.ifeng.com|ourgame.com|rapoo.nl|snh48.com|tingbook.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
