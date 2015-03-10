@@ -3273,6 +3273,7 @@ _vmind.qqvideo.tc.qq.com^
 ||key8.com/cache/www/banner_
 ||keyan.cc/data/bcs/
 ||keywin.org/templates/kw_v2/images/youbianad.png
+||kf.abab.com/index.php?
 ||kfs.io/article5/global/*/original.gif
 ||kikicici.com/up_files/2013-11-25/
 ||kk55.net/beitou.js
@@ -3496,6 +3497,7 @@ _vmind.qqvideo.tc.qq.com^
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
 ||money.qz828.com^
+||moonbbs.com/data/attachment/portal/
 ||moonbbs.com/static/image/banner/fashionmoon.png
 ||moonbt.com/template/skin1/images/g_js/
 ||mopimg.cn/dc/
@@ -3633,6 +3635,7 @@ _vmind.qqvideo.tc.qq.com^
 ||p.aty.sohu.com/p?cat=
 ||p.szonline.net^
 ||p.zol-img.com.cn^
+||p.zol.com.cn/download/detail.js
 ||p3.img.cctvpic.com/photoAlbum/page/performance/img/2013/11/20/1384944092228_124.jpg
 ||p4p.sina.com.cn^
 ||p8u.hinet.net^
@@ -4551,11 +4554,11 @@ _vmind.qqvideo.tc.qq.com^
 ||xkxs.org/js/tl
 ||xkxs.org/js/tongji.js
 ||xlpu.cc/adv/
-||xnnews.com.cn/Templets/js/*link
-||xnnews.com.cn/images/yr_wsm.js
 ||xnimg.cn/imgpro/home/a/niucuilai_
+||xnnews.com.cn/images/yr_wsm.js
 ||xnnews.com.cn/templets/image/*gg
 ||xnnews.com.cn/templets/image/600zzj.gif
+||xnnews.com.cn/Templets/js/*link
 ||xntk.net^$script
 ||xoyo.com/cms/rt/2011/04/08/ad-1.jpg
 ||xoyo.com/cms/rt/2011/04/08/pic_6.jpg
@@ -4781,20 +4784,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||moonbbs.com/data/attachment/portal/
-||kf.abab.com/index.php?
-||p.zol.com.cn/download/detail.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xinmin.cn##.Index201408_gg2
-xinmin.cn##.Index201408_gg3
-xindm.cn##.fengmian_comic_main_gg
-xxsy.net###banner
-moonbbs.com##A[href^="http://www.dealmoon.com/Credit-Cards/?"]
-wacowla.com##.aligncenter[width="140"][height="400"]
-wacowla.com##.alignnone[width="320"][height="60"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5058,7 +5051,7 @@ cucn.com,ocucn.com###bad
 chinaiiss.com###baidu_300_250
 52pk.com###baidutop
 jump.bdimg.com,tieba.baidu.com,tieba.com###baiduweishiDown
-18avhub.com,18avtube.com,206.108.55.53,adultwefong.com,aijiatxt.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiwen999.com,suopao.org,youxi.baidu.com###banner
+18avhub.com,18avtube.com,206.108.55.53,adultwefong.com,aijiatxt.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiwen999.com,suopao.org,xxsy.net,youxi.baidu.com###banner
 cwyuni.tw###banner > h2
 xpghost.com###banner-1
 shangdu.com###banner960
@@ -5849,6 +5842,8 @@ gigacircle.com##.Game-Ads
 115zk.com,fuli.ba,fuliba.asia,fuliba.mobi,mcncc.com##.GzList
 letv.com##.H-tg
 sj998.com##.Hr_1
+xinmin.cn##.Index201408_gg2
+xinmin.cn##.Index201408_gg3
 lknovel.lightnovel.cn##.J_a1d_link
 dbw.cn##.Jutop
 cwan.com##.L_ad_12
@@ -6181,6 +6176,8 @@ gamme.com.tw##.adwrpt
 down.51cto.com##.ag
 padhz.com,pbhz.com##.agoogled
 frdic.com##.alert
+wacowla.com##.aligncenter[width="140"][height="400"]
+wacowla.com##.alignnone[width="320"][height="60"]
 4493.com##.allright
 redocn.com##.apositions
 5253.com##.app5253-intro-ctn
@@ -6524,6 +6521,7 @@ mobile01.com##.fast-ad
 jq22.com##.fdad
 hz66.com##.fenge1[height="45"]
 home.ifeng.com##.fengjc02
+xindm.cn##.fengmian_comic_main_gg
 colafile.com##.file-box > .main-pic-show
 jump.bdimg.com,tieba.baidu.com,tieba.com##.firework_sender_wrap
 pingpang.info##.first_body_bottom
@@ -7531,6 +7529,7 @@ chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 zhibo8.cc##a[href^="http://www.bobo."]
 cww.net.cn##a[href^="http://www.cww.net.cn/downmt/"] > img[height="70"]
+moonbbs.com##a[href^="http://www.dealmoon.com/Credit-Cards/?"]
 win007.com##a[href^="http://www.edewin.com/"]
 top81.com.cn##a[href^="http://www.junpinhui.com/goods."]
 css88.com##a[href^="http://www.liepin.com"]
@@ -7599,9 +7598,9 @@ wpdaxue.com##div[class] > a[href^="http://www.wpdaxue.com/"][target="_blank"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
