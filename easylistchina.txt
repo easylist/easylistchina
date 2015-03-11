@@ -4786,10 +4786,31 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
 ||msn.com/homep_ad.html
+||a.game.qidian.com/Layout.aspx?
+||a.game.qidian.com/Show.aspx?
+||a.game.qidian.com/material/xs.js
+||script.cmfu.com/Script/GameAdAptationInfo.js
+||cj.qidian.com/Picture/$domain=sosu.qidian.com
+||cj.qidian.com/Picture/$domain=forum.qidian.com
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qdwenxue.com,qidian.com###divADClient
+me.qidian.com##.ad-shell
+qidian.com##.ggbox740X80
+qidian.com##.game_tj
+qidian.com###ad_yxword_a
+qidian.com###ad_tjword
+qidian.com###ad_yxword
+qidian.com###divUserGuide
+qidian.com###two_dimensional
+qdmm.com,qdwenxue.com,qidian.com##.game_info
+www.qidian.com##div[class^="gg"]
+qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
+qidian.com##DIV[style="margin:0 auto;width:375px;height:63px;padding-top:5px"]
+qidian.com##.qd_sms_pop
+qidian.com##.top_game_info
 tiexue.net##.jiangWuTang + .mTop10
 tiexue.net##DIV[style="right:0px;top:40px;overflow: hidden;position: fixed;"]
 msn.ynet.com###adr02 + .hc1
