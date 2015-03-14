@@ -4808,8 +4808,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xijucn.com###topc
-mjtd.com##DIV[style="width:728px;height:90px;margin: 0px;"]
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5743,6 +5741,7 @@ duba.com###top_joke
 tianjinwe.com###topadv
 aibang.com###topadv_baidu_aibang
 blog.163.com###topbar_randShowArea
+xijucn.com###topc
 nowscore.com###toperText
 csshello.com###topgg
 1616.net###toplink
@@ -7549,6 +7548,7 @@ gamebase.com.tw##[id^="aid_"]
 51240.com##[id^="ggwz"]
 jump.bdimg.com,tieba.baidu.com,tieba.com##[id^="spreadad_"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
+tiexue.net##a[href*=".junph."] > img
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 cosersuki.org,gmgard.us,lightnovel.cn,mengmao.org,mracg.com,soul-plus.org##a[href*=".taobao.com"]
 gmgard.us,lightnovel.cn,soul-plus.org##a[href*=".tmall.com"]
@@ -7660,8 +7660,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7819,6 +7819,7 @@ hiapk.com##div[id^="zoneid"][class^="g2_"]
 ebiotrade.com##div[id^=adA]
 co188.com##div[style$="height:250px;margin:15px 0;"]
 co188.com##div[style$="height:90px;margin-top:15px;"]
+tiexue.net##div[style$="top:40px;overflow: hidden;position: fixed;"]
 mahua.com##div[style$="width:300px;height:250px"]
 ipc.me##div[style$="width:300px;height:600px"]
 taodake.com##div[style$="width:960px; height:60px;"]
@@ -7896,8 +7897,6 @@ win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 book.zongheng.com##div[style="position:fixed;top:330px;left:50%;margin-left:-590px;"]
 witvc.com##div[style="position:relative; height:255px; width:958px; overflow:hidden;"]
 youku.com##div[style="position:relative;"]:first-child
-tiexue.net##DIV[style$="top:40px;overflow: hidden;position: fixed;"]
-tiexue.net##A[href*=".junph."] > IMG
 fg.cc##div[style="text-align:center;"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 eprice.cn##div[style="width: 1094px; height: 80px; margin: 10px auto; border: 1px solid #e5e5e5; padding: 2px;"]
@@ -7926,6 +7925,7 @@ software8.co##div[style="width:640px;margin-right:10px;height:60px;margin:0 auto
 china.com##div[style="width:680px;height:90px;padding-left:10px"]
 vipyl.com##div[style="width:692px;height:282px;margin:0px 10px 0px 10px; padding:0px;float:right; overflow:hidden"]
 neihan8.com##div[style="width:728px; margin: 20px auto 0px;"]
+mjtd.com##div[style="width:728px;height:90px;margin: 0px;"]
 131458.com##div[style="width:788px;border:solid 1px #def0e1;padding:0 10px;overflow:hidden;background:#fff9f3; height:35px;line-height:35px;"]
 bejson.com##div[style="width:900px;text-align:center"]
 dmzj.com##div[style="width:940px;height:60px;border:none;margin:auto;padding:0px;"]
@@ -8184,6 +8184,7 @@ uuuu.cc#@#.ad_top
 epochtimes.com#@#.adbox1
 appbyme.com#@#.adchange
 china.com#@#.adclass
+wed114.cn#@#.adpic
 ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
 ipad.tgbus.com#@#.ads01
@@ -8214,7 +8215,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
-wed114.cn#@#.adpic
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
