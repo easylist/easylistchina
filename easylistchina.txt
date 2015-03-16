@@ -2445,6 +2445,7 @@ _vmind.qqvideo.tc.qq.com^
 ||downbank.cn/jkzm/
 ||downbank.cn/s1/
 ||downbank.cn/soft6/
+||downkr.com/statics/js/all.js
 ||downxia.com/haojs/
 ||downxia.com/zejs/ad
 ||downxia.com/zejs/soft
@@ -4041,6 +4042,7 @@ _vmind.qqvideo.tc.qq.com^
 ||shulihua.net/js/topcen.js
 ||shulihua.net/js/yegonggao.js
 ||shulink.com/js/pagetop5.js
+||shuqi6.com/static/jquery/gg.js
 ||shuyeer.com/dlr.html
 ||shuyeer.com/views/default/images/close.gif
 ||shuyeer.com/views/default/mnstyle/hot/gg.js
@@ -4630,6 +4632,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ya788.com/pf/js/float.js
 ||yam.com/ad_yam/
 ||yanjiao.com/zt/indexad/
+||yanqing888.net/script/fanye
 ||yanqing888.net/script/Read_Fee_Bottom.js
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
@@ -4811,22 +4814,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||downkr.com/statics/js/all.js
-||yanqing888.net/script/fanye
-||shuqi6.com/static/jquery/gg.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-avyahoo.com###thread_top_ad
-youthwant.com.tw##.side_adbox
-yes-news.com##.notification
-yes-news.com###adsc3
-yes-news.com###adsc4
-yes-news.com###content-728
-yes-news.com###content-ads-right
-cc9900.com##.aleft
-dahe.cn###adsg
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -5050,8 +5041,11 @@ disp.cc###ads_page_r
 kedou.xxx###ads_top_video
 libaclub.com###adsame
 xinhuanet.com###adsan
+yes-news.com###adsc3
+yes-news.com###adsc4
 ybbbs.com###adsdisct
 image.baidu.com###adsearch
+dahe.cn###adsg
 ishuati.com###adsh
 ynet.com###adt01
 sina.com.cn###adtopad
@@ -5184,6 +5178,8 @@ gg163.net###container > table[width="960"]
 biquge001.com,fuli.ba,fuliba.asia,fuliba.mobi###content > a
 fuli.ba,fuliba.asia,fuliba.mobi###content > div:first-child > a:first-child:last-child
 fuli.ba,fuliba.asia,fuliba.mobi###content > ul[style="list-style-type: none;"]
+yes-news.com###content-728
+yes-news.com###content-ads-right
 www.sohu.com###contentC > .columnC
 mtksj.com###contentMidPicAD
 tsdm.net###content_box_300250
@@ -5730,6 +5726,7 @@ firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
 jump.bdimg.com,tieba.baidu.com,tieba.com###threadListGroupCnt
 163.com###thread_inside_ad
+avyahoo.com###thread_top_ad
 tw.yahoo.com###ticker
 ettoday.net###ticker_3
 kan300.com,xxdm.com###tiepianDIV
@@ -6226,6 +6223,7 @@ itavcn.com##.advzone
 gamme.com.tw##.adwrpt
 down.51cto.com##.ag
 padhz.com,pbhz.com##.agoogled
+cc9900.com##.aleft
 frdic.com##.alert
 wacowla.com##.aligncenter[width="140"][height="400"]
 wacowla.com##.alignnone[width="320"][height="60"]
@@ -7078,6 +7076,7 @@ icnkr.com##.newsmainbox_midder_top
 house.ifeng.com##.next
 26lady.com##.ngg
 admin5.com##.notice
+yes-news.com##.notification
 maituan.com##.novice
 sucaitianxia.com##.nr_02
 sxrom.com##.nrmkto
@@ -7274,6 +7273,7 @@ firefoxchina.cn##.side-recommend
 xiaoliaolianmeng.com##.side-sponer
 17huohu.com,firefoxchina.cn##.side-tool-outer > div[class]:first-child
 niutuku.com##.sideAD
+youthwant.com.tw##.side_adbox
 software8.co##.side_bar_2345
 duba.com##.side_other > .img
 businessweekly.com.tw##.side_slidebox
@@ -7675,8 +7675,8 @@ wpdaxue.com##div[class] > a[href^="http://www.wpdaxue.com/"][target="_blank"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8199,7 +8199,7 @@ uuuu.cc#@#.ad_top
 epochtimes.com#@#.adbox1
 appbyme.com#@#.adchange
 china.com#@#.adclass
-wed114.cn#@#.adpic
+gome.com.cn,wed114.cn#@#.adpic
 ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
 ipad.tgbus.com#@#.ads01
@@ -8229,10 +8229,8 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
-gome.com.cn#@#.adpic
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||eiv.baidu.com/hmt/icon/21.gif
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8445,6 +8443,7 @@ gome.com.cn#@#.adpic
 @@||eden.org.tw*/script/ad_banner/
 @@||eden.org.tw/themes/liger/images/banner_
 @@||edgesuite.net^*/ad.css?
+@@||eiv.baidu.com/hmt/icon/21.gif
 @@||emome.net/files/advertising/
 @@||forum.51nb.com/images/*/
 @@||fwxgx.com^*/floatad.
