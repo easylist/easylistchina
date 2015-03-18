@@ -8155,6 +8155,8 @@ taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-
 00sy.com##ul[style="width: 830px;margin:0 auto;height:250px;text-align:center;margin-top:10px;"]
 wanshuge.net##ul[style="width: 880px;margin:0 auto;text-align:center;margin-top:10px;"]
 firefoxchina.cn##ul[track-key="adv_links"]
+zdfans.com##.db_post
+zdfans.com##A[href^="http://www.hao123.com/?tn="]
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
 the-sun.on.cc#@##ContentAd1
@@ -8249,6 +8251,14 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
+zdfans.com#@##adlabel
+zdfans.com#@##adsense
+zdfans.com#@##advertbox3
+zdfans.com#@##bottomAd
+zdfans.com#@##mini-ad
+zdfans.com#@##rightAd
+zdfans.com#@##sky_advert
+zdfans.com#@##top_ad_game
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
@@ -8625,7 +8635,6 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||youku.com^*&showAd=
 @@||zdfans.com^*.nz/ads/
-@@||zdfans.com^$elemhide
 @@||zhannei.baidu.com^$popup,domain=wpan.cc
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
