@@ -4844,6 +4844,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+www.wenxuecity.com##.col > UL:not([id]) > LI > A[href^="http://"]:not([href*=".wenxuecity."])
 mopxing.com##.sideul1
 hc360.com,yaolan.com###AD
 21yq.com###AD1
@@ -8285,7 +8286,6 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||56.com/js/promo/showFlv.htm
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
