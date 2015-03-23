@@ -1215,6 +1215,7 @@ hk.yahoo.com###mntl1
 /img/br650.gif$domain=qzntv.com|qzwb.com
 /img/disc.jpg$domain=jpfans.com|jpseek.com
 /img/kana.jpg$domain=jpfans.com|jpseek.com
+/img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
 /js/alls_$domain=911-sss.com|baise666.info|kuaisou222.com|ylgbt.info
 /js/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
@@ -2601,7 +2602,6 @@ _vmind.qqvideo.tc.qq.com^
 ||files.webcars.com.cn^*.swf?link=
 ||firefox.com.cn/gfox/ad/
 ||firefoxchina.cn/2014/*_foxphone.png
-/img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
 ||firefoxchina.cn/res/js/fchina_video-min.js
 ||firefoxchina.cn^*49560.
 ||firefoxchina.cn^*_couplet
@@ -3869,6 +3869,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qiyipic.com/zongyi/fix/runningman20141008_bg03.jpg
 ||qj001.com/data/js/js0.js
 ||qjis.com/js/qjis_nr.js
+||qk101.com/life/
 ||qpic.cn/manhua_detail/$object-subrequest
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
 ||qpic.cn^$domain=360-bo.com|54xr.com|7958.com|pptiyu.com|xrba.net
@@ -3879,6 +3880,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qq.com/game/footerbar$subdocument
 ||qq.com/livemsg?
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
+||qq.com/PL_adT.htm
 ||qq.com/qzone/biz/gdt/display/positions/waicai/
 ||qq.com/swf/sx_ads.swf
 ||qqcf.com/js/Content_Get.js
@@ -4839,16 +4841,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||zzqhy.com^*/page/
-||qq.com/PL_adT.htm
-||qk101.com/life/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-like101.com.tw##.masonry-brick[style^="width: 212px; height: 216px;"]
-like101.com.tw##.advert
-like101.com.tw##P:first-child + [border="1"][width="100%"]
-firefoxchina.cn##.side-promote
 hc360.com,yaolan.com###AD
 21yq.com###AD1
 itavcn.com###ADE
@@ -6241,7 +6237,7 @@ v1.cn##.advbigJs
 autohome.com.cn,tzfdc.com.cn##.advbox
 v1.cn##.adverBox300
 jiaonan.net##.adverframe
-ce.cn,eastmoney.com,sz.zj.cn##.advert
+ce.cn,eastmoney.com,like101.com.tw,sz.zj.cn##.advert
 gimhoy.com##.advert + div[class]:not(.post-content)
 leiphone.com##.advertOne
 chinanews.com##.advert_dingtong
@@ -7029,6 +7025,7 @@ tianjinwe.com##.mainadv
 pingpang.info##.mainbox > div[style="float:left; width:100%; height:80px;"]
 bbs.fobshanghai.com##.maintable > div:nth-child(7)
 zhongsou.com##.marketingad01
+like101.com.tw##.masonry-brick[style^="width: 212px; height: 216px;"]
 xiaoma.com##.max_img
 hao.360.cn##.mbar-bd
 xizi.com##.md310_90
@@ -7298,6 +7295,7 @@ laifudao.com##.side-adinner
 guokr.com##.side-adv
 ruten.com.tw##.side-advertise
 firefox.com.cn,firefoxchina.cn##.side-notice
+firefoxchina.cn##.side-promote
 firefoxchina.cn##.side-recommend
 xiaoliaolianmeng.com##.side-sponer
 17huohu.com,firefoxchina.cn##.side-tool-outer > div[class]:first-child
@@ -7714,8 +7712,8 @@ wpdaxue.com##div[class] > a[href^="http://www.wpdaxue.com/"][target="_blank"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8076,6 +8074,7 @@ china.com.cn##object[width="300"][height="60"]
 china.com##object[width="360"][height="300"]
 sina.com.cn##p + .article-video
 bbs.6park.com##p > font[color="E6E6DD"]
+like101.com.tw##p:first-child + [border="1"][width="100%"]
 6.gy##p[style="text-align: center;"]
 blog.jobbole.com,c114.net##script + a[href^="http"]
 csj.xinhuanet.com##script + center > a > img
@@ -8277,7 +8276,6 @@ brandsales.58.com#@#div[id^="ad_"]
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/advertisement/*$domain=muyingzhijia.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8300,6 +8298,7 @@ epochtimes.com#@#div[id^="div-gpt-ad-"]
 @@/adsense/*$domain=taobao.com
 @@/advert_$domain=wb.qq.com
 @@/advertise/*$domain=sfbuy.com|suning.com
+@@/advertisement/*$domain=muyingzhijia.com
 @@/advs/*$domain=dianxinos.com|gotobuy.com.tw|haseemobile.net|lklm.com|re-vat.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
