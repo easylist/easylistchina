@@ -4836,6 +4836,7 @@ _vmind.qqvideo.tc.qq.com^
 ||beareyes.com.cn/2/face/wuhan/200804ad/
 ||beareyes.com.cn^*/ad/
 ||shbear.com^*/ad/
+||123564.com/js/plaza.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
@@ -8288,9 +8289,12 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
+123564.com#@#.adsbygoogle
 epochtimes.com#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||adm.cnzz.net/js/abase.js$domain=123564.com
+@@||adm.cnzz.net/appgcm.php?sid=244627&$domain=123564.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
