@@ -3124,7 +3124,6 @@ _vmind.qqvideo.tc.qq.com^
 ||itavcn.com/images/2013/ad_
 ||itavcn.com/images/2014/ad_
 ||itavcn.com/pic/news/*305X80.swf
-||itc.cn/a/www/index/2014/js/ggcommon
 ||itc.cn/activity/activity_js/changyan_config_
 ||item.taobao.com^$domain=iask.sina.com.cn
 ||iteye.com/iframe_ggbd/
@@ -4797,6 +4796,8 @@ _vmind.qqvideo.tc.qq.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 17173.com##.ad
+17173.com##.picshow[href^=" http://cnrdn.com/"]
+17173.com##.picshow[href^=" http://vip.1905.com/"]
 17173.com##A[href*="&ad_code="]
 hexieshe.com###single-main-content + P
 zimuzu.tv##.room
@@ -5945,7 +5946,6 @@ baofeng.com##.ad-pop-wrap
 2500sz.com##.ad-quanping
 me.qidian.com##.ad-shell
 iqilu.com##.ad-short
-17173.com##.ad-sy-pn1
 qq.com##.ad-text-box
 ithome.com.tw##.ad-text-in-middle
 39.net##.ad-tl
@@ -7679,7 +7679,6 @@ ganji.com##div[class*="-recommend"]
 meiguoshenpo.com##div[class*="AD_"]
 makepolo.com##div[class*="_ad"]
 summeng.net##div[class*="_ad_"]
-www.17173.com##div[class*="ad-pn"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
