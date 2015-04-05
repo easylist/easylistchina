@@ -1278,7 +1278,6 @@ _vmind.qqvideo.tc.qq.com^
 |http://*XX_$domain=i-ab.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 ||007.mx/flv/
-||020.com/960_60
 ||020.com/960_70
 ||022net.com/js/mhtml/phtml03.html
 ||022net.com/js/mhtml/phtml04.html
@@ -1297,7 +1296,6 @@ _vmind.qqvideo.tc.qq.com^
 ||0579.cn/SHow/Showplacenew.aspx
 ||0597kk.com/js/float.js
 ||0597ok.com/ilike/597/
-||0598yu.com/html/channel/yu2013/images/xlgg.js
 ||05sun.com/js/comm.js
 ||05sun.com/js/downinfo.js
 ||0678life.com/statics/images/aaabbbccc.jpg
@@ -4773,6 +4771,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+0598yu.com##.v1100_ad
 0517w.com###diyad
 022net.com###html05 > .margin:first-child
 022net.com##.dh + .sidelist + DIV[style="margin:26px auto 0; width:232px"]
@@ -5772,8 +5771,6 @@ quanji.com###wza
 zhiboche.com###wzad
 dychao.com###x-adfoot-player
 dychao.com###x-adtop-player
-0598yu.com###x1
-0598yu.com###x2
 bjxxw.com###xBanner
 xinhuanet.com###xiangguanad
 aiquanji.com,quanji.com###xinxi
@@ -6279,7 +6276,6 @@ www.3dmgame.com##.banner_1
 3dmgame.com##.banner_2
 4493.com##.banner_640
 aipai.com##.banner_90
-0598yu.com##.banner_960_60
 900.la##.banner_ad1
 xilu.com##.banner_bg
 ksbbs.com##.banner_box
@@ -7546,7 +7542,7 @@ gamme.com.tw##[class^="sidead_"]
 lknovel.lightnovel.cn##[href^="/"][href*="#"]
 jjwxc.net##[id^="adp_"]
 77bike.com,ksbbs.com##[id^="ads_"]
-0598yu.com,e0575.cn,sz.zj.cn##[id^="ads_c_"]
+e0575.cn,sz.zj.cn##[id^="ads_c_"]
 gamebase.com.tw##[id^="aid_"]
 400gb.com,bego.cc,ctfile.com,pipipan.com##[id^="cproIframe"]
 51240.com##[id^="ggwz"]
