@@ -4770,10 +4770,13 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||1616.net/jd/data/index/indexad.json
 ||0379home.com/images/fullscreen_
+||022net.com/ImgFiles/channel/201502/2015021812142444065.swf
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+022net.com###html05 > .margin:first-child
+022net.com##.dh + .sidelist + DIV[style="margin:26px auto 0; width:232px"]
 mao-123.com###ad3
 mao-123.com###cat3
 mao-123.com##A[href*=".taobao.com"]
