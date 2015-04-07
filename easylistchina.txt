@@ -463,7 +463,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 hk.yahoo.com###mntl1
 ||l.yimg.com/*/a/hk/$~stylesheet
 ||l.yimg.com/mq/hk/promotions/
-||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
 !---yam
 ||s1.josho.yamedia.tw/f/plugin.swf^
 !tudou.com
@@ -687,6 +686,7 @@ hk.yahoo.com###mntl1
 ##a[href^="https://www.18vpn.biz/r.php"]
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + #rbbox
+###my-adsFPR
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
@@ -4775,6 +4775,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||admin5.com/a5dao/
 ||admin5.com/bd360qq/action/
+||s.yimg.com/ja/ap/$script,domain=hk.news.yahoo.com|hk.yahoo.com
+||yimg.com/bf/homerun/ysm_
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
