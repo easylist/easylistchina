@@ -3755,7 +3755,6 @@ _vmind.qqvideo.tc.qq.com^
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/scripts/ysm.js
 ||pro.iweihai.cn^
-||prscripts.com/pub.js
 ||ps123.net/MyFile/
 ||pstatp.com/resource/toutiao_wap/static/js/lib/ads_
 ||ptbus.com/s.js
@@ -8248,6 +8247,8 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@.png#$domain=thisav.com
+@@||thisav.com^$elemhide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
