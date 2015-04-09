@@ -429,7 +429,6 @@ tv.sohu.com##.skyAD
 ||images.sohu.com/ytv/$subdocument
 !--Sogou
 sogou.com###zhuanqu
-||file.cloud.sogou.com/*/superzone/
 ||lu.sogou.com^$subdocument
 !-udn
 @@||video.udn.com/player/Adv.swf$object-subrequest
@@ -4775,11 +4774,13 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||wuhan.net.cn/show.html
+||file.cloud.sogou.com/*/superzone/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sogou.com##.tgad-box + DIV
+sogou.com###text_ad_area
+www.sogou.com##.tgad-box + DIV
 wuhan.net.cn##DIV[style="width:300px;height:250px;float:left;margin:0 14px 14px 14px;padding:2px;border:#ccc 1px solid"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -4857,8 +4858,8 @@ ks321.com###N_a5
 ks321.com###N_a6
 yunlaige.com###PAGE_baidu_4
 yunlaige.com###PAGE_baidu_5
-sogou.com,soso.com###PZL
-sogou.com,soso.com###PZR
+sogou.com###PZL
+sogou.com###PZR
 th7.cn###PcPoPmarket
 aiyuke.com###Playerpad
 ifabao.com###PopupLayer
@@ -5070,7 +5071,7 @@ gamme.com.tw###bd
 manhuadao.com###bd1
 dm456.com,haoting5.com###bdSider
 naruto.hk###bdbqy
-sogou.com,soso.com###bdfs0
+sogou.com###bdfs0
 baidu.com###bdyx_float_rb
 docin.com###beforeAd
 dm5.com,dm5.hk,manmankan.com,sfacg.com###beitou
@@ -5602,7 +5603,7 @@ hujiang.com###regscrollcontainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 jump.bdimg.com,tieba.baidu.com,tieba.com###replyBusinessImg
-sogou.com,soso.com###right > .atTrunk
+sogou.com###right > .atTrunk
 2345.com###right > div:first-child
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
 90oo.com###right > div[style^="height:60px; width:750px;"]
@@ -6373,9 +6374,9 @@ anywlan.com##.bscekvofc_o
 cssmoban.com##.btn-host
 1396me.com,17173.com,gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
-sogou.com,soso.com##.buy_mxx
-sogou.com,soso.com##.buy_vr_dpinfo
-sogou.com,soso.com##.buy_vr_dpmore
+sogou.com##.buy_mxx
+sogou.com##.buy_vr_dpinfo
+sogou.com##.buy_vr_dpmore
 ithome.com##.bx-recom2
 hunantv.com##.c-95060-top
 ifeng.com##.c-ad
@@ -6857,7 +6858,7 @@ jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
 qidian.com##.jcsp + div[style="HEIGHT: 130px"]
 pconline.com.cn##.jczIntf
-sogou.com,soso.com##.jd-box
+sogou.com##.jd-box
 tiexue.net##.jiangWuTang + .mTop10
 973.com##.jk_ku
 huxiu.com##.jobs-view
@@ -7241,12 +7242,12 @@ miyun360.com##.shangjia
 xilu.com##.shehuibanner
 160.com##.shengda
 0452e.com##.shop
-sogou.com,soso.com##.shop-info-list
+sogou.com##.shop-info-list
 hao.rising.cn##.shop-site
-sogou.com,soso.com##.shop-title
+sogou.com##.shop-title
 xilu.com##.shopLinks
-sogou.com,soso.com##.shopSort
-sogou.com,soso.com##.shop_list
+sogou.com##.shopSort
+sogou.com##.shop_list
 hbrc.com##.show
 zahuishi.com##.show2960x90
 5068.com##.showG
@@ -7310,7 +7311,7 @@ missyuan.com##.spaceborder
 ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
 northnews.cn##.sponsor
-sogou.com,soso.com##.sponsored
+sogou.com##.sponsored
 weibo.com##.sport-goods
 163.com##.sports_300x60_ad1
 haosou.com,so.com##.spread
@@ -7367,8 +7368,8 @@ henbt.com##.text_center > font:nth-of-type(-n+2)
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
-sogou.com,soso.com##.tgad-box
-sogou.com,soso.com##.tgad-title
+sogou.com##.tgad-box
+sogou.com##.tgad-title
 putclub.com##.the_ad
 firefoxchina.cn##.theme-side-bar-couplet
 17huohu.com,firefox.com.cn,firefoxchina.cn##.theme-side-bar-priority
@@ -7471,8 +7472,8 @@ kanxi123.com##.viewt_77
 2345.com##.vipTopBanner
 hdpfans.com##.vk_nv_sub
 hupu.com##.voice-ad300-250
-sogou.com,soso.com##.vrshop_itemList
-sogou.com,soso.com##.vrsp_itemList
+sogou.com##.vrshop_itemList
+sogou.com##.vrsp_itemList
 10jqka.com.cn##.w1000
 0573ren.com##.w1000.ad
 meili.cn##.w300
