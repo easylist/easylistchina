@@ -690,7 +690,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 /99vjj/*$third-party
-||jhzl001.com^
 /adscpc/*
 /adscpv/*
 /AShow.aspx?AID=
@@ -937,6 +936,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||j8j9.com^$third-party
 ||jczzjx.com^
 ||jdlhg.com^
+||jhzl001.com^
 ||jisucn.com^$third-party
 ||jixing8.net^$third-party
 ||jk939.com^
@@ -1350,6 +1350,7 @@ _vmind.qqvideo.tc.qq.com^
 ||123.139.0.131/util.js
 ||123564.com/js/plaza.js
 ||125.46.61.28^
+||126.net/43497029/B9E3B8E62_conew1.jpg
 ||126.net/house/chengdu/flash/*+
 ||126.net/house/hangzhou/ad/
 ||126.net/house/hrb/flash/*X
@@ -2096,6 +2097,7 @@ _vmind.qqvideo.tc.qq.com^
 ||btbook.net/static/img/880X60.gif
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
+||btdigg.info/view/css/ku.js
 ||btkuaisou.com/ac/tb.jpg
 ||btn.onlylady.com^
 ||btn.pchome.net^
@@ -4677,6 +4679,7 @@ _vmind.qqvideo.tc.qq.com^
 ||yundianb.com/tu/jia.gif
 ||yunfile.com^*/offline_banner/
 ||yunupload.net/jsa/
+||yupoo.com^$domain=ttmeiju.com
 ||yxdown.com/ghtml/
 ||yxlady.com/cdd/
 ||yxlady.com/skin/yx2014/mm/inpage/ny/
@@ -4763,6 +4766,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zongheng.com/upload/recommend/game/
 ||zongheng.com/v2014/js/mod/bad.js
 ||zongheng.com/zhuanti/2014/active/js/active.js
+||zqzq.com/da.aspx
 ||zsg.kimi.com.tw^$domain=www.gamer.com.tw
 ||zsjjob.com/user/member/google.htm
 ||zsnews.cn/Components/2013ZSNEWS/
@@ -4777,17 +4781,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||zqzq.com/da.aspx
-||btdigg.info/view/css/ku.js
-||yupoo.com^$domain=ttmeiju.com
-||126.net/43497029/B9E3B8E62_conew1.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dayanzai.me###adh_c
-zqzq.com###wAdTop1
-zqzq.com###wAdTop2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -4995,6 +4992,7 @@ voc.com.cn###adbody_show
 iqiyi.com###adflash
 eol.cn###adfloat_l
 eol.cn###adfloat_r
+dayanzai.me###adh_c
 ceil.me###adindex
 dgmei.com###admhdiv_abc
 linyiren.com###adone
@@ -5778,6 +5776,8 @@ ifeng.com###video_p
 aipai.com###videosRightDown
 xemh.com###view_ads3
 jstv.com###vplayad
+zqzq.com###wAdTop1
+zqzq.com###wAdTop2
 kamlm.com###wanmeiffad1
 sogou.com###weixin_adv
 aiquanji.com,quanji.com###weizhi-a
@@ -7707,8 +7707,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8275,7 +8275,6 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||cztv.com/player/*.swf?ad=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8480,6 +8479,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|colafile.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
+@@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
 @@||daoju.qq.com/time/*/js/ad/
 @@||dd399.com/AD/$domain=qingren.tv
@@ -8682,6 +8682,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hm.baidu.com^$domain=ihome99.com
 @@||msn.wrating.com/a1.js
+@@||on.cc/js/urchin.js
 @@||pingjs.qq.com/ping.js
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
@@ -8689,5 +8690,4 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||tajs.qq.com/stats?$domain=qq.com
 @@||tbcdn.cn^*/click_track.js
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@||on.cc/js/urchin.js
 !----------------------------------The End------------------------------------!
