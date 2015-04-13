@@ -1103,7 +1103,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?Intr=$popup
-||yingshidiguo.cn^$popup,domain=henbt.com
 /?ref=$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
@@ -1128,6 +1127,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||trade2345.cn.com^$popup,third-party
 ||uc8.cc/award/$popup
 ||vnet.cn^*.html?$popup,third-party
+||yingshidiguo.cn^$popup,domain=henbt.com
 ||zhubajie.com/?fromcode=$popup
 !----------------------Specific advert blocking filters-----------------------!
 .adsame.libaclub.com^
@@ -1806,6 +1806,7 @@ _vmind.qqvideo.tc.qq.com^
 ||962.net/show/index_
 ||966266.com/a-d/
 ||969g.com/common/iframe/
+||973.com/xyx/p.js
 ||9938.net/video/tvg/footer.js
 ||9938.net/video/tvg/hot.js
 ||99770.cc/jsc/inde.js
@@ -2332,6 +2333,7 @@ _vmind.qqvideo.tc.qq.com^
 ||daqianduan.com/wp-content/uploads/*lagou
 ||dasai8.com/js/duilianjs.js
 ||dashi.com/static/images/jiaocheng_ad.jpg
+||dashi.com/static/images/old_phone.jpg
 ||dashuye.com/data/cache/myad*.htm
 ||dayoo.com/AdPub/adpub/*.jpg
 ||db28.cn/cache/ads.js
@@ -4260,6 +4262,7 @@ _vmind.qqvideo.tc.qq.com^
 ||tinypic.com^$domain=208.94.244.98|ac168.info|aisex.com
 ||tk.504pk.com^
 ||tk001.com/quote$subdocument
+||tmbbs.com/data/attachment/portal/*.swf
 ||tmmov.com/js/inc/
 ||tntdown.com/News/js/C_
 ||tom.com/templets/tomwq/ad/
@@ -4781,15 +4784,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||tmbbs.com/data/attachment/portal/*.swf
-||dashi.com/static/images/old_phone.jpg
-||973.com/xyx/p.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xiaopian.com##A[href="http://ldpgl.code.mytanwan.com/htmlcode/1045.html"]
-dashi.com##.fix_twice
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6575,6 +6573,7 @@ jump.bdimg.com,tieba.baidu.com,tieba.com##.firework_sender_wrap
 pingpang.info##.first_body_bottom
 pingpang.info##.first_body_right
 pingpang.info##.first_body_top
+dashi.com##.fix_twice
 sisiww.com##.fixediv
 jn256.com##.fl_h180
 999.com##.flashObject
@@ -7609,6 +7608,7 @@ zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
 tsdm.net##a[href="http://dmf8.taobao.com"]
 hexieshe.com##a[href="http://juju.la"]
 bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
+xiaopian.com##a[href="http://ldpgl.code.mytanwan.com/htmlcode/1045.html"]
 hexieshe.com##a[href="http://moe.hao123.com/"]
 bxs.cc##a[href="http://www.aoye.cc/"]
 178.com##a[href="http://www.bigeye.tv/"]
@@ -7712,9 +7712,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
