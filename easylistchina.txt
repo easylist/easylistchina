@@ -4627,6 +4627,7 @@ _vmind.qqvideo.tc.qq.com^
 ||yaolan.com/wenku_debris/time_debris/images/mary
 ||yaolanimage.cn/assets/ask/js/ask_video_popup.js
 ||yaolanimage.cn/cms/image/960-90
+||yatour.cn/image/show/120.jpg
 ||yatour.cn/image/show/haha.gif
 ||yb983.com/skin/yb983V2013/ad/
 ||ybvv.com*/aimg/
@@ -4791,16 +4792,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||yatour.cn/image/show/120.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-club.pchome.net###smallslider
-club.pchome.net##.o_info FONT
-club.pchome.net##DIV[style^="width:75px;height:125px;position:fixed;left:50%;"]
-kdslife.com##.o_info FONT
-kdslife.com##a[href="http://club.kdslife.com/thread_1_15_8389777__.html"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5704,7 +5699,7 @@ hexieshe.com###single-main-content + p
 pchome.com.tw###sixi
 hgamecn.com###skyscraper
 cjn.cn###slidelr
-kdslife.com###smallslider
+club.pchome.net,kdslife.com###smallslider
 namipan.cc###somenu
 hc360.com###spad1
 hc360.com###spad2
@@ -7104,6 +7099,7 @@ sucaitianxia.com##.nr_02
 sxrom.com##.nrmkto
 srzc.com##.nry_dbtongl
 szhk.com##.ny_ad1
+club.pchome.net,kdslife.com##.o_info font
 douyutv.com##.offi_ad:first-child
 hepan.com##.onead
 pgzhibo.com##.onlineqq
@@ -7617,6 +7613,7 @@ jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com##a[href="/html/zanzhu.html"]
 m.baidu.com##a[href="http://126.am/4MHWn3"]
+kdslife.com##a[href="http://club.kdslife.com/thread_1_15_8389777__.html"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
 tsdm.net##a[href="http://dmf8.taobao.com"]
 hexieshe.com##a[href="http://juju.la"]
@@ -7725,9 +7722,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7993,7 +7990,6 @@ china.com##div[style="width:680px;height:90px;padding-left:10px"]
 vipyl.com##div[style="width:692px;height:282px;margin:0px 10px 0px 10px; padding:0px;float:right; overflow:hidden"]
 neihan8.com##div[style="width:728px; margin: 20px auto 0px;"]
 mjtd.com##div[style="width:728px;height:90px;margin: 0px;"]
-kdslife.com##DIV[style^="width:75px;height:125px;position:fixed;left:50%;"]
 131458.com##div[style="width:788px;border:solid 1px #def0e1;padding:0 10px;overflow:hidden;background:#fff9f3; height:35px;line-height:35px;"]
 bejson.com##div[style="width:900px;text-align:center"]
 dmzj.com##div[style="width:940px;height:60px;border:none;margin:auto;padding:0px;"]
@@ -8033,6 +8029,7 @@ lanyes.org##div[style^="width:250px;height:250px;"]
 hbrc.com##div[style^="width:500px; height:200px;"]
 jschina.com.cn##div[style^="width:640px;"][style$="margin:0 auto;overflow:hidden;"]
 jpwind.com##div[style^="width:730px; height:90px;"]
+club.pchome.net,kdslife.com##div[style^="width:75px;height:125px;position:fixed;left:50%;"]
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 9724.com##div[style^="width:9"][style*="height:82px;"]
 tc.cn##div[style^="width:930px; height:70px;"]
@@ -8295,8 +8292,6 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||2kandy.com^$elemhide
-@@/common/ad_$domain=2kandy.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8328,6 +8323,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
 @@/cntv_Advertise.js
+@@/common/ad_$domain=2kandy.com
 @@/common/cf/*$domain=1point3acres.com|66u.com|dataguru.cn|launcher.lenovo.com|oneplusbbs.com|xda.cn
 @@/css/ad.$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 @@/data/attachment/*_300_250_
@@ -8381,6 +8377,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||221.7.250.35/caches/poster_js/21.js
 @@||28.com/adv_$domain=28.com
 @@||28.com/top_adv_$domain=28.com
+@@||2kandy.com^$elemhide
 @@||33.autohome.com.cn/njs/10055.js
 @@||33.autohome.com.cn/njs/newget.js
 @@||3399.com/DataTransfer/Advertisement/
