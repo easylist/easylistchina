@@ -4807,6 +4807,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+baby-kingdom.com##.mian + .foot > .foot-top:first-child
+baby-kingdom.com##DIV[id*="Banner Zone"] + SCRIPT + OBJECT
+baby-kingdom.com##DIV[id*="Banner Zone"] + SCRIPT + a
 47dy.com##.baiduHotWord
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7460,7 +7463,6 @@ baidu.com##.top-banner-ad-wrap
 www.uuu9.com##.top1bar
 uuu9.com##.top2box
 52wubi.com,zerodm.tv##.top960
-baby-kingdom.com##.topADS1
 cn.msn.com,cwan.com,gongchang.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ltaaa.com##.topAds2
 yeyou.com##.topBackgroundAdv_bgbody
@@ -7659,7 +7661,6 @@ ithome.com##a[href^="http://clkde.tradedoubler.com/"]
 21cn.com##a[href^="http://news.haxiu.com/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 it.com.cn,vikilife.com##a[href^="http://s.click.taobao.com/"]
-baby-kingdom.com##a[href^="http://sam1.baby-kingdom.com/"]
 lightnovel.cn##a[href^="http://t.cn/"]
 lightnovel.cn##a[href^="http://tb.cn/"]
 mop.com##a[href^="http://trackx.mop.com/"]
@@ -8104,7 +8105,6 @@ ks.js.cn##object[data^="yytf/"]
 5j.com##object[width="1000"]
 china.com.cn##object[width="300"][height="60"]
 china.com##object[width="360"][height="300"]
-baby-kingdom.com##object[width="728"][height="90"]
 sina.com.cn##p + .article-video
 bbs.6park.com##p > font[color="E6E6DD"]
 like101.com.tw##p:first-child + [border="1"][width="100%"]
