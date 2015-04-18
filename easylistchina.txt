@@ -487,7 +487,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 /adblockTester1.js
 /adblockTester2.js
 /adintrs/*
-/ggpic/*
 /adpfile/*
 /AdPreview/*
 /adpuba/*
@@ -517,6 +516,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /ggao.
 /ggao/*
 /ggjs/*
+/ggpic/*
 /guangao/*
 /guangg/*
 /guanggao.
@@ -1423,6 +1423,7 @@ _vmind.qqvideo.tc.qq.com^
 ||17ok.com/focus/3j_right_jdt.shtml
 ||17pr.com/batch.ad.php?
 ||17yy.com/style/ifra_ad/
+||18183.com/templets/index2014/js/hanawa.js
 ||182.92.234.239^*.html
 ||183.129.206.25:18180/i.php?z=
 ||183.136.168.78:8082/ad/
@@ -2653,6 +2654,7 @@ _vmind.qqvideo.tc.qq.com^
 ||gfan.com/press/
 ||gg-art.com/anod/
 ||gg.0598yu.com^
+||gg.18183.com^
 ||gg.cs090.com^
 ||gg.kugou.com^
 ||gg.sonhoo.com^
@@ -3459,6 +3461,7 @@ _vmind.qqvideo.tc.qq.com^
 ||mcxiaobu.com/zb_users/theme/LuSongSong/style/ads/
 ||media.cheshi-img.com^
 ||medsci.cn/aimgs/$script
+||megalife.com.hk^$domain=hkgolden.com
 ||meilele.com/js/recad.
 ||meiliren.net/tuijs/
 ||meimb.com^$domain=94as.com
@@ -3631,6 +3634,7 @@ _vmind.qqvideo.tc.qq.com^
 ||orzx.im/js/*pop
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/space/2015/0318/105455_4iUG_2012764.jpg
+||outofmemory.cn/static/tgs/
 ||ouyaoxiazai.com^$script,subdocument
 ||overseaschinesemedia.com/img/*.gif
 ||oyksoft.com/show/s.php/
@@ -3763,6 +3767,7 @@ _vmind.qqvideo.tc.qq.com^
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/scripts/ysm.js
 ||pro.iweihai.cn^
+||property.hk/ad_$script
 ||ps123.net/MyFile/
 ||pstatp.com/resource/toutiao_wap/static/js/lib/ads_
 ||ptbus.com/s.js
@@ -4802,21 +4807,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||property.hk/ad_$script
-||gg.18183.com^
-||18183.com/templets/index2014/js/hanawa.js
-||outofmemory.cn/static/tgs/
-||megalife.com.hk^$domain=hkgolden.com
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hkgolden.com##.myTestAd
-4493.com##.advline
-baby-kingdom.com##.mian + .foot > .foot-top:first-child
-baby-kingdom.com##DIV[id*="Banner Zone"] + SCRIPT + OBJECT
-baby-kingdom.com##DIV[id*="Banner Zone"] + SCRIPT + a
-47dy.com##.baiduHotWord
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6246,6 +6240,7 @@ baofeng.com##.advertise-mj
 baofeng.com##.advertise960
 jump.bdimg.com,tieba.baidu.com,tieba.com##.advertise_right_index
 elecfans.com##.advertising
+4493.com##.advline
 hexun.com,hexun.com.tw##.advp
 cngold.org,qq.com,tongxiang.net##.advs
 gscn.com.cn##.advscroll
@@ -6299,7 +6294,7 @@ portablesoft.org##.bad
 hao.rising.cn##.baidu-banner
 quumii.com##.baidu960
 17k.com##.baiduBox
-2345.com##.baiduHotWord
+2345.com,47dy.com##.baiduHotWord
 2345.com##.baiduHotWordsR
 aibang.com##.baidu_ad
 ucbug.com##.baidu_fx
@@ -7040,6 +7035,7 @@ nownews.com##.meannews
 shmet.com##.memberadstb
 taihainet.com##.menu_bg + .box10 + .wrapper
 haosou.com##.mh-adIco
+baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
 115.com##.mid-banner
 999.com##.midd-test > .imp
@@ -7071,6 +7067,7 @@ newcger.com##.mtb17.h90
 pixiv.net##.multi-ads-area
 07073.com##.multi_adv
 45zw.com##.mulu_list > table
+hkgolden.com##.myTestAd
 neihan8.com##.myad
 jyeoo.com##.mycenter > a:first-child
 myday.com.tw##.myday_ad_950
@@ -7744,9 +7741,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -7821,6 +7818,8 @@ pixnet.net##div[id*="-AD-"]
 pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[id*="-aD-"]
 mcdulll.com,pixnet.net##div[id*="-ad-"]
+baby-kingdom.com##div[id*="Banner Zone"] + script + a
+baby-kingdom.com##div[id*="Banner Zone"] + script + object
 chinaluxus.com##div[id*="ExtraAD"]
 tianya.cn##div[id*="_AD_"]
 e23.cn##div[id*="adv"]
@@ -8253,6 +8252,7 @@ diantai.ifeng.com#@#.ad-b
 comefromchina.com#@#.ad-block
 pixiv.net#@#.ad-footer
 qq.com#@#.ad-icon
+ntm.gov.tw#@#.ad-left
 qianyan001.com#@#.ad04
 mucanwenxue.com#@#.ad250
 apk.tw#@#.ad300
@@ -8312,7 +8312,6 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
-ntm.gov.tw#@#.ad-left
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
