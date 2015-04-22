@@ -4844,10 +4844,12 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||itjkr.com/upload/ad/
 ||iqiyi.com/show2?a=qc_
+||dushiwenxue.com/add/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dushiwenxue.com##.t1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8356,9 +8358,11 @@ sohu.com#@#.label-ad
 36.cn#@#.mainAd
 mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
+dushiwenxue.com#@##adTop
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||dushiwenxue.com/add/article/pagetop.js
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
