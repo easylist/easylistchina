@@ -1964,6 +1964,8 @@ _vmind.qqvideo.tc.qq.com^
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anquan.org/static/auth/images/ppb_cert/qq-browser.jpg
 ||anquan.org/static/profile/images/qq-banner.png
+||anquan.org/static/user_upload/*/cloud
+||anquan.org/static/user_upload/zorro/*/%E5%93%
 ||anywlan.com/link/nyt.gif
 ||aoye.cc/js/footer.js
 ||apas.aipai.com/www/api/aipaiPlayFull2.js?0.
@@ -2305,6 +2307,7 @@ _vmind.qqvideo.tc.qq.com^
 ||cool3c.com/sites/all/themes/coolthemes/cwww/ysm_
 ||coolaler.com.tw^*_300x100.
 ||coolaler.com.tw^*_340x80.
+||cooltu.com/mp/
 ||cosersuki.org/2013/03/20140515091120.jpg
 ||cosersuki.org^*/150x600
 ||cosersuki.org^*/AD
@@ -4068,6 +4071,7 @@ _vmind.qqvideo.tc.qq.com^
 ||shuyeer.com/views/default/images/close.gif
 ||shuyeer.com/views/default/mnstyle/hot/gg.js
 ||simplecd.me/static/js/adcpm.js
+||sina.cn/adfront/deliver.php?
 ||sina.com.cn/js/*/AdvertisingByNewIndex_
 ||sina.com.cn/js/*/bgads.js
 ||sina.com.cn/js/87/20140101/hongbao/
@@ -4847,17 +4851,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||anquan.org/static/user_upload/*/cloud
-||anquan.org/static/user_upload/zorro/*/%E5%93%
-||sina.cn/adfront/deliver.php?
-||cooltu.com/mp/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-07073.com##DIV[style="height:100px; margin-bottom:10px;"]
-anquan.org##A[href="http://www.jiasule.com/"]
-51cto.com###message
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5583,6 +5580,7 @@ yaolan.com###maryAd
 yzz.cn###media_float_right
 qtfy30.cn###menu + a
 saydigi.com###menu_banner
+51cto.com###message
 tv.sohu.com###miaozhenad
 download.enet.com.cn###middle_new > .font2
 emu999.net,webjx.com###middleimg
@@ -7698,6 +7696,7 @@ bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
 hexieshe.com##a[href="http://moe.hao123.com/"]
 bxs.cc##a[href="http://www.aoye.cc/"]
 178.com##a[href="http://www.bigeye.tv/"]
+anquan.org##a[href="http://www.jiasule.com/"]
 open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 xiadele.com##a[href="http://yun.banjiajia.com"]
@@ -8008,6 +8007,7 @@ tianjinwe.com##div[style="float:left; width:312px; height:250px; margin-bottom:1
 ting89.com,tingshuge.com##div[style="height: 280px"]
 lol.178.com##div[style="height: 60px; text-align: center;"]
 tompda.com##div[style="height: 90px; padding: 0px; overflow: hidden; margin-bottom: 12px;"]
+07073.com##div[style="height:100px; margin-bottom:10px;"]
 9ku.com##div[style="height:150px; overflow:hidden;zoom:1; width:960px; margin:12px auto 15px;"]
 huabian.com##div[style="height:250px;"]
 top.chinaz.com##div[style="height:280px; width:100%; text-align:center;"]
@@ -8275,6 +8275,7 @@ d77.com#@##ad-wrap
 greedio.com#@##adBox
 gohome.com.hk#@##adFrame
 2014.qq.com#@##adIframe
+wholehk.com#@##adSense
 wangnba.com#@##adSet
 33xs.com,aixiaoshuo.com.cn,dushiwenxue.com#@##adTop
 okwei.com#@##ad_0
@@ -8372,7 +8373,6 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
-wholehk.com#@##adSense
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
