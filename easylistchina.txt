@@ -1034,7 +1034,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||sphwq.net^$third-party
 ||sstc360.com^
 ||star8.net^$third-party
-||strip.taobaocdn.com^$third-party,domain=~57zhe.com|~foctop.com|~hetongal.ac.cn|~meidebi.com|~youhuiyouhui.com.cn
 ||superfish.com^$third-party
 ||t3nlink.com^$third-party
 ||tad.suning.com^
@@ -8376,6 +8375,7 @@ brandsales.58.com#@#div[id^="ad_"]
 dushiwenxue.com#@##AdTop
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||taobao.com^*&adgroupid=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
