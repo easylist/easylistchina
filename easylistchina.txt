@@ -1285,6 +1285,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk
 |http://*.7m.cn/b/
+|http://*/83/$domain=good6000.com|good7000.com|kiss6000.com|kiss7000.com|kv130.com|kv700.com
 |http://*/ad_bj.js?
 |http://*/adblock$domain=26766.com
 |http://*/p$script,domain=99770.cc|99comic.com|99manga.com
@@ -1551,7 +1552,6 @@ _vmind.qqvideo.tc.qq.com^
 ||360bo.cc/js/float.js
 ||360safego.com^
 ||3634.com/qq/
-|http://*/83/$domain=good6000.com|good7000.com|kiss6000.com|kiss7000.com|kv130.com|kv700.com
 ||36dm.com/images/250_250.jpg
 ||36dm.com/images/950_90.jpg
 ||36tv.cn/ad_pic/
@@ -4139,6 +4139,7 @@ _vmind.qqvideo.tc.qq.com^
 ||smzy.com^*970.js
 ||snybw.com/images/*-banner.
 ||so.6949.com^
+||so.open.163.com/v/list.htm?pid=
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
 ||soaspx.com/images/hws.gif
@@ -4850,18 +4851,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||so.open.163.com/v/list.htm?pid=
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-plu.cn##.inside-game-ap
-plu.cn##.side > A[target="_blank"]
-longzhu.com##.side > A[target="_blank"]
-plu.cn##.video-ad1
-tga.plu.cn###carousel
-tga.plu.cn##.banner-wrap
-gamer.com.tw###BH-ad_banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -4884,6 +4877,7 @@ js0573.com###Adv2
 js0573.com###Adv3
 js0573.com###Adv4
 zol.com.cn###Article_Top_Banner
+gamer.com.tw###BH-ad_banner
 china.com###BJ
 firefang.cn###BaiduAd1
 firefang.cn###BaiduAd2
@@ -5184,6 +5178,7 @@ finance.ifeng.com###box_img
 club.topsage.com###brbox
 114la.com###brownTop
 v.hao123.com###btn-dl-bro
+tga.plu.cn###carousel
 mao-123.com,mengmao.org###cat3
 bbs-mychat.com###cate_top > tr > .f_one
 lightnovel.cn###category_lk
@@ -6370,6 +6365,7 @@ xdkb.net##.banner-l
 crsky.com##.banner-leader
 fenxs.com##.banner-site
 firefoxchina.cn##.banner-words
+tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
 qikzj.com##.banner.push-right
 news.cn2che.com,sd001.com##.banner01
@@ -6947,7 +6943,7 @@ wangyeba.com##.innner950
 131458.com##.inq_04 + div + .inq_05
 131458.com##.inq_07
 gexing.com.cn##.inqqgx > a:first-child
-longzhu.com##.inside-game-ap
+longzhu.com,plu.cn##.inside-game-ap
 letv.com##.interact_cnt
 bestxl.com##.intro_inner
 jrj.com.cn##.ipo-ad
@@ -7367,6 +7363,7 @@ zahuishi.com##.show2960x90
 99770.cc,99comic.com,99manga.com##.sic
 99770.cc,99comic.com,99manga.com##.sid
 aohua.com.au##.sidBoxNoborder
+longzhu.com,plu.cn##.side > a[target="_blank"]
 laifudao.com##.side-adinner
 guokr.com##.side-adv
 ruten.com.tw##.side-advertise
@@ -7576,7 +7573,7 @@ tv.sohu.com##.us_left
 tv.sohu.com##.us_right
 0598yu.com##.v1100_ad
 iciba.com##.vRecomm
-longzhu.com##.video-ad1
+longzhu.com,plu.cn##.video-ad1
 longzhu.com##.video-ad2
 jianli-sky.com##.viewbd
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
@@ -8276,6 +8273,7 @@ wanshuge.net##ul[style="width: 880px;margin:0 auto;text-align:center;margin-top:
 firefoxchina.cn##ul[track-key="adv_links"]
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
+dushiwenxue.com#@##AdTop
 the-sun.on.cc#@##ContentAd1
 d77.com#@##ad-wrap
 greedio.com#@##adBox
@@ -8379,10 +8377,8 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
-dushiwenxue.com#@##AdTop
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||taobao.com^*&adgroupid=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8736,6 +8732,7 @@ dushiwenxue.com#@##AdTop
 @@||szhr.com.cn^$document,domain=szhr.com.cn
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
+@@||taobao.com^*&adgroupid=
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
 @@||tenpay.com^*?ADTAG=
 @@||thisav.com^*/$elemhide
