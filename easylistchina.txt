@@ -8407,6 +8407,9 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||pos.baidu.com^$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@||keyyou.net^$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@||tv002.com^$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@/pop.js|$domain=coolpad.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
