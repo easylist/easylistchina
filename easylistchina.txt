@@ -7690,7 +7690,7 @@ loldk.com##A[href*="?ADTAG="]
 5184.com##[class^="gk_gg"]
 gamme.com.tw##[class^="sidead_"]
 lknovel.lightnovel.cn##[href^="/"][href*="#"]
-douyutv.com##[href^="http://www.buffst.com/"]
+douyutv.com##a[href^="http://www.buffst.com/"]
 jjwxc.net##[id^="adp_"]
 77bike.com,ksbbs.com##[id^="ads_"]
 e0575.cn,sz.zj.cn##[id^="ads_c_"]
@@ -8406,6 +8406,7 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@/pop.js|$domain=coolpad.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
