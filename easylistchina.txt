@@ -701,7 +701,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 /99vjj/*$third-party
-||f70123.com^
 /adscpc/*
 /adscpv/*
 /AShow.aspx?AID=
@@ -909,6 +908,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||ertya.com^$third-party
 ||eyouv.cn^$third-party
 ||f1190.com^
+||f70123.com^
 ||f8272.com^$third-party
 ||feitian001.com^$third-party
 ||fmad.cc^$third-party
@@ -1360,6 +1360,7 @@ _vmind.qqvideo.tc.qq.com^
 ||114fw.com/dagg/
 ||114so.cn/js/nm*.js
 ||114so.cn^$subdocument
+||115.28.114.149^*_proxy.
 ||115.29.141.121:8086/js/wp.js
 ||115img.com/static/pc/d_127.html
 ||115mm.com/js/
@@ -3366,6 +3367,7 @@ _vmind.qqvideo.tc.qq.com^
 ||lady8844.com/IMAGE/$~image
 ||lagou.com/js/cooperation/
 ||laixi.com/tp/20
+||language-center.com.tw/udn/
 ||langxi.org/langxi/*900$image,object
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
@@ -4870,8 +4872,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||115.28.114.149^*_proxy.
-||language-center.com.tw/udn/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
@@ -8410,7 +8410,6 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||letvcloud.com^*&showAd=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8441,6 +8440,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/advertise/*$domain=sfbuy.com|suning.com
 @@/advertisement/*$domain=muyingzhijia.com|store.oppomobile.com
 @@/advertising/*$domain=houdask.com
+@@/adview_pic_cpc_$domain=123564.com
 @@/advs/*$domain=dianxinos.com|gotobuy.com.tw|haseemobile.net|lklm.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
@@ -8456,9 +8456,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/guanggao/*$domain=igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=fmdisk.com|fmpan.com
 @@/images/*/*.gif$domain=107.150.17.66|174.37.129.197|174.37.147.136|23.226.134.115|23.226.134.116|23.226.138.28|iu91.co|maichun5.info|myhhg.com|sejie.com|ukhuaren.co|yh1.info|yh10.info
-@@/images/ad$domain=10pan.cc
-@@/images/ad$domain=77pan.cc
-@@/adview_pic_cpc_$domain=123564.com
+@@/images/ad$domain=10pan.cc|77pan.cc
 @@/images/ad/*$domain=518pan.cc|5i5j.com|9588.com|diantai.ifeng.com|dod-tec.com|ourgame.com|rapoo.nl|snh48.com|tingbook.com
 @@/images/ads.$domain=01hr.com
 @@/img_ad/*$domain=yy960.com
@@ -8692,6 +8690,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||l.qq.com/livemsg?ty=web&ad_type=
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||letv.com*/tuiguang/$subdocument
+@@||letvcloud.com^*&showAd=
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||ltxhcz.com/skin/default/images/
 @@||meiziweibo.com^$elemhide
