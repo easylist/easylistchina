@@ -700,8 +700,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||e70123.com^
-||ufstone.com^$third-party
 /99vjj/*$third-party
 /adscpc/*
 /adscpv/*
@@ -899,6 +897,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||dvr8.com^
 ||dxpmedia.com^$third-party
 ||dxssiyi.com^
+||e70123.com^
 ||ea3721.com^$third-party
 ||ecuc123.net^
 ||eeyy.com^$third-party
@@ -1066,6 +1065,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||ubmcmm.baidustatic.com^
 ||ubt123.com^
 ||ueadlian.com^$third-party
+||ufstone.com^$third-party
 ||ujian.cc^$third-party
 ||ulink.cc^$third-party
 ||unimhk.com^$third-party
@@ -1583,6 +1583,8 @@ _vmind.qqvideo.tc.qq.com^
 ||3h3.com/js/show/
 ||3sjt.com/3sjtimg/
 ||400516.com/data/attachment/album/
+||400qiqi.com/cx111.js
+||400qiqi.com/js/
 ||40407.com/plus/rpad/
 ||40407.com/templets/default/images/index.js
 ||40wan.com/js/www2/
@@ -2760,6 +2762,7 @@ _vmind.qqvideo.tc.qq.com^
 ||groupa.onlylady.com^
 ||gscn.com.cn/home/images/advscroll.js
 ||gscn.com.cn/pic/0/10/34/27/10342786_994137.gif
+||gsspcln.jp^
 ||gter.net^*adv
 ||gtimg.com/comic/pics/hv1/29/74/1631/106074674.jpg
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
@@ -2952,6 +2955,7 @@ _vmind.qqvideo.tc.qq.com^
 ||huainet.com/index_tg/js/txg.js
 ||hualady.com/static/
 ||huanqiu.com/script/HuanQiuAllBottom.Js
+||huanqiu.com^*/js/swt.js
 ||huanqiukexue.com/uploads/images/hqkx_11.jpg
 ||huaxieyu.com/wp-content/themes/HotNewspro20140605/images/default.jpg
 ||hudong.pl.youku.com/interact/player/get/plugins?
@@ -3146,6 +3150,7 @@ _vmind.qqvideo.tc.qq.com^
 ||inte.sogou.com^
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
+||iqiyi.com/common/flashplayer*_1380x
 ||iqiyi.com/common/flashplayer/*-banner-
 ||iqiyi.com/common/flashplayer/*/pageer.swf
 ||iqiyi.com/common/flashplayer/*/pause.swf
@@ -4874,18 +4879,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||400qiqi.com/cx111.js
-||400qiqi.com/js/
-||gsspcln.jp^
-||huanqiu.com^*/js/swt.js
-||iqiyi.com/common/flashplayer*_1380x
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-news.baidu.com###women-picwall
-ku6.com##.ckl_ios
-miomio.tv##.ad-f > CENTER
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5898,6 +5895,7 @@ ccav1.com,heu8.com###widget_ada
 ccav1.com###widget_default
 360.cn###wifiAnywhere
 189so.cn###winpop
+news.baidu.com###women-picwall
 xici.net###word_ad
 jump.bdimg.com,tieba.baidu.com,tieba.com###worldcup_guess_frs_wrap
 jump.bdimg.com,tieba.baidu.com,tieba.com###worldcup_topic
@@ -6049,6 +6047,7 @@ cqmmgo.com##.ad-cycle
 simplecd.me##.ad-entry-sidebar-1
 simplecd.me##.ad-entry-sidebar-2
 bilibili.com,bilibili.kankanews.com,bilibili.tv##.ad-f
+miomio.tv##.ad-f > center
 qq.com##.ad-foot
 pixiv.net##.ad-footer + .hover-item
 simplecd.me##.ad-in-entry
@@ -6536,6 +6535,7 @@ douban.com##.channel_promo
 businessweekly.com.tw##.channelname > .hot_kw
 cb.com.cn##.chbox_r_ad
 firefoxchina.cn##.chip-banners
+ku6.com##.ckl_ios
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 fpdisplay.com##.class_adv1
@@ -7841,9 +7841,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
