@@ -701,7 +701,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 /99vjj/*$third-party
-||t70123.com^
 /adscpc/*
 /adscpv/*
 /AShow.aspx?AID=
@@ -1043,6 +1042,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||star8.net^$third-party
 ||superfish.com^$third-party
 ||t3nlink.com^$third-party
+||t70123.com^
 ||tad.suning.com^
 ||tanchuang002.info^$third-party
 ||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
@@ -1338,6 +1338,8 @@ _vmind.qqvideo.tc.qq.com^
 ||0dian8.org/data/js/
 ||10000sb.com/4gbct.js
 ||100bt.com^*=qq_topic_ad
+||100ksw.com/include/ksbdfd.js
+||100ksw.com/ksbd/ksbdparad.js
 ||101.78.195.135/js/
 ||102tv.cn/js/ad*.js
 ||102tv.cn/js/desktop.js
@@ -1949,6 +1951,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ajiang.net/b4_dnslak.png
 ||ak47fuli.net/fd.js
 ||ak47fuli.net/wp-content/uploads/20*.gif
+||akamaihd.net^*/gsd.html?d=
 ||aknba.com/cache/ads.js
 ||alabout.com/images/*.gif
 ||alexa.cn/ad$subdocument
@@ -2225,6 +2228,7 @@ _vmind.qqvideo.tc.qq.com^
 ||china.com/zh_cn/etc/gghead
 ||china.com/zh_cn/plugin/all/hezuo360/
 ||chinaacc.com/lamu/dl-
+||chinaacc.com^$domain=100ksw.com
 ||chinacar.com.cn/zhuanyongche/images/wintip_
 ||chinachugui.com/jsfiles/aods/
 ||chinadaily.com.cn/micro-reading/dzh/bd-taofang.gif
@@ -2871,6 +2875,7 @@ _vmind.qqvideo.tc.qq.com^
 ||hego123.net/top.js
 ||heiguang.com/f/uad/
 ||heiguang.com/statics/201404/img/tiop-1.jpg
+||heikexs.com/wp-content/themes/Duoxs*/js/
 ||heitu5.com/js/heituad/
 ||henan.sina.com.cn/iframe/7/
 ||henghost.com^$third-party
@@ -2970,6 +2975,7 @@ _vmind.qqvideo.tc.qq.com^
 ||hur.cn/AhurD/*.gif
 ||hutc.zj.cn/skins/hutc2012/js/fp.js
 ||huxiu.com/static/js/jobAds/
+||hwcdn.net^*.html
 ||hx95.com/images/sn88.gif
 ||hx95.com/images/vip.gif
 ||hx9m.com/ggtp/
@@ -4858,6 +4864,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zk168.com.cn/js/fwpd.js
 ||zk168.com.cn/js/s.js
 ||zk168.com.cn/js/sy
+||znz888.cn/modblock/
 ||zo66.com^
 ||zol.com.cn/intelcorp/
 ||zolsky.com^*ad/*.js
@@ -4880,21 +4887,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||heikexs.com/wp-content/themes/Duoxs*/js/
-||chinaacc.com^$domain=100ksw.com
-||100ksw.com/include/ksbdfd.js
-||100ksw.com/ksbd/ksbdparad.js
-||hwcdn.net^*.html
-||akamaihd.net^*/gsd.html?d=
-||znz888.cn/modblock/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-94as.com##TABLE[width="960"][height="70"]
-cs.com.cn###dyjAdLayer1
-100ksw.com###ad_move_sg
-100ksw.com##A[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5080,6 +5076,7 @@ autohome.com.cn###ad_ic_video
 7lili.com###ad_index_3
 fengbao.com###ad_lazyload
 udn.com###ad_mag
+100ksw.com###ad_move_sg
 c114.net###ad_r1
 jbtalks.cc###ad_region_E
 400gb.com,bego.cc,ctfile.com,pipipan.com###ad_right_side
@@ -5351,6 +5348,7 @@ my0511.com###duilianleftdiv
 my0511.com###duilianrightdiv
 gongkong.com###dull_left
 gongkong.com###dull_right
+cs.com.cn###dyjAdLayer1
 haosou.com,so.com###e_idea_left
 haosou.com,so.com###e_idea_pp
 appledaily.com.tw###eat_travel
@@ -7728,7 +7726,7 @@ xiaohua.hao.360.cn##a[href$="?realtime"]
 tiexue.net##a[href*=".junph."] > img
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-cosersuki.org,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,zalra.cn##a[href*=".taobao.com"]
+cosersuki.org,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,tsdm.net,zalra.cn##a[href*=".taobao.com"]
 gmgard.us,hexieshe.com,lightnovel.cn,soul-plus.org##a[href*=".tmall.com"]
 letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
@@ -7744,7 +7742,6 @@ m.baidu.com##a[href="http://126.am/4MHWn3"]
 cnbeta.com##a[href="http://aos.prf.hn/click/camref:100lcC/"]
 kdslife.com##a[href="http://club.kdslife.com/thread_1_15_8389777__.html"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
-tsdm.net##A[href*=".taobao.com"]
 hexieshe.com##a[href="http://juju.la"]
 bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
 hexieshe.com##a[href="http://moe.hao123.com/"]
@@ -7767,6 +7764,7 @@ ithome.com##a[href^="http://clkde.tradedoubler.com/"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 6park.com##a[href^="http://list.6park.com/parks/out.php?"]
+100ksw.com##a[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
 21cn.com##a[href^="http://news.haxiu.com/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 it.com.cn,vikilife.com##a[href^="http://s.click.taobao.com/"]
@@ -7853,8 +7851,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8282,6 +8280,7 @@ shmet.com##table[width="960"][border="0"]
 3773.com.cn##table[width="960"][height="100"]
 3773.com.cn##table[width="960"][height="105"]
 fpdisplay.com##table[width="960"][height="110"]
+94as.com##table[width="960"][height="70"]
 gpcxw.com,kanguba.com##table[width="960"][height="90"]
 ppmsg.com##table[width="960"][height]
 xindm.cn##table[width="976"][background="/image/04/line2.gif"]
@@ -8432,7 +8431,6 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8683,6 +8681,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||gqzzw.com*/adview_
 @@||guancha.cn/ad/m_
 @@||hd.duba.net/vip.ijinshan.com/repository/ad-images/$image,domain=vip.ijinshan.com
+@@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
 @@||hh010.com/static/js/adsbygoogle_ad_adview_pic_cpc_cpm_cpa_guanggao_gg.js
 @@||hkjc.com/banners/
 @@||huelead.com/images/*ad
