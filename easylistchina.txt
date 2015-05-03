@@ -907,6 +907,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||elsad.tw^$third-party
 ||emarbox.com^$third-party
 ||ertya.com^$third-party
+||eshopcomp.com^
 ||eyouv.cn^$third-party
 ||f1190.com^
 ||f70123.com^
@@ -1015,7 +1016,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||pos.baidu.com/ecom?
 ||poxzyu.com^$third-party
 ||prohost.com.tw^$third-party
-||eshopcomp.com^
 ||qidou.com^$third-party
 ||qiyou.com^$third-party
 ||qq4g.cn^$third-party
@@ -1126,7 +1126,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?Intr=$popup
-||smartor.org/iclk/?zoneid=$popup
 /?ref=$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
@@ -1149,6 +1148,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||qidian.com/showavd.$popup
 ||quicku.cn^$popup,domain=byhh.org
+||smartor.org/iclk/?zoneid=$popup
 ||son999.com^$popup,third-party
 ||sumorobo.net^$popup
 ||trade2345.cn.com^$popup,third-party
@@ -1543,6 +1543,7 @@ _vmind.qqvideo.tc.qq.com^
 ||33.autoimg.cn/homeurl/*.js
 ||33.autoimg.cn/t/Adhtmlnet/*.jpg
 ||33.autoimg.cn/t/Adhtmlnet/*.swf
+||333111.com/001.htm
 ||3344bt.com^*.js
 ||3399.com/act/5599/js/kuang
 ||3399.com/act/fk/
@@ -2425,6 +2426,7 @@ _vmind.qqvideo.tc.qq.com^
 ||discuss.com.hk/dfp_forum.php?au=Discuss_Web_
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||discuzlab.com/data/attachment/portal/
+||disk1.net/i/2/900%C3%9740.gif
 ||divcss5.com*/ibeifeng/
 ||divcss5.com/image-css/enkj/
 ||divcss5.com/image-css/liping/
@@ -2929,6 +2931,7 @@ _vmind.qqvideo.tc.qq.com^
 ||hot.580k.com/share/Ad_
 ||hotavxxx.com/images/*96
 ||hotavxxx.com/images/111111111.jpg
+||hotavxxx.com/images/bgguang.jpg
 ||hoto.cn/source/img/index_4.jpg
 ||houdao.com/bans/
 ||houdao.com/images/houdaov3/ban.png
@@ -4194,6 +4197,7 @@ _vmind.qqvideo.tc.qq.com^
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
 ||soso.com/baike/js/ad_
+||soul-plus.net/images/moe
 ||soul-plus.org/images/manqu
 ||source.qunar.com/site/images/wns/
 ||southmoney.com/page/inc/
@@ -4889,19 +4893,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||disk1.net/i/2/900%C3%9740.gif
-||soul-plus.net/images/moe
-||hotavxxx.com/images/bgguang.jpg
-||333111.com/001.htm
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-333111.com##IMG[width="957"]
-muzhi.baidu.com##.leftnest
-muzhi.baidu.com##.rightnest
-muzhi.baidu.com##.wgt-container
-jump.bdimg.com,tieba.baidu.com,tieba.com###duoku_servers_list
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5360,6 +5355,7 @@ my0511.com###duilianleftdiv
 my0511.com###duilianrightdiv
 gongkong.com###dull_left
 gongkong.com###dull_right
+jump.bdimg.com,tieba.baidu.com,tieba.com###duoku_servers_list
 cs.com.cn###dyjAdLayer1
 haosou.com,so.com###e_idea_left
 haosou.com,so.com###e_idea_pp
@@ -7080,6 +7076,7 @@ id97.com##.leftadch
 hao123.com##.leftbanner
 ks.js.cn##.leftgg
 g1080.com##.leftlink
+muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 linuxidc.com##.linuxy1
 btdigg.me##.list > dl:first-child
@@ -7372,6 +7369,7 @@ id97.com##.rightadch
 xxsy.net##.rightbanner
 mail.sina.com.cn##.rightbottom
 g1080.com##.rightlink
+muzhi.baidu.com##.rightnest
 portablesoft.org##.rightside > :nth-child(n+2)
 biz.ifeng.com##.riodel
 wangdaizhijia.com##.rnad
@@ -7661,6 +7659,7 @@ ttplay8.cn,xk77.com##.wenad
 d5yuansu.com##.wenadds
 baidu.com##.wgt-ads
 zhidao.baidu.com##.wgt-bottom-ask
+muzhi.baidu.com##.wgt-container
 maxthon.cn##.widget-main-ad-img
 maxthon.cn##.widget-main-hot-links
 52xr.com,54xr.com,xr8.me,xrba.net##.widget:first-child
@@ -7864,9 +7863,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8221,6 +8220,7 @@ jd-bbs.com##img[width="900"][height="100"]
 855699.com##img[width="922"]
 hz0572.com##img[width="950"]
 fjlyfdc.com.cn##img[width="950"][height="80"]
+333111.com##img[width="957"]
 e0575.cn##img[width="960"]
 xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn##img[width="980"]
@@ -8653,7 +8653,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||costco.com.tw/jsps/website/*AD
 @@||cpro.baidu.com/cpro/ui/c.js$domain=520tingshu.com
 @@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|colafile.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|bzfxw.com|colafile.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
@@ -8750,9 +8750,8 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||photo.erji.com/tb/*.gif
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=bzfxw.com
-@@||pos.baidu.com/acom?$domain=bzfxw.com
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
+@@||pos.baidu.com/acom?$domain=bzfxw.com
 @@||pos.baidu.com/acom?di=$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||pos.baidu.com/acom?di=u1460926&
 @@||pos.baidu.com/acom?di=u1671167&
