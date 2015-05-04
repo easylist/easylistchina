@@ -701,6 +701,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 ||68665565.com^
+.com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 ||genieessp.com^$third-party
 /adscpc/*
@@ -4901,6 +4902,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+baidu.com###ec_im_container
+baidu.com##.ec_im_container
+zuoye.baidu.com##dl[class="card related"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[tpl="job"] > .c-border
 idcard.911cha.com##.panel > A
 99tianji.com##.kf1
