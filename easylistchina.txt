@@ -700,10 +700,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||68665565.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
-||genieessp.com^$third-party
 /adscpc/*
 /adscpv/*
 /AShow.aspx?AID=
@@ -794,6 +792,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||63kc.com^$third-party
 ||668559.com^$third-party
 ||685wo.com^$script,third-party
+||68665565.com^
 ||6dvip.com^
 ||70e.com^$third-party
 ||71sem.com^
@@ -921,6 +920,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||fxxgw.com^$third-party
 ||game3737.com^$third-party
 ||gameone.com^$third-party
+||genieessp.com^$third-party
 ||geotmt.com^$third-party
 ||gf108.com^
 ||gf1352.com^
@@ -1825,6 +1825,7 @@ _vmind.qqvideo.tc.qq.com^
 ||90oo.com/tp/*980.gif
 ||90oo.com/tp/90232.jpg
 ||90oo.com/tp/down.gif
+||90oo.com/tp/hg888.gif
 ||90oo.com/tp/msn.jpg
 ||90oo.com/tp/w981.gif
 ||90zy.cn/data/attachment/portal/
@@ -1857,6 +1858,7 @@ _vmind.qqvideo.tc.qq.com^
 ||99re.com/images/close.gif
 ||99re1.com/images/*.gif
 ||99re2.com/images/*.gif
+||99tianji.com/hack/kaifubiao.js
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
 ||9ht.com/skin2012/js/tlAd.js
@@ -4290,6 +4292,9 @@ _vmind.qqvideo.tc.qq.com^
 ||taiwan.cn/images/20140606_nxtshtzfww.jpg
 ||taiwan.cn/images/tw_ad_
 ||taiwandaily.net/uploadimages%
+||taizhou.com.cn/52.files/a*20
+||taizhou.com.cn/52.files/c1_20150423.swf
+||taizhou.com.cn/yule/3890.files/xchad.jpg
 ||taobaocdn.com/imgextra/$domain=backtrack.org.cn
 ||taobaocdn.com/tps/i1/TB14t03FVXXXXapaXXX8EsMMFXX-1680-450.jpg_670x670.jpg
 ||taobaocdn.com^$domain=dnwx.com|gmgard.us|lightnovel.cn|nxnba.com|snybw.com
@@ -4896,21 +4901,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||99tianji.com/hack/kaifubiao.js
-||90oo.com/tp/hg888.gif
-||taizhou.com.cn/52.files/a*20
-||taizhou.com.cn/52.files/c1_20150423.swf
-||taizhou.com.cn/yule/3890.files/xchad.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-baidu.com###ec_im_container
-baidu.com##.ec_im_container
-zuoye.baidu.com##dl[class="card related"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[tpl="job"] > .c-border
-idcard.911cha.com##.panel > A
-99tianji.com##.kf1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5375,6 +5369,7 @@ haosou.com,so.com###e_idea_left
 haosou.com,so.com###e_idea_pp
 appledaily.com.tw###eat_travel
 appledaily.com.tw###eat_travel_bot
+baidu.com###ec_im_container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-temai-category
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-temai-general
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-weigou-view-container
@@ -6688,6 +6683,7 @@ douyutv.com##.dy_top_gg
 easou.com##.easou_banner
 m.baidu.com##.ec_adv
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ec_bdtg
+baidu.com##.ec_im_container
 ettoday.net##.ec_menu
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-edu-course-mini-container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-edu-course-mini-rec-list
@@ -7046,6 +7042,7 @@ jxedt.com##.jxpl
 luoweihua.cn##.k_ad
 v.ifeng.com##.keyword
 99114.com##.keywordAd
+99tianji.com##.kf1
 cnool.net,tech.qq.com##.kjad2
 iciba.com##.kk01
 1kkk.com##.kk2.cc
@@ -7270,6 +7267,7 @@ actoys.net##.p_top_ad
 cssmoban.com##.page-banner
 xizi.com##.pageAD1
 cjdby.net##.page_right_ad
+idcard.911cha.com##.panel > a
 qqyy.com##.par-ad336
 www.sina.com.cn##.part-k-l > .mod-13
 www.sina.com.cn##.part-l
@@ -7877,8 +7875,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8201,10 +8199,12 @@ www.jstv.com##div[style^="width:978px; height:100px;"]
 chinawin.net##div[style^="width:978px;height:90px"]
 21yq.com##div[style^="width:980px;height:80px;"]
 zol.com.cn##div[style^="width:980px;height:90px;text-align:center;"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="job"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecr_pc_game_"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
+zuoye.baidu.com##dl[class="card related"]
 mcxiaobu.com##dl[id^="divFunction"]
 ks.js.cn##embed[src*="yytf/"]
 hiapk.com##font.jammer
@@ -8353,7 +8353,7 @@ wanshuge.net##ul[style="width: 880px;margin:0 auto;text-align:center;margin-top:
 firefoxchina.cn##ul[track-key="adv_links"]
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
-dushiwenxue.com#@##AdTop
+aixiaoshuo.com.cn,dushiwenxue.com#@##AdTop
 the-sun.on.cc#@##ContentAd1
 d77.com#@##ad-wrap
 greedio.com#@##adBox
@@ -8456,7 +8456,6 @@ sohu.com#@#.label-ad
 mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
-aixiaoshuo.com.cn#@##AdTop
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
