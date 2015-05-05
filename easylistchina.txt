@@ -1190,6 +1190,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /attachment/album/*$domain=www.52hardware.com
 /attachment/Mon_$domain=8888eee.com|xav4.com|xav5.com|xav6.com|xav7.com|xav8.com|xav9.com|xiaav.cc|xiaav.me
 /avshow_cn1.gif
+/banner.js$domain=28188.com|28188.net
 /banner/*$domain=dolc.de|dolc.info
 /biz_icon/*$domain=cs090.com|wm090.com
 /business/*$domain=1396me.com
@@ -1265,6 +1266,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /sungg/*$domain=sun0769.com
 /sznews/images/bbsgg
 /tb780x90.gif$domain=btmee.com|btmee.net
+/the_top$domain=28188.com|28188.net
 /tonghuacun/skin/zxf/kan_hree.js
 /tres/recommend/*$domain=ifeng.com
 /uniontgm.cmb.
@@ -1686,6 +1688,7 @@ _vmind.qqvideo.tc.qq.com^
 ||58.com/ds/tgbrand/
 ||58.com/ui7/*banner_
 ||58cdn.com.cn/ds/tgbrand/
+||59.36.101.209:888/link/vc_280x192.gif
 ||591.xxx/images/*.gif
 ||591.xxx/media/banners/
 ||591hx.com/images/0000.jpg
@@ -2271,6 +2274,7 @@ _vmind.qqvideo.tc.qq.com^
 ||chuixue.com/jsa/
 ||chuixue.com/template/*/images/g_js/show_
 ||chunxiao.tv/1.aspx
+||cili001.com/52meiju_700_90.jpg
 ||cilook.net/cilookinc/isee5_950x60.gif
 ||cishuge.com/static/js/xiaoshuo.js
 ||citysbs.com/no/*/1190x60-
@@ -2923,6 +2927,7 @@ _vmind.qqvideo.tc.qq.com^
 ||hkheadline.com/*promo/
 ||hkheadline.com^*/right_promo.js
 ||hkslg.com/gaogao/
+||hktvmall.com/api/preroll/getList?
 ||hkwb.net/extra/1992.files/960%C3%9768.gif
 ||hkwb.net/images/123.gif
 ||hkwb.net/images/yp.gif
@@ -4169,6 +4174,7 @@ _vmind.qqvideo.tc.qq.com^
 ||sinajs.cn/xblogstyle/images/activity/xinyue_ad/banner
 ||siqiboke.com/upload/ad-
 ||siqiboke.com/upload/winpop.js
+||siyu88.cn/xl/
 ||sj.net.cn/img/hlw428.gif
 ||sjyws.sjyws.com^*.gif
 ||sjzbus.com.cn/advimg/
@@ -4488,6 +4494,7 @@ _vmind.qqvideo.tc.qq.com^
 ||vista.tgbus.com/s.js
 ||vista.tgbusdata.cn/s.js
 ||vjie.com/templates/lieqi/js/_banner.js
+||vkeke.net/public/agd.js
 ||vnet.cn^*.html
 ||voc.com.cn/adsClick/
 ||voc.com.cn/Frame/qqms_cs.html
@@ -4901,23 +4908,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||cili001.com/52meiju_700_90.jpg
-||vkeke.net/public/agd.js
-||59.36.101.209:888/link/vc_280x192.gif
-/banner.js$domain=28188.com|28188.net
-/the_top$domain=28188.com|28188.net
-/the_top$domain=28188.com|28188.net
-||hktvmall.com/api/preroll/getList?
-||siyu88.cn/xl/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yeecloud.com##.ad_yongche
-zimuzu.tv###output > LI > A[href^="http"]:not([href^="http://www.zimuzu."])
-zimuzu.tv###output > LI > A[href^="http"]:not([href^="http://www.zimuzu."]) + h2
-lalulalu.com##.overture_banner
-zimuzu.tv###bbs_list_ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5203,6 +5197,7 @@ shangdu.com###banner960
 766.com,ksbbs.com###banner_top
 ipeen.com.tw###bar-header
 zymk.cn###bb
+zimuzu.tv###bbs_list_ad
 emuch.net###bbsmain > div[style="padding:10px 0;"] > table
 cntv.cn###bbspop
 gamme.com.tw###bd
@@ -5683,6 +5678,8 @@ leiting001.com,leitingcn.com###nrad
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
 ifeng.com###optimusPrimeContentId
+zimuzu.tv###output > li > a[href^="http"]:not([href^="http://www.zimuzu."])
+zimuzu.tv###output > li > a[href^="http"]:not([href^="http://www.zimuzu."]) + h2
 dnvod.eu###outwin
 lalulalu.com###overture-side-bar-ads
 3boys2girls.com###overture_ads_long
@@ -6273,6 +6270,7 @@ pchome.com.tw##.ad_triple
 putclub.com##.ad_vipabc
 yinyuetai.com##.ad_w300
 itavcn.com##.ad_wordxin
+yeecloud.com##.ad_yongche
 house.bdinfo.net##.adb
 ifeng.com##.adbest
 keke001.com,oogps.com##.adbg
@@ -7266,6 +7264,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.opr-xmas-game-container
 zhidao.baidu.com##.optimus
 jump.bdimg.com,tieba.baidu.com,tieba.com##.order_repost_wrap
 wenxuecity.com##.otherposts
+lalulalu.com##.overture_banner
 allhabit.com##.overture_forumlist
 allhabit.com##.overture_threadlist
 allhabit.com##.overture_threadlist_single
@@ -7887,8 +7886,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8471,7 +8470,6 @@ yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/adlogger_tracker.php$domain=serve.netsh.org
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8492,6 +8490,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/ad_images/*$domain=88box.com
 @@/adbanner/*$image,domain=books.com.tw
 @@/adimg/*$domain=itools.cn|laniqu.com|tdx.com.cn|veryeast.cn
+@@/adlogger_tracker.php$domain=serve.netsh.org
 @@/adpic/*$domain=czsrc.com|nieyou.com|youlea.com
 @@/ads/*$domain=189.cn
 @@/adsame.$domain=liba.com|libaclub.com
