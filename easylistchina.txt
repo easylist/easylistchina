@@ -4906,6 +4906,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+zimuzu.tv###output > LI > A[href^="http"]:not([href^="http://www.zimuzu."])
+zimuzu.tv###output > LI > A[href^="http"]:not([href^="http://www.zimuzu."]) + h2
 lalulalu.com##.overture_banner
 zimuzu.tv###bbs_list_ad
 hc360.com,yaolan.com###AD
@@ -7328,7 +7330,6 @@ v.pps.tv##.pps-app-layer
 price.com.hk##.prod_minibanner
 pbhz.com##.product-nav-box
 655u.com##.pt_gg
-aoshu.com##.pub-tc
 shangdu.com##.pub_ad
 hao.163.com##.qa
 qidian.com##.qd_sms_pop
