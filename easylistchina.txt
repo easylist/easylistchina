@@ -650,6 +650,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##.adsense200
 ~winba.me##.baiduad
 ##.bm.a_c
+##.bottomSponsor
 ##.cari-ads
 ##.con_ad
 ##.content_ad_300
@@ -669,6 +670,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##.mlad
 ##.pagead_3
 ##.tipadds
+##.topSponsor
 ##.wf_ad_block
 ##.wp.a_f
 ~aircn.org,~steamcn.com##.wp.a_t
@@ -698,8 +700,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.topSponsor
-##.bottomSponsor
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -1133,7 +1133,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?Intr=$popup
-||javjunkies.com/JO.php$popup
 /?ref=$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
@@ -1152,6 +1151,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||gxp.cc^$popup,third-party
 ||iqiyi.com/track$popup
 ||javjunkies.com/JAV.php$popup
+||javjunkies.com/JO.php$popup
 ||jjwxc.net/jjad*.html$popup
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||qidian.com/showavd.$popup
@@ -1202,7 +1202,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /cari/banner/*
 /cari/daybanner/*
 /comiis_yccs/ads/*
-/config.js$domain=123gbgb.com|etet666.com|12345xo.com|216xx.com|66ctct.com|987abc.com|auau88.com|xbxb123.com|yeyeqi7.com
+/config.js$domain=12345xo.com|123gbgb.com|216xx.com|66ctct.com|987abc.com|auau88.com|etet666.com|xbxb123.com|yeyeqi7.com
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /dhfun_ad/*
 /dy_44jjss/*
@@ -2098,6 +2098,7 @@ _vmind.qqvideo.tc.qq.com^
 ||beanfun.com/playweb/adpicpage.htm
 ||beareyes.com.cn/2/face/wuhan/200804ad/
 ||beareyes.com.cn^*/ad/
+||beephone.com.tw/ad-middle.php
 ||beephone.com.tw/ad-yahoo.php
 ||bego.cc/img/
 ||beijing-air.com/images/a/j
@@ -4922,13 +4923,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||beephone.com.tw/ad-middle.php
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-shunwang.com##.ola_program
-shunwang.com##[id^="ad_"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7276,6 +7274,7 @@ srzc.com##.nry_dbtongl
 szhk.com##.ny_ad1
 club.pchome.net,kdslife.com##.o_info font
 douyutv.com##.offi_ad:first-child
+shunwang.com##.ola_program
 hepan.com##.onead
 pgzhibo.com##.onlineqq
 pgzhibo.com##.onlineqq_left
@@ -7769,6 +7768,7 @@ loldk.com##A[href*="?ADTAG="]
 5184.com##[class^="gk_gg"]
 gamme.com.tw##[class^="sidead_"]
 lknovel.lightnovel.cn##[href^="/"][href*="#"]
+shunwang.com##[id^="ad_"]
 jjwxc.net##[id^="adp_"]
 77bike.com,ksbbs.com##[id^="ads_"]
 e0575.cn,sz.zj.cn##[id^="ads_c_"]
@@ -7906,8 +7906,8 @@ news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8381,7 +8381,7 @@ wanshuge.net##ul[style="width: 880px;margin:0 auto;text-align:center;margin-top:
 firefoxchina.cn##ul[track-key="adv_links"]
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
-aixiaoshuo.com.cn,dushiwenxue.com#@##AdTop
+aixiaoshuo.com.cn,baishuku.com,dushiwenxue.com#@##AdTop
 the-sun.on.cc#@##ContentAd1
 d77.com#@##ad-wrap
 greedio.com#@##adBox
@@ -8395,6 +8395,7 @@ two.game.tw#@##ad_02
 okwei.com#@##ad_160
 unisharp.com#@##ad_banner
 shuaijiao.com#@##ad_big
+10010.com#@##ad_bottom
 chanet.com.cn,xingk.cc#@##ad_content
 wholehk.com#@##ad_headerbanner
 pupuapp.com#@##ad_img
@@ -8484,8 +8485,6 @@ mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
-10010.com#@##ad_bottom
-baishuku.com#@##AdTop
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
