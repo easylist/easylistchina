@@ -702,7 +702,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-|http://*:6970/s.php?id=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -730,6 +729,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://*.com/s.php?id=$script,third-party
 |http://*.tw/s.php?id=$script,third-party
 |http://*:6215/s.php?id=$script,third-party
+|http://*:6970/s.php?id=$script,third-party
 |http://*:8088/s.php?id=$script,third-party
 ||007y.net^$third-party
 ||033.com^$third-party
@@ -1166,6 +1166,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||yingshidiguo.cn^$popup,domain=henbt.com
 ||zhubajie.com/?fromcode=$popup
 !----------------------Specific advert blocking filters-----------------------!
+.543evv.com/js/config.js
 .adsame.libaclub.com^
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
@@ -1704,6 +1705,7 @@ _vmind.qqvideo.tc.qq.com^
 ||591hx.com/js/dll.js
 ||591hx.com/js/floatbox.js
 ||591hx.com/lunbo/
+||591hx.com/zyrk_dy/gwjl.html
 ||5944.net/source/css/images/ad_
 ||5adm.net/79070.gif
 ||5dmail.net/image/$object
@@ -1827,6 +1829,7 @@ _vmind.qqvideo.tc.qq.com^
 ||88gs.com/agfile/
 ||88liu.com/data/attachment/portal/
 ||8dyun.com/*.php$script
+||8iyy.com/css/*.js
 ||8jkx.com^
 ||8vod.net/detail/play_*.js
 ||8vod.net/detail/vod_*.js
@@ -2171,6 +2174,7 @@ _vmind.qqvideo.tc.qq.com^
 ||btkuaisou.com/ac/
 ||btn.onlylady.com^
 ||btn.pchome.net^
+||btshark.com/static/img/*300x250.
 ||bttiantang.com/style/*ad$script
 ||bukade.com/js/*_p_
 ||bukade.com/js/tj2.js
@@ -2807,6 +2811,7 @@ _vmind.qqvideo.tc.qq.com^
 ||gtimg.com/qqlive/
 ||gtimg.com/sports/000_AD/
 ||gtimg.com/v/pics/hv1/88/83/1734/112774603.jpg
+||gtimg.com/web/default_fodders/300x600_$~collapse
 ||gtimg.com/www/test/300_250.swf
 ||gtimg.com^*/ad/
 ||gtv.com.cn/public/images/2014-01/26/97_76841390730340.jpg
@@ -3204,6 +3209,7 @@ _vmind.qqvideo.tc.qq.com^
 ||it.com.cn/dy4*/js/*0
 ||it.com.cn/dy4*/js/youx.js
 ||it.com.cn/js/*art
+||it165.net/index.php?m=poster&
 ||it168.com/factory/ad/
 ||italk.yinsha.com/god/
 ||itavcn.com/images/*-banners722-90.
@@ -3428,9 +3434,11 @@ _vmind.qqvideo.tc.qq.com^
 ||laogu.com/my/ad
 ||laoyuegou.com/img/*/banner/
 ||laoyuegou.com/js/*_couplet_
+||laozuo.org/linode125.jpg
 ||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/index-top.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/sidebar.js
+||laozuo.org/wp-content/themes/weisaysimple/js/single-bottom.js
 ||law-lib.com/2009_ad/
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
@@ -3917,6 +3925,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qiyipic.com/common/*/980-
 ||qiyipic.com/common/*/baiyao.
 ||qiyipic.com/common/*_aLink
+||qiyipic.com/common/*tonglan
 ||qiyipic.com/common/20140814/d68d9651bac24228996dd7a19f269d79.png
 ||qiyipic.com/common/20141021/sanjiukehuzhuanqu.jpg
 ||qiyipic.com/common/20141112/225x230.jpg
@@ -4283,6 +4292,7 @@ _vmind.qqvideo.tc.qq.com^
 ||storetorrent.org/static/best/795X60.gif
 ||storetorrent.org/static/js/best
 ||strtv.cn/publicimg/sitelink/
+||su.bdimg.com/static/dspui/js/uf.js
 ||sub.powerapple.com^
 ||sucaijiayuan.com/uploads/ad/
 ||sudupan.com^*.gif
@@ -4934,27 +4944,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||btshark.com/static/img/*300x250.
-.543evv.com/js/config.js
-||qiyipic.com/common/*tonglan
-||8iyy.com/css/*.js
-||laozuo.org/linode125.jpg
-||laozuo.org/wp-content/themes/weisaysimple/js/single-bottom.js
-||gtimg.com/web/default_fodders/300x600_$~collapse
-||591hx.com/zyrk_dy/gwjl.html
-||su.bdimg.com/static/dspui/js/uf.js
-||it165.net/index.php?m=poster&
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yahoo.com##A[href^="https://beap.gemini.yahoo.com/"]
-yahoo.com##A[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
-yahoo.com##DIV[data-ad-feedback-beacon]
-it165.net##.adv728a
-it165.net##.adv728b
-it165.net##.advyello
-it165.net##.ContentAdv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6061,6 +6054,7 @@ ifeng.com##.ColFLAvt
 ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
+it165.net##.ContentAdv
 imeee.cn##.DA336
 84zr.com##.DaKuang
 javjunkies.com##.FAd
@@ -6380,6 +6374,8 @@ ddpan.com,kdhome.net##.adv2
 kdhome.net##.adv3
 myhack58.com##.adv32
 qikuyou.com##.adv640
+it165.net##.adv728a
+it165.net##.adv728b
 v1.cn##.advH198
 v1.cn##.advH250
 cndesign.com##.advRightGoogle
@@ -6414,6 +6410,7 @@ elecfans.com##.advertising
 hexun.com,hexun.com.tw##.advp
 cngold.org,qq.com,tongxiang.net##.advs
 gscn.com.cn##.advscroll
+it165.net##.advyello
 itavcn.com##.advzone
 gamme.com.tw##.adwrpt
 down.51cto.com##.ag
@@ -7202,6 +7199,7 @@ hongfen.org##.main_adser
 cnbeta.com##.main_content_right > .cber[style]:nth-child(7)
 jn256.com##.main_gg1
 jn256.com##.main_gg4
+tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
 tianjinwe.com##.mainadv
 pingpang.info##.mainbox > div[style="float:left; width:100%; height:80px;"]
@@ -7877,6 +7875,8 @@ nanfenge.com##a[href^="http://www.woyao998.com"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
 weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
+yahoo.com##a[href^="https://beap.gemini.yahoo.com/"]
+yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 byhh.org##a[href^="javascript:eval("]
 360-bo.com,360bo.cc,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 fhm.com.tw##a[onclick^="adClick("]
@@ -7997,6 +7997,7 @@ wper.com##div[class^="wea_d_"]
 narutom.com##div[class^="wrap2 vtg"]
 junshigang.com##div[class^="ww300"]
 d586.com##div[class^="yd_ad"]
+yahoo.com##div[data-ad-feedback-beacon]
 jump.bdimg.com,tieba.baidu.com,tieba.com##div[data-daid]
 sina.com.cn##div[data-sudaclick="ad_ppzq"]
 txooo.com##div[duilian]
@@ -8511,14 +8512,14 @@ m.wedc.cc#@#.header-ad
 popo.tw#@#.header_ad
 hbee.edu.cn#@#.headerad
 i-pass.com.tw#@#.homead
+coral.qq.com#@#.l_qq_com
 sohu.com#@#.label-ad
 36.cn#@#.mainAd
+coral.qq.com#@#.mod-ad
 mobile01.com#@#.navad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 brandsales.58.com#@#div[id^="ad_"]
-coral.qq.com#@#.l_qq_com
-coral.qq.com#@#.mod-ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
