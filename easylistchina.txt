@@ -4948,6 +4948,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+yahoo.com##A[href^="https://beap.gemini.yahoo.com/"]
+yahoo.com##A[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
+yahoo.com##DIV[data-ad-feedback-beacon]
 it165.net##.adv728a
 it165.net##.adv728b
 it165.net##.advyello
