@@ -4960,10 +4960,12 @@ _vmind.qqvideo.tc.qq.com^
 ||xinmin.cn/framepage/left1.htm
 ||xinmin.cn/framepage/top
 ||xinmin.cn/framepage/yqLink1.htm
+||hfchenming.com.cn/ad.html
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hfchenming.com.cn##.play_ad300_2
 21edu8.com###wrap[style="margin-top:5px;margin-bottom:5px;height:90px;"]
 21edu8.com##.tac[style="height:250px;margin-top:10px;margin-bottom:10px"]
 ithome.com###tt2
@@ -8548,6 +8550,7 @@ brandsales.58.com#@#div[id^="ad_"]
 yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||cbjs.baidu.com/js/o.js$domain=hfchenming.com.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
