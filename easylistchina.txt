@@ -588,6 +588,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ###ads_top_video
 ###adtop1
 ###adx_cggp
+###asto_box
 ###cs_left_couplet
 ###cs_right_couplet
 ###doyoo_mon_mask
@@ -701,7 +702,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ~dsjunshi.com##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###asto_box
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -1885,8 +1885,6 @@ _vmind.qqvideo.tc.qq.com^
 ||99danji.com/otherhtml/
 ||99mst.com/upfiles/adv/main02.jpg
 ||99re.*/media/banners/
-||tumblr.com^$domain=99re.org
-||sinaimg.cn^$domain=99re.org
 ||99re.com/images/close.gif
 ||99re1.com/images/*.gif
 ||99re2.com/images/*.gif
@@ -3179,6 +3177,7 @@ _vmind.qqvideo.tc.qq.com^
 ||img2.www.fmdisk.com^
 ||img3.longyu.cc/topic/201312/980-6000.jpg
 ||imgad0.pconline.com.cn/ivy/image/
+||imgbus.com/doimg/3co0mmeon839377.gif
 ||imgbus.com^$domain=cao1024.com
 ||imgchr.com^$domain=iyejie.com
 ||imgf.gamersky.com^$image
@@ -3809,6 +3808,7 @@ _vmind.qqvideo.tc.qq.com^
 ||people.com.cn/img/2013people/wza/domready
 ||people.com.cn/img/gjt/
 ||pfp.sina.com.cn^$script,subdocument
+||pg.udn.com/BT/*.swf
 ||pgzhibo.com/uploads/image/20141121/1416593007.gif
 ||ph66.com/attachment/*.swf
 ||ph66.com/bbsgg/
@@ -4224,7 +4224,7 @@ _vmind.qqvideo.tc.qq.com^
 ||sinaimg.cn/mw690/ea495f08gw1ehcsmx6dlzg20eq04gt9c.gif
 ||sinaimg.cn/rny/sinamail57/images/110316/threeKingdoms2.
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bo.cc|84zr.com|91v3p.co|99re.co|ac168.info|aisex.com|btago.com|btshare.net|cao1024.com|cililian.me|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|ml.gg|www.lightnovel.cn|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bo.cc|84zr.com|91v3p.co|99re.co|99re.org|ac168.info|aisex.com|btago.com|btshare.net|cao1024.com|cililian.me|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|ml.gg|www.lightnovel.cn|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
 ||sinajs.cn/xblogstyle/images/activity/xinyue_ad/banner
@@ -4465,7 +4465,7 @@ _vmind.qqvideo.tc.qq.com^
 ||tucao.cc/index.php?m=poster&
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tui18.com/source/plugin/yl_curtain/template/yl_curtain.
-||tumblr.com^$domain=99re.co
+||tumblr.com^$domain=99re.co|99re.org
 ||tumutanzi.com/img/green-vpn.png
 ||tupan8.com/skins/js/gg
 ||tv380.com/ovp/ovp_home/*/adi/
@@ -4973,20 +4973,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||pg.udn.com/BT/*.swf
-||imgbus.com/doimg/3co0mmeon839377.gif
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-quumii.com##.huatai
-udn.com###ad_curtain
-udn.com###doctop
-zhanqi.tv##.new-advertising-area
-qiannao.com###main > DIV[style="padding-left:20px;margin-top:10px;"]:first-child
-jump.bdimg.com,tieba.baidu.com,tieba.com###game_live_list + #content_leftList > .interviewZero > #threadListGroupCnt
-cww.net.cn##.guanggaolan
-cww.net.cn##.xiatu1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5155,6 +5145,7 @@ haodu5.com###ad_c_top
 wdlm.cn###ad_coupleleft
 wdlm.cn###ad_coupleright
 ttmeiju.com###ad_couplet
+udn.com###ad_curtain
 gpcxw.com###ad_dl
 gg-art.com###ad_dl01
 gg-art.com###ad_dl02
@@ -5440,6 +5431,7 @@ mmzh.com###dlle
 mmzh.com###dlri
 mtime.com###dn_chu
 docin.com###docindex_ad
+udn.com###doctop
 2345.com###down-browser-jiasu
 niutuku.com###downAD1
 howfile.com###downloadtable + div > table[style="margin-top:5px"]
@@ -5534,6 +5526,7 @@ jump.bdimg.com,tieba.baidu.com,tieba.com###game_cover_head_wrapper
 jump.bdimg.com,tieba.baidu.com,tieba.com###game_forum
 jump.bdimg.com,tieba.baidu.com,tieba.com###game_frs_head
 jump.bdimg.com,tieba.baidu.com,tieba.com###game_live_list
+jump.bdimg.com,tieba.baidu.com,tieba.com###game_live_list + #content_leftList > .interviewZero > #threadListGroupCnt
 jump.bdimg.com,tieba.baidu.com,tieba.com###game_rank
 www.infoq.com###gbanner.gbanner
 whnews.cn###gd_l
@@ -5707,6 +5700,7 @@ playno1.com###m12
 lanyes.org###m_banner
 baike.baidu.com###mabox
 chacuo.net###mailtooltips
+qiannao.com###main > div[style="padding-left:20px;margin-top:10px;"]:first-child
 cntv.cn###main > div[style="position:relative; width:637px; overflow:hidden;"]
 ksbbs.com###main > div[style^="height:65px"]
 jia360.com###mainADswitch
@@ -6983,6 +6977,7 @@ hkwb.net##.guangg
 my0538.com##.guanggao1
 my0538.com,tgbus.com##.guanggao2
 cnmo.com##.guanggao_type
+cww.net.cn##.guanggaolan
 techweb.com.cn##.guanggaowei
 guokr.com##.guokr-layer-beforelogin
 21cn.com##.h-gg
@@ -7042,6 +7037,7 @@ tw.mall.yahoo.com##.hpad-wrapper
 wangyueblog.com##.hsponsor
 chinasmartgrid.com.cn##.ht60ad
 shangdu.com##.htz_ad
+quumii.com##.huatai
 9000wy.com##.huazhonghua
 9000wy.com##.huazhonghua2
 gexing.com.cn##.huline > a:first-child
@@ -7313,6 +7309,7 @@ ab126.com##.nav + div[align="center"]
 baidu.com##.nav_ads
 guidaye.com##.neirongs
 sto.cn##.network_adv
+zhanqi.tv##.new-advertising-area
 yes-news.com##.new-index-ad300
 yes-news.com##.new-index-main-728
 yes-news.com##.new-index-main-ysm
@@ -7804,6 +7801,7 @@ hcwang.cn##.wz2
 hcwang.cn##.wz3
 2zzt.com##.wza-d
 familydoctor.com.cn##.xg
+cww.net.cn##.xiatu1
 hgitv.com##.xinwen_right_gg01
 cha.haogeba.com,taoyoudu.com##.xinyongBox > :not(dd)
 shulink.com##.xiongti_list
