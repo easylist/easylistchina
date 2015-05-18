@@ -1846,6 +1846,7 @@ _vmind.qqvideo.tc.qq.com^
 ||8jkx.com^
 ||8vod.net/detail/play_*.js
 ||8vod.net/detail/vod_*.js
+||8yyi.com/css/*.js
 ||900.la/imgs/1701d054-c747-4969-85ed-60e251b9018b/2015-01-29/utdviibg.gif
 ||900.la/imgs/cda7c9a0-9f34-421b-a0fe-03740c1b42d3/2015-04-05/ji0gu3xi.gif
 ||9000wy.com/style/js/2015content.js
@@ -4100,6 +4101,7 @@ _vmind.qqvideo.tc.qq.com^
 ||sd.xinhuanet.com/2014xb/images/shanhang.gif
 ||sdgundam.cn/js/duilian3.js
 ||sdgundam.cn/upload/2014-07/dca9b1a643b1f3ca.jpg
+||sdktu.com/js/alpha.js
 ||sdo.com/static/image/mkads/
 ||sdo.com^$object-subrequest,domain=v.ku6.com
 ||sdzbcg.com/images/ggwzz.jpg
@@ -4979,13 +4981,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||8yyi.com/css/*.js
-||sdktu.com/js/alpha.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-creaders.net##A[title^="www.136888.com/new/ad."]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7944,6 +7943,7 @@ houdao.com##a[style^="background:url"]
 yzz.cn##a[style^="display:block; width:980px; height:100px;"]
 gaoqing.la##a[target="_blank"] > img[src*=".sinaimg.cn/large/"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
+creaders.net##a[title^="www.136888.com/new/ad."]
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 danyang.com##body > div[align="center"]
