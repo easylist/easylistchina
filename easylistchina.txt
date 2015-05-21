@@ -5004,6 +5004,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com###results > DIV[class]:not(.result):not(.sp-rslt-bar)
 wk.baidu.com##.tout
 baidu.com##.wapAd
 wk.baidu.com##A[href^="http://www.baidu.com/cpro.php?"]
@@ -5876,7 +5877,6 @@ hujiang.com###regscrollcontainer
 image.baidu.com###relEcom
 image.baidu.com###relecom54
 jump.bdimg.com,tieba.baidu.com,tieba.com###replyBusinessImg
-m.baidu.com,www.baidu.com###results > div[class][style="display:block !important"]
 sogou.com###right > .atTrunk
 2345.com###right > div:first-child
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
@@ -6829,7 +6829,7 @@ m.baidu.com##.ec_adv
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ec_bdtg
 baidu.com##.ec_im_container
 ettoday.net##.ec_menu
-m.baidu.com##.ec_wise_ad
+baidu.com##.ec_wise_ad
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-edu-course-mini-container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-edu-course-mini-rec-list
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-mix-page > .c-border
