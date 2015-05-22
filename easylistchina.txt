@@ -1145,6 +1145,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||zp265.com^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+|http:$popup,third-party,domain=btkitty.org|btlibrary.com|diggbt.com
 .com/?Intr=$popup
 /?ref=$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -5026,6 +5027,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+btkitty.org,btlibrary.com,diggbt.com##A[style]
+btkitty.org,btlibrary.com,diggbt.com##[onclick*="("]
 99re.org##.bottom-adv
 99re.org##.videos-ad
 99re.org##.adv
