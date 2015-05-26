@@ -1159,7 +1159,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
-||ihualun.com^$popup
 ||ad.189so.cn^$popup
 ||aiwanma99.com^$popup
 ||ark.letv.com/t?$popup
@@ -1170,6 +1169,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||eazyou.com^$popup,domain=byhh.org
 ||greenet.cn^*_popu_$popup
 ||gxp.cc^$popup,third-party
+||ihualun.com^$popup
 ||iqiyi.com/track$popup
 ||javjunkies.com/JAV.php$popup
 ||javjunkies.com/JO.php$popup
@@ -2081,6 +2081,7 @@ _vmind.qqvideo.tc.qq.com^
 ||b5m.com/static/html/*/popup.html?
 ||baby-kingdom.com/reqsads?
 ||baby-kingdom.com/reqwads?
+||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
@@ -2635,6 +2636,7 @@ _vmind.qqvideo.tc.qq.com^
 ||enshi.cn/images/20140508/pic_69368.gif
 ||enshi.cn/userfiles/esrb/$object,subdocument
 ||enshi.cn/userfiles/esrb/ads/
+||entry.baidu.com/rp/home?
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
 ||epinv.com/wp-content/themes/ep/js/single.js
@@ -5034,26 +5036,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||entry.baidu.com/rp/home?
-||babytreeimg.com/img/promo/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cyzone.cn##.index-content-ad
-tieba.baidu.com##.client_ad_banner
-sina.cn###tanx-fold-main
-sina.cn##A[href^="http://sax.sina."]
-nick18.com###mov > .content
-nick18.com##.below_ads
-nick18.com##.list_ads
-nick18.com###img A
-nick18.com###sex
-nick18.com##.bbs_entry_wrapper > TABLE[width="100%"]
-17huohu.com,firefoxchina.cn##.engine-jokes
-iciba.com###ezfm
-tieba.baidu.com##.post_client_down
-2345.com##.baiduSearch
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5547,6 +5533,7 @@ gpsdlm.com###ewmzong > a:first-child
 www.youdao.com###ext
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
+iciba.com###ezfm
 fifm.cn###favorite_table_box
 businessweekly.com.tw###featurelist
 dl.vmall.com###filelist_marker
@@ -5686,6 +5673,7 @@ tingroom.com###ifram_563
 youthwant.com.tw###ig_cont
 hao.360.cn###iguess
 cnjxol.com,jintoutiao.com###img
+nick18.com###img a
 66rd.cn,chemnet.com,pharmnet.com.cn###img1
 114la.com###imgArr
 image.baidu.com###imgCmsAdPart
@@ -5806,6 +5794,7 @@ xici.net###middoc
 mnw.cn###mnw_content_ads
 neihanshe.cn###mobile_client
 blog.sina.com.cn###module_910
+nick18.com###mov > .content
 dnvod.eu,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xyzc.cn,zdface.com###msg_win
 wz.zj.cn###msnLeft
 pcdiy.com.tw###myCarousel
@@ -5956,6 +5945,7 @@ iplaysoft.com###section_event
 m.sohu.com###selected-game
 b5m.com###sell-ad
 500.com###semFloatL
+nick18.com###sex
 265g.com###sfmt
 pan.baidu.com###share_ad_info_panl
 sg169.com###shensuo
@@ -6015,6 +6005,7 @@ net767.com###table6
 bbs.hiapk.com###tag_1_7
 t.qq.com###talkList > li[ispopula="1"][tv="2"]
 zymk.cn###tanchuang
+sina.cn###tanx-fold-main
 e23.cn###taobaorba
 findprice.com.tw###tb_ad
 23zw.com###tbad
@@ -6605,6 +6596,7 @@ quumii.com##.baidu960
 17k.com##.baiduBox
 2345.com,47dy.com##.baiduHotWord
 2345.com##.baiduHotWordsR
+2345.com##.baiduSearch
 aibang.com##.baidu_ad
 ucbug.com##.baidu_fx
 game.9724.com##.baidu_left
@@ -6673,6 +6665,7 @@ zuowen.com##.banners
 mscbsc.com##.bao1
 qiannao.com##.bb
 jxedt.com##.bbad
+nick18.com##.bbs_entry_wrapper > table[width="100%"]
 hefei.cc##.bbs_tanchuang
 xilu.com##.bbs_topad
 jrj.com.cn##.bd.pa10.bgn
@@ -6686,6 +6679,7 @@ cnscore.com##.bdbanner
 e23.cn##.bdggtb
 pinshan.com##.bea_adv2
 hers.com.cn##.beitou
+nick18.com##.below_ads
 265g.com##.bg_ban
 265g.com##.bg_ban_bar
 starbaby.cn##.big_ada
@@ -6773,6 +6767,7 @@ fpdisplay.com##.class_adv1
 caikuu.com##.clearfix + .recommend
 hunantv.com##.click-s-r1
 hunantv.com##.click-t
+tieba.baidu.com##.client_ad_banner
 timedg.com##.clsRightTopAd
 bbs.xmfish.com##.cmp_v
 24en.com##.cnt_banner
@@ -6912,6 +6907,7 @@ fuyang.net##.eis_fbox_260:nth-child(n+3)
 fuyang.net##.eis_fbox_980
 playno1.com##.eis_mtm[style="border-top:1px dashed #CDCDCD;padding-top:10px; padding-bottom:15px"]
 winning11cn.com##.eis_topad
+17huohu.com,firefoxchina.cn##.engine-jokes
 fuli.ba,fuliba.asia,fuliba.mobi##.entry-content > div[style^="float:right"]
 briian.com##.entry-content > p[style="height: 85px;"]
 epinv.com##.epinv_f
@@ -7188,6 +7184,7 @@ news18a.com##.ina_ad_left
 qqyy.com##.ind_ad
 newtalk.tw##.ind_news_station
 faxingw.cn##.indadv1
+cyzone.cn##.index-content-ad
 8888eee.com,avlang33.com,avlang88.com,cncao8.com,lang44.com##.index-info > .tac
 zahuishi.com##.index950x90
 zahuishi.com##.index960x90
@@ -7321,6 +7318,7 @@ hljtv.com##.listAd1
 99114.com##.listR_ad
 niotv.com##.list[height="60"]
 qqbody.com##.list_300
+nick18.com##.list_ads
 qunar.com##.list_promotion_bar
 58.com##.listpage_detail
 sjzbus.com.cn##.litBanner
@@ -7546,6 +7544,7 @@ iplaysoft.com##.post > center
 verygoogle.com##.post-content > p:first-child
 ihacksoft.com##.post-top-gg
 gamme.com.tw##.post_adwrpt
+tieba.baidu.com##.post_client_down
 phpvar.com##.post_content_linkad
 weather.com.cn##.post_st
 blog.163.com##.postadlayer
@@ -8044,6 +8043,7 @@ m.jrj.com.cn##a[href^="http://m.2345.com/?"]
 21cn.com##a[href^="http://news.haxiu.com/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 it.com.cn,vikilife.com##a[href^="http://s.click.taobao.com/"]
+sina.cn##a[href^="http://sax.sina."]
 lightnovel.cn##a[href^="http://t.cn/"]
 lightnovel.cn##a[href^="http://tb.cn/"]
 mop.com##a[href^="http://trackx.mop.com/"]
@@ -8133,9 +8133,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
