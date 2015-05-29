@@ -5052,6 +5052,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
+||k886.net/comic-toplist
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
@@ -8760,6 +8761,10 @@ yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@.png#$domain=apk.tw
+@@||apk.tw/thread-$elemhide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=apk.tw
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=apk.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
