@@ -3129,6 +3129,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ifengimg.com/ifengimcp/pic/*_w640_h130.
 ||ifengimg.com/mappa/$domain=~tech.ifeng.com
 ||ifengimg.com/static/news/js/advtrack_
+||ifengimg.com/xingzhao/JS/bsgspecial.js
 ||ifengimg.com/zhishaofei/js/
 ||ifengimg.com^*-gewindow-
 ||ifengimg.com^*/100-100-
@@ -3642,6 +3643,7 @@ _vmind.qqvideo.tc.qq.com^
 ||meishichina.com/v3/
 ||meitu.com/js/floatxiuxiu.js
 ||meizhou.com/images/topbanner
+||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfxk.com^$subdocument
 ||mfxp.com/images/
 ||mgbbs.cn/js/float.js
@@ -4475,6 +4477,7 @@ _vmind.qqvideo.tc.qq.com^
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
 ||tietuku.com/dc65703d91297e91.png
 ||tietuku.com^$domain=potplayer.org|souxue8.net|totuwo.com|xiaodaoyl.com
+||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
 ||tigtag.com/images/pic1/
 ||tigtag.com/r/Adv/
@@ -5049,14 +5052,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||mfacelive.com/Scripts/social/openchannel_min.js
-||ifengimg.com/xingzhao/JS/bsgspecial.js
-||tietuku.com^*.gif$domain=lightnovel.cn
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-briian.com##.scupioadslot
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7658,7 +7657,7 @@ baidu.com##.sam_iebrowser_banner
 ithome.com##.sb_list > .bx
 mail.pchome.com.tw##.sceng
 jump.bdimg.com,tieba.baidu.com,tieba.com##.score_ecr_wrapper
-techroomage.com##.scupioadslot
+briian.com,techroomage.com##.scupioadslot
 playno1.com##.sd.pph
 yeeyi.com##.sd.pph > .mbm.hm
 yeeyi.com##.sd[style="width:208px;text-align:left;float:right;overflow-x:hidden;"]
@@ -8761,7 +8760,6 @@ yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||189.cn/activity/adzh2015/js/ad.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8851,6 +8849,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||17173.com/x/flash800500.js
 @@||177mh.com/img_v1/bbad.gif
 @@||17kk.cc/scriptAD/other/new_manhua.html
+@@||189.cn/activity/adzh2015/js/ad.js
 @@||192.168.*/advertising_$stylesheet
 @@||218.65.30.232:88/day_
 @@||221.7.250.35/caches/poster_js/21.js
