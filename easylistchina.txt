@@ -8698,7 +8698,6 @@ qq.com#@#.ad-icon
 ntm.gov.tw#@#.ad-left
 qianyan001.com#@#.ad04
 mucanwenxue.com#@#.ad250
-apk.tw#@#.ad300
 szonline.net#@#.ad310
 012.tw#@#.ad728
 2kk.cc,520tingshu.com,580k.com#@#.ad960
@@ -8762,7 +8761,7 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@.png#$domain=apk.tw
-@@||apk.tw/thread-$elemhide
+@@||apk.tw^$elemhide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=apk.tw
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=apk.tw
 @@&ad_width=590&$domain=jd.com
