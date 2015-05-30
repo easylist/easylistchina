@@ -9180,7 +9180,16 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
-! Fixed Malware Domains rules
+!-----------------------------Malware Domains rules---------------------------!
+||hwcdn.net^*.html
+||akamaihd.net^*/sid.html?p=
+||akamaihd.net^*/gsd.html?d=
+||eshopcomp.com^
+||commondisplay-a.akamaihd.net/cri/*.htm?cat=
+||146.148.85.61^
+||hdapp1008-a.akamaihd.net^
+||hdsrc-a.akamaihd.net^
+||hdapp1003-a.akamaihd.net^
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 !--------------------------------Tracking Systems-----------------------------!
 @@||7m.cn/v2/js/analyse.js
