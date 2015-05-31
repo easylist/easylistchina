@@ -715,8 +715,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||uoyrsd.com^
-||andmejs.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -867,6 +865,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~foctop.com|~hetongal.ac.cn|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~taobao.com.cn|~youhuiyouhui.com.cn
 ||allyes.$third-party
 ||amazingmagics.com^
+||andmejs.com^$third-party
 ||aoparking.com^$third-party
 ||at918.com^$third-party
 ||at98.com^
@@ -1100,6 +1099,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||unionli.com^$third-party
 ||unionsky.cn^$third-party
 ||unionsky2.cn^$third-party
+||uoyrsd.com^
 ||urlad.com.tw^$third-party
 ||v-links.net^$third-party
 ||vamaker.com^$third-party
@@ -1320,6 +1320,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /ykyy.gif$domain=qzntv.com|qzwb.com
 /ysm.ezprice.net/*
 /ysm/ewdna/*
+/yythems/images/tuiguang.png
 :88/lighttpd/default/
 ?method=baidu.ting.commercial.tactics&
 _!!1731999033.
@@ -1334,6 +1335,7 @@ _vmind.qqvideo.tc.qq.com^
 |http://*/t.js$domain=99770.cc|99comic.com|99manga.com
 |http://*XX_$domain=i-ab.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
+|http://t.cn^$domain=aikuhu.com
 ||007.mx/flv/
 ||020.com/960_70
 ||022net.com/ImgFiles/channel/201502/2015021812142444065.swf
@@ -1772,6 +1774,8 @@ _vmind.qqvideo.tc.qq.com^
 ||6665432.com^*.gif
 ||666kv.com/adstaic/
 ||66e.cc/d/$script
+||66hbo.com/images/new1/uploads/index_banner/*.gif$~collapse
+||66hbo.com/images/new1/uploads/index_banner/*.jpg
 ||66rd.cn/js/foot.js
 ||66rd.cn/pic/*1000.
 ||66rd.cn/pic/itv130.jpg
@@ -5046,15 +5050,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-/yythems/images/tuiguang.png
-|http://t.cn^$domain=aikuhu.com
-||66hbo.com/images/new1/uploads/index_banner/*.jpg
-||66hbo.com/images/new1/uploads/index_banner/*.gif$~collapse
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-mucanwenxue.com##DIV[style="float:left; height:250px; width:300px; clear:left; margin: 1px 1px 1px 0px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7011,7 +7010,7 @@ gezila.com##.g980_90
 u77.com##.game-ad-item
 17173.com##.gameTip
 sina.com.tw##.game_ad
-3366.com,1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_banner
+1111.baidu.com,3366.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_banner_common_wapper
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_content
 9724.com##.game_detail
@@ -8167,8 +8166,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8375,6 +8374,7 @@ tsdm.net##div[style="border:1px #BFE6F4 solid;width:960px;height:90px;margin:0 a
 sznews.com##div[style="border:solid 1px #ddd; padding-bottom:10px; padding-top:10px; margin-bottom:10px; width:670px; overflow:hidden; zoom:1; font-family:SimSun ;"]
 go-gddq.com##div[style="float: Right; height: 260px; width: 310px; clear: Right; background: 0000; margin: 5px 3px 3px 0;"]
 bbs.my0511.com##div[style="float: right; padding-left:10px; padding-bottom:10px;"]
+mucanwenxue.com##div[style="float:left; height:250px; width:300px; clear:left; margin: 1px 1px 1px 0px;"]
 gamefy.cn##div[style="float:left; width:220px; padding-top:15px;"]
 tianjinwe.com##div[style="float:left; width:312px; height:250px; margin-bottom:10px;"]
 123cha.com##div[style="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;border-left:6px solid #999;border-right:6px solid #999;"]
@@ -9187,16 +9187,16 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 !-----------------------------Malware Domains rules---------------------------!
-||hwcdn.net^*.html
-||akamaihd.net^*/sid.html?p=
-||akamaihd.net^*/gsd.html?d=
-||eshopcomp.com^
-||commondisplay-a.akamaihd.net/cri/*.htm?cat=
+@@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 ||146.148.85.61^
+||akamaihd.net^*/gsd.html?d=
+||akamaihd.net^*/sid.html?p=
+||commondisplay-a.akamaihd.net/cri/*.htm?cat=
+||eshopcomp.com^
+||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
-||hdapp1003-a.akamaihd.net^
-@@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
+||hwcdn.net^*.html
 !--------------------------------Tracking Systems-----------------------------!
 @@||7m.cn/v2/js/analyse.js
 @@||analytics.163.com/ntes.js
