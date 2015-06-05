@@ -1774,7 +1774,7 @@ _vmind.qqvideo.tc.qq.com^
 ||60808.org/a/*.jpg
 ||61.128.121.99/nsrad/
 ||61.147.92.251:81/120x160.asp
-||61.164.108.104:4275/ad*.gif
+||61.164.108.104:4275/*.gif
 ||61.235.249.195^*/Default.aspx?id=
 ||62422.cn/ggimg/
 ||62422.cn/js/inc/13.swf
@@ -8815,6 +8815,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||61.164.108.104:4275/*/*.gif
 @@/guanggao/*$domain=icbc.com.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
