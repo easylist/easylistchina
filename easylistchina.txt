@@ -2100,6 +2100,7 @@ _vmind.qqvideo.tc.qq.com^
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
 ||baidu.com/cms/rc/adSideConfig.json?
 ||baidu.com/ecom$image,script
+||baidu.com/event/img/zwdzjs.jpg
 ||baidu.com/fanyiapp/image/wise_banner_
 ||baidu.com/resource/tuisong/
 ||baidu.com/static/yuntu-ad/
@@ -2589,6 +2590,7 @@ _vmind.qqvideo.tc.qq.com^
 ||dushiwenxue.com/add/
 ||dvbcn.com/index.php?m=poster&
 ||dvbcn.com/phpcms/templates/2012/news.html
+||dvbcn.com/uploadfile/2015/0202/20150202050700880.png
 ||dvbcn.com/yinyong/show/news_right_
 ||dvs.china.com^
 ||dw138.com/a12345/
@@ -3265,6 +3267,7 @@ _vmind.qqvideo.tc.qq.com^
 ||iqiyi.com/common/flashplayer/*-banner-
 ||iqiyi.com/common/flashplayer/*/pageer.swf
 ||iqiyi.com/common/flashplayer/*/pause.swf
+||iqiyi.com/common/flashplayer/*980-100.swf
 ||iqiyi.com/player/*/a.swf
 ||iqiyi.com/player/*/bannery.swf
 ||iqiyi.com/player/common/adflash
@@ -4024,6 +4027,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qiyipic.com/common/20150528/diyizhuanqu.jpg
 ||qiyipic.com/common/fix/dasdasdasdk.jpg
 ||qiyipic.com/common/fix/rebull_
+||qiyipic.com/zongyi/*Banner01.jpg
 ||qiyipic.com/zongyi/fix/mxdj
 ||qiyipic.com/zongyi/fix/runningman20141008_bg02.jpg
 ||qiyipic.com/zongyi/fix/runningman20141008_bg03.jpg
@@ -4833,6 +4837,7 @@ _vmind.qqvideo.tc.qq.com^
 ||xkxs.org/js/tl
 ||xkxs.org/js/tongji.js
 ||xlpu.cc/adv/
+||xmfish.com/chanel/www/cpm.html
 ||xnimg.cn/imgpro/home/a/niucuilai_
 ||xnnews.com.cn/images/yr_wsm.js
 ||xnnews.com.cn/templets/image/*gg
@@ -5074,20 +5079,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||iqiyi.com/common/flashplayer/*980-100.swf
-||qiyipic.com/zongyi/*Banner01.jpg
-||xmfish.com/chanel/www/cpm.html
-||dvbcn.com/uploadfile/2015/0202/20150202050700880.png
-||baidu.com/event/img/zwdzjs.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-daqi.com##.guanggao4
-52ch.net##.wp > DIV[style="margin-bottom:5px; height:60px;"]
-hunantv.com##.album-gg
-xmfish.com##.readCon_right
-drupalchina.cn###content-top
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5466,6 +5461,7 @@ fuli.ba,fuliba.asia,fuliba.mobi###content > div:first-child > a:first-child:last
 fuli.ba,fuliba.asia,fuliba.mobi###content > ul[style="list-style-type: none;"]
 yes-news.com###content-728
 yes-news.com###content-ads-right
+drupalchina.cn###content-top
 www.sohu.com###contentC > .columnC
 mtksj.com###contentMidPicAD
 tsdm.net###content_box_300250
@@ -6616,6 +6612,7 @@ itavcn.com##.advzone
 gamme.com.tw##.adwrpt
 down.51cto.com##.ag
 padhz.com,pbhz.com##.agoogled
+hunantv.com##.album-gg
 cc9900.com##.aleft
 frdic.com##.alert
 wacowla.com##.aligncenter[width="140"][height="400"]
@@ -7164,6 +7161,7 @@ hkwb.net##.guangg
 131458.com,adreep.cn,hgitv.com,nen.com.cn,sqkz.com##.guanggao
 my0538.com##.guanggao1
 my0538.com,tgbus.com##.guanggao2
+daqi.com##.guanggao4
 cnmo.com##.guanggao_type
 cww.net.cn##.guanggaolan
 techweb.com.cn##.guanggaowei
@@ -7658,6 +7656,7 @@ junshi.cn,qichelian.com,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.r
 yuqingcn.cn##.rboxad
 app01.com.tw##.rcAD
 xvna.com##.rctad
+xmfish.com##.readCon_right
 3gsc.com.cn##.read_otherbook + a
 finance.ifeng.com##.rec
 image.baidu.com##.recom
@@ -8012,6 +8011,7 @@ daqianduan.com##.widget_ui_ads
 wangyueblog.com##.wigget_sponsors
 leitingcn.com##.wlt670 > div[style]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
+52ch.net##.wp > div[style="margin-bottom:5px; height:60px;"]
 renren.com##.wp-rrzm-popup
 seowhy.com##.wp[style="margin-top:10px;"]
 jd-bbs.com##.wp[style="padding:10px; border:1px solid #9db3c5"]
@@ -8219,9 +8219,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8474,7 +8474,6 @@ eprice.cn##div[style="width: 1094px; height: 80px; margin: 10px auto; border: 1p
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
 580k.com##div[style="width: 300px; height: 250px; float: left; margin:18px 10px 5px;border:solid 1px #ddd"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
-danhuaer.com##DIV[style^="width: 336px;height: 280px;"]
 bookbao.com##div[style="width: 960px; text-align: center; height: 90px; margin: auto; margin-bottom: 3px;"]
 tonghuacun.com##div[style="width: 960px;margin: 0 auto;height:93px;"]
 house.qq.com##div[style="width:100%; height:100px; position:fixed; left:0; bottom:0; z-index:9999;"]
@@ -8531,6 +8530,7 @@ mnw.cn##div[style^="margin:0px auto;padding:0px 0px 5px;width:960px;"]
 blog.sina.com.cn##div[style^="position: fixed; width:"][style*="height: 330px;"]
 jiancai365.cn##div[style^="position:fixed;+position"]
 ieche.com##div[style^="width: 298px;height:250px;"]
+danhuaer.com##div[style^="width: 336px;height: 280px;"]
 neihan8.com##div[style^="width: 640px; height: 250px;"]
 guofs.com##div[style^="width: 882px;"]
 t6t8.com##div[style^="width: 965px;height:90px;"]
@@ -8738,7 +8738,7 @@ tt1069.com#@##adbrite
 zdfans.com#@##adlabel
 atgfw.org#@##ads-wrapper
 wholehk.com,zdfans.com#@##adsense
-39xs.net,checheng123.com,haodu5.com,leduwo.com,yaerwen.com#@##adtop
+39xs.net,checheng123.com,dushiwenxue.com,haodu5.com,leduwo.com,yaerwen.com#@##adtop
 zdfans.com#@##advertbox3
 dmzj.com#@##advt
 zdfans.com#@##bottomAd
@@ -8824,7 +8824,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-dushiwenxue.com#@##adtop
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
