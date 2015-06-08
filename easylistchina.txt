@@ -716,6 +716,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 !----------------------------------Ads-Union----------------------------------!
 ||books.com.tw/exep/ap/$third-party
 ||gansha.co^$third-party
+||lajizhan.org^
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -5104,6 +5105,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hexieba.com###content > DIV:first-child > A:first-child:last-child
+hexieba.com##.right-banner
+hexieba.com##UL[style="list-style-type: none;"]:first-child:last-child
 popgo.org###index_rads
 etnet.com.cn##.firstAD
 cnqiang.com##.hotBox
