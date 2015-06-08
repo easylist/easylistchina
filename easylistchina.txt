@@ -158,7 +158,6 @@
 ||blogupp.com^$third-party
 ||bmw100.cn^$third-party
 ||bolebank.com^$third-party
-||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
 ||buzz-time.com.cn^$third-party
 ||buzzads.com^$third-party
@@ -715,6 +714,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
+||books.com.tw/exep/ap/$third-party
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -5087,10 +5087,14 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||vvtor.com/wordpress/wp-content/themes/NewsPro2/images/guozi.jpg
 ||vvtor.com/wordpress/wp-content/themes/NewsPro2/images/souying.jpg
+||googleusercontent.com^*=w800-h352-no$domain=yuyu780906.blogspot.com|yuyu780906.blogspot.hk|yuyu780906.blogspot.tw
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+yuyu780906.blogspot.com,yuyu780906.blogspot.hk,yuyu780906.blogspot.tw###HTML16
+yuyu780906.blogspot.com,yuyu780906.blogspot.hk,yuyu780906.blogspot.tw###HTML17
+yuyu780906.blogspot.com,yuyu780906.blogspot.hk,yuyu780906.blogspot.tw###HTML8
 vvtor.com##A[href*=".taobao.com"]
 club.pchome.net,kdslife.com###side A[href*=".youxi."]
 ipc.me##.post-top-gg
