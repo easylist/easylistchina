@@ -714,8 +714,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||321tui.cn^$third-party
-||321tui.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -783,6 +781,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||23kmm.com^$third-party
 ||2529.com^$third-party
 ||2m2n.com^
+||321tui.cn^$third-party
+||321tui.com^$third-party
 ||32414.com^$third-party
 ||3399.com/act/$third-party
 ||3600ys.com^$third-party
@@ -2409,6 +2409,7 @@ _vmind.qqvideo.tc.qq.com^
 ||cnkang.com/zixun/nanke/
 ||cnliti.com//template/xtfuf_black/images/img/m3ph73.png
 ||cnmo-img.com.cn/oddjs/
+||cnmoad.com/wp-content/uploads/2015/02/lomark_banner.png
 ||cnnb.com.cn/image/xhhc71.gif
 ||cnnb.com.cn/images/14ny_1.gif
 ||cnsat.net/Pictuer/
@@ -5105,14 +5106,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||cnmoad.com/wp-content/uploads/2015/02/lomark_banner.png
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.close_btn[src*="/adsense/"] + DIV:last-child
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + LI[class]:not(.j_thread_list)
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + DIV[class]:not(.l_post)
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6884,6 +6881,7 @@ caikuu.com##.clearfix + .recommend
 hunantv.com##.click-s-r1
 hunantv.com##.click-t
 tieba.baidu.com##.client_ad_banner
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.close_btn[src*="/adsense/"] + div:last-child
 timedg.com##.clsRightTopAd
 bbs.xmfish.com##.cmp_v
 24en.com##.cnt_banner
@@ -7367,6 +7365,7 @@ wn789.com##.ivad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_df_card
 joy.cn##.j_n_ad.j_n_bor5
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
 jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
 qidian.com##.jcsp + div[style="HEIGHT: 130px"]
@@ -7403,6 +7402,7 @@ baidu.com##.l-header-ad
 ahtv.cn,sexbarss.net##.l1
 ltaaa.com##.lAds
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_banner
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + div[class]:not(.l_post)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1224761005,"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480174042,"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480194257,"]
@@ -8892,8 +8892,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||newxing.com/a_d/downAddress.js
-@@||up2stream.com/vjs/plugin/css/ads.css
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9193,6 +9191,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||naruto.hk/ad/uy.js
 @@||new7574.u.qiniudn.com^*^ad
 @@||news.u17i.com/advert/
+@@||newxing.com/a_d/downAddress.js
 @@||omusic.com.tw/backend/uploadpic/adindex/
 @@||online.unionpay.com/ads/$script
 @@||ooomm.com/ad/icon/
@@ -9279,6 +9278,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||union.click.jd.com^
 @@||union.easypass.cn/block/
 @@||unisharp.com/images/ad.jpg
+@@||up2stream.com/vjs/plugin/css/ads.css
 @@||v.rbc.cn/ad/
 @@||v1.cn/player/cloud/cloud_player
 @@||valf.atm.youku.com/vf?
