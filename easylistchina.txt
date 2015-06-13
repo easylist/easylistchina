@@ -2338,6 +2338,7 @@ _vmind.qqvideo.tc.qq.com^
 ||chinaiiss.com/images/jianyu_erweima
 ||chinaiiss.com/js/float.js
 ||chinaiiss.com/js/function.ad.js
+||chinairn.com/images3/*ads
 ||chinanews.com.cn/ad2015/
 ||chinanews.com/images/*/gaobang.
 ||chinanews.com/images/images/Sadv
@@ -3136,6 +3137,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ietv.cc/min/b=Runtime/Js&f=
 ||ietv.cc/Runtime/Js/vod
 ||ietv.cc/Runtime/Js/web_bug.js
+||ifeng.com/a_if/taobao-
 ||ifeng.com/bbsfile/js/ifeng_tip.js
 ||ifeng.com/iframe/quickbet
 ||ifeng.com/iframe/toquickbet
@@ -3285,7 +3287,9 @@ _vmind.qqvideo.tc.qq.com^
 ||iqiyi.com/common/flashplayer/*-banner-
 ||iqiyi.com/common/flashplayer/*/pageer.swf
 ||iqiyi.com/common/flashplayer/*/pause.swf
+||iqiyi.com/common/flashplayer/*250%C3%97230.swf
 ||iqiyi.com/common/flashplayer/*980-100.swf
+||iqiyi.com/marketing/*/oppo.
 ||iqiyi.com/player/*/a.swf
 ||iqiyi.com/player/*/bannery.swf
 ||iqiyi.com/player/common/adflash
@@ -4040,6 +4044,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qiuziti.com/img/rightp20.gif
 ||qiyipic.com/common/$object-subrequest
 ||qiyipic.com/common/*/250-230.
+||qiyipic.com/common/*/255x205
 ||qiyipic.com/common/*/980-
 ||qiyipic.com/common/*/baiyao.
 ||qiyipic.com/common/*/kehuzhuanqu
@@ -5106,23 +5111,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||ifeng.com/a_if/taobao-
-||chinairn.com/images3/*ads
-||qiyipic.com/common/*8/255x205
-||iqiyi.com/marketing/*/oppo.
-||iqiyi.com/common/flashplayer/*250%C3%97230.swf
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iqiyi.com##.cell-left
-iqiyi.com##.cell-right
-iqiyi.com##.iqiyi-shangcheng
-iqiyi.com##.oppo
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[tpl="houses_new"] > .c-border
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + DIV[class]
-youku.com###lotteryToolbar
-youku.com###lotteryToolbarBig
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5850,6 +5842,8 @@ bukade.com###loadimg
 blog.163.com###loftertextlinkad
 360kan.com,letv.com###logo_activity
 wn789.com###lograd
+youku.com###lotteryToolbar
+youku.com###lotteryToolbarBig
 nlc.gov.cn###lovexin12xx
 my0511.com###lphybbschklogdiv
 022net.com###lsgg1
@@ -6876,6 +6870,8 @@ sd173.com##.carousel
 meizhou.com##.cc_slide_big
 meizhou.com##.cc_slide_small
 meizhou.com##.cc_z1
+iqiyi.com##.cell-left
+iqiyi.com##.cell-right
 xizi.com##.center_md
 e23.cn##.centeradvs
 e23.cn##.centeradvs2
@@ -7367,6 +7363,7 @@ longzhu.com,plu.cn##.inside-game-ap
 letv.com##.interact_cnt
 bestxl.com##.intro_inner
 jrj.com.cn##.ipo-ad
+iqiyi.com##.iqiyi-shangcheng
 wn789.com##.iradbox
 bt.ktxp.com##.item-box2.money
 gaominews.com##.itemFloat
@@ -7623,6 +7620,7 @@ hepan.com##.onead
 pgzhibo.com##.onlineqq
 pgzhibo.com##.onlineqq_left
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.op_tvplay_main
+iqiyi.com##.oppo
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.opr-xmas-game-container
 zhidao.baidu.com##.optimus
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
@@ -7891,6 +7889,7 @@ etest8.com##.subtop2right
 qingdaonews.com##.surround
 shm.com.cn##.surround2
 2345.com##.swf_banner
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
 heiguang.com##.syAdTopTxt
 zhlzw.com##.sygg
 zhifang.com##.sytl
@@ -8297,9 +8296,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,yicai.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8630,6 +8629,7 @@ www.jstv.com##div[style^="width:978px; height:100px;"]
 chinawin.net##div[style^="width:978px;height:90px"]
 21yq.com##div[style^="width:980px;height:80px;"]
 zol.com.cn##div[style^="width:980px;height:90px;text-align:center;"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="houses_new"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="job"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecr_pc_game_"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
@@ -9335,6 +9335,7 @@ brandsales.58.com#@#div[id^="ad_"]
 ||hwcdn.net^*.html
 !--------------------------------Tracking Systems-----------------------------!
 @@||7m.cn/v2/js/analyse.js
+@@||alicdn.com^*/click_track.js
 @@||analytics.163.com/ntes.js
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||guahao.cn/common/js/plugins/fingerprint.js
@@ -9346,6 +9347,5 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$domain=qq.com
 @@||tbcdn.cn^*/click_track.js
-@@||alicdn.com^*/click_track.js
 ||hjfile.cn/analytics/site/TrackEvent.js
 !----------------------------------The End------------------------------------!
