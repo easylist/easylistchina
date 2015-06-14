@@ -2463,6 +2463,7 @@ _vmind.qqvideo.tc.qq.com^
 ||cww.net.cn/UpLoadFile/*.swf
 ||cye.com.cn/JS/AdsJS/
 ||cyzone.cn^*/js/m.js
+||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
 ||d.107788.com^
 ||d.119g.com/fanwan/$script
 ||d.5.to^$subdocument
@@ -3297,6 +3298,7 @@ _vmind.qqvideo.tc.qq.com^
 ||iqiyi.com/player/cupid/*/pageer.swf
 ||iqiyi.com/player/cupid/common/flash980100.swf
 ||iqiyi.com/show2?a=qc_
+||iqshw.com/d/js/m/thea
 ||ishangman.com/images/aismd/
 ||isso.com.cn/ggimage/*.swf
 ||it.com.cn/dy4*/js/*0
@@ -3686,6 +3688,7 @@ _vmind.qqvideo.tc.qq.com^
 ||mgbbs.cn/js/float.js
 ||mgyun.com/Files/FriendLink/2014/11/24/1831484f8bc.jpg
 ||mhhf.net/fserFiles/711x90.jpg
+||mianbao99.com/a/mianbao/indextan.js
 ||mianbao99.com/bd/
 ||microcontrol.cn/bbs/images/AD755_150.swf
 ||microcontrol.cn/HomeImages/AD/
@@ -5111,16 +5114,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
-||iqshw.com/d/js/m/thea
-||mianbao99.com/a/mianbao/indextan.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yahoo.com###my-adsMBAR
-tw.yahoo.com##.tabads
-tw.yahoo.com##.travelads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5892,6 +5889,7 @@ blog.sina.com.cn###module_910
 nick18.com###mov > .content
 dnvod.eu,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xyzc.cn,zdface.com###msg_win
 wz.zj.cn###msnLeft
+yahoo.com###my-adsMBAR
 pcdiy.com.tw###myCarousel
 qqjia.com###myadsL
 qqjia.com###myadsR
@@ -7909,6 +7907,7 @@ tgbus.com##.t8
 bbs.fobshanghai.com##.t_infoline
 51nb.com##.t_rown[width="875"]
 51nb.com##.t_rown[width="98%"]
+tw.yahoo.com##.tabads
 400gb.com,bego.cc,ctfile.com,pipipan.com##.table-striped
 77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com,ysn.cc##.tac.mb5
 aisex.com##.tac[colspan="6"]
@@ -8024,6 +8023,7 @@ suopao.org##.tr3.t_one[onmouseout]
 cnjxol.com##.tr_r
 ifeng.com##.trade
 dict.baidu.com##.tran-download-ad
+tw.yahoo.com##.travelads
 hualady.com##.tu_guangao
 hualady.com##.tu_guangao2
 colafile.com##.tui
@@ -8303,8 +8303,8 @@ news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8911,8 +8911,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||union.m.jd.com/click/
-@@||e.cn.miaozhen.com/r/k=*=http
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9141,6 +9139,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||dvs.china.com/adv1.xml
 @@||dvs.china.com/crossdomain.xml
 @@||dzwww.com/ad/jsfiles/fillCon.js
+@@||e.cn.miaozhen.com/r/k=*=http
 @@||ebiotrade.com/jslibrary/js44.js
 @@||ecitic.com/ads_
 @@||ecitic.com/eshop/advertise/
@@ -9298,6 +9297,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||union.bokecc.com/servlet/getvideofile?
 @@||union.click.jd.com^
 @@||union.easypass.cn/block/
+@@||union.m.jd.com/click/
 @@||unisharp.com/images/ad.jpg
 @@||up2stream.com/vjs/plugin/css/ads.css
 @@||v.rbc.cn/ad/
@@ -9332,6 +9332,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 !-----------------------------Malware Domains rules---------------------------!
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
+@@||jrjimg.cn/js.do?f=/share/js/
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
 ||akamaihd.net^*/sid.html?p=
@@ -9341,7 +9342,6 @@ brandsales.58.com#@#div[id^="ad_"]
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
 ||hwcdn.net^*.html
-@@||jrjimg.cn/js.do?f=/share/js/
 !--------------------------------Tracking Systems-----------------------------!
 @@||7m.cn/v2/js/analyse.js
 @@||alicdn.com^*/click_track.js
