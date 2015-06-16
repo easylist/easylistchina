@@ -8930,6 +8930,7 @@ brandsales.58.com#@#div[id^="ad_"]
 dnwx.com#@#.ad_250
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@/IMAGES/AD/*$domain=pro-partner.com.tw
 @@/AdShow/*$domain=mndxy.org
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -9352,7 +9353,6 @@ dnwx.com#@#.ad_250
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 !-----------------------------Malware Domains rules---------------------------!
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
-@@||jrjimg.cn/js.do?f=/share/js/
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
 ||akamaihd.net^*/sid.html?p=
