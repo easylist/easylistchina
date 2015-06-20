@@ -5137,6 +5137,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hexieshe.com##.textwidget > P > A[href^="http"]:not([href*="hexieshe."]):first-child:last-child
 ifeng.com##.v-adbox
 ifeng.com##.adv01
 hc360.com,yaolan.com###AD
@@ -8121,7 +8122,6 @@ hao123.com##.widget-topbanner
 52xr.com,54xr.com,xr8.me,xrba.net##.widget:first-child
 web20share.com##.widget:nth-of-type(5)
 bgbk.org##.widget_banner
-hexieshe.com##.widget_text:first-child > .textwidget > p > a[href^="http"]:not([href*="hexieshe."])
 51jifenbao.net##.widget_text:last-child
 daqianduan.com##.widget_ui_ads
 wangyueblog.com##.wigget_sponsors
@@ -8217,9 +8217,7 @@ btkitty.org##a[href="/forme.php"]
 mopiaoyao.com##a[href="/html/zanzhu.html"]
 kdslife.com##a[href="http://club.kdslife.com/thread_1_15_8389777__.html"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
-hexieshe.com##a[href="http://juju.la"]
 bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
-hexieshe.com##a[href="http://moe.hao123.com/"]
 m.tiexue.net##a[href="http://tx.caiyunguo.com/top1/"]
 cnfol.com##a[href="http://www.168licai.cn/"]
 178.com##a[href="http://www.bigeye.tv/"]
