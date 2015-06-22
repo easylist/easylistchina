@@ -1235,7 +1235,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /avshow_cn1.gif
 /baha/*$subdocument,domain=gamer.com.tw
 /banner.js$domain=28188.com|28188.net
-/banner/*$domain=dolc.de|dolc.info
+/banner/*$domain=big-cup.tv|dolc.de|dolc.info
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
 /cari/daybanner/*
@@ -2192,7 +2192,6 @@ _vmind.qqvideo.tc.qq.com^
 ||bforu.info/03.jpg
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
-/banner/*$domain=big-cup.tv
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -5140,11 +5139,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-weather.com.cn###duilian
-iqiyi.com##.khzqBox
-big-cup.tv##.banner-table-block
-ifeng.com##.ad_01
-88148.com##.gg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5612,7 +5606,7 @@ udn.com###doctop
 niutuku.com###downAD1
 howfile.com###downloadtable + div > table[style="margin-top:5px"]
 langxi.org###drk_ledtd
-g1080.com,ptbus.com###duilian
+g1080.com,ptbus.com,weather.com.cn###duilian
 shenchuang.com###duilian_left_ID
 shenchuang.com###duilian_right_ID
 my0511.com###duilianleftdiv
@@ -6507,7 +6501,7 @@ ifeng.com##.adR330
 baidu.com##.adTopImg
 mop.com##.adView
 cztv.com##.ad_003
-5944.net,sucaitianxia.com##.ad_01
+5944.net,ifeng.com,sucaitianxia.com##.ad_01
 sina.com.cn##.ad_01_center
 sina.com.cn##.ad_01_left
 sina.com.cn##.ad_01_right
@@ -6767,6 +6761,7 @@ javbus.cc,javbus.co##.banner-index-top
 xdkb.net##.banner-l
 crsky.com##.banner-leader
 fenxs.com##.banner-site
+big-cup.tv##.banner-table-block
 firefoxchina.cn##.banner-words
 longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
@@ -7172,7 +7167,7 @@ haosou.com,so.com##.garllery_ad
 qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
 ocucn.com##.getGold[style^="height:"]
-1kkk.com,5068.com,51caiju.com,china.com,cx9zhou.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,jstv.com,kaifu.com,qianyan001.com,shangdu.com,taodake.com,tianya.cn,xhonline.cn##.gg
+1kkk.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,jstv.com,kaifu.com,qianyan001.com,shangdu.com,taodake.com,tianya.cn,xhonline.cn##.gg
 elecfans.com##.gg-01
 baidu.com##.gg-content
 5068.com,qiku8.com,top.qidian.com##.gg01
@@ -7441,6 +7436,7 @@ luoweihua.cn##.k_ad
 v.ifeng.com##.keyword
 99114.com##.keywordAd
 99tianji.com##.kf1
+iqiyi.com##.khzqBox
 cnool.net,tech.qq.com##.kjad2
 iciba.com##.kk01
 1kkk.com##.kk2.cc
@@ -8347,9 +8343,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8958,7 +8954,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/images/ad/*$domain=landtop.com.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9011,7 +9006,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/ima/*ad.$domain=21394.com|fmdisk.com|fmpan.com
 @@/images/*/*.gif$domain=107.150.17.66|174.37.129.197|174.37.147.136|23.226.134.115|23.226.134.116|23.226.138.28|iu91.co|maichun5.info|myhhg.com|sejie.com|ukhuaren.co|yh1.info|yh10.info
 @@/images/ad$domain=10pan.cc|77pan.cc
-@@/images/ad/*$domain=518pan.cc|5i5j.com|9588.com|diantai.ifeng.com|dod-tec.com|ourgame.com|rapoo.nl|snh48.com|tingbook.com
+@@/images/ad/*$domain=518pan.cc|5i5j.com|9588.com|diantai.ifeng.com|dod-tec.com|landtop.com.tw|ourgame.com|rapoo.nl|snh48.com|tingbook.com
 @@/IMAGES/AD/*$domain=pro-partner.com.tw
 @@/images/ads.$domain=01hr.com
 @@/img/ad_$domain=ruten.com.tw
