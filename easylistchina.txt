@@ -1325,6 +1325,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /vmind.qqvideo.tc.qq.com^
 /wangyuedeux/imgs/wangzhuano.jpg
 /wangyuedeux/imgs/youlian.png
+/web/ad/*$domain=gamer.com.tw
 /Webbanner_$domain=wowrk.com|x-berry.com
 /weeiy_2014-09-19_03-18-15.jpg
 /wp-content/uploads/*hidemyass$domain=wowrk.com|x-berry.com
@@ -1388,6 +1389,7 @@ _vmind.qqvideo.tc.qq.com^
 ||0678life.com/statics/images/tpkan
 ||0756.la/ad-htm/
 ||0758net.com/data/attachment/portal/
+||076299.cn/images/flash/20
 ||0772fang.com/media/*-130x300.swf
 ||0772fang.com/media/*-950x
 ||07908.com/images/
@@ -3987,6 +3989,7 @@ _vmind.qqvideo.tc.qq.com^
 ||pipi.cn/player/
 ||pixfs.net/js/mib.min.js
 ||pixfs.net/js/mib_falcon.
+||playad.xjmg.com^
 ||plures.net/lg/star/plugin/carousel-
 ||plures.net/plu/star/plugin/dhd_
 ||plures.net/scripts/widget/tips.js
@@ -4353,6 +4356,7 @@ _vmind.qqvideo.tc.qq.com^
 ||sinaimg.cn/rny/sinamail57/images/110316/threeKingdoms2.
 ||sinaimg.cn/unipro/
 ||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bo.cc|84zr.com|91v3p.co|99re.co|99re.net|99re.org|ac168.info|aisex.com|bejson.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|cililian.me|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|ml.gg|xxxbt.com|zhiboche.com
+||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|20fuck.com|20men.com|32cao.com|33fuck.com|42bao.com|44fuck.com|74bao.com|83bao.com|96ri.com|bao36.com|bao85.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|gao08.com|men00.com|men55.com|men70.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|wanfuck.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
@@ -5135,19 +5139,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-/web/ad/*$domain=gamer.com.tw
-||076299.cn/images/flash/20
-||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|20fuck.com|20men.com|32cao.com|33fuck.com|42bao.com|44fuck.com|74bao.com|83bao.com|96ri.com|bao36.com|bao85.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|gao08.com|men00.com|men55.com|men70.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|wanfuck.com
-||playad.xjmg.com^
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-tiexue.net###txAdOne
-11584.com##.taomi_tong9602
-11584.com##.taomi_tong960
-11584.com##.taomi_tong9603
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###listPostCnt:nth-last-child(2)
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5866,6 +5861,7 @@ sdgundam.cn###link-roll ~ .box-set-2
 soft4fun.net###linkcat-2 + div:nth-last-child(2)
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box1026387):not(#box34614)
 51cto.com###list4
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###listPostCnt:nth-last-child(2)
 live.90bfw.com###live > table[cellspacing="0"][cellpadding="0"]
 marstv.com###live_ad
 500.com###live_top_ad
@@ -6203,6 +6199,7 @@ ithome.com###tt2
 sohu.com###turn-ad
 ali213.net###tv
 qidian.com###two_dimensional
+tiexue.net###txAdOne
 tianya.cn###ty_msg_mod
 udn.com###udn_scupio_responsive_wrapper
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
@@ -7054,7 +7051,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ec_bdtg
 baidu.com##.ec_im_container
 ettoday.net##.ec_menu
 baidu.com##.ec_wise_ad
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[class^="ecl-edu-"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-mix-page > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-poplist-wrapper
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-loan-list-card
@@ -7964,6 +7960,9 @@ hlgnet.com,sina.com##.tad
 vhiphop.com##.taobao_container
 hushiwin.com##.taobaoad
 chinaiiss.com##.taobaopic
+11584.com##.taomi_tong960
+11584.com##.taomi_tong9602
+11584.com##.taomi_tong9603
 83133.com##.tb-tanx
 yesky.com##.tb_adv
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_info.poster_success
@@ -8383,6 +8382,7 @@ hd-dwr.com##div[class^="banner-"]
 cztv.com##div[class^="banner_"]
 ncxhw.com##div[class^="box_ad"]
 syd.com.cn##div[class^="eap"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl-edu-"]
 qhnews.com##div[class^="fl slider_box"]
 loveshang.com##div[class^="float-ad-"]
 qhnews.com##div[class^="fr slider_box"]
