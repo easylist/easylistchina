@@ -715,7 +715,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||index8.cn^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -980,6 +979,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||iee5.com^$third-party
 ||ihualun.com^
 ||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
+||index8.cn^$third-party
 ||instreet.cn^$third-party
 ||iprefer.com.tw^$third-party
 ||is686.com^$third-party
@@ -2432,6 +2432,7 @@ _vmind.qqvideo.tc.qq.com^
 ||cnzol.com/userfiles/image/*#
 ||cnzzla.com/public/scripts/money.js
 ||cococomic.com/g/
+||codeforge.cn/images/banner.gif
 ||codepub.com/file/code/20141225/142856140.jpg
 ||codepub.com/wuse/pic/
 ||colafile.com/cola3/newdown/join.png
@@ -2565,6 +2566,10 @@ _vmind.qqvideo.tc.qq.com^
 ||dn-cnodestatic.qbox.me/public/images/*-banner-
 ||dn-okey.qbox.me/v*.js
 ||dnpz.net/templets/images/lunbo/
+||dnvod.eu/upload/image/*.gif
+||dnvod.eu/upload/image/*.swf
+||dnvod.eu/upload/image/201501061648284843382.jpg
+||dnvod.eu/upload/image/201501061821572112730.jpg
 ||dnwx.com*/ad$image
 ||dnwx.com/pic/*-960x60.
 ||dnwx.com/pic/*_978x
@@ -5137,18 +5142,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||dnvod.eu/upload/image/*.gif
-||dnvod.eu/upload/image/201501061648284843382.jpg
-||dnvod.eu/upload/image/201501061821572112730.jpg
-||dnvod.eu/upload/image/*.swf
-||codeforge.cn/images/banner.gif
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-codeforge.cn##.webnotice-right
-dnvod.eu##.r-ad4
-dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7763,6 +7760,7 @@ uc123.com##.quick-links > a
 mop.com##.quickReply-ad
 gfan.com##.r-ad
 dnvod.eu##.r-ad2
+dnvod.eu##.r-ad4
 mop.com##.r-adv
 northnews.cn##.r-con > div[style^="width:334px;"]
 ahtv.cn,onlinedown.net,sexbarss.net##.r1
@@ -8129,6 +8127,7 @@ xilu.com##.wap_advert
 xgrb.cn##.warp_ad
 10jqka.com.cn##.wbanner
 51.com##.webim_ad_word
+codeforge.cn##.webnotice-right
 51job.com##.weifantang-wrap
 ptbus.com##.weixin_ad
 ttplay8.cn,xk77.com##.wenad
@@ -8202,6 +8201,7 @@ v7v3.com##.zzsl
 lknovel.lightnovel.cn##:not([href^="/illustration/image/"]) > img[src*="/illustration/"]
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
+dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
 163.com##[class^="gg"]
 5184.com##[class^="gk_gg"]
 gamme.com.tw##[class^="sidead_"]
@@ -8359,9 +8359,9 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
 hupu.com,~my.hupu.com##div[class^="ad"]
+enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8970,8 +8970,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/upload/ads/*.jpg$domain=dnvod.eu
-@@/adframe.$domain=dnvod.eu
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -8992,6 +8990,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/ad_images/*$domain=88box.com
 @@/adbanner/*$image,domain=books.com.tw
 @@/adfile/*$domain=cidianwang.com
+@@/adframe.$domain=dnvod.eu
 @@/adimg/*$domain=itools.cn|laniqu.com|tdx.com.cn|veryeast.cn
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/adpic/*$domain=czsrc.com|nieyou.com|youlea.com
@@ -9039,6 +9038,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/show_ads_impl.js$domain=serve.netsh.org
 @@/store_ad/*$domain=pcstore.com.tw
 @@/ttkdweb/page/js/ad.js
+@@/upload/ads/*.jpg$domain=dnvod.eu
 @@?adType=$domain=taotaosou.com
 @@?bannerId=$domain=qianbao666.com
 @@_!!329633983.png$domain=i-ab.com
