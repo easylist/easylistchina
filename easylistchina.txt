@@ -1277,6 +1277,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /img/kana.jpg$domain=jpfans.com|jpseek.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
+/jquery.$domain=zdfans.com
 /js/adBom.js$domain=myqcloud.com
 /js/alls_$domain=911-sss.com|911semm.com|911seqq.info|kuaisou222.com|ylgbt.info|ylgxxbt.com
 /js/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
@@ -2136,6 +2137,7 @@ _vmind.qqvideo.tc.qq.com^
 ||baidu.com/tb/zt/wen_da_pc.html
 ||baidu.com/ur/scun?di=contentunion
 ||baidu.com/videoadv.js
+||baidu.com^$domain=pos.baidu.com
 ||baidu.com^*/interface/ad?
 ||baidud.cn/aoao/down_
 ||baiduj.tianya.cn^
@@ -3734,6 +3736,8 @@ _vmind.qqvideo.tc.qq.com^
 ||mmtalk.net/images/banner
 ||mnspx.com/js/bdbd/
 ||mobile01.com/300x100.swf
+||moe-acg.cc/images/*/1225x130
+||moe-acg.cc/images/*/360x360
 ||moe-acg.us/images/*/1225x130
 ||moe-acg.us/images/*/360x360
 ||moe.fm/public/images/fm/promotion_
@@ -5144,20 +5148,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||baidu.com^$domain=pos.baidu.com
-/jquery.$domain=zdfans.com
-||moe-acg.cc/images/*/1225x130
-||moe-acg.cc/images/*/360x360
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-m.sohu.com##.h6[href^="/n/500022345/"]
-moe-acg.cc##.banner
-moe-acg.cc##.git_banner
-moe-acg.cc##.git_slick
-cool18.com###d_right_ad
-findprice.com.tw###divBestBuy
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5569,6 +5563,7 @@ hkgolden.com###ctl00_ContentPlaceHolder1_view_form > div > table[width="100%"] >
 sojump.com###ctl01_ContentPlaceHolder1_divProMsg
 fzlimg.com###ctopad
 fzlimg.com###ctopadtop
+cool18.com###d_right_ad
 hao.360.cn###daily-hotword
 dz19.net###dayuers
 vxingkong.com###dbpl
@@ -5580,6 +5575,7 @@ szhk.com###div01
 wz.zj.cn###div1
 3boys2girls.com###div3_display3
 qdwenxue.com,qidian.com###divADClient
+findprice.com.tw###divBestBuy
 76xh.com###divFendDuo
 beanfun.com###divGoogleAD_1
 beanfun.com###divGoogleAD_2
@@ -6770,7 +6766,7 @@ inpai.com.cn##.baiduad3
 3qzw.com##.ban1
 msn.people.com.cn##.banNSch
 phpfans.net##.banad
-0678life.com,3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,ixiumei.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,moe-acg.us,mtksj.com,pengfu.com,qichelian.com,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
+0678life.com,3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,ixiumei.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,moe-acg.cc,moe-acg.us,mtksj.com,pengfu.com,qichelian.com,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 softonic.cn##.banner-caption
@@ -7244,8 +7240,8 @@ dealmoon.com##.ggw
 rrting.net##.ggw960h60
 iqiyi.com##.ggwBox
 uywang.com##.gimg_box
-moe-acg.us##.git_banner
-moe-acg.us##.git_slick
+moe-acg.cc,moe-acg.us##.git_banner
+moe-acg.cc,moe-acg.us##.git_slick
 anquan.org##.gj_download
 88448.com##.gjad
 gameapps.hk##.gkTabsGK5
@@ -7282,6 +7278,7 @@ guokr.com##.guokr-layer-beforelogin
 21cn.com##.h-gg_free
 51ape.com##.h250.w300
 hebei.com.cn##.h50px
+m.sohu.com##.h6[href^="/n/500022345/"]
 mumayi.com##.h80
 jjwxc.net##.h8px + div[align="center"]
 kekenet.com##.h_news_c
@@ -8982,10 +8979,8 @@ yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
-@@&ad_type=$domain=x.jd.com
-@@/img/ad/*$domain=exp.qq.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=zdfans.com
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
+@@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9043,6 +9038,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/images/ad/*$domain=518pan.cc|5i5j.com|9588.com|diantai.ifeng.com|dod-tec.com|landtop.com.tw|ourgame.com|rapoo.nl|snh48.com|tingbook.com
 @@/IMAGES/AD/*$domain=pro-partner.com.tw
 @@/images/ads.$domain=01hr.com
+@@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=ruten.com.tw
 @@/img_ad/*$domain=yy960.com
 @@/LoadAds.$domain=webcars.com.cn
@@ -9182,6 +9178,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||bzfxw.com/adfile/ad29.htm
 @@||bzfxw.com/adfile/syycss.js
 @@||bzfxw.com/adfile/xzhf3.js
+@@||cache.adm.cnzz.net^$image,domain=91s.org
 @@||cb.baidu.com/ecom?$domain=colafile.com|pctowap.com|play.yue365.com|shushuw.cn
 @@||cb.baidu.com/ecom?di=$domain=400gb.com|bego.cc|ctfile.com|excelhome.net|pipipan.com
 @@||cb.baidu.com/ecom?di=106878&
@@ -9207,7 +9204,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||costco.com.tw/jsps/website/*AD
 @@||cpro.baidu.com/cpro/ui/c.js$domain=520tingshu.com
 @@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|bzfxw.com|colafile.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|bzfxw.com|colafile.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com|zdfans.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
@@ -9414,7 +9411,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
-@@||cache.adm.cnzz.net^$image,domain=91s.org
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 !-----------------------------Malware Domains rules---------------------------!
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
@@ -9428,6 +9424,7 @@ brandsales.58.com#@#div[id^="ad_"]
 ||hdsrc-a.akamaihd.net^
 ||hwcdn.net^*.html
 !--------------------------------Tracking Systems-----------------------------!
+@@.com%2Fanalytics.js$domain=free.com.tw
 @@||7m.cn/v2/js/analyse.js
 @@||alicdn.com^*/click_track.js
 @@||analytics.163.com/ntes.js
@@ -9435,9 +9432,8 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hm.baidu.com^$domain=ihome99.com
 @@||msn.wrating.com/a1.js
-@@.com%2Fanalytics.js$domain=free.com.tw
-@@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
 @@||pingjs.qq.com/ping.js
+@@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
