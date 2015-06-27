@@ -3746,6 +3746,8 @@ _vmind.qqvideo.tc.qq.com^
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
 ||money.qz828.com^
+||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
+||moneyweekly.com.tw/Uploads/AD/*970x
 ||moonbbs.com/data/attachment/portal/
 ||moonbbs.com/static/image/banner/fashionmoon.png
 ||moonbt.com/template/skin1/images/g_js/
@@ -5148,16 +5150,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
-||moneyweekly.com.tw/Uploads/AD/*970x
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-moneyweekly.com.tw##DIV[id*="_ScupioHomeAD"]
-wap.eastmoney.com###bn_box_102
-wap.eastmoney.com###bn_box_104
-3g.qq.com##.m-lk[href^="http://c.gdt.qq.com/gdt_clickwap.fcg?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5480,6 +5476,8 @@ meikutv.org###block-block-6
 drupalchina.cn###block-block-8
 acfun.com,acfun.tv###block-recom-film + .ad
 blog.163.com###blog-163-com-toptips
+wap.eastmoney.com###bn_box_102
+wap.eastmoney.com###bn_box_104
 microcontrol.cn###body > table[width="758"]
 wanmei.com###body_right
 999.com###bot_gou
@@ -7549,6 +7547,7 @@ dwnews.com##.m-banner
 blog.163.com##.m-fixedPCAd
 moe123.com##.m-inner2[module="attention"]
 moe123.com##.m-inner2[module="fatty"]
+3g.qq.com##.m-lk[href^="http://c.gdt.qq.com/gdt_clickwap.fcg?"]
 myexception.cn##.m_a
 sohu.com##.m_ad
 house365.com##.m_coup-big
@@ -8456,6 +8455,7 @@ baby-kingdom.com##div[id*="Banner Zone"] + script + iframe
 baby-kingdom.com##div[id*="Banner Zone"] + script + object
 chinaluxus.com##div[id*="ExtraAD"]
 tianya.cn##div[id*="_AD_"]
+moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
@@ -8980,11 +8980,11 @@ sohu.com#@#.label-ad
 36.cn#@#.mainAd
 coral.qq.com#@#.mod-ad
 mobile01.com#@#.navad
+fjsen.com#@#.right-ad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-fjsen.com#@#.right-ad
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
