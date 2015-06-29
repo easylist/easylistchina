@@ -1526,10 +1526,14 @@ _vmind.qqvideo.tc.qq.com^
 ||192.184.10.171^
 ||192.74.239.161/ad960.js
 ||198.40.52.11/ad/
+||198.40.52.58/Uploads/ad/
 ||198.40.56.242/ad/
 ||198zone.com/images/*noad.jpg
 ||198zone.com/images/17558/198zone.gif
 ||199001.com/public/images/activiti_pic/weidian780.png
+||19iiii.info/js/dingbu.js
+||19iiii.info/js/dl.js
+||19iiii.info/js/tonglan.js
 ||1dot.cn/spider/1dotAd.php
 ||1fun.com.hk/bb/189X180B.swf
 ||1kejian.com/js/topA.js
@@ -3487,6 +3491,8 @@ _vmind.qqvideo.tc.qq.com^
 ||jznews.com.cn/js/n_two.js
 ||jznews.com.cn/js/topad
 ||k.youku.com^$domain=flvcd.com
+||k248.com/Runtime/js/*ad
+||k248.com/Tpl/k248/dd.js
 ||k618.cn/gg$image
 ||k618.cn/tlgg/
 ||k7mm.com/js/t*.js
@@ -5153,18 +5159,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||198.40.52.58/Uploads/ad/
-||k248.com/Runtime/js/*ad
-||k248.com/Tpl/k248/dd.js
-||19iiii.info/js/dingbu.js
-||19iiii.info/js/dl.js
-||19iiii.info/js/tonglan.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-kuai8.com##.Ad1
-k248.com###haoetv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5763,6 +5761,7 @@ cnr.cn###gtop00
 creaders.net###guanggao2
 hao123.com###guesslikesite
 www.gxorg.com###h
+k248.com###haoetv
 macd.cn###hbad
 coolaler.com###hd
 ithome.com###hd_float
@@ -6312,6 +6311,7 @@ tzfdc.com##.AD_B
 wxrb.com##.ADtxt
 scsn.cn##.AVu4
 letv.com##.Ad
+kuai8.com##.Ad1
 aohua.com.au,qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 aohua.com.au##.AdTop-Article-QQ1
@@ -8392,8 +8392,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -8641,7 +8641,7 @@ gamer.com.tw##div[style="min-height:250px;margin-bottom:10px;"]
 emuch.net##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 131.com##div[style="position:fixed;bottom:0;right:0;"]
-youku.com##div[style="position:relative;"]:first-child > A[style*="z-index:5; display:block;"]
+youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
 fg.cc##div[style="text-align:center;"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
@@ -9009,9 +9009,6 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
-@@/eroex.js$domain=javfee.com
-@@/ADImages/*$domain=p9.com.tw
-@@/img/ad_$domain=p9.com.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9034,6 +9031,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/adblockTester.js$domain=zdfans.com
 @@/adfile/*$domain=cidianwang.com
 @@/adframe.$domain=dnvod.eu
+@@/ADImages/*$domain=p9.com.tw
 @@/adimg/*$domain=itools.cn|laniqu.com|tdx.com.cn|veryeast.cn
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/adpic/*$domain=czsrc.com|nieyou.com|youlea.com
@@ -9060,6 +9058,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/data/attachment/*_300_250_
 @@/dy_44jjss/topbu.js
 @@/dy_44jjss/zytop1.js
+@@/eroex.js$domain=javfee.com
 @@/FrameWork/AFP/ASP_$domain=mytv365.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
@@ -9070,7 +9069,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/IMAGES/AD/*$domain=pro-partner.com.tw
 @@/images/ads.$domain=01hr.com
 @@/img/ad/*$domain=exp.qq.com
-@@/img/ad_$domain=ruten.com.tw
+@@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img_ad/*$domain=yy960.com
 @@/LoadAds.$domain=webcars.com.cn
 @@/page/adv.html?advId=$subdocument
