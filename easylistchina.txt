@@ -5186,7 +5186,7 @@ _vmind.qqvideo.tc.qq.com^
 ||httpcn.com/Images/banner
 ||httpcn.com/include/ad1/
 /videos/other/*.f4v|$domain=iqiyi.com
-/\/videos\/other\/[0-9]{8}\/[a-z][0-9]\//$domain=iqiyi.com
+/\/videos\/other\/[0-9]{8}\/([a-z][0-9]|[13579][13579])\//$domain=iqiyi.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
