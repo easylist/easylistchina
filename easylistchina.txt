@@ -1341,7 +1341,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 /wangyuedeux/imgs/youlian.png
 /web/ad/*$domain=gamer.com.tw
 /Webbanner_$domain=wowrk.com|x-berry.com
-/weeiy_2014-09-19_03-18-15.jpg
 /wp-content/uploads/*hidemyass$domain=wowrk.com|x-berry.com
 /wp-content/uploads/*vpn$domain=wowrk.com|x-berry.com
 /www.kocpc.com.tw/wp-content/uploads/*.gif
@@ -5198,6 +5197,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+weeiy.com##.d_textbanner + .widget_text
+weeiy.com##.widget_text:nth-child(5)
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
