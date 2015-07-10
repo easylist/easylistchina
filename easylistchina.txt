@@ -748,12 +748,12 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://*:6215/s.php?id=$script,third-party
 |http://*:6970/s.php?id=$script,third-party
 |http://*:8088/s.php?id=$script,third-party
+||005.tv^$third-party
 ||007y.net^$third-party
 ||033.com^$third-party
 ||0591101.com^$third-party
 ||0756j.com^$third-party
 ||100cpc.com^$third-party
-||005.tv^$third-party
 ||103.249.111.179^$third-party
 ||104.195.62.12^
 ||110160.com^$third-party
@@ -1531,6 +1531,7 @@ _vmind.qqvideo.tc.qq.com^
 ||17ok.com/focus/3j_right_jdt.shtml
 ||17pr.com/batch.ad.php?
 ||17yy.com/style/ifra_ad/
+||180.96.27.85^*.htm
 ||18183.com/templets/index2014/js/hanawa.js
 ||182.92.234.239^*.html
 ||183.129.206.25:18180/i.php?z=
@@ -4504,6 +4505,7 @@ _vmind.qqvideo.tc.qq.com^
 ||stockstar.com/*DUILIAN&t=
 ||storetorrent.org/static/best/795X60.gif
 ||storetorrent.org/static/js/best
+||strip.taobaocdn.com/tfscom/$subdocument
 ||strtv.cn/publicimg/sitelink/
 ||su.bdimg.com/static/dspui/js/
 ||sub.powerapple.com^
@@ -4605,6 +4607,7 @@ _vmind.qqvideo.tc.qq.com^
 ||tietuku.com^$domain=99re.city|99re.net|potplayer.org|souxue8.net|totuwo.com|xiaodaoyl.com
 ||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
+||tiexue.net/testforjph/
 ||tigtag.com/images/pic1/
 ||tigtag.com/r/Adv/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -5123,6 +5126,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zeekmagazine.com/wp-content/uploads/2014/12/1419069972-461837bfe556cbb35f738c9263b76473.gif
 ||zfs.cn/8th/
 ||zfs.cn/data/attachment/portal/
+||zgjm.org/data/cache/mytag-30.htm
 ||zgsyb.com/gb/ad/
 ||zhainanba.org/ac/
 ||zhandi.cc/Runtime/js/900
@@ -5197,15 +5201,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||tiexue.net/testforjph/
-||zgjm.org/data/cache/mytag-30.htm
-||strip.taobaocdn.com/tfscom/$subdocument
-||180.96.27.85^*.htm
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhaogepu.com##.banner_top
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6901,7 +6900,7 @@ jinghua.cn##.banner_pic01
 jinghua.cn##.banner_pic02
 ifanr.com##.banner_post_bottom
 15w.com##.banner_s_3
-1684.cc##.banner_top
+1684.cc,zhaogepu.com##.banner_top
 szhome.com##.bannerad3cbox
 jisuzhibo.net##.bannerhead
 moejam.com##.bannerleftfull
@@ -8485,8 +8484,8 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
 enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
+hupu.com,~my.hupu.com##div[class^="ad"]
 ~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
@@ -9106,7 +9105,6 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
-@@/ads.js?$domain=tiexue.net
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9133,6 +9131,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/adimg/*$domain=itools.cn|laniqu.com|tdx.com.cn|veryeast.cn
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/adpic/*$domain=czsrc.com|nieyou.com|youlea.com
+@@/ads.js?$domain=tiexue.net
 @@/ads/*$domain=189.cn
 @@/adsame.$domain=liba.com|libaclub.com
 @@/adsbox.$domain=long7.qq.com
@@ -9390,7 +9389,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||icbc.com.cn/Portal_Resources/Common/AdCss/
 @@||icbc.com.cn/Portal_Resources/Common/AdRes/
 @@||images.sohu.com/cs/$domain=fmdisk.com
-@@||tanx.com/ex?i=$domain=lepan.cc|sx566.com
 @@||img.ybbbs.com/2014/*app
 @@||indeep.com.tw/images/ad.swf?
 @@||indeep.com.tw/Images/Upload/AdPic/
@@ -9491,6 +9489,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||sx566.com/templates/default/images/ad
 @@||szhr.com.cn^$document,domain=szhr.com.cn
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
+@@||tanx.com/ex?i=$domain=lepan.cc|sx566.com
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
