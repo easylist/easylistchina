@@ -5203,11 +5203,16 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||pconline.com.cn/test/*.html?
+||auto-online.com.tw/vendor_data/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 taoguba.com.cn###ad_tgb_list
+auto-online.com.tw##.news_content > DIV[style="width:728px;margin:10px auto"]
+auto-online.com.tw##.text_links_h
+auto-online.com.tw##DIV[style="width:336px;height:280px;margin:0;background:#000000"]
+auto-online.com.tw##DIV[style="width:728px;height:130px;margin:0;background:#000000"]
 taoguba.com.cn##.p_wenz + DIV > DIV[style="text-align:center;cursor:hand;"]
 taoguba.com.cn##DIV[style="width:98%;center;margin-top:20px;margin-bottom:20px;over-flow:hidden;height:70px;"]
 backchina.com##.eis_subnav_area
