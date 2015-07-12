@@ -494,6 +494,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 /ajds/*
 /cache/ad_js/*
 /caches/poster_js/*
+/cdn-cgi/pe/bag2?r[]=*p.tanx.com
+/cdn-cgi/pe/bag2?r[]=*pagead2.
 /clicktotal/ClickTotal.js
 /common/cf/*$image,object
 /content/plugins/em_ad/*
@@ -551,8 +553,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 /template/001/ads/*
 /tuiguang/*
 /u/_sponsor/*
-/cdn-cgi/pe/bag2?r[]=*p.tanx.com
-/cdn-cgi/pe/bag2?r[]=*pagead2.
 :1010/openV5.js
 :7011/ads/
 :8080/ad/
@@ -5214,9 +5214,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dongfangtai.com###ETE
-hebnews.cn##.ad-column-1
-xvna.com##.Cad1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5250,6 +5247,7 @@ ttshuba.com###BookText + div[style="margin-left:20px;text-align:center;"]
 pchome.net###Daybuy
 qidian.com###DoublePop_left
 qidian.com###DoublePop_right
+dongfangtai.com###ETE
 house.shangdu.com,liaoing.com###FlatLayer
 subaonet.com###Float2270
 pcworld.com.cn###FloatDIV
@@ -6404,6 +6402,7 @@ qiqu888.com##.Axing_add_Page2
 letv.com##.Banner
 china.com.cn##.Banner_left
 china.com.cn##.Banner_right
+xvna.com##.Cad1
 ifeng.com##.ColBLAvt
 ifeng.com##.ColBRAvt
 ifeng.com##.ColDLAvt
@@ -6487,6 +6486,7 @@ html-js.com##.ad-blank
 bookshi.com,free.com.tw,iwan.baidu.com,lvseba.cn,qq.com,zol.com.cn##.ad-box
 easou.com##.ad-charge
 skycitizen.net##.ad-chat
+hebnews.cn##.ad-column-1
 nanrenwo.net,newtalk.tw##.ad-container
 cqmmgo.com##.ad-cycle
 simplecd.me##.ad-entry-sidebar-1
@@ -9070,6 +9070,7 @@ xuduba.com#@#.ad980
 189.cn,czbj.js.cn#@#.adArea
 xa.house365.com#@#.adBox
 bbs-mychat.com#@#.adContent
+huanqiu.com#@#.adHead
 kijiji.com.tw#@#.adImg
 icbc.com.cn#@#.adLeft
 189.cn#@#.adOne
@@ -9129,7 +9130,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-huanqiu.com#@#.adHead
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
