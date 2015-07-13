@@ -4616,7 +4616,7 @@ _vmind.qqvideo.tc.qq.com^
 ||tietuku.com^$domain=99re.city|99re.net|potplayer.org|souxue8.net|totuwo.com|xiaodaoyl.com
 ||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
-||tiexue.net/testforjph/
+|http://*.aspx$xmlhttprequest,domain=tiexue.net
 ||tigtag.com/images/pic1/
 ||tigtag.com/r/Adv/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -5217,6 +5217,7 @@ _vmind.qqvideo.tc.qq.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 tiexue.net##DIV[id^="Baidu_BBS_AD"]
+tiexue.net##.test-goods
 juqingbao.com###goog
 hz66.com##.lb_gg
 dygang.com###gd
