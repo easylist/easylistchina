@@ -1237,6 +1237,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=dwbpy.com|kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
 /\/videos\/other\/[0-9]{8}\/([a-z][0-9]|[13579][13579])\//$domain=iqiyi.com
+/^http:\/\/.*?\.\w+$/$xmlhttprequest,domain=tiexue.net
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.itjsb\.com\/[a-z0-9A-Z]+\.(gif|jpg)/$domain=itjsb.com
 /ad2014.js$domain=39xs.net|checheng123.com|haodu5.com
@@ -1634,6 +1635,7 @@ _vmind.qqvideo.tc.qq.com^
 ||315che.com/upload_img/aimg/
 ||3199.cn/ggs_
 ||32345sf.com^
+||324324.cn/zz/
 ||32666.com/ads/
 ||32666.com/img/
 ||327qq.com/images/
@@ -3203,6 +3205,7 @@ _vmind.qqvideo.tc.qq.com^
 ||iciba.com/web/co/ci/
 ||icili.com/cpma.js
 ||icnkr.com/cnkradv/
+||icnkr.com/data/attachment/portal/
 ||idanmu.com/wp-content/themes/wpbangumi/images/assets/
 ||idaybreak.com/wp-content/uploads/idaybreak_cloudleft_aff.png
 ||idcquan.com/linux/cio_new.html
@@ -3379,6 +3382,7 @@ _vmind.qqvideo.tc.qq.com^
 ||it.com.cn/dy4*/js/*0
 ||it.com.cn/dy4*/js/youx.js
 ||it.com.cn/js/*art
+||it.com.cn/test/cj/2015/03/06/10/1424032881.jpg
 ||it165.net/index.php?m=poster&
 ||it168.com/factory/ad/
 ||italk.yinsha.com/god/
@@ -3733,6 +3737,7 @@ _vmind.qqvideo.tc.qq.com^
 ||macappbox.com/d/file/p/*.gif
 ||macd.cn/macd-topads.html
 ||mahua.com/api/$subdocument
+||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||maipiao.96900.com.cn/js/indexgg
@@ -5154,8 +5159,9 @@ _vmind.qqvideo.tc.qq.com^
 ||zgjm.org/data/cache/mytag-30.htm
 ||zgsyb.com/gb/ad/
 ||zhainanba.org/ac/
-||zhandi.cc/Runtime/js/900
 ||zhandi.cc/Runtime/js/*vod
+||zhandi.cc/Runtime/js/900
+||zhandi.cc/Runtime/js/index
 ||zhao.265g.com/cache/kfbftop.html
 ||zhaojiao.net/templets/default/js/AD_flay.js
 ||zhenjiang365.cn/*/ad_
@@ -5226,21 +5232,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||324324.cn/zz/
-||mahua.com/www/default/js/mahua_show.js
-||zhandi.cc/Runtime/js/index
-||it.com.cn/test/cj/2015/03/06/10/1424032881.jpg
-||icnkr.com/data/attachment/portal/
-/^http:\/\/.*?\.\w+$/$xmlhttprequest,domain=tiexue.net
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-tiexue.net##STYLE + DIV[class] > STYLE ~ img
-tiexue.net##STYLE + IMG + DIV[class] > .list
-it.com.cn##.ad750
-mahua.com##.hidden_ab
-yikexun.cn##.index-ad-tl
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6606,6 +6601,7 @@ tompda.com##.ad713
 hupu.com##.ad720-90
 alu.cn##.ad720x70
 ifeng.com##.ad728_tit
+it.com.cn##.ad750
 5adm.net##.ad780
 8264.com##.ad780_80
 tgbus.com##.ad79
@@ -7461,6 +7457,7 @@ xinhuanet.com##.hfgg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme1
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme2
 022net.com##.hgg
+mahua.com##.hidden_ab
 dailyfx.com.hk,jthysh.com##.home-banner
 quwenjiemi.com##.homeTopAd
 www.infoq.com##.home_banner
@@ -7517,6 +7514,7 @@ news18a.com##.ina_ad_left
 qqyy.com##.ind_ad
 newtalk.tw##.ind_news_station
 faxingw.cn##.indadv1
+yikexun.cn##.index-ad-tl
 cyzone.cn##.index-content-ad
 8888eee.com,avlang.com,avlang33.com,avlang88.com,cncao8.com,lang44.com##.index-info > .tac
 zahuishi.com##.index950x90
@@ -8543,9 +8541,7 @@ cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
 ali213.net##div[class^="GG"]
-hupu.com,~my.hupu.com##div[class^="ad"]
-~car.kdslife.com,kdslife.com,pchome.net##div[class^="ad"]
-enet.com.cn,fjsen.com,itopdog.cn,lvye.cn,maituan.com,news.cnyes.com,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
+~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,itopdog.cn,kdslife.com,lvye.cn,maituan.com,~my.hupu.com,news.cnyes.com,pchome.net,qqkj.cn,ts.cn,www.163.com,xj163.cn,xk77.com,zhyjw.com,zznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -8956,6 +8952,8 @@ bbs.xmfish.com##span[id^="ads"]
 sina.com.cn##span[id^="cont-tanx-a-"]
 hkgolden.com##span[id^="lineImage"]
 hanzify.org##span[style^="float:right;"]
+tiexue.net##style + div[class] > style ~ img
+tiexue.net##style + img + div[class] > .list
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
 rmdown.com##table[bgcolor="#003366"]:nth-child(2)
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
@@ -9176,7 +9174,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
-@@||itiexue.net/js/tiexue/statistic/wwwindex/gg
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -9468,6 +9465,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||inte.sogou.com/ask?id=$domain=fmdisk.com
 @@||itc.cn/public_photo/advert/$domain=focus.cn
 @@||itiexue.net/js/tiexue/statistic/wwwindex/ad
+@@||itiexue.net/js/tiexue/statistic/wwwindex/gg
 @@||itjsb.com/bg.gif
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||jinhongweiqi.com/ad/update/
