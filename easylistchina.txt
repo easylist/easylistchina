@@ -5232,10 +5232,13 @@ _vmind.qqvideo.tc.qq.com^
 ||zhandi.cc/Runtime/js/index
 ||it.com.cn/test/cj/2015/03/06/10/1424032881.jpg
 ||icnkr.com/data/attachment/portal/
+/^http:\/\/.*?\.[a-zA-Z]+$/$xmlhttprequest,domain=tiexue.net
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tiexue.net##STYLE + DIV[class] > STYLE ~ img
+tiexue.net##STYLE + IMG + DIV[class] > .list
 it.com.cn##.ad750
 mahua.com##.hidden_ab
 yikexun.cn##.index-ad-tl
@@ -9176,6 +9179,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
+@@||itiexue.net/js/tiexue/statistic/wwwindex/gg
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
