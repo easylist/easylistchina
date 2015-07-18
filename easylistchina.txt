@@ -2013,6 +2013,8 @@ _vmind.qqvideo.tc.qq.com^
 ||acg.178.com/s/manhua218_140.html
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
 ||acg.tv^$object,domain=bilibili.com
+||acgget.com/up/*/715x147
+||acgget.com/up/*/papa
 ||acode.b2b.cn/JS/
 ||acsystem.wasu.cn^
 ||act.chinatimes.com/aimg/
@@ -5241,16 +5243,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||acgget.com/up/*/715x147
-||acgget.com/up/*/papa
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ijia360.com##.a.fz0.mb15
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
-acgft.club##.gtttop
-acgft.club##A[href*=".taobao.com"] > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6086,6 +6082,7 @@ lalulalu.com###overture_main_banner
 manhua.weibo.com###p-nav-fix + .p-area.w980
 xizi.com###pageRight-loop
 guanhuaju.com###page_gg_1
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
 srzc.com###pageright > .padding:nth-child(2)
 5iyq.com###pan1
 5iyq.com###pan2
@@ -6506,6 +6503,7 @@ m.sohu.com##._tgC_nav
 3g.163.com##.a-d-3
 pbhz.com##.a-ds-bottom
 pbhz.com##.a-ds-post
+ijia360.com##.a.fz0.mb15
 55188.com,g138.com##.a1_gg
 tucao.cc##.a2013d
 0772fang.com##.a_banner
@@ -7414,6 +7412,7 @@ jiaodong.net##.grayB
 bioon.com##.grid_6
 admin5.com##.grid_8 > .mb6
 putclub.com##.gtest
+acgft.club##.gtttop
 58.com##.guaguabox
 weathertv.cn##.guangGao
 hkwb.net##.guangg
@@ -8412,7 +8411,6 @@ e0575.cn,sz.zj.cn##[id^="ads_c_"]
 gamebase.com.tw##[id^="aid_"]
 400gb.com,bego.cc,ctfile.com,pipipan.com##[id^="cproIframe"]
 51240.com##[id^="ggwz"]
-btkitty.me##DIV[id] > A[href^="/search/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
 btkitty.org,btlibrary.com,diggbt.com##[onclick*="("]
 btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href$=".php"]
@@ -8424,6 +8422,7 @@ zdfans.com##a[href*=".kiees."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
 btcherry.com,cosersuki.org,d5yuansu.com,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,toutiao.com,vvtor.com,zalra.cn##a[href*=".taobao.com"]
+acgft.club##a[href*=".taobao.com"] > img
 gmgard.us,hexieshe.com,lightnovel.cn,soul-plus.org##a[href*=".tmall.com"]
 letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
@@ -8646,6 +8645,7 @@ moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
+btkitty.me##div[id] > a[href^="/search/"]
 iqiyi.com##div[id^="100000000"]
 taiwan.cn##div[id^="2014sy_gg"]
 ea3w.com,fengniao.com##div[id^="AD"]
