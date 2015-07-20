@@ -716,8 +716,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||gzmjnx.cn^
-||hxqu.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -966,6 +964,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||gohappy.com.tw^$third-party
 ||gs307.com^$third-party
 ||guduopu.com^
+||gzmjnx.cn^
 ||gzqudou.com^
 ||haiyunx.com^$third-party
 ||hao123rt.com^
@@ -981,6 +980,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||hsmkj.net^$third-party
 ||humanding.com^
 ||hx7878.com^$third-party
+||hxqu.com^$third-party
 ||i000o.com^$third-party
 ||i3z.cn^$third-party
 ||icast.cn^$third-party
@@ -5249,12 +5249,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-uc123.com###right_elevator
-uc123.com##.latest-news
-uc123.com##.m-link
-uc123.com##.s-left
-uc123.com##.s-right
-guagua.cn###floatRoomDiv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5781,6 +5775,7 @@ qqread.com###flash310ad
 shangdu.com###float
 weibo.com###floatAd-left
 weibo.com###floatAd-right
+guagua.cn###floatRoomDiv
 eeyy.com###float_ad0
 ssnn.net###float_picr
 wenwen.sogou.com###float_window
@@ -6192,6 +6187,7 @@ xinhuanet.com###right_ad1
 xinhuanet.com###right_ad2
 xinhuanet.com###right_ad3
 discuss.com.hk,uwants.com###right_column
+uc123.com###right_elevator
 gamersky.com###right_fixed
 www.wenxuecity.com###rightside
 pingpang.info###rwc
@@ -6578,7 +6574,7 @@ hebnews.cn##.ad1-43
 ifeng.com##.ad1000-2
 ifeng.com##.ad1000_2
 ifeng.com##.ad1000_box
-ifeng.com,~games.ifeng.com##.ad1000x90
+~games.ifeng.com,ifeng.com##.ad1000x90
 chinayk.com##.ad1024
 hltm.cc##.ad1960
 178.com,766.com,c114.net,chddh.com,china.com.cn,izhufu.net,kaixin200.com,qingdaonews.com,top81.com.cn,txahz.com,wfcmw.cn,xdf.cn##.ad2
@@ -7643,6 +7639,7 @@ flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 taoguba.com.cn##.label2
 3jy.com,i51yy.com##.lad
 hjenglish.com,hujiang.com##.lamu_banner
+uc123.com##.latest-news
 83133.com##.lay-300 > .test
 letv.com##.lay_body[style^="width:490px;height:320px;"]
 letv.com##.lay_body[style^="width:980px;height:100px;"]
@@ -7717,6 +7714,7 @@ dwnews.com##.m-banner
 blog.163.com##.m-fixedPCAd
 moe123.com##.m-inner2[module="attention"]
 moe123.com##.m-inner2[module="fatty"]
+uc123.com##.m-link
 3g.qq.com##.m-lk[href^="http://c.gdt.qq.com/gdt_clickwap.fcg?"]
 myexception.cn##.m_a
 sohu.com##.m_ad
@@ -8013,8 +8011,10 @@ nhaidu.com##.rowa.clearfix.clear
 ld0766.com##.rsf_pull_screen_adv
 xinjunshi.com##.rt_jph
 iyaxin.com##.ruan_ad
+uc123.com##.s-left
 wuxianfuli.com##.s-list:first-child
 uc123.com##.s-pic-wrapper
+uc123.com##.s-right
 wenda.tianya.cn##.s1Tit + .sideBox
 99114.com##.s_banner
 15w.com##.s_count_st
