@@ -1240,7 +1240,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 /404.safedog.cn/sitedog_stat_new.html
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=dwbpy.com|kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
-/^http:\/\/.*?\.\w+$/$xmlhttprequest,domain=tiexue.net
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.itjsb\.com\/[a-z0-9A-Z]+\.(gif|jpg)/$domain=itjsb.com
 /ad2014.js$domain=39xs.net|checheng123.com|haodu5.com
@@ -5250,6 +5249,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
 ||28hse.com/adsman/www/images/
+||tiexue.net/tsetforiph/
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
@@ -9597,8 +9597,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||taobao.com^*&adgroupid=
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
 @@||tenpay.com^*?ADTAG=
-@@||tiexue.net/post2
-@@||tiexue.net/xml
 @@||tmall.com/go/*/banner.php
 @@||tompda.com/images/pix.swf
 @@||totheglory.im/pic/ttg_logo.png
