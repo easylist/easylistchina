@@ -3424,6 +3424,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ithome.com/NewsUploadFiles/focus/43.jpg
 ||ithome.com/NewsUploadFiles/focus/44.jpg
 ||ithome.com/NewsUploadFiles/focus/6.jpg
+||itiexue.net/2046/204680*.jpg
 ||itiexue.net^*.gif?w=1500&h=1500
 ||itjkr.com/upload/ad/
 ||itjsb.com/file/script/A27.js
@@ -5259,18 +5260,10 @@ _vmind.qqvideo.tc.qq.com^
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
 ||zznews.cn/home/js/duilian1.js
-||itiexue.net/2046/204680*.jpg
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jq22.com##.col-lg-4:first-child
-down.766.com##.fro.note
-tiexue.net##IMG[width="145"][height="145"]
-tiexue.net##IMG[width="145"][height="145"] + P
-jjxw.cn##.ou_banner
-jjxw.cn##.ru_banner
-junshiqu.com##.pg08
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7127,6 +7120,7 @@ huanqiu.com##.co360Box
 hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http://"]:not([href*=".wenxuecity."])
+jq22.com##.col-lg-4:first-child
 big-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
 114la.com##.col-row01 > dt
 gamefy.cn##.col-vlist-l > span
@@ -7325,6 +7319,7 @@ gamebase.com.tw##.forum_ad_top
 chineseinla.com##.forum_banner_ads
 pcbeta.com##.forum_top ~ div[class]
 imanhua.com##.fr[style^="width: 250px;"]
+down.766.com##.fro.note
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.frs_act_repost_wrapper_outter
 mei521.com##.fs_ad
 mei521.com##.fs_ad1
@@ -7896,6 +7891,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.opr-xmas-game-container
 zhidao.baidu.com##.optimus
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
 wenxuecity.com##.otherposts
+jjxw.cn##.ou_banner
 lalulalu.com##.overture_banner
 allhabit.com##.overture_forumlist
 allhabit.com##.overture_threadlist
@@ -7924,6 +7920,7 @@ sina.com##.parta_l_ads
 heiguang.com##.pbAddPic
 haosou.com,so.com##.pc_app
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.per_list.j_per_list.per_list_frs
+junshiqu.com##.pg08
 qingren.tv##.pgg1
 qingren.tv##.pgg2
 sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
@@ -8046,6 +8043,7 @@ howfile.com##.row1_right
 nhaidu.com##.rowa.clearfix.clear
 ld0766.com##.rsf_pull_screen_adv
 xinjunshi.com##.rt_jph
+jjxw.cn##.ru_banner
 iyaxin.com##.ruan_ad
 uc123.com##.s-left
 wuxianfuli.com##.s-list:first-child
@@ -8966,6 +8964,8 @@ szhk.com##img[id^="adp"]
 0898.net,hi.people.com.cn,xizi.com##img[width="1000"]
 ts.cn##img[width="1000"][src*="/site1/"]
 jmbbs.com##img[width="1100"]
+tiexue.net##img[width="145"][height="145"]
+tiexue.net##img[width="145"][height="145"] + p
 china.com.cn##img[width="180"]
 nmgnews.com.cn##img[width="247"][height="50"]
 6.gy##img[width="300"][height="250"]
@@ -9687,7 +9687,6 @@ brandsales.58.com#@#div[id^="ad_"]
 ||hdsrc-a.akamaihd.net^
 !--------------------------------Tracking Systems-----------------------------!
 @@.com%2Fanalytics.js$domain=free.com.tw
-@@||jd.com/setCookie?
 @@/analytics.php?$domain=xcar.com.cn
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@||7m.cn/v2/js/analyse.js
@@ -9697,6 +9696,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||count.video.sina.com.cn/getInfo.php?video_ids=
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hm.baidu.com^$domain=ihome99.com
+@@||jd.com/setCookie?
 @@||msn.wrating.com/a1.js
 @@||pingjs.qq.com/ping.js
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
