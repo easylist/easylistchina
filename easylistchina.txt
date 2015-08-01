@@ -3433,7 +3433,6 @@ _vmind.qqvideo.tc.qq.com^
 ||ithome.com/NewsUploadFiles/focus/43.jpg
 ||ithome.com/NewsUploadFiles/focus/44.jpg
 ||ithome.com/NewsUploadFiles/focus/6.jpg
-||itiexue.net/2046/204680*.jpg
 ||itiexue.net^*.gif?w=1500&h=1500
 ||itjkr.com/upload/ad/
 ||itjsb.com/file/script/A27.js
@@ -5284,6 +5283,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bbs.tiexue.net##.AreaL > DIV > DIV > IMG
+bbs.tiexue.net##.AreaL > DIV > DIV > IMG ~ P
 wenku.baidu.com##.area[href*="/adclick?aid="]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9010,8 +9011,8 @@ szhk.com##img[id^="adp"]
 0898.net,hi.people.com.cn,xizi.com##img[width="1000"]
 ts.cn##img[width="1000"][src*="/site1/"]
 jmbbs.com##img[width="1100"]
-tiexue.net##img[width="145"][height="145"]
-tiexue.net##img[width="145"][height="145"] + p
+bbs.tiexue.net##.AreaL > DIV > DIV > IMG
+bbs.tiexue.net##.AreaL > DIV > DIV > IMG ~ P
 china.com.cn##img[width="180"]
 nmgnews.com.cn##img[width="247"][height="50"]
 6.gy##img[width="300"][height="250"]
