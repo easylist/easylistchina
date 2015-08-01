@@ -1465,6 +1465,7 @@ _vmind.qqvideo.tc.qq.com^
 ||119g.com/fanwan1/dibubanner.js
 ||119xiazai.com^$subdocument
 ||11dmdm.com/java/
+||11dzdz.com/java/
 ||11hhww.com/java/shang1.js
 ||11hhww.com/java/xia1.js
 ||11mzmz.com/java/
@@ -2463,6 +2464,7 @@ _vmind.qqvideo.tc.qq.com^
 ||cj.qidian.com^$object,subdocument
 ||cjn.cn^*/ad/
 ||clm02.com/2014-A/FB-6-14-AA1.jpg
+||clouddn.com/960x60.gif
 ||cloudleft.com/images/new/cmhello.jpg
 ||club.pchome.net/*/localexchange.php$subdocument
 ||cmsjs.eastmoney.com/js/fixedSoft$script
@@ -3593,6 +3595,7 @@ _vmind.qqvideo.tc.qq.com^
 ||kekenet.com/images/2014/akasuo
 ||kekenet.com/images/2014/weibo960.jpg
 ||kelepan.com/cp
+||kelepan.com/yunfaka.gif
 ||key8.com/cache/www/banner_
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kf.abab.com/index.php?
@@ -4646,6 +4649,7 @@ _vmind.qqvideo.tc.qq.com^
 ||thethirdmedia.com/a1/*960x
 ||thisav.com/js/popup.js
 ||thisav.com/js/pu.js
+||thisav.com/windowfiles/dhtmlwindow
 ||thjunshi.com/uploadfile/image/20140929/20140929142290749074.gif
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
@@ -4670,6 +4674,7 @@ _vmind.qqvideo.tc.qq.com^
 ||tibet.news.cn/zhuye/images/wangqun
 ||tieba.baidu.com/f/urlcheck?
 ||tietuku.com/0bb9bfe57636dc55.jpg
+||tietuku.com/0f65751b4e0f0ce6.gif
 ||tietuku.com/96becf8edc50ccb2.jpg
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
 ||tietuku.com/dc65703d91297e91.png
@@ -5276,20 +5281,11 @@ _vmind.qqvideo.tc.qq.com^
 ||zxip.com/2013_ad/
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
-||11dzdz.com/java/
 ||zznews.cn/home/js/duilian1.js
-||kelepan.com/yunfaka.gif
-||thisav.com/windowfiles/dhtmlwindow
-||clouddn.com/960x60.gif
-||tietuku.com/0f65751b4e0f0ce6.gif
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-btlibrary.org,btkitty.la,diggbt.net##[id] > A[href$=".html"]
-bbs.tiexue.net##.AreaL > DIV > DIV > IMG
-bbs.tiexue.net##.AreaL > DIV > DIV > IMG ~ P
-wenku.baidu.com##.area[href*="/adclick?aid="]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6504,6 +6500,8 @@ juqingba.cn##.Ad_300_2
 xinhuanet.com##.AdvColumn1
 js0573.com##.Adv_banner
 feixiangtv.com##.Advertisement
+bbs.tiexue.net##.AreaL > div > div > img
+bbs.tiexue.net##.AreaL > div > div > img ~ p
 tiexue.net##.AreaR_ad
 ifeng.com##.Avt01
 ifeng.com##.Avt02
@@ -6926,6 +6924,7 @@ redocn.com##.apositions
 keywin.org##.appdownload
 nj.house.163.com##.area > div[style*="position:absolute; z-index:"]
 gamefy.cn##.area > div[style="float:left"] > a
+wenku.baidu.com##.area[href*="/adclick?aid="]
 doyo.cn##.area[style="height:90px;text-align:center;overflow:hidden;"]
 163.com##.area_brand_ad
 163.com##.area_top_ad
@@ -8496,6 +8495,7 @@ dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
 5184.com##[class^="gk_gg"]
 gamme.com.tw##[class^="sidead_"]
 lknovel.lightnovel.cn##[href^="/"][href*="#"]
+btkitty.la,btlibrary.org,diggbt.net##[id] > a[href$=".html"]
 shunwang.com##[id^="ad_"]
 jjwxc.net##[id^="adp_"]
 77bike.com,ksbbs.com,kshot.com##[id^="ads_"]
@@ -9015,8 +9015,6 @@ szhk.com##img[id^="adp"]
 0898.net,hi.people.com.cn,xizi.com##img[width="1000"]
 ts.cn##img[width="1000"][src*="/site1/"]
 jmbbs.com##img[width="1100"]
-bbs.tiexue.net##.AreaL > DIV > DIV > IMG
-bbs.tiexue.net##.AreaL > DIV > DIV > IMG ~ P
 china.com.cn##img[width="180"]
 nmgnews.com.cn##img[width="247"][height="50"]
 6.gy##img[width="300"][height="250"]
