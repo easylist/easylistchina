@@ -1199,6 +1199,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
+|http:$popup,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 |http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
@@ -5287,6 +5288,7 @@ _vmind.qqvideo.tc.qq.com^
 ||668vv.net/Runtime/js/*ad
 ||668vv.net/Uploads/ad/
 ||51t.com^$subdocument
+|http:$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zimuzu.tv###ad1
@@ -9336,7 +9338,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/advertising/*$domain=houdask.com
 @@/adview_pic_$domain=123564.com|jkpan.com|mahua.com
 @@/advs/*$domain=dianxinos.com|gotobuy.com.tw|haseemobile.net|lklm.com|re-vat.com|sj-touch.com
-@@/advview2013.php?ad_pos=0
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
 @@/cntv_Advertise.js
@@ -9499,7 +9500,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||bzfxw.com/adfile/xzhf3.js
 @@||cache.adm.cnzz.net^$image,domain=91s.org
 @@||cb.baidu.com/ecom?$domain=colafile.com|pctowap.com|play.yue365.com|shushuw.cn
-@@||cb.baidu.com/ecom?di=$domain=400gb.com|bego.cc|ctfile.com|excelhome.net|pipipan.com
+@@||cb.baidu.com/ecom?di=$domain=excelhome.net
 @@||cb.baidu.com/ecom?di=106878&
 @@||cb.baidu.com/ecom?di=373107&
 @@||cb.baidu.com/ecom?di=654997&
@@ -9522,7 +9523,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||colafile.com/js/ad_test.js
 @@||costco.com.tw/jsps/website/*AD
 @@||cpro.baidu.com/cpro/ui/c.js$domain=520tingshu.com
-@@||cpro.baidustatic.com/cpro/ui/*.js$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|bzfxw.com|colafile.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com|zdfans.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cztv.com/player/*.swf?ad=
@@ -9593,8 +9593,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||joy.cn/service.php?*&showad=
 @@||jwpcdn.com^*/vast.js$script,third-party
 @@||kbcool.com/advpic/$domain=ks.js.cn
-@@||keyrun.cn^$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-@@||keyyou.net^$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||kukuplay.com/upload/*.*.swf
 @@||l.qq.com/livemsg?ty=web&ad_type=
 @@||l.qq.com/lview?$domain=888.sports.qq.com
@@ -9633,7 +9631,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||pos.baidu.com/acom?di=u1671167&
 @@||pos.baidu.com/acom?di=u1705639&
 @@||pos.baidu.com/ecom?$domain=9duli.com
-@@||pos.baidu.com^$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||ps123.net/MyFile/toptxt.js
 @@||pub.alimama.com/common/adzone/
 @@||qidian.com/ploy/20*.swf
@@ -9689,7 +9686,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||totheglory.im/pic/ttg_logo.png
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
-@@||tv002.com^$subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@|http:$image,script,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||tw.m.yimg.com/res/ads/$domain=tw.buy.yahoo.com
 @@||u9pan.com/images/ads/
 @@||ubmcmm.baidustatic.com^$domain=excelhome.net
