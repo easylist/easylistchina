@@ -715,7 +715,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||9377co.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -842,6 +841,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||9158918.com^$third-party
 ||91wan.com^$third-party
 ||91zgm.com^
+||9377co.com^
 ||9519.net^$third-party
 ||9718.com^$third-party
 ||9ead.com^$third-party
@@ -1951,6 +1951,7 @@ _vmind.qqvideo.tc.qq.com^
 ||8888nn.com/sxgg/13.js
 ||88gs.com/agfile/
 ||88liu.com/data/attachment/portal/
+||8d8d.me/images/dealer.gif
 ||8dyun.com/*.php$script
 ||8jkx.com^
 ||8vod.net/detail/play_*.js
@@ -2471,6 +2472,7 @@ _vmind.qqvideo.tc.qq.com^
 ||cjn.cn^*/ad/
 ||clm02.com/2014-A/FB-6-14-AA1.jpg
 ||clouddn.com/960x60.gif
+||clouddn.com/uploads/marketing/cover/1a/b7/1ab7bad9a9c0860ab8678e1acd6e7ad0.jpg
 ||cloudleft.com/images/new/cmhello.jpg
 ||club.pchome.net/*/localexchange.php$subdocument
 ||cmsjs.eastmoney.com/js/fixedSoft$script
@@ -3266,6 +3268,7 @@ _vmind.qqvideo.tc.qq.com^
 ||ifengimg.com/*/taobaopudi/
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
+||ifengimg.com/ifeng/mif/mobile_inice_
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/ifengimcp/pic/*_w130_h100.
 ||ifengimg.com/ifengimcp/pic/*_w24_h100.
@@ -3723,6 +3726,7 @@ _vmind.qqvideo.tc.qq.com^
 ||linuxidc.com/linuxfile/list
 ||linuxidc.com/linuxfile/y9.js
 ||live8bo.com/j/Lad6.js
+||liveany.com/images/8d8d.gif
 ||livemp4.com/js/
 ||liyuanwang.com/guoqing.gif
 ||liyuanwang.com/nongli.gif
@@ -5289,19 +5293,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ifengimg.com/ifeng/mif/mobile_inice_
-||8d8d.me/images/dealer.gif
-||liveany.com/images/8d8d.gif
-||clouddn.com/uploads/marketing/cover/1a/b7/1ab7bad9a9c0860ab8678e1acd6e7ad0.jpg
 !------------------------Specific element hiding rules------------------------!
-ifeng.com##.ifgBoxAdLis
-technews.tw###inside_AD
-hexieshe.com##A[href="http://www.masadora.net/"]
-sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
-huanqiu.com###wxhz1
-geekpark.net###s1
-ifeng.com##.adcoop
-ifeng.com##.acAd1
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6002,6 +5994,7 @@ poxiao.com###indextopleft > .content > ul > li:first-child
 loveshang.com###infobox + div[style="margin:0 auto 5px;width:980px;"]
 xxsy.net###infoleftad_1
 xxsy.net###infoleftad_2
+technews.tw###inside_AD
 pchome.net###intel-bar
 zol.com.cn###intel_touch_ad
 mm-cg.com###ioshowAD
@@ -6260,6 +6253,7 @@ uc123.com###right_elevator
 gamersky.com###right_fixed
 www.wenxuecity.com###rightside
 pingpang.info###rwc
+geekpark.net###s1
 jvhao.com###sAD3
 jvhao.com###sAD5
 5173.com###sPic_zs
@@ -6460,6 +6454,7 @@ chcj.net,yixingjia.com###wp > table[width="960"]
 taoguba.com.cn###wrap_footer > div[style*="960"]
 cd.qq.com###wrap_top
 wuleba.com###wulebashowcpc
+huanqiu.com###wxhz1
 quanji.com###wza
 zhiboche.com###wzad
 dychao.com###x-adfoot-player
@@ -6597,6 +6592,7 @@ vpser.net##.ab_textlink1
 120ask.com##.ab_top
 jiyingdm.com##.abcde
 yaolan.com##.abstract_ad
+ifeng.com##.acAd1
 jiaju.shangdu.com##.accordion
 qq.com##.action_ad
 rising.cn##.activity-ad
@@ -6827,6 +6823,7 @@ ifeng.com##.adbox03
 xcar.com.cn##.adbox980
 qq.com##.adbutton-Aritcle-QQ
 qq.com##.adcent
+ifeng.com##.adcoop
 jgzj.net##.adcss
 hao.rising.cn,jq22.com##.add
 chinanews.com##.add3
@@ -7608,6 +7605,7 @@ leiphone.com##.idx-adver1
 haodou.com##.idx_ad_box
 divcss5.com##.if1000
 divcss5.com##.if1200
+ifeng.com##.ifgBoxAdLis
 wfcmw.cn##.ifra_tx
 xinhuanet.com##.iframeSrc + a[href^="http"]:not([href*=".xinhuanet."])
 anjuke.com##.ifx-ad-r-box
@@ -8549,6 +8547,7 @@ m.tiexue.net##a[href="http://tx.caiyunguo.com/top1/"]
 cnfol.com##a[href="http://www.168licai.cn/"]
 178.com##a[href="http://www.bigeye.tv/"]
 anquan.org##a[href="http://www.jiasule.com/"]
+hexieshe.com##a[href="http://www.masadora.net/"]
 open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 xiadele.com##a[href="http://yun.banjiajia.com"]
@@ -8659,6 +8658,7 @@ zhibo8.cc##div[class*="advert"]
 efu.com.cn##div[class*="banner-"]
 chinatimes.com##div[class*="googlead_"]
 jznews.com.cn##div[class*="n_ads_index"]
+sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
 ifeng.com##div[class="adbox02"]
 www.mop.com##div[class="fl w320"]:last-child > .pb15:last-child
