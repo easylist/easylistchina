@@ -748,6 +748,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://*:6970/s.php?id=$script,third-party
 |http://*:8088/s.php?id=$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
+|http://tk.*.php?id=*&s=$script
+|http://tk.*.php?id=*&step=
 ||005.tv^$image,third-party
 ||007y.net^$third-party
 ||033.com^$third-party
@@ -1110,8 +1112,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||tc600.com^
 ||tdayi.com^
 ||tg.1155t.cn^
-|http://tk.*.php?id=*&s=$script
-|http://tk.*.php?id=*&step=
 ||toourbb.com^
 ||top888.com^$third-party
 ||toufangke.com^$third-party
@@ -2250,6 +2250,7 @@ _vmind.qqvideo.tc.qq.com^
 ||bdstatic.com/tb/cms/com/game/couplet_
 ||bdstatic.com/tb/cms/com/mis/spreadad/dasense_iframe_api.js
 ||bdstatic.com/tb/cms/forum_skin/file_1432619994840.jpg
+||bdstatic.com/tb/cms/forum_skin/file_1438666495500.jpg
 ||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
 ||bdstatic.com/tb/cms/ngmis/file_1417585294569.jpg
 ||bdstatic.com/tb/cms/ngmis/file_1417585299140.jpg
@@ -2698,6 +2699,7 @@ _vmind.qqvideo.tc.qq.com^
 ||downbank.cn/s1/
 ||downbank.cn/soft6/
 ||downkr.com/statics/js/all.js
+||downxia.com/dgjs/download.js
 ||downxia.com/haojs/
 ||downxia.com/zejs/ad
 ||downxia.com/zejs/soft
@@ -2739,6 +2741,7 @@ _vmind.qqvideo.tc.qq.com^
 ||dzwww.com/k.js
 ||e.changyan.sohu.com/dataService/getData?
 ||e.hnr.cn/choose/view/
+||e.yycqc.com^
 ||e0421.com/*tj.js
 ||e0421.com/css/js/bd
 ||e0421.com/css/js/tl
@@ -4188,6 +4191,7 @@ _vmind.qqvideo.tc.qq.com^
 ||qingdaonews.com/images/36024.files/360da.gif
 ||qingkai.com/2009/html/top.htm
 ||qingkai.com/gg_img/
+||qingkong.net/a/980x90_1.jpg
 ||qiniudn.com^$domain=52jifenbao.net
 ||qinmin8.com/api.php
 ||qiporn.com/media/banners/
@@ -5295,10 +5299,6 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qingkong.net/a/980x90_1.jpg
-||bdstatic.com/tb/cms/forum_skin/file_1438666495500.jpg
-||downxia.com/dgjs/download.js
-||e.yycqc.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9307,7 +9307,6 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
-@@/bag2?r[]=*&r[]=$domain=free.com.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@.beautifulphoto.net/ads/music
@@ -9351,6 +9350,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/advs/*$domain=dianxinos.com|gotobuy.com.tw|haseemobile.net|lklm.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
+@@/bag2?r[]=*&r[]=$domain=free.com.tw
 @@/cntv_Advertise.js
 @@/common/ad_$domain=2kandy.com
 @@/common/cf/*$domain=1point3acres.com|66u.com|dataguru.cn|jiangsuphp.jd-app.com|launcher.lenovo.com|oneplusbbs.com|xda.cn
