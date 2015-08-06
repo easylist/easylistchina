@@ -597,6 +597,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ###floatAd
 ###floatad-winpop
 ~hkcsl.com###gg1
+###gg300
 ###js_ads_banner_top
 ###js_ads_banner_top_slide
 ~houdask.com###kfivtwin
@@ -713,7 +714,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###gg300
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -4009,6 +4009,7 @@ _vmind.qqvideo.tc.qq.com^
 ||oyksoft.com/show/s.php/
 ||p.37youyou.com/*.jpg
 ||p.aty.sohu.com/p?cat=
+||p.kugou.com/?id=
 ||p.szonline.net^
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
@@ -5269,6 +5270,7 @@ _vmind.qqvideo.tc.qq.com^
 ||znz888.cn/modblock/
 ||zo66.com^
 ||zol-img.com.cn/201507/box81064hp1350a_0729.jpg
+||zol.com.cn/adrs/
 ||zol.com.cn/intelcorp/
 ||zolsky.com^*ad/*.js
 ||zongheng.com/ajax/recommend.game.
@@ -5292,11 +5294,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zol.com.cn/adrs/
-||p.kugou.com/?id=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-kdnet.net##A[href*=".tmall.com/?spm="] > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8530,6 +8529,7 @@ chdbits.org,hdcmct.org##a[href*=".taobao"]
 btcherry.com,cosersuki.org,d5yuansu.com,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,toutiao.com,vvtor.com,zalra.cn##a[href*=".taobao.com"]
 acgft.club##a[href*=".taobao.com"] > img
 gmgard.us,hexieshe.com,lightnovel.cn,soul-plus.org##a[href*=".tmall.com"]
+kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
 18p2p.com##a[href*="/?aff="]
