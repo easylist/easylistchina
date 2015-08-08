@@ -5308,6 +5308,7 @@ _vmind.qqvideo.tc.qq.com^
 ||imgout.ph.126.net^*/950-90.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+www.tiexue.net##STYLE + [style="display:none;"] + DIV[class]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6029,8 +6030,7 @@ iqiyi.com###jingdongArea
 gog.com.cn###jqzxAd
 sznews.com###jsGG1
 sznews.com###jsGG2
-tiexue.net###junph
-tiexue.net###junphRandom
+tiexue.net##DIV[id*="junph"]
 3721.cc###key2 > a
 3721.cc###keywords > a
 nazolog.com###kf2a
