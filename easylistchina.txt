@@ -1271,7 +1271,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /avshow_cn1.gif
 /baha/*$subdocument,domain=gamer.com.tw
 /banner.js$domain=28188.com|28188.net
-/banner/*$domain=big-cup.tv|dolc.de|dolc.info
+/banner/*$domain=dolc.de|dolc.info
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
 /cari/daybanner/*
@@ -5306,8 +5306,11 @@ _vmind.qqvideo.tc.qq.com^
 ||imgout.ph.126.net^*/355-310.jpg
 ||imgout.ph.126.net^*/700x80.jpg
 ||imgout.ph.126.net^*/950-90.jpg
+||onedala.tv/uploads/banner/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+big-cup.tv,g-cup.tv##.banner-table-block
+big-cup.tv,g-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
 www.tiexue.net##STYLE + [style="display:none;"] + DIV[class]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7008,7 +7011,6 @@ javbus.cc,javbus.co##.banner-index-top
 xdkb.net##.banner-l
 crsky.com##.banner-leader
 fenxs.com,fulitie.org##.banner-site
-big-cup.tv##.banner-table-block
 firefoxchina.cn##.banner-words
 longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
@@ -7186,7 +7188,6 @@ hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http://"]:not([href*=".wenxuecity."])
 jq22.com##.col-lg-4:first-child
-big-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
 114la.com##.col-row01 > dt
 gamefy.cn##.col-vlist-l > span
 xdkb.net##.col0b
