@@ -715,10 +715,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||gamecps.com^$third-party
-||3p-link.com^$third-party
-||av8d.net^$third-party
-||twrank.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -813,6 +809,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||3alian.net^$third-party
 ||3dwwwgame.com^$third-party
 ||3g.990.net^
+||3p-link.com^$third-party
 ||4936.cn^$third-party
 ||51ads.com^$third-party
 ||526d.com^$third-party
@@ -889,6 +886,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||aoparking.com^$third-party
 ||at918.com^$third-party
 ||at98.com^
+||av8d.net^$third-party
 ||bang5mai.com^$third-party
 ||baodaozhan.cn^$third-party
 ||behe.com^$third-party
@@ -962,6 +960,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||fv99.com^
 ||fxxgw.com^$third-party
 ||game3737.com^$third-party
+||gamecps.com^$third-party
 ||gameone.com^$third-party
 ||gansha.co^$third-party
 ||genieessp.com^$third-party
@@ -1125,6 +1124,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||twb98.com^$third-party
 ||twcczhu.com^$third-party
 ||twm.com.tw^$third-party
+||twrank.com^$third-party
 ||txkjad.com^$third-party
 ||u.801t.com^$third-party
 ||u88.cn^$third-party
@@ -1382,6 +1382,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /yythems/images/tuiguang.png
 :88/lighttpd/default/
 ?method=baidu.ting.commercial.tactics&
+^zhuanqian/adall.js
 _!!1731999033.
 _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
@@ -2287,6 +2288,7 @@ _vmind.qqvideo.tc.qq.com^
 ||bio-equip.com/uploadimages/peiqing.gif
 ||biqi.me/Public/js/page_ad_
 ||biqi.me/Public/js/page_gg_
+||biquge.so/kinpo/%
 ||bitauto.com/js/sense*.js
 ||bitauto.com/ResourceFiles/play/play.swf
 ||bitautoimg.com/ResourceFiles/0/*.gif
@@ -4382,7 +4384,6 @@ _vmind.qqvideo.tc.qq.com^
 ||secretmine.net/wp-content/uploads/*/610x80
 ||sentsin.qiniudn.com/ad_
 ||sexbarss.net/wap/
-^zhuanqian/adall.js
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
 ||sfile.baidu.com/img/load.gif
 ||sg169.com/uploadfile/*.gif
@@ -5204,6 +5205,7 @@ _vmind.qqvideo.tc.qq.com^
 ||yunfile.com^*/offline_banner/
 ||yunupload.net/jsa/
 ||yupoo.com^$domain=ttmeiju.com
+||yxdd.com^$subdocument
 ||yxdown.com/ghtml/
 ||yxlady.com/cdd/
 ||yxlady.com/skin/yx2014/mm/inpage/ny/
@@ -5317,13 +5319,8 @@ _vmind.qqvideo.tc.qq.com^
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||biquge.so/kinpo/%
-||yxdd.com^$subdocument
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-blue-way.com.tw##.w960 ~ A
-news.163.com##.ns-wnotes
-163.com##.ad_sx_2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6829,6 +6826,7 @@ hushinm.com##.ad_ritht_1
 hushinm.com##.ad_ritht_3
 vhiphop.com##.ad_slidebg
 1396b.com,162.212.182.85,23.252.161.83,23.252.161.89##.ad_small_banner
+163.com##.ad_sx_2
 fyjs.cn##.ad_sxp
 shm.com.cn##.ad_taobao
 dmzj.com##.ad_time
@@ -7962,6 +7960,7 @@ sucaitianxia.com##.nr_02
 168cz.com##.nr_two_ad
 sxrom.com##.nrmkto
 srzc.com##.nry_dbtongl
+news.163.com##.ns-wnotes
 szhk.com##.ny_ad1
 club.pchome.net,kdslife.com##.o_info font
 douyutv.com##.offi_ad:first-child
@@ -8444,6 +8443,7 @@ miomio.tv##.w1160.h90
 meili.cn##.w300
 9yaocn.com##.w300Banner
 dbw.cn##.w720
+blue-way.com.tw##.w960 ~ a
 qikuyou.com##.w960[style="height:90px;"]
 jumpcn.cc,rexuedongman.com##.w980.uzmh-0
 xdf.cn##.w_ads
