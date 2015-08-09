@@ -716,6 +716,9 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
+||3p-link.com^$third-party
+||av8d.net^$third-party
+||twrank.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -3713,7 +3716,6 @@ _vmind.qqvideo.tc.qq.com^
 ||liangchan.net/adf/
 ||liangjan.com/js/show_
 ||liangjan.com/style/img/banner
-||liangjan.com/style/img/news18.jpg
 ||liangzijie.com/Runtime/
 ||liao1.com/js/floatVideoAd.js
 ||liao1.com/publicize/file/news_detail_
@@ -4380,7 +4382,7 @@ _vmind.qqvideo.tc.qq.com^
 ||secretmine.net/wp-content/uploads/*/610x80
 ||sentsin.qiniudn.com/ad_
 ||sexbarss.net/wap/
-||sexsfh.com/zhuanqian/adall.js
+^zhuanqian/adall.js
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
 ||sfile.baidu.com/img/load.gif
 ||sg169.com/uploadfile/*.gif
@@ -5317,6 +5319,7 @@ _vmind.qqvideo.tc.qq.com^
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+blue-way.com.tw##.w960 ~ A
 news.163.com##.ns-wnotes
 163.com##.ad_sx_2
 hc360.com,yaolan.com###AD
