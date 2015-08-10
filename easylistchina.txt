@@ -5325,8 +5325,11 @@ _vmind.qqvideo.tc.qq.com^
 ||ark.letv.com/s?res=
 ||letvimg.com/img/201503/19/uc1/
 _yad_jsonp_
+||dn-yahoo.qbox.me/be
+|http:$domain=e.70e.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+e.70e.com##BODY
 163.com##.ad_sx_1
 163.com##.card-ad
 163.com##A[href*=".admaster."]
@@ -9344,6 +9347,7 @@ brandsales.58.com#@#div[id^="ad_"]
 2ujj.com#@#.ad350
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
+@@||70e.com^$script,subdocument,domain=2mm.tv
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
