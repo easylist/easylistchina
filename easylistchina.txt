@@ -5338,6 +5338,8 @@ _yad_jsonp_
 ||hkcna.hk/upload/6/2011/0909/U127P22T6D70F98DT20110914111852.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tiexue.net##A[href*=".junph."]
+tiexue.net##[class*="junph"]
 hkcna.hk##.blank17 + .fd > A[href^="http"]:not([href^="http://www.hkcna."])
 hkcna.hk##.fd + .fdr > A[href^="http"]:not([href^="http://www.hkcna."])
 bilibili.com##.index-promote
@@ -7755,7 +7757,6 @@ haosou.com##.js-mh-ad-abtest
 sucaijiayuan.com##.jsPart1Right
 qz930.com##.jsl_ad
 juksy.com##.juksy_ads
-tiexue.net##.junph-new-tmp
 sports.qq.com##.juzhong2
 jxedt.com##.jxpl
 luoweihua.cn##.k_ad
@@ -8581,7 +8582,6 @@ xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
 163.com##a[href*=".admaster."]
 cartoonad.com,cartoonmad.com##a[href*=".i-gamer."]
-tiexue.net##a[href*=".junph."] > img
 zdfans.com##a[href*=".kiees."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
@@ -8813,7 +8813,7 @@ chinaluxus.com##div[id*="ExtraAD"]
 tianya.cn##div[id*="_AD_"]
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 e23.cn##div[id*="adv"]
-tiexue.net##div[id*="junph"]
+tiexue.net##[id*="junph"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
 iqiyi.com##div[id^="100000000"]
