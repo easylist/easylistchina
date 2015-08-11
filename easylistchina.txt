@@ -5334,8 +5334,12 @@ _yad_jsonp_
 ||techweb.com.cn/static/images/*aliyun
 ||thisav.com/js/adx_float.js
 ||ntpcb.com/attachment/photo/Mon_1504/480_b4401429264247e2f342edd7ba168.png
+||hkcna.hk/upload/6/2011/0608/U139P22T6D51F96DT20110608114515.jpg
+||hkcna.hk/upload/6/2011/0909/U127P22T6D70F98DT20110914111852.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hkcna.hk##.blank17 + .fd > A[href^="http"]:not([href^="http://www.hkcna."])
+hkcna.hk##.fd + .fdr > A[href^="http"]:not([href^="http://www.hkcna."])
 bilibili.com##.index-promote
 ntpcb.com###main > .textMes
 163.com##.u-textAds
