@@ -5328,8 +5328,10 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+|http:$domain=xcdf.cn
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xcdf.cn##body
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9349,6 +9351,7 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
+@@||1133.cc^$domain=lepan.cc
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9732,7 +9735,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||sx566.com/templates/default/images/ad
 @@||szhr.com.cn^$document,domain=szhr.com.cn
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
-@@||tanx.com/ex?i=$domain=lepan.cc|sx566.com
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
