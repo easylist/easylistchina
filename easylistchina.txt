@@ -3400,6 +3400,8 @@ _yad_jsonp_
 ||imgad0.pconline.com.cn/ivy/image/
 ||imgbus.com/doimg/3co0mmeon839377.gif
 ||imgbus.com^$domain=cao1024.com
+||imgchili.net/media/image*.gif
+||imgchili.net/media/top.gif
 ||imgchr.com^$domain=iyejie.com
 ||imgf.gamersky.com^$image
 ||imgmega.com/i/*.gif$domain=18avhub.com|18avtube.com|206.108.55.53|mm-cg.com
@@ -4997,6 +4999,7 @@ _yad_jsonp_
 ||wx.sina.com.cn/iframe/pdps/
 ||wxrb.com/g/js/baidu.cbjs.m.js
 ||wyzu.cn/js/3.js
+||wzbh.org/imgad/
 ||wzi9.com/static/js/function.js
 ||x.itiexue.net/html/$script
 ||xb2s.com:8080/mjq.js
@@ -5335,14 +5338,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||wzbh.org/imgad/
-||imgchili.net/media/top.gif
-||imgchili.net/media/image*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-eworldship.com##DIV[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
-52pk.com##.hz_adv
-tweck.cc##.d_banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7283,7 +7280,7 @@ timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 iplaysoft.com##.d250
 ipc.me##.d300
-51jifenbao.net,55music.net,daqianduan.com,downza.cn,fulidang.com,ihref.com,zfl520.com,zhaofuli.club##.d_banner
+51jifenbao.net,55music.net,daqianduan.com,downza.cn,fulidang.com,ihref.com,tweck.cc,zfl520.com,zhaofuli.club##.d_banner
 51jifenbao.net,liulanmi.com##.d_slidebanner
 wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
@@ -7645,6 +7642,7 @@ quumii.com##.huatai
 gexing.com.cn##.huline > a:first-child
 online.cq.cn##.huodong
 buytong.cn##.hy_top_left
+52pk.com##.hz_adv
 99.com.cn##.hzh_botleft
 haodou.com##.i-ad
 haodou.com##.i-adv250
@@ -8978,6 +8976,7 @@ kaifu.tw##div[style="margin:15px; padding:2px;width:304px; height:254px; clear:b
 ipc.me##div[style="margin:46px auto 66px auto;width:660px;height:140px"]
 yanqing888.net##div[style="margin:auto;width:960px;margin-top:10px;height:90px;"]
 gamer.com.tw##div[style="min-height:250px;margin-bottom:10px;"]
+eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
 emuch.net##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 btshark.org##div[style="position: fixed; right:0px; bottom: 0px"]
