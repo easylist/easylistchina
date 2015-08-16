@@ -717,7 +717,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
-||syasn.com^$third-party
 /99vjj/*$third-party
 /adscpc/*
 /adscpv/*
@@ -1106,6 +1105,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||sstc360.com^
 ||star8.net^$third-party
 ||superfish.com^$third-party
+||syasn.com^$third-party
 ||t3nlink.com^$third-party
 ||t70123.com^
 ||ta80.com^$third-party
@@ -2903,6 +2903,7 @@ _yad_jsonp_
 ||fulidang.com/ads/
 ||fulisuo.com/Plug/GG.asp?id=
 ||fulitie.org/wp-content/themes/D8_4.0/js/guanbi-no.js
+||fullyu.com/js-lib/jquery.modal.
 ||fumanhua.com/template/*/images/g_js/$subdocument
 ||fun.ynet.com^
 ||func.tw/image/func2.png
@@ -3508,6 +3509,7 @@ _yad_jsonp_
 ||iyejie.com/1024code.gif
 ||iyejie.com/xydlad.js
 ||izt8.com/iztwp/images/hk-250.jpg
+||izzs.net/wp-content/mm/
 ||ja.gamersky.com^
 ||jandan.com/static/gggg/
 ||javjunkies.com/FL$subdocument
@@ -3775,6 +3777,7 @@ _yad_jsonp_
 ||longbahao.com/js/ad-
 ||longyu.cc/adg/
 ||longyu.cc/bucket/flash/
+||loudpingwei.net/wp-content/plugins/adblock-notify-by-bweb/
 ||loveshang.com/pic/*.swf
 ||lrjz100.u.qiniudn.com/rmb/bxd.jpg
 ||ltwbook.com/js/l_
@@ -5338,18 +5341,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||fullyu.com/js-lib/jquery.modal.
-||loudpingwei.net/wp-content/plugins/adblock-notify-by-bweb/
-||izzs.net/wp-content/mm/
 !------------------------Specific element hiding rules------------------------!
-izzs.net###listad
 gpcxw.com###AA2
-linovel.com###J_ad_
-letv.com##.adv_img
-letv.com##.broadcast-adv
-fullyu.com##.content-ads
-fullyu.com##.content-top-ads
-fullyu.com##.rightSide-top-ads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5407,6 +5400,7 @@ tigtag.com###Home942x70_A1
 21ic.com###IC2008Ad
 wuxi.cn###Information
 51rhca.com###InviteWindow
+linovel.com###J_ad_
 xiami.com###J_albumSale
 gexing.com###J_bottomMes
 2345.com###J_go_erweima
@@ -6104,6 +6098,7 @@ sdgundam.cn###link-roll ~ .box-set-2
 soft4fun.net###linkcat-2 + div:nth-last-child(2)
 cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box1026387):not(#box34614)
 51cto.com###list4
+izzs.net###listad
 live.90bfw.com###live > table[cellspacing="0"][cellpadding="0"]
 marstv.com###live_ad
 500.com###live_top_ad
@@ -6941,7 +6936,7 @@ tgbus.com##.adv_760x100
 sohu.com##.adv_960
 kuai.xunlei.com##.adv_area
 wangdaizhijia.com##.adv_box
-4s400.com##.adv_img
+4s400.com,letv.com##.adv_img
 78dm.net##.adv_logo
 autohome.com.cn##.advarticle
 rznews.cn##.advavr
@@ -7171,6 +7166,7 @@ pengfu.com##.boxBan
 lolshipin.com##.box[style="display: block;"]
 uzzf.com##.boxl
 kehuan.net.cn##.bread_728x90
+letv.com##.broadcast-adv
 2345.com##.browserTxt
 hao123.com##.browsertip
 anywlan.com##.bscekvofc_o
@@ -7261,6 +7257,8 @@ www.wangjing.cn##.content > div[style*="980px;"]
 northnews.cn##.content > div[style]
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
+fullyu.com##.content-ads
+fullyu.com##.content-top-ads
 downg.com##.content.ad-b950x50
 ptbus.com##.content14
 miercn.com##.content7
@@ -8135,6 +8133,7 @@ fxingw.com##.rightAD1
 baidu.com##.rightAd-skin
 iqiyi.com##.rightAdv
 iqiyi.com##.rightLink
+fullyu.com##.rightSide-top-ads
 05096.com##.rightSiderAD
 we54.com##.right_ad01
 we54.com##.right_ad02
