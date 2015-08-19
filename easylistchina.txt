@@ -5335,9 +5335,10 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 |http:$subdocument,domain=wwledsbb.net
 acgft.net##A[href^="http://www.acgft.net/go/"] > IMG[src*=".sinaimg."]
-||i.syasn.com/a
+||i.syasn.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+e70123.com##BODY
 gaokao.com##.adout116
 gaokao.com###ad_top_gkw
 2345.com##.mco-ex-ndxh
@@ -9362,6 +9363,7 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
+@@||e70123.com^$domain=2mm.tv|2mmei.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
