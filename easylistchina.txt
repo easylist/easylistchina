@@ -3028,6 +3028,7 @@ _yad_jsonp_
 ||gscn.com.cn/home/images/advscroll.js
 ||gscn.com.cn/pic/0/10/34/27/10342786_994137.gif
 ||gsspcln.jp^
+||gt.yy.com^
 ||gter.net^*adv
 ||gtimg.com/comic/pics/hv1/29/74/1631/106074674.jpg
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
@@ -3878,6 +3879,7 @@ _yad_jsonp_
 ||mmtalk.net/images/banner
 ||mnspx.com/js/bdbd/
 ||mobile01.com/300x100.swf
+||moe-acg.cc/images/2015/08/06/b31764a37b9f2651.jpg
 ||moe.fm/public/images/fm/promotion_
 ||moe123.com/static/img/2014_fattycat.jpg
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
@@ -5271,6 +5273,7 @@ _yad_jsonp_
 ||zhihu.com/node/*UpShameimaruV2?
 ||zhijia.com/hd/*.swf
 ||zhongsou.com/images/xtxscw.jpg
+||zhongzi.in/static/ko/
 ||zhongzimao.com/msn.js
 ||zhoushan.cn/new.js
 ||zhuangpin.com^*/ad/
@@ -5331,16 +5334,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zhongzi.in/static/ko/
-||gt.yy.com^
-||moe-acg.cc/images/2015/08/06/b31764a37b9f2651.jpg
 !------------------------Specific element hiding rules------------------------!
-zhongzi.in##.list-unstyled > LI > A[target="_blank"]
-moe-acg.cc###hengfu-widget
-moe-acg.cc###text-2
 gpcxw.com###AA2
-liba.com##.advert-l
-liba.com##.advert-r
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5992,6 +5987,7 @@ hnr.cn###header_banner_list
 131458.com###header_gg
 pediy.com###header_right_cell[width="603"]
 gd.xinhuanet.com###headline + #kuang3
+moe-acg.cc###hengfu-widget
 hexun.com,hexun.com.tw###hexunCouplet01
 51caiju.com###hint + .AdTop-Article-QQ
 gamersky.com###hitix
@@ -6392,7 +6388,7 @@ vgugu.com###test
 vgugu.com###test1
 zeekmagazine.com###text-10
 aijava.cn###text-15
-wuleba.com###text-2
+moe-acg.cc,wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
 blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
@@ -6958,6 +6954,8 @@ eprice.cn##.adverall
 jiaonan.net##.adverframe
 ce.cn,dianxinnews.com,eastmoney.com,like101.com.tw,sz.zj.cn##.advert
 gimhoy.com##.advert + div[class]:not(.post-content)
+liba.com##.advert-l
+liba.com##.advert-r
 dianxinnews.com##.advertTxt
 dianxinnews.com##.advert_a
 chinanews.com##.advert_dingtong
@@ -7816,6 +7814,7 @@ lywww.com##.lianmengclass
 uc123.com##.lift-push-container
 m.qidian.com##.link_banner
 linuxidc.com##.linuxy1
+zhongzi.in##.list-unstyled > li > a[target="_blank"]
 news.ifeng.com##.list022
 niutuku.com##.listAD
 hljtv.com##.listAd1
@@ -8865,6 +8864,7 @@ yb983.com##div[id^="div"]
 iqiyi.com##div[id^="div_theatre"]
 chinafix.com##div[id^="diy_vk_ad_"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[id^="ecl-pc-game-"]
+user.qzone.qq.com##div[id^="fct_20050606_"]
 jn256.com##div[id^="fuggid"]
 512ms.com,gusuwang.com##div[id^="fy_"]
 doyo.cn,keleyi.com##div[id^="gg"]
@@ -9121,7 +9121,6 @@ gog.com.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 user.qzone.qq.com##li[id^="fct_20050606_"]
-user.qzone.qq.com##div[id^="fct_20050606_"]
 qiku8.com##li[style*="310"][style*="265"]
 ipc.me##li[style="margin-bottom:20px;width:300px;height:100px;_display:block"]
 zimuku.net##li[style="width:830px;height:90px;padding:10px;margin-top:10px;background:#eee;"]
@@ -9371,7 +9370,6 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
-@@=mywebloadt1&$domain=myweb.hinet.net
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9451,6 +9449,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/store_ad/*$domain=pcstore.com.tw
 @@/ttkdweb/page/js/ad.js
 @@/upload/ads/*.jpg$domain=dnvod.eu
+@@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=huazhu.com|taotaosou.com
 @@?bannerId=$domain=qianbao666.com
 @@_!!329633983.png$domain=i-ab.com
