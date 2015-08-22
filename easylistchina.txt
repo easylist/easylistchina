@@ -715,6 +715,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
+||710070.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -5338,7 +5339,10 @@ _yad_jsonp_
 ||sinaimg.cn/bmiddle/6283e751gw1ev7ykbiqjyj208w01ojrc.jpg
 ||s.video.sina.com.cn/video/play?video_id=249750205&
 ||qiyipic.com/common/*/banner.jpg
+||tietuku.com^$domain=99rehomes.com
+||sinaimg.cn^$domain=99rehomes.com
 !------------------------Specific element hiding rules------------------------!
+99rehomes.com##.block.spots
 iqiyi.com##A[href*=".jd.com"]
 iqiyi.com##A[href*=".tmall.com"]
 gpcxw.com###AA2
