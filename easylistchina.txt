@@ -721,7 +721,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||taobaoij.com:
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1124,6 +1123,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||tanchuang002.info^$third-party
 ||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
 ||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
+||taobaoij.com:
 ||taotu001.com^$third-party
 ||tbjfw.com^$third-party
 ||tc600.com^
@@ -3839,6 +3839,7 @@ _yad_jsonp_
 ||market.178.com^
 ||market.21cn.com^
 ||market.duowan.com^
+||marstv.com/uploadfile/game/20150728/1438055654.png
 ||masadora.net/kakusan-
 ||masok.cn/red/
 ||mat1.gtimg.com/2014/vikkydu/GA/haier
@@ -5350,12 +5351,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||marstv.com/uploadfile/game/20150728/1438055654.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-17huohu.com,firefoxchina.cn##.side-tpth
-right.com.cn##A[href^="https://treebear.tmall.com"]
-marstv.com##.banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7067,7 +7064,7 @@ inpai.com.cn##.baiduad3
 3qzw.com##.ban1
 msn.people.com.cn##.banNSch
 phpfans.net##.banad
-0678life.com,3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,ixiumei.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,moe-acg.us,mtksj.com,pengfu.com,qichelian.com,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
+0678life.com,3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,ixiumei.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,marstv.com,moe-acg.us,mtksj.com,pengfu.com,qichelian.com,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 softonic.cn##.banner-caption
@@ -8248,6 +8245,7 @@ firefoxchina.cn##.side-promote
 firefoxchina.cn##.side-recommend
 xiaoliaolianmeng.com##.side-sponer
 17huohu.com,firefoxchina.cn##.side-tool-outer > div[class]:first-child
+17huohu.com,firefoxchina.cn##.side-tpth
 niutuku.com##.sideAD
 youthwant.com.tw##.side_adbox
 software8.co##.side_bar_2345
@@ -8697,6 +8695,7 @@ weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
+right.com.cn##a[href^="https://treebear.tmall.com"]
 byhh.org##a[href^="javascript:eval("]
 360-bo.com,360bo.cc,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 frdic.com##a[onclick*="/ads/"]
@@ -9409,7 +9408,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dapenti.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -9744,6 +9742,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||ouyaoxiazai.com/shouyead.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dapenti.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
 @@||pep.com.cn/rjs/guanggao/
 @@||photo.erji.com/tb/*.gif
