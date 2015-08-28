@@ -2120,6 +2120,7 @@ _yad_jsonp_
 ||admin5.com/extras/
 ||admin5.com/hezuo/action/
 ||admin5.com/lib/js/*_article
+||admin6.com/templates/index/default/images/100060.gif
 ||adnetpub.yaolan.com^
 ||adp.cnool.net^
 ||adpub.yaolan.com^
@@ -2316,6 +2317,7 @@ _yad_jsonp_
 ||bestvogue.com/fans/
 ||bestxl.com/langzi/0403/ld.jpg
 ||bforu.info/03.jpg
+||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
 ||binhuo.com/bhjs/
@@ -2338,6 +2340,7 @@ _yad_jsonp_
 ||biz.weibo.com^
 ||biz37.net^*.swf?uid=
 ||bjhjyd.gov.cn/templates/default/www/js/float.js
+||bjmama.net/a/spc_
 ||bjmxw.net/bd/
 ||bjxxw.com/themes/portal/local/special_*.swf
 ||bkill.com/css/abc/
@@ -3093,6 +3096,7 @@ _yad_jsonp_
 ||hacken.cc/file/ads/
 ||hackp.com/wz/
 ||haha.mx/images/banner/jd.jpg
+||haha.mx/images/banner/vipp.jpg
 ||haha.mx/images/market/
 ||haha.mx/upload/data/detail_
 ||haha.mx/upload/data/list_sidebar_
@@ -3446,6 +3450,7 @@ _yad_jsonp_
 ||imgout.ph.126.net^*/700x80.jpg
 ||imgout.ph.126.net^*/950-90.jpg
 ||imgs.cc/images/ad_
+||imgservice.dnvod.eu/images/*.gif
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgur.com/iKkoHkn.jpg
 ||imgur.com/rTqveeX.jpg
@@ -4091,6 +4096,7 @@ _yad_jsonp_
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
 ||pconline.com.cn/pconline/download/fz/
+||pconline.com.cn/show?id=
 ||pconline.com.cn/test/*.html?
 ||pcpp.com.cn*/pcpp.jpg
 ||pcpp.com.cn/news/a/*_article_right.html
@@ -5365,16 +5371,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bjmama.net/a/spc_
-||pconline.com.cn/show?id=
-||admin6.com/templates/index/default/images/100060.gif
-||haha.mx/images/banner/vipp.jpg
-||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
-||imgservice.dnvod.eu/images/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dnvod.eu##.DHB
-dnvod.eu##A[href^="/HitOnAds.aspx?id="]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6624,6 +6622,7 @@ ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
 it165.net##.ContentAdv
 imeee.cn##.DA336
+dnvod.eu##.DHB
 84zr.com##.DaKuang
 javjunkies.com##.FAd
 ifeng.com##.FNewLAvt
@@ -8623,6 +8622,7 @@ v7v3.com##.zzsl
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
+dnvod.eu##A[href^="/HitOnAds.aspx?id="]
 dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
 tiexue.net##[class*="junph"]
 163.com##[class^="gg"]
