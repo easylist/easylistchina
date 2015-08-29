@@ -723,6 +723,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 .com/i.php?z=$script,third-party
 ||ku9377.com^
 ||52kmk.com^
+|http://news.*/5.html$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1222,6 +1223,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+|http:$popup,third-party,domain=byhh.org
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
@@ -1235,7 +1237,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||ark.letv.com/t?$popup
 ||cnyjk.com^$popup,third-party
 ||dhqp68.com^$popup,third-party
-||eazyou.com^$popup,domain=byhh.org
 ||greenet.cn^*_popu_$popup
 ||gxp.cc^$popup,third-party
 ||hinet.net/product/promotion/$popup
@@ -1248,7 +1249,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||moe.005.tv^$popup,third-party
 ||qidian.com/showavd.$popup
-||quicku.cn^$popup,domain=byhh.org
 ||smartor.org/iclk/?zoneid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
