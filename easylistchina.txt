@@ -657,6 +657,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##.ad250left
 ##.ad336left
 ##.ad72060
+##.ad_couplebanner
 ##.ad_fixed
 ~hk-pub.com##.ad_footerbanner
 ##.ad_headerbanner
@@ -719,12 +720,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.ad_couplebanner
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||ku9377.com^
-||52kmk.com^
-|http://news.*/5.html$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -758,6 +755,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://*:6970/s.php?id=$script,third-party
 |http://*:8088/s.php?id=$script,third-party
 |http://1.3.0.10^
+|http://news.*/5.html$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
@@ -824,6 +822,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||4936.cn^$third-party
 ||51ads.com^$third-party
 ||526d.com^$third-party
+||52kmk.com^
 ||5399.com^$third-party
 ||565882.com^$third-party
 ||58.215.179.159^
@@ -1051,6 +1050,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
 ||ku63.com^$third-party
+||ku9377.com^
 ||kuaizitech.com^$third-party
 ||lajizhan.org^
 ||le123.cn^$third-party
@@ -1224,12 +1224,11 @@ hk.search.auctions.yahoo.com###yauadysmh
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-|http:$popup,third-party,domain=byhh.org
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
+|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|byhh.org|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
@@ -3183,6 +3182,8 @@ _yad_jsonp_
 ||hfchenming.com.cn/ad.html
 ||hhcomic.com/hh/h*.js
 ||hhmanhua.net/hh/h*.js
+||hhmanhua.net/jsc/book_
+||hhmanhua.net/jsc/stat.js
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||hi.people.com.cn/NMediaFile/2013/0929/LOCAL201309291733411880780280942.jpg
@@ -5287,6 +5288,7 @@ _yad_jsonp_
 ||zdface.com/Controls/ChannelHot/ChannelHotTypeID19ClassID0.aspx
 ||zdface.com/Controls/ChannelHot/ChannelHotTypeID8ClassID317.aspx
 ||zdfans.com/adsens/kiees.jpg
+||zdfans.com/Picture/2345
 ||zdfans.com/wp-content/upgrade/doujind.gif
 ||zdmimg.com/data/forum-
 ||zeekmagazine.com/wp-content/uploads/2014/11/1415542059-b2dde396c63609053175855ef4590605.gif
@@ -5374,13 +5376,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||hhmanhua.net/jsc/book_
-||hhmanhua.net/jsc/stat.js
-||zdfans.com/Picture/2345
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-acgft.net##A[href^="http://www.acgft.net/?p="] > IMG[src*=".sinaimg."]
-zdfans.com##A[href^="http://js.50bang.org/?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8694,6 +8691,7 @@ zhibo8.cc##a[href^="http://caipiao."]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
+zdfans.com##a[href^="http://js.50bang.org/?"]
 6park.com##a[href^="http://list.6park.com/parks/out.php?"]
 100ksw.com##a[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
 m.jrj.com.cn##a[href^="http://m.2345.com/?"]
@@ -8709,6 +8707,7 @@ mop.com##a[href^="http://trackx.mop.com/"]
 loveplay123.blogspot.com##a[href^="http://vbtrax.com/track/"]
 chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
+acgft.net##a[href^="http://www.acgft.net/?p="] > img[src*=".sinaimg."]
 acgft.net##a[href^="http://www.acgft.net/go/"] > img[src*=".sinaimg."]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
@@ -9532,12 +9531,12 @@ brandsales.58.com#@#div[id^="ad_"]
 @@_!!329633983.png$domain=i-ab.com
 @@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
+@@|http:$image,script,subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@|http:$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@|http://*/??$domain=gome.com.cn
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=dou6.cc|kk369.net|uuu123.net
 @@|http://*/gg/*.css
-@@|http:$image,script,subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
