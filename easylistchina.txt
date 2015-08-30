@@ -1514,6 +1514,7 @@ _yad_jsonp_
 ||121.40.136.114^*.htm
 ||121.41.60.207/m?t=
 ||121down.com/img/*.js
+||121zou.com^$subdocument
 ||122.225.103.*.htm
 ||122.228.236.165^
 ||123.139.0.131/util.js
@@ -1991,6 +1992,7 @@ _yad_jsonp_
 ||8684.com/baidu/c.js
 ||8684.com/com/sys_ad_
 ||86file.megajoy.com^
+||87994.com/images/rili.gif
 ||88448.com/images/gj/
 ||8888nn.com/sxgg/12.js
 ||8888nn.com/sxgg/13.js
@@ -3348,6 +3350,7 @@ _yad_jsonp_
 ||ifengimg.com/ifengimcp/pic/*_w320_h48.
 ||ifengimg.com/ifengimcp/pic/*_w640_h120.
 ||ifengimg.com/ifengimcp/pic/*_w640_h130.
+||ifengimg.com/iis/iis_
 ||ifengimg.com/mappa/$domain=~tech.ifeng.com
 ||ifengimg.com/static/news/js/advtrack_
 ||ifengimg.com/xingzhao/JS/bsgspecial.js
@@ -3792,6 +3795,7 @@ _yad_jsonp_
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
 ||linuxidc.com/linuxfile/y9.js
+||live8bo.com/da.aspx
 ||live8bo.com/j/Lad6.js
 ||liveany.com/images/8d8d.gif
 ||livemp4.com/js/
@@ -5376,15 +5380,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||87994.com/images/rili.gif
-||121zou.com^$subdocument
-||live8bo.com/da.aspx
-||ifengimg.com/iis/iis_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cntour2.com##.topBanner
-cntour2.com##.txtPicAd
-bigear.cn##A[href^="/?module=business&"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8465,6 +8462,7 @@ cn.msn.com,cwan.com,gongchang.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weib
 ifeng.com##.topAdBox
 ltaaa.com##.topAds2
 yeyou.com##.topBackgroundAdv_bgbody
+cntour2.com##.topBanner
 timedg.com##.topCrossAd
 btago.com##.topTips
 hao123.cn##.top_2_2_4
@@ -8507,6 +8505,7 @@ bamuyu.com##.tui_tu
 7060.la##.tuiguang
 m.hao123.com##.tuizhan
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
+cntour2.com##.txtPicAd
 ltaaa.com##.txtads
 cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
@@ -8685,6 +8684,7 @@ hexieshe.com##a[href="http://www.masadora.net/"]
 open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 xiadele.com##a[href="http://yun.banjiajia.com"]
+bigear.cn##a[href^="/?module=business&"]
 1024gc.com,1024gc.info,1024gc.net,1024gc.org,1024gongchang.com,1024gongchang.info,1024gongchang.net,1024gongchang.org,1024hegongchang.com,1024hegongchang.info,1024hegongchang.net,1024hegongchang.org,1024hgc.com,1024hgc.info,1024hgc.net,1024hgc.org##a[href^="/ad/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
 mobile01.com##a[href^="adredir.php"]
@@ -9341,13 +9341,14 @@ okwei.com#@##ad_0
 two.game.tw#@##ad_02
 okwei.com#@##ad_160
 unisharp.com#@##ad_banner
-shuaijiao.com#@##ad_big
+dpp.org.tw,shuaijiao.com#@##ad_big
 10010.com#@##ad_bottom
 chanet.com.cn,xingk.cc#@##ad_content
 wholehk.com#@##ad_headerbanner
 pupuapp.com#@##ad_img
 51job.com#@##ad_left
 51job.com#@##ad_right
+dpp.org.tw#@##ad_small
 cw.com.tw#@##adblock
 tt1069.com#@##adbrite
 zdfans.com#@##adlabel
@@ -9450,13 +9451,9 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-dpp.org.tw#@##ad_big
-dpp.org.tw#@##ad_small
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
-@@||yule8.net^$script,domain=2mm.tv|2mmei.com
-@@||rwjfs.com^$script,object,domain=2mm.tv|2mmei.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9542,13 +9539,13 @@ dpp.org.tw#@##ad_small
 @@_!!329633983.png$domain=i-ab.com
 @@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
-@@|http://*baidu$script,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@|http:$image,subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@|http:$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@|http://*/??$domain=gome.com.cn
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=dou6.cc|kk369.net|uuu123.net
 @@|http://*/gg/*.css
+@@|http://*baidu$script,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
@@ -9819,6 +9816,7 @@ dpp.org.tw#@##ad_small
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||rm.sina.com.cn/minisite/$domain=weibo.com
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
+@@||rwjfs.com^$object,script,domain=2mm.tv|2mmei.com
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sc.jb51.net/adimg/*.jpg
 @@||sdc.pingan.com^$~image
@@ -9895,6 +9893,7 @@ dpp.org.tw#@##ad_small
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
+@@||yule8.net^$script,domain=2mm.tv|2mmei.com
 @@||zdfans.com^*.nz/ads/
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
@@ -9912,7 +9911,9 @@ dpp.org.tw#@##ad_small
 !--------------------------------Tracking Systems-----------------------------!
 @@.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
+@@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
+@@/urchin.js$domain=on.cc
 @@||7m.cn/v2/js/analyse.js
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
 @@||alicdn.com^*/click_track.js
@@ -9920,8 +9921,6 @@ dpp.org.tw#@##ad_small
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||count.video.sina.com.cn^*?video_ids=
 @@||google-analytics.com/analytics.js$domain=web.komica.org
-@@/hitCount.$script,domain=on.cc
-@@/urchin.js$domain=on.cc
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hm.baidu.com^$domain=ihome99.com
 @@||jd.com/setCookie?
