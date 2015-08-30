@@ -1412,7 +1412,7 @@ _!!1731999033.
 _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
-|http:$domain=e.70e.com|xcdf.cn
+|http:$domain=xcdf.cn
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
 |http://*/83/$domain=kv130.com|kv700.com|we5200.com|we560.com
@@ -8752,7 +8752,7 @@ yzz.cn##a[style^="display:block; width:980px; height:100px;"]
 gaoqing.la##a[target="_blank"] > img[src*=".sinaimg.cn/large/"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
 creaders.net##a[title^="www.136888.com/new/ad."]
-e.70e.com,e70123.com,xcdf.cn##body
+xcdf.cn##body
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 danyang.com##body > div[align="center"]
@@ -9455,6 +9455,8 @@ dpp.org.tw#@##ad_small
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
+@@||yule8.net^$script,domain=2mm.tv|2mmei.com
+@@||rwjfs.com^$script,object,domain=2mm.tv|2mmei.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9589,7 +9591,6 @@ dpp.org.tw#@##ad_small
 @@||61ef.cn/upfiles/gg/
 @@||70.86.24.120:8060/*/
 @@||70e.com/js/2013_new.js$domain=wanweidao.com
-@@||70e.com^$domain=2mm.tv|2mmei.com
 @@||75.125.41.29:8080/*/
 @@||77119.com/js/fenxiang.js
 @@||7s8.net/image/ads/
@@ -9711,7 +9712,6 @@ dpp.org.tw#@##ad_small
 @@||dvs.china.com/crossdomain.xml
 @@||dzwww.com/ad/jsfiles/fillCon.js
 @@||e.cn.miaozhen.com/r/k=*=http
-@@||e70123.com^$domain=2mm.tv|2mmei.com
 @@||ebiotrade.com/jslibrary/js44.js
 @@||ecitic.com/ads_
 @@||ecitic.com/eshop/advertise/
