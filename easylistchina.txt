@@ -489,9 +489,9 @@ hk.search.auctions.yahoo.com###yauadysmh
 /AdverJS/*
 /advpic/*
 /ajds/*
-/caiguu_gg_
 /cache/ad_js/*
 /caches/poster_js/*
+/caiguu_gg_
 /cdn-cgi/pe/bag2?r[]=*p.tanx.com
 /cdn-cgi/pe/bag2?r[]=*pagead2.
 /clicktotal/ClickTotal.js
@@ -723,10 +723,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||msypr.com^$third-party
-||52kmh.com^$third-party
-||baidu360haosou.info^$third-party
-||haoba.info^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -827,6 +823,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||4936.cn^$third-party
 ||51ads.com^$third-party
 ||526d.com^$third-party
+||52kmh.com^$third-party
 ||52kmk.com^
 ||5399.com^$third-party
 ||565882.com^$third-party
@@ -905,6 +902,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||at918.com^$third-party
 ||at98.com^
 ||av8d.net^$third-party
+||baidu360haosou.info^$third-party
 ||bang5mai.com^$third-party
 ||baodaozhan.cn^$third-party
 ||bbuni.com^$third-party
@@ -997,6 +995,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||gzqudou.com^
 ||haiyunx.com^$third-party
 ||hao123rt.com^
+||haoba.info^$third-party
 ||haomm.com^$third-party
 ||haoyiwang.net^$third-party
 ||hauchi.com.tw^$third-party
@@ -1074,6 +1073,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||moodoocrv.com.cn^
 ||moogos.com^$third-party
 ||mscimg.com^
+||msypr.com^$third-party
 ||mtxsk.com^$third-party
 ||mycctvmedia.com^$third-party
 ||mytanwan.com^$third-party
@@ -4474,6 +4474,7 @@ _yad_jsonp_
 ||share666.com/30033.gif
 ||share666.com/adad2014/
 ||shbear.com^*/ad/
+||shehuitu.com/jsjs/
 ||shejizhan.org/images/myssh
 ||shenmaxiaoshuo.com/js/hf
 ||shenmaxiaoshuo.com/js/lu.js
@@ -5385,10 +5386,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||shehuitu.com/jsjs/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-baidu.com##.ec_sma_im
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7414,6 +7413,7 @@ m.baidu.com##.ec_adv
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ec_bdtg
 baidu.com##.ec_im_container
 ettoday.net##.ec_menu
+baidu.com##.ec_sma_im
 baidu.com##.ec_wise_ad
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-mix-page > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-poplist-wrapper
