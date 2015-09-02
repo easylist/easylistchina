@@ -578,7 +578,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
-###hide_ads
 ##.bus_adsbox
 ###QQ_Full
 ###adBody01
@@ -728,6 +727,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
+||lv711.net^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
