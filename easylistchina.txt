@@ -538,6 +538,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /piaofu.js
 /pic/ad/*
 /picad/*$domain=~ychr.com
+/plugin.php?id=popad_7ree&
 /proxy.htm?id=
 /proxy.html?id=
 /qpxl.js
@@ -575,10 +576,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://acs.
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
-/plugin.php?id=popad_7ree&
 !------------------------General element hiding rules-------------------------!
-###fwin_popad_7ree
-###fwin_popad_7ree + #fwin_dialog
 ###MyMoveAd
 ###QQ_Full
 ###adBody01
@@ -605,6 +603,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 ###duilian_right
 ###floatAd
 ###floatad-winpop
+###fwin_popad_7ree
+###fwin_popad_7ree + #fwin_dialog
 ~hkcsl.com###gg1
 ###gg300
 ###js_ads_banner_top
@@ -726,7 +726,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||victorjx.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1174,6 +1173,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||urlad.com.tw^$third-party
 ||v-links.net^$third-party
 ||vamaker.com^$third-party
+||victorjx.com^
 ||visadd.com^$third-party
 ||vpie.net^$third-party
 ||vsnoon.com^$third-party
@@ -1313,6 +1313,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /config.js$domain=12345xo.com|123gbgb.com|123ksks.com|216xx.com|44rbrb.com|66ctct.com|987abc.com|99ksks.com|auau88.com|etet666.com|xbxb123.com|yeyeqi7.com
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /d125.260.gif$domain=btup.net
+/da.aspx|$domain=live8bo.com|live8bo.net|live8bo1.com|zqzq.com
 /dhfun_ad/*
 /dy_44jjss/*
 /EZ-YAHOO/*$domain=ezvivi.com
@@ -1455,6 +1456,7 @@ _yad_jsonp_
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=zhuangx
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
+||0471.so/Public/config/Couplet/Index
 ||05096.com/jsdoc/ad.html
 ||0527o.com/shfqad/
 ||0575bbs.com/updateimeags/
@@ -5388,10 +5390,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-/da.aspx|$domain=live8bo.com|live8bo.net|live8bo1.com|zqzq.com
-||0471.so/Public/config/Couplet/Index
 !------------------------Specific element hiding rules------------------------!
-0471.so##DIV[style="float: left; width: 300px; height: 250px;"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9029,6 +9028,7 @@ moonbt.com##div[style="border:0px solid #999; width:980px;height:90px;text-align
 tsdm.net##div[style="border:1px #BFE6F4 solid;width:960px;height:90px;margin:0 auto;"]
 sznews.com##div[style="border:solid 1px #ddd; padding-bottom:10px; padding-top:10px; margin-bottom:10px; width:670px; overflow:hidden; zoom:1; font-family:SimSun ;"]
 boosj.com##div[style="float: left; display: block; overflow: hidden; clear: both;height:280px;width:336px;"]
+0471.so##div[style="float: left; width: 300px; height: 250px;"]
 bbs.my0511.com##div[style="float: right; padding-left:10px; padding-bottom:10px;"]
 mucanwenxue.com##div[style="float:left; height:250px; width:300px; clear:left; margin: 1px 1px 1px 0px;"]
 gamefy.cn##div[style="float:left; width:220px; padding-top:15px;"]
@@ -9574,6 +9574,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||177mh.com/img_v1/bbad.gif
 @@||17kk.cc/scriptAD/other/new_manhua.html
 @@||189.cn/activity/adzh2015/js/ad.js
+@@||192.168.*.1/userRpm/Index.$elemhide
 @@||192.168.*/advertising_$stylesheet
 @@||218.65.30.232:88/day_
 @@||221.7.250.35/caches/poster_js/21.js
@@ -9751,7 +9752,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||huelead.com/images/*ad
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw^$elemhide
-@@||192.168.*.1/userRpm/Index.$elemhide
 @@||icbc.com.cn/icbc/include/AD_
 @@||icbc.com.cn/ICBC_ADJS/
 @@||icbc.com.cn/Portal_Resources/Common/AdCss/
