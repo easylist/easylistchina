@@ -578,6 +578,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
+###hide_ads
 ##.bus_adsbox
 ###QQ_Full
 ###adBody01
@@ -1233,6 +1234,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
+||todayapp.cc^$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
