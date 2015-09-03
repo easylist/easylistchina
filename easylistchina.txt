@@ -462,7 +462,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/sygg/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -548,6 +547,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /show.js?sp=*&oid=
 /source/plugin/mama_tips/*
 /static/adsview/*
+/sygg/*
 /tan.js
 /tanchuang.
 /template/001/ads/*
@@ -1665,6 +1665,7 @@ _yad_jsonp_
 ||222.45.224.77^*.js
 ||222.47.26.21/m.js
 ||222dz.com/js/
+||2233777.com/bak/ad/
 ||22mt.la/bookpic/00*.jpg
 ||23.252.162.52/z.jpg
 ||2300sjz.com/liv_loadfile/folder81/fold
@@ -1743,6 +1744,7 @@ _yad_jsonp_
 ||360safego.com^
 ||3634.com/qq/
 ||365kl.net/template/eis_x3_city_a_1/eis/baobao.gif
+||365xs.org/js/xiayizhang.js
 ||36dm.com/images/250_250.jpg
 ||36dm.com/images/950_90.jpg
 ||36tv.cn/ad_pic/
@@ -1906,6 +1908,7 @@ _yad_jsonp_
 ||600km.com/template/*/ad/
 ||60808.org/a/*.jpg
 ||61.128.121.99/nsrad/
+||61.143.225.176:818/nowscore/
 ||61.147.92.251:81/120x160.asp
 ||61.164.108.104:4275/*.gif
 ||61.164.108.184^*.gif
@@ -4005,6 +4008,7 @@ _yad_jsonp_
 ||nb155.com/images/mysshok.png
 ||nba.weibo.com/images/bg/bg_heat.jpg
 ||ncdiy.com/webindex/300-250AD.swf
+||ncnews.com.cn/statics/images/2015/ban/dh.swf
 ||ncnews.com.cn/statics/js/ban/ix/ban
 ||neihan8.com/templets/default/images/dubo
 ||neihan8.com/templets/default/images/dui
@@ -4580,7 +4584,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/rny/sinamail57/images/110316/threeKingdoms2.
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bo.cc|84zr.com|99files.net|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|cililian.me|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|ml.gg|xinqixi.com|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|84zr.com|99files.net|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|cililian.me|jisuzhibo.net|liulanmi.com|lululu.club|lululu.lu|ml.gg|xinqixi.com|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|men00.com|men40.com|men55.com|men70.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
@@ -5401,16 +5405,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ncnews.com.cn/statics/images/2015/ban/dh.swf
-||61.143.225.176:818/nowscore/
-||365xs.org/js/xiayizhang.js
-||sinaimg.cn^$domain=360bifen.cc|360bifen.com
-||2233777.com/bak/ad/
 !------------------------Specific element hiding rules------------------------!
-ncnews.com.cn##.lcad
-wenku.baidu.com##DIV[id^="html-reader-AD-"]
-360bifen.cc###topbox
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > DIV[class][style]:not([id])
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5816,7 +5811,6 @@ tsdm.net###content_box_300250
 tsdm.net###content_box_60090
 tsdm.net###content_box_72890
 aa25.cn###content_head
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > DIV[id*="00"]:not(.result) + DIV[class]:not(.result)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"]:not(.result) > div
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"]:not(.result) > tbody
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"]:not(.result) > ul
@@ -5825,6 +5819,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.res
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result) > tbody
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result) > ul
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div:not([id]) > div[id][data-rendered="true"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id])
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[id*="00"]:not(.result) + div[class]:not(.result)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > table
 aa25.cn###content_top
@@ -6515,6 +6511,7 @@ duba.com###top_joke
 tianjinwe.com###topadv
 aibang.com###topadv_baidu_aibang
 blog.163.com###topbar_randShowArea
+360bifen.cc###topbox
 xijucn.com###topc
 nowscore.com###toperText
 csshello.com###topgg
@@ -7881,6 +7878,7 @@ szonline.net##.layout_ad
 shanwen.com##.layoutt
 shanwen.com##.layouttt
 hz66.com##.lb_gg
+ncnews.com.cn##.lcad
 finance.ifeng.com##.lccs
 txtbook.com.cn##.ledu-advWrap
 1396b.com,162.212.182.85,23.252.161.83,23.252.161.89##.left-layer
@@ -8979,6 +8977,7 @@ jn256.com##div[id^="fuggid"]
 512ms.com,gusuwang.com##div[id^="fy_"]
 doyo.cn,keleyi.com##div[id^="gg"]
 5184.com##div[id^="ggshow"]
+wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
 fjlyfdc.com.cn##div[id^="hxhad"]
 imanhua.com##div[id^="imh-"]
@@ -9486,10 +9485,10 @@ brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
 @@&ad_type=$domain=x.jd.com
-@@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
+@@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.beautifulphoto.net/ads/music
 @@.cntv.cn/adplayer/
 @@.com/ad.$domain=0379home.com
