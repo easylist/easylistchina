@@ -462,6 +462,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/sygg/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -5400,7 +5401,9 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||ncnews.com.cn/statics/images/2015/ban/dh.swf
 !------------------------Specific element hiding rules------------------------!
+ncnews.com.cn##.lcad
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
