@@ -1441,6 +1441,7 @@ _yad_jsonp_
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn^$domain=aikuhu.com
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
+||005.tv/data/attachment/forum/201509/01/133447dfssm3m74z4tm6o7.jpg
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||020.com/960_70
@@ -2489,6 +2490,7 @@ _yad_jsonp_
 ||china.com/zh_cn/plugin/all/hezuo360/
 ||chinaacc.com/lamu/dl-
 ||chinaacc.com^$domain=100ksw.com
+||chinabyte.com/w/$subdocument
 ||chinacar.com.cn/zhuanyongche/images/wintip_
 ||chinachugui.com/jsfiles/aods/
 ||chinadaily.com.cn/micro-reading/dzh/bd-taofang.gif
@@ -2770,6 +2772,7 @@ _yad_jsonp_
 ||downbank.cn/jkzm/
 ||downbank.cn/s1/
 ||downbank.cn/soft6/
+||downcc.com/js/66060.gif
 ||downkr.com/statics/js/all.js
 ||download.game.yy.com/crossdomain.xml
 ||downxia.com/dgjs/download.js
@@ -4013,6 +4016,7 @@ _yad_jsonp_
 ||neihan8.com/templets/default/images/dubo
 ||neihan8.com/templets/default/images/dui
 ||neihan8.com/templets/default/images/hengfu.gif
+||neihanshe.cn/upload/2014-09-24/46d6992067f9ad73daffac4cd519e11b.jpg
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||neotv.com.cn/images/avs/tc/tc.js
@@ -4065,6 +4069,8 @@ _yad_jsonp_
 ||nutrimate.com.tw^$subdocument
 ||nvsheng.com/js/gg.js
 ||oa.hinews.cn/work/img/
+||ofweek.com/pop/ad/
+||ofweek.com/StaticPage/gongkong/ad_
 ||oiihk.com/anime/cm.js
 ||ok.432kkk.com^
 ||okbmf.com^*950_120
@@ -5224,6 +5230,7 @@ _yad_jsonp_
 ||ydstatic.com/images/hao163/600-45_2.jpg
 ||yeeyi.com/bbs/api.php?mod=js&bid=
 ||yehaolu.com/js/jjss
+||yesky.com/monitorjs/imp-
 ||yesky.com/TLimages2009/yesky/images/*/baidu-
 ||yesky.com/TLimages2009/yesky/js/xznr_bdsd.js
 ||yeyou.com/2013/new/yeyou-float-window.js
@@ -5405,20 +5412,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||neihanshe.cn/upload/2014-09-24/46d6992067f9ad73daffac4cd519e11b.jpg
-||chinabyte.com/w/$subdocument
-||yesky.com/monitorjs/imp-
-||005.tv/data/attachment/forum/201509/01/133447dfssm3m74z4tm6o7.jpg
-||ofweek.com/pop/ad/
-||ofweek.com/StaticPage/gongkong/ad_
-||downcc.com/js/66060.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cnhubei.com##.couplet
-duoduopan.com##.GzList
-wlxww.com###framesJFWGF
-ofweek.com##.duilian
-3d66.com##.King_Chance_LayerCont
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6000,6 +5995,7 @@ yangluo.cn###frameVw7574
 wcjbb.com###frameo834m9
 bbs.liao1.com###frameppbC61
 zc173.com###frameq7Hf1J
+wlxww.com###framesJFWGF
 bbs.jumpcn.com###framesh74cG
 2muslim.com###framex6ccEP
 18avhub.com,18avtube.com,206.108.55.53,mm-cg.com###friendLink
@@ -6682,13 +6678,14 @@ cnfol.com##.FixedRight
 aiyuke.com##.GGad
 news.hf365.com##.G_bot
 gigacircle.com##.Game-Ads
-115zk.com,fuliba.is.my,fulibba.net,mcncc.com,twunbbs.com##.GzList
+115zk.com,duoduopan.com,fuliba.is.my,fulibba.net,mcncc.com,twunbbs.com##.GzList
 letv.com##.H-tg
 sj998.com##.Hr_1
 xinmin.cn##.Index201408_gg2
 xinmin.cn##.Index201408_gg3
 19lou.com,ihome99.com##.J_pm
 dbw.cn##.Jutop
+3d66.com##.King_Chance_LayerCont
 cwan.com##.L_ad_12
 cwan.com##.L_ad_22
 shenchuang.com##.MainR_ad3
@@ -7372,7 +7369,7 @@ mopiaoyao.com,renwai.ren##.context_t
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.contfont > div[style*="610px; "]
 hao123.cn##.cool > tbody > tr > td[align="center"]:last-child
 58.com##.coupad_l
-37.com##.couplet
+37.com,cnhubei.com##.couplet
 skycn.com##.couplet-ad-left
 skycn.com##.couplet-ad-right
 tigtag.com##.couplet_l
@@ -7431,7 +7428,7 @@ portablesoft.org##.downcenter
 shuaijiao.com##.dt_ad
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
 neihan8.com##.duileft
-81.cn,hnr.cn,my0538.com,sg169.com,sjzbus.com.cn,xinhuanet.com##.duilian
+81.cn,hnr.cn,my0538.com,ofweek.com,sg169.com,sjzbus.com.cn,xinhuanet.com##.duilian
 btup.net##.duilian_ad
 hnr.cn##.duilian_close
 0772fang.com##.duilian_l
