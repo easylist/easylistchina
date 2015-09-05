@@ -463,8 +463,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/pc/Tpl/baibaipc/js/*
-/pc/Tpl/baibaipc//js/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -537,6 +535,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 /main/s?
 /module/adsview/*
 /paypic/*
+/pc/Tpl/baibaipc//js/*
+/pc/Tpl/baibaipc/js/*
 /piaofu.js
 /pic/ad/*
 /picad/*$domain=~ychr.com
@@ -730,7 +730,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||easou.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -968,6 +967,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||dxssiyi.com^
 ||e70123.com^
 ||ea3721.com^$third-party
+||easou.com^$third-party
 ||ecuc123.net^
 ||eeyy.com^$third-party
 ||egooad.com^$third-party
@@ -2108,6 +2108,7 @@ _yad_jsonp_
 ||a67.com/a/*.js
 ||ab.ahlife.com^*.swf
 ||abc.hkepc.com^
+||abcde.cn/2014images/*96060.jpg
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acg.178.com/201302/t_
 ||acg.178.com/s/manhua218_140.html
@@ -5405,12 +5406,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||abcde.cn/2014images/*96060.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-abcde.cn###top-banner
-0597ok.com##.btnleft
-0597ok.com##.btnright
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6499,7 +6496,7 @@ wenku8.com,xinhuanet.com###tonglan
 uuu9.com###top
 finance.ts.cn###top > .container > .row5
 iyejie.com###top > div:not([id]):not([class])
-bbs.houdao.com###top-banner
+abcde.cn,bbs.houdao.com###top-banner
 skinme.cc###top-lamu
 gaxhw.com###top1
 jjxw.cn###topBig2
@@ -7265,6 +7262,8 @@ anywlan.com##.bscekvofc_o
 ifeng.com##.btm_tg
 51dll.com##.btn > a[href^="http"]
 cssmoban.com##.btn-host
+0597ok.com##.btnleft
+0597ok.com##.btnright
 1396b.com,162.212.182.85,17173.com,23.252.161.83,23.252.161.89,gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
 sogou.com##.buy_mxx
@@ -9211,11 +9210,11 @@ szhk.com##img[id^="adp"]
 ts.cn##img[width="1000"][src*="/site1/"]
 jmbbs.com##img[width="1100"]
 china.com.cn##img[width="180"]
-nmgnews.com.cn##IMG[width="499"][height="50"]
 6.gy##img[width="300"][height="250"]
 china.com.cn##img[width="300"][height="60"]
 guitarchina.com##img[width="420"][height="60"]
 acousticguitar.com.cn##img[width="470"][height="60"]
+nmgnews.com.cn##img[width="499"][height="50"]
 sdzbcg.com##img[width="590"]
 sdzbcg.com##img[width="592"]
 hexieshe.com##img[width="640"][height="90"]
