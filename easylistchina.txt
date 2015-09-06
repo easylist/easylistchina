@@ -1260,8 +1260,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||ihualun.com^$popup
 ||iqiyi.com/track$popup
 ||iswan.cn^$popup,third-party
-||javjunkies.com/JAV.php$popup
-||javjunkies.com/JO.php$popup
+|http://$popup,third-party,domain=javjunkies.com
 ||jjwxc.net/jjad*.html$popup
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||moe.005.tv^$popup,third-party
@@ -5409,6 +5408,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+javjunkies.com##IMG[width="160"][height="600"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
