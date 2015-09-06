@@ -763,7 +763,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://*:6970/s.php?id=$script,third-party
 |http://*:8088/s.php?id=$script,third-party
 |http://1.3.0.10^
-|http://news.*.html$script,third-party
+|http://news.*.html|$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
@@ -1064,7 +1064,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
 ||ku63.com^$third-party
-||ku9377.com^
 ||kuaizitech.com^$third-party
 ||lajizhan.org^
 ||le123.cn^$third-party
