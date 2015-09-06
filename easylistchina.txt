@@ -1240,12 +1240,12 @@ hk.search.auctions.yahoo.com###yauadysmh
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-||sohu.com/i/?pvid=$popup
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
 |http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|byhh.org|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
+|http://$popup,third-party,domain=javjunkies.com
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
@@ -1260,12 +1260,12 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||ihualun.com^$popup
 ||iqiyi.com/track$popup
 ||iswan.cn^$popup,third-party
-|http://$popup,third-party,domain=javjunkies.com
 ||jjwxc.net/jjad*.html$popup
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||moe.005.tv^$popup,third-party
 ||qidian.com/showavd.$popup
 ||smartor.org/iclk/?zoneid=$popup
+||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
 ||todayapp.cc^$popup,third-party
@@ -2486,6 +2486,7 @@ _yad_jsonp_
 ||china.chemnet.com/cnbanner/
 ||china.com.cn/2015ads/
 ||china.com.cn/food/node_7094923.htm
+||china.com.cn/statics/js/js_vag/
 ||china.com.cn/youxi.swf
 ||china.com/jsfiles/gotopgg/
 ||china.com/zh_cn/ads/
@@ -3962,6 +3963,7 @@ _yad_jsonp_
 ||moratame.tw/img/contents/banner
 ||motorfans.com.cn/iggs_system/
 ||mp3.haogeba.com^$image,object
+||mql5.com/10/0/*.gif
 ||mracg.com/data/attachment/portal/201412/17/
 ||ms211.com/211tf/
 ||ms211.com/about/$subdocument
@@ -5406,14 +5408,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||mql5.com/10/0/*.gif
-||china.com.cn/statics/js/js_vag/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gmw.cn###pic_tmpAD_left750
-ghoffice.com##.tac > A > IMG[src*=".gif?"]
-mql5.com##.top_container
-javjunkies.com##IMG[width="160"][height="600"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6284,6 +6280,7 @@ ithome.com,win7china.com,win8china.com###pc_c
 tsdm.net###pgt + div > p[style="float:left;width:100%"]
 tutufu.com###pic-list > a[style^="color:"]
 ifeng.com###picAdposition
+gmw.cn###pic_tmpAD_left750
 sina.com.hk###pinp
 sina.com.hk###pinp2
 sina.com.cn###pip_taobao
@@ -8402,6 +8399,7 @@ bbs.fobshanghai.com##.t_infoline
 265g.com##.tab_imgtop
 tw.yahoo.com##.tabads
 400gb.com,bego.cc,ctfile.com,pipipan.com##.table-striped
+ghoffice.com##.tac > a > img[src*=".gif?"]
 77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com,ysn.cc##.tac.mb5
 aisex.com##.tac[colspan="6"]
 77bike.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
@@ -8511,6 +8509,7 @@ warting.com##.top_ad2
 warting.com##.top_article_ad
 51testing.com,86wan.com,hjenglish.com,hujiang.com,xitek.com,xitong8.com##.top_banner
 21yq.com##.top_big_bg
+mql5.com##.top_container
 youthwant.com.tw##.top_fad
 qidian.com##.top_game_info
 jn256.com,xizi.com##.top_gg
@@ -8684,7 +8683,6 @@ jjwxc.net##[id^="adp_"]
 77bike.com,ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
 e0575.cn,sz.zj.cn##[id^="ads_c_"]
 gamebase.com.tw##[id^="aid_"]
-pos.baidu.com##BODY
 51240.com##[id^="ggwz"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
@@ -8790,7 +8788,7 @@ yzz.cn##a[style^="display:block; width:980px; height:100px;"]
 gaoqing.la##a[target="_blank"] > img[src*=".sinaimg.cn/large/"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
 creaders.net##a[title^="www.136888.com/new/ad."]
-xcdf.cn##body
+pos.baidu.com,xcdf.cn##body
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 danyang.com##body > div[align="center"]
@@ -9215,6 +9213,7 @@ szhk.com##img[id^="adp"]
 0898.net,hi.people.com.cn,xizi.com##img[width="1000"]
 ts.cn##img[width="1000"][src*="/site1/"]
 jmbbs.com##img[width="1100"]
+javjunkies.com##img[width="160"][height="600"]
 6.gy##img[width="300"][height="250"]
 china.com.cn##img[width="300"][height="60"]
 guitarchina.com##img[width="420"][height="60"]
