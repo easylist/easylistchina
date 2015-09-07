@@ -2114,8 +2114,6 @@ _yad_jsonp_
 ||acg.178.com/s/manhua218_140.html
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
 ||acg.tv^$object,object-subrequest,domain=bilibili.com
-||acgget.com/up/*/715x147
-||acgget.com/up/*/papa
 ||acode.b2b.cn/JS/
 ||acsystem.wasu.cn^
 ||act.chinatimes.com/aimg/
@@ -5412,6 +5410,10 @@ _yad_jsonp_
 ||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+acgft.net##.pic-box + .row-fluid
+acgft.net###content-header + .container-fluid > DIV:first-child
+acgft.net###text-html-widget-13 + .widget-box
+acgft.net##.entry-meta > DIV:nth-child(4)
 hxnews.com###change_1
 hxnews.com###change_1 + .rowa
 hxnews.com###adv
@@ -7653,7 +7655,6 @@ jiaodong.net##.grayB
 bioon.com##.grid_6
 admin5.com##.grid_8 > .mb6
 putclub.com##.gtest
-acgft.club##.gtttop
 58.com##.guaguabox
 weathertv.cn##.guangGao
 hkwb.net##.guangg
@@ -8705,7 +8706,6 @@ dy2018.com,xiaopian.com##a[href*=".mytanwan."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
 aijava.cn,btcherry.com,cosersuki.org,d5yuansu.com,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,toutiao.com,vvtor.com,zalra.cn##a[href*=".taobao.com"]
-acgft.club##a[href*=".taobao.com"] > img
 gmgard.us,hexieshe.com,iqiyi.com,lightnovel.cn,soul-plus.org##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
@@ -8758,8 +8758,6 @@ mop.com##a[href^="http://trackx.mop.com/"]
 loveplay123.blogspot.com##a[href^="http://vbtrax.com/track/"]
 chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
-acgft.net##a[href^="http://www.acgft.net/?p="] > img[src*=".sinaimg."]
-acgft.net##a[href^="http://www.acgft.net/go/"] > img[src*=".sinaimg."]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 zhibo8.cc##a[href^="http://www.bobo."]
