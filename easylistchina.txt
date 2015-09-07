@@ -1245,8 +1245,9 @@ hk.search.auctions.yahoo.com###yauadysmh
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
+|http:$popup,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 |http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|byhh.org|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
-|http://$popup,third-party,domain=javjunkies.com
+|http:$popup,third-party,domain=javjunkies.com
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
@@ -5410,6 +5411,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+400gb.com,bego.cc,ctfile.com,pipipan.com##A[id^="__lgUnion_"]
 acgft.net##.pic-box + .row-fluid
 acgft.net###content-header + .container-fluid > DIV:first-child
 acgft.net###text-html-widget-13 + .widget-box
@@ -9495,6 +9497,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
+@@|http:$script,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
