@@ -582,6 +582,10 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
+##.ad-left-down
+##.ad-left-top
+##.ad-right-down
+##.ad-right-top
 ###QQ_Full
 ###adBody01
 ###adBody02
@@ -5413,6 +5417,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||sinaimg.cn^$domain=sbme.me
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
