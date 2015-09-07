@@ -492,9 +492,9 @@ hk.search.auctions.yahoo.com###yauadysmh
 /cache/ad_js/*
 /caches/poster_js/*
 /caiguu_gg_
+/cdn-cgi/pe/bag2?r[]=*.humanding.com
 /cdn-cgi/pe/bag2?r[]=*p.tanx.com
 /cdn-cgi/pe/bag2?r[]=*pagead2.
-/cdn-cgi/pe/bag2?r[]=*.humanding.com
 /clicktotal/ClickTotal.js
 /common/cf/*$image,object
 /content/plugins/em_ad/*
@@ -508,9 +508,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 /floatad.$domain=~fwxgx.com
 /floatad2.
 /gaog/*
-|http://*/gg1.
-|http://*/gg2.
-|http://*/gg3.
 /gg4.
 /gg5.
 /ggao.
@@ -573,6 +570,9 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://*/ad.js?sn=
 |http://*/ad.js?v=
 |http://*/gg/
+|http://*/gg1.
+|http://*/gg2.
+|http://*/gg3.
 |http://*/js/ad.
 |http://*/js/ad/
 |http://*/js/tc.js
@@ -731,8 +731,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||38ra.com^$third-party
-||keyyou.net^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -825,6 +823,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||37cs.com^$third-party
 ||3808010.com/code$third-party
 ||3839168.com^$third-party
+||38ra.com^$third-party
 ||3975lm.com^$third-party
 ||3alian.net^$third-party
 ||3dwwwgame.com^$third-party
@@ -1063,6 +1062,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||kefeng56.com^$third-party
 ||kejet.$third-party
 ||keyrun.cn^$third-party
+||keyyou.net^
 ||keyyou.net^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
@@ -1247,9 +1247,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /BadwebRemindPage.aspx?param=$popup,third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|byhh.org|downp2p.com|dwbpy.com|jandown.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
-|http:$popup,third-party,domain=javjunkies.com
+|http:$popup,third-party,domain=400gb.com|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bego.cc|bforu.info|byhh.org|ctfile.com|downp2p.com|dwbpy.com|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|pipipan.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
@@ -1522,6 +1520,7 @@ _yad_jsonp_
 ||114so.cn^$subdocument
 ||115.28.114.149^*_proxy.
 ||115.29.141.121:8086/js/wp.js
+||115.29.46.146^$subdocument
 ||115img.com/static/pc/d_127.html
 ||115mm.com/js/
 ||119.167.73.60/m_code/
@@ -2422,6 +2421,7 @@ _yad_jsonp_
 ||bx0635.com/tx/vip.gif
 ||bxwx.org/1.js
 ||bxwx.org/caipiao.js
+||bxwx.org/js/$subdocument
 ||bxwx.org/js/box_
 ||bxwx.org/myabc/
 ||bxwxtxt.com/a/bxwx/indextan.js
@@ -2930,6 +2930,8 @@ _yad_jsonp_
 ||file.ws.126.net/house/*/js/tc_
 ||file.ws.126.net/house/jn/*.swf
 ||file.ws.126.net/house/nj/*.swf
+||files.nyaa.eu/a*.$image
+||files.nyaa.se/a*.$image
 ||files.webcars.com.cn^*.swf?link=
 ||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/res/js/fchina_video-min.js
@@ -3583,6 +3585,7 @@ _yad_jsonp_
 ||izzs.net/wp-content/mm/
 ||ja.gamersky.com^
 ||jandan.com/static/gggg/
+||jav2lib.com/js/bnr_
 ||javjunkies.com/FL$subdocument
 ||javlibrary.com/js/bnr_
 ||jb51.net/2012js/
@@ -3647,7 +3650,6 @@ _yad_jsonp_
 ||jrjimg.cn/homev2/ad/
 ||js-1.pchome.net^
 ||js.4738.com/newda/img/994_90_
-||bxwx.org/js/$subdocument
 ||js.duotegame.com^
 ||js.mumayi.net/76090.gif
 ||js.mumayi.net/9495.gif
@@ -4576,6 +4578,7 @@ _yad_jsonp_
 ||sinaimg.cn/large/ed5e6a1djw1eqklc2eicfj20r802idh3.jpg
 ||sinaimg.cn/large/ed5e6a1djw1eqp5sh98uvg208c06ye81.gif
 ||sinaimg.cn/mw1024/6283e751gw1ev7zda6i7oj20i202st8z.jpg
+||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
 ||sinaimg.cn/mw690/005GRsDJjw1eo1jledg4cj30b40b4go4.jpg
 ||sinaimg.cn/mw690/60006c33jw9eir85o4mbsj206y05sgm4.jpg
 ||sinaimg.cn/mw690/7d1c8e96gw1ehjblxlj39j206y06ydgi.jpg
@@ -5410,22 +5413,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
-||jav2lib.com/js/bnr_
-||115.29.46.146^$subdocument
-||files.nyaa.eu/a*.$image
-||files.nyaa.se/a*.$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-400gb.com,bego.cc,ctfile.com,pipipan.com##A[id^="__lgUnion_"]
-acgft.net##.pic-box + .row-fluid
-acgft.net###content-header + .container-fluid > DIV:first-child
-acgft.net###text-html-widget-13 + .widget-box
-acgft.net##.entry-meta > DIV:nth-child(4)
-hxnews.com###change_1
-hxnews.com###change_1 + .rowa
-hxnews.com###adv
-cctry.com##.sftop
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5672,7 +5661,7 @@ elecfans.com###adsm-berry
 ynet.com###adt01
 sina.com.cn###adtopad
 rising.cn###adtp
-dm530.com###adv
+dm530.com,hxnews.com###adv
 xinhuanet.com###adv-1
 xinhuanet.com###adv-A1
 xinhuanet.com###adv-B1
@@ -5787,6 +5776,8 @@ jbtalks.cc###center-popup-bg
 jbtalks.cc###center-popup-show
 huarenjie.com###cftoutiao
 hao.rising.cn###change
+hxnews.com###change_1
+hxnews.com###change_1 + .rowa
 tga.plu.cn###channels-roll
 wlanwifi.net###chart + center
 cqfishing.net,gpshk.cc###chs_bannerArea
@@ -5822,6 +5813,7 @@ go-gddq.com###content > div[style="float: right;"]
 fuliba.is.my,fulibba.net###content > ul[style="list-style-type: none;"]
 yes-news.com###content-728
 yes-news.com###content-ads-right
+acgft.net###content-header + .container-fluid > div:first-child
 kindlefere.com###content-show
 drupalchina.cn###content-top
 www.sohu.com###contentC > .columnC
@@ -6493,6 +6485,7 @@ vmelon.com###text-4
 uisdc.com###text-6
 wuleba.com,zeekmagazine.com###text-9
 free.com.tw###text-94
+acgft.net###text-html-widget-13 + .widget-box
 pbhz.com###text-html-widget-2
 365kl.net###textAD
 sogou.com###text_ad_area
@@ -7481,6 +7474,7 @@ winning11cn.com##.eis_topad
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.is.my,fulibba.net##.entry-content > div[style^="float:right"]
 briian.com##.entry-content > p[style="height: 85px;"]
+acgft.net##.entry-meta > div:nth-child(4)
 epinv.com##.epinv_f
 shulink.com##.er_g
 chinaz.com##.etc-b-head
@@ -8152,6 +8146,7 @@ qingren.tv##.pgg1
 qingren.tv##.pgg2
 sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
 caikuu.com##.photo_abv
+acgft.net##.pic-box + .row-fluid
 ifeng.com##.pic1000
 donews.com##.pic1area
 ifeng.com##.pic280
@@ -8299,6 +8294,7 @@ haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 ijia360.com##.search_radlist
 cnool.net##.second-banner
 jq-school.com##.setfarme:nth-child(7)
+cctry.com##.sftop
 sogou.com##.sg-ad
 sogou.com##.sg-ad-r
 17173.com##.shadowPage
@@ -8786,6 +8782,7 @@ yahoo.com##a[href^="https://beap.gemini.yahoo.com/"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 right.com.cn##a[href^="https://treebear.tmall.com"]
 byhh.org##a[href^="javascript:eval("]
+400gb.com,bego.cc,ctfile.com,pipipan.com##a[id^="__lgUnion_"]
 360-bo.com,360bo.cc,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 frdic.com##a[onclick*="/ads/"]
 fhm.com.tw##a[onclick^="adClick("]
@@ -9503,7 +9500,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 !@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
-@@|http:$script,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -9593,6 +9589,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
 @@|http:$image,subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@|http:$script,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@|http:$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@|http://*/??$domain=gome.com.cn
 @@|http://*/ad$domain=meiziweibo.com
