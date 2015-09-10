@@ -735,7 +735,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||lx167.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1082,6 +1081,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||linkvans.com^$third-party
 ||lnr1.com^$third-party
 ||lv711.net^$third-party
+||lx167.com^$third-party
 ||mamamiyu.com^$third-party
 ||media8.cn^$third-party
 ||mediav.com^$third-party
@@ -2566,6 +2566,7 @@ _yad_jsonp_
 ||cjn.cn^*/ad/
 ||clm02.com/2014-A/FB-6-14-AA1.jpg
 ||clouddn.com/960x60.gif
+||clouddn.com^$domain=bejson.com
 ||cloudleft.com/images/new/cmhello.jpg
 ||club.pchome.net/*/localexchange.php$subdocument
 ||cmsjs.eastmoney.com/js/fixedSoft$script
@@ -2999,6 +3000,7 @@ _yad_jsonp_
 ||g.gxorg.com^
 ||g.hsw.cn^
 ||g.jinti.com/f/a/a
+||g.ousns.net^
 ||g.rexian.net.cn/js/
 ||g1.0573ren.com^
 ||g1080.com/js/cache_bg.js
@@ -3779,6 +3781,7 @@ _yad_jsonp_
 ||lady8844.com/IMAGE/$~image
 ||lagou.com/js/cooperation/
 ||laixi.com/tp/20
+||lancdn.com/diannet/media1/diannet_tool_336_280_
 ||landiannews.com/tui/
 ||language-center.com.tw/udn/
 ||langxi.org/langxi/*900$image,object
@@ -4095,11 +4098,14 @@ _yad_jsonp_
 ||online.cq.cn/huodong/css/
 ||onlinedown.net/newhuagg/*_pic_$script
 ||ooxxbbs.com/data/attachment/forum/*.gif
-||open-open.com/lag336x280.png
+||open-open.com/j300250n.jpg
 ||open-open.com/jp240200.jpg
+||open-open.com/jp72890.jpg
+||open-open.com/lag336x280.png
 ||open-open.com^*_banner.
 ||orsoon.com*/zhuanti/
 ||orzx.im/Document/recommend/flashpoint.html
+||orzx.im/Document/union/
 ||orzx.im/js/*pop
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/space/2015/0318/105455_4iUG_2012764.jpg
@@ -4773,6 +4779,7 @@ _yad_jsonp_
 ||techweb.com.cn/static/images/*aliyun
 ||tf.360.cn^
 ||tfg2.com/images/upfile/AD/
+||tg.delnapb.com^
 ||tgbus.com/search/article_endcontent_google.htm
 ||tgbus.com/sf/taobao/
 ||thethirdmedia.com/a1/*960x
@@ -4868,6 +4875,7 @@ _yad_jsonp_
 ||tumblr.com^$domain=99re.co|99re.org
 ||tumutanzi.com/img/green-vpn.png
 ||tupan8.com/skins/js/gg
+||tuwan.com/templet/lol/temp/
 ||tv380.com/ovp/ovp_home/*/adi/
 ||tv6080.com/520/index.htm
 ||tv6080.com/qqt/
@@ -4964,6 +4972,7 @@ _yad_jsonp_
 ||vista.tgbus.com/data.ashx^*_SINGLE_SETJSONADSLOT
 ||vista.tgbus.com/s.js
 ||vista.tgbusdata.cn/s.js
+||vista.tuwan.com/s.js
 ||vjie.com/templates/lieqi/js/_banner.js
 ||vkeke.net/public/agd.js
 ||vnet.cn^*.html
@@ -5199,6 +5208,7 @@ _yad_jsonp_
 ||xunleihao.com/a-d-j-s/
 ||xunleihd.com/image/*maose
 ||xunleipu.com/a-d-j-s/
+||xunleisousuo.com/byou.php
 ||xunzai.com/static/www/ku360300.jpg
 ||xunzai.com/static/wwwimg/
 ||xunzai.com/www/all_common.js
@@ -5428,21 +5438,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||open-open.com/jp72890.jpg
-||open-open.com/j300250n.jpg
-||orzx.im/Document/union/
-||tuwan.com/templet/lol/temp/
-||vista.tuwan.com/s.js
-||clouddn.com^$domain=bejson.com
-||xunleisousuo.com/byou.php
-||lancdn.com/diannet/media1/diannet_tool_336_280_
-||tg.delnapb.com^
-||g.ousns.net^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ck101.com##.ad_logo
-ck101.com###canvas-section
-bejson.com##A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5796,6 +5793,7 @@ club.topsage.com###brbox
 btago.com###browser
 ms211.com###btf
 v.hao123.com###btn-dl-bro
+ck101.com###canvas-section
 longzhu.com,tga.plu.cn###carousel
 mao-123.com,mengmao.org###cat3
 bbs-mychat.com###cate_top > tr > .f_one
@@ -6959,6 +6957,7 @@ hb163.cn##.ad_inner
 letv.com##.ad_layer
 188bifen.com,hc360.com,zhibo8.cc##.ad_left
 66rd.cn,ifeng.com##.ad_list
+ck101.com##.ad_logo
 78dm.net##.ad_logor
 sina.com.cn##.ad_main_top
 hb163.cn##.ad_panel_980
@@ -8740,7 +8739,7 @@ zdfans.com##a[href*=".kiees."]
 dy2018.com,xiaopian.com##a[href*=".mytanwan."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-aijava.cn,btcherry.com,cosersuki.org,d5yuansu.com,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,toutiao.com,vvtor.com,zalra.cn##a[href*=".taobao.com"]
+aijava.cn,bejson.com,btcherry.com,cosersuki.org,d5yuansu.com,gmgard.us,lightnovel.cn,mao-123.com,mengmao.org,mracg.com,soul-plus.org,toutiao.com,vvtor.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.us,hexieshe.com,iqiyi.com,lightnovel.cn,soul-plus.org##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
