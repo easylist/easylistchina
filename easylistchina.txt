@@ -582,7 +582,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
 ###MyMoveAd
-##BODY[onload="u()"] > #x
 ###QQ_Full
 ###adBody01
 ###adBody02
@@ -734,13 +733,13 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##a[href^="http://www.s889.net/?aff="]
 ##a[href^="http://www.whao9.com"]
 ##a[href^="https://www.18vpn.biz/r.php"]
+##body[onload="u()"] > #x
 ~dsjunshi.com##div[id^="ad_thread"]
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||acgbase.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -886,6 +885,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||9xu.com^$third-party
 ||a3p4.com^$third-party
 ||a7shun.com^$third-party
+||acgbase.com^$third-party
 ||acs86.com^$third-party
 ||ad-plus.cn^$third-party
 ||ad8.cc^$third-party
@@ -1373,6 +1373,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /jquery.$domain=game.macx.cn|zdfans.com
 /js/adBom.js$domain=myqcloud.com
 /js/alls_$domain=911-sss.com|911semm.com|911seqq.info|kuaisou222.com|ylgbt.info|ylgxxbt.com
+/js/bd_stat.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 /js/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /js/index_*68860.js$domain=lt57.com|ltwbook.com|ltxsw.com
 /js/index_right$domain=lt57.com|ltwbook.com|ltxsw.com
@@ -5098,6 +5099,7 @@ _yad_jsonp_
 ||wuyou.*/0000/banner.gif
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.china.com.cn/node_$domain=news.china.com.cn
+||wwwcdn.kimiss.net/btn/
 ||wwwzqr.cn/template/comiis_kmsjx3hlx/ads/
 ||wx.56.com/youxitg/
 ||wx.sina.com.cn/iframe/pdps/
@@ -5449,12 +5451,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||wwwcdn.kimiss.net/btn/
-/js/bd_stat.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##A[href*="www.clinique."]
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7959,6 +7957,7 @@ g1080.com##.leftlink
 muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 lywww.com##.lianmengclass
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
 uc123.com##.lift-push-container
 m.qidian.com##.link_banner
 linuxidc.com##.linuxy1
@@ -8764,6 +8763,7 @@ mkzhan.com,zymk.cn##a[href*="/adid/"]
 m.baidu.com##a[href*="m.lecai.com"]
 cwyuni.tw##a[href*="rakuten.tw"]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 103.17.211.13,cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
@@ -9994,6 +9994,10 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 !-----------------------------Malware Domains rules---------------------------!
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
+@@||changyan.sohu.com/api/
+@@||changyan.sohu.com/debug/cookie?
+@@||changyan.sohu.com/node/html?
+@@||changyan.sohu.com/upload/
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
 ||akamaihd.net^*/sid.html?p=
@@ -10001,10 +10005,6 @@ brandsales.58.com#@#div[id^="ad_"]
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
-@@||changyan.sohu.com/api/
-@@||changyan.sohu.com/debug/cookie?
-@@||changyan.sohu.com/upload/
-@@||changyan.sohu.com/node/html?
 !--------------------------------Tracking Systems-----------------------------!
 @@.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
