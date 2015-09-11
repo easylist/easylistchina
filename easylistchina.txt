@@ -5451,6 +5451,7 @@ _yad_jsonp_
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||wwwcdn.kimiss.net/btn/
+/js/bd_stat.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9635,8 +9636,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=dou6.cc|kk369.net|uuu123.net
 @@|http://*/gg/*.css
-@@|http://*/i.js$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-@@|http://*baidu$script,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@|http:$script,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
@@ -9852,7 +9852,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||jjjgame.com/plus/ad_
 @@||joy.cn/service.php?*&showad=
 @@||kbcool.com/advpic/$domain=ks.js.cn
-@@||keyrun.cn^$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||kukuplay.com/upload/*.*.swf
 @@||l.qq.com/livemsg?ty=web&ad_type=
 @@||l.qq.com/lview?$domain=888.sports.qq.com
