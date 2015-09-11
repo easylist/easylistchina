@@ -5301,7 +5301,6 @@ _yad_jsonp_
 ||you85.cn^*/dib.js
 ||you85.cn^*/vip.js
 ||you85.cn^*/z*.js
-||youku.com/player.php/sid/XMTI5MTM2ODc3Mg==/v.swf
 ||youth.cn/ggw/dep_ggw/
 ||youth.cn/hezuo/index.js
 ||youth.cn/images/c.js
@@ -5454,6 +5453,7 @@ _yad_jsonp_
 /js/bd_stat.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9742,7 +9742,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||banma.com/statics/js/??
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
-@@||bdstatic.com/??
+@@||bdstatic.com/??*,
 @@||beanfun.com/ADClient/
 @@||bingfeng.tw^$elemhide
 @@||biz.gexing.com/bottom_
