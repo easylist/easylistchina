@@ -4770,7 +4770,7 @@ _yad_jsonp_
 ||talkforex.com/data/attachment/portal/
 ||taobaocdn.com/imgextra/$domain=backtrack.org.cn
 ||taobaocdn.com/tps/i1/TB14t03FVXXXXapaXXX8EsMMFXX-1680-450.jpg_670x670.jpg
-||taobaocdn.com^$domain=dnwx.com|gmgard.us|snybw.com
+||taobaocdn.com^$domain=dnwx.com|snybw.com
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taodake.com/taodake_img/Images/union/
 ||taoguba.com.cn/gbimg/2014/07/16/zumpuo5u14sg.jpg
@@ -5454,9 +5454,9 @@ _yad_jsonp_
 ||wan.sogou.com/static/fragment/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hggard.com###adhook
-hggard.com###blog > DIV[style="overflow:hidden"]
-hggard.com###sidebar > A[href^="http"]
+hggard.com##A[href*=".taobao.com"]
+hggard.com##A[href*=".tmall.com"]
+hggard.com,gmgard.us###blog > DIV[style="overflow:hidden"]
 sogou.com##.for-advert
 sogou.com##.index-banner
 hao.rising.cn###bbTao
