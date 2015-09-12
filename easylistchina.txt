@@ -1373,7 +1373,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 /jquery.$domain=game.macx.cn|zdfans.com
 /js/adBom.js$domain=myqcloud.com
 /js/alls_$domain=911-sss.com|911semm.com|911seqq.info|kuaisou222.com|ylgbt.info|ylgxxbt.com
-/js/bd_stat.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 /js/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /js/index_*68860.js$domain=lt57.com|ltwbook.com|ltxsw.com
 /js/index_right$domain=lt57.com|ltwbook.com|ltxsw.com
@@ -9642,13 +9641,13 @@ brandsales.58.com#@#div[id^="ad_"]
 @@_!!329633983.png$domain=i-ab.com
 @@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
-@@|http:$image,subdocument,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@|http:$image,subdocument,xmlhttprequest,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@|http:$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@|http://*/??$domain=gome.com.cn
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=dou6.cc|kk369.net|uuu123.net
 @@|http://*/gg/*.css
-@@|http://*baidu$script,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@|http:$script,third-party,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
