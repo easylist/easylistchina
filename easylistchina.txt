@@ -1259,6 +1259,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
+||9100300.com^$popup
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -9559,8 +9560,11 @@ yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
-!@@|http:$image,script,subdocument,xmlhttprequest,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-!@@||pos.baidu.com/acom?$script,subdocument,domain=zdfans.com
+@@|http:$image,script,subdocument,xmlhttprequest,domain=400gb.com|bego.cc|ctfile.com|pipipan.com
+@@||400gb.com/file/$elemhide
+@@||pipipan.com/file/$elemhide
+@@||bego.cc/file/$elemhide
+@@||ctfile.com/file/$elemhide
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
