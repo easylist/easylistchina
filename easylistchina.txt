@@ -462,7 +462,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-=loginExtAD.
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -558,6 +557,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 :7011/ads/
 :8080/ad/
 :8898/ads_
+=loginExtAD.
 ?adid=*&tcca=$script
 |http://*.cc/ad/
 |http://*.cn/ad/
@@ -719,10 +719,10 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##.yd_ad3
 ##.yd_ad5
 ##.yd_ad6
-##a[href*="/?aff="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
+##a[href*="/?aff="]
 ##a[href*="/?intr="]
 ##a[href="http://www.xing9999.com/?k"]
 ##a[href^="http://188.qy8.me"]
@@ -1564,6 +1564,7 @@ _yad_jsonp_
 ||123564.com/js/plaza.js
 ||123cha.com/2568
 ||125.46.61.28^
+||126.com/get.do?*=themeHandler.
 ||126.net/house/chengdu/flash/*+
 ||126.net/house/hangzhou/ad/
 ||126.net/house/hebei/index/20150618.swf
@@ -1588,6 +1589,7 @@ _yad_jsonp_
 ||162.212.252.35/ads/
 ||162wp.com/e/data/images/pixviewer.swf
 ||162wp.com/ipc/11.gif
+||163.com/get.do?*=themeHandler.
 ||163.com/special/$subdocument,domain=hrb.house.163.com
 ||163.com/special/*/ace_downbig.js
 ||163.com/special/*/beitou.js
@@ -5460,12 +5462,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||163.com/get.do?*=themeHandler.
-||126.com/get.do?*=themeHandler.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-anfan.com###div_dn
-aisex.com##.sptable
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5930,6 +5928,7 @@ qidian.com###divUserGuide
 sogou.com###div_ad
 qzone.qq.com###div_corner_ad_container
 3boys2girls.com###div_display
+anfan.com###div_dn
 srzc.com###div_gg1
 srzc.com###div_gg2
 heiguang.com###div_heiguang_ad3
@@ -8448,6 +8447,7 @@ weibo.com##.sport-goods
 haosou.com,so.com##.spread
 2345.com##.spreadHotWords
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
+aisex.com##.sptable
 klss.cn##.stat8
 10jqka.com.cn##.subbanner
 576tv.com##.subject_list > li > a[href^="http"]:not([href*=".576tv."])
