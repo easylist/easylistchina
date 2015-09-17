@@ -5454,8 +5454,6 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-tg-content
-pchome.com.tw###test2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6520,6 +6518,7 @@ tzfdc.com.cn###tc
 3g.qq.com###template_gdt_div1
 vgugu.com###test
 vgugu.com###test1
+pchome.com.tw###test2
 zeekmagazine.com###text-10
 aijava.cn###text-15
 moe-acg.cc,wuleba.com###text-2
@@ -7500,6 +7499,7 @@ baidu.com##.ec_wise_ad
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-mix-page > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-poplist-wrapper
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-loan-list-card
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-tg-content
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-wealth-list-card-container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-web-game-platform > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-weigou-nav-buy
@@ -7520,7 +7520,6 @@ winning11cn.com##.eis_topad
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.is.my,fulibba.net##.entry-content > div[style^="float:right"]
 briian.com##.entry-content > p[style="height: 85px;"]
-acgft.net##.ggpost-below
 epinv.com##.epinv_f
 shulink.com##.er_g
 chinaz.com##.etc-b-head
@@ -7677,6 +7676,7 @@ creaders.net##.ggbox1
 qidian.com##.ggbox740X80
 gexing.com.cn##.ggline
 eastday.com##.gglist
+acgft.net##.ggpost-below
 haofu1.com##.ggsj
 weather.com.cn##.ggt
 55188.com,g138.com##.ggtishiall
@@ -9255,8 +9255,8 @@ chinawin.net##div[style^="width:978px;height:90px"]
 21yq.com##div[style^="width:980px;height:80px;"]
 zol.com.cn##div[style^="width:980px;height:90px;text-align:center;"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="houses_new"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="job"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecr_pc_game_"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="job"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
@@ -9549,7 +9549,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@.com/ad/$domain=studioclassroom.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9557,7 +9556,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@.beautifulphoto.net/ads/music
 @@.cntv.cn/adplayer/
 @@.com/ad.$domain=0379home.com
-@@.com/ad/$domain=hanjuwang.com
+@@.com/ad/$domain=hanjuwang.com|studioclassroom.com
 @@.com/ads/$domain=88boxjx.com
 @@.com/adv/$domain=manhua.weibo.com|my.ctrip.com
 @@.gif#$domain=sex169.info|sex169.org
