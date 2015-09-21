@@ -740,8 +740,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||fjmeyer.com^
-||oikxlcv.wang^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -998,6 +996,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||f8272.com^$third-party
 ||fd7c.com^
 ||feitian001.com^$third-party
+||fjmeyer.com^
 ||fmad.cc^$third-party
 ||fv99.com^
 ||fxxgw.com^$third-party
@@ -1117,6 +1116,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||notice.uchome.manyou.com^
 ||o091i.com^$third-party
 ||offcn.com^$third-party,domain=~eoffcn.com
+||oikxlcv.wang^
 ||okm918.com^
 ||okokw.com^$third-party
 ||onetad.com^$third-party
@@ -1550,6 +1550,7 @@ _yad_jsonp_
 ||119xiazai.com^$subdocument
 ||11dmdm.com/java/
 ||11dzdz.com/java/
+||11hhww.com/java/cpm
 ||11hhww.com/java/shang1.js
 ||11hhww.com/java/xia1.js
 ||11mzmz.com/java/
@@ -4320,6 +4321,7 @@ _yad_jsonp_
 ||qitete.com/sp/
 ||qiuyi.cn/qiuyi/cooper/
 ||qiuziti.com/img/rightp20.gif
+||qiuziti.com/meitu/ddd.gif
 ||qiyipic.com/common/$object-subrequest
 ||qiyipic.com/common/*/225x230.jpg
 ||qiyipic.com/common/*/250-230.
@@ -5446,22 +5448,15 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||11hhww.com/java/cpm
-||qiuziti.com/meitu/ddd.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-app01.com.tw##.adOursWrap
-hao.qq.com###AD_3
-qiwen8.com##.lay-h-90
-qiwen8.com##.tb-tanx
-qiwen8.com##.test
-qiwen8.com##DIV[style="position:fixed; right:0px; bottom:50px; width:300px; height:250px; overflow:hidden; cursor:pointer;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
 gdtv.cn###ADVbuttom
 gdtv.cn###ADVbuttom1
 hao.qq.com###AD_2
+hao.qq.com###AD_3
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
@@ -6908,6 +6903,7 @@ newcger.com##.adFullwidth90
 sina.com.cn##.adG
 sina.com.cn##.adH
 ifeng.com##.adL660
+app01.com.tw##.adOursWrap
 jschina.com.cn##.adR
 ifeng.com##.adR01
 ifeng.com##.adR330
@@ -7933,6 +7929,7 @@ taoguba.com.cn##.label2
 hjenglish.com,hujiang.com##.lamu_banner
 uc123.com##.latest-news
 83133.com##.lay-300 > .test
+qiwen8.com##.lay-h-90
 letv.com##.lay_body[style^="width:490px;height:320px;"]
 letv.com##.lay_body[style^="width:980px;height:100px;"]
 letv.com##.lay_body[style^="width:980px;height:90px;"]
@@ -8474,7 +8471,7 @@ chinaiiss.com##.taobaopic
 11584.com##.taomi_tong960
 11584.com##.taomi_tong9602
 11584.com##.taomi_tong9603
-83133.com##.tb-tanx
+83133.com,qiwen8.com##.tb-tanx
 17sucai.com##.tb300x250
 17sucai.com##.tb960x90
 yesky.com##.tb_adv
@@ -8490,6 +8487,7 @@ duba.com##.tempAd
 3g.qq.com##.template_gdt_div_blue
 duantian.com##.tentgua
 hepuwang.com##.teshu_header
+qiwen8.com##.test
 startos.com##.test-240
 xiazaiba.com##.test-90
 tiexue.net##.test-goods
@@ -9155,6 +9153,7 @@ eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
 emuch.net##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 btshark.org##div[style="position: fixed; right:0px; bottom: 0px"]
+qiwen8.com##div[style="position:fixed; right:0px; bottom:50px; width:300px; height:250px; overflow:hidden; cursor:pointer;"]
 131.com##div[style="position:fixed;bottom:0;right:0;"]
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
 fg.cc##div[style="text-align:center;"]
@@ -9526,6 +9525,7 @@ rsdown.cn#@#.banner-ads
 10.10.5.12,10086.cn,192.168.128.1#@#.banner_ad
 ishangman.com#@#.bottom_ad
 10086.cn#@#.center_ad
+maihaome.com#@#.center_add
 douban.com#@#.download-ad
 v.baidu.com#@#.has-ad
 m.wedc.cc,zdfans.com#@#.header-ad
@@ -9545,7 +9545,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-maihaome.com#@#.center_add
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
