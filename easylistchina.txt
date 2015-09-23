@@ -874,7 +874,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||911.cc^$third-party
 ||913h6.cn^$third-party
 ||9158918.com^$third-party
-||c.91wan.com^$third-party
 ||91zgm.com^
 ||9377co.com^
 ||9377os.com^
@@ -932,6 +931,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||bloggerads.net^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||btyou.com^$third-party
+||c.91wan.com^$third-party
 ||cangnews.com^
 ||caob5.info^
 ||cb.baidu.com^
@@ -1577,6 +1577,7 @@ _yad_jsonp_
 ||126.net/house/sjz/xt/
 ||126disk.com/templates/mobile/2345t.png
 ||126xz.com/www/all_guanggao.js
+||127.net/external/js6promote
 ||127.net/m/*/promPic.jpg
 ||131.com/common/alertwindow.html
 ||131.com/home/resouces/js/
@@ -2416,6 +2417,7 @@ _yad_jsonp_
 ||blog.sina.com.cn/lm/iframe/article/qing2.html
 ||blog.sina.com.cn/lm/iframe/article/searchqing.html
 ||blog.tianya.cn/tuijian/tanchu.js
+||blogspot.com^*/s1600/orig.gif
 ||blueidea.com/2012/sdong/sdo.gif
 ||blueidea.com/js/ajs.js
 ||bmp.ali213.net/js/
@@ -2926,6 +2928,7 @@ _yad_jsonp_
 ||epinv.com/wp-content/themes/ep/tu/*250.js
 ||epinv.com/wp-content/themes/ep/tu/yinshu.gif
 ||eprice.cn/image/upload/ad/
+||eprice.com.tw/img/dis/file/*.html
 ||eprice.com.tw/js/swfobject-2.3.js
 ||etdown.net/images/ad1
 ||etest8.com/style/950x90_2.js
@@ -3137,6 +3140,7 @@ _yad_jsonp_
 ||gt.yy.com^
 ||gter.net^*adv
 ||gtimg.com/comic/pics/hv1/29/74/1631/106074674.jpg
+||gtimg.com/comic/richmedia/
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
 ||gtimg.com/news/news/2014ad/
 ||gtimg.com/newsapp_ls/0/27161189/0
@@ -3145,6 +3149,7 @@ _yad_jsonp_
 ||gtimg.com/web/default_fodders/300x600_$~collapse
 ||gtimg.com/www/test/300_250.swf
 ||gtimg.com^*/ad/
+||gtimg.com^*/adv/
 ||gtv.com.cn/public/images/2014-01/26/97_76841390730340.jpg
 ||gtv.com.cn/public/images/2014-03/20/71_12931395286234.jpg
 ||gtv.com.cn/public/images/2014-06/15/110_89471402801935.jpg
@@ -5444,11 +5449,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||blogspot.com^*/s1600/orig.gif
-||gtimg.com/comic/richmedia/
-||gtimg.com^*/adv/
-||127.net/external/js6promote
-||eprice.com.tw/img/dis/file/*.html
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9544,7 +9544,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||netded.com/plus/ad_js.php?aid=3|
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9867,6 +9866,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||muzhiwan.com/forum.php?*=300x250&
 @@||mymusic.net.tw/js/ad/index_1.js
 @@||naruto.hk/ad/uy.js
+@@||netded.com/plus/ad_js.php?aid=3|
 @@||new7574.u.qiniudn.com^*^ad
 @@||news.u17i.com/advert/
 @@||newxing.com/a_d/downAddress.js
