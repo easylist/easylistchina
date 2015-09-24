@@ -9342,7 +9342,7 @@ hanzify.org##span[style^="float:right;"]
 www.tiexue.net##style + [style="display:none;"] + div[class]
 tiexue.net##style + div[class] > style ~ img
 tiexue.net##style + img + div[class] > .list
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + div[id^="m"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] ~ div[id^="m"]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
 rmdown.com##table[bgcolor="#003366"]:nth-child(2)
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
