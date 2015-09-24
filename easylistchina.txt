@@ -739,7 +739,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||jiankang13.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1052,6 +1051,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||jdlhg.com^
 ||jhzl001.com^
 ||jiangcao.com^$third-party
+||jiankang13.com^$third-party
 ||jiawen88.com^$third-party
 ||jisucn.com^$third-party
 ||jixing8.com^$third-party
@@ -4367,6 +4367,7 @@ _yad_jsonp_
 ||qq.com/bqq_qfpic/$domain=keywin.org
 ||qq.com/coral/ADS
 ||qq.com/game/footerbar$subdocument
+||qq.com/Index/getAdsAndHotspot
 ||qq.com/livemsg?
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
 ||qq.com/PL_adT.htm
@@ -5458,18 +5459,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qq.com/Index/getAdsAndHotspot
 !------------------------Specific element hiding rules------------------------!
-qq.com##.in-top-ad
-baidu.com###index_banner_top
-baidu.com###index_right_float
-baidu.com###video_push_box
-baidu.com###index_right_top
-qq.com##.main_ad_bottom
-qq.com##.main_ad_top
 gpcxw.com###AA2
-ypan.cc###advLeft
-ypan.cc###advRight
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5726,8 +5717,8 @@ js0573.com###adv2
 wenku8.com###adv300
 firefoxchina.cn###advBlock
 aibang.com###advBottomBox
-21394.com,400gb.com,bego.cc,ctfile.com,pipipan.com###advLeft
-21394.com,400gb.com,bego.cc,ctfile.com,pipipan.com###advRight
+21394.com,400gb.com,bego.cc,ctfile.com,pipipan.com,ypan.cc###advLeft
+21394.com,400gb.com,bego.cc,ctfile.com,pipipan.com,ypan.cc###advRight
 szonline.net###adv_focus
 360kan.com###advert_stack_0
 qq.com###advertisement
@@ -6182,9 +6173,12 @@ romjd.com###in_banner
 qyer.com###ind_topads
 uisdc.com###index-tl-ad
 ydss.cn###indexBlad
+baidu.com###index_banner_top
 zongheng.com###index_game
 tiboo.cn###index_idlm
 popgo.org###index_rads
+baidu.com###index_right_float
+baidu.com###index_right_top
 poxiao.com###indextopleft > .content > ul > li:first-child
 xxsy.net###infoleftad_1
 xxsy.net###infoleftad_2
@@ -6619,6 +6613,7 @@ hexun.com,hexun.com.tw###videoLeftAd
 hexun.com,hexun.com.tw###videoRightAd
 vhiphop.com###video_ad
 ifeng.com###video_p
+baidu.com###video_push_box
 aipai.com###videosRightDown
 xemh.com###view_ads3
 jstv.com###vplayad
@@ -7839,6 +7834,7 @@ junshi.xilu.com##.imgTwo > li > a[href^="http"]:not([href*=".xilu."])
 v17go.com##.imgcon2
 image.baidu.com##.imglist > .fcImgli
 pingpang.info##.imp
+qq.com##.in-top-ad
 zrzjw.com##.in960
 cngold.org##.in_content_left_advs
 news18a.com,tom.com##.ina_ad_class
@@ -8043,6 +8039,8 @@ firefox.com.cn,firefoxchina.cn##.main-promote-sites
 firefoxchina.cn##.main-promote-tmall
 expreview.com##.main-side-tao
 lz.chinanews.com##.main02Mid > a
+qq.com##.main_ad_bottom
+qq.com##.main_ad_top
 hongfen.org##.main_adser
 cnbeta.com##.main_content_right > .cber[style]:nth-child(7)
 jn256.com##.main_gg1
