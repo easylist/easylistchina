@@ -1328,6 +1328,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /Aemplate/dd_1010/baidu
 /afp/*$domain=scol.com.cn
+/assets/images/banner$domain=cpbl.com.tw
 /assets/sidebar/*$domain=v2ex.com
 /Atemplate/dd_1010/baidu
 /attachment/ad/*$domain=hkbici.com
@@ -2390,6 +2391,8 @@ _yad_jsonp_
 ||bestvogue.com/fans/
 ||bestxl.com/langzi/0403/ld.jpg
 ||bforu.info/03.jpg
+||bforu.info/images/ali.gif
+||bforu.info/images/aoyou
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
@@ -2661,7 +2664,6 @@ _yad_jsonp_
 ||cp.ifeng.com/iframe/getiframe
 ||cp126.com/888zr11.gif
 ||cp126.com/img/ad0
-/assets/images/banner$domain=cpbl.com.tw
 ||cpplay.com/inc/
 ||cps.okbuy.com^
 ||cqfishing.net/data/attachment/portal/
@@ -5393,6 +5395,7 @@ _yad_jsonp_
 ||zhibok8.com/js/ding.js
 ||zhibok8.com/js/scroll.js
 ||zhibowu.com/js/ad
+||zhihu.com/node/*DownShameimaruV2?
 ||zhihu.com/node/*UpShameimaruV2?
 ||zhijia.com/hd/*.swf
 ||zhongsou.com/images/xtxscw.jpg
@@ -5459,15 +5462,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zhihu.com/node/*DownShameimaruV2?
-||bforu.info/images/ali.gif
-||bforu.info/images/aoyou
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bejson.com##A[href="/other/jikefma/"]
-bejson.com##A[href^="http://www.liepin.com/"]
-newmobilelife.com##.td-a-rec-id-content_inline
-newmobilelife.com##IFRAME[style="width: 100%; height: 75px; position: relative;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8509,6 +8505,7 @@ jxedt.com##.tbad
 gkpass.com##.tbanner
 9u8u.com##.tc-box
 zhangleisir.cn##.tcpads
+newmobilelife.com##.td-a-rec-id-content_inline
 6park.com##.td1[width="50%"]:nth-child(2)
 mobanwang.com##.teagg
 duba.com##.tempAd
@@ -8794,6 +8791,7 @@ jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
+bejson.com##a[href="/other/jikefma/"]
 103.17.211.13,cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
 bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
@@ -8847,6 +8845,7 @@ zdfans.com##a[href^="http://www.hao123.com/?tn="]
 top81.com.cn##a[href^="http://www.junpinhui.com/goods."]
 top81.com.cn##a[href^="http://www.junshier.com/"]
 css88.com##a[href^="http://www.liepin.com"]
+bejson.com##a[href^="http://www.liepin.com/"]
 bzfxw.com##a[href^="http://www.lieshuo.com"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 morningpost.com.cn##a[href^="http://www.netnic."]
@@ -9291,6 +9290,7 @@ intercept.onedns.net##h5
 javlibrary.com##iframe
 china.com.cn##iframe#rerr
 kankan.com##iframe[src^="http://misc.t.kankan.com/level_demo/iframe/welcometip.html"]
+newmobilelife.com##iframe[style="width: 100%; height: 75px; position: relative;"]
 youth.cn##iframe[width="200px"]
 szhk.com##img[id^="adp"]
 0756.la##img[lowsrc*="/ad-htm/"]
@@ -9543,6 +9543,7 @@ long7.qq.com#@#.adsbox
 qq.com#@#.adside
 txnews.zjol.com.cn#@#.adtop
 veryeast.cn#@#.adv-right
+zalora.com.hk#@#.advertisement-block
 jd.com#@#.adwords
 taiwanacgn.com,tt1069.com#@#.afs_ads
 ciciwg.com#@#.aseadn
@@ -9571,10 +9572,8 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-zalora.com.hk#@#.advertisement-block
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||ad.doubleclick.net/ddm/adi/*.ZALORA.COM.HK$document,subdocument,domain=zalora.com.hk
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9724,6 +9723,7 @@ zalora.com.hk#@#.advertisement-block
 @@||ad.abchina.com^
 @@||ad.alimama.com^$document,domain=ad.alimama.com
 @@||ad.damai.cn^
+@@||ad.doubleclick.net/ddm/adi/*.ZALORA.COM.HK$document,subdocument,domain=zalora.com.hk
 @@||ad.jz123.cn^
 @@||ad.kazakinfo.com^
 @@||ad.ourgame.com^
