@@ -739,8 +739,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||mathtag.com^$third-party
-||mathads.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1094,6 +1092,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||lv711.net^$third-party
 ||lx167.com^$third-party
 ||mamamiyu.com^$third-party
+||mathads.com^
+||mathtag.com^$third-party
 ||media8.cn^$third-party
 ||mediav.com^$third-party
 ||mengheng.net^
@@ -3072,6 +3072,7 @@ _yad_jsonp_
 ||ganjituiguang.ganji.com^
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gd.sina.com.cn/iframe/22/
+||gdaily.org/wp-content/uploads/an-temp/
 ||gdt.qq.com^
 ||geiliwx.com/read/ad$script
 ||get.766.com^
@@ -3542,8 +3543,7 @@ _yad_jsonp_
 ||img2.e0575.com//upload/adv/
 ||img2.win007.com/image/*.jpg
 ||img2.www.fmdisk.com^
-||imgbus.com^$domain=qiannao.com
-||imgbus.com^$domain=cao1024.com
+||imgbus.com^$domain=cao1024.com|qiannao.com
 ||imgchili.net/media/image*.gif
 ||imgchili.net/media/top.gif
 ||imgchr.com^$domain=iyejie.com
@@ -5459,16 +5459,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||gdaily.org/wp-content/uploads/an-temp/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-qilindao.com##.tonglanAd
-qilindao.com###diynavtop
-qz828.com###transient
-qz828.com##.ad2
-qz828.com##.topadv
-yxdown.com###sy
-hao123.com###zhongqiuBox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5954,7 +5946,7 @@ cool-de.com###diy_vk_ad_top
 dz19.net###diyad2
 luanren.com###diyhlx01
 luanren.com###diyhlx8
-3dezu.com,52ch.net,bbs.liao1.com,bbs.qbaobei.com,chcj.net,cnyw.net,gz0668.com,mcncc.com###diynavtop
+3dezu.com,52ch.net,bbs.liao1.com,bbs.qbaobei.com,chcj.net,cnyw.net,gz0668.com,mcncc.com,qilindao.com###diynavtop
 51nb.com###diynavtop + .t_rown[cellpadding="5"]
 bbs.pcbeta.com###diynavtop + style + div[class]
 vyming.com###diyshowcontent
@@ -6521,6 +6513,7 @@ srzc.com###srzcad
 showtv.com.tw###sub-ad
 hxyl.net###subcontent > a[target="_blank"]:first-child
 114la.com###sw
+yxdown.com###sy
 k7mm.com###t2 + a
 skyme.com,tom365.com,tw116.com###t365
 sg169.com###tab1
@@ -6596,6 +6589,7 @@ imanhua.com###topmon
 hnr.cn###topphotos
 49lou.com,bt49.com###topwarning_7ree
 1080pba.com###topxia
+qz828.com###transient
 tianya.cn###travel_float
 tsdm.net###tsdmadv_img
 ithome.com###tt1
@@ -6672,6 +6666,7 @@ zhiboba.cc###zb_right
 2zzt.com###zdownload > a[class^="xz"]
 89dm.com###zerodm_float
 httpcn.com###zhen_pic_one
+hao123.com###zhongqiuBox
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 189.cn###zqtopag_bg
@@ -6850,7 +6845,7 @@ ifeng.com##.ad1000_box
 ~games.ifeng.com,ifeng.com##.ad1000x90
 chinayk.com##.ad1024
 hltm.cc##.ad1960
-178.com,766.com,c114.net,chddh.com,china.com.cn,izhufu.net,kaixin200.com,qingdaonews.com,top81.com.cn,txahz.com,wfcmw.cn,xdf.cn##.ad2
+178.com,766.com,c114.net,chddh.com,china.com.cn,izhufu.net,kaixin200.com,qingdaonews.com,qz828.com,top81.com.cn,txahz.com,wfcmw.cn,xdf.cn##.ad2
 ifeng.com##.ad200-2
 bbs.yzz.cn##.ad200x340
 tgbus.com##.ad200x375
@@ -8559,6 +8554,7 @@ srzc.com##.tlgg_one
 xinhuanet.com##.tonglan01
 315che.com##.tonglan1
 xdkb.net##.tonglan2
+qilindao.com##.tonglanAd
 wdlm.cn##.tonglanbanner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.tools > .shouji
 loldk.com##.tools-recommend
@@ -8602,7 +8598,7 @@ changsha.cn,kekenet.com,lady8844.com,neotv.com.cn,sina.com.cn,xinhuanet.com##.to
 jiasuba.com##.topad1
 0579.cn##.topad_l
 huarenjie.com##.topadcss
-rznews.cn##.topadv
+qz828.com,rznews.cn##.topadv
 itavcn.com##.topadvzone
 21ic.com,cnhan.com,hao565.cn,longhoo.net,pyccoo.cn##.topbanner
 kocpc.com.tw##.topbarad
@@ -9530,7 +9526,7 @@ pupuapp.com#@#.ad_title
 uuuu.cc#@#.ad_top
 appbyme.com#@#.adchange
 china.com#@#.adclass
-hc360.com#@#.adcont
+hc360.com,qqread.com#@#.adcont
 gome.com.cn,wed114.cn#@#.adpic
 ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
@@ -9572,7 +9568,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-qqread.com#@#.adcont
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
@@ -10035,7 +10030,6 @@ qqread.com#@#.adcont
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/urchin.js$domain=on.cc
-@@||sina.com.cn/iplookup/iplookup.php?
 @@||7m.cn/v2/js/analyse.js
 @@||8gdyhd.com/iplookup.php
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
@@ -10052,6 +10046,7 @@ qqread.com#@#.adcont
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
+@@||sina.com.cn/iplookup/iplookup.php?
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$domain=qq.com
