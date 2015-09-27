@@ -739,9 +739,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||jusha.com^$third-party
-||iguang.tw^$third-party
-||fu68.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1000,6 +997,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||feitian001.com^$third-party
 ||fjmeyer.com^
 ||fmad.cc^$third-party
+||fu68.com^
 ||fv99.com^
 ||fxxgw.com^$third-party
 ||game3737.com^$third-party
@@ -1040,6 +1038,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||i3z.cn^$third-party
 ||icast.cn^$third-party
 ||iee5.com^$third-party
+||iguang.tw^$third-party
 ||ihualun.com^
 ||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
 ||img80.net^
@@ -1073,6 +1072,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||ju33.com^$third-party
 ||juandou.com^$third-party
 ||junnew.com^$third-party
+||jusha.com^$third-party
 ||jwqj.net^
 ||jxjzny.com^
 ||kaixinjiehun.com^$third-party
@@ -4434,6 +4434,7 @@ _yad_jsonp_
 ||ruan8.com/img/head.js
 ||ruanjianxiaozi.qiniudn.com^$image
 ||ruanyifeng.com/blog/images/ad_
+||ruanyifeng.com/blog/images/sup_
 ||rugao35.com/Public/config/Couplet/Index
 ||ruian.com/img/y13/
 ||ruian86.com/img/y13/
@@ -5455,14 +5456,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ruanyifeng.com/blog/images/sup_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-rrting.net##.gadss
-rrting.net##.rtxt
-baiyjk.com###ads_14
-baiyjk.com###topRollAdver
-rfidworld.com.cn##.rfidADClass
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5689,6 +5684,7 @@ linyiren.com###adone
 msn.ynet.com###adr02 + .hc1
 bejson.com,chuchushoe.blogspot.com,frdic.com,fububu.com,gnhome.com,huasing.net,it168.com,jjxw.cn,piao.com.cn,vansky.com###ads
 danyang.com###ads-hd
+baiyjk.com###ads_14
 dmfans.net###ads_250_250
 dmfans.net###ads_980_90
 dmfans.net###ads_980_90_1
@@ -6570,6 +6566,7 @@ gaxhw.com###top1
 jjxw.cn###topBig2
 starbaby.cn###topCurtain
 elecfans.com###topJf
+baiyjk.com###topRollAdver
 hao.163.com###topTip
 starbaby.cn###top_ad_show
 cq.xinhuanet.com###top_banner
@@ -7618,6 +7615,7 @@ gezila.com##.g980_90
 smzdm.com##.g_g
 233.com,rrting.net##.gads
 233.com##.gads2
+rrting.net##.gadss
 u77.com##.game-ad-item
 wgun.net##.gamePop
 17173.com##.gameTip
@@ -8294,6 +8292,7 @@ haosou.com##.res-rich-drug
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.res_top_banner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_chris_prize_list"]
+rfidworld.com.cn##.rfidADClass
 bt.ktxp.com##.right > a[href$="?/ad/ad-from-2"]
 bt.ktxp.com##.right > a[href="http://www.kkkmh.com/?ktxp"]
 fuliba.is.my,fulibba.net,hexieba.com,yiwugou.com##.right-banner
@@ -8331,6 +8330,7 @@ allyingshi.com,zimuzu.tv##.room
 howfile.com##.row1_right
 ld0766.com##.rsf_pull_screen_adv
 xinjunshi.com##.rt_jph
+rrting.net##.rtxt
 jjxw.cn##.ru_banner
 iyaxin.com##.ruan_ad
 uc123.com##.s-left
