@@ -4448,9 +4448,6 @@ _yad_jsonp_
 ||runsky.com/html/*_index_
 ||ruten.com.tw/js/ahd_
 ||ruten.com.tw/js/gads_
-||rznews.cn/images/col/201308ydfy.gif
-||rznews.cn/liv_loadfile/*.swf
-||rznews.cn/liv_loadfile/folder1021/fold5/1373610421_63369500.gif
 ||s-msn.com/msnportal/hp/luckyday/
 ||s-msn.com/portal/hp/2015/807.html
 ||s-msn.com/portal/xiatui.js
@@ -5198,7 +5195,6 @@ _yad_jsonp_
 ||xkxs.org/js/tongji.js
 ||xlpu.cc/adv/
 ||xmfish.com/chanel/www/cpm.html
-||xnimg.cn/imgpro/home/a/niucuilai_
 ||xnnews.com.cn/images/yr_wsm.js
 ||xnnews.com.cn/templets/image/*gg
 ||xnnews.com.cn/templets/image/600zzj.gif
@@ -5461,9 +5457,13 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||imgbus.com^$domain=ref.so
 ||tjzan.com/wxpic/asianyi.gif
+||rznews.cn/viscms/r/cms/rzw/rzxw/images/*.swf
 ||static.cnbetacdn.com/320-50.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+rznews.cn###img
+rznews.cn##.guanggao
+rznews.cn##DIV[class^="ad"]
 m.cnbeta.com##.image-container
 rrting.net##.k-guanggao
 hc360.com,yaolan.com###AD
@@ -7073,7 +7073,7 @@ steachs.com##.adsensebanner
 qqjia.com##.adshang
 blog.dausos.com,ynet.com##.adt
 chinaz.com,jrj.com.cn,yawin.cn##.adtext
-52solution.com,78dm.net,99re.org,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,rznews.cn,solidot.org,v1.cn##.adv
+52solution.com,78dm.net,99re.org,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,solidot.org,v1.cn##.adv
 19lou.com##.adv-fixed
 52solution.com##.adv-hb
 52solution.com##.adv-lb
@@ -7096,7 +7096,6 @@ sd888.org##.adv_box2
 4s400.com,letv.com##.adv_img
 78dm.net##.adv_logo
 autohome.com.cn##.advarticle
-rznews.cn##.advavr
 v1.cn##.advbigJs
 autohome.com.cn,gdzjdaily.com.cn,tzfdc.com.cn##.advbox
 360che.com##.adver1000_60
@@ -8606,7 +8605,7 @@ changsha.cn,kekenet.com,lady8844.com,neotv.com.cn,sina.com.cn,xinhuanet.com##.to
 jiasuba.com##.topad1
 0579.cn##.topad_l
 huarenjie.com##.topadcss
-qz828.com,rznews.cn##.topadv
+qz828.com##.topadv
 itavcn.com##.topadvzone
 21ic.com,cnhan.com,hao565.cn,longhoo.net,pyccoo.cn##.topbanner
 kocpc.com.tw##.topbarad
