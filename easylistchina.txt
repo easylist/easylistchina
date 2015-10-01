@@ -462,7 +462,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/Banner-pcbeta-
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -489,6 +488,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /AdverJS/*
 /advpic/*
 /ajds/*
+/Banner-pcbeta-
 /btba/ad/*
 /cache/ad_js/*
 /caches/poster_js/*
@@ -745,8 +745,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||lzmm8.com^
-||44pv.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -845,6 +843,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||3dwwwgame.com^$third-party
 ||3g.990.net^
 ||3p-link.com^$third-party
+||44pv.com^$third-party
 ||4936.cn^$third-party
 ||4kt2.com^$subdocument
 ||51ads.com^$third-party
@@ -1104,6 +1103,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||lnr1.com^$third-party
 ||lv711.net^$third-party
 ||lx167.com^$third-party
+||lzmm8.com^
 ||mamamiyu.com^$third-party
 ||mathads.com^
 ||mathtag.com^$third-party
@@ -3660,6 +3660,7 @@ _yad_jsonp_
 ||iyejie.com/xydlad.js
 ||izt8.com/iztwp/images/hk-250.jpg
 ||izzs.net/wp-content/mm/
+||j.7avz.com^
 ||ja.gamersky.com^
 ||jandan.com/static/gggg/
 ||jav2lib.com/js/bnr_
@@ -5302,6 +5303,7 @@ _yad_jsonp_
 ||yiku51.com/xinzeng/js/
 ||yimg.com/*/ysm/
 ||yimg.com/bf/homerun/ysm_
+||yimg.com/cv/ae/default/*_STATIC-JPEG_
 ||yimg.com/cv/ae/tw/bwchou/bubble_
 ||yimg.com/ja/ap/*/hk_rm_umu_
 ||yimg.com/ja/ap/*_wallpaper
@@ -5315,6 +5317,7 @@ _yad_jsonp_
 ||yinyuetai.com/proment/get-play-medias?json=true&position=overlay
 ||yinyuetai.com/proment/get-play-medias?json=true&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
+||yiweimei.net/css/logo.gif
 ||yiyipan.com/images/12.gif
 ||yizhai.net/myjs/f*.js
 ||yktj.yzz.cn^
@@ -5479,14 +5482,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||j.7avz.com^
-||yiweimei.net/css/logo.gif
-||yimg.com/cv/ae/default/*_STATIC-JPEG_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-teepr.com###topAdBlock
-hexieshe.com##A[href="http://moemoe.la/"]
-itkee.com###postTopAd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6416,7 +6413,7 @@ ld0766.com###portal_ad3
 bbs.cs090.com,bbs.wm090.com###portal_block_4
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
-chinawin.net###postTopAd
+chinawin.net,itkee.com###postTopAd
 k7mm.com###premium-yva-close
 wuxianfuli.com###primary > a[target="_blank"]
 9le8.com###program_play_right
@@ -6603,6 +6600,7 @@ iyejie.com###top > div:not([id]):not([class])
 abcde.cn,bbs.houdao.com###top-banner
 skinme.cc###top-lamu
 gaxhw.com###top1
+teepr.com###topAdBlock
 jjxw.cn###topBig2
 starbaby.cn###topCurtain
 elecfans.com###topJf
@@ -8838,6 +8836,7 @@ bejson.com##a[href="/other/jikefma/"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
 bbs.jumpcn.com##a[href="http://jumpcn.taobao.com/"] > img
 hexieshe.com,xxshe.com##a[href="http://moe.hao123.com/"]
+hexieshe.com##a[href="http://moemoe.la/"]
 m.tiexue.net##a[href="http://tx.caiyunguo.com/top1/"]
 cnfol.com##a[href="http://www.168licai.cn/"]
 178.com##a[href="http://www.bigeye.tv/"]
@@ -9618,8 +9617,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=monnsutogatya.com
-@@||monnsutogatya.com^$elemhide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9936,6 +9933,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||mm.maxthon.cn/ad/
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
+@@||monnsutogatya.com^$elemhide
 @@||muzhiwan.com/forum.php?*=300x250&
 @@||mymusic.net.tw/js/ad/index_1.js
 @@||naruto.hk/ad/uy.js
@@ -9948,7 +9946,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||ouyaoxiazai.com/shouyead.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dapenti.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dapenti.com|monnsutogatya.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
 @@||pep.com.cn/rjs/guanggao/
 @@||photo.erji.com/tb/*.gif
