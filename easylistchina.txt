@@ -1604,6 +1604,7 @@ _yad_jsonp_
 ||133ip.com/add/
 ||133uu.com/html/
 ||1518.com/ss/
+||15w.com/call/webjs/60.js
 ||15w.com/flash/
 ||1616.net/jd/data/index/indexad.json
 ||1616.net/jd/i_
@@ -2311,6 +2312,10 @@ _yad_jsonp_
 ||b5m.com/static/html/*/popup.html?
 ||baby-kingdom.com/reqsads?
 ||baby-kingdom.com/reqwads?
+||babyhome.com.tw/2015/mid_autumn/
+||babyhome.com.tw/bbh_ad_
+||babyhome.com.tw/lib/iframe.php?u=
+||babyhome.com.tw/slot_gateway.php?
 ||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
@@ -3474,6 +3479,7 @@ _yad_jsonp_
 ||ifengimg.com^*/rdn_*.js
 ||ifengimg.com^*/shfwq
 ||ifengimg.com^*/sparta.js
+||ifengimg.com^*/yingguang-
 ||ifengimg.com^*couplet$script
 ||ifengimg.com^*Float$script
 ||ifonce.com/813.gif
@@ -4829,6 +4835,7 @@ _yad_jsonp_
 ||tiantian.tv/js/banner.js
 ||tiantian.tv/sda/$image
 ||tiantian.tv/sda/uedbet/pause.jpg
+||tiantiandy.com/ad-js/
 ||tianya.cn/images/ad950x90.jpg
 ||tianyaui.com/gamify/broadcast/js/
 ||tianyaui.com/qy/adsame/ads.js
@@ -5469,24 +5476,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||15w.com/call/webjs/60.js
-||tiantiandy.com/ad-js/
-||babyhome.com.tw/2015/mid_autumn/
-||babyhome.com.tw/bbh_ad_
-||babyhome.com.tw/slot_gateway.php?
-||babyhome.com.tw/lib/iframe.php?u=
-||ifengimg.com^*/yingguang-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-winba.me###content > P:first-child
-winba.me##.metaslider
-winba.me##.sidebarWidget
-babyhome.com.tw##.span_shopping
-vlook.cn##DIV[style="margin-left: 3px;padding: 0px;width: 726px;height: 88px;border: 1px solid rgb(228, 0, 127);"]
-pujia8.com##.ad740
-15w.com##.ad-box
-15w.com##.ad-box-r
-15w.com##.vplist-box:last-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5888,6 +5879,7 @@ zm1z.com###content > .subContent:nth-child(3)
 biquge001.com,fuliba.is.my,fulibba.net###content > a
 fuliba.is.my,fulibba.net,hexieba.com###content > div:first-child > a:first-child:last-child
 go-gddq.com###content > div[style="float: right;"]
+winba.me###content > p:first-child
 fuliba.is.my,fulibba.net###content > ul[style="list-style-type: none;"]
 yes-news.com###content-728
 yes-news.com###content-ads-right
@@ -6069,12 +6061,12 @@ wcjbb.com###frame37boCx
 iafbbs.com###frame3v9fyC
 yangluo.cn###frame51RcxP
 211600.com###frame5B94Fv
+shhhy.org###frame6KK121_left
 1m3d.com###frame9hp73n
 2000fun.com###frameA20TTA
 2muslim.com###frameD3x9G6_center > :nth-child(2n)
 vyming.com###frameDj3u3d_left
 3dezu.com###frameK221mK
-shhhy.org###frame6KK121_left
 shhhy.org###frameMLzskg_left
 dabin69.com###frameOa2lrD
 wgun.net###frameUrKrp6 ~ .frame
@@ -6842,7 +6834,8 @@ weibo.com##.ad-adidas
 baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
 html-js.com##.ad-blank
-bookshi.com,free.com.tw,iwan.baidu.com,lvseba.cn,qq.com,zol.com.cn##.ad-box
+15w.com,bookshi.com,free.com.tw,iwan.baidu.com,lvseba.cn,qq.com,zol.com.cn##.ad-box
+15w.com##.ad-box-r
 easou.com##.ad-charge
 hebnews.cn##.ad-column-1
 nanrenwo.net,newtalk.tw##.ad-container
@@ -6923,6 +6916,7 @@ tompda.com##.ad713
 hupu.com##.ad720-90
 alu.cn##.ad720x70
 ifeng.com##.ad728_tit
+pujia8.com##.ad740
 it.com.cn##.ad750
 5adm.net##.ad780
 8264.com##.ad780_80
@@ -8101,6 +8095,7 @@ xizi.com##.md310_90
 nownews.com##.meannews
 shmet.com##.memberadstb
 taihainet.com##.menu_bg + .box10 + .wrapper
+winba.me##.metaslider
 haosou.com##.mh-adIco
 baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
@@ -8452,6 +8447,7 @@ wedc.cc##.sidebar > .widgets:last-child
 kocpc.com.tw##.sidebar:nth-child(2)
 kocpc.com.tw##.sidebar:nth-child(3)
 shangdu.com##.sidebarBanner
+winba.me##.sidebarWidget
 022net.com##.sidegg
 docin.com,qq.com##.sider_ad
 danlan.org##.siderright > .mb20
@@ -8489,6 +8485,7 @@ admin5.com##.sp_top
 missyuan.com##.spaceborder
 ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
+babyhome.com.tw##.span_shopping
 qqbody.com##.special_ggw
 northnews.cn##.sponsor
 u148.net##.sponsor-100
@@ -8698,6 +8695,7 @@ kanxi123.com##.viewt_77
 2345.com##.vipTopBanner
 hdpfans.com##.vk_nv_sub
 hupu.com##.voice-ad300-250
+15w.com##.vplist-box:last-child
 sogou.com##.vr-shopping2-box
 sogou.com##.vr_frm150318
 sogou.com##.vrshop_itemList
@@ -9203,6 +9201,7 @@ ezvivi.com##div[style="height:336px; width:100%"]
 links.hjav.in##div[style="height:800px;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
 zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
+vlook.cn##div[style="margin-left: 3px;padding: 0px;width: 726px;height: 88px;border: 1px solid rgb(228, 0, 127);"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 verygoogle.com##div[style="margin-left:auto;margin-right:auto;width: 800px;display: block;"]
 jstv.com##div[style="margin-top:10px; width:690px; height:90px; overflow:hidden;"]
