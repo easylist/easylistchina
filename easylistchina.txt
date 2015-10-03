@@ -2650,6 +2650,7 @@ _yad_jsonp_
 ||cnmoad.com/wp-content/uploads/2015/02/lomark_banner.png
 ||cnnb.com.cn/image/xhhc71.gif
 ||cnnb.com.cn/images/14ny_1.gif
+||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnsat.net/Pictuer/
 ||cnsofas.com/loldytt/js/
 ||cntv.cn/hezuo/
@@ -3905,6 +3906,7 @@ _yad_jsonp_
 ||linuxidc.com/linuxfile/y9.js
 ||live8bo.com/j/Lad6.js
 ||liveany.com/images/8d8d.gif
+||livefilestore.com^*/imj160x200.gif
 ||livemp4.com/js/
 ||liyuanwang.com/nongli.gif
 ||ljia.net/vipflash/pop_footer.js
@@ -5110,6 +5112,7 @@ _yad_jsonp_
 ||wuhan.net.cn/guanggaojs/
 ||wuhan.net.cn/show.html
 ||wumii.cn/site_images/c/
+||wumii.com/ext/widget/hot.htm?prefix=http://blog.const.net.cn&
 ||wuseng.com/templets/default/statics/js/mm.js
 ||wuxi.cn/index.php?m=poster&
 ||wuyou.*/0000/banner.gif
@@ -5474,18 +5477,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||livefilestore.com^*/imj160x200.gif
-||cnr.cn/cnrxwph/iframe/tpdy/
-||wumii.com/ext/widget/hot.htm?prefix=http://blog.const.net.cn&
 !------------------------Specific element hiding rules------------------------!
-yzfcn.cn##.floatAd
-loldk.com###zi
 gpcxw.com###AA2
-goldlegend.com##.mjad
-fanyi.baidu.com##.banner-wrap
-fanyi.baidu.com##.appbanner
-sina.com.cn##.common-banner
-iask.sina.com.cn###topic_ylzz
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6623,6 +6616,7 @@ blog.163.com###topbar_randShowArea
 xijucn.com###topc
 nowscore.com###toperText
 csshello.com###topgg
+iask.sina.com.cn###topic_ylzz
 1616.net###toplink
 imanhua.com###topmon
 hnr.cn###topphotos
@@ -6706,6 +6700,7 @@ zhiboba.cc###zb_right
 89dm.com###zerodm_float
 httpcn.com###zhen_pic_one
 hao123.com###zhongqiuBox
+loldk.com###zi
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 189.cn###zqtopag_bg
@@ -7168,6 +7163,7 @@ wacowla.com##.alignnone[width="320"][height="60"]
 yesky.com##.alldown > .rimg
 redocn.com##.apositions
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.app_forum_top_nav
+fanyi.baidu.com##.appbanner
 keywin.org##.appdownload
 nj.house.163.com##.area > div[style*="position:absolute; z-index:"]
 gamefy.cn##.area > div[style="float:left"] > a
@@ -7237,7 +7233,7 @@ crsky.com##.banner-leader
 fenxs.com,fulitie.org##.banner-site
 big-cup.tv,g-cup.tv##.banner-table-block
 firefoxchina.cn##.banner-words
-longzhu.com,tga.plu.cn##.banner-wrap
+fanyi.baidu.com,longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
 news.cn2che.com,sd001.com##.banner01
 html5china.com,uusee.com##.banner1
@@ -7435,6 +7431,7 @@ jmbbs.com##.comiis_ad
 9ist.com,linyiren.com##.comiis_adbox
 maituan.com##.command
 163.com##.comment_bottom_ad
+sina.com.cn##.common-banner
 qingdaonews.com##.commonrightad
 gamefy.cn##.con + div[style="float:right; width:326px;"]
 gamefy.cn##.con > a:last-child
@@ -7609,7 +7606,7 @@ qunar.com##.flight_ad
 5ydj.com##.float
 19lou.com,ihome99.com##.float-ad-wrap
 spbonow.com##.floatAD
-3987.com,totuwo.com##.floatAd
+3987.com,totuwo.com,yzfcn.cn##.floatAd
 house.shangdu.com##.fmt_main
 vmelon.com##.focus
 newcger.com##.focus + .block934
@@ -8110,6 +8107,7 @@ uc123.com##.middle-links
 timedg.com##.middleCrossAdvertise
 6.cn##.min-ad-box
 17173.com##.minigame
+goldlegend.com##.mjad
 playno1.com##.mn > div[style="margin-bottom:10px;"]
 mail.pchome.com.tw##.mnav
 mnw.cn##.mnw_685
@@ -9621,8 +9619,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||sakai.club/advertisement.js
-@@||sakai-hk.com/advertisement.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9986,6 +9982,8 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||rwjfs.com^$object,script,domain=2mm.tv|2mmei.com
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
+@@||sakai-hk.com/advertisement.js
+@@||sakai.club/advertisement.js
 @@||sc.jb51.net/adimg/*.jpg
 @@||sdc.pingan.com^$~image
 @@||selfimg.com.cn/??
