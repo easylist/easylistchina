@@ -746,7 +746,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||haiyunx.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1837,6 +1836,7 @@ _yad_jsonp_
 ||43aiai.com/js/zhengzhangtonglang.js
 ||44921.cn/ajsv1/flashad_
 ||464mnk.com/templets/new/static/js/common.js
+||46g.cn/images/top.gif
 ||50.115.123.38/ad/
 ||50.7.31.230/ads_
 ||5068.com/uploads/allimg/150116/71_150116175734_1.jpg
@@ -3016,6 +3016,8 @@ _yad_jsonp_
 ||fjlyfdc.com.cn/hxhad/
 ||flash.mycar168.com/data/js/
 ||flash8.net/flash8_a_d_s/
+||flighty.cn/images/kiees.jpg
+||flighty.cn/templets/images/2345-
 ||float.sandai.net^$object-subrequest
 ||fmdisk.com/ima/
 ||fmdisk.com/templates/yythems/images/qq
@@ -4412,6 +4414,8 @@ _yad_jsonp_
 ||qzss.cn/ssad
 ||qzwb.com^*.swf|
 ||qzzn.com/statics/
+||rainmall.com/tv/js/ad
+||rainmall.com/tv/js/bofang
 ||rakuten-static.com^$domain=cwyuni.tw
 ||ranwen.net/ssi/
 ||ranwen.org/ssi/
@@ -5478,17 +5482,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||rainmall.com/tv/js/ad
-||rainmall.com/tv/js/bofang
-||flighty.cn/images/kiees.jpg
-||flighty.cn/templets/images/2345-
-||46g.cn/images/top.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ck101.com###image_ad_long
-ck101.com###image_ad_short
-flighty.cn###searchBox + #sidebarBox
-langya.cn##.gg01 + DIV[style="margin-bottom:4px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6202,6 +6197,8 @@ ifeng.com###ifengAehovering_small
 tingroom.com###ifram_563
 youthwant.com.tw###ig_cont
 hao.360.cn###iguess
+ck101.com###image_ad_long
+ck101.com###image_ad_short
 cnjxol.com,jintoutiao.com,rznews.cn###img
 nick18.com###img a
 66rd.cn,chemnet.com,pharmnet.com.cn###img1
@@ -6490,6 +6487,7 @@ youxi.kugou.com###scrollUp
 kocpc.com.tw###scroll_div
 uisdc.com###sdcTopAD
 baidu.com###search-union-ad
+flighty.cn###searchBox + #sidebarBox
 duba.com###searchRight
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_baidu_promote
 baidu.com###search_bottomad
@@ -7697,6 +7695,7 @@ ocucn.com##.getGold[style^="height:"]
 elecfans.com##.gg-01
 baidu.com##.gg-content
 5068.com,qiku8.com,top.qidian.com##.gg01
+langya.cn##.gg01 + div[style="margin-bottom:4px;"]
 5068.com,hgitv.com##.gg02
 hgitv.com##.gg09
 5vdd.com,jdcjsr.com,jstv.com,lcxw.cn,xinhuanet.com##.gg1
