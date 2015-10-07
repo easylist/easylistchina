@@ -1469,6 +1469,7 @@ _yad_jsonp_
 |http://*/83/$domain=haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
 |http://*/adblock$domain=26766.com
+|http://*/bn/$domain=chimatong.com
 |http://*/p$script,domain=99770.cc|99comic.com|99manga.com
 |http://*/t.js$domain=99770.cc|99comic.com|99manga.com
 |http://*/ts.js$domain=208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
@@ -1604,6 +1605,7 @@ _yad_jsonp_
 ||131458.com/union/
 ||133ip.com/add/
 ||133uu.com/html/
+||1382014.co/980X45.gif
 ||1518.com/ss/
 ||15w.com/call/webjs/60.js
 ||15w.com/flash/
@@ -2466,6 +2468,9 @@ _yad_jsonp_
 ||btbook.net/static/img/880X60.gif
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
+||btks.me/ac/
+||btks.me/js/ac
+||btks.me/pingbi
 ||btkuaisou.com/ac/
 ||btn.onlylady.com^
 ||btn.pchome.net^
@@ -4697,6 +4702,7 @@ _yad_jsonp_
 ||sozi.cn/templets/sozi/js/js.js
 ||spbonow.com/images/fyt.gif
 ||spbonow.com/js/float.js
+||spbonow.com/UploadFiles/20$image
 ||spn.com.cn/admin_new/imgs/b2.jpg
 ||spn.com.cn/media/jackmm.js
 ||sportsv.net/dist/ads/
@@ -4904,6 +4910,7 @@ _yad_jsonp_
 ||ttxcpa.com/ttxcpa.gif
 ||tuan.cs090.com/gettuan.php?
 ||tucao.cc/index.php?m=poster&
+||tucao.tv/index.php?m=poster&c=index&a=show_poster&id=
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tui18.com/source/plugin/yl_curtain/template/yl_curtain.
 ||tumblr.com^$domain=99re.co|99re.org
@@ -5480,18 +5487,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||1382014.co/980X45.gif
-||spbonow.com/UploadFiles/20$image
-||tucao.tv/index.php?m=poster&c=index&a=show_poster&id=
-||btks.me/ac/
-||btks.me/js/ac
-||btks.me/pingbi
-|http://*/bn/$domain=chimatong.com
 !------------------------Specific element hiding rules------------------------!
-tucao.tv##.a2013d
 gpcxw.com###AA2
-safedom.net##.banner
-163.com##.u-wzGg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6825,7 +6822,7 @@ m.sohu.com##._tgC_nav
 3g.163.com##.a-d-3
 ijia360.com##.a.fz0.mb15
 55188.com,g138.com##.a1_gg
-tucao.cc##.a2013d
+tucao.cc,tucao.tv##.a2013d
 chacuo.net##.a96090
 0772fang.com##.a_banner
 168gamer.com##.a_fad1
@@ -7244,7 +7241,7 @@ msn.people.com.cn##.banNSch
 phpfans.net##.banad
 163.com##.bananer1
 100shuai.com##.bannar_gg
-0678life.com,3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,ixiumei.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
+0678life.com,3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,ixiumei.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 softonic.cn##.banner-caption
@@ -8698,6 +8695,7 @@ ltaaa.com##.txtads
 cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
 163.com##.u-textAds
+163.com##.u-wzGg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
 libaclub.com##.ui-adsame
@@ -9595,9 +9593,10 @@ dnwx.com#@#.ad_250
 178.com,925fxw.com#@#.ad_box
 tclmobile.com.cn,workercn.cn#@#.ad_content
 haseemobile.net#@#.ad_img
-workercn.cn#@#.ad_main
+liqucn.com,workercn.cn#@#.ad_main
 pupuapp.com,yxdown.com#@#.ad_pic
 ccb.com#@#.ad_position
+liqucn.com#@#.ad_sub
 pupuapp.com#@#.ad_title
 uuuu.cc#@#.ad_top
 appbyme.com#@#.adchange
@@ -9643,10 +9642,7 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-liqucn.com#@#.ad_main
-liqucn.com#@#.ad_sub
 !---------------------------------URL Whitelist-------------------------------!
-@@||spbonow.com/UploadFiles/201505/2015051853456325.gif
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10032,6 +10028,7 @@ liqucn.com#@#.ad_sub
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||spbonow.com/images/ads/logo.gif
+@@||spbonow.com/UploadFiles/201505/2015051853456325.gif
 @@||static.atm.youku.com^*.swf
 @@||static.hdslb.com/ad-images/$image
 @@||stockstar.com/ad/$domain=live.stockstar.com
