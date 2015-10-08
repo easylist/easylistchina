@@ -1280,7 +1280,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
-||yy18.info/yyrethanks18.$popup
 ||9100300.com^$popup
 ||ad.189so.cn^$popup
 ||aiwanma99.com^$popup
@@ -1305,6 +1304,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||uc8.cc/award/$popup
 ||vnet.cn^*.html?$popup,third-party
 ||yingshidiguo.cn^$popup,domain=henbt.com
+||yy18.info/yyrethanks18.$popup
 ||zhubajie.com/?fromcode=$popup
 !----------------------Specific advert blocking filters-----------------------!
 .543evv.com/js/config.js
@@ -3207,6 +3207,7 @@ _yad_jsonp_
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxorg.com/index.php?m=poster&
 ||gywb.cn/content/attachement/jpg/site2/20140901/50465d69af2b156e340c09.jpg
+||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
 ||gz.xinhuanet.com/2012image/mt.swf
 ||gzcol.com/uploads/ad/
@@ -4554,6 +4555,7 @@ _yad_jsonp_
 ||shanhe.cc/index.php?m=poster&
 ||shanhe.cc/Scripts/ads_dl.js
 ||shanhe.cc/Scripts/main-pf.js
+||shaoxing.com.cn/6201.files/*.swf
 ||shaoxing.com.cn^*gg.
 ||share.dmhy.*/*?$image
 ||share.gzdsw.com^
@@ -5260,6 +5262,7 @@ _yad_jsonp_
 ||xunzai.com/www/all_common.js
 ||xx978.info/images/468-60OK.gif
 ||xxdm.com/js/union/
+||xxdm.org/js/union/
 ||xxhh.com/xh.js
 ||xxrt.net/goto/
 ||xxs8.com/data/attachment/forum/201308/02/154213bpecdb6qly7fgv71.jpg
@@ -5372,6 +5375,7 @@ _yad_jsonp_
 ||yxdown.com/ghtml/
 ||yxlady.com/cdd/
 ||yxlady.com/skin/yx2014/mm/inpage/ny/
+||yy18.info/yyads/
 ||yy521.com/qq/qq.js
 ||yytcdn.com/headfile/avt/
 ||yytcdn.com/others/avt/*_1
@@ -5487,14 +5491,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yy18.info/yyads/
-||gywb.cn/cs_mulu/
-||xxdm.org/js/union/
-||shaoxing.com.cn/6201.files/*.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xxdm.org###tiepianDIV
-gywb.cn##.bill-vertical
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6606,7 +6604,7 @@ hupu.com###threadLeftAd
 163.com###thread_inside_ad
 avyahoo.com###thread_top_ad
 ettoday.net###ticker_3
-kan300.com,xxdm.com###tiepianDIV
+kan300.com,xxdm.com,xxdm.org###tiepianDIV
 1ting.com###tingx_5
 wpsoso.com###tips
 xinhuanet.com###tisoad
@@ -7336,6 +7334,7 @@ jn256.com##.big_gg
 gdzjdaily.com.cn##.big_news + div
 sgcn.com##.bigaimg
 bbs.cs090.com,bbs.wm090.com,rkanr.com,weiqitv.com##.bill
+gywb.cn##.bill-vertical
 chinairn.com##.bizrpt
 kaifu.com##.bk_ad
 baby-kingdom.com##.bk_list_right_ads
@@ -10122,7 +10121,9 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||analytics.163.com/ntes.js
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||count.video.sina.com.cn^*?video_ids=
-@@||google-analytics.com/analytics.js$domain=komica.org
+@@||google-analytics.com/analytics.js$domain=komica.org|support.amd.com
+@@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
+@@||googletagmanager.com/gtm.js?$domain=support.amd.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hm.baidu.com^$domain=ihome99.com
 @@||jd.com/setCookie?
@@ -10136,8 +10137,5 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$domain=qq.com
 @@||tbcdn.cn^*/click_track.js
-@@||googletagmanager.com/gtm.js?$domain=support.amd.com
-@@||google-analytics.com/analytics.js$domain=support.amd.com
-@@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
 ||hjfile.cn/analytics/site/TrackEvent.js
 !----------------------------------The End------------------------------------!
