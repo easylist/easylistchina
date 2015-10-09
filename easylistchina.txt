@@ -1649,6 +1649,7 @@ _yad_jsonp_
 ||17173cdn.com^*/flash/OnLineTime.swf
 ||172.15.2.28:3438/*.js
 ||173.208.177.227^*.gif
+||173.255.139.114^$subdocument
 ||173.255.143.197^*.png
 ||173kt.com/ads/
 ||173kt.com/images/ad
@@ -1802,6 +1803,7 @@ _yad_jsonp_
 ||36dm.com/images/950_90.jpg
 ||36tv.cn/ad_pic/
 ||36tv.cn/statics/images/jinhuatv/ad
+||38v.com/38v-b.gif
 ||39.net/client/39/c.js
 ||39.net/creative/
 ||39.net/js/baidu/
@@ -5487,17 +5489,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||173.255.139.114^$subdocument
-||38v.com/38v-b.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sucaijiayuan.com##.gbox1000
-btkitty.so##BODY > A
-auto.sina.com.cn###bottomInquryBar
-sxclub.net##.ad_thread
-sucaijiayuan.com##.show_title_bottom_gg
-soft4fun.net###xad_mu
-firstchina.org.cn###img1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5841,6 +5834,7 @@ wap.eastmoney.com###bn_box_104
 microcontrol.cn###body > table[width="758"]
 wanmei.com###body_right
 999.com###bot_gou
+auto.sina.com.cn###bottomInquryBar
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
@@ -6215,7 +6209,7 @@ ck101.com###image_ad_long
 ck101.com###image_ad_short
 cnjxol.com,jintoutiao.com,rznews.cn###img
 nick18.com###img a
-66rd.cn,chemnet.com,pharmnet.com.cn###img1
+66rd.cn,chemnet.com,firstchina.org.cn,pharmnet.com.cn###img1
 114la.com###imgArr
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
@@ -6710,6 +6704,7 @@ zhiboche.com###wzad
 dychao.com###x-adfoot-player
 dychao.com###x-adtop-player
 bjxxw.com###xBanner
+soft4fun.net###xad_mu
 xinhuanet.com###xiangguanad
 jmbbs.com###xjj_jmbbs2015_01
 2mm.tv###xt
@@ -7061,6 +7056,7 @@ vhiphop.com##.ad_slidebg
 163.com##.ad_sx_2
 fyjs.cn##.ad_sxp
 shm.com.cn##.ad_taobao
+sxclub.net##.ad_thread
 dmzj.com##.ad_time
 168cz.com,zjstv.com##.ad_tl
 jb51.net##.ad_tonglan
@@ -7705,6 +7701,7 @@ haosou.com,so.com##.garllery_ad
 115.com##.gb-advs
 qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
+sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
 1kkk.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,jstv.com,kaifu.com,qianyan001.com,shangdu.com,taodake.com,tianya.cn,xhonline.cn##.gg
 elecfans.com##.gg-01
@@ -8454,6 +8451,7 @@ hbrc.com##.show
 zahuishi.com##.show2960x90
 5068.com##.showG
 51test.net##.show_content_declaration > p
+sucaijiayuan.com##.show_title_bottom_gg
 99770.cc,99comic.com,99manga.com##.sic
 99770.cc,99comic.com,99manga.com##.sid
 aohua.com.au##.sidBoxNoborder
@@ -8953,6 +8951,7 @@ creaders.net##a[title^="www.136888.com/new/ad."]
 xcdf.cn##body
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
+btkitty.so##body > a
 danyang.com##body > div[align="center"]
 shangdu.com##body > div[class="bt"]
 dm456.com##body > div[style^="height:90px;"]
@@ -9654,7 +9653,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||s8bbs.com/ad/bbs/*.jpg
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10017,6 +10015,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||rm.sina.com.cn/minisite/$domain=weibo.com
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||rwjfs.com^$object,script,domain=2mm.tv|2mmei.com
+@@||s8bbs.com/ad/bbs/*.jpg
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sakai-hk.com/advertisement.js
 @@||sakai.club/advertisement.js
