@@ -462,7 +462,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/comiis_19lou/ads/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -499,6 +498,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 /cdn-cgi/pe/bag2?r[]=*p.tanx.com
 /cdn-cgi/pe/bag2?r[]=*pagead2.
 /clicktotal/ClickTotal.js
+/comiis_19lou/ads/*
 /common/cf/*$image,object
 /content/plugins/em_ad/*
 /data/ad/*
@@ -4525,6 +4525,8 @@ _yad_jsonp_
 ||sdo.com/static/image/mkads/
 ||sdo.com^$object-subrequest,domain=v.ku6.com
 ||sdzbcg.com/images/ggwzz.jpg
+||sdzbcg.com/images/jnmy
+||sdzbcg.com/images/sdfhyl
 ||secretmine.net/wp-content/uploads/*-300-25.
 ||secretmine.net/wp-content/uploads/*-960
 ||secretmine.net/wp-content/uploads/*/610x80
@@ -4762,6 +4764,7 @@ _yad_jsonp_
 ||supfree.net/images/otop.js
 ||sx566.com/ads/
 ||sx566.com^*/zsz
+||sxrom.com/images/79.gif
 ||sxrom.com/images/9.js
 ||sxrom.com/images/download/top
 ||sxrom.com/images/zz.jpg
@@ -5489,13 +5492,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sxrom.com/images/79.gif
-||sdzbcg.com/images/sdfhyl
-||sdzbcg.com/images/jnmy
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-shuaijiao.com##.wp.m-t20.h90
-sxrom.com##.topmk
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8685,6 +8683,7 @@ kocpc.com.tw##.topbarad
 163disk.com##.topfly
 cqwb.com.cn##.topgg
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
+sxrom.com##.topmk
 china.com,junshigang.com##.topnews
 bbs.linyiren.com##.toppics
 jurong.cn,ld0766.com##.totalad
@@ -8776,6 +8775,7 @@ leitingcn.com##.wlt670 > div[style]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
 52ch.net##.wp > div[style="margin-bottom:5px; height:60px;"]
 renren.com##.wp-rrzm-popup
+shuaijiao.com##.wp.m-t20.h90
 seowhy.com##.wp[style="margin-top:10px;"]
 jd-bbs.com##.wp[style="padding:10px; border:1px solid #9db3c5"]
 tui18.com##.wp[style^="width:"]
