@@ -1482,6 +1482,7 @@ _yad_jsonp_
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||020.com/960_70
+||021wudi.com/admguan-
 ||022net.com/ImgFiles/channel/201502/2015021812142444065.swf
 ||022net.com/js/mhtml/phtml03.html
 ||022net.com/js/mhtml/phtml04.html
@@ -3249,6 +3250,7 @@ _yad_jsonp_
 ||haokan5.com/js/haokanjs/tj.js
 ||haokan5.com/js/haokanjs/youxiajiao.js
 ||haoring03.com/ads/
+||haowj.com.cn/d/js/outsidead/
 ||haoyu.me/wp-content/uploads/2013/08/interserver-vps1.gif
 ||haoyu.me/wp-content/uploads/2013/12/aliyun.jpg
 ||happydown.com^$script,subdocument
@@ -3692,6 +3694,7 @@ _yad_jsonp_
 ||jdxsw.net/js/insidebox.js
 ||jgzj.net/bbs/attachments/month_1111/
 ||jiancai365.cn/lbad.gif
+||jiangcao.com/pic/
 ||jianhucheng.com/data/attachment/portal/
 ||jianshen114.com/images/Advistings/
 ||jiaodong.net/a/js/
@@ -5491,19 +5494,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||haowj.com.cn/d/js/outsidead/
-||jiangcao.com/pic/
-||021wudi.com/admguan-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-easou.com##.ecom-adTop
-iwan.baidu.com###banner-box
-iwan.baidu.com###banner-info
-iwan.baidu.com###side-xbox
-baidu.com##.picad
-wapwenku.baidu.com,wk.baidu.com##.xuantingwrap
-ifeng.com##.iggLine
-163.com##.fuck-qq-2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5803,6 +5795,8 @@ newsmth.net###ban_ner
 18avhub.com,18avtube.com,206.108.55.53,adultwefong.com,aijiatxt.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiqu888.com,suopao.org,xxsy.net,youxi.baidu.com###banner
 cwyuni.tw###banner > h2
 xpghost.com###banner-1
+iwan.baidu.com###banner-box
+iwan.baidu.com###banner-info
 shangdu.com###banner960
 99tianji.com###banner_gg
 766.com,ksbbs.com,kshot.com###banner_top
@@ -6534,6 +6528,7 @@ vyming.com###showcontent > .pdp:nth-child(2)
 hinews.cn###showgg
 club.pchome.net,kdslife.com###side a[href*=".youxi."]
 hunantv.com###side-join-ad
+iwan.baidu.com###side-xbox
 ck101.com###sideAds1
 ithome.com###side_pos1
 cililian.me###side_right
@@ -7590,6 +7585,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-tg-content
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-wealth-list-card-container
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-web-game-platform > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-weigou-nav-buy
+easou.com##.ecom-adTop
 baidu.com##.ecomad-banner-loading
 19lou.com##.editor-ad
 wenku.baidu.com##.edu_class_pop_dialog
@@ -7673,6 +7669,7 @@ mei521.com##.fs_ad
 mei521.com##.fs_ad1
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.fsbanner
 ytbbs.com,ythouse.com##.ftop_ad
+163.com##.fuck-qq-2
 duowan.com##.full-banner
 gamme.com.tw##.fullad_ad
 rosmm.com##.fwinmask
@@ -7900,6 +7897,7 @@ wfcmw.cn##.ifra_tx
 xinhuanet.com##.iframeSrc + a[href^="http"]:not([href*=".xinhuanet."])
 anjuke.com##.ifx-ad-r-box
 aiyuke.com##.igamead
+ifeng.com##.iggLine
 outofmemory.cn##.iloveoutofmemory660
 m.cnbeta.com##.image-container
 edu24ol.com##.image_01
@@ -8301,6 +8299,7 @@ dealmoon.com##.pic_ad
 ctrip.com##.pic_banner
 how361.com##.pic_nav22
 chinaiiss.com##.pic_text
+baidu.com##.picad
 donews.com##.picarea
 9091tv.com,bibiqi.com,biqi.me,ietv.cc##.pics1200
 17173.com##.picshow[href^=" http://cnrdn.com/"]
@@ -8806,6 +8805,7 @@ hdzc.net##.xiqingbanner
 xilu.com##.xlad
 xilu.com##.xladAdvList
 itopdog.cn##.xoxo > [id^="text-"]
+wapwenku.baidu.com,wk.baidu.com##.xuantingwrap
 21cn.com##.xuantu
 xkb.com.cn##.xwAd
 zj.com##.xx_gg
@@ -9635,6 +9635,7 @@ long7.qq.com#@#.adsbox
 123564.com#@#.adsbygoogle
 qq.com#@#.adside
 txnews.zjol.com.cn#@#.adtop
+4008927927.cn#@#.adv-box
 veryeast.cn#@#.adv-right
 zalora.com.hk#@#.advertisement-block
 jd.com#@#.adwords
@@ -9664,11 +9665,8 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-4008927927.cn#@#.adv-box
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/img_ad/*$domain=tkec.com.tw
-@@/assets/adv/*$domain=4008927927.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9715,6 +9713,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/advs/*$domain=dianxinos.com|gotobuy.com.tw|haseemobile.net|lklm.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
+@@/assets/adv/*$domain=4008927927.cn
 @@/bag2?r[]=*&r[]=$domain=free.com.tw|macx.cn
 @@/cntv_Advertise.js
 @@/common/ad_$domain=2kandy.com
@@ -9735,7 +9734,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/images/ads.$domain=01hr.com
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
-@@/img_ad/*$domain=yy960.com
+@@/img_ad/*$domain=tkec.com.tw|yy960.com
 @@/js/ad_test.js$domain=colayun.com
 @@/LoadAds.$domain=webcars.com.cn
 @@/page/adv.html?advId=$subdocument
