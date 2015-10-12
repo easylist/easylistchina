@@ -13,19 +13,6 @@
 ! Fork of: ChinaList https://github.com/chinalist/chinalist
 !  Mon, 24 Mar 2014 09:28:37 +0800
 !*** chinalist-adservers.txt ***
-!189.cn
-||189.cn/dns/
-||gd.189.cn/ad/$popup,third-party
-||gd.189.cn/gz/promotion/$popup,third-party
-||gd.189.cn/push/$popup,third-party
-||gd.189.cn^*/push/$popup,third-party
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com^*/push/$popup,third-party
-||jxad.jx163.com^
-!10010.com
-||kdly.net^$third-party
-!gd.189.cn
-/js/utils51.js
 !popup
 ||100tjs.com^$popup,third-party
 ||114zhaofang.com^$popup,third-party
@@ -461,6 +448,7 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||tudou.com^*/outside.php
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/js/utils51.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -1271,7 +1259,13 @@ hk.search.auctions.yahoo.com###yauadysmh
 ||zp22938576.com^
 ||zp265.com^$third-party
 ||zytwq.net^$third-party
+||kdly.net^$third-party
 !------------------------------------Popups-----------------------------------!
+||gd.189.cn/ad/$popup,third-party
+||gd.189.cn/gz/promotion/$popup,third-party
+||gd.189.cn/push/$popup,third-party
+||gd.189.cn^*/push/$popup,third-party
+||gd.ct10000.com^*/push/$popup,third-party
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
@@ -5501,8 +5495,12 @@ _yad_jsonp_
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||brand.sogou.com/micro?yyid=
+||189.cn/dns/
+||gd.ct10000.com/js/ecssstat.js
+||jxad.jx163.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+udn.com###content_body_banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
