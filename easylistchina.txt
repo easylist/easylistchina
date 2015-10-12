@@ -474,8 +474,6 @@ hk.search.auctions.yahoo.com###yauadysmh
 .js?advertID=
 .net/js/ads/
 .us/js/ads/
-/bbh_ad_
-/bbh_ad.
 /a/p?adid=
 /a_tc.js?adid=
 /acmsd/*
@@ -491,6 +489,8 @@ hk.search.auctions.yahoo.com###yauadysmh
 /advpic/*
 /ajds/*
 /Banner-pcbeta-
+/bbh_ad.
+/bbh_ad_
 /btba/ad/*
 /cache/ad_js/*
 /caches/poster_js/*
@@ -1609,6 +1609,7 @@ _yad_jsonp_
 ||133ip.com/add/
 ||133uu.com/html/
 ||1382014.co/980X45.gif
+||141h.com/data/attachment/noblock/cf/
 ||1518.com/ss/
 ||15w.com/call/webjs/60.js
 ||15w.com/flash/
@@ -2527,6 +2528,7 @@ _yad_jsonp_
 ||camster.com/promos/
 ||caoimg.com/images/
 ||caomeinv.info/images/*.gif
+||cari.com.my/static/appbanner
 ||cbfw.cn/gonggong/js/cf_flash.js
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccb.com.cn/V5/images5/left0.gif
@@ -2560,6 +2562,7 @@ _yad_jsonp_
 ||chewen.com/pics/2013/09/13/02013091317191365.jpg
 ||chidir.com^
 ||china.chemnet.com/cnbanner/
+||china.cn/images1/ch/2014first/20140422gq.js
 ||china.com.cn/2015ads/
 ||china.com.cn/food/node_7094923.htm
 ||china.com.cn/statics/js/js_vag/
@@ -3135,6 +3138,7 @@ _yad_jsonp_
 ||gigacircle.com/images/*720X85.
 ||gimhoy.com/201404/cute.jpg
 ||github.io/2048/full/meta/cmpay.gif
+||glgoo.org/adbcheck.js
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||gmbuluo.com/js/liebiao
 ||gmbuluo.com/js/shouye
@@ -4699,6 +4703,7 @@ _yad_jsonp_
 ||sooopu.com/images/web/cg328/cg.js
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
+||sootoo.com/son_media/msg/2010/11/16/30324.jpg
 ||soso.com/baike/js/ad_
 ||source.qunar.com/site/images/wns/
 ||southmoney.com/page/inc/
@@ -5494,14 +5499,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||china.cn/images1/ch/2014first/20140422gq.js
-||141h.com/data/attachment/noblock/cf/
-||cari.com.my/static/appbanner
-||glgoo.org/adbcheck.js
-||sootoo.com/son_media/msg/2010/11/16/30324.jpg
 !------------------------Specific element hiding rules------------------------!
-141hongkong.com###adan
-gamme.com.tw##.ad_down
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5718,6 +5716,7 @@ baidu.com###ad_xbox_2
 baidu.com###ad_xbox_3
 qidian.com###ad_yxword
 qidian.com###ad_yxword_a
+141hongkong.com###adan
 265.com###adb
 yxdown.com###adbg
 voc.com.cn###adbody_hidden
@@ -7042,6 +7041,7 @@ csdn.net##.ad_class
 sohu.com##.ad_couplet
 55bbs.com,fj007.com,jnnews.tv,my0832.com##.ad_div
 cb.com.cn##.ad_dob
+gamme.com.tw##.ad_down
 vhiphop.com##.ad_e
 my0832.com##.ad_e_wrap
 putclub.com##.ad_fastReading
@@ -9674,7 +9674,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||esquirehk.com/action/adtag/(type)/googletag/(method)/async
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9934,6 +9933,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||edgesuite.net^*/ad.css?
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||emome.net/files/advertising/
+@@||esquirehk.com/action/adtag/(type)/googletag/(method)/async
 @@||forum.51nb.com/images/*/
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
