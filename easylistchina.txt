@@ -84,7 +84,7 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 /adconnector/*
-/new_site_topad
+/new_site_topad^
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -5137,6 +5137,7 @@ _yad_jsonp_
 ||starbaby.cn/bookconnector/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":50012654,"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
