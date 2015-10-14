@@ -83,8 +83,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/adconnector/*
-/new_site_topad^
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -103,6 +101,7 @@ hk.yahoo.com###mntl1
 /adblockTester.js
 /adblockTester1.js
 /adblockTester2.js
+/adconnector/*
 /adintrs/*
 /adpfile/*
 /AdPreview/*
@@ -164,6 +163,7 @@ hk.yahoo.com###mntl1
 /lenovo/pc/all.js
 /main/s?
 /module/adsview/*
+/new_site_topad^
 /paypic/*
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
@@ -214,8 +214,8 @@ hk.yahoo.com###mntl1
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
-###MyMoveAd
 ###MsnDialog.ad
+###MyMoveAd
 ###QQ_Full
 ###adBody01
 ###adBody02
@@ -372,8 +372,6 @@ hk.yahoo.com###mntl1
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||csad.cc^$third-party
-||kmadou.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -590,6 +588,7 @@ hk.yahoo.com###mntl1
 ||crazymike.tw^$third-party
 ||crdrjs.info^
 ||cs.37see.com^$third-party
+||csad.cc^$third-party
 ||csbew.com^$third-party
 ||csqiulong.com^
 ||ctsywy.com^
@@ -717,6 +716,7 @@ hk.yahoo.com###mntl1
 ||keyyou.net^
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
+||kmadou.com^
 ||ku63.com^$third-party
 ||ku9377.com^
 ||kuaizitech.com^$third-party
@@ -1464,7 +1464,9 @@ _yad_jsonp_
 ||400516.com/data/attachment/album/
 ||400qiqi.com/cx111.js
 ||400qiqi.com/js/
+||40407.com/plus/pthc/zqdl.php?
 ||40407.com/plus/rpad/
+||40407.com/plus_rpad_
 ||40407.com/templets/default/images/index.js
 ||40wan.com/js/www2/
 ||4399.com/baiduad/
@@ -1823,6 +1825,7 @@ _yad_jsonp_
 ||adhome.1fangchan.com^
 ||adi*.cnool.net^
 ||adk.funshion.com^
+||adm*.autoimg.cn^$object
 ||adm.265g.com^
 ||adm.72zx.com^
 ||adm.86wan.com^
@@ -3313,6 +3316,7 @@ _yad_jsonp_
 ||iyejie.com/xydlad.js
 ||izt8.com/iztwp/images/hk-250.jpg
 ||izzs.net/wp-content/mm/
+||j.6avz.com^
 ||j.7avz.com^
 ||ja.gamersky.com^
 ||jandan.com/static/gggg/
@@ -4092,6 +4096,7 @@ _yad_jsonp_
 ||rh.qq.com^
 ||right.com.cn/logo/*.gif
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
+||ringhk.com/adves/
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
 ||rizhao.net/html/js/main.js
@@ -4360,6 +4365,7 @@ _yad_jsonp_
 ||ssnn.net^*-200-250.jpg
 ||sss.sege.xxx^
 ||ssshao.com/9115gg/
+||starbaby.cn/bookconnector/
 ||starnnews.com/banner/
 ||static.aizhan.com/jsa/
 ||static.cmhello.com/2015/02/
@@ -5135,22 +5141,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||starbaby.cn/bookconnector/
-||adm*.autoimg.cn^$object
-||j.6avz.com^
-||ringhk.com/adves/
-||40407.com/plus/pthc/zqdl.php?
-||40407.com/plus_rpad_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-plus28.com##A[href*="/?Extend="]
-40407.com###tcdgg
-40407.com##.bg_l
-40407.com##.bg_r
-40407.com##.top_banner
-cqnews.net##.taobao
-cqnews.net##DIV[style="width:960px; height:90px; overflow:hidden; padding:0 20px; background:#fafafa; margin-bottom:15px"]
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":50012654,"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6240,6 +6232,7 @@ e23.cn###taobaorba
 findprice.com.tw###tb_ad
 23zw.com###tbad
 tzfdc.com.cn###tc
+40407.com###tcdgg
 3g.qq.com###template_gdt_div1
 vgugu.com###test
 vgugu.com###test1
@@ -6994,6 +6987,8 @@ hers.com.cn##.beitou
 nick18.com##.below_ads
 265g.com##.bg_ban
 265g.com##.bg_ban_bar
+40407.com##.bg_l
+40407.com##.bg_r
 starbaby.cn##.big_ada
 99114.com##.big_banner
 jn256.com##.big_gg
@@ -7671,6 +7666,7 @@ ltaaa.com##.lAds
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1224761005,"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480174042,"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1480194257,"]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":50012654,"]
 51caiju.com,qq.com##.l_qq_com
 flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 taoguba.com.cn##.label2
@@ -8225,6 +8221,7 @@ aisex.com##.tac[colspan="6"]
 txzqw.com##.tac[style="margin-bottom:5px;"]
 hlgnet.com,sina.com##.tad
 8684.cn##.taoAbox
+cqnews.net##.taobao
 7y7.com##.taobao-fanli-side-warp
 vhiphop.com##.taobao_container
 duba.com##.taobao_search
@@ -8328,7 +8325,7 @@ mnw.cn##.top_960_50
 pjtime.com##.top_R
 warting.com##.top_ad2
 warting.com##.top_article_ad
-51testing.com,86wan.com,hjenglish.com,hujiang.com,xitek.com,xitong8.com,xt700.com##.top_banner
+40407.com,51testing.com,86wan.com,hjenglish.com,hujiang.com,xitek.com,xitong8.com,xt700.com##.top_banner
 21yq.com##.top_big_bg
 mql5.com##.top_container
 youthwant.com.tw##.top_fad
@@ -8527,6 +8524,7 @@ gmgard.us,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
+plus28.com##a[href*="/?Extend="]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 m.baidu.com##a[href*="m.lecai.com"]
 cwyuni.tw##a[href*="rakuten.tw"]
@@ -8974,6 +8972,7 @@ dmzj.com##div[style="width:940px;height:60px;border:none;margin:auto;padding:0px
 weshequ.com##div[style="width:940px;margin:0 auto;height:200px;"]
 linyiren.com##div[style="width:960px; height:70px; margin:2px auto;"]
 93994.com##div[style="width:960px; height:90px; margin:0 auto; margin-top:10px"]
+cqnews.net##div[style="width:960px; height:90px; overflow:hidden; padding:0 20px; background:#fafafa; margin-bottom:15px"]
 0597kk.com##div[style="width:960px; overflow:hidden; margin:2px auto; "]
 chinacbe.com##div[style="width:960px; padding:0px; margin:4px 0; border:0px solid #CCC;"]
 co188.com##div[style="width:960px;height:100px;margin:0 auto;"]
