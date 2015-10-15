@@ -83,7 +83,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/wp-content/themes/iMovies/js/tc_
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -186,6 +185,7 @@ hk.yahoo.com###mntl1
 /template/001/ads/*
 /tuiguang/*
 /u/_sponsor/*
+/wp-content/themes/iMovies/js/tc_
 :1010/openV5.js
 :7011/ads/
 :8080/ad/
@@ -2962,6 +2962,7 @@ _yad_jsonp_
 ||hipowerd.com/outbound/images/*_banner.
 ||hjav.in/ad_dl.js
 ||hjav.in/ads.js
+||hjav.in/wp-content/uploads/
 ||hjav.org/ads.js
 ||hjav.org/wp-content/uploads/
 ||hjdn.cn/img/hjgq.gif
@@ -3243,6 +3244,7 @@ _yad_jsonp_
 ||inte.sogou.com^
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
+||iq33.com/skin/logo2015/
 ||iqiyi.com/common/flashplayer*_1380x
 ||iqiyi.com/common/flashplayer/*-banner-
 ||iqiyi.com/common/flashplayer/*/980
@@ -3409,6 +3411,7 @@ _yad_jsonp_
 ||jtyskq.com^*/js/_a.js
 ||juksy.com/scripts/jquery.blockUI.js
 ||junph.cn^$domain=tiexue.net
+||junpinzhi.cn/qixing365/attachment/portal/
 ||juxia.com/public/js/foot.js
 ||juxia.com/public/js/juxia.js
 ||juxiangyou.com/images/tgsc/250x250.gif
@@ -4050,6 +4053,7 @@ _yad_jsonp_
 ||qqtz.com/ad$subdocument
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
+||qqzuqiu.com/?a=check&
 ||qscjw.com/uploads/590.gif
 ||qstatic.com/baike/js/ad_
 ||qtfy30.cn/680_*.gif
@@ -4363,6 +4367,7 @@ _yad_jsonp_
 ||ssnn.net^*-200-250.jpg
 ||sss.sege.xxx^
 ||ssshao.com/9115gg/
+||starbaby.cn/adconnector/
 ||starbaby.cn/bookconnector/
 ||starnnews.com/banner/
 ||static.aizhan.com/jsa/
@@ -5139,14 +5144,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||starbaby.cn/adconnector/
-||hjav.in/wp-content/uploads/
-||qqzuqiu.com/?a=check&
-||iq33.com/skin/logo2015/
-||junpinzhi.cn/qixing365/attachment/portal/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-www.autohome.com.cn##.column > DIV[id^="s"]:first-child:last-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7117,6 +7116,7 @@ gamefy.cn##.col-vlist-l > span
 xdkb.net##.col0b
 souluo.net##.col1
 123.91.com##.col_02 > a
+www.autohome.com.cn##.column > div[id^="s"]:first-child:last-child
 myforum.com.hk##.comeing_wad
 jmbbs.com##.comiis_ad
 9ist.com,linyiren.com##.comiis_adbox
@@ -9328,7 +9328,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||appsina.com/cms/ads/
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9518,6 +9517,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||angpic.3g.net.cn/ai/*/
 @@||appbyme.com/adclient/
 @@||appbyme.com^*/Advertisement.css
+@@||appsina.com/cms/ads/
 @@||artxun.com^$domain=findart.com.cn
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
@@ -9805,6 +9805,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||analytics.163.com/ntes.js
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||count.video.sina.com.cn^*?video_ids=
+@@||ecpm.tanx.com/ex?$domain=taobao.com
 @@||google-analytics.com/analytics.js$domain=komica.org|support.amd.com
 @@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
 @@||googletagmanager.com/gtm.js?$domain=support.amd.com
@@ -9812,6 +9813,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||hm.baidu.com^$domain=ihome99.com
 @@||jd.com/setCookie?
 @@||msn.wrating.com/a1.js
+@@||opehs.tanx.com/ex?$domain=taobao.com
 @@||pingjs.qq.com/ping.js
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
@@ -9822,6 +9824,4 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||tajs.qq.com/stats?$domain=qq.com
 @@||tbcdn.cn^*/click_track.js
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@||ecpm.tanx.com/ex?$domain=taobao.com
-@@||opehs.tanx.com/ex?$domain=taobao.com
 !----------------------------------The End------------------------------------!
