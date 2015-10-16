@@ -1761,6 +1761,7 @@ _yad_jsonp_
 ||966266.com/a-d/
 ||969g.com/common/iframe/
 ||973.com/xyx/p.js
+||97aa1.com/g/
 ||9938.net/video/tvg/footer.js
 ||9938.net/video/tvg/hot.js
 ||99770.cc^$subdocument
@@ -1939,6 +1940,7 @@ _yad_jsonp_
 ||autofan.com.cn/zhaoning/*.gif
 ||autofan.com.cn/zhaoning/20*.jpg
 ||autofan.com.cn/zhaoning/GG-
+||autohome.com.cn/Ashx/public/HeaderLayerRecApp.ashx?
 ||autoimg.cn/ad.js
 ||autoimg.cn/engine/root/fggxl.js
 ||autos.udn.com/topic/car/include/ad.jsp
@@ -4305,6 +4307,7 @@ _yad_jsonp_
 ||sinaimg.cn/unipro/
 ||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|84zr.com|99files.net|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|xinqixi.com|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|wan1024.com|wanfuck.com|xxxgao.com
+||sinaimg.cn^*.gif$object-subrequest
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
@@ -4664,6 +4667,8 @@ _yad_jsonp_
 ||vhiphop.qiniudn.com/cloth
 ||video.sdo.com/index.php?m=poster&c=index&a=show_poster&id=
 ||videospeedy.com/Res/images/wuy0u.jpg
+||videowood.me/assets/js/popup.js
+||videowood.tv/popjavascript
 ||vip.luanren.com/data/*.swf
 ||vipcn.com/hezuo/
 ||vista.tgbus.com/data.ashx^*_SINGLE_SETJSONADSLOT
@@ -5144,16 +5149,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||videowood.me/assets/js/popup.js
-||videowood.tv/popjavascript
-||autohome.com.cn/Ashx/public/HeaderLayerRecApp.ashx?
-||97aa1.com/g/
-||sinaimg.cn^*.gif$object-subrequest
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-97aa1.com,niu20.com##.guang4
-zhidao.baidu.com##.link-banner
-baidu.com##.ec-ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7238,6 +7235,7 @@ mop.com##.dzh-ad-top
 haosou.com##.e-buss
 m.haosou.com,m.so.com##.e_idea_list
 easou.com##.easou_banner
+baidu.com##.ec-ad
 m.baidu.com##.ec_adv
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ec_bdtg
 baidu.com##.ec_im_container
@@ -7456,6 +7454,7 @@ bioon.com##.grid_6
 admin5.com##.grid_8 > .mb6
 putclub.com##.gtest
 58.com##.guaguabox
+97aa1.com,niu20.com##.guang4
 weathertv.cn##.guangGao
 hkwb.net##.guangg
 131458.com,adreep.cn,hgitv.com,nen.com.cn,rznews.cn,sqkz.com##.guanggao
@@ -7721,6 +7720,7 @@ ifeng.com##.leftpopad
 lywww.com##.lianmengclass
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
 uc123.com##.lift-push-container
+zhidao.baidu.com##.link-banner
 m.qidian.com##.link_banner
 linux.cn##.linuxcnad
 linuxidc.com##.linuxy1
@@ -9320,6 +9320,7 @@ ciciwg.com#@#.aseadn
 dingdong.ganji.com#@#.banner
 10.10.5.12,10086.cn,192.168.128.1#@#.banner_ad
 ishangman.com#@#.bottom_ad
+leiling.org#@#.category-ad
 10086.cn#@#.center_ad
 maihaome.com#@#.center_add
 douban.com#@#.download-ad
@@ -9341,7 +9342,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-leiling.org#@#.category-ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
