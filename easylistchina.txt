@@ -2139,7 +2139,6 @@ _yad_jsonp_
 ||bxwx.org/myabc/
 ||bxwxtxt.com/a/bxwx/indextan.js
 ||by.7avz.com^
-||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||bytravel.cn/images/cus/
 ||bytravel.cn/images/t/usa_250_120.gif
 ||bytravel.cn/js/ad_
@@ -2186,6 +2185,7 @@ _yad_jsonp_
 ||cdn.dfile.cn/slot/
 ||cdn.shdsp.net/ad
 ||cdn.wdlm.cn^
+||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
 ||cdyee.com/external/5070.files/ad/
 ||centoscn.com/money/
@@ -5151,14 +5151,6 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sogou.com##.module-fourpic-box
-sogou.com###detailRightAd
-duba.com##.box_shopping
-duba.com##.oneone-search
-duba.com##.slidebar
-duba.com##.slidebar + .extend
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.firework-wrap
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5619,6 +5611,7 @@ cool18.com###d_right_ad
 hao.360.cn###daily-hotword
 dz19.net###dayuers
 vxingkong.com###dbpl
+sogou.com###detailRightAd
 fwxgx.com###detail_ad_middle
 esdict.cn,eudic.net,frdic.com,godic.net###dict-body + style + div[id]
 iciba.com###dict_right5
@@ -6171,6 +6164,7 @@ flighty.cn###searchBox + #sidebarBox
 duba.com###searchRight
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_baidu_promote
 baidu.com###search_bottomad
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
 iplaysoft.com###section_event
 m.sohu.com###selected-game
 b5m.com###sell-ad
@@ -7054,6 +7048,7 @@ csdn.net##.box.hot
 mobanwang.com##.box960x90
 pengfu.com##.boxBan
 lolshipin.com##.box[style="display: block;"]
+duba.com##.box_shopping
 uzzf.com##.boxl
 kehuan.net.cn##.bread_728x90
 letv.com##.broadcast-adv
@@ -7294,6 +7289,7 @@ xindm.cn##.fengmian_comic_main_gg
 ifeng.com##.fengtoy
 colayun.com##.file-box > .main-pic-show
 163.com##.finance_header_gg
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.firework-wrap
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.firework_sender_wrap
 etnet.com.cn##.firstAD
 pingpang.info##.first_body_bottom
@@ -7840,6 +7836,7 @@ pptv.com##.mod_960x90
 qq.com##.mod_custom_ad
 37.com##.moduel-pub
 firefoxchina.cn##.module-banner
+sogou.com##.module-fourpic-box
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 hjav.in,hjav.org##.moneyarea
 wasu.cn##.movie_ad
@@ -7920,6 +7917,7 @@ club.pchome.net,kdslife.com##.o_info font
 douyutv.com##.offi_ad:first-child
 shunwang.com##.ola_program
 hepan.com##.onead
+duba.com##.oneone-search
 pgzhibo.com##.onlineqq
 pgzhibo.com##.onlineqq_left
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.op_tvplay_main
@@ -8188,6 +8186,8 @@ soku.com##.sk_banner
 0678life.com##.sky_d
 club.kdnet.net##.slide-banner
 cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
+duba.com##.slidebar
+duba.com##.slidebar + .extend
 hao.360.cn##.small-obj
 hao123.com##.soft-ad-banner
 33lc.com##.soft-info:first-child
@@ -8219,7 +8219,6 @@ klss.cn##.stat8
 576tv.com##.subject_list > li > a[href^="http"]:not([href*=".576tv."])
 etest8.com##.subtop2right
 qingdaonews.com##.surround
-shm.com.cn##.w1000.surround
 2345.com##.swf_banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
 heiguang.com##.syAdTopTxt
@@ -8423,6 +8422,7 @@ sogou.com##.vrshop_itemList
 sogou.com##.vrsp_itemList
 10jqka.com.cn##.w1000
 0573ren.com##.w1000.ad
+shm.com.cn##.w1000.surround
 pc841.com##.w1050
 miomio.tv##.w1160.h90
 meili.cn,pc841.com##.w300
@@ -9255,6 +9255,8 @@ zdfans.com#@##advertbox3
 zdfans.com#@##bottomAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
+soft.macx.cn#@##googlead
+soft.macx.cn#@##googlead1
 fmdisk.com#@##googleadsense
 52vfx.com#@##head_ad
 hutc.zj.cn#@##index_ad
@@ -9350,8 +9352,6 @@ house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-soft.macx.cn#@##googlead1
-soft.macx.cn#@##googlead
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
