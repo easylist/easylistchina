@@ -159,7 +159,6 @@ hk.yahoo.com###mntl1
 /k300g250.jpg?
 /k960g90.jpg?
 /lenovo/pc/all.js
-/taobaoad.html
 /main/s?
 /module/adsview/*
 /new_site_topad^
@@ -182,6 +181,7 @@ hk.yahoo.com###mntl1
 /sygg/*
 /tan.js
 /tanchuang.
+/taobaoad.html
 /template/001/ads/*
 /tuiguang/*
 /u/_sponsor/*
@@ -372,8 +372,6 @@ hk.yahoo.com###mntl1
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/i.php?z=$script,third-party
-||fadama.com^$third-party
-||dashet.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -598,6 +596,7 @@ hk.yahoo.com###mntl1
 ||czpush.com^
 ||d1ad.com^$third-party
 ||d8360.com^$third-party
+||dashet.com^
 ||datafastguru.info^
 ||dddddd.net^$third-party
 ||dian500.com^$third-party
@@ -630,6 +629,7 @@ hk.yahoo.com###mntl1
 ||f6ce.com^
 ||f70123.com^
 ||f8272.com^$third-party
+||fadama.com^$third-party
 ||fd7c.com^
 ||feitian001.com^$third-party
 ||fjmeyer.com^
@@ -902,11 +902,11 @@ hk.yahoo.com###mntl1
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-/portalwlanad/pages/*$popup
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
+/portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
 |http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|byhh.org|downp2p.com|dwbpy.com|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
@@ -1953,6 +1953,9 @@ _yad_jsonp_
 ||avcity.twavtv.com/js/twavt.js
 ||avlang33.com/js/float.js
 ||avonline.org/js/jquery.colorbox-
+||avseesee.com/amandison.php
+||avseesee.com/htmls/vlinks.html
+||avseesee.com/twad
 ||awaker.hk/wp-content/uploads/ok/
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
@@ -4036,6 +4039,7 @@ _yad_jsonp_
 ||qjis.com/js/qjis_nr.js
 ||qk101.com/life/
 ||qmi.cc/tester/tester.js
+||qndown.com^$domain=lululu8.net
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
 ||qpic.cn^$domain=360-bo.com|54xr.com|7958.com|pptiyu.com|xrba.net
 ||qq.com/article_qq/ad_article_qq/
@@ -4345,6 +4349,7 @@ _yad_jsonp_
 ||soft.mumayi.net/js/
 ||soft711.com/2013/
 ||softhy.net/hp/
+||sogou.com/images/galaxy.jpg
 ||sogou.com/skins/images/skinlist_ad.
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
@@ -4422,6 +4427,7 @@ _yad_jsonp_
 ||supfree.net/images/otop.js
 ||sx566.com/ads/
 ||sx566.com^*/zsz
+||sxrb.com/upload/js/xww_
 ||sxrom.com/images/79.gif
 ||sxrom.com/images/9.js
 ||sxrom.com/images/download/top
@@ -5152,26 +5158,15 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sogou.com/images/galaxy.jpg
-||avseesee.com/amandison.php
-||avseesee.com/twad
-||avseesee.com/htmls/vlinks.html
-||sxrb.com/upload/js/xww_
-||qndown.com^$domain=lululu8.net
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yxzoo.com##.downgg
-sdgundam.cn##A[href^="/aclk/"]
-sogou.com###AD_3
-sogou.com###browser_ad
-sogou.com##.ad_aside_inner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
 gdtv.cn###ADVbuttom
 gdtv.cn###ADVbuttom1
 hao.qq.com###AD_2
-hao.qq.com###AD_3
+hao.qq.com,sogou.com###AD_3
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
@@ -5528,6 +5523,7 @@ hefei.cc###bp_ad
 club.topsage.com###brbox
 114la.com###brownTop
 btago.com###browser
+sogou.com###browser_ad
 ms211.com###btf
 v.hao123.com###btn-dl-bro
 ck101.com###canvas-section
@@ -6699,6 +6695,7 @@ bjxxw.com##.ad_ad
 tpy888.cn##.ad_all
 400gb.com,bego.cc,ctfile.com,ifonce.com,pipipan.com,shenchuang.com##.ad_area
 download.csdn.net##.ad_area_1
+sogou.com##.ad_aside_inner
 shm.com.cn##.ad_baidu_300250
 shm.com.cn##.ad_baidu_58090
 shm.com.cn##.ad_baidu_64060
@@ -7233,6 +7230,7 @@ pctowap.com##.dowap_ads
 onlinedown.net##.downList > li > .btn
 xiazaiba.com##.down_ads
 portablesoft.org##.downcenter
+yxzoo.com##.downgg
 7958.com.cn##.download_alert
 121ask.com##.downmain1
 400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_l > .row-fluid:nth-child(4)
@@ -8584,6 +8582,7 @@ open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 xiadele.com##a[href="http://yun.banjiajia.com"]
 bigear.cn##a[href^="/?module=business&"]
+sdgundam.cn##a[href^="/aclk/"]
 1024gc.com,1024gc.info,1024gc.net,1024gc.org,1024gongchang.com,1024gongchang.info,1024gongchang.net,1024gongchang.org,1024hegongchang.com,1024hegongchang.info,1024hegongchang.net,1024hegongchang.org,1024hgc.com,1024hgc.info,1024hgc.net,1024hgc.org##a[href^="/ad/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
 mobile01.com##a[href^="adredir.php"]
