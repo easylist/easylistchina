@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/uedbet/pause.
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -186,6 +185,7 @@ hk.yahoo.com###mntl1
 /template/001/ads/*
 /tuiguang/*
 /u/_sponsor/*
+/uedbet/pause.
 /wp-content/themes/iMovies/js/tc_
 :1010/openV5.js
 :7011/ads/
@@ -215,7 +215,6 @@ hk.yahoo.com###mntl1
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
-##.scupioadslot
 ###MsnDialog.ad
 ###MyMoveAd
 ###QQ_Full
@@ -340,6 +339,7 @@ hk.yahoo.com###mntl1
 ##.ml_ad5
 ##.mlad
 ##.pagead_3
+##.scupioadslot
 ##.tipadds
 ##.topSponsor
 ##.wf_ad_block
@@ -3703,6 +3703,7 @@ _yad_jsonp_
 ||money.qz828.com^
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||moneyweekly.com.tw/Uploads/AD/*970x
+||monnsutogatya.com/himg/monst/
 ||moonbbs.com/data/attachment/portal/
 ||moonbbs.com/static/image/banner/fashionmoon.png
 ||moonbt.com/template/skin1/images/g_js/
@@ -4374,6 +4375,7 @@ _yad_jsonp_
 ||srcdd.com^$domain=zasv.com
 ||srzc.com/images/*.swf
 ||srzc.com/js/Adsjs/
+||srzc.com/js/gelao/
 ||srzc.com/templets/srxw/img/000ad.jpg
 ||srzc.com^*/zwfjs/
 ||ssnn.net^*-200-250.jpg
@@ -4537,13 +4539,17 @@ _yad_jsonp_
 ||tingchina.com/js/dp468
 ||tingroom.com/file/A2
 ||tingroom.com/file/A3
+||tingroom.com/file/A4
 ||tingroom.com/images/hy*.js
 ||tingroom.com/images/qsbdc.gif
+||tingroom.com/images/z923.js
 ||tingroom.com/skin/*/js/ad_
 ||tingroom.com/skin/dy/images/2400200
+||tingroom.com/skin/dy/images/enread.jpg
 ||tingroom.com/skin/pt/images/tingroombanner.gif
 ||tingroom.com/tingroom/ad/
 ||tingvoa.com/images/*img.js
+||tingvoa.com/images/top_600_80.js
 ||tinypic.com^$domain=208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com|fdzone.org|jandown.com|mimima.com
 ||tjzan.com/wxpic/asianyi.gif
 ||tk.504pk.com^
@@ -5154,17 +5160,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||srzc.com/js/gelao/
-||monnsutogatya.com/himg/monst/
-||tingvoa.com/images/top_600_80.js
-||tingroom.com/file/A4
-||tingroom.com/images/z923.js
-||tingroom.com/skin/dy/images/enread.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-haosou.com##.e_idea_wenda_detail_spread
-haosou.com##.e_idea_wenda_spread
-srzc.com###gelao
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5800,6 +5797,7 @@ idanmu.com###gbox-header
 whnews.cn###gd_l
 whnews.cn###gd_r
 dychao.com###gdiv
+srzc.com###gelao
 66wz.com,mopiaoyao.com,renwai.ren###gg
 sdgundam.cn###gg-banner
 855699.com###gg2
@@ -7250,6 +7248,8 @@ douyutv.com##.dy_top_gg
 mop.com##.dzh-ad-top
 haosou.com##.e-buss
 m.haosou.com,m.so.com##.e_idea_list
+haosou.com##.e_idea_wenda_detail_spread
+haosou.com##.e_idea_wenda_spread
 easou.com##.easou_banner
 baidu.com##.ec-ad
 m.baidu.com##.ec_adv
