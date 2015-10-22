@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/119g/640x60_
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -95,6 +94,7 @@ hk.yahoo.com###mntl1
 .js?advertID=
 .net/js/ads/
 .us/js/ads/
+/119g/640x60_
 /a/p?adid=
 /acmsd/*
 /AD2v1.1.js
@@ -1118,6 +1118,7 @@ _yad_jsonp_
 |http://*/ts.js$domain=208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn^$domain=aikuhu.com
+|http://www.i-ab.co/zz/
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
 ||005.tv:60000/ad.js
 ||007.mx/flv/
@@ -3360,6 +3361,7 @@ _yad_jsonp_
 ||jiaoyu.baidu.com/tieba/
 ||jiasuba.com/js/jjrjtg.js
 ||jiasule.com/static/js/http_error.js
+||jinbw.com.cn/img/
 ||jinghua.cn/lib/js/news/ad_jh.html
 ||jinhongweiqi.com/cache/ads.js
 ||jinyici.com/qq.js
@@ -5039,6 +5041,7 @@ _yad_jsonp_
 ||yundianb.com/hao/
 ||yundianb.com/tu/jia.gif
 ||yunfile.com^*/offline_banner/
+||yunmayi.com/upload/2015/04/14/b5d2b4c37af3f4d4c6af5831422b1ead.jpg
 ||yunupload.net/jsa/
 ||yupoo.com^$domain=ttmeiju.com
 ||yxdd.com^$subdocument
@@ -5160,14 +5163,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-|http://www.i-ab.co/zz/
-||yunmayi.com/upload/2015/04/14/b5d2b4c37af3f4d4c6af5831422b1ead.jpg
-||jinbw.com.cn/img/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-wps.cn##.left_rcm_11
-wps.cn##.left_rcm_11_hide
-wps.cn##.school
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7737,6 +7734,8 @@ yxlady.com##.left_bottom_gg3
 lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
+wps.cn##.left_rcm_11
+wps.cn##.left_rcm_11_hide
 hkwb.net##.leftadv2
 hao123.com##.leftbanner
 ks.js.cn##.leftgg
@@ -8127,6 +8126,7 @@ ithome.com##.sb_list > .bx
 gog.com.cn##.sbh1_nav
 gog.com.cn##.sbh_nav
 mail.pchome.com.tw##.sceng
+wps.cn##.school
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.score_ecr_wrapper
 epinv.com##.scrollep
 playno1.com##.sd.pph
