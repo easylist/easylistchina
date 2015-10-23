@@ -82,9 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/tigtag_custom/include/couplet.
-/tigtag_custom/*_banner
-/tigtag_custom/include/popup.
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -187,6 +184,9 @@ hk.yahoo.com###mntl1
 /tanchuang.
 /taobaoad.html
 /template/001/ads/*
+/tigtag_custom/*_banner
+/tigtag_custom/include/couplet.
+/tigtag_custom/include/popup.
 /tuiguang/*
 /u/_sponsor/*
 /uedbet/pause.
@@ -337,6 +337,8 @@ hk.yahoo.com###mntl1
 ##.it618_firstad_flex
 ##.js-ad
 ##.kf_qycn_com_cckf_welcomebox
+##.left_rcm_11
+##.left_rcm_11_hide
 ##.leftadv
 ##.menutab_ad
 ##.ml_ad1
@@ -377,12 +379,9 @@ hk.yahoo.com###mntl1
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.left_rcm_11
-##.left_rcm_11_hide
 !----------------------------------Ads-Union----------------------------------!
-.com/i.php?z=$script,third-party
 .cn/i.php?z=$script,third-party
-||winvestern.com.cn^
+.com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -861,6 +860,7 @@ hk.yahoo.com###mntl1
 ||weareqy.com^$third-party
 ||weddingeeos.com^$third-party
 ||widget.ezprice.com.tw^$third-party
+||winvestern.com.cn^
 ||wit.qq.com^$third-party
 ||wo685.com^$third-party
 ||wqsph.net^
@@ -5170,7 +5170,6 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-enlink.com.cn###img1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5897,7 +5896,7 @@ ck101.com###image_ad_long
 ck101.com###image_ad_short
 cnjxol.com,jintoutiao.com,rznews.cn###img
 nick18.com###img a
-66rd.cn,chemnet.com,firstchina.org.cn,pharmnet.com.cn###img1
+66rd.cn,chemnet.com,enlink.com.cn,firstchina.org.cn,pharmnet.com.cn###img1
 114la.com###imgArr
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
@@ -9383,9 +9382,9 @@ fjsen.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
+tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-tvmost.com.hk#@#.v_ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
