@@ -4981,6 +4981,7 @@ _yad_jsonp_
 ||yimg.com/*/ysm/
 ||yimg.com/bf/homerun/ysm_
 ||yimg.com/cv/ae/default/*_STATIC-JPEG_
+||yimg.com/cv/ae/tw/bwchou/728x210.
 ||yimg.com/cv/ae/tw/bwchou/bubble_
 ||yimg.com/ja/ap/*/hk_rm_umu_
 ||yimg.com/ja/ap/*_wallpaper
@@ -5160,13 +5161,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yimg.com/cv/ae/tw/bwchou/728x210.
 !------------------------Specific element hiding rules------------------------!
-tw.stock.yahoo.com##DIV[align="center"][style="height:90px"]
-tiexue.net##A[href^="http://www.mywoqu."]
 gpcxw.com###AA2
-tigtag.com##.custom-box02
-gcxa.cn###edu_ad63
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5708,6 +5704,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com###ecl-weigou-view-container
 hao123.com###ecom
 image.baidu.com###ecomContainer
 hjenglish.com###editor_a4
+gcxa.cn###edu_ad63
 letv.com###egg
 3sjt.com,kugz.com###eis_pad1
 21cn.com###embed_hzh_div
@@ -7196,6 +7193,7 @@ meishij.net##.cp_body_right
 37.com##.cross
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
+tigtag.com##.custom-box02
 iplaysoft.com##.d250
 ipc.me,iplaysoft.com##.d300
 iplaysoft.com##.d336
@@ -8642,6 +8640,7 @@ css88.com##a[href^="http://www.liepin.com"]
 bejson.com##a[href^="http://www.liepin.com/"]
 bzfxw.com##a[href^="http://www.lieshuo.com"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
+tiexue.net##a[href^="http://www.mywoqu."]
 morningpost.com.cn##a[href^="http://www.netnic."]
 skinme.cc##a[href^="http://www.skinme.cc/game_"]
 6park.com##a[href^="http://www.vava8.com"]
@@ -8687,6 +8686,7 @@ ynet.com##div.fr
 51ape.com##div.mt_1.blue.f_22.yh
 lepan.cc,sx566.com##div:not(.viewfile_content_main_r) > .row-fluid > .widget-box > .widget-body > .ad_area
 weibo.com##div[ad-data]
+tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 zongheng.com##div[alog-group="index_04_game"]
 ifeng.com##div[autofocus]
 anjuke.com##div[class$="-ad"]
@@ -9381,7 +9381,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||xingk.cc/ad/is-adblock-open.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9816,6 +9815,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||wubisheng.cn/style/adsbygoogle.js
 @@||wubisheng.cn/style/pagead2.js
 @@||xiiku.com/adview_
+@@||xingk.cc/ad/is-adblock-open.js
 @@||xinhuanet.com/2014/imgad/FS_2014weixin.jpg
 @@||xintaoke.com/images/gg/*.jpg
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
