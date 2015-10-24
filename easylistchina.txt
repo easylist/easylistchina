@@ -174,6 +174,7 @@ hk.yahoo.com###mntl1
 /proxy.htm?id=
 /proxy.html?id=
 /qpxl.js
+/qqlive/conf/playerlottery/*
 /runtime/js/index960.js
 /Runtime/js/top960.js
 /show.js?sp=*&oid=
@@ -217,7 +218,6 @@ hk.yahoo.com###mntl1
 |http://*/s.js?sp=*&r=$third-party
 |http://acs.
 |http://ad.
-/qqlive/conf/playerlottery/*
 |http://gg.$third-party,domain=~guagua.cn
 !------------------------General element hiding rules-------------------------!
 ###MsnDialog.ad
@@ -328,6 +328,7 @@ hk.yahoo.com###mntl1
 ##.cari-ads
 ##.con_ad
 ##.content_ad_300
+##.double11-art-tonglan
 ##.gg_full
 ##.ggad
 ##.ggtop
@@ -380,10 +381,8 @@ hk.yahoo.com###mntl1
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.double11-art-tonglan
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
-||tk001.com^$third-party
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -425,10 +424,10 @@ hk.yahoo.com###mntl1
 ||033.com^$third-party
 ||0591101.com^$third-party
 ||0756j.com^$third-party
+||0xxd.com^
 ||100cpc.com^$third-party
 ||103.249.111.179^$third-party
 ||104.195.62.12^
-||0xxd.com^
 ||110160.com^$third-party
 ||111111qb.com^
 ||112.124.98.75^
@@ -456,7 +455,6 @@ hk.yahoo.com###mntl1
 ||217wo.com^$third-party
 ||218.26.217.*.html
 ||220.115.251.25^
-||aralego.com^
 ||221.204.213.222^
 ||235123.net^$third-party
 ||23kmm.com^$third-party
@@ -567,6 +565,7 @@ hk.yahoo.com###mntl1
 ||amazingmagics.com^
 ||andmejs.com^$third-party
 ||aoparking.com^$third-party
+||aralego.com^
 ||at918.com^$third-party
 ||at98.com^
 ||av8d.net^$third-party
@@ -828,6 +827,7 @@ hk.yahoo.com###mntl1
 ||tc600.com^
 ||tdayi.com^
 ||tg.1155t.cn^
+||tk001.com^$third-party
 ||toourbb.com^
 ||top888.com^$third-party
 ||toufangke.com^$third-party
@@ -3895,6 +3895,7 @@ _yad_jsonp_
 ||pconline.com.cn/pconline/download/fz/
 ||pconline.com.cn/show?id=
 ||pconline.com.cn/test/*.html?
+||pconline.com.cn/zt/*/double11/
 ||pcpp.com.cn*/pcpp.jpg
 ||pcpp.com.cn/news/a/*_article_right.html
 ||pcpp.com.cn/news/ad/
@@ -4071,6 +4072,7 @@ _yad_jsonp_
 ||qq.com/livemsg?
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
 ||qq.com/PL_adT.htm
+||qq.com/playgame/videoweb/
 ||qq.com/qzone/biz/gdt/display/positions/waicai/
 ||qqcf.com/js/Content_Get.js
 ||qqjia.com/dan.js
@@ -4125,6 +4127,7 @@ _yad_jsonp_
 ||rfidworld.com.cn/js/b.js
 ||rfidworld.com.cn/js/c.html
 ||rh.qq.com^
+||right.com.cn/forum/static/image/common/logo.gif
 ||right.com.cn/logo/*.gif
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||ringhk.com/adves/
@@ -4332,8 +4335,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
 ||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|84zr.com|99files.net|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|xinqixi.com|xxxbt.com|zhiboche.com
-||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|wan1024.com|wanfuck.com|xxxgao.com
-||sinaimg.cn^*.gif$domain=97aa1.com
+||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|wan1024.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
@@ -5172,14 +5174,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||pconline.com.cn/zt/*/double11/
-||qq.com/playgame/videoweb/
-||right.com.cn/forum/static/image/common/logo.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-solarzoom.com##DIV[class^="adv"]
-rj.baidu.com##.mid-recommend
-tigtag.com###js-dropdown
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5948,6 +5944,7 @@ freehao123.com###jieweigg
 yb983.com###jihuaslide
 iqiyi.com###jingdongArea
 gog.com.cn###jqzxAd
+tigtag.com###js-dropdown
 100shuai.com###js_lol_ad
 3721.cc###key2 > a
 3721.cc###keywords > a
@@ -7848,6 +7845,7 @@ baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
 midifan.com##.mid-aaa
 115.com##.mid-banner
+rj.baidu.com##.mid-recommend
 999.com##.midd-fck
 360-bo.com##.middiv > div[style="text-align:center;"]
 uc123.com##.middle-links
@@ -8755,7 +8753,7 @@ weather.com.cn##div[class^="adpos"]
 shanhe.cc##div[class^="ads"]
 xcar.com.cn##div[class^="adset"]
 hybbs.com##div[class^="adtop"]
-kugou.com,yesky.com##div[class^="adv"]
+kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 ifeng.com##div[class^="adv0"]
 ifeng.com##div[class^="adv1"]
 mkzhan.com##div[class^="advertising_"]
