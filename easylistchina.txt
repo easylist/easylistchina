@@ -258,6 +258,7 @@ hk.yahoo.com###mntl1
 ~houdask.com###kfivtwin
 ###kfpopupDiv
 ###leftCouple
+###leftFloat + #rightFloat
 ###left_top_ad
 ###lovexin1
 ###lovexin11
@@ -267,6 +268,7 @@ hk.yahoo.com###mntl1
 ###lovexin2
 ###miaov_float_layer
 ###micast_ads
+###movieInfoRight
 ###my-adsFPR
 ###olfullad
 ###ptcmsad1
@@ -382,8 +384,6 @@ hk.yahoo.com###mntl1
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###leftFloat + #rightFloat
-###movieInfoRight
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -1929,6 +1929,7 @@ _yad_jsonp_
 ||am.szhome.com^
 ||am.zdnet.com.cn/www/images/$image,object,subdocument
 ||amd.cn/yyets.js
+||an7.tv/Runtime/js/
 ||angpic.3g.net.cn/ai/
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
@@ -3733,6 +3734,7 @@ _yad_jsonp_
 ||mopxing.com/skin/sex/js/*banner
 ||mopxing.com/skin/sex/js/*content
 ||moratame.tw/img/contents/banner
+||motorfans.com.cn/igg/
 ||motorfans.com.cn/iggs_system/
 ||mp3.haogeba.com^$image,object
 ||mql5.com/10/0/*.gif
@@ -4490,6 +4492,7 @@ _yad_jsonp_
 ||taobaocdn.com^$domain=dnwx.com|snybw.com
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taodake.com/taodake_img/Images/union/
+||taoguba.com.cn/img/2015/08/26/oh5555jfx48p.jpg
 ||taoguba.com.cn/js/hezuo/
 ||taoguba.com.cn/js/tgbduilian
 ||taohua.me/tool/taohuazu.js
@@ -4640,6 +4643,7 @@ _yad_jsonp_
 ||uho.com.tw/images/rosewater.jpg
 ||uho.com.tw/kid-ad/
 ||uho.com.tw^$subdocument
+||uisdc.com/wp-content/uploads/2013/08/sitestar
 ||union.china.com.cn^
 ||untitled.dwstatic.com^
 ||uopera.net/content/uploadfile/201412/f26a1420006500.png
@@ -4683,6 +4687,7 @@ _yad_jsonp_
 ||verygoogle.com/static/img/taocan.png
 ||verygoogle.com/static/img/vpn.png
 ||veryhuo.com/plus/js/
+||veryim.net^*/1111
 ||verypsp.com:8081/sy.jpg
 ||vgugu.com/iframes/xp-
 ||vhiphop.qiniudn.com/cloth
@@ -5173,21 +5178,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||veryim.net^*/1111
-||motorfans.com.cn/igg/
-||an7.tv/Runtime/js/
-||taoguba.com.cn/img/2015/08/26/oh5555jfx48p.jpg
-||uisdc.com/wp-content/uploads/2013/08/sitestar
 !------------------------Specific element hiding rules------------------------!
-taoguba.com.cn###ad_955042
-uc123.com###float
-uc123.com###hb-popup
-uc123.com##.hb-cover
-uc123.com##A[href^="http://alimarket.taobao.com/"]
-motorfans.com.cn###countdowncontainer5
-veryim.net##.tmall1111 + .clearfix
 gpcxw.com###AA2
-buzzhand.com##.mid-post-ad-text
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5352,6 +5344,7 @@ gameapps.hk###adTopClickAreaLeft
 gameapps.hk###adTopClickAreaRight
 gameapps.hk###adTopClickAreaTop
 udn.com###ad_300_100
+taoguba.com.cn###ad_955042
 autohome.com.cn###ad_990_tm
 shaoxing.com.cn###ad_Full
 www.sohu.com###ad_TOP
@@ -5632,6 +5625,7 @@ qq.com###coo_qqBrowser
 0597kk.com###cool_fixed
 360.cn###corner-flash
 2345.com###corner_div
+motorfans.com.cn###countdowncontainer5
 baidu.com,danyang.com###couplet-left
 baidu.com,danyang.com###couplet-right
 youxi.baidu.com###coupletBanner
@@ -5755,7 +5749,7 @@ qqread.com###flash310ad
 8684.cn###flashLink
 8684.cn###flashLink2
 7574.com,doyo.cn###flash_cover_box
-shangdu.com###float
+shangdu.com,uc123.com###float
 weibo.com###floatAd-left
 weibo.com###floatAd-right
 guagua.cn###floatRoomDiv
@@ -5859,6 +5853,7 @@ hao123.com###hao123-gw11
 java1234.com###hao_search_content
 668vv.net,k248.com###haoetv
 668vv.net###haoetv1
+uc123.com###hb-popup
 macd.cn###hbad
 coolaler.com###hd
 ithome.com###hd_float
@@ -7527,6 +7522,7 @@ jjwxc.net##.h8px + div[align="center"]
 kekenet.com##.h_news_c
 bbs.yzz.cn##.half-banner
 house365.com##.handsome
+uc123.com##.hb-cover
 ynet.com##.hc4 > .L2
 973.com##.hc_ad
 youth.cn##.hd_pic
@@ -7858,6 +7854,7 @@ baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
 midifan.com##.mid-aaa
 115.com##.mid-banner
+buzzhand.com##.mid-post-ad-text
 rj.baidu.com##.mid-recommend
 999.com##.midd-fck
 360-bo.com##.middiv > div[style="text-align:center;"]
@@ -8360,6 +8357,7 @@ dizo.com.cn##.tl_ad1
 tieba.baidu.com##.tl_shadow + li[class]:not(.tl_shadow)
 esnai.com##.tlgg
 srzc.com##.tlgg_one
+veryim.net##.tmall1111 + .clearfix
 198zone.com##.tongad
 0898.net,gamefy.cn,hi.people.com.cn##.tonglan
 xinhuanet.com##.tonglan01
@@ -8629,6 +8627,7 @@ mobile01.com##a[href^="adredir.php"]
 jobbole.com##a[href^="http://100offer."]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
 chacuo.net##a[href^="http://affiliate.lufax."]
+uc123.com##a[href^="http://alimarket.taobao.com/"]
 qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
@@ -9399,6 +9398,7 @@ sohu.com#@#.label-ad
 fsjoy.com#@#.main_adv
 hc360.com#@#.midad
 coral.qq.com#@#.mod-ad
+sjsmitaa.org#@#.module-ads
 mobile01.com#@#.navad
 fjsen.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
@@ -9407,11 +9407,8 @@ yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-sjsmitaa.org#@#.module-ads
 !---------------------------------URL Whitelist-------------------------------!
-@@||sjsmitaa.org/bin/showads.
 @@&ad_type=$domain=x.jd.com
-@@||gg.img123456.com^
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9681,6 +9678,7 @@ sjsmitaa.org#@#.module-ads
 @@||game.sina.com.tw/game_data/advertise/
 @@||gamersky.com^*/dhgame_
 @@||ganji.com/findjob/send_resume.*&ad_type=
+@@||gg.img123456.com^
 @@||gg.woniu.com^$domain=snail.com
 @@||gg1z.com/statics/gg/greendown/logo.gif
 @@||go.goyeah.com/adpolestar/$object-subrequest
@@ -9800,6 +9798,7 @@ sjsmitaa.org#@#.module-ads
 @@||sinaimg.cn/large/696b3be5jw1eiuo9zjz34g206e01yjra.gif
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
+@@||sjsmitaa.org/bin/showads.
 @@||spbonow.com/images/ads/logo.gif
 @@||spbonow.com/UploadFiles/201505/2015051853456325.gif
 @@||static.atm.youku.com^*.swf
