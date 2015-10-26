@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/taihai/v2014/images/index/aa_10.
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -182,6 +181,7 @@ hk.yahoo.com###mntl1
 /source/plugin/mama_tips/*
 /static/adsview/*
 /sygg/*
+/taihai/v2014/images/index/aa_10.
 /tan.js
 /tanchuang.
 /taobaoad.html
@@ -1064,6 +1064,7 @@ hk.yahoo.com###mntl1
 /moneymaker/js/tmpp.js
 /moneymaker/js/videoplayer.js
 /msnportal/wp/2014/08/29/742784a6-b14f-420b-80cc-d6bd0be6b15d.jpg
+/mydisplay.php?i=$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 /nddailyfile/webadv/*
 /newhuagg/*_right
 /newhuagg/index_
@@ -1943,6 +1944,8 @@ _yad_jsonp_
 ||app.acm.dzwww.com^
 ||appinn.com^*/licaifan.
 ||aqlife.com/data/attachment/portal/
+||aqy102.com/js/aqy/
+||aqy103.com/js/aqy/
 ||ark.letv.com/s?res=
 ||ark.letv.com/s?vid=
 ||arpun.com/arpun/softinfo
@@ -3305,9 +3308,9 @@ _yad_jsonp_
 ||itavcn.com/images/2013/ad_
 ||itavcn.com/images/2014/ad_
 ||itavcn.com/pic/news/*305X80.swf
+||itc.*^prod=ad&
 ||itc.cn/?prod=rtb&
 ||itc.cn/activity/activity_js/changyan_config_
-||itc.*^prod=ad&
 ||itc.cn^*_ad/src/*.swf
 ||item.taobao.com^$domain=iask.sina.com.cn
 ||iteye.com/iframe_ggbd/
@@ -4526,6 +4529,7 @@ _yad_jsonp_
 ||tianshui.com.cn/newbg.jpg
 ||tianshui.com.cn/newimages/xhglj.swf
 ||tianshui.com.cn/Scripts/AC_
+||tianshui.com.cn/sd.swf
 ||tianshui.com.cn/yb.html
 ||tiansin.com/wp-adsense/
 ||tiantian.tv/api/autosda.php
@@ -5174,18 +5178,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tianshui.com.cn/sd.swf
-||aqy102.com/js/aqy/
-||aqy103.com/js/aqy/
-/mydisplay.php?i=$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_rl
-qq.com##.ad-long-pic
-hao123.com##.recommend
-xuenb.com##.w1050
-xuenb.com##.w300
-xuenb.com##.w728
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6582,6 +6576,7 @@ yiwugou.com##.ad-index-left
 yiwugou.com##.ad-index-right
 iqilu.com##.ad-l-w1000
 ifeng.com##.ad-list
+qq.com##.ad-long-pic
 xinhuanet.com##.ad-news01
 qoocc.com##.ad-page-right1
 baofeng.com##.ad-pop-wrap
@@ -7264,6 +7259,7 @@ yxzoo.com##.downgg
 121ask.com##.downmain1
 400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_l > .row-fluid:nth-child(4)
 400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_r
+400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_rl
 265g.com##.dr_top_text
 shuaijiao.com##.dt_ad
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
@@ -8088,7 +8084,7 @@ xmfish.com##.readCon_right
 xinbiqi.com##.readerAd
 finance.ifeng.com##.rec
 image.baidu.com##.recom
-image.baidu.com##.recommend
+hao123.com,image.baidu.com##.recommend
 guba.eastmoney.com##.redian
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
 haosou.com##.res-rich-drug
@@ -8424,6 +8420,7 @@ cnjxol.com##.tr_r
 ifeng.com##.trade
 dict.baidu.com##.tran-download-ad
 tw.yahoo.com##.travelads
+ts.cn##.tsggding
 hualady.com##.tu_guangao
 hualady.com##.tu_guangao2
 colayun.com##.tui
@@ -8469,11 +8466,12 @@ sogou.com##.vrsp_itemList
 10jqka.com.cn##.w1000
 0573ren.com##.w1000.ad
 shm.com.cn##.w1000.surround
-pc841.com##.w1050
+pc841.com,xuenb.com##.w1050
 miomio.tv##.w1160.h90
-meili.cn,pc841.com##.w300
+meili.cn,pc841.com,xuenb.com##.w300
 9yaocn.com##.w300Banner
 dbw.cn##.w720
+xuenb.com##.w728
 blue-way.com.tw##.w960 ~ a
 qikuyou.com##.w960[style="height:90px;"]
 xdf.cn##.w_ads
@@ -9117,7 +9115,6 @@ szhk.com##img[id^="adp"]
 0756.la##img[lowsrc*="/ad-htm/"]
 6.gy##img[title="ad"]
 0898.net,hi.people.com.cn,xizi.com##img[width="1000"]
-ts.cn##.tsggding
 jmbbs.com##img[width="1100"]
 javjunkies.com##img[width="160"][height="600"]
 6.gy##img[width="300"][height="250"]
@@ -9404,7 +9401,6 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||aqy103.com/js/aqy/main.js
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -9595,6 +9591,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||appbyme.com/adclient/
 @@||appbyme.com^*/Advertisement.css
 @@||appsina.com/cms/ads/
+@@||aqy103.com/js/aqy/main.js
 @@||artxun.com^$domain=findart.com.cn
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
