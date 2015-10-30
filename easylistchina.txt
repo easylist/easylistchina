@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/aoyou372down300_
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -109,6 +108,7 @@ hk.yahoo.com###mntl1
 /AdverJS/*
 /advpic/*
 /ajds/*
+/aoyou372down300_
 /Banner-pcbeta-
 /bbh_ad.
 /bbh_ad_
@@ -935,7 +935,7 @@ hk.yahoo.com###mntl1
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bforu.info|bfooru.info|byhh.org|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
+|http:$popup,third-party,domain=520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bfooru.info|bforu.info|byhh.org|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
@@ -2091,6 +2091,8 @@ _yad_jsonp_
 ||besc.baidustatic.com^
 ||bestvogue.com/fans/
 ||bestxl.com/langzi/0403/ld.jpg
+||bfooru.info/03.jpg
+||bfooru.info/images/ali.gif
 ||bforu.info/03.jpg
 ||bforu.info/images/ali.gif
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
@@ -2353,6 +2355,7 @@ _yad_jsonp_
 ||cnwnews.com/gg200903/nry02.js
 ||cnwnews.com/gg200903/nrzs.js
 ||cnzol.com/page/
+||cnzol.com/template/style/images/lcdl.js
 ||cnzol.com/template/style/images/wlfloat.js
 ||cnzol.com/userfiles/image/*#
 ||cnzzla.com/public/scripts/money.js
@@ -3781,6 +3784,7 @@ _yad_jsonp_
 ||mycodes.net/js/$image
 ||mycodes.net/js/down_txt.js
 ||mycodes.net/js/hf_txt.js
+||mydrivers.com/www/*-1000x90.
 ||mydrivers.com/www/2015/s1120151029.png
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/abcd01/
@@ -3904,6 +3908,7 @@ _yad_jsonp_
 ||pc0359.cn/js/un.js
 ||pc141.com/statics/new_img/info_left.png
 ||pc3w.com/js/
+||pcbeta.com/static/image/microsoftstore/
 ||pccoo.cn/js/dlv1.0.js
 ||pcgames.com.cn/download/newnq/
 ||pcgames.com.cn/jctj/
@@ -5201,20 +5206,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bfooru.info/03.jpg
-||bfooru.info/images/ali.gif
-||pcbeta.com/static/image/microsoftstore/
-||mydrivers.com/www/*-1000x90.
-||cnzol.com/template/style/images/lcdl.js
 !------------------------Specific element hiding rules------------------------!
-cnzol.com##A[href="https://shop127142641.taobao.com"]
-ithome.com###coin-slider > A[href*=".ruanmei."]
-ithome.com###tt3 > H2 > A[href*=".ruanmei."]
-ithome.com###hl-toutiao > H2 > A[href*=".ruanmei."]
-ithome.com##A[href^="http://e.cn.miaozhen."]
-mydrivers.com##TABLE[width="1000"][height="90"]
 gpcxw.com###AA2
-773buy.com##.ads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5608,6 +5601,7 @@ chinaqking.com###cnt-ad
 mydrivers.com###code_lb
 lhk.gov.cn,tc.cn###codefans_net
 qingdaonews.com###codex
+ithome.com###coin-slider > a[href*=".ruanmei."]
 qq.com###comic_ad
 0743ds.com###comiis_ad00
 haianw.com###comiis_haianw01
@@ -5915,6 +5909,7 @@ hexun.com,hexun.com.tw###hexunCouplet01
 51caiju.com###hint + .AdTop-Article-QQ
 gamersky.com###hitix
 ithome.com###hl
+ithome.com###hl-toutiao > h2 > a[href*=".ruanmei."]
 ithome.com###hla
 gongkong.com###hmi_pop
 t.qq.com###homeBannerNew
@@ -6394,6 +6389,7 @@ tianya.cn###travel_float
 tsdm.net###tsdmadv_img
 ithome.com###tt1
 ithome.com###tt2
+ithome.com###tt3 > h2 > a[href*=".ruanmei."]
 sohu.com###turn-ad
 ali213.net###tv
 gdzjdaily.com.cn###twoAd
@@ -6852,7 +6848,7 @@ blog.dausos.com,qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-100bt.com,591.xxx,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,hangzhou.com.cn,haokan5.com,hc360.com,html-js.com,lanrenzhijia.com,mnw.cn,nownews.com,oxgood.com,qz930.com,ranwen.net,ranwen.org,sina.com,xunleihd.com,yeeyi.com##.ads
+100bt.com,591.xxx,773buy.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,hangzhou.com.cn,haokan5.com,hc360.com,html-js.com,lanrenzhijia.com,mnw.cn,nownews.com,oxgood.com,qz930.com,ranwen.net,ranwen.org,sina.com,xunleihd.com,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -8675,6 +8671,7 @@ hexieshe.com##a[href="http://www.masadora.net/"]
 open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 xiadele.com##a[href="http://yun.banjiajia.com"]
+cnzol.com##a[href="https://shop127142641.taobao.com"]
 bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
 1024gc.com,1024gc.info,1024gc.net,1024gc.org,1024gongchang.com,1024gongchang.info,1024gongchang.net,1024gongchang.org,1024hegongchang.com,1024hegongchang.info,1024hegongchang.net,1024hegongchang.org,1024hgc.com,1024hgc.info,1024hgc.net,1024hgc.org##a[href^="/ad/"]
@@ -8692,6 +8689,7 @@ tv.2345.com##a[href^="http://buy.2345.com/go/?"]
 zhibo8.cc##a[href^="http://caipiao."]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
+ithome.com##a[href^="http://e.cn.miaozhen."]
 cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 zdfans.com##a[href^="http://js.50bang.org/?"]
@@ -9261,6 +9259,7 @@ dbw.cn##table[width="100%"][height="205"]
 66rd.cn##table[width="1000"][height="60"]
 17kqw.com##table[width="1000"][height="685"]
 66rd.cn##table[width="1000"][height="70"]
+mydrivers.com##table[width="1000"][height="90"]
 baoliaomi.com##table[width="1002"]
 usa.bytravel.cn##table[width="1050px"][bgcolor="#ffffff"]
 taiwandaily.net##table[width="200"] > tbody > tr > td[height="50"]
@@ -9375,6 +9374,7 @@ haha.mx#@#.ad-1
 haha.mx#@#.ad-4
 mobile01.com#@#.ad-a
 diantai.ifeng.com#@#.ad-b
+pptstore.net#@#.ad-big
 comefromchina.com#@#.ad-block
 pixiv.net#@#.ad-footer
 qq.com#@#.ad-icon
@@ -9456,7 +9456,6 @@ yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-pptstore.net#@#.ad-big
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
