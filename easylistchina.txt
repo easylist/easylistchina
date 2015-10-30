@@ -3332,10 +3332,6 @@ _yad_jsonp_
 ||iteye.com/iframe_ggbd/
 ||ithome.com/images/partner/
 ||ithome.com/js/recommend.js
-||ithome.com/NewsUploadFiles/focus/3.jpg
-||ithome.com/NewsUploadFiles/focus/43.jpg
-||ithome.com/NewsUploadFiles/focus/44.jpg
-||ithome.com/NewsUploadFiles/focus/6.jpg
 ||itiexue.net^*.gif?w=1500&h=1500
 ||itjkr.com/upload/ad/
 ||itjsb.com/file/script/A27.js
@@ -5212,6 +5208,8 @@ _yad_jsonp_
 ||cnzol.com/template/style/images/lcdl.js
 !------------------------Specific element hiding rules------------------------!
 cnzol.com##A[href="https://shop127142641.taobao.com"]
+ithome.com###coin-slider > A[href*=".ruanmei."]
+ithome.com##A[href^="http://e.cn.miaozhen."]
 mydrivers.com##TABLE[width="1000"][height="90"]
 gpcxw.com###AA2
 773buy.com##.ads
