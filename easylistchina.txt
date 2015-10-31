@@ -2826,7 +2826,6 @@ _yad_jsonp_
 ||gigacircle.com/images/*720X85.
 ||gimhoy.com/201404/cute.jpg
 ||github.io/2048/full/meta/cmpay.gif
-||glgoo.org^$script
 ||global.tianyaui.com/global/wizard/js/wizard.js
 ||gmbuluo.com/js/liebiao
 ||gmbuluo.com/js/shouye
@@ -9455,8 +9454,10 @@ yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+scholar.glgoo.org#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=scholar.glgoo.org
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
