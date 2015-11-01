@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-_billboard_320x100.iframe.
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -202,6 +201,7 @@ _billboard_320x100.iframe.
 :8080/ad/
 :8898/ads_
 =loginExtAD.
+_billboard_320x100.iframe.
 |http://*.cc/ad/
 |http://*.cn/ad/
 |http://*.hk/ad/
@@ -935,10 +935,9 @@ _billboard_320x100.iframe.
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-/item.htm?$popup,domain=www.tsdm.net
-||moezone.taobao.com^$popup,domain=www.tsdm.net
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
+/item.htm?$popup,domain=www.tsdm.net
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
@@ -966,6 +965,7 @@ _billboard_320x100.iframe.
 ||jjwxc.net/jjad*.html$popup
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||moe.005.tv^$popup,third-party
+||moezone.taobao.com^$popup,domain=www.tsdm.net
 ||qidian.com/showavd.$popup
 ||smartor.org/iclk/?zoneid=$popup
 ||sohu.com/i/?pvid=$popup
@@ -1147,8 +1147,7 @@ _yad_jsonp_
 |http://*/t.js$domain=99770.cc|99comic.com|99manga.com
 |http://*/ts.js$domain=208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
-|http://t.cn/$domain=aikuhu.com
-|http://t.cn/$domain=cctv5bo.com
+|http://t.cn/$domain=aikuhu.com|cctv5bo.com
 |http://www.i-ab.co/zz/
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
 ||005.tv:60000/ad.js
@@ -2658,6 +2657,7 @@ _yad_jsonp_
 ||epinv.com/wp-content/themes/ep/tu/yinshu.gif
 ||eprice.cn/image/upload/ad/
 ||eprice.com.tw/img/dis/file/*.html
+||eprice.com.tw/img/tw_m/ad/
 ||eprice.com.tw/js/swfobject-2.3.js
 ||etdown.net/images/ad1
 ||etest8.com/style/950x90_2.js
@@ -3128,6 +3128,7 @@ _yad_jsonp_
 ||ibook8.com*/piao*.js
 ||ibook8.com/js/b*.js
 ||ibook8.com/xia*.js
+||ibtzz.com/wordpress/wp-content/themes/NewsPro2/images/guozi.jpg
 ||iciba.com/web/co/ci/
 ||icili.com/cpma.js
 ||icnkr.com/cnkradv/
@@ -5210,14 +5211,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ibtzz.com/wordpress/wp-content/themes/NewsPro2/images/guozi.jpg
-||eprice.com.tw/img/tw_m/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
-appledaily.com.tw##A[href^="http"]:not([href^="http://www.apple"]) > .owl-lazy[tcode^="AD:"]
-vipcn.com##.adn
-pt80.net###wp > CENTER
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5337,6 +5332,7 @@ letv.com###a_title_11628
 weather.com.cn###ab
 weather.com.cn###abc
 hao.360.cn###activity
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
 3773.com.cn,cao1024.com,cnedu.cn,jqgcw.com,leiting001.com,leitingcn.com,rj.baidu.com,srzc.com,wenkudaquan.com,win007.com,win7sky.com,xinhuanet.com,xj163.cn,xue5.com,ylnet.com.cn###ad
 sportsv.net###ad-300250-top
 ruten.com.tw###ad-467
@@ -6442,7 +6438,7 @@ xici.net###word_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###worldcup_topic
 v17go.com###wp > a
 67.228.203.174,iu91.co,sejie.com,sejie3.us,ukhuaren.co###wp > br
-67.228.203.174,iu91.co,sejie.com,sejie3.us,ukhuaren.co###wp > center
+67.228.203.174,iu91.co,pt80.net,sejie.com,sejie3.us,ukhuaren.co###wp > center
 528500.com###wp > div[align="center"]
 chcj.net,yixingjia.com###wp > table[width="960"]
 21edu8.com###wrap[style="margin-top:5px;margin-bottom:5px;height:90px;"]
@@ -6847,7 +6843,7 @@ jxedt.com##.adlink1
 jxedt.com##.adlink2
 kuailady.com##.adm_wrap
 mobile01.com##.admicrobtn
-ccoo.cn##.adn
+ccoo.cn,vipcn.com##.adn
 gaokao.com##.adout116
 68design.net##.adplay
 ifeng.com##.adpubpic
@@ -8630,6 +8626,7 @@ v7v3.com##.zzsl
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 dnvod.eu##A[href^="/HitOnAds.aspx?id="]
+appledaily.com.tw##A[href^="http"]:not([href^="http://www.apple"]) > .owl-lazy[tcode^="AD:"]
 dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
 tiexue.net##[class*="junph"]
 5184.com##[class^="gk_gg"]
