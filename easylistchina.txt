@@ -105,6 +105,7 @@ hk.yahoo.com###mntl1
 /adpfile/*
 /AdPreview/*
 /adpuba/*
+/adpv?cn=
 /AdverJS/*
 /advpic/*
 /ajds/*
@@ -224,7 +225,6 @@ _billboard_320x100.iframe.
 |http://acs.
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
-/adpv?cn=
 !------------------------General element hiding rules-------------------------!
 ###MsnDialog.ad
 ###MyMoveAd
@@ -432,7 +432,6 @@ _billboard_320x100.iframe.
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
 ||007y.net^$third-party
-||a907907.com^
 ||033.com^$third-party
 ||0591101.com^$third-party
 ||0756j.com^$third-party
@@ -544,6 +543,7 @@ _billboard_320x100.iframe.
 ||9xu.com^$third-party
 ||a3p4.com^$third-party
 ||a7shun.com^$third-party
+||a907907.com^
 ||acgbase.com^$third-party
 ||acs86.com^$third-party
 ||ad-plus.cn^$third-party
@@ -1295,6 +1295,7 @@ _yad_jsonp_
 ||163.com/special/*/ace_downbig.js
 ||163.com/special/*/beitou.js
 ||163.com/special/*/scroolAd
+||163.com/special/*/ted_vad.
 ||163.com/special/*/tonglan1.js
 ||163.com/special/*/topbg.js
 ||163disk.com/pic/960x90-
@@ -4821,6 +4822,9 @@ _yad_jsonp_
 ||whqyw.com/file/upload/201408/01/09-41-45-92-1.jpg
 ||whsfzx.com/jj/
 ||win7china.com/images/960x60.gif
+||winba.me/wp-content/uploads/*/300x300.
+||winba.me/wp-content/uploads/*/QQ%
+||winba.me/wp-content/uploads/2015/10/image.jpg
 ||windowszj.com/images/TopBanner.js
 ||wishdown.com/images/*.gif
 ||wlnews.zjol.com.cn/bbs/
@@ -5211,10 +5215,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||163.com/special/*/ted_vad.
-||winba.me/wp-content/uploads/*/QQ%
-||winba.me/wp-content/uploads/2015/10/image.jpg
-||winba.me/wp-content/uploads/*/300x300.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -8029,6 +8029,7 @@ allhabit.com##.overture_forumlist
 allhabit.com##.overture_threadlist
 allhabit.com##.overture_threadlist_single
 allhabit.com##.overture_top_banner
+appledaily.com.tw##.owl-lazy[tcode^="AD:"]
 sgcn.com##.oyad2.cl
 bbdj.com##.p_banner
 bbdj.com##.p_c4
@@ -8627,7 +8628,6 @@ v7v3.com##.zzsl
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 dnvod.eu##A[href^="/HitOnAds.aspx?id="]
-appledaily.com.tw##.owl-lazy[tcode^="AD:"]
 dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
 tiexue.net##[class*="junph"]
 5184.com##[class^="gk_gg"]
