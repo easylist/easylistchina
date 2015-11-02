@@ -224,6 +224,7 @@ _billboard_320x100.iframe.
 |http://acs.
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
+/adpv?cn=
 !------------------------General element hiding rules-------------------------!
 ###MsnDialog.ad
 ###MyMoveAd
@@ -388,7 +389,7 @@ _billboard_320x100.iframe.
 ##a[href^="http://www.rb88.com"]
 ##a[href^="http://www.whao9.com"]
 ##a[href^="https://www.18vpn.biz/r.php"]
-##body[onload="u()"] > #x
+##body[onload*="u()"] > #x
 ~dsjunshi.com##div[id^="ad_thread"]
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
