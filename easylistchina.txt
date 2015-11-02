@@ -425,9 +425,7 @@ _billboard_320x100.iframe.
 |http://*.cn/s.php?id=$script,third-party
 |http://*.com/s.php?id=$script,third-party
 |http://*.tw/s.php?id=$script,third-party
-|http://*:6215/s.php?id=$script,third-party
-|http://*:6970/s.php?id=$script,third-party
-|http://*:8088/s.php?id=$script,third-party
+|http://*:*/s.php?id=$script,third-party
 |http://1.3.0.10^
 |http://news.*.html|$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
@@ -9528,9 +9526,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/ima/*ad.$domain=21394.com|94pan.com|fmdisk.com|fmpan.com
 @@/images/*/*.gif$domain=107.150.17.66|23.226.134.115|23.226.134.116|23.226.138.28|67.228.203.174|iu91.co|maichun5.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
 @@/images/ad$domain=10pan.cc|77pan.cc|789disc.cc|789pan.cc|huimeiku.com|ifonce.com
-@@/images/ad/*$domain=518pan.cc|5i5j.com|9588.com|diantai.ifeng.com|dod-tec.com|gueizu.com|landtop.com.tw|ourgame.com|rapoo.cn|rapoo.nl|snh48.com|tingbook.com
-@@/IMAGES/AD/*$domain=pro-partner.com.tw
-@@/images/ad/*$domain=sozi.cn
+@@/images/ad/*$domain=5i5j.com|9588.com|diantai.ifeng.com|dod-tec.com|gueizu.com|landtop.com.tw|ourgame.com|pro-partner.com.tw|rapoo.cn|rapoo.nl|snh48.com|sozi.cn|tingbook.com
 @@/images/ads.$domain=01hr.com
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
