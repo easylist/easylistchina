@@ -394,6 +394,8 @@ _billboard_320x100.iframe.
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+###crazy_ad_float
+###crazy_ad_layer
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -5219,7 +5221,18 @@ _yad_jsonp_
 ||whsfzx.com/img/top.js
 ||111cn.net/js/v8/art_
 ||www.111cn.net/pic/
+||gdmm.com/Public/config/Couplet/Index
+||gdmm.com/js/images/y.swf
+||gdmm.com/js/images/z.swf
+||gdmm.com/mybt/
 !------------------------Specific element hiding rules------------------------!
+gdmm.com###floatl1
+gdmm.com###floatl2
+gdmm.com###floatl3
+gdmm.com###floatr1
+gdmm.com###floatr2
+gdmm.com###floatr3
+gdmm.com##.flbg
 gpcxw.com###AA2
 wannianli.com.cn###float_right
 hc360.com,yaolan.com###AD
@@ -5676,8 +5689,6 @@ baidu.com,danyang.com###couplet-right
 youxi.baidu.com###coupletBanner
 zsnews.cn###crazyGG
 gamebase.com.tw###crazy_ad
-qq.com###crazy_ad_float
-qq.com###crazy_ad_layer
 ipc.me###crumb_r
 wpsoso.com###cse-search-box > p
 hkgolden.com###ctl00_ContentPlaceHolder1_view_form > div > table[width="100%"] > tbody > tr > td:not([align]) > .repliers[width="100%"][border="1"]
