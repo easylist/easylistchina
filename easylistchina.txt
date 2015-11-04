@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-|http://*/tu/gg.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -223,6 +222,7 @@ _billboard_320x100.iframe.
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://*/s.js?sp=*&r=$third-party
+|http://*/tu/gg.js
 |http://acs.
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
@@ -247,6 +247,8 @@ _billboard_320x100.iframe.
 ###adtop1
 ###adx_cggp
 ###asto_box
+###crazy_ad_float
+###crazy_ad_layer
 ###cs_left_couplet
 ###cs_right_couplet
 ###doyoo_mon_mask
@@ -395,8 +397,6 @@ _billboard_320x100.iframe.
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###crazy_ad_float
-###crazy_ad_layer
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -1128,6 +1128,7 @@ _billboard_320x100.iframe.
 /xybgg.gif$domain=qzntv.com|qzwb.com
 /ycpiframe.aspx$domain=strtv.cn
 /ykyy.gif$domain=qzntv.com|qzwb.com
+/youxituoluo/images/text_top_
 /ysm.ezprice.net/*
 /ysm/ewdna/*
 /yythems/images/1213.gif
@@ -1225,6 +1226,7 @@ _yad_jsonp_
 ||111cn.net/gg_ad/
 ||111cn.net/images/v8/vip.jpg
 ||111cn.net/js/downc*.js
+||111cn.net/js/v8/art_
 ||111cn.net/js/v8/body
 ||111cn.net/js/v8/page_
 ||111cn.net/v8/fun.js
@@ -1921,6 +1923,7 @@ _yad_jsonp_
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||aipai.com/common/i0uat4jq/play/item.html
 ||airenti.co^$script
+||airenti.xyz^$script
 ||aituan.com/at/bbs_gg/
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/index.php?c=position&
@@ -1967,6 +1970,7 @@ _yad_jsonp_
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
 ||app.acm.dzwww.com^
+||appinn.com/images/201509/wd.png
 ||appinn.com^*/licaifan.
 ||aqlife.com/data/attachment/portal/
 ||aqy102.com/js/aqy/
@@ -2797,6 +2801,10 @@ _yad_jsonp_
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gdaily.org/wp-content/uploads/an-temp/
+||gdmm.com/js/images/y.swf
+||gdmm.com/js/images/z.swf
+||gdmm.com/mybt/
+||gdmm.com/Public/config/Couplet/Index
 ||gdt.qq.com^
 ||geiliwx.com/read/ad$script
 ||get.766.com^
@@ -4823,6 +4831,7 @@ _yad_jsonp_
 ||whnews.cn/wh_public/xuxu/homegg/
 ||wholehk.com/madads$subdocument
 ||whqyw.com/file/upload/201408/01/09-41-45-92-1.jpg
+||whsfzx.com/img/top.js
 ||whsfzx.com/jj/
 ||win7china.com/images/960x60.gif
 ||winba.me/wp-content/uploads/*/300x300.
@@ -4853,6 +4862,7 @@ _yad_jsonp_
 ||wuxi.cn/index.php?m=poster&
 ||wuyou.*/0000/banner.gif
 ||www-dnwx-com.anquanbao.cn/pic
+||www.111cn.net/pic/
 ||www.china.com.cn/node_$domain=news.china.com.cn
 ||wwwcdn.kimiss.net/btn/
 ||wwwzqr.cn/template/comiis_kmsjx3hlx/ads/
@@ -5082,6 +5092,8 @@ _yad_jsonp_
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youxiaxiazai.com/db_top/index_top.htm
 ||youxiaxiazai.com/dm/
+||youxituoluo.com/wp-content/uploads/2015/07/20150724152002343.jpg
+||youxituoluo.com/wp-content/uploads/2015/09/20150914175545748.jpg
 ||ysxs8.com/ysgg/
 ||ytbbs.com/images/index/
 ||yto.net.cn:8022/Image/left_ad.jpg
@@ -5218,29 +5230,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||airenti.xyz^$script
-||whsfzx.com/img/top.js
-||111cn.net/js/v8/art_
-||www.111cn.net/pic/
-||gdmm.com/Public/config/Couplet/Index
-||gdmm.com/js/images/y.swf
-||gdmm.com/js/images/z.swf
-||gdmm.com/mybt/
-/youxituoluo/images/text_top_
-||youxituoluo.com/wp-content/uploads/2015/07/20150724152002343.jpg
-||youxituoluo.com/wp-content/uploads/2015/09/20150914175545748.jpg
-||appinn.com/images/201509/wd.png
 !------------------------Specific element hiding rules------------------------!
-gdmm.com###floatl1
-map.baidu.com##.damoce-search-item
-gdmm.com###floatl2
-gdmm.com###floatl3
-gdmm.com###floatr1
-gdmm.com###floatr2
-gdmm.com###floatr3
-gdmm.com##.flbg
 gpcxw.com###AA2
-wannianli.com.cn###float_right
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5817,10 +5808,17 @@ weibo.com###floatAd-right
 guagua.cn###floatRoomDiv
 eeyy.com###float_ad0
 ssnn.net###float_picr
+wannianli.com.cn###float_right
 wenwen.sogou.com###float_window
 360.cn###floatgg
 neonan.com###floating_bottom_ad
 28hse.com###floating_left_div
+gdmm.com###floatl1
+gdmm.com###floatl2
+gdmm.com###floatl3
+gdmm.com###floatr1
+gdmm.com###floatr2
+gdmm.com###floatr3
 souqiu8.com###flv
 apk.tw###focus
 heshan.gov.cn###focusAd_03
@@ -7293,6 +7291,7 @@ wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
 qingdaonews.com##.da30050
 qingdaonews.com##.da66050
+map.baidu.com##.damoce-search-item
 bbs.it168.com##.daoh2 + .bor8
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
@@ -7415,6 +7414,7 @@ jn256.com##.fl_h180
 hualady.com##.flash_ad1
 hualady.com##.flash_ad2
 taoguba.com.cn##.flash_div
+gdmm.com##.flbg
 m.hao123.com##.flga.cn_mg_lr
 qunar.com##.flight_ad
 5ydj.com##.float
@@ -9487,7 +9487,6 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||airenti.xyz/*/$script
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -9670,6 +9669,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||advert.kf5.com^
 @@||advertise.shijue.cvidea.cn^
 @@||airenti.co/*/$script
+@@||airenti.xyz/*/$script
 @@||alimama.com^$domain=tanx.com
 @@||allyes.com.cn/player/AllyesAdPlayerV1.swf?$domain=jstv.com
 @@||angpic.3g.net.cn/ai/*/
