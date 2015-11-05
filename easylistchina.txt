@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/9115gg/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -96,6 +95,7 @@ hk.yahoo.com###mntl1
 .net/js/ads/
 .us/js/ads/
 /119g/640x60_
+/9115gg/*
 /a/p?adid=
 /acmsd/*
 /AD2v1.1.js
@@ -349,8 +349,12 @@ _billboard_320x100.iframe.
 ##.gg1000
 ##.gg_full
 ##.ggad
+##.ggg-in-post1
+##.gggtop
+##.ggpost-below
 ##.ggtop
 ##.google_adsense2
+##.home-ggg430
 ##.indexad2
 ##.indexad3
 ##.indexad4
@@ -366,6 +370,7 @@ _billboard_320x100.iframe.
 ##.ml_ad5
 ##.mlad
 ##.pagead_3
+##.papapaabp
 ##.scupioadslot
 ##.tipadds
 ##.tmall_ad_container
@@ -400,11 +405,6 @@ _billboard_320x100.iframe.
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.gggtop
-##.home-ggg430
-##.ggg-in-post1
-##.ggpost-below
-##.papapaabp
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -1441,6 +1441,7 @@ _yad_jsonp_
 ||2ccc.com/images/show/
 ||2ccc.com/images/sino.gif
 ||2ccc.com/images/WebXone.gif
+||2chcn.com/img/336x280
 ||2kk.cc/Tpl/black/images/2k-*.gif
 ||2muslim.com/data/attachment/portal/
 ||2n2k.info/g/apcjs/
@@ -2042,6 +2043,8 @@ _yad_jsonp_
 ||baidu.com/showbrand/banner_
 ||baidu.com/showbrand/sponsor_
 ||baidu.com/static/yuntu-ad/
+||baidu.com/staticapi/hotnews_new.
+||baidu.com/staticapi/misadlist.
 ||baidu.com/tb/cms/forum_skin/file_
 ||baidu.com/tb/cms/game/*_banner.
 ||baidu.com/tb/cms/game/*_banner_
@@ -2086,6 +2089,7 @@ _yad_jsonp_
 ||bdimg.com/newmap/static/common/images/nav-ad_
 ||bdimg.com/site/games/yxtg/*.js
 ||bdinfo.net/bdinfo_skin/xlsgg.js
+||bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2015-11-03/1b1d0e42f749d42320de69d4801e79cd.jpg
 ||bdstatic.com/api_hao123AdvHeader.js
 ||bdstatic.com/pc_static/detail/game_promotion/
 ||bdstatic.com/player/t/j/AEoIJIPB.js
@@ -2301,6 +2305,7 @@ _yad_jsonp_
 ||chinaqking.com/images/newPage/zhaopin.jpg
 ||chinaqking.com/images/qkw/jobApply1.jpg
 ||chinaqking.com/userUpload/jobApply2.jpg
+||chinasexq.com/js/ad
 ||chinaso.com/iframe336/
 ||chinatimes.com/2007Cti/
 ||chinatimes.com/2009Cti/cthead/Scripts-utf8/yahoo.js
@@ -2785,6 +2790,7 @@ _yad_jsonp_
 ||g1.0573ren.com^
 ||g1080.com/js/cache_bg.js
 ||g2.ousns.net^
+||g34gg.com/css/*.js
 ||g4.beva.com/data-js-
 ||gagays.com/site/ad300x300
 ||galacg.me/img/*360X360
@@ -3052,6 +3058,7 @@ _yad_jsonp_
 ||hkepc.com/prepared/images/b608.png
 ||hkgolden.com/google_ad
 ||hkgolden.com/hkg.js
+||hkgolden.com/mtgamer/
 ||hkgolden.com/yahoo_ad
 ||hkheadline.com/*banner$script
 ||hkheadline.com/*promo/
@@ -3527,6 +3534,7 @@ _yad_jsonp_
 ||kcjc.net/960$image
 ||kcjc.net/data/attachment/portal/
 ||kdhome.net/templets/default/img/bottomadv.jpg
+||kefkk.com/css/*.js
 ||kekenet.com/images/*/tom468X60.gif
 ||kekenet.com/Images/*/tom640X40.gif
 ||kekenet.com/images/*98060.
@@ -4134,6 +4142,7 @@ _yad_jsonp_
 ||qq.com/PL_adT.htm
 ||qq.com/playgame/videoweb/
 ||qq.com/qzone/biz/gdt/display/positions/waicai/
+||qq260.com/shout.js
 ||qqcf.com/js/Content_Get.js
 ||qqjia.com/dan.js
 ||qqjia.com/images/ad
@@ -4232,6 +4241,7 @@ _yad_jsonp_
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com
 ||s.yimg.com/ja/ap/hk/rm/hk_rm_tab_20140226.js
 ||s1.pplive.cn/sta.js
+||s12ss.com/css/*.js
 ||s1979.com/html/ad_js/
 ||s7yy.com/css/*.gif
 ||s7yy.com^$script,subdocument
@@ -4996,6 +5006,7 @@ _yad_jsonp_
 ||xs99.com/myimg/alimama2014.html
 ||xsduo.com/js/
 ||xsjie.com/ads/
+||xue163.com/ajs/end
 ||xun9u.com/css/js/text_link.js
 ||xunleihao.com/a-d-j-s/
 ||xunleihd.com/image/*maose
@@ -5103,6 +5114,7 @@ _yad_jsonp_
 ||youxiaxiazai.com/dm/
 ||youxituoluo.com/wp-content/uploads/2015/07/20150724152002343.jpg
 ||youxituoluo.com/wp-content/uploads/2015/09/20150914175545748.jpg
+||yppyy.com/css/*.js
 ||ysxs8.com/ysgg/
 ||ytbbs.com/images/index/
 ||yto.net.cn:8022/Image/left_ad.jpg
@@ -5239,29 +5251,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||2chcn.com/img/336x280
-||hkgolden.com/mtgamer/
-||chinasexq.com/js/ad
-||xue163.com/ajs/end
-||baidu.com/staticapi/hotnews_new.
-||baidu.com/staticapi/misadlist.
-||kefkk.com/css/*.js
-||s12ss.com/css/*.js
-||yppyy.com/css/*.js
-||g34gg.com/css/*.js
-||qq260.com/shout.js
-||bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2015-11-03/1b1d0e42f749d42320de69d4801e79cd.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-shaoit.com###menu-item-22581
-shaoit.com##.entry_title_box + HR + DIV[style="text-align:center;"]
-hacg.lol##A[href*=".taobao.com"]
-hehagame.com##.bg_ad
-chinasexq.com###floatGG
-chinasexq.com##.gg300x250
-chinasexq.com##.picRight
-chinasexq.com##.picTop
-hkgolden.com##.DivResizableBoxContainer + DIV + DIV[style="height:290px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5835,6 +5826,7 @@ qqread.com###flash310ad
 shangdu.com,uc123.com###float
 weibo.com###floatAd-left
 weibo.com###floatAd-right
+chinasexq.com###floatGG
 guagua.cn###floatRoomDiv
 eeyy.com###float_ad0
 ssnn.net###float_picr
@@ -6117,6 +6109,7 @@ ezvivi.com###marsk2
 yaolan.com###maryAd
 yzz.cn###media_float_right
 qtfy30.cn###menu + a
+shaoit.com###menu-item-22581
 lrshare.com###menu-item-5002
 lrshare.com###menu-item-5192
 lrshare.com###menu-item-5283
@@ -6580,6 +6573,7 @@ it165.net##.ContentAdv
 imeee.cn##.DA336
 dnvod.eu##.DHB
 84zr.com##.DaKuang
+hkgolden.com##.DivResizableBoxContainer + div + div[style="height:290px;"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.EC_newppim
 javjunkies.com##.FAd
 ifeng.com##.FNewLAvt
@@ -7128,6 +7122,7 @@ yesky.com##.bdtj
 pinshan.com##.bea_adv2
 hers.com.cn##.beitou
 nick18.com##.below_ads
+hehagame.com##.bg_ad
 265g.com##.bg_ban
 265g.com##.bg_ban_bar
 40407.com##.bg_l
@@ -7409,6 +7404,7 @@ winning11cn.com##.eis_topad
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.is.my,fulibba.net##.entry-content > div[style^="float:right"]
 briian.com##.entry-content > p[style="height: 85px;"]
+shaoit.com##.entry_title_box + hr + div[style="text-align:center;"]
 epinv.com##.epinv_f
 shulink.com##.er_g
 chinaz.com##.etc-b-head
@@ -7538,6 +7534,7 @@ dedejs.com,sucaijiayuan.com##.gg250
 ifeng.com##.gg298
 xsbook.net##.gg300
 iqilu.com##.gg300250dbl
+chinasexq.com##.gg300x250
 lcxw.cn,ts.cn##.gg4
 ts.cn##.gg5-cj
 iqilu.com##.gg580140
@@ -8119,6 +8116,8 @@ ifeng.com##.pic280
 ifeng.com##.pic300
 ifeng.com##.pic950
 ifeng.com##.picNews
+chinasexq.com##.picRight
+chinasexq.com##.picTop
 dealmoon.com##.pic_ad
 ctrip.com##.pic_banner
 how361.com##.pic_nav22
@@ -8704,7 +8703,7 @@ zdfans.com##a[href*=".kiees."]
 dy2018.com,xiaopian.com##a[href*=".mytanwan."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-aijava.cn,bejson.com,btcherry.com,bzfxw.com,cosersuki.org,d5yuansu.com,gmgard.us,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,zalra.cn##a[href*=".taobao.com"]
+aijava.cn,bejson.com,btcherry.com,bzfxw.com,cosersuki.org,d5yuansu.com,gmgard.us,hacg.lol,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.us,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
@@ -9518,8 +9517,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||yinfu.cc/sid/function
-@@||yinfu.cc/sid/*play
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9965,6 +9962,8 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.jp/combo?*/ad/
 @@||yimuhe.com/n_js/advertiser.js
+@@||yinfu.cc/sid/*play
+@@||yinfu.cc/sid/function
 @@||yiqifa.com/ad_images/$~third-party
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||youku.com^*^adshow
