@@ -81,9 +81,7 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/js/bocaiadv.
 .cc/js/ads/
-/adpro.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -106,6 +104,7 @@ hk.yahoo.com###mntl1
 /adintrs/*
 /adpfile/*
 /AdPreview/*
+/adpro.js
 /adpuba/*
 /adpv?cn=
 /AdverJS/*
@@ -157,6 +156,7 @@ hk.yahoo.com###mntl1
 /js/ads/top
 /js/ads/youxiajiao.js
 /js/ads/zuoxiajiao.js
+/js/bocaiadv.
 /js/utils51.js
 /js/utils78.js
 /jsadv/*
@@ -1824,6 +1824,7 @@ _yad_jsonp_
 ||99re1.com/images/*.gif
 ||99re2.com/images/*.gif
 ||99tianji.com/hack/kaifubiao.js
+||99zxav.com/hf.js
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
 ||9ht.com/skin2012/js/tlAd.js
@@ -2022,6 +2023,7 @@ _yad_jsonp_
 ||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
+||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
 ||baidu.com/cms/rc/adSideConfig.json?
 ||baidu.com/ecom$image,script
@@ -4227,6 +4229,7 @@ _yad_jsonp_
 ||s1979.com/html/ad_js/
 ||s7yy.com/css/*.gif
 ||s7yy.com^$script,subdocument
+||s8bbs.com/g.php?
 ||safedom.net/edm/ad/
 ||saibeinews.com/index.php?m=poster&c=index&a=show_poster&
 ||sam*.baby-kingdom.com^
@@ -5230,18 +5233,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||baidu.com/api/proxyapi?tag=adv&
-||99zxav.com/hf.js
-||s8bbs.com/g.php?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zdfans.com##.content > SPAN:first-child
-zdfans.com##.menu-item > A[href^="http"][target="_blank"]
-zdfans.com##.meta-info + DIV
-bilibilijj.com##.A_DList
-hao.360.cn###left_float
-bilibilijj.com##.HideA_D
-wangdaizhijia.com##.topbanner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6044,6 +6037,7 @@ hexun.com###leftFloat
 duba.com###leftHot
 ccb.com.cn###leftSideAd
 060s.com###left_Ad_300
+hao.360.cn###left_float
 taoyoudu.com###left_layer
 shangc.net###leftad01
 hao123.com###leftbannerv2
@@ -6520,6 +6514,7 @@ tzfdc.com##.AD_A
 tzfdc.com##.AD_B
 wxrb.com##.ADtxt
 scsn.cn##.AVu4
+bilibilijj.com##.A_DList
 letv.com##.Ad
 kuai8.com##.Ad1
 aohua.com.au,qq.com##.AdBox-Article-QQ
@@ -6572,6 +6567,7 @@ news.hf365.com##.G_bot
 gigacircle.com##.Game-Ads
 115zk.com,duoduopan.com,fuliba.is.my,fulibba.net,mcncc.com,twunbbs.com##.GzList
 letv.com##.H-tg
+bilibilijj.com##.HideA_D
 sj998.com##.Hr_1
 xinmin.cn##.Index201408_gg2
 xinmin.cn##.Index201408_gg3
@@ -7261,6 +7257,7 @@ www.wangjing.cn##.content > div[style*="980px;"]
 northnews.cn##.content > div[style]
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
+zdfans.com##.content > span:first-child
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
 downg.com##.content.ad-b950x50
@@ -7926,7 +7923,9 @@ hao.360.cn##.mbar-bd
 xizi.com##.md310_90
 nownews.com##.meannews
 shmet.com##.memberadstb
+zdfans.com##.menu-item > a[href^="http"][target="_blank"]
 taihainet.com##.menu_bg + .box10 + .wrapper
+zdfans.com##.meta-info + div
 haosou.com##.mh-adIco
 baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
@@ -8492,7 +8491,7 @@ jiasuba.com##.topad1
 huarenjie.com##.topadcss
 qz828.com##.topadv
 itavcn.com##.topadvzone
-21ic.com,cnhan.com,hao565.cn,longhoo.net,pyccoo.cn##.topbanner
+21ic.com,cnhan.com,hao565.cn,longhoo.net,pyccoo.cn,wangdaizhijia.com##.topbanner
 kocpc.com.tw##.topbarad
 163disk.com##.topfly
 cqwb.com.cn##.topgg
@@ -9019,7 +9018,6 @@ taodake.com##div[style$="width:960px; height:60px;"]
 360che.com##div[style$="width:960px;height:60px;"]
 cq.qq.com##div[style*="1000"][style*="60"]
 39.net##div[style*="300"][style*="250"]
-wufangbo.com##DIV[style*="width:360px; height:300px;"]
 da-fan-shu.cn##div[style*="468"][style*="60"]
 123du.cc,bokon.net,neihan8.com##div[style*="728"][style*="90"]
 360che.com,how361.com##div[style*="950"][style*="90"]
@@ -9036,6 +9034,7 @@ aixuefu.com,dmhua.net##div[style*="height:90px;"]
 gzcol.com##div[style*="width:1000px;"]
 dbw.cn##div[style*="width:300px; height:250px; "]
 divcss5.com##div[style*="width:336px;height:280px;"]
+wufangbo.com##div[style*="width:360px; height:300px;"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 7574.com##div[style*="width:960px;height:90px;"]
 chinanews.com##div[style=" margin-right:10px; float:left; width:300px; height:300px; "]
