@@ -81,8 +81,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/botad.html
-/tanad.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -117,6 +115,7 @@ hk.yahoo.com###mntl1
 /Banner-pcbeta-
 /bbh_ad.
 /bbh_ad_
+/botad.html
 /btba/ad/*
 /cache/ad_js/*
 /caches/poster_js/*
@@ -192,6 +191,7 @@ hk.yahoo.com###mntl1
 /sygg/*
 /taihai/v2014/images/index/aa_10.
 /tan.js
+/tanad.js
 /tanchuang.
 /taobaoad.html
 /template/001/ads/*
@@ -336,6 +336,7 @@ _billboard_320x100.iframe.
 ##.ad_fixed
 ~hk-pub.com##.ad_footerbanner
 ##.ad_headerbanner
+##.ad_midd
 ##.ad_thread
 ##.adsense160
 ##.adsense200
@@ -407,7 +408,6 @@ _billboard_320x100.iframe.
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.ad_midd
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -1541,6 +1541,7 @@ _yad_jsonp_
 ||46g.cn/images/top.gif
 ||50.115.123.38/ad/
 ||50.7.31.230/ads_
+||500xxxx.com/go.js
 ||5068.com/uploads/allimg/150116/71_150116175734_1.jpg
 ||506ys.com/js/200.js
 ||51.com/up/bdfmt/
@@ -1612,6 +1613,7 @@ _yad_jsonp_
 ||52waha.com/static/js/function_bbs.js
 ||52wmb.com/2014js/GG_
 ||52zy.com/other/js/
+||5399.com/poster_js/
 ||54new.com/da/
 ||55.la/anonymous/banner/$domain=lxty66.com
 ||55125.cn/ggclass/
@@ -4408,7 +4410,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|84zr.com|99files.net|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|xinqixi.com|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84zr.com|99files.net|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|xinqixi.com|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|wan1024.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
@@ -5253,18 +5255,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sinaimg.cn^$domain=500xxxx.com
-||500xxxx.com/go.js
-||5399.com/poster_js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-mydrivers.com##.shidian + DIV[style="width:1100px;margin:0 auto;padding:0px;"]
-zdfans.com##A[href*="infinitynewtab."]
-zdfans.com##A[href*="meidebi."]
-zdfans.com##A[href*="zdzdm."]
-hao.360.cn###background.festival
-hao.360.cn###festival-theme > .left-entry
-hao.360.cn###festival-theme > .right-entry-wrap
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5560,6 +5552,7 @@ ms211.com###atf
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 cfcyb.com###b164187228
 chinaz.com###b_14 > h1 > div[style="float:right; color:Red;"]
+hao.360.cn###background.festival
 cucn.com,ocucn.com###bad
 china.com.cn###baidu
 chinaiiss.com###baidu_300_250
@@ -5827,6 +5820,8 @@ www.pixnet.net###extradiv5
 iciba.com###ezfm
 fifm.cn###favorite_table_box
 businessweekly.com.tw###featurelist
+hao.360.cn###festival-theme > .left-entry
+hao.360.cn###festival-theme > .right-entry-wrap
 dl.vmall.com###filelist_marker
 comic.qq.com###fixed_right > div
 duba.com###fixedad
@@ -7291,10 +7286,10 @@ www.wangjing.cn##.content > div[style*="980px;"]
 northnews.cn##.content > div[style]
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
-zdfans.com##.content.column2 > SPAN[style]:first-child
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
 downg.com##.content.ad-b950x50
+zdfans.com##.content.column2 > span[style]:first-child
 ptbus.com##.content14
 miercn.com##.content7
 news.580k.com##.contentAD
@@ -7960,7 +7955,7 @@ xizi.com##.md310_90
 nownews.com##.meannews
 shmet.com##.memberadstb
 taihainet.com##.menu_bg + .box10 + .wrapper
-zdfans.com##.meta-info + DIV[style]:last-child
+zdfans.com##.meta-info + div[style]:last-child
 haosou.com##.mh-adIco
 baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
@@ -8286,6 +8281,7 @@ sogou.com##.sg-ad-r
 miyun360.com##.shangjia
 xilu.com##.shehuibanner
 160.com##.shengda
+mydrivers.com##.shidian + div[style="width:1100px;margin:0 auto;padding:0px;"]
 0452e.com##.shop
 sogou.com##.shop-info-list
 hao.rising.cn##.shop-site
@@ -8721,10 +8717,13 @@ letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
 plus28.com##a[href*="/?Extend="]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
+zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
+zdfans.com##a[href*="meidebi."]
 cwyuni.tw##a[href*="rakuten.tw"]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
+zdfans.com##a[href*="zdzdm."]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 bejson.com##a[href="/other/jikefma/"]
