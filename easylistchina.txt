@@ -5257,9 +5257,9 @@ _yad_jsonp_
 ||500xxxx.com/go.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zdfans.com##A[href="http://infinitynewtab.com/"]
-zdfans.com##A[href="http://www.meidebi.com"]
-zdfans.com##A[href="http://www.zdzdm.com"]
+zdfans.com##A[href*="infinitynewtab."]
+zdfans.com##A[href*="meidebi."]
+zdfans.com##A[href*="zdzdm."]
 hao.360.cn###background.festival
 hao.360.cn###festival-theme > .left-entry
 hao.360.cn###festival-theme > .right-entry-wrap
@@ -7289,7 +7289,7 @@ www.wangjing.cn##.content > div[style*="980px;"]
 northnews.cn##.content > div[style]
 yunkeji.com##.content > p:nth-last-of-type(2)
 yunkeji.com##.content > p:nth-last-of-type(3)
-zdfans.com##.content.column2 > SPAN[style="margin:0px 0px 5px 75px;font-size:16px;font-weight:bold"]
+zdfans.com##.content.column2 > SPAN[style]:first-child
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
 downg.com##.content.ad-b950x50
@@ -7958,7 +7958,7 @@ xizi.com##.md310_90
 nownews.com##.meannews
 shmet.com##.memberadstb
 taihainet.com##.menu_bg + .box10 + .wrapper
-zdfans.com##.meta-info + DIV[style="margin-top: 2pt;"]
+zdfans.com##.meta-info + DIV[style]:last-child
 haosou.com##.mh-adIco
 baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
