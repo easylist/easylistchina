@@ -81,6 +81,7 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/botad.html
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -5252,6 +5253,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||sinaimg.cn^$domain=500xxxx.com
+||500xxxx.com/go.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zdfans.com##A[href="http://infinitynewtab.com/"]
