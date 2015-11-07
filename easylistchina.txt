@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-_mobilebanner_v1_550x60.jpg
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -209,6 +208,7 @@ _mobilebanner_v1_550x60.jpg
 :8898/ads_
 =loginExtAD.
 _billboard_320x100.iframe.
+_mobilebanner_v1_550x60.jpg
 |http://*.cc/ad/
 |http://*.cn/ad/
 |http://*.hk/ad/
@@ -1166,6 +1166,7 @@ _yad_jsonp_
 |http://t.cn/$domain=aikuhu.com|cctv5bo.com
 |http://www.i-ab.co/zz/
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
+||005.tv/data/attachment/forum/201511/04/164933msu1vuxelaumomsi.jpg
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||020.com/960_70
@@ -3647,6 +3648,8 @@ _yad_jsonp_
 ||liaoing.com/haibao/2013/800zhinengsuo_0702/zhineng.swf
 ||liaoing.com/image/picture_g/zhengzhou/index/*.swf
 ||liba.com/ads/
+||licai18.com/bk/$object
+||licai18.com/pic/*.swf
 ||liepin.com/event/jobadver/
 ||life.e0575.com^
 ||lingdian98.com^
@@ -4620,6 +4623,7 @@ _yad_jsonp_
 ||tiexue.net/domain-policy/
 ||tiexue.net/test*.aspx
 ||tiexue.net/tsetforiph/
+||tigerbrokers.com/activity/quotation/cnbeta/
 ||tigtag.com/images/pic1/
 ||tigtag.com/r/Adv/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -5256,20 +5260,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||licai18.com/bk/$object
-||licai18.com/pic/*.swf
-||005.tv/data/attachment/forum/201511/04/164933msu1vuxelaumomsi.jpg
-||tigerbrokers.com/activity/quotation/cnbeta/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-2345.com###sidenav > .activity-trig
-2345.com##.tip_stopXP
-2345.com##.top > .fred
-2345.com##.w_wp_shuang11 > .activity-skin-trig
-2345.com##.w_wp_shuang11 > .top_outer
-wndflb.com##.GzList
-wallstreetcn.com##.omg-container
-zdfans.com##.content.column2 > CENTER:first-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6331,10 +6323,6 @@ hongxiu.com###sideadleft
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net,iyejie.com,pc360.net###sidebar > .widget:first-child
 gaoqing.la###sidebar > .widget:nth-child(-n+3)
 pc360.net###sidebar > .widget:nth-child(3)
-lrshare.com##A[href*="infinitynewtab."]
-lrshare.com##A[href*="meidebi."]
-lrshare.com##A[href*="sugarhosts."]
-lrshare.com##A[href*="zdzdm."]
 iplaysoft.com###sidebar > ul > .widget:first-child
 iplaysoft.com###sidebar > ul > .widget:nth-child(3)
 mopiaoyao.com,renwai.ren###sidebar center > a > img
@@ -6345,6 +6333,7 @@ fankudo.com###sidebar-primary > div:nth-child(-n+2)
 vikilife.com###sidebar-tab[style^="height:"]
 iplaysoft.com###sidebar_scroll_bdad
 2345.com###sidel_lvy
+2345.com###sidenav > .activity-trig
 imanhua.com###sider-left
 imanhua.com###sider-right
 udn.com###simplemodal-container
@@ -6606,7 +6595,7 @@ cnfol.com##.FixedRight
 aiyuke.com##.GGad
 news.hf365.com##.G_bot
 gigacircle.com##.Game-Ads
-115zk.com,duoduopan.com,fuliba.is.my,fuliba.net,fulibba.com,fulibba.net,mcncc.com,twunbbs.com##.GzList
+115zk.com,duoduopan.com,fuliba.is.my,fuliba.net,fulibba.com,fulibba.net,mcncc.com,twunbbs.com,wndflb.com##.GzList
 letv.com##.H-tg
 bilibilijj.com##.HideA_D
 sj998.com##.Hr_1
@@ -7302,6 +7291,7 @@ yunkeji.com##.content > p:nth-last-of-type(3)
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
 downg.com##.content.ad-b950x50
+zdfans.com##.content.column2 > center:first-child
 zdfans.com##.content.column2 > span[style]:first-child
 ptbus.com##.content14
 miercn.com##.content7
@@ -8081,6 +8071,7 @@ club.pchome.net,kdslife.com##.o_info font
 100shuai.com##.offi_ad
 douyutv.com##.offi_ad:first-child
 shunwang.com##.ola_program
+wallstreetcn.com##.omg-container
 hepan.com##.onead
 duba.com##.oneone-search
 pgzhibo.com##.onlineqq
@@ -8469,6 +8460,7 @@ cndesign.com##.throughAdPic
 iqiyi.com##.thumbnail_item[href^="http:"]:not([href^="http://www.iqiyi.com/"])
 wenku.baidu.com##.tiger-gkStudyCard-dialog
 wenku.baidu.com##.tiger-vip-dialog
+2345.com##.tip_stopXP
 mail.qq.com##.tipbook-top
 3gsc.com.cn##.tipsA
 gamefy.cn##.tit > span[style="float:right; width:285px;"]
@@ -8495,6 +8487,7 @@ wdlm.cn##.tonglanbanner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.tools > .shouji
 loldk.com##.tools-recommend
 meizhou.com##.top + .w1000
+2345.com##.top > .fred
 uhaoye.com##.top-a
 midifan.com##.top-aaa
 chinaluxus.com##.top-banner
@@ -8609,6 +8602,8 @@ xuenb.com##.w728
 blue-way.com.tw##.w960 ~ a
 qikuyou.com##.w960[style="height:90px;"]
 xdf.cn##.w_ads
+2345.com##.w_wp_shuang11 > .activity-skin-trig
+2345.com##.w_wp_shuang11 > .top_outer
 xp510.com##.wallpaper-area
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.wanle_tab_tip
 baidu.com##.wapAd
@@ -8730,13 +8725,14 @@ letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
 plus28.com##a[href*="/?Extend="]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
-zdfans.com##a[href*="infinitynewtab."]
+lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
-zdfans.com##a[href*="meidebi."]
+lrshare.com,zdfans.com##a[href*="meidebi."]
 cwyuni.tw##a[href*="rakuten.tw"]
+lrshare.com##a[href*="sugarhosts."]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
-zdfans.com##a[href*="zdzdm."]
+lrshare.com,zdfans.com##a[href*="zdzdm."]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 bejson.com##a[href="/other/jikefma/"]
@@ -10011,7 +10007,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/urchin.js$domain=on.cc
-@@||tmall.com/add?
 @@||7m.cn/v2/js/analyse.js
 @@||8gdyhd.com/iplookup.php
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
@@ -10038,5 +10033,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$domain=qq.com
 @@||tbcdn.cn^*/click_track.js
+@@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
 !----------------------------------The End------------------------------------!
