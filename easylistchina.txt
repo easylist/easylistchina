@@ -5263,6 +5263,9 @@ _yad_jsonp_
 ||tietuku.com^$domain=xiaodao.la
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tiexue.net##A[onclick*="_BdAdClick"]
+tiexue.net##DIV[style*="overflow: hidden; position: fixed;"]
+tiexue.net##DIV[class][style="display:none;"] + DIV[class]
 souxue8.net,xiaodao.la,xiaodaoyl.com##.HtmlMoKua.column.two-thirds
 xiaodao.la##.themeauthor > TABLE[width="100%"]:first-child
 wenku.baidu.com##.zhixin-ads
