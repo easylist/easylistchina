@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/comiis_kmsjx3hlx/ads/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -127,6 +126,7 @@ hk.yahoo.com###mntl1
 /cdn-cgi/pe/bag2?r[]=*pagead2.
 /clicktotal/ClickTotal.js
 /comiis_19lou/ads/*
+/comiis_kmsjx3hlx/ads/*
 /common/cf/*$image,object
 /content/plugins/em_ad/*
 /data/ad/*
@@ -949,7 +949,6 @@ _mobilebanner_v1_550x60.jpg
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||taobao.com^$popup,domain=aadaili.com|ppdaili.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -988,6 +987,7 @@ _mobilebanner_v1_550x60.jpg
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
+||taobao.com^$popup,domain=aadaili.com|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||uc8.cc/award/$popup
 ||vnet.cn^*.html?$popup,third-party
@@ -1370,6 +1370,7 @@ _yad_jsonp_
 ||182.92.234.239^*.html
 ||183.129.206.25:18180/i.php?z=
 ||183.136.168.78:8082/ad/
+||183.86.218.23^
 ||183yf.cn/img/nz.png
 ||18888.com^*/Mon_*.gif
 ||189.cn/dns/
@@ -2510,6 +2511,7 @@ _yad_jsonp_
 ||diaosisheshou.com/wp-content/uploads/2015/03/dbqp.jpg
 ||diaosisheshou.com/wp-content/uploads/2015/06/tcll.gif
 ||dichan.com.au/newhouse/pinnacle/images/bcastr3.swf
+||didown.com/static/3C1A676E432C49A19F74EF3A64E5DE7D.png
 ||dig.chouti.com/advert
 ||dilidili.com/js/index.js
 ||dilidili.com/js/right
@@ -3538,6 +3540,7 @@ _yad_jsonp_
 ||kaixin001.com.cn/js/cpm-
 ||kamlm.com/kmgg
 ||kan300.com/js/union/
+||kankanmi.com/js/zjgg
 ||kanpp.net/Uploads/ad/
 ||kcjc.net/960$image
 ||kcjc.net/data/attachment/portal/
@@ -3606,6 +3609,7 @@ _yad_jsonp_
 ||langya.cn/images/ad_down.js
 ||lanrenzhijia.com/uploads/ibeifeng
 ||lanxicy.com/images/rili.gif
+||laod.cn/wp-content/uploads/*/AD
 ||laogu.com/laogubbs/my/
 ||laogu.com/my/ad
 ||laoyuegou.com/img/*/banner/
@@ -3616,6 +3620,7 @@ _yad_jsonp_
 ||laozuo.org/wp-content/themes/weisaysimple/js/sidebar
 ||laozuo.org/wp-content/themes/weisaysimple/js/single-bottom.js
 ||law-lib.com/2009_ad/
+||lawtv.com.cn/skin/stop.swf
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
 ||lbx777.com/z_gegz/pic/
@@ -4619,7 +4624,7 @@ _yad_jsonp_
 ||tietuku.com/0bb9bfe57636dc55.jpg
 ||tietuku.com/0f65751b4e0f0ce6.gif
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
-||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|potplayer.org|qqjishu.net|souxue8.net|totuwo.com|xiaodaoyl.com
+||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|potplayer.org|qqjishu.net|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com
 ||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
 ||tiexue.net/test*.aspx
@@ -5260,27 +5265,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tietuku.com^$domain=xiaodao.la
-||lawtv.com.cn/skin/stop.swf
-||laod.cn/wp-content/uploads/*/AD
-||didown.com/static/3C1A676E432C49A19F74EF3A64E5DE7D.png
-||183.86.218.23^
-||kankanmi.com/js/zjgg
 !------------------------Specific element hiding rules------------------------!
-laod.cn##.ad700
-66rd.cn###img
 gpcxw.com###AA2
-ccav1.com###widget_da
-ccav1.com##A[href*="meidebi."]
-didown.com##.i-gg-330
-v.duba.com##.cmcm-stuct-x
-tiexue.net##A[onclick*="_BdAdClick"]
-tiexue.net##DIV[style*="overflow: hidden; position: fixed;"]
-tiexue.net##DIV[class][style="display:none;"] + DIV[class]
-souxue8.net,xiaodao.la,xiaodaoyl.com##.HtmlMoKua.column.two-thirds
-xiaodao.la##.themeauthor > TABLE[width="100%"]:first-child
-wenku.baidu.com##.zhixin-ads
-wenku.baidu.com##.zhixin-right
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6019,7 +6005,7 @@ youthwant.com.tw###ig_cont
 hao.360.cn###iguess
 ck101.com###image_ad_long
 ck101.com###image_ad_short
-cnjxol.com,jintoutiao.com,rznews.cn###img
+66rd.cn,cnjxol.com,jintoutiao.com,rznews.cn###img
 nick18.com###img a
 66rd.cn,chemnet.com,enlink.com.cn,firstchina.org.cn,pharmnet.com.cn###img1
 114la.com###imgArr
@@ -6500,6 +6486,7 @@ maxthon.cn###widget-main-ad
 maxthon.cn###widget-main-external-link-groupbuy
 heu8.com###widget_ada
 aimovie.me###widget_aliyun_promo
+ccav1.com###widget_da
 360.cn###wifiAnywhere
 189so.cn###winpop
 news.baidu.com###women-picwall
@@ -6615,6 +6602,7 @@ gigacircle.com##.Game-Ads
 letv.com##.H-tg
 bilibilijj.com##.HideA_D
 sj998.com##.Hr_1
+souxue8.net,xiaodao.la,xiaodaoyl.com##.HtmlMoKua.column.two-thirds
 xinmin.cn##.Index201408_gg2
 xinmin.cn##.Index201408_gg3
 19lou.com,ihome99.com##.J_pm
@@ -6752,6 +6740,7 @@ ifeng.com##.ad665
 jieshao.org##.ad670x250
 sina.com.cn##.ad680x90
 178.com,ting89.com##.ad7
+laod.cn##.ad700
 yaolan.com##.ad71090
 tompda.com##.ad713
 hupu.com##.ad720-90
@@ -7263,6 +7252,7 @@ tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
 tieba.baidu.com##.client_ad_topBanner_all
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.close_btn[src*="/adsense/"] + div:last-child
 timedg.com##.clsRightTopAd
+v.duba.com##.cmcm-stuct-x
 bbs.xmfish.com##.cmp_v
 24en.com##.cnt_banner
 2345.com##.cnxh_box
@@ -7720,6 +7710,7 @@ buytong.cn##.hy_top_left
 99.com.cn##.hzh_botleft
 haodou.com##.i-ad
 haodou.com##.i-adv250
+didown.com##.i-gg-330
 newhua.com##.i1
 aishiw.com##.iHead960x90
 webcars.com.cn##.i_banner
@@ -8467,7 +8458,7 @@ sogou.com##.tgad-title
 putclub.com##.the_ad
 firefoxchina.cn##.theme-side-bar-couplet
 17huohu.com,firefox.com.cn,firefoxchina.cn##.theme-side-bar-priority
-souxue8.net,xiaodaoyl.com##.themeauthor > table[width="100%"]:first-child
+souxue8.net,xiaodao.la,xiaodaoyl.com##.themeauthor > table[width="100%"]:first-child
 cnool.net##.third-banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
@@ -8698,6 +8689,8 @@ ithome.com##.zhaopin
 ithome.com##.zhaopin1
 leiphone.com##.zhiqu-ads
 sina.com.cn##.zhitou-wrap
+wenku.baidu.com##.zhixin-ads
+wenku.baidu.com##.zhixin-right
 zymk.cn##.zhouk_tu
 91danji.com##.zlVideTowNav
 rshhy.com##.zpw_guangao
@@ -8711,6 +8704,7 @@ yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 dnvod.eu##A[href^="/HitOnAds.aspx?id="]
 dnvod.eu##A[href^="http://www.dnvod.eu/HitOnAds."] > img
+tiexue.net##A[onclick*="_BdAdClick"]
 tiexue.net##[class*="junph"]
 5184.com##[class^="gk_gg"]
 gamme.com.tw##[class^="sidead_"]
@@ -8743,7 +8737,7 @@ plus28.com##a[href*="/?Extend="]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
-lrshare.com,zdfans.com##a[href*="meidebi."]
+ccav1.com,lrshare.com,zdfans.com##a[href*="meidebi."]
 cwyuni.tw##a[href*="rakuten.tw"]
 lrshare.com##a[href*="sugarhosts."]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
@@ -8891,6 +8885,7 @@ www.mop.com##div[class="fl w320"]:last-child > .pb15:last-child
 www.mop.com##div[class="fl w320"]:last-child > .pb20
 ithome.com.tw##div[class="span4"]
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
+tiexue.net##div[class][style="display:none;"] + div[class]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
@@ -9092,6 +9087,7 @@ hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
 aixuefu.com,dmhua.net##div[style*="height:90px;"]
+tiexue.net##div[style*="overflow: hidden; position: fixed;"]
 gzcol.com##div[style*="width:1000px;"]
 dbw.cn##div[style*="width:300px; height:250px; "]
 divcss5.com##div[style*="width:336px;height:280px;"]
