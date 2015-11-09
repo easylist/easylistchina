@@ -355,11 +355,15 @@ _mobilebanner_v1_550x60.jpg
 ##.gg_full
 ##.ggad
 ##.ggg-in-post1
+##.ggg-in-post2
+##.gggggpost-below
+##.gggggtop
 ##.gggtop
 ##.ggpost-below
 ##.ggtop
 ##.google_adsense2
 ##.home-ggg430
+##.home-ggggg430
 ##.indexad2
 ##.indexad3
 ##.indexad4
@@ -410,10 +414,6 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.gggggtop
-##.home-ggggg430
-##.ggg-in-post2
-##.gggggpost-below
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -1225,6 +1225,7 @@ _yad_jsonp_
 ||102tv.cn/js/desktop.js
 ||102tv.cn/js/index_*.js
 ||103.225.198.230:8080/index.html
+||106.184.7.176/shuang11/
 ||107.182.131.103/cache/?q=/images/
 ||1080pba.com/templets/default/images/02.gif
 ||1080pba.com/templets/default/images/1.gif
@@ -2102,7 +2103,6 @@ _yad_jsonp_
 ||bdimg.com/newmap/static/common/images/nav-ad_
 ||bdimg.com/site/games/yxtg/*.js
 ||bdinfo.net/bdinfo_skin/xlsgg.js
-||hao123img.com/res/r/image/2015-11-06/0fb652e99f82c02bdcde57fa78074a43.png
 ||bdstatic.com/api_hao123AdvHeader.js
 ||bdstatic.com/pc_static/detail/game_promotion/
 ||bdstatic.com/player/t/j/AEoIJIPB.js
@@ -2976,6 +2976,7 @@ _yad_jsonp_
 ||hao123.cn/images/vip.png
 ||hao123.com/data/v/stuff.php?*_forhao123Adv
 ||hao123img.com/res/ecom/
+||hao123img.com/res/r/image/2015-11-06/0fb652e99f82c02bdcde57fa78074a43.png
 ||hao123img.com/v4/__/jM/qP/dF/kT/__jMqPdFkT.js
 ||hao6666.info^*.js
 ||haochi123.com/J_Box/Inc_
@@ -4881,6 +4882,7 @@ _yad_jsonp_
 ||wowody.net/public/wowo/2345.html
 ||woxiu.com/xapi/get_pre_config.php
 ||woxiu.com/xapi/offsite_swf_more.php?
+||wpdaxue.com/an-temp/
 ||wpjam.qiniudn.com/wpjam/banner/*g|
 ||wpkg.org/my.js
 ||wszhibo.com/Uploadfiles/*.gif
@@ -5263,11 +5265,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||wpdaxue.com/an-temp/
-||106.184.7.176/shuang11/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hao123.com##.enter1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7417,6 +7416,7 @@ playno1.com##.eis_mtm[style="border-top:1px dashed #CDCDCD;padding-top:10px; pad
 backchina.com##.eis_subnav_area
 winning11cn.com##.eis_topad
 17huohu.com,firefoxchina.cn##.engine-jokes
+hao123.com##.enter1
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net##.entry-content > div[style^="float:right"]
 briian.com##.entry-content > p[style="height: 85px;"]
@@ -8848,7 +8848,7 @@ taoyoudu.com##br + .k_serach
 btcherry.com##button[style="width: 960px; height: 90px; background: transparent; border: 0; padding: 0; cursor: hand;"]
 1000fr.net##center
 wpdaxue.com##div > * > a[target="_blank"] > img
-wpmee.com##DIV > A[href^="http://www.wpmee.com/i?a="]
+wpmee.com##div > a[href^="http://www.wpmee.com/i?a="]
 gywb.cn##div.bill-box1.mb5
 cq.qq.com##div.clearfix[style*="1000"]
 ynet.com##div.fr
