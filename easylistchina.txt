@@ -5266,9 +5266,9 @@ _yad_jsonp_
 ||5imx.com/BBS/data/attachment/common/news/
 ||5imx.com/BBS/image/image/
 ||5imx.com/BBS/image/img/
-||hdslb.com/u_user/06638f278a0ae215286a1f0018e42232.gif
 !------------------------Specific element hiding rules------------------------!
 5imx.com###diy1
+live.bilibili.com##LI[preview="preview"] > A[href^="http"]:not([href^="http://live.bilibili."])
 gpcxw.com###AA2
 5imx.com###diy_mxad02
 5imx.com###diy_mxad03
