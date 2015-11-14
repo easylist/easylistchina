@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/ettoday/gemini/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -136,6 +135,7 @@ hk.yahoo.com###mntl1
 /duilian.$domain=~duilian.msra.cn
 /duilian2.
 /duilian_gg.
+/ettoday/gemini/*
 /float_r.js
 /floatad.$domain=~fwxgx.com
 /floatad2.
@@ -2722,6 +2722,7 @@ _yad_jsonp_
 ||etnet.com.hk/ad2014/
 ||etnet.com.hk/www/tc/stocks/ads/
 ||ettoday.net/banners/
+||ettoday.net/events/ad-tab/
 ||ettoday.net^*/ad/
 ||eyuyan.com/attachment/thumb/Mon_1105/158_25295_7df7dd1884b0ash.jpg
 ||eyuyao.com/yyad/
@@ -5232,6 +5233,7 @@ _yad_jsonp_
 ||zibosky.com*/adgl/
 ||zibosky.com/images/gg11/
 ||zimuzu.tv/public/rooms?
+||zimuzu.tv/rrlx.jpg
 ||zisai.com/2013.ad/
 ||zisai.com/2014.ad/
 ||ziti.jz123.cn/js/
@@ -5275,12 +5277,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zimuzu.tv/rrlx.jpg
-||ettoday.net/events/ad-tab/
 !------------------------Specific element hiding rules------------------------!
-zimuzu.tv##.rrmj_ad
-thzbbs.com##DIV[style="margin-top:5px"] > TABLE[bordercolor="#999999"]
-ubetween.com##.ad_pt
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6001,6 +5998,7 @@ gongkong.com###hmi_pop
 t.qq.com###homeBannerNew
 hlj3.com###hot
 39.net###hotTopicsReco
+douyutv.com###hot_pop
 nownews.com###hotchannel
 sogou.com###hotel_vr_details
 news.sohu.com###hotpicnew
@@ -6072,6 +6070,7 @@ iqiyi.com###jingdongArea
 gog.com.cn###jqzxAd
 tigtag.com###js-dropdown
 100shuai.com###js_lol_ad
+douyutv.com###js_room_box > .r_con.rn3:first-child
 3721.cc###key2 > a
 3721.cc###keywords > a
 nazolog.com###kf2a
@@ -6255,7 +6254,6 @@ oschina.net###project_ad_banner
 mymusic.net.tw###prom
 17huohu.com,firefox.com.cn,firefoxchina.cn###promote-top-list
 sina.cn###promotionCover
-douyutv.com###hot_pop
 bt49.com###pt + center
 langxi.org###pt + div > table
 bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
@@ -6883,6 +6881,7 @@ sina.com.cn##.ad_main_top
 hb163.cn##.ad_panel_980
 letv.com##.ad_pop
 letv.com##.ad_pop_small
+ubetween.com##.ad_pt
 sogou.com##.ad_result
 cngba.com##.ad_ri
 bitauto.com,hc360.com,zhibo8.cc##.ad_right
@@ -7264,6 +7263,7 @@ huarenjie.com##.cfad
 hao.rising.cn##.channel-adimg
 douban.com##.channel_promo
 businessweekly.com.tw##.channelname > .hot_kw
+douyutv.com##.chat-right-ad
 cb.com.cn##.chbox_r_ad
 china.com.cn##.chinaJZG
 firefoxchina.cn##.chip-banners
@@ -7411,6 +7411,7 @@ hnr.cn##.duilian_close
 0772fang.com##.duilian_l
 0772fang.com##.duilian_r
 neihan8.com##.duiright
+douyutv.com##.dy_bottom_gg
 douyutv.com##.dy_top_gg
 mop.com##.dzh-ad-top
 haosou.com##.e-buss
@@ -8109,9 +8110,6 @@ news.163.com##.ns-wnotes
 szhk.com##.ny_ad1
 club.pchome.net,kdslife.com##.o_info font
 100shuai.com##.offi_ad
-douyutv.com###js_room_box > .r_con.rn3:first-child
-douyutv.com##.chat-right-ad
-douyutv.com##.dy_bottom_gg
 shunwang.com##.ola_program
 wallstreetcn.com##.omg-container
 hepan.com##.onead
@@ -8289,6 +8287,7 @@ iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
 allyingshi.com,zimuzu.tv##.room
 howfile.com##.row1_right
+zimuzu.tv##.rrmj_ad
 ld0766.com##.rsf_pull_screen_adv
 xinjunshi.com##.rt_jph
 rrting.net##.rtxt
@@ -9168,6 +9167,7 @@ zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 jstv.com##div[style="margin-top:10px; width:690px; height:90px; overflow:hidden;"]
 1000eb.com##div[style="margin-top:15px;height:130px;width:590px"]
+thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
 00fuck.com,01fuck.com,1024bao.com,20fuck.com,20men.com,22fuck.com,32cao.com,33fuck.com,42bao.com,44fuck.com,66fuck.com,74bao.com,75ri.com,83bao.com,96ri.com,bao36.com,bao85.com,baoxxx.com,cao71.com,cao89.com,caoporn.com,fuck01.com,fuck44.com,fuckhao.com,gan80.com,gantube.com,gao08.com,gao1024.com,lang00.com,lang51.com,men00.com,men40.com,men55.com,men70.com,men81.com,porncao.com,pornhao.com,ri1024.com,ri15.com,ri69.com,ri86.com,ri96.com,rifuck.com,tube1024.com,tubewan.com,wan1024.com,wanfuck.com,xxxgao.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 jxold.com##div[style="margin: 0 auto;  height: 60px;  "]
 northnews.cn##div[style="margin: 0px 50px 20px 0px; width: 290px; display: inline; float: left; height: 172px;"]
