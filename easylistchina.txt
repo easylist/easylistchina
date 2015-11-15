@@ -5282,9 +5282,11 @@ _yad_jsonp_
 ||qihaa.cn/js/
 ||imgbus.com^$domain=99files.net
 ||073img.com^*,$script
+||file.ithome.com/js/*/*/*.js
 !------------------------Specific element hiding rules------------------------!
 qihaa.cn##.ad
 ithome.com###con > DIV:first-child:not(#wrapper)
+ithome.com###top2 + DIV:not(#con)
 07073.com##DIV[style^="width: 135px; height: 327px;"]
 iqiyi.com##.rm-site-main
 gpcxw.com###AA2
