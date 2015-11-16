@@ -82,6 +82,7 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/cpro/ui/dm.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -2092,7 +2093,6 @@ _yad_jsonp_
 ||baidu.com^$domain=pos.baidu.com
 ||baidu.com^*/interface/ad?
 ||baidud.cn/aoao/down_
-||baiduj.tianya.cn^
 ||baifen.music.baidu.com/api/v1/*?format=jsonp&
 ||baishuku.com/news/$script
 ||baishulou.net/html/
@@ -4630,7 +4630,6 @@ _yad_jsonp_
 ||thisav.com/js/*float
 ||thisav.com/js/popup.js
 ||thisav.com/windowfiles/dhtmlwindow
-||thjunshi.com/cpro/ui/dm.js
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
 ||tianjinwe.com/together/szbz/
