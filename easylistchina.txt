@@ -5707,6 +5707,7 @@ wenyoutai.com###comiis_xwyt01
 wenyoutai.com###comiis_xwyt_ad02
 wenyoutai.com###comiis_xwyt_ad03
 wenyoutai.com###comiis_xwyt_ad04
+ithome.com###con > DIV:not([class]):not([id]):first-child + DIV
 ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 gate.baidu.com,m.baidu.com###container
 ylnet.com.cn###container > div[style*="990px;"]
@@ -6458,7 +6459,7 @@ iyejie.com###top > div:not([id]):not([class])
 abcde.cn,bbs.houdao.com###top-banner
 skinme.cc###top-lamu
 gaxhw.com###top1
-ithome.com###top2 + div:not(#con)
+ithome.com###top3 + div:not(#con)
 teepr.com###topAdBlock
 jjxw.cn###topBig2
 starbaby.cn###topCurtain
