@@ -82,6 +82,7 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/ggad/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -1766,7 +1767,6 @@ _yad_jsonp_
 ||77bike.com/img/sticker.gif
 ||77bike.com/img/tern.swf
 ||77kp.com/bd/
-||77pan.cc/ggad/
 ||789pan.com/templates/default/images/kuping.gif
 ||78dm.net/images/mingren250.jpg
 ||78land.com/js/fumeiti.js
@@ -5297,6 +5297,7 @@ _yad_jsonp_
 ||alicdn.com^$domain=xiadele.com
 ||xz7.com/js/3000.js
 !------------------------Specific element hiding rules------------------------!
+longbl.com##.banner
 gpcxw.com###AA2
 dict.cn###tjcd
 dict.cn##.search-right-ad5
@@ -9706,6 +9707,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
+@@||csbew.com^$domain=longbl.com
 @@||10086.cn/service/$elemhide,domain=10086.cn
 @@||10086.cn^*/ad$domain=10086.cn
 @@||107.182.131.103/cache/?q=/images/*/
@@ -9784,9 +9786,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||addon.discuz.com/resource/*/ad
 @@||adjs.8591.com.tw^$script
 @@||adm.cnzz.net/appgcm.php?sid=244627&$domain=123564.com
-@@||adm.cnzz.net/appgcm.php?sid=268052&$domain=xuandy.com
-@@||adm.cnzz.net/js/abase.js$domain=123564.com|xuandy.com
-@@||adm.cnzz.net^*.jpg$domain=xuandy.com
+@@||adm.cnzz.net/js/abase.js$domain=123564.com
 @@||ads.i8.com.cn/hd/dzs/
 @@||ads.myopen.vip.com^$domain=vip.com
 @@||ads.rakuya.com.tw^$domain=rakuya.com.tw
