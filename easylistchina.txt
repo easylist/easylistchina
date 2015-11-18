@@ -2960,7 +2960,6 @@ _yad_jsonp_
 ||guess.h.qhimg.com^
 ||guitarchina.com/1/ww2014
 ||guofs.com/images/578-60.gif
-||guofs.com/images/gg.jpg
 ||guofs.com/images/you.js
 ||guokr.com/baidu-cbjs/
 ||guqu.net/Cooperate/
@@ -3935,7 +3934,6 @@ _yad_jsonp_
 ||niutuku.com/skin/style2013/ad/
 ||niwozhi.net/960x90.gif
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
-||nmg.xinhuanet.com/sy/images/*.swf
 ||nmgnews.com.cn/swf/0/10/$object,domain=www.nmgnews.com.cn
 ||nnnews.net/public/xqymgg/
 ||no1.168abc.net/upload/
@@ -4975,12 +4973,9 @@ _yad_jsonp_
 ||xinhuanet.com/adxl/
 ||xinhuanet.com/classad/
 ||xinhuanet.com/images/ggdl.jpg
-||xinhuanet.com/images2011/yt_csj.gif
 ||xinhuanet.com/jjimages/jc/js/fla.js
-||xinhuanet.com/nmgwq/btkq/new/img/dlad_
 ||xinhuanet.com/plugs/szzc630x80.jpg
 ||xinhuanet.com/statics/imags/zgyd_
-||xinhuanet.com/sy/images/yidong4g.jpg
 ||xinhuanet.com/titlepic/111243292_title1n.jpg
 ||xinhuanet.com/v/script/coupletAd.js
 ||xinhuanet.com/v2/ads/
@@ -5301,8 +5296,8 @@ hao.qq.com,sogou.com###AD_3
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
-autofan.com.cn,jiaodong.net,rzw.com.cn,xinhuanet.com,yb983.com###ALayer1
-autofan.com.cn,jiaodong.net,rzw.com.cn,xinhuanet.com,yb983.com###ALayer2
+autofan.com.cn,jiaodong.net,rzw.com.cn,yb983.com###ALayer1
+autofan.com.cn,jiaodong.net,rzw.com.cn,yb983.com###ALayer2
 i-part.com.tw###AdBanner785
 i-part.com.tw###AdBanner_Gold_New
 elecfans.com###AdHtmlRight
@@ -9608,6 +9603,10 @@ brandsales.58.com#@#div[id^="ad_"]
 xinmin.cn#@#.a_p
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||cb.baidu.com/ecom?di=$domain=xdf.cn
+@@||cbjs.baidu.com/js/m.js$domain=xdf.cn
+@@/addata.$domain=xdf.cn
+@@||ubmcmm.baidustatic.com^$domain=xdf.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
