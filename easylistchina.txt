@@ -5304,8 +5304,11 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 .gif|$domain=tianyatorrents.info
 ||sinaimg.cn^$domain=ttdyy.tv
+|http:$domain=e.70e.com
 !------------------------Specific element hiding rules------------------------!
 ttdyy.tv###bottomAD
+flv.tv###xm
+flv.tv###xt
 bukade.com###beitou
 gpcxw.com###AA2
 hebt1024.com##A[href^="/ad/"]
@@ -9640,6 +9643,8 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
+@@=300&$subdocument,domain=flv.tv
+@@||70e.com^$script,domain=flv.tv
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
