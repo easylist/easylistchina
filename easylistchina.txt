@@ -370,6 +370,7 @@ _mobilebanner_v1_550x60.jpg
 ##.ggg-in-post2
 ##.gggggpost-below
 ##.gggggtop
+##.gggpost-above
 ##.gggtop
 ##.ggpost-below
 ##.ggtop
@@ -428,12 +429,9 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.gggpost-above
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
-||jiyou2014.com^
-:9001/code/
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -458,6 +456,7 @@ _mobilebanner_v1_550x60.jpg
 /tourl.html?url=
 :8080/js/v1.js$third-party
 :8080/js/v2.1.js$third-party
+:9001/code/
 |http://*.cc/s.php?id=$script,third-party
 |http://*.cn/s.php?id=$script,third-party
 |http://*.com/s.php?id=$script,third-party
@@ -763,6 +762,7 @@ _mobilebanner_v1_550x60.jpg
 ||jisucn.com^$third-party
 ||jixing8.com^$third-party
 ||jixing8.net^$third-party
+||jiyou2014.com^
 ||jk939.com^
 ||jlssbz.com^
 ||jnrsjm.com^
@@ -1669,6 +1669,7 @@ _yad_jsonp_
 ||55.la/anonymous/banner/$domain=lxty66.com
 ||55125.cn/ggclass/
 ||557xx.com/images/
+||55aaee.com/detail/
 ||55music.net/dazhe.jpg
 ||56.com/js/promo/
 ||56ads.com/js/main.js
@@ -2106,6 +2107,7 @@ _yad_jsonp_
 ||baidu.com/show/livevideo/getStreamConf?
 ||baidu.com/showbrand/banner_
 ||baidu.com/showbrand/sponsor_
+||baidu.com/static/html/cbjs.html
 ||baidu.com/static/yuntu-ad/
 ||baidu.com/staticapi/hotnews_new.
 ||baidu.com/staticapi/misadlist.
@@ -2177,7 +2179,9 @@ _yad_jsonp_
 ||bego.cc/img/
 ||beijing-air.com/images/a/j
 ||beiwo.tv/Runtime/js/list01.js
+||bejson.com/imgs/beifen
 ||bejson.com/imgs/j950-90.jpg
+||bejson.com/imgs/qiniu
 ||bejson.com/imgs/tuo.png
 ||bendibao.com*/tuangou.gif
 ||bendibao.com/mo/adm_iframe.htm?
@@ -2243,6 +2247,7 @@ _yad_jsonp_
 ||bs.baidu.com/app-ads%
 ||bs028.com/js/inc/
 ||bt977.com/Public/images/ad
+||btago.com/static/banner/
 ||btbbt.cc/jslb.js
 ||btbook.net/static/img/880X60.gif
 ||btcherry.com/images/ad_
@@ -2393,6 +2398,7 @@ _yad_jsonp_
 ||chinaz.com/temp_upfile/ads/
 ||chiphell.com/activity/
 ||chotee.com/wp-content/uploads/2015/apple-back-to-school-2015/
+||chrome007.com/images/goodxxxx.jpg
 ||chuangshi.qq.com/upload/cmsv2/Banner/
 ||chuixue.com/jsa/
 ||chuixue.com/template/*/images/g_js/show_
@@ -2409,8 +2415,8 @@ _yad_jsonp_
 ||cjn.cn^*/ad/
 ||clm02.com/2014-A/FB-6-14-AA1.jpg
 ||clouddn.com/960x60.gif
-||cmhello.com/2015/10/hc.jpg
 ||club.pchome.net/*/localexchange.php$subdocument
+||cmhello.com/2015/10/hc.jpg
 ||cmsjs.eastmoney.com/js/fixedSoft$script
 ||cmsjs.eastmoney.com^$subdocument
 ||cna5.net/skins/js/
@@ -2422,6 +2428,7 @@ _yad_jsonp_
 ||cndesign.com/Content/img/*x90_
 ||cndesign.com/Content/img/175x60_
 ||cndesign.com/Content/img/356x80_
+||cndesign.com/img/1200x100.jpg
 ||cngoldres.com/advservice/
 ||cngsf.com/baidu.htm
 ||cngsf.com/images/336_280.gif
@@ -2472,6 +2479,7 @@ _yad_jsonp_
 ||cqfishing.net/data/attachment/portal/
 ||cqnews.net:8080/vplayerAdv/
 ||cqvip.com/viewserver/ViewAD
+||cqwb.com.cn/skin/ggimages/
 ||cr173.com/js/
 ||cr173.com/show/
 ||creaders.net*/ad_func.js
@@ -5304,28 +5312,12 @@ _yad_jsonp_
 ||zxip.com/2013_ad/
 ||zyzczs.com/js/tj.txt
 ||zzc.cn/b/
+||zzidc.com/img/
+||zzidc.com^*0.gif
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||55aaee.com/detail/
-||zzidc.com/img/
-||zzidc.com^*0.gif
-||btago.com/static/banner/
-||bejson.com/imgs/beifen
-||bejson.com/imgs/qiniu
-||baidu.com/static/html/cbjs.html
-||chrome007.com/images/goodxxxx.jpg
-||cqwb.com.cn/skin/ggimages/
-||cndesign.com/img/1200x100.jpg
 !------------------------Specific element hiding rules------------------------!
-baidu.com##.cbg-Ads
-gametower.com.tw###tableAD
-cndesign.com##.index-add
-cqwb.com.cn##.gg306[style="margin-bottom: 15px;"]
-cqfishing.net###diy1
-cqwb.com.cn##.ggbox
-chrome007.com###xxxx
-image.baidu.com###plz-albums
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5829,7 +5821,7 @@ jdcjsr.com###divl2
 jdcjsr.com###divr1
 123du.cc,bokon.net###divtop1
 123du.cc,bokon.net###divtop2
-0562.cc,0830bbs.com,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,dayoo.com,dengfeng.cn,hh010.com,imuyang.com,kugz.com,ld0766.com,mahoupao.net,qhf.cm,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,wishct.com,ybvv.com###diy1
+0562.cc,0830bbs.com,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dayoo.com,dengfeng.cn,hh010.com,imuyang.com,kugz.com,ld0766.com,mahoupao.net,qhf.cm,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,wishct.com,ybvv.com###diy1
 d7w.net###diy10
 yb.jl.cn###diy100
 hcwang.cn###diy111
@@ -6281,6 +6273,7 @@ icoolxue.com###player-ad
 7k7k.com###player-tools-ad
 yxingqiu.com,zuile8.com###playertipian
 mail.qq.com###plp_ad_container
+image.baidu.com###plz-albums
 image.baidu.com###plz-head-banner
 game2.cn###pop-flash
 aibang.com###popAd
@@ -6443,6 +6436,7 @@ skyme.com,tom365.com,tw116.com###t365
 sg169.com###tab1
 sogou.com###tab857
 net767.com###table6
+gametower.com.tw###tableAD
 bbs.hiapk.com###tag_1_7
 t.qq.com###talkList > li[ispopula="1"][tv="2"]
 zymk.cn###tanchuang
@@ -6586,6 +6580,7 @@ duole.fm###xianxiashijie
 jmbbs.com###xjj_jmbbs2015_01
 flv.tv###xm
 2mm.tv,flv.tv###xt
+chrome007.com###xxxx
 xizi.com###xz_8
 redocn.com###yc_adv_1_2
 cdict.net###yhoo_text_ads
@@ -7306,6 +7301,7 @@ kuaipan.cn##.card
 16888.com##.cardataclass
 sd173.com##.carousel
 acg.bz##.carousel.slide
+baidu.com##.cbg-Ads
 meizhou.com##.cc_slide_big
 meizhou.com##.cc_slide_small
 meizhou.com##.cc_z1
@@ -7643,6 +7639,7 @@ ifeng.com##.gg298
 xsbook.net##.gg300
 iqilu.com##.gg300250dbl
 chinasexq.com##.gg300x250
+cqwb.com.cn##.gg306[style="margin-bottom: 15px;"]
 lcxw.cn,ts.cn##.gg4
 ts.cn##.gg5-cj
 iqilu.com##.gg580140
@@ -7674,7 +7671,7 @@ jn256.com##.ggarea
 360che.com##.ggbanner
 2300sjz.com##.ggbanner-1
 2300sjz.com##.ggbanner-2
-creaders.net##.ggbox
+cqwb.com.cn,creaders.net##.ggbox
 creaders.net##.ggbox1
 qidian.com##.ggbox740X80
 gexing.com.cn##.ggline
@@ -7833,6 +7830,7 @@ qqyy.com##.ind_ad
 newtalk.tw##.ind_news_station
 boxcdn.cn,faxingw.cn##.indadv1
 yikexun.cn##.index-ad-tl
+cndesign.com##.index-add
 sogou.com##.index-banner
 cyzone.cn##.index-content-ad
 8888eee.com,avlang.com,avlang33.com,avlang88.com,cncao8.com,lang44.com##.index-info > .tac
