@@ -5319,6 +5319,7 @@ _yad_jsonp_
 /\/videos\/other\/[0-9]{8}\/([a-z][0-9]|[13579][02468])\//$object-subrequest,domain=iqiyi.com
 /c5a2cc630153f80acbc501f8ef4730b6.
 ||ganbingw.com/images/top960.jpg
+|http://$script,third-party,domain=ypan.cc
 ||dngame.eu/dngcenter/default.aspx
 ||dnvod.eu//upload/image/$object-subrequest
 !------------------------Specific element hiding rules------------------------!
@@ -9671,6 +9672,7 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
+@@/webThunderDetect.$domain=ypan.cc
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
