@@ -5323,8 +5323,10 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+|http://$script,third-party,domain=ccav1.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ccav1.com###nav-menu > UL > .menu-item > A[href^="http"]:not([href^="http://www.ccav1."])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
