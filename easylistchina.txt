@@ -2685,6 +2685,7 @@ _yad_jsonp_
 ||dxrc.cn/ad1/
 ||dxrc.cn/images/sy.gif
 ||dy2018.com/dianyq/
+||dydh.tv/img/2345.gif
 ||dydh.tv/img/384.gif
 ||dydh.tv/img/960.gif
 ||dyhjw.com/dyhjw/1.htm
@@ -5322,13 +5323,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dydh.tv/img/2345.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-drupalchina.cn##.region-header-banner
-dilidili.com##DIV[style="width:1250px;margin:0px auto;"]
-lrshare.com##.menu-item > A[href^="http:"]:not([href^="http://www.lrshare."])
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6251,6 +6247,7 @@ manhua.weibo.com###p-nav-fix + .p-area.w980
 xizi.com###pageRight-loop
 guanhuaju.com###page_gg_1
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 srzc.com###pageright > .padding:nth-child(2)
 5iyq.com###pan1
 5iyq.com###pan2
@@ -8072,6 +8069,7 @@ hao.360.cn##.mbar-bd
 xizi.com##.md310_90
 nownews.com##.meannews
 shmet.com##.memberadstb
+lrshare.com##.menu-item > a[href^="http:"]:not([href^="http://www.lrshare."])
 lrshare.com##.menu-item-type-custom > a[href^="http://t."]
 taihainet.com##.menu_bg + .box10 + .wrapper
 zdfans.com##.meta > .meta-info + div
@@ -8138,7 +8136,7 @@ gucheng.com##.n_s_300250
 gucheng.com##.n_s_3002502
 meizhou.com##.nav + .blankSP10 + .w1000
 ab126.com##.nav + div[align="center"]
-zdfans.com##.nav > .menu-item > A[href^="http"]:not([href*=".zdfans."]):not([href*=".zd423."]):not([href*=".qq."])
+zdfans.com##.nav > .menu-item > a[href^="http"]:not([href*=".zdfans."]):not([href*=".zd423."]):not([href*=".qq."])
 baidu.com##.nav_ads
 caoliushequ1024.org##.nav_list > div[style="text-align: center;"]
 3158.cn##.navbot
@@ -8326,6 +8324,7 @@ image.baidu.com##.recom
 image.baidu.com##.recommend
 hao123.com##.recommend-link
 guba.eastmoney.com##.redian
+drupalchina.cn##.region-header-banner
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
 haosou.com##.res-rich-drug
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.res_top_banner
@@ -9299,6 +9298,7 @@ zol.com.cn##div[style="width:1000px;height:90px;text-align:center;float:none"]
 jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidden;"]
 gminfo.cn##div[style="width:1100px;"]
 yokamen.cn##div[style="width:1180px;height:300px;margin:0 auto;position:relative;overflow:hidden;"]
+dilidili.com##div[style="width:1250px;margin:0px auto;"]
 auto-online.com.tw##div[style="width:160px;height:480px;margin:0;background:#000000"]
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 backchina.com##div[style="width:300px; min-height: 250px; background-color: #f5f5f5; margin:0;"]
@@ -9683,8 +9683,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/adsense/*$domain=piseneasy.com
-@@/Advert_$domain=pisen.com.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9719,9 +9717,10 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/adsame.$domain=liba.com|libaclub.com
 @@/adsbox.$domain=long7.qq.com
 @@/adsbygoogle.$domain=serve.netsh.org
-@@/adsense/*$domain=taobao.com
+@@/adsense/*$domain=piseneasy.com|taobao.com
 @@/AdShow/*$domain=mndxy.org
 @@/advert/*$domain=cctcw.cn|juxiangyou.com|locuspublishing.com
+@@/Advert_$domain=pisen.com.cn
 @@/advert_$domain=wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
