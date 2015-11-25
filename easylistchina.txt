@@ -1193,7 +1193,7 @@ _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 |http:$domain=e.70e.com|xcdf.cn
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
-|http://$script,third-party,domain=ypan.cc
+|http:$script,third-party,domain=ypan.cc
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
@@ -5323,7 +5323,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-|http://$script,third-party,domain=ccav1.com
+|http:$script,third-party,domain=ccav1.com
+||hd62.com/img/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 ccav1.com###nav-menu > UL > .menu-item > A[href^="http"]:not([href^="http://www.ccav1."])
