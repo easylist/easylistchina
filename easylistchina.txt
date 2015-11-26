@@ -289,6 +289,8 @@ _mobilebanner_v1_550x60.jpg
 ###kfpopupDiv
 ###leftCouple
 ###leftFloat + #rightFloat
+###left_couple
+###left_float + #right_float
 ###left_top_ad
 ###lovexin1
 ###lovexin11
@@ -306,6 +308,8 @@ _mobilebanner_v1_550x60.jpg
 ###qj960b
 ###results.content-main > .eLeft
 ###rightCouple
+###right_couple
+###right_couple + #left_float
 ###sitefocus.focus
 ###snActive-wrap
 ###table1[width="468"][height="50"]
@@ -428,20 +432,15 @@ _mobilebanner_v1_550x60.jpg
 ##body[onload*="u()"] > #x
 ~dsjunshi.com##div[id^="ad_thread"]
 ~sinaimg.cn##img[width="960"][src*=".sinaimg."]
+~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###left_couple
-###left_float + #right_float
-###right_couple
-###right_couple + #left_float
-~sinaimg.cn##IMG[width="980"][src*=".sinaimg."]
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-/pd2.js$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -459,6 +458,7 @@ _mobilebanner_v1_550x60.jpg
 /page/index.php?s=$third-party
 /page/s.php?s=$third-party
 /pagecpv/*
+/pd2.js$third-party
 /pge/?s=$third-party
 /tourl.html?url=
 :8080/js/v1.js$third-party
@@ -1198,8 +1198,8 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 |http:$domain=e.70e.com|xcdf.cn
+|http:$script,third-party,domain=ccav1.com|ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
-|http:$script,third-party,domain=ypan.cc
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
@@ -3077,6 +3077,7 @@ _yad_jsonp_
 ||hc360.com/security/201311/201311151050289368.swf
 ||hc360.com/security/201409/201409021830024990.jpg
 ||hd180.com/js/
+||hd62.com/img/
 ||hdad.baike.com^
 ||hdarea.co/pic/2222.gif
 ||hdpfans.com/images/hotapp/
@@ -5327,15 +5328,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-|http:$script,third-party,domain=ccav1.com
-||hd62.com/img/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sozi.cn###Javascript\.LeftDiv
-sozi.cn###Javascript\.RightDiv
-apk.tw###favatarRight
-apk.tw###postlist > DIV:nth-last-child(2):not([id])
-ccav1.com###nav-menu > UL > .menu-item > A[href^="http"]:not([href^="http://www.ccav1."])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5404,8 +5398,8 @@ gexing.com###J_bottomMes
 2345.com###J_search_bd > div:last-child
 2345.com###J_tip_stopXP
 61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
-78dm.net,hitvs.cn###Javascript\.LeftDiv
-78dm.net,hitvs.cn,qzwb.com###Javascript\.RightDiv
+78dm.net,hitvs.cn,sozi.cn###Javascript\.LeftDiv
+78dm.net,hitvs.cn,qzwb.com,sozi.cn###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
 dz320.com###Layer1
 huarenjie.com###LeftAd2
@@ -5910,6 +5904,7 @@ www.youdao.com###ext
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 iciba.com###ezfm
+apk.tw###favatarRight
 fifm.cn###favorite_table_box
 businessweekly.com.tw###featurelist
 hao.360.cn###festival-theme > .left-entry
@@ -6228,6 +6223,7 @@ qqjia.com###myadsL
 qqjia.com###myadsR
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
+ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href^="http://www.ccav1."])
 webkaka.com###navo + .ucontent
 tgbus.com###neck_970
 40407.com###nei_fmt
@@ -6310,6 +6306,7 @@ ld0766.com###portal_ad3
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 chinawin.net,itkee.com###postTopAd
+apk.tw###postlist > div:nth-last-child(2):not([id])
 k7mm.com###premium-yva-close
 wuxianfuli.com###primary > a[target="_blank"]
 9le8.com###program_play_right
@@ -7529,6 +7526,7 @@ hao123.com##.enter1
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net##.entry-content > div[style^="float:right"]
 briian.com##.entry-content > p[style="height: 85px;"]
+shaoit.com##.entry_box_s > a[target="_blank"]
 epinv.com##.epinv_f
 shulink.com##.er_g
 chinaz.com##.etc-b-head
@@ -8878,7 +8876,6 @@ jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 lrshare.com,zdfans.com##a[href*="zdzdm."]
 cnzol.com##a[href*="zhuan5."]
-shaoit.com##.entry_box_s > A[target="_blank"]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 bejson.com##a[href="/other/jikefma/"]
 zdfans.com##a[href="http://955.cc/FXZF"]
@@ -9464,8 +9461,8 @@ hanzify.org##span[style^="float:right;"]
 www.tiexue.net##style + [style="display:none;"] + div[class]
 tiexue.net##style + div[class] > style ~ img
 tiexue.net##style + img + div[class] > .list
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##STYLE[id^="s-"] + SCRIPT + DIV[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##STYLE[id^="s-"] + SCRIPT + SCRIPT + DIV[id]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
 rmdown.com##table[bgcolor="#003366"]:nth-child(2)
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
