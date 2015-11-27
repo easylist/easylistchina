@@ -1202,7 +1202,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 |http:$domain=e.70e.com|xcdf.cn
-|http:$script,third-party,domain=ccav1.com|ypan.cc
+|http:$script,third-party,domain=ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
@@ -5335,6 +5335,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+/^http://(?!(hm.|cdn.))/$script,third-party,domain=ccav1.com
+||taobao.org/svn/chromegae/trunk/block.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
