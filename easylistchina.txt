@@ -1059,6 +1059,7 @@ _mobilebanner_v1_550x60.jpg
 /52meiju_700_90.jpg
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
+/^http://(?!(hm.|cdn.))/$script,third-party,domain=ccav1.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.itjsb\.com\/[a-z0-9A-Z]+\.(gif|jpg)/$domain=itjsb.com
 /ad2014.js$domain=39xs.net|checheng123.com|haodu5.com
@@ -2698,6 +2699,7 @@ _yad_jsonp_
 ||dydh.tv/img/2345.gif
 ||dydh.tv/img/384.gif
 ||dydh.tv/img/960.gif
+||dydh.tv/statics/js/tuku
 ||dyhjw.com/dyhjw/1.htm
 ||dyhjw.com/dyhjw/1/3/471.gif
 ||dyhjw.com/dyhjw/4.htm
@@ -4649,6 +4651,7 @@ _yad_jsonp_
 ||taizhou.com.cn/52.files/c1_20150423.swf
 ||taizhou.com.cn^*/3890.files/xchad.jpg
 ||talkforex.com/data/attachment/portal/
+||taobao.org/svn/chromegae/trunk/block.js
 ||taobaocdn.com/imgextra/$domain=backtrack.org.cn
 ||taobaocdn.com/tps/i1/TB14t03FVXXXXapaXXX8EsMMFXX-1680-450.jpg_670x670.jpg
 ||taobaocdn.com^$domain=dnwx.com|snybw.com
@@ -5335,9 +5338,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-/^http://(?!(hm.|cdn.))/$script,third-party,domain=ccav1.com
-||taobao.org/svn/chromegae/trunk/block.js
-||dydh.tv/statics/js/tuku
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6408,7 +6408,6 @@ yzz.cn###showSlideAD_big
 yzz.cn###showSlideAD_small
 hinews.cn###showgg
 club.pchome.net,kdslife.com###side a[href*="youxi."]
-club.pchome.net,kdslife.com##.rtag.gs
 hunantv.com###side-join-ad
 iwan.baidu.com###side-xbox
 ck101.com###sideAds1
@@ -7170,6 +7169,7 @@ phpfans.net##.banad
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 iwan.baidu.com##.banner-container
+baidu.com##.banner-cover
 91.com##.banner-gg
 toutiao.com##.banner-index-bottom
 javbus.cc,javbus.co##.banner-index-top
@@ -7179,7 +7179,6 @@ fenxs.com,fulitie.org##.banner-site
 tianshi2.com##.banner-sticky
 big-cup.tv,g-cup.tv##.banner-table-block
 firefoxchina.cn##.banner-words
-baidu.com##.banner-cover
 baidu.com,longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
 news.cn2che.com,sd001.com##.banner01
@@ -8400,6 +8399,7 @@ howfile.com##.row1_right
 zimuzu.tv##.rrmj_ad
 ld0766.com##.rsf_pull_screen_adv
 xinjunshi.com##.rt_jph
+club.pchome.net,kdslife.com##.rtag.gs
 rrting.net##.rtxt
 jjxw.cn##.ru_banner
 iyaxin.com##.ruan_ad
@@ -9714,7 +9714,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/flash/ad/*$domain=haitao.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9772,6 +9771,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/data/attachment/*_300_250_
 @@/dy_44jjss/topbu.js
 @@/dy_44jjss/zytop1.js
+@@/flash/ad/*$domain=haitao.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=21394.com|94pan.com|fmdisk.com|fmpan.com
