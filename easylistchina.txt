@@ -438,7 +438,6 @@ _mobilebanner_v1_550x60.jpg
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
-||dou777.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -681,6 +680,7 @@ _mobilebanner_v1_550x60.jpg
 ||dlads.cn^$third-party
 ||dmtrck.com^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
+||dou777.com^
 ||doubleadv.com^$third-party
 ||drmcmm.baidu.com^
 ||dszm163.com^$third-party
@@ -2669,6 +2669,7 @@ _yad_jsonp_
 ||downyi.com/tg/
 ||downza.cn/html/skin/default/ad/
 ||doyo.cn/Tpl/web/Public/images/material/www_couplets/
+||dpfile.com/pc/ad/
 ||dpfile.com/pc/trip/*(600x400)
 ||dqdm.com/js/dqdm/nei960
 ||dre8.com/tieba/zh-tb/so.html
@@ -5340,16 +5341,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dpfile.com/pc/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dapenti.com###center > DIV[align="center"][target="_blank"]
-tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
-dianping.com##.J_midas-3
-dianping.com##.J_mkt-group-1
-dianping.com##.J_mkt-group-2
-dianping.com##.J_mkt-group-3
-dianping.com##.bottom-contrainer
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5730,6 +5723,7 @@ longzhu.com,tga.plu.cn###carousel
 mao-123.com,mengmao.org###cat3
 bbs-mychat.com###cate_top > tr > .f_one
 weather.com.cn###ccs
+dapenti.com###center > div[align="center"][target="_blank"]
 jbtalks.cc###center-popup-bg
 jbtalks.cc###center-popup-show
 huarenjie.com###cftoutiao
@@ -6721,6 +6715,10 @@ sj998.com##.Hr_1
 souxue8.net,xiaodao.la,xiaodaoyl.com##.HtmlMoKua.column.two-thirds
 xinmin.cn##.Index201408_gg2
 xinmin.cn##.Index201408_gg3
+dianping.com##.J_midas-3
+dianping.com##.J_mkt-group-1
+dianping.com##.J_mkt-group-2
+dianping.com##.J_mkt-group-3
 19lou.com,ihome99.com##.J_pm
 dbw.cn##.Jutop
 3d66.com##.King_Chance_LayerCont
@@ -7300,6 +7298,7 @@ tingshuge.com##.bordercs[align="center"]
 360doc.com##.both[style^="padding-top:"]
 99re.city,99re.net,99re.org##.bottom-adv
 115.com##.bottom-banner
+dianping.com##.bottom-contrainer
 liba.com##.bottom-pic
 3g.news.cn,m.news.cn##.bottomtitle
 freehao123.com##.box
@@ -7943,6 +7942,7 @@ tieba.baidu.com##.j_post_list_item + li[class]:not(.j_post_list_item)
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0f\\u7ad9\\u957f\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5feb\\u8baf\\u5927\\u7ba1\\u5bb6\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
+tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
 jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
@@ -9727,7 +9727,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/Advertisement.$domain=gametower.com.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9769,6 +9768,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/advert_$domain=wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
+@@/Advertisement.$domain=gametower.com.tw
 @@/advertisement.js$domain=gimhoy.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
