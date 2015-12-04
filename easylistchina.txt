@@ -1205,7 +1205,7 @@ _!!1731999033.
 _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
-|http:$domain=e.70e.com|xcdf.cn
+|http:$domain=e.70e.com
 |http:$script,third-party,domain=ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
@@ -5348,8 +5348,10 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||xilinjie.com/partner/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xilinjie.com###xlj-spread
 itnose.net##DIV[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9025,7 +9027,6 @@ yzz.cn##a[style^="display:block; width:980px; height:100px;"]
 gaoqing.la##a[target="_blank"] > img[src*=".sinaimg.cn/large/"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
 creaders.net##a[title^="www.136888.com/new/ad."]
-xcdf.cn##body
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 btkitty.so##body > a
