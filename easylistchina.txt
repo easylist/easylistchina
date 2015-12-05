@@ -1210,7 +1210,7 @@ _!!1731999033.
 _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
-|http:$domain=e.70e.com
+|http:$domain=e.70e.com|e701.net
 |http:$script,third-party,domain=ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
@@ -5370,6 +5370,7 @@ _yad_jsonp_
 ||dmmfx.com.au/dmm-tag/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+e.70e.com##BODY
 sydneytoday.com##.kpadv5
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9771,6 +9772,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||e70123.com^$script,domain=flv.tv
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
