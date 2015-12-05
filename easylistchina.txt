@@ -82,6 +82,7 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/newsyd/templates/sponsor/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -437,6 +438,8 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+###headadv2
+###sp_head
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 ||67lm.com^$third-party
@@ -5363,11 +5366,10 @@ _yad_jsonp_
 ||didamoe.com/js/xuanfu.js
 ||00170017.net/Public/dzb_gg.js
 ||00170017.net/Public/images/
-||meltoday.com/sites/all/themes/newsyd/templates/sponsor/
+||sydneytoday.com/sponsor/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-meltoday.com###headadv2
-meltoday.com###sp_head
+sydneytoday.com##.kpadv5
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
