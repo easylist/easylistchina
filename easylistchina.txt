@@ -303,6 +303,7 @@ _mobilebanner_v1_550x60.jpg
 ###micast_ads
 ###movieInfoRight
 ###my-adsFPR
+###navcontainer + .moneyarea
 ###olfullad
 ###ptcmsad1
 ###qj960a
@@ -436,7 +437,6 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###navcontainer + .moneyarea
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
 .com/i.php?z=$script,third-party
@@ -1454,6 +1454,7 @@ _yad_jsonp_
 ||1m1m.cn/bar/
 ||1pad.cn/ahead/01.gif
 ||2008xxx.com:888
+||201*.myhard.com^
 ||201411.073img.com^
 ||204.12.228.235^*.png
 ||204.12.228.236^*.png
@@ -2179,7 +2180,9 @@ _yad_jsonp_
 ||bdstatic.com/player/t/j/AEoIJIPB.js
 ||bdstatic.com/player/t/j/Cj2XuDf6.js
 ||bdstatic.com/player/t/j/TvKa94eY.js
+||bdstatic.com/static/article/widget/left-promo/
 ||bdstatic.com/tb/%E8%B4%B4%E5%90%A7-
+||bdstatic.com/tb/cms/activity_head/file_1449112857049.jpg
 ||bdstatic.com/tb/cms/com/game/couplet_
 ||bdstatic.com/tb/cms/com/mis/spreadad/dasense_iframe_api.js
 ||bdstatic.com/tb/cms/forum_skin/file_1442399443261.jpg
@@ -3041,6 +3044,7 @@ _yad_jsonp_
 ||hackbase.com/vip/topbanner.html
 ||hacken.cc/file/ads/
 ||hackp.com/wz/
+||hackp.com/xiaojiu/
 ||haha.mx/images/banner/jd.jpg
 ||haha.mx/images/banner/tmall11.png
 ||haha.mx/images/banner/vipp.jpg
@@ -3427,6 +3431,7 @@ _yad_jsonp_
 ||inhe.net/Uploadfiles/ad_2014/
 ||inlishui.com/index.php?m=poster&
 ||inte.sogou.com^
+||iour.co/wp-content/uploads/
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
 ||iq33.com/skin/logo2015/
@@ -5023,6 +5028,7 @@ _yad_jsonp_
 ||xici.com/group4/M02/08/56/rBABp1TMJjiEHF7uAAAAAIxYUcs565.jpg
 ||xici.net/diaobao/
 ||xigua110.com/a/
+||xilinjie.com/partner/
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
 ||xinbiqi.com/js/pc_ads.js
@@ -5349,19 +5355,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||xilinjie.com/partner/
-||iour.co/wp-content/uploads/
-||201*.myhard.com^
-||hackp.com/xiaojiu/
-||bdstatic.com/tb/cms/activity_head/file_1449112857049.jpg
-||bdstatic.com/static/article/widget/left-promo/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sina.com.cn##.advertisement
-xilinjie.com###xlj-ad-right-01
-xilinjie.com###xlj-ad-right-02
-xilinjie.com###xlj-spread
-itnose.net##DIV[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6636,6 +6631,9 @@ soft4fun.net###xad_mu
 xinhuanet.com###xiangguanad
 duole.fm###xianxiashijie
 jmbbs.com###xjj_jmbbs2015_01
+xilinjie.com###xlj-ad-right-01
+xilinjie.com###xlj-ad-right-02
+xilinjie.com###xlj-spread
 flv.tv###xm
 2mm.tv,flv.tv###xt
 chrome007.com###xxxx
@@ -7115,6 +7113,7 @@ sohu.com,tieba.baidu.com,uuk14.com##.advertise
 baofeng.com##.advertise-mj
 baofeng.com##.advertise960
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
+sina.com.cn##.advertisement
 elecfans.com##.advertising
 4493.com##.advline
 hexun.com,hexun.com.tw##.advp
@@ -9330,6 +9329,7 @@ dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
 zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 jstv.com##div[style="margin-top:10px; width:690px; height:90px; overflow:hidden;"]
+itnose.net##div[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
 1000eb.com##div[style="margin-top:15px;height:130px;width:590px"]
 thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
 00fuck.com,01fuck.com,1024.pe,1024bao.com,20fuck.com,20men.com,22fuck.com,32cao.com,33fuck.com,42bao.com,44fuck.com,66fuck.com,74bao.com,75ri.com,83bao.com,96ri.com,bao36.com,bao85.com,baoxxx.com,cao71.com,cao89.com,caoporn.com,fuck01.com,fuck44.com,fuckhao.com,gan80.com,gantube.com,gao08.com,gao1024.com,lang.pe,lang00.com,lang51.com,men00.com,men40.com,men55.com,men70.com,men81.com,porncao.com,pornhao.com,ri1024.com,ri15.com,ri69.com,ri86.com,ri96.com,rifuck.com,tube1024.com,tubewan.com,vlook.xyz,wan1024.com,wanfuck.com,xxxgao.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
