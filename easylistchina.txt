@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/newsyd/templates/sponsor/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -181,6 +180,7 @@ hk.yahoo.com###mntl1
 /module/adsview/*
 /myimg/alimama2014.html
 /new_site_topad^
+/newsyd/templates/sponsor/*
 /paypic/*
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
@@ -285,6 +285,7 @@ _mobilebanner_v1_550x60.jpg
 ###gg300
 ###haoetv
 ###haoetv1
+###headadv2
 ###js_ads_banner_top
 ###js_ads_banner_top_slide
 ~houdask.com###kfivtwin
@@ -315,6 +316,7 @@ _mobilebanner_v1_550x60.jpg
 ###right_couple + #left_float
 ###sitefocus.focus
 ###snActive-wrap
+###sp_head
 ###table1[width="468"][height="50"]
 ###table1[width="794"][height="60"]
 ###table1[width="812"][height="50"]
@@ -438,11 +440,8 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###headadv2
-###sp_head
 !----------------------------------Ads-Union----------------------------------!
 .cn/i.php?z=$script,third-party
-||67lm.com^$third-party
 .com/i.php?z=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -557,6 +556,7 @@ _mobilebanner_v1_550x60.jpg
 ||61.152.223.15^
 ||63kc.com^$third-party
 ||668559.com^$third-party
+||67lm.com^$third-party
 ||685wo.com^$script,third-party
 ||68665565.com^
 ||6dad.com^$third-party
@@ -1224,6 +1224,8 @@ _yad_jsonp_
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=aikuhu.com|cctv5bo.com
 |http://www.i-ab.co/zz/
+||00170017.net/Public/dzb_gg.js
+||00170017.net/Public/images/
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
 ||005.tv/data/attachment/forum/201511/24/161840xuimuuaq9sro1brm.jpg
 ||005.tv:60000/ad.js
@@ -2600,6 +2602,8 @@ _yad_jsonp_
 ||diaosisheshou.com/wp-content/uploads/2015/03/dbqp.jpg
 ||diaosisheshou.com/wp-content/uploads/2015/06/tcll.gif
 ||dichan.com.au/newhouse/pinnacle/images/bcastr3.swf
+||didamoe.com/js/play_
+||didamoe.com/js/xuanfu.js
 ||didown.com/static/3C1A676E432C49A19F74EF3A64E5DE7D.png
 ||dig.chouti.com/advert
 ||dilidili.com/js/index.js
@@ -2629,6 +2633,7 @@ _yad_jsonp_
 ||dm530.com/pic/fgr/*.js
 ||dmfans.net/template/haokandemanhhua/images/g_js/
 ||dmhua.net/js/bd_
+||dmmfx.com.au/dmm-tag/
 ||dn-cnodestatic.qbox.me/public/images/*-banner-
 ||dn-okey.qbox.me/v*.js
 ||dn-ttdaili.qbox.me/bdqb/
@@ -4488,6 +4493,7 @@ _yad_jsonp_
 ||sina.com/ads/
 ||sina.com/assets/js/dart/
 ||sina.com/rm/
+||sinaimg.cn/bmiddle/48dc6199jw1eyk360j058g209c07stdl.gif
 ||sinaimg.cn/cj/dfz_ad/
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
@@ -4512,7 +4518,6 @@ _yad_jsonp_
 ||sinaimg.cn/large/ed5e6a1djw1eqklc2eicfj20r802idh3.jpg
 ||sinaimg.cn/large/ed5e6a1djw1eqp5sh98uvg208c06ye81.gif
 ||sinaimg.cn/mw1024/6283e*.jpg$domain=dapenti.com
-||sinaimg.cn/bmiddle/48dc6199jw1eyk360j058g209c07stdl.gif
 ||sinaimg.cn/mw1024/6283e751gw1ev7zda6i7oj20i202st8z.jpg
 ||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
 ||sinaimg.cn/mw690/005GRsDJjw1eo1jledg4cj30b40b4go4.jpg
@@ -4647,6 +4652,7 @@ _yad_jsonp_
 ||sy.ln.cn/08gg/
 ||syd.com.cn/pic_index/duilian
 ||syd.com.cn/pic_index/lalian
+||sydneytoday.com/sponsor/
 ||synacast.com^
 ||sz.zj.cn/2013-dh.asp
 ||sz.zj.cn/info.php?fid=$subdocument
@@ -4729,6 +4735,7 @@ _yad_jsonp_
 ||tietuku.com/0f65751b4e0f0ce6.gif
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
 ||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo.com|hdbiger.org|potplayer.org|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com
+||tietuku.com^$object-subrequest,domain=skyerblog.com
 ||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
 ||tiexue.net/test*.aspx
@@ -5180,6 +5187,8 @@ _yad_jsonp_
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
 ||yiweimei.net/css/logo.gif
+||yixiaoba.com/js/yxb_normal.js
+||yixiaoba.com/juxiao.html
 ||yiyipan.com/images/12.gif
 ||yizhai.net/myjs/f*.js
 ||yjhas.net/250x250-
@@ -5360,19 +5369,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yixiaoba.com/js/yxb_normal.js
-||yixiaoba.com/juxiao.html
-||tietuku.com^$object-subrequest,domain=skyerblog.com
-||didamoe.com/js/play_
-||didamoe.com/js/xuanfu.js
-||00170017.net/Public/dzb_gg.js
-||00170017.net/Public/images/
-||sydneytoday.com/sponsor/
-||dmmfx.com.au/dmm-tag/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-e.70e.com##BODY
-sydneytoday.com##.kpadv5
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8010,6 +8008,7 @@ iciba.com##.kk01
 1kkk.com##.kk2.cc
 0597kk.com##.kk_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.kn_nine_wrap
+sydneytoday.com##.kpadv5
 fznews.com.cn##.kuang100_right
 baidu.com##.l-header-ad
 ahtv.cn,sexbarss.net##.l1
@@ -9050,6 +9049,7 @@ yzz.cn##a[style^="display:block; width:980px; height:100px;"]
 gaoqing.la##a[target="_blank"] > img[src*=".sinaimg.cn/large/"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
 creaders.net##a[title^="www.136888.com/new/ad."]
+e.70e.com##body
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 btkitty.so##body > a
@@ -9773,7 +9773,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||e70123.com^$script,domain=flv.tv
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10026,6 +10025,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||dvs.china.com/crossdomain.xml
 @@||dzwww.com/ad/jsfiles/fillCon.js
 @@||e.cn.miaozhen.com/r/k=*=http
+@@||e70123.com^$script,domain=flv.tv
 @@||ebiotrade.com/jslibrary/js44.js
 @@||ecitic.com/ads_
 @@||ecitic.com/eshop/advertise/
