@@ -83,7 +83,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 .cn/ads/
-/nanrenpeng/ads/*
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
@@ -180,6 +179,7 @@ hk.yahoo.com###mntl1
 /main/s?
 /module/adsview/*
 /myimg/alimama2014.html
+/nanrenpeng/ads/*
 /new_site_topad^
 /newsyd/templates/sponsor/*
 /paypic/*
@@ -1211,7 +1211,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 |http:$domain=e.70e.com|e701.net
-|http:$script,third-party,domain=ypan.cc
+|http:$script,third-party,domain=ccav1.com|ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
@@ -2620,6 +2620,7 @@ _yad_jsonp_
 ||divcss5.com*/liping/
 ||divcss5.com/wy/top465.js
 ||dj520.com/js/stj.js
+||dj97.com/js/list_right_
 ||djccc.com/js/a*.js
 ||djccc.com/js/b*.js
 ||djccc.com/js/c*.js
@@ -4191,6 +4192,8 @@ _yad_jsonp_
 ||pub.sxrtv.com/crossdomain.xml
 ||publicize.liao1.com^
 ||publish.ad.youth.cn^
+||putonghua520.com/skins/10ym/123.jpg
+||putonghua520.com/skins/10ym/tj
 ||pzzc.net/data/attachment/ad2/
 ||q-touch.com.tw^$subdocument
 ||q.cn/images/floater_
@@ -4412,6 +4415,7 @@ _yad_jsonp_
 ||secretmine.net/wp-content/uploads/*/610x80
 ||secretmine.net/wp-content/uploads/2015/07/A-
 ||secretmine.net/wp-content/uploads/2015/07/youdaoxiazai.jpg
+||sejie2.us/images/*.gif
 ||sentsin.qiniudn.com/ad_
 ||sexbarss.net/wap/
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
@@ -4482,6 +4486,7 @@ _yad_jsonp_
 ||shuyeer.com/dlr.html
 ||shuyeer.com/views/default/images/close.gif
 ||shuyeer.com/views/default/mnstyle/hot/gg.js
+||shxd.net/img/myad.gif
 ||simplecd.me/static/js/adcpm.js
 ||sina.cn/adfront/deliver.php?
 ||sina.com.cn/js/*/AdvertisingByNewIndex_
@@ -5371,19 +5376,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||putonghua520.com/skins/10ym/123.jpg
-||putonghua520.com/skins/10ym/tj
-||shxd.net/img/myad.gif
-||sejie2.us/images/*.gif
-||dj97.com/js/list_right_
-|http:$script,third-party,domain=ccav1.com
 !------------------------Specific element hiding rules------------------------!
-shxd.net##.addown
-ccav1.com##A[href="http://www.ccav1.com/go/debi1"]
 gpcxw.com###AA2
-dospy.com##.com-adm
-do189.com##.single_body > P[style="text-align: center;"]
-opda.com##.fix_twice
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7056,6 +7050,7 @@ chinanews.com##.add4
 putclub.com##.add_ad
 chinaiiss.com##.add_pic
 inpai.com.cn##.addoc1
+shxd.net##.addown
 cwan.com##.ades
 bbs.xineurope.com##.adft
 wuxi.cn##.adgood
@@ -7444,6 +7439,7 @@ xdkb.net##.col0b
 souluo.net##.col1
 123.91.com##.col_02 > a
 www.autohome.com.cn##.column > div[id^="s"]:first-child:last-child
+dospy.com##.com-adm
 myforum.com.hk##.comeing_wad
 jmbbs.com##.comiis_ad
 9ist.com,linyiren.com##.comiis_adbox
@@ -7635,7 +7631,7 @@ pingpang.info##.first_body_top
 html5china.com##.firstnews
 elecfans.com##.fix-btmad
 9724.com##.fix_bottom_ad
-dashi.com##.fix_twice
+dashi.com,opda.com##.fix_twice
 bbs.actoys.net##.fl[style$="float:right;"]
 jn256.com##.fl_h180
 hualady.com##.flash_ad1
@@ -8563,6 +8559,7 @@ sina.com.cn##.sinaads
 uuu9.com##.sindex_ad1
 onefunnyjoke.com##.single-bottom-responsive
 kocpc.com.tw##.single_ads
+do189.com##.single_body > p[style="text-align: center;"]
 ltaaa.com##.site
 i.maxthon.cn##.site-ad-container
 uc123.com##.site-search-wrap > div[style]
@@ -8983,6 +8980,7 @@ m.tiexue.net##a[href="http://tx.caiyunguo.com/top1/"]
 cnfol.com##a[href="http://www.168licai.cn/"]
 178.com##a[href="http://www.bigeye.tv/"]
 ccav1.com##a[href="http://www.ccav1.com/go/debi"]
+ccav1.com##a[href="http://www.ccav1.com/go/debi1"]
 anquan.org##a[href="http://www.jiasule.com/"]
 hexieshe.com##a[href="http://www.masadora.net/"]
 fuliba.net##a[href="http://www.meidebi.com"]
