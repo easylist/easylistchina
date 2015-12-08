@@ -1068,7 +1068,6 @@ _mobilebanner_v1_550x60.jpg
 /52meiju_700_90.jpg
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
-/^http://(?!(hm.|cdn.))/$script,third-party,domain=ccav1.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.itjsb\.com\/[a-z0-9A-Z]+\.(gif|jpg)/$domain=itjsb.com
 /ad2014.js$domain=39xs.net|checheng123.com|haodu5.com
@@ -4680,7 +4679,6 @@ _yad_jsonp_
 ||taizhou.com.cn/52.files/c1_20150423.swf
 ||taizhou.com.cn^*/3890.files/xchad.jpg
 ||talkforex.com/data/attachment/portal/
-||taobao.org/svn/chromegae/trunk/block.js
 ||taobaocdn.com/imgextra/$domain=backtrack.org.cn
 ||taobaocdn.com/tps/i1/TB14t03FVXXXXapaXXX8EsMMFXX-1680-450.jpg_670x670.jpg
 ||taobaocdn.com^$domain=dnwx.com|snybw.com
@@ -5378,7 +5376,7 @@ _yad_jsonp_
 ||shxd.net/img/myad.gif
 ||sejie2.us/images/*.gif
 ||dj97.com/js/list_right_
-|http:$script,domain=ccav1.com
+|http:$script,third-party,domain=ccav1.com
 !------------------------Specific element hiding rules------------------------!
 shxd.net##.addown
 ccav1.com##A[href="http://www.ccav1.com/go/debi1"]
