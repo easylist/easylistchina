@@ -69,7 +69,6 @@ hk.yahoo.com###mntl1
 ||samboc.com^$third-party
 ||sitemaji.com^$third-party
 ||szvr.com^$third-party
-||tjj.com^$third-party
 ||tuiguang.178.com^
 ||ubcpm.com^$third-party
 ||uctrac.com^$third-party
@@ -493,7 +492,7 @@ _mobilebanner_v1_550x60.jpg
 ||111111qb.com^
 ||112.124.98.75^
 ||1133.cc^$third-party
-||114la.com^$third-party
+||114la.com^$third-party,domain=~ylmf.com
 ||116.55.227.242^
 ||118114.cn^$third-party
 ||1188.com^$third-party
@@ -5376,8 +5375,14 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+/skin/1212/bg$domain=114la.com|ylmf.com
+/material/vph.$domain=114la.com|ylmf.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+114la.com,ylmf.com###AdvLink
+114la.com,ylmf.com###GameAdv
+114la.com,ylmf.com##.sn_1212
+114la.com,ylmf.com##.vph_1212
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5746,7 +5751,7 @@ finance.ifeng.com###box_img
 zhan.com###box_tips
 hefei.cc###bp_ad
 club.topsage.com###brbox
-114la.com###brownTop
+114la.com,ylmf.com###brownTop
 btago.com###browser
 sogou.com###browser_ad
 ms211.com###btf
@@ -6134,7 +6139,7 @@ ck101.com###image_ad_short
 66rd.cn,cnjxol.com,jintoutiao.com,rznews.cn###img
 nick18.com###img a
 66rd.cn,chemnet.com,enlink.com.cn,firstchina.org.cn,pharmnet.com.cn###img1
-114la.com###imgArr
+114la.com,ylmf.com###imgArr
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
 54new.com###imgshow
@@ -6499,7 +6504,6 @@ srzc.com###srzcad
 1616.net###stool
 showtv.com.tw###sub-ad
 hxyl.net###subcontent > a[target="_blank"]:first-child
-114la.com###sw
 yxdown.com###sy
 k7mm.com###t2 + a
 skyme.com,tom365.com,tw116.com###t365
@@ -7347,7 +7351,7 @@ freehao123.com##.box
 enread.com##.box > ul[style="width:100%;overflow:hidden;"]
 sz.zj.cn##.box-1-l
 010lm.com##.box-bd
-114la.com##.box-hot
+114la.com,ylmf.com##.box-hot
 juetuzhi.net##.box-right2
 csdn.net##.box.hot
 9ku.com##.box.mb10[style^="width:960px;"]
@@ -7432,7 +7436,6 @@ hlgnet.com##.co_ad3
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http://"]:not([href*=".wenxuecity."])
 jq22.com##.col-lg-4:first-child
 big-cup.tv,g-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
-114la.com##.col-row01 > dt
 gamefy.cn##.col-vlist-l > span
 xdkb.net##.col0b
 souluo.net##.col1
