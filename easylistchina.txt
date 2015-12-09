@@ -3421,7 +3421,6 @@ _yad_jsonp_
 ||imgout.ph.126.net^*/700x80.jpg
 ||imgout.ph.126.net^*/950-90.jpg
 ||imgs.cc/images/ad_
-||imgservice.dnvod.eu/images/*.gif
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgur.com/iKkoHkn.jpg
 ||imgur.com/pBL7joM.gif
@@ -5378,6 +5377,8 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 /skin/1212/bg$domain=114la.com|ylmf.com
 /material/vph.$domain=114la.com|ylmf.com
+||duonao.tv/upload/image/*.gif
+||duonao.tv/upload/image/*.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 114la.com,ylmf.com###AdvLink
@@ -6736,7 +6737,7 @@ ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
 it165.net##.ContentAdv
 imeee.cn##.DA336
-dnvod.eu##.DHB
+dnvod.eu,duonao.tv##.DHB
 84zr.com##.DaKuang
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.EC_newppim
 javjunkies.com##.FAd
@@ -8924,7 +8925,7 @@ v7v3.com##.zzsl
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 zdfans.com##A[href="http://t.cn/zOPcnAI"]
-dnvod.eu##A[href^="/HitOnAds.aspx?id="]
+dnvod.eu,duonao.tv##A[href^="/HitOnAds.aspx?id="]
 dnvod.eu,duonao.tv##A[href="http://yoyou.dngame.eu/"]
 tiexue.net##A[onclick*="_BdAdClick"]
 tiexue.net##[class*="junph"]
@@ -9619,7 +9620,7 @@ wangpanwu.com##table[width="978"][align="center"]
 you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 dbw.cn##table[width="980"][height="100"]
-dnvod.eu##table[width="988"]
+dnvod.eu,duonao.tv##TABLE[width="988"]
 hcbbs.com##table[width="99%"]
 sd.xinhuanet.com##table[width="990"][bgcolor="#333333"]:nth-child(5)
 yaerwen.com##table[width^="9"][height="250"]
