@@ -2161,6 +2161,8 @@ _yad_jsonp_
 ||baidu.com^*/interface/ad?
 ||baidud.cn/aoao/down_
 ||baifen.music.baidu.com/api/v1/*?format=jsonp&
+||baike.com/3g/ads/
+||baike.com/iframeheightforad.
 ||baishuku.com/news/$script
 ||baishulou.net/html/
 ||baixing.com/bb/*/?category=
@@ -3303,6 +3305,7 @@ _yad_jsonp_
 ||ifeng.com/bbsfile/js/ifeng_tip.js
 ||ifeng.com/iframe/quickbet
 ||ifeng.com/iframe/toquickbet
+||ifeng.com/showjs?apids=
 ||ifeng.com/ssi-incs/
 ||ifeng.com/statics/comment_baidu.html
 ||ifeng.com/wapAdversApi?
@@ -3311,7 +3314,6 @@ _yad_jsonp_
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
 ||ifengimg.com/b19bb4f38bab25e6/2015/0902/rdn_55e6a85ecb3a1.jpg
-||ifeng.com/showjs?apids=
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/ifengimcp/pic/*_w130_h100.
 ||ifengimg.com/ifengimcp/pic/*_w24_h100.
@@ -3324,6 +3326,7 @@ _yad_jsonp_
 ||ifengimg.com/ifengimcp/pic/*_w640_h130.
 ||ifengimg.com/iis/iis_
 ||ifengimg.com/mappa/$domain=~tech.ifeng.com
+||ifengimg.com/neiqian/*/embed.js
 ||ifengimg.com/static/news/js/advtrack_
 ||ifengimg.com/tres/js/*/idemin_noif.js
 ||ifengimg.com/xingzhao/JS/
@@ -3660,6 +3663,7 @@ _yad_jsonp_
 ||kaixin001.com.cn/js/cpm-
 ||kamlm.com/kmgg
 ||kan300.com/js/union/
+||kan84.net/js/bdgg/
 ||kankanmi.com/js/zjgg
 ||kanpp.net/Uploads/ad/
 ||kcjc.net/960$image
@@ -4312,6 +4316,7 @@ _yad_jsonp_
 ||qzss.cn/ssad
 ||qzwb.com^*.swf|
 ||qzzn.com/statics/
+||r3.ykimg.com/crossdomain.xml
 ||rainmall.com/tv/js/ad
 ||rainmall.com/tv/js/bofang
 ||rakuten-static.com^$domain=cwyuni.tw
@@ -5386,16 +5391,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||kan84.net/js/bdgg/
-||r3.ykimg.com/crossdomain.xml
-||baike.com/iframeheightforad.
-||baike.com/3g/ads/
-||ifengimg.com/neiqian/*/embed.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ithao123.cn###slider
-baike.com###ad-xnsc
-baike.com##.ad_xuanban
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5532,6 +5529,7 @@ ithome.com.tw###ad-on-top
 acfun.com,acfun.tv###ad-player-view
 acfun.com,acfun.tv###ad-top-index
 dbw.cn###ad-word
+baike.com###ad-xnsc
 yeyou.com###ad-yeyou-nitifiction
 duba.com###ad-zongyi
 price.com.hk###ad0
@@ -6501,6 +6499,7 @@ etnet.com.hk###skinnerads
 hgamecn.com###skyscraper
 vhiphop.com###slidebar_wrapper
 cjn.cn###slidelr
+ithao123.cn###slider
 tiantian.tv###sliderb_container
 club.pchome.net,kdslife.com###smallslider
 baidu.com###sning1
@@ -7052,6 +7051,7 @@ pjtime.com##.ad_txt
 putclub.com##.ad_vipabc
 yinyuetai.com##.ad_w300
 itavcn.com##.ad_wordxin
+baike.com##.ad_xuanban
 house.bdinfo.net##.adb
 ifeng.com##.adbest
 oogps.com##.adbg
