@@ -1216,6 +1216,7 @@ _iframe.htm|$domain=news.cn|xinhuanet.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 |http:$domain=e.70e.com|e701.net
+|http:$image,third-party,domain=99files.net
 |http:$script,third-party,domain=ccav1.com|ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
@@ -2278,6 +2279,7 @@ _yad_jsonp_
 ||bookgew.com/ml85/
 ||bookgew.com/zj85/
 ||books.com.tw/web/apActivityStick?
+||bp.blogspot.com^$domain=avmimi.com
 ||br42.com/ads/
 ||brand.sogou.com/micro?yyid=
 ||bs.baidu.com/app-ads%
@@ -2983,6 +2985,8 @@ _yad_jsonp_
 ||gimhoy.com/201404/cute.jpg
 ||github.io/2048/full/meta/cmpay.gif
 ||global.tianyaui.com/global/wizard/js/wizard.js
+||gmbbk.cn/img/top.js
+||gmbbk.cn/jj/
 ||gmbuluo.com/js/liebiao
 ||gmbuluo.com/js/shouye
 ||gmbuluo.com/js/yxj
@@ -3339,6 +3343,7 @@ _yad_jsonp_
 ||ifengimg.com^*/aplayer.xml
 ||ifengimg.com^*/backwindow.js
 ||ifengimg.com^*/fullscreen
+||ifengimg.com^*/hddw-
 ||ifengimg.com^*/hover.js
 ||ifengimg.com^*/iframe_load_
 ||ifengimg.com^*/pan.js
@@ -5388,26 +5393,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||gmbbk.cn/img/top.js
-||gmbbk.cn/jj/
-||bp.blogspot.com^$domain=avmimi.com
-||ifengimg.com^*/hddw-
-|http:$image,third-party,domain=99files.net
 !------------------------Specific element hiding rules------------------------!
-99files.net##.ad1
-youthwant.com.tw###art_adbox
-youthwant.com.tw###inner_ad
-yuqingcn.cn###ad715x90
-yuqingcn.cn##.ad1024x90
 gpcxw.com###AA2
-18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
-avmimi.com###friendLink
-avmimi.com##.TW_UTtoy
-18h.avmimi.com##BODY > TABLE[width="100%"]:nth-child(2)
-avmimi.com##.UT_thread
-avmimi.com###ArticlesEx_box
-avmimi.com###banner
-18h.avmimi.com##BODY > P[align="center"]:first-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5434,6 +5421,7 @@ js0573.com###Adv3
 js0573.com###Adv4
 114la.com,ylmf.com###AdvLink
 zol.com.cn###Article_Top_Banner
+avmimi.com###ArticlesEx_box
 gamer.com.tw###BH-ad_banner
 china.com###BJ
 firefang.cn###BaiduAd1
@@ -5556,6 +5544,7 @@ gamebase.com.tw###ad160_top
 mao-123.com,mengmao.org,rshhy.com,xinhuanet.com,yinsha.com###ad3
 xinhuanet.com###ad4
 price.com.hk###ad5
+yuqingcn.cn###ad715x90
 gamebase.com.tw###ad725
 hur.cn###ad810_2
 hur.cn###ad810_6
@@ -5692,6 +5681,7 @@ qzone.qq.com###appCanvasRightTopQBoss
 qzone.qq.com###appCanvasTopBanner
 qzone.qq.com###app_ads
 xyfdcw.com.cn###area2_2 > .mb5
+youthwant.com.tw###art_adbox
 gxnews.com.cn###art_adunioncode
 wx.sina.com.cn###artibody > .article-video
 zhuankebar.com###article-cnt > a
@@ -5715,7 +5705,7 @@ chinaiiss.com###baidu_300_250
 52pk.com###baidutop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiqu888.com,suopao.org,xxsy.net,youxi.baidu.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiqu888.com,suopao.org,xxsy.net,youxi.baidu.com###banner
 cwyuni.tw###banner > h2
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
@@ -6056,7 +6046,7 @@ zc173.com###frameq7Hf1J
 wlxww.com###framesJFWGF
 bbs.jumpcn.com###framesh74cG
 2muslim.com###framex6ccEP
-18avhub.com,18avtube.com,mm-cg.com###friendLink
+18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###frs-list-game
 fancai.com###ft_right_bottom
 51credit.com###fuceng
@@ -6186,6 +6176,7 @@ baidu.com###index_right_top
 poxiao.com###indextopleft > .content > ul > li:first-child
 xxsy.net###infoleftad_1
 xxsy.net###infoleftad_2
+youthwant.com.tw###inner_ad
 technews.tw###inside_AD
 pchome.net###intel-bar
 zol.com.cn###intel_touch_ad
@@ -6754,6 +6745,7 @@ xitongzhijia.net##.BAIDU_CLB_1000_90
 letv.com##.Banner
 china.com.cn##.Banner_left
 china.com.cn##.Banner_right
+18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
 xvna.com##.Cad1
 ifeng.com##.ColBLAvt
 ifeng.com##.ColBRAvt
@@ -6809,7 +6801,9 @@ woshipm.com##.R-ad
 qidian.com##.RightAD
 bs028.com##.Sys_head
 dfdaily.com##.TOP_BANNER
+avmimi.com##.TW_UTtoy
 dailynews.sina.com##.TopNav + table
+avmimi.com##.UT_thread
 tuwan.com##.Video-r-ad
 dfdaily.com##.WEB1_TOPBANNER
 news.china.com.cn##.Wrapper > div[style]
@@ -6889,13 +6883,14 @@ ifeng.com##.ad05
 ifeng.com##.ad06
 ifeng.com##.ad07
 ifeng.com##.ad08
-178.com,actoys.net,beijing-air.com,cwan.com,d5yuansu.com,hepuwang.com,izhufu.net,jiasuba.com,jjwxc.net,ncdiy.com,qianlong.com,qingdaonews.com,tgbus.com,xixiwg.com,zhcw.com##.ad1
+178.com,99files.net,actoys.net,beijing-air.com,cwan.com,d5yuansu.com,hepuwang.com,izhufu.net,jiasuba.com,jjwxc.net,ncdiy.com,qianlong.com,qingdaonews.com,tgbus.com,xixiwg.com,zhcw.com##.ad1
 hebnews.cn##.ad1-43
 ifeng.com##.ad1000-2
 ifeng.com##.ad1000_2
 ifeng.com##.ad1000_box
 ~games.ifeng.com,ifeng.com##.ad1000x90
 chinayk.com##.ad1024
+yuqingcn.cn##.ad1024x90
 hltm.cc##.ad1960
 178.com,766.com,c114.net,chddh.com,china.com.cn,izhufu.net,kaixin200.com,qingdaonews.com,qz828.com,top81.com.cn,txahz.com##.ad2
 ifeng.com##.ad200-2
@@ -9106,8 +9101,10 @@ btkitty.so##body > a
 danyang.com##body > div[align="center"]
 shangdu.com##body > div[class="bt"]
 dm456.com##body > div[style^="height:90px;"]
+18h.avmimi.com##body > p[align="center"]:first-child
 3g.ifeng.com,i.ifeng.com##body > style:first-child + div[id]
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
+18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 62422.cn##body > table[width="778"][align="center"]
 leduwo.com##br + #adtop
 taoyoudu.com##br + .k_serach
@@ -9824,7 +9821,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||ads.$domain=tvb.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10002,6 +9998,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||adjs.8591.com.tw^$script
 @@||adm.cnzz.net/appgcm.php?sid=244627&$domain=123564.com
 @@||adm.cnzz.net/js/abase.js$domain=123564.com
+@@||ads.$domain=tvb.com
 @@||ads.i8.com.cn/hd/dzs/
 @@||ads.myopen.vip.com^$domain=vip.com
 @@||ads.rakuya.com.tw^$domain=rakuya.com.tw
