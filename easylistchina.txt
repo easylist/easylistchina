@@ -1069,11 +1069,14 @@ _mobilebanner_v1_550x60.jpg
 /2tu/ads/*
 /2tu/heisiwang.js
 /404.safedog.cn/sitedog_stat_new.html
+/435f1c6f9f6b545254a00e426b9aeae1.
 /52meiju_700_90.jpg
+/934b2bc8de85e32ae7588f2eb955ee36.
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.itjsb\.com\/[a-z0-9A-Z]+\.(gif|jpg)/$domain=itjsb.com
+/a83b3cdeacac5a503717469ca5084ebc.
 /ad2014.js$domain=39xs.net|checheng123.com|haodu5.com
 /ad_nydus.png$domain=wowrk.com|x-berry.com
 /adcg/*
@@ -1097,9 +1100,6 @@ _mobilebanner_v1_550x60.jpg
 /banner/*$domain=dolc.de|dolc.info|leiphone.com
 /bannerpic/*$domain=uopera.net
 /biz_icon/*$domain=cs090.com|wm090.com
-/a83b3cdeacac5a503717469ca5084ebc.
-/435f1c6f9f6b545254a00e426b9aeae1.
-/934b2bc8de85e32ae7588f2eb955ee36.
 /cari/banner/*
 /cari/daybanner/*
 /comiis_yccs/ads/*
@@ -4854,6 +4854,7 @@ _yad_jsonp_
 ||u8xs.com/js/yuedu_
 ||uc8.cc/_style/2013/js/all.js
 ||ucbug.com/js/left.js
+||ucbug.com/js/tlys.js
 ||ucbug.com/js/tongl.js
 ||ucbug.com/templets/default/js/sharp.js
 ||udn.com.tw/upf/2014_sales/travel/cheesead.html
@@ -4897,6 +4898,7 @@ _yad_jsonp_
 ||v.huanqiu.com/tres/xml/vda.xml
 ||v1.cn/cms/*/js/ad_new.js
 ||v8gay.com/apps/misc.php?action=advert&
+||van698.com/api.php?mod=js&bid=369
 ||vanpeople.com/ad$subdocument
 ||vanpeople.com/images_site/adb/
 ||vansky.com/images/banner.gif
@@ -5245,6 +5247,7 @@ _yad_jsonp_
 ||yppyy.com/css/*.js
 ||ysxs8.com/ysgg/
 ||ytbbs.com/images/index/
+||yto.net.cn/gw/chajian/
 ||yu64.com/44jjss/
 ||yubei8.com/boximg/
 ||yubei8.com/img/
@@ -5389,13 +5392,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yto.net.cn/gw/chajian/
-||ucbug.com/js/tlys.js
-||van698.com/api.php?mod=js&bid=369
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-shaoit.com##A[href^="/go/"]
-www.tiexue.net##STYLE + SCRIPT + DIV[class]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8986,6 +8984,7 @@ letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
 plus28.com##a[href*="/?Extend="]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
+ccav1.com##a[href*="/go/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com,lrshare.com,zdfans.com##a[href*="meidebi."]
@@ -9010,7 +9009,6 @@ ithome.com##a[href="http://suo.im/yii2y"]
 m.tiexue.net##a[href="http://tx.caiyunguo.com/top1/"]
 cnfol.com##a[href="http://www.168licai.cn/"]
 178.com##a[href="http://www.bigeye.tv/"]
-ccav1.com##a[href*="/go/"]
 anquan.org##a[href="http://www.jiasule.com/"]
 hexieshe.com##a[href="http://www.masadora.net/"]
 fuliba.net##a[href="http://www.meidebi.com"]
@@ -9022,6 +9020,7 @@ cnzol.com##a[href="https://shop127142641.taobao.com"]
 bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
 1024gc.com,1024gc.info,1024gc.net,1024gc.org,1024gongchang.com,1024gongchang.info,1024gongchang.net,1024gongchang.org,1024hegongchang.com,1024hegongchang.info,1024hegongchang.net,1024hegongchang.org,1024hgc.com,1024hgc.info,1024hgc.net,1024hgc.org,hebt1024.com##a[href^="/ad/"]
+shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
 mobile01.com##a[href^="adredir.php"]
 17kqw.com##a[href^="gg.php?"]
@@ -9585,6 +9584,7 @@ hanzify.org##span[style^="float:right;"]
 www.tiexue.net##style + [style="display:none;"] + div[class]
 tiexue.net##style + div[class] > style ~ img
 tiexue.net##style + img + div[class] > .list
+www.tiexue.net##style + script + div[class]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
@@ -9821,7 +9821,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10163,6 +10162,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||ouyaoxiazai.com/shouyead.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lepan.cc|monnsutogatya.com|scholar.glgoo.org
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
+@@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||pep.com.cn/rjs/guanggao/
 @@||photo.erji.com/tb/*.gif
 @@||pic.zol-img.com.cn/2009/pix_index.swf
