@@ -4260,6 +4260,7 @@ _yad_jsonp_
 ||qiuziti.com/img/rightp20.gif
 ||qiuziti.com/meitu/ddd.gif
 ||qiyipic.com/common/$object-subrequest
+||qiyipic.com/common/*%E9%80%9A%E6%A0%8F
 ||qiyipic.com/common/*/225x230.jpg
 ||qiyipic.com/common/*/250-230.
 ||qiyipic.com/common/*/250230.
@@ -5276,6 +5277,7 @@ _yad_jsonp_
 ||yxlady.com/cdd/
 ||yxlady.com/skin/yx2014/mm/inpage/ny/
 ||yy18.info/yyads/
+||yy521.com/js/baidu
 ||yy521.com/qq/qq.js
 ||yytcdn.com/headfile/avt/
 ||yytcdn.com/others/avt/*_1
@@ -5284,9 +5286,9 @@ _yad_jsonp_
 ||yzwb.com/images/ad_
 ||yzwb.com/js/AD
 ||yzwb.com/js/ppaa.js
+||yzz.cn/global_gg/
 ||yzz.cn/home/theme/popwin/
 ||z4bbs.com/adst/
-||yzz.cn/global_gg/
 ||z63.org/wp-content/themes/z63/img/s-
 ||zaixianlu5.com/js/
 ||zalra.cn/wp-content/uploads/2014/05/adsj.png
@@ -5398,18 +5400,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yy521.com/js/baidu
-||qiyipic.com/common/*%E9%80%9A%E6%A0%8F
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iqiyi.com##.gg-l
-iqiyi.com##.gg-r
-youdao.com###mohe-etao_shangye
-ytbbs.com###dd1
-ytbbs.com##.lt_ad
-ytbbs.com##.fend_ad
-dnvod.eu,duonao.tv###box
-duonao.tv,duonao.tv##.clickbg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5775,6 +5767,7 @@ auto.sina.com.cn###bottomInquryBar
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
+dnvod.eu,duonao.tv###box
 china3-d.com###box > .flash
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
@@ -5891,6 +5884,7 @@ cool18.com###d_right_ad
 hao.360.cn###daily-hotword
 dz19.net###dayuers
 vxingkong.com###dbpl
+ytbbs.com###dd1
 sogou.com###detailRightAd
 fwxgx.com###detail_ad_middle
 iciba.com###dict_right5
@@ -6303,7 +6297,7 @@ download.enet.com.cn###middle_new > .font2
 emu999.net,webjx.com###middleimg
 xici.net###middoc
 neihanshe.cn###mobile_client
-haosou.com###mohe-etao_shangye
+haosou.com,youdao.com###mohe-etao_shangye
 haosou.com###mohe-sick_knowledge_newb > .con
 nick18.com###mov > .content
 dnvod.eu,duonao.tv,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xt700.com,xyzc.cn,zdface.com###msg_win
@@ -6314,7 +6308,6 @@ cpplay.com###myFocus336
 cpplay.com###myFocus728
 qqjia.com###myadsL
 qqjia.com###myadsR
-kcwiki.moe##A[href*="/ad."]
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
@@ -7463,6 +7456,7 @@ fpdisplay.com##.class_adv1
 caikuu.com##.clearfix + .recommend
 hunantv.com##.click-s-r1
 hunantv.com##.click-t
+duonao.tv##.clickbg
 tieba.baidu.com##.client_ad_banner
 tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
@@ -7659,6 +7653,7 @@ ythouse.com##.fad2
 mobile01.com##.fast-ad
 hkcna.hk##.fd + .fdr > a[href^="http"]:not([href^="http://www.hkcna."])
 jq22.com##.fdad
+ytbbs.com##.fend_ad
 hz66.com##.fenge1[height="45"]
 home.ifeng.com##.fengjc02
 xindm.cn##.fengmian_comic_main_gg
@@ -7766,6 +7761,8 @@ ocucn.com##.getGold[style^="height:"]
 1kkk.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,dhzw.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,jstv.com,kaifu.com,qianyan001.com,shangdu.com,taodake.com,tianya.cn##.gg
 elecfans.com##.gg-01
 baidu.com##.gg-content
+iqiyi.com##.gg-l
+iqiyi.com##.gg-r
 5068.com,qiku8.com,top.qidian.com##.gg01
 langya.cn##.gg01 + div[style="margin-bottom:4px;"]
 5068.com,hgitv.com##.gg02
@@ -8153,6 +8150,7 @@ sd888.org##.loshow
 sohu.com##.lottery-box
 xywy.com##.love
 kekenet.com##.lp_r_bar:first-child
+ytbbs.com##.lt_ad
 zhongsou.com##.lt_gg960
 zhongsou.com##.lt_ggao_wei
 ltesting.net##.ltad_1170
@@ -9003,6 +9001,7 @@ kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
 18p2p.com##a[href*="/? Intr="]
 plus28.com##a[href*="/?Extend="]
+kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
@@ -9035,7 +9034,6 @@ fuliba.net##a[href="http://www.meidebi.com"]
 open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 fuliba.net##a[href="http://www.ruyig.com/?v"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
-dnvod.eu,duonao.tv##A[href^="http://yoyou."]
 cnzol.com##a[href="https://shop127142641.taobao.com"]
 bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
@@ -9096,6 +9094,7 @@ skinme.cc##a[href^="http://www.skinme.cc/game_"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
 weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
+dnvod.eu,duonao.tv##a[href^="http://yoyou."]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 right.com.cn##a[href^="https://treebear.tmall.com"]
 byhh.org##a[href^="javascript:eval("]
