@@ -2564,7 +2564,6 @@ _yad_jsonp_
 ||d7ol.com/pics/ad/
 ||d7w.net/static/d7wad/
 ||da-fan-shu.cn/images/kuaijie.jpg
-||da.df77.com/ip.asp
 ||dabaoku.com^$object,script,subdocument
 ||dabin69.com/data/attachment/portal/
 ||dabin69.com/template/comiis_ydzx/ads/topad01.jpg
@@ -5226,7 +5225,6 @@ _yad_jsonp_
 ||ylnet.com.cn/dl*.js
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
-||ylyl.net/template/comiis_bato/ads/
 ||ylzx8.cn/style/js/sad.js
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||you85.cn/cc/
@@ -5402,6 +5400,11 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sm.cn##.ali_row[ad_aid]
+sm.cn##.crumb-link + .other
+sm.cn##A[href^="http://m.sm.cn/adclick?"]
+sm.cn###sc + .article.ali_row
+sm.cn##.article.ali_row + #sc ~ .article.ali_row
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8668,7 +8671,7 @@ bbs.fobshanghai.com##.t_infoline
 tw.yahoo.com##.tabads
 400gb.com,bego.cc,ctfile.com,pipipan.com##.table-striped
 ghoffice.com##.tac > a > img[src*=".gif?"]
-77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com,ysn.cc##.tac.mb5
+77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com##.tac.mb5
 aisex.com##.tac[colspan="6"]
 77bike.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 21edu8.com##.tac[style="height:250px;margin-top:10px;margin-bottom:10px"]
