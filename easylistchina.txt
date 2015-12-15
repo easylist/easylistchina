@@ -5400,6 +5400,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||yczbb.com/ggimg/
 !------------------------Specific element hiding rules------------------------!
+api.so.lianmeng.360.cn##BODY
 gpcxw.com###AA2
 sm.cn##.ali_row[ad_aid]
 sm.cn##.crumb-link + .other
@@ -9843,6 +9844,11 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||lianmeng.360.cn/searchthrow/*&w=960&$domain=fxpan.com
+@@||cb.baidu.com/ecom?di=$domain=fxpan.com
+@@||cbjs.baidu.com/js/m.js$domain=fxpan.com
+@@/adview_pic_$domain=fxpan.com
+@@||s.lianmeng.360.cn^$domain=fxpan.com
 @@||7vk.com/detail/shehuipinlun.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
