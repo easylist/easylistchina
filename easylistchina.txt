@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 .cn/ads/
-/znds/images/dangbeigif.gif
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
@@ -219,6 +218,7 @@ hk.yahoo.com###mntl1
 /uedbet/pause.
 /wp-content/themes/iMovies/js/tc_
 /xianxiashijie_ad.png
+/znds/images/dangbeigif.gif
 /zzhzad/*
 :1010/openV5.js
 :7011/ads/
@@ -1008,8 +1008,6 @@ _mobilebanner_v1_550x60.jpg
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||acgpost.taobao.com^$popup,domain=www.tsdm.net
-||xmds.opd2c.com^$popup,domain=www.tsdm.net
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -1023,6 +1021,7 @@ _mobilebanner_v1_550x60.jpg
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
 ||9100300.com^$popup
+||acgpost.taobao.com^$popup,domain=www.tsdm.net
 ||ad.189so.cn^$popup
 ||aiwanma99.com^$popup
 ||ark.letv.com/t?$popup
@@ -1055,6 +1054,7 @@ _mobilebanner_v1_550x60.jpg
 ||uc8.cc/award/$popup
 ||vnet.cn^*.html?$popup,third-party
 ||xldytt.com^$popup,domain=henbt.com
+||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yingshidiguo.cn^$popup,domain=henbt.com
 ||yy18.info/yyrethanks18.$popup
 ||zhubajie.com/?fromcode=$popup
@@ -4773,7 +4773,7 @@ _yad_jsonp_
 ||tietuku.com/0bb9bfe57636dc55.jpg
 ||tietuku.com/0f65751b4e0f0ce6.gif
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
-||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo.com|hdbiger.org|potplayer.org|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com
+||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo.com|hdbiger.org|potplayer.org|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.com^$object-subrequest,domain=skyerblog.com
 ||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
@@ -5259,6 +5259,7 @@ _yad_jsonp_
 ||yu64.com/44jjss/
 ||yubei8.com/boximg/
 ||yubei8.com/img/
+||yunaw.qiniudn.com/tuixiao.png
 ||yundasys.com:1602/wsd/ykjcx/
 ||yundianb.com/hao/
 ||yundianb.com/tu/jia.gif
@@ -5395,14 +5396,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tietuku.com^$domain=yunaw.com
-||yunaw.qiniudn.com/tuixiao.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zreading.cn###text-5
-zreading.cn###text-8
-ylnet.com.cn###winpop1
-yaolan.com###newfix-dsp
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6320,6 +6315,7 @@ tgbus.com###neck_970
 fun.tv###network-mobile
 hc360.com###newAppBox
 hc360.com###newAppBox1
+yaolan.com###newfix-dsp
 chinaqking.com###newsAD
 news.shangdu.com###newsBanner
 taohua.me###newsImg
@@ -6563,7 +6559,9 @@ blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
 vjmedia.com.hk###text-33
 vmelon.com###text-4
+zreading.cn###text-5
 uisdc.com###text-6
+zreading.cn###text-8
 wuleba.com,zeekmagazine.com###text-9
 free.com.tw###text-94
 acgft.net###text-html-widget-13 + .widget-box
@@ -6665,6 +6663,7 @@ heu8.com###widget_ada
 aimovie.me###widget_aliyun_promo
 ccav1.com###widget_da
 189so.cn###winpop
+ylnet.com.cn###winpop1
 news.baidu.com###women-picwall
 xici.net###word_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###worldcup_guess_frs_wrap
@@ -9808,7 +9807,7 @@ atgfw.org#@#.ads1
 atgfw.org#@#.ads3
 zhaopin.com#@#.adsBox
 long7.qq.com#@#.adsbox
-123564.com,scholar.glgoo.org#@#.adsbygoogle
+123564.com,scholar.glgoo.org,zdaili.net#@#.adsbygoogle
 qq.com#@#.adside
 txnews.zjol.com.cn#@#.adtop
 4008927927.cn#@#.adv-box
@@ -9845,9 +9844,7 @@ yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-zdaili.net#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zdaili.net
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10191,7 +10188,7 @@ zdaili.net#@#.adsbygoogle
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||ouyaoxiazai.com/shouyead.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lepan.cc|monnsutogatya.com|scholar.glgoo.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lepan.cc|monnsutogatya.com|scholar.glgoo.org|zdaili.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||pep.com.cn/rjs/guanggao/
