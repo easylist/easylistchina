@@ -5332,6 +5332,7 @@ _yad_jsonp_
 ||zhihu.com/node/*DownShameimaruV2?
 ||zhihu.com/node/*UpShameimaruV2?
 ||zhijia.com/hd/*.swf
+||zhlzw.com/wlles/2015/995XX.js
 ||zhongzi.in/static/ko/
 ||zhoushan.cn/new.js
 ||zhuangpin.com^*/ad/
@@ -5397,12 +5398,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zhlzw.com/wlles/2015/995XX.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-880sy.com##.foot_money
-880sy.com##.foot_imgs
-motocity.com.tw###rotator
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6314,7 +6311,7 @@ qqjia.com###myadsR
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
-ccav1.com###nav-menu > UL > .menu-item > A[href^="http"]:not([href*="://www.ccav1."])
+ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
 webkaka.com###navo + .ucontent
 tgbus.com###neck_970
 40407.com###nei_fmt
@@ -6451,6 +6448,7 @@ discuss.com.hk,uwants.com###right_column
 uc123.com###right_elevator
 gamersky.com###right_fixed
 www.wenxuecity.com###rightside
+motocity.com.tw###rotator
 pingpang.info###rwc
 geekpark.net###s1
 jvhao.com###sAD3
@@ -7710,6 +7708,8 @@ yinyuetai.com##.focus_bottom_banner
 haodou.com##.focus_img
 900.la##.font-ad
 iciba.com##.foot_ad
+880sy.com##.foot_imgs
+880sy.com##.foot_money
 bokerb.com##.foot_td_1
 yaolan.com##.footer_float_box
 sogou.com##.for-advert
@@ -9005,7 +9005,6 @@ dapenti.com##a[href*=".fang.com"]
 iqiyi.com##a[href*=".jd.com"]
 tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
-dy2018.com,xiaopian.com##A[href*="/htmlcode/"]
 iqiyi.com##a[href*=".oppo."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
@@ -9018,6 +9017,7 @@ plus28.com##a[href*="/?Extend="]
 kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
+dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com,lrshare.com,zdfans.com##a[href*="meidebi."]
@@ -9855,7 +9855,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||hunantv.com/FrameWork/AFP/skin_
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10144,6 +10143,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||hhtt.cn/web.php/ad/show
 @@||hkjc.com/banners/
 @@||huelead.com/images/*ad
+@@||hunantv.com/FrameWork/AFP/skin_
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw^$elemhide
 @@||icbc.com.cn/icbc/include/AD_
