@@ -1013,7 +1013,6 @@ _mobilebanner_v1_550x60.jpg
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
-||85rere.com^$popup,domain=btbbt.cc
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1025,6 +1024,7 @@ _mobilebanner_v1_550x60.jpg
 ||093game.com^$popup,third-party
 ||1.baidu.com^$popup,domain=douban.com
 ||133gp.com^$popup
+||85rere.com^$popup,domain=btbbt.cc
 ||9100300.com^$popup
 ||acgpost.taobao.com^$popup,domain=www.tsdm.net
 ||ad.189so.cn^$popup
@@ -2612,6 +2612,9 @@ _yad_jsonp_
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||demo.528500.com^*.swf
 ||der4545.com/ok/
+||dexiazai.com/111.jpg
+||dexiazai.com/222.jpg
+||dexiazai.com/333.jpg
 ||deyangs.com/img/
 ||dfad.dfdaily.com^
 ||dfcfw.com/js/*/emfloatmedia_
@@ -5362,6 +5365,7 @@ _yad_jsonp_
 ||zisai.com/2013.ad/
 ||zisai.com/2014.ad/
 ||ziti.jz123.cn/js/
+||zj.cn^*/AD?location=
 ||zjbdt.com/onexgadimgs/
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjg.js.cn/Template/Ant/Js/tonglang.js
@@ -5407,13 +5411,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dexiazai.com/111.jpg
-||dexiazai.com/222.jpg
-||dexiazai.com/333.jpg
-||zj.cn^*/AD?location=
 !------------------------Specific element hiding rules------------------------!
-dexiazai.com##A[href*=".jd.com"]
-wallstreetcn.com##.ad
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6861,7 +6859,7 @@ rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
 2345.com##.acts12-tstatic
-001cw.com,0379home.com,17173.com,17kk.cc,21cn.com,2345.cn,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,520rr.com,52youpiao.com,61.147.69.213,72bbb.com,8btc.com,aohua.com.au,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,china.com,china3-d.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hebnews.cn,hkgalden.com,house.jschina.com.cn,huanqiukexue.com,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,jxjkw.net,kaixin200.com,kumi.cn,kunming.cn,lepan.cc,lvseba.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
+001cw.com,0379home.com,17173.com,17kk.cc,21cn.com,2345.cn,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,520rr.com,52youpiao.com,61.147.69.213,72bbb.com,8btc.com,aohua.com.au,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,china.com,china3-d.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hebnews.cn,hkgalden.com,house.jschina.com.cn,huanqiukexue.com,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,jxjkw.net,kaixin200.com,kumi.cn,kunming.cn,lepan.cc,lvseba.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
 duowan.com##.ad--col
 photofans.cn##.ad-1-index
 19lou.com,ihome99.com##.ad-190x60
@@ -7793,7 +7791,6 @@ baidu.com##.gg-content
 iqiyi.com##.gg-l
 iqiyi.com##.gg-r
 5068.com,qiku8.com,top.qidian.com##.gg01
-langya.cn##.langya2014_passport > DIV[style="margin-bottom:4px;"]
 5068.com,hgitv.com##.gg02
 hgitv.com##.gg09
 5vdd.com,jdcjsr.com,jstv.com,lcxw.cn,xinhuanet.com##.gg1
@@ -8112,6 +8109,7 @@ flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 taoguba.com.cn##.label2
 3jy.com,i51yy.com,maolihui.com##.lad
 hjenglish.com,hujiang.com##.lamu_banner
+langya.cn##.langya2014_passport > div[style="margin-bottom:4px;"]
 1kkk.com##.lanrenzhijia
 uc123.com##.latest-news
 83133.com##.lay-300 > .test
@@ -9020,7 +9018,7 @@ loldk.com##a[href*=".2144.cn"]
 163.com##a[href*=".admaster."]
 iqiyi.com##a[href*=".banggo."]
 dapenti.com##a[href*=".fang.com"]
-iqiyi.com##a[href*=".jd.com"]
+dexiazai.com,iqiyi.com##a[href*=".jd.com"]
 tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
@@ -10354,13 +10352,13 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.com%2Fanalytics.js$domain=free.com.tw
-@@||alicdn.com/sd/data_sufei/
 @@/analytics.php?$domain=xcar.com.cn
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/urchin.js$domain=on.cc
 @@||7m.cn/v2/js/analyse.js
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
+@@||alicdn.com/sd/data_sufei/
 @@||alicdn.com^*/click_track.js
 @@||analytics.163.com/ntes.js
 @@||autohome.com.cn/javascript/fingerprint.js
