@@ -1110,6 +1110,7 @@ _mobilebanner_v1_550x60.jpg
 /banner.js$domain=28188.com|28188.net
 /banner/*$domain=dolc.de|dolc.info|leiphone.com
 /bannerpic/*$domain=uopera.net
+/bao/uploaded/*$domain=hacg.lol
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
 /cari/daybanner/*
@@ -2382,6 +2383,8 @@ _yad_jsonp_
 ||ccvcd.com/images/
 ||ccwzz.cc/dmf.js
 ||cdn.dfile.cn/slot/
+||cdn.galacg.me/img/*.gif
+||cdn.galacg.me/img/*.jpg
 ||cdn.shdsp.net/ad
 ||cdn.wdlm.cn^
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
@@ -2555,6 +2558,7 @@ _yad_jsonp_
 ||cwan.com/templets/webgame/misc/js/indextip.js
 ||cww.net.cn/include/show.asp?boardID=
 ||cww.net.cn/UpLoadFile/*.swf
+||cxzyw.com/upload/1/148966/images/*.gif
 ||cye.com.cn/JS/AdsJS/
 ||cyzone.cn^*/js/m.js
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
@@ -3946,6 +3950,7 @@ _yad_jsonp_
 ||mnw.cn/script/info/baiduadm.html?
 ||mobile01.com/300x100.swf
 ||moe.fm/public/images/fm/promotion_
+||moe.la/images/banner/
 ||moe123.com/static/img/2014_fattycat.jpg
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
@@ -4793,7 +4798,7 @@ _yad_jsonp_
 ||tietuku.com/0bb9bfe57636dc55.jpg
 ||tietuku.com/0f65751b4e0f0ce6.gif
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
-||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulibk.com|fulisuo.com|hdbiger.org|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
+||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulibk.com|fulisuo.com|hdbiger.org|kisssub.org|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.com^$object-subrequest,domain=skyerblog.com
 ||tietuku.com^*.gif$domain=lightnovel.cn
 ||tiexue.net/domain-policy/
@@ -4851,6 +4856,7 @@ _yad_jsonp_
 ||tucao.cc/index.php?m=poster&
 ||tucao.tv/index.php?m=poster&c=index&a=show_poster&id=
 ||tudouui.com/tspecial/assets/PauseContainer.swf
+||tuhaoylw.com/upload/1/18591636/images/*.gif
 ||tui18.com/source/plugin/yl_curtain/template/yl_curtain.
 ||tumblr.com^$domain=99re.co|99re.org
 ||tuwan.com/templet/lol/temp/
@@ -4873,6 +4879,7 @@ _yad_jsonp_
 ||txtyd.com/js/*box.js
 ||txzqw.com/js/float.js
 ||ty121.cn/IAA/
+||tyyhhdf.com/upload/1/148781/images/2015*.gif
 ||tzfdc.com.cn/userfiles/flash/
 ||tzfdc.com/fdcSell/
 ||tzfdc.com/Images/09/flv/flv_index.js
@@ -5420,23 +5427,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tietuku.com^$domain=kisssub.org
-||tuhaoylw.com/upload/1/18591636/images/*.gif
-||cxzyw.com/upload/1/148966/images/*.gif
-||tyyhhdf.com/upload/1/148781/images/2015*.gif
-/bao/uploaded/*$domain=hacg.lol
-||moe.la/images/banner/
-||cdn.galacg.me/img/*.gif
-||cdn.galacg.me/img/*.jpg
 !------------------------Specific element hiding rules------------------------!
-yes-news.com###content-728-top
-idanmu.com##.ad-container
-idanmu.com##.adbox
-hacg.lol###ifocus
-educity.cn##DIV[style="background-color:#F4F4F4; height:100px; "]
 gpcxw.com###AA2
-076299.com##.tac.mb5
-96js.cn##TABLE[width="778"][border="3"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5880,6 +5872,7 @@ go-gddq.com###content > div[style="float: right;"]
 winba.me###content > p:first-child
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net###content > ul[style="list-style-type: none;"]
 yes-news.com###content-728
+yes-news.com###content-728-top
 yes-news.com###content-ads-right
 acgft.net###content-header + .container-fluid > div:first-child
 kindlefere.com###content-show
@@ -6204,6 +6197,7 @@ ys168.com###idzdy1
 httpcn.com###ie6fixedTL
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net###ifanr_social_widget-4 + .widget_text
 ifeng.com###ifengAehovering_small
+hacg.lol###ifocus
 tingroom.com###ifram_563
 youthwant.com.tw###ig_cont
 hao.360.cn###iguess
@@ -6911,7 +6905,7 @@ html-js.com##.ad-blank
 15w.com##.ad-box-r
 easou.com##.ad-charge
 hebnews.cn##.ad-column-1
-nanrenwo.net,newtalk.tw##.ad-container
+idanmu.com,nanrenwo.net,newtalk.tw##.ad-container
 cqmmgo.com##.ad-cycle
 simplecd.me##.ad-entry-sidebar-1
 simplecd.me##.ad-entry-sidebar-2
@@ -7127,7 +7121,7 @@ house.bdinfo.net##.adb
 ifeng.com##.adbest
 oogps.com##.adbg
 sina.com.tw##.adbig300_mid
-17173.com,68design.net,cdyee.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,jrj.com.cn,pcdiy.com.tw,phoenixtv.com,tuwan.com,xineurope.com,yesky.com##.adbox
+17173.com,68design.net,cdyee.com,eastmoney.com,epochtimes.com,hsw.cn,idanmu.com,ifeng.com,jrj.com.cn,pcdiy.com.tw,phoenixtv.com,tuwan.com,xineurope.com,yesky.com##.adbox
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
 qq.com##.adbutton-Aritcle-QQ
@@ -8730,7 +8724,7 @@ bbs.fobshanghai.com##.t_infoline
 tw.yahoo.com##.tabads
 400gb.com,bego.cc,ctfile.com,pipipan.com##.table-striped
 ghoffice.com##.tac > a > img[src*=".gif?"]
-77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com##.tac.mb5
+076299.com,77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com##.tac.mb5
 aisex.com##.tac[colspan="6"]
 77bike.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 21edu8.com##.tac[style="height:250px;margin-top:10px;margin-bottom:10px"]
@@ -9449,6 +9443,7 @@ hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 kafan.cn##div[style="FLOAT: left;width: 356px;HEIGHT: 290px;"]
 jjj8.cn##div[style="MARGIN: 0px auto 5px auto; WIDTH: 960px; HEIGHT: 100px"]
 aohua.com.au##div[style="WIDTH: 960px; HEIGHT: 60px"]
+educity.cn##div[style="background-color:#F4F4F4; height:100px; "]
 52solution.com##div[style="background:#fff;position: relative; z-index: 1; width: 990px;margin:0 auto; height:90px; margin-bottom:1px;"]
 itpub.net##div[style="border-collapse: separate !important;color: #000000;empty-cells: show;margin-top:2px;"]
 xilu.com##div[style="border-right:1px solid red; width:629px;height:300px; margin-top:10px;overflow:hidden;"]
@@ -9719,6 +9714,7 @@ gog.com.cn##table[width="670"][style="margin-bottom:10px;"]
 cartoomad.com##table[width="728"][height="110"]
 ip138.com##table[width="760"][height="23"][style="border:1px solid #008000"]
 5156edu.com##table[width="770"][border="1"][bordercolordark="#FFFFFF"][bordercolorlight="#E7E7E7"]
+96js.cn##table[width="778"][border="3"]
 mitbbs.ca,mitbbs.com##table[width="886"] > tbody > tr:first-child
 174.139.109.38##table[width="960"]
 cnjxol.com,verypsp.com##table[width="960"][bgcolor="#FFFFFF"]
