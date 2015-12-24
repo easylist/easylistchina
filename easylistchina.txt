@@ -5433,8 +5433,13 @@ _yad_jsonp_
 ||acg.bz/1.jpg
 ||acg.bz/2.gif
 ||vipcn.com/images/cfdh*.gif
+||static.coladrive.com/images/vip.png
+||coladrive.com/cola3/newdown/join.png
 !------------------------Specific element hiding rules------------------------!
 vipcn.com##.hz-bottom
+coladrive.com##.tui
+coladrive.com##DIV[id^="BAIDU_DUP_"]
+coladrive.com##.file-box > .main-pic-show
 cfwx.net##.show
 xsbashi.com###winpop
 xsbashi.com###zuo
@@ -9917,6 +9922,11 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=coladrive.com
+@@||cbjs.baidu.com/js/m.js$domain=coladrive.com
+@@/js/ad_test.js$domain=coladrive.com
+@@||cb.baidu.com/ecom?$domain=coladrive.com
+@@||pos.baidu.com/acom?di=$domain=coladrive.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
