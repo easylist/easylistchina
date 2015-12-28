@@ -1481,8 +1481,8 @@ _yad_jsonp_
 ||1m1m.cn/bar/
 ||1pad.cn/ahead/01.gif
 ||2008xxx.com:888
-||201*.myhard.com^
 ||201*.073img.com^
+||201*.myhard.com^
 ||204.12.228.235^*.png
 ||204.12.228.236^*.png
 ||211600.com/data/attachment/portal/
@@ -5446,13 +5446,6 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-07073.com###win1
-020.com##A[href^="http://c.admaster.com.cn/"]
-seemh.com##.gg_300
-seemh.com##.gg_950
-seemh.com##.gg_960
-seemh.com##.top_banner
-gz0668.com###closexguide
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5858,6 +5851,7 @@ longzhu.com,tga.plu.cn###channels-roll
 wlanwifi.net###chart + center
 douyutv.com,wasu.cn###chat-top-ad
 cqfishing.net,gpshk.cc###chs_bannerArea
+gz0668.com###closexguide
 uuu9.com###cm1337
 zhidao.baidu.com###cms-company
 zhidao.baidu.com###cms-scroll
@@ -5871,12 +5865,10 @@ lhk.gov.cn,tc.cn###codefans_net
 qingdaonews.com###codex
 ithome.com###coin-slider > a[href*=".ruanmei."]
 qq.com###comic_ad
-0743ds.com###comiis_mf00
-0743ds.com##.hq-ad
-0743ds.com##IMG[width="960"]
 haianw.com###comiis_haianw01
 haianw.com###comiis_haianw13
 haianw.com###comiis_haianw14
+0743ds.com###comiis_mf00
 gohubei.com###comiis_pd_kuxw01
 wenyoutai.com###comiis_xwyt01
 wenyoutai.com###comiis_xwyt_ad02
@@ -6735,6 +6727,7 @@ maxthon.cn###widget-main-external-link-groupbuy
 heu8.com###widget_ada
 aimovie.me###widget_aliyun_promo
 ccav1.com###widget_da
+07073.com###win1
 189so.cn,xsbashi.com###winpop
 ylnet.com.cn###winpop1
 news.baidu.com###women-picwall
@@ -7872,7 +7865,10 @@ hdzc.net##.gg_00
 hdzc.net##.gg_01
 hdzc.net##.gg_02
 5173.com##.gg_130
+seemh.com##.gg_300
 cqwb.com.cn##.gg_360x50
+seemh.com##.gg_950
+seemh.com##.gg_960
 cqwb.com.cn##.gg_960x60
 cqwb.com.cn##.gg_960x80
 163disk.com##.gg_990_65
@@ -8007,6 +8003,7 @@ uc123.com##.hotwords
 bbs.hupu.com##.hp-ad250-250
 hupu.com##.hp-header-banner
 tw.mall.yahoo.com##.hpad-wrapper
+0743ds.com##.hq-ad
 wangyueblog.com##.hsponsor
 chinasmartgrid.com.cn##.ht60ad
 shangdu.com##.htz_ad
@@ -8868,7 +8865,7 @@ mnw.cn##.top_960_50
 pjtime.com##.top_R
 warting.com##.top_ad2
 warting.com##.top_article_ad
-40407.com,51testing.com,86wan.com,hjenglish.com,hujiang.com,xitek.com,xitong8.com,xt700.com##.top_banner
+40407.com,51testing.com,86wan.com,hjenglish.com,hujiang.com,seemh.com,xitek.com,xitong8.com,xt700.com##.top_banner
 21yq.com##.top_big_bg
 mql5.com##.top_container
 youthwant.com.tw##.top_fad
@@ -9141,6 +9138,7 @@ qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
 tv.2345.com##a[href^="http://buy.2345.com/go/?"]
+020.com##a[href^="http://c.admaster.com.cn/"]
 zhibo8.cc##a[href^="http://caipiao."]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
@@ -9663,7 +9661,7 @@ jd-bbs.com##img[width="900"][height="100"]
 hz0572.com##img[width="950"]
 fjlyfdc.com.cn##img[width="950"][height="80"]
 676000.com##img[width="957"]
-e0575.cn##img[width="960"]
+0743ds.com,e0575.cn##img[width="960"]
 xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 loveshang.com##img[width="980"][height="70"]
