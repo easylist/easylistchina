@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/W3Cfuns_Adv/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -219,6 +218,7 @@ hk.yahoo.com###mntl1
 /tuiguang/*
 /u/_sponsor/*
 /uedbet/pause.
+/W3Cfuns_Adv/*
 /wp-content/themes/iMovies/js/tc_
 /wy96ad/*
 /xianxiashijie_ad.png
@@ -451,8 +451,6 @@ _mobilebanner_v1_550x60.jpg
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
-||e701.net^
-||e708.net^
 /adscpc/*
 /AShow.aspx?AID=
 /center?advId=
@@ -708,7 +706,9 @@ _mobilebanner_v1_550x60.jpg
 ||dw998.com^
 ||dxpmedia.com^$third-party
 ||dxssiyi.com^
+||e701.net^
 ||e70123.com^
+||e708.net^
 ||e719.net^
 ||ea3721.com^$third-party
 ||easou.com^$third-party
@@ -1021,7 +1021,6 @@ _mobilebanner_v1_550x60.jpg
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||kanzipai.com^$popup,domain=zhongzi.in
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -1055,6 +1054,7 @@ _mobilebanner_v1_550x60.jpg
 ||iqiyi.com/track$popup
 ||iswan.cn^$popup,third-party
 ||jjwxc.net/jjad*.html$popup
+||kanzipai.com^$popup,domain=zhongzi.in
 ||kuai.xunlei.com/do_e_mu?data=$popup
 ||miaozhen.com^$popup,domain=iqiyi.com
 ||moe.005.tv^$popup,third-party
@@ -1577,6 +1577,7 @@ _yad_jsonp_
 ||33zxzx.com/go.js
 ||3464.com/Script/RightWindows.js
 ||3464.com/w/950x90.js
+||3520.cc/js/3520/
 ||356ys.com/template/tieniudy/images/g_js/
 ||35zww.com/zzzjs/
 ||360-bo.com/js/float.js
@@ -5276,6 +5277,7 @@ _yad_jsonp_
 ||ylnet.com.cn/inc/ad$subdocument
 ||ylzx8.cn/style/js/sad.js
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
+||yooread.com/skin/js/common.js
 ||you85.cn/cc/
 ||you85.cn/i360/
 ||you85.cn^*/dib.js
@@ -5446,13 +5448,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yooread.com/skin/js/common.js
-||3520.cc/js/3520/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-youku.com##A[href*=".taobao.com"]
-w3cfuns.com##.banner
-qq.com###ad-fullscreen
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5591,6 +5588,7 @@ k5.cc###ad-bigbanner
 acfun.com,acfun.tv###ad-comment > a
 duba.com###ad-detail-banner
 duba.com###ad-dongman
+qq.com###ad-fullscreen
 ithome.com.tw###ad-on-top
 acfun.com,acfun.tv###ad-player-view
 acfun.com,acfun.tv###ad-top-index
@@ -7334,7 +7332,7 @@ msn.people.com.cn##.banNSch
 phpfans.net##.banad
 163.com##.bananer1
 100shuai.com##.bannar_gg
-3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,longbl.com,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,xizi.com,zfl520.com,zhaofuli.club##.banner
+3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,longbl.com,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zfl520.com,zhaofuli.club##.banner
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 iwan.baidu.com##.banner-container
@@ -9088,7 +9086,7 @@ zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-aijava.cn,bejson.com,btcherry.com,bzfxw.com,cosersuki.org,d5yuansu.com,gmgard.us,hacg.lol,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,zalra.cn##a[href*=".taobao.com"]
+aijava.cn,bejson.com,btcherry.com,bzfxw.com,cosersuki.org,d5yuansu.com,gmgard.us,hacg.lol,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.us,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
