@@ -1689,6 +1689,7 @@ _yad_jsonp_
 ||52ch.net/data/attachment/portal/
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
+||52fanquan.com/index.php?i=
 ||52hardware.com/images/baimg/
 ||52hardware.com/topic/a2
 ||52jifenbao.net/wp-content/uploads/2014/04/xinren.jpg
@@ -2449,6 +2450,7 @@ _yad_jsonp_
 ||chinaz.com/alexa/pic.js
 ||chinaz.com/alexa/word3.htm
 ||chinaz.com/alexa/wz.js
+||chinaz.com/imagead/
 ||chinaz.com/ip_gadsense.js
 ||chinaz.com/newshome/
 ||chinaz.com/site_view/2z.cn.gif
@@ -2463,10 +2465,11 @@ _yad_jsonp_
 ||chunxiao.tv/1.aspx
 ||cilook.net/cilookinc/isee5_950x60.gif
 ||cishuge.com/static/js/xiaoshuo.js
+||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
+||citysbs.com/no/*/800x90-
 ||citysbs.com/no/*/980x
-||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com^*swf
 ||cj.qidian.com/Picture/$domain=forum.qidian.com|sosu.qidian.com
 ||cj.qidian.com^$object,subdocument
@@ -4685,6 +4688,7 @@ _yad_jsonp_
 ||static.zongheng.com/upload/zhds/
 ||static.zongheng.com^*/index_r_b.js
 ||stats.chinaz.com/tool/
+||stats.chinaz.com/tool_img/
 ||stcn.com/common/flash/aigu.swf
 ||steachs.com/wp-content/uploads/2015/12/nippon.gif
 ||stheadline.com/*banner$script
@@ -5437,16 +5441,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||chinaz.com/imagead/
-||citysbs.com/no/*/800x90-
-||stats.chinaz.com/tool_img/
-||52fanquan.com/index.php?i=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-pconline.com.cn###pc-aptg
-cqmmgo.com##.float-ad-wrap
-cqmmgo.com##DIV[data-id*="_adv_"]
-1688.com.au##.ad_300_p
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6408,6 +6404,7 @@ srzc.com###pageright > .padding:nth-child(2)
 xdowns.com###part_1
 18avhub.com,18avtube.com,mm-cg.com###partner
 hefei.cc###pb_sm_l
+pconline.com.cn###pc-aptg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
 ithome.com###pc_c
 tsdm.net###pgt + div > p[style="float:left;width:100%"]
@@ -7068,6 +7065,7 @@ warting.com##.ad_155x155
 jurong.cn##.ad_190_60_5s
 nnnews.net##.ad_24
 104.com.tw##.ad_260_210
+1688.com.au##.ad_300_p
 eol.cn##.ad_490
 feng.com##.ad_500
 ttys5.com##.ad_580
@@ -7752,7 +7750,7 @@ gdmm.com##.flbg
 m.hao123.com##.flga.cn_mg_lr
 qunar.com##.flight_ad
 5ydj.com##.float
-19lou.com,ihome99.com##.float-ad-wrap
+19lou.com,cqmmgo.com,ihome99.com##.float-ad-wrap
 spbonow.com##.floatAD
 3987.com,totuwo.com,yzfcn.cn##.floatAd
 iqiyi.com##.float_div
@@ -9322,6 +9320,7 @@ narutom.com##div[class^="wrap2 vtg"]
 junshigang.com##div[class^="ww300"]
 yahoo.com##div[data-ad-feedback-beacon]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[data-click="\7b \"rsv_srcid\":49516\7d "]
+cqmmgo.com##div[data-id*="_adv_"]
 sina.com.cn##div[data-sudaclick="ad_ppzq"]
 txooo.com##div[duilian]
 weibo.com##div[feedtype="ad"]
@@ -9933,7 +9932,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@?sid=ads$domain=126.com|mail.163.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10021,6 +10019,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=huazhu.com|taotaosou.com
 @@?bannerId=$domain=qbao.com
+@@?sid=ads$domain=126.com|mail.163.com
 @@u-ads.adap.tv*youku.com
 @@|http:$image,script,domain=jjcast.com
 @@|http:$script,~third-party,xmlhttprequest,domain=serve.netsh.org
