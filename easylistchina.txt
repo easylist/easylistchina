@@ -1240,6 +1240,7 @@ _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 |http:$domain=e.70e.com|e701.net
 |http:$image,third-party,domain=99files.net
+|http:$script,domain=189so.cn
 |http:$script,third-party,domain=ccav1.com|ypan.cc
 |http:$subdocument,domain=howbbs.com|pc6.com|tytl.tk|wwledsbb.net
 |http://*.7m.cn/b/
@@ -1459,6 +1460,7 @@ _yad_jsonp_
 ||189so.cn/images/960x60
 ||189so.cn/images/qz270x280.jpg
 ||189so.cn/pop.html
+||189so.cn^$subdocument
 ||18avday.*/images/ts918com
 ||192.184.10.171^
 ||192.74.239.161/ad960.js
@@ -2557,6 +2559,7 @@ _yad_jsonp_
 ||ctpan.com/cp
 ||ctpan.com/statics/js/adt
 ||ctpan.com/vip.js
+||ctrip.com/amd/*960x90.
 ||cunbt.com/images/*.gif
 ||cwan.com/templets/shouye/misc/js/suspend.js
 ||cwan.com/templets/webgame/misc/js/indextip.js
@@ -4512,6 +4515,7 @@ _yad_jsonp_
 ||shbear.com^*/ad/
 ||shehuitu.com/jsjs/
 ||shejizhan.org/images/myssh
+||shenleyuni.com^
 ||shenmaxiaoshuo.com/js/hf
 ||shenmaxiaoshuo.com/js/lu.js
 ||shenmaxiaoshuo.com/js/mu.js
@@ -4868,6 +4872,8 @@ _yad_jsonp_
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tuhaoylw.com/upload/1/18591636/images/*.gif
 ||tui18.com/source/plugin/yl_curtain/template/yl_curtain.
+||tui22.com/images/dibu.js
+||tui22.com/images/g.js
 ||tumblr.com^$domain=99re.co|99re.org
 ||tuwan.com/templet/lol/temp/
 ||tv380.com/ovp/ovp_home/*/adi/
@@ -5441,12 +5447,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tui22.com/images/dibu.js
-||tui22.com/images/g.js
-|http:$script,domain=189so.cn
-||shenleyuni.com^
-||189so.cn^$subdocument
-||ctrip.com/amd/*960x90.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -8472,8 +8472,6 @@ chinaiiss.com##.pic_text
 baidu.com##.picad
 donews.com##.picarea
 9091tv.com,bibiqi.com,biqi.me,ietv.cc##.pics1200
-17173.com##.picshow[href^=" http://cnrdn.com/"]
-17173.com##.picshow[href^=" http://vip.1905.com/"]
 uhaoye.com##.picturead
 16sucai.com##.pindao_ad2
 keywin.org##.pindaolist
