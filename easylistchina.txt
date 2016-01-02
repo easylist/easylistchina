@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/main.js?v=*&sp=*&ty=
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -176,6 +175,7 @@ hk.yahoo.com###mntl1
 /lenovo/pc/all.js
 /lfAD2v1.1.js
 /lfadvertise.js
+/main.js?v=*&sp=*&ty=
 /main/s?
 /module/adsview/*
 /myimg/alimama2014.html
@@ -450,7 +450,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
-||czpwm.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -687,6 +686,7 @@ _mobilebanner_v1_550x60.jpg
 ||ctsywy.com^
 ||cyacc.com^
 ||czpush.com^
+||czpwm.com^
 ||d1ad.com^$third-party
 ||d8360.com^$third-party
 ||dashet.com^
@@ -1408,6 +1408,7 @@ _yad_jsonp_
 ||163.com/special/*/tonglan1.js
 ||163.com/special/*/topbg.js
 ||163disk.com/pic/960x90-
+||163disk.com/static/images/DING.gif
 ||163disk.com/static/images/tu.gif
 ||163disk.com/static/www/
 ||1677.net/js/ad*.js
@@ -1450,8 +1451,8 @@ _yad_jsonp_
 ||17huohu.com/img/skin/qnh/
 ||17kk.cc/scriptAD/
 ||17kqw.com/*.gif
-||17ok.com/focus/images/wenchouxiangmu.gif
 ||17ok.com/focus/3j_right_jdt.shtml
+||17ok.com/focus/images/wenchouxiangmu.gif
 ||17yy.com/style/ifra_ad/
 ||180.96.27.85^*.htm
 ||182.92.234.239^*.html
@@ -2313,6 +2314,7 @@ _yad_jsonp_
 ||btbook.net/static/img/880X60.gif
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
+||bthand.com/static/650-80.swf
 ||btks.me/ac/
 ||btks.me/js/ac
 ||btks.me/pingbi
@@ -4338,6 +4340,8 @@ _yad_jsonp_
 ||qq.com/qzone/biz/gdt/display/positions/waicai/
 ||qq260.com/shout.js
 ||qqcf.com/js/Content_Get.js
+||qqcyl.com/js/*.html
+||qqcyl.net/js/*.html
 ||qqhjy.com/soft/Upload*.gif
 ||qqjia.com/dan.js
 ||qqjia.com/images/ad
@@ -4989,6 +4993,7 @@ _yad_jsonp_
 ||vupload.duowan.com^
 ||vvpan.com/templates/32666/imgs/down001.gif
 ||vvpan.com^*/zsz
+||vvshu.com/images/cp_
 ||vvvdj.com/sms/
 ||w010w.com.cn^$subdocument
 ||wa.kuwo.cn/lyrics/img/kwgg/
@@ -5449,24 +5454,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qqcyl.com/js/*.html
-||qqcyl.net/js/*.html
-||163disk.com/static/images/DING.gif
-||bthand.com/static/650-80.swf
-||vvshu.com/images/cp_
 !------------------------Specific element hiding rules------------------------!
-qqcyl.net##.baiduadc
-paipai.fm##.fr[href="http://game.zixia.com"]
-bthand.com##.adsense
-vvshu.com###gg120
-vvshu.com##.forviewda
-17ok.com##.t-bann
-17173.com##.picshow:not([href*=".17173"])
-xinhuanet.com###bkCloseLeft
-xinhuanet.com###bkCloseRight
-xinhuanet.com###bkLeft
-xinhuanet.com###bkRight
-xinhuanet.com###bkTop
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5821,6 +5809,11 @@ xxsy.net###bigbanner_1
 bitauto.com###bitAd_background
 bitauto.com###bitAd_floatFlash
 aibang.com###bizTopADBox
+xinhuanet.com###bkCloseLeft
+xinhuanet.com###bkCloseRight
+xinhuanet.com###bkLeft
+xinhuanet.com###bkRight
+xinhuanet.com###bkTop
 sina.com.cn###blk_xlzttltop_01
 acfun.com,acfun.tv###block-anime-index + .ad
 w3cplus.com###block-block-22
@@ -6155,6 +6148,7 @@ dychao.com###gdiv
 srzc.com###gelao
 66wz.com,mopiaoyao.com,renwai.ren###gg
 sdgundam.cn###gg-banner
+vvshu.com###gg120
 855699.com###gg2
 855699.com###gg3
 5173.com###gg330
@@ -7210,6 +7204,7 @@ esdict.cn,eudic.net,frdic.com,godic.net##.ads_info
 esdict.cn,eudic.net,frdic.com,godic.net##.ads_info ~ p
 zhangleisir.cn##.ads_logo
 6949.com##.adse
+bthand.com##.adsense
 fankudo.com##.adsense-right-square
 steachs.com##.adsensebanner
 qqjia.com##.adshang
@@ -7341,6 +7336,7 @@ mydrivers.com##.baidu_box
 ucbug.com##.baidu_fx
 game.9724.com##.baidu_left
 inpai.com.cn##.baiduad3
+qqcyl.net##.baiduadc
 3qzw.com##.ban1
 msn.people.com.cn##.banNSch
 phpfans.net##.banad
@@ -7800,6 +7796,8 @@ gamebase.com.tw##.forum_ad_text_top
 gamebase.com.tw##.forum_ad_top
 chineseinla.com##.forum_banner_ads
 pcbeta.com##.forum_top ~ div[class]
+vvshu.com##.forviewda
+paipai.fm##.fr[href="http://game.zixia.com"]
 imanhua.com##.fr[style^="width: 250px;"]
 down.766.com##.fro.note
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.frs_act_repost_wrapper_outter
@@ -8488,6 +8486,7 @@ chinaiiss.com##.pic_text
 baidu.com##.picad
 donews.com##.picarea
 9091tv.com,bibiqi.com,biqi.me,ietv.cc##.pics1200
+17173.com##.picshow:not([href*=".17173"])
 uhaoye.com##.picturead
 16sucai.com##.pindao_ad2
 keywin.org##.pindaolist
@@ -8756,6 +8755,7 @@ zhlzw.com##.sygg
 zhifang.com##.sytl
 creaders.net##.syzx
 elecinfo.com##.t-ad
+17ok.com##.t-bann
 dushiwenxue.com##.t1
 17yy.com##.t2_3
 17yy.com##.t2r_3
