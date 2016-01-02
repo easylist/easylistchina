@@ -2688,7 +2688,7 @@ _yad_jsonp_
 ||dn-yahoo.qbox.me/be
 ||dngame.eu/dngcenter/default.aspx
 ||dnpz.net/templets/images/lunbo/
-||dnvod.eu//upload/image/$object-subrequest
+||dnvod.eu//upload/$object-subrequest
 ||dnvod.eu/upload/image/*.gif
 ||dnvod.eu/upload/image/*.swf
 ||dnwx.com*/ad$image
@@ -2746,7 +2746,7 @@ _yad_jsonp_
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
 ||duapp.com^$domain=ccav1.com
 ||duba.com/static/v3/images/*.swf
-||duonao.tv//upload/image/$object-subrequest
+||duonao.tv//upload/$object-subrequest
 ||duonao.tv/upload/image/*.gif
 ||duonao.tv/upload/image/*.swf
 ||duowan.com/lgn/x/images/lgnadv/
@@ -5463,6 +5463,7 @@ _yad_jsonp_
 ||hk-bici.com/data/attachment/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dnvod.eu,duonao.tv##A[href^="/Hit.aspx?id="]
 hexieshe.com,xxshe.com##.sb-widget > .textwidget > P > A[href^="http"]:not([href*="she."]):first-child:last-child
 iqiyi.com##.mod_focus-index_list > LI:last-child
 iqiyi.com##.banner
