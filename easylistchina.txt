@@ -5462,8 +5462,7 @@ _yad_jsonp_
 ||qiyipic.com/common/fix/wh-leftbanner.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hexieshe.com,xxshe.com##A[href*=".taobao.com"]
-hexieshe.com,xxshe.com##A[href="http://www.anitoys.com/"]
+hexieshe.com,xxshe.com##.sb-widget > .textwidget > P > A[href^="http"]:not([href*="she."]):first-child:last-child
 iqiyi.com##.mod_focus-index_list > LI:last-child
 iqiyi.com##.banner
 iqiyi.com##.hwLink
