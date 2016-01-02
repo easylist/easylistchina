@@ -5464,8 +5464,11 @@ _yad_jsonp_
 ||vipcn.com/images/jk500.gif
 ||tietuku.com^*.gif$domain=xdjishu.com
 ||xdjishu.com/_uploadfile/image/20150722/20150722164052_98036.gif
+||renrencd.com/static/images/*_adv.
 !------------------------Specific element hiding rules------------------------!
 xdjishu.com###nav + DIV + TABLE
+renrencd.com##.duilian
+renrencd.com##DIV[style="width:960px;height:90px;margin:auto"]
 xdjishu.com##.indexgg1
 xdjishu.com##.ad_left2
 xdjishu.com##.gglist
