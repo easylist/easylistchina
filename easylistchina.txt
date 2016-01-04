@@ -413,6 +413,7 @@ _mobilebanner_v1_550x60.jpg
 ##.pagead_3
 ##.papapaabp
 ##.scupioadslot
+##.sxAdBox
 ##.tipadds
 ##.tmall_ad_container
 ##.topSponsor
@@ -451,7 +452,6 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.sxAdBox
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -3299,6 +3299,7 @@ _yad_jsonp_
 ||huihuige.com/images/affiliates/*_250_250
 ||huizhou.cn/webfile/*/images/scroll.js
 ||hunantv.com/ui/2014/images/hao123.jpg
+||huoche.net/Images/pc/ad_
 ||huoone.com/templets/hanfeng/js/qdtwo.js
 ||huoxingyu.com/images/hxy_350_330.gif
 ||huoyan.tv/yb/img/*.gif
@@ -3863,6 +3864,7 @@ _yad_jsonp_
 ||longbahao.com/js/ad-
 ||longyu.cc/adg/
 ||longyu.cc/bucket/flash/
+||look4lib.com/js/bnr_
 ||lotour.com/Honda/ad/
 ||loveshang.com/pic/*.swf
 ||lrjz100.u.qiniudn.com/rmb/bxd.jpg
@@ -5465,12 +5467,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||huoche.net/Images/pc/ad_
-||look4lib.com/js/bnr_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##A[href*="http://mall.iqiyi.com/item/"]
-ifeng.com##.qudaoTg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8552,6 +8550,7 @@ hao.163.com##.qa
 qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
+ifeng.com##.qudaoTg
 uc123.com##.quick-links > a
 mop.com##.quickReply-ad
 gfan.com##.r-ad
@@ -9128,6 +9127,7 @@ kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
+iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com,lrshare.com,zdfans.com##a[href*="meidebi."]
