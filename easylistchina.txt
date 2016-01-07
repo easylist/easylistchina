@@ -211,6 +211,7 @@ hk.yahoo.com###mntl1
 /tanchuang.
 /taobaoad.html
 /template/001/ads/*
+/template/gg.js
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
@@ -251,7 +252,6 @@ _mobilebanner_v1_550x60.jpg
 |http://*/js/ad/
 |http://*/js/tc.js
 |http://*/s.js?sp=*&r=$third-party
-/template/gg.js
 |http://acs.
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
@@ -1258,7 +1258,7 @@ _yad_jsonp_
 |http://*/t.js$domain=99770.cc|99comic.com|99manga.com
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
-|http://t.cn/$domain=aikuhu.com|cctv5bo.com
+|http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com
 |http://www.i-ab.co/zz/
 ||00170017.net/Public/dzb_gg.js
 ||00170017.net/Public/images/
@@ -3852,6 +3852,7 @@ _yad_jsonp_
 ||lnd.com.cn/site1/*.swf
 ||lnzq5.com/js/shuanglian.js
 ||lofter.com/mailEntry.do?*ad=
+||lofter.com/mailEntryMobile.do
 ||loldk.com/res/media/fanxing_
 ||longbahao.com/asd.js
 ||longbahao.com/js/ad-
@@ -4820,7 +4821,7 @@ _yad_jsonp_
 ||tieba.baidu.com/f/urlcheck?
 ||tietuku.com/0bb9bfe57636dc55.jpg
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
-||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo1.com|hdbiger.org|kisssub.org|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
+||tietuku.com^$domain=5ydj.com|99re.city|99re.net|99re6.com|99re8.com|99rehomes.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo1.com|hdbiger.org|kisssub.org|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.com^$object-subrequest,domain=skyerblog.com
 ||tietuku.com^*.gif$domain=lightnovel.cn|xdjishu.com
 ||tiexue.net/domain-policy/
@@ -5459,13 +5460,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||lofter.com/mailEntryMobile.do
-||tietuku.com^$domain=papa1024.com
-|http://t.cn/$domain=ady8.info
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-papa1024.com###aa
-sxclub.net##.topAdv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5590,7 +5586,7 @@ cityjs.com###a
 admin5.com###a22
 letv.com###a_body_11628
 letv.com###a_title_11628
-51dll.com,fulisuo1.com,xgrb.cn###aa
+51dll.com,fulisuo1.com,papa1024.com,xgrb.cn###aa
 weather.com.cn###ab
 weather.com.cn###abc
 hao.360.cn###activity
@@ -6242,7 +6238,6 @@ httpcn.com###ie6fixedTL
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net###ifanr_social_widget-4 + .widget_text
 ifeng.com###ifengAehovering_small
 hacg.lol###ifocu
-hacg.lol##.textwidget > A[href^="http://t.cn/"]
 tingroom.com###ifram_563
 youthwant.com.tw###ig_cont
 hao.360.cn###iguess
@@ -8831,6 +8826,7 @@ baidu.com##.text-advertise
 avbtgc.com##.text_center
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
+hacg.lol##.textwidget > a[href^="http://t.cn/"]
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
@@ -8893,6 +8889,7 @@ uuu9.com##.top2box
 cn.msn.com,cwan.com,gongchang.com,ifeng.com,nen.com.cn,sina.com,weibo.com,xinbiqi.com##.topAd
 ifeng.com##.topAdBox
 ltaaa.com##.topAds2
+sxclub.net##.topAdv
 yeyou.com##.topBackgroundAdv_bgbody
 cntour2.com##.topBanner
 timedg.com##.topCrossAd
