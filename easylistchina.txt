@@ -456,7 +456,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||xhmrv.com^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -985,6 +984,7 @@ _mobilebanner_v1_550x60.jpg
 ||xcy8.com^
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
+||xhmrv.com^
 ||xp3366.com^$third-party
 ||xsu.cc^$third-party
 ||xtxa.net^
@@ -1472,11 +1472,11 @@ _yad_jsonp_
 ||192.184.10.171^
 ||192.74.239.161/ad960.js
 ||198.40.52.11/ad/
-||qimm.org/Uploads/ad/
 ||198.40.56.242/ad/
 ||198zone.com/images/*noad.jpg
 ||19iiii.info/js/dingbu.js
 ||19iiii.info/js/dl.js
+||19iiii.info/js/foot.js
 ||19iiii.info/js/tonglan.js
 ||1dot.cn/spider/1dotAd.php
 ||1fun.com.hk/bb/189X180B.swf
@@ -4285,6 +4285,7 @@ _yad_jsonp_
 ||qihoo.com/hot/text.html?site=
 ||qikuyou.com/images/images/250.png
 ||qilanxiaozhu.*/data/attachment/portal/
+||qimm.org/Uploads/ad/
 ||qingkai.com/2009/html/top.htm
 ||qingkai.com/gg_img/
 ||qingkong.net/a/980x90_1.jpg
@@ -5454,28 +5455,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||19iiii.info/js/foot.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-people.com.cn##.ipc_none
-zol.com.cn###baoban
-zol.com.cn###blank
-people.com.cn##A[href^="http://www.516a."]
-people.com.cn##A[href^="http://jump.726p."]
-firefoxchina.cn##.sd-promote
-jmw.com.cn###lmad
-jmw.com.cn##.head_1b
-jmw.com.cn##.head_1d
-jmw.com.cn##.head_3
-jmw.com.cn##.head_4
-jmw.com.cn##.head_5
-jmw.com.cn##.head_6
-jmw.com.cn##.top_pic
-jmw.com.cn##.wy_bottom_box
-jmw.com.cn##.zhdlAd
-jmw.com.cn##.zhdlAd2
-jmw.com.cn##IMG[width="960"]
-jmw.com.cn##.mr_1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5799,6 +5780,7 @@ iwan.baidu.com###banner-info
 shangdu.com###banner960
 99tianji.com###banner_gg
 766.com,ksbbs.com,kshot.com###banner_top
+zol.com.cn###baoban
 ipeen.com.tw###bar-header
 qq.com###barrageBase
 zymk.cn###bb
@@ -5834,6 +5816,7 @@ xinhuanet.com###bkCloseRight
 xinhuanet.com###bkLeft
 xinhuanet.com###bkRight
 xinhuanet.com###bkTop
+zol.com.cn###blank
 sina.com.cn###blk_xlzttltop_01
 acfun.com,acfun.tv###block-anime-index + .ad
 w3cplus.com###block-block-22
@@ -6345,6 +6328,7 @@ marstv.com###live_ad
 500.com###live_top_ad
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###lm
 chinaacc.com###lm-bs-id
+jmw.com.cn###lmad
 bukade.com###loadimg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###loan_ad_mod_a
 blog.163.com###loftertextlinkad
@@ -7996,6 +7980,12 @@ lh168.net##.head04
 jnnews.tv##.headAD
 hkepc.com##.headBanner
 gdzjdaily.com.cn##.headBg + table + table[width="980"]
+jmw.com.cn##.head_1b
+jmw.com.cn##.head_1d
+jmw.com.cn##.head_3
+jmw.com.cn##.head_4
+jmw.com.cn##.head_5
+jmw.com.cn##.head_6
 jn256.com##.head_ggarea
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zdnet.com.cn##.headads
@@ -8133,6 +8123,7 @@ gexing.com.cn##.inqqgx > a:first-child
 letv.com##.interact_cnt
 baidu.com##.intro-adv
 bestxl.com##.intro_inner
+people.com.cn##.ipc_none
 jrj.com.cn##.ipo-ad
 iqiyi.com##.iqiyi-shangcheng
 5011.net##.iqying
@@ -8367,6 +8358,7 @@ firefoxchina.cn##.module-banner
 sogou.com##.module-fourpic-box
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 wasu.cn##.movie_ad
+jmw.com.cn##.mr_1
 zhuangpin.com##.mr_ad
 17huohu.com,firefoxchina.cn##.mrec-banner
 xici.net##.msgl_ad
@@ -8655,6 +8647,7 @@ mail.pchome.com.tw##.sceng
 wps.cn##.school
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.score_ecr_wrapper
 epinv.com##.scrollep
+firefoxchina.cn##.sd-promote
 playno1.com##.sd.pph
 yeeyi.com##.sd.pph > .mbm.hm
 yeeyi.com##.sd[style="width:208px;text-align:left;float:right;overflow-x:hidden;"]
@@ -8921,6 +8914,7 @@ qidian.com##.top_game_info
 0579.cn,jn256.com,xizi.com##.top_gg
 warting.com##.top_index_ad
 5iyq.com##.top_l
+jmw.com.cn##.top_pic
 5iyq.com##.top_r
 changsha.cn,kekenet.com,lady8844.com,neotv.com.cn,sina.com.cn,xinhuanet.com##.topad
 jiasuba.com##.topad1
@@ -9046,6 +9040,7 @@ we.poppur.com##.wrap > div[style="height:112px"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
 paipai.fm,paipaitxt.com##.wrapbg
 image.baidu.com##.wrapper_dot_box.dot_black
+jmw.com.cn##.wy_bottom_box
 hcwang.cn##.wz2
 hcwang.cn##.wz3
 2zzt.com##.wza-d
@@ -9085,6 +9080,8 @@ g1080.com##.zdgx_right_bottom
 520xs.com##.zhangjieTXT > a[target="_blank"]
 ithome.com##.zhaopin
 ithome.com##.zhaopin1
+jmw.com.cn##.zhdlAd
+jmw.com.cn##.zhdlAd2
 leiphone.com##.zhiqu-ads
 sina.com.cn##.zhitou-wrap
 wenku.baidu.com##.zhixin-ads
@@ -9194,6 +9191,7 @@ zhibo8.cc##a[href^="http://caipiao."]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
+people.com.cn##a[href^="http://jump.726p."]
 6park.com##a[href^="http://list.6park.com/parks/out.php?"]
 100ksw.com##a[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
 m.jrj.com.cn##a[href^="http://m.2345.com/?"]
@@ -9212,6 +9210,7 @@ lrshare.com##a[href^="http://url.cn/"]
 loveplay123.blogspot.com##a[href^="http://vbtrax.com/track/"]
 chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 qq.com##a[href^="http://www.10100000.com/"]
+people.com.cn##a[href^="http://www.516a."]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
@@ -9711,7 +9710,7 @@ jd-bbs.com##img[width="900"][height="100"]
 hz0572.com##img[width="950"]
 fjlyfdc.com.cn##img[width="950"][height="80"]
 676000.com##img[width="957"]
-0743ds.com,e0575.cn##img[width="960"]
+0743ds.com,e0575.cn,jmw.com.cn##img[width="960"]
 xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 loveshang.com##img[width="980"][height="70"]
