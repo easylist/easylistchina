@@ -2676,9 +2676,7 @@ _yad_jsonp_
 ||dmhua.net/js/bd_
 ||dmmfx.com.au/dmm-tag/
 ||dn-cnodestatic.qbox.me/public/images/*-banner-
-||dn-okey.qbox.me/v*.js
 ||dn-ttdaili.qbox.me/bdqb/
-||dn-yahoo.qbox.me/be
 ||dngame.eu/dngcenter/default.aspx
 ||dnpz.net/templets/images/lunbo/
 ||dnvod.eu//upload/$object-subrequest
@@ -5190,7 +5188,6 @@ _yad_jsonp_
 ||xp85.com/statics/js/all.js
 ||xpgod.com/bui/
 ||xpgod.com/UploadPic/xpgod/
-||xplian.com^$domain=2mm.tv
 ||xr8.me/2s.js
 ||xs.houyi.baofeng.net^
 ||xs8.cn/xs8_stat.js
@@ -5446,7 +5443,9 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||163.com/special/*_taobao.
 !------------------------Specific element hiding rules------------------------!
+163.com##.a_topad
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5751,8 +5750,6 @@ doyo.cn###article_top_down
 baidu.com###asideLeft
 baidu.com###asideRight
 ms211.com###atf
-163.com###atiJdAdContainer
-163.com###atiTaoAdContainer
 163.com###atleCB + .footer
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 cfcyb.com###b164187228
@@ -6767,7 +6764,7 @@ xilinjie.com###xlj-ad-right-01
 xilinjie.com###xlj-ad-right-02
 xilinjie.com###xlj-spread
 flv.tv###xm
-2mm.tv,flv.tv###xt
+flv.tv###xt
 chrome007.com###xxxx
 xizi.com###xz_8
 redocn.com###yc_adv_1_2
@@ -6900,7 +6897,6 @@ news.china.com.cn##.Wrapper > div[style]
 4s400.com##.ZixunboxTp
 m.sohu.com##._tg2
 m.sohu.com##._tgC_nav
-3g.163.com##.a-d-3
 ijia360.com##.a.fz0.mb15
 55188.com,g138.com##.a1_gg
 tucao.cc,tucao.tv##.a2013d
@@ -7293,7 +7289,6 @@ fxingw.com##.artAdBox
 thjunshi.com##.artTop3
 10jqka.com.cn,shangdu.com##.art_ad
 bkjia.com##.art_rightad1
-163.com##.article-ad-list
 51test.net##.article-show:nth-child(2n+3)
 sm.cn##.article.ali_row + #sc ~ .article.ali_row
 haha.mx##.article.mt-20
@@ -7730,7 +7725,6 @@ chinaz.com##.etc-t-head
 58.com##.ewmAdNew
 8264.com##.ewmbox
 fanyi.baidu.com##.extra-banners
-3g.163.com##.f-d-3
 sgcn.com,wangjing.cn##.fad
 ythouse.com##.fad2
 mobile01.com##.fast-ad
@@ -7800,9 +7794,6 @@ mei521.com##.fs_ad
 mei521.com##.fs_ad1
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.fsbanner
 ytbbs.com,ythouse.com##.ftop_ad
-163.com##.fuck-qq-1
-163.com##.fuck-qq-2
-163.com##.fuck-qq-3
 duowan.com##.full-banner
 gamme.com.tw##.fullad_ad
 rosmm.com##.fwinmask
@@ -8263,10 +8254,8 @@ taihainet.com##.lzhb
 163.com##.m-ad4
 163.com##.m-ad5
 163.com##.m-ad6
-3g.163.com##.m-ads
 dwnews.com##.m-banner
 blog.163.com##.m-fixedPCAd
-163.com##.m-fuckqq
 moe123.com##.m-inner2[module="attention"]
 moe123.com##.m-inner2[module="fatty"]
 uc123.com##.m-link
@@ -8815,7 +8804,6 @@ startos.com##.test-240
 xiazaiba.com##.test-90
 tiexue.net##.test-goods
 baidu.com##.text-advertise
-163.com##.text-link.index-p31
 avbtgc.com##.text_center
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
@@ -8935,8 +8923,6 @@ cntour2.com##.txtPicAd
 ltaaa.com##.txtads
 cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
-163.com##.u-textAds
-163.com##.u-wzGg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
 libaclub.com##.ui-adsame
@@ -10347,7 +10333,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||rm.sina.com.cn/minisite/$domain=weibo.com
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
-@@||rwjfs.com^$object,script,domain=2mm.tv|2mmei.com
 @@||s.lianmeng.360.cn^$domain=fxpan.com
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sakai-hk.com/advertisement.js
@@ -10434,7 +10419,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
-@@||yule8.net^$script,domain=2mm.tv|2mmei.com
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
