@@ -374,6 +374,7 @@ _mobilebanner_v1_550x60.jpg
 ##.adsense200
 ~winba.me##.baiduad
 ##.banner-ad-section
+##.below_ads
 ##.bm.a_c
 ##.bottomSponsor
 ##.bus_adsbox
@@ -404,6 +405,7 @@ _mobilebanner_v1_550x60.jpg
 ##.left_rcm_11
 ##.left_rcm_11_hide
 ##.leftadv
+##.list_ads
 ##.menutab_ad
 ##.ml_ad1
 ##.ml_ad3
@@ -451,8 +453,6 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.list_ads
-##.below_ads
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -1082,7 +1082,6 @@ _mobilebanner_v1_550x60.jpg
 !----------------------Specific advert blocking filters-----------------------!
 .543evv.com/js/config.js
 .adsame.libaclub.com^
-||pacd.3conline.com^
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .fancybox.$domain=life.com.tw
@@ -1881,6 +1880,7 @@ _yad_jsonp_
 ||8684.com/com/sys_ad_
 ||86file.megajoy.com^
 ||87994.com/images/rili.gif
+||880fg.com/css/*.js
 ||88448.com/images/gj/
 ||8888nn.com/sxgg/12.js
 ||8888nn.com/sxgg/13.js
@@ -4118,6 +4118,7 @@ _yad_jsonp_
 ||p3.img.cctvpic.com/photoAlbum/page/performance/img/2013/11/20/1384944092228_124.jpg
 ||p4p.sina.com.cn^
 ||p8u.hinet.net^
+||pacd.3conline.com^
 ||panda.kdnet.net^
 ||panpan.org/js/google
 ||panpan.org/other/
@@ -4603,7 +4604,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84zr.com|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|taohuazu.tw|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84zr.com|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|taohuazu.tw|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024.pe|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|atao.biz|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|cp001.xyz|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang.pe|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|vgan.pw|vlook.xyz|wan1024.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
@@ -5445,8 +5446,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||880fg.com/css/*.js
-||sinaimg.cn^$domain=izzs.cc
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9498,6 +9497,7 @@ gzcol.com##div[style*="width:1000px;"]
 dbw.cn##div[style*="width:300px; height:250px; "]
 divcss5.com##div[style*="width:336px;height:280px;"]
 wufangbo.com##div[style*="width:360px; height:300px;"]
+dmzj.com##div[style*="width:9"][style*="height:60px;"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 9ku.com##div[style*="width:960px; margin:12px"]
 7574.com##div[style*="width:960px;height:90px;"]
@@ -9599,7 +9599,6 @@ auto-online.com.tw##div[style="width:728px;height:130px;margin:0;background:#000
 mjtd.com##div[style="width:728px;height:90px;margin: 0px;"]
 131458.com##div[style="width:788px;border:solid 1px #def0e1;padding:0 10px;overflow:hidden;background:#fff9f3; height:35px;line-height:35px;"]
 bejson.com##div[style="width:900px;text-align:center;"]
-dmzj.com##DIV[style*="width:9"][style*="height:60px;"]
 28xl.com##div[style="width:960px; height:128px; margin:10px auto 10px auto; "]
 linyiren.com##div[style="width:960px; height:70px; margin:2px auto;"]
 93994.com##div[style="width:960px; height:90px; margin:0 auto; margin-top:10px"]
