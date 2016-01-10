@@ -1410,6 +1410,8 @@ _yad_jsonp_
 ||163.com/special/*/ted_vad.
 ||163.com/special/*/tonglan1.js
 ||163.com/special/*/topbg.js
+||163.com/special/*_ad_
+||163.com/special/*_taobao.
 ||163disk.com/pic/960x90-
 ||163disk.com/static/images/DING.gif
 ||163disk.com/static/images/tu.gif
@@ -4015,6 +4017,7 @@ _yad_jsonp_
 ||namipan.cc/baidu/
 ||namipan.cc/includes/js/digg.js
 ||nanhai.hinews.cn/zt/img/
+||nanren400.com/goto/
 ||nanrenshu.com/rmb/st_dh.js
 ||nanrenwo.net/theme/2013/js/popup*.js
 ||nanrenwo.net/theme/2013/js/top.js
@@ -4117,6 +4120,7 @@ _yad_jsonp_
 ||panpan.org/other/
 ||panpan.org/plus/img/
 ||panpan.org/templets/ad/
+||panzz.com/file/ads/
 ||pc0359.cn/data/xzb_haha.js
 ||pc0359.cn/js/un.js
 ||pc141.com/statics/new_img/info_left.png
@@ -4597,7 +4601,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|taohuazu.tw|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99re.city|99re.co|99re.net|99re.org|99re6.com|99re8.com|99rehomes.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|cao1024.com|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|lululu.club|lululu.lu|ml.gg|sbme.me|taohuazu.tw|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024.pe|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|atao.biz|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|cp001.xyz|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang.pe|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tube1024.com|tubewan.com|vgan.pw|vlook.xyz|wan1024.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
@@ -5197,7 +5201,6 @@ _yad_jsonp_
 ||xxdm.com/js/union/
 ||xxdm.org/js/union/
 ||xxhh.com/xh.js
-||nanren400.com/goto/
 ||xxs8.com/data/attachment/forum/201308/02/154213bpecdb6qly7fgv71.jpg
 ||xxsy.net/js/xxsypop
 ||xxx169.org^$third-party
@@ -5435,13 +5438,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||163.com/special/*_taobao.
-||163.com/special/*_ad_
-||panzz.com/file/ads/
-||sinaimg.cn^$domain=84fn.com
 !------------------------Specific element hiding rules------------------------!
-panzz.com##DIV[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
-163.com##.a_topad
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6896,6 +6893,7 @@ tucao.cc,tucao.tv##.a2013d
 chacuo.net##.a96090
 0772fang.com##.a_banner
 168gamer.com##.a_tad
+163.com##.a_topad
 120ask.com##.ab_top
 jiyingdm.com##.abcde
 yesky.com##.abox
@@ -9509,6 +9507,7 @@ leitingcn.com##div[style="height:308px"]
 howfile.com##div[style="height:30px;padding:2px;border:1px dashed #555555"]
 ezvivi.com##div[style="height:336px; width:100%"]
 links.hjav.in##div[style="height:800px;"]
+panzz.com##div[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
 zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
@@ -9947,10 +9946,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/loadTargetUrl?$domain=sasontnwc.net
-@@||gg.yxdown.com/count/countzt.js
-@@||f70123.com^$script,domain=flv.tv
-@@||e719.net^$script,domain=flv.tv
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -9988,13 +9983,11 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/AdShow/*$domain=mndxy.org
 @@/advert/*$domain=cctcw.cn|juxiangyou.com|locuspublishing.com
-@@/advert_$domain=pisen.com.cn
-@@/advert_$domain=wb.qq.com
+@@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
 @@/Advertisement.$domain=gametower.com.tw
-@@/advertisement.js$domain=gimhoy.com
-@@/advertisement.js$domain=fharr.com
+@@/advertisement.js$domain=fharr.com|gimhoy.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
 @@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com
@@ -10022,6 +10015,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/img_ad/*$domain=tkec.com.tw|yy960.com
 @@/js/ad_test.js$domain=coladrive.com|colayun.com
 @@/LoadAds.$domain=webcars.com.cn
+@@/loadTargetUrl?$domain=sasontnwc.net
 @@/page/adv.html?advId=$subdocument
 @@/PIC/AD/*$domain=ybjk.com
 @@/pop.js|$domain=189.cn|ali213.net|coolpad.com
@@ -10209,6 +10203,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||dzwww.com/ad/jsfiles/fillCon.js
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e70123.com^$script,domain=flv.tv
+@@||e719.net^$script,domain=flv.tv
 @@||ebiotrade.com/jslibrary/js44.js
 @@||ecitic.com/ads_
 @@||ecitic.com/eshop/advertise/
@@ -10219,6 +10214,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||emome.net/files/advertising/
 @@||esquirehk.com/action/adtag/(type)/googletag/(method)/async
+@@||f70123.com^$script,domain=flv.tv
 @@||forum.51nb.com/images/*/
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
@@ -10228,6 +10224,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||ganji.com/findjob/send_resume.*&ad_type=
 @@||gg.img123456.com^
 @@||gg.woniu.com^$domain=snail.com
+@@||gg.yxdown.com/count/countzt.js
 @@||gg1z.com/statics/gg/greendown/logo.gif
 @@||go.goyeah.com/adpolestar/$object-subrequest
 @@||gov.cn/scripts/Comm/AdRotator.js
