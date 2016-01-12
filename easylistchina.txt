@@ -82,7 +82,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 .cn/ads/
-/js/guanggao_gg.js
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
@@ -165,6 +164,7 @@ hk.yahoo.com###mntl1
 /js/ads/youxiajiao.js
 /js/ads/zuoxiajiao.js
 /js/bocaiadv.
+/js/guanggao_gg.js
 /js/utils51.js
 /js/utils78.js
 /jsadv/*
@@ -1367,6 +1367,7 @@ _yad_jsonp_
 ||122.225.103.*.htm
 ||122.228.236.165^
 ||123.sogou.com/nstatic/img/jiao.swf
+||12306.cn/otn/resources/images/20160109*.jpg
 ||123564.com/js/plaza.js
 ||123cha.com/2568
 ||125.46.61.28^
@@ -1731,6 +1732,7 @@ _yad_jsonp_
 ||591hx.com/js/floatbox.js
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
+||592siwa.com/tools/
 ||5944.net/source/css/images/ad_
 ||5adm.net/79070.gif
 ||5dmail.net/image/$object
@@ -2520,7 +2522,6 @@ _yad_jsonp_
 ||coladrive.com/cola3/newdown/join.png
 ||colayun.com/cola3/newdown/join.png
 ||com.webmasterhome.cn/a1-
-||sohucs.com^*_gif$domain=12580sky.com
 ||content.xilu.com^$object
 ||cool3c.com/sites/all/themes/coolthemes/cwww/ysm_
 ||coolaler.com.tw^*_300x100.
@@ -4618,6 +4619,7 @@ _yad_jsonp_
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
 ||sohu.com/interaction/get/getListByVidForVrs.do?
+||sohucs.com^*_gif$domain=12580sky.com
 ||sooopu.com/images/web/cg328/cg.js
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
@@ -4942,6 +4944,7 @@ _yad_jsonp_
 ||vipcn.com/hezuo/
 ||vipcn.com/images/cfdh*.gif
 ||vipcn.com/images/jk500.gif
+||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tgbus.com/data.ashx^*_SINGLE_SETJSONADSLOT
 ||vista.tgbus.com/s.js
 ||vista.tgbusdata.cn/s.js
@@ -5414,18 +5417,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||592siwa.com/tools/
-||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
-||12306.cn/otn/resources/images/20160109*.jpg
 !------------------------Specific element hiding rules------------------------!
-lohas.pixnet.net###box785805
-12306.cn##.adLoadBefore
-12306.cn##.fix-yh
 gpcxw.com###AA2
-chinaz.com##.Postcon-ad
-sosg.net###postlist + .cc
-sosg.net###read_728x90
-sosg.net##.home_promo_940x80
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5811,6 +5804,7 @@ mcdulll.com,mcdulll.pixnet.net###box1989082
 gaxhw.com###box2
 cwyuni.tw###box34614 > [class^="box-"]
 cwyuni.tw###box766939
+lohas.pixnet.net###box785805
 finance.ifeng.com###box_img
 zhan.com###box_tips
 hefei.cc###bp_ad
@@ -6436,6 +6430,7 @@ ld0766.com###portal_ad3
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 chinawin.net,itkee.com###postTopAd
+sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
 wenku.baidu.com###ppt-bottom-ads
 k7mm.com###premium-yva-close
@@ -6464,6 +6459,7 @@ qq.com###r_ad
 163.com###r_mkaolaadv
 game2.cn###rb
 shejizhan.org###rb_ad
+sosg.net###read_728x90
 tiboo.cn###read_hd1
 chinaqking.com###readerServiceDIV
 17173.com,sdgundam.cn###recommend
@@ -6855,6 +6851,7 @@ hifidiy.net##.MainRight > .marginTop[style]
 123yq.com,shuhe.cc##.Messageml
 bing.com##.OpInNwWndw
 azpan.com##.Page_left > .gg-up-line
+chinaz.com##.Postcon-ad
 chinaitlab.com,idcquan.com##.Prt_right[style^="HEIGHT:"]
 woshipm.com##.R-ad
 3dmgame.com##.R1
@@ -7028,6 +7025,7 @@ newcger.com##.adFullwidth90
 sina.com.cn##.adG
 sina.com.cn##.adH
 ifeng.com##.adL660
+12306.cn##.adLoadBefore
 app01.com.tw##.adOursWrap
 jschina.com.cn##.adR
 ifeng.com##.adR01
@@ -7722,6 +7720,7 @@ pingpang.info##.first_body_top
 html5china.com##.firstnews
 zol.com.cn##.fix-bbs-samsung
 elecfans.com##.fix-btmad
+12306.cn##.fix-yh
 9724.com##.fix_bottom_ad
 dashi.com,opda.com##.fix_twice
 bbs.actoys.net##.fl[style$="float:right;"]
@@ -7974,6 +7973,7 @@ mahua.com##.hidden_ab
 dailyfx.com.hk,jthysh.com##.home-banner
 quwenjiemi.com##.homeTopAd
 www.infoq.com##.home_banner
+sosg.net##.home_promo_940x80
 sogou.com##.hospitalinfo
 iqilu.com##.hot-news
 piaoliang.com##.hot990
