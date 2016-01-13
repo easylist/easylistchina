@@ -372,6 +372,7 @@ _mobilebanner_v1_550x60.jpg
 ##.ad_thread
 ##.adsense160
 ##.adsense200
+##.adsoho
 ~winba.me##.baiduad
 ##.banner-ad-section
 ##.below_ads
@@ -453,12 +454,9 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.adsoho
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
-||yuanhsu.com^$third-party
-||x9377a.com^
 /adscpc/*
 /AShow.aspx?AID=
 /center?advId=
@@ -981,6 +979,7 @@ _mobilebanner_v1_550x60.jpg
 ||wqzyt.net^$third-party
 ||ws341.com^
 ||wudang05.com^$third-party
+||x9377a.com^
 ||xa9t.com^
 ||xabaitai.com^
 ||xajx.com^$third-party
@@ -1012,6 +1011,7 @@ _mobilebanner_v1_550x60.jpg
 ||yoyi.tv^$third-party
 ||yqw88.com^
 ||ysm.ezprice.net^$third-party
+||yuanhsu.com^$third-party
 ||yule8.net^
 ||yunfanlm.com^$third-party
 ||yxdyk.com^$script,third-party
@@ -1313,6 +1313,7 @@ _yad_jsonp_
 ||103.225.198.230:8080/index.html
 ||106.184.7.176/shuang11/
 ||107.182.131.103/cache/?q=/images/
+||108.171.248.234^
 ||1080pba.com/templets/default/images/02.gif
 ||1080pba.com/templets/default/images/1.gif
 ||1080pba.com/templets/default/images/2.gif
@@ -1465,7 +1466,6 @@ _yad_jsonp_
 ||189so.cn/pop.html
 ||189so.cn^$subdocument
 ||18avday.*/aa/
-||108.171.248.234^
 ||192.74.239.161/ad960.js
 ||198.40.52.11/ad/
 ||198.40.56.242/ad/
@@ -1502,7 +1502,6 @@ _yad_jsonp_
 ||222.33.59.55/show.js
 ||222.45.224.77^*.js
 ||222.47.26.21/m.js
-||268de.com/js/
 ||2233777.com/bak/ad/
 ||2258.com/new_static/*/ad/
 ||22mt.la/bookpic/00*.jpg
@@ -1526,6 +1525,7 @@ _yad_jsonp_
 ||25xz.com/ads/
 ||25xz.com/degeye.gif
 ||265.com/static/pages/img/*_ads.
+||268de.com/js/
 ||27.255.67.120^
 ||27.cn/iframe/r-con1.
 ||28hse.com/adsman/www/images/
@@ -3888,6 +3888,7 @@ _yad_jsonp_
 ||mcncc.com/yeyou/*.htm
 ||mcncc.com/yeyou/gg.js
 ||mcxiaobu.com/zb_users/theme/LuSongSong/style/ads/
+||media.*.gif$domain=6668.se
 ||media.cheshi-img.com^
 ||medsci.cn/aimgs/$script
 ||megalife.com.hk^$domain=hkgolden.com
@@ -5058,6 +5059,9 @@ _yad_jsonp_
 ||x.itiexue.net/html/$script
 ||x.jd.com/static/js/auto.js
 ||x.jd.com/static/js/cpc.js
+||xav*.com/ad1/
+||xav*.com/attachment/Mon_
+||xav*.com/js/float.js
 ||xb2s.com:8080/mjq.js
 ||xc.macd.cn^
 ||xczhibo.com/xml/
@@ -5405,13 +5409,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||media.*.gif$domain=6668.se
-||xav*.com/attachment/Mon_
-||xav*.com/ad1/
-||xav*.com/js/float.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-163.com##.u-layer-ath
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8889,6 +8888,7 @@ cntour2.com##.txtPicAd
 ltaaa.com##.txtads
 cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
+163.com##.u-layer-ath
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
 libaclub.com##.ui-adsame
@@ -9921,7 +9921,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||fharr.com^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10189,6 +10188,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||emome.net/files/advertising/
 @@||esquirehk.com/action/adtag/(type)/googletag/(method)/async
 @@||f70123.com^$script,domain=flv.tv
+@@||fharr.com^$generichide
 @@||forum.51nb.com/images/*/
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
