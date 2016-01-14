@@ -81,8 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/sxgg/12.js
-/sxgg/13
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -207,6 +205,8 @@ hk.yahoo.com###mntl1
 /source/plugin/mama_tips/*
 /ssdxad.swf
 /static/adsview/*
+/sxgg/12.js
+/sxgg/13
 /sygg/*
 /taihai/v2014/images/index/aa_10.
 /tan.js
@@ -2432,6 +2432,7 @@ _yad_jsonp_
 ||chotee.com/wp-content/uploads/2015/apple-back-to-school-2015/
 ||chrome007.com/images/goodxxxx.jpg
 ||chuangshi.qq.com/upload/cmsv2/Banner/
+||chuantu.biz^$domain=99ee1.com|99re5.com|99rr6.com
 ||chubun.com/images/banners/
 ||chuixue.com/jsa/
 ||chuixue.com/template/*/images/g_js/show_
@@ -4551,7 +4552,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|sbme.me|taohuazu.tw|thzhd.net|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99ee1.com|99re5.com|99rr6.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|sbme.me|taohuazu.tw|thzhd.net|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024.pe|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|atao.biz|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|cp001.xyz|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang.pe|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tb001.xyz|tube1024.com|tubewan.com|vgan.pw|vlook.xyz|wan1024.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
@@ -4754,7 +4755,7 @@ _yad_jsonp_
 ||tieba.baidu.com/f/urlcheck?
 ||tietuku.com/0bb9bfe57636dc55.jpg
 ||tietuku.com/bd75a2d8aa0d4c86.jpg
-||tietuku.com^$domain=5ydj.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo1.com|hdbiger.org|kisssub.org|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
+||tietuku.com^$domain=5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo1.com|hdbiger.org|kisssub.org|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.com^$object-subrequest,domain=skyerblog.com
 ||tietuku.com^*.gif$domain=lightnovel.cn|xdjishu.com
 ||tiexue.net/domain-policy/
@@ -5389,12 +5390,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||chuantu.biz^$domain=99ee1.com|99re5.com|99rr6.com
-||tietuku.com^$domain=99ee1.com|99re5.com|99rr6.com
-||sinaimg.cn^$domain=99ee1.com|99re5.com|99rr6.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-plus28.com##DIV[style="width:270px; height:180px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9514,6 +9511,7 @@ gminfo.cn##div[style="width:1100px;"]
 dilidili.com##div[style="width:1250px;margin:0px auto;"]
 auto-online.com.tw##div[style="width:160px;height:480px;margin:0;background:#000000"]
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
+plus28.com##div[style="width:270px; height:180px;"]
 backchina.com##div[style="width:300px; min-height: 250px; background-color: #f5f5f5; margin:0;"]
 wuhan.net.cn##div[style="width:300px;height:250px;float:left;margin:0 14px 14px 14px;padding:2px;border:#ccc 1px solid"]
 bendibao.com##div[style="width:300px;height:250px;float:left;margin:5px 25px 15px 0;"]
@@ -9903,7 +9901,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||a.alimama.cn/tkapi$domain=ieeee.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10047,6 +10044,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||8591.com.tw^*/buyAd.css
 @@||95599.cn^*/images/ad.
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
+@@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.banggo.com/Ad/getAdPosList.shtml
 @@||abchina.com^*/images/ad.
 @@||ad-specs.guoshipartners.com/static/js/isip.js$domain=appledaily.com.tw
