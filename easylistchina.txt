@@ -110,6 +110,7 @@ hk.yahoo.com###mntl1
 /adpv?cn=
 /AdverJS/*
 /advpic/*
+/adx-exchange.
 /aipaiPlayFull2.
 /ajds/*
 /aoyou372down300_
@@ -212,7 +213,6 @@ hk.yahoo.com###mntl1
 /tan.js
 /tanad.js
 /tanchuang.
-/adx-exchange.
 /taobaoad.html
 /template/gg.js
 /tigtag_custom/*_banner
@@ -349,6 +349,7 @@ _mobilebanner_v1_550x60.jpg
 ###tripadvisor-ad
 ###xinnxi
 ###xinxi
+###ygteam_qqnews
 ##._cggp
 ##._ggs
 ##.a_cn
@@ -454,12 +455,10 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###ygteam_qqnews
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||gotonav.com^$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -755,6 +754,7 @@ _mobilebanner_v1_550x60.jpg
 ||ggmm777.com^$third-party
 ||gm682.com^
 ||gohappy.com.tw^$third-party
+||gotonav.com^$third-party
 ||gs307.com^$third-party
 ||guduopu.com^
 ||gzbywl.com^$third-party
@@ -1087,6 +1087,7 @@ _mobilebanner_v1_550x60.jpg
 !----------------------Specific advert blocking filters-----------------------!
 .543evv.com/js/config.js
 .adsame.libaclub.com^
+.com/js/l_$domain=ltwbook.com|ltxsw.com|ltxszw.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .fancybox.$domain=life.com.tw
@@ -1172,7 +1173,6 @@ _mobilebanner_v1_550x60.jpg
 /js/alls_$domain=911-sss.com|911sebb.info|911semm.com|911semm.info|911seqq.info|913sss.com|kuaisou222.com|ylgbt.info|ylgxxbt.com
 /js/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /js/index_$domain=ltwbook.com|ltxsw.com|ltxszw.com
-.com/js/l_$domain=ltwbook.com|ltxsw.com|ltxszw.com
 /js/top.js$domain=8comic.com|comicvip.com
 /jsc/book_$domain=99770.cc|99comic.com|99manga.com
 /jsc/Copy.js$domain=99770.cc|99comic.com|99manga.com
@@ -1922,6 +1922,8 @@ _yad_jsonp_
 ||99danji.com/otherhtml/
 ||99mst.com/upfiles/adv/main02.jpg
 ||99tianji.com/hack/kaifubiao.js
+||99ting.cn/789uc/gg.js
+||99ting.cn/image/*.gif
 ||9db.cc/wp-content/themes/xiucaozuo/js/ifphone.js
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
@@ -2431,6 +2433,7 @@ _yad_jsonp_
 ||chinaz.com/site_view/alexa_ad.jpg
 ||chinaz.com/temp_upfile/ads/
 ||chiphell.com/activity/
+||chosun.com/images/banner/
 ||chotee.com/wp-content/uploads/2015/apple-back-to-school-2015/
 ||chrome007.com/images/goodxxxx.jpg
 ||chuangshi.qq.com/upload/cmsv2/Banner/
@@ -2510,6 +2513,8 @@ _yad_jsonp_
 ||cp.ifeng.com/iframe/getiframe
 ||cp126.com/888zr11.gif
 ||cp126.com/img/ad0
+||cpbl-elta.cdn.hinet.net/web/images/ad_
+||cpbl-elta.cdn.hinet.net/web/images/beer.jpg
 ||cpplay.com/inc/
 ||cps.okbuy.com^
 ||cqfishing.net/data/attachment/portal/
@@ -3591,6 +3596,10 @@ _yad_jsonp_
 ||jobtong.com/openSiteAd?
 ||joyes.com/image/06.jpg
 ||jpseek.com/pr/click2.jpg
+||jpskb.com/Img/*_ad_
+||jpskb.com/Img/439911.jpg
+||jpskb.com/Img/7day_
+||jpskb.com/Img/dianyuan.gif
 ||jpunion.com^$domain=jpfans.com|jpseek.com
 ||jpwind.com/images/partner/
 ||jpwind.com^*/scroll.js
@@ -3810,6 +3819,7 @@ _yad_jsonp_
 ||loveshang.com/pic/*.swf
 ||lrjz100.u.qiniudn.com/rmb/bxd.jpg
 ||ltwbook.com/js/l_
+||ltxszw.com/js/350.png
 ||luckstatic.v1.cn/st/10000/
 ||luuu1.com/g/
 ||lxting.com^
@@ -4508,6 +4518,7 @@ _yad_jsonp_
 ||shxd.net/img/myad.gif
 ||simplecd.me/static/js/adcpm.js
 ||sina.cn/adfront/deliver.php?
+||sina.com.cn/131/20150515/266.js
 ||sina.com.cn/js/*/AdvertisingByNewIndex_
 ||sina.com.cn/js/*/bgads.js
 ||sina.com.cn/js/87/20140101/hongbao/
@@ -4790,6 +4801,7 @@ _yad_jsonp_
 ||tk.504pk.com^
 ||tmbbs.com/data/attachment/portal/*.swf
 ||tntdown.com/News/js/C_
+||toastoven.net/cdn/adx/
 ||tom.com/templets/tomwq/ad/
 ||tompda.com/dev/bbsadv/
 ||tompda.com/images/2014/800*.gif
@@ -5391,20 +5403,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||99ting.cn/789uc/gg.js
-||99ting.cn/image/*.gif
-||ltxszw.com/js/350.png
-||cpbl-elta.cdn.hinet.net/web/images/ad_
-||cpbl-elta.cdn.hinet.net/web/images/beer.jpg
-||sina.com.cn/131/20150515/266.js
-||toastoven.net/cdn/adx/
-||chosun.com/images/banner/
-||jpskb.com/Img/439911.jpg
-||jpskb.com/Img/7day_
-||jpskb.com/Img/dianyuan.gif
-||jpskb.com/Img/*_ad_
 !------------------------Specific element hiding rules------------------------!
-cpbl.com.tw##.gap_t10
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7791,6 +7790,7 @@ zongheng.com##.game_suppot
 qidian.com##.game_tj
 sina.com.cn##.gamead1
 zymk.cn##.ganggao_top
+cpbl.com.tw##.gap_t10
 haosou.com,so.com##.garllery_ad
 115.com##.gb-advs
 qzone.qq.com##.gb-bill-area
@@ -9836,6 +9836,7 @@ ntm.gov.tw#@#.ad-left
 da-fan-shu.cn#@#.ad-s
 qianyan001.com#@#.ad04
 mucanwenxue.com#@#.ad250
+acfun.tv#@#.ad250x250
 apk.tw#@#.ad300
 szonline.net#@#.ad310
 2ujj.com#@#.ad350
@@ -9912,11 +9913,9 @@ yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-acfun.tv#@#.ad250x250
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
-@@||99ting.cn/image/ding.gif
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -10058,6 +10057,7 @@ acfun.tv#@#.ad250x250
 @@||7vk.com/detail/shehuipinlun.js
 @@||8591.com.tw^*/buyAd.css
 @@||95599.cn^*/images/ad.
+@@||99ting.cn/image/ding.gif
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.banggo.com/Ad/getAdPosList.shtml
