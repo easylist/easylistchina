@@ -5406,9 +5406,13 @@ _yad_jsonp_
 ||baidu.com/tequan/adpadmin_feed/
 ||baidu.com/cpro/
 ||money.bumimi.com^
+||zhanqi.tv/uploads/*/ads-*.swf
 !------------------------Specific element hiding rules------------------------!
 bumimi.com##.fav.l
 dapenti.com##A[href*=".jd.com"]
+zhanqi.tv###js-room-flash-banner-panel
+zhanqi.tv##.js-activity-show
+zhanqi.tv##A[href^="http://www.2133."]
 96weixin.com###J-adBd
 96weixin.com###J-adBd2
 96weixin.com##.dbgg
