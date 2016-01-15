@@ -494,7 +494,6 @@ _mobilebanner_v1_550x60.jpg
 |http://*//s.php?id=$script,third-party
 |http://*:*/s.php?id=$script,third-party
 |http://1.3.0.10^
-|http://news.*.html|$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
@@ -9921,8 +9920,11 @@ yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+keenfine.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||js.adm.cnzz.net^$domain=keenfine.com
+@@/adview_pic_$domain=keenfine.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
