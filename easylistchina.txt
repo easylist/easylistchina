@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/dy_66jjss/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -139,6 +138,7 @@ hk.yahoo.com###mntl1
 /duilian.$domain=~duilian.msra.cn
 /duilian2.
 /duilian_gg.
+/dy_66jjss/*
 /ettoday/gemini/*
 /float_r.js
 /floatad.$domain=~fwxgx.com
@@ -424,6 +424,7 @@ _mobilebanner_v1_550x60.jpg
 ##.tipadds
 ##.tmall_ad_container
 ##.topSponsor
+##.tr3 > .f_one.black.y-style[width="25%"]
 ##.wf_ad_block
 ##.widget_ui_ads
 ##.wp.a_f
@@ -456,7 +457,6 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.tr3 > .f_one.black.y-style[width="25%"]
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -3102,6 +3102,7 @@ _yad_jsonp_
 ||haokan5.com/js/haokanjs/youxiajiao.js
 ||haoring03.com/ads/
 ||haowj.com.cn/d/js/outsidead/
+||haoxxoo.com/player/ad.html
 ||haoyu.me/wp-content/uploads/2013/08/interserver-vps1.gif
 ||haoyu.me/wp-content/uploads/2013/12/aliyun.jpg
 ||happydown.com^$script,subdocument
@@ -3611,6 +3612,8 @@ _yad_jsonp_
 ||jrjimg.cn/homev2/ad/
 ||js-1.pchome.net^
 ||js.4738.com/newda/img/994_90_
+||js.bju888.com^
+||js.bxwns.com^
 ||js.duotegame.com^
 ||js.leshen.com^
 ||js.mumayi.net/76090.gif
@@ -3982,6 +3985,8 @@ _yad_jsonp_
 ||myhard.com/s?z=
 ||mymusic.net.tw/upload/mobile_web_tmp/indexad01.
 ||myqcloud.com/js/easou.js
+||myt520.com/images/4493.jpg
+||myt520.com/images/jiaoyou
 ||mywpku.com/*-banner.
 ||mywpku.com/adminvm.jpg
 ||mzyfz.*/modules/46/
@@ -5401,18 +5406,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||myt520.com/images/4493.jpg
-||myt520.com/images/jiaoyou
-||js.bxwns.com^
-||js.bju888.com^
-||haoxxoo.com/player/ad.html
 !------------------------Specific element hiding rules------------------------!
-vfe3.com###swtleft
 gpcxw.com###AA2
-haoxxoo.com##.nrad1
-haoxxoo.com##.nrad2
-hcyy.org###snav_mn_forum
-fuliba.net##.tool_news
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6557,6 +6552,7 @@ cjn.cn###slidelr
 ithao123.cn###slider
 tiantian.tv###sliderb_container
 club.pchome.net,kdslife.com###smallslider
+hcyy.org###snav_mn_forum
 baidu.com###sning1
 baidu.com###sning2
 baidu.com###sning3
@@ -6574,6 +6570,7 @@ srzc.com###srzcad
 1616.net###stool
 showtv.com.tw###sub-ad
 hxyl.net###subcontent > a[target="_blank"]:first-child
+vfe3.com###swtleft
 yxdown.com###sy
 k7mm.com###t2 + a
 skyme.com,tom365.com,tw116.com###t365
@@ -8380,6 +8377,8 @@ yes-news.com##.notification
 maituan.com##.novice
 sucaitianxia.com##.nr_02
 168cz.com##.nr_two_ad
+haoxxoo.com##.nrad1
+haoxxoo.com##.nrad2
 sxrom.com##.nrmkto
 srzc.com##.nry_dbtongl
 news.163.com##.ns-wnotes
@@ -8819,6 +8818,7 @@ xinhuanet.com##.tonglan01
 xdkb.net##.tonglan2
 qilindao.com##.tonglanAd
 wdlm.cn##.tonglanbanner
+fuliba.net##.tool_news
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.tools > .shouji
 loldk.com##.tools-recommend
 meizhou.com##.top + .w1000
