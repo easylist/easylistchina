@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/moneymaker-banners/ads_
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -181,6 +180,7 @@ hk.yahoo.com###mntl1
 /main.js?v=*&sp=*&ty=
 /main/s?
 /module/adsview/*
+/moneymaker-banners/ads_
 /myimg/alimama2014.html
 /nanrenpeng/ads/*
 /new_site_topad^
@@ -1916,6 +1916,7 @@ _yad_jsonp_
 ||9938.net/video/tvg/footer.js
 ||9938.net/video/tvg/hot.js
 ||99770.cc^$subdocument
+||999sdh.com/tu/*.js
 ||99btgc01.info/uploads/*.gif
 ||99danji.com/otherhtml/
 ||99mst.com/upfiles/adv/main02.jpg
@@ -4561,7 +4562,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99ee1.com|99re5.com|99rr6.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|sbme.me|taohuazu.tw|thzhd.net|ttdyy.tv|xinqixi.com|xxxbt.com|zhiboche.com
+||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99ee1.com|99re5.com|99rr6.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|sbme.me|taohuazu.tw|thzhd.net|ttdyy.tv|xinqixi.com|xxxbt.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024.pe|1024bao.com|20fuck.com|20men.com|22fuck.com|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|atao.biz|bao36.com|bao85.com|baoxxx.com|cao71.com|cao89.com|caoporn.com|cp001.xyz|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|lang.pe|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|tb001.xyz|tube1024.com|tubewan.com|vgan.pw|vlook.xyz|wan1024.com|wanfuck.com|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinajs.cn/blog7style/images/activity/app_tuiguang/
@@ -4586,6 +4587,7 @@ _yad_jsonp_
 ||slit.cn/d/js/images/thea
 ||slit.cn/skin/slitsk/js/dlad.js
 ||slit.cn/slgg/
+||slooti.com/upload/30/38/1446711674.gif
 ||smzy.com^*/webtg
 ||smzy.com^*970.js
 ||snybw.com/images/*-banner.
@@ -5395,17 +5397,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||999sdh.com/tu/*.js
-||sinaimg.cn^$domain=youb444.com
-||slooti.com/upload/30/38/1446711674.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cna.com.tw##.ad_970
-cna.com.tw##.ad_970_2
-eastday.com##.gg_channel_r_b
-hkdm123.com##.ad990x90
-52pk.com###baidutop2
-52pk.com##.down_adv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5720,6 +5713,7 @@ cucn.com,ocucn.com###bad
 china.com.cn###baidu
 chinaiiss.com###baidu_300_250
 52pk.com###baidutop
+52pk.com###baidutop2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
 18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiqu888.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com###banner
@@ -7003,7 +6997,7 @@ danlan.org##.ad98090
 8264.com##.ad980_60
 dbw.cn##.ad980top
 hk3318.net##.ad990x130
-dm3318.com,hk3318.net##.ad990x90
+dm3318.com,hk3318.net,hkdm123.com##.ad990x90
 hf365.com,sina.com.cn,sohu.com##.adA
 sohu.com##.adB
 heyuan.cn##.adBanner2
@@ -7056,6 +7050,8 @@ dmm.hk##.ad_794
 dmm.hk##.ad_79a
 junqing123.com##.ad_960_85
 sina.com.cn##.ad_960x90
+cna.com.tw##.ad_970
+cna.com.tw##.ad_970_2
 hupu.com##.ad_980
 cheshi.com##.ad_980105
 bjxxw.com##.ad_ad
@@ -7621,6 +7617,7 @@ iqiyi.com##.dove_videos
 pctowap.com##.dowap_ads
 onlinedown.net##.downList > li > .btn
 xiazaiba.com##.down_ads
+52pk.com##.down_adv
 portablesoft.org##.downcenter
 yxzoo.com##.downgg
 7958.com.cn##.download_alert
@@ -7851,6 +7848,7 @@ eeyy.com##.gg_bg
 m4.cn##.gg_border
 xindm.cn##.gg_botom_gg
 xiaopi.com##.gg_box
+eastday.com##.gg_channel_r_b
 eeyy.com##.gg_top
 starbaby.cn##.gg_ttb
 hgitv.com##.ggall
@@ -9922,7 +9920,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||5i5j.*/images/ad$domain=5i5j.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10051,6 +10048,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||58.com/adJump?adType=
 @@||58.com/ds/tgbrand/$domain=brandsales.58.com
 @@||58cdn.com.cn/tuiguang/center/
+@@||5i5j.*/images/ad$domain=5i5j.com
 @@||61.164.108.104:4275/*/*.gif
 @@||61.164.108.184/tb/*.gif
 @@||61ef.cn/upfiles/gg/
