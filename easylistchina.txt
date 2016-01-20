@@ -268,6 +268,8 @@ _mobilebanner_v1_550x60.jpg
 ###adBody04
 ###adBody06
 ###adBody07
+###adLeftFloat
+###adRightFloat
 ###ad_box1
 ###ad_box2
 ###ad_full
@@ -316,6 +318,7 @@ _mobilebanner_v1_550x60.jpg
 ###my-adsFPR
 ###navcontainer + .moneyarea
 ###olfullad
+###popup.t
 ###ptcmsad1
 ###qj960a
 ###qj960b
@@ -454,14 +457,10 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###adLeftFloat
-###adRightFloat
-###popup.t
 !----------------------------------Ads-Union----------------------------------!
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||cjlaoshi.com^$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -676,6 +675,7 @@ _mobilebanner_v1_550x60.jpg
 ||chapm.com^$third-party
 ||chinauma.net^$third-party
 ||chinesean.com^$third-party
+||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
 ||cnxad.com^$third-party
 ||cnxad.net^
@@ -1286,6 +1286,7 @@ _yad_jsonp_
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=classify
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=topslide
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=zhuangx
+||0452e.com/js/float.js
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
 ||0471.so/Public/config/Couplet/Index
@@ -1768,6 +1769,7 @@ _yad_jsonp_
 ||62422.cn/js/inc/13.swf
 ||654mmm.com^
 ||66.fmx.cn/js/
+||6620070.com/js/
 ||66384.com/templets/js/stats.js
 ||66384.com/templets/SWFad
 ||6665432.com^*.gif
@@ -2023,6 +2025,7 @@ _yad_jsonp_
 ||aijiatxt.com/images/300.jpg
 ||aijiatxt.com/images/90.jpg
 ||aijiatxt.com/images/dudu.gif
+||aijiatxt.com/js/float.js
 ||aijiatxt.com/js/gg.js
 ||aikongke.com/wp-content/uploads/2014/06/0f000KdGOFFPAF_yxHIN76.gif
 ||ainunu.com/vad.js
@@ -2754,6 +2757,7 @@ _yad_jsonp_
 ||e0575.cn/js/advBigPopup/
 ||e0575.cn/js/float.js
 ||e0575.com/attachment/image/*_flash.swf
+||e0575.com/attachment/image/20160106024028_1.jpg
 ||e0575.com/pic/AD_
 ||e23.cn/js/aaa.js
 ||e399.com/html/
@@ -5397,16 +5401,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||0452e.com/js/float.js
-||aijiatxt.com/js/float.js
-||e0575.com/attachment/image/20160106024028_1.jpg
-||6620070.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-lnzq5.com###bdcs
-haosou.com###bnbtm-banner
-kaoyan.com##.artRad
-kaoyan.com##.subAd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5747,6 +5743,7 @@ gamme.com.tw###bd
 manhuadao.com###bd1
 dm456.com,haoting5.com###bdSider
 naruto.hk###bdbqy
+lnzq5.com###bdcs
 sogou.com###bdfs0
 baidu.com###bdyx_float_rb
 docin.com###beforeAd
@@ -5778,6 +5775,7 @@ gmgard.us,hggard.com###blog > div[style="overflow:hidden"]
 blog.163.com###blog-163-com-toptips
 wap.eastmoney.com###bn_box_102
 wap.eastmoney.com###bn_box_104
+haosou.com###bnbtm-banner
 microcontrol.cn###body > table[width="758"]
 wanmei.com###body_right
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id]
@@ -7258,6 +7256,7 @@ doyo.cn##.area[style="height:90px;text-align:center;overflow:hidden;"]
 gfan.com##.art-ad
 tianya.cn##.art-view
 fxingw.com##.artAdBox
+kaoyan.com##.artRad
 thjunshi.com##.artTop3
 10jqka.com.cn,shangdu.com##.art_ad
 bkjia.com##.art_rightad1
@@ -8718,6 +8717,7 @@ haosou.com,so.com##.spread
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
 aisex.com##.sptable
 klss.cn##.stat8
+kaoyan.com##.subAd
 10jqka.com.cn##.subbanner
 576tv.com##.subject_list > li > a[href^="http"]:not([href*=".576tv."])
 etest8.com##.subtop2right
@@ -9954,7 +9954,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/AdImage/*$domain=wacom.tw
 @@/ADImages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
-@@||tdx.com.cn/images/*ad$domain=tdx.com.cn
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com
@@ -10337,6 +10336,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
+@@||tdx.com.cn/images/*ad$domain=tdx.com.cn
 @@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
 @@||tenpay.com^*?ADTAG=
 @@||tmall.com/go/*/banner.php
