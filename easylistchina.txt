@@ -1041,6 +1041,7 @@ _mobilebanner_v1_550x60.jpg
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||taobao.com$popup,domain=hacg.lol
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /item.htm?$popup,domain=www.tsdm.net
@@ -6346,7 +6347,6 @@ javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
 xdjishu.com###nav + div + table
-hacg.lol###nav-above + div
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
 webkaka.com###navo + .ucontent
 tgbus.com###neck_970
@@ -8793,7 +8793,7 @@ tiexue.net##.test-goods
 baidu.com##.text-advertise
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
-hacg.lol##.textwidget > a > img[src*=".sinaimg."]
+hacg.lol##.textwidget > A > IMG:first-child:last-child
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
