@@ -82,11 +82,11 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 .cn/ads/
-.com/pc/ad/
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
 .com/js/ad_
+.com/pc/ad/
 .com/vodad.js
 .in/js/ads/
 .info/ad.js
@@ -1041,7 +1041,6 @@ _mobilebanner_v1_550x60.jpg
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-||taobao.com$popup,domain=hacg.lol
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /item.htm?$popup,domain=www.tsdm.net
@@ -1083,6 +1082,7 @@ _mobilebanner_v1_550x60.jpg
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
+||taobao.com$popup,domain=hacg.lol
 ||taobao.com^$popup,domain=aadaili.com|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
@@ -2032,6 +2032,7 @@ _yad_jsonp_
 ||aijiatxt.com/js/gg.js
 ||aikongke.com/wp-content/uploads/2014/06/0f000KdGOFFPAF_yxHIN76.gif
 ||ainunu.com/vad.js
+||aipai.com/app/www/templates/common/*_videos_
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||aipai.com/common/i0uat4jq/play/item.html
@@ -2054,7 +2055,7 @@ _yad_jsonp_
 ||ali213.net/static/js/kv
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
-||alicdn.com^$domain=wangyueblog.com|xiadele.com
+||alicdn.com^$domain=wangyueblog.com|xiadele.com|xm9x.net
 ||alicdn.com^*.gif$domain=htai.me
 ||alicdn.com^*.jpg$domain=htai.me
 ||alifeifei.net/s/*.js
@@ -4661,6 +4662,7 @@ _yad_jsonp_
 ||stats.chinaz.com/tool_img/
 ||stcn.com/common/flash/aigu.swf
 ||steachs.com/wp-content/uploads/2015/12/nippon.gif
+||steamcn.com/img/lancai_
 ||stheadline.com/*banner$script
 ||stheadline.com^*/right_promo.js
 ||stnn.cc/images/xy/*80px
@@ -5384,6 +5386,7 @@ _yad_jsonp_
 ||zongheng.com/zhuanti/2014/active/js/active.js
 ||zoopda.com/thumbs/*_w_250_mh_250.
 ||zoopda.com/thumbs/*_w_680_mh_120.
+||zp365.com/newImages/201*.swf
 ||zsg.kimi.com.tw^$domain=www.gamer.com.tw
 ||zsjjob.com/user/member/google.htm
 ||zsnews.cn/Components/2013ZSNEWS/
@@ -5403,17 +5406,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zp365.com/newImages/201*.swf
-||alicdn.com^$domain=xm9x.net
-||steamcn.com/img/lancai_
-||aipai.com/app/www/templates/common/*_videos_
 !------------------------Specific element hiding rules------------------------!
-zp365.com##.hitADclass
-gz0668.com###diy1
-zol.com.cn###luo-ad
-zol.com.cn###luo-small
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##[style*="important"] *
-douyutv.com,wasu.cn##.giftbox
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5949,7 +5942,7 @@ jdcjsr.com###divl2
 jdcjsr.com###divr1
 123du.cc,bokon.net###divtop1
 123du.cc,bokon.net###divtop2
-0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dayoo.com,dengfeng.cn,discuzlab.com,hh010.com,imuyang.com,kugz.com,ld0766.com,mahoupao.net,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com###diy1
+0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dayoo.com,dengfeng.cn,discuzlab.com,gz0668.com,hh010.com,imuyang.com,kugz.com,ld0766.com,mahoupao.net,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com###diy1
 d7w.net###diy10
 yb.jl.cn###diy100
 hcwang.cn###diy111
@@ -6300,6 +6293,8 @@ my0511.com###lphybbschklogdiv
 022net.com###lsgg1
 022net.com###lsgg2
 022net.com###lsgg3
+zol.com.cn###luo-ad
+zol.com.cn###luo-small
 pingpang.info###lwc
 haosou.com###ly-yaopin > .content
 playno1.com###m12
@@ -7886,6 +7881,7 @@ taian.com##.ggtp
 dealmoon.com##.ggw
 rrting.net##.ggw960h60
 iqiyi.com##.ggwBox
+douyutv.com,wasu.cn##.giftbox
 anquan.org##.gj_download
 88448.com##.gjad
 gameapps.hk##.gkTabsGK5
@@ -7979,6 +7975,7 @@ xinhuanet.com##.hfgg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme2
 022net.com##.hgg
 mahua.com##.hidden_ab
+zp365.com##.hitADclass
 dailyfx.com.hk,jthysh.com##.home-banner
 quwenjiemi.com##.homeTopAd
 www.infoq.com##.home_banner
@@ -8793,7 +8790,7 @@ tiexue.net##.test-goods
 baidu.com##.text-advertise
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
-hacg.lol##.textwidget > A > IMG:first-child:last-child
+hacg.lol##.textwidget > a > img:first-child:last-child
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
@@ -9070,6 +9067,7 @@ e0575.cn,sz.zj.cn##[id^="ads_c_"]
 gamebase.com.tw##[id^="aid_"]
 51240.com##[id^="ggwz"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##[style*="important"] *
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
@@ -10424,7 +10422,6 @@ brandsales.58.com#@#div[id^="ad_"]
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/urchin.js$domain=on.cc
-@@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com
 @@||7m.cn/v2/js/analyse.js
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
 @@||alicdn.com^*/click_track.js
@@ -10434,6 +10431,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||count.video.sina.com.cn^*?video_ids=
 @@||ecpm.tanx.com/ex?$domain=taobao.com
 @@||g.alicdn.com^*/banner_ad_
+@@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com
 @@||google-analytics.com/analytics.js$domain=komica.org|support.amd.com
 @@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
 @@||googletagmanager.com/gtm.js?$domain=support.amd.com
