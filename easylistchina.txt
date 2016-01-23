@@ -80,9 +80,9 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+.bl.test15.
 .cc/js/ads/
 .cn/ads/
-.bl.test15.
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
@@ -462,8 +462,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||dreamfull.cn^
-||66san.com^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -578,6 +576,7 @@ _mobilebanner_v1_550x60.jpg
 ||61.152.223.15^
 ||63kc.com^$third-party
 ||668559.com^$third-party
+||66san.com^
 ||67lm.com^$third-party
 ||685wo.com^$script,third-party
 ||68665565.com^
@@ -714,6 +713,7 @@ _mobilebanner_v1_550x60.jpg
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||dou777.com^
 ||doubleadv.com^$third-party
+||dreamfull.cn^
 ||drmcmm.baidu.com^
 ||dszm163.com^$third-party
 ||duiwai.baidu.com^
@@ -1374,7 +1374,6 @@ _yad_jsonp_
 ||122.225.103.*.htm
 ||122.228.236.165^
 ||123.sogou.com/nstatic/img/jiao.swf
-||ad.12306.cn/res/*.html
 ||123564.com/js/plaza.js
 ||123cha.com/2568
 ||125.46.61.28^
@@ -1975,6 +1974,7 @@ _yad_jsonp_
 ||actoys.net/index.php?m=poster&
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
+||ad.12306.cn/res/*.html
 ||ad.17173.com^
 ||ad.bjmama.net^
 ||adadmin.house365.com^
@@ -2474,6 +2474,7 @@ _yad_jsonp_
 ||cnbeta.com/assets/images/*_670_90.
 ||cnbeta.com/assets/js/pages/google.js
 ||cnbeta.com/jobs/list_?
+||cnbetacdn.com/320-50.
 ||cnbetacdn.com/banner
 ||cnchu.com/aps/
 ||cncrk.com/505/
@@ -4568,6 +4569,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2gw1eq3au2wh1wj20h802ijrh.jpg
 ||sinaimg.cn/mw690/a6a976a2jw1eptzya6d9cj20go01odgn.jpg
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
+||sinaimg.cn/mw690/be6bdb92gw1ezyqnc83glj208c06ywez.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
 ||sinaimg.cn^$domain=174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99ee1.com|99re5.com|99rr6.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshare.net|btshark.com|btup.net|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|sbme.me|taohuazu.tw|thzhd.net|ttdyy.tv|xinqixi.com|xxxbt.com|youb444.com|zhiboche.com
@@ -4642,7 +4644,6 @@ _yad_jsonp_
 ||starbaby.cn/bookconnector/
 ||starnnews.com/banner/
 ||static.aizhan.com/jsa/
-||cnbetacdn.com/320-50.
 ||static.coladrive.com/images/vip.png
 ||static.colayun.com/images/vip.png
 ||static.d.lecai.com/js/*m.js
@@ -5276,6 +5277,7 @@ _yad_jsonp_
 ||yupoo.com/3126961304/$domain=ttmeiju.com
 ||yupoo.com/ttmeiju/F5aQAmuW/XKgx.gif
 ||yupoo.com/ttmeiju/F5TrKJL8/medish.jpg
+||yupoo.com/ttmeiju/FgIoBTXx/4uIfH.jpg
 ||yxad.com/baidu/
 ||yxad.com/js/lady.gif
 ||yxad.com/sg/
@@ -5406,13 +5408,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sinaimg.cn/mw690/be6bdb92gw1ezyqnc83glj208c06ywez.jpg
-||yupoo.com/ttmeiju/FgIoBTXx/4uIfH.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gz0668.com###framec32DR1
-pconline.com.cn##.pop-huodong
-tiexue.net##.showimg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6080,6 +6077,7 @@ dabin69.com###frameOa2lrD
 wgun.net###frameUrKrp6 ~ .frame
 wangdaizhijia.com###frameVjrRzL
 yangluo.cn###frameVw7574
+gz0668.com###framec32DR1
 wcjbb.com###frameo834m9
 bbs.liao1.com###frameppbC61
 zc173.com###frameq7Hf1J
@@ -8487,6 +8485,7 @@ play.jb51.net##.playtlbdx
 moonbbs.com##.plc.plm > div > div > a[href*=".dealmoon.com"]
 19lou.com##.pop-ad
 qzone.qq.com##.pop-app-list-c
+pconline.com.cn##.pop-huodong
 zhan.com##.pop_shousuo
 anzhuo365.com,pzzc.net##.portal_block_summary
 loorin.com##.portal_block_summary > a[href^="http"]:not([href^="http://www.loorin."])
@@ -8646,6 +8645,7 @@ zahuishi.com##.show2960x90
 5068.com##.showG
 51test.net##.show_content_declaration > p
 sucaijiayuan.com##.show_title_bottom_gg
+tiexue.net##.showimg
 99770.cc,99comic.com,99manga.com##.sic
 99770.cc,99comic.com,99manga.com##.sid
 aohua.com.au##.sidBoxNoborder
@@ -9072,7 +9072,6 @@ e0575.cn,sz.zj.cn##[id^="ads_c_"]
 gamebase.com.tw##[id^="aid_"]
 51240.com##[id^="ggwz"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##body [style*="important"] *
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
@@ -9222,6 +9221,7 @@ dm456.com##body > div[style^="height:90px;"]
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 62422.cn##body > table[width="778"][align="center"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##body [style*="important"] *
 leduwo.com##br + #adtop
 taoyoudu.com##br + .k_serach
 btcherry.com##button[style="width: 960px; height: 90px; background: transparent; border: 0; padding: 0; cursor: hand;"]
