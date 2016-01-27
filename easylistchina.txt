@@ -1531,8 +1531,10 @@ _yad_jsonp_
 ||23sc.cn*/007/js/$script
 ||23wx.com/scripts/style_tan.js
 ||23youku.com/Runtime/js/
+||23zw.com/sda/mediav.html
 ||2500sz.com/ad20
 ||2500sz.com/site/
+||2500sz.com^*/655x60.
 ||258zb.com/jsData/users.aspx
 ||25xz.com/ads/
 ||25xz.com/degeye.gif
@@ -1966,6 +1968,7 @@ _yad_jsonp_
 ||abc.hkepc.com^
 ||abcde.cn/2014images/*96060.jpg
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
+||acfun.tv/adnew.aspx?id=
 ||acg.178.com/201302/t_
 ||acg.178.com/s/manhua218_140.html
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
@@ -2136,7 +2139,7 @@ _yad_jsonp_
 ||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
-||bahamut.com.tw/B/2KU/$domain=~buy.gamer.com.tw,~collapse
+||bahamut.com.tw/B/2KU/$~collapse,domain=~buy.gamer.com.tw
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
 ||baidu.com/cms/rc/adSideConfig.json?
@@ -2970,6 +2973,7 @@ _yad_jsonp_
 ||gg-art.com/anod/
 ||gg.0598yu.com^
 ||gg.18183.com^
+||gg.bxwx5.com^
 ||gg.cs090.com^
 ||gg.gao7.com^
 ||gg.kugou.com^
@@ -5412,16 +5416,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||gg.bxwx5.com^
-||23zw.com/sda/mediav.html
-||2500sz.com^*/655x60.
-||acfun.tv/adnew.aspx?id=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-mm-cg.com##.UT_thread
-2345.com##.newsArea
-2345.com###BAIDU_DSPUI_FLOWBAR
-2345.com##.baiduSearchIvy
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5449,6 +5445,7 @@ js0573.com###Adv4
 114la.com,ylmf.com###AdvLink
 zol.com.cn###Article_Top_Banner
 avmimi.com###ArticlesEx_box
+2345.com###BAIDU_DSPUI_FLOWBAR
 gamer.com.tw###BH-ad_banner
 china.com###BJ
 firefang.cn###BaiduAd1
@@ -6878,7 +6875,7 @@ bs028.com##.Sys_head
 dfdaily.com##.TOP_BANNER
 avmimi.com##.TW_UTtoy
 dailynews.sina.com##.TopNav + table
-avmimi.com##.UT_thread
+avmimi.com,mm-cg.com##.UT_thread
 tuwan.com##.Video-r-ad
 dfdaily.com##.WEB1_TOPBANNER
 news.china.com.cn##.Wrapper > div[style]
@@ -7319,6 +7316,7 @@ hao.rising.cn##.baidu-banner
 2345.com,47dy.com##.baiduHotWord
 2345.com##.baiduHotWordsR
 2345.com##.baiduSearch
+2345.com##.baiduSearchIvy
 aibang.com##.baidu_ad
 mydrivers.com##.baidu_box
 ucbug.com##.baidu_fx
@@ -8384,6 +8382,7 @@ zhifang.com##.newhousegg002
 ali213.net##.newright
 cnhan.com,longhoo.net##.news-5
 xdkb.net##.news-l-yg
+2345.com##.newsArea
 ifeng.com##.news_ADbox
 jgtj.com.cn,m.baidu.com,wuseng.com##.news_ad
 gucheng.com##.news_ad_fenyelianjie
@@ -9951,7 +9950,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||bahamut.com.tw/JS/ad/mobileBigBanner.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10147,6 +10145,7 @@ brandsales.58.com#@#div[id^="ad_"]
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
+@@||bahamut.com.tw/JS/ad/mobileBigBanner.js
 @@||banma.com/statics/js/??
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
