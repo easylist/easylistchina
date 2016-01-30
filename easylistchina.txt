@@ -1552,6 +1552,7 @@ _yad_jsonp_
 ||2ccc.com/images/WebXone.gif
 ||2chcn.com/img/*336x280
 ||2chcn.com/img/3171150.jpg
+||2chcn.com/img/japanese-a.png
 ||2muslim.com/data/attachment/portal/
 ||2u-img.com.cn/modules/38_module_images/4747.jpg
 ||2u.com.cn/js/2012_movie.js
@@ -5421,13 +5422,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||2chcn.com/img/japanese-a.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
-2chcn.com##.widget > A > IMG[width="300"]
-qzone.qq.com###appstore_sidebar_l
-qzone.qq.com###appstore_sidebar_r
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5720,6 +5716,8 @@ qzone.qq.com###appCanvasRightBottomTips
 qzone.qq.com###appCanvasRightTopQBoss
 qzone.qq.com###appCanvasTopBanner
 qzone.qq.com###app_ads
+qzone.qq.com###appstore_sidebar_l
+qzone.qq.com###appstore_sidebar_r
 xyfdcw.com.cn###area2_2 > .mb5
 youthwant.com.tw###art_adbox
 gxnews.com.cn###art_adunioncode
@@ -8873,6 +8871,7 @@ baidu.com##.top-banner-ad-wrap
 163.com##.top-gg
 163.com##.top-gg-area
 2345.com##.top-lvy
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
 www.uuu9.com##.top1bar
 uuu9.com##.top2box
 52wubi.com,zerodm.com##.top960
@@ -8995,6 +8994,7 @@ d5yuansu.com##.wenadds
 baidu.com##.wgt-ads
 zhidao.baidu.com##.wgt-bottom-ask
 muzhi.baidu.com##.wgt-container
+2chcn.com##.widget > a > img[width="300"]
 hao123.com##.widget-hlbar > span
 maxthon.cn##.widget-main-ad-img
 maxthon.cn##.widget-main-hot-links
