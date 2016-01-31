@@ -81,6 +81,7 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .bl.test15.
+/jinhuatv/ad
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -1571,7 +1572,6 @@ _yad_jsonp_
 ||310v.com/js/f2.js.js
 ||3155.com/js/ifile
 ||315che.com/addata/
-||315che.com/upload_img/aimg/
 ||3199.cn/ggs_
 ||324324.cn/zz/
 ||32666.com/ads/
@@ -1604,8 +1604,7 @@ _yad_jsonp_
 ||365xs.org/js/xiayizhang.js
 ||36dm.com/images/*acgsou.gif
 ||36dm.com/js/nu
-||36tv.cn/ad_pic/
-||36tv.cn/statics/images/jinhuatv/ad
+||jinhua.com.cn/ad_pic/
 ||38v.com/38v-b.gif
 ||39.net/client/39/c.js
 ||39.net/creative/
@@ -5886,7 +5885,7 @@ ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 ithome.com###con > div:not([class]):not([id]):first-child + div
 gate.baidu.com,m.baidu.com###container
 ylnet.com.cn###container > div[style*="990px;"]
-36tv.cn###container > div[style^="height:"]
+jinhua.com.cn###container > div[style^="height:"]
 gg163.net###container > table[width="960"]
 zhaozi.cn###container2
 jb51.net###contbot
@@ -6564,7 +6563,6 @@ iwan.baidu.com###side-xbox
 ck101.com###sideAds1
 ithome.com###side_pos1
 cililian.me###side_right
-36tv.cn###sidead_left
 hongxiu.com###sideadleft
 fuliba.is.my,fuliba.net,fulibba.com,fulibba.net,iyejie.com,pc360.net###sidebar > .widget:first-child
 gaoqing.la###sidebar > .widget:nth-child(-n+3)
@@ -6686,7 +6684,7 @@ xiashanet.com###top_content
 hiapk.com###top_gg
 xinhuanet.com###top_hfad
 duba.com###top_joke
-315che.com,wendu.cn###topads
+wendu.cn###topads
 tianjinwe.com###topadv
 aibang.com###topadv_baidu_aibang
 blog.163.com###topbar_randShowArea
@@ -6865,7 +6863,7 @@ ifeng.com##.FNewRAvtLisBox
 ifeng.com##.FNewRAvtLisBox02
 cnfol.com##.FixedLeft
 cnfol.com##.FixedRight
-36tv.cn##.FocusAD
+jinhua.com.cn##.FocusAD
 aiyuke.com##.GGad
 news.hf365.com##.G_bot
 gigacircle.com##.Game-Ads
@@ -8873,7 +8871,6 @@ veryim.net##.tmall1111 + .clearfix
 198zone.com##.tongad
 0898.net,gamefy.cn,hi.people.com.cn##.tonglan
 xinhuanet.com##.tonglan01
-315che.com##.tonglan1
 xdkb.net##.tonglan2
 qilindao.com##.tonglanAd
 wdlm.cn##.tonglanbanner
