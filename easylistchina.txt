@@ -80,6 +80,7 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+=cstdio_ads:
 .bl.test15.
 .cc/js/ads/
 .cn/ads/
@@ -1446,8 +1447,7 @@ _yad_jsonp_
 ||1688.com.au/site1/1688ad/
 ||16888.com/ajax/loadcardata.php
 ||168gamer.com/apii.php?mod=js&bid=
-||168gamer.com/plugin.php?id=cstdio_ads:
-||168gamer.com/static/js/cpa.js
+||168gamer.com/static/js/rlist.js
 ||16sucai.com/ads/
 ||16sucai.com/images/46060_
 ||17173.com/2013/new/channel-float.js
@@ -5435,6 +5435,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||ii.168img.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6910,7 +6911,7 @@ ijia360.com##.a.fz0.mb15
 tucao.cc,tucao.tv##.a2013d
 chacuo.net##.a96090
 0772fang.com##.a_banner
-168gamer.com##.a_tad
+168gamer.com###wp > DIV[class^="wp a_"]
 163.com##.a_topad
 120ask.com##.ab_top
 jiyingdm.com##.abcde
