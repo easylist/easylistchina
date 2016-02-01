@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .bl.test15.
-/jinhuatv/ad
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -166,6 +165,7 @@ hk.yahoo.com###mntl1
 /guanggao2.
 /h/k.php?u=*&l=*&v=$third-party
 /ina_ad_
+/jinhuatv/ad
 /js/ads/dui.js
 /js/ads/neiye
 /js/ads/piao.js
@@ -499,6 +499,7 @@ _mobilebanner_v1_550x60.jpg
 :8080/js/v1.js$third-party
 :8080/js/v2.1.js$third-party
 :9001/code/
+ubmcmm.baidustatic.com
 |http://*.cc/s.php?id=$script,third-party
 |http://*.cn/s.php?id=$script,third-party
 |http://*.com/s.php?id=$script,third-party
@@ -971,7 +972,6 @@ _mobilebanner_v1_550x60.jpg
 ||txkjad.com^$third-party
 ||u.801t.com^$third-party
 ||u88.cn^$third-party
-ubmcmm.baidustatic.com
 ||ueadlian.com^$third-party
 ||ufstone.com^$third-party
 ||ujian.cc^$third-party
@@ -1584,6 +1584,7 @@ _yad_jsonp_
 ||3399.com/act/fk/
 ||3399.com/Common/OnlineServer.html
 ||33av.net/Uploads/ad/
+||33lc.com/statics/skin_js/33.js
 ||33xs.com/hot/
 ||33xs.com/js/d.js
 ||33xs.com/js/g
@@ -1603,7 +1604,6 @@ _yad_jsonp_
 ||365xs.org/js/xiayizhang.js
 ||36dm.com/images/*acgsou.gif
 ||36dm.com/js/nu
-||jinhua.com.cn/ad_pic/
 ||38v.com/38v-b.gif
 ||39.net/client/39/c.js
 ||39.net/creative/
@@ -2054,6 +2054,7 @@ _yad_jsonp_
 ||aipai.com/common/i0uat4jq/play/item.html
 ||airenti.in^$script
 ||aituan.com/at/bbs_gg/
+||aixifan.com/dotnet/artemis/u/cms/www/201601/28120711iclentwp.jpg
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/index.php?c=position&
 ||ajiang.net/b4_dnslak.png
@@ -3421,6 +3422,8 @@ _yad_jsonp_
 ||imanhua.com^*/money/
 ||imanhua.com^*/nmoneys/
 ||imanke.com/static/player/loading/imanke.html
+||ime666.com/ad_dl.js
+||ime666.com/ads.js
 ||imeee.cn/DA_HTML/*.js
 ||imeee.cn/DA_HTML/bottom_960x90.html
 ||img*.bet007.com/image/*.gif
@@ -3602,6 +3605,7 @@ _yad_jsonp_
 ||jinbw.com.cn/img/
 ||jinghua.cn/lib/js/news/ad_jh.html
 ||jinhongweiqi.com/cache/ads.js
+||jinhua.com.cn/ad_pic/
 ||jinyici.com/qq.js
 ||jinzhuedu.com/k/img/swt.png
 ||jirou.com/plus/mytag_js.php
@@ -4353,6 +4357,7 @@ _yad_jsonp_
 ||qstatic.com/baike/js/ad_
 ||qtfy30.cn/680_*.gif
 ||qtfy30.cn/980-90.gif
+||quanmin.tv/json/page/ad-slot/
 ||quledu.com/js/nrh.js
 ||qunar.com/render/*Advertisement.jsp?
 ||qunar.com/vata?chan=
@@ -5430,15 +5435,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ime666.com/ad_dl.js
-||ime666.com/ads.js
-||33lc.com/statics/skin_js/33.js
-||quanmin.tv/json/page/ad-slot/
-||aixifan.com/dotnet/artemis/u/cms/www/201601/28120711iclentwp.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-douyutv.com##.row-4.theatre
-tieba.baidu.com##.tl_spread
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5806,7 +5804,6 @@ xinhuanet.com###bkRight
 xinhuanet.com###bkTop
 zol.com.cn###blank
 sina.com.cn###blk_xlzttltop_01
-acfun.tv##.ad
 w3cplus.com###block-block-22
 w3cplus.com###block-block-43
 drupalchina.cn###block-block-8
@@ -6925,7 +6922,7 @@ qq.com##.action_ad
 rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
-001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,520rr.com,52youpiao.com,61.147.69.213,72bbb.com,8btc.com,aohua.com.au,baiduyunpan.net,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,china.com,china3-d.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hebnews.cn,hkgalden.com,house.jschina.com.cn,huanqiukexue.com,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaixin200.com,kumi.cn,kunming.cn,lepan.cc,lvseba.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
+001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,520rr.com,52youpiao.com,61.147.69.213,72bbb.com,8btc.com,acfun.tv,aohua.com.au,baiduyunpan.net,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,china.com,china3-d.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hebnews.cn,hkgalden.com,house.jschina.com.cn,huanqiukexue.com,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaixin200.com,kumi.cn,kunming.cn,lepan.cc,lvseba.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
 duowan.com##.ad--col
 photofans.cn##.ad-1-index
 163.com##.ad-1200-125
@@ -8626,6 +8623,7 @@ iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
 iqiyi.com##.rm-site-main
 allyingshi.com,zimuzu.tv##.room
+douyutv.com##.row-4.theatre
 howfile.com##.row1_right
 zimuzu.tv##.rrmj_ad
 ld0766.com##.rsf_pull_screen_adv
@@ -8865,6 +8863,7 @@ bamuyu.com##.tjyouxi
 qq.com##.tl_ad
 dizo.com.cn##.tl_ad1
 tieba.baidu.com##.tl_shadow + * + li[class]:not(.tl_shadow)
+tieba.baidu.com##.tl_spread
 esnai.com##.tlgg
 srzc.com##.tlgg_one
 veryim.net##.tmall1111 + .clearfix
