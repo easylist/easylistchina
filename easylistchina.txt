@@ -1225,7 +1225,6 @@ ubmcmm.baidustatic.com
 /pagead/*$domain=fankudo.com
 /pub/news/gzrb/*$script
 /r/video/*$domain=youxi.baidu.com
-/s01/*$~collapse,domain=www.gamer.com.tw
 /sc_ifeng/*
 /sda/*$domain=chineseinla.com
 /sinaLoginReward2014.
@@ -1254,7 +1253,6 @@ ubmcmm.baidustatic.com
 /wxh.js$domain=dm5.com|dm5.hk
 /wxhfm.html$domain=dm5.com|dm5.hk
 /xiao1234.com/ads/*
-/xiaoshuo.js$domain=45zw.com
 /xybgg.gif$domain=qzntv.com|qzwb.com
 /ycpiframe.aspx$domain=strtv.cn
 /youxituoluo/images/text_top_
@@ -5438,6 +5436,9 @@ _yad_jsonp_
 ||ii.168img.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+40407.com##.con_tj
+40407.com##.gg
+40407.com##A[href^="http://www.40407.com/g.php?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8366,7 +8367,6 @@ dnwx.com##.mt5_23
 newcger.com##.mtb17.h90
 pixiv.net##.multi-ads-area
 07073.com##.multi_adv
-45zw.com##.mulu_list > table
 hkgolden.com##.myTestAd
 neihan8.com##.myad
 jyeoo.com##.mycenter > a:first-child
