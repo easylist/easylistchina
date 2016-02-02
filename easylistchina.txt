@@ -80,8 +80,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/ggclass/*
-=cstdio_ads:
 .bl.test15.
 .cc/js/ads/
 .cn/ads/
@@ -156,6 +154,7 @@ hk.yahoo.com###mntl1
 /ggad/*
 /ggao.
 /ggao/*
+/ggclass/*
 /ggjs/*
 /ggpic/*
 /ggtp/*
@@ -244,6 +243,7 @@ hk.yahoo.com###mntl1
 :1010/openV5.js
 :8080/ad/
 :8898/ads_
+=cstdio_ads:
 =loginExtAD.
 _billboard_320x100.iframe.
 _mobilebanner_v1_550x60.jpg
@@ -1445,8 +1445,8 @@ _yad_jsonp_
 ||1684.cc/js/1684/
 ||1688.com.au/site1/1688ad/
 ||16888.com/ajax/loadcardata.php
-||168gamer.com^*.php?mod=js&bid=
 ||168gamer.com/static/js/rlist.js
+||168gamer.com^*.php?mod=js&bid=
 ||16sucai.com/ads/
 ||16sucai.com/images/46060_
 ||17173.com/2013/new/channel-float.js
@@ -1657,6 +1657,7 @@ _yad_jsonp_
 ||51bczx.com/attachment/Mon_
 ||51bczx.com/img/51bczx/
 ||51bczx.com/js/float.js
+||51credit.com/credit/images/201505/ggchedai.jpg
 ||51cto.com/js/blog_top_list.php
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51gaojian.com/js/tj.js
@@ -1681,6 +1682,7 @@ _yad_jsonp_
 ||51wan.com/img/js/xyadjs_
 ||51wan.com/web/v1/index/images/spec/
 ||51xuediannao.com/plus/mytag_js.php?aid=
+||51xuediannao.com/uploads/rmb/
 ||51xxs.com/users/public/*.swf
 ||51ztzj.com/js/you.js
 ||51ztzj.com/res/web/img/download_sign
@@ -1691,6 +1693,7 @@ _yad_jsonp_
 ||520bdy.com/images/888.jpg
 ||520kankan.com/960x80.gif
 ||520rr.com*/baidu/
+||521000.com/co/
 ||52ch.net/data/advimg/
 ||52ch.net/data/attachment/portal/
 ||52che.com/Inc/FooterComm_
@@ -1751,6 +1754,7 @@ _yad_jsonp_
 ||5tps.com/js/bo_al.js
 ||5vdd.com/2345ws.jpg
 ||5vdd.com/ie.gif
+||5vdd.com/zjbbrj.gif
 ||5y9nfpes.52pk.com^
 ||5ydj.com/images/banner/
 ||5ydj.com/js/hometj.js
@@ -2134,6 +2138,8 @@ _yad_jsonp_
 ||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
+||bahamut.com.tw/s01/$domain=m.gamer.com.tw
+||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw^*/2KU/*?v=$~collapse,image,domain=~m.gamer.com.tw
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
@@ -2647,6 +2653,7 @@ _yad_jsonp_
 ||djccc.com/js/b*.js
 ||djccc.com/js/c*.js
 ||djkk.com/ak/
+||djs.baomihua.com^
 ||djwma.com/760*.gif
 ||djwma.com/960*.gif
 ||djwma.com/qq.jpg
@@ -3382,6 +3389,7 @@ _yad_jsonp_
 ||iguaji.com/wp-content/uploads/*/ttzad
 ||iguang.tw/bm/seo_rotation/html/js/
 ||ihref.com/ihref_gg/
+||ii.168img.com^
 ||ijia360.com/data/poster/
 ||ikaka.com/globalad/
 ||ilikecao.com^*.gif
@@ -5422,22 +5430,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ii.168img.com^
-||51xuediannao.com/uploads/rmb/
-||bahamut.com.tw/s01/$domain=m.gamer.com.tw
-||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
-||djs.baomihua.com^
-||521000.com/co/
-||5vdd.com/zjbbrj.gif
-||51credit.com/credit/images/201505/ggchedai.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ifeng.com###baidualading
-51dll.com##A[href^="http://clk.uunt."] ~ A:not([href*="/yanzheng."])
-wpdaxue.com##.advertising
-40407.com##.con_tj
-40407.com##.gg
-40407.com##A[href^="http://www.40407.com/g.php?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5753,6 +5747,7 @@ hao.360.cn###background.festival
 cucn.com,ocucn.com###bad
 china.com.cn###baidu
 chinaiiss.com###baidu_300_250
+ifeng.com###baidualading
 52pk.com###baidutop
 52pk.com###baidutop2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
@@ -6754,6 +6749,7 @@ v17go.com###wp > a
 67.228.203.174,iu91.co,sejie.com,sejie3.us,ukhuaren.co###wp > br
 67.228.203.174,iu91.co,pt80.net,sejie.com,sejie3.us,ukhuaren.co###wp > center
 528500.com###wp > div[align="center"]
+168gamer.com###wp > div[class^="wp a_"]
 chcj.net,yixingjia.com###wp > table[width="960"]
 21edu8.com###wrap[style="margin-top:5px;margin-bottom:5px;height:90px;"]
 taoguba.com.cn###wrap_footer > div[style*="960"]
@@ -6909,7 +6905,6 @@ ijia360.com##.a.fz0.mb15
 tucao.cc,tucao.tv##.a2013d
 chacuo.net##.a96090
 0772fang.com##.a_banner
-168gamer.com###wp > DIV[class^="wp a_"]
 163.com##.a_topad
 120ask.com##.ab_top
 jiyingdm.com##.abcde
@@ -7262,7 +7257,7 @@ baofeng.com##.advertise-mj
 baofeng.com##.advertise960
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 sina.com.cn##.advertisement
-elecfans.com##.advertising
+elecfans.com,wpdaxue.com##.advertising
 4493.com##.advline
 hexun.com,hexun.com.tw##.advp
 cngold.org,qq.com,tongxiang.net##.advs
@@ -7581,6 +7576,7 @@ gaominews.com##.con8-c
 ifeng.com##.conRgg
 aihami.com##.conText > div[style*="width:"]
 360che.com##.con_banner
+40407.com##.con_tj
 qb5.com##.con_top
 66fxw.com##.conent
 firefoxchina.cn##.cont-promote
@@ -7854,7 +7850,7 @@ qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
 sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
-1kkk.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,dhzw.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,jstv.com,kaifu.com,qianyan001.com,qzwb.com,shangdu.com,taodake.com,tianya.cn,zsnews.cn##.gg
+1kkk.com,40407.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,dhzw.com,elecfans.com,ghjie.com,iqilu.com,it168.com,jj59.com,jstv.com,kaifu.com,qianyan001.com,qzwb.com,shangdu.com,taodake.com,tianya.cn,zsnews.cn##.gg
 elecfans.com##.gg-01
 baidu.com##.gg-content
 iqiyi.com##.gg-l
@@ -9172,6 +9168,7 @@ big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/s
 tv.2345.com##a[href^="http://buy.2345.com/go/?"]
 020.com##a[href^="http://c.admaster.com.cn/"]
 zhibo8.cc##a[href^="http://caipiao."]
+51dll.com##a[href^="http://clk.uunt."] ~ a:not([href*="/yanzheng."])
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
@@ -9196,6 +9193,7 @@ loveplay123.blogspot.com##a[href^="http://vbtrax.com/track/"]
 chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
+40407.com##a[href^="http://www.40407.com/g.php?"]
 people.com.cn##a[href^="http://www.516a."]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
