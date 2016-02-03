@@ -292,6 +292,7 @@ _mobilebanner_v1_550x60.jpg
 ###adtop1
 ###adx_cggp
 ###asto_box
+###chat-top-ad
 ###crazy_ad_float
 ###crazy_ad_layer
 ###cs_left_couplet
@@ -387,6 +388,7 @@ _mobilebanner_v1_550x60.jpg
 ##.ad_fixed
 ##.ad_footerbanner
 ##.ad_headerbanner
+##.ad_hf
 ##.ad_midd
 ##.ad_thread
 ##.adsense160
@@ -394,13 +396,18 @@ _mobilebanner_v1_550x60.jpg
 ##.adsoho
 ~winba.me##.baiduad
 ##.banner-ad-section
+##.banner-site
 ##.below_ads
 ##.bm.a_c
 ##.bottomSponsor
 ##.bus_adsbox
 ##.cari-ads
+##.chat-right-ad
 ##.con_ad
 ##.content_ad_300
+##.d_slidebanner
+##.dy_bottom_gg
+##.dy_top_gg
 ##.gg1000
 ##.gg_full
 ##.ggad
@@ -423,11 +430,15 @@ _mobilebanner_v1_550x60.jpg
 ##.kf_qycn_com_cckf_welcomebox
 ##.leftadv
 ##.list_ads
+##.lol-ad
+##.lol_ad
+##.lyzm-prevent
 ##.menutab_ad
 ##.ml_ad1
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
+##.other_ad
 ##.pagead_3
 ##.papapaabp
 ##.scupioadslot
@@ -471,22 +482,11 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.dy_bottom_gg
-##.dy_top_gg
-###chat-top-ad
-##.chat-right-ad
-##.other_ad
-##.lol-ad
-##.lol_ad
-##.lyzm-prevent
-##.d_slidebanner
-##.banner-site
-##.ad_hf
 !----------------------------------Ads-Union----------------------------------!
+.com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||yiqiv.com^$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -497,8 +497,6 @@ _mobilebanner_v1_550x60.jpg
 /code/popjs.
 /cpm/i.ashx?
 /floatingcontent/*$third-party
-||dbncp.com^
-.com/ge/?s=$script,third-party
 /i.php?z=$script,third-party
 /js/cpv_dl.js
 /mobile/mads.js
@@ -733,6 +731,7 @@ ubmcmm.baidustatic.com
 ||d8360.com^$third-party
 ||dashet.com^
 ||datafastguru.info^
+||dbncp.com^
 ||dddddd.net^$third-party
 ||dian500.com^$third-party
 ||dianxin.com^$third-party
@@ -1044,6 +1043,7 @@ ubmcmm.baidustatic.com
 ||yiiwoo.com^$third-party
 ||yiqifa.com^$subdocument
 ||yiqifa.com^*.js$third-party
+||yiqiv.com^$third-party
 ||yiwad.com^$third-party
 ||yk0712.com^
 ||ymcqb.com^
@@ -1520,6 +1520,7 @@ _yad_jsonp_
 ||2008xxx.com:888
 ||201*.073img.com^
 ||201*.myhard.com^
+||20150930.cf^
 ||204.12.228.235^*.png
 ||204.12.228.236^*.png
 ||211600.com/data/attachment/portal/
@@ -1725,6 +1726,7 @@ _yad_jsonp_
 ||543et.com/detail/
 ||54new.com/da/
 ||55.la/anonymous/banner/$domain=lxty66.com
+||55188.com/file/news/201512/3116/5684ed76efc08444672.jpg
 ||55aaee.com/detail/
 ||56.com/js/promo/
 ||56ads.com/js/main.js
@@ -2092,6 +2094,9 @@ _yad_jsonp_
 ||anquan.org/static/user_upload/zorro/*/%E5%93%
 ||anywlan.com/link/*.gif
 ||anywlan.com/link/xcloud.jpg
+||anzhuan.net/wp-content/uploads/*/250x250_1.gif
+||anzhuan.net/wp-content/uploads/2014/10/yangmao
+||anzhuan.net/wp-content/uploads/2015/01/huizhe.jpg
 ||aoye.cc/js/footer.js
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
@@ -2515,6 +2520,7 @@ _yad_jsonp_
 ||cnnb.com.cn/images/14ny_1.gif
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnsat.net/Pictuer/
+||cnsofas.com/static/
 ||cnstock.com/image/201511/26/20151126105158298.jpg
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
@@ -2907,7 +2913,6 @@ _yad_jsonp_
 ||fragment.firefoxchina.cn/html/
 ||free9.net/images/pic/dhc2013.gif
 ||free9.net/myc/myc.js
-||anzhuan.net/wp-content/uploads/2014/10/yangmao
 ||freep.cn/lianjie/qqtongji.js
 ||fsehome.com/images/ad_tan.js
 ||fspcdn.com/main/fis/js/v11/play/pop-ad_
@@ -3470,6 +3475,7 @@ _yad_jsonp_
 ||imgs.cc/images/ad_
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgur.com/iKkoHkn.jpg
+||imgur.com/nhvbLWh.jpg
 ||imgur.com/pBL7joM.gif
 ||imgur.com/rTqveeX.jpg
 ||imgur.com/Za3ll.gif
@@ -4800,7 +4806,9 @@ _yad_jsonp_
 ||tibet.news.cn/zhuye/images/wangqun
 ||tieba.baidu.com/f/urlcheck?
 ||tietuku.com/0bb9bfe57636dc55.jpg
-||tietuku.com^$domain=5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo1.com|hdbiger.org|kisssub.org|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
+||tietuku.com/b975a9f7c494738b.gif
+||tietuku.com/d57c01987e74d8f8.gif
+||tietuku.com^$domain=52jifenbao.net|5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btbook.net|btshark.org|cnmkv.com|fulisuo1.com|hdbiger.org|kisssub.org|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|ruoren.com|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.com^$object-subrequest,domain=skyerblog.com
 ||tietuku.com^*.gif$domain=lightnovel.cn|xdjishu.com
 ||tiexue.net/domain-policy/
@@ -4998,6 +5006,7 @@ _yad_jsonp_
 ||wangyouxs.com/A/$script
 ||wannianli.com.cn/style/ad_
 ||wanwan.sina.com.cn/third_party/
+||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||wbzol.com/show/images/show.htm
 ||wd147.com/templets/mm/js/cs.js
 ||wdlm.cn/img/ad1/
@@ -5100,6 +5109,7 @@ _yad_jsonp_
 ||xdowns.com/ggco.js
 ||xdowns.com/info.js
 ||xdowns.com/js/lefttuijian.js
+||xdyjt.com^
 ||xemh.com/other/*_ads
 ||xghylt.com/api.php?mod=ad&adid=
 ||xghylt.com/newad/
@@ -5165,6 +5175,8 @@ _yad_jsonp_
 ||xkxs.org/js/bd
 ||xkxs.org/js/tl
 ||xkxs.org/js/tongji.js
+||xlfans.com/wp-content/uploads/2016/01/30%E5%A4%A9.jpg
+||xlfans.com/wp-content/uploads/2016/01/s1.gif
 ||xlpu.cc/adv/
 ||xmfish.com/chanel/www/cpm.html
 ||xnnews.com.cn/images/yr_wsm.js
@@ -5231,6 +5243,8 @@ _yad_jsonp_
 ||ychr.com/dlad.js
 ||yczbb.com/ggimg/
 ||ydstatic.com/fanxian/minisite/promotion/
+||yea.im/5hq.gif
+||yea.im/5ht.gif
 ||yeeyi.com/bbs/api.php?mod=js&bid=
 ||yesky.com/monitorjs/imp-
 ||yeyou.com/2013/new/yeyou-float-window.js
@@ -5432,23 +5446,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tietuku.com/b975a9f7c494738b.gif
-||tietuku.com/d57c01987e74d8f8.gif
-||yea.im/5hq.gif
-||yea.im/5ht.gif
-||20150930.cf^
-||xdyjt.com^
-||imgur.com/nhvbLWh.jpg
-||wapzj.com/template/yudi_kanchai/style/icon27.jpg
-||xlfans.com/wp-content/uploads/2016/01/s1.gif
-||xlfans.com/wp-content/uploads/2016/01/30%E5%A4%A9.jpg
-||cnsofas.com/static/
-||tietuku.com^$domain=52jifenbao.net
-||anzhuan.net/wp-content/uploads/*/250x250_1.gif
-||anzhuan.net/wp-content/uploads/2015/01/huizhe.jpg
-||55188.com/file/news/201512/3116/5684ed76efc08444672.jpg
 !------------------------Specific element hiding rules------------------------!
-moe-acg.cc###text-3
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6646,6 +6644,7 @@ pchome.com.tw###test2
 aijava.cn###text-15
 wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
+moe-acg.cc###text-3
 blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
 vjmedia.com.hk###text-33
