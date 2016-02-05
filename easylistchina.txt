@@ -81,12 +81,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .bl.test15.
-/alljs/alldl.js
-/alljs/allfoot.js
-/alljs/allhead.js
-/alljs/alltop.js
-/alljs/allwzwfoot.js
-/alljs/allwzwhead.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -124,6 +118,12 @@ hk.yahoo.com###mntl1
 /adx-exchange.
 /aipaiPlayFull2.js?0.
 /ajds/*
+/alljs/alldl.js
+/alljs/allfoot.js
+/alljs/allhead.js
+/alljs/alltop.js
+/alljs/allwzwfoot.js
+/alljs/allwzwhead.js
 /aoyou372down300_
 /Banner-pcbeta-
 /bbh_ad.
@@ -490,8 +490,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||subo.me^$third-party
-||jsinfo.net^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -854,6 +852,7 @@ ubmcmm.baidustatic.com
 ||johtzj.com^
 ||jointreport-switch.com^$third-party
 ||js-apac-ss.ysm.yahoo.com^$third-party
+||jsinfo.net^$third-party
 ||jsjxhd.com^$third-party
 ||jsmbaidu.com^$third-party
 ||jsyd139.com^$third-party
@@ -964,6 +963,7 @@ ubmcmm.baidustatic.com
 ||sstc360.com^
 ||star8.net^$third-party
 ||stnts.com^$third-party
+||subo.me^$third-party
 ||sunjianhao.com^
 ||superfish.com^$third-party
 ||t3nlink.com^$third-party
@@ -1729,6 +1729,7 @@ _yad_jsonp_
 ||52tian.net/qq/
 ||52waha.com/static/js/function_bbs.js
 ||52wmb.com/2014js/GG_
+||52z.com/feixianggg/
 ||52zy.com/other/js/
 ||5399.com/poster_js/
 ||543et.com/detail/
@@ -4783,6 +4784,7 @@ _yad_jsonp_
 ||tc.cn/g/upload/
 ||tc.cn/news/images/h.jpg
 ||tc.cn/news/images/right.jpg
+||tcjy66.cc^
 ||tcmap.com.cn/js/b_
 ||techweb.com.cn^*aliyun
 ||tf.360.cn^
@@ -5403,6 +5405,7 @@ _yad_jsonp_
 ||zhuishu.com/js/bd
 ||zhuishu.com/js/fy
 ||zhujiangroad.com/js/alltop.js
+||zhujiceping.com/F/
 ||zhulang.com/ad_js/
 ||zhulong.com/poster/get?*_960
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
@@ -5458,16 +5461,12 @@ _yad_jsonp_
 ||zzc.cn/b/
 ||zzidc.com/img/
 ||zzidc.com^*0.gif
+||zzimg.51.la^
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zhujiceping.com/F/
-||tcjy66.cc^
-||52z.com/feixianggg/
-||zzimg.51.la^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zimuzu.tv###ad3
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5623,7 +5622,7 @@ downxia.com###ad05
 90oo.com,etest8.com,eworldship.com,hntobacco.com,im286.com,price.com.hk,ylnet.com.cn,zbgl.net,zimuzu.tv###ad1
 gamebase.com.tw###ad160_top
 eworldship.com,junshiqu.com,rshhy.com,wanshuge.net,wanshulou.com,xinhuanet.com,yinsha.com,zimuzu.tv###ad2
-mao-123.com,mengmao.org,rshhy.com,xinhuanet.com,yinsha.com###ad3
+mao-123.com,mengmao.org,rshhy.com,xinhuanet.com,yinsha.com,zimuzu.tv###ad3
 xinhuanet.com###ad4
 price.com.hk###ad5
 yuqingcn.cn###ad715x90
@@ -9891,7 +9890,7 @@ dpp.org.tw#@##ad_small
 cw.com.tw#@##adblock
 byhh.org#@##admain
 atgfw.org#@##ads-wrapper
-wholehk.com#@##adsense
+wholehk.com,zhujiceping.com#@##adsense
 33xs.com,39xs.net,aixiaoshuo.com.cn,checheng123.com,dushiwenxue.com,haodu5.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
@@ -9924,7 +9923,7 @@ apk.tw#@#.ad300
 szonline.net#@#.ad310
 2ujj.com#@#.ad350
 012.tw#@#.ad728
-520tingshu.com,580k.com#@#.ad960
+520tingshu.com,580k.cn,580k.com#@#.ad960
 xuduba.com#@#.ad980
 czbj.js.cn#@#.adArea
 xa.house365.com#@#.adBox
@@ -9994,11 +9993,8 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-zhujiceping.com#@##adsense
-580k.cn#@#.ad960
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||56img.com/modjs/app/page/www/play-pgc/*/so-ads.js?
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10123,6 +10119,7 @@ zhujiceping.com#@##adsense
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
 @@||52zy.com/gg/
+@@||56img.com/modjs/app/page/www/play-pgc/*/so-ads.js?
 @@||58.com/adJump?adType=
 @@||58.com/ds/tgbrand/$domain=brandsales.58.com
 @@||58cdn.com.cn/tuiguang/center/
