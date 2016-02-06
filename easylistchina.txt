@@ -240,6 +240,7 @@ hk.yahoo.com###mntl1
 /u/_sponsor/*
 /uedbet/pause.
 /W3Cfuns_Adv/*
+/wap_advpic/*
 /wp-content/themes/iMovies/js/tc_
 /wy96ad/*
 /xianxiashijie_ad.png
@@ -274,7 +275,6 @@ _mobilebanner_v1_550x60.jpg
 |http://acs.
 |http://ad.
 |http://gg.$third-party,domain=~guagua.cn
-/wap_advpic/*
 !------------------------General element hiding rules-------------------------!
 ###MsnDialog.ad
 ###MyMoveAd
@@ -447,6 +447,7 @@ _mobilebanner_v1_550x60.jpg
 ##.other_ad
 ##.pagead_3
 ##.papapaabp
+##.player-bottom-gg
 ##.scupioadslot
 ##.sxAdBox
 ##.theme_custom_slidebox-ad-below
@@ -488,12 +489,8 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.player-bottom-gg
 !----------------------------------Ads-Union----------------------------------!
-||lu.sogou.com^
-||adglare.org^$third-party
 .com/ge/?s=$script,third-party
-||to8to.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -662,6 +659,7 @@ ubmcmm.baidustatic.com
 ||adcenter.conn.tw^$third-party
 ||adchina.cc^$third-party
 ||adconfer.com^$third-party
+||adglare.org^$third-party
 ||adhouyi.com^$third-party
 ||adingo.jp^$third-party
 ||adkongjian.com^$third-party
@@ -889,6 +887,7 @@ ubmcmm.baidustatic.com
 ||linkvans.com^$third-party
 ||lishuanghao.com^
 ||lnr1.com^$third-party
+||lu.sogou.com^
 ||lv711.net^$third-party
 ||lx167.com^$third-party
 ||lzmm8.com^
@@ -986,6 +985,7 @@ ubmcmm.baidustatic.com
 ||tebaidu.cn^$third-party
 ||tg.1155t.cn^
 ||tk001.com^$third-party
+||to8to.com^$third-party
 ||toourbb.com^
 ||top888.com^$third-party
 ||toufangke.com^$third-party
@@ -1766,6 +1766,7 @@ _yad_jsonp_
 ||5imx.com/image/image/
 ||5ips.net/love/
 ||5iyq.com/skin/default/js/topad
+||5iyq.com/zhigt/
 ||5moe.com/player/ad.xml
 ||5vdd.com/2345ws.jpg
 ||5vdd.com/ie.gif
@@ -1773,6 +1774,7 @@ _yad_jsonp_
 ||5y9nfpes.52pk.com^
 ||5ydj.com/images/banner/
 ||5ydj.com/js/hometj.js
+||5ydj.com/sms/play_300x68.htm
 ||6.cn/coop/pub/getMiniPage.php?src=
 ||6.cn/coop/pub/getRand.php?
 ||6.cn/cvbnm/62/5c/26/76db16b5ca7d2253c88c3cc9795f4a40.jpg
@@ -5135,6 +5137,7 @@ _yad_jsonp_
 ||xilinjie.com/partner/
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
+||xilu.com/script/tag/2.0/func.js
 ||xinbiqi.com/js/pc_ads.js
 ||xinhuanet.com/*/ad20
 ||xinhuanet.com/2013images/jfzj.swf
@@ -5457,12 +5460,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||5ydj.com/sms/play_300x68.htm
-||5iyq.com/zhigt/
-||xilu.com/script/tag/2.0/func.js
 !------------------------Specific element hiding rules------------------------!
-5iyq.com##.vip_xj
-7399.com##.logo_r_hd
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6389,8 +6387,8 @@ download.enet.com.cn###middle_new > .font2
 emu999.net,webjx.com###middleimg
 xici.net###middoc
 neihanshe.cn###mobile_client
+haosou.com,so.com,youdao.com###mohe-etao_shangye
 haosou.com,so.com###mohe-medicine_sy > .cont
-haosou.com,youdao.com,so.com###mohe-etao_shangye
 nick18.com,niko18.com###mov > .content
 dnvod.eu,duonao.tv,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xt700.com,xyzc.cn,zdface.com###msg_win
 wz.zj.cn###msnLeft
@@ -8276,6 +8274,7 @@ lnzq5.com##.log_ada
 uc123.com##.logo > a
 hcwang.cn##.logo3
 fashionguide.com.tw##.logo_ad
+7399.com##.logo_r_hd
 wn789.com##.logtad
 sd888.org##.loshow
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.lot_wrap
@@ -8986,6 +8985,7 @@ jianli-sky.com##.viewbd
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
 kanxi123.com##.viewt_77
 2345.com##.vipTopBanner
+5iyq.com##.vip_xj
 cztv.com##.vivo
 hdpfans.com##.vk_nv_sub
 hupu.com##.voice-ad300-250
