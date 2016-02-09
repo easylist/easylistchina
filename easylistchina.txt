@@ -494,7 +494,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||liangyi360.com^$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -884,6 +883,7 @@ ubmcmm.baidustatic.com
 ||le123.cn^$third-party
 ||le4le.com^
 ||lhzly.com^$third-party
+||liangyi360.com^$third-party
 ||lianmeng.360.cn^$domain=~lianmeng.360.cn
 ||linkvans.com^$third-party
 ||lishuanghao.com^
@@ -1871,8 +1871,9 @@ _yad_jsonp_
 ||86696.com/images/indexad.jpg
 ||8683ys.com/template/380x60.gif
 ||8684.cn/id/ad_
-||8684.com/local/bdadv.
 ||8684.com/com/sys_ad_
+||8684.com/hybk/static/images/images_70.jpg
+||8684.com/local/bdadv.
 ||86file.megajoy.com^
 ||87994.com/images/rili.gif
 ||880fg.com/css/*.js
@@ -1933,10 +1934,10 @@ _yad_jsonp_
 ||99btgc01.info/uploads/*.gif
 ||99danji.com/otherhtml/
 ||99mst.com/upfiles/adv/main02.jpg
+||99tianji.com/hack/
 ||99tianji.com/hack/kaifubiao.js
 ||99ting.cn/789uc/gg.js
 ||99ting.cn/image/*.gif
-||wpfl8.com/wp-content/themes/yunkl/js/ifphone.js
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
 ||9ht.com/skin2012/js/tlAd.js
@@ -1945,6 +1946,7 @@ _yad_jsonp_
 ||9ist.com/others/ad/
 ||9kjj.com/images/*.gif
 ||9sky.com/_gg/
+||9tour.cn/x2/images/czmf.jpg
 ||9upk.com/images/95050.gif
 ||9upk.com/js/$subdocument
 ||9w1an.com/special/
@@ -4873,6 +4875,7 @@ _yad_jsonp_
 ||tw.buy.yahoo.com/?z=
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||twavtv.com/js/jquery.colorbox
+||twcomic.com/aitw/
 ||twfuwu.info^*.gif
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
@@ -5061,6 +5064,7 @@ _yad_jsonp_
 ||wowody.net/public/wowo/2345.html
 ||woxiu.com/xapi/get_pre_config.php
 ||woxiu.com/xapi/offsite_swf_more.php?
+||wpfl8.com/wp-content/themes/yunkl/js/ifphone.js
 ||wpjam.qiniudn.com/wpjam/banner/*g|
 ||wszhibo.com/Uploadfiles/*.gif
 ||wszhibo.com/xml/tvAdtext.ashx
@@ -5266,6 +5270,7 @@ _yad_jsonp_
 ||yiyipan.com/images/12.gif
 ||yizhai.net/myjs/f*.js
 ||yjhas.net^$image
+||ykimg.com/0510000056A58EA967BC3D24C10E0B4B
 ||yktj.yzz.cn^
 ||ylnet.com.cn/201*/rh/
 ||ylnet.com.cn/dl*.js
@@ -5443,14 +5448,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||8684.com/hybk/static/images/images_70.jpg
-||9tour.cn/x2/images/czmf.jpg
-||ykimg.com/0510000056A58EA967BC3D24C10E0B4B
-||twcomic.com/aitw/
-||99tianji.com/hack/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-9724.com###left_ad_large
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6308,6 +6307,7 @@ hexun.com###leftFloat
 duba.com###leftHot
 ccb.com.cn###leftSideAd
 060s.com###left_Ad_300
+9724.com###left_ad_large
 hao.360.cn###left_float
 sina.com.cn###left_focus_ad
 taoyoudu.com###left_layer
@@ -7514,8 +7514,6 @@ ithome.com##.bx-recom2
 hunantv.com##.c-95060-top
 ifeng.com##.c-ad
 cpd.com.cn##.c2_r_ad
-8684.cn,8684.com##DIV[id*="adid"]
-8684.cn##DIV[class^="adv"]
 myexception.cn##.c_a_3
 aohua.com.au##.c_ad
 shangxueba.com##.c_user + .h20 + p
@@ -9316,7 +9314,7 @@ weather.com.cn##div[class^="adpos"]
 shanhe.cc##div[class^="ads"]
 xcar.com.cn##div[class^="adset"]
 hybbs.com##div[class^="adtop"]
-kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 ifeng.com##div[class^="adv0"]
 ifeng.com##div[class^="adv1"]
 mkzhan.com##div[class^="advertising_"]
@@ -9384,6 +9382,7 @@ baby-kingdom.com##div[id*="Banner Zone"] + script + object
 chinaluxus.com##div[id*="ExtraAD"]
 tianya.cn##div[id*="_AD_"]
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
+8684.cn,8684.com##div[id*="adid"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
@@ -9996,7 +9995,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com
-@@/ads/*$domain=189.cn
+@@/ads/*$domain=189.cn|95516.com
 @@/adsame.$domain=liba.com|libaclub.com
 @@/adsbox.$domain=long7.qq.com
 @@/adsbygoogle.$domain=serve.netsh.org
@@ -10044,7 +10043,6 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/store_ad/*$domain=pcstore.com.tw
 @@/ttkdweb/page/js/ad.js
 @@/upload/ads/*.jpg$domain=dnvod.eu|duonao.tv
-@@/ads/*$domain=95516.com
 @@/webThunderDetect.$domain=ypan.cc
 @@=300&$subdocument,domain=flv.tv
 @@=mywebloadt1&$domain=myweb.hinet.net
