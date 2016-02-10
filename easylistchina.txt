@@ -5435,6 +5435,7 @@ _yad_jsonp_
 ||banma.com/js/adi.js
 ||banma.com/get_ad/
 ||bccnsoft.com/aaa/
+||tieba.baidu.com/tb/zt/adsense/$domain=tieba.baidu.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 bilibilijj.com###ManMi
@@ -9946,6 +9947,7 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@|http://tieba.baidu.com/|$genericblock
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
