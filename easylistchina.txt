@@ -337,6 +337,8 @@ _mobilebanner_v1_550x60.jpg
 ###my-adsFPR
 ###navcontainer + .moneyarea
 ###olfullad
+###overture_ads_bottom_td
+###overture_ads_top_td
 ###popup.t
 ###ptcmsad1
 ###qj960a
@@ -489,14 +491,11 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###overture_ads_top_td
-###overture_ads_bottom_td
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||stervapoimenialena.info^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -968,6 +967,7 @@ ubmcmm.baidustatic.com
 ||sphwq.net^$third-party
 ||sstc360.com^
 ||star8.net^$third-party
+||stervapoimenialena.info^
 ||stnts.com^$third-party
 ||subo.me^$third-party
 ||sunjianhao.com^
@@ -1360,6 +1360,7 @@ _yad_jsonp_
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||07908.com/images/
 ||0dian8.org/data/js/
+||100.admin5.com^
 ||10000sb.com/4gbct.js
 ||100ksw.com/include/ksbdfd.js
 ||100ksw.com/ksbd/ksbdparad.js
@@ -2178,6 +2179,8 @@ _yad_jsonp_
 ||ballive.com/addm/
 ||bamuyu.com/skin/js/bgad.js
 ||bang5mai.com/upload/plugin/assets/main/js/b5m.adv.js
+||banma.com/get_ad/
+||banma.com/js/adi.js
 ||baofeng.com/src/ad.js
 ||baoliny.com/js/jing.js
 ||bbs.a9vg.com/showit/img_show.php
@@ -2190,6 +2193,7 @@ _yad_jsonp_
 ||bbs.yhcgo.com/attachment/Mon_1112/74_1_5c13cbc5db6ba7c.jpg
 ||bcc.com.tw/imgs/adv/
 ||bccn.net/aaa/
+||bccnsoft.com/aaa/
 ||bcok.com^$subdocument
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/newmap/static/common/images/nav-ad_
@@ -5430,14 +5434,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||100.admin5.com^
-||banma.com/js/adi.js
-||banma.com/get_ad/
-||bccnsoft.com/aaa/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bilibilijj.com###ManMi
-lolshipin.com##.box2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5522,6 +5520,7 @@ tnpm.org###LeftDiv
 tnpm.org###LeftDivweixin
 eastmoney.com###ListPage_r_Ad
 lysq.com###MainPromotionBanner
+bilibilijj.com###ManMi
 ks321.com###N_a3
 ks321.com###N_a5
 ks321.com###N_a6
@@ -7475,6 +7474,7 @@ juetuzhi.net##.box-right2
 csdn.net##.box.hot
 9ku.com##.box.mb10[style^="width:960px;"]
 0772fang.com##.box0
+lolshipin.com##.box2
 mobanwang.com##.box960x90
 pengfu.com##.boxBan
 lolshipin.com##.box[style="display: block;"]
@@ -9945,7 +9945,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@|http://tieba.baidu.com/|$genericblock
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10036,6 +10035,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@|http://*/ad$domain=meiziweibo.com
 @@|http://*/AD/$domain=33kk.cc|ff7.cc
 @@|http://*/gg/*.css
+@@|http://tieba.baidu.com/|$genericblock
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
@@ -10145,8 +10145,8 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdstatic.com/??*,
 @@||beanfun.com/ADClient/
-@@||biquge5.com/jquery/biquge.js
 @@||bingfeng.tw/source/plugin/unadblock/adjs_
+@@||biquge5.com/jquery/biquge.js
 @@||biz.gexing.com/bottom_
 @@||blemall.com^$elemhide
 @@||blimage.com/picserver/ggpic/
