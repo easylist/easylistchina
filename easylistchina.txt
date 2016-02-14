@@ -2109,6 +2109,7 @@ _yad_jsonp_
 ||asp300.com/2012adjs/
 ||asp300.com/2012js/
 ||aspjzy.com/jsweb/js/
+||aspku.com/z/
 ||asxxg.cn/Public/config/Couplet/
 ||atm.youku.com^
 ||att.ydss.cn/attachments/portal/
@@ -2483,6 +2484,7 @@ _yad_jsonp_
 ||cnbeta.com/assets/js/pages/google.js
 ||cnbeta.com/jobs/list_?
 ||cnbetacdn.com/320-50.
+||cnbetacdn.com/320x50.
 ||cnbetacdn.com/banner
 ||cnchu.com/aps/
 ||cncrk.com/505/
@@ -2552,6 +2554,8 @@ _yad_jsonp_
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
 ||csdn.net/sda/Topic
+||cssqt.com/a/images/indexsd.gif
+||cssqt.com/a/images/right
 ||ctpan.com/cp
 ||ctpan.com/statics/js/adt
 ||ctpan.com/vip.js
@@ -2662,6 +2666,7 @@ _yad_jsonp_
 ||dm530.com/pic/fgr/*.js
 ||dmfans.net/template/haokandemanhhua/images/g_js/
 ||dmhua.net/js/bd_
+||dmhy.dandanplay.com^*?$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-cnodestatic.qbox.me/public/images/*-banner-
 ||dn-ttdaili.qbox.me/bdqb/
@@ -4461,6 +4466,7 @@ _yad_jsonp_
 ||sd.xinhuanet.com/2014xb/images/shanhang.gif
 ||sd888.org/flash/
 ||sd888.org/house/flash/
+||sdgundam.cn/js/1222.js
 ||sdgundam.cn/js/duilian3.js
 ||sdgundam.cn/upload/2015-07/dcfea62708a21351.jpg
 ||sdktu.com/js/alpha.js
@@ -5443,17 +5449,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sdgundam.cn/js/1222.js
-||cssqt.com/a/images/indexsd.gif
-||cssqt.com/a/images/right
-||dmhy.dandanplay.com^*?$image
-||aspku.com/z/
-||cnbetacdn.com/320x50.
 !------------------------Specific element hiding rules------------------------!
-m.cnbeta.com##.cbimage-fixed
 gpcxw.com###AA2
-cnr.cn###nfsq
-tieba.baidu.com##.frs_pb_leadapp_pop_show
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6404,6 +6401,7 @@ yaolan.com###newfix-dsp
 chinaqking.com###newsAD
 news.shangdu.com###newsBanner
 taohua.me###newsImg
+cnr.cn###nfsq
 yawen8.com###notify + table[width="100%"]
 live.win007.com###notify > a[target="_blank"]
 nownews.com###nownews_pickup
@@ -7530,6 +7528,7 @@ kuaipan.cn##.card
 16888.com##.cardataclass
 sd173.com##.carousel
 baidu.com##.cbg-Ads
+m.cnbeta.com##.cbimage-fixed
 meizhou.com##.cc_slide_big
 meizhou.com##.cc_slide_small
 meizhou.com##.cc_z1
@@ -7816,6 +7815,7 @@ paipai.fm##.fr[href="http://game.zixia.com"]
 imanhua.com##.fr[style^="width: 250px;"]
 down.766.com##.fro.note
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.frs_act_repost_wrapper_outter
+tieba.baidu.com##.frs_pb_leadapp_pop_show
 mei521.com##.fs_ad
 mei521.com##.fs_ad1
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.fsbanner
@@ -9850,7 +9850,6 @@ wanshuge.net##ul[style="width: 880px;margin:0 auto;text-align:center;margin-top:
 firefoxchina.cn##ul[track-key="adv_links"]
 !---------------------------------CSS Whitelist-------------------------------!
 920url.com#@##AdDiv
-baishuku.com#@##adtop
 dushiwenxue.com#@##AdTop
 the-sun.on.cc#@##ContentAd1
 greedio.com#@##adBox
@@ -9870,7 +9869,7 @@ pupuapp.com#@##ad_img
 dpp.org.tw#@##ad_small
 cw.com.tw#@##adblock
 wholehk.com,zhujiceping.com#@##adsense
-33xs.com,39xs.net,aixiaoshuo.com.cn,checheng123.com,dushiwenxue.com,haodu5.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
+33xs.com,39xs.net,aixiaoshuo.com.cn,baishuku.com,checheng123.com,dushiwenxue.com,haodu5.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
@@ -9972,7 +9971,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||dandanplay.com/common/generate-captcha?
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10214,6 +10212,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ctsywy.com^$script,domain=vcd.tv
 @@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
+@@||dandanplay.com/common/generate-captcha?
 @@||daoju.qq.com/time/*/js/ad/
 @@||dilidili.com/js/week.js
 @@||disney.com.tw/tv/global/swf/banner728x90.swf
