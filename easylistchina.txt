@@ -1774,6 +1774,7 @@ _yad_jsonp_
 ||5dmail.net/image/ad_
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/js/
+||5i5j.com/themes/new2015/common/images/5jd.png
 ||5icool.org/uploadfile/poster/1080x60.
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
@@ -2143,6 +2144,7 @@ _yad_jsonp_
 ||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw^*/2KU/*?v=$~collapse,image,domain=~m.gamer.com.tw
 ||baidu.com/api/proxyapi?tag=adv&
+||baidu.com/api/wikiad/
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
 ||baidu.com/cms/rc/adSideConfig.json?
 ||baidu.com/ecom$image,script
@@ -2269,6 +2271,7 @@ _yad_jsonp_
 ||biz37.net^*.swf?uid=
 ||bjhjyd.gov.cn/templates/default/www/js/float.js
 ||bjmama.net/a/spc_
+||bjmama.net/s/
 ||bjmxw.net/bd/
 ||bjxxw.com/themes/portal/local/special_*.swf
 ||bkill.com/css/abc/
@@ -2727,7 +2730,7 @@ _yad_jsonp_
 ||drupalchina.cn/sites/default/files/lagou-
 ||drupalchina.cn/sites/default/files/osforce-
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
-||duapp.com^$domain=ccav1.com
+||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
 ||duba.com/static/v3/images/*.swf
 ||duonao.tv//upload/$object-subrequest
 ||duonao.tv/upload/image/*.gif
@@ -5447,14 +5450,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||5i5j.com/themes/new2015/common/images/5jd.png
-||baidu.com/api/wikiad/
-||duapp.com^$domain=bjmama.com|gzmama.com
-||bjmama.net/s/
 !------------------------Specific element hiding rules------------------------!
-gzmama.com###mdvtips
 gpcxw.com###AA2
-backchina.com##A[href^="http://www.21usdeal."]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5861,7 +5858,6 @@ ms211.com###btf
 v.hao123.com###btn-dl-bro
 lrshare.com###bulletin_div
 ck101.com###canvas-section
-wapbaike.baidu.com###chain + DIV[id]
 longzhu.com,tga.plu.cn###carousel
 mao-123.com,mengmao.org###cat3
 bbs-mychat.com###cate_top > tr > .f_one
@@ -5870,6 +5866,7 @@ dapenti.com###center > div[align="center"][target="_blank"]
 jbtalks.cc###center-popup-bg
 jbtalks.cc###center-popup-show
 huarenjie.com###cftoutiao
+wapbaike.baidu.com###chain + div[id]
 hao.rising.cn###change
 hxnews.com###change_1
 hxnews.com###change_1 + .rowa
@@ -6365,6 +6362,7 @@ wenxuecity.com###marquee
 ezvivi.com###marsk
 ezvivi.com###marsk2
 yaolan.com###maryAd
+gzmama.com###mdvtips
 yzz.cn###media_float_right
 qtfy30.cn###menu + a
 fuliba.net,fulibba.com###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
@@ -9199,6 +9197,7 @@ loveplay123.blogspot.com##a[href^="http://vbtrax.com/track/"]
 chinaz.com##a[href^="http://ww.chinaz.com/goad.php?"]
 qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
+backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
 people.com.cn##a[href^="http://www.516a."]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
