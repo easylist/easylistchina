@@ -494,15 +494,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||dx1200.com^
-||xjidian.com^
-||cnsjx.net^
-|http://*.me/s.php?id=$script,third-party
-||adreal.cn^
-||zgc66.com^
-||1kmb.cn^
-||57union.com^
-||ktunions.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -537,6 +528,7 @@ ubmcmm.baidustatic.com
 |http://*.cn/s.php?id=$script,third-party
 |http://*.com/s.php?id=$script,third-party
 |http://*.info/s.php?id=$script,third-party
+|http://*.me/s.php?id=$script,third-party
 |http://*.tw/s.php?id=$script,third-party
 |http://*//s.php?id=$script,third-party
 |http://*:*/s.php?id=$script,third-party
@@ -568,6 +560,7 @@ ubmcmm.baidustatic.com
 ||139site.com^$third-party
 ||1503.net/code/
 ||182.92.81.104^
+||1kmb.cn^
 ||1l1.cc^
 ||1lo0.net^$third-party
 ||1qwe3r.com^$third-party
@@ -617,6 +610,7 @@ ubmcmm.baidustatic.com
 ||52kmk.com^
 ||5399.com^$third-party
 ||565882.com^$third-party
+||57union.com^
 ||58.215.179.159^
 ||5mnh.com^$third-party
 ||61.152.223.15^
@@ -681,6 +675,7 @@ ubmcmm.baidustatic.com
 ||admin6.com^$third-party
 ||adpro.cn^$third-party
 ||adpush.cn^$third-party
+||adreal.cn^
 ||ads.uc.cn^
 ||adsage.com^$third-party
 ||adsbro.com^$third-party
@@ -727,6 +722,7 @@ ubmcmm.baidustatic.com
 ||chinesean.com^$third-party
 ||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
+||cnsjx.net^
 ||cnxad.com^$third-party
 ||cnxad.net^
 ||cnzz.com.so^
@@ -769,6 +765,7 @@ ubmcmm.baidustatic.com
 ||dushimj.com^$third-party
 ||dvr8.com^
 ||dw998.com^
+||dx1200.com^
 ||dxpmedia.com^$third-party
 ||dxssiyi.com^
 ||dzsstye.com^$third-party
@@ -889,6 +886,7 @@ ubmcmm.baidustatic.com
 ||kingwam.com^
 ||kld666.com^
 ||kmadou.com^
+||ktunions.com^
 ||ku63.com^$third-party
 ||ku9377.com^
 ||kuaizitech.com^$third-party
@@ -1058,6 +1056,7 @@ ubmcmm.baidustatic.com
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
 ||xhmrv.com^
+||xjidian.com^
 ||xp3366.com^$third-party
 ||xq199.com^
 ||xsu.cc^$third-party
@@ -1095,6 +1094,7 @@ ubmcmm.baidustatic.com
 ||zampdsp.com^$third-party
 ||zd6789.com^$third-party
 ||ze5.com^$third-party
+||zgc66.com^
 ||zgksb.com^
 ||zgunion.cn^
 ||zgyiyi.com^$third-party
@@ -2878,6 +2878,7 @@ _yad_jsonp_
 ||feihu.la/Runtime/js/vod
 ||feng.com/aodoo3/view.php?what=zone:13&
 ||feng.com/aodoo3/view.php?what=zone:16&
+||feng.com/view.php?what=zone:166&
 ||fg.cc/logo/xierguanggao.
 ||fharr.com/assets/plugins/BlockAdBlock/
 ||fhm.com.tw/fhm_upload/full_ad_
@@ -3919,6 +3920,8 @@ _yad_jsonp_
 ||mall.xinkuaituan.com/zhuanti/
 ||manads.static.olcdn.com^
 ||manage.wdfans.cn^
+||manhuatai.com/js/ds.js
+||manhuatai.com/static/showgg.js
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||market.178.com^
 ||market.21cn.com^
@@ -5466,12 +5469,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||manhuatai.com/js/ds.js
-||manhuatai.com/static/showgg.js
-||feng.com/view.php?what=zone:166&
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-feng.com##.ad_654
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7122,6 +7121,7 @@ eol.cn##.ad_490
 feng.com##.ad_500
 ttys5.com##.ad_580
 nnnews.net,yntv.cn##.ad_6
+feng.com##.ad_654
 qq.com##.ad_670_90
 sina.com.cn##.ad_680x90
 sina.com.cn##.ad_684x90
@@ -10468,8 +10468,8 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
-tingqq.com#@#.share_list
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
+tingqq.com#@#.share_list
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
