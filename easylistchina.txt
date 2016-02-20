@@ -79,7 +79,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/cola3/newdown/join.png
 .bl.test15.
 .cc/js/ads/
 .cn/ads/
@@ -139,6 +138,7 @@ hk.yahoo.com###mntl1
 /cdn-cgi/pe/bag2?r[]=*p.tanx.com
 /cdn-cgi/pe/bag2?r[]=*pagead2.
 /clicktotal/ClickTotal.js
+/cola3/newdown/join.png
 /comiis_19lou/ads/*
 /comiis_kmsjx3hlx/ads/*
 /common/cf/*$image,object
@@ -496,7 +496,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||s8dj.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -962,6 +961,7 @@ ubmcmm.baidustatic.com
 ||ruxianke.com^
 ||rwjfs.com^
 ||s17cnzz.com^$third-party
+||s8dj.com^$third-party
 ||sales-frontier.com^$third-party
 ||sexy-more.com^$third-party
 ||sgbfjs.info^
@@ -1314,7 +1314,7 @@ _yad_jsonp_
 |http:$image,third-party,domain=99files.net
 |http:$script,domain=189so.cn
 |http:$script,third-party,domain=ccav1.com|ypan.cc
-|http:$subdocument,domain=howbbs.com|jtwybgxiumsx.net|pc6.com|tytl.tk
+|http:$subdocument,domain=glcdynpcws.net|howbbs.com|jtwybgxiumsx.net|pc6.com|tytl.tk
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
@@ -3931,6 +3931,7 @@ _yad_jsonp_
 ||media.*.gif$domain=6668.se
 ||media.cheshi-img.com^
 ||medsci.cn/aimgs/$script
+||medsci.cn/sci/images/bm3.jpg
 ||megalife.com.hk^$domain=hkgolden.com
 ||meilele.com/js/recad.
 ||meiliren.net/tuijs/
@@ -5459,12 +5460,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-|http:$subdocument,domain=glcdynpcws.net
-||medsci.cn/sci/images/bm3.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jsahz.com##.banner
-gamersky.com##DIV[style*="width:970px;height:90px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7381,7 +7378,7 @@ msn.people.com.cn##.banNSch
 phpfans.net##.banad
 163.com##.bananer1
 100shuai.com##.bannar_gg
-3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,jxgdw.com,kdnet.net,kumi.cn,longbl.com,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
+3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,acousticguitar.com.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,jsahz.com,jxgdw.com,kdnet.net,kumi.cn,longbl.com,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 iwan.baidu.com##.banner-container
@@ -9521,6 +9518,7 @@ dmzj.com##div[style*="width:9"][style*="height:60px;"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 9ku.com##div[style*="width:960px; margin:12px"]
 7574.com##div[style*="width:960px;height:90px;"]
+gamersky.com##div[style*="width:970px;height:90px;"]
 chinanews.com##div[style=" margin-right:10px; float:left; width:300px; height:300px; "]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 kafan.cn##div[style="FLOAT: left;width: 356px;HEIGHT: 290px;"]
