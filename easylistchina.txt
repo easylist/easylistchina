@@ -495,7 +495,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||scupio.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -963,6 +962,7 @@ ubmcmm.baidustatic.com
 ||s17cnzz.com^$third-party
 ||s8dj.com^$third-party
 ||sales-frontier.com^$third-party
+||scupio.com^$third-party
 ||sexy-more.com^$third-party
 ||sgbfjs.info^
 ||sharedaddomain.com^
@@ -1778,6 +1778,7 @@ _yad_jsonp_
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
 ||592siwa.com/tools/
+||592siwa.com/toolsda/
 ||5avlib.com/js/bnr_
 ||5dmail.net/image/$object
 ||5dmail.net/image/ad_
@@ -2487,6 +2488,7 @@ _yad_jsonp_
 ||cnbetacdn.com/banner
 ||cnchu.com/aps/
 ||cncrk.com/505/
+||cndesign.com/Content/images/new_taobao.jpg
 ||cndesign.com/Content/img/*x90_
 ||cndesign.com/Content/img/175x60_
 ||cndesign.com/Content/img/356x80_
@@ -2524,6 +2526,7 @@ _yad_jsonp_
 ||codepub.com/file/code/20141225/142856140.jpg
 ||com.webmasterhome.cn/a1-
 ||content.xilu.com^$object
+||coolaler.com.tw/index_ads/
 ||coolaler.com.tw^*_300x100.
 ||coolaler.com.tw^*_340x80.
 ||cooltu.com/mp/
@@ -2907,6 +2910,7 @@ _yad_jsonp_
 ||ftchinese.com/m/marketing/ad.html
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
 ||fuliba.com/wp-content/uploads/2015/06/lufax300x300.jpg
+||fulibar.net/img/
 ||fulidang.com/ads/
 ||fulitie.org/wp-content/themes/D8_4.0/js/guanbi-no.js
 ||fullyu.com/js-lib/jquery.modal.
@@ -5454,18 +5458,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||592siwa.com/toolsda/
-||fulibar.net/img/
-||coolaler.com.tw/index_ads/
-||cndesign.com/Content/images/new_taobao.jpg
 !------------------------Specific element hiding rules------------------------!
-fulibar.net##.banner-contenttop
-xiagaoqing.com##.full-width
-1yiren.com##.ad_right_1
-1yiren.com##.ad_right_2
-zhumengwl.com##.git_banner
-zhumengwl.com##.git_rec
-fulibar.net##.d_banner
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7175,6 +7168,8 @@ ubetween.com##.ad_pt
 sogou.com##.ad_result
 cngba.com##.ad_ri
 bitauto.com,hc360.com,zhibo8.cc##.ad_right
+1yiren.com##.ad_right_1
+1yiren.com##.ad_right_2
 hushinm.com##.ad_ritht_1
 hushinm.com##.ad_ritht_3
 vhiphop.com##.ad_slidebg
@@ -7388,6 +7383,7 @@ phpfans.net##.banad
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 iwan.baidu.com##.banner-container
+fulibar.net##.banner-contenttop
 baidu.com##.banner-cover
 91.com##.banner-gg
 toutiao.com##.banner-index-bottom
@@ -7660,7 +7656,7 @@ tigtag.com##.custom-box02
 iplaysoft.com##.d250
 ipc.me,iplaysoft.com##.d300
 iplaysoft.com##.d336
-51jifenbao.net,daqianduan.com,downza.cn,fulidang.com,ihref.com,tweck.cc##.d_banner
+51jifenbao.net,daqianduan.com,downza.cn,fulibar.net,fulidang.com,ihref.com,tweck.cc##.d_banner
 wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
 qingdaonews.com##.da30050
@@ -7843,6 +7839,7 @@ mei521.com##.fs_ad1
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.fsbanner
 ytbbs.com,ythouse.com##.ftop_ad
 duowan.com##.full-banner
+xiagaoqing.com##.full-width
 gamme.com.tw##.fullad_ad
 rosmm.com##.fwinmask
 jieshao.org##.fx620
@@ -7954,6 +7951,8 @@ rrting.net##.ggw960h60
 iqiyi.com##.ggwBox
 vipcn.com##.ggzs_bottom
 douyu.com,douyutv.com,wasu.cn##.giftbox
+zhumengwl.com##.git_banner
+zhumengwl.com##.git_rec
 anquan.org##.gj_download
 88448.com##.gjad
 gameapps.hk##.gkTabsGK5
