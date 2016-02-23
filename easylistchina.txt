@@ -3422,7 +3422,6 @@ _yad_jsonp_
 ||image.sportscn.com/other/live/
 ||image.wenweipo.com/*/ad_
 ||images.china.cn^*first/$subdocument
-||images.chinaz.com^
 ||images.dayoo.com/dywimg/
 ||images.gxsky.com^
 ||images.jurong.cn/bbs/
@@ -3449,7 +3448,6 @@ _yad_jsonp_
 ||img.9duw.com^
 ||img.china.alibaba.com/img/ibank/$domain=bbs.fobshanghai.com
 ||img.cngba.com/da/
-||img.cqsq.com/s/temp/
 ||img.eol.cn/images/ed/$~image
 ||img.hexun.com*/wszj/js.js
 ||img.ifeng.com/tres/html/
@@ -5472,8 +5470,10 @@ _yad_jsonp_
 |http://t.cn/$domain=kaoyan1v1.com
 ||kaoyan1v1.com/IAA/
 ||stats.chinaz.com/tool/
+||cqsq.com/temp/
 !------------------------Specific element hiding rules------------------------!
 chinaz.com##.titright
+cqsq.com###J_posts_list > A[target="_blank"]
 chinaz.com##DIV[style="border: 1px solid #BBD7E6;padding:5px;margin:10px 0px 10px 0px;background-color:#FFFFFF;"]
 kaoyan1v1.com##.ad
 chinaz.com##.adbox
