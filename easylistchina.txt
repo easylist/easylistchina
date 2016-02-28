@@ -500,7 +500,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||vtale.org^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -1043,6 +1042,7 @@ ubmcmm.baidustatic.com
 ||visadd.com^$third-party
 ||vpie.net^$third-party
 ||vsnoon.com^$third-party
+||vtale.org^
 ||w65p.com^
 ||wdzsb.com.cn^
 ||weareqy.com^$third-party
@@ -2441,6 +2441,7 @@ _yad_jsonp_
 ||chinaiiss.com/js/float.js
 ||chinaiiss.com/js/function.ad.js
 ||chinairn.com/images3/*ads
+||chinajs120.com/js/fun.js
 ||chinanews.com.cn/ad2015/
 ||chinanews.com/images/*/gaobang.
 ||chinanews.com/images/images/Sadv
@@ -4493,6 +4494,7 @@ _yad_jsonp_
 ||sd.xinhuanet.com/2014xb/flash/
 ||sd.xinhuanet.com/2014xb/html/albbg.htm
 ||sd.xinhuanet.com/2014xb/images/shanhang.gif
+||sd173.com/images/
 ||sd888.org/flash/
 ||sd888.org/house/flash/
 ||sdgundam.cn/js/1222.js
@@ -4697,6 +4699,7 @@ _yad_jsonp_
 ||starbaby.cn/adconnector/
 ||starbaby.cn/bookconnector/
 ||starnnews.com/banner/
+||static.073img.com^$script
 ||static.aizhan.com/jsa/
 ||static.coladrive.com/images/vip.png
 ||static.colayun.com/images/vip.png
@@ -5481,13 +5484,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||static.073img.com^$script
-||chinajs120.com/js/fun.js
-||sd173.com/images/
 !------------------------Specific element hiding rules------------------------!
-07073.com###rightDiv > DIV[style="height:250px"]
 gpcxw.com###AA2
-cnjxol.com##IMG[width="960"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6563,6 +6561,7 @@ hbtv.com.cn###right > div[style="margin-bottom:23px;"]
 xiaohua.360.cn###right-fixed
 tw.hao123.com###rightAds_pass
 66rd.cn,chcj.net,cs.com.cn,cssqt.com,dvbcn.com,gdzjdaily.com.cn,ieforex.com,mxwz.com,qiannao.com###rightDiv
+07073.com###rightDiv > div[style="height:250px"]
 gxnews.com.cn###right_3_ad
 cpd.com.cn,xinhuanet.com###right_ad1
 cpd.com.cn,xinhuanet.com###right_ad2
@@ -9752,7 +9751,7 @@ jd-bbs.com##img[width="900"][height="100"]
 hz0572.com##img[width="950"]
 fjlyfdc.com.cn##img[width="950"][height="80"]
 676000.com##img[width="957"]
-0743ds.com,e0575.cn,jmw.com.cn##img[width="960"]
+0743ds.com,cnjxol.com,e0575.cn,jmw.com.cn##img[width="960"]
 xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 loveshang.com##img[width="980"][height="70"]
@@ -9935,6 +9934,7 @@ comefromchina.com#@#.ad-block
 pixiv.net#@#.ad-footer
 qq.com#@#.ad-icon
 ntm.gov.tw#@#.ad-left
+ccreports.com.cn#@#.ad-main
 da-fan-shu.cn#@#.ad-s
 qianyan001.com#@#.ad04
 mucanwenxue.com#@#.ad250
@@ -10011,7 +10011,6 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-ccreports.com.cn#@#.ad-main
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
