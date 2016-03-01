@@ -496,8 +496,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||525cm.com^$third-party
-||adreep.cn^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -610,6 +608,7 @@ ubmcmm.baidustatic.com
 ||4936.cn^$third-party
 ||4kt2.com^$subdocument
 ||51ads.com^$third-party
+||525cm.com^$third-party
 ||526d.com^$third-party
 ||52kmh.com^$third-party
 ||52kmk.com^
@@ -682,6 +681,7 @@ ubmcmm.baidustatic.com
 ||adpro.cn^$third-party
 ||adpush.cn^$third-party
 ||adreal.cn^
+||adreep.cn^$third-party
 ||ads.uc.cn^
 ||adsage.com^$third-party
 ||adsbro.com^$third-party
@@ -1652,7 +1652,6 @@ _yad_jsonp_
 ||3464.com/Script/RightWindows.js
 ||3520.cc/js/3520/
 ||356ys.com/template/tieniudy/images/g_js/
-||360zhibo.com/js/float
 ||360.cn/festival_zone.html
 ||360.cn/index/showjokes?callback=
 ||360bo.cc/js/float.js
@@ -1660,6 +1659,7 @@ _yad_jsonp_
 ||360buyimg.com/jzt/temp/js/cpc.js
 ||360kan.com/special/iframe/
 ||360safego.com^
+||360zhibo.com/js/float
 ||365kl.net/template/eis_x3_city_a_1/eis/baobao.gif
 ||365xs.org/js/xiayizhang.js
 ||36dm.com/images/*acgsou.gif
@@ -1820,6 +1820,7 @@ _yad_jsonp_
 ||600km.com/source/plugin/rsf_elasticity_pull_screen_adv/
 ||600km.com/template/*/ad/
 ||6080ai.com^*.js
+||61.10.2.86/dev/xopen.php
 ||61.143.225.176:818/nowscore/
 ||61.147.92.251:81/120x160.asp
 ||61.164.108.104:4275/*.gif
@@ -2592,6 +2593,7 @@ _yad_jsonp_
 ||dabaoku.com^$object,script,subdocument
 ||dabin69.com/data/attachment/portal/
 ||dabin69.com/template/comiis_ydzx/ads/topad01.jpg
+||dailyfx.com.hk/ext/ad/cn.js
 ||dailyfx.com.hk/ext/lang-ad
 ||dailynews.sina.com/gb/ads/
 ||daimabiji.com/images/17558/198zone.gif
@@ -2603,6 +2605,8 @@ _yad_jsonp_
 ||daqianduan.com/wp-content/uploads/*lagou
 ||dasai8.com/js/duilianjs.js
 ||dashuye.com/data/cache/myad*.htm
+||dayoo.com/public/c/2016/ad/
+||dayoo.com/test/
 ||db28.cn/cache/ads.js
 ||dbw.cn/0/07/18/40/7184029_146090.jpg
 ||dbw.cn/eap/js/db/dbwad_
@@ -2727,6 +2731,7 @@ _yad_jsonp_
 ||drivergenius.com/inc/driverwwwad.js
 ||drupalchina.cn/sites/default/files/banner/
 ||drupalchina.cn/sites/default/files/osforce-
+||dsqnw.com/ac/
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
 ||duba.com/static/v3/images/*.swf
@@ -2808,6 +2813,7 @@ _yad_jsonp_
 ||eeee42.com/Ads/
 ||eeyy.com/otherhtml/js/ad650.js
 ||eeyy.com/templates/js/other/yxj.js
+||eeyy.com/templates/js/popback.js
 ||eeyy.com/uploadfile/img/beitou
 ||elecfans.com/baidu_m.html
 ||elecfans.com/images2012/pcb.gif
@@ -4039,6 +4045,7 @@ _yad_jsonp_
 ||mywpku.com/adminvm.jpg
 ||mzyfz.*/modules/46/
 ||mzyz.com/image*/tj/
+||n2.hk/apps/car_feed/tb/d/banner.html
 ||n2.hk/promo/
 ||najiadian.cn/shuang11.js
 ||namipan.cc/baidu/
@@ -5475,18 +5482,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||61.10.2.86/dev/xopen.php
-||n2.hk/apps/car_feed/tb/d/banner.html
-||dsqnw.com/ac/
-||dailyfx.com.hk/ext/ad/cn.js
-||dayoo.com/public/c/2016/ad/
-||dayoo.com/test/
-||eeyy.com/templates/js/popback.js
 !------------------------Specific element hiding rules------------------------!
-eeyy.com###beitou_box
 gpcxw.com###AA2
-dailyfx.com.hk##.outlookForm
-dsqnw.com###text-html-widget-9
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5838,6 +5835,7 @@ baidu.com###bdyx_float_rb
 docin.com###beforeAd
 loldk.com###before_video_ad
 1kkk.com,bukade.com,dm5.com,dm5.hk,manmankan.com,sfacg.com###beitou
+eeyy.com###beitou_box
 cnbeta.com###bfd_box_vav + .clearfix + .other_news
 gamersky.com###bgAdWrapClose
 91danji.com,93994.com###bg_ad
@@ -6698,6 +6696,7 @@ wuleba.com,zeekmagazine.com###text-9
 free.com.tw###text-94
 acgft.net###text-html-widget-13 + .widget-box
 pbhz.com###text-html-widget-2
+dsqnw.com###text-html-widget-9
 365kl.net###textAD
 sogou.com###text_ad_area
 tingvoa.com###textadbox
@@ -8495,6 +8494,7 @@ zhidao.baidu.com##.optimus
 wenxuecity.com##.otherposts
 jjxw.cn##.ou_banner
 bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
+dailyfx.com.hk##.outlookForm
 lalulalu.com##.overture_banner
 allhabit.com##.overture_forumlist
 allhabit.com##.overture_threadlist
@@ -9268,7 +9268,7 @@ dnvod.eu,duonao.tv##a[href^="http://yoyou."]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 right.com.cn##a[href^="https://treebear.tmall.com"]
 iqiyi.com##a[id^="100000"]
-360zhibo.com,360bo.cc,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
+360bo.cc,360zhibo.com,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 frdic.com##a[onclick*="/ads/"]
 fhm.com.tw##a[onclick^="adClick("]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
