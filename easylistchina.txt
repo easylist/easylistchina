@@ -2589,6 +2589,7 @@ _yad_jsonp_
 ||d7ol.com/pics/ad/
 ||d7w.net/static/d7wad/
 ||da-fan-shu.cn/images/kuaijie.jpg
+||da.mgtv.com^
 ||dabaoku.com^$object,script,subdocument
 ||dabin69.com/data/attachment/portal/
 ||dabin69.com/template/comiis_ydzx/ads/topad01.jpg
@@ -2644,6 +2645,7 @@ _yad_jsonp_
 ||didamoe.com/kasen/pc2/img/330x376.jpg
 ||didamoe.com/kasen/pc2/js/index_
 ||didamoe.com/kasen/pc2/js/newsand
+||didown.com/rili-down.gif
 ||dig.chouti.com/advert
 ||dilidili.com/js/index.js
 ||dilidili.com/js/right
@@ -4119,6 +4121,7 @@ _yad_jsonp_
 ||ok.432kkk.com^
 ||okbmf.com^*950_120
 ||on.cc/js/v2/iframe_ysm_
+||one-piece.cc/web/attached/image/
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
 ||online.cq.cn/commonweb/commonright/right_side
@@ -5482,13 +5485,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||da.mgtv.com^
-||one-piece.cc/web/attached/image/
-||didown.com/rili-down.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-didown.com##.i-gg-640
-jorsindo.com##.t_f > STRONG:last-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8110,6 +8108,7 @@ vipcn.com##.hz-bottom
 haodou.com##.i-ad
 haodou.com##.i-adv250
 didown.com##.i-gg-330
+didown.com##.i-gg-640
 newhua.com##.i1
 aishiw.com##.iHead960x90
 webcars.com.cn##.i_banner
@@ -8837,6 +8836,7 @@ dushiwenxue.com##.t1
 18888.com##.t5[style^="margin-top:"]
 suopao.org##.t5[style^="margin-top:8px;"]
 tgbus.com##.t8
+jorsindo.com##.t_f > strong:last-child
 bbs.fobshanghai.com##.t_infoline
 265g.com##.tab_imgtop
 tw.yahoo.com##.tabads
@@ -9178,8 +9178,7 @@ plus28.com##a[href*="/?Extend="]
 kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
-dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
-piaohua.com##A[href*="/htmlcode/"]
+dy2018.com,piaohua.com,xiaopian.com##a[href*="/htmlcode/"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
@@ -9938,6 +9937,7 @@ pixiv.net#@#.ad-footer
 qq.com#@#.ad-icon
 ntm.gov.tw#@#.ad-left
 ccreports.com.cn#@#.ad-main
+uedwin.com#@#.ad-r
 da-fan-shu.cn#@#.ad-s
 qianyan001.com#@#.ad04
 mucanwenxue.com#@#.ad250
@@ -10014,10 +10014,8 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-uedwin.com#@#.ad-r
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||apk.tw/source/plugin/mydefplugin/advertisement.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10205,6 +10203,7 @@ uedwin.com#@#.ad-r
 @@||alimama.com^$domain=tanx.com
 @@||allyes.com.cn/player/AllyesAdPlayerV1.swf?$domain=jstv.com
 @@||angpic.3g.net.cn/ai/*/
+@@||apk.tw/source/plugin/mydefplugin/advertisement.js
 @@||appbyme.com/adclient/
 @@||appbyme.com^*/Advertisement.css
 @@||appledaily.com.hk/admedia/$object-subrequest
