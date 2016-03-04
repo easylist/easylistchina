@@ -1164,8 +1164,7 @@ ubmcmm.baidustatic.com
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
-||taobao.com$popup,domain=hacg.lol
-||taobao.com^$popup,domain=aadaili.com|ppdaili.com
+||taobao.com^$popup,domain=aadaili.com|hacg.li|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xldytt.com^$popup,domain=henbt.com
@@ -1215,7 +1214,7 @@ ubmcmm.baidustatic.com
 /banner.js$domain=28188.com|28188.net
 /banner/*$domain=dolc.de|dolc.info|leiphone.com
 /bannerpic/*$domain=uopera.net
-/bao/uploaded/*$domain=hacg.lol
+/bao/uploaded/*$domain=hacg.li
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
 /cari/daybanner/*
@@ -5483,6 +5482,7 @@ _yad_jsonp_
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||999v.me/cs
+||tietuku.com^$domain=hacg.li
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6267,7 +6267,7 @@ ys168.com###idzdy1
 httpcn.com###ie6fixedTL
 fuliba.net,fulibba.com###ifanr_social_widget-4 + .widget_text
 ifeng.com###ifengAehovering_small
-hacg.lol###ifocuk
+hacg.li###ifocuk
 tingroom.com###ifram_563
 youthwant.com.tw###ig_cont
 hao.360.cn###iguess
@@ -6537,7 +6537,6 @@ gdtv.cn###qrcode
 user.qzone.qq.com###qz_notification
 qq.com###r_ad
 163.com###r_mkaolaadv
-hacg.lol###ratings-widget-3 + .widget_text
 game2.cn###rb
 shejizhan.org###rb_ad
 sosg.net###read_728x90
@@ -8871,7 +8870,6 @@ tiexue.net##.test-goods
 baidu.com##.text-advertise
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
-hacg.lol##.textwidget > a > img:first-child:last-child
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
@@ -9162,7 +9160,7 @@ zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 chdbits.org,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-aijava.cn,bejson.com,btcherry.com,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,gmgard.com,hacg.lol,hexieshe.com,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+aijava.cn,bejson.com,btcherry.com,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,gmgard.com,hexieshe.com,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
