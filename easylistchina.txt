@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .bl.test15.
 .cc/js/ads/
-/ad/duilianjs.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -104,6 +103,7 @@ hk.yahoo.com###mntl1
 /9115gg/*
 /a/p?adid=
 /acmsd/*
+/ad/duilianjs.js
 /AD2v1.1.js
 /adblockTester.js
 /adblockTester1.js
@@ -1883,6 +1883,7 @@ _yad_jsonp_
 ||777g.me/cs/
 ||77bike.com/img/fsir.gif
 ||77bike.com/img/sticker.gif
+||77fkk5.com1.z0.glb.clouddn.com/bar/
 ||77kp.com/bd/
 ||789disk.com/index2/img/xzlogo.gif
 ||78dm.net/images/mingren250.jpg
@@ -2719,6 +2720,7 @@ _yad_jsonp_
 ||download.game.yy.com/crossdomain.xml
 ||download.game.yy.com/resource/fodder/*.flv
 ||downxia.com/dgjs/download.js
+||downxia.com/dgjs/sy.html
 ||downxia.com/haojs/
 ||downxia.com/zejs/ad
 ||downxia.com/zejs/soft
@@ -5480,12 +5482,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||downxia.com/dgjs/sy.html
-||77fkk5.com1.z0.glb.clouddn.com/bar/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-104.com.tw###aidma_588
-hexieshe.com,xxshe.com##A[href="http://www.linovel.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5773,6 +5771,7 @@ szonline.net###adv_focus
 360kan.com###advert_stack_0
 qq.com###advertisement
 cpplay.com###adxa
+104.com.tw###aidma_588
 mtime.com###animation_lu
 qzone.qq.com###appCanvasRecentAppActivity > .activity-area
 qzone.qq.com###appCanvasRightBottomTips
@@ -6974,7 +6973,6 @@ rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
 001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,61.147.69.213,72bbb.com,8btc.com,acfun.tv,aohua.com.au,baiduyunpan.net,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hebnews.cn,hkgalden.com,house.jschina.com.cn,huanqiukexue.com,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaixin200.com,kaoyan1v1.com,kumi.cn,kunming.cn,lepan.cc,lvseba.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
-duowan.com##.ui-business
 photofans.cn##.ad-1-index
 163.com##.ad-1200-125
 163.com##.ad-1200-60
@@ -8366,6 +8364,7 @@ zdfans.com##.meta > .meta-info + div
 zdfans.com##.meta-info + p
 zdfans.com##.meta-info > a[style][target="_blank"]
 haosou.com##.mh-adIco
+hexieshe.com,xxshe.com##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 baby-kingdom.com##.mian + .foot > .foot-top:first-child
 qq.com##.mian-ad
 midifan.com##.mid-aaa
@@ -8682,7 +8681,6 @@ cnstock.com##.sBox-right
 15w.com##.s_count_st
 businessweekly.com.tw##.salebox
 baidu.com##.sam_iebrowser_banner
-hexieshe.com,xxshe.com##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 ithome.com##.sb_list > .bx
 gog.com.cn##.sbh1_nav
 gog.com.cn##.sbh_nav
@@ -8993,6 +8991,7 @@ cyzone.cn##.tzkd_top
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
 libaclub.com##.ui-adsame
+duowan.com##.ui-business
 m.nownews.com##.ui-footer-fixed
 hlyy.cc##.ui-sponsor
 hackhome.com##.ul_ad
@@ -9198,6 +9197,7 @@ cnfol.com##a[href="http://www.168licai.cn/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
 tuhaoylw.com##a[href="http://www.gfsjw.6a8.cn/"]
 anquan.org##a[href="http://www.jiasule.com/"]
+hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.masadora.net/"]
 fuliba.net,fulibba.com##a[href="http://www.meidebi.com"]
 open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
@@ -9968,6 +9968,7 @@ bzfxw.com,ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
 ipad.tgbus.com#@#.ads01
 zhaopin.com#@#.adsBox
+xianzhenyuan.cn#@#.adsTop
 long7.qq.com#@#.adsbox
 123564.com,keenfine.com,scholar.glgoo.org,zdaili.net#@#.adsbygoogle
 qq.com#@#.adside
@@ -10006,7 +10007,6 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-xianzhenyuan.cn#@#.adsTop
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
