@@ -81,7 +81,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .bl.test15.
 .cc/js/ads/
-.xyz/js/ads/
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -100,6 +99,7 @@ hk.yahoo.com###mntl1
 .js?advertID=
 .net/js/ads/
 .us/js/ads/
+.xyz/js/ads/
 /119g/640x60_
 /9115gg/*
 /a/p?adid=
@@ -498,12 +498,9 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||adsinstant.com^
-||doniv.net^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||scw0.com^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -691,6 +688,7 @@ ubmcmm.baidustatic.com
 ||ads.uc.cn^
 ||adsage.com^$third-party
 ||adsbro.com^$third-party
+||adsinstant.com^
 ||adt100.com^$third-party
 ||adunioncode.com^$third-party
 ||adver.com.tw^$third-party
@@ -768,6 +766,7 @@ ubmcmm.baidustatic.com
 ||displink.com^$third-party
 ||dlads.cn^$third-party
 ||dmtrck.com^$third-party
+||doniv.net^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||dou777.com^
 ||doubleadv.com^$third-party
@@ -978,6 +977,7 @@ ubmcmm.baidustatic.com
 ||s8dj.com^$third-party
 ||sales-frontier.com^$third-party
 ||scupio.com^$third-party
+||scw0.com^
 ||sexy-more.com^$third-party
 ||sgbfjs.info^
 ||sharedaddomain.com^
@@ -2828,6 +2828,7 @@ _yad_jsonp_
 ||eprice.com.tw/img/tw_m/ad/
 ||eprice.com.tw/js/swfobject-2.3.js
 ||etdown.net/images/ad1
+||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
 ||etnet.com.hk/ad2014/
@@ -3851,6 +3852,7 @@ _yad_jsonp_
 ||lofter.com/mailEntry.do?*ad=
 ||lofter.com/mailEntryMobile.do
 ||loldk.com/res/media/fanxing_
+||loli.io^$domain=kisssub.org
 ||longbahao.com/asd.js
 ||longbahao.com/js/ad-
 ||longyu.cc/adg/
@@ -4607,6 +4609,7 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a6a976a2gw1eq3au2wh1wj20h802ijrh.jpg
 ||sinaimg.cn/mw690/a6a976a2jw1eptzya6d9cj20go01odgn.jpg
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
+||sinaimg.cn/mw690/bfdcef89jw1f1kuc0q6m2j208d03c0ss.jpg
 ||sinaimg.cn/mw690/e75a115bgw1eon8cd6uvlg208c04kk82.gif
 ||sinaimg.cn/unipro/
 ||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99ee1.com|99re5.com|99rr6.com|ac168.info|aisex.com|bejson.com|bt177.com|btago.com|btshark.com|btup.net|caoliuzx.com|cililian.me|fdzone.org|izzs.cc|jisuzhibo.net|links.hjav.in|liulanmi.com|niluba.cc|sbme.me|taohuazu.tw|thzhd.net|ttdyy.tv|xinqixi.com|youb444.com|zhiboche.com
@@ -5467,13 +5470,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||loli.io^$domain=kisssub.org
-||sinaimg.cn/mw690/bfdcef89jw1f1kuc0q6m2j208d03c0ss.jpg
-||etest8.com/js/158/infojs/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-pixnet.net##DIV[class*="-ad-"]
-pixnet.net##DIV[class*="-Ad-"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9298,6 +9296,8 @@ hualady.com##div[class$="300x250"]
 jjxw.cn,we54.com##div[class$="_ad"]
 qqread.com##div[class$="ad"]
 19lou.com##div[class$="ad-cycle"]
+pixnet.net##div[class*="-Ad-"]
+pixnet.net##div[class*="-ad-"]
 ganji.com##div[class*="-recommend"]
 meiguoshenpo.com##div[class*="AD_"]
 makepolo.com##div[class*="_ad"]
