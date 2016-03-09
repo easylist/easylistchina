@@ -3307,7 +3307,6 @@ _yad_jsonp_
 ||i.168gamer.$image,object
 ||i.168img.com^$image,object
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
-||i.fgi.tw/images/survey_of_woman
 ||i.supfree.net^*.js
 ||i.syasn.com^
 ||i322.com/ad_avshow/
@@ -3462,7 +3461,6 @@ _yad_jsonp_
 ||imgf.gamersky.com^$image
 ||imgkdiyoub999.com/ok/
 ||imgmega.com/i/*.gif$domain=18avhub.com|18avtube.com|mm-cg.com
-||imgn.jiatx.com/jiatx/mall/outer/
 ||imgout.ph.126.net^*/355-310.jpg
 ||imgout.ph.126.net^*/700x80.jpg
 ||imgout.ph.126.net^*/950-90.jpg
@@ -5470,6 +5468,7 @@ _yad_jsonp_
 ||fangying.tv/assets/ad_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+findprice.com.tw##TD[style="width: 342px; padding:0px 0px 0px 5px;border-left:1px solid #c9d7f1;"] > TABLE > TBODY > TR:nth-last-child(n+3)
 fhm.com.tw##.my_banner_0
 fhm.com.tw##.my_banner_1
 elecfans.com###newTopAdArea
@@ -9839,7 +9838,6 @@ discuss.com.hk##tbody[id^="normalthread_"] + tbody > tr > td[align="center"][col
 hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 xici.net##td.doc_sign
 cartoonad.com,cartoonmad.com##td[align="center"] > table[width="728"]
-findprice.com.tw##td[align="right"][style="width: 310px; padding-right:0px;"] > table > tbody > tr:first-child
 linuxdiyf.com##td[bgcolor="#FFFFFF"] > a > img
 ahtv.cn##td[colspan="3"][style="height:95px;"]
 tsdm.net##td[colspan="5"]:first-child:last-child
