@@ -501,10 +501,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||941adu.com^$third-party
-||yuu360.com^$third-party
-||9377bh.com^
-||hwmwin.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -660,9 +656,11 @@ ubmcmm.baidustatic.com
 ||9158918.com^$third-party
 ||91ysa.com^
 ||91zgm.com^
+||9377bh.com^
 ||9377co.com^
 ||9377ku.com^
 ||9377os.com^
+||941adu.com^$third-party
 ||9519.net^$third-party
 ||9718.com^$third-party
 ||9ead.com^$third-party
@@ -850,6 +848,7 @@ ubmcmm.baidustatic.com
 ||hr44.com^
 ||hsmkj.net^$third-party
 ||humanding.com^
+||hwmwin.com^$third-party
 ||hxqu.com^$third-party
 ||i000o.com^$third-party
 ||i3818.com^
@@ -1114,6 +1113,7 @@ ubmcmm.baidustatic.com
 ||yuanhsu.com^$third-party
 ||yule8.net^
 ||yunfanlm.com^$third-party
+||yuu360.com^$third-party
 ||yxdyk.com^$script,third-party
 ||yyp17.com^
 ||yzxls.com^$third-party
@@ -4369,6 +4369,7 @@ _yad_jsonp_
 ||qqmcc.org/biz/home_top_960x90.html
 ||qqread.com/*js/$script
 ||qqread.com/swf/
+||qqtn.com/js/*0.js
 ||qqtz.com/ad$subdocument
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
@@ -4664,6 +4665,7 @@ _yad_jsonp_
 ||sohu.com/adgtr/
 ||sohu.com/interaction/get/getListByVidForVrs.do?
 ||sohucs.com^*_gif$domain=12580sky.com
+||sooopu.com/asphtml/plnew.
 ||sooopu.com/images/web/cg328/cg.js
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
@@ -5008,6 +5010,7 @@ _yad_jsonp_
 ||vzhuan.cn/html/*.php
 ||w010w.com.cn^$subdocument
 ||wa.kuwo.cn/lyrics/img/kwgg/
+||wallstcn.com^*-300x250.
 ||wan.sogou.com/cdn/$subdocument
 ||wan.sogou.com/pop/
 ||wan.sogou.com/static/fragment/
@@ -5302,6 +5305,7 @@ _yad_jsonp_
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
 ||ylzx8.cn/style/js/sad.js
+||ynet.com/c/js/meat_china.js
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||yooread.com/skin/js/common.js
 ||you85.cn/cc/
@@ -5473,15 +5477,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qqtn.com/js/*0.js
-||wallstcn.com^*-300x250.
-||ynet.com/c/js/meat_china.js
-||sooopu.com/asphtml/plnew.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-45fan.com##.adz
-45fan.com##.botad1
-tech2ipo.com##.inner.content > A[style]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7322,6 +7319,7 @@ it165.net##.advyello
 itavcn.com##.advzone
 123.sogou.com##.adword > a
 gamme.com.tw##.adwrpt
+45fan.com##.adz
 hkitblog.com##.afc_popup
 down.51cto.com##.ag
 padhz.com,pbhz.com##.agoogled
@@ -7519,6 +7517,7 @@ creaders.net##.border_b > tbody > tr > td[height^="2"]
 news.liao1.com##.border_more[height="32"]
 tingshuge.com##.bordercs[align="center"]
 52ch.net##.bot_adv
+45fan.com##.botad1
 360doc.com##.both[style^="padding-top:"]
 115.com##.bottom-banner
 dianping.com##.bottom-contrainer
@@ -8157,6 +8156,7 @@ sznews.com##.indexcon02
 sznews.com##.indexcon07
 xdjishu.com##.indexgg1
 chinairn.com##.industry
+tech2ipo.com##.inner.content > a[style]
 wangyeba.com##.innner950
 131458.com##.inq_01
 131458.com##.inq_02_C_z
