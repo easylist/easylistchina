@@ -504,7 +504,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||poyang.cn^$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -964,6 +963,7 @@ ubmcmm.baidustatic.com
 ||pofang.com^
 ||pos.baidu.com^
 ||poxzyu.com^$third-party
+||poyang.cn^$third-party
 ||pro.cn^$third-party
 ||prohost.com.tw^$third-party
 ||qidou.com^$third-party
@@ -1190,7 +1190,7 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .fancybox.$domain=life.com.tw
-.gif|$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com|51dll.com|newstorrentsspace.info|tianyatorrents.info
+.gif|$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com|51dll.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 /10jqka_info/html/ad_
@@ -1885,6 +1885,7 @@ _yad_jsonp_
 ||6vhao.com/d/960.js
 ||6vhao.com/d/f*.js
 ||70.86.24.120:8060/
+||72.11.141.18/girls.gif
 ||72bbb.com/images/12.gif
 ||73p37.com/js/bottomall.js
 ||73p37.com/js/playad.html
@@ -2896,6 +2897,7 @@ _yad_jsonp_
 ||float.sandai.net^$object-subrequest
 ||fmdisk.com/ima/
 ||fmdisk.com/templates/yythems/images/qq
+||focus.cn/api/ads?
 ||focus.cn/common/js/adm
 ||forum.51nb.com/images/
 ||forum.techweb.com.cn/advtcnt.php
@@ -5276,6 +5278,7 @@ _yad_jsonp_
 ||yesky.com/monitorjs/imp-
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||ygdy8.com/jsy/
+||ygdy8.net/js1/
 ||yiku51.com/xinzeng/js/
 ||yimg.com/bf/homerun/ysm_
 ||yimg.com/cv/ae/default/*_STATIC-JPEG_
@@ -5477,13 +5480,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||focus.cn/api/ads?
-||ygdy8.net/js1/
-||72.11.141.18/girls.gif
-.gif|$domain=jjyyfsdowns.net
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-chazidian.com##.ggin
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7955,6 +7953,7 @@ jn256.com##.ggarea
 cqwb.com.cn,creaders.net##.ggbox
 creaders.net##.ggbox1
 qidian.com##.ggbox740X80
+chazidian.com##.ggin
 gexing.com.cn##.ggline
 eastday.com,xdjishu.com##.gglist
 haofu1.com##.ggsj
@@ -9893,6 +9892,7 @@ wholehk.com#@##adSense
 wangnba.com#@##adSet
 dushiwenxue.com#@##adTop
 two.game.tw#@##ad_02
+fx678.com#@##ad_8
 dpp.org.tw,shuaijiao.com#@##ad_big
 10010.com#@##ad_bottom
 chanet.com.cn#@##ad_content
@@ -10003,7 +10003,6 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-fx678.com#@##ad_8
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
