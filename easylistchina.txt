@@ -4881,6 +4881,7 @@ _yad_jsonp_
 ||trafficjam.cn^
 ||ts.cn^*/site1/$object
 ||tt1069.com/bbs/zgg_
+||tt1069.com/ppp.js
 ||tt7z.com/js/
 ||ttcy.com/style/image/gg_
 ||ttkdex.com/ttkdweb/page/image/query
@@ -5480,12 +5481,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||tt1069.com/ppp.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-fqlook.cn##.main_tonglan
-fqlook.cn##.main_tonglan + .main_center_z
-fqlook.cn##.pro_baidu
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8348,6 +8345,8 @@ qq.com##.main_ad_top
 hongfen.org##.main_adser
 jn256.com##.main_gg1
 jn256.com##.main_gg4
+fqlook.cn##.main_tonglan
+fqlook.cn##.main_tonglan + .main_center_z
 tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
 tianjinwe.com##.mainadv
@@ -8586,6 +8585,7 @@ qubilou.com##.poster_310x250
 bbs.51cto.com##.postinfo05 + div[style]
 bbs.51cto.com##.postinfo06a
 businessweekly.com.tw##.postinsidead
+fqlook.cn##.pro_baidu
 pbhz.com##.product-nav-box
 cqmmgo.com##.projection-ad-content
 shangdu.com##.pub_ad
@@ -9864,7 +9864,7 @@ emuch.net##td[style="padding:10px;font-size:14px;"] > div > [style="color:green;
 emuch.net##td[style="padding:10px;font-size:14px;"] > div > a[href^="creditshow.php?action=view&logid="]
 emuch.net##td[style="padding:5px 10px;"] + td + td[style="padding-left:10px;"]:last-child
 findprice.com.tw##td[style="width: 342px; padding:0px 0px 0px 5px;border-left:1px solid #c9d7f1;"] > table > tbody > tr:nth-last-child(n+3)
-hkgolden.com##TD[style="width: 644px; vertical-align: top;"] > DIV[style="height:291px;"]
+hkgolden.com##td[style="width: 644px; vertical-align: top;"] > div[style="height:291px;"]
 50.7.31.230,tvboxnow.com##td[style="width:15%;height:100%;"]
 vvvdj.com##td[valign="top"][bgcolor="#13161E"][align="center"]
 cctime.com##td[width$="5"] + td[width="775"]
@@ -10008,8 +10008,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||mb-go.com/pub1/??
-@@/advert/*$domain=banggo.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10045,7 +10043,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adsbygoogle.$domain=serve.netsh.org
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/AdShow/*$domain=mndxy.org
-@@/advert/*$domain=cctcw.cn|juxiangyou.com|locuspublishing.com
+@@/advert/*$domain=banggo.com|cctcw.cn|juxiangyou.com|locuspublishing.com
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
@@ -10340,6 +10338,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||lianmeng.360.cn/searchthrow/*&w=960&$domain=fxpan.com
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||ltxhcz.com/skin/default/images/
+@@||mb-go.com/pub1/??
 @@||mediav.com^$domain=dev.360.cn
 @@||meiziweibo.com^$elemhide
 @@||meizu.com/fileserver/ad/img/
