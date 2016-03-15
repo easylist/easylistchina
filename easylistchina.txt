@@ -501,7 +501,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||3qmh.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -611,6 +610,7 @@ ubmcmm.baidustatic.com
 ||3dwwwgame.com^$third-party
 ||3g.990.net^
 ||3p-link.com^$third-party
+||3qmh.com^
 ||44pv.com^$third-party
 ||4936.cn^$third-party
 ||4kt2.com^$subdocument
@@ -2942,6 +2942,7 @@ _yad_jsonp_
 ||g2.ousns.net^
 ||g4.beva.com/data-js-
 ||game.466.com^$third-party
+||gameapps.hk/images/banners/
 ||gameapps.hk/js/content_
 ||gameapps.hk/js/determine_page_
 ||gamefy.cn/cookiead.php
@@ -5470,13 +5471,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||gameapps.hk/images/banners/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gameapps.hk###google_side_ad2_top
-i-part.com.tw###chatroomFrame + DIV[style="text-align: center;padding-top: 10px"]
-i-part.com.tw##.googleAD160x600
-bbhou.com##DIV[style*="height: 90px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5891,6 +5887,7 @@ hxnews.com###change_1
 hxnews.com###change_1 + .rowa
 longzhu.com,tga.plu.cn###channels-roll
 wlanwifi.net###chart + center
+i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"]
 cqfishing.net,gpshk.cc###chs_bannerArea
 gz0668.com###closexguide
 uuu9.com###cm1337
@@ -6188,6 +6185,7 @@ eprice.com.tw###goldlink
 juqingbao.com###goog
 life.com.tw###googleAdIndexTop
 niwota.com###google_ad2
+gameapps.hk###google_side_ad2_top
 js0573.com###gotopl
 js0573.com###gotopr
 cnr.cn###gtop00
@@ -7960,6 +7958,7 @@ mail.pchome.com.tw##.good_ad
 weibo.com##.goods-box
 mei521.com##.google
 techbang.com##.google-dfp
+i-part.com.tw##.googleAD160x600
 bitauto.com##.gotop_ad
 mzyfz.com##.gov_article_banner
 jiaodong.net##.grayB
@@ -9516,6 +9515,7 @@ house.163.com##div[style*="960"][style*=":60px"]
 imanhua.com##div[style*="980"][style*="26px"]
 pchome.com.tw##div[style*="982"][style*="85"]
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
+bbhou.com##div[style*="height: 90px;"]
 hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
@@ -9799,7 +9799,7 @@ cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height^="1"]
 ip138.com##table[width="760"][height="23"][style="border:1px solid #008000"]
 5156edu.com##table[width="770"][border="1"][bordercolordark="#FFFFFF"][bordercolorlight="#E7E7E7"]
 96js.cn##table[width="778"][border="3"]
-mitbbs.ca,mitbbs.com##TABLE[width="915"] > TBODY > TR:first-child > TD[width]
+mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 97ub.com##table[width="920"]
 bbxxbbs.net##table[width="960"]
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
@@ -9988,7 +9988,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/advert/*$domain=changan.com.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10024,7 +10023,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adsbygoogle.$domain=serve.netsh.org
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/AdShow/*$domain=mndxy.org
-@@/advert/*$domain=banggo.com|cctcw.cn|juxiangyou.com|locuspublishing.com
+@@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|juxiangyou.com|locuspublishing.com
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
