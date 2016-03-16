@@ -501,12 +501,9 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-/fshow.php?id=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||gg570.com^
-||qshxc.com^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -517,6 +514,7 @@ _mobilebanner_v1_550x60.jpg
 /code/popjs.
 /cpm/i.ashx?
 /floatingcontent/*$third-party
+/fshow.php?id=$script,third-party
 /i.php?z=$script,third-party
 /js/cpv_dl.js
 /mobile/mads.js
@@ -826,6 +824,7 @@ ubmcmm.baidustatic.com
 ||gf108.com^
 ||gf1352.com^
 ||gf1353.com^$third-party
+||gg570.com^
 ||ggmm777.com^$third-party
 ||gm682.com^
 ||gohappy.com.tw^$third-party
@@ -974,6 +973,7 @@ ubmcmm.baidustatic.com
 ||qiqiww.com^
 ||qiyou.com^$third-party
 ||qq4g.cn^$third-party
+||qshxc.com^
 ||qtmojo.cn^
 ||qtmojo.com^$third-party
 ||qubilou.com^$third-party
@@ -1138,9 +1138,6 @@ ubmcmm.baidustatic.com
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||x-legend.com.tw^$popup,domain=gamer.com.tw
-||lager.com.tw^$popup,domain=gamer.com.tw
-||netmarble.com^$popup,domain=gamer.com.tw
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -1175,9 +1172,11 @@ ubmcmm.baidustatic.com
 ||jjwxc.net/jjad*.html$popup
 ||kanzipai.com^$popup,domain=zhongzi.in
 ||kuai.xunlei.com/do_e_mu?data=$popup
+||lager.com.tw^$popup,domain=gamer.com.tw
 ||miaozhen.com^$popup,domain=iqiyi.com
 ||moe.005.tv^$popup,third-party
 ||moezone.taobao.com^$popup,domain=www.tsdm.net
+||netmarble.com^$popup,domain=gamer.com.tw
 ||qidian.com/showavd.$popup
 ||smartor.org/iclk/?zoneid=$popup
 ||sohu.com/i/?pvid=$popup
@@ -1186,6 +1185,7 @@ ubmcmm.baidustatic.com
 ||taobao.com^$popup,domain=aadaili.com|hacg.li|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
+||x-legend.com.tw^$popup,domain=gamer.com.tw
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
@@ -1792,6 +1792,7 @@ _yad_jsonp_
 ||52zy.com/other/js/
 ||5399.com/poster_js/
 ||543et.com/detail/
+||5442.com/style/ads5442.js
 ||54new.com/da/
 ||55.la/anonymous/banner/$domain=lxty66.com
 ||55188.com/file/news/201512/3116/5684ed76efc08444672.jpg
@@ -3066,6 +3067,7 @@ _yad_jsonp_
 ||gucheng.com/2015/mst/
 ||gucheng.com/2015/z4/
 ||guess.h.qhimg.com^
+||guitarchina.com/1/*.gif
 ||guitarchina.com/1/ww2014
 ||guofs.com/images/578-60.gif
 ||guofs.com/images/you.js
@@ -3738,6 +3740,7 @@ _yad_jsonp_
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmplayer.cn/include/jscript/*-b.js
 ||knnwdyou.com^
+||kokojia.com^$third-party
 ||koopan.com/%5Cad/
 ||kp52.cc/data/attachment/portal/
 ||ks.js.cn*/yytf/$object,script
@@ -5475,14 +5478,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||kokojia.com^$third-party
-||guitarchina.com/1/*.gif
-||5442.com/style/ads5442.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hao.qq.com###AD_4
-hao.qq.com###AD_5
-221.233.60.100##FIELDSET[style="width:760;border:1px dashed #a6ccf9"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5490,8 +5487,8 @@ gdtv.cn###ADVbuttom
 gdtv.cn###ADVbuttom1
 daohang.qq.com,hao.qq.com###AD_2
 daohang.qq.com,hao.qq.com,sogou.com###AD_3
-daohang.qq.com###AD_4
-daohang.qq.com###AD_5
+daohang.qq.com,hao.qq.com###AD_4
+daohang.qq.com,hao.qq.com###AD_5
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
@@ -9700,6 +9697,7 @@ zuoye.baidu.com##dl[class="card related"]
 mcxiaobu.com##dl[id^="divFunction"]
 ks.js.cn##embed[src*="yytf/"]
 bbs.my0511.com##embed[width="970"][height="70"]
+221.233.60.100##fieldset[style="width:760;border:1px dashed #a6ccf9"]
 hiapk.com##font.jammer
 intercept.onedns.net##h5
 javlibrary.com##iframe
@@ -9995,7 +9993,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/cdn-cgi/pe/bag2?r[]=*google$script,domain=bnstree.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10045,6 +10042,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/appledaily/homead/*_ad_logo.
 @@/assets/adv/*$domain=4008927927.cn
 @@/bag2?r[]=*&r[]=$domain=free.com.tw|macx.cn
+@@/cdn-cgi/pe/bag2?r[]=*google$script,domain=bnstree.com
 @@/cms/ads/*$domain=17.com
 @@/cntv_Advertise.js
 @@/common/cf/*$domain=66u.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
