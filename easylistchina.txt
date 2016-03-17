@@ -2190,6 +2190,8 @@ _yad_jsonp_
 ||awaker.hk/wp-content/uploads/ok/
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
+||b8yy.com/cmp/proxy.swf
+||b8yy.com/stlye/vnsr.gif
 ||baby-kingdom.com/reqsads?
 ||baby-kingdom.com/reqwads?
 ||babyhome.com.tw/2015/mid_autumn/
@@ -2428,6 +2430,8 @@ _yad_jsonp_
 ||cctv.com/Library/a2.js
 ||cctv5.name/data/js/
 ||cctv5.name/js/*foot.js
+||cctvpic.com/photoAlbum/page/performance/img/2013/11/20/1384944092228_124.jpg
+||cctvpic.com/photoAlbum/page/performance/img/2015/9/24/1443061479109_343.jpg
 ||ccvcd.com/images/
 ||cdeledu.com/ADVC/
 ||cdn.dfile.cn/slot/
@@ -3705,6 +3709,7 @@ _yad_jsonp_
 ||k.youku.com^$domain=flvcd.com
 ||k618.cn/gg$image
 ||k618.cn/tlgg/
+||k99.cc^$third-party
 ||kaikaimao.net/static/zx.jpg
 ||kaixin001.com.cn/js/cpm-
 ||kamlm.com/kmgg
@@ -3967,6 +3972,7 @@ _yad_jsonp_
 ||mitbbs.*/servicedata/static_ad.php
 ||mitbbs.ca/ad_
 ||mitbbs.com/ad_
+||mixer.video.iqiyi.com/jp/mixin/resources/
 ||miyun360.com/data/attachment/portal/
 ||mlbuy.com/gg.js
 ||mm387.com/images/*.gif
@@ -4141,8 +4147,6 @@ _yad_jsonp_
 ||p.szonline.net^
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
-||cctvpic.com/photoAlbum/page/performance/img/2013/11/20/1384944092228_124.jpg
-||cctvpic.com/photoAlbum/page/performance/img/2015/9/24/1443061479109_343.jpg
 ||p4p.sina.com.cn^
 ||p8u.hinet.net^
 ||panda.kdnet.net^
@@ -5154,6 +5158,7 @@ _yad_jsonp_
 ||xilu.com/js/bd.js
 ||xilu.com/script/tag/2.0/func.js
 ||xinbiqi.com/js/pc_ads.js
+||xineurope.com/static/image/banner/
 ||xinhuanet.com/*/ad20
 ||xinhuanet.com/2013images/jfzj.swf
 ||xinhuanet.com/2013images/ltxl.gif
@@ -5223,6 +5228,7 @@ _yad_jsonp_
 ||xskhome.com/pic/20*/all/
 ||xue163.com/ajs/end
 ||xun9u.com/css/js/text_link.js
+||xunleige.com/js/functionx.js
 ||xunleihao.com/a-d-j-s/
 ||xunleihd.com/image/*maose
 ||xunleipu.com/a-d-j-s/
@@ -5479,16 +5485,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||k99.cc^$third-party
-||mixer.video.iqiyi.com/jp/mixin/resources/
-||b8yy.com/stlye/vnsr.gif
-||b8yy.com/cmp/proxy.swf
-||xineurope.com/static/image/banner/
-||xunleige.com/js/functionx.js
 !------------------------Specific element hiding rules------------------------!
-xunleige.com###weizhi-a
-qdmm.com,qidian.com##.bodyRecWrap
-qdmm.com,qidian.com##.nightMask
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6784,7 +6781,7 @@ kamlm.com###wanmeiffad1
 sd888.org###weixinL
 sd888.org###weixinR
 sogou.com###weixin_adv
-aiquanji.com###weizhi-a
+aiquanji.com,xunleige.com###weizhi-a
 aiquanji.com###weizhi-t
 baidu.com###wgt-left-promo
 iqiyi.com###widget-jingdongAd
@@ -7506,6 +7503,7 @@ oogps.com##.bnn1
 vipcn.com##.bnr
 yeeyi.com##.boardnav > #ct > .sd
 qq.com##.body-Top-Ad
+qdmm.com,qidian.com##.bodyRecWrap
 sfacg.com##.book_AD
 qidian.com##.booktitle_rect > .start_game
 labs.it168.com##.bor1[style="height:196px;"]
@@ -8462,6 +8460,7 @@ icnkr.com##.newsmainbox_midder_top
 022net.com##.newssidead
 talkforex.com##.nge_border_right > div[style="height: 250px; position: relative;"]
 26lady.com##.ngg
+qdmm.com,qidian.com##.nightMask
 admin5.com##.notice
 yes-news.com##.notification
 maituan.com##.novice
@@ -10001,7 +10000,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/ads.js?$domain=codejie.net|imuum.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10031,6 +10029,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com
+@@/ads.js?$domain=codejie.net|imuum.com
 @@/ads/*$domain=189.cn|95516.com
 @@/adsame.$domain=liba.com|libaclub.com
 @@/adsbox.$domain=long7.qq.com
