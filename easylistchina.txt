@@ -504,7 +504,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||adomv.com^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -689,6 +688,7 @@ ubmcmm.baidustatic.com
 ||adm.cnzz.net^$third-party
 ||admartzone.com^$third-party
 ||admin6.com^$third-party
+||adomv.com^
 ||adpro.cn^$third-party
 ||adpush.cn^$third-party
 ||adreal.cn^
@@ -4680,6 +4680,7 @@ _yad_jsonp_
 ||srzc.com/templets/srxw/img/000ad.jpg
 ||srzc.com^*/zwfjs/
 ||ssnn.net^*-200-250.jpg
+||sspai.com/attachment/sponsor/
 ||starbaby.cn/adconnector/
 ||starbaby.cn/bookconnector/
 ||starnnews.com/banner/
@@ -5471,10 +5472,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sspai.com/attachment/sponsor/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7561,6 +7560,7 @@ hao.rising.cn##.channel-adimg
 enread.com##.channel-nav > .back
 douban.com##.channel_promo
 businessweekly.com.tw##.channelname > .hot_kw
+guidaye.com##.charu
 cb.com.cn##.chbox_r_ad
 china.com.cn##.chinaJZG
 firefoxchina.cn##.chip-banners
@@ -8165,6 +8165,7 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5fe
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
 jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
 creaders.net##.jcContent
@@ -8406,7 +8407,6 @@ zdfans.com##.nav > .menu-item > a[href^="http"]:not([href*=".zdfans."]):not([hre
 zdfans.com##.nav > .menu-item:nth-child(n+6):not(:last-child)
 baidu.com##.nav_ads
 3158.cn##.navbot
-guidaye.com##.charu
 sto.cn##.network_adv
 rising.cn##.new-1111
 zhanqi.tv##.new-advertising-area
@@ -9121,7 +9121,6 @@ shunwang.com##[id^="ad_"]
 jjwxc.net##[id^="adp_"]
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
 e0575.cn,sz.zj.cn##[id^="ads_c_"]
-gamebase.com.tw##span[id^="aid_"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
@@ -9744,6 +9743,7 @@ bbs.my0511.com##span.smalltxt
 163.com##span[class^="gg"]
 taiwandaily.net##span[id$="_Label_Ads"]
 bbs.xmfish.com##span[id^="ads"]
+gamebase.com.tw##span[id^="aid_"]
 sina.com.cn##span[id^="cont-tanx-a-"]
 hkgolden.com##span[id^="lineImage"]
 hanzify.org##span[style^="float:right;"]
