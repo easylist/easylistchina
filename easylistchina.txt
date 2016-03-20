@@ -503,8 +503,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||momzs.com^$third-party
-||cifenqi.com^$third-party
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -738,6 +736,7 @@ ubmcmm.baidustatic.com
 ||chapm.com^$third-party
 ||chinauma.net^$third-party
 ||chinesean.com^$third-party
+||cifenqi.com^$third-party
 ||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
 ||cnsjx.net^
@@ -936,6 +935,7 @@ ubmcmm.baidustatic.com
 ||miaozhen.com^$third-party
 ||mlt01.com^
 ||mobads.baidu.com^$third-party
+||momzs.com^$third-party
 ||moodoocrv.com.cn^
 ||moogos.com^$third-party
 ||moonwish.com.cn^
@@ -1248,7 +1248,6 @@ ubmcmm.baidustatic.com
 /friends/*$image,domain=v2ex.com
 /front/adv/getpmadvlist
 /game/aplus/pptv/*
-||i-gamer.net^$domain=cartoomad.com|cartoonad.com|cartoonmad.com
 /gamer/*$subdocument,domain=gamer.com.tw
 /gennie_b.htm$domain=50.7.31.228|50.7.31.230|tvboxnow.com
 /gif/*$image,domain=txzqw.com
@@ -1948,6 +1947,7 @@ _yad_jsonp_
 ||8d8d.me/images/dealer.gif
 ||8dyun.com/*.php$script
 ||8jkx.com^
+||8jzw.com/js/01.html
 ||8kele.com^$~collapse,domain=gamer.com.tw
 ||900.la/imgs/cda7c9a0-9f34-421b-a0fe-03740c1b42d3/2015-04-05/ji0gu3xi.gif
 ||9000wy.com/style/js/2015content.js
@@ -2144,6 +2144,7 @@ _yad_jsonp_
 ||angpic.3g.net.cn/ai/
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
+||anqu.com/b.js
 ||anywlan.com/link/*.gif
 ||anywlan.com/link/ikuai.jpg
 ||anzhuan.net/wp-content/uploads/*/250x250_1.gif
@@ -2982,6 +2983,7 @@ _yad_jsonp_
 ||gexing.com.cn^*/images/jr.jpg
 ||gexing.com/api/api_get_tankuang.php?
 ||gexing.com/j/??zmask.js,easing.js?
+||gezila.com/v3/ad/
 ||gfan.com/plugin.php?id=gfan_viewpic:gfan_adView
 ||gfan.com/press/
 ||gg-art.com/anod/
@@ -3300,6 +3302,7 @@ _yad_jsonp_
 ||hz.shouyoutv.com^
 ||hzhyhm.com^
 ||i-gamer.net/promo_
+||i-gamer.net^$domain=cartoomad.com|cartoonad.com|cartoonmad.com
 ||i-part.com.tw/hookimg/23892_14367801811.jpg
 ||i-part.com.tw/images2/index/HouseStar/
 ||i-part.com.tw/js2/newShineStar
@@ -3736,6 +3739,7 @@ _yad_jsonp_
 ||kokojia.com^$third-party
 ||koopan.com/%5Cad/
 ||kp52.cc/data/attachment/portal/
+||kpopn.com/wp-content/uploads/2016/03/Beast336-280.jpg
 ||ks.js.cn*/yytf/$object,script
 ||ksvcd.com/images/
 ||kt51.com/app.js
@@ -5469,12 +5473,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||8jzw.com/js/01.html
-||kpopn.com/wp-content/uploads/2016/03/Beast336-280.jpg
-||anqu.com/b.js
-||gezila.com/v3/ad/
 !------------------------Specific element hiding rules------------------------!
-kpopn.com###text-34
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5924,7 +5923,7 @@ zm1z.com###content > .subContent:nth-child(3)
 biquge001.com,fuliba.net,fulibba.com###content > a
 shaoit.com###content > a[target="_blank"]
 fuliba.net,fulibba.com,hexieba.com###content > div:first-child > a:first-child:last-child
-go-gddq.com###content > DIV[style="float: Right;"]
+go-gddq.com###content > div[style="float: Right;"]
 winba.me###content > p:first-child
 fuliba.net,fulibba.com###content > ul[style="list-style-type: none;"]
 yes-news.com###content-728
@@ -6665,6 +6664,7 @@ moe-acg.cc###text-3
 blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
 vjmedia.com.hk###text-33
+kpopn.com###text-34
 vmelon.com###text-4
 zreading.cn###text-5
 uisdc.com###text-6
@@ -9981,8 +9981,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.cntv.cn/adplayer/
 @@.com/ad.$domain=0379home.com
-@@.com/ad/$domain=noahedu.com
-@@.com/ad/$domain=hanjuwang.com|kuakao.com|studioclassroom.com
+@@.com/ad/$domain=hanjuwang.com|kuakao.com|noahedu.com|studioclassroom.com
 @@.com/ads/$domain=88boxjx.com
 @@.com/adv/$domain=manhua.weibo.com|my.ctrip.com
 @@.jstv.com/c/gg/
@@ -10337,14 +10336,14 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||piccool.com/2home/phpAdsNew/
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
 @@||pos.baidu.com/acom?di=$domain=coladrive.com|colayun.com|excelhome.net
-@@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
-@@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
 @@||pos.baidu.com/acom?di=1147178&$domain=fxpan.com
 @@||pos.baidu.com/acom?di=1167512&$domain=fxpan.com
 @@||pos.baidu.com/acom?di=u1460926&
 @@||pos.baidu.com/acom?di=u1671167&
 @@||pos.baidu.com/acom?di=u1705639&
 @@||pos.baidu.com/ecom?$domain=9duli.com
+@@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
+@@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
 @@||ps123.net/MyFile/toptxt.js
 @@||pub.alimama.com/common/adzone/
 @@||qidian.com/ploy/20*.swf
