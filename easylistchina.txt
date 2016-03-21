@@ -1171,11 +1171,9 @@ ubmcmm.baidustatic.com
 ||jjwxc.net/jjad*.html$popup
 ||kanzipai.com^$popup,domain=zhongzi.in
 ||kuai.xunlei.com/do_e_mu?data=$popup
-||lager.com.tw^$popup,domain=gamer.com.tw
 ||miaozhen.com^$popup,domain=iqiyi.com
 ||moe.005.tv^$popup,third-party
 ||moezone.taobao.com^$popup,domain=www.tsdm.net
-||netmarble.com^$popup,domain=gamer.com.tw
 ||qidian.com/showavd.$popup
 ||smartor.org/iclk/?zoneid=$popup
 ||sohu.com/i/?pvid=$popup
@@ -1184,7 +1182,6 @@ ubmcmm.baidustatic.com
 ||taobao.com^$popup,domain=aadaili.com|hacg.li|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
-||x-legend.com.tw^$popup,domain=gamer.com.tw
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
@@ -5473,7 +5470,8 @@ _yad_jsonp_
 ||gouhb.com/skin/jww/images/20141029114*.png
 ||beva.cn/erge/images/paster.swf?*&ad_data_url=
 ||hdslb.com/group1/$object-subrequest,domain=bilibili.com
-||bahamut.com.tw/B/2KU/71/0001346771.JPG$~collapse
+||bahamut.com.tw^*/0001346771.JPG$~collapse
+||bahamut.com.tw/s01/201603/36352031b8663ba0058e50b5d98c265c.JPG$~collapse
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
