@@ -5473,7 +5473,9 @@ _yad_jsonp_
 ||gexing.com/i/*960x
 !------------------------Specific element hiding rules------------------------!
 gexing.com###index-topAd
-www.tiexue.net##STYLE + SCRIPT + DIV + DIV[class]
+tiexue.net##.wangpadan
+tiexue.net##A[href*=".cokolo."]
+tiexue.net##STYLE + SCRIPT + DIV + DIV[class]
 huoche.net##.SX2016
 chinanews.com###chat
 chinanews.com###chat1
@@ -9730,10 +9732,10 @@ gamebase.com.tw##span[id^="aid_"]
 sina.com.cn##span[id^="cont-tanx-a-"]
 hkgolden.com##span[id^="lineImage"]
 hanzify.org##span[style^="float:right;"]
-www.tiexue.net##style + [style="display:none;"] + div[class]
+tiexue.net##style + [style="display:none;"] + div[class]
 tiexue.net##style + div[class] > style ~ img
 tiexue.net##style + img + div[class] > .list
-www.tiexue.net##style + script + div[class]
+tiexue.net##style + script + div[class]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
