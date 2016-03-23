@@ -2978,6 +2978,7 @@ _yad_jsonp_
 ||geilwx.com/read/ad
 ||get.766.com^
 ||gexing.com/api/api_get_tankuang.php?
+||gexing.com/i/*960x
 ||gexing.com/j/??zmask.js,easing.js?
 ||gezila.com/v3/ad/
 ||gfan.com/plugin.php?id=gfan_viewpic:gfan_adView
@@ -4704,6 +4705,7 @@ _yad_jsonp_
 ||stcn.com/common/flash/aigu.swf
 ||steachs.com/wp-content/uploads/2015/12/nippon.gif
 ||steamcn.com/img/
+||steelcn.cn/img/bj_*_146_315.jpg
 ||stheadline.com/*banner$script
 ||stheadline.com^*/right_promo.js
 ||stnn.cc/images/xy/*80px
@@ -5470,21 +5472,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||gexing.com/i/*960x
-||steelcn.cn/img/bj_*_146_315.jpg
 !------------------------Specific element hiding rules------------------------!
-gexing.com###index-topAd
-tiexue.net##.wangpadan
-steelcn.cn##.new_fixed
-tiexue.net##A[href*=".cokolo."]
-tiexue.net##STYLE + SCRIPT + DIV + DIV[class]
-huoche.net##.SX2016
-chinanews.com###chat
-chinanews.com###chat1
 gpcxw.com###AA2
-gdzjdaily.com.cn###bigblockAd
-gdzjdaily.com.cn###politicTopAd
-gdzjdaily.com.cn###wrapper > DIV[style^="margin-top:6px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5834,6 +5823,7 @@ zol.com.cn###bgzy
 zol.com.cn###bgzy2
 eol.cn###big-ad-img
 xxsy.net###bigbanner_1
+gdzjdaily.com.cn###bigblockAd
 bitauto.com###bitAd_background
 bitauto.com###bitAd_floatFlash
 aibang.com###bizTopADBox
@@ -5895,6 +5885,8 @@ hxnews.com###change_1
 hxnews.com###change_1 + .rowa
 longzhu.com,tga.plu.cn###channels-roll
 wlanwifi.net###chart + center
+chinanews.com###chat
+chinanews.com###chat1
 i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"]
 cqfishing.net,gpshk.cc###chs_bannerArea
 gz0668.com###closexguide
@@ -6266,6 +6258,7 @@ vanpeople.com###inbodyad
 qyer.com###ind_topads
 skinme.cc###index-server-ad
 uisdc.com###index-tl-ad
+gexing.com###index-topAd
 ydss.cn###indexBlad
 baidu.com###index_banner_top
 zongheng.com###index_game
@@ -6476,6 +6469,7 @@ yxingqiu.com###playertipian
 mail.qq.com###plp_ad_container
 image.baidu.com###plz-albums
 image.baidu.com###plz-head-banner
+gdzjdaily.com.cn###politicTopAd
 game2.cn###pop-flash
 aibang.com###popAd
 qq.com###pop_apps_sponsors
@@ -6791,6 +6785,7 @@ v17go.com###wp > a
 chcj.net,yixingjia.com###wp > table[width="960"]
 21edu8.com###wrap[style="margin-top:5px;margin-bottom:5px;height:90px;"]
 taoguba.com.cn###wrap_footer > div[style*="960"]
+gdzjdaily.com.cn###wrapper > div[style^="margin-top:6px;"]
 wuleba.com###wulebashowcpc
 huanqiu.com###wxhz1
 oh100.com###wzMid1
@@ -6927,6 +6922,7 @@ woshipm.com##.R-ad
 3jy.com,i51yy.com##.Rad
 198zone.com##.Rad2
 qidian.com##.RightAD
+huoche.net##.SX2016
 bs028.com##.Sys_head
 dfdaily.com##.TOP_BANNER
 avmimi.com##.TW_UTtoy
@@ -8410,6 +8406,7 @@ yes-news.com##.new-sidebar-today-300ad
 i-part.com.tw##.newAd
 rfidworld.com.cn##.newAdDivClass
 tvhome.com##.new_adv
+steelcn.cn##.new_fixed
 halidown.com##.new_head_ad
 wuseng.com##.new_pic01
 mtrend.cn##.new_top
@@ -9001,6 +8998,7 @@ xuenb.com##.w728
 blue-way.com.tw##.w960 ~ a
 qikuyou.com##.w960[style="height:90px;"]
 xp510.com##.wallpaper-area
+tiexue.net##.wangpadan
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.wanle_tab_tip
 baidu.com##.wapAd
 xilu.com##.wap_advert
@@ -9117,6 +9115,7 @@ xiaohua.hao.360.cn##a[href$="?realtime"]
 loldk.com##a[href*=".2144.cn"]
 163.com##a[href*=".admaster."]
 iqiyi.com##a[href*=".banggo."]
+tiexue.net##a[href*=".cokolo."]
 dapenti.com##a[href*=".fang.com"]
 dapenti.com,dexiazai.com,iqiyi.com##a[href*=".jd.com"]
 tiexue.net##a[href*=".junph."]
@@ -9737,6 +9736,7 @@ hanzify.org##span[style^="float:right;"]
 tiexue.net##style + [style="display:none;"] + div[class]
 tiexue.net##style + div[class] > style ~ img
 tiexue.net##style + img + div[class] > .list
+tiexue.net##style + script + div + div[class]
 tiexue.net##style + script + div[class]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
