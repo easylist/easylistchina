@@ -65,7 +65,6 @@ hk.yahoo.com###mntl1
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
 ||samboc.com^$third-party
-||sitemaji.com^$third-party
 ||szvr.com^$third-party
 ||tuiguang.178.com^
 ||ubcpm.com^$third-party
@@ -499,6 +498,7 @@ _mobilebanner_v1_550x60.jpg
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
+||sitemaji.com^$third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -5477,7 +5477,9 @@ _yad_jsonp_
 ||fulishequ.com/abc/images/
 ||mitbbs.*/tggl_img/
 ||files.nyaa.se/b*.jpg
+||gtimg.cn/mediastyle/event/20160306_music_live/img/skd.jpg
 !------------------------Specific element hiding rules------------------------!
+qq.com##.aaddvv__list
 gpcxw.com###AA2
 nyaa.se###main > DIV[style^="float"]
 mitbbs.ca,mitbbs.com##.index_con_left_tg
