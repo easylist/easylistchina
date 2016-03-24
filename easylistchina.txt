@@ -14,7 +14,6 @@
 /adflash/*
 /attachments/ad/*
 /tan1.js
-@@||hichannel.hinet.net^$object-subrequest
 @@||poster.weather.com.cn/p_files/base/$image
 @@||union.bokecc.com/crossdomain.xml
 hk.search.auctions.yahoo.com###yauadysmh
@@ -3212,8 +3211,6 @@ _yad_jsonp_
 ||hkheadline.com/*banner$script
 ||hkheadline.com/*promo/
 ||hkheadline.com^*/right_promo.js
-||hkitblog.com/logo/hkitblog_zh.jpg
-||hkitblog.com/wp-content/uploads/2015/08/hkit-blog-banner.jpg
 ||hkslg.com/gaogao/
 ||hktvmall.com/api/preroll/getList?
 ||hkwb.net/extra/1992.files/2015yeshu.swf
@@ -5093,7 +5090,6 @@ _yad_jsonp_
 ||wuhan.net.cn/guanggaojs/
 ||wuhan.net.cn/show.html
 ||wumii.cn/site_images/c/
-||wumii.com/ext/widget/hot.htm?prefix=http://blog.const.net.cn&
 ||wuseng.com/templets/default/statics/js/mm.js
 ||wuxi.cn/index.php?m=poster&
 ||wuyou.*/0000/banner.gif
@@ -9975,6 +9971,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||hichannel.hinet.net^$object-subrequest
 @@&ad_type=$domain=x.jd.com
 @@||wgun.net^$generichide
 @@.gif#$domain=wgun.net
