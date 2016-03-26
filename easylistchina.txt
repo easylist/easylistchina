@@ -1546,6 +1546,7 @@ _yad_jsonp_
 ||17558.net/youdiancms.gif
 ||178.com/dota/201409/205976017190/205976025825.jpg
 ||178.com/glr.js
+||17bt.cc/js/
 ||17ce.com/118/t_banner.html
 ||17dm.com/s/common/js/*AD.js
 ||17huohu.com/img/skin/qnh/
@@ -3140,7 +3141,6 @@ _yad_jsonp_
 ||hc360.com/news/201207/201207241712413488.jpg
 ||hc360.com/security/201311/201311151050289368.swf
 ||hc360.com/security/201409/201409021830024990.jpg
-||17bt.cc/js/
 ||hd62.com/img/
 ||hdad.baike.com^
 ||hdpfans.com/images/hotapp/
@@ -3468,7 +3468,7 @@ _yad_jsonp_
 ||imgur.com/pBL7joM.gif
 ||imgur.com/qHtXzOk.jpg
 ||imgur.com/Za3ll.gif
-||imgur.com^$domain=wgun.net
+||imgur.com^$domain=hdarea.co|wgun.net
 ||imgur.com^*.gif$domain=18p2p.com
 ||imp3.net/data/js$script
 ||impservice*.yodao.com^
@@ -5471,7 +5471,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||imgur.com^$domain=hdarea.co
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9763,6 +9762,7 @@ travel.qingdaonews.com##table[style="height:200px; overflow:hidden;"]
 dijiuzww.com##table[style="width:770px;height:260px"]
 28xl.com##table[style^="width:678px; height:280px;"]
 jjwxc.net##table[style^="width:984px;"]
+hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 baoliaomi.com##table[width="1000"]
 17kqw.com##table[width="1000"][height="549"]
 66rd.cn##table[width="1000"][height="60"]
@@ -9800,7 +9800,6 @@ you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 dbw.cn##table[width="980"][height="100"]
 dnvod.eu,duonao.tv##table[width="988"]
-hcbbs.com##TABLE[width="100%"][bordercolor="#CCCCCC"]
 sd.xinhuanet.com##table[width="990"][bgcolor="#333333"]:nth-child(5)
 yaerwen.com##table[width^="9"][height="250"]
 net767.com##table[width^="9"][height="68"]
@@ -9968,8 +9967,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||btaia.com^$generichide
-@@||avmoo.com^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10173,6 +10170,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
+@@||avmoo.com^$generichide
 @@||bahamut.com.tw/JS/ad/mobileBigBanner.js
 @@||banma.com/statics/js/??
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
@@ -10183,6 +10181,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||biquge5.com/jquery/biquge.js
 @@||biz.gexing.com/bottom_
 @@||briian.com/advert.
+@@||btaia.com^$generichide
 @@||buy.ccb.com/public/js/ad.js
 @@||cache.adm.cnzz.net^$domain=gx.91s.org|xoyo.com
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
