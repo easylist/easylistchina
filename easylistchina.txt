@@ -498,7 +498,6 @@ _mobilebanner_v1_550x60.jpg
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-|http://*.net/s.php?id=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -535,6 +534,7 @@ ubmcmm.baidustatic.com
 |http://*.com/s.php?id=$script,third-party
 |http://*.info/s.php?id=$script,third-party
 |http://*.me/s.php?id=$script,third-party
+|http://*.net/s.php?id=$script,third-party
 |http://*.tw/s.php?id=$script,third-party
 |http://*//s.php?id=$script,third-party
 |http://*:*/s.php?id=$script,third-party
@@ -1143,8 +1143,6 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
-||baidu.com/baidu.php?url=$popup
-||baidu.com/adrc.$popup
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1160,6 +1158,8 @@ ubmcmm.baidustatic.com
 ||ad.189so.cn^$popup
 ||aiwanma99.com^$popup
 ||ark.letv.com/t?$popup
+||baidu.com/adrc.$popup
+||baidu.com/baidu.php?url=$popup
 ||c.admaster.com.cn^$popup
 ||dhqp68.com^$popup,third-party
 ||gamer.com.tw/adcounter.$popup
@@ -3447,6 +3447,7 @@ _yad_jsonp_
 ||img.ybbbs.com/2014/
 ||img.ybbbs.com/2015/
 ||img1.126.net^
+||img1.6park.com/img/$image
 ||img1.autofan.com.cn/swf/
 ||img1.jczqw.com/img/
 ||img2.126.net^
@@ -5474,11 +5475,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||img1.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-163.com###j-sidead
-ali213.net##A[href^="http://g.s8dj.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6290,6 +6288,7 @@ m.letv.com###j-bottomBanner
 iwan.baidu.com###j-ditu
 pchome.net###j-ghs
 iwan.baidu.com###j-media
+163.com###j-sidead
 yaolan.com###j_focus_img
 tieba.baidu.com###j_light_see_index
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_star_bus_before
@@ -9193,6 +9192,7 @@ zhibo8.cc##a[href^="http://caipiao."]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
+ali213.net##a[href^="http://g.s8dj.com/"]
 cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 people.com.cn##a[href^="http://jump.726p."]
@@ -9973,9 +9973,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||avsox.com^$generichide
-@@||avmemo.com^$generichide
-@@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10179,7 +10176,9 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
+@@||avmemo.com^$generichide
 @@||avmoo.com^$generichide
+@@||avsox.com^$generichide
 @@||bahamut.com.tw/JS/ad/mobileBigBanner.js
 @@||banma.com/statics/js/??
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
@@ -10252,6 +10251,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||esquirehk.com/design/esquirehk/javascript/adtag_
 @@||f70123.com^$script,domain=flv.tv
 @@||fharr.com^$generichide
+@@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||forum.51nb.com/images/*/
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
