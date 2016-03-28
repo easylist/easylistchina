@@ -3098,7 +3098,6 @@ _yad_jsonp_
 ||haha.mx/images/market/
 ||haha.mx/upload/data/detail_
 ||haha.mx/upload/data/list_sidebar_
-||teteyu.com/tpl/*.html
 ||haiwainet.cn*/k.js
 ||hanfanba.com/template/hanfanba/img/tb-
 ||hangzhou.com.cn/extra/flash/hzwarticle300.swf
@@ -4667,6 +4666,7 @@ _yad_jsonp_
 ||southmoney.com/page/top
 ||soxia.cc/img/baoyue*.gif
 ||sozi.cn/templets/sozi/js/js.js
+||sp*.baidu.com^*.gif?
 ||spbonow.com/images/fyt.gif
 ||spbonow.com/js/float.js
 ||spbonow.com/UploadFiles/20$image
@@ -4787,6 +4787,7 @@ _yad_jsonp_
 ||tcjy66.cc^
 ||tcmap.com.cn/js/b_
 ||techweb.com.cn^*aliyun
+||teteyu.com/tpl/*.html
 ||tf.360.cn^
 ||tfg2.com/images/upfile/AD/
 ||tg.delnapb.com^
@@ -5473,10 +5474,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sp*.baidu.com^*.gif?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ck101.com##.adTopBox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7096,6 +7095,7 @@ app01.com.tw##.adOursWrap
 jschina.com.cn##.adR
 ifeng.com##.adR01
 ifeng.com##.adR330
+ck101.com##.adTopBox
 baidu.com##.adTopImg
 mop.com##.adView
 cztv.com##.ad_003
@@ -7730,13 +7730,10 @@ baidu.com##.ec_im_container
 ettoday.net##.ec_menu
 baidu.com##.ec_sma_im
 baidu.com##.ec_wise_ad
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[tpl^="ecl_health"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-health-poplist-wrapper
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-loan-list-card
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-tg-content
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-wealth-list-card-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[class^="ecl"][class*="game"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[tpl="app_normal"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ecl-weigou-nav-buy
 easou.com##.ecom-adTop
 news.baidu.com##.ecom_pingzhuan
@@ -9342,7 +9339,9 @@ cztv.com##div[class^="banner_"]
 ncxhw.com##div[class^="box_ad"]
 78dm.net##div[class^="duilian"]
 syd.com.cn##div[class^="eap"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl"][class*="game"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl-edu-"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecr"][class*="game"]
 qhnews.com##div[class^="fl slider_box"]
 loveshang.com##div[class^="float-ad-"]
 qhnews.com##div[class^="fr slider_box"]
@@ -9667,8 +9666,9 @@ www.jstv.com##div[style^="width:978px; height:100px;"]
 chinawin.net##div[style^="width:978px;height:90px"]
 21yq.com##div[style^="width:980px;height:80px;"]
 zol.com.cn##div[style^="width:980px;height:90px;text-align:center;"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="app_normal"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl="houses_new"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##DIV[class^="ecr"][class*="game"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="ecl_health"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="job"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
