@@ -3704,6 +3704,8 @@ _yad_jsonp_
 ||kamlm.com/kmgg
 ||kan300.com/js/union/
 ||kan84.net/js/bdgg/
+||kan98.com/index.php?m=content&c=index&a=*ad
+||kan98.com/index.php?m=poster&
 ||kankanmi.com/js/zjgg
 ||kanpp.net/Uploads/ad/
 ||kaoyan1v1.com/IAA/
@@ -5476,8 +5478,6 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||kan98.com/index.php?m=content&c=index&a=*ad
-||kan98.com/index.php?m=poster&
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -9142,6 +9142,7 @@ kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
 dy2018.com,piaohua.com,xiaopian.com##a[href*="/htmlcode/"]
+6park.com##a[href*="/parks/out."]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
@@ -9198,7 +9199,6 @@ ali213.net##a[href^="http://g.s8dj.com/"]
 cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 people.com.cn##a[href^="http://jump.726p."]
-6park.com##A[href*="/parks/out."]
 100ksw.com##a[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
 m.jrj.com.cn##a[href^="http://m.2345.com/?"]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
@@ -9806,7 +9806,7 @@ ppmsg.net##table[width="960"][height="335"]
 94as.com##table[width="960"][height="70"]
 123kubo.com,gpcxw.com,kanguba.com##table[width="960"][height="90"]
 xindm.cn##table[width="976"][background="/image/04/line2.gif"]
-6park.com##TABLE[width="978"] > TBODY > TR > TD[width^="23"]
+6park.com##table[width="978"] > tbody > tr > td[width^="23"]
 wangpanwu.com##table[width="978"][align="center"]
 you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
@@ -9979,9 +9979,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||chinahr.com/ad$domain=chinahr.com
-@@||baidustatic.com/js/os.js$domain=coladrive.com
-@@||pos.baidu.com^*?di=$domain=coladrive.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10019,8 +10016,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adsbygoogle.$domain=serve.netsh.org
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/AdShow/*$domain=mndxy.org
-@@/advert/*$domain=moretv.com.cn
-@@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|juxiangyou.com|locuspublishing.com
+@@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
@@ -10190,6 +10186,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||avmoo.com^$generichide
 @@||avsox.com^$generichide
 @@||bahamut.com.tw/JS/ad/mobileBigBanner.js
+@@||baidustatic.com/js/os.js$domain=coladrive.com
 @@||banma.com/statics/js/??
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
@@ -10217,6 +10214,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cbjs.baidu.com/js/s.js$domain=play.yue365.com
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||cdn.wdlm.cn^*/
+@@||chinahr.com/ad$domain=chinahr.com
 @@||chinahr.com/images/phpads/
 @@||citysbs.com^*/swfupload/
 @@||click.union.jd.com^
@@ -10359,6 +10357,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pos.baidu.com/acom?di=u1671167&
 @@||pos.baidu.com/acom?di=u1705639&
 @@||pos.baidu.com/ecom?$domain=9duli.com
+@@||pos.baidu.com^*?di=$domain=coladrive.com
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
 @@||ps123.net/MyFile/toptxt.js
@@ -10482,9 +10481,9 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
-@@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 yun.baidu.com#@#.share-line
 dj92cc.com,tingqq.com#@#.share_list
+@@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
