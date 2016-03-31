@@ -501,10 +501,6 @@ _mobilebanner_v1_550x60.jpg
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||3vlm.com^$third-party
-||anreson.net^
-||cnbole.net^
-||ws7j.com^
 /AShow.aspx?AID=
 /center?advId=
 /code/cpc.asp?
@@ -615,6 +611,7 @@ ubmcmm.baidustatic.com
 ||3g.990.net^
 ||3p-link.com^$third-party
 ||3qmh.com^
+||3vlm.com^$third-party
 ||44pv.com^$third-party
 ||4936.cn^$third-party
 ||4kt2.com^$subdocument
@@ -717,6 +714,7 @@ ubmcmm.baidustatic.com
 ||allyes.$third-party
 ||amazingmagics.com^
 ||andmejs.com^$third-party
+||anreson.net^
 ||aoparking.com^$third-party
 ||aralego.com^
 ||at918.com^$third-party
@@ -744,6 +742,7 @@ ubmcmm.baidustatic.com
 ||cifenqi.com^$third-party
 ||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
+||cnbole.net^
 ||cnsjx.net^
 ||cnxad.com^$third-party
 ||cnxad.net^
@@ -1084,6 +1083,7 @@ ubmcmm.baidustatic.com
 ||wqsph.net^
 ||wqzyt.net^$third-party
 ||ws341.com^
+||ws7j.com^
 ||wudang05.com^$third-party
 ||x9377a.com^
 ||xa9t.com^
@@ -1402,6 +1402,7 @@ _yad_jsonp_
 ||05sun.com/js/downinfo.js
 ||060s.com/my_ad/
 ||0668gz.com/data/attachment/portal/
+||0712fang.com/gonggong/js/cf_flash.js
 ||073img.com^*/rich.js
 ||0756.la/ad-htm/
 ||0758net.com/data/attachment/portal/
@@ -1638,6 +1639,7 @@ _yad_jsonp_
 ||268de.com/js/
 ||27.255.67.120^
 ||28hse.com/adsman/www/images/
+||28mtv.com/js/lrtk.js
 ||2btu.com/gg.jpg
 ||2ccc.com/images/show/
 ||2ccc.com/images/sino.gif
@@ -1881,6 +1883,7 @@ _yad_jsonp_
 ||67.159.44.187/js/v1.js
 ||676000.com/001.htm
 ||68design.net/inc/news.
+||68mtv.com/js/gg.js
 ||69.30.217.155^*.png
 ||6949.com/640x44.htm
 ||6949.com/ggs_
@@ -3185,6 +3188,7 @@ _yad_jsonp_
 ||hhmanhua.net/hh/h*.js
 ||hhmanhua.net/jsc/book_
 ||hhmanhua.net/jsc/stat.js
+||hi-pda.com/forum/20160329.png
 ||hi.people.com.cn/NMediaFile/$object
 ||hi.people.com.cn/NMediaFile/*.gif
 ||hi.people.com.cn/NMediaFile/2013/0929/LOCAL201309291733411880780280942.jpg
@@ -3305,6 +3309,7 @@ _yad_jsonp_
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
 ||i.supfree.net^*.js
 ||i.syasn.com^
+||i2.supfree.net^*.js
 ||i322.com/ad_avshow/
 ||iads.xinmin.cn^
 ||iapolo.com/myjs/
@@ -5476,16 +5481,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||0712fang.com/gonggong/js/cf_flash.js
-||i2.supfree.net^*.js
-||hi-pda.com/forum/20160329.png
-||28mtv.com/js/lrtk.js
-||68mtv.com/js/gg.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-douyu.com##.assort-ad
-ruanyifeng.com###homepage_pos
-html-js.com##.top
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6232,6 +6229,7 @@ ithome.com###hl
 ithome.com###hl-toutiao > h2 > a[href*=".ruanmei."]
 ithome.com###hla
 t.qq.com###homeBannerNew
+ruanyifeng.com###homepage_pos
 39.net###hotTopicsReco
 3boys2girls.com###hotbar
 nownews.com###hotchannel
@@ -7360,6 +7358,7 @@ focus.cn##.aside-banners
 anquan.org##.aside_profile_activity > div:first-child
 showtv.com.tw##.ask18
 asp300.com##.asp300-indexAD
+douyu.com##.assort-ad
 haosou.com,so.com##.atom-adv
 gamefy.cn##.att-bar
 u17.com##.auto_ad
@@ -8886,6 +8885,7 @@ wdlm.cn##.tonglanbanner
 fuliba.net,fulibba.com##.tool_news1
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.tools > .shouji
 loldk.com##.tools-recommend
+html-js.com##.top
 meizhou.com##.top + .w1000
 2345.com##.top > .fred
 uhaoye.com##.top-a
@@ -9981,10 +9981,6 @@ brandsales.58.com#@#div[id^="ad_"]
 m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mfgun.com
-@@||avmo.pw^$generichide
-@@||ruten.com.tw/ahd/fetch_ad.php?
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10030,7 +10026,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advertisement.js$domain=fharr.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
-@@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mfgun.com|mahua.com
+@@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com|mfgun.com
 @@/advs/*$domain=dianxinos.com|gotobuy.com.tw|lklm.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
@@ -10189,6 +10185,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
 @@||avmemo.com^$generichide
+@@||avmo.pw^$generichide
 @@||avmoo.com^$generichide
 @@||avsox.com^$generichide
 @@||bahamut.com.tw/JS/ad/mobileBigBanner.js
@@ -10232,6 +10229,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
+@@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
 @@||csbew.com/FrameWork/AFP/
 @@||csbew.com/k.js$domain=mfgun.com
 @@||csbew.com^$domain=longbl.com
@@ -10347,7 +10345,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||ouyaoxiazai.com/shouyead.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=7958.com.cn|lepan.cc|monnsutogatya.com|zdaili.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=7958.com.cn|lepan.cc|mfgun.com|monnsutogatya.com|zdaili.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||pep.com.cn/rjs/guanggao/
@@ -10381,6 +10379,7 @@ m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ref.so/templates/ref/short_show/adview_
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||rm.sina.com.cn/minisite/$domain=weibo.com
+@@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.lianmeng.360.cn^$domain=fxpan.com
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
