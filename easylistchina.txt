@@ -375,6 +375,7 @@ _mobilebanner_v1_550x60.jpg
 ###tr_ad8
 ###tr_ad9
 ###tripadvisor-ad
+###ts-businessAds
 ###xinnxi
 ###xinxi
 ###ygteam_qqnews
@@ -458,6 +459,7 @@ _mobilebanner_v1_550x60.jpg
 ##.room-ad-top
 ##.room-ad-video-down
 ##.scupioadslot
+##.showHaoSouBanner
 ##.sxAdBox
 ##.theme_custom_slidebox-ad-below
 ##.tipadds
@@ -500,11 +502,7 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###ts-businessAds
-##.showHaoSouBanner
 !----------------------------------Ads-Union----------------------------------!
-||df77.com^
-/m/i.php?id=$script,third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
@@ -523,6 +521,7 @@ _mobilebanner_v1_550x60.jpg
 /fshow.php?id=$script,third-party
 /i.php?z=$script,third-party
 /js/cpv_dl.js
+/m/i.php?id=$script,third-party
 /mobile/mads.js
 /mshow.aspx?AID=
 /page/?s=$third-party
@@ -784,6 +783,7 @@ ubmcmm.baidustatic.com
 ||datafastguru.info^
 ||dbncp.com^
 ||dddddd.net^$third-party
+||df77.com^
 ||dian500.com^$third-party
 ||dianxin.com^$third-party
 ||displink.com^$third-party
@@ -2959,6 +2959,8 @@ _yad_jsonp_
 ||fun.ynet.com^
 ||func.tw/image/func2.png
 ||funtude.com/include/inc/ad_data.
+||fwindy.win/asd/
+||fwindy.win/js/s*.gif
 ||fwxgx.com/u/ad/show_type/
 ||fx114.net/images/bangbaotao.jpg
 ||fx678.com/proxy
@@ -3885,6 +3887,8 @@ _yad_jsonp_
 ||ltxszw.com/js/350.png
 ||luckstatic.v1.cn/st/10000/
 ||luuu1.com/g/
+||lvse.com/images/gerendaohang.gif
+||lvse.com/upload_imgs/57401e9d3f6f6c75e284
 ||lxting.com^
 ||lxty66.com/js/float.js
 ||ly.js.cn/adv/
@@ -4244,7 +4248,7 @@ _yad_jsonp_
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||picuphost.com^$domain=mmload.info
 ||pifa.fobshanghai.com/link/
-||piimg.com^$domain=fulidh.com
+||piimg.com^$domain=fulidh.com|xiaodao.la
 ||pimg.tw/ifans/1399368662-4247048381.png
 ||pingpang.info/banner/
 ||pingpang.info/bbs/UploadFile/2013-11/xiom.gif
@@ -4267,6 +4271,7 @@ _yad_jsonp_
 ||popme.163.com/js/vedioad_
 ||poppur.com/banner/962x100.gif
 ||poster.weather.com.cn^
+||potplayer.org/sc/
 ||poxiao.com/template/default/images/12345.js
 ||ppsj.com.cn/images/ppsj300.gif
 ||ppsj.com.cn/images/usa_250_120.gif
@@ -5498,17 +5503,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||fwindy.win/asd/
-||fwindy.win/js/s*.gif
-||lvse.com/images/gerendaohang.gif
-||lvse.com/upload_imgs/57401e9d3f6f6c75e284
-||potplayer.org/sc/
-||piimg.com^$domain=xiaodao.la
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-lvse.com##.ad_box_250x250
-6park.com###weibozkinfo
-ditu.so.com###zt_right
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6800,6 +6796,7 @@ jstv.com###vplayad
 zqzq.com###wAdTop1
 zqzq.com###wAdTop2
 kamlm.com###wanmeiffad1
+6park.com###weibozkinfo
 sd888.org###weixinL
 sd888.org###weixinR
 sogou.com###weixin_adv
@@ -6862,6 +6859,7 @@ gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 189.cn###zqtopag_bg
 lh168.net###zt1Box
+ditu.so.com###zt_right
 xsbashi.com###zuo
 51.la###zztxt
 china.com.cn,csdn.net,cul.shangdu.com,cyol.net,wxrb.com,yam.com##.AD
@@ -7178,6 +7176,7 @@ shm.com.cn##.ad_baidu_300250
 shm.com.cn##.ad_baidu_58090
 shm.com.cn##.ad_baidu_64060
 81.cn##.ad_banner_1000x120
+lvse.com##.ad_box_250x250
 ifeng.com##.ad_btn
 sina.com##.ad_c
 kekenet.com##.ad_catagory
@@ -10535,6 +10534,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/analytics.php?$domain=xcar.com.cn
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
+@@/iplookup.$domain=dongfeng-nissan.com.cn|sina.com.cn
 @@/urchin.js$domain=on.cc
 @@||7m.cn/v2/js/analyse.js
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
@@ -10556,7 +10556,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||pingjs.qq.com/ping_tcss_ied.js$domain=lol.qq.com
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
-@@/iplookup.$domain=dongfeng-nissan.com.cn|sina.com.cn
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$domain=qq.com
