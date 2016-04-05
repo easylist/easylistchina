@@ -3193,6 +3193,8 @@ _yad_jsonp_
 ||hf365.com/0/13/79/87/13798795_912593.jpg
 ||hf365.com/0/14/31/00/14310068_933922.png
 ||hf365.com/0/14/60/93/14609355_921128.jpg
+||hf365.com/0/15/84/80/15848002_619982.jpg
+||hf365.com/swf/0/15/80/98/15809848_966570.swf
 ||hfchenming.com.cn/ad.html
 ||hhcomic.com/hh/h*.js
 ||hhhik.com/detail/play_*.js
@@ -4396,6 +4398,7 @@ _yad_jsonp_
 ||qunar.com/vataframe/b.html?
 ||qunar.com/vataplan?framId=ifrNTOPAD&
 ||qunaso.cn/Data/upload/ad/
+||quyuedu.com/js/heheerweima.js
 ||qz828.com/css/2010/script/*ad
 ||qzntv.com^*.swf|
 ||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
@@ -4616,6 +4619,7 @@ _yad_jsonp_
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/005yyi5Jjw1eo0a59ak40j30oq02imy5.jpg
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
+||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/dd602f03jw1ex34eqejscg20u0028glt.gif
 ||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
@@ -5492,14 +5496,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
-||hf365.com/0/15/84/80/15848002_619982.jpg
-||hf365.com/swf/0/15/80/98/15809848_966570.swf
-||quyuedu.com/js/heheerweima.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-huarenjie.com##.topadcss + DIV[style="overflow:hidden"]
-hepan.com##.fivead
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7813,6 +7811,7 @@ pingpang.info##.first_body_bottom
 pingpang.info##.first_body_right
 pingpang.info##.first_body_top
 html5china.com##.firstnews
+hepan.com##.fivead
 zol.com.cn##.fix-bbs-samsung
 elecfans.com##.fix-btmad
 12306.cn##.fix-yh
@@ -8955,6 +8954,7 @@ jmw.com.cn##.top_pic
 changsha.cn,kekenet.com,lady8844.com,neotv.com.cn,sina.com.cn,xinhuanet.com##.topad
 jiasuba.com##.topad1
 huarenjie.com##.topadcss
+huarenjie.com##.topadcss + div[style="overflow:hidden"]
 qz828.com##.topadv
 itavcn.com##.topadvzone
 21ic.com,hao565.cn,pyccoo.cn,wangdaizhijia.com##.topbanner
@@ -9975,7 +9975,7 @@ ipad.tgbus.com#@#.ads01
 zhaopin.com#@#.adsBox
 xianzhenyuan.cn#@#.adsTop
 long7.qq.com#@#.adsbox
-123564.com,mfgun.com,zdaili.net#@#.adsbygoogle
+123564.com,mfgun.com,moa.tw,zdaili.net#@#.adsbygoogle
 qq.com#@#.adside
 youqu.net#@#.adtop
 4008927927.cn#@#.adv-box
@@ -10010,11 +10010,7 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-moa.tw#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
-@@||hepan.com/source/plugin/unadblock/
-@@||henan100.com/css/tpbf/pop.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moa.tw
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10321,6 +10317,8 @@ moa.tw#@#.adsbygoogle
 @@||guancha.cn/ad/m_
 @@||hd.duba.net/vip.ijinshan.com/repository/ad-images/$image,domain=vip.ijinshan.com
 @@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
+@@||henan100.com/css/tpbf/pop.js
+@@||hepan.com/source/plugin/unadblock/
 @@||hhtt.cn/web.php/ad/show
 @@||hichannel.hinet.net^$object-subrequest
 @@||hkjc.com/banners/
@@ -10383,7 +10381,7 @@ moa.tw#@#.adsbygoogle
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||ouyaoxiazai.com/shouyead.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=7958.com.cn|lepan.cc|mfgun.com|monnsutogatya.com|zdaili.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=7958.com.cn|lepan.cc|mfgun.com|moa.tw|monnsutogatya.com|zdaili.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||pep.com.cn/rjs/guanggao/
