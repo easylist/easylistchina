@@ -76,7 +76,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/images//ads/*
 .bl.test15.
 .cc/js/ads/
 .cn/ads/
@@ -175,6 +174,7 @@ hk.yahoo.com###mntl1
 /guanggao/*
 /guanggao2.
 /h/k.php?u=*&l=*&v=$third-party
+/images//ads/*
 /ina_ad_
 /jinhuatv/ad
 /js/ads/dui.js
@@ -491,6 +491,7 @@ _mobilebanner_v1_550x60.jpg
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="]
 ##a[href*="/?intr="]
+##a[href="http://u.163.com/youqian44"]
 ##a[href^="http://188.qy8.me"]
 ##a[href^="http://js.50bang.org/?"]
 ##a[href^="http://www.86600.com"]
@@ -503,10 +504,8 @@ _mobilebanner_v1_550x60.jpg
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##A[href="http://u.163.com/youqian44"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||usingde.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -1079,6 +1078,7 @@ ubmcmm.baidustatic.com
 ||unionsky2.cn^$third-party
 ||uoyrsd.com^
 ||urlad.com.tw^$third-party
+||usingde.com^$third-party
 ||v-links.net^$third-party
 ||v707070.com^
 ||vamaker.com^$third-party
@@ -2074,6 +2074,7 @@ _yad_jsonp_
 ||actoys.net/index.php?m=poster&
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
+||ad-resource.huanqiu.com^
 ||ad.12306.cn/res/*.html
 ||ad.17173.com^
 ||ad.bjmama.net^
@@ -2202,6 +2203,7 @@ _yad_jsonp_
 ||autofan.com.cn/zhaoning/*.gif
 ||autofan.com.cn/zhaoning/20*.jpg
 ||autofan.com.cn/zhaoning/GG-
+||autohome.com.cn/adfront/deliver?
 ||autohome.com.cn/Ashx/public/HeaderLayerRecApp.ashx?
 ||autoimg.cn/ad.js
 ||autoimg.cn/engine/root/fggxl.js
@@ -3008,6 +3010,7 @@ _yad_jsonp_
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gdmm.com*/mybt/
+||gdmm.com/images/leftbottom.png
 ||gdt.qq.com^
 ||geilwx.com/read/ad
 ||get.766.com^
@@ -3151,7 +3154,9 @@ _yad_jsonp_
 ||haxiu.com/data/cache/myadn-
 ||hc360.com/images/14826/289x90.jpg
 ||hc360.com/js/*hezuo.js
+||hc360.com/js/build/source/widgets/flowbao/flowbao.js
 ||hc360.com/js/hcpop_
+||hc360.com/js/module/info/info_liuliangbao.js
 ||hc360.com/list/iframe_2011hezuo.shtml
 ||hc360.com/list/iframe_2012ad_
 ||hc360.com/list/iframe_end_textadv.shtml
@@ -3432,6 +3437,7 @@ _yad_jsonp_
 ||imeee.cn/DA_HTML/bottom_960x90.html
 ||img*.6park.com/img/$image
 ||img*.bet007.com/image/*.gif
+||img*.hc360.com^*.swf
 ||img*.itiexue.net/2*.gif$domain=www.tiexue.net
 ||img*.titan007.com/image/*.gif
 ||img*.win007.com/image/*.gif
@@ -4611,6 +4617,7 @@ _yad_jsonp_
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=360zhibo.com|chakd.com|kiees.cn|kqiuba.com|lueqiu.com|macappbox.com|pptiyu.com|qqzhibo.net
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
+||sinaimg.cn/large/005M5Ibcgw1f1d5gnlocmg30qo01odgs.gif
 ||sinaimg.cn/large/005yyi5Jjw1eo0a59ak40j30oq02imy5.jpg
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
@@ -5491,21 +5498,8 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||autohome.com.cn/adfront/deliver?
-||sinaimg.cn/large/005M5Ibcgw1f1d5gnlocmg30qo01odgs.gif
-||gdmm.com/images/leftbottom.png
-||ad-resource.huanqiu.com^
-||img*.hc360.com^*.swf
-||hc360.com/js/module/info/info_liuliangbao.js
-||hc360.com/js/build/source/widgets/flowbao/flowbao.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hc360.com###endAccessories1
-hc360.com##.baidutuiguang
-hao123.com##.adMainMiddle-box
-163.com##.post_adtop_main
-tvmost.com.hk##.main_ad_b
-sina.cn##DIV[style="position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 999; width: 100%; -webkit-user-select: none; background-color: rgba(0, 0, 0, 0.4);"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6102,6 +6096,7 @@ letv.com###egg
 365kl.net###eis_pad2
 21cn.com###embed_hzh_div
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###encourage_entry
+hc360.com###endAccessories1
 hc360.com###endAdBanner
 docin.com###endSwfAd
 123.sogou.com###engineHotWord
@@ -7125,6 +7120,7 @@ newcger.com##.adFullwidth90
 sina.com.cn##.adG
 sina.com.cn##.adH
 ifeng.com##.adL660
+hao123.com##.adMainMiddle-box
 app01.com.tw##.adOursWrap
 jschina.com.cn##.adR
 ifeng.com##.adR01
@@ -7411,6 +7407,7 @@ ucbug.com##.baidu_fx
 game.9724.com##.baidu_left
 inpai.com.cn##.baiduad3
 qqcyl.net##.baiduadc
+hc360.com##.baidutuiguang
 3qzw.com##.ban1
 msn.people.com.cn##.banNSch
 phpfans.net##.banad
@@ -8345,6 +8342,7 @@ firefox.com.cn,firefoxchina.cn##.main-promote-sites
 firefoxchina.cn##.main-promote-tmall
 expreview.com##.main-side-tao
 lz.chinanews.com##.main02Mid > a
+tvmost.com.hk##.main_ad_b
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 hongfen.org##.main_adser
@@ -8574,6 +8572,7 @@ iplaysoft.com##.post > center
 vmovier.com##.post-ad-bottom
 vmovier.com##.post-right-item + a[target="_blank"]
 ihacksoft.com,ipc.me##.post-top-gg
+163.com##.post_adtop_main
 gamme.com.tw##.post_adwrpt
 tieba.baidu.com##.post_client_down
 phpvar.com##.post_content_linkad
@@ -9178,11 +9177,11 @@ kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
 dy2018.com,piaohua.com,xiaopian.com##a[href*="/htmlcode/"]
-6park.com##A[href*="out.php?"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com,lrshare.com,zdfans.com##a[href*="meidebi."]
+6park.com##a[href*="out.php?"]
 lrshare.com##a[href*="sugarhosts."]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
@@ -9618,6 +9617,7 @@ gamer.com.tw##div[style="min-height:250px;margin-bottom:10px;"]
 eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
 emuch.net##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
+sina.cn##div[style="position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 999; width: 100%; -webkit-user-select: none; background-color: rgba(0, 0, 0, 0.4);"]
 btshark.org##div[style="position: fixed; right:0px; bottom: 0px"]
 qiwen8.com##div[style="position:fixed; right:0px; bottom:50px; width:300px; height:250px; overflow:hidden; cursor:pointer;"]
 131.com##div[style="position:fixed;bottom:0;right:0;"]
@@ -9850,7 +9850,6 @@ ppmsg.net##table[width="960"][height="335"]
 94as.com##table[width="960"][height="70"]
 123kubo.com,gpcxw.com,kanguba.com##table[width="960"][height="90"]
 xindm.cn##table[width="976"][background="/image/04/line2.gif"]
-6park.com##table[width^="97"] > tbody > tr > td[width^="23"]
 wangpanwu.com##table[width="978"][align="center"]
 you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
@@ -9859,6 +9858,7 @@ dnvod.eu,duonao.tv##table[width="988"]
 sd.xinhuanet.com##table[width="990"][bgcolor="#333333"]:nth-child(5)
 yaerwen.com##table[width^="9"][height="250"]
 net767.com##table[width^="9"][height="68"]
+6park.com##table[width^="97"] > tbody > tr > td[width^="23"]
 discuss.com.hk##tbody[id^="normalthread_"] + tbody > tr > td[align="center"][colspan="6"]
 hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 xici.net##td.doc_sign
@@ -10023,7 +10023,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||autohome.com.cn/adfront/deliver?*%*%*%*&pageid=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10227,6 +10226,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||aspjzy.com/jsweb/js/hotsearch.js
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
+@@||autohome.com.cn/adfront/deliver?*%*%*%*&pageid=
 @@||avmemo.com^$generichide
 @@||avmo.pw^$generichide
 @@||avmoo.com^$generichide
