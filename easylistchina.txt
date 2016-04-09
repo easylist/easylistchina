@@ -1935,6 +1935,8 @@ _yad_jsonp_
 ||7c.com/7c_*.html?
 ||7dsw.com/web8/js/
 ||7edown.com/greensoft/js/
+||7hcn.com//f/*.swf
+||7hcn.com/attachments/20*.swf
 ||7k7k.com/ad-*.htm
 ||7k7k.com/loading/loading.htm
 ||7kankan.com/c/123.gif
@@ -2792,6 +2794,7 @@ _yad_jsonp_
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
 ||duba.com/static/v3/images/*.swf
+||duoku.com/common/js/hanawa.js
 ||duonao.tv//upload/$object-subrequest
 ||duonao.tv/upload/image/*.gif
 ||duonao.tv/upload/image/*.swf
@@ -3304,6 +3307,8 @@ _yad_jsonp_
 ||hxsxw.com/js/float.js
 ||hybbs.com/i/$image,object
 ||hz.shouyoutv.com^
+||hz66.com/2015/1117/1447725901890.jpg
+||hz66.com/2016/0121/1453343855270.jpg
 ||hzhyhm.com^
 ||i-gamer.net/promo_
 ||i-gamer.net^$domain=cartoomad.com|cartoonad.com|cartoonmad.com
@@ -3581,6 +3586,7 @@ _yad_jsonp_
 ||ja.gamersky.com^
 ||jandan.com/static/gggg/
 ||javjunkies.com/FL$subdocument
+||javli6.com/js/bnr_
 ||javlibrary.com/js/bnr_
 ||jb51.net/2012js/
 ||jb51.net/js/Dowplayjb51
@@ -3901,8 +3907,8 @@ _yad_jsonp_
 ||lzep.cn^*/2014ad/
 ||lzqss.net/data/attachment/portal/
 ||m.aty.sohu.com^
-||m.autohome.com.cn/ashx/by/Recommend/index.ashx?
 ||m.autohome.com.cn/*/?hid=
+||m.autohome.com.cn/ashx/by/Recommend/index.ashx?
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
 ||m1905.cn/afp/mdsfw.js
 ||m1905.cn/images/bg_index_hgn.jpg
@@ -4906,6 +4912,7 @@ _yad_jsonp_
 ||tui18.com/source/plugin/yl_curtain/template/yl_curtain.
 ||tui22.com^*/dibu.js
 ||tui22.com^*/g.js
+||tuku.cc/extra/*.js
 ||tuwan.com/templet/lol/temp/
 ||tv380.com/ovp/ovp_home/*/adi/
 ||tv6080.com/520/index.htm
@@ -5444,6 +5451,7 @@ _yad_jsonp_
 ||zhulong.com/poster/get?*_960
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
+||zhushou.360.cn/script/plugin_tiper.js
 ||zhyjw.com/IAA/
 ||zhyjw.com/xiala/
 ||zhzyw.org/js/InsertJS.js
@@ -5499,24 +5507,7 @@ _yad_jsonp_
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||hz66.com/2015/1117/1447725901890.jpg
-||hz66.com/2016/0121/1453343855270.jpg
-||duoku.com/common/js/hanawa.js
-||7hcn.com//f/*.swf
-||7hcn.com/attachments/20*.swf
-||javli6.com/js/bnr_
-||tuku.cc/extra/*.js
-||zhushou.360.cn/script/plugin_tiper.js
 !------------------------Specific element hiding rules------------------------!
-tuku.cc##.TLAD
-im286.net##.im286-t
-site.6park.com##TABLE[bordercolor="#CCCCCC"][width="1000"]
-7hcn.com##.rCont
-7hcn.com##DIV[ac] > A[href^="http"]:not([href^="http://www.7hcn."])
-hdzc.net##.top_gg1
-hdzc.net##.top_gg2
-hdzc.net###ggGao_content
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6214,6 +6205,7 @@ vvshu.com###gg120
 855699.com###gg3
 5173.com###gg330
 5173.com###ggFloat
+hdzc.net###ggGao_content
 0dian8.org###ggad_l
 0dian8.org###ggad_r
 zhiboba.cc###ggbd1
@@ -6508,6 +6500,7 @@ blog.sina.cn###pl-blog-artad
 blog.sina.cn###pl-blog-tbyy
 weibo.com###pl_login_video
 hao.360.cn###plane > .plane-hd
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .activity_head
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_left_float
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_spread_video
@@ -6975,6 +6968,7 @@ woshipm.com##.R-ad
 qidian.com##.RightAD
 huoche.net##.SX2016
 bs028.com##.Sys_head
+tuku.cc##.TLAD
 dfdaily.com##.TOP_BANNER
 avmimi.com##.TW_UTtoy
 dailynews.sina.com##.TopNav + table
@@ -8125,6 +8119,7 @@ xinhuanet.com##.iframeSrc + a[href^="http"]:not([href*=".xinhuanet."])
 aiyuke.com##.igamead
 ifeng.com##.iggLine
 outofmemory.cn##.iloveoutofmemory660
+im286.net##.im286-t
 m.cnbeta.com##.image-container
 edu24ol.com##.image_01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.images_game_container
@@ -8611,6 +8606,7 @@ dnvod.eu,duonao.tv##.r-ad4
 mop.com##.r-adv
 northnews.cn##.r-con > div[style^="width:334px;"]
 ahtv.cn,bzfl1.cc,onlinedown.net,sexbarss.net##.r1
+7hcn.com##.rCont
 g1080.com##.r_img_m
 xywy.com##.rad-img
 douni.com##.rad_1
@@ -8966,6 +8962,8 @@ mql5.com##.top_container
 youthwant.com.tw##.top_fad
 qidian.com##.top_game_info
 0579.cn,jn256.com,xizi.com##.top_gg
+hdzc.net##.top_gg1
+hdzc.net##.top_gg2
 warting.com##.top_index_ad
 5iyq.com##.top_l
 jmw.com.cn##.top_pic
@@ -9319,6 +9317,7 @@ gywb.cn##div.bill-box1.mb5
 cq.qq.com##div.clearfix[style*="1000"]
 ynet.com##div.fr
 lepan.cc,sx566.com##div:not(.viewfile_content_main_r) > .row-fluid > .widget-box > .widget-body > .ad_area
+7hcn.com##div[ac] > a[href^="http"]:not([href^="http://www.7hcn."])
 weibo.com##div[ad-data]
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 zongheng.com##div[alog-group="index_04_game"]
@@ -9811,6 +9810,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script +
 rmdown.com##table[bgcolor="#003366"]:nth-child(2)
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
 my0511.com##table[bordercolor="#C0C0C0"][border="1"]
+site.6park.com##table[bordercolor="#CCCCCC"][width="1000"]
 am5200.com,baby360.ru,haowan.ru,kv130.com,kv700.com,we5200.com,we560.com##table[bordercolor="#ffcc66"][width="900"]
 pt80.net##table[cellpadding="2"][bordercolor="#DFC5A4"]
 ip138.com##table[cellpadding="3"][width="760"][align="center"]
@@ -10033,7 +10033,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||countrygarden.com.cn/ad/$domain=countrygarden.com.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10282,6 +10281,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cntv.cn^*_ad.js
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
+@@||countrygarden.com.cn/ad/$domain=countrygarden.com.cn
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=121.40.92.135|9duli.com|dlzyw.com|ffpan.com|gqpdf.com|gqzzw.com|l7po.com|pctowap.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
