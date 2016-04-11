@@ -1217,8 +1217,7 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .fancybox.$domain=life.com.tw
-.gif|$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com|51dll.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
-.html|$domain=www.gamer.com.tw
+.gif|$domain=51dll.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
 .niusnews.com/upload/banners/
 /10jqka_info/html/ad_
 /18touch-guanggao.
@@ -5506,8 +5505,11 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##DIV[class^="ad_"]
+16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##DIV[id^="Div"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10032,6 +10034,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||16668.*/css/ad.css
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10046,7 +10049,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@.s1979.com/ad/ad*.mp4
 @@.tudouui.com^*&adSourceId=
 @@/%*logo.png|$domain=feng.com
-@@/168logo.gif$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 @@/2kuai/images/ad
 @@/32666/images/ad
 @@/ad_file/*$domain=7net.com.tw|ibon.com.tw|pxmart.com.tw
@@ -10087,8 +10089,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/cms/ads/*$domain=17.com
 @@/cntv_Advertise.js
 @@/common/cf/*$domain=66u.com|changhong.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
-@@/css/ad.$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 @@/data/attachment/*_300_250_
+@@||16668tu.com/css/ad.css
 @@/flash/ad/*$domain=haitao.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
