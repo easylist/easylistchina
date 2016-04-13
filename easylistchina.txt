@@ -5863,7 +5863,7 @@ docin.com###beforeAd
 loldk.com###before_video_ad
 1kkk.com,bukade.com,dm5.com,dm5.hk,manmankan.com,sfacg.com###beitou
 eeyy.com###beitou_box
-cnbeta.com###bfd_box_vav + .clearfix + .other_news
+cnbeta.com###bfd_box_vav + .clearfix + .other_news a
 gamersky.com###bgAdWrapClose
 91danji.com,93994.com###bg_ad
 zol.com.cn###bgzy
@@ -10047,6 +10047,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@||cbjs.baidu.com/js/o.js$domain=www.cnbeta.com
+@@||pos.baidu.com^*?di=685340&$domain=cnbeta.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=www.cnbeta.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=www.cnbeta.com
 @@||www.cnbeta.com/*/$generichide
 @@||pos.baidu.com^*?di=649316&$domain=cnbeta.com
