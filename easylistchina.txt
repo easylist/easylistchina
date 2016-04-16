@@ -1265,6 +1265,7 @@ ubmcmm.baidustatic.com
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /d125.260.gif$domain=btup.net
 /da.aspx|$domain=live8bo.com|live8bo.net|live8bo1.com|zqzq.com
+/dealer1.gif$domain=oldpig.org
 /dhfun_ad/*
 /EZ-YAHOO/*$domain=ezvivi.com
 /friends/*$image,domain=v2ex.com
@@ -4113,6 +4114,7 @@ mg*.6park.com/img/$image
 ||no1.168abc.net/upload/
 ||nokiacn.net/baidu.htm
 ||nokiacn.net/gg*.htm
+||nownews.com/assets/js/setAds.js
 ||nownews.com/events/
 ||nownews.com/include_house/product.html
 ||ntpcb.com/attachment/photo/Mon_1504/480_b4401429264247e2f342edd7ba168.png
@@ -4128,6 +4130,7 @@ mg*.6park.com/img/$image
 ||oiihk.com/anime/cm.js
 ||ok.432kkk.com^
 ||okbmf.com^*950_120
+||oldpig.org/live.html
 ||on.cc/js/v2/iframe_ysm_
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
@@ -4529,6 +4532,7 @@ mg*.6park.com/img/$image
 ||sejie2.us/images/*.gif
 ||sentsin.qiniudn.com/ad_
 ||sexbarss.net/wap/
+||sextop.com.tw/upload/blocker/header_new.gif
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
 ||sg169.com/uploadfile/*.gif
 ||sg169.com/uploadfile/*.swf
@@ -5515,15 +5519,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||oldpig.org/live.html
-/dealer1.gif$domain=oldpig.org
-||sextop.com.tw/upload/blocker/header_new.gif
-||nownews.com/assets/js/setAds.js
 !------------------------Specific element hiding rules------------------------!
-jingyan.baidu.com##.aside-pro-container
 gpcxw.com###AA2
-nownews.com###ads-footer-bar
-nownews.com###idle-layer
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5763,6 +5760,7 @@ eol.cn###adfloat_r
 linyiren.com###adone
 msn.ynet.com###adr02 + .hc1
 ahtv.cn,bejson.com,frdic.com,fububu.com,gnhome.com,huasing.net,it168.com,jjxw.cn,piao.com.cn,vansky.com###ads
+nownews.com###ads-footer-bar
 baiyjk.com###ads_14
 finance.sina.com.cn###ads_20150123
 dmfans.net###ads_250_250
@@ -6291,6 +6289,7 @@ xinhuanet.com###huazhongad
 qzone.qq.com###idQbossHotbar
 mzyz.com###idTransformView2
 win007.com###id_left_layer
+nownews.com###idle-layer
 ys168.com###idzdy1
 httpcn.com###ie6fixedTL
 fuliba.net,fulibba.com###ifanr_social_widget-4 + .widget_text
@@ -7405,6 +7404,7 @@ my0832.com##.article_top > div[style="float:right;margin:0 0 10px 10px;"]
 fulishequ.com##.asb-index-01
 pcdiy.com.tw##.aside-ad
 focus.cn##.aside-banners
+jingyan.baidu.com##.aside-pro-container
 anquan.org##.aside_profile_activity > div:first-child
 showtv.com.tw##.ask18
 asp300.com##.asp300-indexAD
@@ -10022,7 +10022,7 @@ youqu.net#@#.adtop
 veryeast.cn#@#.adv-right
 zalora.com.hk#@#.advertisement-block
 jd.com#@#.adwords
-taiwanacgn.com#@#.afs_ads
+oldpig.org,taiwanacgn.com#@#.afs_ads
 ciciwg.com#@#.aseadn
 dingdong.ganji.com#@#.banner
 10.10.5.12,192.168.128.1#@#.banner_ad
@@ -10051,9 +10051,7 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-oldpig.org#@#.afs_ads
 !---------------------------------URL Whitelist-------------------------------!
-@@||csbew.com/creative/$domain=51feels.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10222,9 +10220,9 @@ oldpig.org#@#.afs_ads
 @@||adcdn.pingan.com^
 @@||addon.discuz.com/resource/*/ad
 @@||adjs.8591.com.tw^$script
-@@||adm.cnzz.net/material/$domain=51feels.com
 @@||adm.cnzz.net/appgcm.php?sid=244627&$domain=123564.com
 @@||adm.cnzz.net/js/abase.js$domain=123564.com
+@@||adm.cnzz.net/material/$domain=51feels.com
 @@||ads.$domain=tvb.com
 @@||ads.i8.com.cn/hd/dzs/
 @@||ads.myopen.vip.com^$domain=vip.com
@@ -10286,6 +10284,7 @@ oldpig.org#@#.afs_ads
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
+@@||csbew.com/creative/$domain=51feels.com
 @@||csbew.com/FrameWork/AFP/
 @@||csbew.com/k.js$domain=mfgun.com
 @@||csbew.com^$domain=longbl.com
