@@ -75,7 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/PushSystem/attached/image/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -214,6 +213,7 @@ hk.yahoo.com###mntl1
 /pop_DJ2010.swf
 /proxy.htm?id=
 /proxy.html?id=
+/PushSystem/attached/image/*
 /QianFanAdPalyer.
 /qpxl.js
 /qqguojiad/*
@@ -506,7 +506,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||6789.net^$third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -642,6 +641,7 @@ ubmcmm.baidustatic.com
 ||63kc.com^$third-party
 ||668559.com^$third-party
 ||66san.com^
+||6789.net^$third-party
 ||67lm.com^$third-party
 ||685wo.com^$script,third-party
 ||68665565.com^
@@ -2255,6 +2255,7 @@ mg*.6park.com/img/$image
 ||baidu.com/ecom$image,script
 ||baidu.com/event/img/zwdzjs.jpg
 ||baidu.com/fanyiapp/image/wise_banner_
+||baidu.com/feproxy/ad/list?
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/img/iknow/wenku*85.
 ||baidu.com/resource/ads/
@@ -2887,6 +2888,7 @@ mg*.6park.com/img/$image
 ||enjoy101.org/hk_rm_tab_
 ||enread.com/img/185-50.gif
 ||enshi.cn/userfiles/esrb/$object,subdocument
+||ent.mb.baidu.com/webgamepage/GameAPP/
 ||entry.baidu.com/rp/home?
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
@@ -5096,6 +5098,7 @@ mg*.6park.com/img/$image
 ||wei2008.com/js/list_gg.js
 ||wei2008.com/js/t_win
 ||weibo.com/images/ad_
+||weibo.com/static/ali.html
 ||weidea.net/wp-content/ads_img/
 ||weidea.net/wp-content/host_ads.png
 ||weiqitv.com/Public/img/kt.jpg
@@ -5525,20 +5528,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ent.mb.baidu.com/webgamepage/GameAPP/
-||weibo.com/static/ali.html
-||baidu.com/feproxy/ad/list?
 !------------------------Specific element hiding rules------------------------!
-weibo.com###pl_common_ali
-moviesunusaaa.org##.yahooinner
-techweb.com.cn###Javascript\.LeftDiv
-techweb.com.cn###Javascript\.RightDiv
-zhidao.baidu.com##.ad-block-1
 gpcxw.com###AA2
-rj.baidu.com##.code-wp
-rj.baidu.com##.entrance
-rj.baidu.com##.top-recommend
-zhanqi.tv##A[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5608,8 +5599,8 @@ cqsq.com###J_posts_list > a[target="_blank"]
 2345.com###J_search_bd > div:last-child
 2345.com###J_tip_stopXP
 61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
-78dm.net,sozi.cn###Javascript\.LeftDiv
-78dm.net,qzwb.com,sozi.cn###Javascript\.RightDiv
+78dm.net,sozi.cn,techweb.com.cn###Javascript\.LeftDiv
+78dm.net,qzwb.com,sozi.cn,techweb.com.cn###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
 huarenjie.com###LeftAd2
 hcwang.cn###LeftAda
@@ -6533,6 +6524,7 @@ blog.sina.cn###pl-ad-after-comments
 blog.sina.cn###pl-adtop-bar
 blog.sina.cn###pl-blog-artad
 blog.sina.cn###pl-blog-tbyy
+weibo.com###pl_common_ali
 weibo.com###pl_login_video
 hao.360.cn###plane > .plane-hd
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
@@ -7045,6 +7037,7 @@ weibo.com##.ad-adidas
 baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
 html-js.com##.ad-blank
+zhidao.baidu.com##.ad-block-1
 15w.com,bookshi.com,iwan.baidu.com,lvseba.cn,qq.com,zol.com.cn##.ad-box
 15w.com##.ad-box-r
 easou.com##.ad-charge
@@ -7664,6 +7657,7 @@ bbs.xmfish.com##.cmp_v
 huanqiu.com##.co360Box
 hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
+rj.baidu.com##.code-wp
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http://"]:not([href*=".wenxuecity."])
 jq22.com##.col-lg-4:first-child
 big-cup.tv,g-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
@@ -7832,6 +7826,7 @@ winning11cn.com##.eis_topad
 eprice.com.tw##.emome-ad
 17huohu.com,firefoxchina.cn##.engine-jokes
 hao123.com##.enter1
+rj.baidu.com##.entrance
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.net,fulibba.com##.entry-content > div[style^="float:right"]
 shaoit.com##.entry_box_s > a
@@ -8972,6 +8967,7 @@ baidu.com##.top-banner-ad-wrap
 163.com##.top-gg
 163.com##.top-gg-area
 2345.com##.top-lvy
+rj.baidu.com##.top-recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
 ifeng.com##.top-tg
 www.uuu9.com##.top1bar
@@ -9154,6 +9150,7 @@ techweb.com.cn##.xxbox_news
 xyzc.cn##.xyzc_ad
 xyzc.cn##.xyzc_rightad
 xiazaigang.com##.xzad2
+moviesunusaaa.org##.yahooinner
 miyun360.com##.yd_banner
 fx168.com##.yjl_fx168_head_navAd
 youku.com##.yk-AD-tong
@@ -9206,6 +9203,7 @@ xiaohua.hao.360.cn##a[href$="?realtime"]
 loldk.com##a[href*=".2144.cn"]
 163.com##a[href*=".admaster."]
 iqiyi.com##a[href*=".banggo."]
+zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
 tiexue.net##a[href*=".cokolo."]
 dapenti.com##a[href*=".fang.com"]
 dapenti.com,dexiazai.com,iqiyi.com##a[href*=".jd.com"]
@@ -9990,7 +9988,7 @@ haha.mx#@#.ad-4
 mobile01.com#@#.ad-a
 diantai.ifeng.com#@#.ad-b
 pptstore.net#@#.ad-big
-comefromchina.com#@#.ad-block
+comefromchina.com,zhidao.baidu.com#@#.ad-block
 pixiv.net#@#.ad-footer
 qq.com#@#.ad-icon
 ntm.gov.tw#@#.ad-left
@@ -10071,10 +10069,7 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-zhidao.baidu.com#@#.ad-block
 !---------------------------------URL Whitelist-------------------------------!
-@@/pop.php?id=$domain=videomega.tv
-@@||scupio.com/adpinline/ADmediaJS/$domain=moviesunusaaa.org
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10144,6 +10139,7 @@ zhidao.baidu.com#@#.ad-block
 @@/page/adv.html?advId=$subdocument
 @@/PIC/AD/*$domain=ybjk.com
 @@/pop.js|$domain=189.cn|ali213.net|coolpad.com
+@@/pop.php?id=$domain=videomega.tv
 @@/pub/ad/*$domain=ruten.com.tw
 @@/sda/weixin$domain=chineseinla.com
 @@/show_ad_$domain=wb.qq.com
@@ -10468,6 +10464,7 @@ zhidao.baidu.com#@#.ad-block
 @@||sakai-hk.com/advertisement.js
 @@||sakai.club/advertisement.js
 @@||sc.jb51.net/adimg/*.jpg
+@@||scupio.com/adpinline/ADmediaJS/$domain=moviesunusaaa.org
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
 @@||selfimg.com.cn/??
