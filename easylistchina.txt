@@ -5527,6 +5527,7 @@ mg*.6park.com/img/$image
 ||weibo.com/static/ali.html
 !------------------------Specific element hiding rules------------------------!
 weibo.com###pl_common_ali
+zhidao.baidu.com##.ad-block-1
 gpcxw.com###AA2
 rj.baidu.com##.code-wp
 rj.baidu.com##.entrance
@@ -10064,6 +10065,7 @@ tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
+zhidao.baidu.com#@#.ad-block
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
