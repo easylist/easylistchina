@@ -5529,6 +5529,7 @@ mg*.6park.com/img/$image
 ||baidu.com/feproxy/ad/list?
 !------------------------Specific element hiding rules------------------------!
 weibo.com###pl_common_ali
+moviesunusaaa.org##.yahooinner
 techweb.com.cn###Javascript\.LeftDiv
 techweb.com.cn###Javascript\.RightDiv
 zhidao.baidu.com##.ad-block-1
@@ -10071,6 +10072,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 zhidao.baidu.com#@#.ad-block
 !---------------------------------URL Whitelist-------------------------------!
+@@/pop.php?id=$domain=videomega.tv
+@@||scupio.com/adpinline/ADmediaJS/$domain=moviesunusaaa.org
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
