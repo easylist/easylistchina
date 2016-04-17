@@ -505,11 +505,9 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||biyibia.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||uw9377.com^
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -740,6 +738,7 @@ ubmcmm.baidustatic.com
 ||baodaozhan.cn^$third-party
 ||behe.com^$third-party
 ||biddingx.com^$third-party
+||biyibia.com^
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
 ||books.com.tw/exep/ap/$third-party
@@ -1082,6 +1081,7 @@ ubmcmm.baidustatic.com
 ||uoyrsd.com^
 ||urlad.com.tw^$third-party
 ||usingde.com^$third-party
+||uw9377.com^
 ||v-links.net^$third-party
 ||v707070.com^
 ||vamaker.com^$third-party
@@ -3457,6 +3457,7 @@ mg*.6park.com/img/$image
 ||img.9duw.com^
 ||img.china.alibaba.com/img/ibank/$domain=bbs.fobshanghai.com
 ||img.cngba.com/da/
+||img.daweijita.com/2014/08/ad_head
 ||img.eol.cn/images/ed/$~image
 ||img.hexun.com*/wszj/js.js
 ||img.ifeng.com/tres/html/
@@ -3914,6 +3915,7 @@ mg*.6park.com/img/$image
 ||m.aty.sohu.com^
 ||m.autohome.com.cn/*/?hid=
 ||m.autohome.com.cn/ashx/by/Recommend/index.ashx?
+||m.mianbao99.com/js/detail.js
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
 ||m1905.cn/afp/mdsfw.js
 ||m1905.cn/images/bg_index_hgn.jpg
@@ -5521,14 +5523,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||img.daweijita.com/2014/08/ad_head
-||m.mianbao99.com/js/detail.js
 !------------------------Specific element hiding rules------------------------!
-mianbao99.com##.downApp
 gpcxw.com###AA2
-dahanju.com###adbg
-dahanju.com###adv
-daweijita.com##.sidebar-right > .widget-box:first-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5756,7 +5752,7 @@ qidian.com###ad_yxword
 qidian.com###ad_yxword_a
 141hongkong.com###adan
 265.com###adb
-xskhome.com,yxdown.com###adbg
+dahanju.com,xskhome.com,yxdown.com###adbg
 voc.com.cn###adbody_hidden
 voc.com.cn###adbody_show
 yawen8.com###add4
@@ -5789,7 +5785,7 @@ elecfans.com###adsm-berry
 ynet.com###adt01
 sina.com.cn###adtopad
 rising.cn###adtp
-bumimi.com,dm530.com,hxnews.com###adv
+bumimi.com,dahanju.com,dm530.com,hxnews.com###adv
 xinhuanet.com###adv-1
 xinhuanet.com###adv-A1
 xinhuanet.com###adv-B1
@@ -7762,6 +7758,7 @@ iqiyi.com##.dove_ad
 iqiyi.com##.dove_banner
 iqiyi.com##.dove_videos
 pctowap.com##.dowap_ads
+mianbao99.com##.downApp
 onlinedown.net##.downList > li > .btn
 xiazaiba.com##.down_ads
 52pk.com##.down_adv
@@ -8782,6 +8779,7 @@ qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 wedc.cc##.sidebar > .widgets:last-child
+daweijita.com##.sidebar-right > .widget-box:first-child
 36kr.com##.sidebar-sponsored__list
 52tian.net##.sidebar960
 steachs.com##.sidebar:first-child
