@@ -3542,7 +3542,6 @@ mg*.6park.com/img/$image
 ||it.com.cn/dy4*/js/*0
 ||it.com.cn/dy4*/js/youx.js
 ||it.com.cn/js/*art
-||it.com.cn/test/cj/2015/03/06/10/1424032881.jpg
 ||it165.net/index.php?m=poster&
 ||it168.com/factory/ad/
 ||italk.yinsha.com/god/
@@ -9296,7 +9295,8 @@ sm.cn##a[href^="http://m.sm.cn/adclick?"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 allyingshi.com##a[href^="http://ok.sina.com.cn/"]
 pctowap.com##a[href^="http://ptw.la/"]
-it.com.cn,vikilife.com##a[href^="http://s.click.taobao.com/"]
+it.com.cn##A[href*=".taobao.com"]
+vikilife.com##a[href^="http://s.click.taobao.com/"]
 sina.cn##a[href^="http://sax.sina."]
 shaoit.com##a[href^="http://t."]
 mop.com##a[href^="http://trackx.mop.com/"]
