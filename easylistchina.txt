@@ -509,7 +509,6 @@ _popAds.
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||dcxmy.com^$third-party
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -788,6 +787,7 @@ ubmcmm.baidustatic.com
 ||dashet.com^
 ||datafastguru.info^
 ||dbncp.com^
+||dcxmy.com^$third-party
 ||dddddd.net^$third-party
 ||df77.com^
 ||dian500.com^$third-party
@@ -1916,6 +1916,8 @@ mg*.6park.com/img/$image
 ||6d245gxt.52pk.com^
 ||6ddd.com/js/myfiles/banner.js
 ||6ddd.com/js/myfiles/down_
+||6park.com/img/*/*.gif
+||6park.com/img/*0.gif
 ||6park.com/img/15.png
 ||6park.com/news/$script
 ||6park.com/parks/$script
@@ -2148,6 +2150,7 @@ mg*.6park.com/img/$image
 ||ainunu.com/vad.js
 ||aipai.com/app/www/templates/common/*_videos_
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
+||aipai.com/atiws/ai?zid=
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||aipai.com/common/i0uat4jq/play/item.html
 ||airenti.in^$script
@@ -2484,6 +2487,7 @@ mg*.6park.com/img/$image
 ||cdn.galacg.me/img/*.jpg
 ||cdn.shdsp.net/ad
 ||cdn.wdlm.cn^
+||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
 ||cdyee.com/external/5070.files/ad/
@@ -4198,6 +4202,7 @@ mg*.6park.com/img/$image
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
 ||pconline.com.cn/pconline/download/fz/
+||pconline.com.cn/ssi/000053277/1506/intf
 ||pconline.com.cn/test/*.html?
 ||pcpp.com.cn*/pcpp.jpg
 ||pcpp.com.cn/news/a/*_article_right.html
@@ -5529,17 +5534,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||pconline.com.cn/ssi/000053277/1506/intf
-||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
-||aipai.com/atiws/ai?zid=
-||6park.com/img/*0.gif
-||6park.com/img/*/*.gif
 !------------------------Specific element hiding rules------------------------!
-6park.com##A[href*="/ppp.php?"]
 gpcxw.com###AA2
-aipai.com##.video_gg
-gmw.cn##.pic_list_bd750
-gmw.cn###rightad1 + .contentColumnRight
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6624,6 +6620,7 @@ tvhome.com###right_bottom1
 discuss.com.hk,uwants.com###right_column
 uc123.com###right_elevator
 gamersky.com###right_fixed
+gmw.cn###rightad1 + .contentColumnRight
 www.wenxuecity.com###rightside
 motocity.com.tw###rotator
 pingpang.info###rwc
@@ -8590,6 +8587,7 @@ chinasexq.com##.picRight
 chinasexq.com##.picTop
 dealmoon.com##.pic_ad
 ctrip.com##.pic_banner
+gmw.cn##.pic_list_bd750
 chinaiiss.com##.pic_text
 baidu.com##.picad
 donews.com##.picarea
@@ -9072,6 +9070,7 @@ ck101.com##.videoFocus
 yinyuetai.com##.video_abl
 yinyuetai.com##.video_abr
 loldk.com##.video_ad_roll
+aipai.com##.video_gg
 jianli-sky.com##.viewbd
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
 kanxi123.com##.viewt_77
@@ -9233,6 +9232,7 @@ mkzhan.com,zymk.cn##a[href*="/adid/"]
 ccav1.com##a[href*="/go"]
 dy2018.com,piaohua.com,xiaopian.com##a[href*="/htmlcode/"]
 6park.com##a[href*="/ooo.php?"]
+6park.com##a[href*="/ppp.php?"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
