@@ -76,7 +76,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/pc.*.test15.
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -122,7 +121,6 @@ hk.yahoo.com###mntl1
 /alljs/allwzwfoot.js
 /alljs/allwzwhead.js
 /aoyou372down300_
-/View/img/b72890.jpg
 /Banner-pcbeta-
 /bbh_ad.
 /bbh_ad_
@@ -205,6 +203,7 @@ hk.yahoo.com###mntl1
 /new_site_topad^
 /newsyd/templates/sponsor/*
 /paypic/*
+/pc.*.test15.
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
 /piaofu.js
@@ -245,6 +244,7 @@ hk.yahoo.com###mntl1
 /tuiguang/*
 /u/_sponsor/*
 /uedbet/pause.
+/View/img/b72890.jpg
 /W3Cfuns_Adv/*
 /wap_advpic/*
 /wp-content/themes/iMovies/js/tc_
@@ -2579,6 +2579,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/banner
 ||cnchu.com/aps/
 ||cncrk.com/505/
+||cncrk.com/code/Soft_
 ||cndesign.com/Content/images/new_taobao.jpg
 ||cndesign.com/Content/img/*x90_
 ||cndesign.com/Content/img/175x60_
@@ -3450,6 +3451,7 @@ mg*.6park.com/img/$image
 ||ime888.com/wp-content/uploads/
 ||imeee.cn/DA_HTML/*.js
 ||imeee.cn/DA_HTML/bottom_960x90.html
+||imeee.cn/tDA_HTML/da_
 ||img*.bet007.com/image/*.gif
 ||img*.hc360.com^*.swf
 ||img*.itiexue.net/2*.gif$domain=www.tiexue.net
@@ -3863,6 +3865,7 @@ mg*.6park.com/img/$image
 ||linkwan.com/gb/javascript/b4.js
 ||linkwan.com/gb/javascript/c5-
 ||linuxeden.com/plus/web_js.php
+||linuxeye.com/ad_buttom.html
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
 ||linuxidc.com/linuxfile/y9.js
@@ -4246,6 +4249,7 @@ mg*.6park.com/img/$image
 ||pic.yupoo.com/heidongke_v/DMI8TWao/11YsLR.png
 ||pic.yupoo.com/heidongke_v/Dz3G6aBA/kSHc3.gif
 ||pic.yupoo.com/showflash/
+||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
 ||pic.zol-img.com.cn^$object
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||picuphost.com^$domain=mmload.info
@@ -4371,6 +4375,7 @@ mg*.6park.com/img/$image
 ||qjis.com/js/qjis_nr.js
 ||qk101.com/life/
 ||qmi.cc/tester/tester.js
+||qnssl.com/images/oneinstack-
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
 ||qpic.cn^$domain=pptiyu.com
 ||qq.com/article_qq/ad_article_qq/
@@ -5526,16 +5531,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||imeee.cn/tDA_HTML/da_
-||linuxeye.com/ad_buttom.html
-||qnssl.com/images/oneinstack-
-||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
-||cncrk.com/code/Soft_
 !------------------------Specific element hiding rules------------------------!
-oneinstack.com###text-2
 gpcxw.com###AA2
-im286.net###diyflash
-ttmeiju.com###header > A
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6087,6 +6084,7 @@ cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###
 cool-de.com###diy_vk_ad_top
 0517w.com###diyad
 dz19.net###diyad2
+im286.net###diyflash
 luanren.com###diyhlx01
 luanren.com###diyhlx8
 0743ds.com,365kl.net,3dezu.com,52ch.net,bbs.liao1.com,bbs.qbaobei.com,chcj.net,cnyw.net,gz0668.com,luanren.com,mahoupao.net,mcncc.com,qilindao.com,thzhd.net###diynavtop
@@ -6274,6 +6272,7 @@ elecfans.com###headJf
 taoguba.com.cn###head_img_2
 k618.cn,solidot.org###headads
 lxty66.com###header + .tac.mb5
+ttmeiju.com###header > a
 060s.com###header4
 bdinfo.net###header_AD
 hnr.cn###header_banner_list
@@ -6733,7 +6732,7 @@ vgugu.com###test
 vgugu.com###test1
 pchome.com.tw###test2
 aijava.cn###text-15
-wuleba.com###text-2
+oneinstack.com,wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
 blog.trendmicro.com.tw###text-30
@@ -9222,7 +9221,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-aijava.cn,bejson.com,btcherry.com,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,gmgard.com,hexieshe.com,hggard.com,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+aijava.cn,bejson.com,btcherry.com,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,gmgard.com,hexieshe.com,hggard.com,it.com.cn,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,toutiao.com,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 letv.com##a[href*=".vip.com"]
@@ -9297,7 +9296,6 @@ sm.cn##a[href^="http://m.sm.cn/adclick?"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 allyingshi.com##a[href^="http://ok.sina.com.cn/"]
 pctowap.com##a[href^="http://ptw.la/"]
-it.com.cn##A[href*=".taobao.com"]
 vikilife.com##a[href^="http://s.click.taobao.com/"]
 sina.cn##a[href^="http://sax.sina."]
 shaoit.com##a[href^="http://t."]
