@@ -6021,12 +6021,12 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"] > tbody
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > [id*="00"] > ul
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [class] > a[href*="//e.baidu.com/?refer="]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result) > div
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result) > tbody
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result) > ul
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > div
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > tbody
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > ul
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div:not([id]) > div[id][data-rendered="true"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[id*="00"]:not(.result) + div[class]:not(.result)
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[id*="00"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > table
 aa25.cn###content_top
@@ -6617,7 +6617,7 @@ image.baidu.com###relEcom
 youku.com###relationvideo_async > .items > .v-horiz:nth-child(-n+2)
 image.baidu.com###relecom54
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###replyBusinessImg
-ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com###results > div[class]:not(.result):not(.sp-rslt-bar)
+ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 sogou.com###right > .atTrunk
 2345.com###right > div:first-child
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
