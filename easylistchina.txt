@@ -484,10 +484,11 @@ _popAds.
 ##.yd_ad3
 ##.yd_ad5
 ##.yd_ad6
+##A[href*=".com/?Agent="]
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
-##A[href*=".com/Register?a="]
+##a[href*=".com/Register?a="]
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ##a[href*="/?INTR="]
@@ -506,7 +507,6 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##A[href*=".com/?Agent="]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -1177,14 +1177,13 @@ ubmcmm.baidustatic.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-|http:$popup,third-party,domain=88files.net
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /item.htm?$popup,domain=www.tsdm.net
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
-|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|99files.net|bfooru.info|bforu.info|downhhh.com|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
+|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|bfooru.info|bforu.info|downhhh.com|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||133gp.com^$popup
 ||9100300.com^$popup
@@ -1744,6 +1743,7 @@ mg*.6park.com/img/$image
 ||3qdati.com/gg.gif
 ||3sjt.com/3sjtimg/
 ||400516.com/data/attachment/album/
+||40064008.com/topjs/
 ||4020.la/hi/
 ||40407.com/plus/pthc/zqdl.php?
 ||40407.com/plus/rpad/
@@ -3579,6 +3579,7 @@ mg*.6park.com/img/$image
 ||itocp.com/html/gk/*/204x
 ||itocp.com/html/gk/topic/topicmain.html
 ||itongcheng.cc/amm/
+||itopdog.cn/itopdog/ad.js
 ||itopdog.cn/itopdog/d*.js
 ||itpub.net/popwin_js.php?
 ||itv.hexun.com
@@ -4185,6 +4186,7 @@ mg*.6park.com/img/$image
 ||pc0359.cn/js/un.js
 ||pc141.com/statics/new_img/info_left.png
 ||pc3w.com/js/
+||pcauto.com.cn/forum/fz/hots/
 ||pcbeta.com/static/image/microsoftstore/
 ||pccoo.cn/js/dlv1.0.js
 ||pcgames.com.cn/download/newnq/
@@ -4285,6 +4287,7 @@ mg*.6park.com/img/$image
 ||ppsj.com.cn/images/usa_250_120.gif
 ||ppsj.com.cn/ppsj728.gif
 ||pptiyu.com/index/js/float.js
+||pptv.com/game/aplus/client/gamedetail.html
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||price.com.hk/dfp_price.php?
@@ -4349,6 +4352,10 @@ mg*.6park.com/img/$image
 ||qiuyi.cn/qiuyi/cooper/
 ||qiuziti.com/img/rightp20.gif
 ||qiuziti.com/meitu/ddd.gif
+||qixingquan.com/api.php?mod=ad&adid=
+||qixingquan.com/partner/
+||qixingquan.com/qxq-images/js/qxq_t.js
+||qixingquan.com/qxq-images/wildto
 ||qiyipic.com/common/$object-subrequest
 ||qiyipic.com/common/*%E9%80%9A%E6%A0%8F
 ||qiyipic.com/common/*/225x230.jpg
@@ -5534,20 +5541,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||itopdog.cn/itopdog/ad.js
-||pptv.com/game/aplus/client/gamedetail.html
-||qixingquan.com/api.php?mod=ad&adid=
-||qixingquan.com/partner/
-||qixingquan.com/qxq-images/js/qxq_t.js
-||qixingquan.com/qxq-images/wildto
-||pcauto.com.cn/forum/fz/hots/
-||40064008.com/topjs/
 !------------------------Specific element hiding rules------------------------!
-qixingquan.com##.tzb
-chem99.com###J_tcode
-chem99.com###div_main_ta
-localking.com.tw###adbannerurl
-qixingquan.com##.baoxian
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5616,6 +5610,7 @@ gexing.com###J_bottomMes
 2345.com###J_go_erweima
 cqsq.com###J_posts_list > a[target="_blank"]
 2345.com###J_search_bd > div:last-child
+chem99.com###J_tcode
 2345.com###J_tip_stopXP
 61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
 78dm.net,sozi.cn,techweb.com.cn###Javascript\.LeftDiv
@@ -5777,6 +5772,7 @@ qidian.com###ad_yxword
 qidian.com###ad_yxword_a
 141hongkong.com###adan
 265.com###adb
+localking.com.tw###adbannerurl
 dahanju.com,xskhome.com,yxdown.com###adbg
 voc.com.cn###adbody_hidden
 voc.com.cn###adbody_show
@@ -6077,6 +6073,7 @@ srzc.com###div_gg1
 srzc.com###div_gg2
 heiguang.com###div_heiguang_ad3
 heiguang.com###div_heiguang_ad4
+chem99.com###div_main_ta
 ref.so###div_midleft
 mcxiaobu.com###div_sidebar_ads
 ck101.com,pchome.com.tw###div_superbar_swf
@@ -7537,6 +7534,7 @@ moejam.com##.bannermid
 javlibrary.com##.bannerqq
 zuowen.com##.banners
 mscbsc.com##.bao1
+qixingquan.com##.baoxian
 jxedt.com##.bbad
 nick18.com##.bbs_entry_wrapper > table[width="100%"]
 xilu.com##.bbs_topad
@@ -9061,6 +9059,7 @@ tvhome.com##.tvAd
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
 cntour2.com##.txtPicAd
 ltaaa.com##.txtads
+qixingquan.com##.tzb
 cyzone.cn##.tzkd_bottom
 cyzone.cn##.tzkd_top
 163.com##.u-index-ad
@@ -10103,7 +10102,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/mobileads.$domain=naviking.localking.com.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10169,6 +10167,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/img_ad/*$domain=tkec.com.tw|yy960.com
 @@/js/ad_test.js$domain=coladrive.com|colayun.com
 @@/LoadAds.$domain=webcars.com.cn
+@@/mobileads.$domain=naviking.localking.com.tw
 @@/page/adv.html?advId=$subdocument
 @@/PIC/AD/*$domain=ybjk.com
 @@/pop.js|$domain=189.cn|ali213.net|coolpad.com
