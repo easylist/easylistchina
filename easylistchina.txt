@@ -386,7 +386,6 @@ _popAds.
 ##.a_cn
 ##.a_fl
 ##.a_fr
-##.wp.a_h
 ~125.la,~52pojie.cn,~it168.com##.a_mu
 ##.a_p
 ##.a_pb
@@ -474,6 +473,7 @@ _popAds.
 ##.widget_adbox
 ~hrtsea.com##.widget_ui_ads
 ##.wp.a_f
+##.wp.a_h
 ~aircn.org,~steamcn.com##.wp.a_t
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
@@ -2019,6 +2019,7 @@ mg*.6park.com/img/$image
 ||91danji.com/asset/temp/91danji-
 ||91danji.com/attachments/201509/07/09/19lpq9qdr.jpg
 ||91danji.com/js/lmt.js
+||91txh.com/sskother/pic/ad-
 ||92dp.com/dianping/videoad
 ||92dp.com/home/showg?id=
 ||92wav.com/rj/*.gif
@@ -2319,6 +2320,7 @@ mg*.6park.com/img/$image
 ||bccnsoft.com/aaa/
 ||bcok.com^$subdocument
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
+||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
 ||bdimg.com/site/games/yxtg/*.js
 ||bdstatic.com/img/image/su/
@@ -3345,6 +3347,8 @@ mg*.6park.com/img/$image
 ||i.syasn.com^
 ||i2.supfree.net^*.js
 ||i322.com/ad_avshow/
+||i8.com.cn/images/a.swf
+||i8.com.cn/images/tiandijie.jpg
 ||iads.xinmin.cn^
 ||iapolo.com/myjs/
 ||iapp.com.tw/iapp_ad.php
@@ -5540,17 +5544,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bdimg.com/muzhi/adwap/top-banner.jpg
-||i8.com.cn/images/a.swf
-||i8.com.cn/images/tiandijie.jpg
-||91txh.com/sskother/pic/ad-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-91txh.com##.a_ssk_cn
-91txh.com##.a_ssk_pt
-muzhi.baidu.com##.bottom-banner
-muzhi.baidu.com##.quick-ask-2 + .android + DIV
-muzhi.baidu.com##.wgt-best-answer + SCRIPT + DIV
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7037,6 +7032,8 @@ ijia360.com##.a.fz0.mb15
 tucao.cc,tucao.tv##.a2013d
 chacuo.net##.a96090
 0772fang.com##.a_banner
+91txh.com##.a_ssk_cn
+91txh.com##.a_ssk_pt
 163.com##.a_topad
 qq.com##.aaddvv__list
 120ask.com##.ab_top
@@ -7601,7 +7598,7 @@ tingshuge.com##.bordercs[align="center"]
 52ch.net##.bot_adv
 45fan.com##.botad1
 360doc.com##.both[style^="padding-top:"]
-115.com##.bottom-banner
+115.com,muzhi.baidu.com##.bottom-banner
 dianping.com##.bottom-contrainer
 liba.com##.bottom-pic
 115.com##.bottom-qcode > p
@@ -8662,6 +8659,7 @@ qdmm.com,qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
 ifeng.com##.qudaoTg
+muzhi.baidu.com##.quick-ask-2 + .android + div
 uc123.com##.quick-links > a
 mop.com##.quickReply-ad
 gfan.com##.r-ad
@@ -9135,6 +9133,7 @@ ptbus.com##.weixin_ad
 ttplay8.cn,xk77.com##.wenad
 d5yuansu.com##.wenadds
 baidu.com##.wgt-ads
+muzhi.baidu.com##.wgt-best-answer + script + div
 zhidao.baidu.com##.wgt-bottom-ask
 muzhi.baidu.com##.wgt-container
 2chcn.com##.widget > a > img[width="300"]
@@ -10109,7 +10108,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||hdmee.com/source/plugin/unadblock/
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10396,6 +10394,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||gov.cn^*/ad
 @@||gpsdlm.com/images/ad.
 @@||guancha.cn/ad/m_
+@@||hdmee.com/source/plugin/unadblock/
 @@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
 @@||henan100.com/css/tpbf/pop.js
 @@||hepan.com/source/plugin/unadblock/
