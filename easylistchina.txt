@@ -77,13 +77,13 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 .cn/ads/
-.com/jsbjl/zhanqun
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
 .com/js/ad_
 .com/js/alls_foot.js
 .com/js/alls_top.js
+.com/jsbjl/zhanqun
 .com/pc/ad/
 .com/vodad.js
 .in/js/ads/
@@ -511,11 +511,8 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||chushoushijian.cn^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
-||ja9377.com^
-||koukou7.com^
 /adscpc/*
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
@@ -763,6 +760,7 @@ ubmcmm.baidustatic.com
 ||chapm.com^$third-party
 ||chinauma.net^$third-party
 ||chinesean.com^$third-party
+||chushoushijian.cn^
 ||cifenqi.com^$third-party
 ||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
@@ -902,6 +900,7 @@ ubmcmm.baidustatic.com
 ||istreamsche.com^$third-party
 ||itechwall.com^$third-party
 ||j8j9.com^$third-party
+||ja9377.com^
 ||jczzjx.com^
 ||jdlhg.com^
 ||jhzl001.com^
@@ -941,6 +940,7 @@ ubmcmm.baidustatic.com
 ||kingwam.com^
 ||kld666.com^
 ||kmadou.com^
+||koukou7.com^
 ||kt220.com^
 ||ktunions.com^
 ||ku63.com^$third-party
@@ -2432,6 +2432,7 @@ mg*.6park.com/img/$image
 ||btmee.net/static/img/tlad.gif
 ||btn.onlylady.com^
 ||btn.pchome.net^
+||btse99.com/600x60.gif
 ||btshark.com/static/img/*300x250.
 ||bttiantang.cc/static/*quan.js
 ||bttiantang.cc/static/wen
@@ -3432,6 +3433,7 @@ mg*.6park.com/img/$image
 ||iguang.tw/bm/seo_rotation/html/js/
 ||ii-i.org/wp-content/uploads/hao
 ||ii.168img.com^
+||iii.6park.com^
 ||ijia360.com/data/poster/
 ||ik123.com/js/dd.js
 ||ikaka.com/globalad/
@@ -3657,7 +3659,6 @@ mg*.6park.com/img/$image
 ||jj20.com/js/yx
 ||jj59.com/sy/banner.js
 ||jj59.com/sy/ibanner.js
-||btse99.com/600x60.gif
 ||jjjaaa.com/aaa/
 ||jjjgame.com/images/ad11.jpg
 ||jjwxc.net/images/wap/wap.gif
@@ -4698,6 +4699,7 @@ mg*.6park.com/img/$image
 ||skdh2.com/tp/
 ||skinme.cc*/assets/images/*0.swf
 ||skinme.cc/assets/images/banner_
+||skycn.com/js/top.js
 ||slit.cn/d/js/images/thea
 ||slit.cn/skin/slitsk/js/dlad.js
 ||slit.cn/slgg/
@@ -5077,6 +5079,7 @@ mg*.6park.com/img/$image
 ||vzhuan.cn/html/*.php
 ||w010w.com.cn^$subdocument
 ||wa.kuwo.cn/lyrics/img/kwgg/
+||wallstcn.com/46/3b/ac/wdx-4-sp-4zt3udu2z4gg-f.gif
 ||wallstcn.com^*-300x250.
 ||wan.sogou.com/cdn/$subdocument
 ||wan.sogou.com/pop/
@@ -5555,15 +5558,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||iii.6park.com^
-||wallstcn.com/46/3b/ac/wdx-4-sp-4zt3udu2z4gg-f.gif
-||skycn.com/js/top.js
 !------------------------Specific element hiding rules------------------------!
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-header\/pagelet\/head_content_middle > DIV[class]:not([class*="_"]):first-child
-wallstreetcn.com##.side-money
-onehd.cc###diy1
 gpcxw.com###AA2
-6park.com##A[href*="qq.php?"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6103,7 +6099,7 @@ jdcjsr.com###divl2
 jdcjsr.com###divr1
 123du.cc,bokon.net###divtop1
 123du.cc,bokon.net###divtop2
-0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dayoo.com,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com###diy1
+0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dayoo.com,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,onehd.cc,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com###diy1
 d7w.net###diy10
 yb.jl.cn###diy100
 hcwang.cn###diy111
@@ -6536,6 +6532,7 @@ lalulalu.com###overture_main_banner
 manhua.weibo.com###p-nav-fix + .p-area.w980
 xizi.com###pageRight-loop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-header\/pagelet\/head_content_middle > div[class]:not([class*="_"]):first-child
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 srzc.com###pageright > .padding:nth-child(2)
 oh100.com###pagetop
@@ -8820,6 +8817,7 @@ laifudao.com##.side-adinner
 guokr.com##.side-adv
 ruten.com.tw##.side-advertise
 iwan.baidu.com##.side-banner
+wallstreetcn.com##.side-money
 firefox.com.cn,firefoxchina.cn##.side-notice
 firefoxchina.cn##.side-promote
 firefoxchina.cn##.side-recommend
@@ -9278,6 +9276,7 @@ lrshare.com,zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com,lrshare.com,zdfans.com##a[href*="meidebi."]
 6park.com##a[href*="out"][href*="php"]
+6park.com##a[href*="qq.php?"]
 lrshare.com##a[href*="sugarhosts."]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
