@@ -2778,7 +2778,6 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
-||dngame.eu/dngcenter/default.aspx
 ||dnvod.eu//upload/$object-subrequest
 ||dnvod.eu/upload/20*.gif
 ||dnvod.eu/upload/20*.swf
@@ -2834,9 +2833,6 @@ mg*.6park.com/img/$image
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
 ||duba.com/static/v3/images/*.swf
 ||duoku.com/common/js/hanawa.js
-||duonao.tv//upload/$object-subrequest
-||duonao.tv/upload/image/*.gif
-||duonao.tv/upload/image/*.swf
 ||duowan.com/lgn/x/images/lgnadv/
 ||duowan.com/s/yuanbao-entrance.js
 ||dup.baidustatic.com/js/
@@ -5566,8 +5562,12 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||qqu.cc/tu/kam
+||dnvod.eu/loader/
+||dnvod.eu/upload/$object-subrequest
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dnvod.eu###msg_winw
+dnvod.eu##.clickbg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5949,7 +5949,7 @@ auto.sina.com.cn###bottomInquryBar
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
-dnvod.eu,duonao.tv,dxlwwang.com###box
+dnvod.eu,dxlwwang.com###box
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 www.hupu.com###box1_bigImg > ul > li > a[href^="http://goto.hupu."]
@@ -6495,7 +6495,7 @@ neihanshe.cn###mobile_client
 haosou.com,so.com,youdao.com###mohe-etao_shangye
 haosou.com,so.com###mohe-medicine_sy > .cont
 nick18.com,niko18.com###mov > .content
-dnvod.eu,duonao.tv,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xt700.com,xyzc.cn,zdface.com###msg_win
+dnvod.eu,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xt700.com,xyzc.cn,zdface.com###msg_win
 wz.zj.cn###msnLeft
 yahoo.com###my-adsMBAR
 pcdiy.com.tw###myCarousel
@@ -6757,7 +6757,6 @@ bbs.hiapk.com###tag_1_7
 t.qq.com###talkList > li[ispopula="1"][tv="2"]
 zymk.cn###tanchuang
 e23.cn###taobaorba
-dnvod.eu,duonao.tv###targetAudient
 findprice.com.tw###tb_ad
 23zw.com###tbad
 tzfdc.com.cn###tc
@@ -6993,7 +6992,6 @@ ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
 it165.net##.ContentAdv
 imeee.cn##.DA336
-dnvod.eu,duonao.tv##.DHB
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.EC_newppim
 cnfol.com##.EtGA
 javjunkies.com##.FAd
@@ -7688,7 +7686,6 @@ fpdisplay.com##.class_adv1
 caikuu.com##.clearfix + .recommend
 hunantv.com,mgtv.com##.click-s-r1
 hunantv.com,mgtv.com##.click-t
-duonao.tv##.clickbg
 tieba.baidu.com##.client_ad_banner
 tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
@@ -8679,8 +8676,6 @@ muzhi.baidu.com##.quick-ask-2 + .android + div
 uc123.com##.quick-links > a
 mop.com##.quickReply-ad
 gfan.com##.r-ad
-dnvod.eu,duonao.tv##.r-ad2
-dnvod.eu,duonao.tv##.r-ad4
 mop.com##.r-adv
 northnews.cn##.r-con > div[style^="width:334px;"]
 ahtv.cn,bzfl1.cc,onlinedown.net,sexbarss.net##.r1
@@ -9239,7 +9234,6 @@ v7v3.com##.zzsl
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 zdfans.com##A[href="http://t.cn/zOPcnAI"]
-dnvod.eu,duonao.tv##A[href^="/HitOnAds.aspx?id="]
 3g.cn##A[id^="randomAd_"]
 tiexue.net##A[onclick*="_BdAdClick"]
 tiexue.net##[class*="junph"]
@@ -9311,7 +9305,6 @@ open-open.com##a[href="http://www.miniui.com/demo/#src=datagrid/celledit.html"]
 fuliba.net,fulibba.com##a[href="http://www.ruyig.com/?v"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 bigear.cn##a[href^="/?module=business&"]
-dnvod.eu,duonao.tv##a[href^="/Hit.aspx?id="]
 sdgundam.cn##a[href^="/aclk/"]
 shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
@@ -9372,7 +9365,7 @@ skinme.cc##a[href^="http://www.skinme.cc/game_"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
 weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
-dnvod.eu,duonao.tv##a[href^="http://yoyou."]
+dnvod.eu##a[href^="http://yoyou."]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 right.com.cn##a[href^="https://treebear.tmall.com"]
 iqiyi.com##a[id^="100000"]
@@ -9957,7 +9950,6 @@ wangpanwu.com##table[width="978"][align="center"]
 you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 dbw.cn##table[width="980"][height="100"]
-dnvod.eu,duonao.tv##table[width="988"]
 sd.xinhuanet.com##table[width="990"][bgcolor="#333333"]:nth-child(5)
 yaerwen.com##table[width^="9"][height="250"]
 net767.com##table[width^="9"][height="68"]
@@ -10147,7 +10139,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adblock_$domain=xingk.cc
 @@/addata.$domain=xdf.cn
 @@/adfile/*$domain=cidianwang.com
-@@/adframe.$domain=dnvod.eu
 @@/AdImage/*$domain=scyts.com|wacom.tw
 @@/ADImages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
@@ -10203,7 +10194,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/show_ads_impl.js$domain=serve.netsh.org
 @@/store_ad/*$domain=pcstore.com.tw
 @@/ttkdweb/page/js/ad.js
-@@/upload/ads/*.jpg$domain=dnvod.eu|duonao.tv
 @@/view.php?what=zone:93&$domain=feng.com
 @@/view.php?what=zone:94&$domain=feng.com
 @@/webThunderDetect.$domain=ypan.cc
@@ -10373,7 +10363,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||dilidili.com/js/week.js
 @@||disney.com.tw/tv/global/swf/banner728x90.swf
 @@||dm.51.re/common/generate-captcha?
-@@||dnvod.eu/ads/$object-subrequest
 @@||do189.com/zb_users/theme/duoyi/style/images/text_bg.gif
 @@||down.cc/down/js/ad.js
 @@||dushiwenxue.com/add/article/pagetop.js
