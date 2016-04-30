@@ -3676,9 +3676,6 @@ mg*.6park.com/img/$image
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmhfw.com/zt/*.swf
 ||jmsyzj.com^
-||jn256.com/gg_index/
-||jn256.com^*/index_fu
-||jn256.com^*_gg
 ||jnnews.tv/indexad/
 ||jobtong.com/openSiteAd?
 ||joyes.com/image/06.jpg
@@ -4669,7 +4666,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/$domain=360zhibo.com|chakd.com|kiees.cn|kqiuba.com|lueqiu.com|macappbox.com|pptiyu.com|qqzhibo.net
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/005M5Ibcgw1f1d5gnlocmg30qo01odgs.gif
-||sinaimg.cn/large/005yyi5Jjw1eo0a59ak40j30oq02imy5.jpg
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
@@ -5569,8 +5565,11 @@ mg*.6park.com/img/$image
 ||ctanet.cn/aq/JS/
 ||eshow365.com/images/2011_adv/cbmes.gif
 ||jlpcn.net/upload/vod/2016-02-25/201602251456391344.jpg
+||wo256.com/256_gg/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+wo256.com##.gg_area
+wo256.com##.index_gg
 chzhw.com###ct3 + #ty
 chzhw.com###diqilai
 chzhw.com###nview > A > IMG[style$="width:326px;"]
@@ -7584,7 +7583,6 @@ hehagame.com##.bg_ad
 40407.com##.bg_l
 40407.com##.bg_r
 starbaby.cn##.big_ada
-jn256.com##.big_gg
 gdzjdaily.com.cn##.big_news + div
 sgcn.com##.bigaimg
 bbs.cs090.com,bbs.wm090.com,rkanr.com,weiqitv.com##.bill
@@ -7911,7 +7909,6 @@ elecfans.com##.fix-btmad
 9724.com##.fix_bottom_ad
 dashi.com,opda.com##.fix_twice
 bbs.actoys.net##.fl[style$="float:right;"]
-jn256.com##.fl_h180
 hualady.com##.flash_ad1
 hualady.com##.flash_ad2
 taoguba.com.cn##.flash_div
@@ -8037,7 +8034,6 @@ eastday.com##.gg_channel_r_b
 eeyy.com##.gg_top
 starbaby.cn##.gg_ttb
 hgitv.com##.ggall
-jn256.com##.ggarea
 360che.com##.ggbanner
 2300sjz.com##.ggbanner-1
 2300sjz.com##.ggbanner-2
@@ -8120,7 +8116,6 @@ jmw.com.cn##.head_3
 jmw.com.cn##.head_4
 jmw.com.cn##.head_5
 jmw.com.cn##.head_6
-jn256.com##.head_ggarea
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zdnet.com.cn##.headads
 biz.ifeng.com##.header
@@ -8431,8 +8426,6 @@ tvmost.com.hk##.main_ad_b
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 hongfen.org##.main_adser
-jn256.com##.main_gg1
-jn256.com##.main_gg4
 fqlook.cn##.main_tonglan
 fqlook.cn##.main_tonglan + .main_center_z
 tianya.cn##.main_xiangguan2
@@ -9043,7 +9036,7 @@ cngold.org##.top_bigad
 mql5.com##.top_container
 youthwant.com.tw##.top_fad
 qidian.com##.top_game_info
-0579.cn,jn256.com,xizi.com##.top_gg
+0579.cn,xizi.com##.top_gg
 hdzc.net##.top_gg1
 hdzc.net##.top_gg2
 warting.com##.top_index_ad
@@ -9595,7 +9588,6 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[id^="ecl-pc-game-"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
-jn256.com##div[id^="fuggid"]
 512ms.com,gusuwang.com##div[id^="fy_"]
 doyo.cn,keleyi.com##div[id^="gg"]
 51240.com##div[id^="ggwz"]
