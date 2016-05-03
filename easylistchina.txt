@@ -518,7 +518,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||104.197.4.220^$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -575,6 +574,7 @@ ubmcmm.baidustatic.com
 ||100cpc.com^$third-party
 ||103.249.111.179^$third-party
 ||104.195.62.12^
+||104.197.4.220^$script,third-party
 ||106.187.95.251^
 ||110160.com^$third-party
 ||111.175.219.*.js
@@ -2090,6 +2090,7 @@ mg*.6park.com/img/$image
 ||a.game.qidian.com/material/xs.js
 ||a.game.qidian.com/Show.aspx?
 ||a.jiaodong.net/a/2013/
+||a.jyeoo.com/js?
 ||a.kbcool.com/Mon_*.swf
 ||a.ksbbs.com/Mon_*.swf
 ||a.xizi.com^
@@ -3637,6 +3638,7 @@ mg*.6park.com/img/$image
 ||jbyf.net/JS/6
 ||jbyf.net/JS/9
 ||jbyf.net^*_Ad/
+||jd-bbs.com/Richcoln/richcoln-
 ||jd.com/exsites?spread_type=
 ||jdcjsr.com/images/zzgg/
 ||jdcjsr.com^*/jdcgg/
@@ -3720,6 +3722,7 @@ mg*.6park.com/img/$image
 ||jtyskq.com^*/js/_a.js
 ||junph.cn^$domain=tiexue.net
 ||junpinzhi.cn/qixing365/attachment/portal/
+||juxia.com/jxtp/indexbg.jpg
 ||juxia.com/public/js/foot.js
 ||juxia.com/public/js/juxia.js
 ||juxiangyou.com/images/tgsc/250x250.gif
@@ -4447,6 +4450,7 @@ mg*.6park.com/img/$image
 ||quyuedu.com/js/heheerweima.js
 ||qz828.com/css/2010/script/*ad
 ||qzntv.com^*.swf|
+||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
 ||qzss.cn/ssad
 ||qzwb.com/gb/img/9465.files/1G3G.gif
 ||qzwb.com^*.swf|
@@ -5561,13 +5565,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
-||jd-bbs.com/Richcoln/richcoln-
-||a.jyeoo.com/js?
-||juxia.com/jxtp/indexbg.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jpwind.com###content_right_ad2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5914,7 +5913,6 @@ docin.com###beforeAd
 loldk.com###before_video_ad
 1kkk.com,bukade.com,dm5.com,dm5.hk,manmankan.com,sfacg.com###beitou
 eeyy.com###beitou_box
-cnbeta.com##.other_news
 gamersky.com###bgAdWrapClose
 91danji.com,93994.com###bg_ad
 zol.com.cn###bgzy
@@ -6047,6 +6045,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:n
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[id*="00"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > table
+jpwind.com###content_right_ad2
 aa25.cn###content_top
 jb51.net###contsec
 qq.com###coo_qqBrowser
@@ -8563,6 +8562,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.opr-xmas-game-container
 zhidao.baidu.com##.optimus
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
 motobuy.com.tw##.other
+cnbeta.com##.other_news
 wenxuecity.com##.otherposts
 jjxw.cn##.ou_banner
 bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
@@ -10103,8 +10103,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-popart.hk#@#.afs_ads
-@@||l.qq.com/livemsg?ty=web&ad_type=
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10424,6 +10422,7 @@ popart.hk#@#.afs_ads
 @@||kbcool.com/advpic/$domain=ks.js.cn
 @@||keyrun.cn^$script,domain=sx566.com
 @@||kukuplay.com/upload/*.*.swf
+@@||l.qq.com/livemsg?ty=web&ad_type=
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||letv.com*/tuiguang/$subdocument
 @@||letvcloud.com^*&showAd=
@@ -10584,6 +10583,7 @@ popart.hk#@#.afs_ads
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
+popart.hk#@#.afs_ads
 !-----------------------------Malware Domains rules---------------------------!
 @@/\.7k7k.com\/(?!(ad|load))/$domain=7k7k.com
 ||146.148.85.61^
