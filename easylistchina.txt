@@ -3639,7 +3639,6 @@ mg*.6park.com/img/$image
 ||jbyf.net^*_Ad/
 ||jd-bbs.com/Richcoln/richcoln-
 ||jd.com/exsites?spread_type=
-||jdcjsr.com/images/zzgg/
 ||jdcjsr.com^*/jdcgg/
 ||jdxsw.net/201400/
 ||jdxsw.net/js/insidebox.js
@@ -3694,9 +3693,6 @@ mg*.6park.com/img/$image
 ||jpunion.com^$domain=jpfans.com|jpseek.com
 ||jpwind.com/images/partner/
 ||jpwind.com^*/scroll.js
-||jrj.com.cn/iframe/zjgjs.html?
-||jrjimg.cn/aigu/adcj.jpg
-||jrjimg.cn/homev2/ad/
 ||js-1.pchome.net^
 ||js.4738.com/newda/img/994_90_
 ||js.bju888.com^
@@ -5563,7 +5559,9 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||jrjimg.cn/common/foot/allfc.js
 !------------------------Specific element hiding rules------------------------!
+jrj.com.cn##.ls_all_fc
 gpcxw.com###AA2
 joy.cn##.banner
 joy.cn##.con2-3
@@ -6100,8 +6098,6 @@ ref.so###div_midleft
 mcxiaobu.com###div_sidebar_ads
 ck101.com,pchome.com.tw###div_superbar_swf
 shmet.com###div_xiala_ad
-jdcjsr.com###divl2
-jdcjsr.com###divr1
 123du.cc,bokon.net###divtop1
 123du.cc,bokon.net###divtop2
 0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dayoo.com,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,onehd.cc,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com###diy1
@@ -7296,7 +7292,7 @@ ifeng.com##.adbest
 oogps.com##.adbg
 motobuy.com.tw##.adbig
 sina.com.tw##.adbig300_mid
-17173.com,68design.net,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,jrj.com.cn,pcdiy.com.tw,phoenixtv.com,tuwan.com,xineurope.com,yesky.com##.adbox
+17173.com,68design.net,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,pcdiy.com.tw,phoenixtv.com,tuwan.com,xineurope.com,yesky.com##.adbox
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
 qq.com##.adbutton-Aritcle-QQ
@@ -7351,7 +7347,7 @@ bthave.com##.adsense
 steachs.com##.adsensebanner
 qqjia.com##.adshang
 blog.dausos.com,ynet.com##.adt
-chinaz.com,jrj.com.cn,yawin.cn##.adtext
+chinaz.com,yawin.cn##.adtext
 114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,solidot.org,v1.cn,ylmf.com##.adv
 19lou.com##.adv-fixed
 52solution.com##.adv-hb
@@ -7774,7 +7770,6 @@ bbs.it168.com##.daoh2 + .bor8
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
-jrj.com.cn##.data-collect
 zdfans.com##.db_post
 96weixin.com##.dbgg
 games.qq.com##.dc-kf_list
@@ -8242,7 +8237,6 @@ letv.com##.interact_cnt
 baidu.com##.intro-adv
 loldk.com##.intro-area > div[style="margin-top:10px;"]:nth-child(2)
 people.com.cn##.ipc_none
-jrj.com.cn##.ipo-ad
 iqiyi.com##.iqiyi-shangcheng
 wn789.com##.iradbox
 henan100.com##.itad
@@ -8278,7 +8272,6 @@ tiexue.net##.jph-goods
 top81.com.cn##.jphggw
 tiexue.net##.jpshow
 jrj.com.cn##.jrj-ad
-finance.jrj.com.cn##.jrj-wrap[style="margin-bottom:2px;"]
 zhanqi.tv##.js-activity-show
 haosou.com##.js-mh-ad-abtest
 haosou.com,so.com##.js-show-data
@@ -9315,7 +9308,6 @@ cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 people.com.cn##a[href^="http://jump.726p."]
 100ksw.com##a[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
-m.jrj.com.cn##a[href^="http://m.2345.com/?"]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://m.tianya.cn/g?f="]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
