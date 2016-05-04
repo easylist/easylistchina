@@ -521,7 +521,6 @@ _popAds.
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||9377hi.com^
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -689,6 +688,7 @@ ubmcmm.baidustatic.com
 ||91zgm.com^
 ||9377bh.com^
 ||9377co.com^
+||9377hi.com^
 ||9377ku.com^
 ||9377os.com^
 ||941adu.com^$third-party
@@ -3693,6 +3693,7 @@ mg*.6park.com/img/$image
 ||jpunion.com^$domain=jpfans.com|jpseek.com
 ||jpwind.com/images/partner/
 ||jpwind.com^*/scroll.js
+||jrjimg.cn/common/foot/allfc.js
 ||js-1.pchome.net^
 ||js.4738.com/newda/img/994_90_
 ||js.bju888.com^
@@ -4272,7 +4273,7 @@ mg*.6park.com/img/$image
 ||picuphost.com^$domain=mmload.info
 ||pifa.fobshanghai.com/link/
 ||piimg.com/183fe3f7e6600696.gif
-||piimg.com^$domain=fulidh.com|xiaodao.la
+||piimg.com^$domain=fulidh.com|kisssub.org|xiaodao.la
 ||pimg.tw/ifans/1399368662-4247048381.png
 ||pingpang.info/banner/
 ||pingpang.info/bbs/UploadFile/2013-11/xiom.gif
@@ -4289,6 +4290,7 @@ mg*.6park.com/img/$image
 ||playad.xjmg.com^
 ||playgm.cn/data/attachment/portal/
 ||plurk.com/Ads/
+||pme10.com/zbs/gs/newmmm.js
 ||poco.cn/mypoco/myphoto/20140330/21/5589980820140330214657064.jpg
 ||poco.cn/mypoco/myphoto/20140418/18/5589980820140418182334072.gif
 ||poco.cn/mypoco/myphoto/20140423/19/5589980820140423191248067.gif
@@ -5488,6 +5490,7 @@ mg*.6park.com/img/$image
 ||zhihu.com/node/Banner?
 ||zhijia.com/hd/*.swf
 ||zhlzw.com/wlles/2015/995XX.js
+||zhongyi.ifeng.com/a/zt.js
 ||zhongzi.in/static/ko/
 ||zhoushan.cn/new.js
 ||zhuankeba.net/rw/tyrw/top.jpg
@@ -5558,16 +5561,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||jrjimg.cn/common/foot/allfc.js
-||pme10.com/zbs/gs/newmmm.js
-||zhongyi.ifeng.com/a/zt.js
-||piimg.com^$domain=kisssub.org
 !------------------------Specific element hiding rules------------------------!
-jrj.com.cn##.ls_all_fc
 gpcxw.com###AA2
-jrj.com.cn##.topad
-joy.cn##.banner
-joy.cn##.con2-3
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7484,7 +7479,7 @@ msn.people.com.cn##.banNSch
 phpfans.net##.banad
 163.com##.bananer1
 100shuai.com##.bannar_gg
-3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,aguitar.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
+3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,aguitar.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,expreview.com,fj.xinhuanet.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,mtksj.com,newnet.cc,pengfu.com,qichelian.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 voc.com.cn##.banner-box1
 iwan.baidu.com##.banner-container
@@ -7714,6 +7709,7 @@ gamefy.cn##.con + div[style="float:right; width:326px;"]
 gamefy.cn##.con > a:last-child
 maolihui.com##.con-ad
 ithome.com##.con-recom
+joy.cn##.con2-3
 gaominews.com##.con8-c
 9yaocn.com##.conBox.clearfix
 ifeng.com##.conRgg
@@ -8382,6 +8378,7 @@ sohu.com##.lottery-box
 xywy.com##.love
 kekenet.com##.lp_r_bar:first-child
 city.163.com,news.163.com##.ls-inner > div:not([class])
+jrj.com.cn##.ls_all_fc
 ytbbs.com##.lt_ad
 ltesting.net##.ltad_1170
 ltesting.net##.ltad_580
@@ -9029,7 +9026,7 @@ warting.com##.top_index_ad
 5iyq.com##.top_l
 jmw.com.cn##.top_pic
 5iyq.com##.top_r
-changsha.cn,kekenet.com,lady8844.com,neotv.com.cn,sina.com.cn,xinhuanet.com##.topad
+changsha.cn,jrj.com.cn,kekenet.com,lady8844.com,neotv.com.cn,sina.com.cn,xinhuanet.com##.topad
 huarenjie.com##.topadcss
 huarenjie.com##.topadcss + div[style="overflow:hidden"]
 qz828.com##.topadv
