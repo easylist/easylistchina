@@ -4312,7 +4312,6 @@ mg*.6park.com/img/$image
 ||property.hk/ad_$script
 ||ps123.net/MyFile/
 ||pstatp.com/resource/toutiao_wap/static/js/lib/ads_
-||pt80.net/data/attachment/forum/201603/28/161237i6mi0ti86hi2b09s.gif
 ||ptbs.sme.gov.cn/images/231.gif
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
@@ -5570,6 +5569,8 @@ mg*.6park.com/img/$image
 ||stulip.org/static/js/header.js
 !------------------------Specific element hiding rules------------------------!
 doupapa.com,dpp2019.com##.hidden-xs[class*="_"]
+pt80.net###nv_forum > DIV[align="center"]
+pt80.net##TABLE[width="760px"]
 jjvcd.com##.top980
 jjvcd.com##.vod980_2
 kindlefere.com##.kindle-case
@@ -9904,7 +9905,6 @@ baoliaomi.com##table[width="1000"]
 66rd.cn##table[width="1000"][height="70"]
 mydrivers.com##table[width="1000"][height="90"]
 usa.bytravel.cn##table[width="1050px"][bgcolor="#ffffff"]
-pt80.net##table[width="1263"]
 taiwandaily.net##table[width="200"] > tbody > tr > td[height="50"]
 ebiotrade.com##table[width="220"]
 net767.com##table[width="320"][height="252"]
