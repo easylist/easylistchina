@@ -1330,6 +1330,7 @@ ubmcmm.baidustatic.com
 /jsc/book_$domain=99770.cc|99comic.com|99manga.com
 /jsc/Copy.js$domain=99770.cc|99comic.com|99manga.com
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
+/kikinote_300x150_
 /kocpc.myweb.hinet.net^
 /lagou-$domain=uisdc.com
 /modules/video/player/nuevo/midroll.php?
@@ -2185,6 +2186,7 @@ mg*.6park.com/img/$image
 ||alexa.cn/ad$subdocument
 ||ali213.net/css/data/promotion.css
 ||ali213.net/images/promotion/
+||ali213.net/pubjs/SetScreen
 ||ali213.net/static/js/*_ali213tv.js
 ||ali213.net/static/js/kktv
 ||ali213.net/static/js/kv
@@ -2412,7 +2414,6 @@ mg*.6park.com/img/$image
 ||blogspot.com^*/s1600/orig.gif
 ||blueidea.com/js/ajs.js
 ||bmp.ali213.net/js/
-||ali213.net/pubjs/SetScreen
 ||bmp1.ali213.net/js/
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bnext.com.tw/static/web/all.js
@@ -3707,6 +3708,8 @@ mg*.6park.com/img/$image
 ||js.tv.itc.cn/site/play/v*/vip_discount_
 ||js.youxi369.com^
 ||js0573.com/images/cus/
+||jstv.com/static_files/banners/213/
+||jstv.com/static_files/banners/50/
 ||jsw.com.cn^*/index.htm
 ||jthysh.com/uploadfile/poster/trt.swf
 ||jtyskq.com^*/js/_a.js
@@ -3764,6 +3767,7 @@ mg*.6park.com/img/$image
 ||kiees.cn/img/jm.png
 ||kiees.cn/img/nz.png
 ||kikicici.com/up_files/2013-11-25/
+||kikinote.net/iframe.php
 ||kk55.net/beitou.js
 ||kkkmh.com/iframe/
 ||kkkmh.com/javascripts/abcde/
@@ -4303,6 +4307,7 @@ mg*.6park.com/img/$image
 ||property.hk/ad_$script
 ||ps123.net/MyFile/
 ||pstatp.com/resource/toutiao_wap/static/js/lib/ads_
+||pt80.net/source/plugin/fysq_ad/
 ||ptbs.sme.gov.cn/images/231.gif
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
@@ -5552,15 +5557,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||pt80.net/source/plugin/fysq_ad/
-/kikinote_300x150_
-||kikinote.net/iframe.php
-||jstv.com/static_files/banners/213/
-||jstv.com/static_files/banners/50/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jstv.com###vplayad
-jstv.com##.jadv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6852,6 +6850,7 @@ ifeng.com###video_p
 baidu.com###video_push_box
 aipai.com###videosRightDown
 xemh.com###view_ads3
+jstv.com###vplayad
 zqzq.com###wAdTop1
 zqzq.com###wAdTop2
 kamlm.com###wanmeiffad1
@@ -8253,6 +8252,7 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
+jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
 creaders.net##.jcContent
 qidian.com##.jcsp + div[style="HEIGHT: 130px"]
@@ -10291,8 +10291,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||briian.com/advert.
 @@||btaia.com^$generichide
 @@||btio.pw^$generichide
-@@||pos.baidu.com^*=u1902679&$domain=caibaojian.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=caibaojian.com
 @@||cache.adm.cnzz.net^$domain=gx.91s.org|xoyo.com
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
@@ -10310,7 +10308,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
 @@||countrygarden.com.cn/ad/$domain=countrygarden.com.cn
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=epinv.com|fxpan.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=caibaojian.com|epinv.com|fxpan.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
@@ -10439,6 +10437,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
+@@||pos.baidu.com^*=u1902679&$domain=caibaojian.com
 @@||pos.baidu.com^*=u1970872&$domain=fxpan.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
