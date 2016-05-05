@@ -2596,6 +2596,7 @@ mg*.6park.com/img/$image
 ||ck101.com/topic/newgametreeallage.html
 ||clm02.com/2014-A/goez-a005-9-23.jpg
 ||clouddn.com/960x60.gif
+||cloudfront.net/images/K10/adv/
 ||club.pchome.net/*/localexchange.php$subdocument
 ||cmhello.com/2015/10/hc.jpg
 ||cmsjs.eastmoney.com^$subdocument
@@ -2788,6 +2789,7 @@ mg*.6park.com/img/$image
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu//upload/$object-subrequest
 ||dnvod.eu/loader/
+||dnvod.eu/testloader/
 ||dnvod.eu/upload/$object-subrequest
 ||dnvod.eu/upload/20*.gif
 ||dnvod.eu/upload/20*.swf
@@ -2811,6 +2813,7 @@ mg*.6park.com/img/$image
 ||doubanio.com^*/js/ad.
 ||doubleclick.tv002.com^
 ||douguo.net/upload/post/d/
+||doupapa.com/js/swf/
 ||douyutv.com/upload/signs/*.swf
 ||down.admin5.com/z/
 ||down.it168.com/ggimg/
@@ -2833,6 +2836,7 @@ mg*.6park.com/img/$image
 ||downza.cn/skin/v2015/images/soft/youdao
 ||doyo.cn/Tpl/web/Public/images/material/www_couplets/
 ||dpfile.com/pc/trip/*(600x400)
+||dpp2019.com/js/swf/
 ||dqdm.com/js/dqdm/nei960
 ||dre8.com/tieba/zh-tb/so.html
 ||drivergenius.com/inc/driverwwwad.js
@@ -3803,6 +3807,7 @@ mg*.6park.com/img/$image
 ||kukudm.com/js/play-
 ||kutj.com/*/*x80.jpg
 ||kviso.com/ddnew/kviso
+||kviso.com/js/top.js
 ||kyocdn.com/forum/201312/20/151925t52ey4l34ck0lkgv.jpg
 ||kyocdn.com/upload/1316059709x983128031.gif
 ||l.qq.com/lview?
@@ -4792,6 +4797,7 @@ mg*.6park.com/img/$image
 ||storm.mg/ad?
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||strtv.cn/publicimg/sitelink/
+||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
 ||sub.powerapple.com^
 ||sucaijiayuan.com/uploads/ad/
@@ -5489,6 +5495,7 @@ mg*.6park.com/img/$image
 ||zhihu.com/node/Banner?
 ||zhijia.com/hd/*.swf
 ||zhlzw.com/wlles/2015/995XX.js
+||zhongtaozs.com/%5Cad/
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongzi.in/static/ko/
 ||zhoushan.cn/new.js
@@ -5560,23 +5567,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dnvod.eu/testloader/
-||dpp2019.com/js/swf/
-||doupapa.com/js/swf/
-||zhongtaozs.com/%5Cad/
-||cloudfront.net/images/K10/adv/
-||kviso.com/js/top.js
-||stulip.org/static/js/header.js
 !------------------------Specific element hiding rules------------------------!
-doupapa.com,dpp2019.com##.hidden-xs[class*="_"]
-pt80.net###nv_forum > DIV[align="center"]
-pt80.net##TABLE[width="760px"]
-jjvcd.com##.top980
-jjvcd.com##.vod980_2
-kindlefere.com##.kindle-case
-kindlefere.com##.show-grid
 gpcxw.com###AA2
-dnvod.eu###myaudient
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6505,6 +6497,7 @@ cpplay.com###myFocus336
 cpplay.com###myFocus728
 qqjia.com###myadsL
 qqjia.com###myadsR
+dnvod.eu###myaudient
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
@@ -6529,6 +6522,7 @@ live.win007.com###notify > a[target="_blank"]
 nownews.com###nownews_pickup
 qq.com###nqsnqsad02
 qulishi.com###nrad
+pt80.net###nv_forum > div[align="center"]
 chzhw.com###nview > a > img[style$="width:326px;"]
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
@@ -8140,6 +8134,7 @@ xinhuanet.com##.hfgg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme1
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme2
 022net.com##.hgg
+doupapa.com,dpp2019.com##.hidden-xs[class*="_"]
 mahua.com##.hidden_ab
 zp365.com##.hitADclass
 dailyfx.com.hk,jthysh.com##.home-banner
@@ -8297,6 +8292,7 @@ v.ifeng.com##.keyword
 99114.com##.keywordAd
 99tianji.com##.kf1
 iqiyi.com##.khzqBox
+kindlefere.com##.kindle-case
 cnool.net,tech.qq.com##.kjad2
 iciba.com##.kk01
 1kkk.com##.kk2.cc
@@ -8797,6 +8793,7 @@ sogou.com##.shop_list
 uc123.com##.shopping-push
 qiushibaike.com##.shopwindow
 cfwx.net,hbrc.com##.show
+kindlefere.com##.show-grid
 zahuishi.com##.show2960x90
 5068.com##.showG
 51test.net##.show_content_declaration > p
@@ -9011,7 +9008,7 @@ ifeng.com##.top-tg
 www.uuu9.com##.top1bar
 uuu9.com##.top2box
 52wubi.com,zerodm.com##.top960
-700kan.com##.top980
+700kan.com,jjvcd.com##.top980
 cn.msn.com,cwan.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com,xinbiqi.com##.topAd
 ifeng.com##.topAdBox
 ltaaa.com##.topAds2
@@ -9107,6 +9104,7 @@ kanxi123.com##.viewt_77
 2345.com##.vipTopBanner
 5iyq.com##.vip_xj
 cztv.com##.vivo
+jjvcd.com##.vod980_2
 hupu.com##.voice-ad300-250
 15w.com##.vplist-box:last-child
 sogou.com##.vr-shopping2-box
@@ -9913,6 +9911,7 @@ mitbbs.ca,mitbbs.com##table[width="336"][height="280"]
 cartoomad.com##table[width="728"][height="110"]
 cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height^="1"]
 ip138.com##table[width="760"][height="23"][style="border:1px solid #008000"]
+pt80.net##table[width="760px"]
 5156edu.com##table[width="770"][border="1"][bordercolordark="#FFFFFF"][bordercolorlight="#E7E7E7"]
 96js.cn##table[width="778"][border="3"]
 mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
