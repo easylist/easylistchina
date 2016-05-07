@@ -518,7 +518,6 @@ _popAds.
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
-||shuihulu.com^$third-party
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -1044,6 +1043,7 @@ ubmcmm.baidustatic.com
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
 ||show.kc.taotaosou.com^
+||shuihulu.com^$third-party
 ||si9377.com^
 ||sicentlife.com^
 ||sin114.com^$third-party
@@ -1408,6 +1408,7 @@ mg*.6park.com/img/$image
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com|kaoyan1v1.com
 ||000001.azureedge.net/script/p.js
+||000dn.com^$domain=huya.com
 ||00170017.net/Public/dzb_gg.js
 ||00170017.net/Public/images/
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
@@ -1518,6 +1519,7 @@ mg*.6park.com/img/$image
 ||123.sogou.com/nstatic/img/jiao.swf
 ||123564.com/js/plaza.js
 ||123cha.com/2568
+||123wzwp.com/templates/phpdisk_new_blue/img/flm.jpg
 ||125.46.61.28^
 ||126.com/get.do?*=themeHandler.
 ||126.net/house/chengdu/flash/*+
@@ -2092,6 +2094,7 @@ mg*.6park.com/img/$image
 ||a.jyeoo.com/js?
 ||a.kbcool.com/Mon_*.swf
 ||a.ksbbs.com/Mon_*.swf
+||a.v.duowan.com/crossdomain.xml
 ||a.xizi.com^
 ||a2.b310.com^
 ||a4.yeshj.com^
@@ -2755,6 +2758,7 @@ mg*.6park.com/img/$image
 ||didamoe.com/kasen/pc2/js/index_
 ||didamoe.com/kasen/pc2/js/newsand
 ||didown.com/rili-down.gif
+||diediao.com/js/loading.html
 ||dig.chouti.com/advert
 ||dilidili.com/js/index.js
 ||dilidili.com/js/right
@@ -4945,6 +4949,7 @@ mg*.6park.com/img/$image
 ||tucao.tv/index.php?m=poster&c=index&a=show_poster&id=
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tuhaoylw.com/upload/1/18591636/images/*.gif
+||tui.gtimg.com//res/
 ||tui18.com/source/plugin/yl_curtain/template/yl_curtain.
 ||tui22.com^*/dibu.js
 ||tui22.com^*/g.js
@@ -5555,16 +5560,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||diediao.com/js/loading.html
-||a.v.duowan.com/crossdomain.xml
-||000dn.com^$domain=huya.com
-||tui.gtimg.com//res/
-||123wzwp.com/templates/phpdisk_new_blue/img/flm.jpg
 !------------------------Specific element hiding rules------------------------!
-3g.qq.com##DIV[id^="feed-omgad-"]
 gpcxw.com###AA2
-3g.qq.com###omgad-wechat-bigpic
-3g.qq.com##LI[id^="feed-omgad-"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6517,6 +6514,7 @@ qq.com###nqsnqsad02
 qulishi.com###nrad
 pt80.net###nv_forum > div[align="center"]
 chzhw.com###nview > a > img[style$="width:326px;"]
+3g.qq.com###omgad-wechat-bigpic
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
 ifeng.com###optimusPrimeContentId
@@ -9567,6 +9565,7 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[id^="ecl-pc-game-"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
+3g.qq.com##div[id^="feed-omgad-"]
 512ms.com,gusuwang.com##div[id^="fy_"]
 doyo.cn,keleyi.com##div[id^="gg"]
 51240.com##div[id^="ggwz"]
@@ -9834,6 +9833,7 @@ gog.cn##img[width^="100"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 iqiyi.com##li[id^="100000"]
 user.qzone.qq.com##li[id^="fct_20050606_"]
+3g.qq.com##li[id^="feed-omgad-"]
 qiku8.com##li[style*="310"][style*="265"]
 zimuku.net##li[style="width:830px;height:90px;padding:10px;margin-top:10px;background:#eee;"]
 china.com.cn##object[width="300"][height="60"]
@@ -10091,7 +10091,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
-@@||cb.baidu.com^$object-subrequest,domain=v.baidu.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.cntv.cn/adplayer/
 @@.com/ad/$domain=hanjuwang.com|noahedu.com|studioclassroom.com
@@ -10299,6 +10298,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cache.adm.cnzz.net^$domain=gx.91s.org|xoyo.com
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
+@@||cb.baidu.com^$object-subrequest,domain=v.baidu.com
 @@||cbjs.baidu.com/js/m.js$domain=epinv.com|fxpan.com|pic.tiexue.net|xdf.cn
 @@||cbjs.baidu.com/js/o.js$domain=7958.com.cn|g3000.com.cn|hfchenming.com.cn|missioncouver.com.cn
 @@||cbjs.baidu.com^$domain=excelhome.net
