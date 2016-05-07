@@ -515,7 +515,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||baiapk.com^
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -748,6 +747,7 @@ ubmcmm.baidustatic.com
 ||at98.com^
 ||av8d.net^$third-party
 ||b5h7.com^$third-party
+||baiapk.com^
 ||baidu360haosou.info^$third-party
 ||bang5mai.com^$third-party
 ||baodaozhan.cn^$third-party
@@ -1193,7 +1193,6 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
-||t.cn/RqvxNSs|$popup
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1235,6 +1234,7 @@ ubmcmm.baidustatic.com
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
+||t.cn/RqvxNSs|$popup
 ||taobao.com^$popup,domain=aadaili.com|hacg.li|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
@@ -2176,6 +2176,7 @@ mg*.6park.com/img/$image
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||aipai.com/common/i0uat4jq/play/item.html
 ||airenti.in^$script
+||aitaotu.com/Style/js/aitaotuAd.js
 ||aituan.com/at/bbs_gg/
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/index.php?c=position&
@@ -2340,6 +2341,7 @@ mg*.6park.com/img/$image
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
 ||bdimg.com/site/games/yxtg/*.js
+||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
 ||bdstatic.com/img/image/su/
 ||bdstatic.com/pc_static/detail/game_promotion/
 ||bdstatic.com/player/t/j/AEoIJIPB.js
@@ -2791,6 +2793,7 @@ mg*.6park.com/img/$image
 ||dnvod.eu/upload/$object-subrequest
 ||dnvod.eu/upload/20*.gif
 ||dnvod.eu/upload/20*.swf
+||dnvod.eu/video/
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -4663,6 +4666,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/dd602f03jw1ex34eqejscg20u0028glt.gif
 ||sinaimg.cn/mw1024/7c06ba81gw1esqt86wir9j20h80460tu.jpg
+||sinaimg.cn/mw690/7d1c8e96gw1ehjblxlj39j206y06ydgi.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d74zmij.jpg
 ||sinaimg.cn/mw690/a6a976a2*j207e02a
@@ -5558,17 +5562,11 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
-||sinaimg.cn/mw690/7d1c8e96gw1ehjblxlj39j206y06ydgi.jpg
-||aitaotu.com/Style/js/aitaotuAd.js
-||dnvod.eu/video/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-mushilianmeng.com##DIV[style$="width:160px; height:600px; background:#FFFFFF"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
 daohang.qq.com,hao.qq.com###AD_2
 daohang.qq.com,hao.qq.com,sogou.com###AD_3
 daohang.qq.com,hao.qq.com###AD_4
@@ -7783,6 +7781,7 @@ faxingw.cn##.detailgc
 022net.com##.dh + .sidelist + div[style="margin:26px auto 0; width:232px"]
 qqdaohang.com##.dhad
 wenku.baidu.com##.dialog-ad-hd
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
 gs.chinanews.com.cn##.div1000_2 + .div980
 131458.com##.divGuanggao
 0597ok.com##.div_ad
@@ -9607,6 +9606,7 @@ co188.com##div[style$="height:250px;margin:15px 0;"]
 co188.com##div[style$="height:90px;margin-top:15px;"]
 baike.com##div[style$="text-align:center; width: 1000px;"]
 tiexue.net##div[style$="top:40px;overflow: hidden;position: fixed;"]
+mushilianmeng.com##div[style$="width:160px; height:600px; background:#FFFFFF"]
 mahua.com##div[style$="width:300px;height:250px"]
 avonline.org##div[style$="width:570px;margin-left:50px;"]
 taodake.com##div[style$="width:960px; height:60px;"]
