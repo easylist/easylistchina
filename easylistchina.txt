@@ -516,6 +516,8 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
 ||drlsf.com^
+||whytoss.com^
+|http://r.*.com/view.php?uid=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
@@ -4167,7 +4169,6 @@ mg*.6park.com/img/$image
 ||open-open.com/lag336x280.png
 ||open-open.com^*_banner.
 ||orsoon.com*/zhuanti/
-||orsoon.com//images/ku86.jpg
 ||orzx.im/Document/recommend/flashpoint.html
 ||orzx.im/Document/union/
 ||orzx.im/js/*pop
@@ -5563,8 +5564,12 @@ mg*.6park.com/img/$image
 ||ruyig.com/730x76.png
 ||bdstatic.com^*/plugins/every_cookie_
 ||dnvod.eu/ui/
+||orsoon.com/images/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+orsoon.com##.ad_show
+orsoon.com##.ad_show_1
+orsoon.com##.ad_show_2
 3gsc.com.cn##.advbox
 kaixindy.com###pege_ad1
 d5yuansu.com##A[href^="http://www.caimimao.cn"]
@@ -6930,7 +6935,7 @@ ditu.so.com###zt_right
 xsbashi.com###zuo
 51.la###zztxt
 china.com.cn,csdn.net,cul.shangdu.com,cyol.net,wxrb.com,yam.com##.AD
-motobuy.com.tw,orsoon.com##.AD1
+motobuy.com.tw##.AD1
 wxrb.com##.AD1000
 imeee.cn##.AD300x250
 wxrb.com##.AD305
