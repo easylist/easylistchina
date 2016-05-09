@@ -214,7 +214,6 @@ hk.yahoo.com###mntl1
 /PushSystem/attached/image/*
 /QianFanAdPalyer.
 /qpxl.js
-/showgg.js
 /qqguojiad/*
 /qqlive/conf/playerlottery/*
 /qqyouyuead/*
@@ -222,6 +221,7 @@ hk.yahoo.com###mntl1
 /runtime/js/index960.js
 /Runtime/js/top960.js
 /show.js?sp=*&oid=
+/showgg.js
 /sogouAD.
 /source/plugin/mama_tips/*
 /ssdxad.swf
@@ -435,6 +435,7 @@ _popAds.
 ##.gg_960
 ##.gg_full
 ##.ggad
+##.ggbox
 ##.ggg-in-post1
 ##.ggg-in-post2
 ##.gggggpost-below
@@ -514,14 +515,11 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.ggbox
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
-||cj-cy.com^
-||gso0.com^
-.net/showpage.asp?u=$script,third-party
-.com/showpage.asp?u=$script,third-party
 .com/mediaController.php?pid=$script,third-party
+.com/showpage.asp?u=$script,third-party
+.net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adscpc/*
 /AShow.aspx?AID=
@@ -598,6 +596,7 @@ ubmcmm.baidustatic.com
 ||139site.com^$third-party
 ||1503.net/code/
 ||1680go.com^
+||17un.co^
 ||182.92.81.104^
 ||1kmb.cn^
 ||1l1.cc^
@@ -778,11 +777,11 @@ ubmcmm.baidustatic.com
 ||chinesean.com^$third-party
 ||chushoushijian.cn^
 ||cifenqi.com^$third-party
+||cj-cy.com^
 ||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
 ||cnbole.net^
 ||cnsjx.net^
-||idasai.com^
 ||cnxad.com^$third-party
 ||cnxad.net^
 ||cnzz.com.so^
@@ -875,11 +874,11 @@ ubmcmm.baidustatic.com
 ||gg570.com^
 ||ggmm777.com^$third-party
 ||gm682.com^
-||jhakie.com^
 ||gohappy.com.tw^$third-party
 ||googletakes.com^
 ||gotonav.com^$third-party
 ||gs307.com^$third-party
+||gso0.com^
 ||guduopu.com^
 ||gzbywl.com^$third-party
 ||gzlykj.cn^
@@ -908,12 +907,12 @@ ubmcmm.baidustatic.com
 ||i3z.cn^$third-party
 ||icast.cn^$third-party
 ||id528.com^
+||idasai.com^
 ||iee5.com^$third-party
 ||iguang.tw^$third-party
 ||ihualun.com^
 ||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
 ||img80.net^
-||scize.com^$third-party
 ||index8.cn^$third-party
 ||instreet.cn^$third-party
 ||iprefer.com.tw^$third-party
@@ -924,6 +923,7 @@ ubmcmm.baidustatic.com
 ||ja9377.com^
 ||jczzjx.com^
 ||jdlhg.com^
+||jhakie.com^
 ||jhzl001.com^
 ||jianglishi.cn^$third-party
 ||jiankang13.com^$third-party
@@ -1048,6 +1048,7 @@ ubmcmm.baidustatic.com
 ||s17cnzz.com^$third-party
 ||s8dj.com^$third-party
 ||sales-frontier.com^$third-party
+||scize.com^$third-party
 ||scupio.com^$third-party
 ||scw0.com^
 ||sexy-more.com^$third-party
@@ -1152,7 +1153,6 @@ ubmcmm.baidustatic.com
 ||xe2c.com^$third-party
 ||xhmrv.com^
 ||xjidian.com^
-||17un.co^
 ||xlingdi.com^$third-party
 ||xp3366.com^$third-party
 ||xq199.com^
@@ -1422,7 +1422,6 @@ mg*.6park.com/img/$image
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com|kaoyan1v1.com
 ||000001.azureedge.net/script/p.js
-||kwflvcdn.000dn.com^*.flv$object-subrequest,third-party
 ||00170017.net/Public/dzb_gg.js
 ||00170017.net/Public/images/
 ||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
@@ -1558,6 +1557,7 @@ mg*.6park.com/img/$image
 ||141h.com/data/attachment/noblock/cf/
 ||14bobo.com/js/
 ||1518.com/ss/
+||15hn.net/data/content
 ||15w.com/call/webjs/60.js
 ||15w.com/flash/
 ||15w.com/pages/adlive.
@@ -1593,6 +1593,7 @@ mg*.6park.com/img/$image
 ||16sucai.com/images/46060_
 ||17173.com/2013/new/channel-float.js
 ||17173.com/advideo/
+||17173.com/api/video/PlayerPopup?
 ||17173.com/bd/ifm/allyes/
 ||17173.com/if/
 ||17173.com/new/
@@ -2625,6 +2626,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/320x50.
 ||cnbetacdn.com/article/2016/0331/ba42ba5244d1874.gif
 ||cnbetacdn.com/article/2016/0425/c94f66e4a117753.jpg
+||cnbetacdn.com/article/2016/0509/240a9b9450e7f66.jpg
 ||cnbetacdn.com/banner
 ||cnchu.com/aps/
 ||cncrk.com/505/
@@ -3817,6 +3819,7 @@ mg*.6park.com/img/$image
 ||kutj.com/*/*x80.jpg
 ||kviso.com/ddnew/kviso
 ||kviso.com/js/top.js
+||kwflvcdn.000dn.com^*.flv$object-subrequest,third-party
 ||kyocdn.com/forum/201312/20/151925t52ey4l34ck0lkgv.jpg
 ||l.qq.com/lview?
 ||lady100.net/760-90.js
@@ -3973,6 +3976,7 @@ mg*.6park.com/img/$image
 ||manads.static.olcdn.com^
 ||manage.wdfans.cn^
 ||manhuatai.com/js/ds.js
+||manhuatai.com/static/showqq.js
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||market.178.com^
@@ -4309,6 +4313,7 @@ mg*.6park.com/img/$image
 ||popme.163.com/js/vedioad_
 ||poppur.com/banner/962x100.gif
 ||poster.weather.com.cn^
+||posts.cdn.wallstcn.com^*/wap-
 ||potplayer.org/sc/
 ||poxiao.com/template/default/images/12345.js
 ||ppsj.com.cn/images/ppsj300.gif
@@ -5575,16 +5580,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||15hn.net/data/content
-||manhuatai.com/static/showqq.js
-||cnbetacdn.com/article/2016/0509/240a9b9450e7f66.jpg
-||17173.com/api/video/PlayerPopup?
-||posts.cdn.wallstcn.com^*/wap-
 !------------------------Specific element hiding rules------------------------!
-m.wallstreetcn.com##DIV[style="height: 130px;"]
-cnbeta.com##.cbhelp
-tiexue.net##.cj-box
-tiexue.net##.moveBox
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5635,7 +5631,7 @@ chinatp.com.cn###FloatRb
 aipai.com###GmAppBanner
 hupu.com###HCFull
 azofreeware.com###HTML1
-pttjoke.com###HTML1 > .widget-content > DIV > P
+pttjoke.com###HTML1 > .widget-content > div > p
 azofreeware.com###HTML3
 azo-diary.blogspot.com,azo-diary.blogspot.hk,azo-diary.blogspot.tw###HTML4
 zhoushan.cn###Headtop
@@ -7672,6 +7668,7 @@ kuaipan.cn##.card
 16888.com##.cardataclass
 sd173.com##.carousel
 baidu.com##.cbg-Ads
+cnbeta.com##.cbhelp
 m.cnbeta.com##.cbimage-fixed
 meizhou.com##.cc_slide_big
 meizhou.com##.cc_slide_small
@@ -7690,6 +7687,7 @@ guidaye.com##.charu
 cb.com.cn##.chbox_r_ad
 china.com.cn##.chinaJZG
 firefoxchina.cn##.chip-banners
+tiexue.net##.cj-box
 ku6.com##.ckl_ios
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
@@ -8490,6 +8488,7 @@ iqiyi.com##.mod_focus-index_list > li:last-child
 firefoxchina.cn##.module-banner
 sogou.com##.module-fourpic-box
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
+tiexue.net##.moveBox
 wasu.cn##.movie_ad
 jmw.com.cn##.mr_1
 zhuangpin.com##.mr_ad
@@ -9685,6 +9684,7 @@ gamefy.cn##div[style="float:left; width:220px; padding-top:15px;"]
 tianjinwe.com##div[style="float:left; width:312px; height:250px; margin-bottom:10px;"]
 sinoca.com##div[style="float:right;height:280px;width:336px;clear:left;background:#FFF;margin:15px 15px 15px 15px;"]
 ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;width:336px;"]
+m.wallstreetcn.com##div[style="height: 130px;"]
 ting89.com,tingshuge.com##div[style="height: 280px"]
 lol.178.com##div[style="height: 60px; text-align: center;"]
 tompda.com##div[style="height: 90px; padding: 0px; overflow: hidden; margin-bottom: 12px;"]
