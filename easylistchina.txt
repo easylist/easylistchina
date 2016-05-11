@@ -5583,6 +5583,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||guang.lesports.com^
+||ttx.cn/js/float.js
+||ttx.cn/js/tcgd//jquery.lightbox.min.js
 !------------------------Specific element hiding rules------------------------!
 le.com##.recommend-part-right
 club.pchome.net,kdslife.com###fixbar02
@@ -10129,6 +10131,7 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||ads.ttx.cn/attachment/$domain=ttx.cn
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
