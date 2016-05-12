@@ -75,7 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/eis/diy/ad/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -149,6 +148,7 @@ hk.yahoo.com###mntl1
 /duilian2.
 /duilian_gg.
 /dy_66jjss/*
+/eis/diy/ad/*
 /ettoday/gemini/*
 /float_r.js
 /floatad.$domain=~fwxgx.com
@@ -182,6 +182,7 @@ hk.yahoo.com###mntl1
 /js/ads/zuoxiajiao.js
 /js/bocaiadv.
 /js/guanggao_gg.js
+/js/toutiaoiframe.js
 /js/utils51.js
 /js/utils78.js
 /jsadv/*
@@ -233,7 +234,6 @@ hk.yahoo.com###mntl1
 /taihai/v2014/images/index/aa_10.
 /tan.js
 /tanad.js
-/js/toutiaoiframe.js
 /tanchuang.
 /taobaoad.html
 /template/gg.js
@@ -314,6 +314,8 @@ _popAds.
 ###doyoo_monitor
 ###duilian_left
 ###duilian_right
+###eis_pad1
+###eis_pad2
 ###floatAd
 ###floatad-winpop
 ###fwin_popad_7ree
@@ -517,15 +519,11 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###eis_pad1
-###eis_pad2
 !----------------------------------Ads-Union----------------------------------!
-.com/ge/?s=$script,third-party
-||drxrc.com^
-||7676.com^$third-party
 .com/code.php?z=$script,third-party
-.com/pp.php?uid=$script,third-party
+.com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
+.com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
@@ -677,6 +675,7 @@ ubmcmm.baidustatic.com
 ||70e.com^$third-party
 ||710070.com^$third-party
 ||71sem.com^
+||7676.com^$third-party
 ||7794.com^$third-party
 ||77power.com^
 ||788xj.com^$third-party
@@ -834,6 +833,7 @@ ubmcmm.baidustatic.com
 ||drlsf.com^
 ||drmcmm.baidu.com^
 ||drwzn.com^$third-party
+||drxrc.com^
 ||dszm163.com^$third-party
 ||dtd7.com^$third-party
 ||duiwai.baidu.com^
@@ -1717,6 +1717,7 @@ mg*.6park.com/img/$image
 ||2chcn.com/img/*336x280
 ||2chcn.com/img/3171150.jpg
 ||2chcn.com/img/japanese-a.png
+||2dfan.com/%40%2Fbanner
 ||2mi.tv/cmp/proxy.swf
 ||2muslim.com/data/attachment/portal/
 ||2u-img.com.cn/modules/38_module_images/4747.jpg
@@ -2508,6 +2509,7 @@ mg*.6park.com/img/$image
 ||bytravel.cn/js/ad_
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
+||bzfl-1.cc^*.gif
 ||bzfl.cc/da*.gif
 ||bzfl1.cc/da*.gif
 ||c-ctrip.com/rk/201411/c580x145.jpg
@@ -3898,6 +3900,7 @@ mg*.6park.com/img/$image
 ||liaoxuefeng.com/files/attachments/00144*/0
 ||liba.com/ads/
 ||licai18.com/bk/$object
+||licai18.com/images/Licai-
 ||licai18.com/pic/*.swf
 ||liepin.com/event/jobadver/
 ||life.e0575.com^
@@ -5595,14 +5598,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bzfl-1.cc^*.gif
-||licai18.com/images/Licai-
-||2dfan.com/%40%2Fbanner
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1ydt.com###head
-xunleiyy.com##.p_view_intro
-toutiao.com###dsp_gome_toutiao_250250
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6169,6 +6166,7 @@ udn.com###doctop
 niutuku.com###downAD1
 howfile.com###downloadtable + div > table[style="margin-top:5px"]
 langxi.org###drk_ledtd
+toutiao.com###dsp_gome_toutiao_250250
 g1080.com,ptbus.com,weather.com.cn###duilian
 shenchuang.com###duilian_left_ID
 shenchuang.com###duilian_right_ID
@@ -6324,6 +6322,7 @@ coolaler.com###hd
 ithome.com###hd_float
 he-games.com###he_banner_ad
 he-games.com###he_bottom_ad
+1ydt.com###head
 bbs.xinjs.cn###head > .tac
 webkaka.com###head > div[style="padding-top:2px !important;padding-top:5px;"]
 frdic.com###head-ad-barSub
@@ -8625,6 +8624,7 @@ sina.cn##.p_newsmore
 sina.cn##.p_piclistbox > li > .pic-wrap
 bbdj.com##.p_r1
 actoys.net##.p_top_ad
+xunleiyy.com##.p_view_intro
 taoguba.com.cn##.p_wenz + div > div[style="text-align:center;cursor:hand;"]
 cssmoban.com,wenku.baidu.com##.page-banner
 xizi.com##.pageAD1
