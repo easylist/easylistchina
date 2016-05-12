@@ -75,6 +75,7 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
+/eis/diy/ad/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -516,6 +517,8 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+###eis_pad1
+###eis_pad2
 !----------------------------------Ads-Union----------------------------------!
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -6182,8 +6185,6 @@ image.baidu.com###ecomContainer
 hjenglish.com###editor_a4
 gcxa.cn###edu_ad63
 letv.com###egg
-365kl.net,3sjt.com,kugz.com###eis_pad1
-365kl.net###eis_pad2
 21cn.com###embed_hzh_div
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###encourage_entry
 hc360.com###endAccessories1
