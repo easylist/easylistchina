@@ -322,6 +322,7 @@ _popAds.
 ###fwin_popad_7ree + #fwin_dialog
 ~hkcsl.com###gg1
 ###gg300
+###googleAdIndexTop
 ###haoetv
 ###haoetv1
 ###headadv2
@@ -518,7 +519,6 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-###googleAdIndexTop
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -1890,6 +1890,7 @@ mg*.6park.com/img/$image
 ||58cdn.com.cn//ui6/index/13.jpg
 ||58cdn.com.cn/brandads/
 ||58cdn.com.cn/ds/tgbrand/*.js
+||58cdn.com.cn/ds/zhuangxiu/jzad-
 ||59.36.101.209:888/link/vc_280x192.gif
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/dll.js
@@ -1934,6 +1935,7 @@ mg*.6park.com/img/$image
 ||61.235.249.195^*/Default.aspx?id=
 ||62422.cn/ggimg/
 ||62422.cn/js/inc/13.swf
+||63007.com/haodxi.js
 ||64bobo.com/ckplay/js.jpg
 ||654mmm.com^
 ||66.fmx.cn/js/
@@ -3549,6 +3551,7 @@ mg*.6park.com/img/$image
 ||img2.126.net^
 ||img2.e0575.com*/upload/image/
 ||img2.e0575.com//upload/adv/
+||img2.lanrenzhijia.com/demo
 ||img2.win007.com/image/*.jpg
 ||img2.www.fmdisk.com^
 ||imgbus.com^$domain=qiannao.com|ref.so
@@ -3630,10 +3633,12 @@ mg*.6park.com/img/$image
 ||itc.cn^*_ad/src/*.swf
 ||item.taobao.com^$domain=iask.sina.com.cn
 ||iteye.com/iframe_ggbd/
+||ithome.com/file/js/lapin-load.js
 ||ithome.com/html/$xmlhttprequest
 ||ithome.com/images/partner/
 ||ithome.com/images/v2.3/11index.png
 ||ithome.com/js/*/toutiao.js
+||ithome.com/js/lapin/hot.js
 ||ithome.com/js/money/
 ||ithome.com/js/recommend.js
 ||ithome.com/js/win7china.js
@@ -3669,6 +3674,7 @@ mg*.6park.com/img/$image
 ||j.6avz.com^
 ||j.ccnovel.com^
 ||ja.gamersky.com^
+||ja7lib.com/js/bnr_
 ||jandan.com/static/gggg/
 ||javazhijia.com/skin/bysj.jpg
 ||javjunkies.com/FL$subdocument
@@ -3847,6 +3853,7 @@ mg*.6park.com/img/$image
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
 ||langya.cn/images/ad_down.js
+||lanrenzhijia.com/maiziedu2.jpg
 ||laod.cn/wp-content/uploads/*/AD
 ||laogu.com/laogubbs/my/
 ||laogu.com/my/ad
@@ -3927,6 +3934,7 @@ mg*.6park.com/img/$image
 ||longyu.cc/adg/
 ||longyu.cc/bucket/flash/
 ||lookmw.cn^*/default/js/union.js
+||loveshang.com/api.php?mod=ad&adid=custom_
 ||lrjz100.u.qiniudn.com/rmb/bxd.jpg
 ||ltwbook.com/js/l_
 ||ltxszw.com/js/350.png
@@ -3938,6 +3946,7 @@ mg*.6park.com/img/$image
 ||ly.js.cn/adv/
 ||ly.shangdu.com/lyinfo/zlwz/flash/$object
 ||lyd.com.cn^*950-90.
+||lysq.com/data/attachment/portal/
 ||lywww.com/data/js.php?id=
 ||lywww.com/data/js/1
 ||lywww.com/data/js/2
@@ -5589,21 +5598,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||ja7lib.com/js/bnr_
-||loveshang.com/api.php?mod=ad&adid=custom_
-||58cdn.com.cn/ds/zhuangxiu/jzad-
-||lysq.com/data/attachment/portal/
-||img2.lanrenzhijia.com/demo
-||lanrenzhijia.com/maiziedu2.jpg
-||63007.com/haodxi.js
-||ithome.com/file/js/lapin-load.js
-||ithome.com/js/lapin/hot.js
 !------------------------Specific element hiding rules------------------------!
-ithome.com###tt5
-ithome.com##.related_buy
-loveshang.com##.advbox
-lysq.com###diyad
-lysq.com###frameD955k5
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6147,7 +6142,7 @@ cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###
 5imx.com###diy_mxad06
 5imx.com###diy_mxnewsad01
 cool-de.com###diy_vk_ad_top
-0517w.com###diyad
+0517w.com,lysq.com###diyad
 dz19.net###diyad2
 im286.net###diyflash
 luanren.com###diyhlx01
@@ -6256,6 +6251,7 @@ yangluo.cn###frame51RcxP
 shhhy.org###frame6KK121_left
 2000fun.com###frameA20TTA
 2muslim.com###frameD3x9G6_center > :nth-child(2n)
+lysq.com###frameD955k5
 3dezu.com###frameK221mK
 shhhy.org###frameMLzskg_left
 dabin69.com###frameOa2lrD
@@ -6871,6 +6867,7 @@ tsdm.net###tsdmadv_img
 ithome.com###tt1
 ithome.com###tt2
 ithome.com###tt3
+ithome.com###tt5
 m.autohome.com.cn###tu94dq
 sohu.com###turn-ad
 ali213.net###tv
@@ -7416,7 +7413,7 @@ letv.com##.adv_img
 78dm.net##.adv_logo
 kaifu.com##.adv_slide
 v1.cn##.advbigJs
-3gsc.com.cn,gdzjdaily.com.cn,tzfdc.com.cn##.advbox
+3gsc.com.cn,gdzjdaily.com.cn,loveshang.com,tzfdc.com.cn##.advbox
 anjuke.com##.adver-content
 360che.com##.adver1000_60
 360che.com##.adver1000_65
@@ -8735,6 +8732,7 @@ le.com##.recommend-part-right
 guba.eastmoney.com##.redian
 drupalchina.cn##.region-header-banner
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
+ithome.com##.related_buy
 3g.cn##.reply_block
 haosou.com,so.com##.res-rich-drug
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.res_top_banner
