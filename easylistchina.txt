@@ -75,9 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/lanye2015/images/qiniu.jpg
-/lanye2015/images/hengtian.jpg
-/lanye2015/images/kuan.jpg
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -194,6 +191,9 @@ hk.yahoo.com###mntl1
 /k300g250.
 /k960g90.
 /kuaiyun-728-91.
+/lanye2015/images/hengtian.jpg
+/lanye2015/images/kuan.jpg
+/lanye2015/images/qiniu.jpg
 /lenovo/pc/all.js
 /lfAD2v1.1.js
 /lfadvertise.js
@@ -2260,9 +2260,9 @@ mg*.6park.com/img/$image
 ||aqlife.com/data/attachment/portal/
 ||aqy102.com/js/aqy/
 ||aqy103.com/js/aqy/
+||ark.le.com/s?vid=
 ||ark.letv.com/s?res=
 ||ark.letv.com/s?vid=
-||ark.le.com/s?vid=
 ||arpun.com/arpun/softinfo
 ||article.pchome.net/Index.php?c=Intel&
 ||as.sinahk.net^
@@ -3946,6 +3946,7 @@ mg*.6park.com/img/$image
 ||lzep.cn/ep/ads/
 ||lzep.cn/ep/js/index_window.js
 ||lzep.cn/ep/old/finance/ad
+||lzep.cn/ep/sda/*_1000x60_
 ||lzep.cn/images/*/ad
 ||lzep.cn^*/2014ad/
 ||lzqss.net/data/attachment/portal/
@@ -5581,17 +5582,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||lzep.cn/ep/sda/*_1000x60_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-lanyes.org##DIV[style="margin:0 auto 10px;height:76px;overflow:hidden"]
-le.com##.H-tg
-le.com##.Banner
-le.com##.Ad
-le.com##.adv_img
-le.com##.broadcast-adv
-news.lzep.cn##.basehr + DIV:nth-child(3)
-lzep.cn###add
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5819,6 +5811,7 @@ localking.com.tw###adbannerurl
 dahanju.com,xskhome.com,yxdown.com###adbg
 voc.com.cn###adbody_hidden
 voc.com.cn###adbody_show
+lzep.cn###add
 yawen8.com###add4
 17yy.com###addiv
 rj.baidu.com###ader
@@ -6970,7 +6963,7 @@ sina.com.cn##.AD_hqbottom
 clickme.net##.ADs
 wxrb.com##.ADtxt
 scsn.cn##.AVu4
-letv.com##.Ad
+le.com,letv.com##.Ad
 kuai8.com##.Ad1
 aohua.com.au,qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -6992,7 +6985,7 @@ ifeng.com##.Avt02
 qiqu888.com##.Axing_add_Page2
 xitongzhijia.net##.BAIDU_CLB_1000_90
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.BAIDU_CLB_AD
-letv.com##.Banner
+le.com,letv.com##.Banner
 china.com.cn##.Banner_left
 china.com.cn##.Banner_right
 bilibilijj.com##.Box-4x4
@@ -7022,7 +7015,7 @@ jinhua.com.cn##.FocusAD
 aiyuke.com##.GGad
 news.hf365.com##.G_bot
 duoduopan.com,fuliba.net,fulibba.com,mcncc.com,twunbbs.com,wndflb.com##.GzList
-letv.com##.H-tg
+le.com,letv.com##.H-tg
 sj998.com##.Hr_1
 souxue8.net,xiaodao.la,xiaodaoyl.com##.HtmlMoKua.column.two-thirds
 xinmin.cn##.Index201408_gg2
@@ -7399,7 +7392,7 @@ sohu.com##.adv_960
 kuai.xunlei.com##.adv_area
 sd888.org##.adv_box
 sd888.org##.adv_box2
-letv.com##.adv_img
+le.com,letv.com##.adv_img
 78dm.net##.adv_logo
 kaifu.com##.adv_slide
 v1.cn##.advbigJs
@@ -7579,6 +7572,7 @@ zuowen.com##.banners
 fang.com##.bannger_inbox
 mscbsc.com##.bao1
 qixingquan.com##.baoxian
+news.lzep.cn##.basehr + div:nth-child(3)
 jxedt.com##.bbad
 nick18.com##.bbs_entry_wrapper > table[width="100%"]
 xilu.com##.bbs_topad
@@ -7656,7 +7650,7 @@ lolshipin.com##.box[style="display: block;"]
 duba.com##.box_shopping
 uzzf.com##.boxl
 kehuan.net.cn##.bread_728x90
-letv.com##.broadcast-adv
+le.com,letv.com##.broadcast-adv
 2345.com##.browserTxt
 hao123.com##.browsertip
 anywlan.com##.bscekvofc_o
@@ -9723,6 +9717,7 @@ thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
 northnews.cn##div[style="margin: 0px 50px 20px 0px; width: 290px; display: inline; float: left; height: 172px;"]
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
 sina.com.cn##div[style="margin:0 0 10px 0;overflow: hidden;overflow:hidden;width:980px;height:90px;margin:0 auto;font-size:12px;"]
+lanyes.org##div[style="margin:0 auto 10px;height:76px;overflow:hidden"]
 manhuadao.com##div[style="margin:0 auto 12px; adding:0;width:920px;height:250px;overflow:hidden;"]
 weather.com.cn##div[style="margin:0 auto;width:1000px;margin-top:3px;height:90px;"]
 qidian.com##div[style="margin:0 auto;width:375px;height:63px;padding-top:5px"]
