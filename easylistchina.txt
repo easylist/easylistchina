@@ -1300,8 +1300,8 @@ ubmcmm.baidustatic.com
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /Aemplate/dd_1010/baidu
 /afp/*$domain=scol.com.cn
-/aServ_header.$domain=9gui.net|miejw.com
 /aServ_channl.$domain=9gui.net|miejw.com
+/aServ_header.$domain=9gui.net|miejw.com
 /assets/sidebar/*$domain=v2ex.com
 /Atemplate/dd_1010/baidu
 /attachment/album/*$domain=www.52hardware.com
@@ -2471,6 +2471,7 @@ mg*.6park.com/img/$image
 ||btago.com/static/banner/
 ||btbbt.cc/bt.js
 ||btbbt.cc/jslb.js
+||btbt.info/js/top960.js
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
 ||btks.me/ac/
@@ -2827,6 +2828,7 @@ mg*.6park.com/img/$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu//upload/$object-subrequest
+||dnvod.eu/gui/
 ||dnvod.eu/loader/
 ||dnvod.eu/testloader/
 ||dnvod.eu/ui/
@@ -3800,6 +3802,7 @@ mg*.6park.com/img/$image
 ||kan98.com/index.php?m=content&c=index&a=*ad
 ||kan98.com/index.php?m=poster&
 ||kankanmi.com/js/zjgg
+||kanman.com^*/jquery.js
 ||kanpp.net/Uploads/ad/
 ||kaoyan1v1.com/IAA/
 ||kcwiki.moe/commons/4/4f/DMMprepaidcard.jpg
@@ -3912,6 +3915,7 @@ mg*.6park.com/img/$image
 ||liveany.com/images/8d8d.gif
 ||livefilestore.com^*/imj160x200.gif
 ||liyuanwang.com/nongli.gif
+||ljia.net/images/beihu1.jpg
 ||ljia.net/vipflash/pop_footer.js
 ||ln.xinhuanet.com/inc/
 ||lnd.com.cn/site1/*.swf
@@ -3938,6 +3942,8 @@ mg*.6park.com/img/$image
 ||lywww.com/data/js.php?id=
 ||lywww.com/header_pic.php
 ||lz.chinanews.com/images/flash/00.swf
+||lz13.cn*/qeeke/script/*0
+||lz13.cn/UPLOAD/sanwen.jpg
 ||lzep.cn/data/js/1*.js
 ||lzep.cn/ep/ads/
 ||lzep.cn/ep/js/index_window.js
@@ -3972,6 +3978,7 @@ mg*.6park.com/img/$image
 ||manage.wdfans.cn^
 ||manhuatai.com/js/ds.js
 ||manhuatai.com/static/showqq.js
+||manhuatai.com^*/jquery.js
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||market.178.com^
@@ -4611,6 +4618,7 @@ mg*.6park.com/img/$image
 ||shehuitu.com/jsjs/
 ||shejizhan.org/images/myssh
 ||shenleyuni.com^
+||shenmanhua.com^*/jquery.js
 ||shenmaxiaoshuo.com/js/hf
 ||shenmaxiaoshuo.com/js/lu.js
 ||shenmaxiaoshuo.com/js/mu.js
@@ -5367,6 +5375,7 @@ mg*.6park.com/img/$image
 ||yes1.feng.com^$domain=feng.com
 ||yesky.com/monitorjs/imp-
 ||yeyou.com/2013/new/yeyou-float-window.js
+||yfzgw.com/css/$script
 ||ygdy8.com/jsy/
 ||ygdy8.net/js1/
 ||yiku51.com/xinzeng/js/
@@ -5577,18 +5586,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||btbt.info/js/top960.js
-||dnvod.eu/gui/
-||ljia.net/images/beihu1.jpg
-||lz13.cn*/qeeke/script/*0
-||lz13.cn/UPLOAD/sanwen.jpg
-||yfzgw.com/css/$script
-||manhuatai.com^*/jquery.js
-||kanman.com^*/jquery.js
-||shenmanhua.com^*/jquery.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1010jiajiao.com##.sbox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8784,6 +8783,7 @@ baidu.com##.sam_iebrowser_banner
 ithome.com##.sb_list > .bx
 gog.cn##.sbh1_nav
 gog.cn##.sbh_nav
+1010jiajiao.com##.sbox
 mail.pchome.com.tw##.sceng
 wps.cn##.school
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.score_ecr_wrapper
@@ -10027,6 +10027,7 @@ pupuapp.com#@##ad_img
 51job.com#@##ad_right
 dpp.org.tw#@##ad_small
 wholehk.com,zhujiceping.com#@##adsense
+182.18.61.50#@##adslist
 33xs.com,aixiaoshuo.com.cn,baishuku.com,dushiwenxue.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
@@ -10130,7 +10131,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-182.18.61.50#@##adslist
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
