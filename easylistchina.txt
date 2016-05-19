@@ -1234,7 +1234,6 @@ ubmcmm.baidustatic.com
 ||093game.com^$popup,third-party
 ||133gp.com^$popup
 ||9100300.com^$popup
-||xingshenfang.cn^$popup
 ||acgpost.taobao.com^$popup,domain=www.tsdm.net
 ||ad.189so.cn^$popup
 ||aiwanma99.com^$popup
@@ -1269,6 +1268,7 @@ ubmcmm.baidustatic.com
 ||taobao.com^$popup,domain=aadaili.com|hacg.li|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
+||xingshenfang.cn^$popup
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
@@ -1509,6 +1509,7 @@ mg*.6park.com/img/$image
 ||11.mydrivers.com/myfiles/myfiles100*.js
 ||11.mydrivers.com/news/03.js
 ||11.mydrivers.com/news/google468x60.js
+||11129.com/800X80
 ||111cn.net/gg_ad/
 ||111cn.net/images/v8/vip.jpg
 ||111cn.net/js/downc*.js
@@ -2048,6 +2049,7 @@ mg*.6park.com/img/$image
 ||8jkx.com^
 ||8jzw.com/js/01.html
 ||8kele.com^$~collapse,domain=gamer.com.tw
+||900.la/imgs/9142a436-cd29-4848-8445-f000979d275e/2016-03-13/cieeejc3.gif
 ||9000wy.com/style/js/2015content.js
 ||9091tv.com/dy/mtu.swf
 ||9091tv.com/hhhh.htm
@@ -2248,6 +2250,7 @@ mg*.6park.com/img/$image
 ||am.zdnet.com.cn/www/images/$image,object,subdocument
 ||amd.cn/yyets.js
 ||an7.tv/Runtime/js/
+||angelweb.cn/Inc/AngelG.js
 ||angpic.3g.net.cn/ai/
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
@@ -2846,6 +2849,7 @@ mg*.6park.com/img/$image
 ||dnvod.eu/upload/20*.gif
 ||dnvod.eu/upload/20*.swf
 ||dnvod.eu/video/
+||dnvod.eu/vui/
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -4048,6 +4052,10 @@ mg*.6park.com/img/$image
 ||mmtalk.net/images/banner
 ||mnw.cn/script/info/baiduadm.html?
 ||mobile01.com/300x100.swf
+||moe-acg.cc/images/*/1225x130
+||moe-acg.cc/images/*/700x150.
+||moe-acg.cc/images/2016/03/21/9774a1c6da380262.jpg
+||moe-acg.cc/wp-content/uploads/*/310x374
 ||moe.fm/public/images/fm/promotion_
 ||moe.la/images/banner/
 ||moe123.com/static/img/2014_fattycat.jpg
@@ -5597,21 +5605,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dnvod.eu/vui/
-||angelweb.cn/Inc/AngelG.js
-||moe-acg.cc/images/2016/03/21/9774a1c6da380262.jpg
-||moe-acg.cc/images/*/1225x130
-||moe-acg.cc/images/*/700x150.
-||moe-acg.cc/wp-content/uploads/*/310x374
-||900.la/imgs/9142a436-cd29-4848-8445-f000979d275e/2016-03-13/cieeejc3.gif
-||11129.com/800X80
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-acgzone.me##.ads
-angelweb.cn##.gg250x250
-angelweb.cn##TABLE[height="250"]
-angelweb.cn###G640x60
-angelweb.cn##.GG960x90
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5657,6 +5652,7 @@ pcworld.com.cn,stnn.cc###FloatDIV
 chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatLa
 chinatp.com.cn###FloatRb
+angelweb.cn###G640x60
 114la.com,ylmf.com###GameAdv
 aipai.com###GmAppBanner
 hupu.com###HCFull
@@ -7040,6 +7036,7 @@ ifeng.com##.FNewRAvtLisBox02
 cnfol.com##.FixedLeft
 cnfol.com##.FixedRight
 jinhua.com.cn##.FocusAD
+angelweb.cn##.GG960x90
 aiyuke.com##.GGad
 news.hf365.com##.G_bot
 duoduopan.com,fuliba.net,fulibba.com,mcncc.com,twunbbs.com,wndflb.com##.GzList
@@ -7382,7 +7379,7 @@ blog.dausos.com,qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-773buy.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,haokan5.com,hc360.com,html-js.com,mnw.cn,oxgood.com,qz930.com,ranwen.net,ranwen.org,sina.com,wasu.cn,xunleihd.com,yeeyi.com##.ads
+773buy.com,acgzone.me,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,haokan5.com,hc360.com,html-js.com,mnw.cn,oxgood.com,qz930.com,ranwen.net,ranwen.org,sina.com,wasu.cn,xunleihd.com,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -8045,6 +8042,7 @@ hgitv.com##.gg12
 ts.cn,xinhuanet.com##.gg2
 ts.cn##.gg2-cj
 dedejs.com,sucaijiayuan.com##.gg250
+angelweb.cn##.gg250x250
 ifeng.com##.gg298
 xsbook.net##.gg300
 iqilu.com##.gg300250dbl
@@ -9950,6 +9948,7 @@ ip138.com##table[cellpadding="3"][width="760"][align="center"]
 bbs.fobshanghai.com##table[cellpadding="4"][style="background: #D6E0EF"]
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jd-bbs.com##table[cellspacing="5"][bordercolor="#9dbedd"]
+angelweb.cn##table[height="250"]
 86zw.org##table[height="266"]
 sdzbcg.com##table[height="41"]:last-child
 hackbase.com##table[height="648"] > tbody > tr > td > p:nth-last-child(n+2)
