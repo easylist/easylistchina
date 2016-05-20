@@ -76,7 +76,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/qqliveweb/*.swf
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -222,6 +221,7 @@ hk.yahoo.com###mntl1
 /qpxl.js
 /qqguojiad/*
 /qqlive/conf/playerlottery/*
+/qqliveweb/*.swf
 /qqyouyuead/*
 /qw.*.test15.
 /runtime/js/index960.js
@@ -2700,6 +2700,7 @@ mg*.6park.com/img/$image
 ||codepub.com/file/code/20141225/142856140.jpg
 ||com.webmasterhome.cn/a1-
 ||comicbus.com/js/top.js
+||content.mql5.com/js/
 ||content.xilu.com^$object
 ||coolaler.com.tw/index_ads/
 ||coolaler.com.tw^*_300x100.
@@ -4078,7 +4079,6 @@ mg*.6park.com/img/$image
 ||motorfans.com.cn/igg/
 ||motorfans.com.cn/iggs_system/
 ||mp3.haogeba.com^$image,object
-||content.mql5.com/js/
 ||mracg.com/data/attachment/portal/201412/17/
 ||ms211.com/211tf/
 ||ms211.com/about/$subdocument
@@ -5608,12 +5608,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hao.360.cn###left-ria-fixed
-hao.360.cn###plane-ria
-234fang.com##.ad
-234fang.com##.ad_fp
-chinaso.com##.head_ad_right190
-baidu.com##.s-news-item[data-rid^="vipServer_"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6456,6 +6450,7 @@ douni.com###lad_5
 css88.com###lagouBox
 hao123.com###layout-guess
 baidu.com###left-promotion
+hao.360.cn###left-ria-fixed
 sdgundam.cn###left-sponsor
 66rd.cn,chcj.net,cs.com.cn,cssqt.com,dvbcn.com,ieforex.com,mxwz.com,qinbing.cn###leftDiv
 hexun.com###leftFloat
@@ -6612,6 +6607,7 @@ blog.sina.cn###pl-blog-tbyy
 weibo.com###pl_common_ali
 weibo.com###pl_login_video
 hao.360.cn###plane > .plane-hd
+hao.360.cn###plane-ria
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_order_head
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .activity_head
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_left_float
@@ -7105,7 +7101,7 @@ qq.com##.action_ad
 rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
-001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,61.147.69.213,72bbb.com,72g.com,8btc.com,acfun.tv,aohua.com.au,baiduyunpan.net,baike.com,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hkgalden.com,house.jschina.com.cn,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaoyan1v1.com,kumi.cn,kunming.cn,lepan.cc,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
+001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,234fang.com,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,61.147.69.213,72bbb.com,72g.com,8btc.com,acfun.tv,aohua.com.au,baiduyunpan.net,baike.com,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,fhm.com.tw,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hkgalden.com,house.jschina.com.cn,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaoyan1v1.com,kumi.cn,kunming.cn,lepan.cc,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,ptbus.com,qihaa.cn,rzw.com.cn,shangdu.com,shenchuang.com,shmet.com,sogou.com,soxia.cc,sx566.com,tgbus.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,wangyueblog.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xianguo.com,xs99.cc,xun9u.com,xunleihao.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
 photofans.cn##.ad-1-index
 163.com##.ad-1200-125
 163.com##.ad-1200-60
@@ -7302,7 +7298,7 @@ my0832.com##.ad_e_wrap
 putclub.com##.ad_fastReading
 qqzhibo.net##.ad_float_color
 3gsc.com.cn##.ad_for_game
-xyfdcw.com.cn##.ad_fp
+234fang.com,xyfdcw.com.cn##.ad_fp
 blog.dausos.com,dntk.org##.ad_h
 dntk.org##.ad_h + .entry_box_b
 hb163.cn##.ad_inner
@@ -8162,6 +8158,7 @@ jmw.com.cn##.head_3
 jmw.com.cn##.head_4
 jmw.com.cn##.head_5
 jmw.com.cn##.head_6
+chinaso.com##.head_ad_right190
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zdnet.com.cn##.headads
 biz.ifeng.com##.header
@@ -8805,6 +8802,7 @@ rrting.net##.rtxt
 jjxw.cn##.ru_banner
 fashion.qq.com##.rv-js-root
 uc123.com##.s-left
+baidu.com##.s-news-item[data-rid^="vipServer_"]
 uc123.com##.s-pic-wrapper
 uc123.com##.s-right
 wenda.tianya.cn##.s1Tit + .sideBox
