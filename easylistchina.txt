@@ -527,12 +527,12 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-/adposid/*
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
+/adposid/*
 /adscpc/*
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
@@ -1224,7 +1224,6 @@ ubmcmm.baidustatic.com
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||189.cn/actpush/$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -1236,6 +1235,7 @@ ubmcmm.baidustatic.com
 |http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|avsdown.com|bfooru.info|bforu.info|downhhh.com|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|tenitt.info|ttft.in|xhcbb.com|xunfs.com|yzhlive.com
 ||093game.com^$popup,third-party
 ||133gp.com^$popup
+||189.cn/actpush/$popup,third-party
 ||9100300.com^$popup
 ||acgpost.taobao.com^$popup,domain=www.tsdm.net
 ||ad.189so.cn^$popup
@@ -2499,6 +2499,7 @@ mg*.6park.com/img/$image
 ||bttiantang.cc/static/*quan.js
 ||bttiantang.cc/static/wen
 ||bttiantang.net/js/zeus.js
+||buimg.com/ba5798a1fca20965.jpg
 ||buimg.com^$domain=kisssub.org
 ||bukade.com/js/*_p_
 ||bukade.com/js/b_
@@ -3979,6 +3980,7 @@ mg*.6park.com/img/$image
 ||m1905.cn/images/bg_index_hgn.jpg
 ||m1905.cn/images/video/BannerImg
 ||m1905.com/asp_js/k.js
+||m4jl.com/static/upload/picurl_1459642256.png
 ||ma.baiducdn2.com^*/main.js?t=
 ||macd.cn/macd-topads.html
 ||macx.cn/js/f.txt.js
@@ -4442,6 +4444,7 @@ mg*.6park.com/img/$image
 ||qq.com/coral/ADS
 ||qq.com/game/footerbar$subdocument
 ||qq.com/Index/getAdsAndHotspot
+||qq.com/livemsg?
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
 ||qq.com/mobi/js/app-bar-
 ||qq.com/PL_adT.htm
@@ -5336,6 +5339,7 @@ mg*.6park.com/img/$image
 ||xs8.cn/xs8_stat.js
 ||xskhome.com/JS/Statistical
 ||xskhome.com/pic/20*/all/
+||xtzgjx.com/images/jiaoyou
 ||xue163.com/ajs/end
 ||xun9u.com/css/js/text_link.js
 ||xunleige.com/js/functionx.js
@@ -5603,16 +5607,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||m4jl.com/static/upload/picurl_1459642256.png
-||xtzgjx.com/images/jiaoyou
-||qq.com/livemsg?
-||buimg.com/ba5798a1fca20965.jpg
 !------------------------Specific element hiding rules------------------------!
-m4jl.com###xrAd
-tv.sohu.com##.lux_left
-tv.sohu.com##.lux_right
 gpcxw.com###AA2
-gdmm.com##.sign > LI > A[href^="http://bbs.gdmm."]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6953,6 +6949,7 @@ xilinjie.com###xlj-ad-right-01
 xilinjie.com###xlj-ad-right-02
 xilinjie.com###xlj-spread
 flv.tv###xm
+m4jl.com###xrAd
 flv.tv###xt
 chrome007.com###xxxx
 xizi.com###xz_8
@@ -8443,6 +8440,8 @@ jrj.com.cn##.ls_all_fc
 ytbbs.com##.lt_ad
 ltesting.net##.ltad_1170
 ltesting.net##.ltad_580
+tv.sohu.com##.lux_left
+tv.sohu.com##.lux_right
 eastmoney.com##.lyad
 taihainet.com##.lzhb
 dwnews.com##.m-banner
@@ -8898,6 +8897,7 @@ docin.com##.sider_gg
 danlan.org##.siderright > .mb20
 lanyes.org##.sidetg
 mopxing.com##.sideul1
+gdmm.com##.sign > li > a[href^="http://bbs.gdmm."]
 aibang.com##.similarlike
 nownews.com##.simon
 sina.com.cn##.sinaads
@@ -10665,7 +10665,6 @@ dj92cc.com,tingqq.com#@#.share_list
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@/analytics.php?$domain=xcar.com.cn
-@@||cnzz.com/z_stat.php?id=1254137364^$domain=guancha.cn
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=dongfeng-nissan.com.cn|sina.com.cn
@@ -10677,6 +10676,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||analytics.163.com/ntes.js
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||bagehd.com/iplookup.
+@@||cnzz.com/z_stat.php?id=1254137364^$domain=guancha.cn
 @@||count.video.sina.com.cn^*?video_ids=
 @@||g.alicdn.com^*/banner_ad_
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
