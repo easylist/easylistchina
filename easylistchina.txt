@@ -75,7 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/hiring/hexieshe.jpg
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -171,6 +170,7 @@ hk.yahoo.com###mntl1
 /guanggao/*
 /guanggao2.
 /h/k.php?u=*&l=*&v=$third-party
+/hiring/hexieshe.jpg
 /images//ads/*
 /ina_ad_
 /jinhuatv/ad
@@ -2267,6 +2267,7 @@ mg*.6park.com/img/$image
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
 ||appinn.com/images/201509/wd.png
+||apple.www.letv.com^
 ||aqlife.com/data/attachment/portal/
 ||aqy102.com/js/aqy/
 ||aqy103.com/js/aqy/
@@ -4094,6 +4095,7 @@ mg*.6park.com/img/$image
 ||mxwz.com/swf/yidong2015.swf
 ||my0511.com/*/ad_
 ||my0511.com/aadd/
+||my0538.com^*/thumb_1000_70_
 ||my0832.com/xyz/upload/
 ||myad.toocle.com^
 ||mybjx.net/theme/default/js/common/duilianchn.js
@@ -5196,6 +5198,7 @@ mg*.6park.com/img/$image
 ||wo318.com/good/
 ||wo318.com/sjs/km/xixitv.js
 ||wo318.com/template/
+||wolepan.com/images/d1.jpg
 ||woshipm.com/wp-files/*qidian
 ||wowody.net/public/wowo/*play_
 ||wowody.net/public/wowo/2345.html
@@ -5429,6 +5432,7 @@ mg*.6park.com/img/$image
 ||you85.cn^*/dib.js
 ||you85.cn^*/vip.js
 ||you85.cn^*/z*.js
+||youku.com/QVideo/~ajax/getDefaultItem?
 ||youqu.net/js/
 ||youth.cn/ggw/dep_ggw/
 ||youth.cn/hezuo/index.js
@@ -5600,15 +5604,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||youku.com/QVideo/~ajax/getDefaultItem?
-||apple.www.letv.com^
-||wolepan.com/images/d1.jpg
-||my0538.com^*/thumb_1000_70_
 !------------------------Specific element hiding rules------------------------!
-my0538.com###adSlideCont2
-hexieshe.com,xxshe.com##.entry-title > P
-morningpost.com.cn##.gg-2
-youku.com##li[_to="dressadd"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -5775,6 +5771,7 @@ baidu.com###adMainTopRight
 plu.cn###adMask
 3399.com###adPop
 55lady.net###adRight_0
+my0538.com###adSlideCont2
 gameapps.hk###adTopClickAreaLeft
 gameapps.hk###adTopClickAreaRight
 gameapps.hk###adTopClickAreaTop
@@ -7916,6 +7913,7 @@ hao123.com##.enter1
 rj.baidu.com##.entrance
 hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.net,fulibba.com##.entry-content > div[style^="float:right"]
+hexieshe.com,xxshe.com##.entry-title > p
 shaoit.com##.entry_box_s > a
 epinv.com##.epinv_f
 shulink.com##.er_g
@@ -8034,6 +8032,7 @@ sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
 1kkk.com,40407.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,dhzw.com,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qianyan001.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
 elecfans.com##.gg-01
+morningpost.com.cn##.gg-2
 baidu.com##.gg-content
 iqiyi.com##.gg-l
 iqiyi.com##.gg-r
@@ -9905,6 +9904,7 @@ xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
+youku.com##li[_to="dressadd"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 iqiyi.com##li[id^="100000"]
 user.qzone.qq.com##li[id^="fct_20050606_"]
