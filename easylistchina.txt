@@ -2424,6 +2424,7 @@ mg*.6park.com/img/$image
 ||bestvogue.com/fans/
 ||beva.cn/erge/images/paster.swf?*&ad_data_url=
 ||bfooru.info/03.jpg
+||bfooru.info/filesave1.gif
 ||bfooru.info/images/*.gif
 ||bforu.info/03.jpg
 ||bforu.info/images/ali.gif
@@ -2849,6 +2850,7 @@ mg*.6park.com/img/$image
 ||dnvod.eu//upload/$object-subrequest
 ||dnvod.eu/gui/
 ||dnvod.eu/loader/
+||dnvod.eu/sui/
 ||dnvod.eu/testloader/
 ||dnvod.eu/ui/
 ||dnvod.eu/upload/$object-subrequest
@@ -4054,6 +4056,7 @@ mg*.6park.com/img/$image
 ||mobile01.com/300x100.swf
 ||moe-acg.cc/images/*/1225x130
 ||moe-acg.cc/images/*/700x150.
+||moe-acg.cc/wp-content/uploads/*/310x160
 ||moe-acg.cc/wp-content/uploads/*/310x374
 ||moe.fm/public/images/fm/promotion_
 ||moe.la/images/banner/
@@ -4975,6 +4978,7 @@ mg*.6park.com/img/$image
 ||ts.cn^*/site1/$object
 ||tt1069.com/bbs/zgg_
 ||tt1069.com/ppp
+||tt1069.com/test.js
 ||tt7z.com/js/
 ||ttcy.com/style/image/gg_
 ||ttkdex.com/ttkdweb/page/image/query
@@ -5601,16 +5605,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||moe-acg.cc/wp-content/uploads/*/310x160
-||tt1069.com/test.js
-||bfooru.info/filesave1.gif
-||dnvod.eu/sui/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-masok.cn###bottomLayer
-cdzk.cn##DIV[id^="couplet"]
-mop.com##A[href*=".7477.com"]
-mywpku.com##.sidebar-featured
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5984,6 +5980,7 @@ esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id]
 qq.com###bottom-sponsor
 ttdyy.tv###bottomAD
 auto.sina.com.cn###bottomInquryBar
+masok.cn###bottomLayer
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
@@ -8883,6 +8880,7 @@ qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 wedc.cc##.sidebar > .widgets:last-child
+mywpku.com##.sidebar-featured
 daweijita.com##.sidebar-right > .widget-box:first-child
 36kr.com##.sidebar-sponsored__list
 52tian.net##.sidebar960
@@ -9303,6 +9301,7 @@ wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
 loldk.com##a[href*=".2144.cn"]
+mop.com##a[href*=".7477.com"]
 163.com##a[href*=".admaster."]
 cnbeta.com##a[href*=".aliyun."]
 iqiyi.com##a[href*=".banggo."]
@@ -9632,6 +9631,7 @@ dl-l-tax.gov.cn##div[id^="clip"]
 kankan.com##div[id^="cm"].banner
 0743ds.com##div[id^="comiisad"]
 blog.sina.com.cn##div[id^="cont-tanx-"]
+cdzk.cn##div[id^="couplet"]
 ifeng.com##div[id^="couplet3_"]
 ebiotrade.com,jmnews.com.cn##div[id^="couplet_"]
 bendibao.com##div[id^="dad_"]
