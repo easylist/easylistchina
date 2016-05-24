@@ -526,7 +526,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||4ggww.com^
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -657,6 +656,7 @@ ubmcmm.baidustatic.com
 ||3vlm.com^$third-party
 ||44pv.com^$third-party
 ||4936.cn^$third-party
+||4ggww.com^
 ||4kt2.com^$subdocument
 ||51ads.com^$third-party
 ||525cm.com^$third-party
@@ -1551,6 +1551,7 @@ mg*.6park.com/img/$image
 ||123564.com/js/plaza.js
 ||123cha.com/2568
 ||123wzwp.com/templates/phpdisk_new_blue/img/flm.jpg
+||124.232.160.178/v1/
 ||125.46.61.28^
 ||126.com/get.do?*=themeHandler.
 ||126.net/house/chengdu/flash/*+
@@ -2415,6 +2416,8 @@ mg*.6park.com/img/$image
 ||beijing-air.com/images/a/j
 ||beiwo.tv/Runtime/js/list01.js
 ||bejson.com/imgs/beifen
+||bejson.com/imgs/dxjk.jpg
+||bejson.com/imgs/guolv.png
 ||bejson.com/imgs/j950-90.jpg
 ||bejson.com/imgs/qiniu
 ||bejson.com/imgs/tuo.png
@@ -4051,6 +4054,8 @@ mg*.6park.com/img/$image
 ||mlbuy.com/gg.js
 ||mm387.com/images/*.gif
 ||mmtalk.net/images/banner
+||mnw.cn/2015-11-05/g14.shtml
+||mnw.cn/2016-01-28/g100.shtml
 ||mnw.cn/script/info/baiduadm.html?
 ||moe-acg.cc/images/*/1225x130
 ||moe-acg.cc/images/*/700x150.
@@ -4094,7 +4099,9 @@ mg*.6park.com/img/$image
 ||my0511.com/*/ad_
 ||my0511.com/aadd/
 ||my0538.com^*/thumb_1000_70_
+||my0832.com/bbs/img/t2.jpg
 ||my0832.com/xyz/upload/
+||my0832.com/xyz/xx/
 ||myad.toocle.com^
 ||mybjx.net/theme/default/js/common/duilianchn.js
 ||mybjx.net/theme/default/js/common/mtibjx.js
@@ -5603,20 +5610,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||124.232.160.178/v1/
-||my0832.com/xyz/xx/
-||my0832.com/bbs/img/t2.jpg
-||mnw.cn/2016-01-28/g100.shtml
-||mnw.cn/2015-11-05/g14.shtml
-||bejson.com/imgs/dxjk.jpg
-||bejson.com/imgs/guolv.png
 !------------------------Specific element hiding rules------------------------!
-my0832.com##.xx_div
-motorfans.com.cn###scrollPics
-duba.com##.search_promotion
-duba.com##.side_game
 gpcxw.com###AA2
-cnbeta.com##.cbv
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6716,6 +6711,7 @@ javjunkies.com###sb1
 baby-kingdom.com###sbad
 sm.cn###sc + .article.ali_row
 wpsoso.com###scontent > div[style]
+motorfans.com.cn###scrollPics
 youxi.kugou.com###scrollUp
 kocpc.com.tw###scroll_div
 uisdc.com###sdcTopAD
@@ -7714,6 +7710,7 @@ sd173.com##.carousel
 baidu.com##.cbg-Ads
 cnbeta.com##.cbhelp
 m.cnbeta.com##.cbimage-fixed
+cnbeta.com##.cbv
 meizhou.com##.cc_slide_big
 meizhou.com##.cc_slide_small
 meizhou.com##.cc_z1
@@ -8838,6 +8835,7 @@ dict.cn##.search-right-ad5
 dict.cn##.search-right-ad7
 haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 99114.com##.search_keywordAd
+duba.com##.search_promotion
 ijia360.com##.search_radlist
 cnool.net##.second-banner
 jq-school.com##.setfarme:nth-child(7)
@@ -8881,6 +8879,7 @@ xiaoliaolianmeng.com##.side-sponer
 17huohu.com,firefoxchina.cn##.side-tpth
 niutuku.com##.sideAD
 youthwant.com.tw##.side_adbox
+duba.com##.side_game
 duba.com##.side_other > .img
 businessweekly.com.tw##.side_slidebox
 duba.com##.side_taobao
@@ -9252,6 +9251,7 @@ wapwenku.baidu.com,wk.baidu.com##.xuantingwrap
 xkb.com.cn##.xwAd
 zhiboba.cc##.xwrgg_1
 zhiboba.cc##.xwrgg_2
+my0832.com##.xx_div
 zj.com##.xx_gg
 techweb.com.cn##.xxbox
 techweb.com.cn##.xxbox_news
