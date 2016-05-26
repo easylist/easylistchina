@@ -602,9 +602,9 @@ ubmcmm.baidustatic.com
 ||1188.com^$third-party
 ||122.227.254.195^
 ||123hala.com^
+||124.232.160.178^
 ||12l22.net^$third-party
 ||139.159.32.82^
-||124.232.160.178^
 ||139site.com^$third-party
 ||1503.net/code/
 ||1680go.com^
@@ -1298,6 +1298,7 @@ ubmcmm.baidustatic.com
 /934b2bc8de85e32ae7588f2eb955ee36.
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
+/^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /a83b3cdeacac5a503717469ca5084ebc.
 /ad_nydus.png$domain=wowrk.com|x-berry.com
@@ -2719,6 +2720,7 @@ mg*.6park.com/img/$image
 ||cp1268.com/img/ad
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpd.com.cn/template/*.swf
+||cpm.cm.sandai.net^
 ||cpplay.com/inc/
 ||cps.okbuy.com^
 ||cqfishing.net/data/attachment/portal/
@@ -3424,6 +3426,7 @@ mg*.6park.com/img/$image
 ||hx95.com/images/vip.gif
 ||hxjs.tool.hexun.com
 ||hxsame.hexun.com
+||hxsd.com/templets/js/looyu_pop.js
 ||hxsxw.com/gg*.gif
 ||hxsxw.com/js/float.js
 ||hybbs.com/i/$image,object
@@ -5609,18 +5612,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||hxsd.com/templets/js/looyu_pop.js
-||cpm.cm.sandai.net^
-/^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-diyifanwen.com###ArtTl
-diyifanwen.com###Hzh1
-diyifanwen.com###Hzh2
-diyifanwen.com##.Hzh1
-diyifanwen.com##.Hzh2
-diyifanwen.com##DIV[style="margin:20px 0;padding:0;width:560px;height:250px;overflow:hidden;background-color:#f5f8fd;"]
-weiwei123.com##.w300
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5645,6 +5638,7 @@ js0573.com###Adv2
 js0573.com###Adv3
 js0573.com###Adv4
 114la.com,ylmf.com###AdvLink
+diyifanwen.com###ArtTl
 zol.com.cn###Article_Top_Banner
 avmimi.com###ArticlesEx_box
 2345.com###BAIDU_DSPUI_FLOWBAR
@@ -5677,6 +5671,8 @@ azo-diary.blogspot.com,azo-diary.blogspot.hk,azo-diary.blogspot.tw###HTML4
 zhoushan.cn###Headtop
 tigtag.com###Home1000x70_A29
 tigtag.com###Home942x70_A1
+diyifanwen.com###Hzh1
+diyifanwen.com###Hzh2
 21ic.com###IC2008Ad
 wuxi.cn###Information
 51rhca.com###InviteWindow
@@ -7061,6 +7057,8 @@ duoduopan.com,fuliba.net,fulibba.com,mcncc.com,twunbbs.com,wndflb.com##.GzList
 le.com,letv.com##.H-tg
 sj998.com##.Hr_1
 souxue8.net,xiaodao.la,xiaodaoyl.com##.HtmlMoKua.column.two-thirds
+diyifanwen.com##.Hzh1
+diyifanwen.com##.Hzh2
 xinmin.cn##.Index201408_gg2
 xinmin.cn##.Index201408_gg3
 dianping.com##.J_midas-3
@@ -9192,7 +9190,7 @@ sogou.com##.vrsp_itemList
 shm.com.cn##.w1000.surround
 pc841.com,xuenb.com##.w1050
 miomio.tv##.w1160.h90
-meili.cn,pc841.com,ting56.com,xuenb.com##.w300
+meili.cn,pc841.com,ting56.com,weiwei123.com,xuenb.com##.w300
 9yaocn.com##.w300Banner
 dbw.cn##.w720
 xuenb.com##.w728
@@ -9776,6 +9774,7 @@ dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidde
 bendibao.com##div[style="margin:0;padding:0;width:640px;height:345px;overflow:hidden;background-color:#fff;"]
 morningpost.com.cn##div[style="margin:0;padding:0;width:648px;height:345px;overflow:hidden;background-color:#fff;"]
 kaifu.tw##div[style="margin:15px; padding:2px;width:304px; height:254px; clear:both; margin:5px auto 20px;"]
+diyifanwen.com##div[style="margin:20px 0;padding:0;width:560px;height:250px;overflow:hidden;background-color:#f5f8fd;"]
 ipc.me##div[style="margin:46px auto 66px auto;width:660px;height:140px"]
 yanqing888.me##div[style="margin:auto;width:960px;margin-top:10px;height:90px;"]
 gamer.com.tw##div[style="min-height:250px;margin-bottom:10px;"]
