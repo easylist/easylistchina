@@ -1954,6 +1954,8 @@ mg*.6park.com/img/$image
 ||6620070.com/js/
 ||66384.com/templets/js/stats.js
 ||66384.com/templets/SWFad
+||66496688.com/rj.gif
+||66496688.com/sl.gif
 ||6665432.com^*.gif
 ||666pan.com/666d/
 ||66hbo.com/images/new1/uploads/index_banner/*.gif$~collapse
@@ -2266,6 +2268,7 @@ mg*.6park.com/img/$image
 ||anzhuan.net/wp-content/uploads/2014/10/yangmao
 ||anzhuan.net/wp-content/uploads/2015/01/huizhe.jpg
 ||aoye.cc/js/footer.js
+||api.bilibili.com/x/ad/
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
 ||appinn.com/images/201509/wd.png
@@ -2641,6 +2644,7 @@ mg*.6park.com/img/$image
 ||chuixue.com/jsa/
 ||chuixue.com/template/*/images/g_js/show_
 ||chunxiao.tv/1.aspx
+||chyangwa.net/block/cf/
 ||cilook.net/cilookinc/isee5_950x60.gif
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
@@ -5611,14 +5615,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||api.bilibili.com/x/ad/
-||chyangwa.net/block/cf/
-||66496688.com/rj.gif
-||66496688.com/sl.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-8btc.com##.ad_global_top_left
-chyangwa.net###scrollPics
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6721,7 +6719,7 @@ javjunkies.com###sb1
 baby-kingdom.com###sbad
 sm.cn###sc + .article.ali_row
 wpsoso.com###scontent > div[style]
-motorfans.com.cn###scrollPics
+chyangwa.net,motorfans.com.cn###scrollPics
 youxi.kugou.com###scrollUp
 kocpc.com.tw###scroll_div
 uisdc.com###sdcTopAD
@@ -7317,6 +7315,7 @@ putclub.com##.ad_fastReading
 qqzhibo.net##.ad_float_color
 3gsc.com.cn##.ad_for_game
 234fang.com,xyfdcw.com.cn##.ad_fp
+8btc.com##.ad_global_top_left
 blog.dausos.com,dntk.org##.ad_h
 dntk.org##.ad_h + .entry_box_b
 hb163.cn##.ad_inner
@@ -10078,7 +10077,7 @@ pupuapp.com#@##ad_img
 51job.com#@##ad_left
 51job.com#@##ad_right
 dpp.org.tw#@##ad_small
-wholehk.com,zhujiceping.com#@##adsense
+ii-i.org,wholehk.com,zhujiceping.com#@##adsense
 182.18.61.50#@##adslist
 33xs.com,aixiaoshuo.com.cn,baishuku.com,dushiwenxue.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
@@ -10126,6 +10125,7 @@ icbc.com.cn#@#.adRight
 2u.com.cn#@#.adSpace
 boxcdn.cn,faxingw.cn,gdmm.com#@#.ad_1
 dnwx.com#@#.ad_250
+psahz.com#@#.ad_960
 178.com,925fxw.com#@#.ad_box
 tclmobile.com.cn,workercn.cn#@#.ad_content
 liqucn.com,workercn.cn#@#.ad_main
@@ -10183,18 +10183,13 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-ii-i.org#@##adsense
-psahz.com#@#.ad_960
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||noahedu.com/ad/$domain=noahedu.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.cntv.cn/adplayer/
-@@||studioclassroom.com/ad/
-@@||hanjuwang.com/ad/
 @@.com/ads/$domain=88boxjx.com
 @@.com/adv/$domain=manhua.weibo.com|my.ctrip.com
 @@.gif#$domain=wgun.net
@@ -10386,6 +10381,7 @@ psahz.com#@#.ad_960
 @@||bahamut.com.tw/JS/ad/mobileBigBanner.js
 @@||baidustatic.com/js/os.js$domain=coladrive.com
 @@||banma.com/statics/js/??
+@@||bbs.muzhiwan.com^*300*250
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdstatic.com/??*,
@@ -10469,6 +10465,7 @@ psahz.com#@#.ad_960
 @@||gov.cn^*/ad
 @@||gpsdlm.com/images/ad.
 @@||guancha.cn/ad/m_
+@@||hanjuwang.com/ad/
 @@||hdmee.com/source/plugin/unadblock/
 @@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
 @@||henan100.com/css/tpbf/pop.js
@@ -10521,7 +10518,6 @@ psahz.com#@#.ad_960
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
 @@||monnsutogatya.com^$elemhide
-@@||bbs.muzhiwan.com^*300*250
 @@||mymusic.net.tw/js/ad/index_1.js
 @@||naruto.hk/ad/uy.js
 @@||netded.com/plus/ad_js.php?aid=3|
@@ -10529,6 +10525,7 @@ psahz.com#@#.ad_960
 @@||new7574.u.qiniudn.com^*^ad
 @@||news.u17i.com/advert/
 @@||newxing.com/a_d/downAddress.js
+@@||noahedu.com/ad/$domain=noahedu.com
 @@||omusic.com.tw/backend/uploadpic/adindex/
 @@||online.unionpay.com/ads/$script
 @@||ooomm.com/ad/icon/
@@ -10599,6 +10596,7 @@ psahz.com#@#.ad_960
 @@||static.atm.youku.com^*.swf
 @@||static.hdslb.com/ad-images/$image
 @@||stockstar.com/ad/$domain=live.stockstar.com
+@@||studioclassroom.com/ad/
 @@||sudupan.com^*/*.gif
 @@||sx566.com/templates/default/images/ad
 @@||szhr.com.cn^$document,domain=szhr.com.cn
