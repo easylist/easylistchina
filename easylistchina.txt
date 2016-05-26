@@ -10183,12 +10183,14 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||noahedu.com/ad/$domain=noahedu.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.cntv.cn/adplayer/
-@@.com/ad/$domain=hanjuwang.com|noahedu.com|studioclassroom.com
+@@||studioclassroom.com/ad/
+@@||hanjuwang.com/ad/
 @@.com/ads/$domain=88boxjx.com
 @@.com/adv/$domain=manhua.weibo.com|my.ctrip.com
 @@.gif#$domain=wgun.net
