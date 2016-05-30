@@ -76,12 +76,12 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-.com/java/shang1.js
-.com/java/xia1.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
+.com/java/shang1.js
+.com/java/xia1.js
 .com/js/ad_
 .com/js/alls_foot.js
 .com/js/alls_top.js
@@ -1956,6 +1956,7 @@ mg*.6park.com/img/$image
 ||62422.cn/js/inc/13.swf
 ||63007.com/haodxi.js
 ||64bobo.com/ckplay/js.jpg
+||64vk.com/java/
 ||654mmm.com^
 ||66.fmx.cn/js/
 ||6620070.com/js/
@@ -4689,6 +4690,7 @@ mg*.6park.com/img/$image
 ||shulihua.net/js/topcen.js
 ||shulihua.net/js/yegonggao.js
 ||shulink.com/js/pagetop5.js
+||shumilou.co/style/head.js
 ||shumimi.com/js/a0
 ||shumimi.com/js/a1.js
 ||shumimi.com/js/a2.js
@@ -5633,11 +5635,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||64vk.com/java/
-||shumilou.co/style/head.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yam.com##.axdBox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7548,6 +7547,7 @@ gamefy.cn##.att-bar
 u17.com##.auto_ad
 liba.com##.avdert1190
 qiqu888.com##.ax-arc610161
+yam.com##.axdBox
 qiqu888.com##.axing_add_ad
 17k.com##.b950
 pinshan.com##.b_adv
@@ -10209,7 +10209,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||chinatimes.com/css-main/ad.css
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10429,6 +10428,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ccb.com^*^ad
 @@||cdn.wdlm.cn^*/
 @@||chinahr.com/ad$domain=chinahr.com
+@@||chinatimes.com/css-main/ad.css
 @@||citysbs.com^*/swfupload/
 @@||click.union.jd.com^
 @@||click.union.vip.com^
