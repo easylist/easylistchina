@@ -5647,8 +5647,10 @@ mg*.6park.com/img/$image
 ||warting.com/images/hz/uidesign_1200x90.jpg
 ||image-shop.baidu.com/n/imageproduct?
 ||oeofo.com/201505/27/16-08-08-97-1.gif
+||opinion.people.com.cn/GB/
 !------------------------Specific element hiding rules------------------------!
 oeofo.com##.fixediv
+people.com.cn##.ad_360
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9456,7 +9458,7 @@ qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
-people.com.cn##a[href^="http://www.516a."]
+people.com.cn##A[href*=".516a.com/"]
 shumilou.co##a[href^="http://www.54wan."]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
