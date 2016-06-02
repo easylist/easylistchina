@@ -529,7 +529,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||6604.org^$third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -675,6 +674,7 @@ ubmcmm.baidustatic.com
 ||5mnh.com^$third-party
 ||61.152.223.15^
 ||63kc.com^$third-party
+||6604.org^$third-party
 ||668559.com^$third-party
 ||66san.com^
 ||6789.net^$third-party
@@ -1628,6 +1628,7 @@ mg*.6park.com/img/$image
 ||17173cdn.com/css/live/business
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
 ||17173cdn.com^*/flash/OnLineTime.swf
+||17173cdn.com^*/if/
 ||172.15.2.28:3438/*.js
 ||173.208.177.227/tool/xuanfusige.js
 ||173.208.177.227^*.gif
@@ -3635,6 +3636,8 @@ mg*.6park.com/img/$image
 ||inhe.net/Uploadfiles/ad_2014/
 ||inlishui.com/index.php?m=poster&
 ||inte.sogou.com^
+||ioio.cc*/dm/*.swf
+||ioio.cc/adtui/
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
 ||iq33.com/skin/logo201
@@ -3709,6 +3712,7 @@ mg*.6park.com/img/$image
 ||itpub.net/popwin_js.php?
 ||itv.hexun.com
 ||ivsoo.com/template/ivsoos.jpg
+||ivy.pconline.com.cn^
 ||iwanad.baidu.com^
 ||iweek.ly^$domain=share.popgo.org
 ||iweihai.cn/js/float.js
@@ -5559,6 +5563,7 @@ mg*.6park.com/img/$image
 ||zhao.265g.com/cache/kfbftop.html
 ||zhaojiao.net/templets/default/js/AD_flay.js
 ||zhaozi.cn/d/js/mini/extended87.js
+||zhdmw.com/css/$script
 ||zhenjiang365.cn/*/ad_
 ||zhenjiang365.cn/bbsatt/day_120827/1208271004af7c25b6e3d4fa1d.gif
 ||zhenjiang365.cn/bbsatt/day_151214/15121400314df2347d2e4286f9.jpg
@@ -5645,14 +5650,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zhdmw.com/css/$script
-||ioio.cc*/dm/*.swf
-||ioio.cc/adtui/
-||ivy.pconline.com.cn^
-||17173cdn.com^*/if/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-mgbbs.cn##.tac.mb10
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9031,6 +9030,7 @@ bbs.fobshanghai.com##.t_infoline
 tw.yahoo.com##.tabads
 400gb.com,bego.cc,ctfile.com,pipipan.com##.table-striped
 ghoffice.com##.tac > a > img[src*=".gif?"]
+mgbbs.cn##.tac.mb10
 076299.com,77bike.com,actoys.net,e0575.cn,gpsuu.com,ksbbs.com,mgbbs.cn,oigps.com##.tac.mb5
 aisex.com##.tac[colspan="6"]
 77bike.com,ghoffice.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
@@ -9934,7 +9934,6 @@ hiapk.com##font.jammer
 intercept.onedns.net##h5
 javlibrary.com##iframe
 kankan.com##iframe[src^="http://misc.t.kankan.com/level_demo/iframe/welcometip.html"]
-newmobilelife.com##iframe[style="width: 100%; height: 75px; position: relative;"]
 youth.cn##iframe[width="200px"]
 szhk.com##img[id^="adp"]
 0756.la##img[lowsrc*="/ad-htm/"]
@@ -10235,7 +10234,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@&adf=dalian_300x250_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.cntv.cn/adplayer/
-@@||manhua.weibo.com/adv/
 @@.com/ads/$domain=88boxjx.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=wgun.net
@@ -10560,6 +10558,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||letvcloud.com^*&showAd=
 @@||lianmeng.360.cn/searchthrow/*&w=960&$domain=fxpan.com
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
+@@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
 @@||mb-go.com/pub1/??
 @@||mediav.com^$domain=dev.360.cn
