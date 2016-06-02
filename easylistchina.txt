@@ -5141,7 +5141,7 @@ mg*.6park.com/img/$image
 ||vnet.cn^*.html
 ||voc.com.cn/adsClick/
 ||voc.com.cn/Frame/qqms_cs.html
-||vpser.b0.upaiyun.com^$image
+||vpserfiles.b0.upaiyun.com^$image
 ||vupload.duowan.com^
 ||vvpan.com/templates/32666/imgs/down001.gif
 ||vvpan.com^*/zsz
@@ -5644,6 +5644,8 @@ mg*.6park.com/img/$image
 ||sinaimg.cn^$domain=neonan.com
 ||oschina.net/uploads/space/2016/0530/191802_DntA_2491310.jpg
 !------------------------Specific element hiding rules------------------------!
+vpser.net##.yb_pip
+vpser.net##.yb_textlink1
 oschina.net##A[href^="http://click.aliyun.com/"]
 gpcxw.com###AA2
 douyu.com,douyutv.com,wasu.cn##.tab-content.promote
@@ -9314,8 +9316,6 @@ ysxs8.com##.ysxs8_w960_1
 geilwx.com##.yueduads
 cnlmjx.com##.yw_ad
 tvhome.com##.yy_adv_2
-vpser.net##.zb_pip
-vpser.net##.zb_textlink1
 house.shangdu.com##.zbtad
 g1080.com##.zdgx_right_bottom
 ithome.com##.zhaopin
