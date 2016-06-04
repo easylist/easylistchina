@@ -487,6 +487,7 @@ _popAds.
 ##.tmall_ad_container
 ##.top-read-ad
 ##.topSponsor
+##.twavt-ads
 ##.wf_ad_block
 ##.widget_ad_sidebar
 ##.widget_adbox
@@ -526,7 +527,6 @@ _popAds.
 ~sinaimg.cn##img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.twavt-ads
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -536,7 +536,6 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||012.tw^$third-party
 /adscpc/*
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
@@ -586,6 +585,7 @@ ubmcmm.baidustatic.com
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
 ||010teacher.com^
+||012.tw^$third-party
 ||033.com^$third-party
 ||0531kt.com^
 ||0591101.com^$third-party
@@ -2092,6 +2092,7 @@ mg*.6park.com/img/$image
 ||91danji.com/asset/temp/91danji-
 ||91danji.com/attachments/201509/07/09/19lpq9qdr.jpg
 ||91danji.com/js/lmt.js
+||91jbz.com/file/script/A
 ||91txh.com/sskother/pic/ad-
 ||92dp.com/dianping/videoad
 ||92dp.com/home/showg?id=
@@ -2314,6 +2315,7 @@ mg*.6park.com/img/$image
 ||autoimg.cn/engine/root/fggxl.js
 ||autonet.com.tw/90/AC_RunActiveContent.js
 ||autos.udn.com/topic/car/include/ad.jsp
+||avcity.twavtv.com/iframe/
 ||avlang33.com/js/float.js
 ||avonline.org/js/jquery.colorbox-
 ||avseesee.com/amandison.php
@@ -2568,6 +2570,7 @@ mg*.6park.com/img/$image
 ||caoimg.com/images/
 ||cari.com.my/static/appbanner
 ||cbfw.cn/gonggong/js/cf_flash.js
+||cbmd.cn/uploads/guang*ao
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.me/block.js
@@ -2615,6 +2618,7 @@ mg*.6park.com/img/$image
 ||chinabyte.com/w/$subdocument
 ||chinacar.com.cn/zhuanyongche/images/wintip_
 ||chinachugui.com/jsfiles/aods/
+||chinaconcrete.cn/ggImg/
 ||chinadaily.com.cn/micro-reading/dzh/bd-taofang.gif
 ||chinafix.com.cn/data/attachment/portal/201409/22/155241di5o5rprppr5ii13.jpg
 ||chinafpd.net/js/2012-10/
@@ -2873,6 +2877,7 @@ mg*.6park.com/img/$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/*ui/
+||dnvod.eu/images/201
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -5637,14 +5642,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||avcity.twavtv.com/iframe/
-||cbmd.cn/uploads/guang*ao
-||91jbz.com/file/script/A
-||chinaconcrete.cn/ggImg/
-||dnvod.eu/images/201
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-baidu.com##.text-link-ads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6756,6 +6755,8 @@ duba.com###searchRight
 baidu.com###search_bottomad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
 iplaysoft.com###section_event
+youku.com###seebuyGuide
+youku.com###seebuyhome
 m.sohu.com###selected-game
 500.com###semFloatL
 nick18.com###sex
@@ -9056,6 +9057,7 @@ startos.com##.test-240
 xiazaiba.com##.test-90
 tiexue.net##.test-goods
 baidu.com##.text-advertise
+baidu.com##.text-link-ads
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
 zyy123.com##.tg250x250-1
@@ -9955,8 +9957,6 @@ xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
-youku.com###seebuyGuide
-youku.com###seebuyhome
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 iqiyi.com##li[id^="100000"]
 user.qzone.qq.com##li[id^="fct_20050606_"]
