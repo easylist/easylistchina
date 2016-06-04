@@ -2873,6 +2873,8 @@ mg*.6park.com/img/$image
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/*ui/
 ||dnvod.eu/images/201
+||dnvod.eu/ssss/
+||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -4722,6 +4724,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/$domain=360zhibo.com|chakd.com|kiees.cn|kqiuba.com|pptiyu.com|qqzhibo.net
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/005M5Ibcgw1f1d5gnlocmg30qo01odgs.gif
+||sinaimg.cn/large/68299a77jw1et76sa28ljg208c03i0t0.gif
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
@@ -5003,6 +5006,7 @@ mg*.6park.com/img/$image
 ||trafficjam.cn^
 ||ts.cn^*/site1/$object
 ||tt1069.com/bbs/zgg_
+||tt1069.com/script.min.js
 ||tt1069.com/t0602.js
 ||tt7z.com/js/
 ||ttcy.com/style/image/gg_
@@ -5636,18 +5640,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dnvod.eu/ssss/
-||dnvod.eu^*/201$object-subrequest
-||tt1069.com/script.min.js
-||sinaimg.cn/large/68299a77jw1et76sa28ljg208c03i0t0.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dnvod.eu###myaudient2
-dnvod.eu##.gg
-dnvod.eu##.ggw
-dnvod.eu##.ggw-l
-dnvod.eu##.r-gg
-dnvod.eu##.bfq-r
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6577,6 +6571,7 @@ cpplay.com###myFocus728
 qqjia.com###myadsL
 qqjia.com###myadsR
 dnvod.eu###myaudient
+dnvod.eu###myaudient2
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
@@ -7667,6 +7662,7 @@ cnscore.com##.bdbanner
 e23.cn##.bdggtb
 yesky.com##.bdtj
 pinshan.com##.bea_adv2
+dnvod.eu##.bfq-r
 hehagame.com##.bg_ad
 265g.com##.bg_ban
 265g.com##.bg_ban_bar
@@ -8082,7 +8078,7 @@ qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
 sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
-1kkk.com,40407.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,dhzw.com,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qianyan001.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
+1kkk.com,40407.com,5068.com,51caiju.com,88148.com,china.com,cx9zhou.com,dhzw.com,dnvod.eu,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qianyan001.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
 elecfans.com##.gg-01
 morningpost.com.cn##.gg-2
 baidu.com##.gg-content
@@ -8138,7 +8134,8 @@ haofu1.com##.ggsj
 weather.com.cn##.ggt
 55188.com,g138.com##.ggtishiall
 taian.com##.ggtp
-dealmoon.com##.ggw
+dealmoon.com,dnvod.eu##.ggw
+dnvod.eu##.ggw-l
 rrting.net##.ggw960h60
 iqiyi.com##.ggwBox
 vipcn.com##.ggzs_bottom
@@ -8771,6 +8768,7 @@ mop.com##.quickReply-ad
 gfan.com##.r-ad
 mop.com##.r-adv
 northnews.cn##.r-con > div[style^="width:334px;"]
+dnvod.eu##.r-gg
 ahtv.cn,bzfl1.cc,onlinedown.net,sexbarss.net##.r1
 7hcn.com##.rCont
 g1080.com##.r_img_m
@@ -10184,7 +10182,7 @@ ipad.tgbus.com#@#.ads01
 zhaopin.com#@#.adsBox
 xianzhenyuan.cn#@#.adsTop
 long7.qq.com#@#.adsbox
-123564.com,mfgun.com,moa.tw,zdaili.net#@#.adsbygoogle
+123564.com,fxpan.com,mfgun.com,moa.tw,zdaili.net#@#.adsbygoogle
 qq.com#@#.adside
 youqu.net#@#.adtop
 4008927927.cn#@#.adv-box
@@ -10222,11 +10220,8 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-fxpan.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||70e.com^$domain=2mn.tv
-@@/adjs_pic_$domain=67.212.233.38|520cc.me|5278.cc|5278bbs.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10249,6 +10244,7 @@ fxpan.com#@#.adsbygoogle
 @@/AdImage/*$domain=scyts.com|wacom.tw
 @@/ADImages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
+@@/adjs_pic_$domain=520cc.me|5278.cc|5278bbs.com|67.212.233.38
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com
@@ -10362,6 +10358,7 @@ fxpan.com#@#.adsbygoogle
 @@||61.164.108.184/tb/*.gif
 @@||70.86.24.120:8060/*/
 @@||70e.com/js/2013_new.js$domain=wanweidao.com
+@@||70e.com^$domain=2mn.tv
 @@||70e.com^$script,domain=flv.tv
 @@||75.125.41.29:8080/*/
 @@||77119.com/js/fenxiang.js
