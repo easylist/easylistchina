@@ -2452,8 +2452,7 @@ mg*.6park.com/img/$image
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
-||bilibilijj.com/onedan/300%C3%97154.jpg
-||bilibilijj.com/shinji/300X154.png
+||bilibilijj.com^$image
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -5651,6 +5650,7 @@ mg*.6park.com/img/$image
 ||168gamer.com/cstdio_ads-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibilijj.com##LI > :first-child:last-child > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
