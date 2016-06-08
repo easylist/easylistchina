@@ -75,7 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/banner468x60_live173.
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -123,6 +122,7 @@ hk.yahoo.com###mntl1
 /alljs/allwzwhead.js
 /aoyou372down300_
 /Banner-pcbeta-
+/banner468x60_live173.
 /bbh_ad.
 /bbh_ad_
 /botad.html
@@ -1618,6 +1618,7 @@ mg*.6park.com/img/$image
 ||1688.com.au/site1/1688ad/
 ||16888.com/ajax/loadcardata.php
 ||168gamer.com/ab.php?mod=jss&bid=
+||168gamer.com/cstdio_ads-
 ||168gamer.com/static/js/rlist.js
 ||16sucai.com/ads/
 ||16sucai.com/images/46060_
@@ -1958,6 +1959,7 @@ mg*.6park.com/img/$image
 ||61.164.108.184^*.gif
 ||61.164.108.184^*.swf
 ||61.235.249.195^*/Default.aspx?id=
+||61.31.228.20/live/*_468x60
 ||62422.cn/ggimg/
 ||62422.cn/js/inc/13.swf
 ||63007.com/haodxi.js
@@ -2879,6 +2881,7 @@ mg*.6park.com/img/$image
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/*ui/
 ||dnvod.eu/images/201
+||dnvod.eu/itkeepmealive/
 ||dnvod.eu/ssss/
 ||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
@@ -3572,6 +3575,7 @@ mg*.6park.com/img/$image
 ||imeee.cn/DA_HTML/*.js
 ||imeee.cn/DA_HTML/bottom_960x90.html
 ||imeee.cn/tDA_HTML/da_
+||img*.365rich.cn/image/*.gif
 ||img*.bet007.com/image/*.gif
 ||img*.hc360.com^*.swf
 ||img*.itiexue.net/2*.gif$domain=www.tiexue.net
@@ -5644,13 +5648,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dnvod.eu/itkeepmealive/
-||img*.365rich.cn/image/*.gif
-||61.31.228.20/live/*_468x60
-||168gamer.com/cstdio_ads-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bilibilijj.com##LI > :first-child:last-child > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9257,7 +9256,6 @@ baidu.com##.wgt-ads
 muzhi.baidu.com##.wgt-best-answer + script + div
 zhidao.baidu.com##.wgt-bottom-ask
 muzhi.baidu.com##.wgt-container
-2chcn.com##img[width="300"]
 hao123.com##.widget-hlbar > span
 maxthon.cn##.widget-main-ad-img
 maxthon.cn##.widget-main-hot-links
@@ -9939,6 +9937,7 @@ szhk.com##img[id^="adp"]
 0898.net,cnstock.com,hi.people.com.cn,xizi.com##img[width="1000"]
 jmbbs.com,tyyhhdf.com##img[width="1100"]
 javjunkies.com##img[width="160"][height="600"]
+2chcn.com##img[width="300"]
 6.gy##img[width="300"][height="250"]
 china.com.cn##img[width="300"][height="60"]
 baike.com##img[width="320"][height="70"]
@@ -9963,6 +9962,7 @@ xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
+bilibilijj.com##li > :first-child:last-child > img
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 iqiyi.com##li[id^="100000"]
 user.qzone.qq.com##li[id^="fct_20050606_"]
@@ -10134,6 +10134,7 @@ etidol.com#@##slidead
 cndesign.com#@##topAd
 buy.ccb.com#@##top_ad
 help.xunlei.com#@#.a_fr
+520cc.me#@#.a_mu
 xinmin.cn#@#.a_p
 haha.mx#@#.ad-1
 haha.mx#@#.ad-4
@@ -10224,7 +10225,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-520cc.me#@#.a_mu
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
