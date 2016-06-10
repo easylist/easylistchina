@@ -75,7 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/toutiao_wap/static/pkg/pagelet/list/ad_
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -247,6 +246,7 @@ hk.yahoo.com###mntl1
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
+/toutiao_wap/static/pkg/pagelet/list/ad_
 /ttmeiju/images/ts.gif
 /tuiguang/*
 /u/_sponsor/*
@@ -1962,6 +1962,7 @@ mg*.6park.com/img/$image
 ||61.164.108.184^*.swf
 ||61.235.249.195^*/Default.aspx?id=
 ||61.31.228.20/live/*_468x60
+||61ef.cn/image/201604/05/2016040505211300.gif
 ||62422.cn/ggimg/
 ||62422.cn/js/inc/13.swf
 ||63007.com/haodxi.js
@@ -2261,6 +2262,7 @@ mg*.6park.com/img/$image
 ||ali213.net/static/js/kktv
 ||ali213.net/static/js/kv
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
+||alicdn.com/g/mm/afp-cdn/JS/k.js
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
@@ -2529,8 +2531,7 @@ mg*.6park.com/img/$image
 ||bttiantang.cc/static/*quan.js
 ||bttiantang.cc/static/wen
 ||bttiantang.net/js/zeus.js
-||buimg.com^$domain=moe-acg.cc
-||buimg.com^$domain=kisssub.org
+||buimg.com^$domain=kisssub.org|moe-acg.cc
 ||bukade.com/js/*_p_
 ||bukade.com/js/b_
 ||bukade.com/js/tj2.js
@@ -3110,6 +3111,7 @@ mg*.6park.com/img/$image
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
 ||fulibac.com/images/upload/ad/
 ||fulibar.net/img/
+||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fulidang.com/ads/
 ||fulishequ.com/abc/images/
 ||fulisuo1.com^*.gif
@@ -3312,6 +3314,9 @@ mg*.6park.com/img/$image
 ||haoring03.com/ads/
 ||haowj.com.cn/d/js/outside
 ||haoxxoo.com/player/ad.html
+||haoyangmao.cc/wp-content/uploads/2016/*.gif
+||haoyangmao.cc/wp-content/uploads/2016/03/mayi
+||haoyangmao.cc/wp-content/uploads/2016/06/haoche
 ||haxiu.com/data/cache/myadn-
 ||hc360.com/images/14826/289x90.jpg
 ||hc360.com/js/*hezuo.js
@@ -4095,10 +4100,12 @@ mg*.6park.com/img/$image
 ||mnw.cn/2015-11-05/g14.shtml
 ||mnw.cn/2016-01-28/g100.shtml
 ||mnw.cn/script/info/baiduadm.html?
+||moe-acg.cc/ads.js
 ||moe-acg.cc/images/*/1225x130
 ||moe-acg.cc/images/*/700x150.
 ||moe-acg.cc/wp-content/uploads/*/310x160
 ||moe-acg.cc/wp-content/uploads/*/310x374
+||moe-acg.cc/wp-content/uploads/2016/05/1234.gif
 ||moe.fm/public/images/fm/promotion_
 ||moe.la/images/banner/
 ||moe123.com/static/img/2014_fattycat.jpg
@@ -5421,6 +5428,7 @@ mg*.6park.com/img/$image
 ||y80s.org:85/upload/468-60
 ||yaerwen.com/5200js/59.js
 ||yam.com/ad_yam/
+||yangtianya.com/images/
 ||yanjiao.com/zt/indexad/
 ||yanqing888.me/script/fanye
 ||yanqing888.me/script/Read_Fee_Bottom.js
@@ -5656,25 +5664,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
-||61ef.cn/image/201604/05/2016040505211300.gif
-||alicdn.com/g/mm/afp-cdn/JS/k.js
-||moe-acg.cc/ads.js
-||moe-acg.cc/wp-content/uploads/2016/05/1234.gif
-||haoyangmao.cc/wp-content/uploads/2016/03/mayi
-||haoyangmao.cc/wp-content/uploads/2016/*.gif
-||haoyangmao.cc/wp-content/uploads/2016/06/haoche
-||yangtianya.com/images/
 !------------------------Specific element hiding rules------------------------!
-yangtianya.com##TABLE[width="990"][height="140"]
-m.toutiao.com##.bonus-wrapper
-haoyangmao8.com###tuijian
-haoyangmao8.com###tuijian1
-haoyangmao8.com##.pcshowad
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
-fulibl.com##.widget_banner
-paowen.net##.AD_D
-xywy.com##.advert
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6642,6 +6632,7 @@ lalulalu.com###overture_main_banner
 manhua.weibo.com###p-nav-fix + .p-area.w980
 xizi.com###pageRight-loop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-header\/pagelet\/head_content_middle > div[class]:not([class*="_"]):first-child
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 srzc.com###pageright > .padding:nth-child(2)
@@ -6950,6 +6941,8 @@ ithome.com###tt2
 ithome.com###tt3
 ithome.com###tt5
 m.autohome.com.cn###tu94dq
+haoyangmao8.com###tuijian
+haoyangmao8.com###tuijian1
 sohu.com###turn-ad
 ali213.net###tv
 qidian.com###two_dimensional
@@ -7056,6 +7049,7 @@ click108.com.tw##.AD_300250
 click108.com.tw##.AD_730280
 tzfdc.com##.AD_A
 tzfdc.com##.AD_B
+paowen.net##.AD_D
 sina.com.cn##.AD_hqbottom
 clickme.net##.ADs
 wxrb.com##.ADtxt
@@ -7510,7 +7504,7 @@ anjuke.com##.adver-content
 v1.cn##.adverBox300
 eprice.cn,wyh.tv##.adverall
 jiaonan.net##.adverframe
-ce.cn,dianxinnews.com,eastmoney.com,like101.com.tw,sz.zj.cn##.advert
+ce.cn,dianxinnews.com,eastmoney.com,like101.com.tw,sz.zj.cn,xywy.com##.advert
 liba.com##.advert-l
 liba.com##.advert-r
 dianxinnews.com##.advertTxt
@@ -7725,6 +7719,7 @@ vipcn.com##.bnr
 yeeyi.com##.boardnav > #ct > .sd
 qq.com##.body-Top-Ad
 qdmm.com,qidian.com##.bodyRecWrap
+m.toutiao.com##.bonus-wrapper
 sfacg.com##.book_AD
 qidian.com##.booktitle_rect > .start_game
 tianya.cn##.border-adv
@@ -8728,6 +8723,7 @@ heiguang.com##.pbAddPic
 zol.com.cn##.pboi-intel-2015-product
 kikinote.com##.pc_ad
 haosou.com,so.com##.pc_app
+haoyangmao8.com##.pcshowad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.per_list.j_per_list.per_list_frs
 junshiqu.com##.pg08
 sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
@@ -9288,7 +9284,7 @@ maxthon.cn##.widget-main-ad-img
 maxthon.cn##.widget-main-hot-links
 hao123.com##.widget-topbanner
 web20share.com##.widget:nth-of-type(5)
-bgbk.org##.widget_banner
+bgbk.org,fulibl.com##.widget_banner
 uopera.net##.widget_custom:last-child
 bzfl1.cc##.widget_cy_ad
 51jifenbao.net##.widget_text:last-child
@@ -10081,6 +10077,7 @@ you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 dbw.cn##table[width="980"][height="100"]
 sd.xinhuanet.com##table[width="990"][bgcolor="#333333"]:nth-child(5)
+yangtianya.com##table[width="990"][height="140"]
 yaerwen.com##table[width^="9"][height="250"]
 net767.com##table[width^="9"][height="68"]
 discuss.com.hk##tbody[id^="normalthread_"] + tbody > tr > td[align="center"][colspan="6"]
