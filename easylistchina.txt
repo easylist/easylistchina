@@ -535,16 +535,8 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||snnnyy.com^
-/adtmp/*
-|http://a.*.com/?ss=$script,third-party
-||tukeai.com^
-||xilele.com^
-||uvclick.com^
-||eeee500.com^
 /adscpc/*
-||xlwnx.com^
-||95105012.com^
+/adtmp/*
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -588,6 +580,7 @@ ubmcmm.baidustatic.com
 |http://*//s.php?id=$script,third-party
 |http://*:*/s.php?id=$script,third-party
 |http://1.3.0.10^
+|http://a.*.com/?ss=$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://r.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
@@ -727,6 +720,7 @@ ubmcmm.baidustatic.com
 ||9377ku.com^
 ||9377os.com^
 ||941adu.com^$third-party
+||95105012.com^
 ||9519.net^$third-party
 ||9718.com^$third-party
 ||9ead.com^$third-party
@@ -877,6 +871,7 @@ ubmcmm.baidustatic.com
 ||ea3721.com^$third-party
 ||easou.com^$third-party
 ||ecuc123.net^
+||eeee500.com^
 ||eeyy.com^$third-party
 ||egooad.com^$third-party
 ||eiv.baidu.com^
@@ -1097,6 +1092,7 @@ ubmcmm.baidustatic.com
 ||sicentlife.com^
 ||sin114.com^$third-party
 ||sitemaji.com^$third-party
+||snnnyy.com^
 ||snxyf.com^$third-party
 ||snyu.com^$third-party
 ||socdm.com^
@@ -1131,6 +1127,7 @@ ubmcmm.baidustatic.com
 ||toufangke.com^$third-party
 ||toy9090.com^$third-party
 ||tripadvisor.com^$third-party
+||tukeai.com^
 ||tukj.net^$third-party
 ||twb98.com^$third-party
 ||twcczhu.com^$third-party
@@ -1153,6 +1150,7 @@ ubmcmm.baidustatic.com
 ||uoyrsd.com^
 ||urlad.com.tw^$third-party
 ||usingde.com^$third-party
+||uvclick.com^
 ||uw9377.com^
 ||v-links.net^$third-party
 ||v707070.com^
@@ -1190,8 +1188,10 @@ ubmcmm.baidustatic.com
 ||xhmrv.com^
 ||xiaxuanfu.com^
 ||xibei70.com^
+||xilele.com^
 ||xjidian.com^
 ||xlingdi.com^$third-party
+||xlwnx.com^
 ||xp3366.com^$third-party
 ||xq199.com^
 ||xsu.cc^$third-party
@@ -4208,6 +4208,7 @@ mg*.6park.com/img/$image
 ||newsgroup.la/search/ysm/pam430x80.swf
 ||newsmth.net/nForum/baiduunion/
 ||newsmth.net/nForum/files/adv/
+||newsmth.net/nForum/googlead/
 ||nextmedia.com/web_images/recruit_banner.jpg
 ||nga.*/common_res/js_adscommon.js
 ||nga.*/proxy/cache_attach/ds_list.js
@@ -5479,6 +5480,7 @@ mg*.6park.com/img/$image
 ||yiweimei.net/css/logo.gif
 ||yixiaoba.com/js/yxb_normal.js
 ||yixiaoba.com/juxiao.html
+||yiyihd.com/data/attachment/portal/
 ||yiyipan.com/images/12.gif
 ||yizhai.net/myjs/f*.js
 ||yjhas.net^$image
@@ -5671,11 +5673,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||newsmth.net/nForum/googlead/
-||yiyihd.com/data/attachment/portal/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hacg.li###post-22498
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6706,6 +6705,7 @@ ld0766.com###portal_ad3
 365kl.net###portal_block_3611
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
+hacg.li###post-22498
 chinawin.net,itkee.com###postTopAd
 sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
