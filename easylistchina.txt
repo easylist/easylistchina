@@ -1300,7 +1300,6 @@ ubmcmm.baidustatic.com
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
-||t.cn/RqvxNSs|$popup
 ||taobao.com^$popup,domain=aadaili.com|hacg.li|ppdaili.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
@@ -4424,8 +4423,6 @@ mg*.6park.com/img/$image
 ||pub.sxrtv.com/crossdomain.xml
 ||publicize.liao1.com^
 ||publish.ad.youth.cn^
-||putonghua520.com/skins/10ym/123.jpg
-||putonghua520.com/skins/10ym/tj
 ||pzxw.cn/1212banner
 ||pzzc.net/data/attachment/ad2/
 ||q-touch.com.tw^$subdocument
@@ -5690,6 +5687,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||9zvip.net/hi5asd/banner.gif
 ||bb999.net/pic/n/agents/C-79.gif
+putonghua520.com##A[href*=".taobao.com"]
+||putonghua520.com/skins/10ym/klq
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 oschina.net##DIV[class$="Content"] > P[style="margin:0 0 10px 0;"]
@@ -9981,7 +9980,6 @@ zuoye.baidu.com##dl[class="card related"]
 bbs.my0511.com##embed[width="970"][height="70"]
 221.233.60.100##fieldset[style="width:760;border:1px dashed #a6ccf9"]
 hiapk.com##font.jammer
-intercept.onedns.net##h5
 javlibrary.com##iframe
 kankan.com##iframe[src^="http://misc.t.kankan.com/level_demo/iframe/welcometip.html"]
 youth.cn##iframe[width="200px"]
@@ -10633,7 +10631,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||online.unionpay.com/ads/$script
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
-@@||ouyaoxiazai.com/shouyead.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=7958.com.cn|lepan.cc|mfgun.com|moa.tw|monnsutogatya.com|zdaili.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=discuss.com.hk|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
