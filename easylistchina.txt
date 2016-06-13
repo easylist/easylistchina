@@ -2480,7 +2480,6 @@ mg*.6park.com/img/$image
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
-||bilibilijj.com^$image
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -5686,6 +5685,7 @@ mg*.6park.com/img/$image
 ||pchome.com.tw/img/js/xpcadshow.js
 !------------------------Specific element hiding rules------------------------!
 pchome.com.tw##.tripplead
+bilibilijj.com##IMG[data-id]
 jobbole.com##A > IMG[src*=".sinaimg."]
 pchome.com.tw##.adcon
 gpcxw.com###AA2
@@ -7103,7 +7103,6 @@ xitongzhijia.net##.BAIDU_CLB_1000_90
 le.com,letv.com##.Banner
 china.com.cn##.Banner_left
 china.com.cn##.Banner_right
-bilibilijj.com##.Box-40x40
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
 xvna.com##.Cad1
 ifeng.com##.ColBLAvt
@@ -10005,7 +10004,6 @@ xinhuanet.com##img[width="970"][height="60"]
 jznews.com.cn,tpy888.cn##img[width="980"]
 gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
-bilibilijj.com##li > :first-child:last-child > img
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
 iqiyi.com##li[id^="100000"]
 user.qzone.qq.com##li[id^="fct_20050606_"]
