@@ -537,8 +537,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||170yy.com^
-||daima123.cc^
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -624,6 +622,7 @@ ubmcmm.baidustatic.com
 ||139site.com^$third-party
 ||1503.net/code/
 ||1680go.com^
+||170yy.com^
 ||17un.co^
 ||182.92.81.104^
 ||1kmb.cn^
@@ -844,6 +843,7 @@ ubmcmm.baidustatic.com
 ||czpwm.com^
 ||d1ad.com^$third-party
 ||d8360.com^$third-party
+||daima123.cc^
 ||dashet.com^
 ||datafastguru.info^
 ||dbncp.com^
@@ -1258,9 +1258,6 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
-||fx8.lol^$popup,third-party
-||xjxx.pw^$popup,third-party
-||bjinxiu.cc^$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1280,8 +1277,10 @@ ubmcmm.baidustatic.com
 ||ark.letv.com/t?$popup
 ||baidu.com/adrc.$popup
 ||baidu.com/baidu.php?url=$popup
+||bjinxiu.cc^$popup,third-party
 ||c.admaster.com.cn^$popup
 ||dhqp68.com^$popup,third-party
+||fx8.lol^$popup,third-party
 ||gamer.com.tw/adcounter.$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
@@ -1309,6 +1308,7 @@ ubmcmm.baidustatic.com
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
+||xjxx.pw^$popup,third-party
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
@@ -2487,6 +2487,7 @@ mg*.6park.com/img/$image
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
+||biaoqing.com/2000/ad/960x90.gif
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -2636,6 +2637,7 @@ mg*.6park.com/img/$image
 ||chakd.com/images/xitie160x60.gif
 ||chaling.cn/data/attachment/portal/
 ||chaling.cn/images/*.gif
+||changsha.cn/front_js/site_ad/4/site_ad_284.js
 ||chcj.net/comiis_ad/
 ||chddh.com*/A*D/
 ||cheers.com.tw/assets/js/fancyapps-
@@ -2916,6 +2918,7 @@ mg*.6park.com/img/$image
 ||dnvod.eu/*ui/
 ||dnvod.eu/images/201
 ||dnvod.eu/itkeepmealive/
+||dnvod.eu/sshu/
 ||dnvod.eu/ssss/
 ||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
@@ -5297,6 +5300,7 @@ mg*.6park.com/img/$image
 ||wuseng.com/templets/default/statics/js/mm.js
 ||wuxi.cn/index.php?m=poster&
 ||wuyou.*/0000/banner.gif
+||wwp5.com/ps/
 ||www-dnwx-com.anquanbao.cn/pic
 ||www.111cn.net/pic/
 ||www.china.com.cn/node_$domain=news.china.com.cn
@@ -5615,6 +5619,7 @@ mg*.6park.com/img/$image
 ||zhibok8.com/js/ding.js
 ||zhibok8.com/js/scroll.js
 ||zhibowu.com/js/ad
+||zhicheng.com/index.php?m=poster&
 ||zhihu.com/node/Banner?
 ||zhijia.com/hd/*.swf
 ||zhlzw.com/wlles/2015/995XX.js
@@ -5691,15 +5696,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||wwp5.com/ps/
-||zhicheng.com/index.php?m=poster&
-||biaoqing.com/2000/ad/960x90.gif
-||dnvod.eu/sshu/
-||changsha.cn/front_js/site_ad/4/site_ad_284.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhicheng.com###BAIDU_SSP__wrapper_u2394962_1
-zhicheng.com###guideLayer
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5728,6 +5726,7 @@ diyifanwen.com###ArtTl
 zol.com.cn###Article_Top_Banner
 avmimi.com###ArticlesEx_box
 2345.com###BAIDU_DSPUI_FLOWBAR
+zhicheng.com###BAIDU_SSP__wrapper_u2394962_1
 gamer.com.tw###BH-ad_banner
 tiexue.net###Baidu_AdTopBar
 ttshuba.com###BookText + div[style="margin-left:20px;text-align:center;"]
@@ -6411,6 +6410,7 @@ js0573.com###gotopr
 cnr.cn###gtop00
 creaders.net###guanggao2
 hao123.com###guesslikesite-block
+zhicheng.com###guideLayer
 www.gxorg.com###h
 hao123.com###hao123-gw11
 java1234.com###hao_search_content
