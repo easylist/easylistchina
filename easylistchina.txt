@@ -537,7 +537,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||59519.com^$third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -684,6 +683,7 @@ ubmcmm.baidustatic.com
 ||565882.com^$third-party
 ||57union.com^
 ||58.215.179.159^
+||59519.com^$third-party
 ||5mnh.com^$third-party
 ||61.152.223.15^
 ||63kc.com^$third-party
@@ -2730,6 +2730,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/article/2016/0517/d2df25063a84c39.jpg
 ||cnbetacdn.com/article/2016/0529/9a9da669eb68dbf.jpg
 ||cnbetacdn.com/banner
+||cnbetacdn.com/frontend/250x200.png
 ||cnchu.com/aps/
 ||cncrk.com/505/
 ||cncrk.com/code/Soft_
@@ -4389,6 +4390,8 @@ mg*.6park.com/img/$image
 ||pingpang.info/uploadfile/950X90B.gif
 ||pingpang.info/uploadfile/butterfly.gif
 ||pipi.cn/player/
+||pix.waerfa.com/ad20160422.jpg
+||pix.waerfa.com^*%20ad
 ||pixfs.net/js/mib.min.js
 ||pixfs.net/js/mib_falcon.
 ||pjtime.com/js/show_ad
@@ -5694,14 +5697,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||cnbetacdn.com/frontend/250x200.png
-||pix.waerfa.com/ad20160422.jpg
-||pix.waerfa.com^*%20ad
 !------------------------Specific element hiding rules------------------------!
-waerfa.com###banner-over-hide
-pigai.org###newnotice
-iwatch365.com###banner
-cnbeta.com##.commt-r
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6015,10 +6011,11 @@ ifeng.com###baidualading
 52pk.com###baidutop2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com###banner
 cwyuni.tw###banner > h2
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
+waerfa.com###banner-over-hide
 163.com###banner2
 163.com###banner3
 shangdu.com###banner960
@@ -6643,6 +6640,7 @@ hc360.com###newAppBox1
 elecfans.com###newTopAdArea
 52jifenbao.net###newcomments:last-child
 yaolan.com###newfix-dsp
+pigai.org###newnotice
 chinaqking.com###newsAD
 news.shangdu.com###newsBanner
 taohua.me###newsImg
@@ -7875,6 +7873,7 @@ maituan.com##.command
 163.com##.comment_bottom_ad
 sina.com.cn##.common-banner
 qingdaonews.com##.commonrightad
+cnbeta.com##.commt-r
 meituan.com##.component-downtip
 gamefy.cn##.con + div[style="float:right; width:326px;"]
 gamefy.cn##.con > a:last-child
@@ -10179,7 +10178,7 @@ pupuapp.com#@##ad_img
 51job.com#@##ad_left
 51job.com#@##ad_right
 dpp.org.tw#@##ad_small
-ii-i.org,wholehk.com,zhujiceping.com#@##adsense
+ii-i.org,pbhz.com,wholehk.com,zhujiceping.com#@##adsense
 182.18.61.50#@##adslist
 33xs.com,aixiaoshuo.com.cn,baishuku.com,dushiwenxue.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
@@ -10287,7 +10286,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-pbhz.com#@##adsense
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
