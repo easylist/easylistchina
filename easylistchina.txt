@@ -1321,7 +1321,7 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .gdmm.com/mp4/bgy.mp4
-.gif|$domain=51dll.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
+.gif|$domain=51dll.com|jjyyfsdowns.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 /10jqka_info/html/ad_
@@ -2918,6 +2918,7 @@ mg*.6park.com/img/$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/*ui/
+||dnvod.eu/hzsy/
 ||dnvod.eu/images/201
 ||dnvod.eu/itkeepmealive/
 ||dnvod.eu/sshu/
@@ -5697,16 +5698,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-.gif|$domain=jjyyfsdowns.com
-||dnvod.eu/hzsy/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hefei.cc###pb_sm_l
-hefei.cc###bp_ad
-firefoxchina.cn##.theme-618 .theme-side-bg .mod
-firefoxchina.cn##.theme-side-bar[trace-key="ad_theme_skin_link"]
-didamoe.com##A[href*=".taobao.com"]
-zhuhai.gd.cn##A[href^="http://hd.zhuhai.gd.cn/ad/"] > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6094,6 +6087,7 @@ cwyuni.tw###box34614 > [class^="box-"]
 lohas.pixnet.net###box785805
 finance.ifeng.com###box_img
 zhan.com###box_tips
+hefei.cc###bp_ad
 club.topsage.com###brbox
 114la.com,ylmf.com###brownTop
 btago.com###browser
@@ -6683,6 +6677,7 @@ xdowns.com###part_1
 hifidiy.net###part_left2
 hifidiy.net###part_right_gg7
 18avhub.com,18avtube.com,mm-cg.com###partner
+hefei.cc###pb_sm_l
 tieba.baidu.com###pblist > li[class]:not(.j_post_list_item)
 pconline.com.cn###pc-aptg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
@@ -9137,8 +9132,10 @@ sogou.com##.tgad-box
 www.sogou.com##.tgad-box + div
 sogou.com##.tgad-title
 putclub.com##.the_ad
+firefoxchina.cn##.theme-618 .theme-side-bg .mod
 firefoxchina.cn##.theme-side-bar-couplet
 17huohu.com,firefox.com.cn,firefoxchina.cn##.theme-side-bar-priority
+firefoxchina.cn##.theme-side-bar[trace-key="ad_theme_skin_link"]
 souxue8.net,xiaodao.la,xiaodaoyl.com##.themeauthor > table[width="100%"]:first-child
 cnool.net##.third-banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
@@ -9438,7 +9435,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-aijava.cn,bejson.com,btcherry.com,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,gmgard.com,hexieshe.com,hggard.com,it.com.cn,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,putonghua520.com,toutiao.com,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+aijava.cn,bejson.com,btcherry.com,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,didamoe.com,gmgard.com,hexieshe.com,hggard.com,it.com.cn,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,putonghua520.com,toutiao.com,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
@@ -9505,6 +9502,7 @@ cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 ali213.net##a[href^="http://g.s8dj.com/"]
 cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
+zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 people.com.cn##a[href^="http://jump.726p."]
 linux.cn##a[href^="http://linux.cn/go/"]
@@ -10295,12 +10293,11 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@.adserver.$domain=litv.tv
-@@/Adshow/*$domain=kysec.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@.adserver.$domain=litv.tv
 @@.cntv.cn/adplayer/
 @@.com/ads/$domain=88boxjx.com
 @@.com/adv/$domain=my.ctrip.com
@@ -10329,6 +10326,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/adsbox.$domain=long7.qq.com
 @@/adsbygoogle.$domain=serve.netsh.org
 @@/adsense/*$domain=piseneasy.com|taobao.com
+@@/Adshow/*$domain=kysec.cn
 @@/AdShow/*$domain=mndxy.org
 @@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=pisen.com.cn|wb.qq.com
