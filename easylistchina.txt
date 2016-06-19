@@ -538,7 +538,7 @@ _popAds.
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
 ||376zf.com^
-||xcycm.com^
+||xcycm.com^$third-party
 ||51junpin.net^$third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -3144,7 +3144,6 @@ mg*.6park.com/img/$image
 ||free9.net/myc/myc.js
 ||freep.cn/lianjie/qqtongji.js
 ||fsehome.com/images/ad_tan.js
-||ftchinese.com/m/marketing/ad.html
 ||fububu.com/zb_users/*/ttz
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
 ||fulibac.com/images/upload/ad/
@@ -5708,7 +5707,9 @@ mg*.6park.com/img/$image
 ||thisav.com/frontend_loader.js
 ||61.31.228.20/live/*_468x60$~collapse
 ||zdfans.com/ex?i=
+||ftchinese.com/m/marketing/
 !------------------------Specific element hiding rules------------------------!
+ftchinese.com##.banner-placeholder
 gpcxw.com###AA2
 huaban.com###top_promotion
 huaban.com##.promotion
