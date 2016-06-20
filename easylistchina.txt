@@ -537,7 +537,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||104.198.198.188^
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -605,6 +604,7 @@ ubmcmm.baidustatic.com
 ||103.249.111.179^$third-party
 ||104.195.62.12^
 ||104.197.4.220^$script,third-party
+||104.198.198.188^
 ||106.187.95.251^
 ||110160.com^$third-party
 ||111.175.219.*.js
@@ -1980,6 +1980,8 @@ mg*.6park.com/img/$image
 ||5ydj.com/images/banner/
 ||5ydj.com/js/hometj.js
 ||5ydj.com/sms/play_300x68.htm
+||5yy6.com/zq/wzy01.js
+||5yy6.com/zq/wzy03.js
 ||6.cn/coop/pub/getMiniPage.php?src=
 ||6.cn/coop/pub/getRand.php?
 ||6.cn/cvbnm/62/5c/26/76db16b5ca7d2253c88c3cc9795f4a40.jpg
@@ -2882,6 +2884,7 @@ mg*.6park.com/img/$image
 ||dfcfw.com/js/tg/rightAd_v2.js
 ||dg.073img.com^
 ||diannaoxitong.com/js/*.gif
+||diaobao.xici.net^
 ||dichan.com.au/newhouse/pinnacle/images/bcastr3.swf
 ||didamoe.com/js/new_index_
 ||didamoe.com/js/play_
@@ -2926,6 +2929,7 @@ mg*.6park.com/img/$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/*ui/
+||dnvod.eu/hsyy/
 ||dnvod.eu/hzsy/
 ||dnvod.eu/images/201
 ||dnvod.eu/itkeepmealive/
@@ -3820,6 +3824,7 @@ mg*.6park.com/img/$image
 ||jinyici.com/qq.js
 ||jirou.com/plus/mytag_js.php
 ||jisutiyu.com/app/js/common_footer.js
+||jisutiyu.com/images/sda/
 ||jisuxz.com/2747/
 ||jitapu.com/inc/adv
 ||jiukan1.com/pc
@@ -4148,6 +4153,7 @@ mg*.6park.com/img/$image
 ||moe-acg.cc/ads.js
 ||moe-acg.cc/images/*/1225x130
 ||moe-acg.cc/images/*/700x150.
+||moe-acg.cc/images/2016/06/14/700150.gif
 ||moe-acg.cc/wp-content/uploads/*/310x160
 ||moe-acg.cc/wp-content/uploads/*/310x374
 ||moe-acg.cc/wp-content/uploads/2016/05/1234.gif
@@ -5534,6 +5540,7 @@ mg*.6park.com/img/$image
 ||you85.cn^*/z*.js
 ||youku.com/cms/tool/pub/get_putdata.
 ||youku.com/QVideo/~ajax/getDefaultItem?
+||youmeek.com/images/aliyunAdImg
 ||youqu.net/js/
 ||youth.cn/ggw/dep_ggw/
 ||youth.cn/hezuo/index.js
@@ -5709,16 +5716,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dnvod.eu/hsyy/
-||jisutiyu.com/images/sda/
-||moe-acg.cc/images/2016/06/14/700150.gif
-||5yy6.com/zq/wzy01.js
-||5yy6.com/zq/wzy03.js
-||youmeek.com/images/aliyunAdImg
-||diaobao.xici.net^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hacg.li##A[href^="/wp/t/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9517,6 +9516,7 @@ sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
+hacg.li##a[href^="/wp/t/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
 chacuo.net##a[href^="http://affiliate.lufax."]
 uc123.com##a[href^="http://alimarket.taobao.com/"]
