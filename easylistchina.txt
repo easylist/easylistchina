@@ -538,7 +538,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||wstztt.com^
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -1193,6 +1192,7 @@ ubmcmm.baidustatic.com
 ||wqzyt.net^$third-party
 ||ws341.com^
 ||ws7j.com^
+||wstztt.com^
 ||wudang05.com^$third-party
 ||x9377a.com^
 ||xa9t.com^
@@ -1344,6 +1344,7 @@ ubmcmm.baidustatic.com
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
+/^http://www\.dnvod\.eu\/(?!images)[a-z0-9]+\/[a-z0-9]+\.[a-z]{3}$/$image,object,object-subrequest,domain=dnvod.eu
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /a83b3cdeacac5a503717469ca5084ebc.
@@ -2933,6 +2934,7 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
+||dnvod.eu/hyyy/
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -5718,11 +5720,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-/^http://www\.dnvod\.eu\/(?!images)[a-z0-9]+\/[a-z0-9]+\.[a-z]{3}$/$image,object,object-subrequest,domain=dnvod.eu
-||dnvod.eu/hyyy/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-5011.net##DIV[class^="wljs-"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9720,6 +9719,7 @@ vvic.com##div[class^="side"]
 gamme.com.tw##div[class^="topad_"]
 tuzuan.com##div[class^="tuzuanad"]
 wper.com##div[class^="wea_d_"]
+5011.net##div[class^="wljs-"]
 narutom.com##div[class^="wrap2 vtg"]
 junshigang.com##div[class^="ww300"]
 yahoo.com##div[data-ad-feedback-beacon]
