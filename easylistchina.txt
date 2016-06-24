@@ -538,7 +538,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||miwifi.com^*.js$third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -1039,6 +1038,7 @@ ubmcmm.baidustatic.com
 ||mediav.com^$third-party
 ||mgwl668.com^$third-party
 ||miaozhen.com^$third-party
+||miwifi.com^*.js$third-party
 ||mlt01.com^
 ||mobads.baidu.com^$third-party
 ||momzs.com^$third-party
@@ -2388,8 +2388,11 @@ mg*.6park.com/img/$image
 ||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
+||bahamut.com.tw/M/*/000139$~collapse,domain=www.gamer.com.tw
+||bahamut.com.tw/S/2KU/73/0001393673.JPG$~collapse
 ||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw^*/0001346771.JPG$~collapse
+||bahamut.com.tw^*/0001394$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw^*/2KU/*?v=$~collapse,image,domain=~m.gamer.com.tw
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiad/
@@ -2503,6 +2506,7 @@ mg*.6park.com/img/$image
 ||bh111.com/flash/*+
 ||bh111.com/js/tan_
 ||biaoqing.com/2000/ad/960x90.gif
+||bilibili.com/index/promote/12.json
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -2627,6 +2631,7 @@ mg*.6park.com/img/$image
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.me/block.js
+||ccav5.com/static/js/floatImgAd.js
 ||ccb.com.cn/V5/images5/left0.gif
 ||ccb.com.cn/V5/images5/right0.gif
 ||cctime.com/UpLoadFile/201$object
@@ -3412,8 +3417,8 @@ mg*.6park.com/img/$image
 ||hhhik.com/detail/play_*.js
 ||hhhik.com/detail/vod_*.js
 ||hi-pda.com/forum/20160329.png
-||hi.people.com.cn/NMediaFile/*.swf
 ||hi.people.com.cn/NMediaFile/*.gif
+||hi.people.com.cn/NMediaFile/*.swf
 ||hiad.vmall.com^
 ||hiao.com/node/node_27508.htm
 ||hifidiy.net/Uploads/Picture/2015-07-27/55b58576cfca7.gif
@@ -5353,10 +5358,12 @@ mg*.6park.com/img/$image
 ||xghylt.com/newad/
 ||xgrb.cn/newad/
 ||xhub.cn/tanchu.js
+||xiacaidd.com/xiacai/ad/
 ||xiami.com/player/iframe-adm?
 ||xiancn.com^*/adv_content/
 ||xiangai365.com/ad_js/
 ||xiangmucangku.com/uploads/allimg/
+||xianshuabao.com/images/banner
 ||xiaoliaolianmeng.com/pic/weipinhui/
 ||xiaoliaolianmeng.com^$subdocument
 ||xiaomengku.com/static/template/cms/v3/js/activity.js
@@ -5716,17 +5723,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||xianshuabao.com/images/banner
-||xiacaidd.com/xiacai/ad/
-||ccav5.com/static/js/floatImgAd.js
-||bahamut.com.tw^*/0001394$~collapse,domain=www.gamer.com.tw
-||bahamut.com.tw/M/*/000139$~collapse,domain=www.gamer.com.tw
-||bahamut.com.tw/S/2KU/73/0001393673.JPG$~collapse
-||bilibili.com/index/promote/12.json
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-51cto.com###message
-xianshuabao.com###justfy_left_banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6559,6 +6557,7 @@ haosou.com,so.com###js-mod-fixed-float
 zhanqi.tv###js-room-flash-banner-panel
 100shuai.com###js_lol_ad
 qu366.com###js_type_2 > .sw
+xianshuabao.com###justfy_left_banner
 3721.cc###key2 > a
 3721.cc###keywords > a
 nazolog.com###kf2a
@@ -6640,6 +6639,7 @@ yzz.cn###media_float_right
 qtfy30.cn###menu + a
 fuliba.net,fulibba.com###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 saydigi.com###menu_banner
+51cto.com###message
 galacg.me###metaslider_382
 tv.sohu.com###miaozhenad
 download.enet.com.cn###middle_new > .font2
