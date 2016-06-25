@@ -77,7 +77,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
 .cn/ads/
-/js/jsstyle-$script,third-party
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
@@ -188,6 +187,7 @@ hk.yahoo.com###mntl1
 /js/ads/zuoxiajiao.js
 /js/bocaiadv.
 /js/guanggao_gg.js
+/js/jsstyle-$script,third-party
 /js/toutiaoiframe.js
 /js/utils51.js
 /js/utils78.js
@@ -545,11 +545,6 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||wyhzzy.com^
-||dleke.com^
-||xxwkjl.com^
-||jianmei123.com^
-||7540.com^$third-party
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
@@ -709,6 +704,7 @@ ubmcmm.baidustatic.com
 ||70e.com^$third-party
 ||710070.com^$third-party
 ||71sem.com^
+||7540.com^$third-party
 ||766ba.net^
 ||7676.com^$third-party
 ||7794.com^$third-party
@@ -866,6 +862,7 @@ ubmcmm.baidustatic.com
 ||dianxin.com^$third-party
 ||displink.com^$third-party
 ||dlads.cn^$third-party
+||dleke.com^
 ||dmtrck.com^$third-party
 ||doniv.net^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
@@ -979,6 +976,7 @@ ubmcmm.baidustatic.com
 ||jhzl001.com^
 ||jianglishi.cn^$third-party
 ||jiankang13.com^$third-party
+||jianmei123.com^
 ||jisucn.com^$third-party
 ||jiuku.cc^
 ||jixing8.com^$third-party
@@ -1201,6 +1199,7 @@ ubmcmm.baidustatic.com
 ||ws7j.com^
 ||wstztt.com^
 ||wudang05.com^$third-party
+||wyhzzy.com^
 ||x9377a.com^
 ||xa9t.com^
 ||xabaitai.com^
@@ -1223,6 +1222,7 @@ ubmcmm.baidustatic.com
 ||xtgreat.com^$third-party
 ||xtxa.net^
 ||xxad.cc^
+||xxwkjl.com^
 ||xzdchl.com^$third-party
 ||xzyituo.com^
 ||ydcpc.com^$third-party
@@ -4055,6 +4055,7 @@ mg*.6park.com/img/$image
 ||lookmw.cn^*/default/js/union.js
 ||loveshang.com/api.php?mod=ad&adid=custom_
 ||lrjz100.u.qiniudn.com/rmb/bxd.jpg
+||lszb.tv/js/float.js
 ||ltwbook.com/js/l_
 ||ltxszw.com/js/350.png
 ||luckstatic.v1.cn/st/10000/
@@ -5729,11 +5730,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||lszb.tv/js/float.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-163.com##A[href^="http://www.51yangsheng.com/"]
-yiyihd.com###I_QjoDvj
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5795,6 +5793,7 @@ tigtag.com###Home942x70_A1
 diyifanwen.com###Hzh1
 diyifanwen.com###Hzh2
 21ic.com###IC2008Ad
+yiyihd.com###I_QjoDvj
 wuxi.cn###Information
 51rhca.com###InviteWindow
 96weixin.com###J-adBd
@@ -9552,7 +9551,6 @@ cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
 zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
 178.com##a[href^="http://iwan.sogou.com/webgame?f="]
 people.com.cn##a[href^="http://jump.726p."]
-linux.cn##A[href^="https://linux.cn/go/"]
 100ksw.com##a[href^="http://lm.chinaacc.com/ManageCheck.asp?adsid="]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://m.tianya.cn/g?f="]
@@ -9571,6 +9569,7 @@ qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
+163.com##a[href^="http://www.51yangsheng.com/"]
 shumilou.co##a[href^="http://www.54wan."]
 allyingshi.com##a[href^="http://www.6.cn/coop/pub/?src="]
 v.baidu.com##a[href^="http://www.602.com/"]
@@ -9596,6 +9595,7 @@ weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 dnvod.eu##a[href^="http://yoyou."]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
+linux.cn##a[href^="https://linux.cn/go/"]
 right.com.cn##a[href^="https://treebear.tmall.com"]
 iqiyi.com##a[id^="100000"]
 360bo.cc,360zhibo.com,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
@@ -10319,6 +10319,7 @@ zhaokao.net#@#.content-ad
 52xiyou.com#@#.ddb
 douban.com#@#.download-ad
 btbt.tv#@#.google-ad
+mobile01.com#@#.googlead
 v.baidu.com#@#.has-ad
 m.wedc.cc,zdfans.com#@#.header-ad
 popo.tw#@#.header_ad
@@ -10340,7 +10341,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-mobile01.com#@#.googlead
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
