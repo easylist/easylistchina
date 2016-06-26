@@ -1351,7 +1351,7 @@ ubmcmm.baidustatic.com
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
-/^http://www\.dnvod\.eu\/(?!images)[a-z0-9]+\/[a-z0-9]+\.[a-z]{3}$/$image,object,object-subrequest,domain=dnvod.eu
+/^http://www\.dnvod\.eu\/[a-z0-9]+\/[a-z0-9]{6,}\.[a-z]{3}$/$image,object,object-subrequest,domain=dnvod.eu
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /a83b3cdeacac5a503717469ca5084ebc.
@@ -2949,7 +2949,6 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
-||dnvod.eu/hyyy/
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
