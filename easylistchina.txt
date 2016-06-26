@@ -5737,7 +5737,9 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||bahamut.com.tw/B/2KU/$domain=www.gamer.com.tw,~collapse
+/imgextra/*$domain=hacg.li
 !------------------------Specific element hiding rules------------------------!
+hacg.li##.widget_text > .textwidget > A[href^="http://www.hacg.li/"]
 gpcxw.com###AA2
 hacg.li###primary > #content > #nav-above + ARTICLE
 daohangtx.com##.daohanggg
