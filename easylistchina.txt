@@ -545,7 +545,6 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||00880808.com^
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
@@ -596,6 +595,7 @@ ubmcmm.baidustatic.com
 |http://r.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
+||00880808.com^
 ||010teacher.com^
 ||012.tw^$third-party
 ||033.com^$third-party
@@ -1411,7 +1411,7 @@ ubmcmm.baidustatic.com
 /img/disc.jpg$domain=jpfans.com|jpseek.com
 /img/kana.jpg$domain=jpfans.com|jpseek.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
-/imgextra/*$domain=zqnow.com
+/imgextra/*$domain=hacg.li|zqnow.com
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
@@ -2395,6 +2395,7 @@ mg*.6park.com/img/$image
 ||babytreeimg.com/img/promo/
 ||backchina.com/banners/
 ||badmintoncn.com/cbo_gg/
+||bahamut.com.tw/B/2KU/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw/M/*/000139$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw/S/2KU/73/0001393673.JPG$~collapse
 ||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
@@ -4885,6 +4886,8 @@ mg*.6park.com/img/$image
 ||spn.com.cn/media/jackmm.js
 ||sportsv.net/dist/ads/
 ||srcdd.com^$domain=zasv.com
+||srssn.com/do/js.php?id=
+||srssn.com/myjs/
 ||srzc.com/images/*.swf
 ||srzc.com/js/Adsjs/
 ||srzc.com/js/gelao/
@@ -5007,6 +5010,7 @@ mg*.6park.com/img/$image
 ||tgbus.com/search/article_endcontent_google.htm
 ||tgbus.com/sf/taobao/
 ||thethirdmedia.com/a1/*960x
+||thisav.com/9394.js
 ||thisav.com/frontend_
 ||thisav.com/js/*float
 ||thisav.com/windowfiles/dhtmlwindow
@@ -5735,16 +5739,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bahamut.com.tw/B/2KU/$domain=www.gamer.com.tw,~collapse
-/imgextra/*$domain=hacg.li
-||srssn.com/do/js.php?id=
-||srssn.com/myjs/
-||thisav.com/9394.js
 !------------------------Specific element hiding rules------------------------!
-hacg.li##.widget_text > .textwidget > A[href^="http://www.hacg.li/"]
 gpcxw.com###AA2
-hacg.li###primary > #content > #nav-above + ARTICLE
-daohangtx.com##.daohanggg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6788,6 +6784,7 @@ chinawin.net,itkee.com###postTopAd
 sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
 wenku.baidu.com###ppt-bottom-ads
+hacg.li###primary > #content > #nav-above + article
 9le8.com###program_play_right
 oschina.net###project_ad_banner
 mymusic.net.tw###prom
@@ -7994,6 +7991,7 @@ qingdaonews.com##.da30050
 qingdaonews.com##.da66050
 map.baidu.com##.damoce-search-item
 bbs.it168.com##.daoh2 + .bor8
+daohangtx.com##.daohanggg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
@@ -9388,6 +9386,7 @@ web20share.com##.widget:nth-of-type(5)
 bgbk.org,fulibl.com##.widget_banner
 uopera.net##.widget_custom:last-child
 bzfl1.cc##.widget_cy_ad
+hacg.li##.widget_text > .textwidget > a[href^="http://www.hacg.li/"]
 51jifenbao.net##.widget_text:last-child
 weeiy.com##.widget_text:nth-child(5)
 hanfan.cc##.widget_ui_textasb
