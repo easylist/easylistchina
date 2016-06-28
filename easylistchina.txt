@@ -420,6 +420,7 @@ _popAds.
 ##.ad-right-top
 ##.ad250left
 ##.ad250right
+##.ad300left
 ##.ad336left
 ##.ad72060
 ##.ad990x130
@@ -537,7 +538,6 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
-##.ad300left
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -1671,6 +1671,7 @@ mg*.6park.com/img/$image
 ||168gamer.com/ab.php?mod=jss&bid=
 ||168gamer.com/cstdio_ads-
 ||168gamer.com/static/js/rlist.js
+||168img.com/gamania960.swf
 ||16sucai.com/ads/
 ||16sucai.com/images/46060_
 ||17173.com/2013/new/channel-float.js
@@ -1771,6 +1772,7 @@ mg*.6park.com/img/$image
 ||2345.com/jifenimg/img/common/logo.png$third-party
 ||2345.com/right/site/like/gul_default.js
 ||2345.com/xiaoimg/swf/flash/
+||239300.net/data/attachment/album/
 ||23sc.cn*/007/js/$script
 ||23wx.com/scripts/style_tan.js
 ||23youku.com/Runtime/js/
@@ -4167,6 +4169,7 @@ mg*.6park.com/img/$image
 ||mitbbs.*/tggl_img/
 ||mitbbs.ca/ad_
 ||mitbbs.com/ad_
+||miwifi.com/pcads/
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||miyun360.com/data/attachment/portal/
 ||mlbuy.com/gg.js
@@ -4417,6 +4420,7 @@ mg*.6park.com/img/$image
 ||pic.yupoo.com/showflash/
 ||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
 ||pic.zol-img.com.cn^$object
+||picasion.com^$~collapse,domain=520cc.me
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||picuphost.com^$domain=mmload.info
 ||pifa.fobshanghai.com/link/
@@ -5748,13 +5752,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||picasion.com^$domain=520cc.me,~collapse
-||168img.com/gamania960.swf
-||239300.net/data/attachment/album/
-||miwifi.com/pcads/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bilibilijj.com##DIV[onclick$="]);"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9880,6 +9879,7 @@ eyuyao.com##div[id^="x_ad_"]
 hiapk.com##div[id^="zone_"][class*="g2_"]
 hiapk.com##div[id^="zoneid"][class^="g2_"]
 ebiotrade.com##div[id^=adA]
+bilibilijj.com##div[onclick$="]);"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[srcid="13602"] > .c-border
 co188.com##div[style$="height:250px;margin:15px 0;"]
 co188.com##div[style$="height:90px;margin-top:15px;"]
@@ -10371,9 +10371,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||e70123.com^$script,domain=2mm.la
-@@||e701.net^*=300&$subdocument,domain=2mm.la
-@@||e701.net^$script,domain=2mm.la
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10635,9 +10632,10 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||dvs.china.com/crossdomain.xml
 @@||dzwww.com/ad/jsfiles/fillCon.js
 @@||e.cn.miaozhen.com/r/k=*=http
-@@||e701.net^$script,domain=flv.tv
+@@||e701.net^$script,domain=2mm.la|flv.tv
+@@||e701.net^*=300&$subdocument,domain=2mm.la
 @@||e701.net^*=60&$subdocument,domain=flv.tv
-@@||e70123.com^$script,domain=flv.tv
+@@||e70123.com^$script,domain=2mm.la|flv.tv
 @@||e719.net^$script,domain=flv.tv
 @@||ebiotrade.com/jslibrary/js44.js
 @@||ecma.bdimg.com/holmes/*.svg
