@@ -1356,11 +1356,11 @@ ubmcmm.baidustatic.com
 /934b2bc8de85e32ae7588f2eb955ee36.
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
-/\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
+/^http://www\.dnvod\.eu.*?\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
 /^http://www\.dnvod\.eu\/[a-z0-9]+\/[a-z0-9]{6,}\.[a-z]{3}$/$image,object,object-subrequest,domain=dnvod.eu
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
-/^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
+/^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /a83b3cdeacac5a503717469ca5084ebc.
 /ad_nydus.png$domain=wowrk.com|x-berry.com
 /adcg/*
@@ -5755,8 +5755,13 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||dnvod.eu/upload/greatematch/
+||5184.com/gk201
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+5184.com###ggshow1
+5184.com###ggshow2
+5184.com###ggshow3
+5184.com###ggshow4
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
