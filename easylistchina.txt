@@ -1356,11 +1356,11 @@ ubmcmm.baidustatic.com
 /934b2bc8de85e32ae7588f2eb955ee36.
 /950-90.gif$domain=qire213.com
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
-/^http://www\.dnvod\.eu.*?\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
+/^http://www\.dnvod\.eu.*?\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
 /^http://www\.dnvod\.eu\/[a-z0-9]+\/[a-z0-9]{6,}\.[a-z]{3}$/$image,object,object-subrequest,domain=dnvod.eu
-/^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
+/^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /a83b3cdeacac5a503717469ca5084ebc.
 /ad_nydus.png$domain=wowrk.com|x-berry.com
 /adcg/*
@@ -1896,6 +1896,7 @@ mg*.6park.com/img/$image
 ||512ms.com/js/index_ggw_show.js
 ||51688.cc/ya/
 ||5184.com/container/html/news_view_gg
+||5184.com/gk201
 ||5185.cc/forum/*.gif
 ||51ape.com/d/js/
 ||51bczx.com/attachment/Mon_
@@ -2963,6 +2964,8 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
+||dnvod.eu/upload/greatematch/
+||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -5704,7 +5707,6 @@ mg*.6park.com/img/$image
 ||ziti.jz123.cn/js/
 ||zj.cn^*/AD?location=
 ||zjbdt.com/onexgadimgs/
-||dnvod.eu^*/201$object-subrequest
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjg.js.cn/Template/Ant/Js/tonglang.js
 ||zjjzx.cn*/push/
@@ -5753,16 +5755,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dnvod.eu/upload/greatematch/
-||5184.com/gk201
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iplaysoft.com##.d250
-iplaysoft.com##.widget[style]
-5184.com###ggshow1
-5184.com###ggshow2
-5184.com###ggshow3
-5184.com###ggshow4
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6471,6 +6465,10 @@ wenku.baidu.com###ggbtm-ads
 55188.com,g138.com###ggdistich
 btmee.net###ggg_tool_text
 china.com.cn###gggg
+5184.com###ggshow1
+5184.com###ggshow2
+5184.com###ggshow3
+5184.com###ggshow4
 1677.net###ggw
 danyang.com###global-hd > div[align="center"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
@@ -8003,6 +8001,7 @@ timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 sm.cn##.crumb-link + .other
 tigtag.com##.custom-box02
+iplaysoft.com##.d250
 iplaysoft.com##.d250x90
 ipc.me,iplaysoft.com##.d300
 iplaysoft.com##.d336
@@ -9405,6 +9404,7 @@ maxthon.cn##.widget-main-ad-img
 maxthon.cn##.widget-main-hot-links
 hao123.com##.widget-topbanner
 web20share.com##.widget:nth-of-type(5)
+iplaysoft.com##.widget[style]
 bgbk.org,fulibl.com##.widget_banner
 uopera.net##.widget_custom:last-child
 bzfl1.cc##.widget_cy_ad
@@ -9499,7 +9499,7 @@ jjwxc.net##[id^="adp_"]
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
 e0575.cn,sz.zj.cn##[id^="ads_c_"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##[id^="spreadad_"]
-bilibilijj.com##A > IMG[style*="data"]
+bilibilijj.com##a > img[style*="data"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
