@@ -77,6 +77,8 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 -361-40-8K-.jpg
 .cc/js/ads/
+/data/nfs/ad/*
+/data/attachment/ad/*
 /pkg/pagelet/ad/ad_
 /pkg/pagelet/list/ad_
 .cn/ads/
@@ -3457,9 +3459,6 @@ mg*.6park.com/img/$image
 ||hinews.cn/out/$script
 ||hinews.cn/swf/0/*.swf
 ||hipowerd.com/outbound/images/*_banner.
-||hk-bc.net/data/attachment/ad/
-||hk-bc.net/data/nfs/ad/
-||hk-bici.com/data/attachment/ad/
 ||hk-pub.com/forum/images/banner/
 ||hkcna.hk/upload/6/2011/0608/U139P22T6D51F96DT20110608114515.jpg
 ||hkcna.hk/upload/6/2011/0909/U127P22T6D70F98DT20110914111852.swf
