@@ -77,10 +77,6 @@ hk.yahoo.com###mntl1
 !-----------------------General advert blocking filters-----------------------!
 -361-40-8K-.jpg
 .cc/js/ads/
-/data/nfs/ad/*
-/data/attachment/ad/*
-/pkg/pagelet/ad/ad_
-/pkg/pagelet/list/ad_
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -149,7 +145,9 @@ hk.yahoo.com###mntl1
 /cpro/ui/*
 /cpv/i.php?z=
 /data/ad/*
+/data/attachment/ad/*
 /data/cache/myad-
+/data/nfs/ad/*
 /diantan.js
 /dreamads/*
 /duilian.$domain=~duilian.msra.cn
@@ -225,6 +223,8 @@ hk.yahoo.com###mntl1
 /piaofu.js
 /pic/ad/*
 /picad/*$domain=~ychr.com
+/pkg/pagelet/ad/ad_
+/pkg/pagelet/list/ad_
 /plugin.php?id=popad_7ree&
 /pop_DJ2010.swf
 /proxy.htm?id=
@@ -549,10 +549,7 @@ _popAds.
 .com/showpage.asp?u=$script,third-party
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
-||pstatp.com^$script,third-party,domain=~toutiao.com
 /adposid/*
-||pay838.com^
-||hbsimg.com^$third-party
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
@@ -952,6 +949,7 @@ ubmcmm.baidustatic.com
 ||haomm.com^$third-party
 ||haoyiwang.net^$third-party
 ||hauchi.com.tw^$third-party
+||hbsimg.com^$third-party
 ||heima8.com^$third-party
 ||hfjuki.com^
 ||hmp33.com^
@@ -1093,6 +1091,7 @@ ubmcmm.baidustatic.com
 ||poyang.cn^$third-party
 ||pro.cn^$third-party
 ||prohost.com.tw^$third-party
+||pstatp.com^$script,third-party,domain=~toutiao.com
 ||qidou.com^$third-party
 ||qiqiww.com^
 ||qiyou.com^$third-party
@@ -1897,6 +1896,7 @@ mg*.6park.com/img/$image
 ||500xxxx.com/go.js
 ||5011.net/template/images/*0.gif
 ||5068.com/uploads/allimg/150116/71_150116175734_1.jpg
+||5068.com/websleft.js
 ||506ys.com/js/200.js
 ||51.com/up/bdfmt/
 ||512ms.com/js/index_ggw_show.js
@@ -2075,6 +2075,7 @@ mg*.6park.com/img/$image
 ||6vhao.com/d/f*.js
 ||70.86.24.120:8060/
 ||72.11.141.18/girls.gif
+||720rr.cc/template/html5/ads/
 ||72bbb.com/images/12.gif
 ||73p37.com/js/bottomall.js
 ||73p37.com/js/playad.html
@@ -2692,12 +2693,15 @@ mg*.6park.com/img/$image
 ||chddh.com*/A*D/
 ||cheers.com.tw/assets/js/fancyapps-
 ||chengruide.com/ad_js/
+||chenhuiwx.com^*/i.php?id=
 ||chewen.com/pics/2013/09/13/02013091317191365.jpg
+||chexun.com/images/sales/201601/
 ||chidir.com^
 ||china.chemnet.com/cnbanner/
 ||china.com.cn*/ads_js/
 ||china.com.cn/2015ads/
 ||china.com.cn/food/node_7094923.htm
+||china.com.cn/images/attachement/png/site555/20160226/5065f32cc251183aa79f03.png
 ||china.com.cn/statics/js/js_vag/
 ||china.com/zh_cn/ads/
 ||china.com/zh_cn/etc/gghead
@@ -2778,6 +2782,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/article/2016/0517/60e50817eac31f3.jpg
 ||cnbetacdn.com/article/2016/0517/d2df25063a84c39.jpg
 ||cnbetacdn.com/article/2016/0529/9a9da669eb68dbf.jpg
+||cnbetacdn.com/article/2016/0629/15b2632f043a329.png
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnchu.com/aps/
@@ -3460,6 +3465,7 @@ mg*.6park.com/img/$image
 ||hinews.cn/out/$script
 ||hinews.cn/swf/0/*.swf
 ||hipowerd.com/outbound/images/*_banner.
+||hitsukirei.idv.st/dns/bar.htm
 ||hk-pub.com/forum/images/banner/
 ||hkcna.hk/upload/6/2011/0608/U139P22T6D51F96DT20110608114515.jpg
 ||hkcna.hk/upload/6/2011/0909/U127P22T6D70F98DT20110914111852.swf
@@ -5757,16 +5763,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||5068.com/websleft.js
-||hitsukirei.idv.st/dns/bar.htm
-||720rr.cc/template/html5/ads/
-||chenhuiwx.com^*/i.php?id=
-||cnbetacdn.com/article/2016/0629/15b2632f043a329.png
-||china.com.cn/images/attachement/png/site555/20160226/5065f32cc251183aa79f03.png
-||chexun.com/images/sales/201601/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hacg.li###text-16
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6985,6 +6983,7 @@ vgugu.com###test1
 pchome.com.tw###test2
 hacg.li###text-11
 aijava.cn###text-15
+hacg.li###text-16
 wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
