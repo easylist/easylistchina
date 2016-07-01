@@ -5765,6 +5765,7 @@ mg*.6park.com/img/$image
 ||hiapk.com/uploads/AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xianzhenyuan.cn##.bm.a_c
 hiapk.com##.g2_img_l
 hiapk.com##.g2_img_r
 hiapk.com##.g2.mt20
@@ -10375,7 +10376,6 @@ sjsmitaa.org#@#.module-ads
 mobile01.com#@#.navad
 fjsen.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
-xianzhenyuan.cn#@#.super-ad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
 tvmost.com.hk#@#.v_ad
@@ -10385,6 +10385,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||xianzhenyuan.cn^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
