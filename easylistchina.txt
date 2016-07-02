@@ -1332,7 +1332,7 @@ ubmcmm.baidustatic.com
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
-||taobao.com^$popup,domain=hacg.li
+||taobao.com^$popup,domain=hacg.red
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
@@ -1386,7 +1386,7 @@ ubmcmm.baidustatic.com
 /banner.js$domain=28188.com|28188.net
 /banner/*$domain=dolc.de|dolc.info|leiphone.com
 /bannerpic/*$domain=uopera.net
-/bao/uploaded/*$domain=hacg.li
+/bao/uploaded/*$domain=hacg.red
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
 /cari/daybanner/*
@@ -1425,7 +1425,7 @@ ubmcmm.baidustatic.com
 /img/disc.jpg$domain=jpfans.com|jpseek.com
 /img/kana.jpg$domain=jpfans.com|jpseek.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
-/imgextra/*$domain=hacg.li|zqnow.com
+/imgextra/*$domain=hacg.red|zqnow.com
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
@@ -5066,7 +5066,7 @@ mg*.6park.com/img/$image
 ||tianyaui.com/qy/adsame/ads.js
 ||tibet.news.cn/zhuye/images/wangqun
 ||tieba.baidu.com/f/urlcheck?
-||tietuku.$domain=52jifenbao.net|5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btshark.org|fulidh.com|fulisuo1.com|hacg.li|henbt.com|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
+||tietuku.$domain=52jifenbao.net|5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btshark.org|fulidh.com|fulisuo1.com|henbt.com|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.$object-subrequest,domain=skyerblog.com
 ||tietuku.*.gif$domain=lightnovel.cn|xdjishu.com
 ||tietuku.com/0bb9bfe57636dc55.jpg
@@ -5770,6 +5770,8 @@ mg*.6park.com/img/$image
 ||qqhjy.com/UploadFile/2015-10/nuoxinkameng.gif
 !------------------------Specific element hiding rules------------------------!
 qianhuaw.com###framelzHoHY
+hacg.red###text-16
+hacg.red###text-7
 gpcxw.com###AA2
 sina.com.cn###ad_blk_fixed
 sina.com.cn##.clearAd
@@ -6384,7 +6386,6 @@ www.youdao.com###ext
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 iciba.com###ezfm
-hacg.li###fangk4
 apk.tw###favatarRight
 fifm.cn###favorite_table_box
 happy-yblog.blogspot.com,happy-yblog.blogspot.hk,happy-yblog.blogspot.tw###fbox-background
@@ -6815,12 +6816,11 @@ ld0766.com###portal_ad3
 365kl.net###portal_block_3611
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
-hacg.li###post-22498
 chinawin.net,itkee.com###postTopAd
 sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
 wenku.baidu.com###ppt-bottom-ads
-hacg.li###primary > #content > #nav-above + article
+hacg.red###primary > #content > #nav-above + article
 9le8.com###program_play_right
 oschina.net###project_ad_banner
 mymusic.net.tw###prom
@@ -6987,9 +6987,7 @@ m.autohome.com.cn###tcw20l
 vgugu.com###test
 vgugu.com###test1
 pchome.com.tw###test2
-hacg.li###text-11
 aijava.cn###text-15
-hacg.li###text-16
 wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
@@ -6999,9 +6997,8 @@ vjmedia.com.hk###text-33
 vmelon.com###text-4
 zreading.cn###text-5
 uisdc.com###text-6
-hacg.li###text-7
 zreading.cn###text-8
-hacg.li,wuleba.com,zeekmagazine.com###text-9
+wuleba.com,zeekmagazine.com###text-9
 acgft.net###text-html-widget-13 + .widget-box
 pbhz.com###text-html-widget-2
 dsqnw.com###text-html-widget-9
@@ -9423,7 +9420,6 @@ iplaysoft.com##.widget[style]
 bgbk.org,fulibl.com##.widget_banner
 uopera.net##.widget_custom:last-child
 bzfl1.cc##.widget_cy_ad
-hacg.li##.widget_text > .textwidget > a[href^="http://www.hacg.li/"]
 51jifenbao.net##.widget_text:last-child
 weeiy.com##.widget_text:nth-child(5)
 hanfan.cc##.widget_ui_textasb
@@ -9582,7 +9578,6 @@ sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
-hacg.li##a[href^="/wp/t/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
 chacuo.net##a[href^="http://affiliate.lufax."]
 uc123.com##a[href^="http://alimarket.taobao.com/"]
@@ -9876,7 +9871,6 @@ doyo.cn,keleyi.com##div[id^="gg"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
 fjlyfdc.com.cn##div[id^="hxhad"]
-hacg.li##div[id^="ifocu"]
 imanhua.com##div[id^="imh-"]
 news18a.com##div[id^="ina_click_"]
 tc.cn##div[id^="lm"]
