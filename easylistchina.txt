@@ -552,11 +552,6 @@ _popAds.
 /adposid/*
 /adscpc/*
 /adtmp/*
-||polkoa.com^
-||dragoncent.com^
-||khgj.cn^$third-party
-||wuwho.cn^
-||xcyjzs.net^
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -881,6 +876,7 @@ ubmcmm.baidustatic.com
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||dou777.com^
 ||doubleadv.com^$third-party
+||dragoncent.com^
 ||dreamfull.cn^
 ||drlsf.com^
 ||drmcmm.baidu.com^
@@ -1022,6 +1018,7 @@ ubmcmm.baidustatic.com
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keyyou.net^
+||khgj.cn^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
 ||kld666.com^
@@ -1092,6 +1089,7 @@ ubmcmm.baidustatic.com
 ||pay838.com^
 ||pdsjycm.com^
 ||pofang.com^
+||polkoa.com^
 ||pos.baidu.com^
 ||poxzyu.com^$third-party
 ||poyang.cn^$third-party
@@ -1216,6 +1214,7 @@ ubmcmm.baidustatic.com
 ||ws7j.com^
 ||wstztt.com^
 ||wudang05.com^$third-party
+||wuwho.cn^
 ||wyhzzy.com^
 ||x9377a.com^
 ||xa9t.com^
@@ -1224,6 +1223,7 @@ ubmcmm.baidustatic.com
 ||xchgx.com^
 ||xcy8.com^
 ||xcycm.com^$third-party
+||xcyjzs.net^
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
 ||xhmrv.com^
@@ -4590,7 +4590,9 @@ mg*.6park.com/img/$image
 ||qq6080.com/template/zeyi/aaaa/
 ||qqcf.com/js/Content_Get.js
 ||qqcyl.org/js/*.html
+||qqhjy.com/sgxkm1.gif
 ||qqhjy.com/soft/Upload*.gif
+||qqhjy.com/UploadFile/2015-10/nuoxinkameng.gif
 ||qqjia.com/dan.js
 ||qqjia.com/images/ad
 ||qqkj.cn/js/qqkjnew/lanmuzhuantitongji.js
@@ -5055,6 +5057,7 @@ mg*.6park.com/img/$image
 ||tianqi.com/js/gg.js
 ||tianqi.com/static/js/gg
 ||tianqi.com/templates/huoche/js/hcgg.js
+||tianshi.info/zeis/ts.gif
 ||tianshi2.com/images/
 ||tianshui.com.cn/newbg.jpg
 ||tianshui.com.cn/newimages/xhglj.swf
@@ -5771,16 +5774,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qqhjy.com/sgxkm1.gif
-||qqhjy.com/UploadFile/2015-10/nuoxinkameng.gif
-||tianshi.info/zeis/ts.gif
 !------------------------Specific element hiding rules------------------------!
-qianhuaw.com###framelzHoHY
-hacg.red###text-16
-hacg.red###text-7
 gpcxw.com###AA2
-sina.com.cn###ad_blk_fixed
-sina.com.cn##.clearAd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -5964,6 +5959,7 @@ www.sohu.com###ad_TOP
 7lili.com###ad_articlep_4
 7lili.com###ad_articlep_5
 7lili.com###ad_articlep_6
+sina.com.cn###ad_blk_fixed
 cnyw.net###ad_box_2009_04
 060s.com###ad_content1
 51itstudy.com,wdlm.cn###ad_coupleleft
@@ -6447,6 +6443,7 @@ wgun.net###frameUrKrp6 ~ .frame
 wangdaizhijia.com###frameVjrRzL
 yangluo.cn###frameVw7574
 gz0668.com###framec32DR1
+qianhuaw.com###framelzHoHY
 wcjbb.com###frameo834m9
 bbs.liao1.com###frameppbC61
 zc173.com###frameq7Hf1J
@@ -6994,6 +6991,7 @@ vgugu.com###test
 vgugu.com###test1
 pchome.com.tw###test2
 aijava.cn###text-15
+hacg.red###text-16
 wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
@@ -7003,6 +7001,7 @@ vjmedia.com.hk###text-33
 vmelon.com###text-4
 zreading.cn###text-5
 uisdc.com###text-6
+hacg.red###text-7
 zreading.cn###text-8
 wuleba.com,zeekmagazine.com###text-9
 acgft.net###text-html-widget-13 + .widget-box
@@ -7932,6 +7931,7 @@ ku6.com##.ckl_ios
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 fpdisplay.com##.class_adv1
+sina.com.cn##.clearAd
 caikuu.com##.clearfix + .recommend
 hunantv.com,mgtv.com##.click-s-r1
 hunantv.com,mgtv.com##.click-t
