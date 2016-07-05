@@ -5083,7 +5083,7 @@ mg*.6park.com/img/$image
 ||tianyaui.com/qy/adsame/ads.js
 ||tibet.news.cn/zhuye/images/wangqun
 ||tieba.baidu.com/f/urlcheck?
-||tietuku.$domain=52jifenbao.net|5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btshark.org|fulidh.com|fulisuo1.com|henbt.com|papa1024.com|potplayer.org|qqhzg.com|qqjishu.net|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
+||tietuku.$domain=52jifenbao.net|5ydj.com|99ee1.com|99re5.com|99rr6.com|btago.com|btshark.org|fulidh.com|fulisuo1.com|henbt.com|papa1024.com|potplayer.org|qqjishu.net|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.$object-subrequest,domain=skyerblog.com
 ||tietuku.*.gif$domain=lightnovel.cn|xdjishu.com
 ||tietuku.com/0bb9bfe57636dc55.jpg
@@ -5792,6 +5792,7 @@ mg*.6park.com/img/$image
 ||61.147.184.18^
 !------------------------Specific element hiding rules------------------------!
 168gamer.com##.b_fada1
+qqhzg.com##A[href^="http"]:not([href*=".qqhzg."]) > IMG[src^="/upload/1/"]
 168gamer.com##.c_bfl
 gpcxw.com###AA2
 bejson.com###jsa1
