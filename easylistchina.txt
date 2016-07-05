@@ -542,9 +542,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
-||bydonline.com^
-||pababy.cn^$third-party
-||wicp.net^
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -819,6 +816,7 @@ ubmcmm.baidustatic.com
 ||bloggerads.net^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||btyou.com^$third-party
+||bydonline.com^
 ||c.91wan.com^$third-party
 ||cangnews.com^
 ||caob5.info^
@@ -1088,6 +1086,7 @@ ubmcmm.baidustatic.com
 ||p0y.cn^$image
 ||p0y.cn^*.swf
 ||p3tt.com^
+||pababy.cn^$third-party
 ||pagechoice.net^$third-party
 ||pay838.com^
 ||pdsjycm.com^
@@ -1205,6 +1204,7 @@ ubmcmm.baidustatic.com
 ||weddingeeos.com^$third-party
 ||weizhanle.com^$third-party
 ||whytoss.com^
+||wicp.net^
 ||widget.ezprice.com.tw^$third-party
 ||winasdaq.com^$third-party
 ||winvestern.com.cn^
@@ -1405,6 +1405,7 @@ ubmcmm.baidustatic.com
 /da.aspx|$domain=live8bo.com|live8bo.net|live8bo1.com|zqzq.com
 /dealer1.gif$domain=oldpig.org
 /dhfun_ad/*
+/dzwww/ad_dzw_inner.js
 /EZ-YAHOO/*$domain=ezvivi.com
 /friends/*$image,domain=v2ex.com
 /front/adv/getpmadvlist
@@ -2985,6 +2986,7 @@ mg*.6park.com/img/$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/upload/greatematch/
+||dnvod.eu/upload/matchme/
 ||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
@@ -3068,6 +3070,7 @@ mg*.6park.com/img/$image
 ||dytt8.net/js2/
 ||dzwww.com/data/js/asp_$script
 ||dzwww.com/k.js
+||dzwww.com/static/image/foreground/yyq.jpg
 ||e.changyan.sohu.com/dataService/getData?
 ||e.hnr.cn/choose/view/
 ||e.yycqc.com^
@@ -4493,6 +4496,7 @@ mg*.6park.com/img/$image
 ||pro.iweihai.cn^
 ||property.hk/ad_$script
 ||ps123.net/MyFile/
+||pstatp.com/site/reads-sdk/*.js
 ||pt80.net/source/plugin/fysq_ad/
 ||ptbs.sme.gov.cn/images/231.gif
 ||ptbus.com/s.js
@@ -5582,6 +5586,7 @@ mg*.6park.com/img/$image
 ||yiweimei.net/css/logo.gif
 ||yixiaoba.com/js/yxb_normal.js
 ||yixiaoba.com/juxiao.html
+||yixieshi.com/media/
 ||yiyihd.com/data/attachment/portal/
 ||yiyipan.com/images/12.gif
 ||yizhai.net/myjs/f*.js
@@ -5780,15 +5785,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-/dzwww/ad_dzw_inner.js
-||dzwww.com/static/image/foreground/yyq.jpg
-||pstatp.com/site/reads-sdk/*.js
-||dnvod.eu/upload/matchme/
-||yixieshi.com/media/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-kikinote.net##.widget-3
-kikinote.net##.widget-6
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6733,6 +6731,7 @@ javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
 xdjishu.com###nav + div + table
+hacg.red###nav-above + div
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
 webkaka.com###navo + .ucontent
 tgbus.com###neck_970
@@ -6836,7 +6835,6 @@ chinawin.net,itkee.com###postTopAd
 sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
 wenku.baidu.com###ppt-bottom-ads
-hacg.red###nav-above + DIV
 9le8.com###program_play_right
 oschina.net###project_ad_banner
 mymusic.net.tw###prom
@@ -9431,6 +9429,8 @@ baidu.com##.wgt-ads
 muzhi.baidu.com##.wgt-best-answer + script + div
 zhidao.baidu.com##.wgt-bottom-ask
 muzhi.baidu.com##.wgt-container
+kikinote.net##.widget-3
+kikinote.net##.widget-6
 hao123.com##.widget-hlbar > span
 maxthon.cn##.widget-main-ad-img
 maxthon.cn##.widget-main-hot-links
@@ -10374,7 +10374,7 @@ youqu.net#@#.adtop
 veryeast.cn#@#.adv-right
 zalora.com.hk#@#.advertisement-block
 jd.com#@#.adwords
-9zvip.net,oldpig.org,taiwanacgn.com#@#.afs_ads
+9zvip.net,oldpig.org,popart.hk,taiwanacgn.com#@#.afs_ads
 ciciwg.com#@#.aseadn
 dingdong.ganji.com#@#.banner
 10.10.5.12,192.168.128.1#@#.banner_ad
@@ -10405,7 +10405,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-popart.hk#@#.afs_ads
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
