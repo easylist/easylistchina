@@ -76,7 +76,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 -361-40-8K-.jpg
-/toutiao_web/static/images/tt_game_
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -257,6 +256,7 @@ hk.yahoo.com###mntl1
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
+/toutiao_web/static/images/tt_game_
 /ttmeiju/images/ts.gif
 /tuiguang/*
 /u/_sponsor/*
@@ -551,7 +551,6 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||ad9377.com^
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
@@ -761,6 +760,7 @@ ubmcmm.baidustatic.com
 ||ad-plus.cn^$third-party
 ||ad000000.com^
 ||ad8.cc^$third-party
+||ad9377.com^
 ||adbxb.com^$third-party
 ||adchina.cc^$third-party
 ||adconfer.com^$third-party
@@ -1687,8 +1687,11 @@ mg*.6park.com/img/$image
 ||1688.com.au/site1/1688ad/
 ||16888.com/ajax/loadcardata.php
 ||168gamer.com/ab.php?mod=jss&bid=
+||168gamer.com/akf.php?
 ||168gamer.com/cstdio_ads-
+||168gamer.com/pu-cstdio_ads-
 ||168gamer.com/static/js/rlist.js
+||168img.com/a/
 ||168img.com/gamania960.swf
 ||16sucai.com/ads/
 ||16sucai.com/images/46060_
@@ -1953,6 +1956,7 @@ mg*.6park.com/img/$image
 ||520bdy.com/images/888.jpg
 ||520kankan.com/960x80.gif
 ||521000.com/co/
+||5278bbs.com/adpost_
 ||52ch.net/data/advimg/
 ||52ch.net/data/img/
 ||52ch.net/hack/counter.
@@ -2031,6 +2035,7 @@ mg*.6park.com/img/$image
 ||600km.com/template/*/ad/
 ||6080ai.com^*.js
 ||61.10.2.86/dev/xopen.php
+||61.147.184.18^
 ||61.147.92.251:81/120x160.asp
 ||61.164.108.104:4275/*.gif
 ||61.164.108.184^*.gif
@@ -3571,6 +3576,7 @@ mg*.6park.com/img/$image
 ||hz66.com/2015/1117/1447725901890.jpg
 ||hz66.com/2016/0121/1453343855270.jpg
 ||hzhyhm.com^
+||hznzcn.com/moban/youxiajiao.js
 ||i-gamer.net/promo_
 ||i-gamer.net^$domain=cartoomad.com|cartoonad.com|cartoonmad.com
 ||i.168gamer.$image,object
@@ -5282,6 +5288,7 @@ mg*.6park.com/img/$image
 ||vzhuan.cn/html/*.php
 ||w010w.com.cn^$subdocument
 ||wa.kuwo.cn/lyrics/img/kwgg/
+||wal8.com/img48/544027_20160424182911/146446612161.gif
 ||wallstcn.com/46/3b/ac/wdx-4-sp-4zt3udu2z4gg-f.gif
 ||wallstcn.com^*-300x250.
 ||wan.sogou.com/cdn/$subdocument
@@ -5785,22 +5792,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||5278bbs.com/adpost_
-||168gamer.com/akf.php?
-||168img.com/a/
-||168gamer.com/pu-cstdio_ads-
-||hznzcn.com/moban/youxiajiao.js
-||61.147.184.18^
-||wal8.com/img48/544027_20160424182911/146446612161.gif
 !------------------------Specific element hiding rules------------------------!
-168gamer.com##.b_fada1
-qqhzg.com##A[href^="http"]:not([href*=".qqhzg."]) > IMG[src^="/upload/1/"]
-168gamer.com##.c_bfl
 gpcxw.com###AA2
-bejson.com###jsa1
-bejson.com###jsa2
-bilibilijj.com##A[href="http://300.bilibilijj.com"]
-bilibilijj.com##A[onclick*=".taobao."]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6639,6 +6632,8 @@ haosou.com,so.com###js-mod-fixed-float
 zhanqi.tv###js-room-flash-banner-panel
 100shuai.com###js_lol_ad
 qu366.com###js_type_2 > .sw
+bejson.com###jsa1
+bejson.com###jsa2
 xianshuabao.com###justfy_left_banner
 3721.cc###key2 > a
 3721.cc###keywords > a
@@ -7737,6 +7732,7 @@ qiqu888.com##.axing_add_ad
 pinshan.com##.b_adv
 pinshan.com##.b_adv2
 168gamer.com##.b_bfl
+168gamer.com##.b_fada1
 120ask.com##.b_right > div[style]
 aibang.com##.b_similar
 pinshan.com##.b_taobao
@@ -7924,6 +7920,7 @@ hunantv.com,mgtv.com##.c-95060-top
 ifeng.com##.c-ad
 myexception.cn##.c_a_3
 aohua.com.au##.c_ad
+168gamer.com##.c_bfl
 shangxueba.com##.c_user + .h20 + p
 3lian.com##.cal2
 kuaipan.cn##.card
@@ -9586,6 +9583,7 @@ zdfans.com##a[href*="zdzdm."]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 bejson.com##a[href="/other/jikefma/"]
+bilibilijj.com##a[href="http://300.bilibilijj.com"]
 zdfans.com##a[href="http://955.cc/FXZF"]
 103.17.211.13,cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
@@ -9611,6 +9609,7 @@ sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
+qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
 chacuo.net##a[href^="http://affiliate.lufax."]
 uc123.com##a[href^="http://alimarket.taobao.com/"]
@@ -9678,6 +9677,7 @@ linux.cn##a[href^="https://linux.cn/go/"]
 right.com.cn##a[href^="https://treebear.tmall.com"]
 iqiyi.com##a[id^="100000"]
 360bo.cc,360zhibo.com,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
+bilibilijj.com##a[onclick*=".taobao."]
 frdic.com##a[onclick*="/ads/"]
 fhm.com.tw##a[onclick^="adClick("]
 house365.com##a[style*="1200px;"]
@@ -10419,7 +10419,6 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||168gamer.com/source/plugin/unadblock/adjs_
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10532,6 +10531,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||16668.*/css/ad.css
 @@||16668tu.com/css/ad.css
 @@||16888.com/dist/js/??
+@@||168gamer.com/source/plugin/unadblock/adjs_
 @@||17173.com/x/flash800500.js
 @@||177mh.com/img_v1/bbad.gif
 @@||17kk.cc/scriptAD/other/new_manhua.html
