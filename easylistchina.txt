@@ -75,7 +75,6 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/papa_under_title_810x90.gif
 -361-40-8K-.jpg
 .cc/js/ads/
 .cn/ads/
@@ -217,6 +216,7 @@ hk.yahoo.com###mntl1
 /new_site_topad^
 /newhuagg/gg_search_
 /newsyd/templates/sponsor/*
+/papa_under_title_810x90.gif
 /paypic/*
 /pc.*.test15.
 /pc/Tpl/baibaipc//js/*
@@ -552,16 +552,8 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||chebse.com^
-||bigbos.top^
-||chinaheh.com^
-||tiangu99.com^
-||yijia2009.com^
-||sscefsol.com^
 /adscpc/*
 /adtmp/*
-||bccyyc.com^
-||xcyrc.com^
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -824,8 +816,10 @@ ubmcmm.baidustatic.com
 ||baidu360haosou.info^$third-party
 ||bang5mai.com^$third-party
 ||baodaozhan.cn^$third-party
+||bccyyc.com^
 ||behe.com^$third-party
 ||biddingx.com^$third-party
+||bigbos.top^
 ||biyibia.com^
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
@@ -842,6 +836,8 @@ ubmcmm.baidustatic.com
 ||chanet.com.cn^$third-party
 ||chaoliangyun.com^
 ||chapm.com^$third-party
+||chebse.com^
+||chinaheh.com^
 ||chinauma.net^$third-party
 ||chinesean.com^$third-party
 ||chushoushijian.cn^
@@ -1154,6 +1150,7 @@ ubmcmm.baidustatic.com
 ||souacode.com^$third-party
 ||spcode.baidu.com^
 ||sphwq.net^$third-party
+||sscefsol.com^
 ||sstc360.com^
 ||star8.net^$third-party
 ||stervapoimenialena.info^
@@ -1175,6 +1172,7 @@ ubmcmm.baidustatic.com
 ||tdayi.com^
 ||tebaidu.cn^$third-party
 ||tg.1155t.cn^
+||tiangu99.com^
 ||tk001.com^$third-party
 ||to8to.com^$third-party
 ||toourbb.com^
@@ -1247,6 +1245,7 @@ ubmcmm.baidustatic.com
 ||xcy8.com^
 ||xcycm.com^$third-party
 ||xcyjzs.net^
+||xcyrc.com^
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
 ||xhmrv.com^
@@ -1271,6 +1270,7 @@ ubmcmm.baidustatic.com
 ||ye3.com^$third-party
 ||yigao.com^$third-party
 ||yiiwoo.com^$third-party
+||yijia2009.com^
 ||yiqifa.com^$subdocument
 ||yiqifa.com^*.js$third-party
 ||yiqiv.com^$third-party
@@ -2793,6 +2793,7 @@ mg*.6park.com/img/$image
 ||chuixue.com/template/*/images/g_js/show_
 ||chunxiao.tv/1.aspx
 ||chyangwa.net/block/cf/
+||cilipu.cc/tpl/template/image/ad.jpg
 ||cilook.net/cilookinc/isee5_950x60.gif
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
@@ -3361,6 +3362,7 @@ mg*.6park.com/img/$image
 ||gpxz.com/skins/gupuxiazai/soft
 ||gqgc.sz.zj.cn^
 ||greatwuyi.com/tplimg/1.files/ad
+||greenhouseglobal.cn^
 ||greenxf.com/asp/
 ||greenxf.com/img/46860.gif
 ||greenxf.com/js/main.js
@@ -4210,6 +4212,8 @@ mg*.6park.com/img/$image
 ||media.cheshi-img.com^
 ||medsci.cn/aimgs/$script
 ||megalife.com.hk^$domain=hkgolden.com
+||meijub.com/a/youxiajiao
+||meijub.com/js/a/
 ||meiliren.net/tuijs/
 ||meimb.com^$domain=94as.com
 ||meinv.com/templates/meinv/js/*_banner.js
@@ -5812,13 +5816,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||meijub.com/js/a/
-||greenhouseglobal.cn^
-||cilipu.cc/tpl/template/image/ad.jpg
-||meijub.com/a/youxiajiao
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-fuli.us##.banner-post
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7797,6 +7796,7 @@ toutiao.com##.banner-index-bottom
 xdkb.net##.banner-l
 crsky.com##.banner-leader
 ftchinese.com##.banner-placeholder
+fuli.us##.banner-post
 tianshi2.com##.banner-sticky
 big-cup.tv,g-cup.tv##.banner-table-block
 firefoxchina.cn##.banner-words
