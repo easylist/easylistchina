@@ -1323,6 +1323,8 @@ ubmcmm.baidustatic.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||taobao.com^$popup,domain=bilibilijj.com
+||300.bilibilijj.com^$popup
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
 /item.htm?$popup,domain=www.tsdm.net
@@ -5830,6 +5832,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibilijj.com##DIV[style="width: 500px;"]:last-child
 bilibilijj.com##[class$="_Game"]
 passiontimes.hk##.rectAd300
 passiontimes.hk##.rectAd680
