@@ -5830,6 +5830,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibilijj.com##[class$="_Game"]
 passiontimes.hk##.rectAd300
 passiontimes.hk##.rectAd680
 hc360.com,yaolan.com###AD
@@ -9631,7 +9632,7 @@ zdfans.com##a[href*="zdzdm."]
 cnzol.com##a[href*="zhuan5."]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 bejson.com##a[href="/other/jikefma/"]
-bilibilijj.com##a[href="http://300.bilibilijj.com"]
+bilibilijj.com##.Box > DIV > DIV > DIV > :first-child
 zdfans.com##a[href="http://955.cc/FXZF"]
 103.17.211.13,cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 zhibo8.cc##a[href="http://daogou.zhibo8.cc/"]
@@ -9727,7 +9728,7 @@ yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 linux.cn##a[href^="https://linux.cn/go/"]
 iqiyi.com##a[id^="100000"]
 360bo.cc,360zhibo.com,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
-bilibilijj.com##a[onclick*=".taobao."]
+bilibilijj.com##[onclick*=".taobao."]
 frdic.com##a[onclick*="/ads/"]
 fhm.com.tw##a[onclick^="adClick("]
 house365.com##a[style*="1200px;"]
