@@ -5339,6 +5339,7 @@ mg*.6park.com/img/$image
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wal8.com/img48/544027_20160424182911/146446612161.gif
 ||wallstcn.com/46/3b/ac/wdx-4-sp-4zt3udu2z4gg-f.gif
+||wallstcn.com/image?url=http%3A%2F%2Fcbjs.
 ||wallstcn.com^*-300x250.
 ||wan.sogou.com/cdn/$subdocument
 ||wan.sogou.com/pop/
@@ -5845,10 +5846,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||wallstcn.com/image?url=http%3A%2F%2Fcbjs.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhainanfulishe.net##.textwidget > A[href^="http"]:not([href^="http://www.zhainanfulishe."])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9318,6 +9317,7 @@ baidu.com##.text-advertise
 baidu.com##.text-link-ads
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
+zhainanfulishe.net##.textwidget > a[href^="http"]:not([href^="http://www.zhainanfulishe."])
 zyy123.com##.tg250x250-1
 zyy123.com##.tg250x250-2
 outofmemory.cn##.tgBar
@@ -10526,7 +10526,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/AdImage/*$domain=scyts.com|wacom.tw
 @@/ADImages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
-@@||xianzhenyuan.cn^$script,~third-party
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com
@@ -10975,6 +10974,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||wuyou.com.cn/Js/ad.js
 @@||wzjzfw.com/player/*&showAd=
 @@||xianzhenyuan.cn^$generichide
+@@||xianzhenyuan.cn^$script,~third-party
 @@||xilinjie.com^$generichide
 @@||xinhuanet.com/2014/imgad/FS_2014weixin.jpg
 @@||xintaoke.com/images/gg/*.jpg
