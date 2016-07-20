@@ -555,10 +555,6 @@ _popAds.
 .com/showpage.asp?u=$script,third-party
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
-||cctyly.com^
-||cstoa.com^
-||1kzh.com^
-||zamar.cn^
 /adposid/*
 /adscpc/*
 /adtmp/*
@@ -651,6 +647,7 @@ ubmcmm.baidustatic.com
 ||17un.co^
 ||182.92.81.104^
 ||1kmb.cn^
+||1kzh.com^
 ||1l1.cc^
 ||1lo0.net^$third-party
 ||1qwe3r.com^$third-party
@@ -843,6 +840,7 @@ ubmcmm.baidustatic.com
 ||cardniu.com^$third-party
 ||cb.baidu.com^
 ||cbjs.baidu.com^
+||cctyly.com^
 ||championmachinery-cn.com^
 ||chanet.com.cn^$third-party
 ||chaoliangyun.com^
@@ -877,6 +875,7 @@ ubmcmm.baidustatic.com
 ||csad.cc^$third-party
 ||csbew.com^$third-party
 ||csqiulong.com^
+||cstoa.com^
 ||ctsywy.com^
 ||cyacc.com^
 ||cylinderlongcheng.com^
@@ -1320,6 +1319,7 @@ ubmcmm.baidustatic.com
 ||yyp17.com^
 ||yzxls.com^$third-party
 ||yzytb.com^
+||zamar.cn^
 ||zampda.net^$third-party
 ||zampdsp.com^$third-party
 ||zd6789.com^$third-party
@@ -3958,6 +3958,7 @@ mg*.6park.com/img/$image
 ||jisuxz.com/2747/
 ||jitapu.com/inc/adv
 ||jiukan1.com/pc
+||jiuzhiling.com/images/jiaoyou
 ||jiyingdm.com/js/loadingshow.html
 ||jj.5ccc.net/scripts/new/
 ||jj20.com/images/960-60.gif
@@ -5850,7 +5851,6 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||jiuzhiling.com/images/jiaoyou
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10505,8 +10505,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||yqszkzx.cn/images/ad
-@@||yzzkb.com.cn^*ad.
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10545,7 +10543,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/Adshow/*$domain=kysec.cn
 @@/AdShow/*$domain=mndxy.org
 @@/advert.$domain=izo.tw
-@@||nceea.cn/Content/images/ad/
 @@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
@@ -10856,6 +10853,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||monnsutogatya.com^$elemhide
 @@||mymusic.net.tw/js/ad/index_1.js
 @@||naruto.hk/ad/uy.js
+@@||nceea.cn/Content/images/ad/
 @@||netded.com/plus/ad_js.php?aid=3|
 @@||netsh.org^$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@||new7574.u.qiniudn.com^*^ad
@@ -11000,6 +10998,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
+@@||yqszkzx.cn/images/ad
+@@||yzzkb.com.cn^*ad.
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
