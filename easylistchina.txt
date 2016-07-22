@@ -556,8 +556,6 @@ _popAds.
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
 /adposid/*
-||ekeide.com^
-||115.29.148.61^$third-party
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
@@ -633,6 +631,7 @@ ubmcmm.baidustatic.com
 ||112.74.95.46^
 ||1133.cc^$third-party
 ||114la.com^$third-party,domain=~ylmf.com
+||115.29.148.61^$third-party
 ||116.55.227.242^
 ||118114.cn^$third-party
 ||1188.com^$third-party
@@ -932,6 +931,7 @@ ubmcmm.baidustatic.com
 ||egooad.com^$third-party
 ||eiv.baidu.com^
 ||ejin56.com^$third-party
+||ekeide.com^
 ||elsad.tw^$third-party
 ||emarbox.com^$third-party
 ||eyouv.cn^$third-party
@@ -1339,7 +1339,6 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
-||550022.com^$popup
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1353,6 +1352,7 @@ ubmcmm.baidustatic.com
 ||189.cn/actpush/$popup,third-party
 ||300.bilibilijj.com^$popup
 ||37see.com^$popup
+||550022.com^$popup
 ||9100300.com^$popup
 ||acgpost.taobao.com^$popup,domain=www.tsdm.net
 ||ad.189so.cn^$popup
@@ -1591,6 +1591,7 @@ mg*.6park.com/img/$image
 ||0460.com/js/txtrec.js
 ||0471.so/Public/config/Couplet/Index
 ||05096.com/jsdoc/ad.html
+||0513c.com/uploads/2016/04/2016-04-1474.jpg
 ||0517w.com/data/attachment/portal/201503/24/224451ru3pp3pbuu15ucph.gif
 ||0575bbs.com/js/float.js
 ||0575bbs.com/updateimeags/
@@ -5854,14 +5855,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||0513c.com/uploads/2016/04/2016-04-1474.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-tvapk.net###framecok2oE
-tvapk.net##A[onclick*="thread_banner"]
-tvapk.net###frameEY4758
-tvapk.net###framecd6V1M
-tvapk.net###portal_block_1136
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6523,6 +6518,7 @@ yangluo.cn###frame51RcxP
 2000fun.com###frameA20TTA
 2muslim.com###frameD3x9G6_center > :nth-child(2n)
 lysq.com###frameD955k5
+tvapk.net###frameEY4758
 3dezu.com###frameK221mK
 shhhy.org###frameMLzskg_left
 dabin69.com###frameOa2lrD
@@ -6531,6 +6527,8 @@ wgun.net###frameUrKrp6 ~ .frame
 wangdaizhijia.com###frameVjrRzL
 yangluo.cn###frameVw7574
 gz0668.com###framec32DR1
+tvapk.net###framecd6V1M
+tvapk.net###framecok2oE
 qianhuaw.com###framelzHoHY
 wcjbb.com###frameo834m9
 bbs.liao1.com###frameppbC61
@@ -6908,6 +6906,7 @@ ck101.com###popupGameAd
 5173.com###popupRight
 5173.com###popupTop
 ld0766.com###portal_ad3
+tvapk.net###portal_block_1136
 365kl.net###portal_block_3611
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
@@ -9774,6 +9773,7 @@ linux.cn##a[href^="https://linux.cn/go/"]
 iqiyi.com##a[id^="100000"]
 360bo.cc,360zhibo.com,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 frdic.com##a[onclick*="/ads/"]
+tvapk.net##a[onclick*="thread_banner"]
 fhm.com.tw##a[onclick^="adClick("]
 house365.com##a[style*="1200px;"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
@@ -10514,7 +10514,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/advertisement.$domain=0513c.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10557,6 +10556,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
+@@/advertisement.$domain=0513c.com
 @@/Advertisement.$domain=gametower.com.tw
 @@/advertisement.js$domain=fharr.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
