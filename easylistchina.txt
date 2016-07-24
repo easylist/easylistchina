@@ -5866,6 +5866,14 @@ mg*.6park.com/img/$image
 ||80s3gp.com/cdn-cgi/pe/bag2?*ad_js.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+uliba.net###content > div:first-child > a:first-child:last-child
+uliba.net###content > ul[style="list-style-type: none;"]
+uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
+uliba.net###sidebar > div:first-child
+uliba.net##.entry-content > div[style^="float:right"]
+uliba.net##.right-banner
+uliba.net##.tool_news1
+uliba.net##a[href="http://www.ruyig.com/?v"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
