@@ -555,7 +555,6 @@ _popAds.
 .com/showpage.asp?u=$script,third-party
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
-||yy58ju.com^
 /adposid/*
 /adscpc/*
 /adtmp/*
@@ -1323,6 +1322,7 @@ ubmcmm.baidustatic.com
 ||yunfanlm.com^$third-party
 ||yuu360.com^$third-party
 ||yxdyk.com^$script,third-party
+||yy58ju.com^
 ||yyp17.com^
 ||yzxls.com^$third-party
 ||yzytb.com^
@@ -4596,6 +4596,7 @@ mg*.6park.com/img/$image
 ||pub.mop.com^
 ||pub.stockstar.com/feedback/
 ||pub.sxrtv.com/crossdomain.xml
+||public6.com/m.js
 ||publicize.liao1.com^
 ||publish.ad.youth.cn^
 ||putonghua520.com/skins/10ym/klq
@@ -5249,6 +5250,7 @@ mg*.6park.com/img/$image
 ||twcomic.com/aitw/
 ||twfuwu.info^*.gif
 ||twunbbs.com/images/
+||twyxi.com/jscode/
 ||txahz.com/static/image/tp/
 ||txooo.com^*/ydl.jpg
 ||txooo.com^*/zdl.jpg
@@ -5832,6 +5834,7 @@ mg*.6park.com/img/$image
 ||zk168.com.cn/js/fwpd.js
 ||zk168.com.cn/js/s.js
 ||zk168.com.cn/js/sy
+||zkrdy.com^
 ||znz888.cn/modblock/
 ||zo66.com^
 ||zol-img.com.cn/20*1000_
@@ -5869,9 +5872,6 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||public6.com/m.js
-||zkrdy.com^
-||twyxi.com/jscode/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10480,6 +10480,7 @@ tclmobile.com.cn,workercn.cn#@#.ad_content
 liqucn.com,workercn.cn#@#.ad_main
 pupuapp.com,yxdown.com#@#.ad_pic
 ccb.com#@#.ad_position
+fxedu.com.cn#@#.ad_r
 liqucn.com#@#.ad_sub
 pupuapp.com#@#.ad_title
 uuuu.cc#@#.ad_top
@@ -10533,12 +10534,8 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-fxedu.com.cn#@#.ad_r
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||jlthjy.com^$generichide
-@@||jlthjy.com/statics/images/ad-
-@@||zanpinc.com/api/ad.php?
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10559,10 +10556,8 @@ fxedu.com.cn#@#.ad_r
 @@/adbanner/*$image,domain=books.com.tw
 @@/adblock_$domain=xingk.cc
 @@/addata.$domain=xdf.cn
-@@/adfile/*$domain=221400job.com
-@@/adfile/*$domain=cidianwang.com
-@@/adimage/*$domain=dezhi.com
-@@/adimage/*$domain=scyts.com|wacom.tw
+@@/adfile/*$domain=221400job.com|cidianwang.com
+@@/adimage/*$domain=dezhi.com|scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
 @@/adlogger_tracker.php$domain=serve.netsh.org
@@ -10574,15 +10569,13 @@ fxedu.com.cn#@#.ad_r
 @@/adsbox.$domain=long7.qq.com
 @@/adsbygoogle.$domain=serve.netsh.org
 @@/adsense/*$domain=piseneasy.com|taobao.com
-@@/adshow/*$domain=kysec.cn
-@@/adshow/*$domain=mndxy.org
+@@/adshow/*$domain=kysec.cn|mndxy.org
 @@/advert.$domain=izo.tw
 @@/advert/*$domain=banggo.com|cctcw.cn|changan.com.cn|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com|suning.com
-@@/advertisement.$domain=0513c.com
-@@/advertisement.$domain=gametower.com.tw
+@@/advertisement.$domain=0513c.com|gametower.com.tw
 @@/advertisement.js$domain=fharr.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
@@ -10866,6 +10859,8 @@ fxedu.com.cn#@#.ad_r
 @@||jinhongweiqi.com/ad/update/
 @@||jj.5ccc.net/scripts/new/pagetop.js
 @@||jjjgame.com/plus/ad_
+@@||jlthjy.com/statics/images/ad-
+@@||jlthjy.com^$generichide
 @@||js.adm.cnzz.net^$domain=xoyo.com
 @@||kayixin.com^*/advert$domain=77ka.cn
 @@||keyrun.cn^$script,domain=sx566.com
@@ -11033,6 +11028,7 @@ fxedu.com.cn#@#.ad_r
 @@||youku.com^*^showAd
 @@||yqszkzx.cn/images/ad
 @@||yzzkb.com.cn^*ad.
+@@||zanpinc.com/api/ad.php?
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
