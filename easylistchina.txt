@@ -558,7 +558,6 @@ _popAds.
 /adposid/*
 /adscpc/*
 /adtmp/*
-||nbjjd.com^
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -1108,6 +1107,7 @@ ubmcmm.baidustatic.com
 ||mycctvmedia.com^$third-party
 ||mytanwan.com^$third-party
 ||myzwqwe12.com^$third-party
+||nbjjd.com^
 ||ne9377.com^
 ||news.tagtoo.co^$third-party
 ||nextcps.com^
@@ -2553,6 +2553,7 @@ mg*.6park.com/img/$image
 ||baoliny.com/js/jing.js
 ||baxue.me/ad2016/
 ||bb999.net/pic/n/agents/C-79.gif
+||bbcss.com/templates/haijun5/js/_banner.js
 ||bbcss.com/templates/junshi2015/js/_banner.js
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.fengbao.com/image/bingzuan925X80.jpg
@@ -3973,6 +3974,7 @@ mg*.6park.com/img/$image
 ||jinhongweiqi.com/cache/ads.js
 ||jinhua.com.cn/ad_pic/
 ||jinyici.com/qq.js
+||jipinwww.com/ma.php?aid=
 ||jirou.com/plus/mytag_js.php
 ||jisutiyu.com/app/js/common_footer.js
 ||jisutiyu.com/images/sda/
@@ -4732,6 +4734,7 @@ mg*.6park.com/img/$image
 ||qunar.com/vataframe/b.html?
 ||qunaso.cn/Data/upload/ad/
 ||quyuedu.com/js/heheerweima.js
+||qyule9.com/adapp/
 ||qz828.com/css/2010/script/*ad
 ||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
 ||qzss.cn/ssad
@@ -5891,16 +5894,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qyule9.com/adapp/
-||bbcss.com/templates/haijun5/js/_banner.js
-||jipinwww.com/ma.php?aid=
 !------------------------Specific element hiding rules------------------------!
-qyule9.com##.ads
-ledinside.cn##.floatAD
-zhidao.baidu.com##.bannerdown
-zhidao.baidu.com##.union-tg
-zhidao.baidu.com##.wgt-union
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list:not([data-field])
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7729,7 +7723,7 @@ blog.dausos.com,qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-773buy.com,acgzone.me,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,haokan5.com,hc360.com,html-js.com,mnw.cn,oxgood.com,qz930.com,sina.com,wasu.cn,xunleihd.com,yeeyi.com##.ads
+773buy.com,acgzone.me,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,haokan5.com,hc360.com,html-js.com,mnw.cn,oxgood.com,qyule9.com,qz930.com,sina.com,wasu.cn,xunleihd.com,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -7942,6 +7936,7 @@ ifanr.com##.banner_post_bottom
 15w.com##.banner_s_3
 1684.cc,zhaogepu.com##.banner_top
 szhome.com##.bannerad3cbox
+zhidao.baidu.com##.bannerdown
 jisuzhibo.net##.bannerhead
 moejam.com##.bannerleftfull
 moejam.com##.bannermid
@@ -8314,7 +8309,7 @@ taoguba.com.cn##.flash_div
 vhiphop.com##.flexslider
 qunar.com##.flight_ad
 19lou.com,cqmmgo.com,ihome99.com##.float-ad-wrap
-spbonow.com##.floatAD
+ledinside.cn,spbonow.com##.floatAD
 totuwo.com,yzfcn.cn##.floatAd
 iqiyi.com##.float_div
 iqiyi.com##.float_div_r
@@ -8679,6 +8674,7 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5fe
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list:not([data-field])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
 jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
@@ -9519,6 +9515,7 @@ m.nownews.com##.ui-footer-fixed
 hlyy.cc##.ui-sponsor
 hackhome.com##.ul_ad
 131458.com##.ulfooter_top
+zhidao.baidu.com##.union-tg
 yandui.com##.union_ad
 ifeng.com##.v-adbox
 0598yu.com##.v1100_ad
@@ -9579,6 +9576,7 @@ baidu.com##.wgt-ads
 muzhi.baidu.com##.wgt-best-answer + script + div
 zhidao.baidu.com##.wgt-bottom-ask
 muzhi.baidu.com##.wgt-container
+zhidao.baidu.com##.wgt-union
 kikinote.net##.widget-3
 kikinote.net##.widget-6
 hao123.com##.widget-hlbar > span
