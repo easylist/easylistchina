@@ -5905,7 +5905,9 @@ mg*.6park.com/img/$image
 ||shangqun.com/webforms/embed/
 ||huoche.net/public/huoche/ad/
 ||789xz.com/index2/img/xiazai
+||skinme.cc/assets/index/*/banner2016
 !------------------------Specific element hiding rules------------------------!
+skinme.cc##.huodong
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -10581,7 +10583,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 cmbc.com.cn#@#.adBox
 !---------------------------------URL Whitelist-------------------------------!
-@@||cmbc.com.*/ads/
+@@||cmbc.com.cn*/ads/
 @@&ad_type=$domain=x.jd.com
 @@||ecitic.com/source/*/pop
 @@&ad_width=590&$domain=jd.com
