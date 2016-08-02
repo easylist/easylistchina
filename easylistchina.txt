@@ -1416,6 +1416,7 @@ ubmcmm.baidustatic.com
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
+||taobao.com^$popup,domain=xianzhenyuan.cn
 ||taobao.com^$popup,domain=bilibilijj.com|hacg.red
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
@@ -5912,6 +5913,9 @@ mg*.6park.com/img/$image
 ||leju.com/abp/cmslead_new.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xianzhenyuan.cn##.bm.a_c
+xianzhenyuan.cn##.wp.a_t
+xianzhenyuan.cn##A[href^="http://www.xianzhenyuan.cn/url/"]
 10.0.0.211###toolbar
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
