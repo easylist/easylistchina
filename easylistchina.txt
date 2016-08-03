@@ -76,7 +76,6 @@ hk.yahoo.com###mntl1
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-=ads.processReqChange^
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -181,6 +180,7 @@ hk.yahoo.com###mntl1
 /images//ads/*
 /images/ta1234.js
 /ina_ad_
+/jfjs/ad.js
 /jinhuatv/ad
 /jkbd-app/resources/images/a123/maiche
 /js/ads/dui.js
@@ -277,11 +277,11 @@ hk.yahoo.com###mntl1
 :1010/openV5.js
 :8080/ad/
 :8898/ads_
+=ads.processReqChange^
 =loginExtAD.
 _billboard_320x100.iframe.
 _mobilebanner_v1_550x60.jpg
 _popAds.
-/jfjs/ad.js
 |http://*.cc/ad/
 |http://*.cn/ad/
 |http://*.hk/ad/
@@ -559,15 +559,6 @@ _popAds.
 /adposid/*
 /adscpc/*
 /adtmp/*
-||doudao.cn^
-||69duk.com^
-||gydag.com^
-||ipaypay.cn^$third-party
-||aswlx.cn^
-||wazero.online^
-||evefashion.cn^
-||ajuhd.com^
-||chengzhao95511.com^
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
 /center?advId=
@@ -732,6 +723,7 @@ ubmcmm.baidustatic.com
 ||67lm.com^$third-party
 ||685wo.com^$script,third-party
 ||68665565.com^
+||69duk.com^
 ||6dad.com^$third-party
 ||6dvip.com^
 ||70e.com^$third-party
@@ -819,6 +811,7 @@ ubmcmm.baidustatic.com
 ||aimato.com^$third-party
 ||ajaxcdn.org^
 ||ajhdf.com^$third-party
+||ajuhd.com^
 ||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~foctop.com|~hetongal.ac.cn|~ith8.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~taobao.com.cn|~wajuemao.com|~youhuiyouhui.com.cn
 ||aliyuncss.com^
 ||aliyunxin.com^
@@ -828,6 +821,7 @@ ubmcmm.baidustatic.com
 ||anreson.net^
 ||aoparking.com^$third-party
 ||aralego.com^
+||aswlx.cn^
 ||at918.com^$third-party
 ||at98.com^
 ||av8d.net^$third-party
@@ -861,6 +855,7 @@ ubmcmm.baidustatic.com
 ||chaoliangyun.com^
 ||chapm.com^$third-party
 ||chebse.com^
+||chengzhao95511.com^
 ||chinaheh.com^
 ||chinauma.net^$third-party
 ||chinaweichu.net^
@@ -918,6 +913,7 @@ ubmcmm.baidustatic.com
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||dou777.com^
 ||doubleadv.com^$third-party
+||doudao.cn^
 ||dragoncent.com^
 ||dreamfull.cn^
 ||drlsf.com^
@@ -951,6 +947,7 @@ ubmcmm.baidustatic.com
 ||ekeide.com^
 ||elsad.tw^$third-party
 ||emarbox.com^$third-party
+||evefashion.cn^
 ||eyouv.cn^$third-party
 ||ez33.com^$third-party
 ||f1190.com^
@@ -984,6 +981,7 @@ ubmcmm.baidustatic.com
 ||gs307.com^$third-party
 ||gso0.com^
 ||guduopu.com^
+||gydag.com^
 ||gzbywl.com^$third-party
 ||gzlykj.cn^
 ||gzmjnx.cn^
@@ -1024,6 +1022,7 @@ ubmcmm.baidustatic.com
 ||img80.net^
 ||index8.cn^$third-party
 ||instreet.cn^$third-party
+||ipaypay.cn^$third-party
 ||iprefer.com.tw^$third-party
 ||is686.com^$third-party
 ||istreamsche.com^$third-party
@@ -1262,6 +1261,7 @@ ubmcmm.baidustatic.com
 ||vtale.org^
 ||w65p.com^
 ||wantaico.com^
+||wazero.online^
 ||wdzsb.com.cn^
 ||weareqy.com^$third-party
 ||weddingeeos.com^$third-party
@@ -1416,8 +1416,7 @@ ubmcmm.baidustatic.com
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
 ||t-movies.com.tw/pop.asp$popup
-||taobao.com^$popup,domain=xianzhenyuan.cn
-||taobao.com^$popup,domain=bilibilijj.com|hacg.red
+||taobao.com^$popup,domain=bilibilijj.com|hacg.red|xianzhenyuan.cn
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
@@ -1579,7 +1578,7 @@ _yad_jsonp_
 mg*.6park.com/img/$image
 |http:$domain=e.70e.com|e701.net
 |http:$script,domain=189so.cn
-|http:$script,xmlhttprequest,third-party,domain=23wx.com|dhzw.com|diggbt.me|kewaishu.net|shenmabook.com|vodtw.com|xtzgjx.com|zhuzhudao.com
+|http:$script,third-party,xmlhttprequest,domain=23wx.com|dhzw.com|diggbt.me|kewaishu.net|shenmabook.com|vodtw.com|xtzgjx.com|zhuzhudao.com
 |http:$subdocument,domain=glcdynpcws.net|howbbs.com|jtwybgxiumsx.net|pc6.com|tytl.tk
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
@@ -4160,6 +4159,7 @@ mg*.6park.com/img/$image
 ||lbx777.*/css/lbxgg02
 ||ld0766.com/*20*a/
 ||lecai.com/page/zhuanti/baidu/
+||leju.com/abp/cmslead_new.js
 ||lekan.com^*&stopTime=
 ||lepan.cc/images/yd/
 ||leshen.com/skin/m/action/ad.
@@ -5910,13 +5910,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||leju.com/abp/cmslead_new.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xianzhenyuan.cn##.bm.a_c
-xianzhenyuan.cn##.wp.a_t
-xianzhenyuan.cn##A[href^="http://www.xianzhenyuan.cn/url/"]
-10.0.0.211###toolbar
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7180,6 +7175,7 @@ wpsoso.com###tips
 xinhuanet.com###tisoad
 dict.cn###tjcd
 wenku8.com,xinhuanet.com###tonglan
+10.0.0.211###toolbar
 2345.com###tools-gameTmp
 uuu9.com###top
 finance.ts.cn###top > .container > .row5
@@ -8009,6 +8005,7 @@ fzlbase.com##.block-long[style="HEIGHT: 74px;"]
 iyaxin.com##.block_area_ads
 daqi88.com##.blog_content_ad
 m.tiexue.net##.blue
+xianzhenyuan.cn##.bm.a_c
 oogps.com##.bnn
 oogps.com##.bnn1
 vipcn.com##.bnr
@@ -9619,6 +9616,7 @@ wangyueblog.com##.wigget_sponsors
 leitingcn.com##.wlt670 > div[style]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
 52ch.net##.wp > div[style^="margin-top:5px; height:"]
+xianzhenyuan.cn##.wp.a_t
 shuaijiao.com##.wp.m-t20.h90
 cangjige.me##.wp[style="height:36px;padding-top:15px;"]
 seowhy.com##.wp[style="margin-top:10px;"]
@@ -9838,6 +9836,7 @@ hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 tiexue.net##a[href^="http://www.mywoqu."]
 6park.com##a[href^="http://www.vava8.com"]
 dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
+xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
 weiqitv.com##a[href^="http://www.yiwugou.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
