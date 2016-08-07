@@ -4848,7 +4848,6 @@ mg*.6park.com/img/$image
 ||s1.pplive.cn/sta.js
 ||s1979.com/html/ad_js/
 ||s8bbs.com/g.php?
-||safedom.net/edm/ad/
 ||saibeinews.com/index.php?m=poster&c=index&a=show_poster&
 ||sam*.baby-kingdom.com^
 ||same*.jrj.com.cn^$script,subdocument
@@ -4856,10 +4855,6 @@ mg*.6park.com/img/$image
 ||same.eastmoney.com^
 ||same.stockstar.com^
 ||sax.sina.com.cn/crossdomain.xml
-||saydigi.com/wp-content/uploads/*-240x250.
-||saydigi.com/wp-content/uploads/*-banner
-||saydigi.com/wp-content/uploads/2014/01/mii2.gif
-||saydigi.com/wp-content/uploads/2015/01/gogo.png
 ||sbpig.com/images/erweima.jpg
 ||sc.chinaiiss.com/do.php?do=ad&
 ||sc.tom.com^
@@ -5933,6 +5928,7 @@ mg*.6park.com/img/$image
 ||kyocdn.com/addons/banner/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+safedom.net##.conImg
 qq.com###ay-tips-close + H2
 qq.com###ay-bottom-tips > .bd > .pic-box
 kyofun.com###bg_ad_left
@@ -6866,7 +6862,6 @@ gzmama.com###mdvtips
 yzz.cn###media_float_right
 qtfy30.cn###menu + a
 fuliba.net,fulibba.com,uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
-saydigi.com###menu_banner
 51cto.com###message
 galacg.me###metaslider_382
 tv.sohu.com###miaozhenad
