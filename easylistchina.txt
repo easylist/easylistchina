@@ -75,13 +75,11 @@ hk.yahoo.com###mntl1
 ||yy32.com^$third-party
 !------------------------End of ChinaList--------------------
 !-----------------------General advert blocking filters-----------------------!
-/keke_winad/template/*layerModel.
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
 .com/a_d/
-/gg6.
 .com/java/shang1.js
 .com/java/xia1.js
 .com/js/ad_
@@ -167,6 +165,7 @@ hk.yahoo.com###mntl1
 /gaog/*
 /gg4.
 /gg5.
+/gg6.
 /ggad/*
 /ggao.
 /ggao/*
@@ -207,6 +206,7 @@ hk.yahoo.com###mntl1
 /k120g270.
 /k300g250.
 /k960g90.
+/keke_winad/template/*layerModel.
 /kuaiyun-728-91.
 /lanye2015/images/hengtian.jpg
 /lanye2015/images/kuan.jpg
@@ -556,7 +556,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
-||sscj123.com^$third-party
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -564,8 +563,6 @@ _popAds.
 .com/showpage.asp?u=$script,third-party
 .net/showpage.asp?u=$script,third-party
 /99vjj/*$third-party
-||so9l.com^
-||860010.com^
 /adposid/*
 /adscpc/*
 /adtmp/*
@@ -753,6 +750,7 @@ ubmcmm.baidustatic.com
 ||7xz3.com^
 ||81c.cn^
 ||85tgw.com^
+||860010.com^
 ||88cpc.com^$third-party
 ||88rpg.net^
 ||8910ad.com^$third-party
@@ -1202,11 +1200,13 @@ ubmcmm.baidustatic.com
 ||snnnyy.com^
 ||snxyf.com^$third-party
 ||snyu.com^$third-party
+||so9l.com^
 ||socdm.com^
 ||souacode.com^$third-party
 ||spcode.baidu.com^
 ||sphwq.net^$third-party
 ||sscefsol.com^
+||sscj123.com^$third-party
 ||sstc360.com^
 ||star8.net^$third-party
 ||stervapoimenialena.info^
@@ -2166,6 +2166,7 @@ mg*.6park.com/img/$image
 ||66wz.com/adv2/
 ||66wz.com/data/attachment/portal/
 ||67.159.44.187/js/v1.js
+||67.198.197.27^
 ||6701.com/galgameads/
 ||676000.com/001.htm
 ||68design.net/inc/news.
@@ -3321,6 +3322,7 @@ mg*.6park.com/img/$image
 ||ftchinese.com/m/marketing/
 ||fububu.com/zb_users/*/ttz
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
+||fuli.us/wp-content/uploads/ad/
 ||fulibac.com/images/upload/ad/
 ||fulibar.net/img/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
@@ -4148,6 +4150,7 @@ mg*.6park.com/img/$image
 ||kviso.com/ddnew/kviso
 ||kviso.com/js/top.js
 ||kwflvcdn.000dn.com^*.flv$object-subrequest,third-party
+||kyocdn.com/addons/banner/
 ||kyocdn.com/forum/201312/20/151925t52ey4l34ck0lkgv.jpg
 ||l.qq.com/lview?
 ||lady100.net/760-90.js
@@ -4533,6 +4536,7 @@ mg*.6park.com/img/$image
 ||panzz.com/file/ads/
 ||paopaoku.com/js/loadingshow.html
 ||pc0359.cn/style/js/un.js
+||pc6.com/img/
 ||pcauto.com.cn/forum/fz/hots/
 ||pcbeta.com/static/image/microsoftstore/
 ||pccoo.cn/js/dlv1.0.js
@@ -5920,23 +5924,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||fuli.us/wp-content/uploads/ad/
-||pc6.com/img/
-||kyocdn.com/addons/banner/
-||67.198.197.27^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ck101.com###av_a
-shmet.com##.spb-biz-cont
-shmet.com##DIV[style^="margin-top: -5px; margin-bottom: 10px; height: 60px"]
-safedom.net##.conImg
-qq.com###ay-tips-close + H2
-qq.com###ay-bottom-tips > .bd > .pic-box
-kyofun.com###bg_ad_left
-kyofun.com###bg_ad_right
-fuli.us###toubuads
-fuli.us###callboard
-fuli.us###comment-ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6243,6 +6232,9 @@ baidu.com###asideRight
 ms211.com###atf
 163.com###atleCB + .footer
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
+ck101.com###av_a
+qq.com###ay-bottom-tips > .bd > .pic-box
+qq.com###ay-tips-close + h2
 163.com###backadframe
 hao.360.cn###background.festival
 cucn.com,ocucn.com###bad
@@ -6292,6 +6284,8 @@ loldk.com###before_video_ad
 eeyy.com###beitou_box
 gamersky.com###bgAdWrapClose
 91danji.com,93994.com###bg_ad
+kyofun.com###bg_ad_left
+kyofun.com###bg_ad_right
 zol.com.cn###bgzy
 zol.com.cn###bgzy2
 eol.cn###big-ad-img
@@ -6339,6 +6333,7 @@ btago.com###browser
 sogou.com###browser_ad
 ms211.com###btf
 v.hao123.com###btn-dl-bro
+fuli.us###callboard
 ck101.com###canvas-section
 longzhu.com,tga.plu.cn###carousel
 mao-123.com,mengmao.org###cat3
@@ -6384,6 +6379,7 @@ wenyoutai.com###comiis_xwyt01
 wenyoutai.com###comiis_xwyt_ad02
 wenyoutai.com###comiis_xwyt_ad03
 wenyoutai.com###comiis_xwyt_ad04
+fuli.us###comment-ad
 ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 ithome.com###con > div:not([class]):not([id]):first-child + div
 gate.baidu.com,m.baidu.com###container
@@ -7236,6 +7232,7 @@ hnr.cn###topphotos
 999caijing.com###topright
 49lou.com###topwarning_7ree
 1080pba.com###topxia
+fuli.us###toubuads
 qidian.com###tr-banner
 qz828.com###transient
 tianya.cn###travel_float
@@ -8159,6 +8156,7 @@ ithome.com##.con-recom
 joy.cn##.con2-3
 gaominews.com##.con8-c
 9yaocn.com##.conBox.clearfix
+safedom.net##.conImg
 ifeng.com##.conRgg
 aihami.com##.conText > div[style*="width:"]
 360che.com##.con_banner
@@ -9337,6 +9335,7 @@ baidu.com##.spage-couplet-container
 ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
 babyhome.com.tw##.span_shopping
+shmet.com##.spb-biz-cont
 qqbody.com##.special_ggw
 geekpark.net,northnews.cn##.sponsor
 u148.net##.sponsor-100
@@ -10270,6 +10269,7 @@ pc360.net##div[style^="border:none;height:90px;width:728px;"]
 52tian.net##div[style^="float:left;width:960px; height:88px;"]
 580k.com##div[style^="height:285px;width:360px;"]
 9ku.com##div[style^="height:90px;"]
+shmet.com##div[style^="margin-top: -5px; margin-bottom: 10px; height: 60px"]
 07073.com##div[style^="width: 135px; height: 327px;"]
 v.163.com##div[style^="width: 140px; height: 199px;"]
 ieche.com##div[style^="width: 298px;height:250px;"]
@@ -10601,7 +10601,6 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||67.198.197.27/attachment/
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10742,6 +10741,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||6080ai.com/play.js
 @@||61.164.108.104:4275/*/*.gif
 @@||61.164.108.184/tb/*.gif
+@@||67.198.197.27/attachment/
 @@||70.86.24.120:8060/*/
 @@||70e.com/js/2013_new.js$domain=wanweidao.com
 @@||70e.com^$domain=2mn.tv
