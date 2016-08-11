@@ -559,7 +559,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
-||ddomm.com^
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
 .com/showpage.asp?u=$script,third-party
@@ -916,6 +915,7 @@ ubmcmm.baidustatic.com
 ||dcxmy.com^$third-party
 ||dddddd.net^$third-party
 ||ddhtek.com^
+||ddomm.com^
 ||df77.com^
 ||dian500.com^$third-party
 ||dianxin.com^$third-party
@@ -4176,6 +4176,7 @@ mg*.6park.com/img/$image
 ||langya.cn/2014html/ad/
 ||langya.cn/images/ad_down.js
 ||lanrenzhijia.com/maiziedu2.jpg
+||laod.org/wp-content/uploads/2015/11/1.jpg
 ||laonanren.com/oldman/
 ||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/content40width.js
@@ -4944,6 +4945,7 @@ mg*.6park.com/img/$image
 ||shmet.com/images/1000x90newshmet.swf
 ||shoudian.org/diantong/sunwayman*.gif
 ||shouyou.com/2013/new/shouyou-duilian.js
+||shouyou.com/2013/new/shouyouQ1-
 ||shouyoutan.com/Runtime/js/
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
 ||showbean.net:8081/cpma.js
@@ -5340,6 +5342,7 @@ mg*.6park.com/img/$image
 ||untitled.dwstatic.com^
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
+||upaiyun.com/2016/08/4a67c5a415c21916e6591af5351bb174.jpg
 ||upaiyun.com/css88/*/1008
 ||upaiyun.com/css88/*/250
 ||upaiyun.com/css88/*/680
@@ -5928,15 +5931,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||laod.org/wp-content/uploads/2015/11/1.jpg
-||upaiyun.com/2016/08/4a67c5a415c21916e6591af5351bb174.jpg
-||shouyou.com/2013/new/shouyouQ1-
 !------------------------Specific element hiding rules------------------------!
-jobbole.com###single-page-inner-widget
-jobbole.com###leaderboard
-jobbole.com##A[href^="http://t.cn/"]
 gpcxw.com###AA2
-iguxuan.com##.yxjbox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6804,6 +6800,7 @@ douni.com###lad_3
 douni.com###lad_5
 css88.com###lagouBox
 hao123.com###layout-guess
+jobbole.com###leaderboard
 baidu.com###left-promotion
 hao.360.cn###left-ria-fixed
 sdgundam.cn###left-sponsor
@@ -7120,6 +7117,7 @@ douyu.com,douyutv.com,wasu.cn###sign_p_1
 udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 hexieshe.com###single-main-content + p
+jobbole.com###single-page-inner-widget
 pchome.com.tw###sixi
 etnet.com.hk###skinnerads
 12306.cn###slideBox
@@ -9694,6 +9692,7 @@ hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
 ysxs8.com##.ysxs8_w960_1
 geilwx.com##.yueduads
 cnlmjx.com##.yw_ad
+iguxuan.com##.yxjbox
 tvhome.com##.yy_adv_2
 house.shangdu.com##.zbtad
 g1080.com##.zdgx_right_bottom
@@ -9837,6 +9836,7 @@ pctowap.com##a[href^="http://ptw.la/"]
 vikilife.com##a[href^="http://s.click.taobao.com/"]
 sina.cn##a[href^="http://sax.sina."]
 shaoit.com##a[href^="http://t."]
+jobbole.com##a[href^="http://t.cn/"]
 mop.com##a[href^="http://trackx.mop.com/"]
 9tour.cn##a[href^="http://union.zhuna.cn/"]
 52pk.com##a[href^="http://v.17173.com/show/rec_getRecommendRoom.action?"]
@@ -10780,7 +10780,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ad.abchina.com^
 @@||ad.alimama.com^$document,domain=ad.alimama.com
 @@||ad.damai.cn^
-@@||afpeng.alimama.com^$document,subdocument,domain=zcool.com.cn
 @@||ad.doubleclick.net/ddm/adi/*.ZALORA.COM.HK$document,subdocument,domain=zalora.com.hk
 @@||ad.jz123.cn^
 @@||ad.kazakinfo.com^
@@ -10801,6 +10800,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||adsense.woso.cn^$domain=woso.cn
 @@||advert.kf5.com^
 @@||advertise.shijue.cvidea.cn^
+@@||afpeng.alimama.com^$document,subdocument,domain=zcool.com.cn
 @@||airenti.in/*/$script
 @@||alimama.com^$domain=tanx.com
 @@||angpic.3g.net.cn/ai/*/
