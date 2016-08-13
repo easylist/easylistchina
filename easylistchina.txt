@@ -560,12 +560,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||pedailyu.com^
-||ffhtek.com^
-||yzh360.com^
-||cd-best.cn^
-||ishowbg.com^
-||alitianxia168.com^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -833,6 +827,7 @@ ubmcmm.baidustatic.com
 ||ajhdf.com^$third-party
 ||ajuhd.com^
 ||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~foctop.com|~hetongal.ac.cn|~ith8.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~taobao.com.cn|~wajuemao.com|~youhuiyouhui.com.cn
+||alitianxia168.com^
 ||aliyuncss.com^
 ||aliyunxin.com^
 ||allyes.$third-party
@@ -871,6 +866,7 @@ ubmcmm.baidustatic.com
 ||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cctyly.com^
+||cd-best.cn^
 ||championmachinery-cn.com^
 ||chanet.com.cn^$third-party
 ||chaoliangyun.com^
@@ -980,6 +976,7 @@ ubmcmm.baidustatic.com
 ||farm-cn.plista.com^
 ||fd7c.com^
 ||feitian001.com^$third-party
+||ffhtek.com^
 ||fjmeyer.com^
 ||fmad.cc^$third-party
 ||fu68.com^
@@ -1049,6 +1046,7 @@ ubmcmm.baidustatic.com
 ||ipaypay.cn^$third-party
 ||iprefer.com.tw^$third-party
 ||is686.com^$third-party
+||ishowbg.com^
 ||istreamsche.com^$third-party
 ||itechwall.com^$third-party
 ||j8j9.com^$third-party
@@ -1170,6 +1168,7 @@ ubmcmm.baidustatic.com
 ||pagechoice.net^$third-party
 ||pay838.com^
 ||pdsjycm.com^
+||pedailyu.com^
 ||pofang.com^
 ||polkoa.com^
 ||pos.baidu.com^
@@ -1380,6 +1379,7 @@ ubmcmm.baidustatic.com
 ||yxdyk.com^$script,third-party
 ||yy58ju.com^
 ||yyp17.com^
+||yzh360.com^
 ||yzxls.com^$third-party
 ||yzytb.com^
 ||zamar.cn^
@@ -2597,6 +2597,7 @@ mg*.6park.com/img/$image
 ||baike.com/iframeheightforad.
 ||baishuku.com/news/$script
 ||baishulou.net/html/
+||baishulou.net/wap/cnzz.js
 ||baixing.com/bb/*/?category=
 ||baiy.net:88/a/
 ||ballive.com/addm/
@@ -3117,8 +3118,8 @@ mg*.6park.com/img/$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
 ||dnvod.eu/upload/good/
-||dnvod.eu^*/201$object-subrequest
 ||dnvod.eu^*.jpg$object-subrequest
+||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
@@ -5940,11 +5941,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||baishulou.net/wap/cnzz.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field$="adblock!'\7d "]
-toutiao.com##.article_link[data-tag="ad"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7890,6 +7888,7 @@ xuite.net##.articleExtAd
 zhlzw.com##.article_ad2
 warting.com##.article_left_ad1
 warting.com##.article_left_ad2
+toutiao.com##.article_link[data-tag="ad"]
 zhlzw.com##.article_oo
 thjunshi.com##.article_push
 fulishequ.com##.asb-index-01
@@ -8720,6 +8719,7 @@ sina.cn##.j_article_cutpic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_df_card
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field^="\7b "])
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field$="adblock!'\7d "]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt + .listBtnCnt + #listTalkCnt
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0f\\u7ad9\\u957f\""]
