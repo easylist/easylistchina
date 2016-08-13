@@ -293,7 +293,7 @@ _popAds.
 |http://*.cn/ad/
 |http://*.hk/ad/
 |http://*.in/ad/
-|http://*.me/ad/
+|http://*.me/ad/$domain=~520cc.me
 |http://*.tv/ad/
 |http://*.tw/ad/$domain=~ruten.com.tw
 |http://*.us/ad/
@@ -5955,6 +5955,7 @@ mg*.6park.com/img/$image
 ||gq.com.tw/event/$subdocument
 ||quanmin.tv/static/pages/adranktit.html
 ||kdou.com/ad_js.php?adid=
+||520cc.me/ad/$~collapse
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 galacg.me###carousel-example-generic
