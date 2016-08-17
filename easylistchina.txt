@@ -5967,7 +5967,7 @@ mg*.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 3k97.com###topblock
-tieba.baidu.com##.j_l_post:not([class="l_post l_post_bright j_l_post clearfix  "])
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="user_id\":1"]):not([data-field*="user_id\":2"]):not([data-field*="user_id\":3"]):not([data-field*="user_id\":4"]):not([data-field*="user_id\":5"]):not([data-field*="user_id\":6"]):not([data-field*="user_id\":7"]):not([data-field*="user_id\":8"]):not([data-field*="user_id\":9"])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_click_stats[href*="adn.baidu.com"]
 3k97.com,caihongzy.com,xiaokuangyl.com###ShouYe_ShangBu > .themeauthor > TABLE:first-child
 caihongzy.com##A[href="http://www.aiqmz.com/"]
@@ -8753,7 +8753,6 @@ sina.cn##.j_article_cutpic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_banner_post
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_df_card
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*=",\""])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt + .listBtnCnt + #listTalkCnt
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0f\\u7ad9\\u957f\""]
