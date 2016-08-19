@@ -505,7 +505,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||bnuni.com^$third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -823,6 +822,7 @@ ubmcmm.baidustatic.com
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
 ||bmw100.cn^$third-party
+||bnuni.com^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
 ||btyou.com^$third-party
@@ -1480,7 +1480,7 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .gdmm.com/mp4/bgy.mp4
-.gif|$domain=51dll.com|janewsupdownspaces.com|jjyyfsdowns.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
+.gif|$domain=51dll.com|janewsupdownspaces.com|janewsupdownspaces.info|jjyyfsdowns.com|jjyyfsdowns.net|newstorrentsspace.info|tianyatorrents.info
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 /10jqka_info/html/ad_
@@ -2561,6 +2561,7 @@ mg*.6park.com/img/$image
 ||awaker.hk/wp-content/uploads/ok/
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
+||b.77vcd.com^
 ||b.chuixue.com^
 ||b8yy.com/cmp/proxy.swf
 ||b8yy.com/stlye/vnsr.gif
@@ -2771,6 +2772,7 @@ mg*.6park.com/img/$image
 ||bukade.com/js/b_
 ||bukade.com/js/tj2.js
 ||bukade.com/tpl/2/loading.html
+||bumimi.com/money/
 ||bunnybee.com.tw/bee/$subdocument
 ||business.92wy.com^
 ||buy.sina.com.tw/js/sina_popup.php
@@ -4422,7 +4424,6 @@ mg*.6park.com/img/$image
 ||moedao.com/js/top.js
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
-||bumimi.com/money/
 ||money.qz828.com^
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||moneyweekly.com.tw/Uploads/AD/*970x
@@ -4774,6 +4775,7 @@ mg*.6park.com/img/$image
 ||qiyipic.com/common/*980x
 ||qiyipic.com/common/*_aLink
 ||qiyipic.com/common/*tonglan
+||qiyipic.com/common/*vivo
 ||qiyipic.com/common/20141021/sanjiukehuzhuanqu.jpg
 ||qiyipic.com/common/20160302/ban250.jpg
 ||qiyipic.com/common/fix/dasdasdasdk.jpg
@@ -4902,6 +4904,7 @@ mg*.6park.com/img/$image
 ||s.tankr.net/s/$script
 ||s.u17t.com/leaflet/upload/
 ||s.video.sina.com.cn/video/play?video_id=249750205&
+||s.yimg.com/*_160x800_$subdocument
 ||s.yimg.com/gs/apex/
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.stock.yahoo.com
 ||s.yimg.com/ja/ap/tw/js/
@@ -5036,6 +5039,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/7d1c8e96gw1f6td1882hfj20sc06r791.jpg
 ||sinaimg.cn/large/8c8bd65d$domain=loldk.com
+||sinaimg.cn/large/b1601727gw1f6vh5mr4ksg208c06yaan.gif
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/df8f080agw1f47u58kr42j20dw0dwadl.jpg
 ||sinaimg.cn/large/ec76730dgw1f5n672u0rij20g902raaz.jpg
@@ -5971,16 +5975,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sinaimg.cn/large/b1601727gw1f6vh5mr4ksg208c06yaan.gif
-||b.77vcd.com^
-||s.yimg.com/*_160x800_$subdocument
-||qiyipic.com/common/*vivo
-.gif|$domain=janewsupdownspaces.info
 !------------------------Specific element hiding rules------------------------!
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])
 gpcxw.com###AA2
-iqiyi.com##.kwltp-leftgg
-iqiyi.com##.kwltp-rightgg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8556,6 +8552,7 @@ xw.qq.com##.globalThemeTip
 tw.news.yahoo.com##.gn_sub_blue
 mail.pchome.com.tw##.good_ad
 weibo.com##.goods-box
+zealer.com##.goods_container
 mei521.com##.google
 techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
@@ -8766,6 +8763,7 @@ sina.cn##.j_article_cutpic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_couplet
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_df_card
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post:not([data-field*="\"user_id\":1"]):not([data-field*="\"user_id\":2"]):not([data-field*="\"user_id\":3"]):not([data-field*="\"user_id\":4"]):not([data-field*="\"user_id\":5"]):not([data-field*="\"user_id\":6"]):not([data-field*="\"user_id\":7"]):not([data-field*="\"user_id\":8"]):not([data-field*="\"user_id\":9"])
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt + .listBtnCnt + #listTalkCnt
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0f\\u7ad9\\u957f\""]
@@ -8810,6 +8808,8 @@ iciba.com##.kk01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.kn_nine_wrap
 sydneytoday.com##.kpadv5
 fznews.com.cn##.kuang100_right
+iqiyi.com##.kwltp-leftgg
+iqiyi.com##.kwltp-rightgg
 baidu.com##.l-header-ad
 ahtv.cn,bzfl1.cc,sexbarss.net##.l1
 ltaaa.com##.lAds
@@ -9302,7 +9302,6 @@ haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 duba.com##.search_promotion
 ijia360.com##.search_radlist
 cnool.net##.second-banner
-zealer.com##.goods_container
 jq-school.com##.setfarme:nth-child(7)
 peasyun.com##.sf_adv
 cctry.com##.sftop
@@ -10681,7 +10680,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||mmybt.com^*300*250
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -11040,6 +11038,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||meizu.com/fileserver/ad/img/
 @@||miaozhen.com^*/m.suning.
 @@||mm.maxthon.cn/ad/
+@@||mmybt.com^*300*250
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
 @@||monnsutogatya.com^$elemhide
