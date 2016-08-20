@@ -83,8 +83,6 @@
 /content/plugins/em_ad/*
 /cpro/ui/*
 /cpv/i.php?z=
-/css88-index-750x70.
-/css88/*250X
 /data/ad/*
 /data/attachment/ad/*
 /data/cache/myad-
@@ -146,7 +144,6 @@
 /k300g250.
 /k960g90.
 /keke_winad/template/*layerModel.
-/kuaiyun-728-91.
 /lanye2015/images/hengtian.jpg
 /lanye2015/images/kuan.jpg
 /lanye2015/images/qiniu.jpg
@@ -5392,10 +5389,6 @@ mg*.6park.com/img/$image
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/2016/08/4a67c5a415c21916e6591af5351bb174.jpg
-||upaiyun.com/css88/*/1008
-||upaiyun.com/css88/*/250
-||upaiyun.com/css88/*/680
-||upaiyun.com/css88/*/728
 ||upan.cc/images/pay/
 ||upan.so/templates/default/images/sir.gif
 ||upantool.com/playing/
@@ -5984,8 +5977,10 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||zjrxz.com/2016/0814/1471183908678.jpg
+||upaiyun.com/css88/20
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+css88.com##A[href^="http"]:not([href*=".css88.com"]) > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6852,7 +6847,6 @@ douni.com###lad_1
 douni.com###lad_2
 douni.com###lad_3
 douni.com###lad_5
-css88.com###lagouBox
 hao123.com###layout-guess
 jobbole.com###leaderboard
 baidu.com###left-promotion
@@ -7907,7 +7901,6 @@ sm.cn##.ali_row[ad_aid]
 wacowla.com##.aligncenter[width="140"][height="400"]
 wacowla.com##.alignnone[width="320"][height="60"]
 yesky.com##.alldown > .rimg
-css88.com##.amazeui-link
 redocn.com##.apositions
 qzone.qq.com##.app-recommend
 tianya.cn##.app-tips
@@ -9931,7 +9924,6 @@ chinadaily.com.cn##a[href^="http://www.huabian.com/"]
 bejson.com##a[href^="http://www.jisuapi.com"]
 top81.com.cn##a[href^="http://www.junpinhui.com/goods."]
 top81.com.cn##a[href^="http://www.junshier.com/"]
-css88.com##a[href^="http://www.liepin.com"]
 bejson.com##a[href^="http://www.liepin.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 tiexue.net##a[href^="http://www.mywoqu."]
