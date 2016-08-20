@@ -502,15 +502,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||leturich.org^$subdocument
-||010xk.com^
-||bxjpl.cn^
-||szfaq.com^
-||reliancevalve.com^
-||qmkdy.com^
-||gtmucs.cn^
-||yinhaijuan.com^
-||xcjy876.com^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -574,6 +565,7 @@ ubmcmm.baidustatic.com
 |http://tk.*.php?id=*&step=
 ||00880808.com^
 ||010teacher.com^
+||010xk.com^
 ||012.tw^$third-party
 ||022aifang.com^
 ||033.com^$third-party
@@ -833,6 +825,7 @@ ubmcmm.baidustatic.com
 ||boosj.com^$third-party
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
+||bxjpl.cn^
 ||bydonline.com^
 ||c.91wan.com^$third-party
 ||caiyifz.com^$third-party
@@ -983,6 +976,7 @@ ubmcmm.baidustatic.com
 ||gotonav.com^$third-party
 ||gs307.com^$third-party
 ||gso0.com^
+||gtmucs.cn^
 ||guduopu.com^
 ||gydag.com^
 ||gzbywl.com^$third-party
@@ -1099,6 +1093,7 @@ ubmcmm.baidustatic.com
 ||le123.cn^$third-party
 ||le4le.com^
 ||leeyuoxs.com^
+||leturich.org^$subdocument
 ||leturich.org^$third-party
 ||lhusy.com^
 ||lhzly.com^$third-party
@@ -1181,6 +1176,7 @@ ubmcmm.baidustatic.com
 ||qiqiww.com^
 ||qiyou.com^$third-party
 ||qling.com^$third-party
+||qmkdy.com^
 ||qq4g.cn^$third-party
 ||qqm98.com^
 ||qshxc.com^
@@ -1191,6 +1187,7 @@ ubmcmm.baidustatic.com
 ||rayli.com.cn^$third-party
 ||re.taotaosou.com^
 ||rekanw.com^$third-party
+||reliancevalve.com^
 ||rencai56.com^
 ||rsccs.com^$third-party
 ||ruanwenclub.com^$third-party
@@ -1235,6 +1232,7 @@ ubmcmm.baidustatic.com
 ||subo.me^$third-party
 ||sunjianhao.com^
 ||superfish.com^$third-party
+||szfaq.com^
 ||szvr.com^$third-party
 ||t3nlink.com^$third-party
 ||t70123.com^
@@ -1336,6 +1334,7 @@ ubmcmm.baidustatic.com
 ||xabmjr.com^
 ||xajx.com^$third-party
 ||xchgx.com^
+||xcjy876.com^
 ||xcy8.com^
 ||xcycm.com^$third-party
 ||xcyjzs.net^
@@ -1374,6 +1373,7 @@ ubmcmm.baidustatic.com
 ||yigao.com^$third-party
 ||yiiwoo.com^$third-party
 ||yijia2009.com^
+||yinhaijuan.com^
 ||yiqifa.com^$subdocument
 ||yiqifa.com^*.js$third-party
 ||yiqiv.com^$third-party
@@ -1817,8 +1817,8 @@ mg*.6park.com/img/$image
 ||16888.com/ajax/loadcardata.php
 ||168gamer.com/ab.php?mod=jss&bid=
 ||168gamer.com/abkf.
-||168gamer.com^*ads
 ||168gamer.com/static/js/rlist.js
+||168gamer.com^*ads
 ||168img.com/a/
 ||168img.com/gamania960.swf
 ||16sucai.com/ads/
@@ -5390,6 +5390,7 @@ mg*.6park.com/img/$image
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/2016/08/4a67c5a415c21916e6591af5351bb174.jpg
+||upaiyun.com/css88/20
 ||upan.cc/images/pay/
 ||upan.so/templates/default/images/sir.gif
 ||upantool.com/playing/
@@ -5933,6 +5934,7 @@ mg*.6park.com/img/$image
 ||zjjzx.cn/img/zt/yd/
 ||zjol.com.cn/js/duilian/
 ||zjphoto.yinsha.com/upload/swf/
+||zjrxz.com/2016/0814/1471183908678.jpg
 ||zk168.com.cn/js/300gg.js
 ||zk168.com.cn/js/b.js
 ||zk168.com.cn/js/fwpd.js
@@ -5977,11 +5979,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zjrxz.com/2016/0814/1471183908678.jpg
-||upaiyun.com/css88/20
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-css88.com##A[href^="http"]:not([href*=".css88.com"]) > IMG
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9870,6 +9869,7 @@ sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
+css88.com##a[href^="http"]:not([href*=".css88.com"]) > img
 qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
 chacuo.net##a[href^="http://affiliate.lufax."]
@@ -10682,7 +10682,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/dfp.js$domain=dailyfx.com.hk
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10737,6 +10736,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/cntv_Advertise.js
 @@/common/cf/*$domain=66u.com|changhong.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
 @@/data/attachment/*_300_250_
+@@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
