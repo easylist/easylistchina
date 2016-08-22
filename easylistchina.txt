@@ -5989,6 +5989,8 @@ mg*.6park.com/img/$image
 ||itc.cn/s/wapChange/20168_2_11/a1nbve1294974230968.png
 ||itc.cn/s/wapChange/20168_2_11/a3z0pl44100196391596.jpg
 ||imgbus.com^$domain=88files.net
+||bahamut.com.tw/M/2KU/$domain=www.gamer.com.tw,~collapse
+||bahamut.com.tw/B/2KU/$domain=www.gamer.com.tw,~collapse
 !------------------------Specific element hiding rules------------------------!
 m.sohu.com##IMG.brand
 500.com##A[href="http://www.qqshidao.com/"]
@@ -10690,6 +10692,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
+gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@||up2stream.com/vjs/lib/videojs-contrib-ads/videojs.ads.
