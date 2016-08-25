@@ -502,9 +502,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||bttyue.com^$subdocument
-||caolvch.com^
-||nr1234.com^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -829,6 +826,7 @@ ubmcmm.baidustatic.com
 ||bnuni.com^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
+||bttyue.com^$subdocument
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
 ||bxjpl.cn^
@@ -837,6 +835,7 @@ ubmcmm.baidustatic.com
 ||caiyifz.com^$third-party
 ||cangnews.com^
 ||caob5.info^
+||caolvch.com^
 ||cardniu.com^$third-party
 ||cb.baidu.com^
 ||cbjs.baidu.com^
@@ -1158,6 +1157,7 @@ ubmcmm.baidustatic.com
 ||nmbtedu.com^$third-party
 ||nord-raum.com^$third-party
 ||notice.uchome.manyou.com^
+||nr1234.com^
 ||o091i.com^$third-party
 ||octopuspop.com^$third-party
 ||offcn.com^$third-party,domain=~eoffcn.com
@@ -3614,6 +3614,7 @@ mg*.6park.com/img/$image
 ||haoyangmao.cc/wp-content/uploads/2016/03/mayi
 ||haoyangmao.cc/wp-content/uploads/2016/06/haoche
 ||haxiu.com/data/cache/myadn-
+||hc360.cn/js/module/info/info_liuliangbao.js
 ||hc360.com/images/14826/289x90.jpg
 ||hc360.com/js/*hezuo.js
 ||hc360.com/js/build/source/widgets/flowbao/flowbao.js
@@ -4850,6 +4851,8 @@ mg*.6park.com/img/$image
 ||qqtn.com/js/*0.js
 ||qqtz.com/ad$subdocument
 ||qqxbt.com/Content/images/hd
+||qqxzb.com/api/ad.
+||qqxzb.com^*/js/global.js
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
 ||qstatic.com/baike/js/ad_
@@ -6007,15 +6010,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qqxzb.com/api/ad.
-||qqxzb.com^*/js/global.js
-||hc360.cn/js/module/info/info_liuliangbao.js
 !------------------------Specific element hiding rules------------------------!
-jobbole.com##.post > .textwidget
-hc360.com##A[href^="http://e.cn.miaozhen.com/"]
 gpcxw.com###AA2
-yxdown.com##.adv
-quanmin.tv##.index-ad-list
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7868,7 +7864,7 @@ bthave.com##.adsense
 qinbing.cn##.adspic_mid2
 blog.dausos.com,ynet.com##.adt
 chinaz.com,yawin.cn##.adtext
-114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,solidot.org,v1.cn,ylmf.com##.adv
+114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,solidot.org,v1.cn,ylmf.com,yxdown.com##.adv
 19lou.com##.adv-fixed
 52solution.com##.adv-hb
 52solution.com##.adv-lb
@@ -8742,6 +8738,7 @@ news18a.com,tom.com##.ina_ad_class
 news18a.com##.ina_ad_left
 qqyy.com##.ind_ad
 boxcdn.cn,faxingw.cn##.indadv1
+quanmin.tv##.index-ad-list
 yikexun.cn##.index-ad-tl
 cndesign.com##.index-add
 sogou.com##.index-banner
@@ -9196,6 +9193,7 @@ zhan.com##.pop_shousuo
 camerabay.tv##.popupad
 anzhuo365.com,pzzc.net##.portal_block_summary
 loorin.com##.portal_block_summary > a[href^="http"]:not([href^="http://www.loorin."])
+jobbole.com##.post > .textwidget
 vmovier.com##.post-ad-bottom
 vmovier.com##.post-right-item + a[target="_blank"]
 ihacksoft.com,ipc.me##.post-top-gg
@@ -9924,6 +9922,7 @@ cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
+hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
 moe-acg.cc##a[href^="http://game.moehuan.com/"] > img
 cntv.cn##a[href^="http://games.cntv.cn/ec/gg/"]
@@ -10664,6 +10663,7 @@ dnwx.com#@#.ad_250
 psahz.com#@#.ad_960
 178.com,925fxw.com#@#.ad_box
 tclmobile.com.cn,workercn.cn#@#.ad_content
+qqxzb.com#@#.ad_l
 liqucn.com,workercn.cn#@#.ad_main
 pupuapp.com,yxdown.com#@#.ad_pic
 ccb.com#@#.ad_position
@@ -10724,10 +10724,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-qqxzb.com#@#.ad_l
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||fscinda.com/ad/$~third-party
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -11019,6 +11017,7 @@ qqxzb.com#@#.ad_l
 @@||fharr.com^$generichide
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||forum.51nb.com/images/*/
+@@||fscinda.com/ad/$~third-party
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
 @@||g.tbcdn.cn/tb/mercury/*/ads/index.
