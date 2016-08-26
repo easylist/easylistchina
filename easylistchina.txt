@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/pjk/mdk/*$subdocument,third-party
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -168,6 +167,7 @@
 /piaofu.js
 /pic/ad/*
 /picad/*$domain=~ychr.com
+/pjk/mdk/*$subdocument,third-party
 /pkg/pagelet/ad/ad_
 /pkg/pagelet/list/ad_
 /plugin.php?id=popad_7ree&
@@ -1436,11 +1436,11 @@ ubmcmm.baidustatic.com
 ||zytwq.net^$third-party
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-/hndxweb/push$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
+/hndxweb/push$popup,third-party
 /item.htm?$popup,domain=www.tsdm.net
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
@@ -2407,8 +2407,8 @@ mg*.6park.com/img/$image
 ||a.v.duowan.com/crossdomain.xml
 ||a.xizi.com^
 ||a2.b310.com^
-||a4.yeshj.com^
 ||a3v4.top/Picture/aiai.gif
+||a4.yeshj.com^
 ||a5.yeshj.com^
 ||ab.ahlife.com^*.swf
 ||abc.hkepc.com^
@@ -2637,6 +2637,7 @@ mg*.6park.com/img/$image
 ||baidu.com/WerbungAjax/getBeitou?
 ||baidu.com/WerbungAjax/getTonglan?
 ||baidu.com^$domain=pos.baidu.com
+||baidu.com^$subdocument,domain=dm5.com|dm5.hk
 ||baidu.com^*/interface/ad?
 ||baidud.cn/aoao/down_
 ||baifen.music.baidu.com/api/v1/*?format=jsonp&
@@ -2745,6 +2746,7 @@ mg*.6park.com/img/$image
 ||bkill.com/css/abc/
 ||bkill.net/js/top.js
 ||bkjia.com/bkjia/js/art_rightad
+||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
 ||blog.51cto.com/js/poptop.js
@@ -6012,8 +6014,6 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||baidu.com^$subdocument,domain=dm5.com|dm5.hk
-||bkjia.com/bkjia/js/artitle.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10718,7 +10718,7 @@ fsjoy.com#@#.main_adv
 hc360.com#@#.midad
 sjsmitaa.org#@#.module-ads
 mobile01.com#@#.navad
-fjsen.com#@#.right-ad
+fjsen.com,nuomi.com#@#.right-ad
 changyou.com,perfectmatch.tw#@#.right_ad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
@@ -10728,10 +10728,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-nuomi.com#@#.right-ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||012.tw^$script,domain=apk.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10830,6 +10828,7 @@ nuomi.com#@#.right-ad
 @@|http://*/gg/*.css
 @@|http://tieba.baidu.com/|$genericblock
 @@|https:$script,~third-party,domain=avmoo.com
+@@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
@@ -10955,6 +10954,7 @@ nuomi.com#@#.right-ad
 @@||briian.com/advert.
 @@||btaia.com^$generichide
 @@||btio.pw^$generichide
+@@||bzfxw.com/adfile/sbss.js
 @@||cache.adm.cnzz.net^$domain=gx.91s.org|xoyo.com
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
@@ -10975,7 +10975,7 @@ nuomi.com#@#.right-ad
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
 @@||countrygarden.com.cn/ad/$domain=countrygarden.com.cn
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=caibaojian.com|epinv.com|fxpan.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=bzfxw.com|caibaojian.com|epinv.com|fxpan.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
@@ -11115,12 +11115,10 @@ nuomi.com#@#.right-ad
 @@||photo.erji.com/tb/*.gif
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=bzfxw.com
-@@||pos.baidu.com^*=u2550281&$elemhide,subdocument,domain=bzfxw.com
-@@||bzfxw.com/adfile/sbss.js
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
 @@||pos.baidu.com^*=u1902679&$domain=caibaojian.com
 @@||pos.baidu.com^*=u1970872&$domain=fxpan.com
+@@||pos.baidu.com^*=u2550281&$elemhide,subdocument,domain=bzfxw.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
 @@||pos.baidu.com^*?di=1112308&$domain=7958.com.cn
