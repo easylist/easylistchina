@@ -5614,7 +5614,7 @@ mg*.6park.com/img/$image
 ||x.itiexue.net/html/$script
 ||x.jd.com/static/js/auto.js
 ||x.jd.com/static/js/cpc.js
-||x4399.com^*-
+||x4399.com/ol-
 ||x4399.com/?ss=
 ||xav*.com/ad1/
 ||xav*.com/attachment/Mon_
@@ -6021,6 +6021,8 @@ _adblock-notify-$domain=pcrookie.com
 .pcrookie.com/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibili.com##DIV[style$="height: 80px;"][data-loc-id]
+bilibili.com##.index-promote
 nowscore.com###toperBaskText
 nowscore.com##DIV[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 hc360.com,yaolan.com###AD
