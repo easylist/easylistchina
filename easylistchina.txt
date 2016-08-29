@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/img/xbyeye.png
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -122,6 +121,7 @@
 /huya_promotion_content_
 /images//ads/*
 /images/ta1234.js
+/img/xbyeye.png
 /ina_ad_
 /jfjs/ad.js
 /jinhuatv/ad
@@ -2377,6 +2377,7 @@ mg*.6park.com/img/$image
 ||99btgc01.info/uploads/*.gif
 ||99danji.com/otherhtml/
 ||99mst.com/upfiles/adv/main02.jpg
+||99qq5.com/img/*.gif
 ||99re.com/img/*.gif
 ||99tianji.com/hack/
 ||99ting.cn/789uc/gg.js
@@ -2519,6 +2520,7 @@ mg*.6park.com/img/$image
 ||alicdn.com^*.jpg$domain=htai.me
 ||alifeifei.net/s/*.js
 ||alixixi.com/adsview/
+||aliyuncs.com/wjy99re/
 ||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alu.cn*/aluad/
 ||alu.cn/2011/images/conglin.gif
@@ -3394,6 +3396,7 @@ mg*.6park.com/img/$image
 ||fpdisplay.com/images/*960X30.
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
+||fqlook.cn/d/file/201*.swf
 ||fragment.firefoxchina.cn/html/
 ||free9.net/images/pic/dhc2013.gif
 ||free9.net/myc/myc.js
@@ -3415,6 +3418,7 @@ mg*.6park.com/img/$image
 ||fumanhua.com/template/*/images/g_js/$subdocument
 ||fun.ynet.com^
 ||func.tw/image/func2.png
+||funkyimg.com^$domain=99qq5.com|99re.com
 ||fwindy.win/asd/
 ||fwindy.win/js/s*.gif
 ||fwxgx.com/u/ad/show_type/
@@ -5091,7 +5095,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/bfdcef89gw1f3zdnqbs1qj20k902igmq.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99re.com|a3v4.top|ac168.info|aisex.com|avtaobao.tv|avtb.me|avtb.us|bejson.com|blz20.com|bt177.com|btago.com|btshark.com|btup.net|cangjige.me|cangjige.net|caoliuzx.com|cililian.me|fdzone.org|fulidh.org|fulitxx.com|izzs.cc|jisuzhibo.net|neonan.com|niluba.cc|qyule9.com|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|ttdyy.tv|webhek.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|84fn.com|99qq5.com|99re.com|a3v4.top|ac168.info|aisex.com|avtaobao.tv|avtb.me|avtb.us|bejson.com|blz20.com|bt177.com|btago.com|btshark.com|btup.net|cangjige.me|cangjige.net|caoliuzx.com|cililian.me|fdzone.org|fulidh.org|fulitxx.com|izzs.cc|jisuzhibo.net|neonan.com|niluba.cc|qyule9.com|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|ttdyy.tv|webhek.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024.pe|1024bao.com|20fuck.com|20men.com|22fuck.com|2c2.website|2p8.space|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|atao.biz|bao36.com|bao85.com|baoxxx.com|btshoufa.net|cao.pe|cao71.com|cao89.com|caoporn.com|cp001.xyz|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|h3e.pw|h3y.pw|lang.pe|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|p5p.space|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|su1024.xyz|t2p.space|tb001.xyz|tube1024.com|tubewan.com|vcam.xyz|vgan.pw|vgao.xyz|vlang.xyz|vlook.xyz|vmen.xyz|vwan.xyz|wan1024.com|wanfuck.com|xlook.xyz|xtao.xyz|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
@@ -6012,19 +6016,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||fqlook.cn/d/file/201*.swf
-||funkyimg.com^$domain=99qq5.com
-||sinaimg.cn^$domain=99qq5.com
-||99qq5.com/img/*.gif
-||aliyuncs.com/wjy99re/
-||funkyimg.com^$domain=99re.com
 !------------------------Specific element hiding rules------------------------!
-99qq5.com##.spots
-99re.com##.spots
 gpcxw.com###AA2
-fqlook.cn###leftfloatad1
-fqlook.cn##DIV[class^="main_tonglan"]
-fqlook.cn##DIV[class^="main_tonglan"] + .main_center_z
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6906,6 +6899,7 @@ hao.360.cn###left_float
 sina.com.cn###left_focus_ad
 taoyoudu.com###left_layer
 hao123.com###leftbannerv2
+fqlook.cn###leftfloatad1
 www.wenxuecity.com###leftside
 letpub.com.cn###letpubjournalmessagebox
 hers.com.cn###lfw
@@ -9465,6 +9459,7 @@ u148.net##.sponsor-250
 sogou.com##.sponsored
 weibo.com##.sport-goods
 163.com##.sports_300x60_ad1
+99qq5.com,99re.com##.spots
 haosou.com,so.com##.spread
 baidu.com##.spread-wrap
 2345.com##.spreadHotWords
@@ -10114,6 +10109,8 @@ enorth.com.cn##div[class^="guanggao"]
 meiguoshenpo.com##div[class^="info_"]
 admaimai.com##div[class^="inv9_ad0"]
 jzhome.cn##div[class^="main_gg"]
+fqlook.cn##div[class^="main_tonglan"]
+fqlook.cn##div[class^="main_tonglan"] + .main_center_z
 kkkmh.com##div[class^="mm-"]
 nba.hupu.com##div[class^="nba-ad"]
 sun0769.com##div[class^="pagecenter sungg"]
@@ -10741,9 +10738,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||cy.com/hz/*/ad
-@@||changyou.com^$generichide
-@@||cy.com^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10978,6 +10972,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||ccb.com^*^ad
 @@||cdn.wdlm.cn^*/
+@@||changyou.com^$generichide
 @@||chinahr.com/ad$domain=chinahr.com
 @@||chinatimes.com/css-main/ad.css
 @@||citysbs.com^*/swfupload/
@@ -10997,6 +10992,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||csbew.com/FrameWork/AFP/
 @@||csbew.com/k.js$domain=mfgun.com
 @@||ctsywy.com^$script,domain=vcd.tv
+@@||cy.com/hz/*/ad
+@@||cy.com^$generichide
 @@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
 @@||dandanplay.com/common/generate-captcha?
