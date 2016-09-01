@@ -6035,8 +6035,10 @@ mg*.6park.com/img/$image
 ||s8bbs.com/ad/
 ||90sjimg.com/images/public/90sheji_
 ||ffsky.net^$domain=moe-acg.cc
+||bilibilijj.com/temp/fanshuxiaobao.png
 !------------------------Specific element hiding rules------------------------!
-moe-acg.cc###dmengslide-2
+moe-acg.cc##.dmengslide-wrapper
+bilibilijj.com##[class]:not(div):not(img):not(input):not(a):not(span)
 dm5.com##.yddiv
 qiuziti.com##A[href^="http://90sheji.com/"]
 gpcxw.com###AA2
