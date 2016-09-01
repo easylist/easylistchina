@@ -135,8 +135,8 @@
 /js/ads/zuoxiajiao.js
 /js/bocaiadv.
 /js/guanggao_gg.js
-/js/jsstyle-t.js
 /js/jsstyle-hw.js
+/js/jsstyle-t.js
 /js/toutiaoiframe.js
 /js/utils51.js
 /js/utils78.js
@@ -412,6 +412,7 @@ _popAds.
 ##.con_ad
 ##.content_ad_300
 ##.d_slidebanner
+##.f-sign-cont[data-dysign-adid]
 ##.gg1000
 ##.gg_300
 ##.gg_950
@@ -431,6 +432,7 @@ _popAds.
 ##.google_adsense2
 ##.hfa1b
 ##.hfa1c
+##.his-sign-cont[data-dysign-adid]
 ##.home-ggggg430
 ##.indexad2
 ##.indexad3
@@ -504,8 +506,6 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
-##.f-sign-cont[data-dysign-adid]
-##.his-sign-cont[data-dysign-adid]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -1876,6 +1876,7 @@ mg*.6park.com/img/$image
 ||174.139.17.130/ad/
 ||17558.net/daozeiyuanma1.gif
 ||17558.net/youdiancms.gif
+||178.com/ads/
 ||178.com/dota/201409/205976017190/205976025825.jpg
 ||178.com/glr.js
 ||17bt.cc/js/
@@ -6026,7 +6027,6 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||178.com/ads/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10697,6 +10697,7 @@ appbyme.com#@#.adchange
 china.com#@#.adclass
 hc360.com,qqread.com#@#.adcont
 51cto.com#@#.addarea
+poba.com.tw,poba.hk#@#.adlist
 wed114.cn#@#.adpic
 ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
@@ -10745,10 +10746,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-poba.hk,poba.com.tw#@#.adlist
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@/adverts/*$domain=onlychild.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10792,6 +10791,7 @@ poba.hk,poba.com.tw#@#.adlist
 @@/advertisement.js$domain=fharr.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
+@@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com|mfgun.com|ygo-sem.cn
 @@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|qdxqs.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
