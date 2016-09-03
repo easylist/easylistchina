@@ -424,6 +424,7 @@ _popAds.
 ##.gg_full
 ##.ggad
 ##.ggbox
+##.ggdistich
 ##.ggg-in-post1
 ##.ggg-in-post2
 ##.gggggpost-below
@@ -510,7 +511,6 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
-##.ggdistich
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
@@ -1722,6 +1722,7 @@ mg*.6park.com/img/$image
 ||060s.com/my_ad/
 ||0668gz.com/data/attachment/portal/
 ||0712fang.com/gonggong/js/cf_flash.js
+||073img.com/*/|
 ||073img.com^*/rich.js
 ||0756.la/ad-htm/
 ||0758net.com/data/attachment/portal/
@@ -1811,6 +1812,7 @@ mg*.6park.com/img/$image
 ||126xz.com/www/all_guanggao.js
 ||127.net/external/js6promote
 ||127.net/m/*/promPic.jpg
+||12img.com/ad/
 ||131.com/common/alertwindow.html
 ||131.com/home/resouces/js/
 ||131.com/js/131InsideAD$script
@@ -1923,7 +1925,6 @@ mg*.6park.com/img/$image
 ||1m1m.cn/bar/
 ||1pad.cn/ahead/01.gif
 ||2008xxx.com:888
-||073img.com/*/|
 ||201*.myhard.com^
 ||20150930.cf^
 ||202.102.41.15:8081/abc/interurl.jsp?
@@ -6032,17 +6033,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||12img.com/ad/
-||sogou.com/GetAdv.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-silver.org.cn##.adv
-silver.org.cn##.duilian
-07073.com###Vsss00
-07073.com##.fmt16
-douyu.com,douyutv.com##.hot-sign-1
-douyu.com,douyutv.com##.hot-sign-2
-plays01.com##.adbox-bg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6151,6 +6143,7 @@ gaoqingkong.com###Tianmao1224
 7m.cn###Top_b
 csdn.net###Topic_Top
 qinzhou360.com###Txtadv-show
+07073.com###Vsss00
 cnzol.com,ysx8.net###Wl_Float_Div
 duote.com###\32 345_ad
 morningpost.com.cn###\33 60hot
@@ -7838,6 +7831,7 @@ oogps.com##.adbg
 motobuy.com.tw##.adbig
 sina.com.tw##.adbig300_mid
 17173.com,68design.net,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,phoenixtv.com,tuwan.com,xineurope.com,yesky.com##.adbox
+plays01.com##.adbox-bg
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
 qq.com##.adbutton-Aritcle-QQ
@@ -7895,7 +7889,7 @@ bthave.com##.adsense
 qinbing.cn##.adspic_mid2
 blog.dausos.com,ynet.com##.adt
 chinaz.com,yawin.cn##.adtext
-114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,solidot.org,v1.cn,ylmf.com,yxdown.com##.adv
+114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,silver.org.cn,solidot.org,v1.cn,ylmf.com,yxdown.com##.adv
 19lou.com##.adv-fixed
 52solution.com##.adv-hb
 52solution.com##.adv-lb
@@ -8382,7 +8376,7 @@ yxzoo.com##.downgg
 265g.com##.dr_top_text
 p2peye.com##.drag + .mod-side:nth-child(4)
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
-81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,sjzbus.com.cn,wendu.cn,xinhuanet.com##.duilian
+81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,silver.org.cn,sjzbus.com.cn,wendu.cn,xinhuanet.com##.duilian
 btup.net##.duilian_ad
 hnr.cn##.duilian_close
 0772fang.com##.duilian_l
@@ -8474,6 +8468,7 @@ ledinside.cn##.floatAD
 totuwo.com,yzfcn.cn##.floatAd
 iqiyi.com##.float_div
 iqiyi.com##.float_div_r
+07073.com##.fmt16
 house.shangdu.com##.fmt_main
 vmelon.com##.focus
 newcger.com##.focus + .block934
@@ -8711,6 +8706,8 @@ www.infoq.com##.home_banner
 sosg.net##.home_promo_940x80
 sogou.com##.hospitalinfo
 iqilu.com##.hot-news
+douyu.com,douyutv.com##.hot-sign-1
+douyu.com,douyutv.com##.hot-sign-2
 9766.com##.hot-site
 piaoliang.com##.hot990
 cnqiang.com##.hotBox
@@ -10762,7 +10759,6 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||073img.com/*,*,
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10865,6 +10861,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@|https:$script,~third-party,domain=avmoo.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
+@@||073img.com/*,*,
 @@||10010.com^*/ad.
 @@||10010.com^*/ad/
 @@||10086.cn^$generichide
