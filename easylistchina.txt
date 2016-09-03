@@ -3426,6 +3426,7 @@ mg*.6park.com/img/$image
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
 ||fuli.us/ad.js
 ||fuli.us/wp-content/uploads/ad/
+||fuli69.com/wp-content/uploads/sug
 ||fulibac.com/images/upload/ad/
 ||fulibar.net/img/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
@@ -4910,6 +4911,7 @@ mg*.6park.com/img/$image
 ||rainmall.com/tv/js/bofang
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rar8.net/htmljs/
+||ratedxbiz.com/d/
 ||read.2200book.com/images/bloading.gif
 ||readnovel.com/js/$subdocument
 ||ref.so/templates/ref/images/client/tg*.jpg
@@ -5170,6 +5172,7 @@ mg*.6park.com/img/$image
 ||srzc.com/js/gelao/
 ||srzc.com/templets/srxw/img/000ad.jpg
 ||srzc.com^*/zwfjs/
+||ssajax.cn/js/info/ads/
 ||ssnn.net^*-200-250.jpg
 ||sspai.com/attachment/sponsor/
 ||sss.sege.xxx^
@@ -5209,6 +5212,7 @@ mg*.6park.com/img/$image
 ||stnn.cc/images/xy/yy.swf
 ||sto.cn*/temp/adv.jpg
 ||stockstar.com/*DUILIAN&t=
+||stockstar.com/info/*0x
 ||storetorrent.org/static/best/795X60.gif
 ||storetorrent.org/static/js/best
 ||storm.mg/ad?
@@ -6028,19 +6032,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||stockstar.com/info/*0x
-||ssajax.cn/js/info/ads/
-||ratedxbiz.com/d/
-||fuli69.com/wp-content/uploads/sug
 !------------------------Specific element hiding rules------------------------!
-ratedxbiz.com##.ima
-so.com##.commercialCell
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4756933479,"]
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad
 gpcxw.com###AA2
-shangdu.com##.banner1
-shangdu.com##.banner3
-shangdu.com##.banner5
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7040,6 +7033,7 @@ xizi.com###pageRight-loop
 toutiao.com###pagelet-detailadd
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-appforum\/pagelet\/my_app
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_encourage-tbguess\/pagelet\/sidebar
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-header\/pagelet\/head_content_middle > div[class]:not([class*="_"]):first-child
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 srzc.com###pageright > .padding:nth-child(2)
@@ -8050,14 +8044,15 @@ firefoxchina.cn##.banner-words
 fanyi.baidu.com,longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
 news.cn2che.com,sd001.com##.banner01
-html5china.com,uusee.com##.banner1
+html5china.com,shangdu.com,uusee.com##.banner1
 voc.com.cn##.banner1000_60
 guitarchina.com,uusee.com,xiazaigang.com##.banner2
 ting89.com,tingshuge.com,vga.zol.com.cn##.banner250
-iqiyi.com,uusee.com##.banner3
+iqiyi.com,shangdu.com,uusee.com##.banner3
 pengfu.com##.banner300x250
 pengfu.com##.banner300x270
 guitarchina.com,iqiyi.com##.banner4
+shangdu.com##.banner5
 sznews.com##.banner6
 ting89.com,tingshuge.com##.banner688_1
 ting89.com,tingshuge.com##.banner688_2
@@ -8269,6 +8264,7 @@ jmbbs.com##.comiis_ad
 sj33.cn##.comleftad2
 maituan.com##.command
 163.com##.comment_bottom_ad
+so.com##.commercialCell
 qingdaonews.com##.commonrightad
 cnbeta.com##.commt-r
 meituan.com##.component-downtip
@@ -8749,7 +8745,7 @@ aiyuke.com##.igamead
 ifeng.com##.iggLine
 outofmemory.cn##.iloveoutofmemory660
 im286.net##.im286-t
-playallvideos.com,pron.co##.ima
+playallvideos.com,pron.co,ratedxbiz.com##.ima
 m.cnbeta.com##.image-container
 edu24ol.com##.image_01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.images_game_container
@@ -8836,6 +8832,7 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list + li[class]:not(.j_thread_list)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list:not([data-field])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4756933479,"]
 jstv.com##.jadv
 jbtalks.cc,jbtalks.com##.jbt-ad-region
 creaders.net##.jcContent
