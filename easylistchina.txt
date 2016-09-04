@@ -525,7 +525,9 @@ _popAds.
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
-/c/i.php?id=$script
+/c/i.php?id=$script,third-party
+:81/c/i.php?id=$script
+:81/s/i.php?id=$script
 /center?advId=
 /code/cpc.asp?
 /code/cpm.asp?
@@ -552,7 +554,7 @@ _popAds.
 /pagecpv/*
 /pd2.js$third-party
 /pge/?s=$third-party
-/s/i.php?id=$script
+/s/i.php?id=$script,third-party
 /svr/popwin.aspx?$third-party
 /tourl.html?url=
 /v.php?z=$script,third-party
