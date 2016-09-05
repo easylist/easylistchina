@@ -512,8 +512,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
-/msow.aspx?AID=
-||0592weixin.com^
 .com/code.php?z=$script,third-party
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
@@ -526,11 +524,6 @@ _popAds.
 /adtmp/*
 /AShow.aspx?AID=
 /c/i.php?id=$script,third-party
-:81/c/i.php?id=$script
-:81/s/i.php?id=$script
-||5207470.com^
-||bypbwm.cn^
-||yangdasen.cn^
 /center?advId=
 /code/cpc.asp?
 /code/cpm.asp?
@@ -551,6 +544,7 @@ _popAds.
 /m/i.php?id=$script,third-party
 /mobile/mads.js
 /mshow.aspx?AID=
+/msow.aspx?AID=
 /page/?s=$third-party
 /page/index.php?s=$third-party
 /page/s.php?s=$third-party
@@ -563,6 +557,8 @@ _popAds.
 /v.php?z=$script,third-party
 :8080/js/v1.js$third-party
 :8080/js/v2.1.js$third-party
+:81/c/i.php?id=$script
+:81/s/i.php?id=$script
 :9001/code/
 ubmcmm.baidustatic.com
 |http://*.*.cn/?ss=$script,third-party
@@ -592,6 +588,7 @@ ubmcmm.baidustatic.com
 ||033.com^$third-party
 ||0531kt.com^
 ||0591101.com^$third-party
+||0592weixin.com^
 ||0756j.com^$third-party
 ||0756sjlm.com.cn^
 ||0xxd.com^
@@ -688,6 +685,7 @@ ubmcmm.baidustatic.com
 ||4kt2.com^$subdocument
 ||51ads.com^$third-party
 ||51junpin.net^$third-party
+||5207470.com^
 ||525cm.com^$third-party
 ||526d.com^$third-party
 ||52kmh.com^$third-party
@@ -850,6 +848,7 @@ ubmcmm.baidustatic.com
 ||buzzads.com^$third-party
 ||bxjpl.cn^
 ||bydonline.com^
+||bypbwm.cn^
 ||c.91wan.com^$third-party
 ||caiyifz.com^$third-party
 ||caliyuna.cn^
@@ -1404,6 +1403,7 @@ ubmcmm.baidustatic.com
 ||xytom.com^
 ||xzdchl.com^$third-party
 ||xzyituo.com^
+||yangdasen.cn^
 ||ydcpc.com^$third-party
 ||ydlnt.com^
 ||ye3.com^$third-party
@@ -2696,6 +2696,7 @@ mg*.6park.com/img/$image
 ||bccn.net/aaa/
 ||bccnsoft.com/aaa/
 ||bcok.com^$subdocument
+||bcwft.com/jc.js
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
@@ -5147,6 +5148,7 @@ mg*.6park.com/img/$image
 ||soft.mumayi.net/js/
 ||soft711.com/2013/
 ||softhy.net/hp/
+||sogou.com/acquireAdvertise.
 ||sogou.com/skins/images/skinlist_ad.
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
@@ -5156,7 +5158,6 @@ mg*.6park.com/img/$image
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
 ||sootoo.com/son_media/msg/2010/11/16/30324.jpg
-||sogou.com/acquireAdvertise.
 ||soulu365.com/images/zhuce.jpg
 ||southmoney.com/page/inc/
 ||southmoney.com/page/top
@@ -5993,6 +5994,7 @@ mg*.6park.com/img/$image
 ||zk168.com.cn/js/s.js
 ||zk168.com.cn/js/sy
 ||zkrdy.com^
+||zmtiantang.com/js/gg
 ||znz888.cn/modblock/
 ||zo66.com^
 ||zol-img.com.cn/20*1000_
@@ -6031,13 +6033,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||bcwft.com/jc.js
-||zmtiantang.com/js/gg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zealer.com##.series_app
-123.sogou.com##.cs_right_hw
-123.sogou.com##.m-12[pbflag="guess"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8192,6 +8189,7 @@ cssmoban.com##.btn-host
 17173.com,gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
 ipeen.com.tw##.buttom_special_AD-root
+zealer.com##.buy_container
 sogou.com##.buy_mxx
 sogou.com##.buy_vr_dpinfo
 sogou.com##.buy_vr_dpmore
@@ -8319,6 +8317,7 @@ meishij.net##.cp_body_right
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 sm.cn##.crumb-link + .other
+123.sogou.com##.cs_right_hw
 tigtag.com##.custom-box02
 iplaysoft.com##.d250
 iplaysoft.com##.d250x90
@@ -8614,7 +8613,6 @@ xw.qq.com##.globalThemeTip
 tw.news.yahoo.com##.gn_sub_blue
 mail.pchome.com.tw##.good_ad
 weibo.com##.goods-box
-zealer.com##.buy_container
 mei521.com##.google
 techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
@@ -8968,6 +8966,7 @@ tv.sohu.com##.lux_left
 tv.sohu.com##.lux_right
 eastmoney.com##.lyad
 taihainet.com##.lzhb
+123.sogou.com##.m-12[pbflag="guess"]
 dwnews.com##.m-banner
 blog.163.com##.m-fixedPCAd
 moe123.com##.m-inner2[module="attention"]
@@ -9367,6 +9366,7 @@ haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 duba.com##.search_promotion
 ijia360.com##.search_radlist
 cnool.net##.second-banner
+zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
 peasyun.com##.sf_adv
 cctry.com##.sftop
