@@ -6035,6 +6035,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+muchong.com##.viewad
+muchong.com##A[href="http://www.zhuanyejun.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6374,7 +6376,7 @@ hao.rising.cn###bbTao
 zol.com.cn###bbsAd
 0597kk.com###bbsTopBanner
 zimuzu.tv###bbs_list_ad
-emuch.net###bbsmain > div[style="padding:10px 0;"] > table
+muchong.com###bbsmain > div[style="padding:10px 0;"] > table
 cntv.cn###bbspop
 gamme.com.tw###bd
 2345.com###bd-search-ad
@@ -7119,7 +7121,6 @@ xineurope.com###qmenu_menu + .wp
 hbzkw.com###qq-bottom
 qq.com###qqadv
 qq.com###qqmail_AD_container
-emuch.net###quick_newreply_1 + .t_title
 user.qzone.qq.com###qz_notification
 qq.com###r_ad
 163.com###r_mkaolaadv
@@ -10354,7 +10355,7 @@ ipc.me##div[style="margin:46px auto 66px auto;width:660px;height:140px"]
 yanqing888.me##div[style="margin:auto;width:960px;margin-top:10px;height:90px;"]
 gamer.com.tw##div[style="min-height:250px;margin-bottom:10px;"]
 eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
-emuch.net##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
+muchong.com##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 sina.cn##div[style="position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 999; width: 100%; -webkit-user-select: none; background-color: rgba(0, 0, 0, 0.4);"]
 btshark.org##div[style="position: fixed; right:0px; bottom: 0px"]
@@ -10600,10 +10601,10 @@ live.90bfw.com##td[height="22"][bgcolor="#FFFEE0"]
 dodo8.com##td[height="82"]
 ckdzb.com##td[height="90"][align="left"]
 cctime.com##td[onclick^="javascript:tj"]
-emuch.net##td[style="padding-right:15px;border-right:1px solid gray;"] + td[style="padding-left:15px;"]
-emuch.net##td[style="padding:10px;font-size:14px;"] > div > [style="color:green;"]:first-child
-emuch.net##td[style="padding:10px;font-size:14px;"] > div > a[href^="creditshow.php?action=view&logid="]
-emuch.net##td[style="padding:5px 10px;"] + td + td[style="padding-left:10px;"]:last-child
+muchong.com##td[style="padding-right:15px;border-right:1px solid gray;"] + td[style="padding-left:15px;"]
+muchong.com##td[style="padding:10px;font-size:14px;"] > div > [style="color:green;"]:first-child
+muchong.com##td[style="padding:10px;font-size:14px;"] > div > a[href^="creditshow.php?action=view&logid="]
+muchong.com##td[style="padding:5px 10px;"] + td + td[style="padding-left:10px;"]:last-child
 findprice.com.tw##td[style="width: 342px; padding:0px 0px 0px 5px;border-left:1px solid #c9d7f1;"] > table > tbody > tr:nth-last-child(n+3)
 hkgolden.com##td[style="width: 644px; vertical-align: top;"] > div[style^="height:29"]
 50.7.31.230,tvboxnow.com##td[style="width:15%;height:100%;"]
