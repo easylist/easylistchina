@@ -10763,8 +10763,10 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
+timesdata.com#@##adbody
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||timesdata.com/Public/*/ad$~third-party
 @@||sogou.com/adpub/cfg/sendmsg.
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
