@@ -514,8 +514,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||ezucods.cn^
-||mytzdhz.cn^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -971,6 +969,7 @@ ubmcmm.baidustatic.com
 ||evefashion.cn^
 ||eyouv.cn^$third-party
 ||ez33.com^$third-party
+||ezucods.cn^
 ||f1190.com^
 ||f6ce.com^
 ||f70123.com^
@@ -1168,6 +1167,7 @@ ubmcmm.baidustatic.com
 ||mtxsk.com^$third-party
 ||mycctvmedia.com^$third-party
 ||mytanwan.com^$third-party
+||mytzdhz.cn^
 ||myzwqwe12.com^$third-party
 ||nbjjd.com^
 ||ne9377.com^
@@ -1464,7 +1464,6 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||goo.gl^$popup,domain=up2stream.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -1498,6 +1497,7 @@ ubmcmm.baidustatic.com
 ||gd.189.cn/push/$popup,third-party
 ||gd.189.cn^*/push/$popup,third-party
 ||gd.ct10000.com^*/push/$popup,third-party
+||goo.gl^$popup,domain=up2stream.com
 ||greenet.cn^*_popu_$popup
 ||hinet.net/product/promotion/$popup
 ||ihualun.com^$popup
@@ -2607,6 +2607,7 @@ mg*.6park.com/img/$image
 ||autoimg.cn/engine/root/fggxl.js
 ||autonet.com.tw/90/AC_RunActiveContent.js
 ||autos.udn.com/topic/car/include/ad.jsp
+||av30.xyz/cs/
 ||avcity.twavtv.com/iframe/
 ||avlang33.com/js/float.js
 ||avonline.org/js/jquery.colorbox-
@@ -2809,6 +2810,9 @@ mg*.6park.com/img/$image
 ||bs028.com/js/inc/
 ||btago.com/static/banner/
 ||btbt.info/js/top960.js
+||btbtt.la/bt.js
+||btbtt.la/jslb.js
+||btbtt.la/jstb.js
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
 ||btks.me/ac/
@@ -4536,6 +4540,7 @@ mg*.6park.com/img/$image
 ||mycodes.net/js/hf_txt.js
 ||mydrivers.com/www/*-1000x90.
 ||mygeek.cn/pic_$domain=dapenti.com
+||myhack58.com/Articleacb0
 ||myhard.com/s?z=
 ||mymusic.net.tw/upload/mobile_web_tmp/indexad01.
 ||myqcloud.com/js/easou.js
@@ -4992,6 +4997,7 @@ mg*.6park.com/img/$image
 ||sbpig.com/images/erweima.jpg
 ||sc.chinaiiss.com/do.php?do=ad&
 ||sc.tom.com^
+||scibook.cn/tuiguang.
 ||scol.com.cn/js/def_
 ||scol.com.cn/scol-3/js/08scol_text_
 ||sconline.com.tw/top/coolpc_
@@ -6031,18 +6037,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||av30.xyz/cs/
-||myhack58.com/Articleacb0
-||scibook.cn/tuiguang.
-||btbtt.la/bt.js
-||btbtt.la/jslb.js
-||btbtt.la/jstb.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jeasyui.net###carousel-example-generic
-bilibilijj.com##A[style^="height"][href="#"]
-bilibilijj.com##DIV[class][style^="height:100%"]
-quanmin.tv##.g-gg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6451,7 +6447,7 @@ v.hao123.com###btn-dl-bro
 fuli.us###callboard
 ck101.com###canvas-section
 longzhu.com,tga.plu.cn###carousel
-galacg.me###carousel-example-generic
+galacg.me,jeasyui.net###carousel-example-generic
 mao-123.com,mengmao.org###cat3
 bbs-mychat.com###cate_top > tr > .f_one
 sina.com.tw###cboxOverlay
@@ -8045,7 +8041,6 @@ baidu.com##.banner-cover
 toutiao.com##.banner-index-bottom
 xdkb.net##.banner-l
 crsky.com##.banner-leader
-ftchinese.com##.bn-ph
 fuli.us##.banner-post
 tianshi2.com##.banner-sticky
 big-cup.tv,g-cup.tv##.banner-table-block
@@ -8148,6 +8143,7 @@ iyaxin.com##.block_area_ads
 daqi88.com##.blog_content_ad
 m.tiexue.net##.blue
 xianzhenyuan.cn##.bm.a_c
+ftchinese.com##.bn-ph
 oogps.com##.bnn
 oogps.com##.bnn1
 vipcn.com##.bnr
@@ -8513,6 +8509,7 @@ xiagaoqing.com##.full-width
 gamme.com.tw##.fullad_ad
 rosmm.com##.fwinmask
 jieshao.org##.fx620
+quanmin.tv##.g-gg
 hiapk.com##.g2.mt20
 hiapk.com##.g2_img_l
 hiapk.com##.g2_img_r
@@ -10031,6 +10028,7 @@ cnliti.com##a[style="position:absolute;width: 450px;height: 140px;right: 200px;t
 btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
 5652.com##a[style^="background: url("][onclick^="views('ad',"]
 houdao.com##a[style^="background:url"]
+bilibilijj.com##a[style^="height"][href="#"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
 creaders.net##a[title^="www.136888.com/new/ad."]
 api.so.lianmeng.360.cn,e.70e.com,pos.baidu.com##body
@@ -10088,6 +10086,7 @@ ifeng.com##div[class="adbox02"]
 ithome.com.tw##div[class="span4"]
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
 tiexue.net##div[class][style="display:none;"] + div[class]
+bilibilijj.com##div[class][style^="height:100%"]
 cyol.com##div[class^="AD"]
 news.sina.com.cn##div[class^="ATopTxt"]
 168cz.com##div[class^="Ad_Left_"]
@@ -10771,8 +10770,6 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||av30.xyz/cs/2.js
-@@/popunderv2.$domain=up2stream.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -10849,6 +10846,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/PIC/AD/*$domain=ybjk.com
 @@/pop.js|$domain=189.cn|ali213.net|coolpad.com
 @@/pop.php?id=$domain=videomega.tv
+@@/popunderv2.$domain=up2stream.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/sda/weixin$domain=chineseinla.com
 @@/show_ad_$domain=wb.qq.com
@@ -10979,6 +10977,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||astyle.alicdn.com/??
 @@||atm.youku.com/cast/getFlvUrl.
 @@||autohome.com.cn/adfront/deliver?*%*%*%*%*%*%*%*&pageid=
+@@||av30.xyz/cs/2.js
 @@||avmemo.com^$generichide
 @@||avmo.pw^$generichide
 @@||avmoo.com^$generichide
