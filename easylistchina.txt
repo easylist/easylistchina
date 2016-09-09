@@ -516,9 +516,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||zsdexun.com.cn^
-||zhihei.com^
-||xulizui6.com^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -1404,6 +1401,7 @@ ubmcmm.baidustatic.com
 ||xsu.cc^$third-party
 ||xtgreat.com^$third-party
 ||xtxa.net^
+||xulizui6.com^
 ||xxad.cc^
 ||xxhrd.com^
 ||xxwkjl.com^
@@ -1462,11 +1460,13 @@ ubmcmm.baidustatic.com
 ||zgksb.com^
 ||zgunion.cn^
 ||zgyiyi.com^$third-party
+||zhihei.com^
 ||zhuba8.com^
 ||zhybzp.cn^
 ||zj66.net^$third-party
 ||zp22938576.com^
 ||zp265.com^$third-party
+||zsdexun.com.cn^
 ||ztdsp.com^$third-party
 ||zytwq.net^$third-party
 ||zzrcz.com^
@@ -6046,9 +6046,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-19lou.com##.ad-place-logo
-cnbeta.com##P:last-child > A[href^="https://clkde.tradedoubler.com/"]
-btbtt.la###wrapper2 > .width
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7423,6 +7420,7 @@ chcj.net,yixingjia.com###wp > table[width="960"]
 21edu8.com###wrap[style="margin-top:5px;margin-bottom:5px;height:90px;"]
 taoguba.com.cn###wrap_footer > div[style*="960"]
 gdzjdaily.com.cn###wrapper > div[style^="margin-top:6px;"]
+btbtt.la###wrapper2 > .width
 wuleba.com###wulebashowcpc
 k.sogou.com###wx_m
 huanqiu.com###wxhz1
@@ -7640,6 +7638,7 @@ iqilu.com##.ad-l-w1000
 ifeng.com##.ad-list
 qq.com##.ad-long-pic
 xinhuanet.com##.ad-news01
+19lou.com##.ad-place-logo
 baidu.com##.ad-platform-tips
 baofeng.com##.ad-pop-wrap
 2500sz.com##.ad-quanping
@@ -10519,6 +10518,7 @@ china.com##object[width="360"][height="300"]
 sina.com.cn##p + .article-video
 bbs.6park.com##p > font[color="E6E6DD"]
 blue-way.com.tw,like101.com.tw##p:first-child + [border="1"][width="100%"]
+cnbeta.com##p:last-child > a[href^="https://clkde.tradedoubler.com/"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
 csj.xinhuanet.com##script + center > a > img
@@ -10859,6 +10859,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/pop.php?id=$domain=videomega.tv
 @@/popunderv2.$domain=up2stream.com
 @@/pub/ad/*$domain=ruten.com.tw
+@@/pub1/??$domain=banggo.com
 @@/sda/weixin$domain=chineseinla.com
 @@/show_ad_$domain=wb.qq.com
 @@/show_ads_impl.js$domain=serve.netsh.org
@@ -11144,7 +11145,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
-@@/pub1/??$domain=banggo.com
 @@||mediav.com^$domain=dev.360.cn
 @@||meiyouad.com/ad.html
 @@||meizu.com/fileserver/ad/img/
