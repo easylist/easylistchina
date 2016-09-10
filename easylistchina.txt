@@ -516,7 +516,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||88818122.cn^
 .com/ge/?s=$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
@@ -734,6 +733,7 @@ ubmcmm.baidustatic.com
 ||81c.cn^
 ||85tgw.com^
 ||860010.com^
+||88818122.cn^
 ||88cpc.com^$third-party
 ||88rpg.net^
 ||8910ad.com^$third-party
@@ -5252,7 +5252,6 @@ mg*.6park.com/img/$image
 ||t.58xs.com/hot/
 ||t259.net/images/*.gif
 ||t259.net/js/click_showclose.js
-||tabboa.com/sun/sun.js
 ||taihainet.com/biz/
 ||taihe.net/js/ad
 ||taiwan.cn/images/tw_ad_
@@ -6036,15 +6035,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-muchong.com##.adtable + .hr_10 + .wrapper > .bg_global_padding
-muchong.com##.xmc_Logo + .xmc_fr
-muchong.com##A[href^="adlog."] > IMG[height="90"]
-muchong.com##P[onclick="view_ok();"]
-muchong.com##.xmc_green + A[href^="creditshow."]
-muchong.com##.a_subject[href^="creditshow."]
-tvapk.net###frame5zglZ4
-tvapk.net###framelP7piy
-narutom.com###hy_float
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6711,6 +6701,7 @@ iafbbs.com###frame3v9fyC
 opbbs.in###frame435JTi
 yangluo.cn###frame51RcxP
 211600.com###frame5B94Fv
+tvapk.net###frame5zglZ4
 2000fun.com###frameA20TTA
 2muslim.com###frameD3x9G6_center > :nth-child(2n)
 lysq.com###frameD955k5
@@ -6723,6 +6714,7 @@ yangluo.cn###frameVw7574
 gz0668.com###framec32DR1
 tvapk.net###framecd6V1M
 tvapk.net###framecok2oE
+tvapk.net###framelP7piy
 qhf168.com,qianhua.biz,qianhuaw.com###framelzHoHY
 wcjbb.com###frameo834m9
 bbs.liao1.com###frameppbC61
@@ -6829,6 +6821,7 @@ ifeng.com###hslide_sPic_360
 ifeng.com###hslide_sPic_baidu
 022net.com###html05 > .margin:first-child
 xinhuanet.com###huazhongad
+narutom.com###hy_float
 25xz.com###iad
 qzone.qq.com###idQbossHotbar
 mzyz.com###idTransformView2
@@ -7586,6 +7579,7 @@ chacuo.net##.a96090
 0772fang.com##.a_banner
 91txh.com##.a_ssk_cn
 91txh.com##.a_ssk_pt
+muchong.com##.a_subject[href^="creditshow."]
 163.com##.a_topad
 qq.com##.aaddvv__list
 bejson.com##.ab
@@ -7642,6 +7636,7 @@ baofeng.com##.ad-pop-wrap
 me.qidian.com##.ad-shell
 iqilu.com##.ad-short
 deardu.com##.ad-site
+tech2ipo.com##.ad-sitehome-right
 www.sogou.com##.ad-tab-box > #tabCon
 www.sogou.com##.ad-tab-box > #tabNav
 qq.com##.ad-text-box
@@ -7897,6 +7892,7 @@ zhangleisir.cn##.ads_logo
 bthave.com##.adsense
 qinbing.cn##.adspic_mid2
 blog.dausos.com,ynet.com##.adt
+muchong.com##.adtable + .hr_10 + .wrapper > .bg_global_padding
 chinaz.com,yawin.cn##.adtext
 114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,silver.org.cn,solidot.org,v1.cn,ylmf.com,yxdown.com##.adv
 19lou.com##.adv-fixed
@@ -8811,7 +8807,6 @@ sznews.com##.indexcon07
 xdjishu.com##.indexgg1
 chinairn.com##.industry
 itjsb.com##.info_ad
-tech2ipo.com##.ad-sitehome-right
 wangyeba.com##.innner950
 131458.com##.inq_01
 131458.com##.inq_02_C_z
@@ -9801,6 +9796,8 @@ cha.haogeba.com,taoyoudu.com##.xinyongBox > :not(dd)
 shulink.com##.xiongti_list
 xilu.com##.xlad
 xilu.com##.xladAdvList
+muchong.com##.xmc_Logo + .xmc_fr
+muchong.com##.xmc_green + a[href^="creditshow."]
 itopdog.cn##.xoxo > [id^="text-"]
 wapwenku.baidu.com,wk.baidu.com##.xuantingwrap
 21cn.com##.xuantu
@@ -9947,6 +9944,7 @@ sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
 btkitty.la,btkitty.me,btkitty.org,btlibrary.com,btlibrary.org,diggbt.com,diggbt.net,storebt.com##a[href^="/search/"],a[onclick][target="_blank"],a[style],a[href$=".php"],[id] > a[href$=".html"],[onclick*="("]
+muchong.com##a[href^="adlog."] > img[height="90"]
 css88.com##a[href^="http"]:not([href*=".css88.com"]) > img
 qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
@@ -10513,6 +10511,7 @@ sina.com.cn##p + .article-video
 bbs.6park.com##p > font[color="E6E6DD"]
 blue-way.com.tw,like101.com.tw##p:first-child + [border="1"][width="100%"]
 cnbeta.com##p:last-child > a[href^="https://clkde.tradedoubler.com/"]
+muchong.com##p[onclick="view_ok();"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
 csj.xinhuanet.com##script + center > a > img
@@ -10815,8 +10814,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com
-@@/advertisement.$domain=techug.com
-@@/advertisement.$domain=0513c.com|gametower.com.tw
+@@/advertisement.$domain=0513c.com|gametower.com.tw|techug.com
 @@/advertisement.js$domain=fharr.com
 @@/advertisement/*$domain=ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
