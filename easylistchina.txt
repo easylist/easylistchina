@@ -6039,6 +6039,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn^$domain=qyule.lol
 !------------------------Specific element hiding rules------------------------!
 qyule.lol##.ads
+cnbeta.com##.content > P:last-child > A[href]
 tvhome.com##A[href^="http://www.tvhome.com/SiteAdvert?"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top_toutu_admarks + .tbui_slideshow_list
 gpcxw.com###AA2
@@ -10520,7 +10521,6 @@ china.com##object[width="360"][height="300"]
 sina.com.cn##p + .article-video
 bbs.6park.com##p > font[color="E6E6DD"]
 blue-way.com.tw,like101.com.tw##p:first-child + [border="1"][width="100%"]
-cnbeta.com##p:last-child > a[href^="https://clkde.tradedoubler.com/"]
 muchong.com##p[onclick="view_ok();"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
