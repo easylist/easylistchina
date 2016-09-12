@@ -439,7 +439,6 @@ _popAds.
 ##.ggtop
 ##.google_adsense2
 ##.hfad + .sa-sub
-##.sa-rect.margin-left-p1
 ##.his-sign-cont[data-dysign-adid]
 ##.home-ggggg430
 ##.indexad2
@@ -466,6 +465,7 @@ _popAds.
 ##.room-ad-bottom
 ##.room-ad-top
 ##.room-ad-video-down
+##.sa-rect.margin-left-p1
 ##.scupioadslot
 ##.showHaoSouBanner
 ##.sxAdBox
@@ -2995,8 +2995,8 @@ mg*.6park.com/img/$image
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
-||citysbs.com^*/800x90-
 ||citysbs.com/no/*/980x
+||citysbs.com^*/800x90-
 ||citysbs.com^*swf
 ||cj.qidian.com/Picture/$domain=forum.qidian.com|sosu.qidian.com
 ||cj.qidian.com^$object,subdocument
@@ -5186,6 +5186,7 @@ mg*.6park.com/img/$image
 ||srzc.com^*/zwfjs/
 ||ssajax.cn/js/info/ads/
 ||ssnn.net^*-200-250.jpg
+||sspai.com/attachment/origin/2016/09/09/346529.png
 ||sspai.com/attachment/sponsor/
 ||sss.sege.xxx^
 ||starbaby.cc/201608/36/f526d86de292e4.jpg
@@ -6034,12 +6035,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sspai.com/attachment/origin/2016/09/09/346529.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sspai.com##.content > HR + P:nth-last-child(3)
-indeepnight.com###HTML9
-19lou.com##.zx-link
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6094,6 +6091,7 @@ azofreeware.com###HTML1
 pttjoke.com###HTML1 > .widget-content > div > p
 azofreeware.com###HTML3
 azo-diary.blogspot.com,azo-diary.blogspot.hk,azo-diary.blogspot.tw###HTML4
+indeepnight.com###HTML9
 zhoushan.cn###Headtop
 tigtag.com###Home1000x70_A29
 tigtag.com###Home942x70_A1
@@ -8302,6 +8300,7 @@ u-car.com.tw##.contad
 766.com##.container > .fl
 gminfo.cn##.container > p
 www.wangjing.cn##.content > div[style*="980px;"]
+sspai.com##.content > hr + p:nth-last-child(3)
 cnbeta.com##.content > p:last-child > a[href]
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
@@ -9853,6 +9852,7 @@ rshhy.com##.zpw_guangao
 efu.com.cn##.zs_banner_a
 srzc.com##.zt_tonglang1
 meili.cn##.zw_300_ad
+19lou.com##.zx-link
 iqiyi.com##.zzVideo
 v7v3.com##.zzsl
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
