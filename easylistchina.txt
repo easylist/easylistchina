@@ -1525,7 +1525,6 @@ ubmcmm.baidustatic.com
 ||smartor.org/iclk/?zoneid=$popup
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
-||t-movies.com.tw/pop.asp$popup
 ||taobao.com^$popup,domain=bilibilijj.com|hacg.red|xianzhenyuan.cn
 ||tmall.com^$popup,domain=xianzhenyuan.cn
 ||todayapp.cc^$popup,third-party
@@ -5391,7 +5390,6 @@ mg*.6park.com/img/$image
 ||tuicool.com/images/upload/aliyun
 ||tuku.cc/extra/*.js
 ||tumb8r.com/zb_users/upload/20*.gif
-||tuwan.com/templet/lol/temp/
 ||tv380.com/ovp/ovp_home/*/adi/
 ||tv6080.com/520/index.htm
 ||tv6080.com/qqt/
@@ -6036,6 +6034,10 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+tpy888.cn##.ad3
+tpy888.cn##.ad4
+tpy888.cn##.ads
+tpy888.cn##.nead
 tuwan.com##DIV[style$="height:90px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6201,7 +6203,6 @@ yy6080.co,yy6080.org###adArea
 dahe.cn###adArea1
 fhm.com.tw###adBig
 baidu.com###adCard
-tpy888.cn###adDiv_zhengzhouhengfu
 yeecloud.com###adFirefox
 baidu.com###adMainTopLeft
 baidu.com###adMainTopRight
@@ -10506,7 +10507,7 @@ hz0572.com,pingpang.info##img[width="950"]
 676000.com##img[width="957"]
 0743ds.com,cnjxol.com,e0575.cn,jmw.com.cn##img[width="960"]
 xinhuanet.com##img[width="970"][height="60"]
-jznews.com.cn,tpy888.cn##img[width="980"]
+jznews.com.cn##img[width="980"]
 gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
@@ -10775,7 +10776,6 @@ fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 house.shangdu.com#@#.top_ad
 yhd.com#@#.txtAd
-tvmost.com.hk#@#.v_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
