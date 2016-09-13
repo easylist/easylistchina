@@ -6047,7 +6047,11 @@ mg*.6park.com/img/$image
 ||map.baidu.com^$domain=wodexiaoshuo.com
 ||wodexiaoshuo.com/js/*lun.js
 ||wodexiaoshuo.com/js/*zhangjie.js
+||78dm.net/uploads/imgs/2013/*980
+||78dm.net/uploads/imgs/2013/*250
 !------------------------Specific element hiding rules------------------------!
+78dm.net##.aside-add
+78dm.net##DIV[class^="couple-"]
 gpcxw.com###AA2
 ishuhui.com##.ad
 hc360.com,yaolan.com###AD
@@ -6127,8 +6131,8 @@ cqsq.com###J_posts_list > a[target="_blank"]
 chem99.com###J_tcode
 2345.com###J_tip_stopXP
 61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
-78dm.net,sozi.cn,techweb.com.cn###Javascript\.LeftDiv
-78dm.net,qzwb.com,sozi.cn,techweb.com.cn###Javascript\.RightDiv
+sozi.cn,techweb.com.cn###Javascript\.LeftDiv
+qzwb.com,sozi.cn,techweb.com.cn###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
 huarenjie.com###LeftAd2
 hcwang.cn###LeftAda
@@ -7928,7 +7932,6 @@ tgbus.com##.adv_760x100
 sohu.com##.adv_960
 kuai.xunlei.com##.adv_area
 le.com,letv.com##.adv_img
-78dm.net##.adv_logo
 kaifu.com##.adv_slide
 v1.cn##.advbigJs
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,tzfdc.com.cn##.advbox
@@ -10148,7 +10151,6 @@ jj59.com##div[class^="art_a"]
 265g.com##div[class^="ban"]
 hd-dwr.com##div[class^="banner-"]
 cztv.com##div[class^="banner_"]
-78dm.net##div[class^="duilian"]
 syd.com.cn##div[class^="eap"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl"][class*="game"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl-edu-"]
