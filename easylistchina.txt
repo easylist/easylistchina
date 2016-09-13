@@ -6051,6 +6051,9 @@ mg*.6park.com/img/$image
 ||78dm.net/uploads/imgs/2013/*250
 !------------------------Specific element hiding rules------------------------!
 78dm.net##.aside-add
+bilibilijj.com##[style="height:100%;"]
+bilibilijj.com##DIV[class][style$=" margin-top 1.5s cubic-bezier(0.2,0.2,0,1);height:100%;"]
+bilibilijj.com##SCRIPT + DIV[class]:not([style])
 78dm.net##DIV[class^="couple-"]
 gpcxw.com###AA2
 ishuhui.com##.ad
