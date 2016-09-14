@@ -515,9 +515,7 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||birdmedia.com^$third-party
 .com/ge/?s=$script,third-party
-||tjqonline.cn^
 .com/htmlcode/$third-party
 .com/jscode/$third-party
 .com/mediaController.php?pid=$script,third-party
@@ -843,6 +841,7 @@ ubmcmm.baidustatic.com
 ||behe.com^$third-party
 ||biddingx.com^$third-party
 ||bigbos.top^
+||birdmedia.com^$third-party
 ||biyibia.com^
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
@@ -1305,6 +1304,7 @@ ubmcmm.baidustatic.com
 ||thescenseproject.com^
 ||tiangu99.com^
 ||tianqi777.com^
+||tjqonline.cn^
 ||tk001.com^$third-party
 ||to8to.com^$third-party
 ||toourbb.com^
@@ -6051,10 +6051,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
-nick18.com,niko18.com##.list_ads
-fanyi.baidu.com##.trans-side-ad-wrap
 gpcxw.com###AA2
-bilibilijj.com##A[href="##"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7519,6 +7516,7 @@ le.com,letv.com##.Banner
 china.com.cn##.Banner_left
 china.com.cn##.Banner_right
 bilibilijj.com##.Box > div > div > div > :first-child
+bilibilijj.com##.Box > script + div[class]:not([style])
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
 xvna.com##.Cad1
 ifeng.com##.ColBLAvt
@@ -8960,6 +8958,7 @@ cheers.com.tw##.listTxt.news
 niotv.com##.list[height="60"]
 qqbody.com##.list_300
 tvhome.com##.list_Ad
+nick18.com,niko18.com##.list_ads
 qunar.com##.list_promotion_bar
 58.com##.listpage_detail
 sjzbus.com.cn##.litBanner
@@ -9687,6 +9686,7 @@ suopao.org##.tr3.t_one[onmouseout]
 cnjxol.com##.tr_r
 ifeng.com##.trade
 dict.baidu.com##.tran-download-ad
+fanyi.baidu.com##.trans-side-ad-wrap
 tw.yahoo.com##.travelads
 pchome.com.tw##.tripplead
 ts.cn##.tsggding
@@ -9936,6 +9936,7 @@ jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 zdfans.com##a[href*="zdzdm."]
 cnzol.com##a[href*="zhuan5."]
+bilibilijj.com##a[href="##"]
 lovecqian.com##a[href="/gg/1.html"]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
 bejson.com##a[href="/other/jikefma/"]
@@ -10544,7 +10545,6 @@ muchong.com##p[onclick="view_ok();"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
 csj.xinhuanet.com##script + center > a > img
-bilibilijj.com##.Box > SCRIPT + DIV[class]:not([style])
 wendu.cn##script + div[style="width:1000px; margin:0px auto;"]
 tiexue.net##script + style + div[class]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
