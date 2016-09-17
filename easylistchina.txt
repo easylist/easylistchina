@@ -11,12 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/1867fa6ff2e978a303d41b08e2b30b50.gif
-/120704004750.gif
-/120704004751.gif
-/122300031760.gif
-:8081/abc/interurl.jsp?
-/stoneip_Sidebar.png
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -41,6 +35,10 @@
 .us/js/ads/
 .xyz/js/ads/
 /119g/640x60_
+/120704004750.gif
+/120704004751.gif
+/122300031760.gif
+/1867fa6ff2e978a303d41b08e2b30b50.gif
 /2016v2/js/adm2.js
 /8drama_yahoo/*
 /9115gg/*
@@ -207,6 +205,7 @@
 /source/plugin/mama_tips/*
 /ssdxad.swf
 /static/adsview/*
+/stoneip_Sidebar.png
 /sxgg/12.js
 /sxgg/13
 /taihai/v2014/images/index/aa_10.
@@ -237,6 +236,7 @@
 :1010/openV5.js
 :8080/ad/
 :8080/advserver/
+:8081/abc/interurl.jsp?
 :818/nowscore/
 :8898/ads_
 =ads.processReqChange^
@@ -522,7 +522,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||ujikdd041o.cn^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -1338,6 +1337,7 @@ ubmcmm.baidustatic.com
 ||ufstone.com^$third-party
 ||ugoooo.com^$third-party
 ||ujian.cc^$third-party
+||ujikdd041o.cn^
 ||ukeiae.com^
 ||ulink.cc^$third-party
 ||unimhk.com^$third-party
@@ -1492,12 +1492,12 @@ ubmcmm.baidustatic.com
 ||zytwq.net^$third-party
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
-/freeone/1024.html$popup
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
 /BadwebRemindPage.aspx?param=$popup,third-party
+/freeone/1024.html$popup
 /hndxweb/push$popup,third-party
 /item.htm?$popup,domain=www.tsdm.net
 /portalwlanad/pages/*$popup
@@ -1559,7 +1559,6 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .gdmm.com/mp4/bgy.mp4
-||51dll.com/dll/img/1.gif
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 .pcrookie.com/ad/
@@ -2136,6 +2135,7 @@ mg*.6park.com/img/$image
 ||51bczx.com/js/float.js
 ||51credit.com/credit/images/201505/ggchedai.jpg
 ||51cto.com/js/blog_top_list.php
+||51dll.com/dll/img/1.gif
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51gaojian.com/js/tj.js
 ||51gugu.com/popwin/AutoHAdShow.aspx
@@ -2663,6 +2663,7 @@ mg*.6park.com/img/$image
 ||bahamut.com.tw/M/2KU/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw/M/2KU/60/0001411360.JPG$~collapse
 ||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
+||bahudy.com/Runtime/js/fumeiti.js
 ||baidu.com/adver?
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiad/
@@ -4464,6 +4465,7 @@ mg*.6park.com/img/$image
 ||market.21cn.com^
 ||market.duowan.com^
 ||masadora.net/kakusan-
+||masturbation22.com/d/
 ||mat1.gtimg.com/2014/vikkydu/GA/haier
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
@@ -5243,6 +5245,7 @@ mg*.6park.com/img/$image
 ||sto.cn*/temp/adv.jpg
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/info/*0x
+||stoneip.info/wp-content/uploads/*/SIM-
 ||storetorrent.org/static/best/795X60.gif
 ||storetorrent.org/static/js/best
 ||storm.mg/ad?
@@ -6062,15 +6065,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||stoneip.info/wp-content/uploads/*/SIM-
-||bahudy.com/Runtime/js/fumeiti.js
-||masturbation22.com/d/
 !------------------------Specific element hiding rules------------------------!
-masturbation22.com##.ima
-bcbay.com##.discuss + TABLE
-bcbay.com##.syzx
-bcbay.com##TABLE[id] + TABLE[style="margin:3px auto;"]
-bcbay.com##.ad_txt_box
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7863,6 +7858,7 @@ jb51.net##.ad_tonglan
 pchome.com.tw##.ad_triple
 fulibac.com##.ad_two
 pjtime.com##.ad_txt
+bcbay.com##.ad_txt_box
 putclub.com##.ad_vipabc
 yinyuetai.com##.ad_w300
 itavcn.com##.ad_wordxin
@@ -8394,6 +8390,7 @@ faxingw.cn##.detailgc
 qqdaohang.com##.dhad
 wenku.baidu.com##.dialog-ad-hd
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
+bcbay.com##.discuss + table
 gs.chinanews.com.cn##.div1000_2 + .div980
 131458.com##.divGuanggao
 0597ok.com##.div_ad
@@ -8797,7 +8794,7 @@ aiyuke.com##.igamead
 ifeng.com##.iggLine
 outofmemory.cn##.iloveoutofmemory660
 im286.net##.im286-t
-playallvideos.com,pron.co,ratedxbiz.com##.ima
+masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com##.ima
 m.cnbeta.com##.image-container
 edu24ol.com##.image_01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.images_game_container
@@ -9544,7 +9541,7 @@ heiguang.com##.syAdTopTxt
 17jiaoyu.com##.sy_ad
 zhlzw.com##.sygg
 zhifang.com##.sytl
-creaders.net##.syzx
+bcbay.com,creaders.net##.syzx
 17ok.com##.t-bann
 dushiwenxue.com##.t1
 17yy.com##.t2_3
@@ -10601,6 +10598,7 @@ angelweb.cn##table[height="250"]
 86zw.org##table[height="266"]
 sdzbcg.com##table[height="41"]:last-child
 hackbase.com##table[height="648"] > tbody > tr > td > p:nth-last-child(n+2)
+bcbay.com##table[id] + table[style="margin:3px auto;"]
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
 travel.qingdaonews.com##table[style="height:200px; overflow:hidden;"]
 52life.cc##table[style="margin-top:0"]
