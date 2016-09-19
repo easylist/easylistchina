@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/api/autosda.php
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -224,7 +225,6 @@
 /ttmeiju/images/ts.gif
 /tuiguang/*
 /u/_sponsor/*
-/uedbet/pause.
 /View/img/b72890.jpg
 /W3Cfuns_Adv/*
 /wap_advpic/*
@@ -5338,7 +5338,6 @@ mg*.6park.com/img/$image
 ||tianshui.com.cn/sd.swf
 ||tianshui.com.cn/yb.html
 ||tiansin.com/wp-adsense/
-||tiantian.tv/api/autosda.php
 ||tiantian.tv/js/banner.js
 ||tiantian.tv/sda/$image
 ||tiantiandy.com/ad-js/
@@ -6070,6 +6069,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||04stream.tv/sda/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10497,7 +10497,6 @@ v.163.com##div[style^="width: 140px; height: 199px;"]
 ieche.com##div[style^="width: 298px;height:250px;"]
 danhuaer.com##div[style^="width: 336px;height: 280px;"]
 guofs.com##div[style^="width: 882px;"]
-t6t8.com##div[style^="width: 965px;height:90px;"]
 imanhua.com##div[style^="width: 978px;"]
 my0538.com##div[style^="width:1000px;"][style*="50px;"]
 house365.com##div[style^="width:1200px;height:"]
