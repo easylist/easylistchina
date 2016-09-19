@@ -522,7 +522,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||e704.net^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -964,6 +963,7 @@ ubmcmm.baidustatic.com
 ||dzsstye.com^$third-party
 ||e701.net^
 ||e70123.com^
+||e704.net^
 ||e705.net^
 ||e706.net^
 ||e708.net^
@@ -2117,6 +2117,7 @@ mg*.6park.com/img/$image
 ||44921.cn/ajsv1/flashad_
 ||464mnk.com/templets/new/static/js/common.js
 ||46g.cn/images/top.gif
+||4hu8.com/js/jquery.js
 ||4kong.com/xk.jpg
 ||50.7.31.230/ads_
 ||500xxxx.com/go.js
@@ -4906,6 +4907,7 @@ mg*.6park.com/img/$image
 ||qq.com/bbs/bbs_topgg.htm
 ||qq.com/coral/ADS
 ||qq.com/game/footerbar$subdocument
+||qq.com/games/videogame.htm
 ||qq.com/iframe/player.html?vid=b0314fm7zqa&
 ||qq.com/Index/getAdsAndHotspot
 ||qq.com/livemsg?
@@ -5058,6 +5060,7 @@ mg*.6park.com/img/$image
 ||se533.com/template/new/css/*.js
 ||sejie2.us/images/*.gif
 ||sentsin.qiniudn.com/ad_
+||sesepa.com/topjs/
 ||sexbarss.net/wap/
 ||sextop.com.tw/upload/blocker/header_new.gif
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
@@ -6067,13 +6070,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||sesepa.com/topjs/
-||4hu8.com/js/jquery.js
-||qq.com/games/videogame.htm
 !------------------------Specific element hiding rules------------------------!
-qq.com##.player_bg_ad
 gpcxw.com###AA2
-bufan.com###rich_media
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7176,6 +7174,7 @@ youku.com###relationvideo_async > .items > .v-horiz:nth-child(-n+2)
 image.baidu.com###relecom54
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###replyBusinessImg
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
+bufan.com###rich_media
 sogou.com###right > .atTrunk
 2345.com###right > div:first-child
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
@@ -9263,6 +9262,7 @@ ligelin.com,missioncouver.com.cn##.play_ad300_2
 news.ifeng.com##.play_center
 kaifu.com##.play_fmt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
+qq.com##.player_bg_ad
 play.jb51.net##.playlistRT
 play.jb51.net##.playtlbdx
 moonbbs.com##.plc.plm > div > div > a[href*=".dealmoon.com"]
