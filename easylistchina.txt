@@ -524,7 +524,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||lyhdream.com^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -1163,6 +1162,7 @@ ubmcmm.baidustatic.com
 ||lu.sogou.com^
 ||lv711.net^$third-party
 ||lx167.com^$third-party
+||lyhdream.com^
 ||lyrymy.com^
 ||lzmm8.com^
 ||mainbx.com^
@@ -3036,6 +3036,7 @@ mg*.6park.com/img/$image
 ||club.pchome.net/*/localexchange.php$subdocument
 ||cmhello.com/2015/10/hc.jpg
 ||cmsjs.eastmoney.com^$subdocument
+||cmvcd.com/baidu/
 ||cna5.cc/skins/js/
 ||cnbeta.com/assets/images/*_670_90.
 ||cnbetacdn.com/320-50.
@@ -6078,11 +6079,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||cmvcd.com/baidu/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-076299.com##.itemFloat
-bilibilijj.com##div[style="width: 676px;"]:last-child
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8878,7 +8876,7 @@ wn789.com##.iradbox
 henan100.com##.itad
 bt.ktxp.com##.item-box2.money
 oupeng.com##.item-list[href^="/go.do?"]
-gaominews.com##.itemFloat
+076299.com,gaominews.com##.itemFloat
 wasu.cn##.item_lsit_ad
 cnbeta.com##.items_area .time
 wn789.com##.ivad
@@ -10452,6 +10450,7 @@ bilibilijj.com##div[style="width: 260px;"] > .PBox:first-child > [style="height:
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 bilibilijj.com##div[style="width: 500px;"]:last-child
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
+bilibilijj.com##div[style="width: 676px;"]:last-child
 chazidian.com##div[style="width: 95%; border: 1px solid rgb(230, 123, 121); background-color: rgb(255, 252, 239); color: rgb(230, 44, 40); padding: 0px 15px; height: 40px; line-height: 40px; margin: 5px auto; text-align: center; clear: both;"]
 tonghuacun.com##div[style="width: 960px;margin: 0 auto;height:93px;"]
 sznews.com##div[style="width:1000px; height:120px; position:relative;"]
@@ -10847,7 +10846,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||85po.com^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -11003,6 +11001,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||7s8.net/image/ads/
 @@||7vk.com/detail/shehuipinlun.js
 @@||8591.com.tw^*/buyAd.css
+@@||85po.com^$generichide
 @@||95306.cn/public/images/ad/
 @@||95599.cn^*/images/ad.
 @@||99ting.cn/image/ding.gif
