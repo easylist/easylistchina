@@ -5229,7 +5229,6 @@ mg*.6park.com/img/$image
 ||srzc.com^*/zwfjs/
 ||ssajax.cn/js/info/ads/
 ||ssnn.net^*-200-250.jpg
-||sspai.com/attachment/origin/2016/09/09/346529.png
 ||sspai.com/attachment/sponsor/
 ||sss.sege.xxx^
 ||starbaby.cc/201608/36/f526d86de292e4.jpg
@@ -8356,7 +8355,7 @@ u-car.com.tw##.contad
 766.com##.container > .fl
 gminfo.cn##.container > p
 www.wangjing.cn##.content > div[style*="980px;"]
-sspai.com##.content > hr + p:nth-last-child(3)
+sspai.com##.content > HR:nth-last-child(-n+4) ~ P
 cnbeta.com##.content > p:last-child > a[href]
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
