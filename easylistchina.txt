@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/c/674_rlt.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -75,6 +74,7 @@
 /bbh_ad_
 /botad.html
 /btba/ad/*
+/c/674_rlt.js
 /cache/ad_js/*
 /caches/poster_js/*
 /caiguu_gg_
@@ -525,9 +525,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||youfumei.com^
-||nlrsq.com^
-||bosiwangzi.cn^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -867,6 +864,7 @@ ubmcmm.baidustatic.com
 ||bnuni.com^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||boosj.com^$third-party
+||bosiwangzi.cn^
 ||bttyue.com^$subdocument
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
@@ -1209,6 +1207,7 @@ ubmcmm.baidustatic.com
 ||niuza.com^$image,subdocument,third-party
 ||niwota.com^$third-party
 ||njq.net^
+||nlrsq.com^
 ||nmbtedu.com^$third-party
 ||nord-raum.com^$third-party
 ||notice.uchome.manyou.com^
@@ -1464,6 +1463,7 @@ ubmcmm.baidustatic.com
 ||yongkang6.com^
 ||yongv.com^$third-party
 ||youbet8.com^$third-party
+||youfumei.com^
 ||youle55.com^$third-party
 ||yousee.com^
 ||youxiaoad.com^$third-party
@@ -2459,6 +2459,7 @@ mg*.6park.com/img/$image
 ||9ist.com/others/ad/
 ||9kjj.com/images/*.gif
 ||9sky.com/_gg/
+||9tcn.com/getgame/
 ||9tour.cn/x2/images/czmf.jpg
 ||9upk.com/images/95050.gif
 ||9upk.com/js/$subdocument
@@ -4027,6 +4028,7 @@ mg*.6park.com/img/$image
 ||imgroom.net/images/*.gif
 ||imgs.cc/images/ad_
 ||imgsrc.baidu.com/tieba/pic/item/$image
+||imgur.com/df53F09.jpg
 ||imgur.com/hkYNDSj.gif
 ||imgur.com/qHtXzOk.jpg
 ||imgur.com/Za3ll.gif
@@ -4744,6 +4746,10 @@ mg*.6park.com/img/$image
 ||penglai.com.cn/UploadFile/image/*.gif
 ||people.com.cn/adv/
 ||people.com.cn/img/gjt/
+||perlmaven.com/img/*0x2
+||perlmaven.com/img/linode
+||peryi.net/js/imp/Finc.js
+||peryi.net/js/imp/SysCon.js
 ||pfizer.com.tw^$subdocument
 ||pfp.sina.com.cn^$script,subdocument
 ||pg.udn.com/BT/*.swf
@@ -6081,16 +6087,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||perlmaven.com/img/linode
-||perlmaven.com/img/*0x2
-||imgur.com/df53F09.jpg
-||9tcn.com/getgame/
-||peryi.net/js/imp/Finc.js
-||peryi.net/js/imp/SysCon.js
 !------------------------Specific element hiding rules------------------------!
-tianshit.com###comment-ad
 gpcxw.com###AA2
-leiphone.com##.iphone7-fix
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6544,7 +6542,7 @@ wenyoutai.com###comiis_xwyt01
 wenyoutai.com###comiis_xwyt_ad02
 wenyoutai.com###comiis_xwyt_ad03
 wenyoutai.com###comiis_xwyt_ad04
-fuli.us###comment-ad
+fuli.us,tianshit.com###comment-ad
 ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 ithome.com###con > div:not([class]):not([id]):first-child + div
 apk.tw###confirmOverlay
@@ -8880,6 +8878,7 @@ wangyeba.com##.innner950
 baidu.com##.intro-adv
 loldk.com##.intro-area > div[style="margin-top:10px;"]:nth-child(2)
 people.com.cn##.ipc_none
+leiphone.com##.iphone7-fix
 iqiyi.com##.iqiyi-shangcheng
 wn789.com##.iradbox
 henan100.com##.itad
