@@ -1649,7 +1649,7 @@ ubmcmm.baidustatic.com
 /img/disc.jpg$domain=jpfans.com|jpseek.com
 /img/kana.jpg$domain=jpfans.com|jpseek.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
-/imgextra/*$domain=hacg.red|zqnow.com
+/imgextra/*$domain=hacg.li|hacg.lol|hacg.red|zqnow.com
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
@@ -6090,6 +6090,7 @@ mg*.6park.com/img/$image
 ||2345.com/dypcimg/ads/
 ||2345.com/dypcimg/dianying/upload/5a9111d7a77cb498150b6b619724f48e.jpg
 ||073img.com^$subdocument
+||acgbenzi.com^$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 acgbenzi.com##.ad
@@ -10871,6 +10872,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@||afpeng.alimama.com^$domain=crecgec.com
+@@||acgbenzi.com//dist/images/top.png
 @@||alicdn.com/g/mm/afp-cdn/JS/k.js$domain=crecgec.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
