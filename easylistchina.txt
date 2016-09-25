@@ -1688,7 +1688,6 @@ ubmcmm.baidustatic.com
 /sungg/*$domain=sun0769.com
 /sznews/images/bbsgg
 /the_top$domain=28188.com|28188.net
-/tonghuacun/skin/zxf/kan_hree.js
 /tres/recommend/*$domain=ifeng.com
 /uniontgm.cmb.
 /upload/gad/*$domain=pbzy.com|shanzhaiben.com
@@ -5148,7 +5147,6 @@ mg*.6park.com/img/$image
 ||sina.com.cn/rwei/hapi2014/64video_titu_logo_500x90.gif
 ||sina.com.cn/t/cnxh?
 ||sina.com.cn/t/dfh?
-||sina.com.cn/tgy/pop_js/ad.js
 ||sina.com.tw^$subdocument
 ||sina.com/ads/
 ||sina.com/assets/js/dart/
@@ -5347,8 +5345,6 @@ mg*.6park.com/img/$image
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
 ||tianjinwe.com/together/szbz/
-||tianmu.com/abbsd/
-||tianmu.com/js/qq.js
 ||tianqi.com/js/gg.js
 ||tianqi.com/static/tqgg/
 ||tianqi.com/templates/huoche/js/hcgg.js
@@ -5647,9 +5643,6 @@ mg*.6park.com/img/$image
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
 ||wo256.com/256_gg/*.gif
-||wo318.com/good/
-||wo318.com/sjs/km/xixitv.js
-||wo318.com/template/
 ||wodexiaoshuo.com/js/*lun.js
 ||wodexiaoshuo.com/js/*zhangjie.js
 ||wolepan.com/images/d1.jpg
@@ -6089,6 +6082,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zuiacg.com/images/client/diyidan/
 ||zuiacg.com/images/client/fanshu/
+||tianmu.com/DA201
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6122,7 +6116,6 @@ avmimi.com###ArticlesEx_box
 zhicheng.com###BAIDU_SSP__wrapper_u2394962_1
 gamer.com.tw###BH-ad_banner
 tiexue.net###Baidu_AdTopBar
-ttshuba.com###BookText + div[style="margin-left:20px;text-align:center;"]
 cnfol.com###CjAdvBt
 pjtime.com###Couplet_l_big
 pjtime.com###Couplet_l_small
@@ -6173,8 +6166,6 @@ qzwb.com,sozi.cn,techweb.com.cn###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
 huarenjie.com###LeftAd2
 hcwang.cn###LeftAda
-tnpm.org###LeftDiv
-tnpm.org###LeftDivweixin
 eastmoney.com###ListPage_r_Ad
 yunlaige.com###PAGE_baidu_4
 yunlaige.com###PAGE_baidu_5
@@ -7719,7 +7710,7 @@ ifeng.com##.ad1000_box
 ~games.ifeng.com,ifeng.com##.ad1000x90
 chinayk.com##.ad1024
 yuqingcn.cn##.ad1024x90
-178.com,766.com,btpeer.com,c114.net,chddh.com,china.com.cn,izhufu.net,qingdaonews.com,qz828.com,top81.com.cn##.ad2
+178.com,766.com,btpeer.com,c114.net,chddh.com,china.com.cn,izhufu.net,qingdaonews.com,qz828.com##.ad2
 ifeng.com##.ad200-2
 bbs.yzz.cn##.ad200x340
 tgbus.com##.ad200x375
@@ -8175,7 +8166,7 @@ xilu.com##.bbs_topad
 hao.rising.cn##.bd-lmhot
 jrj.com.cn##.bd.pa10.bgn
 newxue.com##.bd500
-jsshuba.com,ttshuba.com##.bd980
+jsshuba.com##.bd980
 paopaoku.com##.bdCont
 3773.com.cn##.bd_1[width="960"][height="108"]
 yesky.com##.bd_adv
@@ -10095,8 +10086,6 @@ zhaopin.com##a[href^="http://www.ef.com.cn/"]
 zdfans.com##a[href^="http://www.hao123.com/?tn="]
 chinadaily.com.cn##a[href^="http://www.huabian.com/"]
 bejson.com##a[href^="http://www.jisuapi.com"]
-top81.com.cn##a[href^="http://www.junpinhui.com/goods."]
-top81.com.cn##a[href^="http://www.junshier.com/"]
 bejson.com##a[href^="http://www.liepin.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 tiexue.net##a[href^="http://www.mywoqu."]
@@ -10477,7 +10466,6 @@ bilibilijj.com##div[style="width: 500px;"]:last-child
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 bilibilijj.com##div[style="width: 676px;"]:last-child
 chazidian.com##div[style="width: 95%; border: 1px solid rgb(230, 123, 121); background-color: rgb(255, 252, 239); color: rgb(230, 44, 40); padding: 0px 15px; height: 40px; line-height: 40px; margin: 5px auto; text-align: center; clear: both;"]
-tonghuacun.com##div[style="width: 960px;margin: 0 auto;height:93px;"]
 sznews.com##div[style="width:1000px; height:120px; position:relative;"]
 shmet.com##div[style="width:1000px; height:90px; margin:10px auto;"]
 wj001.com##div[style="width:1000px; height:auto; overflow:hidden; margin:0 auto;"]:first-child
@@ -10695,7 +10683,6 @@ sd.xinhuanet.com##table[width="990"][bgcolor="#333333"]:nth-child(5)
 yangtianya.com##table[width="990"][height="140"]
 yaerwen.com##table[width^="9"][height="250"]
 net767.com##table[width^="9"][height="68"]
-discuss.com.hk##tbody[id^="normalthread_"] + tbody > tr > td[align="center"][colspan="6"]
 hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 xici.net##td.doc_sign
 cartoonad.com,cartoonmad.com##td[align="center"] > table[width="728"]
