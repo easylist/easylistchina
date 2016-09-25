@@ -1720,7 +1720,7 @@ mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|btkitty.bid|dhzw.com|diggbt.co|kewaishu.net|shenmabook.com|vodtw.com
-|http:$subdocument,domain=glcdynpcws.net|howbbs.com|jtwybgxiumsx.net|pc6.com|tytl.tk
+|http:$subdocument,domain=glcdynpcws.net|jtwybgxiumsx.net|pc6.com
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
@@ -4232,7 +4232,6 @@ mg*.6park.com/img/$image
 ||js.mumayi.net/76090.gif
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
-||js.pub.tom.com^
 ||js.shiwt.com/110.js
 ||js.tlt.cn/js/
 ||js.tv.itc.cn/gg$script
@@ -4632,7 +4631,6 @@ mg*.6park.com/img/$image
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.tw/js/ti.js
-||news.tom.com/v2008.js
 ||news.xdkb.net/img/attachement/png/site2/20130603/3859f9e3a59613168bea0c.png
 ||news18a.com/image/ad_ina/
 ||newsgroup.la/ad/yahoo/fad.gif
@@ -5060,7 +5058,6 @@ mg*.6park.com/img/$image
 ||sax.sina.com.cn/crossdomain.xml
 ||sbpig.com/images/erweima.jpg
 ||sc.chinaiiss.com/do.php?do=ad&
-||sc.tom.com^
 ||scibook.cn/tuiguang.
 ||scol.com.cn/js/def_
 ||scol.com.cn/scol-3/js/08scol_text_
@@ -6081,6 +6078,7 @@ mg*.6park.com/img/$image
 ||zuiacg.com/images/client/diyidan/
 ||zuiacg.com/images/client/fanshu/
 ||tianmu.com/DA201
+||adserve2.tom.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10791,7 +10789,7 @@ boxcdn.cn,faxingw.cn,gdmm.com#@#.ad_1
 dnwx.com#@#.ad_250
 psahz.com#@#.ad_960
 178.com,925fxw.com#@#.ad_box
-tclmobile.com.cn,workercn.cn#@#.ad_content
+workercn.cn#@#.ad_content
 qqxzb.com#@#.ad_l
 liqucn.com,workercn.cn#@#.ad_main
 pupuapp.com,yxdown.com#@#.ad_pic
@@ -11213,7 +11211,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||letv.com*/tuiguang/$subdocument
 @@||letvcloud.com^*&showAd=
 @@||lianmeng.360.cn/searchthrow/*&w=960&$domain=fxpan.com
-@@||life.tenpay.com/res/ad/cellphone/js/down_for_app.js
 @@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
 @@||mediav.com^$domain=dev.360.cn
@@ -11238,7 +11235,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=7958.com.cn|club.tgfcer.com|lepan.cc|mfgun.com|monnsutogatya.com|zdaili.net
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|tu265.com|wholehk.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|wholehk.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk^*-ad.php?
 @@||photo.erji.com/tb/*.gif
@@ -11315,7 +11312,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
 @@||tdx.com.cn/images/*ad$~third-party
-@@||tenpay.com/v2.0/main/creditcard/portal_rpm_apply.shtml
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
 @@||thisav.com^$generichide
