@@ -5329,8 +5329,8 @@ mg*.6park.com/img/$image
 ||tc.cn/news/images/right.jpg
 ||tcjy66.cc^
 ||tcmap.com.cn/js/b_
-||techweb.com.cn/static/images/1467694435285.gif
 ||techweb.com.cn^*aliyun
+||techweb.com.cn/static/img/aly
 ||teteyu.com/tpl/*.html
 ||tf.360.cn^
 ||tfg2.com/images/upfile/AD/
@@ -6081,6 +6081,7 @@ mg*.6park.com/img/$image
 ||adserve2.tom.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+techweb.com.cn##A[href*=".aliyun.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
