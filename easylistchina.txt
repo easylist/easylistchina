@@ -5311,7 +5311,6 @@ mg*.6park.com/img/$image
 ||t.58xs.com/hot/
 ||taihainet.com/biz/
 ||taihe.net/js/ad
-||taiwan.cn/images/tw_ad_
 ||taizhou.com.cn/52.files/a*20
 ||taizhou.com.cn/52.files/c120151010.swf
 ||taizhou.com.cn^*/3890.files/xchad.jpg
@@ -5422,7 +5421,6 @@ mg*.6park.com/img/$image
 ||tt1069.com/t0602.js
 ||tt7z.com/js/
 ||ttcy.com/style/image/gg_
-||ttkdex.com/ttkdweb/page/image/query
 ||ttrar.com/js/
 ||ttx.cn/js/float.js
 ||ttx.cn/js/tcgd//jquery.lightbox.min.js
@@ -10275,7 +10273,6 @@ e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
 iqiyi.com##div[id^="100000"]
-taiwan.cn##div[id^="2014sy_gg"]
 fengniao.com##div[id^="AD"]
 house365.com##div[id^="AD-bottom"]
 it168.com##div[id^="ADV"]
@@ -10858,6 +10855,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||ttkdex.com^$generichide
+@@||ttkdex.com^*ad$~third-party
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10940,7 +10939,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/show_ad_$domain=wb.qq.com
 @@/show_ads_impl.js$domain=serve.netsh.org
 @@/store_ad/*$domain=pcstore.com.tw
-@@/ttkdweb/page/js/ad.js
 @@/unadblock/adjs_$domain=168gamer.com|bingfeng.tw|hdmee.com|hepan.com
 @@/view.php?what=zone:93&$domain=feng.com
 @@/view.php?what=zone:94&$domain=feng.com
