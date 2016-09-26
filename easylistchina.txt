@@ -526,8 +526,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||diaojiaoji168.com^
-||yiranxian.cn^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -947,6 +945,7 @@ ubmcmm.baidustatic.com
 ||dian500.com^$third-party
 ||dian5000.com^$third-party
 ||dianxin.com^$third-party
+||diaojiaoji168.com^
 ||dingge.cc^$third-party
 ||displink.com^$third-party
 ||dlads.cn^$third-party
@@ -1459,6 +1458,7 @@ ubmcmm.baidustatic.com
 ||yiqifa.com^$subdocument
 ||yiqifa.com^*.js$third-party
 ||yiqiv.com^$third-party
+||yiranxian.cn^
 ||yiwad.com^$third-party
 ||yiwuds.com^
 ||yk0712.com^
@@ -2545,6 +2545,7 @@ mg*.6park.com/img/$image
 ||adpub.yaolan.com^
 ||adpubs.yaolan.com^
 ||adsclick.yx.js.cn^
+||adserve2.tom.com^
 ||adshows.21cn.com^
 ||advideoadmin.appledaily.com.tw/ov_player/
 ||adwordsing.com/img/1.jpg
@@ -3184,6 +3185,7 @@ mg*.6park.com/img/$image
 ||dayoo.com/iframe/143877.shtml
 ||dayoo.com/public/c/2016/ad/
 ||dayoo.com/test/
+||dayout.io/recbanner.jpg
 ||db28.cn/cache/ads.js
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
@@ -3948,6 +3950,7 @@ mg*.6park.com/img/$image
 ||ifonce.com/813.gif
 ||ifxtx.com/tp/
 ||ifxtx.com/tss/chexian960.gif
+||igao7.com/api/default/LeiphoneArticleProduct
 ||iguang.tw/bm/seo_rotation/html/js/
 ||ii-i.org/wp-content/plugins/wp-adblock-dedect/
 ||ii-i.org/wp-content/uploads/2016/05/xiaofeijijiasu.jpg
@@ -5331,8 +5334,8 @@ mg*.6park.com/img/$image
 ||tc.cn/news/images/right.jpg
 ||tcjy66.cc^
 ||tcmap.com.cn/js/b_
-||techweb.com.cn^*aliyun
 ||techweb.com.cn/static/img/aly
+||techweb.com.cn^*aliyun
 ||teteyu.com/tpl/*.html
 ||tf.360.cn^
 ||tfg2.com/images/upfile/AD/
@@ -5343,6 +5346,7 @@ mg*.6park.com/img/$image
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
 ||tianjinwe.com/together/szbz/
+||tianmu.com/DA201
 ||tianqi.com/js/gg.js
 ||tianqi.com/static/tqgg/
 ||tianqi.com/templates/huoche/js/hcgg.js
@@ -6066,6 +6070,7 @@ mg*.6park.com/img/$image
 ||zt.iciba.com/guess/images/900.jpg
 ||zt2088.com^
 ||zt220.com/zzs/
+||zuiacg.com/images/client/
 ||zuiben.com/a/
 ||zuoche.com/promo/*.jspx
 ||zxba.cc/js/*.gif
@@ -6077,18 +6082,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||zuiacg.com/images/client/
-||tianmu.com/DA201
-||adserve2.tom.com^
-||igao7.com/api/default/LeiphoneArticleProduct
-||dayout.io/recbanner.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-tiexue.net##A[href*=".yueleyu."]
-tiexue.net##.ad_xuanfu
-m.tiexue.net##.threeImg.titleUp
-07073.com##.subarea_ad
-techweb.com.cn##A[href*=".aliyun.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7891,6 +7886,7 @@ putclub.com##.ad_vipabc
 yinyuetai.com##.ad_w300
 itavcn.com##.ad_wordxin
 baike.com##.ad_xuanban
+tiexue.net##.ad_xuanfu
 house.bdinfo.net##.adb
 ifeng.com##.adbest
 oogps.com##.adbg
@@ -9570,6 +9566,7 @@ aisex.com##.sptable
 xskhome.com##.startgame
 klss.cn##.stat8
 kaoyan.com##.subAd
+07073.com##.subarea_ad
 10jqka.com.cn##.subbanner
 etest8.com##.subtop2right
 qingdaonews.com##.surround
@@ -9650,6 +9647,7 @@ cnool.net##.third-banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
 jbtalks.cc##.threadad
+m.tiexue.net##.threeImg.titleUp
 cndesign.com##.throughAdPic
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
 2345.com##.tip_stopXP
@@ -9964,6 +9962,7 @@ people.com.cn##a[href*=".516a.com/"]
 mop.com##a[href*=".7477.com"]
 oupeng.com##a[href*=".adbxb."]
 163.com##a[href*=".admaster."]
+techweb.com.cn##a[href*=".aliyun.com/"]
 iqiyi.com##a[href*=".banggo."]
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
 tiexue.net##a[href*=".cokolo."]
@@ -9978,6 +9977,7 @@ gmgard.com,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn,xianzhenyuan.cn##a[hr
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
 letv.com##a[href*=".vip.com"]
+tiexue.net##a[href*=".yueleyu."]
 plus28.com##a[href*="/?Extend="]
 kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
@@ -10860,8 +10860,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||ttkdex.com^$generichide
-@@||ttkdex.com^*ad$~third-party
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -11329,6 +11327,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
 @@||tt1069.com/advert.js
+@@||ttkdex.com^$generichide
+@@||ttkdex.com^*ad$~third-party
 @@||tw.m.yimg.com/res/ads/$domain=tw.buy.yahoo.com
 @@||u9pan.com/images/ads/
 @@||ubmcmm.baidustatic.com^$domain=excelhome.net|xdf.cn
