@@ -223,7 +223,6 @@
 /tigtag_custom/include/popup.
 /toutiao_web/static/images/tt_game_
 /ttggjs/*
-/ttmeiju/images/ts.gif
 /tuiguang/*
 /u/_sponsor/*
 /View/img/b72890.jpg
@@ -2326,7 +2325,6 @@ mg*.6park.com/img/$image
 ||6vhao.com/d/960.js
 ||6vhao.com/d/f*.js
 ||70.86.24.120:8060/
-||72.11.141.18/girls.gif
 ||72bbb.com/images/12.gif
 ||73p37.com/js/bottomall.js
 ||73p37.com/js/playad.html
@@ -3584,7 +3582,6 @@ mg*.6park.com/img/$image
 ||ghjie.com/images/2012/images/bg
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
-||global.tianyaui.com/global/wizard/js/wizard.js
 ||gmbbk.cn/img/top.js
 ||gmbbk.cn/jj/
 ||gmbuluo.com/js/liebiao
@@ -5359,7 +5356,6 @@ mg*.6park.com/img/$image
 ||tiantian.tv/js/banner.js
 ||tiantian.tv/sda/$image
 ||tiantiandy.com/ad-js/
-||tianya.cn/images/ad950x90.jpg
 ||tianyaui.com/gamify/broadcast/js/
 ||tianyaui.com/global/broadcast/*/bc_play_ebook_
 ||tianyaui.com/qy/adsame/ads.js
@@ -5395,14 +5391,12 @@ mg*.6park.com/img/$image
 ||tjzan.com/wxpic/asianyi.gif
 ||tk.504pk.com^
 ||tmbbs.com/data/attachment/portal/*.swf
-||tntdown.com/News/js/C_
 ||toastoven.net/cdn/adx/
 ||tom.com/templets/tomwq/ad/
 ||tompda.com/dev/bbsadv/
 ||tompda.com/images/2014/800*.gif
 ||tompda.com/tupian/2013-03-15/300.jpg
 ||tompda.com^$object
-||tongzhuo100.com/img/jianzhi.gif
 ||tonnn.com/promotion2/*.js
 ||topthink.com/api/basic/ad_
 ||totheglory.im/pic/fangtuo.jpg
@@ -5448,8 +5442,6 @@ mg*.6park.com/img/$image
 ||twfuwu.info^*.gif
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
-||txooo.com^*/ydl.jpg
-||txooo.com^*/zdl.jpg
 ||txt789.com/cpa/
 ||txtbbs.com/data/txtbbs/
 ||txtyd.com/js/*box.js
@@ -5924,10 +5916,6 @@ mg*.6park.com/img/$image
 ||yunlaige.com/configs/article/tcgg.js
 ||yunmayi.com/upload/2015/04/14/b5d2b4c37af3f4d4c6af5831422b1ead.jpg
 ||yunupload.net/jsa/
-||yupoo.com/3126961304/$domain=ttmeiju.com
-||yupoo.com/ttmeiju/F5aQAmuW/XKgx.gif
-||yupoo.com/ttmeiju/F5TrKJL8/medish.jpg
-||yupoo.com/ttmeiju/FgIoBTXx/4uIfH.jpg
 ||yxad.com/baidu/
 ||yxad.com/js/lady.gif
 ||yxad.com/sg/
@@ -6082,6 +6070,7 @@ mg*.6park.com/img/$image
 ||v4.cc/m/common.js
 ||ifanr.cn/wp-content/uploads/2016/09/wenzhangdibu.jpg
 !------------------------Specific element hiding rules------------------------!
+3g.tianya.cn,m.tianya.cn##A[href^="http://dol.tianya.cn/"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6268,7 +6257,6 @@ cnyw.net###ad_box_2009_04
 060s.com###ad_content1
 51itstudy.com,wdlm.cn###ad_coupleleft
 wdlm.cn###ad_coupleright
-ttmeiju.com###ad_couplet
 gdmm.com###ad_cover
 udn.com###ad_curtain
 gpcxw.com###ad_dl
@@ -6510,7 +6498,6 @@ gz0668.com###closexguide
 uuu9.com###cm1337
 zhidao.baidu.com###cms-company
 zhidao.baidu.com###cms-scroll
-focus.tianya.cn###cms_control_2
 recruit.com.hk###cms_mpg_b
 recruit.com.hk###cms_sp_f
 image.baidu.com###cmsimage
@@ -7027,7 +7014,7 @@ neihanshe.cn###mobile_client
 haosou.com,so.com,youdao.com###mohe-etao_shangye
 haosou.com,so.com###mohe-medicine_sy > .cont
 nick18.com,niko18.com###mov > .content
-dnvod.eu,itavcn.com,jmnews.com.cn,tc.cn,toptour.cn,xinhuanet.com,xt700.com,xyzc.cn,zdface.com###msg_win
+dnvod.eu,itavcn.com,jmnews.com.cn,tc.cn,xinhuanet.com,xt700.com,xyzc.cn,zdface.com###msg_win
 dnvod.eu###msg_winw
 wz.zj.cn###msnLeft
 yahoo.com###my-adsMBAR
@@ -7099,7 +7086,6 @@ tieba.baidu.com###pblist > li[class]:not(.j_post_list_item)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
 ithome.com###pc_c
 kaixindy.com###pege_ad1
-tsdm.net###pgt + div > p[style="float:left;width:100%"]
 tutufu.com###pic-list > a[style^="color:"]
 ifeng.com###picAdposition
 gmw.cn###pic_tmpAD_left750
@@ -7409,10 +7395,8 @@ ali213.net###tv
 qidian.com###two_dimensional
 muyuge.net###txt_r
 makaidong.com###txtlink
-tianya.cn###ty_msg_mod
 udn.com###udn_scupio_responsive_wrapper
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
-3g.tianya.cn,m.tianya.cn###update
 v.163.com###v_shapeLeft_divId
 v.163.com###v_shapeRight_divId
 fanjian.net###vad
@@ -8210,7 +8194,6 @@ qdmm.com,qidian.com##.bodyRecWrap
 m.toutiao.com##.bonus-wrapper
 sfacg.com##.book_AD
 qidian.com##.booktitle_rect > .start_game
-tianya.cn##.border-adv
 10yan.com##.border1[width="984"][cellpadding="5"]
 creaders.net##.border_b > tbody > tr > td[height^="2"]
 news.liao1.com##.border_more[height="32"]
@@ -10030,7 +10013,6 @@ zhibo8.cc##a[href^="http://caipiao."]
 cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 51dll.com##a[href^="http://clk.uunt."] ~ a:not([href*="/yanzheng."])
 52che.com##a[href^="http://count.52che.com/goto.html?"]
-3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
@@ -10233,7 +10215,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[data-click="\7b \"rsv_srcid\":4
 cqmmgo.com##div[data-id*="_adv_"]
 sina.com.cn##div[data-sudaclick="ad_ppzq"]
 zhihu.com##div[data-type="ad"]
-txooo.com##div[duilian]
 weibo.com##div[feedtype="ad"]
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 mail.126.com,mail.163.com##div[id$="_BannerDiv"]
@@ -10252,7 +10233,6 @@ baby-kingdom.com##div[id*="Banner Zone"] + script + a
 baby-kingdom.com##div[id*="Banner Zone"] + script + iframe
 baby-kingdom.com##div[id*="Banner Zone"] + script + object
 chinaluxus.com##div[id*="ExtraAD"]
-tianya.cn##div[id*="_AD_"]
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 8684.cn,8684.com##div[id*="adid"]
 e23.cn##div[id*="adv"]
@@ -10491,7 +10471,6 @@ taoguba.com.cn##div[style="width:98%;center;margin-top:20px;margin-bottom:20px;o
 duowan.com##div[style="width:980px;height:60px;margin:0 auto 10px;"]
 d5yuansu.com##div[style="width:990px; height:90px; margin:5px auto;"]
 gaominews.com##div[style="width:992px; height:50px; position:relative; margin:0 auto; overflow:hidden; float:left; margin-top:4px;"]
-tongzhuo100.com##div[style="width:998px; height:90px;  border:1px solid #CCC; margin-top:5px"]
 dianxinnews.com##div[style="width:998px;height:90px;background:#fff;border:1px solid #ececec;background:#F9F9F9;padding:8px 0px;"]
 ithome.com##div[style] > a[href^="http://t.cn/"]
 pc360.net##div[style^="border:none;height:90px;width:728px;"]
