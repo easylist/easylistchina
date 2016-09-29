@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-=cstdio_ads:
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -242,6 +241,7 @@
 :8898/ads_
 =ads.processReqChange^
 =ajaxGetAds&type=
+=cstdio_ads:
 =loginExtAD.
 _billboard_320x100.iframe.
 _mobilebanner_v1_550x60.jpg
@@ -526,7 +526,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||xiaobiaoucai.cn^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -1426,6 +1425,7 @@ ubmcmm.baidustatic.com
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
 ||xhmrv.com^
+||xiaobiaoucai.cn^
 ||xiaxuanfu.com^
 ||xibei70.com^
 ||xilele.com^
@@ -1913,8 +1913,8 @@ mg*.6park.com/img/$image
 ||1688.com.au/site1/1688ad/
 ||16888.com/ajax/loadcardata.php
 ||168gamer.com/ab.php?mod=jss&bid=
-||168gamer.net/abkf.
 ||168gamer.com/static/js/rlist.js
+||168gamer.net/abkf.
 ||168img.com/a/
 ||168img.com/gamania960.swf
 ||16sucai.com/ads/
@@ -3232,6 +3232,7 @@ mg*.6park.com/img/$image
 ||dilidili.com/js/index.js
 ||dilidili.com/js/right
 ||dilidili.com/js/w*.js
+||dio88.net/images/*.gif
 ||dio99.com/images/*.gif
 ||dioguitar23.*/images/*.gif
 ||diopic.net^$domain=18p2p.com
@@ -4762,6 +4763,8 @@ mg*.6park.com/img/$image
 ||people.com.cn/img/gjt/
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/linode
+||peryi.com/GetGame/
+||peryi.com/templets/xunbodm/images/js/sys.js
 ||peryi.net/js/imp/Finc.js
 ||peryi.net/js/imp/SysCon.js
 ||pfizer.com.tw^$subdocument
@@ -6078,14 +6081,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||dio88.net/images/*.gif
-||peryi.com/templets/xunbodm/images/js/sys.js
-||peryi.com/GetGame/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-chinaz.com##.adfixbug
-chinaz.com##.kwLink
-chinaz.com##A[href^="http://www.wsisp.net/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7912,6 +7909,7 @@ qulishi.com##.addlistphot
 inpai.com.cn##.addoc1
 shxd.net##.addown
 cwan.com##.ades
+chinaz.com##.adfixbug
 xineurope.com##.adft
 wuxi.cn##.adgood
 999caijing.com##.adheng
@@ -8936,6 +8934,7 @@ iciba.com##.kk01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.kn_nine_wrap
 sydneytoday.com##.kpadv5
 fznews.com.cn##.kuang100_right
+chinaz.com##.kwLink
 iqiyi.com##.kwltp-leftgg
 iqiyi.com##.kwltp-rightgg
 baidu.com##.l-header-ad
@@ -10083,6 +10082,7 @@ hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 500.com##a[href^="http://www.qilin99.com/"]
 d5yuansu.com##a[href^="http://www.shenhuangyiyao.com/"]
 6park.com##a[href^="http://www.vava8.com"]
+chinaz.com##a[href^="http://www.wsisp.net/"]
 dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
