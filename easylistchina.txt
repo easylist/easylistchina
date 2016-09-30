@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/tuzuan/ad/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -4796,7 +4797,6 @@ mg*.6park.com/img/$image
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.jd-bbs.com^*.swf
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
-||pic.taian.com^
 ||pic.wpdaxue.com^*.js
 ||pic.xgo-img.com.cn^
 ||pic.yupoo.com/heidongke_v/DMI8TWao/11YsLR.png
@@ -5334,7 +5334,6 @@ mg*.6park.com/img/$image
 ||taoguba.com.cn/js/tgbduilian
 ||taohua.me/tool/taohuazu.js
 ||taohuazu.tw/tool/
-||taoyoudu.com/img/top.jpg
 ||tasteforlife.com.tw^$subdocument
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tc.cn/ad123/
@@ -5351,11 +5350,9 @@ mg*.6park.com/img/$image
 ||tfg2.com/images/upfile/AD/
 ||tgbus.com/search/article_endcontent_google.htm
 ||tgbus.com/sf/taobao/
-||thethirdmedia.com/a1/*960x
 ||thisav.com/0*.js
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
-||tianjinwe.com/together/szbz/
 ||tianmu.com/DA201
 ||tianqi.com/js/gg.js
 ||tianqi.com/static/tqgg/
@@ -5382,9 +5379,7 @@ mg*.6park.com/img/$image
 ||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
 ||tigtag.com/images/pic1/
-||tigtag.com/r/Adv/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
-||tigtag.com/ttad/
 ||tingchina.com/js/*220-
 ||tingchina.com/js/760
 ||tingchina.com/js/990
@@ -6083,6 +6078,7 @@ mg*.6park.com/img/$image
 ||img2.plures.net^*.gif
 !------------------------Specific element hiding rules------------------------!
 longzhu.com##.video-pos + .side
+tuzuan.com##DIV[style^="width: 100%; height: 60px; overflow: hidden;"]
 gpcxw.com###AA2
 uschinapress.com##IMG[width="290"]
 hc360.com,yaolan.com###AD
@@ -6484,7 +6480,6 @@ lohas.pixnet.net###box785805
 finance.ifeng.com###box_img
 zhan.com###box_tips
 hefei.cc###bp_ad
-club.topsage.com###brbox
 114la.com,ylmf.com###brownTop
 btago.com###browser
 sogou.com###browser_ad
@@ -6968,7 +6963,6 @@ ccb.com.cn###leftSideAd
 cpd.com.cn###left_bdad
 hao.360.cn###left_float
 sina.com.cn###left_focus_ad
-taoyoudu.com###left_layer
 hao123.com###leftbannerv2
 fqlook.cn###leftfloatad1
 www.wenxuecity.com###leftside
@@ -9432,7 +9426,6 @@ baidu.com##.search-aside-adWrap
 hao.rising.cn##.search-right
 dict.cn##.search-right-ad5
 dict.cn##.search-right-ad7
-haogeba.com,taoyoudu.com##.searchTaobaoAccountInfo
 99114.com##.search_keywordAd
 duba.com##.search_promotion
 ijia360.com##.search_radlist
@@ -9865,7 +9858,6 @@ vr186.com##.xg1 + br + p[style="text-align: center;"]
 sina.cn##.xiancheng-pic
 cww.net.cn##.xiatu1
 hgitv.com##.xinwen_right_gg01
-cha.haogeba.com,taoyoudu.com##.xinyongBox > :not(dd)
 shulink.com##.xiongti_list
 xilu.com##.xlad
 xilu.com##.xladAdvList
@@ -10120,7 +10112,6 @@ ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 62422.cn##body > table[width="778"][align="center"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##body [style*="important"] *
 leduwo.com##br + #adtop
-taoyoudu.com##br + .k_serach
 btcherry.com##button[style="width: 960px; height: 90px; background: transparent; border: 0; padding: 0; cursor: hand;"]
 1000fr.net##center
 wpdaxue.com##div > * > a[target="_blank"] > img
