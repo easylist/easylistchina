@@ -4148,7 +4148,6 @@ mg*.6park.com/img/$image
 ||itopdog.cn/itopdog/d*.js
 ||itpub.net/popwin_js.php?
 ||itv.hexun.com
-||ivsoo.com/template/ivsoos.jpg
 ||ivy.pconline.com.cn^
 ||iwanad.baidu.com^
 ||iweihai.cn/js/float.js
@@ -5361,7 +5360,6 @@ mg*.6park.com/img/$image
 ||tianshui.com.cn/newbg.jpg
 ||tianshui.com.cn/newimages/xhglj.swf
 ||tianshui.com.cn/Scripts/AC_
-||tianshui.com.cn/sd.swf
 ||tianshui.com.cn/yb.html
 ||tiantian.tv/js/banner.js
 ||tiantian.tv/sda/$image
@@ -5402,9 +5400,7 @@ mg*.6park.com/img/$image
 ||toastoven.net/cdn/adx/
 ||tom.com/templets/tomwq/ad/
 ||tompda.com/dev/bbsadv/
-||tompda.com/images/2014/800*.gif
 ||tompda.com/tupian/2013-03-15/300.jpg
-||tompda.com^$object
 ||tonnn.com/promotion2/*.js
 ||topthink.com/api/basic/ad_
 ||totheglory.im/pic/fangtuo.jpg
@@ -5441,7 +5437,6 @@ mg*.6park.com/img/$image
 ||tv6080.com/qqt/
 ||tvf4.com/1/mugua.js
 ||tvf4.com^$subdocument
-||tvnmg.com/banner/
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
@@ -6077,7 +6072,9 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||img2.plures.net^*.gif
 ||upaiyun.com/2016/09/e3ae3563c836df9a44a73d985dcb6196.jpg
+||tianshui.com.cn/datugg/
 !------------------------Specific element hiding rules------------------------!
+tianshui.com.cn##TD[height="420"]
 jobbole.com##.nav-search-box + .widget_text
 jobbole.com###sidebar-recommend
 longzhu.com##.video-pos + .side
@@ -10401,7 +10398,6 @@ ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;widt
 m.wallstreetcn.com##div[style="height: 130px;"]
 ting89.com,tingshuge.com##div[style="height: 280px"]
 lol.178.com##div[style="height: 60px; text-align: center;"]
-tompda.com##div[style="height: 90px; padding: 0px; overflow: hidden; margin-bottom: 12px;"]
 07073.com##div[style="height:100px; margin-bottom:10px;"]
 huabian.com##div[style="height:250px;"]
 hkgolden.com##div[style="height:250px;overflow:hidden;text-align:center;margin-top: 5px;"]
@@ -11300,7 +11296,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||thisav.com^$generichide
 @@||timesdata.com/Public/*/ad$~third-party
 @@||tmall.com/go/*/banner.php
-@@||tompda.com/images/pix.swf
 @@||totheglory.im/pic/ttg_logo
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
