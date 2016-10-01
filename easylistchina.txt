@@ -527,10 +527,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||alicmayuns.com^
-||shiftrro.com^
-||szdzbx.com^
-||hubojd.com^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -584,7 +580,6 @@ _popAds.
 :81/s/i.php?id=$script
 :9001/code/
 ubmcmm.baidustatic.com
-|http://1*.*.*.*/show.js|$script,third-party
 |http://*.*.cn/?ss=$script,third-party
 |http://*.*.com/?q=*|*$script,third-party
 |http://*.*.com/?ss=$script,third-party
@@ -598,6 +593,7 @@ ubmcmm.baidustatic.com
 |http://*.tw/s.php?id=$script,third-party
 |http://*//s.php?id=$script,third-party
 |http://*:*/s.php?id=$script,third-party
+|http://1*.*.*.*/show.js|$script,third-party
 |http://1.3.0.10^
 |http://js*/i.php?$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
@@ -835,6 +831,7 @@ ubmcmm.baidustatic.com
 ||ajaxcdn.org^
 ||ajhdf.com^$third-party
 ||ajuhd.com^
+||alicmayuns.com^
 ||alimama.cn^$third-party,domain=~alimama.com|~budou.com|~foctop.com|~hetongal.ac.cn|~ith8.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~taobao.com.cn|~wajuemao.com|~youhuiyouhui.com.cn
 ||alitianxia168.com^
 ||aliyuncss.com^
@@ -1071,6 +1068,7 @@ ubmcmm.baidustatic.com
 ||housefun.com.tw^$third-party
 ||hr44.com^
 ||hsmkj.net^$third-party
+||hubojd.com^
 ||humanding.com^
 ||hw6.com^
 ||hwmwin.com^$third-party
@@ -1285,6 +1283,7 @@ ubmcmm.baidustatic.com
 ||sgbfjs.info^
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
+||shiftrro.com^
 ||show.kc.taotaosou.com^
 ||shuihulu.com^$third-party
 ||shujuwu.com^$third-party
@@ -1313,6 +1312,7 @@ ubmcmm.baidustatic.com
 ||subo.me^$third-party
 ||sunjianhao.com^
 ||superfish.com^$third-party
+||szdzbx.com^
 ||szfaq.com^
 ||szvr.com^$third-party
 ||t3nlink.com^$third-party
@@ -2011,6 +2011,7 @@ mg*.6park.com/img/$image
 ||221.5.69.52^*.js
 ||222.45.224.77^*.js
 ||222.47.26.21/m.js
+||222.82.218.6:81/asset/video/2016/07/20/1469004836473.swf
 ||2233777.com/bak/ad/
 ||2258.com/new_static/*/ad/
 ||22mt.la/bookpic/00*.jpg
@@ -2289,6 +2290,7 @@ mg*.6park.com/img/$image
 ||62422.cn/ggimg/
 ||62422.cn/js/inc/13.swf
 ||63007.com/haodxi.js
+||64.120.16.146/hsk_update/upload/*.gif
 ||64bobo.com/ckplay/js.jpg
 ||64vk.com/java/
 ||654mmm.com^
@@ -2651,6 +2653,7 @@ mg*.6park.com/img/$image
 ||asp300.com/2012js/
 ||aspjzy.com/jsweb/js/
 ||aspku.com/z/
+||astrill.com/bnrs/
 ||asxxg.cn/Public/config/Couplet/
 ||atm.youku.com^
 ||atool.org/res/ads/
@@ -5329,6 +5332,7 @@ mg*.6park.com/img/$image
 ||talkforex.com/data/attachment/portal/
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taodake.com/taodake_img/Images/union/
+||taoguba.com.cn/gbimg/2016/07/27/lirmkrnbt8l1.jpg
 ||taoguba.com.cn/js/tgbduilian
 ||taohua.me/tool/taohuazu.js
 ||taohuazu.tw/tool/
@@ -6070,14 +6074,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||astrill.com/bnrs/
-||64.120.16.146/hsk_update/upload/*.gif
-||222.82.218.6:81/asset/video/2016/07/20/1469004836473.swf
-||taoguba.com.cn/gbimg/2016/07/27/lirmkrnbt8l1.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-fhm.com.tw##.special_ad_cover
-fhm.com.tw##.special_ad_bottom_sticky
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6891,7 +6889,6 @@ gexing.com###index-topAd
 ydss.cn###indexBlad
 baidu.com###index_banner_top
 zongheng.com###index_game
-tiboo.cn##.bannerD
 baidu.com###index_right_float
 baidu.com###index_right_top
 xxsy.net###infoleftad_1
@@ -7115,8 +7112,7 @@ hao.360.cn###plane-ria
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_spread_video
 160.com###playBox
 tingroom.com###play_ggr
-icoolxue.com###player-ad
-7k7k.com###player-ad
+7k7k.com,icoolxue.com###player-ad
 yxingqiu.com###playertipian
 youku.com###playlistIkuAD
 mail.qq.com###plp_ad_container
@@ -8114,6 +8110,7 @@ box.poco.cn##.banner994
 app01.com.tw,niutuku.com##.bannerAD
 longhoo.net##.bannerArea
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.bannerB
+tiboo.cn##.bannerD
 www.3dmgame.com##.banner_1
 3dmgame.com##.banner_2
 aipai.com##.banner_90
@@ -9524,6 +9521,8 @@ ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
 babyhome.com.tw##.span_shopping
 shmet.com##.spb-biz-cont
+fhm.com.tw##.special_ad_bottom_sticky
+fhm.com.tw##.special_ad_cover
 qqbody.com##.special_ggw
 geekpark.net,northnews.cn##.sponsor
 u148.net##.sponsor-100
@@ -10816,7 +10815,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||taihainet.com^*/thumb_300_250_
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -11275,6 +11273,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||szeyz.com/szyz/portal/images/ad-
 @@||szhr.com$generichide
 @@||szhr.com*/ad
+@@||taihainet.com^*/thumb_300_250_
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
