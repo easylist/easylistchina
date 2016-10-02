@@ -6076,6 +6076,13 @@ mg*.6park.com/img/$image
 ||puudeng.com.tw^$subdocument
 ||50megumi.com.tw^$subdocument
 !------------------------Specific element hiding rules------------------------!
+uc123.com###right_elevator
+uc123.com##.bg-wrapper
+uc123.com##.header-push-container
+uc123.com##.logo > a
+uc123.com##.m-link
+uc123.com##.s-left
+uc123.com##.s-right
 uho.com.tw##.adsense
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6712,7 +6719,7 @@ comic.qq.com###fixed_right > div
 duba.com###fixedad
 qqread.com###flash310ad
 7574.com,doyo.cn###flash_cover_box
-shangdu.com,uc123.com###float
+shangdu.com###float
 weibo.com###floatAd-left
 weibo.com###floatAd-right
 chinasexq.com###floatGG
@@ -6818,7 +6825,6 @@ zhicheng.com###guideLayer
 www.gxorg.com###h
 hao123.com###hao123-gw11
 java1234.com###hao_search_content
-uc123.com###hb-popup
 macd.cn###hbad
 coolaler.com###hd
 ithome.com###hd_float
@@ -7191,7 +7197,6 @@ cpd.com.cn###right_adt
 loldk.com###right_bottom
 tvhome.com###right_bottom1
 discuss.com.hk,uwants.com###right_column
-uc123.com###right_elevator
 gamersky.com###right_fixed
 gmw.cn###rightad1 + .contentColumnRight
 www.wenxuecity.com###rightside
@@ -8701,7 +8706,6 @@ jjwxc.net##.h8px + div[align="center"]
 www.eastmoney.com##.h90
 kekenet.com##.h_news_c
 bbs.yzz.cn##.half-banner
-uc123.com##.hb-cover
 ynet.com##.hc4 > .L2
 973.com##.hc_ad
 youth.cn##.hd_pic
@@ -8723,7 +8727,6 @@ biz.ifeng.com##.header
 onlylady.com##.header > .t2
 i.maxthon.cn##.header-hotkeys
 8btc.com##.header-prices
-uc123.com##.header-push-container
 zeekmagazine.com##.header-top-right
 beareyes.com.cn##.header.clearB
 iqiyi.com##.headerLink01
@@ -8767,7 +8770,6 @@ bkjia.com,zol.com.cn##.hot_tj
 sogou.com##.hotel-pic
 sogou.com##.hotel_tit
 sogou.com##.hotel_tj
-uc123.com##.hotwords
 bbs.hupu.com##.hp-ad250-250
 hupu.com##.hp-header-banner
 tw.mall.yahoo.com##.hpad-wrapper
@@ -8940,7 +8942,6 @@ flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 langya.cn##.langya2014_passport > div[style="margin-bottom:4px;"]
 1kkk.com##.lanrenzhijia
 iqiyi.com##.lanzhi_cont2
-uc123.com##.latest-news
 83133.com##.lay-300 > .test
 qiwen8.com##.lay-h-90
 le.com##.lay_body[style^="width:490px;height:320px;"]
@@ -8970,7 +8971,6 @@ muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 lywww.com##.lianmengclass
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
-uc123.com##.lift-push-container
 zhidao.baidu.com##.link-banner
 m.qidian.com##.link_banner
 linuxidc.com##.linuxy1
@@ -8992,7 +8992,6 @@ hao123.cn##.llc
 bbs.yawin.cn##.lmP
 77pan.cc##.lo_box
 tianya.cn##.load_m_top
-uc123.com##.logo > a
 hcwang.cn##.logo3
 fashionguide.com.tw##.logo_ad
 7399.com##.logo_r_hd
@@ -9017,7 +9016,6 @@ dwnews.com##.m-banner
 blog.163.com##.m-fixedPCAd
 moe123.com##.m-inner2[module="attention"]
 moe123.com##.m-inner2[module="fatty"]
-uc123.com##.m-link
 3g.qq.com##.m-lk[href^="http://c.gdt.qq.com/gdt_clickwap.fcg?"]
 sina.com.cn##.m-p1-lb1-ad
 3g.cn##.mOrder > div > .list_block
@@ -9066,7 +9064,6 @@ rj.baidu.com##.mid-recommend
 999.com##.midd-fck
 360zhibo.com##.middiv > div[style="text-align:center;"]
 letv.com##.middle-advert
-uc123.com##.middle-links
 timedg.com##.middleCrossAdvertise
 jmbbs.com##.middle_guanggao
 fenghuo.in##.mimi
@@ -9296,7 +9293,6 @@ qdmm.com,qidian.com##.qd_sms_pop
 qq.com##.qiye-Article-QQ
 ifeng.com##.qudaoTg
 muzhi.baidu.com##.quick-ask-2 + .android + div
-uc123.com##.quick-links > a
 mop.com##.quickReply-ad
 gfan.com##.r-ad
 mop.com##.r-adv
@@ -9385,10 +9381,7 @@ club.pchome.net,kdslife.com##.rtag.gs
 rrting.net##.rtxt
 jjxw.cn##.ru_banner
 fashion.qq.com##.rv-js-root
-uc123.com##.s-left
 baidu.com##.s-news-item[data-rid="vipServer"]
-uc123.com##.s-pic-wrapper
-uc123.com##.s-right
 wenda.tianya.cn##.s1Tit + .sideBox
 cnstock.com##.sBox-left
 cnstock.com##.sBox-right
@@ -9432,7 +9425,6 @@ hao.rising.cn##.shop-site
 sogou.com##.shop-title
 sogou.com##.shopSort
 sogou.com##.shop_list
-uc123.com##.shopping-push
 gq.com.tw##.shopslide
 qiushibaike.com##.shopwindow
 neonan.com##.shouhuan_ad
@@ -9492,7 +9484,6 @@ onefunnyjoke.com##.single-bottom-responsive
 kocpc.com.tw##.single_ads
 do189.com##.single_body > p[style="text-align: center;"]
 i.maxthon.cn##.site-ad-container
-uc123.com##.site-search-wrap > div[style]
 iqiyi.com##.site-title_right
 icoc.cc,icoc.in##.siteAdvertisement_box
 v.qq.com##.site_bg_variety
@@ -10008,7 +9999,6 @@ qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
 qiuziti.com##a[href^="http://90sheji.com/"]
 chacuo.net##a[href^="http://affiliate.lufax."]
-uc123.com##a[href^="http://alimarket.taobao.com/"]
 qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
