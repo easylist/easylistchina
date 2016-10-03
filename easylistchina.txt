@@ -2878,6 +2878,7 @@ mg*.6park.com/img/$image
 ||btbtt.la/bt.js
 ||btbtt.la/jslb.js
 ||btbtt.la/jstb.js
+||btbtt.la/upload/400x75_
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
 ||btks.me/ac/
@@ -3584,6 +3585,7 @@ mg*.6park.com/img/$image
 ||gg.gao7.com^
 ||gg.kugou.com^
 ||gg.sonhoo.com^
+||gg.uuu9.com^
 ||gg.yxdown.com^
 ||gg163.net/20*ad/
 ||gg163.net/js/163bbsad.js
@@ -5461,6 +5463,7 @@ mg*.6park.com/img/$image
 ||u148.net/images/sponsor-
 ||u9yy.com/style/760x90.gif
 ||u9yy.com/style/zs.gif
+||uc.cn/s/uae/g/0s/ua.js
 ||uc8.cc/_style/2013/js/all.js
 ||ucbug.com/gaibian/js/tlys.js
 ||ucbug.com/js/
@@ -5485,6 +5488,7 @@ mg*.6park.com/img/$image
 ||upaiyun.com/2016/09/e3ae3563c836df9a44a73d985dcb6196.jpg
 ||upaiyun.com/css88/20
 ||upan.cc/images/pay/
+||upantool.com/bay/
 ||upantool.com/playing/
 ||upload.chinaz.com/20*.gif$domain=bbs.chinaz.com
 ||upload.jjxw.cn^*.swf
@@ -5529,8 +5533,8 @@ mg*.6park.com/img/$image
 ||vip.luanren.com/data/*.gif
 ||vip.luanren.com/data/*.swf
 ||vipcn.com/hezuo/
-||vipcn.com/images/cfdh*.gif
 ||vipcn.com/hz/down_r.js
+||vipcn.com/images/cfdh*.gif
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tgbus.com/data.ashx^*_SINGLE_SETJSONADSLOT
 ||vista.tgbus.com/s.js
@@ -5547,6 +5551,7 @@ mg*.6park.com/img/$image
 ||vvpan.com^*/zsz
 ||vvshu.com/images/cp_
 ||vvvdj.com/sms/
+||vzhuan.cn/html/$subdocument
 ||w010w.com.cn^$subdocument
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wal8.com/img48/544027_20160424182911/146446612161.gif
@@ -6067,18 +6072,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||uc.cn/s/uae/g/0s/ua.js
-||upantool.com/bay/
-||gg.uuu9.com^
-||btbtt.la/upload/400x75_
-||vzhuan.cn/html/$subdocument
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-vipcn.com###z_baidu
-vzhuan.cn###box
-vzhuan.cn###jxy_cd
-upan.cc###ShowDIV
-uuu9.com##.yoyofc
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6179,6 +6174,7 @@ tuhaoylw.com###ShouYe_ShangBu > .themeauthor > p
 3k97.com,caihongzy.com,cxzyw.com,qqhzg.com,tuhaoylw.com,xiaokuangyl.com###ShouYe_ShangBu > .themeauthor > table:first-child
 tyyhhdf.com###ShouYe_ShangBu > .themeauthor:first-child
 cxzyw.com,tuhaoylw.com###ShouYe_XiaBu + .themeauthor
+upan.cc###ShowDIV
 ifeng.com###StreamMediaWrap
 webkaka.com###Table1
 gaoqingkong.com###Tianmao1224
@@ -6190,8 +6186,8 @@ cnzol.com,ysx8.net###Wl_Float_Div
 baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .c-abstract:nth-child(2)
 baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .c-abstract:nth-child(2) + .f13:last-child
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click="\7b \"rsv_bdr\":\"0\",\"p5\":1\7d "] > .t > a[href^="http://www.baidu.com/baidu.php?"]
-baidu.com###\32 ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 duote.com###\32 345_ad
+baidu.com###\32 ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 morningpost.com.cn###\33 60hot
 zongheng.com###\36 roomRecommend
 hao123.com###\5f _wgt_0_1
@@ -6465,7 +6461,7 @@ masok.cn###bottomLayer
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
-dnvod.eu,dxlwwang.com###box
+dnvod.eu,dxlwwang.com,vzhuan.cn###box
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 www.hupu.com###box1_bigImg > ul > li > a[href^="http://goto.hupu."]
@@ -6930,6 +6926,7 @@ qu366.com###js_type_2 > .sw
 bejson.com###jsa1
 bejson.com###jsa2
 xianshuabao.com###justfy_left_banner
+vzhuan.cn###jxy_cd
 3721.cc###key2 > a
 3721.cc###keywords > a
 nazolog.com###kf2a
@@ -7474,6 +7471,7 @@ dm5.com###youce
 0598yu.com###yu2015_ad_news_01
 mmrelax.com###yytf
 yzz.cn###yzz_couplet
+vipcn.com###z_baidu
 51.la###zanzhu
 zhiboba.cc###zb_left
 zhiboba.cc###zb_right
@@ -9859,6 +9857,7 @@ fx168.com##.yjl_fx168_head_navAd
 youku.com##.yk-AD-tong
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.ylbx_game_desc
 hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
+uuu9.com##.yoyofc
 ysxs8.com##.ysxs8_w960_1
 geilwx.com##.yueduads
 cnlmjx.com##.yw_ad
@@ -10689,6 +10688,7 @@ pbhz.com,wholehk.com,zhujiceping.com#@##adsense
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
+apk.tw#@##google_ad
 soft.macx.cn#@##googlead
 soft.macx.cn#@##googlead1
 fmdisk.com#@##googleadsense
@@ -10794,7 +10794,6 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-apk.tw#@##google_ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
