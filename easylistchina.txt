@@ -2968,7 +2968,6 @@ mg*.6park.com/img/$image
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.shdsp.net/ad
-||cdn.wdlm.cn^
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
@@ -5556,8 +5555,6 @@ mg*.6park.com/img/$image
 ||wan.sogou.com/static/fragment/
 ||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
 ||wangdaizhijia.com/data/attachment/portal/
-||wanghualang.com/wp-content/gallery/resource/Aliyun-
-||wanghualang.com/wp-content/gallery/resource/wp.png
 ||wanghualang.com/wp-content/gallery/thumbnail/*-ad.
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/iframe/zhounian.php?
@@ -5568,12 +5565,10 @@ mg*.6park.com/img/$image
 ||wangpanwu.com/images/zhuolaoshigg.gif
 ||wangyouxs.com/A/$script
 ||wanmcy.com/toolsda/
-||wannianli.com.cn/style/ad_
 ||wanwan.sina.com.cn/third_party/
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/images/hz/uidesign_1200x90.jpg
 ||warting.com/plus/hezuo.php?aid=
-||wbzol.com/show/images/show.htm
 ||wd147.com/templets/mm/js/cs.js
 ||wdlm.cn/img/ad1/
 ||wdown.cn/falala/
@@ -5598,8 +5593,6 @@ mg*.6park.com/img/$image
 ||wei2008.com/js/t_win
 ||weibo.com/images/ad_
 ||weibo.com/static/ali.html
-||weidea.net/wp-content/ads_img/
-||weidea.net/wp-content/host_ads.png
 ||weiqitv.com/Public/img/kt.jpg
 ||weiqitv.com/Uploads/185_440_
 ||weiqitv.com/Uploads/20140721/53cca3becc50b.jpg
@@ -5632,7 +5625,6 @@ mg*.6park.com/img/$image
 ||wodexiaoshuo.com/js/*lun.js
 ||wodexiaoshuo.com/js/*zhangjie.js
 ||wolepan.com/images/d1.jpg
-||woshipm.com/wp-files/*qidian
 ||wowody.net/public/wowo/*play_
 ||wowody.net/public/wowo/2345.html
 ||woxiu.com/xapi/get_pre_config.php
@@ -5641,7 +5633,6 @@ mg*.6park.com/img/$image
 ||wpjam.qiniudn.com/wpjam/banner/*g|
 ||wszhibo.com/Uploadfiles/*.gif
 ||wszhibo.com/xml/tvAdtext.ashx
-||wudilong.com/ssb/include/js/php.js
 ||wuhan.net.cn/guanggaojs/
 ||wuhan.net.cn/show.html
 ||wumii.cn/site_images/c/
@@ -6062,7 +6053,12 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||wbzol.com/images/1120-
+||wbzol.com/swf/352X76.swf
 !------------------------Specific element hiding rules------------------------!
+wbzol.com##.banner1
+wbzol.com##.banner2
+wbzol.com##.sg
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6249,8 +6245,7 @@ www.sohu.com###ad_TOP
 sina.com.cn###ad_blk_fixed
 cnyw.net###ad_box_2009_04
 060s.com###ad_content1
-51itstudy.com,wdlm.cn###ad_coupleleft
-wdlm.cn###ad_coupleright
+51itstudy.com###ad_coupleleft
 gdmm.com###ad_cover
 udn.com###ad_curtain
 gpcxw.com###ad_dl
@@ -7567,7 +7562,6 @@ azpan.com##.Page_left > .gg-up-line
 chinaz.com##.Postcon-ad
 chinaitlab.com,idcquan.com##.Prt_right[style^="HEIGHT:"]
 hackhome.com##.Qad
-woshipm.com##.R-ad
 3dmgame.com##.R1
 3jy.com##.Rad
 198zone.com##.Rad2
@@ -8996,7 +8990,6 @@ lgn.yy.com##.m_left
 hupu.com##.m_text_ad
 dilidili.com##.main > .l
 www.tiexue.net##.main > style + div[class]
-weidea.net##.main-banner
 firefox.com.cn,firefoxchina.cn##.main-promote-sites
 firefoxchina.cn##.main-promote-tmall
 expreview.com##.main-side-tao
@@ -9607,7 +9600,6 @@ sxrom.com##.tmk
 xinhuanet.com##.tonglan01
 xdkb.net##.tonglan2
 qilindao.com##.tonglanAd
-wdlm.cn##.tonglanbanner
 fuliba.net,fulibba.com,uliba.net##.tool_news1
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.tools > .shouji
 loldk.com##.tools-recommend
@@ -11007,7 +10999,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||cbjs.baidu.com/js/o.js$domain=7958.com.cn|g3000.com.cn|missioncouver.com.cn
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||ccb.com^*^ad
-@@||cdn.wdlm.cn^*/
 @@||changyou.com^$generichide
 @@||chinahr.com/ad$domain=chinahr.com
 @@||chinamobile.com^$generichide
