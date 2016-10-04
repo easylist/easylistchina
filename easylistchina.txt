@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/bab8ab1fgw1f5t7p0pjwxj20940fg76k.jpg
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -69,6 +68,7 @@
 /aoyou372down300_
 /api/autosda.php
 /attachments/ad/*
+/bab8ab1fgw1f5t7p0pjwxj20940fg76k.jpg
 /baichuan/*$subdocument
 /Banner-pcbeta-
 /banner468x60_live173.$~collapse
@@ -1644,6 +1644,7 @@ ubmcmm.baidustatic.com
 /gamer/*$subdocument,domain=gamer.com.tw
 /gennie_b.htm$domain=50.7.31.228|50.7.31.230|tvboxnow.com
 /gif/*$image,domain=txzqw.com
+/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /gyw_index/*/images/ad_
 /homead/*_appledaily_bg.
 /html/taobao_focus_
@@ -1669,7 +1670,6 @@ ubmcmm.baidustatic.com
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
-/gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /js/index_$domain=ltwbook.com|ltxsw.com|ltxszw.com
 /js/top.js$domain=8comic.com|comicvip.com
 /jsc/book_$domain=99770.cc|99comic.com|99manga.com
@@ -4405,6 +4405,7 @@ mg*.6park.com/img/$image
 ||licai18.com/images/Licai-
 ||licai18.com/pic/*.swf
 ||liepin.com/event/jobadver/
+||lieqi.com/templates/*/js/_banner.js
 ||life.e0575.com^
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
@@ -5531,7 +5532,6 @@ mg*.6park.com/img/$image
 ||vista.tgbus.com/s.js
 ||vista.tgbusdata.cn/s.js
 ||vista.tuwan.com/s.js
-||lieqi.com/templates/*/js/_banner.js
 ||vkeke.net/public/agd
 ||vnet.cn^*.html
 ||voc.com.cn/adsClick/
@@ -5568,6 +5568,8 @@ mg*.6park.com/img/$image
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/images/hz/uidesign_1200x90.jpg
 ||warting.com/plus/hezuo.php?aid=
+||wbzol.com/images/1120-
+||wbzol.com/swf/352X76.swf
 ||wd147.com/templets/mm/js/cs.js
 ||wdlm.cn/img/ad1/
 ||wdown.cn/falala/
@@ -6052,14 +6054,7 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||wbzol.com/images/1120-
-||wbzol.com/swf/352X76.swf
 !------------------------Specific element hiding rules------------------------!
-wbzol.com##.banner1
-wbzol.com##.banner2
-wdzj.com##.adv-img
-wdzj.com##.logo-banner
-wbzol.com##.sg
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7910,6 +7905,7 @@ chinaz.com,yawin.cn##.adtext
 114la.com,3g.cn,52solution.com,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,silver.org.cn,solidot.org,v1.cn,ylmf.com,yxdown.com##.adv
 19lou.com##.adv-fixed
 52solution.com##.adv-hb
+wdzj.com##.adv-img
 52solution.com##.adv-lb
 52solution.com##.adv-sq
 qq.com##.adv1000
@@ -8063,8 +8059,8 @@ firefoxchina.cn##.banner-words
 fanyi.baidu.com,longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
 news.cn2che.com,sd001.com##.banner01
-html5china.com,shangdu.com,uusee.com##.banner1
-guitarchina.com,uusee.com,xiazaigang.com##.banner2
+html5china.com,shangdu.com,uusee.com,wbzol.com##.banner1
+guitarchina.com,uusee.com,wbzol.com,xiazaigang.com##.banner2
 ting89.com,tingshuge.com,vga.zol.com.cn##.banner250
 iqiyi.com,shangdu.com,uusee.com##.banner3
 pengfu.com##.banner300x250
@@ -8956,6 +8952,7 @@ bbs.yawin.cn##.lmP
 77pan.cc##.lo_box
 tianya.cn##.load_m_top
 uc123.com##.logo > a
+wdzj.com##.logo-banner
 hcwang.cn##.logo3
 fashionguide.com.tw##.logo_ad
 7399.com##.logo_r_hd
@@ -9378,6 +9375,7 @@ zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
 peasyun.com##.sf_adv
 cctry.com##.sftop
+wbzol.com##.sg
 sogou.com##.sg-ad
 sogou.com##.sg-ad-r
 17173.com##.shadowPage
