@@ -1725,7 +1725,7 @@ _yad_jsonp_
 mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
-|http:$script,third-party,xmlhttprequest,domain=23wx.com|btkitty.bid|dhzw.com|diggbt.co|kewaishu.net|shenmabook.com|vodtw.com
+|http:$script,third-party,xmlhttprequest,domain=23wx.com|dhzw.com|diggbt.co|kewaishu.net|shenmabook.com|vodtw.com
 |http:$subdocument,domain=glcdynpcws.net|jtwybgxiumsx.net|pc6.com
 |http://*.7m.cn/b/
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
@@ -5546,8 +5546,6 @@ mg*.6park.com/img/$image
 ||wangjing.cn/images/js/YlFloat.js
 ||wangjing.cn/upload/ftp/ad/
 ||wangpange.com/img/*_960x60.jpg
-||wangpanwu.com/images/*guanggao
-||wangpanwu.com/images/zhuolaoshigg.gif
 ||wangyouxs.com/A/$script
 ||wanmcy.com/toolsda/
 ||wanwan.sina.com.cn/third_party/
@@ -6040,6 +6038,8 @@ mg*.6park.com/img/$image
 ||wpdaxue.com/2015/03/wx0329.jpg
 ||wpdaxue.com/2016/09/20160904210313.png
 ||wacowla.com/wp-content/uploads/*_320x60.
+||wangpanwu.com/images/*ad
+||wangpanwu.com/images/*%E5%B9%BF%E5%91%8A.jpg
 !------------------------Specific element hiding rules------------------------!
 wpdaxue.com##IMG[width="360"]
 gpcxw.com###AA2
@@ -10556,7 +10556,6 @@ ppmsg.net##table[width="960"][height="335"]
 94as.com##table[width="960"][height="70"]
 123kubo.com,gpcxw.com,kanguba.com##table[width="960"][height="90"]
 xindm.cn##table[width="976"][background="/image/04/line2.gif"]
-wangpanwu.com##table[width="978"][align="center"]
 you85.cn##table[width="980"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 dbw.cn##table[width="980"][height="100"]
