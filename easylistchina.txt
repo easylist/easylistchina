@@ -10671,6 +10671,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||baidustatic.com^$domain=xoyo.com
+@@||pos.baidu.com^$domain=xoyo.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10901,7 +10903,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||btaia.com^$generichide
 @@||btio.pw^$generichide
 @@||bzfxw.com/d/js/acmsd/thea25.js
-@@||cache.adm.cnzz.net^$domain=gx.91s.org|xoyo.com
+@@||cache.adm.cnzz.net^$domain=gx.91s.org
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com/ecom?di=$domain=xdf.cn
 @@||cb.baidu.com^$object-subrequest,domain=v.baidu.com
@@ -11019,7 +11021,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||jjjgame.com/plus/ad_
 @@||jlthjy.com/statics/images/ad-
 @@||jlthjy.com^$generichide
-@@||js.adm.cnzz.net^$domain=xoyo.com
 @@||jswenhui.com^*/ad/
 @@||kayixin.com^*/advert
 @@||keyrun.cn^$script,domain=sx566.com
