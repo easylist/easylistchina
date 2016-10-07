@@ -518,6 +518,7 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
+##.readerAd
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/cpv/*.ashx?$third-party
@@ -5354,7 +5355,7 @@ mg*.6park.com/img/$image
 ||tieba.baidu.com/f/urlcheck?
 ||tietuku.$domain=52jifenbao.net|5ydj.com|btago.com|btshark.org|fulisuo1.com|henbt.com|papa1024.com|potplayer.org|souxue8.net|totuwo.com|xiaodao.la|xiaodaoyl.com|yunaw.com
 ||tietuku.$object-subrequest,domain=skyerblog.com
-||tietuku.*.gif$domain=lightnovel.cn|xdjishu.com
+||tietuku.*.gif$domain=lightnovel.cn
 ||tietuku.com/b975a9f7c494738b.gif
 ||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
@@ -5629,7 +5630,6 @@ mg*.6park.com/img/$image
 ||xdf.cn/v4/images/index/ads/
 ||xdf.cn/v4/js/adm-
 ||xdf.cn/v4/js/leyus/
-||xdjishu.com/_uploadfile/image/20150722/20150722164052_98036.gif
 ||xdkb.net/index/temp/3813.files/banner.jpg
 ||xdnice.com/template/comiis_mi/img/guangg.jpg
 ||xdowns.com/ggco.js
@@ -5658,7 +5658,6 @@ mg*.6park.com/img/$image
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
 ||xilu.com/script/tag/2.0/func.js
-||xinbiqi.com/js/pc_ads.js
 ||xineurope.com/static/image/banner/
 ||xingk.cc/data/attachment/forum/201604/04/222102nnebnvkklof5evtz.gif
 ||xingk.cc/data/attachment/forum/201604/gtxd.jpg
@@ -5729,14 +5728,12 @@ mg*.6park.com/img/$image
 ||xskhome.com/pic/20*/all/
 ||xtzgjx.com/images/jiaoyou
 ||xue163.com/ajs/b.js
-||xue163.com/ajs/end
 ||xue163.com/ajs/newzongji/
 ||xun9u.com/css/js/text_link.js
 ||xunleige.com/js/functionx.js
 ||xunleihao.com/a-d-j-s/
 ||xunleihd.com/image/*maose
 ||xunleipu.com/a-d-j-s/
-||xunleisousuo.com/byou.php
 ||xunying.com^*/ww
 ||xunzai.com/static/www/ku360300.jpg
 ||xunzai.com/static/wwwimg/
@@ -6959,7 +6956,6 @@ dnvod.eu###myaudient2
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
-xdjishu.com###nav + div + table
 hacg.red###nav-above + div
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
 tgbus.com###neck_970
@@ -7357,7 +7353,7 @@ maxthon.cn###widget-main-external-link-groupbuy
 heu8.com###widget_ada
 ccav1.com###widget_da
 07073.com###win1
-189so.cn,xsbashi.com###winpop
+189so.cn###winpop
 ylnet.com.cn###winpop1
 news.baidu.com###women-picwall
 xici.net###word_ad
@@ -7383,9 +7379,6 @@ bjxxw.com###xBanner
 soft4fun.net###xad_mu
 xinhuanet.com###xiangguanad
 jmbbs.com###xjj_jmbbs2015_01
-xilinjie.com###xlj-ad-block-overlay
-xilinjie.com###xlj-ad-right-01
-xilinjie.com###xlj-ad-right-02
 xilinjie.com###xlj-spread
 m4jl.com###xrAd
 chrome007.com###xxxx
@@ -7411,7 +7404,6 @@ gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 189.cn###zqtopag_bg
 ditu.so.com###zt_right
-xsbashi.com###zuo
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_01_g1
 jyacht.com###zyc1r_03
@@ -7661,7 +7653,6 @@ tgbus.com##.ad86
 ifeng.com,laohe360.com,laohe360.net,sohu.com##.ad950
 pharmnet.com.cn##.ad950-t
 pharmnet.com.cn##.ad9502
-xinbiqi.com##.ad960-90
 kumi.cn##.ad96060Box
 yaolan.com##.ad96090
 logo160.com##.ad9680
@@ -7755,7 +7746,6 @@ wanghualang.com##.ad_h_c
 hb163.cn##.ad_inner
 le.com##.ad_layer
 188bifen.com,hc360.com,zhibo8.cc##.ad_left
-xdjishu.com##.ad_left2
 66rd.cn,ifeng.com##.ad_list
 ck101.com##.ad_logo
 78dm.net##.ad_logor
@@ -8558,7 +8548,7 @@ hgitv.com##.ggall
 creaders.net##.ggbox1
 qidian.com##.ggbox740X80
 chazidian.com##.ggin
-eastday.com,xdjishu.com##.gglist
+eastday.com##.gglist
 haofu1.com##.ggsj
 weather.com.cn##.ggt
 55188.com,g138.com##.ggtishiall
@@ -8755,7 +8745,6 @@ ijia360.com##.indexad_1
 sznews.com##.indexcon01
 sznews.com##.indexcon02
 sznews.com##.indexcon07
-xdjishu.com##.indexgg1
 chinairn.com##.industry
 itjsb.com##.info_ad
 wasu.cn##.info_ads
@@ -9212,7 +9201,6 @@ app01.com.tw##.rcAD
 xvna.com##.rctad
 xmfish.com##.readCon_right
 3gsc.com.cn##.read_otherbook + a
-xinbiqi.com##.readerAd
 tvhome.com##.reading_Ad
 sina.com.cn##.real-time-window__ad
 finance.ifeng.com##.rec
@@ -9555,7 +9543,7 @@ ifeng.com##.top-tg
 52wubi.com,zerodm.com##.top960
 700kan.com,jjvcd.com,ktkkt.com##.top980
 ktkkt.com##.top980a
-cn.msn.com,cwan.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com,xinbiqi.com##.topAd
+cn.msn.com,cwan.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ifeng.com##.topAdBox
 ltaaa.com##.topAds2
 sxclub.net##.topAdv
@@ -9663,13 +9651,12 @@ quanmin.tv##.w-newhot_slot-wrapper
 10jqka.com.cn##.w1000
 0573ren.com##.w1000.ad
 shm.com.cn##.w1000.surround
-pc841.com,xuenb.com##.w1050
+pc841.com##.w1050
 516qq.cn##.w1100
 miomio.tv##.w1160.h90
-meili.cn,pc841.com,ting56.com,weiwei123.com,xuenb.com##.w300
+meili.cn,pc841.com,ting56.com,weiwei123.com##.w300
 9yaocn.com##.w300Banner
 dbw.cn##.w720
-xuenb.com##.w728
 blue-way.com.tw##.w960 ~ a
 qikuyou.com##.w960[style="height:90px;"]
 07073.com##.w_ad
