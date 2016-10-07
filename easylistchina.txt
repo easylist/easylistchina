@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/xiaobaiAD.gif
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -235,6 +234,7 @@
 /wap_advpic/*
 /wp-content/themes/iMovies/js/tc_
 /wy96ad/*
+/xiaobaiAD.gif
 /ZDS1.jpg?
 /znds/images/dangbeigif.gif
 /zzhzad/*
@@ -521,7 +521,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||sfloushi.com^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -1275,6 +1274,7 @@ ubmcmm.baidustatic.com
 ||scupio.com^$third-party
 ||scw0.com^
 ||sexy-more.com^$third-party
+||sfloushi.com^
 ||sgbfjs.info^
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
@@ -5174,7 +5174,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/bfdcef89gw1f3zdnqbs1qj20k902igmq.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|666hdhd.com|84fn.com|99re.com|99ww7.com|a3v4.top|ac168.info|aisex.com|avtaobao.tv|avtb.me|avtb.us|bejson.com|blz20.com|bt177.com|btago.com|btshark.com|btup.net|cangjige.me|cangjige.net|caoliuzx.com|cililian.me|fdzone.org|fulidh.org|fulitxx.com|izzs.cc|jisuzhibo.net|neonan.com|niluba.cc|qyule.lol|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|666hdhd.com|84fn.com|99re.com|99ww7.com|a3v4.top|ac168.info|aisex.com|avtaobao.tv|avtb.me|avtb.us|bejson.com|blz20.com|bt177.com|btago.com|btshark.com|btup.net|cangjige.me|cangjige.net|caoliuzx.com|cililian.me|fdzone.org|fulidh.org|fulitxx.com|izzs.cc|jisuzhibo.net|neonan.com|niluba.cc|qyule.lol|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=00fuck.com|01fuck.com|1024.pe|1024bao.com|20fuck.com|20men.com|22fuck.com|2c2.website|2p8.space|32cao.com|33fuck.com|42bao.com|44fuck.com|66fuck.com|74bao.com|75ri.com|83bao.com|96ri.com|97aa1.com|atao.biz|bao36.com|bao85.com|baoxxx.com|btshoufa.net|cao.pe|cao71.com|cao89.com|caoporn.com|cp001.xyz|down40.com|fuck01.com|fuck44.com|fuckhao.com|fulitie.org|gan80.com|gantube.com|gao08.com|gao1024.com|h3e.pw|h3y.pw|lang.pe|lang00.com|lang51.com|men00.com|men40.com|men55.com|men70.com|men81.com|p5p.space|porncao.com|pornhao.com|ri1024.com|ri15.com|ri69.com|ri86.com|ri96.com|rifuck.com|su1024.xyz|t2p.space|tb001.xyz|tube1024.com|tubewan.com|vcam.xyz|vgan.pw|vgao.xyz|vlang.xyz|vlook.xyz|vmen.xyz|vwan.xyz|wan1024.com|wanfuck.com|xlook.xyz|xtao.xyz|xxxgao.com
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
@@ -5546,6 +5546,7 @@ mg*.6park.com/img/$image
 ||wangpanwu.com/images/*ad
 ||wanmcy.com/toolsda/
 ||wanwan.sina.com.cn/third_party/
+||wanyx.com/Public/js/cqby.swf
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/plus/hz.php?aid=
 ||wbzol.com/images/1120-
@@ -5571,13 +5572,16 @@ mg*.6park.com/img/$image
 ||weste.net/js/showpagead.js
 ||wgun.net/data/yahoo_ad.html
 ||whinfo.net.cn/ad20
+||whnews.cn/news/data/*gg
 ||whnews.cn/wh_public/dl/
+||whnews.cn/wh_public/xuxu/
 ||whqyw.com/file/upload/201408/01/09-41-45-92-1.jpg
 ||whsfzx.com/img/top.js
 ||whsfzx.com/jj/
 ||winba.me/wp-content/uploads/*/300x300.
 ||winba.me/wp-content/uploads/*/QQ%
 ||winba.me/wp-content/uploads/2015/10/image.jpg
+||windows7en.com/160805/31-160P5005615128.jpg
 ||windowszj.com^*/xiaoyu
 ||winvvv.com^$subdocument
 ||wishdown.com/images/*.gif
@@ -6014,19 +6018,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||windows7en.com/160805/31-160P5005615128.jpg
-||wanyx.com/Public/js/cqby.swf
-||sinaimg.cn^$domain=wszhibo.com
-||whnews.cn/news/data/*gg
-||whnews.cn/wh_public/xuxu/
 !------------------------Specific element hiding rules------------------------!
-whnews.cn###panel
-whnews.cn##.whnews_a_dv
 gpcxw.com###AA2
-wj001.com###ad
-wj001.com###ad1
-wj001.com###guanggao
-wasu.cn##.info_ads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6159,7 +6152,7 @@ ik123.com###aa960a
 2345.com###abanner
 hao.360.cn###activity
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
-3773.com.cn,jqgcw.com,srzc.com,wenkudaquan.com,win7sky.com,xinhuanet.com,xue5.com,ylnet.com.cn###ad
+3773.com.cn,jqgcw.com,srzc.com,wenkudaquan.com,win7sky.com,wj001.com,xinhuanet.com,xue5.com,ylnet.com.cn###ad
 ruten.com.tw###ad-467
 acfun.tv###ad-b
 itxueyuan.org###ad-beifeng-729-90
@@ -6176,7 +6169,7 @@ yeyou.com###ad-yeyou-nitifiction
 duba.com###ad-zongyi
 price.com.hk###ad0
 cncrk.com###ad04
-90oo.com,etest8.com,eworldship.com,hntobacco.com,jc001.cn,price.com.hk,ylnet.com.cn,zbgl.net,zimuzu.tv###ad1
+90oo.com,etest8.com,eworldship.com,hntobacco.com,jc001.cn,price.com.hk,wj001.com,ylnet.com.cn,zbgl.net,zimuzu.tv###ad1
 eworldship.com,junshiqu.com,rshhy.com,xinhuanet.com,yinsha.com,zimuzu.tv###ad2
 mao-123.com,mengmao.org,rshhy.com,xinhuanet.com,yinsha.com,zimuzu.tv###ad3
 efu.com.cn,xinhuanet.com###ad4
@@ -6748,6 +6741,7 @@ gameapps.hk###google_side_ad2_top
 js0573.com###gotopl
 js0573.com###gotopr
 cnr.cn###gtop00
+wj001.com###guanggao
 creaders.net###guanggao2
 hao123.com###guesslikesite-block
 zhicheng.com###guideLayer
@@ -6970,7 +6964,6 @@ yxad.com###nav
 xdjishu.com###nav + div + table
 hacg.red###nav-above + div
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
-webkaka.com###yhtools + .ucontent
 tgbus.com###neck_970
 40407.com###nei_fmt
 163.com###netease_house_ztc_bar960-70
@@ -7018,6 +7011,7 @@ srzc.com###pageright > .padding:nth-child(2)
 oh100.com###pagetop
 5iyq.com###pan1
 5iyq.com###pan2
+whnews.cn###panel
 xdowns.com###part_1
 hifidiy.net###part_left2
 hifidiy.net###part_right_gg7
@@ -7401,6 +7395,7 @@ xizi.com###xz_8
 hk.search.auctions.yahoo.com###yauadysmh
 redocn.com###yc_adv_1_2
 cdict.net###yhoo_text_ads
+webkaka.com###yhtools + .ucontent
 starbaby.cn###yindex_ads
 dm5.com###youce
 0598yu.com###yu2015_ad_news_01
@@ -8765,6 +8760,7 @@ sznews.com##.indexcon07
 xdjishu.com##.indexgg1
 chinairn.com##.industry
 itjsb.com##.info_ad
+wasu.cn##.info_ads
 wangyeba.com##.innner950
 131458.com##.inq_01
 131458.com##.inq_02_C_z
@@ -9699,6 +9695,7 @@ muzhi.baidu.com##.wgt-best-answer + script + div
 zhidao.baidu.com##.wgt-bottom-ask
 muzhi.baidu.com##.wgt-container
 zhidao.baidu.com##.wgt-union
+whnews.cn##.whnews_a_dv
 kikinote.net##.widget-3
 kikinote.net##.widget-6
 hao123.com##.widget-hlbar > span
@@ -9979,6 +9976,7 @@ qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
 btkitty.ws,btlibrary.net##body > a
 dm456.com##body > div[style^="height:90px;"]
+wendu.cn##body > div[style^="width:1000px;"]
 18h.avmimi.com##body > p[align="center"]:first-child
 3g.ifeng.com,i.ifeng.com##body > style:first-child + div[id]
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
@@ -10442,7 +10440,6 @@ muchong.com##p[onclick="view_ok();"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
 csj.xinhuanet.com##script + center > a > img
-wendu.cn##body > DIV[style^="width:1000px;"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 bbs.my0511.com##span.smalltxt
 163.com##span[class^="gg"]
@@ -10690,8 +10687,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||51job.com^$generichide
-@@||vast.btrll.com^$domain=hinet.net
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10826,6 +10821,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||5060.com^$elemhide,domain=5060.com
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
+@@||51job.com^$generichide
 @@||52zy.com/gg/
 @@||56img.com/modjs/app/page/www/play-pgc/*/so-ads.js?
 @@||58.com/adJump?adType=
@@ -11179,6 +11175,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||up2stream.com/vjs/lib/videojs-contrib-ads/videojs.ads.
 @@||up2stream.com/vjs/plugin/css/ads.css
 @@||v1.cn/player/cloud/cloud_player
+@@||vast.btrll.com^$domain=hinet.net
 @@||webcrow.jp/adjs/ncskt.js
 @@||weibo.com/api/weipan/getAds
 @@||wgun.net^$elemhide
