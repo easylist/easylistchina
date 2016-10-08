@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/getAliyunAdv.
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -111,6 +110,7 @@
 /floatad.$domain=~fwxgx.com
 /floatad2.
 /gaog/*
+/getAliyunAdv.
 /gg4.
 /gg5.
 /gg6.
@@ -2161,6 +2161,7 @@ mg*.6park.com/img/$image
 ||51credit.com/credit/images/201505/ggchedai.jpg
 ||51credit.com/js/app/end-layer.js
 ||51cto.com/js/blog_top_list.php
+||51cto.com/js/edu-ad.js
 ||51dll.com/dll/img/1.gif
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51gaojian.com/js/tj.js
@@ -3593,6 +3594,7 @@ mg*.6park.com/img/$image
 ||gmw.cn/banner/
 ||go.hangzhou.com.cn^
 ||go2tutor.com/lifebox.asp
+||gogorenti.wang/js/m_cp
 ||gohubei.com/img/tuniu.jpg
 ||gohubei.com/img/zhuna.gif
 ||good.gd/good.gd/js/downloadPrograss.js
@@ -5738,6 +5740,7 @@ mg*.6park.com/img/$image
 ||xx978.info/images/468-60OK.gif
 ||xxdm.com/js/union/
 ||xxdm.org/js/union/
+||xxhh.com/static/assets/pics/moguzbad.jpg
 ||xxhh.com/xh.js
 ||xxs8.com/data/attachment/forum/201308/02/154213bpecdb6qly7fgv71.jpg
 ||xxsy.net/js/xxsypop
@@ -6005,14 +6008,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||51cto.com/js/edu-ad.js
-||gogorenti.wang/js/m_cp
-||xxhh.com/static/assets/pics/moguzbad.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cnblogs.com##.ad_right
-xinjunshi.com##.index_top
-51cto.com###ADsList
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6023,6 +6020,7 @@ daohang.qq.com,hao.qq.com###AD_5
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
+51cto.com###ADsList
 autofan.com.cn,jiaodong.net,rzw.com.cn,yb983.com###ALayer1
 autofan.com.cn,jiaodong.net,rzw.com.cn,yb983.com###ALayer2
 i-part.com.tw###AdBanner785
@@ -7750,7 +7748,7 @@ letv.com##.ad_pop_small
 ubetween.com##.ad_pt
 sogou.com##.ad_result
 cngba.com##.ad_ri
-bitauto.com,hc360.com,zhibo8.cc##.ad_right
+bitauto.com,cnblogs.com,hc360.com,zhibo8.cc##.ad_right
 1yiren.com##.ad_right_1
 1yiren.com##.ad_right_2
 hushinm.com##.ad_ritht_1
@@ -8732,7 +8730,7 @@ hqdoor.com##.index_newad
 xinmin.cn##.index_nhsh_effect
 265g.com##.index_right > p
 jianshen114.com##.index_temp
-top81.com.cn##.index_top
+top81.com.cn,xinjunshi.com##.index_top
 ijia360.com##.indexad_1
 sznews.com##.indexcon01
 sznews.com##.indexcon02
@@ -10654,7 +10652,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10696,8 +10693,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advertise/*$domain=sfbuy.com
 @@/advertisement.$domain=0513c.com|gametower.com.tw
 @@/advertisement.js$domain=fharr.com
-@@/advertisement/*$domain=cits.cn
-@@/advertisement/*$domain=ininin.com|muyingzhijia.com
+@@/advertisement/*$domain=cits.cn|ininin.com|muyingzhijia.com
 @@/advertising/*$domain=houdask.com
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com|mfgun.com|ygo-sem.cn
@@ -10815,6 +10811,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||95306.cn/public/images/ad/
 @@||95599.cn^*/images/ad.
 @@||99ting.cn/image/ding.gif
+@@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@||9zvip.net^$elemhide
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
 @@||a.alimama.cn/tkapi$domain=ieeee.com
