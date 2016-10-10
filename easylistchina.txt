@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/xiazai_downloaderAD.
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -236,6 +235,7 @@
 /wp-content/themes/iMovies/js/tc_
 /wy96ad/*
 /xiaobaiAD.gif
+/xiazai_downloaderAD.
 /ZDS1.jpg?
 /znds/images/dangbeigif.gif
 /zzhzad/*
@@ -3261,8 +3261,8 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
-||dnvod.eu/upload/video/theMax/
 ||dnvod.eu/upload/video/*/pa7
+||dnvod.eu/upload/video/theMax/
 ||dnvod.eu^*.gif$object-subrequest
 ||dnvod.eu^*.jpg$object-subrequest
 ||dnvod.eu^*/201$object-subrequest
@@ -4305,6 +4305,7 @@ mg*.6park.com/img/$image
 ||kekenet.com/images/2015/xuedou
 ||kelepan.com/cp
 ||kewaishu.net/ad1/afoot.js
+||kewaishu.net^*-*-
 ||key8.com/cache/www/banner_
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kf.abab.com/index.php?
@@ -6010,7 +6011,6 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||kewaishu.net^*-*-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
