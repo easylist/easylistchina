@@ -3493,6 +3493,7 @@ mg*.6park.com/img/$image
 ||fumanhua.com/template/*/images/g_js/$subdocument
 ||fun.ynet.com^
 ||func.tw/image/func2.png
+||funshion.net.cn/ad?
 ||fwindy.win/asd/
 ||fwindy.win/js/s*.gif
 ||fwxgx.com/u/ad/show_type/
@@ -3656,7 +3657,6 @@ mg*.6park.com/img/$image
 ||gywb.cn/content/attachement/jpg/site2/20140901/50465d69af2b156e340c09.jpg
 ||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
-||xinhuanet.com/ce/pcimage/mt.swf
 ||gzcol.com/uploads/ad/
 ||gzdaily.dayoo.com/tpl/banner*.swf
 ||hacken.cc/file/ads/
@@ -5643,6 +5643,7 @@ mg*.6park.com/img/$image
 ||xinhuanet.com/2014xb/html/if_gg.htm
 ||xinhuanet.com/2015/html2015/xhfloatAdv.html
 ||xinhuanet.com/adxl/
+||xinhuanet.com/ce/pcimage/mt.swf
 ||xinhuanet.com/classad/
 ||xinhuanet.com/images/ggdl.jpg
 ||xinhuanet.com/images2015/index980
@@ -5691,6 +5692,7 @@ mg*.6park.com/img/$image
 ||xp510.com/images/*.gif
 ||xp510.com/statics/swf/
 ||xp811.com/img/xitong.gif
+||xp85.com/statics/images/*0.gif
 ||xp85.com/statics/js/all.js
 ||xpgod.com/bui/
 ||xpgod.com/UploadPic/xpgod/
@@ -5982,15 +5984,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||funshion.net.cn/ad?
-||xp85.com/statics/images/*0.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xinhuanet.com##.xhdf_moreAdv
-xinhuanet.com##.xhdf_row_adv
-xgrb.cn##.d_2016_ggw
-xinmin.cn##A[href="http://sbiz.xinmin.cn/new/"]
-7zhan.com##.banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7946,7 +7941,7 @@ msn.people.com.cn##.banNSch
 phpfans.net##.banad
 163.com##.bananer1
 100shuai.com##.bannar_gg
-3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,99.com.cn,aguitar.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
+3gsc.com.cn,51cto.com,51jifenbao.net,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,bamuyu.com,bbs.yzz.cn,cailianpress.com,cnhubei.com,daqianduan.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
 fulibar.net##.banner-contenttop
@@ -8239,6 +8234,7 @@ iplaysoft.com##.d250
 iplaysoft.com##.d250x90
 ipc.me,iplaysoft.com##.d300
 iplaysoft.com##.d336
+xgrb.cn##.d_2016_ggw
 51jifenbao.net,daqianduan.com,downza.cn,fulibar.net,fulidang.com,ihref.com##.d_banner
 wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
@@ -9659,6 +9655,8 @@ hcwang.cn##.wz3
 liaoxuefeng.com##.x-promo-b
 familydoctor.com.cn##.xg
 vr186.com##.xg1 + br + p[style="text-align: center;"]
+xinhuanet.com##.xhdf_moreAdv
+xinhuanet.com##.xhdf_row_adv
 sina.cn##.xiancheng-pic
 cww.net.cn##.xiatu1
 hgitv.com##.xinwen_right_gg01
@@ -9793,6 +9791,7 @@ zdfans.com##a[href="http://dwz.cn/oJed9"]
 123kubo.com##a[href="http://haowan.698game.com/"]
 hexieshe.com,xxshe.com##a[href="http://moe.hao123.com/"]
 hexieshe.com##a[href="http://moemoe.la/"]
+xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 ithome.com##a[href="http://suo.im/yii2y"]
 cnbeta.com##a[href="http://t.cn/RtvaZ1j"]
 cnfol.com##a[href="http://www.168licai.cn/"]
@@ -9897,7 +9896,7 @@ btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
 houdao.com##a[style^="background:url"]
 bilibilijj.com##a[style^="height"][href="#"]
 kutj.com##a[target="_blank"] > img[src*="gao/"]
-creaders.net##A[title^="www.136888.com/"]
+creaders.net##a[title^="www.136888.com/"]
 api.so.lianmeng.360.cn,pos.baidu.com##body
 qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
 yangtse.com##body > .nav_head:first-child
