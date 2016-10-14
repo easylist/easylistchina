@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/scripts/youthad.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -203,6 +202,7 @@
 /runtime/js/index960.js
 /Runtime/js/top960.js
 /sbo8gg/*
+/scripts/youthad.js
 /shareman1.jpg?
 /show.js?sp=*&oid=
 /shunwang/css/newgames/img/welfare.png
@@ -522,8 +522,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||videondun.com^
-||61.160.200.*:
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -720,6 +718,7 @@ ubmcmm.baidustatic.com
 ||5leji.com^$third-party
 ||5mnh.com^$third-party
 ||61.152.223.15^
+||61.160.200.*:
 ||63kc.com^$third-party
 ||6604.org^$third-party
 ||668559.com^$third-party
@@ -1385,6 +1384,7 @@ ubmcmm.baidustatic.com
 ||vegent.cn^
 ||vf5c.com^$third-party
 ||victorjx.com^
+||videondun.com^
 ||visadd.com^$third-party
 ||vpie.net^$third-party
 ||vsnoon.com^$third-party
@@ -5780,6 +5780,7 @@ mg*.6park.com/img/$image
 ||yjhas.net^$image
 ||yjyc-ask.com/res/ads/
 ||ykimg.com/0510000056A58EA967BC3D24C10E0B4B
+||yktang8.com^*.gif
 ||yktj.yzz.cn^
 ||ylnet.com.cn/201*/rh/
 ||ylnet.com.cn/dl*.js
@@ -5830,6 +5831,7 @@ mg*.6park.com/img/$image
 ||yxdown.com/open/*ad
 ||yxlady.com/cdd/
 ||yxlady.com/skin/yx2014/mm/inpage/ny/
+||yxzoo.com/style/js/fmt.js
 ||yy18.info/yyads/
 ||yy521.com/js/baidu
 ||yy521.com/qq/qq.js
@@ -5966,8 +5968,6 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||yktang8.com^*.gif
-||yxzoo.com/style/js/fmt.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10612,7 +10612,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/advertising/*$domain=houdask.com
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=123564.com|btbt.tv|fxpan.com|jkpan.com|mahua.com|mfgun.com
-@@_adview_pic_$domain=ygo-sem.cn
 @@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|qdxqs.com|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/appledaily/homead/*_ad_logo.
@@ -10625,12 +10624,11 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/data/attachment/*_300_250_
 @@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
-@@/images/ad$domain=wwp5.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=21394.com|94pan.com|fmdisk.com|fmdisk.net|fmpan.com
 @@/images/*/*.gif$domain=67.228.203.174|iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
-@@/images/ad$domain=10pan.cn|789xz.com|huimeiku.com|ifonce.com
+@@/images/ad$domain=10pan.cn|789xz.com|huimeiku.com|ifonce.com|wwp5.com
 @@/images/ad/*$domain=9588.com|dod-tec.com|gueizu.com|jxedt.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
@@ -10657,6 +10655,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
+@@_adview_pic_$domain=ygo-sem.cn
 @@rcw.com/gposinfo/ad/img/
 @@u-ads.adap.tv*youku.com
 @@zpw.com/gposinfo/ad/img/
