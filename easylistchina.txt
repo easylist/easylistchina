@@ -2260,8 +2260,6 @@ mg*.6park.com/img/$image
 ||5ydj.com/images/banner/
 ||5ydj.com/js/hometj.js
 ||5ydj.com/sms/play_300x68.htm
-||5yy6.com/zq/wzy01.js
-||5yy6.com/zq/wzy03.js
 ||6.cn/coop/pub/getMiniPage.php?src=
 ||6.cn/coop/pub/getRand.php?
 ||6.cn/cvbnm/62/5c/26/76db16b5ca7d2253c88c3cc9795f4a40.jpg
@@ -5793,8 +5791,6 @@ mg*.6park.com/img/$image
 ||youmeek.com/images/aliyunAdImg
 ||youqu.net/js/
 ||youth.cn/ggw/dep_ggw/
-||youth.cn/images/c.js
-||youth.cn/images/m.js
 ||youth.cn/qwtf2015/
 ||youthwant.com.tw/dodo.php?adjs=
 ||youtube.com/embed/*&autoplay=1&$domain=ck101.com
@@ -5961,9 +5957,11 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||qiuziti.com/img/c4d.jpg
 ||youth.cn/images/public_
+||youth.cn^$subdocument
 !------------------------Specific element hiding rules------------------------!
 qiuziti.com##A[style$="height: 600px; cursor: pointer;"]
 gpcxw.com###AA2
+youth.cn##DIV[style="width:960px;height:90px;margin:0 auto;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10256,7 +10254,6 @@ bbs.my0511.com##embed[width="970"][height="70"]
 hiapk.com##font.jammer
 javlibrary.com##iframe
 kankan.com##iframe[src^="http://misc.t.kankan.com/level_demo/iframe/welcometip.html"]
-youth.cn##iframe[width="200px"]
 m.sohu.com##img.brand
 szhk.com##img[id^="adp"]
 0756.la##img[lowsrc*="/ad-htm/"]
