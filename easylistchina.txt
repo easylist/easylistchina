@@ -2410,7 +2410,6 @@ mg*.6park.com/img/$image
 ||90oo.com/tp/js
 ||90oo.com/tp/msn.jpg
 ||90oo.com/tp/w981.gif
-||90sjimg.com/images/public/90sheji_
 ||90zq.com/bf/ad/
 ||90zy.cn/data/attachment/portal/
 ||91.com/*hezuo/
@@ -4879,7 +4878,6 @@ mg*.6park.com/img/$image
 ||qitete.com/sp/
 ||qiuyi.cn/qiuyi/cooper/
 ||qiuziti.com/img/rightp20.gif
-||qiuziti.com/liantuyun/
 ||qixingquan.com/api.php?mod=ad&adid=
 ||qixingquan.com/partner/
 ||qixingquan.com/qxq-images/js/qxq_t.js
@@ -5963,7 +5961,9 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
+||qiuziti.com/img/c4d.jpg
 !------------------------Specific element hiding rules------------------------!
+qiuziti.com##A[style$="height: 600px; cursor: pointer;"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9665,7 +9665,6 @@ www.bilibilijj.com##:not(br):not(canvas):not(html):not(body):not(div):not(img):n
 yb983.com##A[href*="/ClickAd"]
 loldk.com##A[href*="?ADTAG="]
 zdfans.com##A[href="http://t.cn/zOPcnAI"]
-qiuziti.com##A[href="http://www.55555tao.com/Actives/32.html"]
 tvhome.com##A[href^="http://www.tvhome.com/SiteAdvert?"]
 3g.cn##A[id^="randomAd_"]
 bilibilijj.com##[class$="_Game"]
@@ -9766,7 +9765,6 @@ muchong.com##a[href^="adlog.php?adid="]
 css88.com##a[href^="http"]:not([href*=".css88.com"]) > img
 qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
-qiuziti.com##a[href^="http://90sheji.com/"]
 chacuo.net##a[href^="http://affiliate.lufax."]
 qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
