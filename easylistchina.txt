@@ -239,7 +239,6 @@
 /xiazai_downloaderAD.
 /zahuishi/images/show38070.js
 /ZDS1.jpg?
-/znds/images/dangbeigif.gif
 /zzhzad/*
 :1010/openV5.js
 :8080/ad/
@@ -5856,7 +5855,6 @@ mg*.6park.com/img/$image
 ||zhandi.cc/Runtime/js/*vod
 ||zhandi.cc/Runtime/js/900
 ||zhandi.cc/Runtime/js/index
-||zhangge.net/wp-content/uploads/files/esx.jpg
 ||zhanqi.tv/uploads/*/ads-*.swf
 ||zhao.265g.com/cache/kfbftop.html
 ||zhaofuli.*/data/content
@@ -5872,7 +5870,6 @@ mg*.6park.com/img/$image
 ||zhibok8.com/js/ding.js
 ||zhibok8.com/js/scroll.js
 ||zhibowu.com/js/ad
-||zhicheng.com/index.php?m=poster&
 ||zhifuok.com/19xa.jpg
 ||zhihu.com/node/Banner?
 ||zhijia.com/hd/*.swf
@@ -5957,7 +5954,9 @@ mg*.6park.com/img/$image
 ||youth.cn/images/m.js
 ||youth.cn/hezuo/index.js
 ||subhd.com/images/970
+||znds.com/image/dangbei.gif
 !------------------------Specific element hiding rules------------------------!
+znds.com##A[href="http://www.dangbei.com/"]
 qiuziti.com##A[style$="height: 600px; cursor: pointer;"]
 gpcxw.com###AA2
 zxba.cc###yx
@@ -5991,7 +5990,6 @@ diyifanwen.com###ArtTl
 zol.com.cn###Article_Top_Banner
 avmimi.com###ArticlesEx_box
 2345.com###BAIDU_DSPUI_FLOWBAR
-zhicheng.com###BAIDU_SSP__wrapper_u2394962_1
 gamer.com.tw###BH-ad_banner
 cnfol.com###CjAdvBt
 pjtime.com###Couplet_l_big
@@ -9483,7 +9481,6 @@ bamuyu.com##.tui_tu
 7060.la,haosou.com,so.com##.tuiguang
 m.hao123.com##.tuizhan
 tvhome.com##.tvAd
-zqnow.com##.tvadtext
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
 cntour2.com##.txtPicAd
 ltaaa.com##.txtads
@@ -10422,14 +10419,13 @@ wangnba.com#@##adSet
 dushiwenxue.com#@##adTop
 two.game.tw#@##ad_02
 fx678.com#@##ad_8
-zyue.com#@##ad_Top
 dpp.org.tw,shuaijiao.com#@##ad_big
 10010.com#@##ad_bottom
 chanet.com.cn#@##ad_content
 pupuapp.com#@##ad_img
 dpp.org.tw#@##ad_small
 timesdata.com#@##adbody
-pbhz.com,zhujiceping.com#@##adsense
+pbhz.com#@##adsense
 182.18.61.50#@##adslist
 33xs.com,aixiaoshuo.com.cn,baishuku.com,dushiwenxue.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
@@ -10511,7 +10507,6 @@ dingdong.ganji.com#@#.banner
 10.10.5.12,192.168.128.1#@#.banner_ad
 ishangman.com#@#.bottom_ad
 leiling.org#@#.category-ad
-zhaokao.net#@#.content-ad
 douban.com#@#.download-ad
 btbt.tv#@#.google-ad
 apk.tw#@#.google_ad
