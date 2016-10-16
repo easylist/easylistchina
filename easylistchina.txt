@@ -522,9 +522,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||allxin.com^
-||fjkst.com^
-||sharrysweb.com^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -834,6 +831,7 @@ ubmcmm.baidustatic.com
 ||alitianxia168.com^
 ||aliyuncss.com^
 ||aliyunxin.com^
+||allxin.com^
 ||allyes.$third-party
 ||amazingmagics.com^
 ||andmejs.com^$third-party
@@ -1011,6 +1009,7 @@ ubmcmm.baidustatic.com
 ||fd7c.com^
 ||feitian001.com^$third-party
 ||ffhtek.com^
+||fjkst.com^
 ||fjmeyer.com^
 ||flashwing.net^$third-party
 ||fmad.cc^$third-party
@@ -1282,6 +1281,7 @@ ubmcmm.baidustatic.com
 ||sgbfjs.info^
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
+||sharrysweb.com^
 ||shiftrro.com^
 ||show.kc.taotaosou.com^
 ||shuihulu.com^$third-party
@@ -4876,6 +4876,7 @@ mg*.6park.com/img/$image
 ||qiqibu.com/js/*.gif
 ||qitete.com/sp/
 ||qiuyi.cn/qiuyi/cooper/
+||qiuziti.com/img/c4d.jpg
 ||qiuziti.com/img/rightp20.gif
 ||qixingquan.com/api.php?mod=ad&adid=
 ||qixingquan.com/partner/
@@ -5262,6 +5263,7 @@ mg*.6park.com/img/$image
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
 ||sub.powerapple.com^
+||subhd.com/images/970
 ||sudupan.com/380.jpg
 ||sudupan.com^*.gif
 ||sufile.com/jsa/
@@ -5789,7 +5791,12 @@ mg*.6park.com/img/$image
 ||youmeek.com/images/aliyunAdImg
 ||youqu.net/js/
 ||youth.cn/ggw/dep_ggw/
+||youth.cn/hezuo/index.js
+||youth.cn/images/c.js
+||youth.cn/images/m.js
+||youth.cn/images/public_
 ||youth.cn/qwtf2015/
+||youth.cn^$subdocument
 ||youthwant.com.tw/dodo.php?adjs=
 ||youtube.com/embed/*&autoplay=1&$domain=ck101.com
 ||youxi.baidu.com/tips/bdtips_min.js
@@ -5913,6 +5920,7 @@ mg*.6park.com/img/$image
 ||zk168.com.cn/js/sy
 ||zkrdy.com^
 ||zmtiantang.com/static/m.js
+||znds.com/image/dangbei.gif
 ||znz888.cn/modblock/
 ||zo66.com^
 ||zol.com.cn/adrs/
@@ -5948,20 +5956,8 @@ mg*.6park.com/img/$image
 ||zznews.cn/home/js/duilian1.js
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
-||qiuziti.com/img/c4d.jpg
-||youth.cn/images/public_
-||youth.cn^$subdocument
-||youth.cn/images/c.js
-||youth.cn/images/m.js
-||youth.cn/hezuo/index.js
-||subhd.com/images/970
-||znds.com/image/dangbei.gif
 !------------------------Specific element hiding rules------------------------!
-znds.com##A[href="http://www.dangbei.com/"]
-qiuziti.com##A[style$="height: 600px; cursor: pointer;"]
 gpcxw.com###AA2
-zxba.cc###yx
-youth.cn##DIV[style="width:960px;height:90px;margin:0 auto;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7306,6 +7302,7 @@ webkaka.com###yhtools + .ucontent
 starbaby.cn###yindex_ads
 dm5.com###youce
 0598yu.com###yu2015_ad_news_01
+zxba.cc###yx
 mmrelax.com###yytf
 vipcn.com###z_baidu
 51.la###zanzhu
@@ -8652,7 +8649,7 @@ wangyeba.com##.innner950
 131458.com##.inq_04 + div + .inq_05
 131458.com##.inq_07
 baidu.com##.intro-adv
-loldk.com##.intro-area > DIV[style="margin-top:7px;"]
+loldk.com##.intro-area > div[style="margin-top:7px;"]
 ifeng.com##.ipad_none:nth-child(33):nth-last-child(2)
 people.com.cn##.ipc_none
 leiphone.com##.iphone7-fix
@@ -9737,6 +9734,7 @@ xianzhenyuan.cn##a[href="http://www.5d9.net/"]
 caihongzy.com##a[href="http://www.aiqmz.com/"]
 178.com##a[href="http://www.bigeye.tv/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
+znds.com##a[href="http://www.dangbei.com/"]
 anquan.org##a[href="http://www.jiasule.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.masadora.net/"]
@@ -9824,6 +9822,7 @@ iqiyi.com##a[id^="100000"]
 360bo.cc,360zhibo.com,jisuzhibo.net,kqiuba.com,pptiyu.com##a[name="thegg"]
 frdic.com##a[onclick*="/ads/"]
 tvapk.net##a[onclick*="thread_banner"]
+qiuziti.com##a[style$="height: 600px; cursor: pointer;"]
 house365.com##a[style*="1200px;"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
 cnliti.com##a[style="position:absolute;width: 450px;height: 140px;right: 200px;top: 150px;"]
@@ -10199,6 +10198,7 @@ chinacbe.com##div[style="width:960px; padding:0px; margin:4px 0; border:0px soli
 co188.com##div[style="width:960px;height:100px;margin:0 auto;"]
 dxrr.com##div[style="width:960px;height:110px;margin:5px auto;"]
 gfan.com##div[style="width:960px;height:90px;margin-top:10px;"]
+youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 yule.iqiyi.com##div[style="width:970px;margin:0 auto;padding:10px 0;text-align:center;"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
