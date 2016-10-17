@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/z63/img/88.jpg
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -5959,6 +5960,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/zzskycom_
 ||zzz4.com/JS_AD/
 ||15w.com/ui/lol/v3/img/piclink.jpg
+||taobaocdn.com^$domain=z63.org
 !------------------------Specific element hiding rules------------------------!
 15w.com##.video-ewm
 gpcxw.com###AA2
@@ -7458,7 +7460,7 @@ rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
 zuimeia.com##.activity-poster:not([href*="zuimeia."])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
-001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,234fang.com,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,61.147.69.213,72bbb.com,72g.com,8btc.com,acfun.tv,acg.bz,acgbenzi.com,aohua.com.au,baiduyunpan.net,baike.com,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hanhuazu.cc,hkgalden.com,house.jschina.com.cn,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,ishuhui.com,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaoyan1v1.com,kumi.cn,kunming.cn,lepan.cc,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,rzw.com.cn,sd888.org,shanhe.cc,shenchuang.com,sogou.com,sx566.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xs99.cc,xun9u.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn,zuowen.com##.ad
+001cw.com,0379home.com,17173.com,17kk.cc,2345.cn,234fang.com,2kuai.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,61.147.69.213,72bbb.com,72g.com,8btc.com,acfun.tv,acg.bz,acgbenzi.com,aohua.com.au,baiduyunpan.net,baike.com,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dealmoon.com,discuss.com.hk,djwma.com,dxrr.com,dzwww.com,eworldship.com,firefang.cn,focus.cn,gminfo.cn,gongkong.com,hanhuazu.cc,hkgalden.com,house.jschina.com.cn,huikon.cn,iciba.com,ifeng.com,ifxtx.com,ipeen.com.tw,ishuhui.com,itavcn.com,jdcjsr.com,jgtj.com.cn,jrj.com.cn,junshi.cc,junshi.cn,kaoyan1v1.com,kumi.cn,kunming.cn,lepan.cc,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,rzw.com.cn,sd888.org,shanhe.cc,shenchuang.com,sogou.com,sx566.com,tiantianpengfu.com,tiantianqiwen.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,vvpan.com,wallstreetcn.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xs99.cc,xun9u.com,xyfdcw.com.cn,yangsheng123.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yiyipan.com,yqxs.com,zbgl.net,zk168.com.cn##.ad
 photofans.cn##.ad-1-index
 163.com##.ad-1200-125
 163.com##.ad-1200-60
@@ -7954,7 +7956,6 @@ jisuzhibo.net##.bannerhead
 moejam.com##.bannerleftfull
 moejam.com##.bannermid
 javlibrary.com##.bannerqq
-zuowen.com##.banners
 fang.com##.bannger_inbox
 mscbsc.com##.bao1
 qixingquan.com##.baoxian
@@ -8565,7 +8566,6 @@ douyu.com,douyutv.com##.hot-sign-2
 9766.com##.hot-site
 piaoliang.com##.hot990
 cnqiang.com##.hotBox
-s.zuowen.com##.hotKey + h3
 itavcn.com##.hot_dealerxin
 duba.com##.hot_push > .hot_movie
 bkjia.com,zol.com.cn##.hot_tj
@@ -8609,7 +8609,6 @@ edu24ol.com##.image_01
 image.baidu.com##.imglist > .fcImgli
 pingpang.info##.imp
 qq.com##.in-top-ad
-zrzjw.com##.in960
 cngold.org##.in_content_left_advs
 news18a.com,tom.com##.ina_ad_class
 news18a.com##.ina_ad_left
