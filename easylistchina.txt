@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/wscn/js/adsService.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -5954,6 +5955,7 @@ mg*.6park.com/img/$image
 ||zongheng.com^*/index_r_b.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+wallstreetcn.com##.node-main-ad
 zhlzw.com##.area_ad
 zhlzw.com##SPAN[style^="float:left;height:"]
 hc360.com,yaolan.com###AD
