@@ -525,8 +525,6 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
 .com/cpv/*.ashx?$third-party
-||cmaxisolation.com^
-||kfluoa.com^
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
 .com/jscode/$third-party
@@ -906,6 +904,7 @@ ubmcmm.baidustatic.com
 ||cj-cy.com^
 ||cjlaoshi.com^$third-party
 ||cloudad.asia^$third-party
+||cmaxisolation.com^
 ||cnbole.net^
 ||cnsjx.net^
 ||cnxad.com^$third-party
@@ -1146,6 +1145,7 @@ ubmcmm.baidustatic.com
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keyyou.net^
+||kfluoa.com^
 ||khgj.cn^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
@@ -5959,10 +5959,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ifeng.com###funBar
-ifeng.com##.playad
-pt80.net##IMG[width="960"]
-zznews.cn##.ad:not([style])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6388,7 +6384,6 @@ gohubei.com###comiis_pd_kuxw01
 fuli.us,tianshit.com###comment-ad
 ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 ithome.com###con > div:not([class]):not([id]):first-child + div
-apk.tw##DIV[id^="confirmOverlay"]
 gate.baidu.com,m.baidu.com###container
 jinhua.com.cn###container > div[style^="height:"]
 gg163.net###container > table[width="960"]
@@ -6623,6 +6618,7 @@ boosj.com###fudongzwx
 516qq.cn###full
 cnyes.com###full_ad-popup
 cnyes.com###full_ad-screen
+ifeng.com###funBar
 baidu.com###gamePromo
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_cover_head_wrapper
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_forum
@@ -7570,6 +7566,7 @@ danlan.org##.ad98090
 8264.com##.ad980_3
 8264.com##.ad980_60
 dbw.cn##.ad980top
+zznews.cn##.ad:not([style])
 hf365.com,sina.com.cn,sohu.com##.adA
 sohu.com##.adB
 heyuan.cn##.adBanner2
@@ -9037,6 +9034,7 @@ ligelin.com,missioncouver.com.cn##.play_ad300_2
 news.ifeng.com##.play_center
 kaifu.com##.play_fmt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
+ifeng.com##.playad
 qq.com##.player_bg_ad
 play.jb51.net##.playlistRT
 play.jb51.net##.playtlbdx
@@ -10022,6 +10020,7 @@ yaolan.com##div[id^="bot_ad"]
 dl-l-tax.gov.cn##div[id^="clip"]
 kankan.com##div[id^="cm"].banner
 0743ds.com##div[id^="comiisad"]
+apk.tw##div[id^="confirmOverlay"]
 cdzk.cn##div[id^="couplet"]
 ifeng.com##div[id^="couplet3_"]
 ebiotrade.com,jmnews.com.cn##div[id^="couplet_"]
@@ -10276,7 +10275,7 @@ jd-bbs.com##img[width="900"][height="100"]
 855699.com##img[width="922"]
 hz0572.com,pingpang.info##img[width="950"]
 676000.com##img[width="957"]
-0743ds.com,cnjxol.com,e0575.cn,jmw.com.cn##img[width="960"]
+0743ds.com,cnjxol.com,e0575.cn,jmw.com.cn,pt80.net##img[width="960"]
 jznews.com.cn##img[width="980"]
 gog.cn##img[width^="100"]
 0597kk.com##img[width^="37"][height="30"]
