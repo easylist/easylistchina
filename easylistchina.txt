@@ -32,6 +32,7 @@
 .info/js/alls_top.js
 .js?advertID=
 .net/js/ads/
+.test15./
 .us/js/ads/
 .xyz/js/ads/
 /119g/640x60_
@@ -176,7 +177,6 @@
 /newhuagg/gg_search_
 /newsyd/templates/sponsor/*
 /paypic/*
-.test15./
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
 /piaofu.js
@@ -522,7 +522,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||jsadt.com^
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -1124,6 +1123,7 @@ ubmcmm.baidustatic.com
 ||jntmedia.cn^$third-party
 ||johtzj.com^
 ||jointreport-switch.com^$third-party
+||jsadt.com^
 ||jsinfo.net^$third-party
 ||jsjxhd.com^$third-party
 ||jsmbaidu.com^$third-party
@@ -4725,6 +4725,7 @@ mg*.6park.com/img/$image
 ||pconline.com.cn/_hux_/
 ||pconline.com.cn/download/*/intf*.js
 ||pconline.com.cn/intelcorefamily/
+||pconline.com.cn/jrzcz/*/intf
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
 ||pconline.com.cn/pconline/download/fz/
@@ -5702,6 +5703,7 @@ mg*.6park.com/img/$image
 ||xs8.cn/xs8_stat.js
 ||xskhome.com/pic/20*/all/
 ||xtzgjx.com/images/jiaoyou
+||xtzgjx.com/wd.js
 ||xue163.com/ajs/b.js
 ||xue163.com/ajs/newzongji/
 ||xun9u.com/css/js/text_link.js
@@ -5888,6 +5890,7 @@ mg*.6park.com/img/$image
 ||zhzyw.org/js/InsertJS.js
 ||zimuzu.tv/public/rooms?
 ||zimuzu.tv/rrlx
+||zisai.com/template/comiis_nby/ads/
 ||ziti.jz123.cn/js/
 ||zj.cn^*/AD?location=
 ||zjbdt.com/onexgadimgs/
@@ -5937,20 +5940,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||xtzgjx.com/wd.js
-||zisai.com/template/comiis_nby/ads/
-||pconline.com.cn/jrzcz/*/intf
 !------------------------Specific element hiding rules------------------------!
-zisai.com###comiis_ibox_swf
 gpcxw.com###AA2
-2345.com###bd-search-ad-1
-duba.com###oneone
-duba.com##.ad_leftTip_out
-duba.com##.pro_r_t
-duba.com##.tmall_bg15
-duba.com##.top_ad_ban
-duba.com##.top_ad_tmall
-gpshk.cc###diy4
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6275,6 +6266,7 @@ muchong.com###bbsmain > div[style="padding:10px 0;"] > table
 cntv.cn###bbspop
 gamme.com.tw###bd
 2345.com###bd-search-ad
+2345.com###bd-search-ad-1
 120ask.com###bd-wm-1
 manhuadao.com###bd1
 dm456.com###bdSider
@@ -6371,6 +6363,7 @@ qq.com###comic_ad
 haianw.com###comiis_haianw01
 haianw.com###comiis_haianw13
 haianw.com###comiis_haianw14
+zisai.com###comiis_ibox_swf
 0743ds.com###comiis_mf00
 gohubei.com###comiis_pd_kuxw01
 fuli.us,tianshit.com###comment-ad
@@ -6473,7 +6466,7 @@ d7w.net###diy10
 yb.jl.cn###diy100
 hcwang.cn###diy111
 cbber.com###diy2
-oneplusbbs.com,xiaot.com###diy4
+gpshk.cc,oneplusbbs.com,xiaot.com###diy4
 cbber.com,qilanxiaozhu.co,qilanxiaozhu.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
 5imx.com###diy_mxad02
 5imx.com###diy_mxad03
@@ -6890,6 +6883,7 @@ dissgold.com###nv_forum > center
 pt80.net###nv_forum > div[align="center"]
 chzhw.com###nview > a > img[style$="width:326px;"]
 3g.qq.com###omgad-wechat-bigpic
+duba.com###oneone
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
 ifeng.com###optimusPrimeContentId
@@ -7643,6 +7637,7 @@ wanghualang.com##.ad_h_c
 hb163.cn##.ad_inner
 le.com##.ad_layer
 188bifen.com,hc360.com##.ad_left
+duba.com##.ad_leftTip_out
 66rd.cn,ifeng.com##.ad_list
 ck101.com##.ad_logo
 78dm.net##.ad_logor
@@ -9052,6 +9047,7 @@ bbs.51cto.com##.postinfo06a
 businessweekly.com.tw##.postinsidead
 ifxtx.com##.ppsy_content758
 fqlook.cn##.pro_baidu
+duba.com##.pro_r_t
 pbhz.com##.product-nav-box
 cqmmgo.com##.projection-ad-content
 huaban.com##.promotion
@@ -9390,6 +9386,7 @@ tieba.baidu.com##.tl_shadow + * + li[class]:not([class="tl_shadow"])
 tieba.baidu.com##.tl_spread
 esnai.com##.tlgg
 srzc.com##.tlgg_one
+duba.com##.tmall_bg15
 sxrom.com##.tmk
 198zone.com##.tongad
 0898.net,gamefy.cn,hi.people.com.cn##.tonglan
@@ -9425,6 +9422,8 @@ timedg.com##.topCrossAd
 btago.com##.topTips
 hao123.cn##.top_2_2_4
 pjtime.com##.top_R
+duba.com##.top_ad_ban
+duba.com##.top_ad_tmall
 40407.com,51testing.com,86wan.com,ikanman.com,xitek.com,xitong8.com,xt700.com##.top_banner
 21yq.com##.top_big_bg
 cngold.org##.top_bigad
