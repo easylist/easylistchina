@@ -523,8 +523,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||coolnay.com^$third-party
-||touchrom.com^$third-party
 .com/cpv/*.ashx?$third-party
 .com/ge/?s=$script,third-party
 .com/htmlcode/$third-party
@@ -914,6 +912,7 @@ ubmcmm.baidustatic.com
 ||code222.com^
 ||code668.com^
 ||coinadv.com^$third-party
+||coolnay.com^$third-party
 ||cooolyi.cn^
 ||couqm.com.cn^
 ||cpcv.cc^
@@ -1355,6 +1354,7 @@ ubmcmm.baidustatic.com
 ||toourbb.com^
 ||top267.com^
 ||top888.com^$third-party
+||touchrom.com^$third-party
 ||toufangke.com^$third-party
 ||toy9090.com^$third-party
 ||tuiguang.178.com^
@@ -1776,7 +1776,6 @@ mg*.6park.com/img/$image
 ||0579.cn/SHow/Showplacenew.aspx
 ||0597kk.com/js/float.js
 ||0597ok.com/ilike/597/
-||js.05sun.com^
 ||060s.com/my_ad/
 ||0668gz.com/data/attachment/portal/
 ||0712fang.com/gonggong/js/cf_flash.js
@@ -2105,6 +2104,8 @@ mg*.6park.com/img/$image
 ||39.net/js/google/
 ||39.net/rel/k13.php?adid=
 ||3987.com/images/
+||3987.com/statics/tow_skin/new_img/20
+||3987.com/vote/
 ||3boys2girls.com/newfile/image2010/banner_housead_
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 ||3boys2girls.com/templates/default/2013/randlinks.js
@@ -4218,6 +4219,7 @@ mg*.6park.com/img/$image
 ||jpwind.com^*/scroll.js
 ||jrjimg.cn/common/foot/allfc.js
 ||js-1.pchome.net^
+||js.05sun.com^
 ||js.45bubu.com^
 ||js.4738.com/newda/img/994_90_
 ||js.bju888.com^
@@ -5937,12 +5939,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||3987.com/statics/tow_skin/new_img/20
-||3987.com/vote/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-chinatimes.com##.l_ad
-chinatimes.com##.r_ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8690,6 +8688,7 @@ ahtv.cn,bzfl1.cc,sexbarss.net##.l1
 ltaaa.com##.lAds
 zjol.com.cn##.lBottomAD
 zjol.com.cn##.lTopAD
+chinatimes.com##.l_ad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post + div[class]:not(.l_post)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1224761005,"]
@@ -9055,6 +9054,7 @@ mop.com##.r-adv
 dnvod.eu##.r-gg
 ahtv.cn,bzfl1.cc,onlinedown.net,sexbarss.net##.r1
 7hcn.com##.rCont
+chinatimes.com##.r_ad
 g1080.com##.r_img_m
 douni.com##.rad_1
 mydigit.cn##.radio
@@ -10501,6 +10501,7 @@ fsjoy.com#@#.main_adv
 hc360.com#@#.midad
 sjsmitaa.org#@#.module-ads
 mobile01.com#@#.navad
+chinatimes.com#@#.page_ad
 fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 house.shangdu.com#@#.top_ad
@@ -10509,7 +10510,6 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-chinatimes.com#@#.page_ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
