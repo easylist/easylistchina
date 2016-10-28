@@ -1760,8 +1760,6 @@ mg*.6park.com/img/$image
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com
 ||000001.azureedge.net/script/p.js
-||005.tv/data/attachment/forum/*.gif$domain=dilidili.com
-||005.tv/data/attachment/forum/201511/24/161840xuimuuaq9sro1brm.jpg
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||0086crane.com/file/upload/201410/28/09-56-17-58-6723.swf
@@ -3212,9 +3210,6 @@ mg*.6park.com/img/$image
 ||didown.com/rili-down.gif
 ||diediao.com/js/loading.html
 ||dig.chouti.com/advert
-||dilidili.com/js/index.js
-||dilidili.com/js/right
-||dilidili.com/js/w*.js
 ||dio88.net/images/*.gif
 ||dio99.com/images/*.gif
 ||dioguitar23.*/images/*.gif
@@ -5928,6 +5923,8 @@ mg*.6park.com/img/$image
 ||gueizu.com/wp/img/xiazai
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dilidili.com##.adv
+dilidili.com##.adv2
 tgfcer.com,tgfcer.net###googlead
 epinv.com##.huadong
 ifulione.top,ifulione.com,onefuli.top,onedh.xyz,idaohang.top,91fuli.xyz,diyifuli.top##DIV[class^="sa-"]
@@ -8773,7 +8770,6 @@ myexception.cn##.m_a
 sohu.com##.m_ad
 lgn.yy.com##.m_left
 hupu.com##.m_text_ad
-dilidili.com##.main > .l
 www.tiexue.net##.main > style + div[class]
 firefox.com.cn,firefoxchina.cn##.main-promote-sites
 firefoxchina.cn##.main-promote-tmall
@@ -10135,7 +10131,6 @@ shmet.com##div[style="width:1000px; height:90px; margin:10px auto;"]
 25xz.com##div[style="width:1002px;margin:0 auto;border: solid 1px #fea25b;"]
 news.duba.com##div[style="width:1050px;margin:auto;height:150px; padding-top:5px; padding-bottom:5px; position:relative"]
 jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidden;"]
-dilidili.com##div[style="width:1250px;margin:0px auto;"]
 auto-online.com.tw##div[style="width:160px;height:480px;margin:0;background:#000000"]
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 108.62.192.124,plus28.com##div[style="width:270px; height:180px;"]
@@ -10764,7 +10759,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||dandanplay.com/common/generate-captcha?
 @@||daoju.qq.com/time/*/js/ad/
 @@||digiland.tw/advert.js
-@@||dilidili.com/js/week.js
 @@||disney.com.tw/tv/global/swf/banner728x90.swf
 @@||dm.51.re/common/generate-captcha?
 @@||dmhy.aewb.cn/common/generate-captcha?
