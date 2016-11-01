@@ -11,8 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/meinv/js/*_banner.js
-/meinv/js/_ads_tuku.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -177,6 +175,8 @@
 /main.js?v=*&sp=*&ty=
 /main/s?
 /mbjx1.jpg?
+/meinv/js/*_banner.js
+/meinv/js/_ads_tuku.js
 /module/adsview/*
 /moneymaker-banners/ads_
 /nanrenpeng/ads/*
@@ -530,8 +530,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||cqhnm.com^
-||orchidscape.net^
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -940,6 +938,7 @@ ubmcmm.baidustatic.com
 ||cpro.baidustatic.com^
 ||cpv6.com^
 ||cpva.cc^
+||cqhnm.com^
 ||cr-nielsen.com^$third-party
 ||crazymike.tw^$third-party
 ||crdrjs.info^
@@ -1267,6 +1266,7 @@ ubmcmm.baidustatic.com
 ||okm918.com^
 ||okokw.com^$third-party
 ||onetad.com^$third-party
+||orchidscape.net^
 ||ou188.com^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
 ||p0y.cn^*.swf
@@ -1605,9 +1605,9 @@ ubmcmm.baidustatic.com
 ||c.admaster.com.cn^$popup
 ||ctfile.com/popjump.php?$popup
 ||gamer.com.tw/adcounter.$popup
+||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
-||gd.189.cn*/push/$popup
 ||gd.ct10000.com^*/push/$popup,third-party
 ||goo.gl^$popup,domain=up2stream.com
 ||greenet.cn^*_popu_$popup
@@ -2808,6 +2808,7 @@ mg*.6park.com/img/$image
 ||bh111.com/js/tan_
 ||biaoqing.com/2000/ad/960x90.gif
 ||bilibili.com/x/web-show/res/loc?*&aid=
+||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||bilibilijj.com/temp/fanshuxiaobao.png
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
@@ -3324,6 +3325,7 @@ mg*.6park.com/img/$image
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
 ||duba.com/dhads?id=
 ||duba.com/static/images/public/20161030/e3636a363bfb07b2b5dc8e3518e3f8eb.png
+||duba.com/static/images/public/20161031/bd5987bf3f741da87b0f630ec0e11629.gif
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
 ||duoku.com/common/js/hanawa.js
@@ -3910,6 +3912,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/*/taobaopudi/
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
+||ifengimg.com/a/201*600.
 ||ifengimg.com/a/2016/0929/su/yemei.jpg
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/ifengimcp/pic/*_w130_h100.
@@ -5382,6 +5385,7 @@ mg*.6park.com/img/$image
 ||totheglory.im/pic/ttg_
 ||totuwo.com/wp-content/uploads/20*.gif
 ||tp.sgcn.com^
+||tq121.com.cn/j/ad/
 ||trafficjam.cn^
 ||ts.cn^*/site1/$object
 ||tt.biquge.la^
@@ -5943,19 +5947,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||duba.com/static/images/public/20161031/bd5987bf3f741da87b0f630ec0e11629.gif
-||ifengimg.com/a/201*600.
-||tq121.com.cn/j/ad/
-||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-uestc.edu.cn###bar
-2345.com###J_s11_foot
-kiwsy.com.hk###ad-popup-dialog-overlay
-kiwsy.com.hk###ad-popup-dialog
-duba.com###J_BottomAdBan
-duba.com###oneTip
-duba.com##.cool_textlink
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6021,6 +6014,7 @@ wuxi.cn###Information
 51rhca.com###InviteWindow
 96weixin.com###J-adBd
 96weixin.com###J-adBd2
+duba.com###J_BottomAdBan
 2345.com###J_TopicBanner
 2345.com###J_acts11_footerfixed
 linovel.com###J_ad_
@@ -6028,6 +6022,7 @@ xiami.com###J_albumSale
 gexing.com###J_bottomMes
 2345.com###J_go_erweima
 cqsq.com###J_posts_list > a[target="_blank"]
+2345.com###J_s11_foot
 2345.com###J_search_bd > div:last-child
 chem99.com###J_tcode
 2345.com###J_tip_stopXP
@@ -6096,6 +6091,8 @@ duba.com###ad-dongman
 qq.com###ad-fullscreen
 ithome.com.tw###ad-on-top
 acfun.tudou.com,acfun.tv###ad-player-view
+kiwsy.com.hk###ad-popup-dialog
+kiwsy.com.hk###ad-popup-dialog-overlay
 acfun.tv###ad-top-index
 dbw.cn###ad-word
 baike.com###ad-xnsc
@@ -6267,6 +6264,7 @@ qidian.com###banner1
 99tianji.com###banner_gg
 766.com,ksbbs.com,kshot.com###banner_top
 mlook.mobi###bao_ware_info
+uestc.edu.cn###bar
 qq.com###barrageBase
 c114.net###barrage_ad
 c114.net###barrage_bg
@@ -6895,6 +6893,7 @@ pt80.net###nv_forum > div[align="center"]
 chzhw.com###nview > a > img[style$="width:326px;"]
 3g.qq.com###omgad-wechat-bigpic
 duba.com###one-mid
+duba.com###oneTip
 duba.com###oneone
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
@@ -8164,6 +8163,7 @@ aihami.com##.context_ad
 mopiaoyao.com,renwai.ren##.context_t
 junshi.cn,tiantianpengfu.com,tiantianqiwen.com,yangsheng123.cn##.contfont > div[style*="610px; "]
 hao123.cn##.cool > tbody > tr > td[align="center"]:last-child
+duba.com##.cool_textlink
 cnbeta.com##.cooperation
 58.com##.coupad_l
 cnhubei.com##.couplet
@@ -10530,9 +10530,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||dup.baidustatic.com/js/ds.js$domain=epinv.com
-@@||pos.baidu.com^*?di=739405&$domain=epinv.com
-@@||pos.baidu.com^*=u1331029&$domain=epinv.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10804,6 +10801,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$generichide
 @@||dpcm.cn/ad/
+@@||dup.baidustatic.com/js/ds.js$domain=epinv.com
 @@||dushiwenxue.com/add/article/pagetop.js
 @@||dvbcn.com/caches/poster_js/23.js
 @@||dvs.china.com/adv1.xml
@@ -10915,6 +10913,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||piccool.com/2home/phpAdsNew/
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
 @@||pos.baidu.com^$domain=xoyo.com
+@@||pos.baidu.com^*=u1331029&$domain=epinv.com
 @@||pos.baidu.com^*=u2550281&$domain=bzfxw.com
 @@||pos.baidu.com^*?di=$domain=coladrive.com|excelhome.net
 @@||pos.baidu.com^*?di=1112307&$domain=7958.com.cn
@@ -10924,6 +10923,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pos.baidu.com^*?di=1167512&$domain=jkpan.cc
 @@||pos.baidu.com^*?di=144778&$domain=epinv.com
 @@||pos.baidu.com^*?di=164580&$domain=epinv.com
+@@||pos.baidu.com^*?di=739405&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2354095&$domain=epinv.com
 @@||poster.weather.com.cn/p_files/base/$image
