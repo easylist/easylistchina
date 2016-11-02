@@ -530,8 +530,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||yxszy.com^
-||pyzkk.com^
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -1288,6 +1286,7 @@ ubmcmm.baidustatic.com
 ||pro.cn^$third-party
 ||prohost.com.tw^$third-party
 ||ptdrw.com^
+||pyzkk.com^
 ||qidou.com^$third-party
 ||qiqiww.com^
 ||qiqiyii.com^
@@ -1552,6 +1551,7 @@ ubmcmm.baidustatic.com
 ||yuu360.com^$third-party
 ||ywjxsp168.cn^
 ||yxdyk.com^$script,third-party
+||yxszy.com^
 ||yy32.com^$third-party
 ||yy58ju.com^
 ||yyp17.com^
@@ -1579,7 +1579,6 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||gd.189.cn^*.htm?SP=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /?$popup,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|deb.gs|dyo.gs|eafyfsuh.net|filesonthe.net|galleries.bz|goneviral.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|theseblogs.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|yyv.co|zff.co
@@ -1611,6 +1610,7 @@ ubmcmm.baidustatic.com
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
+||gd.189.cn^*.htm?SP=$popup,third-party
 ||gd.ct10000.com^*/push/$popup,third-party
 ||goo.gl^$popup,domain=up2stream.com
 ||greenet.cn^*_popu_$popup
@@ -1657,8 +1657,8 @@ ubmcmm.baidustatic.com
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
-/^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
+/^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /a83b3cdeacac5a503717469ca5084ebc.
@@ -3947,6 +3947,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com^*/shfwq
 ||ifengimg.com^*/sparta.js
 ||ifengimg.com^*/yingguang-
+||ifengimg.com^*600.swf
 ||ifengimg.com^*couplet$script
 ||ifengimg.com^*Float$script
 ||ifxtx.com/tp/
@@ -5858,6 +5859,7 @@ mg*.6park.com/img/$image
 ||zdzdm.com/static/img/*ljs.jpg
 ||zeyi.cc/js/2412/
 ||zfs.cn/8th/
+||zgjm.org/data/cache/mytag-13.htm
 ||zgjm.org/data/cache/mytag-24.htm
 ||zgjm.org/data/cache/mytag-30.htm
 ||zhainanba.org/ac/
@@ -5945,11 +5947,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||zgjm.org/data/cache/mytag-13.htm
-||ifengimg.com^*600.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ettoday.net##DIV[id^="crt-"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10021,7 +10020,7 @@ apk.tw##div[id^="confirmOverlay"]
 cdzk.cn##div[id^="couplet"]
 ifeng.com##div[id^="couplet3_"]
 ebiotrade.com,jmnews.com.cn##div[id^="couplet_"]
-discuss.com.hk##div[id^="crt-"]
+discuss.com.hk,ettoday.net##div[id^="crt-"]
 bendibao.com##div[id^="dad_"]
 yb983.com##div[id^="div"]
 gohome.com.hk##div[id^="div-gpt-ad-"][style]
@@ -10530,7 +10529,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=gamer.com.tw
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10906,7 +10904,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|7958.com.cn|club.tgfcer.com|club.tgfcer.net|mfgun.com|monnsutogatya.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk^*-ad.php?
 @@||photo.erji.com/tb/*.gif
