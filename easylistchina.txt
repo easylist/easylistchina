@@ -530,7 +530,6 @@ _popAds.
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
 .com/code.php?z=$script,third-party
-||adnow.cc^$third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -816,6 +815,7 @@ ubmcmm.baidustatic.com
 ||admaji.com^$third-party
 ||admartzone.com^$third-party
 ||admin6.com^$third-party
+||adnow.cc^$third-party
 ||adomv.com^
 ||adpro.cn^$third-party
 ||adpush.cn^$third-party
@@ -1789,6 +1789,7 @@ mg*.6park.com/img/$image
 |http://dm.51.re^*?
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com
+||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
 ||005.tv:60000/ad.js
 ||007.mx/flv/
@@ -2875,6 +2876,7 @@ mg*.6park.com/img/$image
 ||btbtt.la/jslb.js
 ||btbtt.la/jstb.js
 ||btbtt.la/upload/400x75_
+||btbtt.la/view/image/backimg.jpg
 ||btcherry.com/images/ad_
 ||btcherry.com/images/gaoqing.png
 ||btks.me/ac/
@@ -5587,6 +5589,7 @@ mg*.6park.com/img/$image
 ||winba.me/wp-content/uploads/*/300x300.
 ||winba.me/wp-content/uploads/*/QQ%
 ||winba.me/wp-content/uploads/2015/10/image.jpg
+||windows.net/script/p.js
 ||windows7en.com/160805/31-160P5005615128.jpg
 ||windowszj.com^*/xiaoyu
 ||winvvv.com^$subdocument
@@ -5957,12 +5960,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||btbtt.la/view/image/backimg.jpg
-||windows.net/script/p.js
-||000001.azureedge.net/script/common.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-btbtt.la##.wrapper_bg_c
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9603,6 +9602,7 @@ we.poppur.com##.wrap > div[style="height:112px"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
 bbs.feng.com##.wrap.fl_row
 paipai.fm,paipaitxt.com##.wrapbg
+btbtt.la##.wrapper_bg_c
 image.baidu.com##.wrapper_dot_box.dot_black
 jmw.com.cn##.wy_bottom_box
 hcwang.cn##.wz2
@@ -11097,7 +11097,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/urchin.js$domain=on.cc
-@@||atanx.alicdn.com/t/tanxssp.js$domain=taobao.com|tmall.com
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
 @@||120.132.57.41/pjk/pag/
@@ -11106,6 +11105,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
 @@||alicdn.com^*/click_track.js
 @@||analytics.163.com/ntes.js
+@@||atanx.alicdn.com/t/tanxssp.js$domain=taobao.com|tmall.com
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||bagehd.com/iplookup.
 @@||count.video.sina.com.cn^*?video_ids=
