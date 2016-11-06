@@ -529,11 +529,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
-||wodhid.com^
-||tbaocdn.com^
-||taobaly.cn^
-||mxmrt.com^
-||nnedbx.com^
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -1246,6 +1241,7 @@ ubmcmm.baidustatic.com
 ||mscimg.com^
 ||mstzym.com^
 ||mtxsk.com^$third-party
+||mxmrt.com^
 ||mycctvmedia.com^$third-party
 ||mytanwan.com^$third-party
 ||mytzdhz.cn^
@@ -1263,6 +1259,7 @@ ubmcmm.baidustatic.com
 ||njq.net^
 ||nlrsq.com^*.js
 ||nmbtedu.com^$third-party
+||nnedbx.com^
 ||nongsalei.com^
 ||nord-raum.com^$third-party
 ||notice.uchome.manyou.com^
@@ -1374,11 +1371,13 @@ ubmcmm.baidustatic.com
 ||tanchuang002.info^$third-party
 ||tanwanyx.com^$third-party
 ||tanx.com^$third-party,domain=~1688.com|~alimama.com|~taobao.com|~tmall.com
+||taobaly.cn^
 ||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
 ||taobaoij.com:
 ||taobayun.cn^
 ||taojingu.cn^$third-party
 ||taotu001.com^$third-party
+||tbaocdn.com^
 ||tbjfw.com^$third-party
 ||tc600.com^
 ||tdayi.com^
@@ -1466,6 +1465,7 @@ ubmcmm.baidustatic.com
 ||wjguc.com^
 ||wlkpa.cn^
 ||wo685.com^$third-party
+||wodhid.com^
 ||wofan.net^$third-party
 ||wqsph.net^
 ||wqzyt.net^$third-party
@@ -1914,6 +1914,7 @@ mg*.6park.com/img/$image
 ||15w.com/ui/lol/v3/img/piclink.jpg
 ||1616.net/jd/data/index/indexad.json
 ||1616.net/jd/i_
+||162.212.181.32^
 ||162.251.5.11/bbspic/storeShow/
 ||162wp.com/e/data/images/pixviewer.swf
 ||162wp.com/ipc/11.gif
@@ -1960,7 +1961,6 @@ mg*.6park.com/img/$image
 ||172.15.2.28:3438/*.js
 ||173.208.177.227/tool/xuanfusige.js
 ||173.208.177.227^*.gif
-||173.255.139.114^$subdocument
 ||173.255.143.197^*.png
 ||173kt.com/ads/
 ||173kt.com/images/ad
@@ -1984,7 +1984,6 @@ mg*.6park.com/img/$image
 ||182.92.234.239^*.html
 ||183.136.168.78:8082/ad/
 ||183yf.cn/img/nz.png
-||185.2.136.184^
 ||18888.com^*/Mon_*.gif
 ||189.cn/dns/
 ||189so.cn/images/960x60
@@ -2112,13 +2111,13 @@ mg*.6park.com/img/$image
 ||360safego.com^
 ||360zhibo.com/js/float
 ||365kl.net/template/eis_x3_city_a_1/eis/baobao.gif
+||365rich.cn/ba.aspx
 ||365xs.org/js/xiayizhang.js
 ||36dm.com/images/*acgsou.gif
 ||36dm.com/js/nu
 ||36kr.com/pp/api/ap/plan?
 ||36krcnd.com/showcase/*case
 ||373nn.com/java/
-||38v.com/38v-b.gif
 ||39.net/client/39/c.js
 ||39.net/creative/
 ||39.net/js/baidu/
@@ -2763,7 +2762,6 @@ mg*.6park.com/img/$image
 ||bcc.com.tw/imgs/adv/
 ||bccn.net/aaa/
 ||bccnsoft.com/aaa/
-||bcok.com^$subdocument
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
@@ -5528,6 +5526,7 @@ mg*.6park.com/img/$image
 ||vnet.cn^*.html
 ||voc.com.cn/adsClick/
 ||voc.com.cn/Frame/qqms_cs.html
+||vodtw.com/m-
 ||vpserfiles.b0.upaiyun.com^$image
 ||vupload.duowan.com^
 ||vvvdj.com/sms/
@@ -5959,13 +5958,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||vodtw.com/m-
-||365rich.cn/ba.aspx
-||162.212.181.32^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-win007.com##TABLE[id^="table_Ad"]
-win007.com##TD[id^="Ad"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10335,6 +10329,7 @@ angelweb.cn##table[height="250"]
 sdzbcg.com##table[height="41"]:last-child
 hackbase.com##table[height="648"] > tbody > tr > td > p:nth-last-child(n+2)
 bcbay.com##table[id] + table[style="margin:3px auto;"]
+win007.com##table[id^="table_Ad"]
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
 travel.qingdaonews.com##table[style="height:200px; overflow:hidden;"]
 52life.cc##table[style="margin-top:0"]
@@ -10389,16 +10384,17 @@ hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 xici.net##td.doc_sign
 cartoonad.com,cartoonmad.com##td[align="center"] > table[width="728"]
 sinoca.com##td[align="center"][height="90"]
+90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
 linuxdiyf.com##td[bgcolor="#FFFFFF"] > a > img
 ahtv.cn##td[colspan="3"][style="height:95px;"]
 tsdm.net##td[colspan="5"]:first-child:last-child
 ebiotrade.com##td[height="135"]
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
-90bifen.com##TD[bgcolor="#FFFEE0"][height="22"]
 515fa.com##td[height="300"][align="center"]
 tianshui.com.cn##td[height="420"]
 dodo8.com##td[height="82"]
 ckdzb.com##td[height="90"][align="left"]
+win007.com##td[id^="Ad"]
 cctime.com##td[onclick^="javascript:tj"]
 muchong.com##td[style="padding-right:15px;border-right:1px solid gray;"] + td[style="padding-left:15px;"]
 muchong.com##td[style="padding:10px;font-size:14px;"] > div > [style="color:green;"]:first-child
