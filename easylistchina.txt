@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/hao123_api/api/cpc/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -4310,7 +4311,7 @@ mg*.6park.com/img/$image
 ||kekenet.com/images/2015/xuedou
 ||kelepan.com/cp
 ||kewaishu.net/ad1/afoot.js
-||kewaishu.net^*-*-
+||kewaishu.net/m-
 ||key8.com/cache/www/banner_
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kiees.cn/img/
@@ -5959,7 +5960,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||lewenxiaoshuo.com^*-*-
+||lewenxiaoshuo.com/m-
+||hao123img.com/static/common/js/cpc_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
