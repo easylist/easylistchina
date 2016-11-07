@@ -11,8 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/pcqiqidongman.png
-/hao123_api/api/cpc/*
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -133,6 +131,7 @@
 /guanggao/*
 /guanggao2.
 /h/k.php?u=*&l=*&v=$third-party
+/hao123_api/api/cpc/*
 /hiring/hexieshe.jpg
 /huya_promotion_content_
 /images//ads/*
@@ -188,6 +187,7 @@
 /paypic/*
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
+/pcqiqidongman.png
 /piaofu.js
 /pic/ad/*
 /picad/*$domain=~ychr.com
@@ -531,14 +531,8 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 ##span[title="neteasefooter"]
 !----------------------------------Ads-Union----------------------------------!
-.com/code.php?z=$script,third-party
-||nowskip.com^
-||kldmm.com^
-/showpage2.asp?u=$script,third-party
-||wodemeitu.com^$third-party
-||cpc.cc^$third-party
-||hao222.com^$third-party
 .cn/showpage.asp?u=$script,third-party
+.com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
 .com/ge/?s=$script,third-party
@@ -586,6 +580,7 @@ _popAds.
 /pd2.js$third-party
 /pge/?s=$third-party
 /s/i.php?id=$script,third-party
+/showpage2.asp?u=$script,third-party
 /svr/popwin.aspx?$third-party
 /tourl.html?url=
 /v.php?z=$script,third-party
@@ -943,6 +938,7 @@ ubmcmm.baidustatic.com
 ||coolnay.com^$third-party
 ||cooolyi.cn^
 ||couqm.com.cn^
+||cpc.cc^$third-party
 ||cpcv.cc^
 ||cpm360.com^$third-party
 ||cpms.cc^
@@ -1087,6 +1083,7 @@ ubmcmm.baidustatic.com
 ||haiyunx.com^$third-party
 ||hao123rt.com^
 ||hao123union.baidu.com^$third-party
+||hao222.com^$third-party
 ||haoba.info^$third-party
 ||haohaowan8.com^
 ||haolew.com^
@@ -1188,6 +1185,7 @@ ubmcmm.baidustatic.com
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
 ||kld666.com^
+||kldmm.com^
 ||kmadou.com^
 ||koukou7.com^
 ||kt220.com^
@@ -1272,6 +1270,7 @@ ubmcmm.baidustatic.com
 ||nongsalei.com^
 ||nord-raum.com^$third-party
 ||notice.uchome.manyou.com^
+||nowskip.com^
 ||nr1234.com^
 ||o091i.com^$third-party
 ||octopuspop.com^$third-party
@@ -1474,6 +1473,7 @@ ubmcmm.baidustatic.com
 ||wjguc.com^
 ||wlkpa.cn^
 ||wo685.com^$third-party
+||wodemeitu.com^$third-party
 ||wodhid.com^
 ||wofan.net^$third-party
 ||wqsph.net^
@@ -3700,6 +3700,7 @@ mg*.6park.com/img/$image
 ||hao123.com/zt/
 ||hao123img.com/res/ecom/
 ||hao123img.com/res/js/common/erjiAdv.
+||hao123img.com/static/common/js/cpc_
 ||hao6666.info^*.js
 ||haochi123.com/J_Box/Inc_
 ||haochi123.com/Js/Fun_Effects_HT9.js
@@ -4388,6 +4389,7 @@ mg*.6park.com/img/$image
 ||letvimg.com/gugwl/*.swf
 ||letvimg.com^*/108x70$object
 ||letvimg.com^*_phone/
+||lewenxiaoshuo.com/m-
 ||lezhuan.com/js/spread.js
 ||lh168.net^*/attachment/portal/
 ||liangchan.net/aaddaadd/
@@ -5967,12 +5969,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||lewenxiaoshuo.com/m-
-||hao123img.com/static/common/js/cpc_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jqzb.com.cn##.zk_xf
-qiqidongman.com##.topAA
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9450,6 +9448,7 @@ ifeng.com##.top-tg
 52wubi.com##.top960
 700kan.com,jjvcd.com,ktkkt.com,xfvcd.com##.top980
 ktkkt.com##.top980a
+qiqidongman.com##.topAA
 cn.msn.com,cwan.com,ifeng.com,nen.com.cn,sina.com,sina.com.tw,weibo.com##.topAd
 ifeng.com##.topAdBox
 ltaaa.com##.topAds2
@@ -9670,6 +9669,7 @@ wenku.baidu.com##.zhixin-right
 zymk.cn##.zhouk_tu
 qingdaonews.com##.zhqd
 qinbing.cn##.zjlmad
+jqzb.com.cn##.zk_xf
 91danji.com##.zlVideTowNav
 rshhy.com##.zpw_guangao
 efu.com.cn##.zs_banner_a
