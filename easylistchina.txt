@@ -536,7 +536,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|shumilou.co
 !----------------------------------Ads-Union----------------------------------!
 .cn/showpage.asp?u=$script,third-party
-||tz-dsp.com^$third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -1431,6 +1430,7 @@ ubmcmm.baidustatic.com
 ||twrank.com^$third-party
 ||twzui6.com^
 ||txkjad.com^$third-party
+||tz-dsp.com^$third-party
 ||u.801t.com^$third-party
 ||u88.cn^$third-party
 ||ubcpm.com^$third-party
@@ -1733,6 +1733,7 @@ ubmcmm.baidustatic.com
 /homead/*_appledaily_bg.
 /html/taobao_focus_
 /ifengRotatorAd.js
+/image/2016-11-03/4607082d89df5d2b162d7634ec31a493.jpg
 /images/*.gif$domain=67.228.203.174|iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
 /images/*gamble$domain=50.7.31.228|50.7.31.230|tvboxnow.com
 /images/20$domain=sex169.info|sex169.org
@@ -2813,6 +2814,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com/tb/r/image/2014-12-30/fa718abe3e4418298f785734279a2e8f.jpg
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 ||bdstatic.com^*/plugins/every_cookie_
+||bdstatic.com^*/QSURrcmRKV.js
 ||bdstatic.com^*/tam-ogel/
 ||beanfun.com/playweb/adpicpage.htm
 ||beareyes.com.cn^*/ad/
@@ -3108,6 +3110,7 @@ mg*.6park.com/img/$image
 ||cndesign.com/Content/img/356x80_
 ||cndesign.com/img/1200x100.jpg
 ||cnfol.com/f=ud/Js/Ad
+||cnfol.com/tui/
 ||cngoldres.com/advservice/
 ||cngsf.com/baidu.htm
 ||cngsf.com/images/336_280.gif
@@ -5863,6 +5866,7 @@ mg*.6park.com/img/$image
 ||yundasys.com:1602/wsd/ykjcx/
 ||yundianb.com/hao/
 ||yundianb.com/tu/jia.gif
+||yunfile.com/ex/pop/
 ||yunlaige.com/configs/article/tcgg.js
 ||yunmayi.com/upload/2015/04/14/b5d2b4c37af3f4d4c6af5831422b1ead.jpg
 ||yunupload.net/jsa/
@@ -5988,17 +5992,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||bdstatic.com^*/QSURrcmRKV.js
-/image/2016-11-03/4607082d89df5d2b162d7634ec31a493.jpg
-||yunfile.com/ex/pop/
-||cnfol.com/tui/
 !------------------------Specific element hiding rules------------------------!
-cnfol.com##.AdvDL
-duba.com##.ad_middleModal
-duba.com###J_S11
-cnfol.com##.AdAsideW300H250
-hao123.com##A[class^="gameyixing-link-"]
-hao123.com###append
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6066,6 +6060,7 @@ wuxi.cn###Information
 96weixin.com###J-adBd
 96weixin.com###J-adBd2
 duba.com###J_BottomAdBan
+duba.com###J_S11
 2345.com###J_TopicBanner
 2345.com###J_acts11_footerfixed
 linovel.com###J_ad_
@@ -6277,6 +6272,7 @@ qzone.qq.com###appCanvasTodayRecom
 qzone.qq.com###appCanvasTopBanner
 qzone.qq.com###app_ads
 dmzj.com###app_manhua
+hao123.com###append
 qzone.qq.com###appstore_sidebar_l
 qzone.qq.com###appstore_sidebar_r
 youthwant.com.tw###art_adbox
@@ -7393,6 +7389,7 @@ wxrb.com##.ADtxt
 scsn.cn##.AVu4
 le.com,letv.com##.Ad
 kuai8.com##.Ad1
+cnfol.com##.AdAsideW300H250
 aohua.com.au,qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 aohua.com.au##.AdTop-Article-QQ1
@@ -7402,6 +7399,7 @@ aohua.com.au##.AdTop-Article-QQ1
 6949.com##.Ad_04
 juqingba.cn##.Ad_300_2
 xinhuanet.com##.AdvColumn1
+cnfol.com##.AdvDL
 js0573.com##.Adv_banner
 feixiangtv.com##.Advertisement
 big5.china.com.cn##.Advertising > a
@@ -7714,6 +7712,7 @@ duba.com##.ad_leftTip_out
 ck101.com##.ad_logo
 78dm.net##.ad_logor
 sina.com.cn##.ad_main_top
+duba.com##.ad_middleModal
 hb163.cn##.ad_panel_980
 letv.com##.ad_pop
 letv.com##.ad_pop_small
@@ -9740,6 +9739,7 @@ bilibilijj.com##[style*="height: 100%;"]:not(div):not(img)
 bilibilijj.com##[style="height:100%;"]
 bilibilijj.com##a > img[style*="data"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
+hao123.com##a[class^="gameyixing-link-"]
 oschina.net##a[data-traceid="www_news_details_sidebar_1_ad"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 17173.com##a[href*="&ad_code="]
