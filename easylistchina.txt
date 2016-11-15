@@ -529,11 +529,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||zhudiaosz.com^
-||1uandun.com^
-||tvrom.cn^$third-party
-||kkcaicai.com^
-||jsmwd.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -670,6 +665,7 @@ ubmcmm.baidustatic.com
 ||1l1.cc^
 ||1lo0.net^$third-party
 ||1qwe3r.com^$third-party
+||1uandun.com^
 ||1v7.cn^$third-party
 ||1x3x.com^$third-party
 ||201071.com^
@@ -1177,6 +1173,7 @@ ubmcmm.baidustatic.com
 ||jsinfo.net^$third-party
 ||jsjxhd.com^$third-party
 ||jsmbaidu.com^$third-party
+||jsmwd.com^
 ||jsyd139.com^$third-party
 ||jtxh.net^$third-party
 ||ju33.com^$third-party
@@ -1199,6 +1196,7 @@ ubmcmm.baidustatic.com
 ||khgj.cn^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
+||kkcaicai.com^
 ||kld666.com^
 ||kldmm.com^
 ||kmadou.com^
@@ -1431,6 +1429,7 @@ ubmcmm.baidustatic.com
 ||tuiguang.178.com^
 ||tukeai.com^
 ||tukj.net^$third-party
+||tvrom.cn^$third-party
 ||twb98.com^$third-party
 ||twcczhu.com^$third-party
 ||twitterzs.com^
@@ -1612,6 +1611,7 @@ ubmcmm.baidustatic.com
 ||zgyiyi.com^$third-party
 ||zhihei.com^
 ||zhuba8.com^
+||zhudiaosz.com^
 ||zhybzp.cn^
 ||zj66.net^$third-party
 ||zp22938576.com^
@@ -2364,6 +2364,9 @@ mg*.6park.com/img/$image
 ||69.30.217.155^*.png
 ||6949.com/640x44.htm
 ||6949.com/ggs_
+||69shuba.com/js/aadgty.js
+||69shuba.com/js/judfgdm.js
+||69shuba.com/js/sdfadf.js
 ||6candy.com/commons/6/6f/Ermiao-merchandise.jpg
 ||6d245gxt.52pk.com^
 ||6ddd.com/js/myfiles/banner.js
@@ -2547,6 +2550,7 @@ mg*.6park.com/img/$image
 ||acg.tv^$image,object,domain=bilibili.com
 ||acgbenzi.com^$image
 ||acghelp.me^*?$image
+||acgnx.se/images/adwork/
 ||acode.b2b.cn/JS/
 ||act.chinatimes.com/aimg/
 ||actoys.net/index.php?m=poster&
@@ -2743,6 +2747,7 @@ mg*.6park.com/img/$image
 ||baidu.com/feproxy/ad/list?
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/img/iknow/wenku*85.
+||baidu.com/rec?platform=wise&ms=1&rset=ad&
 ||baidu.com/resource/ads/
 ||baidu.com/resource/tuisong/
 ||baidu.com/rmaAjax/getGame?
@@ -2784,6 +2789,7 @@ mg*.6park.com/img/$image
 ||baofeng.com/src/ad.js
 ||baoliny.com/js/jing.js
 ||baxue.me/ad2016/
+||bb.tuku.cc^
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbcss.com/templates/haijun5/js/_banner.js
 ||bbcss.com/templates/junshi2015/js/_banner.js
@@ -6002,12 +6008,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||baidu.com/rec?platform=wise&ms=1&rset=ad&
-||69shuba.com/js/aadgty.js
-||69shuba.com/js/judfgdm.js
-||69shuba.com/js/sdfadf.js
-||acgnx.se/images/adwork/
-||bb.tuku.cc^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6443,6 +6443,7 @@ gohubei.com###comiis_pd_kuxw01
 fuli.us,tianshit.com###comment-ad
 ithome.com###con > div:first-child:not(#wrapper):not(.div_con):not(.wrap)
 ithome.com###con > div:not([class]):not([id]):first-child + div
+apk.tw###confirmOverla
 gate.baidu.com,m.baidu.com###container
 jinhua.com.cn###container > div[style^="height:"]
 gg163.net###container > table[width="960"]
@@ -10103,7 +10104,6 @@ shm.com.cn##div[id^="baidu_clb_slot_"]
 yaolan.com##div[id^="bot_ad"]
 dl-l-tax.gov.cn##div[id^="clip"]
 kankan.com##div[id^="cm"].banner
-apk.tw###confirmOverla
 cdzk.cn##div[id^="couplet"]
 ifeng.com##div[id^="couplet3_"]
 ebiotrade.com,jmnews.com.cn##div[id^="couplet_"]
@@ -10560,6 +10560,7 @@ dnwx.com#@#.ad_250
 psahz.com#@#.ad_960
 178.com,925fxw.com#@#.ad_box
 workercn.cn#@#.ad_content
+mx-fm.com#@#.ad_img
 qqxzb.com#@#.ad_l
 liqucn.com,workercn.cn#@#.ad_main
 pupuapp.com#@#.ad_pic
@@ -10617,11 +10618,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-mx-fm.com#@#.ad_img
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||268xue.com/2016/item-web/exam-pc/images/adv
-@@||tt1069.com/ads.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10744,6 +10742,7 @@ mx-fm.com#@#.ad_img
 @@||192.168.*.1/$generichide
 @@||192.168.*/advertising_$stylesheet
 @@||221.7.250.35/caches/poster_js/21.js
+@@||268xue.com/2016/item-web/exam-pc/images/adv
 @@||2kandy.com/source/plugin/fieah_blockadblock/
 @@||2kandy.com^$generichide
 @@||33.autohome.com.cn/njs/10055.js
@@ -11090,6 +11089,7 @@ mx-fm.com#@#.ad_img
 @@||totheglory.im/pic/ttg_logo
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
+@@||tt1069.com/ads.js
 @@||tt1069.com/advert.js
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
