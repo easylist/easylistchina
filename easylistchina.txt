@@ -529,10 +529,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||kiwihk.net^$third-party
-||xyssp.com^
-||chengruide.com^$third-party
-||cxxtv.com^$third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -926,6 +922,7 @@ ubmcmm.baidustatic.com
 ||chaoliangyun.com^
 ||chapm.com^$third-party
 ||chebse.com^
+||chengruide.com^$third-party
 ||chengzhao95511.com^
 ||chinaheh.com^
 ||chinauma.net^$third-party
@@ -967,6 +964,7 @@ ubmcmm.baidustatic.com
 ||csqiulong.com^
 ||cstoa.com^
 ||ctsywy.com^
+||cxxtv.com^$third-party
 ||cyacc.com^
 ||cylinderlongcheng.com^
 ||czjiuding.cn^
@@ -1201,6 +1199,7 @@ ubmcmm.baidustatic.com
 ||khgj.cn^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
+||kiwihk.net^$third-party
 ||kkcaicai.com^
 ||kld666.com^
 ||kldmm.com^
@@ -1557,6 +1556,7 @@ ubmcmm.baidustatic.com
 ||xxyzwtsylw.com^
 ||xyqxr.com^
 ||xyrhd.com^
+||xyssp.com^
 ||xytom.com^
 ||xzdchl.com^$third-party
 ||xzyituo.com^
@@ -1697,6 +1697,7 @@ ubmcmm.baidustatic.com
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 .pcrookie.com/ad/
+.qidian.com/bgOps.
 /10jqka_info/html/ad_
 /18touch-guanggao.
 /200804ad/*
@@ -2611,6 +2612,7 @@ mg*.6park.com/img/$image
 ||afp.chinanews.com^
 ||afp.wasu.cn^
 ||afpcreative.wasu.cn^
+||agogo.tv/images//uploads/ad/
 ||ah.sina.com.cn/iframe/
 ||ahlife.com/api.php?mod=adv&
 ||ahlife.com/skin/hftogo/js/
@@ -2706,6 +2708,7 @@ mg*.6park.com/img/$image
 ||atool.org/res/ads/
 ||att.ydss.cn/attachments/portal/
 ||auto-online.com.tw/vendor_data/
+||auto.ifeng.com/uploadfile/201*.swf
 ||autofan.com.cn/zhaoning/*.gif
 ||autofan.com.cn/zhaoning/20*.jpg
 ||autofan.com.cn/zhaoning/GG-
@@ -3967,7 +3970,6 @@ mg*.6park.com/img/$image
 ||ifeng.com/showjs?*apids=
 ||ifeng.com/ssi-incs/
 ||ifeng.com/statics/comment_baidu.html
-||auto.ifeng.com/uploadfile/201*.swf
 ||ifeng.com/wapAdversApi?
 ||ifeng.com^*&ADUNITID=
 ||ifengimg.com/*/taobaopudi/
@@ -5934,6 +5936,7 @@ mg*.6park.com/img/$image
 ||zdzdm.com/static/img/*ljs.jpg
 ||zeyi.cc/js/2412/
 ||zfs.cn/8th/
+||zgfznews.com/templates/fznews/dl/
 ||zgjm.org/data/cache/mytag-13.htm
 ||zgjm.org/data/cache/mytag-24.htm
 ||zgjm.org/data/cache/mytag-30.htm
@@ -6021,17 +6024,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||zgfznews.com/templates/fznews/dl/
-||agogo.tv/images//uploads/ad/
-.qidian.com/bgOps.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-wallstreetcn.com##.wscn-page-ad
-zgfznews.com###banner
-zgfznews.com##DIV[style^="height:50px; width:1000px;"]
-sogou.com###appNewsBtn
-sogou.com###appRedPackageAd
-sogou.com##.pop-tuiguang
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6308,6 +6302,8 @@ qzone.qq.com###appCanvasRightTopQBoss
 qzone.qq.com###appCanvasTaskMarket
 qzone.qq.com###appCanvasTodayRecom
 qzone.qq.com###appCanvasTopBanner
+sogou.com###appNewsBtn
+sogou.com###appRedPackageAd
 qzone.qq.com###app_ads
 dmzj.com###app_manhua
 hao123.com###append
@@ -6340,7 +6336,7 @@ ifeng.com###baidualading
 52pk.com###baidutop2
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
-18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aijiatxt.com,avmimi.com,gxorg.com,huacolor.com,iwatch365.com,mm-cg.com,news.shangdu.com,qiqu888.com,sports.qq.com,suopao.org,ting56.com,xxsy.net,youxi.baidu.com,zgfznews.com###banner
 cwyuni.tw###banner > h2
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
@@ -9140,6 +9136,7 @@ www.17173.com##.pn-tg
 19lou.com##.pop-ad
 qzone.qq.com##.pop-app-list-c
 pconline.com.cn##.pop-huodong
+sogou.com##.pop-tuiguang
 zhan.com##.pop_shousuo
 btime.com##.popup_ad_box
 camerabay.tv##.popupad
@@ -9694,6 +9691,7 @@ bbs.feng.com##.wrap.fl_row
 paipai.fm,paipaitxt.com##.wrapbg
 btbtt.co##.wrapper_bg_c
 image.baidu.com##.wrapper_dot_box.dot_black
+wallstreetcn.com##.wscn-page-ad
 jmw.com.cn##.wy_bottom_box
 hcwang.cn##.wz2
 hcwang.cn##.wz3
@@ -10314,6 +10312,7 @@ pc360.net##div[style^="border:none;height:90px;width:728px;"]
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
 52tian.net##div[style^="float:left;width:960px; height:88px;"]
 580k.com##div[style^="height:285px;width:360px;"]
+zgfznews.com##div[style^="height:50px; width:1000px;"]
 9ku.com##div[style^="height:90px;"]
 shmet.com##div[style^="margin-top: -5px; margin-bottom: 10px; height: 60px"]
 tuzuan.com##div[style^="width: 100%; height: 60px; overflow: hidden;"]
