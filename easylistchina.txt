@@ -529,8 +529,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||sciencelolb.com^
-||xnjpg.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1349,6 +1347,7 @@ ubmcmm.baidustatic.com
 ||sales-frontier.com^$third-party
 ||samboc.com^$third-party
 ||sangxi.top^
+||sciencelolb.com^
 ||scize.com^$third-party
 ||scriptcc.cc^
 ||scupio.com^$third-party
@@ -1545,6 +1544,7 @@ ubmcmm.baidustatic.com
 ||xlingdi.com^$third-party
 ||xlwnx.com^
 ||xmshqh.com^$third-party
+||xnjpg.com^
 ||xp3366.com^$third-party
 ||xq12.com^$third-party
 ||xq199.com^
@@ -2530,6 +2530,7 @@ mg*.6park.com/img/$image
 ||9upk.com/images/95050.gif
 ||9upk.com/js/$subdocument
 ||9w1an.com/special/
+||9wcn.com/gcld/500.gif
 ||9ye.com/Files/Editor/ad/
 ||9zvip.net/hi5asd/
 ||a-ash.cdn321.com/block/
@@ -3127,6 +3128,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/article/2016/0529/9a9da669eb68dbf.jpg
 ||cnbetacdn.com/article/2016/0629/15b2632f043a329.png
 ||cnbetacdn.com/article/2016/0716/4d41c2cce1f9693.gif
+||cnbetacdn.com/article/2016/1117/8f6d1ff99d64b71.jpg
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnchu.com/aps/
@@ -3463,6 +3465,7 @@ mg*.6park.com/img/$image
 ||enet.com.cn/home/v6/includes/adv/
 ||enet.com.cn/mem_str_zoneid=
 ||enjoy101.org/hk_rm_tab_
+||enjoycolor.cc/images/base/pushad.jpg
 ||enread.com/img/185-50.gif
 ||enshi.cn/userfiles/esrb/$object,subdocument
 ||ent.mb.baidu.com/webgamepage/GameAPP/
@@ -6026,17 +6029,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||cnbetacdn.com/article/2016/1117/8f6d1ff99d64b71.jpg
-||9wcn.com/gcld/500.gif
-||enjoycolor.cc/images/base/pushad.jpg
 !------------------------Specific element hiding rules------------------------!
-cnbeta.com##.main_content_left > .mt5[style="text-align:center;"]
-qidian.com##.games-op-wrap
-anjian.com###advertisement
-qidian.com##.right-op-wrap
 gpcxw.com###AA2
-qidian.com###topBgBox
-qidian.com###topOpBox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6302,7 +6296,7 @@ aibang.com###advBottomBox
 400gb.com,bego.cc,ctfile.com,pipipan.com###advRight
 szonline.net###adv_focus
 360kan.com###advert_stack_0
-qq.com###advertisement
+anjian.com,qq.com###advertisement
 cpplay.com###adxa
 104.com.tw###aidma_588
 mtime.com###animation_lu
@@ -7283,8 +7277,10 @@ abcde.cn,bbs.houdao.com###top-banner
 gaxhw.com###top1
 ithome.com###top3 + div:not(#con)
 teepr.com###topAdBlock
+qidian.com###topBgBox
 2345.com###topHf
 elecfans.com###topJf
+qidian.com###topOpBox
 baiyjk.com###topRollAdver
 starbaby.cn###top_ad_show
 ck101.com,cq.xinhuanet.com###top_banner
@@ -8485,6 +8481,7 @@ qdmm.com,qdwenxue.com,qidian.com##.game_info
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game_tab
 qidian.com##.game_tj
 sina.com.cn##.gamead1
+qidian.com##.games-op-wrap
 zymk.cn##.ganggao_top
 cpbl.com.tw##.gap_t10
 haosou.com,so.com##.garllery_ad
@@ -8922,6 +8919,7 @@ tvmost.com.hk##.main_ad_b
 qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 hongfen.org##.main_adser
+cnbeta.com##.main_content_left > .mt5[style="text-align:center;"]
 tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
 tianjinwe.com##.mainadv
@@ -9220,6 +9218,7 @@ bt.ktxp.com##.right > a[href="http://www.kkkmh.com/?ktxp"]
 fuliba.net,fulibba.com,hexieba.com,uliba.net,yiwugou.com##.right-banner
 image.baidu.com##.right-banner-area
 thjunshi.com##.right-comul > li > a[href^="http"]:not([href*=".thjunshi."])
+qidian.com##.right-op-wrap
 muzhiwan.com##.right.w_246 > a
 tianya55.com##.right02
 news.ifeng.com##.right1
