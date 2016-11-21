@@ -529,7 +529,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||motohelpr.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1269,6 +1268,7 @@ ubmcmm.baidustatic.com
 ||moogos.com^$third-party
 ||moonwish.com.cn^
 ||mosa86.com^$third-party
+||motohelpr.com^
 ||moutaihotel.cn^
 ||mscimg.com^
 ||msltzer.cn^
@@ -5707,6 +5707,7 @@ mg*.6park.com/img/$image
 ||xiaopi.com/500/
 ||xiaopi.com/statics/skin_js/jquery.posrj.js
 ||xiazaiba.com/uploadfiles/ads/
+||xiepp.com/JS/topshow.js
 ||xigua110.com/a/
 ||xilinjie.com/partner/
 ||xilu.com/iframe/pagepic/
@@ -5755,6 +5756,7 @@ mg*.6park.com/img/$image
 ||xkxs.org/js/tongji.js
 ||xlpu.cc/adv/
 ||xm9x.net/includes/js/dl.js
+||xmcimg.com/data/bcs/2016/1108/1_1478603008_827.jpg
 ||xmfish.com/chanel/www/cpm.html
 ||xnnews.com.cn/images/yr_wsm.js
 ||xnnews.com.cn/templets/image/*gg
@@ -6012,16 +6014,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||xiepp.com/JS/topshow.js
-||xmcimg.com/data/bcs/2016/1108/1_1478603008_827.jpg
 !------------------------Specific element hiding rules------------------------!
-muchong.com###paper161111
 gpcxw.com###AA2
-jinhua.com.cn##.banner1200
-jinhua.com.cn##.banner260
-jinhua.com.cn##.banner465
-jinhua.com.cn##.banner935
-it168.com##.box1103
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6993,6 +6987,7 @@ oh100.com###pagetop
 5iyq.com###pan1
 5iyq.com###pan2
 whnews.cn###panel
+muchong.com###paper161111
 xdowns.com###part_1
 hifidiy.net###part_left2
 hifidiy.net###part_right_gg7
@@ -7981,17 +7976,21 @@ fanyi.baidu.com,longzhu.com,tga.plu.cn##.banner-wrap
 gminfo.cn##.banner.mt7
 news.cn2che.com,sd001.com##.banner01
 html5china.com,shangdu.com,uusee.com,wbzol.com##.banner1
+jinhua.com.cn##.banner1200
 guitarchina.com,uusee.com,wbzol.com##.banner2
 ting89.com,tingshuge.com##.banner250
+jinhua.com.cn##.banner260
 iqiyi.com,shangdu.com,uusee.com##.banner3
 pengfu.com##.banner300x250
 pengfu.com##.banner300x270
 guitarchina.com,iqiyi.com##.banner4
+jinhua.com.cn##.banner465
 shangdu.com##.banner5
 sznews.com##.banner6
 ting89.com,tingshuge.com##.banner688_1
 ting89.com,tingshuge.com##.banner688_2
 aguitar.cn##.banner7
+jinhua.com.cn##.banner935
 80smp4.com,yaolan.com##.banner960
 iqiyi.com##.banner980
 a67.com##.banner990
@@ -8106,6 +8105,7 @@ sportsv.net##.box.ad
 csdn.net##.box.hot
 9ku.com##.box.mb10[style^="width:960px;"]
 0772fang.com##.box0
+it168.com##.box1103
 lolshipin.com##.box2
 mobanwang.com##.box960x90
 pengfu.com##.boxBan
