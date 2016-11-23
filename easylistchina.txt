@@ -2067,6 +2067,7 @@ mg*.6park.com/img/$image
 ||2233777.com/bak/ad/
 ||22mt.la/bookpic/00*.jpg
 ||2300sjz.com/liv_loadfile/folder81/fold
+||2345.com/adbaidu.htm
 ||2345.com/cnxh/
 ||2345.com/data/part/part_*_bann
 ||2345.com/data/part/part_*_bottom
@@ -3969,8 +3970,8 @@ mg*.6park.com/img/$image
 ||ifengimg.com/*/taobaopudi/
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
-||ifengimg.com/a/201*600.
 ||ifengimg.com/a/*/yemei
+||ifengimg.com/a/201*600.
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/ifengimcp/pic/*_w130_h100.
 ||ifengimg.com/ifengimcp/pic/*_w24_h100.
@@ -6023,16 +6024,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||2345.com/adbaidu.htm
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ifeng.com##A[href^="http://yemei.tv/"]
-house.qq.com##.bm
-house.qq.com###yf
-ifeng.com##.ipad_none:nth-last-child(2) > .titR > .js_recommendTag
-25xz.com##.p_ads
-25xz.com##DIV[style*="1002px;"]
-25xz.com##DIV[style*="724px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7383,6 +7376,7 @@ m4jl.com###xrAd
 chrome007.com###xxxx
 hk.search.auctions.yahoo.com###yauadysmh
 redocn.com###yc_adv_1_2
+house.qq.com###yf
 cdict.net###yhoo_text_ads
 webkaka.com###yhtools + .ucontent
 rjfcxxw.com###yimao > div[style]
@@ -8091,6 +8085,7 @@ fzlbase.com##.block-long[style="HEIGHT: 74px;"]
 iyaxin.com##.block_area_ads
 daqi88.com##.blog_content_ad
 m.tiexue.net##.blue
+house.qq.com##.bm
 xianzhenyuan.cn##.bm.a_c
 ftchinese.com##.bn-ph
 oogps.com##.bnn
@@ -8750,6 +8745,7 @@ wangyeba.com##.innner950
 131458.com##.inq_07
 baidu.com##.intro-adv
 loldk.com##.intro-area > div[style="margin-top:7px;"]
+ifeng.com##.ipad_none:nth-last-child(2) > .titR > .js_recommendTag
 people.com.cn##.ipc_none
 leiphone.com##.iphone7-fix
 iqiyi.com##.iqiyi-shangcheng
@@ -9084,6 +9080,7 @@ quanmin.tv##.p-room_chatad
 quanmin.tv##.p-star_adWrap
 opticsky.cn##.p83_gridC > .cc
 jj59.com##.p_ad
+25xz.com##.p_ads
 bbdj.com##.p_banner
 bbdj.com##.p_c4
 bbdj.com##.p_left2
@@ -9929,6 +9926,7 @@ dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
+ifeng.com##a[href^="http://yemei.tv/"]
 dnvod.eu##a[href^="http://yoyou."]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 linux.cn##a[href^="https://linux.cn/go/"]
@@ -10187,8 +10185,10 @@ avonline.org##div[style$="width:570px;margin-left:50px;"]
 taodake.com##div[style$="width:960px; height:60px;"]
 360che.com##div[style$="width:960px;height:60px;"]
 cq.qq.com##div[style*="1000"][style*="60"]
+25xz.com##div[style*="1002px;"]
 39.net##div[style*="300"][style*="250"]
 da-fan-shu.cn##div[style*="468"][style*="60"]
+25xz.com##div[style*="724px;"]
 123du.cc,bokon.net##div[style*="728"][style*="90"]
 360che.com##div[style*="950"][style*="90"]
 imanhua.com##div[style*="980"][style*="26px"]
@@ -10647,8 +10647,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||33xs.com^$generichide
-@@||bingfeng.tw^$generichide
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10775,6 +10773,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||33.autohome.com.cn/njs/10055.js
 @@||33.autohome.com.cn/njs/newget.js
 @@||3399.com/DataTransfer/Advertisement/
+@@||33xs.com^$generichide
 @@||360buyimg.com/ad/$domain=jd.com
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^*??
@@ -10870,6 +10869,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||beanfun.com/ADClient/
 @@||bilibilijj.com/APIword/$elemhide
 @@||bilibilijj.com/old$elemhide
+@@||bingfeng.tw^$generichide
 @@||biquge5.com/jquery/biquge.js
 @@||biz.gexing.com/bottom_
 @@||briian.com/advert.
