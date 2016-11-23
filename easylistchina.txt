@@ -3970,7 +3970,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
 ||ifengimg.com/a/201*600.
-||ifengimg.com/a/2016/0929/su/yemei.jpg
+||ifengimg.com/a/*/yemei
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/ifengimcp/pic/*_w130_h100.
 ||ifengimg.com/ifengimcp/pic/*_w24_h100.
@@ -6026,6 +6026,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ifeng.com##A[href^="http://yemei.tv/"]
+ifeng.com##.ipad_none:nth-last-child(2) > .titR > .js_recommendTag
 25xz.com##.p_ads
 25xz.com##DIV[style*="1002px;"]
 25xz.com##DIV[style*="724px;"]
@@ -8746,7 +8748,6 @@ wangyeba.com##.innner950
 131458.com##.inq_07
 baidu.com##.intro-adv
 loldk.com##.intro-area > div[style="margin-top:7px;"]
-ifeng.com##.ipad_none:nth-child(33):nth-last-child(2)
 people.com.cn##.ipc_none
 leiphone.com##.iphone7-fix
 iqiyi.com##.iqiyi-shangcheng
