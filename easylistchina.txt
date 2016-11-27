@@ -1723,6 +1723,7 @@ ubmcmm.baidustatic.com
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 .pcrookie.com/ad/
+.qidian.com/bgImg.
 .qidian.com/bgOps.
 /10jqka_info/html/ad_
 /18touch-guanggao.
@@ -2183,6 +2184,7 @@ mg*.6park.com/img/$image
 ||3sjt.com/3sjtimg/
 ||400516.com/data/attachment/album/
 ||40064008.com/topjs/
+||4020.la/hi
 ||40407.com/plus/pthc/zqdl.php?
 ||40407.com/plus/rpad/
 ||40407.com/plus_rpad_
@@ -2304,6 +2306,7 @@ mg*.6park.com/img/$image
 ||5ips.net/love/
 ||5iyq.com/skin/default/js/topad
 ||5iyq.com/zhigt/
+||5mplayer.duapp.com/player/ad.xml
 ||5vdd.com/2345ws.jpg
 ||5vdd.com/ie.gif
 ||5vdd.com/zjbbrj.gif
@@ -4312,6 +4315,7 @@ mg*.6park.com/img/$image
 ||juxia.com/public/js/foot.js
 ||juxia.com/public/js/juxia.js
 ||juxiangyou.com/images/tgsc/960x80.gif
+||juxiangyou.com/service/material/
 ||jx.xinhuanet.com/*banner/
 ||jxad.jx163.com^
 ||jxcn.cn/images/banner/
@@ -5214,6 +5218,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=360zhibo.com|chakd.com|kiees.cn|kqiuba.com|pptiyu.com|qqzhibo.net
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
+||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
 ||sinaimg.cn/large/68299a77jw1et76sa28ljg208c03i0t0.gif
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
@@ -5631,6 +5636,7 @@ mg*.6park.com/img/$image
 ||weixin.qqday.com/js/tj.js
 ||wendellyu.com/banner/
 ||wendu.cn/templates/wzdsb/js/yanue.pop.js
+||wenweipo.com/img/banner/2016/20161101huishangbank.jpg
 ||wenxuecity.com/service/ad/
 ||weste.net/js/showpagead.js
 ||wgun.net/data/yahoo_ad.html
@@ -6018,18 +6024,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-.qidian.com/bgImg.
-||4020.la/hi
-||wenweipo.com/img/banner/2016/20161101huishangbank.jpg
-||5mplayer.duapp.com/player/ad.xml
-||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
-||juxiangyou.com/service/material/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ipc.me##DIV[style="height:280px;width:336px;margin:-10px auto 20px auto"]
-7654.com##.partner3
-7654.com##.venue_buy
-qidian.com##.qd-game
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7883,7 +7879,6 @@ hao123.com,sohu.com,tieba.baidu.com##.advertise
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 inside.com.tw,sina.com.cn##.advertisement
 elecfans.com##.advertising
-4493.com##.iboxline
 ifeng.com##.advmark
 hexun.com,hexun.com.tw##.advp
 cngold.org,qq.com,tongxiang.net##.advs
@@ -8525,6 +8520,8 @@ cqwb.com.cn##.gg_960x60
 cqwb.com.cn##.gg_960x80
 163disk.com##.gg_990_65
 163disk.com##.gg_990_90
+515fa.com##.gg_ad01
+515fa.com##.gg_ad02
 appcheers.com##.gg_ads_home_t
 wo256.com##.gg_area
 eeyy.com##.gg_bg
@@ -8680,6 +8677,7 @@ didown.com##.i-gg-640
 newhua.com##.i1
 aishiw.com##.iHead960x90
 webcars.com.cn##.i_banner
+4493.com##.iboxline
 m.toutiao.com##.icon_ad + div + a
 easylife.tw,ettoday.net##.idleAd
 haodou.com##.idx_ad_box
@@ -9102,6 +9100,7 @@ www.sina.com.cn##.part-k-l > .mod-13
 www.sina.com.cn##.part-l
 bbs.52life.cc##.part1
 sina.com##.parta_l_ads
+7654.com##.partner3
 heiguang.com##.pbAddPic
 zol.com.cn##.pboi-intel-2015-product
 kikinote.net##.pc_ad
@@ -9171,6 +9170,7 @@ fqlook.cn##.pro_baidu
 duba.com##.pro_r_t
 pbhz.com##.product-nav-box
 huaban.com##.promotion
+qidian.com##.qd-game
 qdmm.com,qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
@@ -9619,6 +9619,7 @@ iciba.com##.vRecomm
 bejson.com##.validateButtons > .right
 bejson.com##.validateButtons.clear a
 douyu.com,douyutv.com##.vcode9-sign
+7654.com##.venue_buy
 longzhu.com##.video-ad2
 iqiyi.com##.video-ad_left
 iqiyi.com##.video-ad_right
@@ -10239,6 +10240,7 @@ huabian.com##div[style="height:250px;"]
 hkgolden.com##div[style="height:250px;overflow:hidden;text-align:center;margin-top: 5px;"]
 sj33.cn##div[style="height:250px;padding:10px 0 20px 0;"]
 loldk.com##div[style="height:270px;width:320px;position:relative;"]
+ipc.me##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 howfile.com##div[style="height:30px;padding:2px;border:1px dashed #555555"]
 panzz.com##div[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
@@ -10492,8 +10494,6 @@ ahtv.cn##td[colspan="3"][style="height:95px;"]
 tsdm.net##td[colspan="5"]:first-child:last-child
 ebiotrade.com##td[height="135"]
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
-515fa.com##.gg_ad01
-515fa.com##.gg_ad02
 tianshui.com.cn##td[height="420"]
 dodo8.com##td[height="82"]
 ckdzb.com##td[height="90"][align="left"]
