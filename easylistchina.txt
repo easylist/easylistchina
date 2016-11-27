@@ -1705,7 +1705,7 @@ ubmcmm.baidustatic.com
 ||smartor.org/iclk/?zoneid=$popup
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
-||taobao.com^$popup,domain=bilibilijj.com|hacg.red|xianzhenyuan.cn
+||taobao.com^$popup,domain=bilibilijj.com|xianzhenyuan.cn
 ||tmall.com^$popup,domain=xianzhenyuan.cn
 ||todayapp.cc^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
@@ -1739,7 +1739,6 @@ ubmcmm.baidustatic.com
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
-/^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /a83b3cdeacac5a503717469ca5084ebc.
 /adcg/*
 /Addsa.dsj/Bsdd_1010/*Baidu
@@ -1756,7 +1755,6 @@ ubmcmm.baidustatic.com
 /banner.js$domain=28188.com|28188.net
 /banner/*$domain=dolc.de|dolc.info|leiphone.com
 /bannerpic/*$domain=uopera.net
-/bao/uploaded/*$domain=hacg.red
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
 /cari/daybanner/*
@@ -1795,7 +1793,7 @@ ubmcmm.baidustatic.com
 /img/disc.jpg$domain=jpfans.com|jpseek.com
 /img/kana.jpg$domain=jpfans.com|jpseek.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
-/imgextra/*$domain=hacg.li|hacg.lol|hacg.red|zqnow.com
+/imgextra/*$domain=hacg.li|hacg.red|zqnow.com
 /ipower.htm$domain=50.7.31.230|tvboxnow.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
@@ -6026,6 +6024,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hacg.li,hacg.red###metaslider_widget-2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6945,7 +6944,6 @@ dnvod.eu###myaudient2
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
-hacg.red###nav-above + div
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
 tgbus.com###neck_970
 40407.com###nei_fmt
@@ -7227,8 +7225,6 @@ m.autohome.com.cn###tcw20l
 pchome.com.tw###test2
 free.com.tw###text-124
 aijava.cn###text-15
-hacg.red###text-16
-hacg.li,hacg.lol,hacg.red###text-18
 tumutanzi.com,wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
@@ -7239,7 +7235,6 @@ realtw.com###text-37
 zreading.cn###text-5
 uisdc.com###text-6
 realtw.com###text-67
-hacg.red###text-7
 zreading.cn###text-8
 wuleba.com###text-9
 acgft.net###text-html-widget-13 + .widget-box
@@ -11126,7 +11121,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||totheglory.im/pic/ttg_logo
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
-@@||tt1069.com/ads.js
+@@||tt1069.com/adbrite.js
 @@||tt1069.com/advert.js
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
