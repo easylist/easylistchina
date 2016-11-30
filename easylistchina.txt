@@ -12,12 +12,11 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -cstdio_ads-
-.com/?ss=$script
-/js/mob/cpc_bottom.js
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
+.com/?ss=$script
 .com/a_d/
 .com/java/shang1.js
 .com/java/xia1.js
@@ -158,6 +157,7 @@
 /js/bocaiadv.
 /js/guanggao_gg.js
 /js/jsstyle-$third-party
+/js/mob/cpc_bottom.js
 /js/showgg.js
 /js/toutiaoiframe.js
 /js/utils51.js
@@ -535,8 +535,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||govgift.com^
-||ychml.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1097,6 +1095,7 @@ ubmcmm.baidustatic.com
 ||googlealiyun.cn^
 ||googletakes.com^
 ||gotonav.com^$third-party
+||govgift.com^
 ||gs307.com^$third-party
 ||gso0.com^
 ||gtmucs.cn^
@@ -1599,6 +1598,7 @@ ubmcmm.baidustatic.com
 ||xzyituo.com^
 ||yangdasen.cn^
 ||yatemy.cn^
+||ychml.com^
 ||ydcpc.com^$third-party
 ||ydlnt.com^
 ||ye3.com^$third-party
@@ -6021,9 +6021,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-591hx.com##.banner_w
-52ch.net##.chn_pb
-52ch.net##DIV[style="margin-top:5px; height:80px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8017,6 +8014,7 @@ jinghua.cn##.banner_pic02
 ifanr.com##.banner_post_bottom
 15w.com##.banner_s_3
 1684.cc,zhaogepu.com##.banner_top
+591hx.com##.banner_w
 szhome.com##.bannerad3cbox
 zhidao.baidu.com##.bannerdown
 jisuzhibo.net##.bannerhead
@@ -8158,6 +8156,7 @@ guidaye.com##.charu
 cb.com.cn##.chbox_r_ad
 china.com.cn##.chinaJZG
 firefoxchina.cn##.chip-banners
+52ch.net##.chn_pb
 ku6.com##.ckl_ios
 dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
@@ -9679,7 +9678,6 @@ weeiy.com##.widget_text:nth-child(5)
 hanfan.cc,ii-i.org##.widget_ui_textasb
 leitingcn.com##.wlt670 > div[style]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
-52ch.net##DIV[style^="margin-top:5px; height:60px;"]
 shuaijiao.com##.wp.m-t20.h90
 cangjige.net,cangjige.win##.wp[style="height:36px;padding-top:15px;"]
 seowhy7.com##.wp[style="margin-top:10px;"]
@@ -10241,6 +10239,7 @@ zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 itnose.net##div[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
 thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
+52ch.net##div[style="margin-top:5px; height:80px;"]
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
 fun01.cc##div[style="margin:0 auto 10px auto;text-align:center;width:728px"]
 dydh.tv##div[style="margin:0 auto 10px auto;width:960px;height:90px"]
@@ -10318,6 +10317,7 @@ pc360.net##div[style^="border:none;height:90px;width:728px;"]
 zgfznews.com##div[style^="height:50px; width:1000px;"]
 9ku.com##div[style^="height:90px;"]
 shmet.com##div[style^="margin-top: -5px; margin-bottom: 10px; height: 60px"]
+52ch.net##div[style^="margin-top:5px; height:60px;"]
 tuzuan.com##div[style^="width: 100%; height: 60px; overflow: hidden;"]
 07073.com##div[style^="width: 135px; height: 327px;"]
 v.163.com##div[style^="width: 140px; height: 199px;"]
@@ -10645,9 +10645,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||beyondsoft.com/dataservice/img/ad_
-@@||mail.wo.cn/ad/
-@@/ad/index/*$domain=cstnet.cn
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10663,6 +10660,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/2kuai/images/ad
 @@/32666/images/ad
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
+@@/ad/index/*$domain=cstnet.cn
 @@/ad_file/*$domain=7net.com.tw|pxmart.com.tw
 @@/ad_images/*$domain=88box.com
 @@/adbanner/*$image,domain=books.com.tw
@@ -10870,6 +10868,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||bdstatic.com/??*,*,*,
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@||beanfun.com/ADClient/
+@@||beyondsoft.com/dataservice/img/ad_
 @@||bilibilijj.com/APIword/$elemhide
 @@||bilibilijj.com/old$elemhide
 @@||bingfeng.tw^$generichide
@@ -11009,6 +11008,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||letv.com*/tuiguang/$subdocument
 @@||letvcloud.com^*&showAd=
 @@||libs.baidu.com/jquery/$domain=xxbiquge.com
+@@||mail.wo.cn/ad/
 @@||mamise111.com/js/jquery.
 @@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
