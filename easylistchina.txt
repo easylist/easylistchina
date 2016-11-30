@@ -535,9 +535,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||wgnmp.com^
-||tradeccl.com^
-||sykty.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1426,6 +1423,7 @@ ubmcmm.baidustatic.com
 ||sucodb.com^
 ||sunjianhao.com^
 ||superfish.com^$third-party
+||sykty.com^
 ||szdzbx.com^
 ||szfaq.com^
 ||szvr.com^$third-party
@@ -1465,6 +1463,7 @@ ubmcmm.baidustatic.com
 ||toufangke.com^$third-party
 ||toy9090.com^$third-party
 ||tpe163.com^
+||tradeccl.com^
 ||tuiguang.178.com^
 ||tukeai.com^
 ||tukj.net^$third-party
@@ -1526,6 +1525,7 @@ ubmcmm.baidustatic.com
 ||weddingeeos.com^$third-party
 ||weizhanle.com^$third-party
 ||werpig.com^
+||wgnmp.com^
 ||whytoss.com^
 ||wicp.net^*.swf
 ||widget.ezprice.com.tw^$third-party
@@ -1755,6 +1755,7 @@ ubmcmm.baidustatic.com
 /a83b3cdeacac5a503717469ca5084ebc.
 /adcg/*
 /Addsa.dsj/Bsdd_1010/*Baidu
+/adnow.js$domain=50.7.31.228|tvboxnow.com
 /adscript/crazyad.js
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /Aemplate/dd_1010/baidu
@@ -3581,6 +3582,7 @@ mg*.6park.com/img/$image
 ||g1080.com/js/cache_bg.js
 ||g2.ousns.net^
 ||g4.beva.com/data-js-
+||gagays.com/images/jumu_360x70.png
 ||galacg.me/wp-content/uploads/*750x
 ||game.466.com^$third-party
 ||gameapps.hk/images/banners/
@@ -5103,6 +5105,7 @@ mg*.6park.com/img/$image
 ||s.yimg.com/gs/apex/
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com
 ||s.yimg.com/ja/ap/tw/js/
+||s.yimg.com/uv/dm/scripts/syndication.js
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
 ||s1.pplive.cn/sta.js
 ||s1979.com/html/ad_js/
@@ -5146,6 +5149,7 @@ mg*.6park.com/img/$image
 ||sejie2.us/images/*.gif
 ||sentsin.qiniudn.com/ad_
 ||sesepa.com/topjs/
+||sex169.xyz/floatad/
 ||sexbarss.net/wap/
 ||sextop.com.tw/upload/blocker/header_new.gif
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
@@ -5180,6 +5184,7 @@ mg*.6park.com/img/$image
 ||shouyoutan.com/Runtime/js/
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
 ||showbean.net:8081/cpma.js
+||showhaotu.$domain=18p2p.com
 ||showhaotu.com/2016/03/31/c42e72fb676522c97c84fc06295ac6c6.gif
 ||shows.21cn.com^
 ||shuajizhijia.com/static/js/rightdown.js
@@ -5519,6 +5524,7 @@ mg*.6park.com/img/$image
 ||uisdc.com/wp-content/*-250-
 ||uisdc.com/wp-content/*-728
 ||uisdc.com/wp-content/*-jzzx-
+||ultraimg.com^$domain=18p2p.com
 ||union.china.com.cn^
 ||untitled.dwstatic.com^
 ||up.hiao.com^
@@ -5897,6 +5903,7 @@ mg*.6park.com/img/$image
 ||yunlaige.com/configs/article/tcgg.js
 ||yunmayi.com/upload/2015/04/14/b5d2b4c37af3f4d4c6af5831422b1ead.jpg
 ||yunupload.net/jsa/
+||yupoo.com/ttmeiju/
 ||yxad.com/baidu/
 ||yxad.com/js/lady.gif
 ||yxad.com/sg/
@@ -6020,17 +6027,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||showhaotu.$domain=18p2p.com
-||ultraimg.com^$domain=18p2p.com
-/adnow.js$domain=50.7.31.228|tvboxnow.com
-||s.yimg.com/uv/dm/scripts/syndication.js
-||sex169.xyz/floatad/
-||yupoo.com/ttmeiju/
-||gagays.com/images/jumu_360x70.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ttmeiju.com###dialog-overlay
-ttmeiju.com###new-user
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6531,6 +6529,7 @@ vxingkong.com###dbpl
 ytbbs.com###dd1
 sogou.com###detailRightAd
 fwxgx.com###detail_ad_middle
+ttmeiju.com###dialog-overlay
 iciba.com###dict_right5
 chzhw.com###diqilai
 3boys2girls.com###displayadb1
@@ -6955,6 +6954,7 @@ ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav
 tgbus.com###neck_970
 40407.com###nei_fmt
 fun.tv###network-mobile
+ttmeiju.com###new-user
 hc360.com###newAppBox
 hc360.com###newAppBox1
 elecfans.com###newTopAdArea
@@ -10655,7 +10655,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||buyad.bi-xenon.cn^
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adf=dalian_300x250_
@@ -10888,6 +10887,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||briian.com/advert.
 @@||btaia.com^$generichide
 @@||btio.pw^$generichide
+@@||buyad.bi-xenon.cn^
 @@||bzfxw.com/d/js/acmsd/thea25.js
 @@||cache.adm.cnzz.net^$domain=gx.91s.org
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
