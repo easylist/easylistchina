@@ -2033,7 +2033,6 @@ mg*.6park.com/img/$image
 ||172.15.2.28:3438/*.js
 ||173.208.177.227/tool/xuanfusige.js
 ||173.208.177.227^*.gif
-||173.255.143.197^*.png
 ||173kt.com/ads/
 ||173kt.com/images/ad
 ||174.123.15.43:8080
@@ -2077,8 +2076,6 @@ mg*.6park.com/img/$image
 ||2008xxx.com:888
 ||201*.myhard.com^
 ||20150930.cf^
-||204.12.228.235^*.png
-||204.12.228.236^*.png
 ||211600.com/data/attachment/portal/
 ||219.153.41.154/v1/
 ||219.153.41.175/*.js
@@ -2337,12 +2334,6 @@ mg*.6park.com/img/$image
 ||6665432.com^*.gif
 ||66ip.cn/common/img/yaoyao.jpg
 ||66ip.cn/klz/953X164.gif
-||66rd.cn/js/foot.js
-||66rd.cn/pic/*1000.
-||66rd.cn^*1000300.
-||66rd.cn^*100060.
-||66rd.cn^*120250.
-||66rd.cn^*96060
 ||66wz.com/adv2/
 ||66wz.com/data/attachment/portal/
 ||67.159.44.187/js/v1.js
@@ -2350,7 +2341,6 @@ mg*.6park.com/img/$image
 ||6701.com/galgameads/
 ||68design.net/inc/news.
 ||68mtv.com/js/gg.js
-||69.30.217.155^*.png
 ||6949.com/ggs_
 ||69shuba.com/js/aadgty.js
 ||69shuba.com/js/judfgdm.js
@@ -3743,7 +3733,6 @@ mg*.6park.com/img/$image
 ||haodai.com/src/i/lianmeng/ad/
 ||haofs.com/haofs/ggapi.asp
 ||haofu1.com/images/*.gif
-||haoghost.com/js/hy_cpc_print.js
 ||haoju55.com/js/bbb/
 ||haokan5.com/js/haokanjs/2014_
 ||haokan5.com/js/haokanjs/playa
@@ -6023,8 +6012,11 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||66rd.cn/pic/*.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+66rd.cn##.mst_lamu_main
+66rd.cn##DIV[id^="comiis_xizi_gg"]
 cnplugins.com###pop_div
 cnplugins.com##.pushbox1
 hc360.com,yaolan.com###AD
@@ -6801,9 +6793,9 @@ hao.360.cn###iguess
 qq.com###image_ad
 ck101.com###image_ad_long
 ck101.com###image_ad_short
-66rd.cn,cnjxol.com,rznews.cn###img
+cnjxol.com,rznews.cn###img
 nick18.com###img a
-66rd.cn,firstchina.org.cn,pharmnet.com.cn###img1
+firstchina.org.cn,pharmnet.com.cn###img1
 114la.com,ylmf.com###imgArr
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
@@ -6869,7 +6861,7 @@ jobbole.com###leaderboard
 baidu.com###left-promotion
 hao.360.cn###left-ria-fixed
 sdgundam.cn###left-sponsor
-66rd.cn,chcj.net,cs.com.cn,cssqt.com,dvbcn.com,ieforex.com,mxwz.com,qinbing.cn###leftDiv
+chcj.net,cs.com.cn,cssqt.com,dvbcn.com,ieforex.com,mxwz.com,qinbing.cn###leftDiv
 hexun.com###leftFloat
 duba.com###leftHot
 ccb.com.cn###leftSideAd
@@ -7098,7 +7090,7 @@ hbtv.com.cn###right > div[style="margin-bottom:23px;"]
 90oo.com###right > div[style^="height:60px; width:750px;"]
 xiaohua.360.cn###right-fixed
 cnbeta.com###right1
-66rd.cn,chcj.net,cs.com.cn,cssqt.com,dvbcn.com,ieforex.com,mxwz.com,qiannao.com,qinbing.cn###rightDiv
+chcj.net,cs.com.cn,cssqt.com,dvbcn.com,ieforex.com,mxwz.com,qiannao.com,qinbing.cn###rightDiv
 07073.com###rightDiv > div[style="height:250px"]
 gxnews.com.cn###right_3_ad
 cpd.com.cn,xinhuanet.com###right_ad1
@@ -7734,7 +7726,7 @@ hb163.cn##.ad_inner
 le.com##.ad_layer
 188bifen.com,hc360.com##.ad_left
 duba.com##.ad_leftTip_out
-66rd.cn,ifeng.com##.ad_list
+ifeng.com##.ad_list
 ck101.com##.ad_logo
 78dm.net##.ad_logor
 sina.com.cn##.ad_main_top
@@ -10441,8 +10433,6 @@ dijiuzww.com##table[style="width:770px;height:260px"]
 jjwxc.net##table[style^="width:984px;"]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 baoliaomi.com##table[width="1000"]
-66rd.cn##table[width="1000"][height="60"]
-66rd.cn##table[width="1000"][height="70"]
 mydrivers.com##table[width="1000"][height="90"]
 usa.bytravel.cn##table[width="1050px"][bgcolor="#ffffff"]
 pt80.net##table[width="1150"]
