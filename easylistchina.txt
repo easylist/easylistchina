@@ -536,9 +536,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||medi-8.net^$third-party
-||wikigifth.com^
-||hystq.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1141,6 +1138,7 @@ ubmcmm.baidustatic.com
 ||hxyx360.com^
 ||hy-cn.cn/index.php?
 ||hys4.com^
+||hystq.com^
 ||hytgj.com^
 ||hz3137.com^$third-party
 ||hzaibi.com^
@@ -1274,6 +1272,7 @@ ubmcmm.baidustatic.com
 ||mamamiyu.com^$third-party
 ||maskbaby.com.cn^
 ||mathtag.com^$third-party
+||medi-8.net^$third-party
 ||media8.cn^$third-party
 ||mediav.com^$third-party
 ||meimeidaren.com^
@@ -1536,6 +1535,7 @@ ubmcmm.baidustatic.com
 ||whytoss.com^
 ||wicp.net^*.swf
 ||widget.ezprice.com.tw^$third-party
+||wikigifth.com^
 ||winasdaq.com^$third-party
 ||winvestern.com.cn^
 ||wit.qq.com^$third-party
@@ -3598,6 +3598,7 @@ mg*.6park.com/img/$image
 ||gczb.com/upfile/20*.swf
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
+||gd.vodtw.com^
 ||gdmm.com*/mybt/
 ||gdmm.com/images/leftbottom.png
 ||gdt.qq.com^
@@ -4905,6 +4906,7 @@ mg*.6park.com/img/$image
 ||qbaobei.com/data/attachment/portal/201310/23/171807xmyi29gah8cypbh6.gif
 ||qbaobei.com/data/attachment/portal/201310/23/171915wh3ox3oiwck3dwxo.jpg
 ||qbox.me/ftq_
+||qd.dhzw.com^
 ||qdjimo.com/html/js/
 ||qdmm.com/javascript/NewSNDAPop.js
 ||qdmm.com/javascript/SNDAADAltern.js
@@ -5959,6 +5961,7 @@ mg*.6park.com/img/$image
 ||zhijia.com/hd/*.swf
 ||zhongtaozs.com/%5Cad/
 ||zhongyi.ifeng.com/a/zt.js
+||zhongzidi.com/img/*.gif
 ||zhuanyewanjia.com/upload/show/
 ||zhujiangroad.com/js/alltop.js
 ||zhujiceping.com/F/
@@ -6019,12 +6022,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||zhongzidi.com/img/*.gif
-||gd.vodtw.com^
-||qd.dhzw.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-6.gy##div[id^="ad_dl"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10111,6 +10110,7 @@ dayanzai.me,dayoo.com,mycar168.com,pchome.net,qz828.com##div[id^="ad"]
 9666.cn##div[id^="ad20"]
 58.com,myfiles.com.cn,pcpop.com##div[id^="ad_"]
 pchome.com.tw##div[id^="ad_div_"]
+6.gy##div[id^="ad_dl"]
 cheshi.com##div[id^="ad_pos_"]
 weather.com.cn##div[id^="adpos"]
 cbmland.com##div[id^="ads_"]
