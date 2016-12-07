@@ -535,7 +535,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||ahhuazhen.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -852,6 +851,7 @@ ubmcmm.baidustatic.com
 ||affiliate.rakuten.co.jp^$third-party
 ||afjlb.com^
 ||agrantsem.com^$third-party
+||ahhuazhen.com^
 ||aidaicn.com^$third-party
 ||aifei.info^$third-party
 ||aimato.com^$third-party
@@ -1867,6 +1867,7 @@ ubmcmm.baidustatic.com
 /upload/gad/*$domain=pbzy.com|shanzhaiben.com
 /vmind.qqvideo.tc.qq.com^
 /web/ad/*$domain=gamer.com.tw
+/wp-content/uploads/2016/10/2016103005450610.jpg
 /www.kocpc.com.tw/wp-content/uploads/*.gif
 /www.soft4fun.net/wp-content/uploads/*_banner
 /wxh.js$domain=dm5.com|dm5.hk
@@ -1880,6 +1881,7 @@ _!!1731999033.
 _adblock-notify-$domain=pcrookie.com
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
+fuli.*/wp-content/uploads/ad/
 mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
 |http:$subdocument,domain=pc6.com
@@ -2844,6 +2846,7 @@ mg*.6park.com/img/$image
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||biaoqing.com/2000/ad/960x90.gif
 ||bilibili.com/x/web-show/res/loc?*&aid=
+||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||bilibilijj.com/temp/fanshuxiaobao.png
 ||binhuo.com/bhjs/
@@ -3319,6 +3322,7 @@ mg*.6park.com/img/$image
 ||dodo8.com/inc/$script
 ||dol.tianya.cn/s?z=tianya&
 ||dolphin.ftimg.net/s?
+||domecross.com/ad/
 ||domeng.cn/js/index_
 ||dongfangtai.com/js/duil.js
 ||dospy.com/hezuo/
@@ -3533,8 +3537,6 @@ mg*.6park.com/img/$image
 ||fububu.com/zb_users/*/ttz
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
 ||fuli.us/ad.js
-/wp-content/uploads/2016/10/2016103005450610.jpg
-fuli.*/wp-content/uploads/ad/
 ||fuli69.com/wp-content/uploads/sug
 ||fulibac.com/images/upload/ad/
 ||fulibar.net/img/
@@ -4131,6 +4133,7 @@ fuli.*/wp-content/uploads/ad/
 ||iqiyi.com/player/common/rebull
 ||iqiyi.com/player/cupid/*/pageer.swf
 ||iqiyi.com/player/cupid/common/flash980100.swf
+||iqiyi.com/show2?a=qc_$domain=m.iqiyi.com
 ||iqiyi.com/show2?cb=
 ||iqshw.com/d/js/m/thea
 ||ishangman.com/images/aismd/
@@ -4457,6 +4460,7 @@ fuli.*/wp-content/uploads/ad/
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
 ||linuxidc.com/linuxfile/y9.js
+||liu16.com/sfvpnn.gif
 ||liveany.com/images/8d8d.gif
 ||livefilestore.com^*/imj160x200.gif
 ||liyuanwang.com/nongli.gif
@@ -6021,16 +6025,8 @@ fuli.*/wp-content/uploads/ad/
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
-||iqiyi.com/show2?a=qc_$domain=m.iqiyi.com
-||domecross.com/ad/
-||liu16.com/sfvpnn.gif
 !------------------------Specific element hiding rules------------------------!
-bilibili.com##.ad-e1
-sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
-sspai.com##.content > HR:nth-last-child(-n+4) ~ P
 gpcxw.com###AA2
-baidu.com##.manual-spread
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7560,6 +7556,7 @@ zhidao.baidu.com##.ad-block-1
 easou.com##.ad-charge
 acg12.com,nanrenwo.net,newtalk.tw##.ad-container
 cqmmgo.com##.ad-cycle
+bilibili.com##.ad-e1
 simplecd.me##.ad-entry-sidebar-1
 simplecd.me##.ad-entry-sidebar-2
 bilibili.com##.ad-f
@@ -8222,6 +8219,7 @@ jfinfo.com##.contBottomFix
 u-car.com.tw##.contad
 gminfo.cn##.container > p
 www.wangjing.cn##.content > div[style*="980px;"]
+sspai.com##.content > hr:nth-last-child(-n+4) ~ p
 cnbeta.com##.content > p:last-child > a[href]
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
@@ -8918,6 +8916,7 @@ qqjia.com##.mainad
 tianjinwe.com##.mainadv
 pingpang.info##.mainbox > div[style="float:left; width:100%; height:80px;"]
 bbs.fobshanghai.com##.maintable > div:nth-child(7)
+baidu.com##.manual-spread
 zhainanba.org##.marauto > p[style="text-align: left;"]
 like101.com.tw##.masonry-brick[style^="width: 212px; height: 216px;"]
 265g.com##.mban
@@ -9996,6 +9995,7 @@ qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
 jznews.com.cn##div[class*="n_ads_index"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
+sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
 ifeng.com##div[class="adbox02"]
 ithome.com.tw##div[class="span4"]
