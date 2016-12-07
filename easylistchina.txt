@@ -6022,6 +6022,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
+sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
+sspai.com##.content > HR:nth-last-child(-n+4) ~ P
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
