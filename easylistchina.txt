@@ -535,7 +535,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||ccbaihehq.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -926,6 +925,7 @@ ubmcmm.baidustatic.com
 ||cardniu.com^$third-party
 ||cb.baidu.com^
 ||cbjs.baidu.com^
+||ccbaihehq.com^
 ||cctyly.com^
 ||cd-best.cn^
 ||cdnny.com^
@@ -2670,6 +2670,7 @@ mg*.6park.com/img/$image
 ||apple.www.letv.com^
 ||applechannel.cc/js/gg.js
 ||apptry.easylife.tw/pub/js/common/common.js
+||appzhu.com/Runtime/js/
 ||aqlife.com/data/attachment/portal/
 ||aqy102.com/js/aqy/
 ||aqy103.com/js/aqy/
@@ -2848,6 +2849,7 @@ mg*.6park.com/img/$image
 ||biaoqing.com/2000/ad/960x90.gif
 ||bilibili.com/x/web-show/res/loc?*&aid=
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
+||bilibili.com/x/web-show/res/locs?*&pf=0&ids=40%
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||bilibilijj.com/temp/fanshuxiaobao.png
 ||binhuo.com/bhjs/
@@ -3718,6 +3720,7 @@ mg*.6park.com/img/$image
 ||gzcol.com/uploads/ad/
 ||gzdaily.dayoo.com/tpl/banner*.swf
 ||hacken.cc/file/ads/
+||hackhome.com/hz/*down
 ||hackhome.com/js/zt.js
 ||hackp.com/wz/
 ||hackp.com/xiaojiu/
@@ -5239,7 +5242,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/bfdcef89gw1f3zdnqbs1qj20k902igmq.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|234qyl.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|500xxxx.com|666hdhd.com|84fn.com|99ff0.com|99re.com|a3v4.top|ac168.info|aisex.com|avtaobao.tv|avtb.me|avtb.us|bejson.com|blz20.com|blz24.com|btago.com|btshark.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.org|fulitxx.com|izzs.cc|jisuzhibo.net|lifan.moe|neonan.com|niluba.cc|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|234qyl.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff0.com|99re.com|a3v4.top|ac168.info|aisex.com|avtaobao.tv|avtb.me|avtb.us|bejson.com|blz20.com|blz24.com|btago.com|btshark.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.org|fulitxx.com|izzs.cc|jisuzhibo.net|lifan.moe|neonan.com|niluba.cc|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*/7d1c8e$domain=d5yuansu.com
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
@@ -6026,10 +6029,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||sinaimg.cn^$domain=46bk.com
-||bilibili.com/x/web-show/res/locs?*&pf=0&ids=40%
-||hackhome.com/hz/*down
-||appzhu.com/Runtime/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10610,6 +10609,7 @@ liqucn.com#@#.ad_sub
 pupuapp.com#@#.ad_title
 uuuu.cc#@#.ad_top
 howbuy.com#@#.ad_wrapper
+hibox.hinet.net#@#.adarea
 appbyme.com#@#.adchange
 china.com#@#.adclass
 hc360.com,qqread.com#@#.adcont
@@ -10658,10 +10658,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-hibox.hinet.net#@#.adarea
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||sz3e.com/css/ad.
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11114,6 +11112,7 @@ hibox.hinet.net#@#.adarea
 @@||sudupan.com^*/*.gif
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
+@@||sz3e.com/css/ad.
 @@||szeyz.com/szyz/portal/images/ad-
 @@||szhr.com.cn^$generichide
 @@||szhr.com.cn^*ad
