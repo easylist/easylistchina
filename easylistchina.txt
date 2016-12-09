@@ -1835,7 +1835,6 @@ ubmcmm.baidustatic.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
 /js/index_$domain=ltwbook.com|ltxsw.com|ltxszw.com
-/js/top.js$domain=8comic.com|comicvip.com
 /jsc/book_$domain=99770.cc|99comic.com|99manga.com
 /jsc/Copy.js$domain=99770.cc|99comic.com|99manga.com
 /jsc/stat.js$domain=99770.cc|99comic.com|99manga.com
@@ -6038,6 +6037,7 @@ mg*.6park.com/img/$image
 ||hackhome.com/js/*top.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+8264.com##.zbtlconlist_11
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10672,14 +10672,14 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@.com/ads/$domain=88boxjx.com
+@@||88boxjx.com/ads/
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.net|wgun.net
 @@.png#$domain=9zvip.net
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
 @@/ad/index/*$domain=cstnet.cn
 @@/ad_file/*$domain=7net.com.tw|pxmart.com.tw
-@@/ad_images/*$domain=88box.com
+@@||88box.com/images/ad_images/
 @@/adbanner/*$image,domain=books.com.tw
 @@/adblock_$domain=xingk.cc
 @@/addata.$domain=xdf.cn
