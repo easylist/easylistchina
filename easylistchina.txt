@@ -6033,7 +6033,8 @@ mg*.6park.com/img/$image
 ||2345.com/images/activity/20161212/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-2345.com###J_TopicBanner02
+2345.com##DIV[id^="J_TopicBanner"]
+2345.com##DIV[id^="bd-search-ad"]
 2345.com##.coem-dzhcn
 2345.com##.s11-fixNav
 2345.com##.s12-fullNav
@@ -6103,8 +6104,6 @@ wuxi.cn###Information
 96weixin.com###J-adBd2
 duba.com###J_BottomAdBan
 duba.com###J_S11
-2345.com###J_TopicBanner
-2345.com###J_TopicBanner01
 2345.com###J_acts11_footerfixed
 linovel.com###J_ad_
 xiami.com###J_albumSale
@@ -6364,9 +6363,6 @@ zimuzu.tv###bbs_list_ad
 muchong.com###bbsmain > div[style="padding:10px 0;"] > table
 cntv.cn###bbspop
 gamme.com.tw###bd
-2345.com###bd-search-ad
-2345.com###bd-search-ad-1
-2345.com###bd-search-ad-2
 manhuadao.com###bd1
 dm456.com###bdSider
 naruto.hk###bdbqy
