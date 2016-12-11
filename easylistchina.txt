@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
--cstdio_ads-
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -263,7 +262,6 @@
 :8898/ads_
 =ads.processReqChange^
 =ajaxGetAds&type=
-=cstdio_ads:
 =loginExtAD.
 _billboard_320x100.iframe.
 _mobilebanner_v1_550x60.jpg
@@ -6030,6 +6028,7 @@ mg*.6park.com/img/$image
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||2345.com/images/activity/20161212/
+||168gamer.*ads
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zuoye.baidu.com,zybang.com##.cpro
