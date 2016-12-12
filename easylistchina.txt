@@ -533,7 +533,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||gouzhibao.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1102,6 +1101,7 @@ ubmcmm.baidustatic.com
 ||googlealiyun.cn^
 ||googletakes.com^
 ||gotonav.com^$third-party
+||gouzhibao.cn^
 ||govgift.com^
 ||gs307.com^$third-party
 ||gso0.com^
@@ -1897,8 +1897,6 @@ mg*.6park.com/img/$image
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
 |http://sex169.*.gif
-||sex169.*/start.js
-||sex169.*=$script
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
@@ -5150,6 +5148,8 @@ mg*.6park.com/img/$image
 ||sejie2.us/images/*.gif
 ||sentsin.qiniudn.com/ad_
 ||sesepa.com/topjs/
+||sex169.*/start.js
+||sex169.*=$script
 ||sexbarss.net/wap/
 ||sextop.com.tw/upload/blocker/header_new.gif
 ||sf-express.com/cn/sc/.galleries/sfbest/*_right_sc.
@@ -5243,7 +5243,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/mw690/bfdcef89gw1f3zdnqbs1qj20k902igmq.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|234qyl.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff0.com|99re.com|a3v4.top|ac168.info|aisex.com|bejson.com|blz20.com|blz24.com|btago.com|btshark.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.org|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|lifan.moe|neonan.com|niluba.cc|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|234qyl.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff0.com|99re.com|a3v4.top|ac168.info|aisex.com|avtb55.com|bejson.com|blz20.com|blz24.com|btago.com|btshark.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.org|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|lifan.moe|neonan.com|niluba.cc|sbme.me|se533.com|shouyoutan.com|taohuazu.tw|thzhd.net|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*/7d1c8e$domain=d5yuansu.com
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
@@ -6031,10 +6031,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||sinaimg.cn^$domain=avtb55.com
 !------------------------Specific element hiding rules------------------------!
-51cto.com###ipadFloada
-hao123.com###mingzhanresource
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6822,6 +6819,7 @@ youthwant.com.tw###inner_ad
 technews.tw###inside_AD
 pchome.net###intel-bar
 mm-cg.com###ioshowAD
+51cto.com###ipadFloada
 narutom.com###itaTop
 2345.com###ivy-taobao
 qq.com###iwanAD2
@@ -6931,6 +6929,7 @@ tv.sohu.com###miaozhenad
 download.enet.com.cn###middle_new > .font2
 emu999.net,webjx.com###middleimg
 xici.net###middoc
+hao123.com###mingzhanresource
 hk.yahoo.com###mntl1
 neihanshe.cn###mobile_client
 haosou.com,so.com,youdao.com###mohe-etao_shangye
@@ -11171,15 +11170,11 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 ! caoporn.com
-||sinaimg.cn^$domain=adultcao.com|caosee.club|caofoo.top
-adultcao.com,caosee.club,caofoo.top##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-/images/*.gif$domain=adultcao.com|caosee.club|caofoo.top
-||sinaimg.cn^$domain=gaohot.pro
-gaohot.pro##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-/images/*.gif$domain=gaohot.pro
-/images/*.gif$domain=cao.pe|caohot.club|caoporn.club|caoporn.com|caoporn.wales|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
+/images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 2c2.website,2p8.space,cao.pe,caohot.club,caoporn.club,caoporn.com,caoporn.wales,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-||sinaimg.cn^$domain=2c2.website|2p8.space|cao.pe|caohot.club|caoporn.club|caoporn.com|caoporn.wales|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
+adultcao.com,caofoo.top,caosee.club##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
+gaohot.pro##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
+||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
