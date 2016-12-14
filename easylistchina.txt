@@ -11,8 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/sta2rt.js
-/xxx169.php?
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -225,6 +223,7 @@
 /sogouAD.
 /source/plugin/mama_tips/*
 /ssdxad.swf
+/sta2rt.js
 /static/adsview/*
 /stoneip_Sidebar.png
 /sxgg/12.js
@@ -253,6 +252,7 @@
 /wy96ad/*
 /xiaobaiAD.gif
 /xiazai_downloaderAD.
+/xxx169.php?
 /z63/img/88.jpg
 /zahuishi/images/show38070.js
 /zzhzad/*
@@ -1782,7 +1782,6 @@ ubmcmm.baidustatic.com
 /934b2bc8de85e32ae7588f2eb955ee36.
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
-||pcmx.autohome.com.cn/impress?
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
@@ -2796,6 +2795,10 @@ mg*.6park.com/img/$image
 ||bbs.winning11cn.com/temp/*.gif
 ||bbs.xbaodi.com/plugin.php
 ||bbs.xiashanet.com/js/adsview.js
+||bbs169.*.php?X=
+||bbs169.*/pics/
+||bbs169.*/sta0123rt.js
+||bbs169.com/*/images/
 ||bcc.com.tw/imgs/adv/
 ||bccn.net/aaa/
 ||bccnsoft.com/aaa/
@@ -2933,6 +2936,7 @@ mg*.6park.com/img/$image
 ||bttiantang.cc/static/*quan.js
 ||bttiantang.cc/static/wen
 ||bttiantang.net/js/zeus.js
+||bttt99.com/style/s.js
 ||buimg.com^$domain=kisssub.org|moe-acg.cc
 ||bukade.com/js/*_p_
 ||bukade.com/js/b_
@@ -3318,6 +3322,7 @@ mg*.6park.com/img/$image
 ||dnvod.eu^*.jpg$object-subrequest
 ||dnvod.eu^*/201$object-subrequest
 ||dnwx.com*/ad$image
+||dnwx.com/pic/*_978x60.
 ||dnwx.com/pic_ad/
 ||do189.com/zb_users/theme/duoyi/style/images/*.gif
 ||docin.com/app/a_d/
@@ -4146,8 +4151,8 @@ mg*.6park.com/img/$image
 ||ishuaji.cn/public/images/banner.jpg
 ||ishuhui.com/cartoon/book-1/*/sp
 ||ishuhui.com/setting/get_conf/option/ad/
-||isite.tw/wp-content/cache/minify/d2299.js
 ||isite.tw/wp-content/cache/minify/904ff.js
+||isite.tw/wp-content/cache/minify/d2299.js
 ||isso.com.cn/club/adv2Tools.js
 ||isso.com.cn/ggimage/*.swf
 ||isso.com.cn/upload_image/A-D/
@@ -4482,6 +4487,7 @@ mg*.6park.com/img/$image
 ||lookmw.cn^*/default/js/union.js
 ||lotour.net/bcef/388.js
 ||lotpc.com/templets/default/js/lotpctb
+||loveno.net/111.jpg
 ||loveshang.com/api.php?mod=ad&adid=custom_
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
@@ -4789,6 +4795,7 @@ mg*.6park.com/img/$image
 ||pchome.com.tw/img/js/xpcadshow.js
 ||pchome.com.tw/js/idlead.js
 ||pcjishu.com/other/yj300x3006.jpg
+||pcmx.autohome.com.cn/impress?
 ||pconline.com.cn/_hux_/
 ||pconline.com.cn/download/*/intf*.js
 ||pconline.com.cn/intelcorefamily/
@@ -6035,16 +6042,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||bbs169.*/pics/
-||loveno.net/111.jpg
-||bbs169.com/*/images/
-||bbs169.*.php?X=
-||bbs169.*/sta0123rt.js
-||bttt99.com/style/s.js
-||dnwx.com/pic/*_978x60.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-3g.tianya.cn###update
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7330,6 +7329,7 @@ muyuge.net###txt_r
 makaidong.com###txtlink
 udn.com###udn_scupio_responsive_wrapper
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
+3g.tianya.cn###update
 v.163.com###v_shapeLeft_divId
 v.163.com###v_shapeRight_divId
 fanjian.net###vad
