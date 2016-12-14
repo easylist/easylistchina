@@ -1782,7 +1782,8 @@ ubmcmm.baidustatic.com
 /934b2bc8de85e32ae7588f2eb955ee36.
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
-/^http://m\.autohome\.com\.cn\/[a-z0-9]{32}\//$domain=m.autohome.com.cn
+||pcmx.autohome.com.cn/impress?
+/^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /a83b3cdeacac5a503717469ca5084ebc.
@@ -1900,7 +1901,6 @@ mg*.6park.com/img/$image
 |http://*/bn/$domain=chimatong.com
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
 |http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
-|http://sex169.*.gif
 |http://t.cn/$domain=ady8.info|aikuhu.com|cctv5bo.com
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
@@ -2794,7 +2794,6 @@ mg*.6park.com/img/$image
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.fengbao.com/image/bingzuan925X80.jpg
 ||bbs.hotavxxx.com/images/201*.gif
-||bbs.sex169.*/pics/
 ||bbs.voc.com.cn/s.js
 ||bbs.winning11cn.com/temp/*.gif
 ||bbs.xbaodi.com/plugin.php
