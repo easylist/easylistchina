@@ -6060,6 +6060,8 @@ mg*.6park.com/img/$image
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibili.com##.title > span > A[href^="http"]:not([href*=".bilibili."])
+bilibili.com##.topic-preview > LI > A[href^="http"]:not([href*=".bilibili."])
 bilibili.com##A[href*=".admaster."]
 alu.cn##.adv235x60
 alu.cn##.tg120x70
