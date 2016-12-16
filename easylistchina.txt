@@ -536,8 +536,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||cncy8.com^
-||noberlmall.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -954,6 +952,7 @@ ubmcmm.baidustatic.com
 ||cloudad.asia^$third-party
 ||cmaxisolation.com^
 ||cnbole.net^
+||cncy8.com^
 ||cnsjx.net^
 ||cnxad.com^$third-party
 ||cnxad.net^
@@ -1337,6 +1336,7 @@ ubmcmm.baidustatic.com
 ||nmbtedu.com^$third-party
 ||nmkgs.cn^
 ||nnedbx.com^
+||noberlmall.com^
 ||nongsalei.com^
 ||nord-raum.com^$third-party
 ||notice.uchome.manyou.com^
@@ -2811,6 +2811,8 @@ mg*.6park.com/img/$image
 ||bbs169.*/pics/
 ||bbs169.*/sta0123rt.js
 ||bbs169.com/*/images/
+||bbs169.com^*.$script
+||bbs169.com^*/*/*.gif
 ||bcc.com.tw/imgs/adv/
 ||bccn.net/aaa/
 ||bccnsoft.com/aaa/
@@ -2864,6 +2866,7 @@ mg*.6park.com/img/$image
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||biaoqing.com/2000/ad/960x90.gif
 ||bilibili.com/x/web-show/res/loc?*&aid=
+||bilibili.com/x/web-show/res/loc?pf=0&id=128
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=40%
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
@@ -3634,6 +3637,7 @@ mg*.6park.com/img/$image
 ||gg-art.com/anod/
 ||gg.0598yu.com^
 ||gg.18183.com^
+||gg.blueidea.com^
 ||gg.cs090.com^
 ||gg.gao7.com^
 ||gg.kugou.com^
@@ -3796,6 +3800,7 @@ mg*.6park.com/img/$image
 ||hd62.com/img/
 ||hdad.baike.com^
 ||hdsky.me/adv/
+||hdslb.com/bfs/$object-subrequest
 ||hdslb.com/bfs/ad/
 ||hdslb.com/group1/$object-subrequest,domain=bilibili.com
 ||hdslb.com/js/core-v5/picment.
@@ -6059,15 +6064,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||gg.blueidea.com^
-||bbs169.com^*/*/*.gif
-||bbs169.com^*.$script
-||bilibili.com/x/web-show/res/loc?pf=0&id=128
-||hdslb.com/bfs/$object-subrequest
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhidao.baidu.com##.wgt-bottom-union
-hacg.la##.metaslider
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8958,7 +8956,7 @@ taihainet.com##.menu_bg + .box10 + .wrapper
 zdfans.com##.meta > .meta-info + div
 zdfans.com##.meta-info + p
 zdfans.com##.meta-info > a[style][target="_blank"]
-galacg.me##.metaslider
+galacg.me,hacg.la##.metaslider
 haosou.com##.mh-adIco
 hexieshe.com,xxshe.com##.mh-sidebar img
 hexieshe.com,xxshe.com##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
@@ -9703,6 +9701,7 @@ ttplay8.cn,xk77.com##.wenad
 baidu.com##.wgt-ads
 muzhi.baidu.com##.wgt-best-answer + script + div
 zhidao.baidu.com##.wgt-bottom-ask
+zhidao.baidu.com##.wgt-bottom-union
 muzhi.baidu.com##.wgt-container
 zhidao.baidu.com##.wgt-union
 whnews.cn##.whnews_a_dv
@@ -10221,7 +10220,6 @@ eyuyao.com##div[id^="x_ad_"]
 ebiotrade.com##div[id^=adA]
 bilibilijj.com##div[onclick$="]);"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[srcid="13602"] > .c-border
-bilibili.com##DIV[style*="height: 80px;"][data-loc-id]
 co188.com##div[style$="height:250px;margin:15px 0;"]
 tuwan.com##div[style$="height:90px;"]
 co188.com##div[style$="height:90px;margin-top:15px;"]
@@ -10241,6 +10239,7 @@ da-fan-shu.cn##div[style*="468"][style*="60"]
 imanhua.com##div[style*="980"][style*="26px"]
 pchome.com.tw##div[style*="982"][style*="85"]
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
+bilibili.com##div[style*="height: 80px;"][data-loc-id]
 bbhou.com##div[style*="height: 90px;"]
 hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
