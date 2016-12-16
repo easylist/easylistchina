@@ -527,8 +527,8 @@ _popAds.
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
-~sinaimg.cn##img[width="960"][src*=".sinaimg."]
-~sinaimg.cn##img[width="980"][src*=".sinaimg."]
+~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
+~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ! Novels
