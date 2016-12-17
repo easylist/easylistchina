@@ -2632,7 +2632,6 @@ mg*.6park.com/img/$image
 ||akjunshi.com^*/center
 ||aknba.com/lz.
 ||alabout.com/images/*.gif
-||alexa.cn/ad$subdocument
 ||ali213.net/css/data/promotion.css
 ||ali213.net/images/promotion/
 ||ali213.net/pubjs/SetScreen
@@ -2674,7 +2673,6 @@ mg*.6park.com/img/$image
 ||anzhuan.net/wp-content/uploads/2014/10/yangmao
 ||anzhuan.net/wp-content/uploads/2015/01/huizhe.jpg
 ||anzhuotan.com/Runtime/js/bofangye.js
-||aoye.cc/js/footer.js
 ||api.bilibili.com/x/ad/
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
@@ -6068,8 +6066,11 @@ mg*.6park.com/img/$image
 |http://sex169.*/*/*.$script
 ||yyzs.net/js/Float_
 ||yyzs.net/js/flyers_
+||alexa.cn/upfile/images/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+alexa.cn##.importantList
+alexa.cn##.importantTop
 uraban.me##.sider > A
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -10249,7 +10250,6 @@ bbhou.com##div[style*="height: 90px;"]
 hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
-aixuefu.com##div[style*="height:90px;"]
 tiexue.net##div[style*="overflow: hidden; position: fixed;"]
 gzcol.com##div[style*="width:1000px;"]
 dbw.cn##div[style*="width:300px; height:250px; "]
@@ -10644,7 +10644,6 @@ pupuapp.com#@#.ad_title
 uuuu.cc#@#.ad_top
 howbuy.com#@#.ad_wrapper
 hibox.hinet.net#@#.adarea
-appbyme.com#@#.adchange
 china.com#@#.adclass
 hc360.com,qqread.com#@#.adcont
 51cto.com#@#.addarea
@@ -10877,8 +10876,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||alimama.com^$domain=tanx.com
 @@||angpic.3g.net.cn/ai/*/
 @@||apk.tw^$script,~third-party
-@@||appbyme.com/adclient/
-@@||appbyme.com^*/advertisement.css
 @@||appledaily.com.hk/admedia/$object-subrequest
 @@||appledaily.com.tw^*_ad_logo.
 @@||aqy103.com/js/aqy/main.js
