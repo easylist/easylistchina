@@ -537,9 +537,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||qzdfc.com^
-||qkkjd.com^$third-party
-||axhxa.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -889,6 +886,7 @@ ubmcmm.baidustatic.com
 ||at918.com^$third-party
 ||at98.com^
 ||av8d.net^$third-party
+||axhxa.com^
 ||b5h7.com^$third-party
 ||b7nkd.cn^
 ||b9377h.com^
@@ -1386,6 +1384,7 @@ ubmcmm.baidustatic.com
 ||qiqiww.com^
 ||qiqiyii.com^
 ||qiyou.com^$third-party
+||qkkjd.com^$third-party
 ||qling.com^$third-party
 ||qmkdy.com^
 ||qq4g.cn^$third-party
@@ -1396,6 +1395,7 @@ ubmcmm.baidustatic.com
 ||qubilou.com^$third-party
 ||qucaigg.com^
 ||qyctj.com^
+||qzdfc.com^
 ||rayli.com.cn^$third-party
 ||re.taotaosou.com^
 ||rekanw.com^$third-party
@@ -2691,6 +2691,7 @@ mg*.6park.com/img/$image
 ||api.bilibili.com/x/ad/
 ||apihousefun.yam.com/news.php
 ||app-g.39.net/NNN/
+||appfh.com/api/
 ||appinn.com/images/201509/wd.png
 ||apple.www.letv.com^
 ||applechannel.cc/js/gg.js
@@ -3202,6 +3203,8 @@ mg*.6park.com/img/$image
 ||common.jb51.net^*.js
 ||content.mql5.com/js/
 ||content.xilu.com^$object
+||cool18.cf^*/*.$script,third-party
+||cool18.cf^*/*/*.gif
 ||cool18.tk^*/*.$script,third-party
 ||cool18.tk^*/*/*.gif
 ||coolaler.com.tw/index_ads/
@@ -3342,6 +3345,7 @@ mg*.6park.com/img/$image
 ||djwma.com/tc.js
 ||dl-l-tax.gov.cn/js/2floating.js
 ||dldl2.com/00tb/
+||dm1.tom61.com^
 ||dm456.com/install/loading.html
 ||dm456.com/m/
 ||dm530.com/pic/fgr/*.js
@@ -4959,6 +4963,7 @@ mg*.6park.com/img/$image
 ||qbaobei.com/data/attachment/portal/201310/23/171915wh3ox3oiwck3dwxo.jpg
 ||qbox.me/ftq_
 ||qd.dhzw.com^
+||qd.snwx.com^
 ||qdjimo.com/html/js/
 ||qdmm.com/javascript/NewSNDAPop.js
 ||qdmm.com/javascript/SNDAADAltern.js
@@ -5178,6 +5183,7 @@ mg*.6park.com/img/$image
 ||script.vccoo.com^
 ||scsn.cn/Public/config/Couplet/16.js
 ||scsn.cn/Public/config/Couplet/Index
+||scupio.com/adpinline/
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
 ||scw98.com/js/temp/
@@ -6086,15 +6092,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||qd.snwx.com^
-||appfh.com/api/
-||dm1.tom61.com^
-||scupio.com/adpinline/
-||cool18.cf^*/*.$script,third-party
-||cool18.cf^*/*/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gkstk.com##.adleft
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7868,6 +7867,7 @@ wuxi.cn##.adgood
 ifeng.com##.adimg
 huanqiu.com##.adindexList
 sina.com##.aditem
+gkstk.com##.adleft
 jxedt.com##.adlink1
 jxedt.com##.adlink2
 kuailady.com##.adm_wrap
@@ -10723,8 +10723,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||mokeedev.com/js/fuckadblock.
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.mokeedev.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11078,6 +11076,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||mmybt.com^*300*250
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
+@@||mokeedev.com/js/fuckadblock.
 @@||monnsutogatya.com^$elemhide
 @@||mymusic.net.tw/js/ad/index_1.js
 @@||naruto.hk/ad/uy.js
@@ -11091,7 +11090,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||ooomm.com/ad/icon/
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=gamer.com.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|7958.com.cn|club.tgfcer.net|mfgun.com|monnsutogatya.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|7958.com.cn|club.tgfcer.net|download.mokeedev.com|mfgun.com|monnsutogatya.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk^*-ad.php?
