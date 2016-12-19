@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-:7701/load.cw.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -258,6 +257,7 @@
 /zahuishi/images/show38070.js
 /zzhzad/*
 :1010/openV5.js
+:7701/load.cw.js
 :8080/ad/
 :8080/advserver/
 :8081/abc/interurl.jsp?
@@ -537,7 +537,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||ad-survey.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -820,6 +819,7 @@ ubmcmm.baidustatic.com
 ||acgbase.com^$third-party
 ||acs86.com^$third-party
 ||ad-plus.cn^$third-party
+||ad-survey.com^$third-party
 ||ad000000.com^
 ||ad8.cc^$third-party
 ||ad9377.com^
@@ -2108,6 +2108,7 @@ mg*.6park.com/img/$image
 ||1bet2.com/d/file/p/
 ||1bet2.com/images/*.gif
 ||1kejian.com/js/topA.js
+||1ketang.com/Runtime/js/play
 ||1m1m.cn/bar/
 ||1pad.cn/ahead/01.gif
 ||2008xxx.com:888
@@ -2457,6 +2458,8 @@ mg*.6park.com/img/$image
 ||880sy.com/Public/js/index_gg.js
 ||88148.com/UpFile/a/2016120149325041.jpg
 ||88448.com/images/appkai980x100.gif
+||888god.*/*.$script,third-party
+||888god.*/*/*.gif
 ||88gs.com/agfile/
 ||88liu.com/data/attachment/portal/
 ||8d8d.me/images/dealer.gif
@@ -2995,6 +2998,7 @@ mg*.6park.com/img/$image
 ||bzfl.cc/da*.gif
 ||bzfl1.cc/da*.gif
 ||c-ctrip.com/rk/201411/c580x145.jpg
+||c-ctrip.com/train/201611/yqh_270-280.jpg
 ||c.quwenjiemi.com^*.js?version=
 ||c114.net/default_inc/a/images/
 ||c114.net/news/images/clarity.gif
@@ -3196,6 +3200,8 @@ mg*.6park.com/img/$image
 ||common.jb51.net^*.js
 ||content.mql5.com/js/
 ||content.xilu.com^$object
+||cool18.tk^*/*.$script,third-party
+||cool18.tk^*/*/*.gif
 ||coolaler.com.tw/index_ads/
 ||coolaler.com.tw^*_300x100.
 ||coolaler.com.tw^*_340x80.
@@ -3401,7 +3407,7 @@ mg*.6park.com/img/$image
 ||drupalchina.cn/sites/default/files/osforce-
 ||dsqnw.com/ac/
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
-||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com
+||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com|sexcar.cn
 ||duba.com/dhads?id=
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
@@ -3810,8 +3816,8 @@ mg*.6park.com/img/$image
 ||hd62.com/img/
 ||hdad.baike.com^
 ||hdsky.me/adv/
-||hdslb.com/bfs/archive/$object-subrequest
 ||hdslb.com/bfs/ad/
+||hdslb.com/bfs/archive/$object-subrequest
 ||hdslb.com/group1/$object-subrequest,domain=bilibili.com
 ||hdslb.com/js/core-v5/picment.
 ||hdslb.com/u_user/$object-subrequest,domain=bilibili.com
@@ -4420,6 +4426,7 @@ mg*.6park.com/img/$image
 ||kukudm.com/js/comic-
 ||kukudm.com/js/play-
 ||kutj.com/*/*x80.jpg
+||kuxun.cn/Partner/
 ||kviso.com/ddnew/kviso
 ||kviso.com/js/top.js
 ||kwflvcdn.000dn.com^*.flv$object-subrequest,third-party
@@ -5465,6 +5472,7 @@ mg*.6park.com/img/$image
 ||tietuku.com/b975a9f7c494738b.gif
 ||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
+||tieyou.com/images/xiao_tuan_you.jpg
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
 ||tingchina.com/js/*220-
@@ -6076,20 +6084,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||888god.*/*.$script,third-party
-||888god.*/*/*.gif
-||1ketang.com/Runtime/js/play
-||1ketang.com/Runtime/js/play
-||c-ctrip.com/train/201611/yqh_270-280.jpg
-||tieyou.com/images/xiao_tuan_you.jpg
-||kuxun.cn/Partner/
-||duapp.com^$domain=sexcar.cn
-||cool18.tk^*/*.$script,third-party
-||cool18.tk^*/*/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-263y.com##.view_abc
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9515,6 +9511,7 @@ yesky.com##.tb_adv
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_placeholder
 jxedt.com##.tbad
 gkpass.com##.tbanner
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
 9u8u.com##.tc-box
 zhangleisir.cn##.tcpads
 newmobilelife.com##.td-a-rec-id-content_inline
@@ -9694,6 +9691,7 @@ yinyuetai.com##.video_abl
 yinyuetai.com##.video_abr
 loldk.com##.video_ad_roll
 aipai.com##.video_gg
+263y.com##.view_abc
 muchong.com##.viewad
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
 2345.com##.vipTopBanner
