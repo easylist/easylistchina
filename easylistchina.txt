@@ -537,10 +537,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||menghuanzs.com^
-||mingysh.com^
-||80sjw.com^
-||ttlowe.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -779,6 +775,7 @@ ubmcmm.baidustatic.com
 ||7o2o.com^$third-party
 ||7wen.cn^
 ||7xz3.com^
+||80sjw.com^
 ||81c.cn^
 ||8368661.com^
 ||85tgw.com^
@@ -1302,12 +1299,14 @@ ubmcmm.baidustatic.com
 ||mediav.com^$third-party
 ||meimeidaren.com^
 ||meiti1.net^
+||menghuanzs.com^
 ||mengmengdas.com^
 ||mgwcn.com^
 ||mgwl668.com^$third-party
 ||miaozhen.com^$third-party
 ||micromoon.com.cn^$third-party
 ||mingxianshanghang.cn^
+||mingysh.com^
 ||mlt01.com^
 ||mobads.baidu.com^$third-party
 ||momzs.com^$third-party
@@ -1505,6 +1504,7 @@ ubmcmm.baidustatic.com
 ||toy9090.com^$third-party
 ||tpe163.com^
 ||tradeccl.com^
+||ttlowe.com^
 ||tuiguang.178.com^
 ||tukeai.com^
 ||tukj.net^$third-party
@@ -2464,6 +2464,7 @@ mg*.6park.com/img/$image
 ||880sy.com/Public/js/index_gg.js
 ||88148.com/UpFile/a/2016120149325041.jpg
 ||88448.com/images/appkai980x100.gif
+||88520.cc/js/sb/
 ||888god.*/*.$script,third-party
 ||888god.*/*/*.gif
 ||88gs.com/agfile/
@@ -3155,6 +3156,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/article/2016/0629/15b2632f043a329.png
 ||cnbetacdn.com/article/2016/0716/4d41c2cce1f9693.gif
 ||cnbetacdn.com/article/2016/1117/8f6d1ff99d64b71.jpg
+||cnbetacdn.com/article/2016/1215/fe25956add33ea7.png
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnchu.com/aps/
@@ -3205,6 +3207,8 @@ mg*.6park.com/img/$image
 ||common.jb51.net^*.js
 ||content.mql5.com/js/
 ||content.xilu.com^$object
+||cool18.*/*/*.$script,third-party
+||cool18.*/*/*/*.gif
 ||coolaler.com.tw/index_ads/
 ||coolaler.com.tw^*_300x100.
 ||coolaler.com.tw^*_340x80.
@@ -4285,6 +4289,7 @@ mg*.6park.com/img/$image
 ||jiaoyu.baidu.com/tieba/
 ||jiasule.com/static/js/http_error.js
 ||jiayu.net/comiis_ad/
+||jiazhao.com/statics/js/dzjiehun_2/r_bottom.js
 ||jiazhuang.com/Public/Home/bootinfo/
 ||jinghua.cn/lib/js/news/ad_jh.html
 ||jinghua.cn/tan.shtml
@@ -6090,16 +6095,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||88520.cc/js/sb/
-||cnbetacdn.com/article/2016/1215/fe25956add33ea7.png
-||jiazhao.com/statics/js/dzjiehun_2/r_bottom.js
-||cool18.*/*/*.$script,third-party
-||cool18.*/*/*/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bccn.net##.lun_yu
-codeceo.com##.widget_text:first-child
-aiyuke.com###js-ad-type4
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6912,6 +6909,7 @@ freehao123.com###jieweigg
 iqiyi.com###jingdongArea
 cnbeta.com###job_box
 gog.cn###jqzxAd
+aiyuke.com###js-ad-type4
 tigtag.com###js-dropdown
 haosou.com,so.com###js-mod-fixed-float
 zhanqi.tv###js-room-flash-banner-panel
@@ -8951,6 +8949,7 @@ jrj.com.cn##.ls_all_fc
 ytbbs.com##.lt_ad
 ltesting.net##.ltad_1170
 ltesting.net##.ltad_580
+bccn.net##.lun_yu
 tv.sohu.com##.lux_left
 tv.sohu.com##.lux_right
 eastmoney.com##.lyad
@@ -9760,6 +9759,7 @@ iplaysoft.com##.widget[style]
 bgbk.org,fulibl.com##.widget_banner
 uopera.net##.widget_custom:last-child
 bzfl1.cc##.widget_cy_ad
+codeceo.com##.widget_text:first-child
 51jifenbao.net,fulibl.cc##.widget_text:last-child
 weeiy.com##.widget_text:nth-child(5)
 hanfan.cc,ii-i.org##.widget_ui_textasb
