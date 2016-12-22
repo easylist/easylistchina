@@ -6110,6 +6110,7 @@ mg*.6park.com/img/$image
 |https:$script,third-party,xmlhttprequest,domain=btdb.in
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+toutiao.com##.J_qihu_ad
 biz.zjol.com.cn##.bot
 biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
 biz.zjol.com.cn##.zsFooterBox + .close
@@ -10746,6 +10747,7 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||show.g.mediav.com^$domain=toutiao.com
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
