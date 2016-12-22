@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/show.js?aid=*&pushid=
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -218,6 +217,7 @@
 /Runtime/js/top960.js
 /sbo8gg/*
 /scripts/youthad.js
+/show.js?aid=*&pushid=
 /show.js?sp=*&oid=
 /shunwang/css/newgames/img/welfare.png
 /sobt_adv.js
@@ -538,7 +538,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||xiaoyang.mobi^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1611,6 +1610,7 @@ ubmcmm.baidustatic.com
 ||xhsxgmt.cn^
 ||xhydrs.cn^
 ||xiaobiaoucai.cn^
+||xiaoyang.mobi^
 ||xiaxuanfu.com^
 ||xibei70.com^
 ||xihashuale.com^
@@ -2499,6 +2499,7 @@ mg*.6park.com/img/$image
 ||91txh.com/sskother/pic/ad-
 ||92dp.com/dianping/videoad
 ||92dp.com/home/showga?
+||92uq.com/Ads/
 ||94994.com*/js/plugin/shoppingMall/
 ||949949.com/2013/end/hot_news.js
 ||949d.com/960-90.gif
@@ -3024,6 +3025,8 @@ mg*.6park.com/img/$image
 ||camster.com/promos/
 ||candou.com/i/2000/
 ||caoimg.com/images/
+||caoliuzx.*/*/*.$script,third-party
+||caoliuzx.*/*/*/*.gif
 ||car.pchome.com.tw/iframe/news_iframe.
 ||cari.com.my/static/appbanner
 ||carnoc.com/noticejs/
@@ -5646,6 +5649,7 @@ mg*.6park.com/img/$image
 ||vista.tgbus.com/s.js
 ||vista.tgbusdata.cn/s.js
 ||vista.tuwan.com/s.js
+||vjcdn.com/wp-content/uploads/*640x200
 ||vkeke.net/public/agd
 ||vnet.cn^*.html
 ||voc.com.cn/adsClick/
@@ -6097,17 +6101,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||caoliuzx.*/*/*.$script,third-party
-||caoliuzx.*/*/*/*.gif
-||vjcdn.com/wp-content/uploads/*640x200
-||92uq.com/Ads/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-baidu.com##.qb-other-answer-wmad
-fang.com###xmlAd
-vjmedia.com.hk##.code-block
-vjmedia.com.hk###text-33
-m.autohome.com.cn###s2205
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6404,6 +6399,7 @@ ck101.com###av_a
 qq.com###ay-bottom-tips > .bd > .pic-box
 qq.com###ay-tips-close + h2
 cr173.com###azbt
+17ce.com###ba_wrap
 163.com###backadframe
 hao.360.cn###background.festival
 cucn.com,ocucn.com###bad
@@ -6594,7 +6590,6 @@ fzlimg.com###ctopad
 fzlimg.com###ctopadtop
 makaidong.com###cyWallsplugin
 cool18.com###d_right_ad
-17ce.com###ba_wrap
 hao.360.cn###daily-hotword
 iask.sina.com.cn###daily_topic_flnr
 3g.cn###datit
@@ -7196,6 +7191,7 @@ shangxueba.com###rightfloatdiv
 www.wenxuecity.com###rightside
 motocity.com.tw###rotator
 pingpang.info###rwc
+m.autohome.com.cn###s2205
 jvhao.com###sAD3
 jvhao.com###sAD5
 alu.cn###sanjia
@@ -7314,6 +7310,7 @@ blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
 blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
+vjmedia.com.hk###text-33
 realtw.com###text-37
 zreading.cn###text-5
 uisdc.com###text-6
@@ -7330,6 +7327,8 @@ ref.so###tg2_main
 kmplayer.cn###thead
 firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list + li[class]:not(.j_thread_list)
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list:not([data-field])
 ettoday.net###ticker_3
 kan300.com,xxdm.com,xxdm.org###tiepianDIV
 1ting.com###tingx_5
@@ -7451,6 +7450,7 @@ soft4fun.net###xad_mu
 xinhuanet.com###xiangguanad
 jmbbs.com###xjj_jmbbs2015_01
 xilinjie.com###xlj-spread
+fang.com###xmlAd
 m4jl.com###xrAd
 chrome007.com###xxxx
 hk.search.auctions.yahoo.com###yauadysmh
@@ -8261,6 +8261,7 @@ bbs.xmfish.com##.cmp_v
 huanqiu.com##.co360Box
 hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
+vjmedia.com.hk##.code-block
 rj.baidu.com##.code-wp
 2345.com##.coem-dzhcn
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http://"]:not([href*=".wenxuecity."])
@@ -8841,8 +8842,6 @@ tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5c0
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u5feb\\u8baf\\u5927\\u7ba1\\u5bb6\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u623f\\u4ea7\\u901f\\u8baf\""]
 tieba.baidu.com##.j_post_list_item[data-info^="\7b \"un\":\"\\u8d34\\u5427\\u89e6\\u70b9\\u63a8\\u5e7f\""]
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list + LI[class]:not(.j_thread_list)
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list:not([data-field])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4419048726,"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_thread_list[data-field^="\7b \"id\":4756933479,"]
 jstv.com##.jadv
@@ -9239,6 +9238,7 @@ duba.com##.pro_r_t
 pbhz.com##.product-nav-box
 huaban.com##.promotion
 cnplugins.com##.pushbox1
+baidu.com##.qb-other-answer-wmad
 qidian.com##.qd-game
 qdmm.com,qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
@@ -10786,6 +10786,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/common/cf/*$domain=66u.com|changhong.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
 @@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
+@@/fuckadblock.$domain=ck101.com|mokeedev.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=fmdisk.com|fmdisk.net|fmpan.com
@@ -11092,8 +11093,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||mmybt.com^*300*250
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
-@@/fuckadblock.$domain=mokeedev.com
-@@/fuckadblock.$domain=ck101.com
 @@||monnsutogatya.com^$elemhide
 @@||mymusic.net.tw/js/ad/index_1.js
 @@||naruto.hk/ad/uy.js
