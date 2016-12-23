@@ -538,12 +538,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.pw|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||nysita.com^
-||bivitr.com^
-||stn88.com^
-||ssjy168.com^
-||kjgen.com^
-||18tzx.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -675,6 +669,7 @@ ubmcmm.baidustatic.com
 ||17un.co^
 ||180.76.171.28^
 ||182.92.81.104^
+||18tzx.com^
 ||1i580.com^
 ||1kmb.cn^
 ||1kzh.com^
@@ -916,6 +911,7 @@ ubmcmm.baidustatic.com
 ||billionfocus.com^
 ||bingyinq.com^
 ||birdmedia.com^$third-party
+||bivitr.com^
 ||biyibia.com^
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
@@ -1250,6 +1246,7 @@ ubmcmm.baidustatic.com
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
 ||kiwihk.net^$third-party
+||kjgen.com^
 ||kkcaicai.com^
 ||kld666.com^
 ||kldmm.com^
@@ -1358,6 +1355,7 @@ ubmcmm.baidustatic.com
 ||notice.uchome.manyou.com^
 ||nowskip.com^
 ||nr1234.com^
+||nysita.com^
 ||o091i.com^$third-party
 ||octopuspop.com^$third-party
 ||offcn.com^$third-party,domain=~eoffcn.com
@@ -1460,11 +1458,13 @@ ubmcmm.baidustatic.com
 ||sscefsol.com^
 ||sscj123.com^$third-party
 ||ssdaili.com^
+||ssjy168.com^
 ||sstc360.com^
 ||staqnet.com^
 ||star8.net^$third-party
 ||static-cn.plista.com^
 ||stervapoimenialena.info^
+||stn88.com^
 ||stocksbsc.com^
 ||subo.me^$third-party
 ||sucodb.com^
@@ -2019,6 +2019,7 @@ mg*.6park.com/img/$image
 ||121down.com/img/*.js
 ||121zou.com^$subdocument
 ||122.225.103.*.htm
+||122.228.200.55:8082/blr.gif
 ||122.228.236.165^
 ||123.sogou.com/nstatic/img/jiao.swf
 ||123564.com^*/plaza.js
@@ -3370,6 +3371,7 @@ mg*.6park.com/img/$image
 ||djwma.com/tc.js
 ||dl-l-tax.gov.cn/js/2floating.js
 ||dldl2.com/00tb/
+||dm.aizhan.com^
 ||dm1.tom61.com^
 ||dm456.com/install/loading.html
 ||dm456.com/m/
@@ -5561,6 +5563,7 @@ mg*.6park.com/img/$image
 ||tui22.com^*/g.js
 ||tuicool.com/images/upload/*00.jpg
 ||tuicool.com/images/upload/*120.jpg
+||tuicool.com/images/upload/*320.
 ||tuicool.com/images/upload/aliyun
 ||tuku.cc/extra/*.js
 ||tumb8r.com/zb_users/upload/20*.gif
@@ -6121,14 +6124,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||dm.aizhan.com^
-||122.228.200.55:8082/blr.gif
-||tuicool.com/images/upload/*320.
 !------------------------Specific element hiding rules------------------------!
-aizhan.com##.btn
-up01.cc###popad
 gpcxw.com###AA2
-zixuekaoshi.net##.qq_nr_lad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7143,7 +7140,7 @@ qq.com###pop_apps_sponsors
 ebiotrade.com###pop_banner1
 cnplugins.com###pop_div
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pop_frame
-fun01.cc###popad
+fun01.cc,up01.cc###popad
 mmready.com###popada
 yunvs.com###popapp
 univisa.com.cn###popup
@@ -8226,6 +8223,7 @@ anywlan.com##.bscekvofc_o
 lotour.com##.btad
 163.com##.btm-ad
 ifeng.com##.btm_tg
+aizhan.com##.btn
 cssmoban.com##.btn-host
 17173.com,gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
@@ -9270,6 +9268,7 @@ qidian.com##.qd-game
 qdmm.com,qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
+zixuekaoshi.net##.qq_nr_lad
 ifeng.com##.qudaoTg
 muzhi.baidu.com##.quick-ask-2 + .android + div
 mop.com##.quickReply-ad
