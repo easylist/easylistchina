@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/aadd123/*
 .cc/js/ads/
 /pjk/xjk/index.php
 /adsfactor_ab
@@ -6137,6 +6138,8 @@ mg*.6park.com/img/$image
 ||uwants.com/yna*_prod.html
 ||sinaimg.cn^$domain=rarbt.com
 ||kankantv.cc/330-50.gif
+||a1bpchina.*/*/*.$script,third-party
+||a1bpchina.*/*/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 gamemei.com###ft_right_bottom
