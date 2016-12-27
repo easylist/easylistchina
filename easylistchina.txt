@@ -6155,6 +6155,7 @@ mg*.6park.com/img/$image
 ||qq.com/tencentvideo_v1/script/module/propeffect/prop.effect.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+3g.qq.com##li[data-adtype="qbad"] > A[class^="type"]
 makepolo.com##DIV[id^="ad"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7639,7 +7640,6 @@ news.china.com.cn##.Wrapper > div[style]
 qq.com##._switchad
 m.sohu.com##._tg2
 m.sohu.com##._tgC_nav
-3g.qq.com##.a-lk[href^="http://c.gdt.qq.com/gdt_clickwap.fcg?"]
 ijia360.com##.a.fz0.mb15
 55188.com,g138.com##.a1_gg
 thinkphp.cn##.a6
@@ -9025,7 +9025,6 @@ blog.163.com##.m-fixedPCAd
 moe123.com##.m-inner2[module="attention"]
 moe123.com##.m-inner2[module="fatty"]
 uc123.com##.m-link
-3g.qq.com##.m-lk[href^="http://c.gdt.qq.com/gdt_clickwap.fcg?"]
 sina.com.cn##.m-p1-lb1-ad
 3g.cn##.mOrder > div > .list_block
 myexception.cn##.m_a
