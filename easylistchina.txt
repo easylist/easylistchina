@@ -544,7 +544,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||kicnse.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1253,6 +1252,7 @@ ubmcmm.baidustatic.com
 ||keyyou.net^
 ||kfluoa.com^
 ||khgj.cn^$third-party
+||kicnse.com^
 ||kiees.com^$image,subdocument,third-party
 ||kingwam.com^
 ||kiwihk.net^$third-party
@@ -2589,6 +2589,8 @@ mg*.6park.com/img/$image
 ||a4.yeshj.com^
 ||a5.yeshj.com^
 ||ab.ahlife.com^*.swf
+||ab2pchina.*/*/*.$script,third-party
+||ab2pchina.*/*/*.gif
 ||abbao.cn^*adblock
 ||abc.hkepc.com^
 ||abpchina.tk^*/*.$script,third-party
@@ -2997,7 +2999,6 @@ mg*.6park.com/img/$image
 ||btmee.net/static/img/tlad.gif
 ||btn.onlylady.com^
 ||btn.pchome.net^
-||myqcloud.com/jiaoyou
 ||btse99.com/600x60.gif
 ||btshark.com/static/img/*300x250.
 ||btspreadcn.com/images/x.jpg
@@ -4748,6 +4749,7 @@ mg*.6park.com/img/$image
 ||myhack58.com/Articleacb0
 ||myhard.com/s?z=
 ||mymusic.net.tw/upload/mobile_web_tmp/indexad01.
+||myqcloud.com/jiaoyou
 ||myqcloud.com/js/easou.js
 ||myt520.com/images/4493.jpg
 ||myt520.com/images/jiaoyou
@@ -5331,6 +5333,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/8c8bd65d$domain=loldk.com
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
+||sinaimg.cn/large/d63ab74bjw1fb16iy59gmj20g402sq3x.jpg
 ||sinaimg.cn/large/df8f080agw1f47u58kr42j20dw0dwadl.jpg
 ||sinaimg.cn/large/eb52fa4bgw1f9l21uqgbnj20hs01omya.jpg
 ||sinaimg.cn/large/ed5e6a1djw1f7nh14ua7ag20i802g1kx.gif
@@ -6141,13 +6144,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||ab2pchina.*/*/*.$script,third-party
-||ab2pchina.*/*/*.gif
-||sinaimg.cn/large/d63ab74bjw1fb16iy59gmj20g402sq3x.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-asp300.com##.index711-mask
-hkgolden.com##TD[style="width: 644px; vertical-align: top;"] > DIV[style^="height:29"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8829,6 +8827,7 @@ avlang.com,avlang33.com,avlang88.com,lang44.com##.index-info > .tac
 avlang15.com##.index-info.cc > .tac
 bilibili.com##.index-promote
 pinggu.org##.index-somelinks
+asp300.com##.index711-mask
 zahuishi.com##.index950x90
 zahuishi.com##.index960x90
 ydss.cn##.indexAd
@@ -10639,6 +10638,7 @@ muchong.com##td[style="padding:10px;font-size:14px;"] > div > [style="color:gree
 muchong.com##td[style="padding:10px;font-size:14px;"] > div > a[href^="creditshow.php?action=view&logid="]
 muchong.com##td[style="padding:5px 10px;"] + td + td[style="padding-left:10px;"]:last-child
 findprice.com.tw##td[style="width: 342px; padding:0px 0px 0px 5px;border-left:1px solid #c9d7f1;"] > table > tbody > tr:nth-last-child(n+3)
+hkgolden.com##td[style="width: 644px; vertical-align: top;"] > div[style^="height:29"]
 tvboxnow.com##td[style="width:15%;height:100%;"]
 hkgolden.com##td[style^="background-color: #F3F2F1; height: 100px;"]
 vvvdj.com##td[valign="top"][bgcolor="#13161E"][align="center"]
@@ -10786,8 +10786,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||pubimg-weichouji.sina.com/img/ad/
-@@||qq.com/cgi-bin/*?sid=ads
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11179,6 +11177,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||poster.weather.com.cn/p_files/base/$image
 @@||ps123.net/MyFile/toptxt.js
 @@||pub.alimama.com/common/adzone/
+@@||pubimg-weichouji.sina.com/img/ad/
 @@||qbao.com/hp/pc/*Ad.$~third-party
 @@||qidian.com/ploy/20*.swf
 @@||qikuyou.com/images/js/adv.js
@@ -11186,6 +11185,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
 @@||qq.com/bossweb/jifen/
+@@||qq.com/cgi-bin/*?sid=ads
 @@||qq.com/server/website/CommWebGameSelect_ad.js
 @@||qq.com/web201602/js/ad.js
 @@||qq.com^*?ADTAG=
