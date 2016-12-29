@@ -547,9 +547,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||jxlqgs.com^
-||nunc-china.com^
-||haiwengji.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1144,6 +1141,7 @@ ubmcmm.baidustatic.com
 ||gzmjnx.cn^
 ||gzqudou.com^
 ||h9377c.com^
+||haiwengji.net^
 ||haiyunx.com^$third-party
 ||hao123rt.com^
 ||hao123union.baidu.com^$third-party
@@ -1252,6 +1250,7 @@ ubmcmm.baidustatic.com
 ||jusha.com^$third-party
 ||jwqj.net^
 ||jxjzny.com^
+||jxlqgs.com^
 ||kaixinjiehun.com^$third-party
 ||kawa11.space^
 ||kdly.net^$third-party
@@ -1377,6 +1376,7 @@ ubmcmm.baidustatic.com
 ||notice.uchome.manyou.com^
 ||nowskip.com^
 ||nr1234.com^
+||nunc-china.com^
 ||nysita.com^
 ||o091i.com^$third-party
 ||octopuspop.com^$third-party
@@ -1835,7 +1835,9 @@ ubmcmm.baidustatic.com
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
 /?age=1&$domain=kxddd.com|scokl.com|see3r.com|shcle.com|shclk.com|ttft.in|xhcbb.com|yzhlive.com
+/[0-9]+\.gif/$image,domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
+/\?([a-z]+=[0-9]+&){3,}/$script,domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
@@ -1947,6 +1949,7 @@ mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
 |http:$script,third-party,xmlhttprequest,domain=btdb.in
 |http:$subdocument,domain=pc6.com
+|http://*.tk^$domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
 |http://*/bn/$domain=chimatong.com
@@ -2608,6 +2611,8 @@ mg*.6park.com/img/$image
 ||abp3china.*/*/*.gif
 ||abpc1hina.*/*/*.$script,third-party
 ||abpc1hina.*/*/*.gif
+||abpch2ina.*/*/*.$script,third-party
+||abpch2ina.*/*/*.gif
 ||abpchina.tk^*/*.$script,third-party
 ||abpchina.tk^*/*/*.gif
 ||abpchina2.*/*.$script,third-party
@@ -5511,7 +5516,6 @@ mg*.6park.com/img/$image
 ||taodake.com/taodake_img/Images/union/
 ||taoguba.com.cn/gbimg/2016/07/27/lirmkrnbt8l1.jpg
 ||taoguba.com.cn/js/tgbduilian
-||thztv.net/tool/
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tc.cn/ad123/
 ||tc.cn/g/dl.ashx?
@@ -5532,6 +5536,7 @@ mg*.6park.com/img/$image
 ||tgbus.com/sf/taobao/
 ||thisav.com/0*.js
 ||thisav.com/index.js
+||thztv.net/tool/
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
 ||tianmu.com/DA201
@@ -6170,11 +6175,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||abpch2ina.*/*/*.gif
-||abpch2ina.*/*/*.$script,third-party
-|http://*.tk^$domain=144.217.84.47|149.56.45.111|sex169.xyz|sex169.pw|sex169.biz|vidoe169.com|a7s7.com|sex169.info|sex169.net|sex169.org
-/[0-9]+\.gif/$image,domain=144.217.84.47|149.56.45.111|sex169.xyz|sex169.pw|sex169.biz|vidoe169.com|a7s7.com|sex169.info|sex169.net|sex169.org
-/\?([a-z]+=[0-9]+&){3,}/$script,domain=144.217.84.47|149.56.45.111|sex169.xyz|sex169.pw|sex169.biz|vidoe169.com|a7s7.com|sex169.info|sex169.net|sex169.org
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
