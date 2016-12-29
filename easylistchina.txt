@@ -547,10 +547,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||hxadt.com^
-||wapadv.com^
-||jermr.com^
-||huimee.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1173,9 +1169,11 @@ ubmcmm.baidustatic.com
 ||hsmkj.net^$third-party
 ||hubojd.com^
 ||huimee.com^$third-party
+||huimee.net^
 ||humanding.com^
 ||hw6.com^
 ||hwmwin.com^$third-party
+||hxadt.com^
 ||hxqu.com^$third-party
 ||hxyx360.com^
 ||hy-cn.cn/index.php?
@@ -1212,6 +1210,7 @@ ubmcmm.baidustatic.com
 ||jczzjx.com^
 ||jdlcg.cn^
 ||jdlhg.com^
+||jermr.com^
 ||jgchq.com^
 ||jhakie.com^
 ||jhzl001.com^
@@ -1590,6 +1589,7 @@ ubmcmm.baidustatic.com
 ||wangsufast.com^
 ||wantaico.com^
 ||wantfour.com^
+||wapadv.com^
 ||wazero.online^
 ||wdzsb.com.cn^
 ||weareqy.com^$third-party
@@ -2603,6 +2603,8 @@ mg*.6park.com/img/$image
 ||abc.hkepc.com^
 ||abp3china.*/*/*.$script,third-party
 ||abp3china.*/*/*.gif
+||abpc1hina.*/*/*.$script,third-party
+||abpc1hina.*/*/*.gif
 ||abpchina.tk^*/*.$script,third-party
 ||abpchina.tk^*/*/*.gif
 ||abpchina2.*/*.$script,third-party
@@ -3403,6 +3405,7 @@ mg*.6park.com/img/$image
 ||dm1.tom61.com^
 ||dm456.com/install/loading.html
 ||dm456.com/m/
+||dm530.net/js/newjs/
 ||dm530.net/pic/fgr/*.js
 ||dmfans.net/template/haokandemanhhua/images/g_js/
 ||dmhy*.aewb.cn^*?$image
@@ -4809,6 +4812,8 @@ mg*.6park.com/img/$image
 ||niutuku.com/skin/style2013/ad/
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
 ||nmgnews.com.cn/swf/0/11/$object,domain=www.nmgnews.com.cn
+||nms8.net/static/*.*.js
+||nms8.net/static/xdm.js
 ||nnnews.net/public/xqymgg/
 ||no1.168abc.net/upload/
 ||nokiacn.net/gg*.htm
@@ -6163,11 +6168,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||dm530.net/js/newjs/
-||nms8.net/static/*.*.js
-||nms8.net/static/xdm.js
-||abpc1hina.*/*/*.gif
-||abpc1hina.*/*/*.$script,third-party
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -6466,7 +6466,6 @@ ck101.com###av_a
 qq.com###ay-bottom-tips > .bd > .pic-box
 qq.com###ay-tips-close + h2
 cr173.com###azbt
-17ce.com###tp_wrap
 163.com###backadframe
 hao.360.cn###background.festival
 cucn.com,ocucn.com###bad
@@ -7442,6 +7441,7 @@ hnr.cn###topphotos
 999caijing.com###topright
 49lou.com###topwarning_7ree
 fuli.us###toubuads
+17ce.com###tp_wrap
 qidian.com###tr-banner
 qz828.com###transient
 tianya.cn###travel_float
@@ -10809,7 +10809,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-senao.com.tw#@#.ad-wrap
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11335,6 +11334,7 @@ senao.com.tw#@#.ad-wrap
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
+senao.com.tw#@#.ad-wrap
 ! caoporn.com
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
