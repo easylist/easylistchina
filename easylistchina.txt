@@ -6181,8 +6181,10 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||ifengimg.com/md/*/v_responsive
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ifeng.com###js_videopause_container
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10820,6 +10822,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@||cmbchina.com/ads/
+@@||ifeng.com/mfp/mfpMultipleDelivery.do?t=js&CHANNEL=v&ADUNITID=216&
 @@/adbanner/*$domain=bsgroup.com.hk|fjt2.net
 @@||trip.cmbchina.com^$generichide
 @@&ad_type=$domain=x.jd.com
