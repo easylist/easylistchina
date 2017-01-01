@@ -548,13 +548,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||skatehot.net^
-||yf898.com^
-||twldmx.com^
-||268mob.cn^
-||hfsteel.net^
-||ez33.org.cn^
-||nxrhs.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -712,6 +705,7 @@ ubmcmm.baidustatic.com
 ||235123.net^$third-party
 ||23kmm.com^$third-party
 ||2529.com^$third-party
+||268mob.cn^
 ||272xb.com^
 ||28acglz.com^
 ||2m2n.com^
@@ -1087,6 +1081,7 @@ ubmcmm.baidustatic.com
 ||evefashion.cn^
 ||eyouv.cn^$third-party
 ||ez33.com^$third-party
+||ez33.org.cn^
 ||ezucods.cn^
 ||f1190.com^
 ||f1zd.com^$third-party
@@ -1166,6 +1161,7 @@ ubmcmm.baidustatic.com
 ||hcreditx.com^
 ||heima8.com^$third-party
 ||hfjuki.com^
+||hfsteel.net^
 ||hhppyt.com^
 ||hi760.com^
 ||hiad.myweb.hinet.net^
@@ -1390,6 +1386,7 @@ ubmcmm.baidustatic.com
 ||nowskip.com^
 ||nr1234.com^
 ||nunc-china.com^
+||nxrhs.com^
 ||nysita.com^
 ||o091i.com^$third-party
 ||octopuspop.com^$third-party
@@ -1481,6 +1478,7 @@ ubmcmm.baidustatic.com
 ||sino-seve.com^
 ||sitemaji.com^$third-party
 ||sitemobia.com^
+||skatehot.net^
 ||snmi.cn^$third-party
 ||snnnyy.com^
 ||snxyf.com^$third-party
@@ -1557,6 +1555,7 @@ ubmcmm.baidustatic.com
 ||twb98.com^$third-party
 ||twcczhu.com^$third-party
 ||twitterzs.com^
+||twldmx.com^
 ||twm.com.tw^$third-party
 ||twrank.com^$third-party
 ||twzui6.com^
@@ -1699,6 +1698,7 @@ ubmcmm.baidustatic.com
 ||ydcpc.com^$third-party
 ||ydlnt.com^
 ||ye3.com^$third-party
+||yf898.com^
 ||yhtcd.com^
 ||yidulive.net^
 ||yigao.com^$third-party
@@ -1767,8 +1767,6 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-||xiyouhope.com^$popup,third-party
-||bm999999.com^$popup
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1795,6 +1793,7 @@ ubmcmm.baidustatic.com
 ||ark.letv.com/t?$popup
 ||baidu.com/adrc.$popup
 ||baidu.com/baidu.php?url=$popup
+||bm999999.com^$popup
 ||c.admaster.com.cn^$popup
 ||ctfile.com/popjump.php?$popup
 ||d6262.com^$popup
@@ -1824,6 +1823,7 @@ ubmcmm.baidustatic.com
 ||todayapp.tv^$popup,third-party
 ||vnet.cn^*.html?$popup,third-party
 ||xingshenfang.cn^$popup
+||xiyouhope.com^$popup,third-party
 ||xldytt.com^$popup,domain=henbt.com
 ||xmds.opd2c.com^$popup,domain=www.tsdm.net
 ||yy18.info^*thanks$popup
@@ -6193,7 +6193,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-qu.la##A[href^="http://download.350.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10072,6 +10071,7 @@ tv.2345.com##a[href^="http://buy.2345.com/go/?"]
 cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
+qu.la##a[href^="http://download.350.com/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
