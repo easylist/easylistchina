@@ -2954,6 +2954,7 @@ mg*.6park.com/img/$image
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=40%
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
+||bilibilijj.com/Squall/
 ||binhuo.com/bhjs/
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -3572,6 +3573,7 @@ mg*.6park.com/img/$image
 ||eol.cn/js/global/jQuery_ads.js
 ||epinv.com/wp-content/themes/ep/js/single.js
 ||epinv.com/wp-content/themes/ep/tu/*250.js
+||epinv.com/wp-content/themes/ep/tu/*300.js
 ||epinv.com/wp-content/themes/ep/tu/yinshu.gif
 ||eprice.cn/image/upload/ad/
 ||eprice.com.tw/img/dis/file/
@@ -3741,6 +3743,7 @@ mg*.6park.com/img/$image
 ||gg163.net/js/163bbsad.js
 ||gg163.net/js/gg163ad.js
 ||gg86.pinggu.org^
+||ggcode.2345.com^
 ||ggg.zj.com^
 ||ggw.gusuwang.com^
 ||ggw.watertu.com^
@@ -5651,6 +5654,8 @@ mg*.6park.com/img/$image
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
 ||u148.net/images/sponsor-
+||u9yy.com/cmp/ad_u9yy.jpg
+||u9yy.com/data/upload/image/*.gif
 ||uc.cn/s/uae/g/0s/ua.js
 ||uc8.cc/_style/2013/js/all.js
 ||ucbug.com/gaibian/js/tlys.js
@@ -6176,18 +6181,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||u9yy.com/cmp/ad_u9yy.jpg
-||u9yy.com/data/upload/image/*.gif
-||bilibilijj.com/Squall/
-||ggcode.2345.com^
-||epinv.com/wp-content/themes/ep/tu/*300.js
 !------------------------Specific element hiding rules------------------------!
-bilibilijj.com##DIV[style="height: 462px;"]
-babyhome.com.tw###ad_m_peacock
-163.com##.hp_textlink_ad
-163.com##.mod_ad_text
-163.com##.mod_index_ad
-bigear.cn##.adpicright
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6385,6 +6379,7 @@ autohome.com.cn###ad_ic_video
 7lili.com###ad_index_2
 7lili.com###ad_index_3
 fengbao.com###ad_lazyload
+babyhome.com.tw###ad_m_peacock
 udn.com###ad_mag
 100ksw.com###ad_move_sg
 7xlive.com###ad_nrz
@@ -7968,6 +7963,7 @@ mobile01.com##.admicrobtn
 paopaoku.com##.admt6
 ccoo.cn,hackhome.com,vipcn.com##.adn
 gaokao.com##.adout116
+bigear.cn##.adpicright
 68design.net##.adplay
 ifeng.com##.adpubpic
 doc88.com##.adpx250
@@ -8809,6 +8805,7 @@ sogou.com##.hotel_tit
 sogou.com##.hotel_tj
 bbs.hupu.com##.hp-ad250-250
 hupu.com##.hp-header-banner
+163.com##.hp_textlink_ad
 tw.mall.yahoo.com##.hpad-wrapper
 0743ds.com##.hq-ad
 chinasmartgrid.com.cn##.ht60ad
@@ -9117,8 +9114,10 @@ image.baidu.com##.mod-promo
 sdo.com##.mod-public-ads
 zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 pptv.com##.mod_960x90
+163.com##.mod_ad_text
 qq.com##.mod_custom_ad
 iqiyi.com##.mod_focus-index_list > li:last-child
+163.com##.mod_index_ad
 qq.com##.mod_stridead
 firefoxchina.cn##.module-banner
 sogou.com##.module-fourpic-box
@@ -10407,6 +10406,7 @@ sinoca.com##div[style="float:right;height:280px;width:336px;clear:left;backgroun
 ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;width:336px;"]
 m.wallstreetcn.com##div[style="height: 130px;"]
 ting89.com,tingshuge.com##div[style="height: 280px"]
+bilibilijj.com##div[style="height: 462px;"]
 lol.178.com##div[style="height: 60px; text-align: center;"]
 07073.com##div[style="height:100px; margin-bottom:10px;"]
 huabian.com##div[style="height:250px;"]
@@ -10788,6 +10788,7 @@ jd.com#@#.adwords
 oldpig.org,popart.hk#@#.afs_ads
 ciciwg.com#@#.aseadn
 dingdong.ganji.com#@#.banner
+loveshares.cc#@#.banner-site
 10.10.5.12#@#.banner_ad
 ishangman.com#@#.bottom_ad
 leiling.org#@#.category-ad
@@ -10817,10 +10818,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-loveshares.cc#@#.banner-site
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||pos.baidu.com^*?di=90417&$domain=epinv.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11208,6 +11207,7 @@ loveshares.cc#@#.banner-site
 @@||pos.baidu.com^*?di=144778&$domain=epinv.com
 @@||pos.baidu.com^*?di=164580&$domain=epinv.com
 @@||pos.baidu.com^*?di=739405&$domain=epinv.com
+@@||pos.baidu.com^*?di=90417&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2354095&$domain=epinv.com
 @@||poster.weather.com.cn/p_files/base/$image
