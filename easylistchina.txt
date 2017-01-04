@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/View/img/b72890.jpg
 &psr=*&par=
 .cc/js/ads/
 .cn/ads/
@@ -254,6 +253,7 @@
 /u/_sponsor/*
 /UyvHEGg1Hezr0yhlI.
 /UyvHEGg1Hezr0yhlI/*
+/View/img/b72890.jpg
 /W3Cfuns_Adv/*
 /wap_advpic/*
 /wp-content/themes/iMovies/js/tc_
@@ -542,20 +542,15 @@ _popAds.
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
+##iframe[id^="iframeu"][id$="_0"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##iframe[id^="iframeu"][id$="_0"]
 ! Novels
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||yjbys.org^$third-party
-||dnvus.com^
-|http://js*:8080/$script,third-party
-||hyz86.com^
-||zrpfk.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -631,6 +626,7 @@ ubmcmm.baidustatic.com
 |http://1.3.0.10^
 |http://js*/i.js?$script,third-party
 |http://js*/i.php?$script,third-party
+|http://js*:8080/$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://r.*.com/view.php?uid=$script,third-party
 |http://tk.*.php?id=*&s=$script
@@ -1039,6 +1035,7 @@ ubmcmm.baidustatic.com
 ||dlads.cn^$third-party
 ||dleke.com^
 ||dmtrck.com^$third-party
+||dnvus.com^
 ||doniv.net^$third-party
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||dou777.com^
@@ -1194,6 +1191,7 @@ ubmcmm.baidustatic.com
 ||hys4.com^
 ||hystq.com^
 ||hytgj.com^
+||hyz86.com^
 ||hz3137.com^$third-party
 ||hzaibi.com^
 ||i000o.com^$third-party
@@ -1718,6 +1716,7 @@ ubmcmm.baidustatic.com
 ||yiranxian.cn^
 ||yiwad.com^$third-party
 ||yiwuds.com^
+||yjbys.org^$third-party
 ||yk0712.com^
 ||ykjmy.com^
 ||ymcqb.com^
@@ -1766,6 +1765,7 @@ ubmcmm.baidustatic.com
 ||zj66.net^$third-party
 ||zp22938576.com^
 ||zp265.com^$third-party
+||zrpfk.com^
 ||zsdexun.com.cn^
 ||ztdsp.com^$third-party
 ||zytwq.net^$third-party
@@ -2473,6 +2473,7 @@ mg*.6park.com/img/$image
 ||76xh.com/skin/zxf/js/*Out.js
 ||76xh.com/skin/zxf/js/ad
 ||777g.me/cs/
+||77file.com/jsa/
 ||77fkk5.com1.z0.glb.clouddn.com/bar/
 ||77kp.com/bd/
 ||788111.com/cooperation/
@@ -3373,6 +3374,7 @@ mg*.6park.com/img/$image
 ||dfad.dfdaily.com^
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/tg/rightAd_v2.js
+||dhtdig.xyz/static/jsaa/
 ||dhzw.com/m-
 ||diaobao.xici.net^
 ||dichan.com.au/newhouse/pinnacle/images/bcastr3.swf
@@ -3589,6 +3591,7 @@ mg*.6park.com/img/$image
 ||ettoday.net/events/ad-tab/
 ||ettoday.net/funfuntrip/
 ||ettoday.net^*/ad/
+||eweiqi.com/affiche.
 ||eyuyao.com/yyad/
 ||ezaozi.com/detail/*.js
 ||ezprice.com.tw/ezysm/
@@ -4349,6 +4352,9 @@ mg*.6park.com/img/$image
 ||jdcjsr.com^*/jdcgg/
 ||jdxsw.net/201400/
 ||jdxsw.net/js/insidebox.js
+||jfrft.com/images/index_
+||jfrft.com/js/main_list.js
+||jfrft.com/js/main_video.js
 ||jgzj.net/bbs/attachments/month_1111/
 ||jiangcao.com/pic/
 ||jianglishi.cn/statics/statics/js/code_
@@ -6181,16 +6187,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||jfrft.com/js/main_list.js
-||jfrft.com/js/main_video.js
-||jfrft.com/images/index_
-||eweiqi.com/affiche.
-||77file.com/jsa/
-||dhtdig.xyz/static/jsaa/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-oco88.com###last_box_147
-eweiqi.com##.guoqing
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7019,6 +7017,7 @@ douni.com###lad_1
 douni.com###lad_2
 douni.com###lad_3
 douni.com###lad_5
+oco88.com###last_box_147
 hao123.com###layout-guess
 jobbole.com###leaderboard
 baidu.com###left-promotion
@@ -8725,6 +8724,7 @@ shm.com.cn##.guanggaowei3
 hao.qq.com##.guess.m
 163.com##.guide_ad
 guokr.com##.guokr-layer-beforelogin
+eweiqi.com##.guoqing
 21cn.com##.h-gg
 999.com##.h-test
 ting56.com##.h1000
