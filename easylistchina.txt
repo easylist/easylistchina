@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 &psr=*&par=
-.tv/js/ads/
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -38,6 +37,7 @@
 .js?advertID=
 .net/js/ads/
 .test15./
+.tv/js/ads/
 .us/js/ads/
 .xyz/js/ads/
 /120704004750.gif
@@ -550,9 +550,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||qxxys.com^
-||breezily168.com^
-||huashuowork.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -937,6 +934,7 @@ ubmcmm.baidustatic.com
 ||bnuni.com^$third-party
 ||books.com.tw/exep/ap/$third-party
 ||bosiwangzi.cn^
+||breezily168.com^
 ||bttyue.com^$subdocument
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
@@ -1181,6 +1179,7 @@ ubmcmm.baidustatic.com
 ||hr44.com^
 ||hsmkj.net^$third-party
 ||huashengtai.net^
+||huashuowork.com^
 ||hubojd.com^
 ||huimee.com^$third-party
 ||huimee.net^
@@ -1443,6 +1442,7 @@ ubmcmm.baidustatic.com
 ||qtmojo.com^$third-party
 ||qubilou.com^$third-party
 ||qucaigg.com^
+||qxxys.com^
 ||qyctj.com^
 ||qzdfc.com^
 ||rayli.com.cn^$third-party
@@ -2961,6 +2961,7 @@ mg*.6park.com/img/$image
 ||biaoqing.com/2000/ad/960x90.gif
 ||bilibili.com/x/web-show/res/loc?*&aid=
 ||bilibili.com/x/web-show/res/loc?pf=0&id=128
+||bilibili.com/x/web-show/res/loc?pf=0&id=160
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=40%
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
@@ -2986,6 +2987,8 @@ mg*.6park.com/img/$image
 ||bjmxw.net/bd/
 ||bjxxw.com/tpIndex/?s=/home/index/ads/
 ||bjxxw.com/wp-content/themes/point/images/jp2.jpg
+||bkill.com/css/js/soft.js
+||bkill.com/css/js/xinbkill.js
 ||bkjia.com/bkjia/js/art_rightad
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
@@ -3901,6 +3904,7 @@ mg*.6park.com/img/$image
 ||hdad.baike.com^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
+||hdslb.com/bfs/archive/$object-subrequest,domain=bilibili.com
 ||hdslb.com/group1/$object-subrequest,domain=bilibili.com
 ||hdslb.com/js/core-v5/picment.
 ||hdslb.com/u_user/$object-subrequest,domain=bilibili.com
@@ -5369,7 +5373,7 @@ mg*.6park.com/img/$image
 ||sina.com/rm/
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
-||sinaimg.cn/large/$domain=360zhibo.com|chakd.com|kiees.cn|kqiuba.com|pptiyu.com|qqzhibo.net
+||sinaimg.cn/large/$domain=360zhibo.com|ballive.com|chakd.com|kiees.cn|kqiuba.com|pptiyu.com|qqzhibo.net
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/005SEx68jw1eu85tbdd2rg30d001oaa0.jpg
 ||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
@@ -5981,6 +5985,7 @@ mg*.6park.com/img/$image
 ||y2.ifengimg.com/1d124ac5e89463af/2013/0125/rdn_51023a5071d32.jpg
 ||y3600.com/16-
 ||yaerwen.com/5200js/59.js
+||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
 ||yam.com/ad_yam/
 ||yangtianya.com/images/
 ||yanjiao.com/zt/indexad/
@@ -6109,7 +6114,6 @@ mg*.6park.com/img/$image
 ||zhandi.cc/Runtime/js/900
 ||zhandi.cc/Runtime/js/index
 ||zhanqi.tv/uploads/*/ads-*.swf
-||zhao.265g.com/cache/kfbftop.html
 ||zhaofuli.*/data/content
 ||zhaojiao.net/templets/default/js/AD_flay.js
 ||zhaozi.cn/d/js/mini/extended87.js
@@ -6189,15 +6193,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
-||bkill.com/css/js/soft.js
-||bkill.com/css/js/xinbkill.js
-||sinaimg.cn/large/$domain=ballive.com
-||bilibili.com/x/web-show/res/loc?pf=0&id=160
-||hdslb.com/bfs/archive/$object-subrequest,domain=bilibili.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dfpan.com##DIV[style*="img.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10369,6 +10366,7 @@ bbhou.com##div[style*="height: 90px;"]
 hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
+dfpan.com##div[style*="img.com/"]
 tiexue.net##div[style*="overflow: hidden; position: fixed;"]
 gzcol.com##div[style*="width:1000px;"]
 dbw.cn##div[style*="width:300px; height:250px; "]
@@ -10699,7 +10697,7 @@ timesdata.com#@##adbody
 abbao.cn#@##adcontent
 pbhz.com#@##adsense
 182.18.61.50#@##adslist
-baishuku.com,leduwo.com,wenku8.com,yaerwen.com#@##adtop
+leduwo.com,wenku8.com,yaerwen.com#@##adtop
 2d-gate.org#@##banner_ad
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
