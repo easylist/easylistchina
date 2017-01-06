@@ -10810,6 +10810,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
+@@||download.mokeedev.com^$generichide,script,xmlhttprequest
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -10857,7 +10858,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/common/cf/*$domain=66u.com|changhong.com|dataguru.cn|fei3d.com|oneplusbbs.com|readboy.com
 @@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
-@@/fuckadblock.$domain=ck101.com|mokeedev.com
+@@/fuckadblock.$domain=ck101.com
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=fmdisk.com|fmdisk.net|fmpan.com
@@ -11060,7 +11061,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||dmhy.org/common/generate-captcha?
 @@||do189.com/zb_users/theme/duoyi/style/images/text_bg.gif
 @@||down.cc/down/js/ad.js
-@@||download.mokeedev.com^$generichide
 @@||dpcm.cn/ad/
 @@||dup.baidustatic.com/js/ds.js$domain=epinv.com
 @@||dushiwenxue.com/add/article/pagetop.js
