@@ -551,7 +551,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||tenmax.io^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1541,6 +1540,7 @@ ubmcmm.baidustatic.com
 ||tc600.com^
 ||tdayi.com^
 ||tebaidu.cn^$third-party
+||tenmax.io^$third-party
 ||tg.1155t.cn^
 ||tg.52digua.com^
 ||th21333.com^
@@ -1931,6 +1931,7 @@ ubmcmm.baidustatic.com
 /js/adBom.js$domain=myqcloud.com
 /js/index_$domain=ltwbook.com|ltxsw.com|ltxszw.com
 /kocpc.myweb.hinet.net^
+/merchant.php$domain=bjmama.com
 /modules/video/player/nuevo/midroll.php?
 /moneymaker/images/*.gif
 /moneymaker/js/fkpp.js
@@ -2582,6 +2583,7 @@ mg*.6park.com/img/$image
 ||962.net/show/index_
 ||966266.com/a-d/
 ||969g.com/common/iframe/
+||971abc.com/js/
 ||973.com/a/
 ||97aa1.com/g/
 ||9938.net/video/tvg/footer.js
@@ -2775,6 +2777,7 @@ mg*.6park.com/img/$image
 ||anhuinews.com/zhuyeguanli/*ad/
 ||ankangwang.com/js/info.js
 ||anqu.com/b.js
+||anruan.com/images/1200x90.gif
 ||anywlan.com/link/*.gif
 ||anywlan.com/link/ikuai.jpg
 ||anzhuan.net/wp-content/uploads/*/250x250_1.gif
@@ -3200,6 +3203,7 @@ mg*.6park.com/img/$image
 ||cidianwang.com/images/taobao/
 ||cidianwang.com/js/zdtop.js
 ||cilibaba.org/static/ad.
+||cilibaba.org/static/js/t
 ||cilipu.cc/tpl/template/image/ad.jpg
 ||cilook.net/cilookinc/isee5_950x60.gif
 ||citysbs.com/chongqing/*/1920x179-
@@ -3262,6 +3266,7 @@ mg*.6park.com/img/$image
 ||cnmo-img.com.cn/oddjs/
 ||cnmoad.com/wp-content/uploads/2015/02/lomark_banner.png
 ||cnnb.com.cn/images/14ny_1.gif
+||cnplugins.com/templets/cnplugins/pushbox1.js
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnsat.net/Pictuer/
 ||cnsofas.com/static/
@@ -3437,6 +3442,7 @@ mg*.6park.com/img/$image
 ||dmmfx.com.au/dmm-tag/
 ||dn-geekpark-new.qbox.me/uploads/ad/
 ||dn-ttdaili.qbox.me/bdqb/
+||dnvod.eu/upload/userFriend/
 ||dnvod.eu/Ustyle/
 ||dnvod.eu^*.gif$object-subrequest
 ||dnvod.eu^*.jpg$object-subrequest
@@ -3571,6 +3577,7 @@ mg*.6park.com/img/$image
 ||elecfans.com/images2012/pcb.gif
 ||embest-tech.cn/js/jquery.blockUI.js
 ||ems183.cn/images/kiees
+||emu999.net/nds/
 ||enet.com.cn/eschool/includes/gdtup/tu6/slide.js
 ||enet.com.cn/home/v6/includes/adv/
 ||enet.com.cn/mem_str_zoneid=
@@ -6199,19 +6206,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||971abc.com/js/
-||dnvod.eu/upload/userFriend/
-||anruan.com/images/1200x90.gif
-/merchant.php$domain=bjmama.com
-||cilibaba.org/static/js/t
-||emu999.net/nds/
-||cnplugins.com/templets/cnplugins/pushbox1.js
 !------------------------Specific element hiding rules------------------------!
-wokao.co##.ads
 gpcxw.com###AA2
-hinet.net###media_ad_popup_overlay
-hinet.net###pop_media_ad
-gzmama.com###zone_banner_1_new
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7100,6 +7096,7 @@ yaolan.com###maryAd
 muchong.com###mask
 huya.com###mbbs-qrcode
 gzmama.com###mdvtips
+hinet.net###media_ad_popup_overlay
 qtfy30.cn###menu + a
 fuliba.net,fulibba.com,uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
@@ -7217,6 +7214,7 @@ qq.com###pop_apps_sponsors
 ebiotrade.com###pop_banner1
 cnplugins.com###pop_div
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pop_frame
+hinet.net###pop_media_ad
 fun01.cc,up01.cc###popad
 mmready.com###popada
 yunvs.com###popapp
@@ -7569,6 +7567,7 @@ iqiyi.com###zbsp
 89dm.com###zerodm_float
 httpcn.com###zhen_pic_one
 loldk.com###zi
+gzmama.com###zone_banner_1_new
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 ditu.so.com###zt_right
@@ -7993,7 +7992,7 @@ blog.dausos.com,qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-234qyl.com,345qyl.com,778buy.com,acgura.us,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,html-js.com,mnw.cn,oxgood.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,xunleihd.com,yeeyi.com##.ads
+234qyl.com,345qyl.com,778buy.com,acgura.us,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,html-js.com,mnw.cn,oxgood.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,xunleihd.com,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -10825,8 +10824,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||wokao.co^$generichide
-@@/fuckadblock/*$domain=wokao.co
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -10835,7 +10832,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@.gif#$domain=tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
-@@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
 @@/ad_file/*$domain=7net.com.tw|pxmart.com.tw
 @@/adbanner/*$domain=bsgroup.com.hk|fjt2.net
 @@/adbanner/*$image,domain=books.com.tw
@@ -10875,6 +10871,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@/dfp.js$domain=dailyfx.com.hk
 @@/flash/ad/*$domain=haitao.com
 @@/fuckadblock.$domain=ck101.com
+@@/fuckadblock/*$domain=wokao.co
 @@/g.doubleclick.net.js?$domain=serve.netsh.org
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com|tuan.duba.com
 @@/ima/*ad.$domain=fmdisk.com|fmdisk.net|fmpan.com
@@ -11066,6 +11063,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||csbew.com/creative/$domain=51feels.com
 @@||csbew.com/FrameWork/AFP/
 @@||csbew.com/k.js$domain=mfgun.com
+@@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||cztv.com/player/*.swf?ad=
@@ -11313,6 +11311,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||wgun.net^$elemhide
 @@||whichav.com^$generichide
 @@||wishdown.com/images/logo.gif
+@@||wokao.co^$generichide
 @@||wowsai.com/data/files/ad/
 @@||woxiu.com/xapi/offsite_swf_more.php?*&type=
 @@||wubisheng.cn/style/adsbygoogle.js
