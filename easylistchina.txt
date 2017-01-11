@@ -551,7 +551,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||cnfanglei.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -977,6 +976,7 @@ ubmcmm.baidustatic.com
 ||cmaxisolation.com^
 ||cnbole.net^
 ||cncy8.com^
+||cnfanglei.com^
 ||cnsjx.net^
 ||cnxad.com^$third-party
 ||cnxad.net^
@@ -3281,6 +3281,7 @@ mg*.6park.com/img/$image
 ||cnzzla.com/public/scripts/money.js
 ||cococomic.com/g/
 ||codeforge.cn/images/events_pic/pin.png
+||codejie.net/wp-content/uploads/*/1120-50.
 ||codepub.com/file/code/20141225/142856140.jpg
 ||codezp.org/uploads/
 ||com.webmasterhome.cn/a1-
@@ -6206,14 +6207,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||codejie.net/wp-content/uploads/*/1120-50.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cangku.in###carousel-example-generic
-cangku.in##.metaslider
-cangku.in##.sidebar-top
-cangku.in##a[href*=".taobao.com"]
-cangku.in##a[href*="/game"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6598,7 +6593,7 @@ v.hao123.com###btn-dl-bro
 fuli.us###callboard
 ck101.com###canvas-section
 longzhu.com,tga.plu.cn###carousel
-galacg.me,jeasyui.net###carousel-example-generic
+cangku.in,galacg.me,jeasyui.net###carousel-example-generic
 mao-123.com,mengmao.org###cat3
 bbs-mychat.com###cate_top > tr > .f_one
 sina.com.tw###cboxOverlay
@@ -8780,7 +8775,6 @@ jmw.com.cn##.head_3
 jmw.com.cn##.head_4
 jmw.com.cn##.head_5
 jmw.com.cn##.head_6
-123.chinaso.com##.right-list6
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zdnet.com.cn##.headads
 biz.ifeng.com##.header
@@ -9108,7 +9102,7 @@ taihainet.com##.menu_bg + .box10 + .wrapper
 zdfans.com##.meta > .meta-info + div
 zdfans.com##.meta-info + p
 zdfans.com##.meta-info > a[style][target="_blank"]
-galacg.me,hacg.la##.metaslider
+cangku.in,galacg.me,hacg.la##.metaslider
 haosou.com##.mh-adIco
 hexieshe.com,xxshe.com##.mh-sidebar img
 hexieshe.com,xxshe.com##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
@@ -9395,6 +9389,7 @@ bt.ktxp.com##.right > a[href="http://www.kkkmh.com/?ktxp"]
 fuliba.net,fulibba.com,hexieba.com,uliba.net,yiwugou.com##.right-banner
 image.baidu.com##.right-banner-area
 thjunshi.com##.right-comul > li > a[href^="http"]:not([href*=".thjunshi."])
+123.chinaso.com##.right-list6
 qidian.com##.right-op-wrap
 muzhiwan.com##.right.w_246 > a
 tianya55.com##.right02
@@ -9519,7 +9514,7 @@ wedc.cc##.sidebar > .widgets:last-child
 mywpku.com##.sidebar-featured
 daweijita.com##.sidebar-right > .widget-box:first-child
 36kr.com##.sidebar-sponsored__list
-galacg.me##.sidebar-top
+cangku.in,galacg.me##.sidebar-top
 52tian.net##.sidebar960
 steachs.com##.sidebar:first-child
 kocpc.com.tw##.sidebar:nth-child(2)
@@ -10004,7 +9999,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,aijava.cn,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,didamoe.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,it.com.cn,jobbole.com,kisssub.org,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,aijava.cn,cangku.in,ccav1.com,cnzol.com,cosersuki.org,d5yuansu.com,didamoe.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,it.com.cn,jobbole.com,kisssub.org,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn,tucao.tv,xianzhenyuan.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
@@ -10014,11 +10009,11 @@ tiexue.net##a[href*=".yueleyu."]
 108.62.192.124,plus28.com##a[href*="/?Extend="]
 kcwiki.moe##a[href*="/ad."]
 mkzhan.com,zymk.cn##a[href*="/adid/"]
+cangku.in,galacg.me##a[href*="/game"]
 ccav1.com##a[href*="/go"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 6park.com##a[href*="/ooo.php?"]
 6park.com##a[href*="/ppp.php?"]
-galacg.me##a[href*="/game"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 zdfans.com##a[href*="infinitynewtab."]
 m.baidu.com##a[href*="m.lecai.com"]
@@ -10722,6 +10717,7 @@ leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
+codejie.net#@##google-ads
 apk.tw#@##google_ad
 soft.macx.cn#@##googlead
 soft.macx.cn#@##googlead1
@@ -10828,9 +10824,7 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
-codejie.net#@##google-ads
 !---------------------------------URL Whitelist-------------------------------!
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net
 @@&ad_type=$domain=x.jd.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
@@ -11064,7 +11058,7 @@ codejie.net#@##google-ads
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
 @@||countrygarden.com.cn/ad/
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=epinv.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net|epinv.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
@@ -11369,8 +11363,8 @@ senao.com.tw#@#.ad-wrap
 ||hdapp1008-a.akamaihd.net^
 ||hdsrc-a.akamaihd.net^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
-zhidao.baidu.com#@#.share-area
 eastday.com#@##leftShare
+zhidao.baidu.com#@#.share-area
 baidu.com#@#.share-line
 baidu.com#@#.share-list
 dj92cc.com,tingqq.com#@#.share_list
