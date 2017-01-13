@@ -550,11 +550,6 @@ _popAds.
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
-||yhzm.cc^
-||hanju18.net^
-||expo123.net^
-||szxpsg.com^
-||chmae.com^
 &psr=
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -974,6 +969,7 @@ ubmcmm.baidustatic.com
 ||chinauma.net^$third-party
 ||chinaweichu.net^
 ||chinesean.com^$third-party
+||chmae.com^
 ||chushoushijian.cn^
 ||cifenqi.com^$third-party
 ||cj-cy.com^
@@ -1091,6 +1087,7 @@ ubmcmm.baidustatic.com
 ||elsad.tw^$third-party
 ||emarbox.com^$third-party
 ||evefashion.cn^
+||expo123.net^
 ||eyouv.cn^$third-party
 ||ez33.com^$third-party
 ||ez33.org.cn^
@@ -1162,6 +1159,7 @@ ubmcmm.baidustatic.com
 ||h9377c.com^
 ||haiwengji.net^
 ||haiyunx.com^$third-party
+||hanju18.net^
 ||hao123rt.com^
 ||hao123union.baidu.com^$third-party
 ||hao222.com^$third-party
@@ -1528,6 +1526,7 @@ ubmcmm.baidustatic.com
 ||szdzbx.com^
 ||szfaq.com^
 ||szvr.com^$third-party
+||szxpsg.com^
 ||t3nlink.com^$third-party
 ||t70123.com^
 ||ta80.com^$third-party
@@ -1724,6 +1723,7 @@ ubmcmm.baidustatic.com
 ||ye3.com^$third-party
 ||yf898.com^
 ||yhtcd.com^
+||yhzm.cc^
 ||yidulive.net^
 ||yigao.com^$third-party
 ||yiiwoo.com^$third-party
@@ -3134,6 +3134,7 @@ mg*.6park.com/img/$image
 ||cdndm.com^*/js/newtc.js
 ||cdyee.com/external/5070.files/ad/
 ||centoscn.com/money/
+||centoscn.com/uploads/allimg/
 ||centurys.net/promo_
 ||cfanclub.net/lmimages/yinsub.gif
 ||chakd.com/images/xitie160x60.gif
@@ -3428,6 +3429,7 @@ mg*.6park.com/img/$image
 ||dldl2.com/00tb/
 ||dm.aizhan.com^
 ||dm1.tom61.com^
+||dm1080p.com/wp-content/uploads/2016/12/vr300.jpg
 ||dm456.com/install/loading.html
 ||dm456.com/m/
 ||dm530.net/js/newjs/
@@ -6201,11 +6203,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||dm1080p.com/wp-content/uploads/2016/12/vr300.jpg
-||centoscn.com/uploads/allimg/
 !------------------------Specific element hiding rules------------------------!
-htai.co##.ml_ad_widget
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_timeliness2"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9110,6 +9108,7 @@ fenghuo.in##.mimi
 17173.com##.minigame
 goldlegend.com##.mjad
 eroacg.com##.mks_adswidget_ul
+htai.co##.ml_ad_widget
 6789.com##.mm-force
 playno1.com##.mn > div[style="margin-bottom:10px;"]
 mail.pchome.com.tw##.mnav
@@ -9373,6 +9372,7 @@ haosou.com,so.com##.res-rich-drug
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.res_top_banner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_chris_prize_list"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_timeliness2"]
 rfidworld.com.cn##.rfidADClass
 bt.ktxp.com##.right > a[href$="?/ad/ad-from-2"]
 bt.ktxp.com##.right > a[href="http://www.kkkmh.com/?ktxp"]
