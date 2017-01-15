@@ -1797,6 +1797,7 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
+||taobao.com^$popup,domain=gaoqingkong.com
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
 /freeone/1024.html$popup
@@ -6206,8 +6207,13 @@ mg*.6park.com/img/$image
 ||llj22.com/1.gif
 ||china.com.cn/2016ads/
 ||cnwnews.com/ad-nrtop/
+||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+gaoqingkong.com###blogname
+gaoqingkong.com###main_loading
+gaoqingkong.com##A[href="go?mm"]
+gaoqingkong.com##A[href="http://www.gaoqingkong.com/ad"]
 china.com.cn##IMG[width="665"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6317,7 +6323,6 @@ cxzyw.com,tuhaoylw.com###ShouYe_XiaBu + .themeauthor
 upan.cc###ShowDIV
 ifeng.com###StreamMediaWrap
 webkaka.com###Table1
-gaoqingkong.com###Tianmao1224
 7m.cn###Top_b
 csdn.net###Topic_Top
 qinzhou360.com###Txtadv-show
