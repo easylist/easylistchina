@@ -541,7 +541,6 @@ _popAds.
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
-##iframe[id^="iframeu"][id$="_0"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 ! Novels
@@ -550,8 +549,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &psr=
-||61.174.50.211^
-||114yeah.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -664,6 +661,7 @@ ubmcmm.baidustatic.com
 ||1133.cc^$third-party
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
+||114yeah.com^$third-party
 ||115.29.148.61^$third-party
 ||116.55.227.242^
 ||116b.com^$third-party
@@ -766,6 +764,7 @@ ubmcmm.baidustatic.com
 ||5mnh.com^$third-party
 ||61.152.223.15^
 ||61.160.200.*:
+||61.174.50.211^
 ||63kc.com^$third-party
 ||6604.org^$third-party
 ||668559.com^$third-party
@@ -3092,6 +3091,7 @@ mg*.6park.com/img/$image
 ||c168c.com/*adv/
 ||c2000.cn/c2000/
 ||c4d.cn/api.php?mod=ad&adid=
+||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||caamei.com/k.js
 ||cacafly.net^
 ||cachead.com^
@@ -3112,6 +3112,7 @@ mg*.6park.com/img/$image
 ||cbfw.cn/gonggong/js/cf_flash.js
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccav1.com/wp-content/uploads/an-temp/
+||ccav1.com/wp-content/uploads/bMShkpexGYJd/
 ||ccav1.me/block.js
 ||ccav5.com/static/js/floatImgAd.js
 ||ccb.com.cn/V5/images5/left0.gif
@@ -6204,11 +6205,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||ccav1.com/wp-content/uploads/bMShkpexGYJd/
-||c4d.cn/template/iscwo_zcool/iscwo/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cyzone.cn##.article-middle-guanggao
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8085,6 +8083,7 @@ thjunshi.com##.artTop3
 bkjia.com##.art_rightad1
 jj59.com##.art_tong
 sj33.cn##.artconad
+cyzone.cn##.article-middle-guanggao
 sina.cn##.article-sax
 51test.net##.article-show:nth-child(2n+3)
 sm.cn##.article.ali_row + #sc ~ .article.ali_row
