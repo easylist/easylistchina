@@ -56,7 +56,6 @@
 /ad/duilianjs.js
 /ad220x240.
 /AD2v1.1.js
-/ad_tianyi2016_
 /adblockTester.js
 /adflash/*
 /adintrs/*
@@ -2509,7 +2508,6 @@ mg*.6park.com/img/$image
 ||77file.com/jsa/
 ||77fkk5.com1.z0.glb.clouddn.com/bar/
 ||77kp.com/bd/
-||788111.com/cooperation/
 ||789xz.com/index2/img/xiazai
 ||78dm.net/images/mingren250.jpg
 ||78dm.net/uploads/imgs/2013/*250
@@ -3099,7 +3097,6 @@ mg*.6park.com/img/$image
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
 ||c.quwenjiemi.com^*.js?version=
 ||c114.net/default_inc/a/images/
-||c114.net/news/images/clarity.gif
 ||c168c.com/*adv/
 ||c2000.cn/c2000/
 ||c4d.cn/api.php?mod=ad&adid=
@@ -3268,10 +3265,7 @@ mg*.6park.com/img/$image
 ||cngsf.com/baidu.htm
 ||cngsf.com/images/336_280.gif
 ||cnhubei.com*/g2
-||cnjxol.com/*.files/sian.gif
 ||cnjxol.com/include/2011/index/js/index.js
-||cnjxol.com/xwzx/jxxw/szxw/images/10641.files/20140515.jpg
-||cnjxol.com/xwzx/jxxw/szxw/images/10641.files/20140729.jpg
 ||cnkang.com/cs/images0410/fengxiong.jpg
 ||cnkang.com/images/*756.jpg
 ||cnkang.com/images/sy
@@ -3304,7 +3298,6 @@ mg*.6park.com/img/$image
 ||cool18.*/*/*/*.gif
 ||coolaler.com.tw/index_ads/
 ||coolaler.com.tw^*_300x100.
-||coolaler.com.tw^*_340x80.
 ||coolpc.com.tw/img/topweb.html
 ||cp.eastmoney.com/wap/*.js
 ||cp.ifeng.com/iframe/getiframe
@@ -3327,7 +3320,6 @@ mg*.6park.com/img/$image
 ||cs.com.cn/csad/
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
-||csdn.net/sda/Topic
 ||cssqt.com/a/images/indexsd.gif
 ||cssqt.com/a/images/right
 ||ctanet.cn/aq/JS/
@@ -6220,7 +6212,9 @@ mg*.6park.com/img/$image
 ||acglover.top/wp-content/uploads/2016/12/mmzbwdno.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
+||cnjxol.com/news/*.swf
 !------------------------Specific element hiding rules------------------------!
+cnjxol.com##TABLE[background$="/searchbg.gif"] ~ TABLE[height="5"]
 gpcxw.com###AA2
 cncrk.com###BZlocationID1
 hc360.com,yaolan.com###AD
@@ -9764,7 +9758,6 @@ jurong.cn,ld0766.com##.totalad
 wapwenku.baidu.com,wk.baidu.com##.tout
 demaxiya.com##.tp_box
 suopao.org##.tr3.t_one[onmouseout]
-cnjxol.com##.tr_r
 ifeng.com##.trade
 dict.baidu.com##.tran-download-ad
 fanyi.baidu.com##.trans-side-ad-wrap
