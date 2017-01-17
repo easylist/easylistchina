@@ -551,8 +551,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &psr=
-||3ygww.com^
-||70lm.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -744,6 +742,7 @@ ubmcmm.baidustatic.com
 ||3p-link.com^$third-party
 ||3qmh.com^
 ||3vlm.com^$third-party
+||3ygww.com^
 ||44pv.com^$third-party
 ||456juhd.com^
 ||4936.cn^$third-party
@@ -783,6 +782,7 @@ ubmcmm.baidustatic.com
 ||6dvip.com^
 ||6huu.com^
 ||70e.com^$third-party
+||70lm.com^
 ||710070.com^$third-party
 ||71sem.com^
 ||7540.com^$third-party
@@ -4745,6 +4745,7 @@ mg*.6park.com/img/$image
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||miyun360.com/data/attachment/portal/
 ||mlbuy.com/gg.js
+||mm.wap.xxbiquge.com^
 ||mm387.com/images/*.gif
 ||mmtalk.net/images/banner
 ||mnw.cn/2015-11-05/g14.shtml
@@ -5076,6 +5077,7 @@ mg*.6park.com/img/$image
 ||qbox.me/ftq_
 ||qd.dhzw.com^
 ||qd.snwx.com^
+||qd.x4399.com^
 ||qdjimo.com/html/js/
 ||qdmm.com/javascript/NewSNDAPop.js
 ||qdmm.com/javascript/SNDAADAltern.js
@@ -5399,6 +5401,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
+||sinaimg.cn/large/83e2e207jw1f98ya56rvkg208c08cwid.gif
 ||sinaimg.cn/large/8c8bd65d$domain=loldk.com
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/d63ab74bjw1fb16iy59gmj20g402sq3x.jpg
@@ -6212,13 +6215,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||mm.wap.xxbiquge.com^
-||qd.x4399.com^
-||sinaimg.cn/large/83e2e207jw1f98ya56rvkg208c08cwid.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gaoqingkong.com###menu-item-5874 ~ .menu-item
-demaxiya.com##.tp_box
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7106,6 +7104,7 @@ huya.com###mbbs-qrcode
 gzmama.com###mdvtips
 hinet.net###media_ad_popup_overlay
 qtfy30.cn###menu + a
+gaoqingkong.com###menu-item-5874 ~ .menu-item
 fuliba.net,fulibba.com,uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
 51cto.com###message
@@ -9760,6 +9759,7 @@ makaidong.com##.topimg
 junshigang.com##.topnews
 jurong.cn,ld0766.com##.totalad
 wapwenku.baidu.com,wk.baidu.com##.tout
+demaxiya.com##.tp_box
 suopao.org##.tr3.t_one[onmouseout]
 cnjxol.com##.tr_r
 ifeng.com##.trade
