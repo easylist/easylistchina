@@ -550,8 +550,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &psr=
-||52lubo.cn^
-||daima.huoche.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -759,6 +757,7 @@ ubmcmm.baidustatic.com
 ||52kmh.com^$third-party
 ||52kmk.com^
 ||52lover.info^$third-party
+||52lubo.cn^
 ||5399.com^$third-party
 ||565882.com^$third-party
 ||57union.com^
@@ -1024,6 +1023,7 @@ ubmcmm.baidustatic.com
 ||czpwm.com^
 ||d1ad.com^$third-party
 ||d8360.com^$third-party
+||daima.huoche.net^
 ||daima123.cc^
 ||dashet.com^
 ||datafastguru.info^
@@ -3188,6 +3188,7 @@ mg*.6park.com/img/$image
 ||chinairn.com/images3/*ads
 ||chinajs120.com/js/fun.js
 ||chinanews.com.cn/ad2015/
+||chinanews.com/2016gg/
 ||chinanews.com/shipin/sptp.xml
 ||chinaqking.com/images/newPage/JLW.jpg
 ||chinaqking.com/images/qkw/jobApply1.jpg
@@ -3202,7 +3203,9 @@ mg*.6park.com/img/$image
 ||chinaz.com/2011code_images/soft
 ||chinaz.com/2011code_images/topright.js
 ||chinaz.com/imagead/
+||chinaz.com/images/210x175.jpg
 ||chinaz.com/newshome/
+||chinaz.com/tool_img/alexa_a.js
 ||chiphell.com/activity/
 ||chosun.com/images/banner/
 ||chuangshi.qq.com/upload/cmsv2/Banner/
@@ -3711,6 +3714,8 @@ mg*.6park.com/img/$image
 ||ganjistatic1.com^*/adm/
 ||ganjituiguang.ganji.com^
 ||gaofen.com/source/plugin/gaofen_ad/
+||gaoqingkong.com/wp-content/themes/Loostrive/js/bar.js
+||gaoqingkong.com^$subdocument
 ||gczb.com/upfile/20*.gif
 ||gczb.com/upfile/20*.swf
 ||gd.ct10000.com/js/ecssstat.js
@@ -5999,6 +6004,7 @@ mg*.6park.com/img/$image
 ||yea.im/5hq.gif
 ||yea.im/5ht.gif
 ||yeeyi.com/bbs/api.php?mod=js&bid=
+||yehaobo5.com/js/
 ||yes1.feng.com^$domain=feng.com
 ||yesky.com/monitorjs/imp-
 ||yeyou.com/2013/new/yeyou-float-window.js
@@ -6192,15 +6198,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||chinanews.com/2016gg/
-||gaoqingkong.com^$subdocument
-||gaoqingkong.com/wp-content/themes/Loostrive/js/bar.js
-||chinaz.com/images/210x175.jpg
-||chinaz.com/tool_img/alexa_a.js
-||yehaobo5.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gaoqingkong.com##A[href="http://www.gaoqingkong.com/go?zz"] > FONT
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7124,6 +7123,7 @@ yaolan.com###newfix-dsp
 pigai.org###newnotice
 chinaqking.com###newsAD
 news.shangdu.com###newsBanner
+chinanews.com.cn###news_top_advert
 live.win007.com###notify > a[target="_blank"]
 qq.com###nqsnqsad02
 qulishi.com###nrad
@@ -8023,7 +8023,6 @@ liba.com##.advert-l
 liba.com##.advert-r
 dianxinnews.com##.advertTxt
 dianxinnews.com##.advert_a
-chinanews.com.cn###news_top_advert
 hao123.com,sohu.com,tieba.baidu.com##.advertise
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 inside.com.tw,sina.com.cn##.advertisement
@@ -9348,6 +9347,7 @@ hao123.com##.recommend-link
 le.com##.recommend-part-right
 passiontimes.hk##.rectAd300
 passiontimes.hk##.rectAd680
+chinaz.com##.red[href*=".wsisp.net/"]
 guba.eastmoney.com##.redian
 drupalchina.cn##.region-header-banner
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
@@ -10017,6 +10017,7 @@ caihongzy.com##a[href="http://www.aiqmz.com/"]
 178.com##a[href="http://www.bigeye.tv/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
 gaoqingkong.com##a[href="http://www.gaoqingkong.com/ad"]
+gaoqingkong.com##a[href="http://www.gaoqingkong.com/go?zz"] > font
 hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
 hexieshe.com,xxshe.com##a[href="http://www.masadora.net/"]
 fuliba.net,fulibba.com##a[href="http://www.meidebi.com"]
@@ -10080,7 +10081,6 @@ chinadaily.com.cn##a[href^="http://www.huabian.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 500.com##a[href^="http://www.qilin99.com/"]
 6park.com##a[href^="http://www.vava8.com"]
-chinaz.com##.red[href*=".wsisp.net/"]
 dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
