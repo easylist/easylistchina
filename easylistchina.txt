@@ -6197,6 +6197,7 @@ mg*.6park.com/img/$image
 ||chinaz.com/tool_img/alexa_a.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+gaoqingkong.com##A[href="http://www.gaoqingkong.com/go?zz"] > FONT
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7079,7 +7080,7 @@ huya.com###mbbs-qrcode
 gzmama.com###mdvtips
 hinet.net###media_ad_popup_overlay
 qtfy30.cn###menu + a
-gaoqingkong.com###menu-item-5874 ~ .menu-item
+gaoqingkong.com###menu-item-5874 + .menu-item
 fuliba.net,fulibba.com,uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
 51cto.com###message
