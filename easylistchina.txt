@@ -6202,8 +6202,10 @@ mg*.6park.com/img/$image
 ||baidu.com/static/ecom/js/wise/home/nativeAds_
 ||sinaimg.cn^$domain=aotu9.com
 ||chengdu.cn/acts/phoneqss/openCornerWin/
+||cnool.net/AdShowCache?
 !------------------------Specific element hiding rules------------------------!
 chengdu.cn##.pop_box
+cnool.net##.meilai_box
 gpcxw.com###AA2
 baidu.com##.ec_ad
 hc360.com,yaolan.com###AD
@@ -9865,7 +9867,6 @@ hcwang.cn##.wz3
 liaoxuefeng.com##.x-promo-b
 autofan.com.cn##.xf_ad
 familydoctor.com.cn##.xg
-vr186.com##.xg1 + br + p[style="text-align: center;"]
 xinhuanet.com##.xhdf_moreAdv
 xinhuanet.com##.xhdf_row_adv
 sina.cn##.xiancheng-pic
@@ -10013,7 +10014,6 @@ hexieshe.com,xxshe.com##a[href="http://moe.hao123.com/"]
 hexieshe.com##a[href="http://moemoe.la/"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 ithome.com##a[href="http://suo.im/yii2y"]
-cnfol.com##a[href="http://www.168licai.cn/"]
 xianzhenyuan.cn##a[href="http://www.5d9.net/"]
 caihongzy.com##a[href="http://www.aiqmz.com/"]
 178.com##a[href="http://www.bigeye.tv/"]
@@ -10077,7 +10077,6 @@ acg12.com,acg18.us##a[href^="http://www.diyidan."]
 win007.com##a[href^="http://www.edewin.com/"]
 zhaopin.com##a[href^="http://www.ef.com.cn/"]
 zdfans.com##a[href^="http://www.hao123.com/?tn="]
-chinadaily.com.cn##a[href^="http://www.huabian.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 500.com##a[href^="http://www.qilin99.com/"]
 6park.com##a[href^="http://www.vava8.com"]
