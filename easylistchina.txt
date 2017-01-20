@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/ys_77jjss/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -263,6 +262,7 @@
 /xiaobaiAD.gif
 /xiazai_downloaderAD.
 /xxx169.php?
+/ys_77jjss/*
 /z63/img/88.jpg
 /zahuishi/images/show38070.js
 /zzhzad/*
@@ -3274,6 +3274,7 @@ mg*.6park.com/img/$image
 ||cnwnews.com/ad-nrtop/
 ||cnwnews.com/gg
 ||cnwnews.com/zhenrui/ad/
+||cnzz.cn/badu.gif
 ||cnzzla.com/public/scripts/money.js
 ||codeforge.cn/images/programmer_mall.png
 ||codejie.net/wp-content/uploads/*/1120-50.
@@ -3714,6 +3715,8 @@ mg*.6park.com/img/$image
 ||ganjistatic1.com^*/adm/
 ||ganjituiguang.ganji.com^
 ||gaofen.com/source/plugin/gaofen_ad/
+||gaoqingkong.com/uploads/2017/01/384ee4680f2d755cfd0c177bf1f2bcaa.png$~collapse
+||gaoqingkong.com/wp-content/themes/Loostrive/images/body.jpg
 ||gaoqingkong.com/wp-content/themes/Loostrive/js/bar.js
 ||gaoqingkong.com^$subdocument
 ||gczb.com/upfile/20*.gif
@@ -5377,6 +5380,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
 ||sinaimg.cn/large/4bab3bccgw1fakos6x37xj20qe0akq7x.jpg
 ||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
+||sinaimg.cn/large/5ff1c93agw1fbqnzzraosj205l02iaav.jpg
 ||sinaimg.cn/large/68299a77jw1et76sa28ljg208c03i0t0.gif
 ||sinaimg.cn/large/68299a77jw1eu2f2opaakg205k05k74r.gif
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
@@ -5626,6 +5630,7 @@ mg*.6park.com/img/$image
 ||ttrar.com/js/
 ||ttx.cn/js/float.js
 ||ttx.cn/js/tcgd//jquery.lightbox.min.js
+||ttyavav.com/qian/
 ||tuan.cs090.com/gettuan.php?
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tuhaoylw.com/upload/1/18591636/images/*.gif
@@ -6197,14 +6202,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||cnzz.cn/badu.gif
-||sinaimg.cn/large/5ff1c93agw1fbqnzzraosj205l02iaav.jpg
-||gaoqingkong.com/wp-content/themes/Loostrive/images/body.jpg
-||gaoqingkong.com/uploads/2017/01/384ee4680f2d755cfd0c177bf1f2bcaa.png$~collapse
-||ttyavav.com/qian/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sohu.com###hotpicnew
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6939,7 +6938,7 @@ ruanyifeng.com###homepage_pos
 39.net###hotTopicsReco
 3boys2girls.com###hotbar
 sogou.com###hotel_vr_details
-news.sohu.com###hotpicnew
+news.sohu.com,sohu.com###hotpicnew
 mtime.com###hotplayHeadImgRegion
 yahoo.com###hp-ad-left
 yahoo.com###hp-ad-right
