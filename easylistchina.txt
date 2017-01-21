@@ -546,6 +546,7 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.index_alert_gg
 ! Novels
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
@@ -2598,7 +2599,6 @@ mg*.6park.com/img/$image
 ||94994.com*/js/plugin/shoppingMall/
 ||949949.com/2013/end/hot_news.js
 ||949d.com/960-90.gif
-||94ys.com/plus/
 ||9553.com/otherhtml/
 ||962.net/show/all.js
 ||962.net/show/all_$script
@@ -3346,7 +3346,6 @@ mg*.6park.com/img/$image
 ||dailyfx.com.hk/ext/ad/cn.js
 ||dailynews.sina.com/gb/ads/
 ||daima.chazidian.com^
-||dangniao.com:8080/style.js
 ||danlan.org/KFC/
 ||daohangtx.com/jishudaohang/indextop.js
 ||daqianduan.com/wp-content/uploads/*/ad-
@@ -3407,7 +3406,6 @@ mg*.6park.com/img/$image
 ||discuss.com.hk/yna*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||disk1.net/i/2/900%C3%9740.gif
-||dissgold.com/data/attachment/forum/*.gif
 ||divcss5.com*/enkj/
 ||divcss5.com*/ibeifeng/
 ||divcss5.com*/liping/
@@ -3460,7 +3458,6 @@ mg*.6park.com/img/$image
 ||douban.com^*/fm_bgad.js
 ||douban.com^*/rda/$object-subrequest
 ||doubanio.com^*/js/ad.
-||doubean.com/image/xy
 ||doubleclick.tv002.com^
 ||douguo.net/upload/post/d/
 ||doupapa.com/js/swf/
@@ -3517,7 +3514,6 @@ mg*.6park.com/img/$image
 ||dy2018.com/jsdd/
 ||dydh.tv/img/
 ||dydh.tv/statics/js/tuku
-||dysfz.net/images/qianying.gif
 ||dytt.com/xzbn.js
 ||dytt8.net/js2/
 ||dzwww.com/data/js/asp_$script
@@ -5021,7 +5017,6 @@ mg*.6park.com/img/$image
 ||playgm.cn/data/attachment/portal/
 ||plurk.com/Ads/
 ||pme10.com/zbs/gs/ad_
-||pme10.com/zbs/gs/newmmm.js
 ||poco.cn/mypoco/myphoto/20140330/21/5589980820140330214657064.jpg
 ||poco.cn/mypoco/myphoto/20140418/18/5589980820140418182334072.gif
 ||poco.cn/mypoco/myphoto/20140423/19/5589980820140423191248067.gif
@@ -6065,7 +6060,6 @@ mg*.6park.com/img/$image
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youxiaxiazai.com/db_top/index_top.htm
 ||youxiaxiazai.com/dm/
-||yskej.com/data/attachment/forum/*.gif
 ||ysxs8.com/ysgg/
 ||ytbbs.com/images/index/
 ||yubei8.com/boximg/
@@ -6208,7 +6202,9 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||ningmengzhibo.com/ement/beforeSearchEment.action
 ||demaxiya.com/v4/dd/
+||108tec.com/zbs/floatcnoil_
 !------------------------Specific element hiding rules------------------------!
+dvwu.com##.top_g2
 ningmengzhibo.com##.advbox
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -7137,7 +7133,6 @@ live.win007.com###notify > a[target="_blank"]
 qq.com###nqsnqsad02
 qulishi.com###nrad
 ssnn.net###nrk_gg
-dissgold.com###nv_forum > center
 pt80.net###nv_forum > div[align="center"]
 chzhw.com###nview > a > img[style$="width:326px;"]
 3g.qq.com###omgad-wechat-bigpic
@@ -11047,7 +11042,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||do189.com/zb_users/theme/duoyi/style/images/text_bg.gif
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$generichide,script,xmlhttprequest
-@@||dpcm.cn/ad/
 @@||dup.baidustatic.com/js/ds.js$domain=epinv.com
 @@||dushiwenxue.com/add/article/pagetop.js
 @@||dvbcn.com/caches/poster_js/23.js
