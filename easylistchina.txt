@@ -2684,8 +2684,6 @@ mg*.6park.com/img/$image
 ||abpchinax.*/*/*.gif
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acfun.*/adnew.aspx?id=
-||acg.178.com/201302/t_
-||acg.178.com/s/manhua218_140.html
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
 ||acg.tv^$image,object,domain=bilibili.com
 ||acgbenzi.com^$image
@@ -6178,7 +6176,9 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||sinaimg.cn/large/7fab0e78gw1eza18r0p03g20rs02iglx.gif
 !------------------------Specific element hiding rules------------------------!
+dntk.org##.ad-pc
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6449,7 +6449,6 @@ qzone.qq.com###appCanvasTopBanner
 sogou.com###appNewsBtn
 sogou.com###appRedPackageAd
 qzone.qq.com###app_ads
-dmzj.com###app_manhua
 hao123.com###append
 qzone.qq.com###appstore_sidebar_l
 qzone.qq.com###appstore_sidebar_r
@@ -7852,8 +7851,6 @@ putclub.com##.ad_fastReading
 qqzhibo.net##.ad_float_color
 3gsc.com.cn##.ad_for_game
 8btc.com##.ad_global_top_left
-blog.dausos.com,dntk.org##.ad_h
-dntk.org##.ad_h + .entry_box_b
 wanghualang.com##.ad_h_c
 hb163.cn##.ad_inner
 le.com##.ad_layer
@@ -7943,7 +7940,7 @@ bigear.cn##.adpicright
 68design.net##.adplay
 ifeng.com##.adpubpic
 doc88.com##.adpx250
-blog.dausos.com,qqdaohang.com##.adr
+qqdaohang.com##.adr
 qqdaohang.com##.adr2
 gamme.com.tw##.adread
 yinsha.com##.adrt01
@@ -7960,7 +7957,7 @@ mopiaoyao.com,renwai.ren##.ads_c
 zhangleisir.cn##.ads_logo
 bthave.com,uho.com.tw##.adsense
 qinbing.cn##.adspic_mid2
-blog.dausos.com,ynet.com##.adt
+ynet.com##.adt
 chinaz.com,yawin.cn##.adtext
 114la.com,3g.cn,78dm.net,cntv.cn,onlinedown.net,php100.com,qzntv.com,qzwb.com,silver.org.cn,solidot.org,v1.cn,ylmf.com##.adv
 wdzj.com##.adv-img
@@ -8349,7 +8346,6 @@ sspai.com##.content > hr:nth-last-child(-n+4) ~ p
 cnbeta.com##.content > p:last-child > a[href]
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
-downg.com##.content.ad-b950x50
 zdfans.com##.content.column2 > a[target="_blank"]
 zdfans.com##.content.column2 > center:first-child
 zdfans.com##.content.column2 > span[style]:first-child
