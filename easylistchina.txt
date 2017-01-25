@@ -552,8 +552,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||adbot.tw^
-||nmqbg.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -853,6 +851,7 @@ ubmcmm.baidustatic.com
 ||ad000000.com^
 ||ad8.cc^$third-party
 ||ad9377.com^
+||adbot.tw^
 ||adbxb.com^$third-party
 ||adchina.cc^$third-party
 ||adconfer.com^$third-party
@@ -1410,6 +1409,7 @@ ubmcmm.baidustatic.com
 ||nlrsq.com^*.js
 ||nmbtedu.com^$third-party
 ||nmkgs.cn^
+||nmqbg.com^
 ||nnedbx.com^
 ||noberlmall.com^
 ||nongsalei.com^
@@ -3254,6 +3254,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnchu.com/aps/
+||cndzys.com/huanlian/
 ||cnfol.com/f=ud/Js/Ad
 ||cnfol.com/tui/
 ||cngold.org/cngold_float
@@ -4480,6 +4481,7 @@ mg*.6park.com/img/$image
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmplayer.cn/include/jscript/*-b.js
 ||knnwdyou.com^
+||kocpc.com.tw/adsbyso.js
 ||kokojia.com^$third-party
 ||koopan.com/%5Cad/
 ||ks.js.cn*/yytf/$object,script
@@ -4814,6 +4816,7 @@ mg*.6park.com/img/$image
 ||niu20.com/g/
 ||niutuku.com/skin/style2013/ad/
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
+||njxzwh.com/downza/pc/v2017/images/downAD
 ||nmgnews.com.cn/swf/0/11/$object,domain=www.nmgnews.com.cn
 ||nms8.net/static/*.*.js
 ||nms8.net/static/xdm.js
@@ -5400,6 +5403,7 @@ mg*.6park.com/img/$image
 ||skdh2.com/tp/
 ||skinme.cc/assets/index/*/banner2016
 ||skycn.com/js/top.js
+||skykiwi.com/video.html
 ||slit.cn/d/js/images/thea
 ||slit.cn/slimages/
 ||slooti.com/upload/30/38/1446711674.gif
@@ -6171,13 +6175,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||skykiwi.com/video.html
-||kocpc.com.tw/adsbyso.js
-||njxzwh.com/downza/pc/v2017/images/downAD
-||cndzys.com/huanlian/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-2kandy.com###xinnxi
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7501,6 +7500,7 @@ zhiboche.com###wzad
 oh100.com###wztopL
 soft4fun.net###xad_mu
 xinhuanet.com###xiangguanad
+2kandy.com###xinnxi
 jmbbs.com###xjj_jmbbs2015_01
 xilinjie.com###xlj-spread
 fang.com###xmlAd
@@ -10748,7 +10748,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11130,6 +11129,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pos.baidu.com^*?di=739405&$domain=epinv.com
 @@||pos.baidu.com^*?di=90417&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
+@@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@||pos.baidu.com^*?di=u2354095&$domain=epinv.com
 @@||poster.weather.com.cn/p_files/base/$image
 @@||ps123.net/MyFile/toptxt.js
