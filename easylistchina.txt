@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/ezprice_ad.js
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -119,6 +118,7 @@
 /dygg_
 /eis/diy/ad/*
 /ettoday/gemini/*
+/ezprice_ad.js
 /float_r.js
 /floatad.$domain=~fwxgx.com
 /floatad2.
@@ -3463,6 +3463,7 @@ mg*.6park.com/img/$image
 ||dsqnw.com/ac/
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com|sexcar.cn
+||duba.com/baidu
 ||duba.com/dhads?id=
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
@@ -3508,6 +3509,7 @@ mg*.6park.com/img/$image
 ||eastmoney.com/js/headbiggg_
 ||eat-travel.com.tw^$third-party
 ||ebiotrade.com/jslibrary/js
+||ebiotrade.com/netother/sy2013.ashx?type=quanping
 ||ebiotrade.com/newsf/js/inpic.js
 ||ebiotrade.com/newsf/js/news_top_banner.js
 ||ebiotrade.com/web_images/*.swf
@@ -3541,6 +3543,7 @@ mg*.6park.com/img/$image
 ||enshi.cn/userfiles/esrb/$object,subdocument
 ||ent.mb.baidu.com/webgamepage/GameAPP/
 ||entry.baidu.com/rp/home?
+||eol.cn/images/*1000-
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
 ||epinv.com/wp-content/themes/ep/js/single.js
@@ -4862,6 +4865,7 @@ mg*.6park.com/img/$image
 ||orzx.im/Document/union/
 ||orzx.im/images/downloader.jpg
 ||orzx.im/js/*pop
+||oscaches.com/dj.js
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/*_banner_
 ||oschina.net/uploads/gitimages/1479690283.jpg
@@ -6169,22 +6173,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||duba.com/baidu
-||oscaches.com/dj.js
-||ebiotrade.com/netother/sy2013.ashx?type=quanping
-||eol.cn/images/*1000-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-read01.com##.axslot
-ettoday.net##DIV[id^="abp"]
-eprice.com.tw##.ad-970x250-g
-ispot.news##.ui_adblock
-eprice.com.tw###popup-ad-overlay
-eprice.com.tw##.ad-300x250-popup-g
-muchong.com##A[href^="http://www.zhuanyejun.com/"]
-etidol.com##.adBlockR
-etidol.com##.products
-dyhjw.com##A[href^="http://www.hjtd88.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7180,6 +7170,7 @@ fun01.cc,up01.cc###popad
 mmready.com###popada
 yunvs.com###popapp
 univisa.com.cn###popup
+eprice.com.tw###popup-ad-overlay
 61.135.158.90,tom.com###popupDivgame
 ck101.com###popupGameAd
 5173.com###popupRight
@@ -7679,8 +7670,10 @@ photofans.cn##.ad-1-index
 163.com##.ad-1200-60
 19lou.com,ihome99.com##.ad-190x60
 eprice.com.tw##.ad-250x250
+eprice.com.tw##.ad-300x250-popup-g
 19lou.com,ihome99.com##.ad-300x30
 eprice.com.tw##.ad-336x280-g
+eprice.com.tw##.ad-970x250-g
 eprice.com.tw##.ad-970x90-g
 19lou.com##.ad-980x40
 ihome99.com##.ad-980x60
@@ -7789,6 +7782,7 @@ sohu.com##.adB
 heyuan.cn##.adBanner2
 heyuan.cn##.adBanner3
 iqiyi.com##.adBanner980
+etidol.com##.adBlockR
 sina.com.cn##.adC
 toutiao.com##.adClientFlag
 hkgalden.com##.adContainer
@@ -8068,6 +8062,7 @@ u17.com##.auto_ad
 liba.com##.avdert1190
 qiqu888.com##.ax-arc610161
 qiqu888.com##.axing_add_ad
+read01.com##.axslot
 pinshan.com##.b_adv
 pinshan.com##.b_adv2
 120ask.com##.b_right > div[style]
@@ -9279,6 +9274,7 @@ ifxtx.com##.ppsy_content758
 fqlook.cn##.pro_baidu
 duba.com##.pro_r_t
 pbhz.com##.product-nav-box
+etidol.com##.products
 huaban.com##.promotion
 cnplugins.com##.pushbox1
 baidu.com##.qb-other-answer-wmad
@@ -9733,6 +9729,7 @@ libaclub.com##.ui-adsame
 duowan.com##.ui-business
 m.nownews.com##.ui-footer-fixed
 hlyy.cc##.ui-sponsor
+ispot.news##.ui_adblock
 hackhome.com##.ul_ad
 131458.com##.ulfooter_top
 zhidao.baidu.com##.union-tg
@@ -10043,11 +10040,13 @@ acg12.com,acg18.us##a[href^="http://www.diyidan."]
 win007.com##a[href^="http://www.edewin.com/"]
 zhaopin.com##a[href^="http://www.ef.com.cn/"]
 zdfans.com##a[href^="http://www.hao123.com/?tn="]
+dyhjw.com##a[href^="http://www.hjtd88.com/"]
 hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 500.com##a[href^="http://www.qilin99.com/"]
 6park.com##a[href^="http://www.vava8.com"]
 xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 miercn.com##a[href^="http://www.yaosai.com/shop/"]
+muchong.com##a[href^="http://www.zhuanyejun.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 ifeng.com##a[href^="http://yemei.tv/"]
 dnvod.eu##a[href^="http://yoyou."]
@@ -10230,6 +10229,7 @@ huizhou.cn##div[id^="SI_Sidebtns_Wrap"]
 90bifen.com##div[id^="ShowTopAds_"]
 kunming.cn##div[id^="_picadv_"]
 vpser.net##div[id^="ab_thread"]
+ettoday.net##div[id^="abp"]
 makepolo.com,mycar168.com,pchome.net,qz828.com##div[id^="ad"]
 58.com,myfiles.com.cn,pcpop.com##div[id^="ad_"]
 pchome.com.tw##div[id^="ad_div_"]
