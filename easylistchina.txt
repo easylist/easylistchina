@@ -547,6 +547,7 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.ad_home_current
 ! Novels
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
@@ -3571,7 +3572,6 @@ mg*.6park.com/img/$image
 ||facebook.com/v2.6/plugins/video.$domain=storm.mg
 ||faidns.com/image/site/faiscoAd/
 ||familydoctor.com.cn/aiframe/
-||fan0876.com/upload/tui/
 ||fang.com/afp/door/
 ||fang99.com^*/advjs/
 ||fangying.tv/assets/ad_
@@ -3631,7 +3631,6 @@ mg*.6park.com/img/$image
 ||fuli.us/ad.js
 ||fuli69.com/wp-content/uploads/sug
 ||fulibac.com/images/upload/ad/
-||fulibar.net/img/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fulidang.com/ads/
 ||fulishequ.com/abc/images/
@@ -4943,9 +4942,6 @@ mg*.6park.com/img/$image
 ||ph66.com/bbsgg/
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
-||photo.erji.com/saha.jpg
-||photo.erji.com^*.gif
-||photo.erji.com^*.swf
 ||photobucket.com/albums/a493/wcxu21/AD_
 ||photofans.cn/cooperator/banner/
 ||phpad.cqnews.net^
@@ -8103,7 +8099,6 @@ phpfans.net##.banad
 3gsc.com.cn,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,cailianpress.com,cnhubei.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,fxingw.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
-fulibar.net##.banner-contenttop
 baidu.com##.banner-cover
 91.com##.banner-gg
 toutiao.com##.banner-index-bottom
@@ -8397,7 +8392,7 @@ iplaysoft.com##.d250x90
 ipc.me,iplaysoft.com##.d300
 iplaysoft.com##.d336
 xgrb.cn##.d_2016_ggw
-51jifenbao.net,fulibar.net,fulidang.com,ihref.com##.d_banner
+51jifenbao.net,fulidang.com,ihref.com##.d_banner
 wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
 qingdaonews.com##.da30050
@@ -11129,7 +11124,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad-"]
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk^*-ad.php?
-@@||photo.erji.com/tb/*.gif
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
 @@||pmm.people.com.cn/main/s?user=people|homepage|2013juxing
