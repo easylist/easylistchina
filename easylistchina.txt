@@ -2759,7 +2759,6 @@ mg*.6park.com/img/$image
 ||airenti.in^$script
 ||airouba.com/public/js/global.js
 ||aitaotu.com/style/js/aitaotu
-||aituan.com/at/bbs_gg/
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/position_
 ||ak47fuli.net/fd.js
@@ -3921,7 +3920,6 @@ mg*.6park.com/img/$image
 ||hkheadline.com/*banner$script
 ||hkheadline.com/*promo/
 ||hkheadline.com^*/right_promo.js
-||hkslg.com/gaogao/
 ||hktvmall.com/api/preroll/getList?
 ||hn-pc.com/css/Fun_Div.js
 ||hongdou.gxnews.com.cn/upload/index/$~object-subrequest
@@ -6153,6 +6151,7 @@ mg*.6park.com/img/$image
 ||hcwang.cn/images/g/20161210133158887.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hnr.cn###rb_pics
 html-js.com##A[style^="margin-top:20px;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6978,7 +6977,6 @@ hao123.com###leftbannerv2
 fqlook.cn###leftfloatad1
 www.wenxuecity.com###leftside
 letpub.com.cn###letpubjournalmessagebox
-hers.com.cn###lfw
 techweb.com.cn###liepin
 sdgundam.cn###link-roll ~ .box-set-2
 soft4fun.net###linkcat-2 + div:nth-last-child(2)
@@ -7390,7 +7388,6 @@ iask.sina.com.cn###topic_ylzz_new
 999caijing.com###topleft
 1616.net###toplink
 imanhua.com###topmon
-hnr.cn###topphotos
 999caijing.com###topright
 bt49.com###topwarning_7ree
 fuli.us###toubuads
@@ -7834,8 +7831,6 @@ cngba.com##.ad_ri
 bitauto.com,cnblogs.com,hc360.com##.ad_right
 1yiren.com##.ad_right_1
 1yiren.com##.ad_right_2
-hushinm.com##.ad_ritht_1
-hushinm.com##.ad_ritht_3
 orsoon.com##.ad_show
 orsoon.com##.ad_show_1
 orsoon.com##.ad_show_2
@@ -8046,7 +8041,7 @@ hc360.com##.baidutuiguang
 msn.people.com.cn##.banNSch
 phpfans.net##.banad
 100shuai.com##.bannar_gg
-3gsc.com.cn,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,cailianpress.com,cnhubei.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,ganji.com,guitarchina.com,haixiachina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
+3gsc.com.cn,52jifenbao.net,591hx.com,7zhan.com,99.com.cn,aguitar.cn,cailianpress.com,cnhubei.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,ganji.com,guitarchina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,jsahz.com,kdnet.net,kumi.cn,longbl.com,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
 baidu.com##.banner-cover
@@ -9514,7 +9509,6 @@ txzqw.cc##.tac[style="margin-bottom:5px;"]
 999caijing.com,hlgnet.com,sina.com##.tad
 cqnews.net##.taobao
 duba.com##.taobao_search
-hushinm.com##.taobaoad567
 chinaiiss.com##.taobaopic
 11584.com##.taomi_tong960
 11584.com##.taomi_tong9602
@@ -10184,7 +10178,6 @@ tigtag.com##div[id^="Home942x70_"]
 2345.com##div[id^="J_TopicBanner"]
 tzfdc.com.cn##div[id^="LMT_"]
 360che.com##div[id^="PAGE_AD_"]
-huizhou.cn##div[id^="SI_Sidebtns_Wrap"]
 90bifen.com##div[id^="ShowTopAds_"]
 kunming.cn##div[id^="_picadv_"]
 vpser.net##div[id^="ab_thread"]
@@ -10498,7 +10491,6 @@ jd-bbs.com##table[cellspacing="5"][bordercolor="#9dbedd"]
 angelweb.cn##table[height="250"]
 guidaye.com##table[height="280"]
 sdzbcg.com##table[height="41"]:last-child
-hackbase.com##table[height="648"] > tbody > tr > td > p:nth-last-child(n+2)
 bcbay.com##table[id] + table[style="margin:3px auto;"]
 win007.com##table[id^="table_Ad"]
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
