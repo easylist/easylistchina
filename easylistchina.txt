@@ -2346,7 +2346,6 @@ mg*.6park.com/img/$image
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
 ||3qcc.com/js/bb.js
-||aliyuncs.com/ghdb.gif
 ||3sjt.com/3sjtimg/
 ||400516.com/data/attachment/album/
 ||40064008.com/topjs/
@@ -2789,6 +2788,7 @@ mg*.6park.com/img/$image
 ||alifeifei.net/s/*.js
 ||alitui.weibo.com^
 ||alixixi.com/adsview/
+||aliyuncs.com/ghdb.gif
 ||aliyuncs.com/wjy99re/
 ||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alu.cn*/aluad/
@@ -3159,6 +3159,7 @@ mg*.6park.com/img/$image
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
+||cdnxiazai.com/img/
 ||cdyee.com/external/5070.files/ad/
 ||centoscn.com/money/
 ||centoscn.com/uploads/allimg/
@@ -3483,6 +3484,7 @@ mg*.6park.com/img/$image
 ||dxrc.cn/ad1/
 ||dxrc.cn/images/sy.gif
 ||dy2018.com/jsdd/
+||dybird.com/Runtime/js/yd
 ||dydh.tv/img/
 ||dydh.tv/statics/js/tuku
 ||dytt.com/xzbn.js
@@ -3784,6 +3786,7 @@ mg*.6park.com/img/$image
 ||gtv.com.cn/public/images/2014-03/20/71_12931395286234.jpg
 ||gtv.com.cn/public/images/2014-06/15/110_89471402801935.jpg
 ||guang.lesports.com^
+||gucheng.com/2016/ggimg/
 ||gueizu.com/wp/img/xiazai
 ||guess.h.qhimg.com^
 ||gugeys.com/96080.gif
@@ -5379,6 +5382,7 @@ mg*.6park.com/img/$image
 ||sinolub.com/uploadfile/201*.swf
 ||sisiww.com/00.gif
 ||sisiww.com/yezicheng_ad/
+||sitv.com.cn/cookiead.php
 ||siyu88.cn/xl/
 ||siyu88.net/g$subdocument
 ||sju.wang/ps/
@@ -6164,14 +6168,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||dybird.com/Runtime/js/yd
-||cdnxiazai.com/img/
-||sitv.com.cn/cookiead.php
-||gucheng.com/2016/ggimg/
 !------------------------Specific element hiding rules------------------------!
-gucheng.com##.right_info
-beva.com###beva-av-left
-beva.com###beva-av-right
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6501,6 +6498,8 @@ docin.com###beforeAd
 loldk.com###before_video_ad
 1kkk.com,bukade.com,dm5.com,dm5.hk,manmankan.com,sfacg.com###beitou
 eeyy.com###beitou_box
+beva.com###beva-av-left
+beva.com###beva-av-right
 gamersky.com###bgAdWrapClose
 91danji.com###bg_ad
 kyofun.com###bg_ad_left
@@ -9338,6 +9337,7 @@ weibo.com##.right_content.hot_topic.hot_topicad1
 qqyy.com##.right_dcotor_tab
 sznews.com##.right_flash
 ifeng.com##.right_gg
+gucheng.com##.right_info
 163.com##.right_originalcolumn_ad
 hkwb.net##.rightadv2
 xxsy.net##.rightbanner
@@ -10746,8 +10746,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||websetnet.com^$generichide
-@@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -11225,6 +11223,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||v1.cn/player/cloud/cloud_player
 @@||vast.btrll.com^$domain=hinet.net
 @@||webcrow.jp/adjs/ncskt.js
+@@||websetnet.com^$generichide
 @@||weibo.com/api/weipan/getAds
 @@||weike22.com/images/*_
 @@||weike22.com/images/fbxx.gif
@@ -11234,6 +11233,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||whichav.com^$generichide
 @@||wishdown.com/images/logo.gif
 @@||wokao.co^$generichide
+@@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
 @@||wowsai.com/data/files/ad/
 @@||woxiu.com/xapi/offsite_swf_more.php?*&type=
 @@||wubisheng.cn/style/adsbygoogle.js
