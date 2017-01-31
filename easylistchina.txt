@@ -554,7 +554,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||gugeys.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1168,6 +1167,7 @@ ubmcmm.baidustatic.com
 ||gso0.com^
 ||gtmucs.cn^
 ||guduopu.com^
+||gugeys.com^$third-party
 ||gugulonger.cn^
 ||gydag.com^
 ||gzbywl.com^$third-party
@@ -3535,6 +3535,7 @@ mg*.6park.com/img/$image
 ||eeyy.com/templates/js/other/yxj.js
 ||eeyy.com/templates/js/popback.js
 ||eeyy.com/uploadfile/img/beitou
+||eezdx.erc.18183.com^
 ||elecfans.com/baidu_m.html
 ||elecfans.com/images2012/pcb.gif
 ||embest-tech.cn/js/jquery.blockUI.js
@@ -3886,6 +3887,8 @@ mg*.6park.com/img/$image
 ||hf365.com/0/13/79/87/13798795_912593.jpg
 ||hf365.com/0/14/31/00/14310068_933922.png
 ||hf365.com/0/14/60/93/14609355_921128.jpg
+||hf365.com/0/16/33/26/16332686_243404.gif
+||hf365.com/swf/0/16/32/43/16324347_993754.swf
 ||hi.people.com.cn/NMediaFile/*.gif
 ||hi.people.com.cn/NMediaFile/*.swf
 ||hiad.vmall.com^
@@ -3963,7 +3966,9 @@ mg*.6park.com/img/$image
 ||huaiduoduo.info/Runtime/js/
 ||hualady.com/static/
 ||huanqiu.com/resource/js/base.js
+||hudong.com/11/85/26100000005581147339859649123.jpg
 ||hudong.com/25/92/26100000000000140262920175968.jpg
+||hudong.com/68/39/26100000010302148507390614810.jpg
 ||hudong.pl.youku.com/interact/player/get/plugins?
 ||hudong.pl.youku.com/interact/web/get/timeLinePlugin?
 ||hudong.pl.youku.com/jsapi/interact/playerPlugins.js
@@ -4734,6 +4739,7 @@ mg*.6park.com/img/$image
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/Articleacb0
 ||myhard.com/s?z=
+||myhsw.cn/ticai/img/ad
 ||mymusic.net.tw/upload/mobile_web_tmp/indexad01.
 ||myqcloud.com/jiaoyou
 ||myqcloud.com/js/easou.js
@@ -5482,6 +5488,7 @@ mg*.6park.com/img/$image
 ||taodake.com/taodake_img/Images/union/
 ||taoguba.com.cn/gbimg/2016/07/27/lirmkrnbt8l1.jpg
 ||taoguba.com.cn/js/tgbduilian
+||taporn.com/d/
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tc.cn/ad123/
 ||tc.cn/g/dl.ashx?
@@ -6138,18 +6145,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||eezdx.erc.18183.com^
-||taporn.com/d/
-||hudong.com/11/85/26100000005581147339859649123.jpg
-||hudong.com/68/39/26100000010302148507390614810.jpg
-||myhsw.cn/ticai/img/ad
-||hf365.com/0/16/33/26/16332686_243404.gif
-||hf365.com/swf/0/16/32/43/16324347_993754.swf
 !------------------------Specific element hiding rules------------------------!
-taporn.com##.ima
-finance.ifeng.com##.sConRbox
-hkepc.com##.advertisement
-bilibili.com##A[href="/video/av8186648/?tg"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7947,7 +7943,7 @@ dianxinnews.com##.advertTxt
 dianxinnews.com##.advert_a
 hao123.com,sohu.com,tieba.baidu.com##.advertise
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
-inside.com.tw,sina.com.cn##.advertisement
+hkepc.com,inside.com.tw,sina.com.cn##.advertisement
 elecfans.com##.advertising
 ifeng.com##.advmark
 hexun.com,hexun.com.tw##.advp
@@ -8627,10 +8623,9 @@ admin5.com##.grid_8 > .mb6
 putclub.com##.gtest
 58.com##.guaguabox
 97aa1.com,niu20.com##.guang4
-hkwb.net##.guanggao2
 adreep.cn,baoliny.com,hgitv.com,nen.com.cn,rznews.cn,sqkz.com##.guanggao
 my0538.com##.guanggao1
-my0538.com##.guanggao2
+hkwb.net,my0538.com##.guanggao2
 cnmo.com##.guanggao_type
 shm.com.cn##.guanggaowei2
 shm.com.cn##.guanggaowei3
@@ -8744,7 +8739,7 @@ aiyuke.com##.igamead
 ifeng.com##.iggLine
 outofmemory.cn##.iloveoutofmemory660
 im286.net##.im286-t
-masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com##.ima
+masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
 m.cnbeta.com##.image-container
 edu24ol.com##.image_01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.images_game_container
@@ -9332,6 +9327,7 @@ duba.com##.s11_store_box
 wenda.tianya.cn##.s1Tit + .sideBox
 cnstock.com##.sBox-left
 cnstock.com##.sBox-right
+finance.ifeng.com##.sConRbox
 15w.com##.s_count_st
 baidu.com##.sam_iebrowser_banner
 ithome.com##.sb_list > .bx
@@ -9916,6 +9912,7 @@ bilibilijj.com##a[href="##"]
 7xtiyu.com##a[href="/bc/xinli.html"]
 lovecqian.com##a[href="/gg/1.html"]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
+bilibili.com##a[href="/video/av8186648/?tg"]
 gaoqingkong.com##a[href="go?mm"]
 zdfans.com##a[href="http://955.cc/FXZF"]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
