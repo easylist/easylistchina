@@ -6142,6 +6142,7 @@ mg*.6park.com/img/$image
 ||18183.com/js.php?pid=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibili.com##A[href$="_suning.html"]
 hexun.com###tonglan_1 + .layout
 news.hf365.com##.main-r > DIV:first-child
 iask.sina.com.cn##.tui-nav-txt
@@ -10249,7 +10250,7 @@ da-fan-shu.cn##div[style*="468"][style*="60"]
 imanhua.com##div[style*="980"][style*="26px"]
 pchome.com.tw##div[style*="982"][style*="85"]
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
-bilibili.com##div[style*="height: 80px;"][data-loc-id]
+bilibili.com##div[style*="height:"][data-loc-id]
 bbhou.com##div[style*="height: 90px;"]
 hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
