@@ -4108,6 +4108,7 @@ mg*.6park.com/img/$image
 ||imeee.cn/tDA_HTML/da_
 ||img*.365rich.cn/image/$image
 ||img*.bet007.com/image/*.gif
+||img*.hc360.com^$subdocument
 ||img*.hc360.com^*.swf
 ||img*.itiexue.net/2*.gif$domain=www.tiexue.net
 ||img*.titan007.com/image/*.gif
@@ -4644,6 +4645,7 @@ mg*.6park.com/img/$image
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||miljinhua.com/GD/
 ||mimg.127.net/ggimg/all/img18/140218_yixin_780x96.jpg
+||mini.hao123.com^
 ||miniye.xjts.cn^
 ||misaka.cn^*/600px-
 ||missyuan.com/sy/
@@ -6132,12 +6134,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||img*.hc360.com^$subdocument
-||mini.hao123.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hao123.com##.top-test
-hc360.com##IMG[width="1000"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6498,7 +6496,6 @@ xiaopi.com###bottombar
 dnvod.eu,dxlwwang.com,vzhuan.cn###box
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
-hupu.com##.slider-pic > .list > LI > A[href^="http://goto.hupu."]
 cwyuni.tw###box34614 > [class^="box-"]
 lohas.pixnet.net###box785805
 finance.ifeng.com###box_img
@@ -7525,7 +7522,6 @@ ifeng.com##.ColFLAvt
 ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
-it165.net##.showinfo
 imeee.cn##.DA336
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.EC_newppim
 cnfol.com##.EtGA
@@ -9359,6 +9355,7 @@ zahuishi.com##.show2960x90
 5068.com##.showG
 51test.net##.show_content_declaration > p
 sucaijiayuan.com##.show_title
+it165.net##.showinfo
 aohua.com.au##.sidBoxNoborder
 showtv.com.tw##.side-AD
 laifudao.com##.side-adinner
@@ -9420,6 +9417,7 @@ fuli.us##.slick
 cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
 duba.com##.slidebar
 duba.com##.slidebar + .extend
+hupu.com##.slider-pic > .list > li > a[href^="http://goto.hupu."]
 codepub.com##.small-banner
 hao.360.cn##.small-obj
 hao123.com##.soft-ad-banner
@@ -9583,6 +9581,7 @@ baidu.com##.top-banner-ad-wrap
 2345.com##.top-lvy
 rj.baidu.com##.top-recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
+hao123.com##.top-test
 ifeng.com##.top-tg
 52wubi.com##.top960
 700kan.com,jjvcd.com,ktkkt.com,xfvcd.com##.top980
@@ -10401,7 +10400,7 @@ eworldship.com##img[height="70"]
 szhk.com##img[id^="adp"]
 0756.la##img[lowsrc*="/ad-htm/"]
 caihongzy.com##img[width*="80"]
-0898.net,cnstock.com,hall123.com,hi.people.com.cn,jojf.cn,xizi.com##img[width="1000"]
+0898.net,cnstock.com,hall123.com,hc360.com,hi.people.com.cn,jojf.cn,xizi.com##img[width="1000"]
 jmbbs.com##img[width="1100"]
 54new.com##img[width="1280"][height="100"]
 javjunkies.com##img[width="160"][height="600"]
@@ -10681,7 +10680,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||hc360.com/ad/*.css
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -10970,6 +10968,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||gpsdlm.com/images/ad.
 @@||guancha.cn/ad/m_
 @@||hanjuwang.com/ad/
+@@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
 @@||heikexs.com/wp-content/themes/Duoxs*/js/user.js
 @@||henan100.com/css/tpbf/pop.js
