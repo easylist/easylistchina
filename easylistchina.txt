@@ -6104,6 +6104,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+bilibili.com##.title > span > A[href*="="]
+bilibili.com##.topic-preview > LI > A[href*="="]
 pinggu.org##.hbj
 pinggu.org##.peixunopen1
 pinggu.org##.sheji-g
