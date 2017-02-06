@@ -3442,7 +3442,6 @@ mg*.6park.com/img/$image
 ||douyucdn.cn/upload/signs/*.swf
 ||douyutv.com/upload/signs/*.swf
 ||down.admin5.com/z/
-||it168.com/statics/skycn/static/IMG/p2.jpg
 ||down12.com/common/js/bdvert.js
 ||downbank.cn/js/gong.js
 ||downbank.cn/s1/yl.js
@@ -3960,6 +3959,7 @@ mg*.6park.com/img/$image
 ||huanqiu.com/resource/js/base.js
 ||hudong.com/11/85/26100000005581147339859649123.jpg
 ||hudong.com/25/92/26100000000000140262920175968.jpg
+||hudong.com/51/15/26100000004661147382156345622.jpg
 ||hudong.com/68/39/26100000010302148507390614810.jpg
 ||hudong.pl.youku.com/interact/player/get/plugins?
 ||hudong.pl.youku.com/interact/web/get/timeLinePlugin?
@@ -4151,6 +4151,7 @@ mg*.6park.com/img/$image
 ||infoqstatic.com^*/scripts/rightbarOptionalVcrBox.js
 ||ingraye.com/creative/interstitial/shadowbox.
 ||inhe.*/Uploadfiles/adpublish
+||inhe.net/Uploadfiles/inhegg2016/
 ||inlishui.com/index.php?m=poster&
 ||inszu.com/js/qian/
 ||inte.sogou.com^
@@ -4193,6 +4194,7 @@ mg*.6park.com/img/$image
 ||it165.net/index.php?m=poster&
 ||it168.com/factory/ad/
 ||it168.com/forum/201412/19/151606lvf3btnnotc62rl6.jpg
+||it168.com/statics/skycn/static/IMG/p2.jpg
 ||italk.yinsha.com/god/
 ||itavcn.com/images/2012/ad_
 ||itavcn.com/images/2013/ad_
@@ -6102,20 +6104,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||hudong.com/51/15/26100000004661147382156345622.jpg
-||inhe.net/Uploadfiles/inhegg2016/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jmw.com.cn##.keLan
-jmw.com.cn##.keLan-img
-jmw.com.cn##.keLan-img + .block
-jmw.com.cn##.head_1b
-jmw.com.cn##.head_3
-jmw.com.cn##.mr_1
-jmw.com.cn##.top_pic
-ifeng.com###leftdl
-ifeng.com###rightdl
-zhijia.com##.adb
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6937,6 +6927,7 @@ cpd.com.cn###left_bdad
 hao.360.cn###left_float
 sina.com.cn###left_focus_ad
 hao123.com###leftbannerv2
+ifeng.com###leftdl
 fqlook.cn###leftfloatad1
 www.wenxuecity.com###leftside
 letpub.com.cn###letpubjournalmessagebox
@@ -7165,6 +7156,7 @@ discuss.com.hk,uwants.com###right_column
 uc123.com###right_elevator
 gamersky.com###right_fixed
 gmw.cn###rightad1 + .contentColumnRight
+ifeng.com###rightdl
 shangxueba.com###rightfloatdiv
 www.wenxuecity.com###rightside
 motocity.com.tw###rotator
@@ -7798,6 +7790,7 @@ yinyuetai.com##.ad_w300
 itavcn.com##.ad_wordxin
 baike.com##.ad_xuanban
 tiexue.net##.ad_xuanfu
+zhijia.com##.adb
 ifeng.com##.adbest
 oogps.com##.adbg
 motobuy.com.tw##.adbig
@@ -8605,6 +8598,8 @@ pinggu.org##.hdbanner
 fbook.net##.head-d
 jnnews.tv##.headAD
 hkepc.com##.headBanner
+jmw.com.cn##.head_1b
+jmw.com.cn##.head_3
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zdnet.com.cn##.headads
 biz.ifeng.com##.header
@@ -8790,6 +8785,9 @@ qz930.com##.jsl_ad
 juksy.com##.juksy_ads
 jxedt.com##.jxpl
 rrting.net##.k-guanggao
+jmw.com.cn##.keLan
+jmw.com.cn##.keLan-img
+jmw.com.cn##.keLan-img + .block
 iqilu.com##.kejie_ad
 v.ifeng.com##.keyword
 99tianji.com##.kf1
@@ -8979,6 +8977,7 @@ i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 autohome.com.cn##.monkey_box
 autohome.com.cn##.monkey_box_big
 tiexue.net##.moveBox
+jmw.com.cn##.mr_1
 zhuangpin.com##.mr_ad
 17huohu.com,firefoxchina.cn##.mrec-banner
 xici.net##.msgl_ad
@@ -9573,6 +9572,7 @@ qidian.com##.top_game_info
 hdzc.net##.top_gg1
 hdzc.net##.top_gg2
 2345.com##.top_news
+jmw.com.cn##.top_pic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top_toutu_admarks + .tbui_slideshow_list
 163.com,changsha.cn,jrj.com.cn,kekenet.com,neotv.com.cn,sina.com.cn##.topad
 huarenjie.com##.topadcss
