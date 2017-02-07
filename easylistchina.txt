@@ -554,7 +554,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||nmpcdn.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1415,6 +1414,7 @@ ubmcmm.baidustatic.com
 ||nlrsq.com^*.js
 ||nmbtedu.com^$third-party
 ||nmkgs.cn^
+||nmpcdn.com^
 ||nmqbg.com^
 ||nnedbx.com^
 ||noberlmall.com^
@@ -6104,11 +6104,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bilibili.com##.title > span > A[href*="="]
-bilibili.com##.topic-preview > LI > A[href*="="]
-pinggu.org##.hbj
-pinggu.org##.peixunopen1
-pinggu.org##.sheji-g
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8586,6 +8581,7 @@ jjwxc.net##.h8px + div[align="center"]
 www.eastmoney.com##.h90
 kekenet.com##.h_news_c
 cam4.tw##.hbanner
+pinggu.org##.hbj
 ynet.com##.hc4 > .L2
 youth.cn##.hd_pic
 pinggu.org##.hdbanner
@@ -9097,6 +9093,7 @@ sina.com##.parta_l_ads
 heiguang.com##.pbAddPic
 zol.com.cn##.pboi-intel-2015-product
 kikinote.net##.pc_ad
+pinggu.org##.peixunopen1
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.per_list.j_per_list.per_list_frs
 junshiqu.com##.pg08
 sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
@@ -9299,6 +9296,7 @@ sogou.com##.sg-ad-r
 17173.com##.shadowPage
 miyun360.com##.shangjia
 xilu.com##.shehuibanner
+pinggu.org##.sheji-g
 0452e.com##.shop
 sogou.com##.shop-info-list
 hao.rising.cn##.shop-site
@@ -9504,6 +9502,7 @@ mail.qq.com##.tipbook-top
 e0575.cn##.tips
 3gsc.com.cn##.tipsA
 gamefy.cn,sitv.com.cn##.tit > span[style="float:right; width:285px;"]
+bilibili.com##.title > span > a[href*="="]
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 ts.cn##.titlegg
 ts.cn##.titlegg2
@@ -9576,6 +9575,7 @@ qz828.com##.topadv
 itavcn.com##.topadvzone
 21ic.com,hao565.cn,pyccoo.cn,qq.com##.topbanner
 kocpc.com.tw##.topbarad
+bilibili.com##.topic-preview > li > a[href*="="]
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
 makaidong.com##.topimg
@@ -10076,7 +10076,6 @@ share.dmhy.org##div[id$="_ad"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[id$="_canvas"]
 mail.126.com,mail.163.com##div[id$="_dvBlockInfo"]
 58.com##div[id$="_gdbg"]
-ithome.com##div[id$="hlindex"]
 pixnet.net##div[id*="-AD-"]
 pixnet.net##div[id*="-Ad-"]
 pixnet.net##div[id*="-aD-"]
@@ -10585,6 +10584,7 @@ zhaopin.com#@#.adsBox
 long7.qq.com#@#.adsbox
 123564.com,apk.tw,fxpan.com,mfgun.com,moa.tw#@#.adsbygoogle
 qq.com#@#.adside
+youqu.net#@#.adtop
 4008927927.cn#@#.adv-box
 anjia365.com#@#.adv_bg
 zalora.com.hk#@#.advertisement-block
@@ -10621,10 +10621,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-youqu.net#@#.adtop
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=now.com
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -10934,7 +10932,7 @@ youqu.net#@#.adtop
 @@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=xuite.net
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=now.com|xuite.net
 @@||img.ybbbs.com/2014/*app
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@||itc.cn/public_photo/advert/$domain=focus.cn
