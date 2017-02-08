@@ -554,11 +554,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||xmcmn.com^
-||95558000.com^
-||kkddlt2f.site^
-||8hykthze.cricket^
-||u.huoying666.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -819,6 +814,7 @@ ubmcmm.baidustatic.com
 ||88ysg.com^$third-party
 ||8910ad.com^$third-party
 ||892155.com^
+||8hykthze.cricket^
 ||8le8le.com^$third-party
 ||8ox.cn^$third-party
 ||911.cc^$third-party
@@ -840,6 +836,7 @@ ubmcmm.baidustatic.com
 ||94lm.com^
 ||95105012.com^
 ||9519.net^$third-party
+||95558000.com^
 ||9718.com^$third-party
 ||99lolo.com^
 ||9ead.com^$third-party
@@ -1315,6 +1312,7 @@ ubmcmm.baidustatic.com
 ||kiwihk.net^$third-party
 ||kjgen.com^
 ||kkcaicai.com^
+||kkddlt2f.site^
 ||kld666.com^
 ||kldmm.com^
 ||kmadou.com^
@@ -1613,6 +1611,7 @@ ubmcmm.baidustatic.com
 ||txkjad.com^$third-party
 ||tz-dsp.com^$third-party
 ||u.801t.com^$third-party
+||u.huoying666.com^
 ||u88.cn^$third-party
 ||ubcpm.com^$third-party
 ||uc610.com^
@@ -1730,6 +1729,7 @@ ubmcmm.baidustatic.com
 ||xlcun.com^$third-party
 ||xlingdi.com^$third-party
 ||xlwnx.com^
+||xmcmn.com^
 ||xmshqh.com^$third-party
 ||xnjpg.com^
 ||xp3366.com^$third-party
@@ -4936,6 +4936,7 @@ mg*.6park.com/img/$image
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/scripts/ysm.js
 ||pro.iweihai.cn^
+||proewildfire.cn/afhz.gif
 ||property.hk/ad_$script
 ||ps123.net/MyFile/
 ||pstatp.com/site/reads-sdk/*.js
@@ -5878,6 +5879,9 @@ mg*.6park.com/img/$image
 ||xz7.com/js/xia
 ||xz7.com/up/UploadPic/2014-5/201452517124193056.gif
 ||xz7.com/up/UploadPic/2014-5/201452517141272046.gif
+||xzbu.com/img/xueshu
+||xzbu.com/xueshu/btxm.jpg
+||xzbu.com/xueshu/zwyc.gif
 ||y2.ifengimg.com/1d124ac5e89463af/2013/0125/rdn_51023a5071d32.jpg
 ||y3600.com/16-
 ||yaerwen.com/5200js/59.js
@@ -6096,15 +6100,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||xzbu.com/img/xueshu
-||xzbu.com/xueshu/btxm.jpg
-||xzbu.com/xueshu/zwyc.gif
-||proewildfire.cn/afhz.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jobbole.com##A[href*=".icketang.com/"]
-jia360.com###adl
-jia360.com###adr
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6319,6 +6316,8 @@ rj.baidu.com###ader
 iqiyi.com###adflash
 eol.cn###adfloat_l
 eol.cn###adfloat_r
+jia360.com###adl
+jia360.com###adr
 msn.ynet.com###adr02 + .hc1
 ahtv.cn,frdic.com,fububu.com,huasing.net,it168.com,piao.com.cn,qinbing.cn###ads
 nownews.com###ads-footer-bar
@@ -9796,6 +9795,7 @@ oupeng.com##a[href*=".adbxb."]
 techweb.com.cn##a[href*=".aliyun.com/"]
 iqiyi.com##a[href*=".banggo."]
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
+jobbole.com##a[href*=".icketang.com/"]
 dapenti.com,iqiyi.com##a[href*=".jd.com"]
 tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
@@ -10603,7 +10603,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&ad_type=$domain=x.jd.com
-@@||cmechina.net^$genericblock
 @@&ad_width=590&$domain=jd.com
 @@&ad_width=810&$domain=jd.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -10829,6 +10828,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||club.tgfcer.com^$generichide
 @@||cmbc.com.cn^*ads/
 @@||cmbchina.com/ads/
+@@||cmechina.net^$genericblock
 @@||cnr.cn/gg/
 @@||cntv.cn/include/video/js/cntv_Advertise.js
 @@||cntv.cn^*_ad.js
