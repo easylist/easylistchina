@@ -1969,8 +1969,6 @@ ubmcmm.baidustatic.com
 /img/*$image,domain=txzqw.cc
 /img/br300.gif$domain=qzntv.com|qzwb.com
 /img/br650.gif$domain=qzntv.com|qzwb.com
-/img/disc.jpg$domain=jpfans.com|jpseek.com
-/img/kana.jpg$domain=jpfans.com|jpseek.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
 /imgextra/*$domain=hacg.fi|hacg.li|hacg.red|zqnow.com
 /ipower.htm$domain=tvboxnow.com
@@ -4270,7 +4268,6 @@ mg*.6park.com/img/$image
 ||jbyf.net/JS/9
 ||jbyf.net^*_Ad/
 ||jd-bbs.com/company/gif/topsound-
-||jd-bbs.com/Richcoln/richcoln-
 ||jd.com/exsites?spread_type=
 ||jdcjsr.com^*/jdcgg/
 ||jdxsw.net/201400/
@@ -4324,8 +4321,6 @@ mg*.6park.com/img/$image
 ||jnnews.tv/indexad/
 ||jobtong.com/openSiteAd?
 ||joyes.com/image/06.jpg
-||jpseek.com/pr/click2.jpg
-||jpunion.com^$domain=jpfans.com|jpseek.com
 ||jpwind.com/images/partner/
 ||jpwind.com^*/scroll.js
 ||jrjimg.cn/common/foot/allfc.js
@@ -4974,7 +4969,6 @@ mg*.6park.com/img/$image
 ||qdmm.com/javascript/SNDAADAltern.js
 ||qhf168.com/data/attachment/portal/
 ||qhnews.com/tupian/
-||qiangdiao.com/pr.png
 ||qianhua.*/data/attachment/portal/
 ||qianlong.com/vda/$script
 ||qianmu.org/resource/js/jquery.ads.js
@@ -6112,6 +6106,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+jdunion.com##A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
