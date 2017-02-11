@@ -552,8 +552,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||bxgmb.com^
-||jxxiangchu.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -953,6 +951,7 @@ ubmcmm.baidustatic.com
 ||bttyue.com^$subdocument
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
+||bxgmb.com^
 ||bxjpl.cn^
 ||bydonline.com^
 ||bypbwm.cn^
@@ -1295,6 +1294,7 @@ ubmcmm.baidustatic.com
 ||jwqj.net^
 ||jxjzny.com^
 ||jxlqgs.com^
+||jxxiangchu.com^
 ||kaixinjiehun.com^$third-party
 ||kawa11.space^
 ||kdly.net^$third-party
@@ -3409,6 +3409,7 @@ mg*.6park.com/img/$image
 ||djccc.com/js/a*.js
 ||djccc.com/js/b*.js
 ||djccc.com/js/c*.js
+||djicdn.com/assets/bp/img_spread/mavic_cn/mavic_300
 ||djkk.com/ak/
 ||djs.baomihua.com^
 ||djwma.com/760*.gif
@@ -3759,6 +3760,7 @@ mg*.6park.com/img/$image
 ||goupu.org/1commonfile/*.htm
 ||goupu.org/1commonfile/*.swf
 ||goupu.org/1commonfile/guidebar/
+||gp.jstv.com^
 ||gpcxw.com/file/js/img/*.gif
 ||gpsdlm.com/images/jdyigou.jpg
 ||gpsdlm.com/images/lm2.jpg
@@ -4317,6 +4319,7 @@ mg*.6park.com/img/$image
 ||jpwind.com/images/partner/
 ||jpwind.com^*/scroll.js
 ||jrjimg.cn/common/foot/allfc.js
+||jrjimg.cn/zqt-red-1000/js/v3/itg-widget.
 ||js-1.pchome.net^
 ||js.05sun.com^
 ||js.45bubu.com^
@@ -4333,11 +4336,10 @@ mg*.6park.com/img/$image
 ||js.tv.itc.cn/site/play/v*/vip_discount_
 ||js0573.com/images/cus/
 ||jssd.uumeitu.com^
-||jstv.com/static_files/banners/213/
-||jstv.com/static_files/banners/50/
 ||jsw.com.cn^*/index.htm
 ||jtyskq.com^*/js/_a.js
 ||junph.cn^$domain=tiexue.net
+||junshi.cc/hz/
 ||juxia.com/jxtp/indexbg.jpg
 ||juxia.com/public/js/foot.js
 ||juxia.com/public/js/juxia.js
@@ -5582,6 +5584,7 @@ mg*.6park.com/img/$image
 ||ultraimg.com^$domain=18p2p.com
 ||union.china.com.cn^
 ||untitled.dwstatic.com^
+||uooyoo.com/hz/*str.js
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/css88/20
@@ -6092,15 +6095,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||djicdn.com/assets/bp/img_spread/mavic_cn/mavic_300
-||junshi.cc/hz/
-||uooyoo.com/hz/*str.js
-||jrjimg.cn/zqt-red-1000/js/v3/itg-widget.
-||gp.jstv.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jinti.com##DIV[style="width:300px;height:250px;margin-bottom:10px;"]
-jdunion.com##A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9806,7 +9802,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,it.com.cn,jobbole.com,kisssub.org,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,it.com.cn,jdunion.com,jobbole.com,kisssub.org,lightnovel.cn,mao-123.com,mengmao.org,moe-acg.cc,mracg.com,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,lightnovel.cn,tucao.tv,xianzhenyuan.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
@@ -10264,6 +10260,7 @@ yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;marg
 108.62.192.124,plus28.com##div[style="width:270px; height:180px;"]
 backchina.com##div[style="width:300px; min-height: 250px; background-color: #f5f5f5; margin:0;"]
 bendibao.com##div[style="width:300px;height:250px;float:left;margin:5px 25px 15px 0;"]
+jinti.com##div[style="width:300px;height:250px;margin-bottom:10px;"]
 liaoxuefeng.com##div[style="width:336px;height:280px;float:left;"]
 auto-online.com.tw##div[style="width:336px;height:280px;margin:0;background:#000000"]
 isanxia.com##div[style="width:340px;height:284px;float:left;"]
