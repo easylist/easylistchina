@@ -551,9 +551,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||xcclzs.com^
-||cqyhd.com^
-||trzina.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1016,6 +1013,7 @@ ubmcmm.baidustatic.com
 ||cpv6.com^
 ||cpva.cc^
 ||cqhnm.com^
+||cqyhd.com^
 ||cr-nielsen.com^$third-party
 ||crazymike.tw^$third-party
 ||crdrjs.info^
@@ -1605,6 +1603,7 @@ ubmcmm.baidustatic.com
 ||toy9090.com^$third-party
 ||tpe163.com^
 ||tradeccl.com^
+||trzina.com^
 ||ttlowe.com^
 ||tuiguang.178.com^
 ||tukeai.com^
@@ -1710,6 +1709,7 @@ ubmcmm.baidustatic.com
 ||xabaitai.com^
 ||xabmjr.com^
 ||xajx.com^$third-party
+||xcclzs.com^
 ||xchgx.com^
 ||xcjy876.com^
 ||xcy8.com^
@@ -1948,6 +1948,7 @@ ubmcmm.baidustatic.com
 /cari/banner/*
 /cari/daybanner/*
 /config.$domain=12345xo.com|123gbgb.com|123ksks.com|216xx.com|263kk.com|44rbrb.com|66ctct.com|828ee.com|832ee.com|833tu.com|90yb.com|955aa.com|970b.com|987abc.com|99ksks.com|auau88.com|etet666.com|xbxb123.com|yeyeqi7.com
+/config.js$domain=susu83.com
 /contents/other/player/*.gif
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /da.aspx|$domain=live8bo.com|live8bo.net|live8bo1.com|zqzq.com
@@ -5288,7 +5289,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2jw1eptzya6d9cj20go01odgn.jpg
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff3.com|99re.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu9.com|avtb123.com|avtb66.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|fdzone.org|fulidh.me|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|kiees.cn|lifan.moe|llj22.com|mamise123.com|mamise456.com|mamise789.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99ff3.com|99re.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu9.com|avtb123.com|avtb66.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|fulidh.me|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|kiees.cn|lifan.moe|llj22.com|mamise123.com|mamise456.com|mamise789.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=btshoufa.net
 ||sinaimg.cn^*/7d1c8e$domain=d5yuansu.com
 ||sinaimg.cn^*/deco/$script
@@ -6087,11 +6088,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-/config.js$domain=susu83.com
-||sinaimg.cn^$domain=ems183.cn
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-club.pchome.net,kdslife.com###slideBox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7199,7 +7197,7 @@ udn.com###simplemodal-overlay
 hexieshe.com###single-main-content + p
 pchome.com.tw###sixi
 etnet.com.hk###skinnerads
-12306.cn###slideBox
+12306.cn,club.pchome.net,kdslife.com###slideBox
 12306.cn###slideRBox
 cjn.cn###slidelr
 tiantian.tv###sliderb_container
