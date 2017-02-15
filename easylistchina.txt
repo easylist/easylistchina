@@ -9542,7 +9542,7 @@ qz828.com##.topadv
 itavcn.com##.topadvzone
 21ic.com,hao565.cn,pyccoo.cn,qq.com##.topbanner
 kocpc.com.tw##.topbarad
-bilibili.com##.topic-preview > li > a[href*="="]
+bilibili.com##.title > span > A[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
 makaidong.com##.topimg
