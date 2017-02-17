@@ -6103,7 +6103,9 @@ mg*.6park.com/img/$image
 ||lawtv.com.cn/jd_ceshi.html
 ||chinabidding.com.cn/public/cblcn/index3/images/gxyg_10.jpg
 ||chinabidding.com.cn/public/static/images/lg296x265.jpg
+||iyaxi.com/hz/
 !------------------------Specific element hiding rules------------------------!
+iyaxi.com##.hotarticlead
 chinabidding.com.cn###erweima_l
 chinabidding.com.cn###erweima_r
 lawtv.com.cn##.ad
@@ -8901,7 +8903,6 @@ oschina.net##.mayun-jj
 hao.360.cn##.mbar-bd
 2345.com##.mco-ex-ndxh
 cnool.net##.meilai_box
-lrshare.com##.menu-item > a[href^="http:"]:not([href^="http://www.lrshare."])
 taihainet.com##.menu_bg + .box10 + .wrapper
 zdfans.com##.meta > .meta-info + div
 zdfans.com##.meta-info + p
@@ -9104,7 +9105,7 @@ creaders.net##.pinglun > .btmlist-title
 baofeng.com##.play-ads
 v.17173.com##.playAd
 17173.com##.playGame
-ligelin.com,missioncouver.com.cn##.play_ad300_2
+missioncouver.com.cn##.play_ad300_2
 news.ifeng.com##.play_center
 kaifu.com##.play_fmt
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
@@ -9822,7 +9823,6 @@ m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com,zdfans.com##a[href*="meidebi."]
 6park.com##a[href*="out.php?"]
 6park.com##a[href*="qq.php?"]
-lrshare.com##a[href*="sugarhosts."]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 zdfans.com##a[href*="zdzdm."]
