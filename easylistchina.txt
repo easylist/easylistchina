@@ -176,8 +176,8 @@
 /kan/js/dian.js
 /keke_winad/template/*layerModel.
 /kisssub/ads/*
-/lanye2015/images/lanyeht.jpg
 /lanye2015/images/kuan.jpg
+/lanye2015/images/lanyeht.jpg
 /lanye2015/images/qiniu.jpg
 /lenovo/pc/all.js
 /lfAD2v1.1.js
@@ -552,9 +552,6 @@ _popAds.
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !----------------------------------Ads-Union----------------------------------!
 &par=
-||hhly88.com^
-||sho9wbox.com^$third-party
-||s9w.cc^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1204,6 +1201,7 @@ ubmcmm.baidustatic.com
 ||heima8.com^$third-party
 ||hfjuki.com^
 ||hfsteel.net^
+||hhly88.com^
 ||hhppyt.com^
 ||hi760.com^
 ||hiad.myweb.hinet.net^
@@ -1510,6 +1508,7 @@ ubmcmm.baidustatic.com
 ||rwjfs.com^
 ||s17cnzz.com^$third-party
 ||s8dj.com^$third-party
+||s9w.cc^
 ||saferwet.com^
 ||sales-frontier.com^$third-party
 ||samboc.com^$third-party
@@ -1530,6 +1529,7 @@ ubmcmm.baidustatic.com
 ||shbywsd.cn^
 ||shenyian.net^
 ||shiftrro.com^
+||sho9wbox.com^$third-party
 ||show.kc.taotaosou.com^
 ||shuihulu.com^$third-party
 ||shujuwu.com^$third-party
@@ -1959,7 +1959,7 @@ ubmcmm.baidustatic.com
 /avshow_cn1.gif
 /baha/*$subdocument,domain=gamer.com.tw
 /banner.js$domain=28188.com|28188.net
-/banner/*$domain=dolc.de|dolc.info
+/banner/*$domain=dolc.de|dolc.info|leiphone.com
 /bannerpic/*$domain=uopera.net
 /biz_icon/*$domain=cs090.com|wm090.com
 /cari/banner/*
@@ -4101,7 +4101,6 @@ mg*.6park.com/img/$image
 ||ifengimg.com^*600.swf
 ||ifengimg.com^*couplet$script
 ||ifengimg.com^*Float$script
-/banner/*$domain=leiphone.com
 ||ii-i.org/wp-content/plugins/wp-adblock-dedect/
 ||ii-i.org/wp-content/uploads/2016/05/xiaofeijijiasu.jpg
 ||iii.6park.com^
@@ -6110,7 +6109,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bejson.com##A[href="/other/aliyuncode/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8778,6 +8776,7 @@ iciba.com##.kk01
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.kn_nine_wrap
 sydneytoday.com##.kpadv5
 fznews.com.cn##.kuang100_right
+lanyes.org##.kuanpin
 chinaz.com##.kwLink
 iqiyi.com##.kwltp-leftgg
 iqiyi.com##.kwltp-rightgg
@@ -9332,12 +9331,11 @@ kocpc.com.tw##.sidebar:nth-child(3)
 shangdu.com##.sidebarBanner
 pic.sogou.com##.sidebar_box.shut
 v2ex.com##.sidebar_compliance
+lanyes.org##.sideqq
 uraban.me##.sider > a
 qq.com##.sider_ad
 docin.com##.sider_gg
 danlan.org##.siderright > .mb20
-lanyes.org##.kuanpin
-lanyes.org##.sideqq
 mopxing.com##.sideul1
 gdmm.com##.sign > li > a[href^="http://bbs.gdmm."]
 aibang.com##.similarlike
@@ -9834,6 +9832,7 @@ bilibilijj.com##a[href="##"]
 7xtiyu.com##a[href="/bc/xinli.html"]
 lovecqian.com##a[href="/gg/1.html"]
 mopiaoyao.com,renwai.ren##a[href="/html/zanzhu.html"]
+bejson.com##a[href="/other/aliyuncode/"]
 bilibili.com##a[href="/video/av8587236/?tg"]
 gaoqingkong.com##a[href="go?mm"]
 zdfans.com##a[href="http://955.cc/FXZF"]
