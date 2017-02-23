@@ -546,6 +546,7 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##.gpt_ads_box
 ! Novels
 |http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
 |http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
@@ -8558,7 +8559,6 @@ techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
 tiexue.net##.gousi
 mzyfz.com##.gov_article_banner
-weekendhk.com##.gpt_ads_box
 owyb1688.com##.gray-show
 jiaodong.net##.grayB
 loldk.com##.grid-adv
@@ -10631,6 +10631,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 10jqka.com.cn#@#.ad_1
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@/nmg-lazy-load/assets/js/adgpt.js$domain=gotrip.hk|weekendhk.com
 @@||gaoqingkong.com/ads/300x250.js
 @@/adview_pic_$domain=meijukankan.net
 @@.adserver.$domain=litv.tv
