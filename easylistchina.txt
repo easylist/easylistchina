@@ -545,36 +545,6 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-! Anti-adblock (Novels)
-|http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
-|http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
-|https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
-! Anti-adblock (Baidu Union)
-&par=
-&pcs=
-?pdbid=$subdocument
-&pdbid=$subdocument
-|http://*/s?di=u
-||baidu.greenxf.cn^
-||scriptwap1.360doc.cn^
-||daima.chazidian.com^
-||gzlykj.cn^
-||dn7788.com^
-||gwy.sdsgwy.com^
-||1.win7china.com^
-||firefang.cn^
-||52lubo.cn^
-||daima.huoche.net^
-||yhzm.cc^
-||fmgoal.com^
-||yjbys.org^$third-party
-||feidalu.com^
-||lele999.com^
-||youbian.com^$third-party
-||fuz.cc^$third-party
-||1.rengshu.com^
-||3.guidaye.com^
-||ap*.pl520.com^
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -10614,6 +10584,7 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
+senao.com.tw#@#.ad-wrap
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
@@ -11133,12 +11104,41 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
-senao.com.tw#@#.ad-wrap
-! caoporn.com
+! Baidu Union
+&par=
+&pcs=
+?pdbid=$subdocument
+&pdbid=$subdocument
+|http://*/s?di=u
+||baidu.greenxf.cn^
+||scriptwap1.360doc.cn^
+||daima.chazidian.com^
+||gzlykj.cn^
+||dn7788.com^
+||gwy.sdsgwy.com^
+||1.win7china.com^
+||firefang.cn^
+||52lubo.cn^
+||daima.huoche.net^
+||yhzm.cc^
+||fmgoal.com^
+||yjbys.org^$third-party
+||feidalu.com^
+||lele999.com^
+||youbian.com^$third-party
+||fuz.cc^$third-party
+||1.rengshu.com^
+||3.guidaye.com^
+||ap*.pl520.com^
+! Novels
+|http:$script,third-party,domain=quledu.com|storebt.com|xtzgjx.com|zhuzhudao.com
+|http:$script,third-party,xmlhttprequest,domain=23wx.com|33yq.com|biquge.tw|btkitty.bid|dhzw.com|diggbt.ws|kewaishu.net|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
+|https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
+! Caoporn.com
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 ||caoimg.top/images/*.gif
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
-! caoporn.com
+! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
