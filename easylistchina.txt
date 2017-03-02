@@ -547,8 +547,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||119.4.249.166^
-||kgcjgsa8.net^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -671,6 +669,7 @@ ubmcmm.baidustatic.com
 ||117.25.133.209^
 ||118114.cn^$third-party
 ||1188.com^$third-party
+||119.4.249.166^
 ||122.227.254.195^
 ||12291.com^$third-party
 ||123hala.com^
@@ -1320,6 +1319,7 @@ ubmcmm.baidustatic.com
 ||keyrun.cn^$third-party
 ||keyyou.net^
 ||kfluoa.com^
+||kgcjgsa8.net^
 ||khgj.cn^$third-party
 ||kicnse.com^
 ||kiees.com^$image,subdocument,third-party
@@ -4075,6 +4075,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/*/taobaopudi/
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/aogute.gif
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
+||ifengimg.com/6e0e559e19f25e8b/2013/1226/shoucheng
 ||ifengimg.com/a/*/yemei
 ||ifengimg.com/a/*_w300_h250.
 ||ifengimg.com/a/201*600.
@@ -6105,7 +6106,6 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||ifengimg.com/6e0e559e19f25e8b/2013/1226/shoucheng
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10483,7 +10483,7 @@ leduwo.com,wenku8.com,yaerwen.com#@##adtop
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
-codejie.net#@##google-ads
+codejie.net,mo.babytoyhome.com#@##google-ads
 apk.tw#@##google_ad
 soft.macx.cn#@##googlead
 soft.macx.cn#@##googlead1
@@ -10564,6 +10564,7 @@ loveshares.cc#@#.banner-site
 ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 btbt.tv#@#.google-ad
+mo.babytoyhome.com#@#.google-ads
 apk.tw#@#.google_ad
 mobile01.com#@#.googlead
 v.baidu.com#@#.has-ad
@@ -10582,17 +10583,14 @@ mobile01.com#@#.navad
 chinatimes.com#@#.page_ad
 fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
+360zhibo.com#@#.rightad
 house.shangdu.com#@#.top_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-360zhibo.com#@#.rightad
-mo.babytoyhome.com#@#.google-ads
-mo.babytoyhome.com#@##google-ads
 !---------------------------------URL Whitelist-------------------------------!
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=mo.babytoyhome.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
@@ -10947,7 +10945,7 @@ mo.babytoyhome.com#@##google-ads
 @@||ooomm.com/ad/Whoyao_logo114.png
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=download.mokeedev.com|gamer.com.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|7958.com.cn|download.mokeedev.com|mfgun.com|monnsutogatya.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk^*-ad.php?
 @@||pic.zol-img.com.cn/2009/pix_index.swf
