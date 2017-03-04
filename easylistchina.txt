@@ -4182,6 +4182,7 @@ mg*.6park.com/img/$image
 ||imgs.cc/images/ad_
 ||imgshost.pw/02_cn_ad/
 ||imgsrc.baidu.com/tieba/pic/item/$image
+||imgur.com/4SbDoav.jpg
 ||imgur.com/df53F09.jpg
 ||imgur.com/hkYNDSj.gif
 ||imgur.com/qHtXzOk.jpg
@@ -6106,16 +6107,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||imgur.com/4SbDoav.jpg
 !------------------------Specific element hiding rules------------------------!
-ttmeiju.com##DIV[style="margin-top:20px;margin-bottom:20px;"]
 gpcxw.com###AA2
-jdyou.com###contentSlide
-jdyou.com###popWrap
-moejam.com##.page-ad-1
-qq.com###adImgHref
-i.qq.com##.linwei-logo
-i.qq.com##.linwei-txt
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6269,6 +6262,7 @@ yxdown.com###ad970x60
 dahe.cn###adArea1
 baidu.com###adCard
 yeecloud.com###adFirefox
+qq.com###adImgHref
 baidu.com###adMainTopLeft
 baidu.com###adMainTopRight
 plu.cn###adMask
@@ -6534,6 +6528,7 @@ yes-news.com###content-728
 yes-news.com###content-728-top
 yes-news.com###content-ads-right
 www.sohu.com###contentC > .columnC
+jdyou.com###contentSlide
 udn.com###content_body_banner
 tsdm.tv###content_box_300250
 tsdm.tv###content_box_60090
@@ -7076,6 +7071,7 @@ image.baidu.com###plz-head-banner
 gdzjdaily.com.cn###politicTopAd
 game2.cn###pop-flash
 aibang.com###popAd
+jdyou.com###popWrap
 qq.com###pop_apps_sponsors
 ebiotrade.com###pop_banner1
 cnplugins.com###pop_div
@@ -8828,6 +8824,8 @@ lywww.com##.lianmengclass
 zhidao.baidu.com##.link-banner
 m.qidian.com##.link_banner
 linux.cn##.linuxcnad
+i.qq.com##.linwei-logo
+i.qq.com##.linwei-txt
 news.ifeng.com##.list022
 niutuku.com##.listAD
 hljtv.com##.listAd1
@@ -9064,6 +9062,7 @@ actoys.net##.p_new_ad
 sina.cn##.p_newsmore
 bbdj.com##.p_r1
 actoys.net##.p_top_ad
+moejam.com##.page-ad-1
 cssmoban.com,wenku.baidu.com##.page-banner
 xizi.com##.pageAD1
 baidu.com##.pageLeftFixedAD
@@ -10209,6 +10208,7 @@ toutiao.com##div[style="margin-bottom:16px; padding: 20px; background-color: #f4
 zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 itnose.net##div[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
+ttmeiju.com##div[style="margin-top:20px;margin-bottom:20px;"]
 thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
 52ch.net##div[style="margin-top:5px; height:80px;"]
 108.62.192.124,plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
