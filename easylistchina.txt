@@ -547,7 +547,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||w3989.com^
 .cn/showpage.asp?u=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
@@ -1688,6 +1687,7 @@ ubmcmm.baidustatic.com
 ||vsnoon.com^$third-party
 ||vtale.org^
 ||vvvulqn7.com^
+||w3989.com^
 ||w65p.com^
 ||wangsufast.com^
 ||wantaico.com^
@@ -1869,7 +1869,6 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-|http://t.cn/$popup,domain=yifile.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -1882,6 +1881,7 @@ ubmcmm.baidustatic.com
 /pushstart.html?$popup,third-party
 |http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|avsdown.com|bfooru.info|bforu.info|downhhh.com|downvrs.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|kxddd.com|lamp99.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|scokl.com|see3r.com|shcle.com|shclk.com|sju.wang|tenitt.info|ttft.in|wwp5.com|xhcbb.com|xunfs.com|yzhlive.com
 |http://*/?$popup,domain=linkbucks.com|zytpirwai.net
+|http://t.cn/$popup,domain=yifile.com
 ||133gp.com^$popup
 ||189.cn/actpush/$popup,third-party
 ||300.bilibilijj.com^$popup
@@ -4569,6 +4569,7 @@ mg*.6park.com/img/$image
 ||m1905.com/asp_js/k.js
 ||ma.baiducdn2.com^*/main.js?t=
 ||macd.cn/macd-topads.html
+||mahoupao.net/api.php?mod=ad&
 ||mahua.com/api/$subdocument
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
@@ -4603,6 +4604,7 @@ mg*.6park.com/img/$image
 ||meijukankan.net/Uploads/images/ourads.gif
 ||meishichina.com/v3/
 ||meitu.com/js/floatxiuxiu.js
+||meitui.org^*.js
 ||meiyouad.com/static/pc/img/111.gif
 ||meiyouad.com/user/admin?
 ||meizhou.com/images/topbanner
@@ -6095,16 +6097,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||mahoupao.net/api.php?mod=ad&
-||meitui.org^*.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-nanrenwo.net##DIV[id^="content"]
-doc88.com###adClose
-doc88.com##.appdownload
-niaogebiji.com###portal_block_1911
-niaogebiji.com###portal_block_1935
-360zhibo.com###selectpd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6257,6 +6251,7 @@ vjmedia.com.hk###ad900
 yxdown.com###ad970x60
 dahe.cn###adArea1
 baidu.com###adCard
+doc88.com###adClose
 yeecloud.com###adFirefox
 qq.com###adImgHref
 baidu.com###adMainTopLeft
@@ -7080,6 +7075,8 @@ eprice.com.tw###popup-ad-overlay
 ck101.com###popupGameAd
 5173.com###popupRight
 ld0766.com###portal_ad3
+niaogebiji.com###portal_block_1911
+niaogebiji.com###portal_block_1935
 365kl.net###portal_block_3611
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
@@ -7167,6 +7164,7 @@ iplaysoft.com###section_event
 youku.com###seebuyGuide
 youku.com###seebuyhome
 m.sohu.com###selected-game
+360zhibo.com###selectpd
 nick18.com###sex
 265g.com###sfmt
 pan.baidu.com###share_ad_info_panl
@@ -7882,7 +7880,7 @@ qzone.qq.com##.app-recommend
 tianya.cn##.app-tips
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.app_forum_top_nav_tab
 fanyi.baidu.com##.appbanner
-keywin.org##.appdownload
+doc88.com,keywin.org##.appdownload
 tiantian.tv##.apprecomm
 etidol.com##.arProd
 nj.house.163.com##.area > div[style*="position:absolute; z-index:"]
@@ -10089,6 +10087,7 @@ shm.com.cn##div[id^="baidu_clb_slot_"]
 yaolan.com##div[id^="bot_ad"]
 kankan.com##div[id^="cm"].banner
 66rd.cn##div[id^="comiis_xizi_gg"]
+nanrenwo.net##div[id^="content"]
 ifeng.com##div[id^="couplet3_"]
 ebiotrade.com,jmnews.com.cn##div[id^="couplet_"]
 bendibao.com##div[id^="dad_"]
