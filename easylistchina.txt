@@ -5602,7 +5602,6 @@ mg*.6park.com/img/$image
 ||uschinapress.com/2014/0922/1411428929105.png
 ||uschinapress.com/2015/0115/1421375153170.gif
 ||uschinapress.com/2016/0608/1465408047836.gif
-||wap.xxbiquge.com^*.html$script
 ||uuu9.com/360adtest/
 ||uuu9.com/html/show.html#id=2|
 ||uuu9.com/news/css/news_content_in.js
@@ -5675,6 +5674,7 @@ mg*.6park.com/img/$image
 ||wanmcy.com/toolsda/
 ||wanwan.sina.com.cn/third_party/
 ||wanyx.com/Public/js/cqby.swf
+||wap.xxbiquge.com^*.html$script
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/plus/hz.php?aid=
 ||wbzol.com/images/1120-
@@ -6102,8 +6102,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-nmgnews.com.cn###div_ad4
-northnews.cn##.sponsor02
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6586,6 +6584,7 @@ findprice.com.tw###divBestBuy
 76xh.com###divFendDuo
 qidian.com###divUserGuide
 sogou.com###div_ad
+nmgnews.com.cn###div_ad4
 qzone.qq.com###div_corner_ad_container
 3boys2girls.com###div_display
 anfan.com,eeyy.cc###div_dn
@@ -9365,6 +9364,7 @@ qqbody.com##.special_ggw
 geekpark.net##.sponsor
 u148.net##.sponsor-250
 u148.net##.sponsor-abeam
+northnews.cn##.sponsor02
 sogou.com##.sponsored
 163.com##.sports_300x60_ad1
 99ff3.com,99ff4.com,99re.com##.spots
@@ -10587,7 +10587,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@/adsshow/*$domain=veryeast.cn
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -10613,6 +10612,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/adsbygoogle.$domain=moa.tw|serve.netsh.org
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=kysec.cn|mndxy.org
+@@/adsshow/*$domain=veryeast.cn
 @@/advert.$domain=izo.tw
 @@/advert/*$domain=cctcw.cn|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn|youyuan.com
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
