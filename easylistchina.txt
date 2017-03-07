@@ -547,14 +547,8 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||pjtymy.cn^
-||edncui.net^
-||8mfty.com^
-||51jumintong.com^
-||xpqfc.com^
-||onlifjj.net^
-.cn/vs.php?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
+.cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -758,6 +752,7 @@ ubmcmm.baidustatic.com
 ||4ggww.com^
 ||4kt2.com^$subdocument
 ||51ads.com^$third-party
+||51jumintong.com^
 ||51junpin.net^$third-party
 ||51weidashi.com^
 ||5207470.com^
@@ -821,6 +816,7 @@ ubmcmm.baidustatic.com
 ||892155.com^
 ||8hykthze.cricket^
 ||8le8le.com^$third-party
+||8mfty.com^
 ||8ox.cn^$third-party
 ||911.cc^$third-party
 ||913h6.cn^$third-party
@@ -1106,6 +1102,7 @@ ubmcmm.baidustatic.com
 ||ea3721.com^$third-party
 ||easou.com^$third-party
 ||ecuc123.net^
+||edncui.net^
 ||eduzzjy.com^
 ||ee4kdushuba.com^$third-party
 ||eeee500.com^
@@ -1464,6 +1461,7 @@ ubmcmm.baidustatic.com
 ||okm918.com^
 ||okokw.com^$third-party
 ||onetad.com^$third-party
+||onlifjj.net^
 ||orchidscape.net^
 ||ou188.com^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
@@ -1476,6 +1474,7 @@ ubmcmm.baidustatic.com
 ||pdsjycm.com^
 ||pedailyu.com^
 ||picsinfog.com^
+||pjtymy.cn^
 ||pnhfc.com^
 ||pofang.com^
 ||polkoa.com^
@@ -1778,6 +1777,7 @@ ubmcmm.baidustatic.com
 ||xmshqh.com^$third-party
 ||xnjpg.com^
 ||xp3366.com^$third-party
+||xpqfc.com^
 ||xq12.com^$third-party
 ||xq199.com^
 ||xsu.cc^$third-party
@@ -4750,6 +4750,7 @@ mg*.6park.com/img/$image
 ||no1.168abc.net/upload/
 ||nokiacn.net/gg*.htm
 ||north-plus.net/images/men
+||nownews.com/ad2004/170303-155750-4753p.jpg
 ||nownews.com/assets/js/setAds.js
 ||nownews.com/public/combat300x600.gif
 ||ntpcb.com/html/channel/citypark/images/p83_shouqian_
@@ -6103,12 +6104,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||nownews.com/ad2004/170303-155750-4753p.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-m.nownews.com##A[href^="http://ad1.nownews.com"]
-jlonline.com##.ad670
-jlonline.com##.ad1200
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7615,6 +7612,7 @@ ifeng.com##.ad1000_box
 ~games.ifeng.com,ifeng.com##.ad1000x90
 chinayk.com##.ad1024
 yuqingcn.cn##.ad1024x90
+jlonline.com##.ad1200
 btpeer.com,c114.net,chddh.com,china.com.cn,qingdaonews.com,qz828.com##.ad2
 ifeng.com##.ad200-2
 yaolan.com##.ad24090
@@ -7637,6 +7635,7 @@ jxedt.com,sohu.com##.ad640
 kumi.cn##.ad64060Box
 19lou.com,ihome99.com##.ad650-60
 ifeng.com##.ad665
+jlonline.com##.ad670
 baike.com##.ad680
 ting89.com##.ad7
 yaolan.com##.ad71090
@@ -9858,6 +9857,7 @@ muchong.com##a[href^="alog.php?id="]
 css88.com##a[href^="http"]:not([href*=".css88.com"]) > img
 qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://3g.tianya.cn/g/ad."]
+m.nownews.com##a[href^="http://ad1.nownews.com"]
 chacuo.net##a[href^="http://affiliate.lufax."]
 qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
