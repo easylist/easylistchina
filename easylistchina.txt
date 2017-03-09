@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/static/common/js/djlib_
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -230,6 +229,7 @@
 /ssdxad.swf
 /sta2rt.js
 /static/adsview/*
+/static/common/js/djlib_
 /stoneip_Sidebar.png
 /sxgg/12.js
 /sxgg/13
@@ -548,7 +548,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||5imoney.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -769,6 +768,7 @@ ubmcmm.baidustatic.com
 ||58.215.179.159^
 ||592man.com^
 ||59519.com^$third-party
+||5imoney.com^
 ||5leji.com^$third-party
 ||5mnh.com^$third-party
 ||61.152.223.15^
@@ -2117,6 +2117,7 @@ mg*.6park.com/img/$image
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||07908.com/images/
 ||0dian8.org/data/js/
+||1.hao123.com^
 ||100.admin5.com^
 ||100ksw.com/include/ksbdfd.js
 ||100yangsheng.com/a1/a.js
@@ -2381,7 +2382,9 @@ mg*.6park.com/img/$image
 ||39.net/creative/
 ||39.net/js/baidu/
 ||39.net/js/google/
+||39.net/PictureLib/A/f76/20161102/org_802389.gif
 ||39.net/rel/k13.php?adid=
+||39.net/test/k.js
 ||3987.com/images/
 ||3987.com/statics/tow_skin/new_img/20
 ||3987.com/vote/
@@ -3872,6 +3875,7 @@ mg*.6park.com/img/$image
 ||hao.rising.cn/catalog/bottom.html
 ||hao.rising.cn/images/nsdgg.jpg
 ||hao123.cn/images/vip.png
+||hao123.com/ifeed/cpc?
 ||hao123.com/zt/
 ||hao123img.com/res/ecom/
 ||hao123img.com/res/js/common/erjiAdv.
@@ -4770,6 +4774,7 @@ mg*.6park.com/img/$image
 ||on.cc/js/v2/iframe_ysm_
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
+||oneinstack.com/images/
 ||onlinedown.net/newhuagg/*_pic_$script
 ||onlinedown.net/zhuangjiad/
 ||open-open.com/j300250n.jpg
@@ -6099,15 +6104,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||oneinstack.com/images/
-||1.hao123.com^
-||hao123.com/ifeed/cpc?
-||39.net/test/k.js
-||39.net/PictureLib/A/f76/20161102/org_802389.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hao123.com##.navrecommend-top
-opticsky.cn###head > .tac
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6791,7 +6789,7 @@ ithome.com,win7china.com,win8china.com###hd_float
 he-games.com###he_banner_ad
 he-games.com###he_bottom_ad
 1ydt.com###head
-bbs.xinjs.cn###head > .tac
+bbs.xinjs.cn,opticsky.cn###head > .tac
 webkaka.com###head > div[style="padding-top:2px !important;padding-top:5px;"]
 frdic.com###head-ad-barSub
 frdic.com###head-ad-barTop
@@ -8971,6 +8969,7 @@ baidu.com##.nav_ads
 phpddt.com##.nav_next
 phpddt.com##.nav_prev
 3158.cn##.navbot
+hao123.com##.navrecommend-top
 tpy888.cn##.nead
 guidaye.com##.neirongs
 sto.cn##.network_adv
