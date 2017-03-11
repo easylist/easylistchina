@@ -548,7 +548,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||geryi.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1161,6 +1160,7 @@ ubmcmm.baidustatic.com
 ||gdxxb.com^$third-party
 ||ge95.com^
 ||geotmt.com^$third-party
+||geryi.com^
 ||gf108.com^
 ||gf1352.com^
 ||gf1353.com^$third-party
@@ -2282,6 +2282,7 @@ mg*.6park.com/img/$image
 ||2008xxx.com:888
 ||201*.myhard.com^
 ||20150930.cf^
+||202.102.26.253:8182/files/7/lhzs1k.jpg
 ||211600.com/data/attachment/portal/
 ||219.153.41.154/v1/
 ||219.153.41.175/*.js
@@ -3448,6 +3449,7 @@ mg*.6park.com/img/$image
 ||didown.com/rili-down.gif
 ||diediao.com/js/loading.html
 ||dig.chouti.com/advert
+||dio66.net/images/*.gif
 ||dio88.net/images/*.gif
 ||dio99.com/images/*.gif
 ||dioguitar23.*/images/*.gif
@@ -4921,6 +4923,7 @@ mg*.6park.com/img/$image
 ||playad.xjmg.com^
 ||playgm.cn/data/attachment/portal/
 ||plurk.com/Ads/
+||pmb.tj.ali213.net/js/
 ||pme10.com/zbs/gs/ad_
 ||poco.cn/mypoco/myphoto/20140330/21/5589980820140330214657064.jpg
 ||poco.cn/mypoco/myphoto/20140418/18/5589980820140418182334072.gif
@@ -6110,16 +6113,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||202.102.26.253:8182/files/7/lhzs1k.jpg
-||pmb.tj.ali213.net/js/
-||dio66.net/images/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sogou.com###kmap-business-container
-sogou.com##DIV[class^="vr-shopping"]
-pic.sogou.com##.floating
-oneinstack.com###text-3
-lanzou.com##DIV[style="text-align: center;border: 1px solid #eee;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6463,6 +6458,7 @@ microcontrol.cn###body > table[width="758"]
 wanmei.com###body_right
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id]
 qq.com###bottom-sponsor
+wapwenku.baidu.com,wk.baidu.com###bottomFixed
 auto.sina.com.cn###bottomInquryBar
 masok.cn###bottomLayer
 51feibao.com###bottom_fu
@@ -6908,6 +6904,7 @@ nazolog.com###kf2a
 jinzhuedu.com###kfbox
 0597kk.com###kk_content1_left_ad1
 0597kk.com###kk_oTransContainer2
+sogou.com###kmap-business-container
 sogou.com###kmap_business_title
 sogou.com###kmap_business_ul
 douni.com###lad_1
@@ -7276,7 +7273,7 @@ free.com.tw###text-124
 aijava.cn###text-15
 tumutanzi.com,wuleba.com###text-2
 blog.trendmicro.com.tw###text-27
-moe-acg.cc###text-3
+moe-acg.cc,oneinstack.com###text-3
 blog.trendmicro.com.tw###text-30
 blog.trendmicro.com.tw###text-31
 vjmedia.com.hk###text-33
@@ -8401,6 +8398,7 @@ ledinside.cn##.floatAD
 totuwo.com,yzfcn.cn##.floatAd
 iqiyi.com##.float_div
 iqiyi.com##.float_div_r
+pic.sogou.com##.floating
 07073.com##.fmt16
 house.shangdu.com##.fmt_main
 newcger.com##.focus + .block934
@@ -9720,7 +9718,6 @@ xilu.com##.xlad
 xilu.com##.xladAdvList
 muchong.com##.xmc_Logo + .xmc_fr
 muchong.com##.xmc_green + a[href^="creditshow."]
-wapwenku.baidu.com,wk.baidu.com###bottomFixed
 21cn.com##.xuantu
 xkb.com.cn##.xwAd
 zhiboba.cc##.xwrgg_1
@@ -10055,6 +10052,7 @@ vvic.com##div[class^="side"]
 21cn.com##div[class^="topAds"]
 gamme.com.tw##div[class^="topad_"]
 tuzuan.com##div[class^="tuzuanad"]
+sogou.com##div[class^="vr-shopping"]
 5011.net##div[class^="wljs-"]
 narutom.com##div[class^="wrap2 vtg"]
 yahoo.com##div[data-ad-feedback-beacon]
@@ -10252,6 +10250,7 @@ win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 muchong.com##div[style="padding:8px 10px;font-size:14px; background: #fff; border: 1px solid #648EB2;"] > table > tbody > tr > td:first-child
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
+lanzou.com##div[style="text-align: center;border: 1px solid #eee;"]
 fg.cc##div[style="text-align:center;"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
