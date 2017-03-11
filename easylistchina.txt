@@ -12,6 +12,8 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+/30814100317.gif
+/30814100318.gif
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -39,8 +41,6 @@
 .tv/js/ads/
 .us/js/ads/
 .xyz/js/ads/
-/120704004750.gif
-/120704004751.gif
 /122300031760.gif
 /1867fa6ff2e978a303d41b08e2b30b50.gif
 /20160420_uho_bn.gif
@@ -541,6 +541,7 @@ _popAds.
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="]
 ##a[href*="/?intr="]
+##A[href^="/freeone/htm/"]
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
@@ -5292,7 +5293,6 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/005SEx68jw1eu85tbdd2rg30d001oaa0.jpg
 ||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
-||sinaimg.cn/large/0066A9h6gw1fbdmctew4cg30qo028agm.gif
 ||sinaimg.cn/large/4bab3bccgw1fakos6x37xj20qe0akq7x.jpg
 ||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
 ||sinaimg.cn/large/5ff1c93agw1fbqnzzraosj205l02iaav.jpg
