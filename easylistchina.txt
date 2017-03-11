@@ -3843,6 +3843,7 @@ mg*.6park.com/img/$image
 ||gtimg.com/sports/images/30090.jpg
 ||gtimg.com/v/pics/hv1/88/83/1734/112774603.jpg
 ||gtimg.com/web/default_fodders/300x600_$~collapse
+||gtimg.com/www/mobi/js/app-bar-
 ||gtimg.com/www/test/300_250.swf
 ||gtimg.com^*/ad/
 ||gtimg.com^*/adv/
@@ -4705,6 +4706,8 @@ mg*.6park.com/img/$image
 ||mycodes.net/js/$image
 ||mycodes.net/js/down_txt.js
 ||mycodes.net/js/hf_txt.js
+||mydrivers.com/m/apptuijian.
+||mydrivers.com/news/2017/*-260.
 ||mydrivers.com/news/2017/*-580.
 ||mydrivers.com/news/2017/pc_hsb_677_210.gif
 ||mygeek.cn/pic_$domain=dapenti.com
@@ -4975,6 +4978,7 @@ mg*.6park.com/img/$image
 ||qdmm.com/javascript/NewSNDAPop.js
 ||qdmm.com/javascript/SNDAADAltern.js
 ||qhf168.com/data/attachment/portal/
+||qhimg.com/static/*/common/seed.js
 ||qhnews.com/tupian/
 ||qianhua.*/data/attachment/portal/
 ||qianlong.com/vda/$script
@@ -5100,6 +5104,7 @@ mg*.6park.com/img/$image
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rar8.net/htmljs/
 ||ratedxbiz.com/d/
+||rayfile.com/media/img/rili_
 ||read.2200book.com/images/bloading.gif
 ||readnovel.com/js/$subdocument
 ||ref.so/templates/ref/images/client/tg*.jpg
@@ -6113,17 +6118,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||qhimg.com/static/*/common/seed.js
-||gtimg.com/www/mobi/js/app-bar-
-||mydrivers.com/news/2017/*-260.
-||mydrivers.com/m/apptuijian.
-||rayfile.com/media/img/rili_
 !------------------------Specific element hiding rules------------------------!
-m.mydrivers.com##.share
-bdstatic.com###artnewdiv
-btime.com##.seed-item
-jrj.com.cn##.bg2424
-yaolan.com###ad_jiaban_div
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6308,6 +6303,7 @@ autohome.com.cn###ad_ic_video
 7lili.com###ad_index_1
 7lili.com###ad_index_2
 7lili.com###ad_index_3
+yaolan.com###ad_jiaban_div
 fengbao.com###ad_lazyload
 babyhome.com.tw###ad_m_peacock
 udn.com###ad_mag
@@ -6396,6 +6392,7 @@ zhuankebar.com###article-cnt > a
 fzlbase.com###article_extinfo + .block-long
 doyo.cn###article_top_down
 tingvoa.com###articletopimg
+bdstatic.com###artnewdiv
 baidu.com###asideLeft
 baidu.com###asideRight
 163.com###atleCB + .footer
@@ -8058,6 +8055,7 @@ yesky.com##.bdtj
 pinshan.com##.bea_adv2
 dnvod.eu##.bfq-r
 uc123.com##.bg-wrapper
+jrj.com.cn##.bg2424
 duba.com##.bgOpen
 hehagame.com##.bg_ad
 265g.com##.bg_ban
@@ -9292,6 +9290,7 @@ dict.cn##.search-right-ad7
 duba.com##.search_promotion
 ijia360.com##.search_radlist
 cnool.net##.second-banner
+btime.com##.seed-item
 zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
 peasyun.com##.sf_adv
@@ -9300,6 +9299,7 @@ wbzol.com##.sg
 sogou.com##.sg-ad
 sogou.com##.sg-ad-r
 17173.com##.shadowPage
+m.mydrivers.com##.share
 xilu.com##.shehuibanner
 pinggu.org##.sheji-g
 0452e.com##.shop
@@ -11154,12 +11154,10 @@ gamer.com.tw#@#.text_ads
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 ! Baidu Union
-&pss=
 &pdbid=$subdocument
+&pss=
 ?pdbid=$subdocument
 |http://*/s?di=u
-||dm.jb51.net^
-||milk.yesky.com.cn^
 ||1.rengshu.com^
 ||1.win7china.com^
 ||3.guidaye.com^
@@ -11169,6 +11167,7 @@ gamer.com.tw#@#.text_ads
 ||d6.mobaders.com^
 ||daima.chazidian.com^
 ||daima.huoche.net^
+||dm.jb51.net^
 ||dn7788.com^
 ||feidalu.com^
 ||firefang.cn^
@@ -11178,8 +11177,9 @@ gamer.com.tw#@#.text_ads
 ||gzlykj.cn^
 ||hehe1.200218.com^
 ||lele999.com^
-||wapscript1.360doc.cn^
+||milk.yesky.com.cn^
 ||sscm1.mipujia.com^
+||wapscript1.360doc.cn^
 ||whn.star-media.cn^
 ||yhzm.cc^
 ||yjbys.org^$third-party
