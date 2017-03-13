@@ -4782,6 +4782,7 @@ mg*.6park.com/img/$image
 ||on.cc/js/v2/iframe_ysm_
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
+||onlinedown.net/Public/img/bomAD.jpg
 ||opinion.people.com.cn/GB/
 ||opticsky.cn/images/2015/gy-px201
 ||opticsky.cn/images/2016/240X60.png
@@ -6108,12 +6109,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||onlinedown.net/Public/img/bomAD.jpg
 !------------------------Specific element hiding rules------------------------!
-onlinedown.net##.btmAD
-baidu.com##.slide-bner-adv-ret
 gpcxw.com###AA2
-onlinedown.net##DIV[style="position: fixed;left:50%;margin-left:-645px;margin-top: -145px;top:50%;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8124,6 +8121,7 @@ hao123.com##.browsertip
 anywlan.com##.bscekvofc_o
 lotour.com##.btad
 163.com##.btm-ad
+onlinedown.net##.btmAD
 ifeng.com##.btm_tg
 aizhan.com##.btn
 cssmoban.com##.btn-host
@@ -9370,6 +9368,7 @@ iask.sina.com.cn##.sj_300x250
 iask.sina.com.cn##.sj_680x90
 soku.com##.sk_banner
 fuli.us##.slick
+baidu.com##.slide-bner-adv-ret
 9766.com##.slideAutoplay
 cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
 duba.com##.slidebar
@@ -10254,6 +10253,7 @@ zhidao.baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250
 muchong.com##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 muchong.com##div[style="padding:8px 10px;font-size:14px; background: #fff; border: 1px solid #648EB2;"] > table > tbody > tr > td:first-child
+onlinedown.net##div[style="position: fixed;left:50%;margin-left:-645px;margin-top: -145px;top:50%;"]
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
 lanzou.com##div[style="text-align: center;border: 1px solid #eee;"]
