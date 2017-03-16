@@ -549,7 +549,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||jkmxy.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1293,6 +1292,7 @@ ubmcmm.baidustatic.com
 ||jixing8.net^$third-party
 ||jiyou2014.com^
 ||jk939.com^
+||jkmxy.com^
 ||jl027.com^
 ||jlssbz.com^
 ||jnrsjm.com^
@@ -3425,6 +3425,7 @@ mg*.6park.com/img/$image
 ||daohangtx.com/jishudaohang/indextop.js
 ||daqianduan.com/wp-content/uploads/*/ads*.jpg
 ||dashi.cn/134.gif
+||dataguru.cn/site_
 ||db28.cn/cache/ads.js
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
@@ -5682,6 +5683,7 @@ mg*.6park.com/img/$image
 ||wanyx.com/Public/js/cqby.swf
 ||wap.xxbiquge.com^*.html$script
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
+||warting.com/plus/*.php?aid=
 ||warting.com/plus/hz.php?aid=
 ||wbzol.com/images/1120-
 ||wbzol.com/swf/352X76.swf
@@ -6100,23 +6102,14 @@ mg*.6park.com/img/$image
 ||zuoche.com/promo/*.jspx
 ||zxba.cc/js/*.gif
 ||zxip.com/2013_ad/
+||zzc.cn/b1/live_b_
 ||zzidc.com/img/
 ||zzidc.com^*0.gif
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||zzc.cn/b1/live_b_
-||warting.com/plus/*.php?aid=
-||dataguru.cn/site_
 !------------------------Specific element hiding rules------------------------!
-warting.com##.list_native
-warting.com##.love_hz2
 gpcxw.com###AA2
-megatime.com.tw###ad_type_9
-megatime.com.tw###sixi
-megatime.com.tw##.tripplead
-megatime.com.tw##div[class^="ad_ec"]
-megatime.com.tw##div[id^="ad_div_"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6318,6 +6311,7 @@ taoguba.com.cn###ad_tgb_list
 qidian.com###ad_tjword
 sina.com.cn###ad_tl_01
 gaokao.com###ad_top_gkw
+megatime.com.tw###ad_type_9
 baidu.com###ad_xbox_1
 baidu.com###ad_xbox_2
 baidu.com###ad_xbox_3
@@ -7229,7 +7223,7 @@ douyu.com,douyutv.com###sign_p_1
 udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 hexieshe.com###single-main-content + p
-pchome.com.tw###sixi
+megatime.com.tw,pchome.com.tw###sixi
 etnet.com.hk###skinnerads
 12306.cn,club.pchome.net,kdslife.com###slideBox
 12306.cn###slideRBox
@@ -8853,6 +8847,7 @@ niotv.com##.list[height="60"]
 qqbody.com##.list_300
 tvhome.com##.list_Ad
 nick18.com,niko18.com##.list_ads
+warting.com##.list_native
 qunar.com##.list_promotion_bar
 58.com##.listpage_detail
 sjzbus.com.cn##.litBanner
@@ -8869,6 +8864,7 @@ qinbing.cn##.logo_right
 sd888.org##.loshow
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.lot_wrap
 sohu.com##.lottery-box
+warting.com##.love_hz2
 kekenet.com##.lp_r_bar:first-child
 city.163.com,news.163.com##.ls-inner > div:not([class])
 jrj.com.cn##.ls_all_fc
@@ -9594,7 +9590,7 @@ ifeng.com##.trade
 dict.baidu.com##.tran-download-ad
 fanyi.baidu.com##.trans-side-ad-wrap
 tw.yahoo.com##.travelads
-pchome.com.tw##.tripplead
+megatime.com.tw,pchome.com.tw##.tripplead
 ts.cn##.tsggding
 hualady.com##.tu_guangao
 hualady.com##.tu_guangao2
@@ -10018,7 +10014,7 @@ ifeng.com##div[class^="adList"]
 www.qq.com##div[class^="adRight"]
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com,alibuybuy.com,chewen.com,faloo.com,newhua.com,ph66.com,tv.cntv.cn##div[class^="ad_"]
 uuu9.com##div[class^="ad_140"]
-pchome.com.tw##div[class^="ad_ec"]
+megatime.com.tw,pchome.com.tw##div[class^="ad_ec"]
 zhongsou.com##div[class^="ad_sp"]
 fang.com##div[class^="add2"]
 weather.com.cn##div[class^="adpos"]
@@ -10111,7 +10107,7 @@ vpser.net##div[id^="ab_thread"]
 ettoday.net##div[id^="abp"]
 makepolo.com,mycar168.com,pchome.net,qz828.com##div[id^="ad"]
 58.com,pcpop.com##div[id^="ad_"]
-pchome.com.tw##div[id^="ad_div_"]
+megatime.com.tw,pchome.com.tw##div[id^="ad_div_"]
 6.gy##div[id^="ad_dl"]
 cheshi.com##div[id^="ad_pos_"]
 weather.com.cn##div[id^="adpos"]
@@ -11157,7 +11153,6 @@ ck101.com,gamer.com.tw#@#.text_ads
 &pss=
 ?pdbid=$subdocument
 |http://*/s?di=u
-||f1.bizhiku.net^
 ||1.rengshu.com^
 ||1.win7china.com^
 ||3.guidaye.com^
@@ -11171,6 +11166,7 @@ ck101.com,gamer.com.tw#@#.text_ads
 ||dm.jb51.net^
 ||dm.sanwen.net^
 ||dn7788.com^
+||f1.bizhiku.net^
 ||feidalu.com^
 ||firefang.cn^
 ||fmgoal.com^
