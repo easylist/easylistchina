@@ -1899,7 +1899,6 @@ ubmcmm.baidustatic.com
 ||133gp.com^$popup
 ||189.cn/actpush/$popup,third-party
 ||300.bilibilijj.com^$popup
-||37see.com^$popup
 ||550022.com^$popup
 ||9100300.com^$popup
 ||acgpost.taobao.com^$popup,domain=tsdm.me|tsdm.net|tsdm.tw
@@ -4852,7 +4851,6 @@ mg*.6park.com/img/$image
 ||pcpp.com.cn/news/ad/
 ||pcstore.com.tw/css/myacc_init.js
 ||pcworld.com.cn/Article/UploadFiles/201403/2014031016150885.jpg
-||peasyun.com/Uploads/Thumbs/advs_
 ||pedaily.cn/head/js/m.js
 ||penglai.com.cn/UploadFile/image/*.gif
 ||people.com.cn/adv/
@@ -4952,9 +4950,7 @@ mg*.6park.com/img/$image
 ||pub.stockstar.com/feedback/
 ||pub.sxrtv.com/crossdomain.xml
 ||publish.ad.youth.cn^
-||putonghua520.com/skins/10ym/klq
 ||puudeng.com.tw^$subdocument
-||pzxw.cn/1212banner
 ||pzzc.net/data/attachment/ad2/
 ||q.cn/images/floater_
 ||q.cn/images/notepad.gif
@@ -6111,6 +6107,9 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||cloudfront-666.kxcdn.com/v4.js
 !------------------------Specific element hiding rules------------------------!
+p9.com.tw###ad1
+p9.com.tw###ad2
+p9.com.tw##.contentRightAd
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8301,7 +8300,6 @@ yxzoo.com##.downgg
 400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_r
 400gb.com,bego.cc,ctfile.com,pipipan.com##.downpage_rl
 265g.com##.dr_top_text
-p2peye.com##.drag + .mod-side:nth-child(4)
 top81.com.cn##.dsmain_jph
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
 2cha.com,81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,silver.org.cn,sjzbus.com.cn,ttmeiju.com,wendu.cn##.duilian
@@ -9288,7 +9286,6 @@ cnool.net##.second-banner
 btime.com##.seed-item
 zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
-peasyun.com##.sf_adv
 cctry.com##.sftop
 wbzol.com##.sg
 sogou.com##.sg-ad
@@ -9822,7 +9819,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,putonghua520.com,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.li,hacg.red,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
@@ -10637,6 +10634,7 @@ ck101.com,gamer.com.tw#@#.text_ad
 ck101.com,gamer.com.tw#@#.text_ads
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||jdfood.com.tw/Upload/ADImages/*Image.jpg
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -10650,7 +10648,6 @@ ck101.com,gamer.com.tw#@#.text_ads
 @@/adfile/*$domain=221400job.com|cidianwang.com
 @@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 @@/adimage/*$domain=dezhi.com|scyts.com|wacom.tw
-@@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
 @@/adjs_pic_$domain=168gamer.net
 @@/adlogger_tracker.php$domain=serve.netsh.org
