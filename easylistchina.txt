@@ -549,7 +549,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||tsdlp.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1646,6 +1645,7 @@ ubmcmm.baidustatic.com
 ||tpe163.com^
 ||tradeccl.com^
 ||trzina.com^
+||tsdlp.com^
 ||ttlowe.com^
 ||tuiguang.178.com^
 ||tukeai.com^
@@ -2694,6 +2694,7 @@ mg*.6park.com/img/$image
 ||9938.net/video/tvg/footer.js
 ||9938.net/video/tvg/hot.js
 ||999sdh.com/tu/*.js
+||999ss99.com/js/layer.js
 ||999v.me/cs
 ||99btgc01.info/uploads/*.gif
 ||99danji.com/otherhtml/
@@ -2703,6 +2704,8 @@ mg*.6park.com/img/$image
 ||99tianji.com/hack/
 ||99ting.cn/789uc/gg.js
 ||99ting.cn/image/*.gif
+||99vv1.com/img/*.gif
+||99vv1.com/js/layer.js
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
 ||9ht.com/skin2012/js/tlAd.js
@@ -5310,7 +5313,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/unipro/
 ||sinaimg.cn/wap/online/cms/article/formal/js/economyClup.
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|999ss99.com|99re.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu9.com|avtb123.com|avtb234.com|avtb55.com|avtb66.com|bejson.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|fulidh.me|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|kiees.cn|lifan.moe|llj22.com|mamise123.com|mamise456.com|mamise789.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|360bo.cc|46bk.com|500xxxx.com|666hdhd.com|84fn.com|999ss99.com|99re.com|99vv1.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu9.com|avtb123.com|avtb234.com|avtb55.com|avtb66.com|bejson.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|fulidh.me|fulitxx.com|iidvd.com|izzs.cc|jisuzhibo.net|kiees.cn|lifan.moe|llj22.com|mamise123.com|mamise456.com|mamise789.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=btshoufa.net
 ||sinaimg.cn^*/7d1c8e$domain=d5yuansu.com
 ||sinaimg.cn^*/deco/$script
@@ -6117,13 +6120,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||99vv1.com/js/layer.js
-||sinaimg.cn^$domain=99vv1.com
-||99vv1.com/img/*.gif
-||999ss99.com/js/layer.js
 !------------------------Specific element hiding rules------------------------!
-99vv1.com##.spots
-pediy.com##.bbs_footer_advertising_column
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8048,6 +8045,7 @@ dianyingbar.com##.barrageContainer
 news.lzep.cn##.basehr + div:nth-child(3)
 jxedt.com##.bbad
 nick18.com##.bbs_entry_wrapper > table[width="100%"]
+pediy.com##.bbs_footer_advertising_column
 xilu.com##.bbs_topad
 hao.rising.cn##.bd-lmhot
 jrj.com.cn##.bd.pa10.bgn
@@ -9412,7 +9410,7 @@ u148.net##.sponsor-abeam
 northnews.cn##.sponsor02
 sogou.com##.sponsored
 163.com##.sports_300x60_ad1
-999ss99.com,99re.com##.spots
+999ss99.com,99re.com,99vv1.com##.spots
 haosou.com,so.com##.spread
 baidu.com##.spread-wrap
 2345.com##.spreadHotWords
