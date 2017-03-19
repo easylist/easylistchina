@@ -549,9 +549,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||189.gd^*.html$third-party
-||qzkxt.com^
-||sigbusa.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -693,6 +690,7 @@ ubmcmm.baidustatic.com
 ||17zhaole.com^$third-party
 ||180.76.171.28^
 ||182.92.81.104^
+||189.gd^*.html$third-party
 ||18tzx.com^
 ||1i580.com^
 ||1kmb.cn^
@@ -1520,6 +1518,7 @@ ubmcmm.baidustatic.com
 ||qxxys.com^
 ||qyctj.com^
 ||qzdfc.com^
+||qzkxt.com^
 ||rayli.com.cn^$third-party
 ||re.taotaosou.com^
 ||rekanw.com^$third-party
@@ -1560,6 +1559,7 @@ ubmcmm.baidustatic.com
 ||shujuwu.com^$third-party
 ||si9377.com^
 ||sicentlife.com^
+||sigbusa.com^
 ||sin114.com^$third-party
 ||sinaalicdn.com^
 ||sinaaliyun.cn^
@@ -5382,6 +5382,7 @@ mg*.6park.com/img/$image
 ||srzc.com^*/zwfjs/
 ||ssajax.cn/js/info/ads/
 ||ssnn.net^*-200-250.jpg
+||sspai.com/api/v1/advertisements?
 ||sspai.com/attachment/sponsor/
 ||sss.sege.xxx^
 ||starbaby.cc/201608/36/f526d86de292e4.jpg
@@ -5733,6 +5734,8 @@ mg*.6park.com/img/$image
 ||wishdown.com/images/*.gif
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
+||wmzhe.com/contents/37/86/3786322c8c0b7e32151d0dd63c1496d6.gif
+||wmzhe.com/contents/8d/94/8d94744f4da06d2d58371f9623499e9d.gif
 ||wo256.com/256_gg/*.gif
 ||wodexiaoshuo123.com/js/*lun.js
 ||wodexiaoshuo123.com/js/*zhangjie.js
@@ -6113,15 +6116,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||wmzhe.com/contents/37/86/3786322c8c0b7e32151d0dd63c1496d6.gif
-||wmzhe.com/contents/8d/94/8d94744f4da06d2d58371f9623499e9d.gif
-||sspai.com/api/v1/advertisements?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dianyingbar.com##.barrageContainer
-dianyingbar.com##.tmall_1111_left
-tiexue.net##.reloadCont > DIV:first-child
-pyccoo.cn##.adbox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7795,7 +7791,7 @@ zhijia.com##.adb
 ifeng.com##.adbest
 motobuy.com.tw##.adbig
 sina.com.tw##.adbig300_mid
-17173.com,25xt.com,68design.net,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,phoenixtv.com,xineurope.com,yesky.com##.adbox
+17173.com,25xt.com,68design.net,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com##.adbox
 plays01.com##.adbox-bg
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
@@ -8041,6 +8037,7 @@ javlibrary.com##.bannerqq
 fang.com##.bannger_inbox
 mscbsc.com##.bao1
 qixingquan.com##.baoxian
+dianyingbar.com##.barrageContainer
 news.lzep.cn##.basehr + div:nth-child(3)
 jxedt.com##.bbad
 nick18.com##.bbs_entry_wrapper > table[width="100%"]
@@ -9207,6 +9204,7 @@ guba.eastmoney.com##.redian
 drupalchina.cn##.region-header-banner
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
 ithome.com##.related_buy
+tiexue.net##.reloadCont > div:first-child
 3g.cn##.reply_block
 haosou.com,so.com##.res-rich-drug
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.res_top_banner
@@ -9527,6 +9525,7 @@ tieba.baidu.com##.tl_spread
 esnai.com##.tlgg
 srzc.com##.tlgg_one
 maxthon.cn##.tmall-nav-v2
+dianyingbar.com##.tmall_1111_left
 duba.com##.tmall_bg15
 sxrom.com##.tmk
 0898.net,gamefy.cn,hi.people.com.cn##.tonglan
@@ -10633,9 +10632,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||on.cc/html/AC_RunActiveContent.js
-@@||ad4.on.cc/web/$script,xmlhttprequest
-@@||stickyadstv.com/vast/vpaid-adapter/$domain=on.cc
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -10793,6 +10789,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||ad.ourgame.com^
 @@||ad.thsi.cn/siteHome/
 @@||ad.unimhk.com/show.php?$domain=mnighthk.net
+@@||ad4.on.cc/web/$script,xmlhttprequest
 @@||adcdn.pingan.com^
 @@||addon.discuz.com/resource/*/ad
 @@||adjs.8591.com.tw^$script
@@ -10981,6 +10978,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||news.u17i.com/advert/
 @@||noahedu.com/ad/$domain=noahedu.com
 @@||omusic.com.tw/backend/uploadpic/adindex/
+@@||on.cc/html/AC_RunActiveContent.js
 @@||online.unionpay.com/ads/$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=download.mokeedev.com|gamer.com.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|7958.com.cn|download.mokeedev.com|mfgun.com|monnsutogatya.com
@@ -11056,6 +11054,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||sozi.cn/images/ad/tj
 @@||static.atm.youku.com^*.swf
 @@||static.hdslb.com/ad-images/$image
+@@||stickyadstv.com/vast/vpaid-adapter/$domain=on.cc
 @@||studioclassroom.com/ad/
 @@||sudupan.com^*/*.gif
 @@||swsc.com.cn/download/ad_images/
@@ -11160,9 +11159,9 @@ ck101.com,gamer.com.tw#@#.textAd
 ck101.com,gamer.com.tw#@#.text_ad
 ck101.com,gamer.com.tw#@#.text_ads
 ! Baidu Union
-?pss=
-&pcn=
 ###cpro_container
+&pcn=
+?pss=
 ||1.panduoduo.net^
 ||1.rengshu.com^
 ||1.win7china.com^
