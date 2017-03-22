@@ -551,7 +551,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||guoshennet.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1196,6 +1195,7 @@ ubmcmm.baidustatic.com
 ||guduopu.com^
 ||gugeys.com^$third-party
 ||gugulonger.cn^
+||guoshennet.com^
 ||gydag.com^
 ||gzbywl.com^$third-party
 ||gzktpf.com^
@@ -2111,7 +2111,7 @@ mg*.6park.com/img/$image
 ||0086crane.com/file/upload/201410/28/09-56-17-58-6723.swf
 ||020.com/960-
 ||020.com/yayang
-||027cgb.cn^$domain=172.86.179.138|208.94.244.98|208.94.244.100|a88.us|ac168.info|ac88.info|aisex.com
+||027cgb.cn^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com
 ||027down.com/images/banner760-60.gif
 ||0379home.com/public/js/ad_pic.js
 ||0379home.com/public/js/beside.js
@@ -2385,6 +2385,7 @@ mg*.6park.com/img/$image
 ||33xs.com/js/d.js
 ||33xs.com/js/g
 ||33xs.com/js/mg
+||3454.com/zh/flash/d
 ||3464.com/Script/RightWindows.js
 ||3520.cc/js/3520/
 ||356ys.com/template/tieniudy/images/g_js/
@@ -2424,6 +2425,7 @@ mg*.6park.com/img/$image
 ||3dm.huya.com^
 ||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
+||3dmgame.com/templets/xiazai/js/getwindow.js
 ||3dst.com/template/img/buy.gif
 ||3g.cn/baidualading/
 ||3g.qq.com/lview?
@@ -5300,7 +5302,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=360zhibo.com|ballive.com|chakd.com|kqiuba.com|pptiyu.com|qqlubo.net
-||sinaimg.cn/large/*.gif$domain=mp4ba.la
+||sinaimg.cn/large/*.gif$domain=mp4ba.la|seehd.co
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/005SEx68jw1eu85tbdd2rg30d001oaa0.jpg
 ||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
@@ -6136,11 +6138,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||sinaimg.cn/large/*.gif$domain=seehd.co
-||3dmgame.com/templets/xiazai/js/getwindow.js
-||3454.com/zh/flash/d
 !------------------------Specific element hiding rules------------------------!
-3454.com###gg
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6790,7 +6788,7 @@ ruanyifeng.com###gd1
 whnews.cn###gd_l
 whnews.cn###gd_r
 srzc.com###gelao
-zdzdm.com###gg
+3454.com,zdzdm.com###gg
 sdgundam.cn###gg-banner
 vvshu.com###gg120
 855699.com###gg2
@@ -10658,9 +10656,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||moviesunusa.net^$generichide
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=weithenn.org
-@@||weithenn.org^$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -11004,6 +10999,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
 @@||monnsutogatya.com^$elemhide
+@@||moviesunusa.net^$generichide
 @@||nceea.cn/Content/images/ad/
 @@||netsh.org^$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@||news.u17i.com/advert/
@@ -11013,7 +11009,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||online.unionpay.com/ads/$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=download.mokeedev.com|gamer.com.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|7958.com.cn|download.mokeedev.com|mfgun.com|monnsutogatya.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com|weithenn.org
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk/player-$generichide
 @@||passiontimes.hk^*-ad.php?
@@ -11141,6 +11137,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||weike22.com/images/*_
 @@||weike22.com/images/fbxx.gif
 @@||weike22.com/images/hyzx.gif
+@@||weithenn.org^$generichide
 @@||wenxuecity.com/js/ads.js
 @@||wgun.net^$elemhide
 @@||whichav.com^$generichide
@@ -11196,7 +11193,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 &pcn=
 ?pss=
 |http://*&uc=
-||dm.ws8.org^
 ||1.panduoduo.net^
 ||1.rengshu.com^
 ||1.win7china.com^
@@ -11211,6 +11207,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||daima.huoche.net^
 ||dm.jb51.net^
 ||dm.sanwen.net^
+||dm.ws8.org^
 ||dn7788.com^
 ||f1.bizhiku.net^
 ||feidalu.com^
