@@ -2149,6 +2149,7 @@ mg*.6park.com/img/$image
 ||100ksw.com/include/ksbdfd.js
 ||100yangsheng.com/a1/a.js
 ||101.78.195.135/js/
+||1010pic.com/scripts/hd/yueyue3.js
 ||1024down.com/images/*.gif
 ||103.225.198.230:8080/index.html
 ||107.182.131.103/cache/?q=/images/
@@ -6142,14 +6143,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||1010pic.com/scripts/hd/yueyue3.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-1010jiajiao.com##DIV[style="width:300px;border: 1px solid #aaaaaa; position:fixed; bottom:1px; right:1px; z-index:12"]
-youku.com##A[href*=".tmall.com"]
-muchong.com###creditegg
-muchong.com##A[href^="a"][target="_blank"]
-muchong.com##style + .wrapper + .hr_10 + .wrapper:nth-child(15)
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6607,6 +6602,7 @@ sg169.com###couprigth
 1688.com###cpm-ad-2
 nownews.com###crazy-video
 yahoo.com###crazyAD
+muchong.com###creditegg
 ipc.me###crumb_r
 wpsoso.com###cse-search-box > p
 chzhw.com###ct3 + #ty
@@ -9863,7 +9859,7 @@ iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
 acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.red,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 nxing.cn##a[href*=".taobao.com/"]
-gmgard.com,hexieshe.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn##a[href*=".tmall.com"]
+gmgard.com,hexieshe.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn,youku.com##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
 letv.com##a[href*=".vip.com"]
@@ -9917,6 +9913,7 @@ bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
+muchong.com##a[href^="a"][target="_blank"]
 muchong.com##a[href^="adlog."] > img[height="90"]
 muchong.com##a[href^="adlog.php?adid="]
 muchong.com##a[href^="alog.php?id="]
@@ -10318,6 +10315,7 @@ auto-online.com.tw##div[style="width:160px;height:480px;margin:0;background:#000
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 108.62.192.124,plus28.com##div[style="width:270px; height:180px;"]
 backchina.com##div[style="width:300px; min-height: 250px; background-color: #f5f5f5; margin:0;"]
+1010jiajiao.com##div[style="width:300px;border: 1px solid #aaaaaa; position:fixed; bottom:1px; right:1px; z-index:12"]
 bendibao.com##div[style="width:300px;height:250px;float:left;margin:5px 25px 15px 0;"]
 jinti.com##div[style="width:300px;height:250px;margin-bottom:10px;"]
 liaoxuefeng.com##div[style="width:336px;height:280px;float:left;"]
@@ -10438,6 +10436,7 @@ hkgolden.com##span[id^="lineImage"]
 bilibili.com##span[style*="height:"][data-loc-id]
 zhlzw.com##span[style^="float:left;height:"]
 hanzify.org##span[style^="float:right;"]
+muchong.com##style + .wrapper + .hr_10 + .wrapper:nth-child(15)
 tiexue.net##style + script + div + div[class]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
@@ -10667,7 +10666,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||alicdn.com/mm/tb-page-peel/
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -10841,6 +10839,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||afpeng.alimama.com^$domain=crecgec.com
 @@||airchina.com.cn/dynamicAd/
 @@||alicdn.com/g/mm/afp-cdn/JS/k.js$domain=crecgec.com
+@@||alicdn.com/mm/tb-page-peel/
 @@||alimama.com^$domain=tanx.com
 @@||angpic.3g.net.cn/ai/*/
 @@||apk.tw^$script,~third-party
@@ -11205,7 +11204,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ?pss=
 |http://*&uc=
 ||1.1010pic.com^
-||kuku99.com^$third-party
 ||1.panduoduo.net^
 ||1.rengshu.com^
 ||1.win7china.com^
@@ -11232,6 +11230,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||hehe1.200218.com^
 ||js.syiae.com^
 ||jsm.9939.com^
+||kuku99.com^$third-party
 ||lele999.com^
 ||milk.yesky.com.cn^
 ||sscm1.mipujia.com^
