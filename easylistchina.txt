@@ -551,7 +551,6 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
-||wole.us^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1749,6 +1748,7 @@ ubmcmm.baidustatic.com
 ||wodemeitu.com^$third-party
 ||wodhid.com^
 ||wofan.net^$third-party
+||wole.us^
 ||wowips.com^
 ||wqsph.net^
 ||wqzyt.net^$third-party
@@ -2854,6 +2854,7 @@ mg*.6park.com/img/$image
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||airouba.com/public/js/global.js
 ||aitaotu.com/style/js/aitaotu
+||aixifan.com/cms/*/w/1160/h/100
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/position_
 ||ak47fuli.net/fd.js
@@ -3325,6 +3326,7 @@ mg*.6park.com/img/$image
 ||chuangshi.qq.com/upload/cmsv2/Banner/
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chubun.com/images/banners/
+||chuiyao.com/static/jsa/
 ||chunxiao.tv/1.aspx
 ||chyangwa.net/block/bb/
 ||cidianwang.com/images/taobao/
@@ -3743,6 +3745,7 @@ mg*.6park.com/img/$image
 ||fulisuo7.top^*.gif
 ||fullyu.com/js-lib/jquery.modal.
 ||fumanhua.*/images/g_js/$subdocument
+||fumanhua.net/js/
 ||fun.ynet.com^
 ||func.tw/image/func2.png
 ||funshion.net.cn/ad?
@@ -5322,6 +5325,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/d3a48243tw1e9ku3qboj1j207e02aq2y.jpg
 ||sinaimg.cn/large/d63ab74bjw1fb16iy59gmj20g402sq3x.jpg
 ||sinaimg.cn/large/df8f080agw1f47u58kr42j20dw0dwadl.jpg
+||sinaimg.cn/large/e6b79078ly1fdwzlienvfg20uk01odg0.gif
 ||sinaimg.cn/large/ed5e6a1dly1fbvwgnxd2cj20r808cajy.jpg
 ||sinaimg.cn/mw690/006pfRVrjw1f2mzpvp18jg305k05kgqg.gif
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
@@ -5463,6 +5467,7 @@ mg*.6park.com/img/$image
 ||sznews.com/*.files/$image,object
 ||sznews.com/css/$script
 ||t.58xs.com/hot/
+||tahua.net/data/attachment/portal/201703/21/233755lz041e6dp6eegl1p.jpg
 ||taizhou.com.cn/52.files/a*20
 ||taizhou.com.cn/52.files/c120151010.swf
 ||taizhou.com.cn^*/3890.files/xchad.jpg
@@ -6142,16 +6147,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||chuiyao.com/static/jsa/
-||sinaimg.cn/large/e6b79078ly1fdwzlienvfg20uk01odg0.gif
-||tahua.net/data/attachment/portal/201703/21/233755lz041e6dp6eegl1p.jpg
-||aixifan.com/cms/*/w/1160/h/100
-||fumanhua.net/js/
 !------------------------Specific element hiding rules------------------------!
-acfun.cn###bd_ad1
 gpcxw.com###AA2
-dl.pconline.com.cn##.box-push
-tahua.net###frameJjnBIp
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6465,6 +6462,7 @@ muchong.com###bbsmain > div[style="padding:10px 0;"] > table
 cntv.cn###bbspop
 gamme.com.tw###bd
 dm456.com###bdSider
+acfun.cn###bd_ad1
 makaidong.com###bdcs
 sogou.com###bdfs0
 baidu.com###bdyx_float_rb
@@ -6767,6 +6765,7 @@ tvapk.net###frame5zglZ4
 2muslim.com###frameD3x9G6_center > :nth-child(2n)
 lysq.com###frameD955k5
 zb7.com###frameHeXI7z
+tahua.net###frameJjnBIp
 3dezu.com###frameK221mK
 shhhy.org###frameMLzskg_left
 dabin69.com###frameOa2lrD
@@ -8147,6 +8146,7 @@ bunnygo.net##.box-1
 sz.zj.cn##.box-1-l
 010lm.com##.box-bd
 114la.com,ylmf.com##.box-hot
+dl.pconline.com.cn##.box-push
 sportsv.net##.box.ad
 csdn.net##.box.hot
 0772fang.com##.box0
@@ -10671,9 +10671,6 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||fumanhua.net/js/a.js
-@@||fumanhua.net/js/b.js
-@@/adjs_pic_$domain=tahua.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
@@ -10689,7 +10686,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 @@/adimage/*$domain=dezhi.com|scyts.com|wacom.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
-@@/adjs_pic_$domain=168gamer.net
+@@/adjs_pic_$domain=168gamer.net|tahua.net
 @@/adlogger_tracker.php$domain=serve.netsh.org
 @@/ADmediaJS/panda0305_1972_11454_12120_$domain=ilowkey.net
 @@/adpic/*$domain=czsrc.com|nieyou.com|ontheup.com.tw|zform.net
@@ -10948,6 +10945,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||forum.51nb.com/images/*/
 @@||fscinda.com/ad/$~third-party
+@@||fumanhua.net/js/a.js
+@@||fumanhua.net/js/b.js
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
