@@ -552,16 +552,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||1d1px.net^
-||hnctsm.com^
-||hbalx.cn^
-||fst360.com^
-||lucting.cn^
-||weixiangzu.cn^
-||aishiguolong.com^
-||189.cn^*/push/$third-party
-||flowcodeapp.com^
-||gd.189.cn^*.htm?SP=$third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -706,8 +696,10 @@ ubmcmm.baidustatic.com
 ||17zhaole.com^$third-party
 ||180.76.171.28^
 ||182.92.81.104^
+||189.cn^*/push/$third-party
 ||189.gd^*.html$third-party
 ||18tzx.com^
+||1d1px.net^
 ||1i580.com^
 ||1kmb.cn^
 ||1kzh.com^
@@ -925,6 +917,7 @@ ubmcmm.baidustatic.com
 ||aidaicn.com^$third-party
 ||aifei.info^$third-party
 ||aimato.com^$third-party
+||aishiguolong.com^
 ||ajaxcdn.org^
 ||ajhdf.com^$third-party
 ||ajuhd.com^
@@ -1168,9 +1161,11 @@ ubmcmm.baidustatic.com
 ||fjkst.com^
 ||fjmeyer.com^
 ||flashwing.net^$third-party
+||flowcodeapp.com^
 ||fmad.cc^$third-party
 ||fnkjj.com^
 ||founseezb.cn^
+||fst360.com^
 ||fthcz.com^
 ||fu68.com^
 ||fujianryt.com^
@@ -1186,6 +1181,7 @@ ubmcmm.baidustatic.com
 ||gameone.com^$third-party
 ||gansha.co^$third-party
 ||gclick.cn^$third-party
+||gd.189.cn^*.htm?SP=$third-party
 ||gdbly.com^
 ||gdxxb.com^$third-party
 ||ge95.com^
@@ -1233,6 +1229,7 @@ ubmcmm.baidustatic.com
 ||haomm.com^$third-party
 ||haoyiwang.net^$third-party
 ||hauchi.com.tw^$third-party
+||hbalx.cn^
 ||hbsimg.com^$third-party
 ||hcreditx.com^
 ||heima8.com^$third-party
@@ -1246,6 +1243,7 @@ ubmcmm.baidustatic.com
 ||hivecn.cn^
 ||hmp33.com^
 ||hn163fck.com^$third-party
+||hnctsm.com^
 ||hnyny.com^
 ||houdaolj.com^
 ||housefun.com.tw^$third-party
@@ -1417,6 +1415,7 @@ ubmcmm.baidustatic.com
 ||lthxz.cn^
 ||lu.sogou.com^
 ||lubosheng.cn^
+||lucting.cn^
 ||lv711.net^$third-party
 ||lx167.com^$third-party
 ||lyaeccn.com^
@@ -1748,6 +1747,7 @@ ubmcmm.baidustatic.com
 ||weareqy.com^$third-party
 ||weddingeeos.com^$third-party
 ||weiqiqu.cn^
+||weixiangzu.cn^
 ||weizhanle.com^$third-party
 ||werpig.com^
 ||wgnlz.com^
@@ -3713,6 +3713,7 @@ mg*.6park.com/img/$image
 ||faxingw.cn/js/detailgcbox.js
 ||faxingw.cn/js/jiafa
 ||faxingw.cn/js/wenba.js
+||fcai.com/ifengIndex.html
 ||fdc.com.cn/cms/js/bbs/bbstonglan.js
 ||fdc.com.cn/cms/js/bbs/dl.js
 ||fdc.com.cn/cms/js/home_js/*_move_
@@ -4131,6 +4132,7 @@ mg*.6park.com/img/$image
 ||ibook8.com/xia*.js
 ||iciba.com/web/co/ci/
 ||iciba.com/www/img/activity/common/active-11-11.js
+||iclient.ifeng.com^
 ||icnkr.com/cnkradv/
 ||icnkr.com/data/attachment/portal/
 ||idcot.com^
@@ -4693,6 +4695,7 @@ mg*.6park.com/img/$image
 ||mhhf.net/fserFiles/711x90.jpg
 ||mianbao99.com/a/mianbao/
 ||mianbao99.com/bd/
+||miaobige.com/react.js?id=
 ||miaobige.com/wap/wap_xia
 ||microcontrol.cn/bbs/images/AD755_150.swf
 ||microcontrol.cn/HomeImages/AD/
@@ -4751,6 +4754,7 @@ mg*.6park.com/img/$image
 ||msn.com/homep_ad
 ||mt30.com/ok/
 ||mtime.cn/tg/
+||muyuge.com/fw.html/
 ||muyuge.com/js/bb/
 ||muyutian.*/db.js
 ||mw6.me/images/*.gif
@@ -4984,6 +4988,7 @@ mg*.6park.com/img/$image
 ||ppsj.com.cn/images/usa_250_120.gif
 ||ppsj.com.cn/ppsj728.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||ppty.tv/index/js/float.js
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||price.com.hk/dfp_price.php?
@@ -6164,17 +6169,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||ppty.tv/index/js/float.js
-||miaobige.com/react.js?id=
-||muyuge.com/fw.html/
-||fcai.com/ifengIndex.html
-||iclient.ifeng.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-souqiu8.com##A[href^="http://www.444365.org/"]
-souqiu8.com##A[href^="http://www.888zr.com"]
-sea-group.org###text-7
-hacg.fi,hacg.red##A[href^="/gg/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7353,7 +7349,7 @@ realtw.com###text-37
 zreading.cn###text-5
 uisdc.com###text-6
 realtw.com###text-67
-htcui.com###text-7
+htcui.com,sea-group.org###text-7
 zreading.cn###text-8
 wuleba.com###text-9
 pbhz.com###text-html-widget-2
@@ -9944,6 +9940,7 @@ btmee.net##a[href="http://www.tk001.com/?btmee"]
 bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
+hacg.fi,hacg.red##a[href^="/gg/"]
 shaoit.com##a[href^="/go/"]
 muchong.com##a[href^="a"][target="_blank"][href$=".html"]
 muchong.com##a[href^="adlog."] > img[height="90"]
@@ -9984,8 +9981,10 @@ qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 backchina.com##a[href^="http://www.21usdeal."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
+souqiu8.com##a[href^="http://www.444365.org/"]
 allyingshi.com,zimuzu.tv,zmz2017.com##a[href^="http://www.6.cn/coop/"]
 v.baidu.com##a[href^="http://www.602.com/"]
+souqiu8.com##a[href^="http://www.888zr.com"]
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 cnbeta.com##a[href^="http://www.dangbei.com/"]
@@ -11234,13 +11233,11 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 &pcn=
 ?pss=
 |http://*&uc=
-||mipujia.com^$third-party
-||200218.com^$third-party
-||star-media.cn^$third-party
 ||1.1010pic.com^
 ||1.panduoduo.net^
 ||1.rengshu.com^
 ||1.win7china.com^
+||200218.com^$third-party
 ||3.guidaye.com^
 ||52lubo.cn^
 ||a.fengyx.com^
@@ -11266,6 +11263,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||kuku99.com^$third-party
 ||lele999.com^
 ||milk.yesky.com.cn^
+||mipujia.com^$third-party
+||star-media.cn^$third-party
 ||wapscript1.360doc.cn^
 ||yhzm.cc^
 ||yjbys.org^$third-party
@@ -11318,6 +11317,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taobao.com|tmall.com
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||bagehd.com/iplookup.
+@@||cmstool.youku.com/cms/player/userinfo/
 @@||count.video.sina.com.cn^*?video_ids=
 @@||cupid.iqiyi.com/crossdomain.xml
 @@||cupid.iqiyi.com/show2?a=qc_
@@ -11344,5 +11344,4 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tbcdn.cn^*/click_track.js
 @@||tmall.com/add?
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@||cmstool.youku.com/cms/player/userinfo/
 !----------------------------------The End------------------------------------!
