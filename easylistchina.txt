@@ -547,9 +547,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||cmslayue.com^
-||cnzzlink.com^
-||dalianhengtai.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1014,6 +1011,7 @@ ubmcmm.baidustatic.com
 ||cj-cy.com^
 ||cloudad.asia^$third-party
 ||cmaxisolation.com^
+||cmslayue.com^
 ||cnbole.net^
 ||cncy8.com^
 ||cnfanglei.com^
@@ -1022,6 +1020,7 @@ ubmcmm.baidustatic.com
 ||cnxad.com^$third-party
 ||cnxad.net^
 ||cnzz.com.so^
+||cnzzlink.com^
 ||code222.com^
 ||code668.com^
 ||coinadv.com^$third-party
@@ -1061,6 +1060,7 @@ ubmcmm.baidustatic.com
 ||d1ad.com^$third-party
 ||d8360.com^$third-party
 ||daima123.cc^
+||dalianhengtai.com^
 ||dante2007.com^
 ||dashet.com^
 ||datafastguru.info^
@@ -2196,6 +2196,7 @@ mg*.6park.com/img/$image
 ||119g.com/fanwan1/dibubanner.js
 ||119xiazai.com^$subdocument
 ||11img.com/ad/
+||120.27.*.html
 ||120.27.34.156^
 ||120askimages.com/ask/js/*x.js
 ||120askimages.com/ask/js/q.js
@@ -3796,6 +3797,7 @@ mg*.6park.com/img/$image
 ||gamersky.com^*.htm$subdocument
 ||games.ifeng.com^$subdocument
 ||gamme.com.tw/ga/
+||gamme.com.tw/uploads/*?2
 ||ganji.com/content.php
 ||ganjistatic1.com^*-banner-
 ||ganjistatic1.com^*/adm/
@@ -4057,6 +4059,9 @@ mg*.6park.com/img/$image
 ||house.sina.com.cn/2.0/ads/
 ||house365.com/*ads/201
 ||house365.com/js/lbpopup.js
+||housefindeasy.com/images/*banner978x90.
+||housefindeasy.com/images/b_*.png
+||housefindeasy.com/images/vip_ads
 ||houyi.baofeng.net^*.html
 ||howbbs.net^$domain=ref.so
 ||hqcx.net/index.php?m=poster&
@@ -4759,6 +4764,8 @@ mg*.6park.com/img/$image
 ||mycodes.net/js/$image
 ||mycodes.net/js/down_txt.js
 ||mycodes.net/js/hf_txt.js
+||mydrivers.com/images/huawei360V60P10.gif
+||mydrivers.com/images/mi140V90.gif
 ||mydrivers.com/m/apptuijian.
 ||mydrivers.com/news/2017/*-260.
 ||mydrivers.com/news/2017/*-580.
@@ -5548,6 +5555,7 @@ mg*.6park.com/img/$image
 ||tingvoa.com/images/*img.js
 ||tingvoa.com/images/top_600_80.js
 ||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|fdzone.org|go543.com|jandown.com|mimima.com
+||titan007.com/ad/
 ||tjzan.com/wxpic/asianyi.gif
 ||tk.504pk.com^
 ||tmbbs.com/data/attachment/portal/*.swf
@@ -6148,22 +6156,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||mydrivers.com/images/huawei360V60P10.gif
-||mydrivers.com/images/mi140V90.gif
-||titan007.com/ad/
-||120.27.*.html
-||gamme.com.tw/uploads/*?2
-||housefindeasy.com/images/b_*.png
-||housefindeasy.com/images/*banner978x90.
-||housefindeasy.com/images/vip_ads
 !------------------------Specific element hiding rules------------------------!
-housefindeasy.com##DIV[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"]
-housefindeasy.com##DIV[style="height:90px"]
-housefindeasy.com##div[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"] + DIV[style="display:inline-block"]
-mydrivers.com##DIV[style^="width:1100px; height:90px;"]
-acg18.us###text-html-widget-2 ~ .widget-box
-acg18.us##.buyaoa
-acg18.us##SCRIPT + A[target="_blank"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7343,6 +7336,7 @@ htcui.com,sea-group.org###text-7
 zreading.cn###text-8
 wuleba.com###text-9
 pbhz.com###text-html-widget-2
+acg18.us###text-html-widget-2 ~ .widget-box
 dsqnw.com###text-html-widget-9
 365kl.net###textAD
 sogou.com###text_ad_area
@@ -8189,6 +8183,7 @@ zealer.com##.buy_container
 sogou.com##.buy_mxx
 sogou.com##.buy_vr_dpinfo
 sogou.com##.buy_vr_dpmore
+acg18.us##.buyaoa
 ithome.com##.bx-recom2
 hunantv.com,mgtv.com##.c-95060-top
 myexception.cn##.c_a_3
@@ -10267,6 +10262,8 @@ xilu.com##div[style="border-right:1px solid red; width:629px;height:300px; margi
 tsdm.tv##div[style="border:1px #BFE6F4 solid;width:960px;height:90px;margin:0 auto;"]
 sznews.com##div[style="border:solid 1px #ddd; padding-bottom:10px; padding-top:10px; margin-bottom:10px; width:670px; overflow:hidden; zoom:1; font-family:SimSun ;"]
 th7.cn##div[style="display: block; width: 200px; height: 200px; margin: 10px 20px 10px 0px; float: left; overflow: hidden; clear: both; padding: 4px; border: 1px solid rgb(205, 205, 205);"]
+housefindeasy.com##div[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"]
+housefindeasy.com##div[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"] + div[style="display:inline-block"]
 sinolub.com##div[style="float:left; padding-right:20px;"]
 gamefy.cn,sitv.com.cn##div[style="float:left; width:220px; padding-top:15px;"]
 tianjinwe.com##div[style="float:left; width:312px; height:250px; margin-bottom:10px;"]
@@ -10283,6 +10280,7 @@ sj33.cn##div[style="height:250px;padding:10px 0 20px 0;"]
 loldk.com##div[style="height:270px;width:320px;position:relative;"]
 ipc.me##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 howfile.com##div[style="height:30px;padding:2px;border:1px dashed #555555"]
+housefindeasy.com##div[style="height:90px"]
 panzz.com##div[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
 toutiao.com##div[style="margin-bottom:16px; padding: 20px; background-color: #f4f5f6;"]
@@ -10370,6 +10368,7 @@ tuzuan.com##div[style^="width: 100%; height: 60px; overflow: hidden;"]
 07073.com##div[style^="width: 135px; height: 327px;"]
 v.163.com##div[style^="width: 140px; height: 199px;"]
 ieche.com##div[style^="width: 298px;height:250px;"]
+mydrivers.com##div[style^="width:1100px; height:90px;"]
 house365.com##div[style^="width:1200px;height:"]
 iplaysoft.com##div[style^="width:300px;height:250px;"]
 pc0359.cn##div[style^="width:301px;height:250px;"]
@@ -10441,6 +10440,7 @@ blue-way.com.tw,like101.com.tw##p:first-child + [border="1"][width="100%"]
 muchong.com##p[onclick="view_ok();"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
+acg18.us##script + a[target="_blank"]
 qqlubo.net##script + br ~ a
 csj.xinhuanet.com##script + center > a > img
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
