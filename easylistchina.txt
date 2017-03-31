@@ -6166,7 +6166,13 @@ mg*.6park.com/img/$image
 ||titan007.com/ad/
 ||120.27.*.html
 ||gamme.com.tw/uploads/*?2
+||housefindeasy.com/images/b_*.png
+||housefindeasy.com/images/*banner978x90.
+||housefindeasy.com/images/vip_ads
 !------------------------Specific element hiding rules------------------------!
+housefindeasy.com##DIV[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"]
+housefindeasy.com##DIV[style="height:90px"]
+housefindeasy.com##div[style="display:inline-block; vertical-align:top; font-size:12px; margin-top:2px"] + DIV[style="display:inline-block"]
 mydrivers.com##DIV[style^="width:1100px; height:90px;"]
 acg18.us###text-html-widget-2 ~ .widget-box
 acg18.us##.buyaoa
