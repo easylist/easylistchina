@@ -4109,7 +4109,7 @@ mg*.6park.com/img/$image
 ||hzhyhm.com^
 ||hznzcn.com/moban/youxiajiao.js
 ||i-gamer.net/promo_
-||i-gamer.net^$domain=cartonmad.com|cartoomad.com|cartoonad.com|cartoonmad.com
+||i-gamer.net^$domain=cartomad.com|cartonmad.com|cartoomad.com|cartoonad.com|cartoonmad.com
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
 ||i.supfree.net^*.js
 ||i.syasn.com^
@@ -4403,6 +4403,7 @@ mg*.6park.com/img/$image
 ||jinghua.cn/tan.shtml
 ||jinhongweiqi.com/cache/ads.js
 ||jinhua.com.cn/ad_pic/
+||jinriaozhou.com/2017/ad/*.gif
 ||jinyici.com/qq.js
 ||jipinzw.com^*.php?aid=
 ||jirou.com/plus/mytag_js.php
@@ -6148,16 +6149,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||jinriaozhou.com/2017/ad/*.gif
-||i-gamer.net^$domain=cartomad.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cartomad.com##table[width="737"] > tbody > tr > td[valign="top"][height="118"]
-cartomad.com##tr:nth-child(n+5) > td > table[width="732"]
-sydneytoday.com##.mtgad
-sydneytoday.com##.mygad
-qlwb.com.cn##.A3
-asus.com##.bg_block
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7481,6 +7474,7 @@ jyacht.com###zyc1r_01_g1
 jyacht.com###zyc1r_03
 jyacht.com###zyc1r_05
 51.la###zztxt
+qlwb.com.cn##.A3
 china.com.cn,csdn.net,cyol.net,wxrb.com,yam.com##.AD
 motobuy.com.tw##.AD1
 wxrb.com##.AD1000
@@ -8100,6 +8094,7 @@ duba.com##.bgOpen
 hehagame.com##.bg_ad
 265g.com##.bg_ban
 265g.com##.bg_ban_bar
+asus.com##.bg_block
 40407.com##.bg_l
 40407.com##.bg_r
 265g.com##.bgban
@@ -9015,12 +9010,14 @@ xici.net##.msgl_ad
 lldm.com##.mt10[style="border:1px solid #ddd; width:978px; height:110px;"]
 dnwx.com##.mt5_23
 newcger.com##.mtb17.h90
+sydneytoday.com##.mtgad
 techug.com##.mug
 pixiv.net##.multi-ads-area
 07073.com##.multi_adv
 myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
+sydneytoday.com##.mygad
 abcsee.net##.myset
 2345.com##.mzdh_bottom
 123cha.com##.n_ads_box
@@ -10485,7 +10482,7 @@ lbx777.com,lbx777.net##table[width="325"][height="280"]
 mitbbs.ca,mitbbs.com##table[width="336"][height="280"]
 cartonmad.com,cartoomad.com##table[width="728"][height="110"]
 cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height="100"]
-cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height="118"]
+cartomad.com,cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height="118"]
 ip138.com##table[width="760"][height="23"][style="border:1px solid #008000"]
 pt80.net##table[width="760px"]
 5156edu.com##table[width="770"][bordercolordark="#FFFFFF"]
@@ -10541,7 +10538,7 @@ enread.com##td[width="326"][height="250"]
 62422.cn##td[width="760"][height="75"]
 verycd.gdajie.com##th[colspan="3"]
 cartoomad.com##tr:last-child > td[align="right"] > table[width="732"]
-cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
+cartomad.com,cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 5184.com##ul[class^="i_gg"]
 taihainet.com##ul[style=" width:1000px; height:90px; padding:10px 0; background-color:#ffffff;"]
 hexieba.com##ul[style="list-style-type: none;"]:first-child:last-child
