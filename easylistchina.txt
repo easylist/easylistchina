@@ -547,14 +547,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||yageben.com^
-||jxbjt.com^
-||517m.cn^
-||quansj.cn^
-||bdtongfei.cn^
-||zybpj.com^
-||39xc.net^
-||szggdw.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -753,6 +745,7 @@ ubmcmm.baidustatic.com
 ||3839168.com^$third-party
 ||38ra.com^$third-party
 ||3975lm.com^$third-party
+||39xc.net^
 ||3alian.net^$third-party
 ||3dwwwgame.com^$third-party
 ||3g.990.net^
@@ -767,6 +760,7 @@ ubmcmm.baidustatic.com
 ||49ko.com^$third-party
 ||4ggww.com^
 ||4kt2.com^$subdocument
+||517m.cn^
 ||51ads.com^$third-party
 ||51jumintong.com^
 ||51junpin.net^$third-party
@@ -959,6 +953,7 @@ ubmcmm.baidustatic.com
 ||bang5mai.com^$third-party
 ||baodaozhan.cn^$third-party
 ||bccyyc.com^
+||bdtongfei.cn^
 ||bebelait.com^
 ||beeho.site^
 ||behe.com^$third-party
@@ -1349,6 +1344,7 @@ ubmcmm.baidustatic.com
 ||junnew.com^$third-party
 ||jusha.com^$third-party
 ||jwqj.net^
+||jxbjt.com^
 ||jxjzny.com^
 ||jxlqgs.com^
 ||jxxiangchu.com^
@@ -1545,6 +1541,7 @@ ubmcmm.baidustatic.com
 ||qshxc.com^
 ||qtmojo.cn^
 ||qtmojo.com^$third-party
+||quansj.cn^
 ||qubilou.com^$third-party
 ||qucaigg.com^
 ||qxxys.com^
@@ -1631,6 +1628,7 @@ ubmcmm.baidustatic.com
 ||sytz1288.com^
 ||szdzbx.com^
 ||szfaq.com^
+||szggdw.com^
 ||szvr.com^$third-party
 ||szxpsg.com^
 ||t3nlink.com^$third-party
@@ -1842,6 +1840,7 @@ ubmcmm.baidustatic.com
 ||xytom.com^
 ||xzdchl.com^$third-party
 ||xzyituo.com^
+||yageben.com^
 ||yangdasen.cn^
 ||yanglaopt.net^
 ||yatemy.cn^
@@ -1923,6 +1922,7 @@ ubmcmm.baidustatic.com
 ||zrpfk.com^
 ||zsdexun.com.cn^
 ||ztdsp.com^$third-party
+||zybpj.com^
 ||zymro.com^
 ||zytwq.net^$third-party
 ||zzbaowen.com^
@@ -2167,6 +2167,7 @@ mg*.6park.com/img/$image
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||07908.com/images/
 ||0dian8.org/data/js/
+||0x01e7.website^
 ||1.hao123.com^
 ||100.admin5.com^
 ||100ksw.com/include/ksbdfd.js
@@ -3888,6 +3889,7 @@ mg*.6park.com/img/$image
 ||gter.net^*adv
 ||gtimg.cn/gdt/$domain=3g.cn
 ||gtimg.cn/mediastyle/event/20160306_music_live/img/skd.jpg
+||gtimg.com/auto/js/autoproject/autoarticle/low-price-car_
 ||gtimg.com/comic/pics/hv1/29/74/1631/106074674.jpg
 ||gtimg.com/comic/richmedia/
 ||gtimg.com/edu/0727abroad/duilian
@@ -4581,6 +4583,7 @@ mg*.6park.com/img/$image
 ||licai18.com/pic/*.swf
 ||liepin.com/event/jobadver/
 ||lieqi.com/templates/*/js/_banner.js
+||liewen.cc^*.htm$script
 ||life.e0575.com^
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
@@ -4853,6 +4856,7 @@ mg*.6park.com/img/$image
 ||on.cc/js/v2/iframe_ysm_
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
+||oneinstack.com/ad_buttom.html
 ||onlinedown.net/Public/img/bomAD.jpg
 ||opinion.people.com.cn/GB/
 ||opticsky.cn/images/2015/gy-px201
@@ -6151,21 +6155,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||liewen.cc^*.htm$script
-||gtimg.com/auto/js/autoproject/autoarticle/low-price-car_
-||oneinstack.com/ad_buttom.html
-||0x01e7.website^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ganpapa.com###wrapper + DIV
-ganpapa.com##DIV[class*="_9cb0d"]
-qhnews.com###xwyc
-qq.com##.mod_ad_main
-sports.qq.com##A[href="http://teramont.svw-volkswagen.com/"]
-sports.qq.com##A[href^="http://market.1hai.cn/"]
-qq.com###advert
-qq.com##.jpBanner
-qq.com##.xxskj
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6411,6 +6402,7 @@ aibang.com###advBottomBox
 400gb.com,bego.cc,ctfile.com,pipipan.com###advLeft
 400gb.com,bego.cc,ctfile.com,pipipan.com###advRight
 szonline.net###adv_focus
+qq.com###advert
 anjian.com,qq.com###advertisement
 cpplay.com###adxa
 104.com.tw###aidma_588
@@ -7446,6 +7438,7 @@ chazidian.com###worldcup_float
 528500.com###wp > div[align="center"]
 chcj.net,yixingjia.com###wp > table[width="960"]
 taoguba.com.cn###wrap_footer > div[style*="960"]
+ganpapa.com###wrapper + div
 gdzjdaily.com.cn###wrapper > div[style^="margin-top:6px;"]
 btbtt.co###wrapper2 > .width
 wuleba.com###wulebashowcpc
@@ -7460,6 +7453,7 @@ xinhuanet.com###xiangguanad
 jmbbs.com###xjj_jmbbs2015_01
 xilinjie.com###xlj-spread
 fang.com###xmlAd
+qhnews.com###xwyc
 hk.search.auctions.yahoo.com###yauadysmh
 redocn.com###yc_adv_1_2
 house.qq.com###yf
@@ -8804,6 +8798,7 @@ tiexue.net##.jiangWuTang + .mTop10
 oschina.net##.jj
 eastmoney.com##.jjph_box
 m.autohome.com.cn##.jmp-promote
+qq.com##.jpBanner
 ifeng.com##.jp_list
 jrj.com.cn##.jrj-ad
 zhanqi.tv##.js-activity-show
@@ -8998,6 +8993,7 @@ sdo.com##.mod-public-ads
 zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 17173.com##.mod-tg1
 pptv.com##.mod_960x90
+qq.com##.mod_ad_main
 163.com##.mod_ad_text
 qq.com##.mod_custom_ad
 iqiyi.com##.mod_focus-index_list > li:last-child
@@ -9777,6 +9773,7 @@ my0832.com##.xx_div
 zj.com##.xx_gg
 techweb.com.cn##.xxbox
 techweb.com.cn##.xxbox_news
+qq.com##.xxskj
 moviesunusaaa.org##.yahooinner
 acg18.us##.yamiadie
 acg18.us##.yamiadie-below
@@ -9910,6 +9907,7 @@ jobbole.com##a[href="http://group.jobbole.com/22945/"]
 hexieshe.com,xxshe.com##a[href="http://moe.hao123.com/"]
 hexieshe.com##a[href="http://moemoe.la/"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
+sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 xianzhenyuan.cn##a[href="http://www.5d9.net/"]
 178.com##a[href="http://www.bigeye.tv/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
@@ -9950,6 +9948,7 @@ zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
 people.com.cn##a[href^="http://jump.726p."]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://m.tianya.cn/g?f="]
+sports.qq.com##a[href^="http://market.1hai.cn/"]
 cnbeta.com##a[href^="http://note.youdao.com/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 pctowap.com##a[href^="http://ptw.la/"]
@@ -10031,6 +10030,7 @@ qqread.com##div[class$="ad"]
 pixnet.net##div[class*="-Ad-"]
 pixnet.net##div[class*="-ad-"]
 ganji.com##div[class*="-recommend"]
+ganpapa.com##div[class*="_9cb0d"]
 makepolo.com##div[class*="_ad"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
