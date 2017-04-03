@@ -2061,7 +2061,6 @@ ubmcmm.baidustatic.com
 /images/amsun100.png
 /images/content/1436/*$domain=chineseinla.com
 /img/*$image,domain=txzqw.cc
-/img/br300.gif$domain=qzntv.com|qzwb.com
 /img/br650.gif$domain=qzntv.com|qzwb.com
 /img/skin/*_bg.$domain=17huohu.com|firefox.com.cn|firefoxchina.cn
 /imgextra/*$domain=hacg.fi|hacg.red|zqnow.com
@@ -5022,7 +5021,6 @@ mg*.6park.com/img/$image
 ||qhimg.com/static/*/common/seed.js
 ||qhnews.com/tupian/
 ||qianhua.*/data/attachment/portal/
-||qianlong.com/vda/$script
 ||qianmu.org/resource/js/jquery.ads.js
 ||qianzhan.com/html/*_txtlinks.html
 ||qidian.com/ejs/qd/js/index/bannerTop.
@@ -5124,7 +5122,6 @@ mg*.6park.com/img/$image
 ||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
 ||qzss.cn/ssad
 ||qzwb.com/gb/img/9465.files/1G3G.gif
-||qzwb.com^*.swf|
 ||r3.ykimg.com^$object-subrequest
 ||r3sub.com/images/banners/
 ||rainmall.com/tv/js/ad
@@ -6155,6 +6152,7 @@ mg*.6park.com/img/$image
 ||oneinstack.com/ad_buttom.html
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qhnews.com###xwyc
 qq.com##.mod_ad_main
 sports.qq.com##A[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##A[href^="http://market.1hai.cn/"]
@@ -6554,7 +6552,6 @@ image.baidu.com###cmsimage
 chinaqking.com###cnt-ad
 2345.com###cnxh
 tc.cn###codefans_net
-qingdaonews.com###codex
 sina.com.tw###colorbox
 qq.com###comic_ad
 haianw.com###comiis_haianw01
@@ -7391,7 +7388,6 @@ bt49.com###topwarning_7ree
 fuli.us###toubuads
 17ce.com###tp_wrap
 qidian.com###tr-banner
-qz828.com###transient
 tianya.cn###travel_float
 tsdm.me,tsdm.net,tsdm.tw###tsdmadv_img
 m.autohome.com.cn###tu94dq
@@ -7679,7 +7675,7 @@ ifeng.com##.ad1000_box
 chinayk.com##.ad1024
 yuqingcn.cn##.ad1024x90
 jlonline.com##.ad1200
-btpeer.com,c114.net,chddh.com,china.com.cn,qingdaonews.com,qz828.com##.ad2
+btpeer.com,c114.net,chddh.com,china.com.cn,qingdaonews.com##.ad2
 ifeng.com##.ad200-2
 yaolan.com##.ad24090
 dbw.cn##.ad245
@@ -8512,7 +8508,7 @@ qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
 sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
-1kkk.com,40407.com,5068.com,88148.com,china.com,cx9zhou.com,dhzw.org,dnvod.eu,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qianyan001.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
+1kkk.com,40407.com,5068.com,88148.com,china.com,cx9zhou.com,dhzw.org,dnvod.eu,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
 elecfans.com##.gg-01
 morningpost.com.cn##.gg-2
 baidu.com##.gg-content
@@ -10001,7 +9997,7 @@ html-js.com##a[style^="margin-top:20px;"]
 creaders.net##a[title^="www.136888.com/"]
 duba.com##a[w="topad"]
 api.so.lianmeng.360.cn,pos.baidu.com##body
-qzntv.com,qzwb.com##body > .area[style^="height:60px;"]
+qzwb.com##body > .area[style^="height:60px;"]
 dm456.com##body > div[style^="height:90px;"]
 wendu.cn##body > div[style^="width:1000px;"]
 18h.avmimi.com##body > p[align="center"]:first-child
@@ -10086,9 +10082,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl"][class*="game"] > 
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecl-edu-"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecr"][class*="game"]
 cbg.cn##div[class^="erweima"]
-qhnews.com##div[class^="fl slider_box"]
 loveshang.com##div[class^="float-ad-"]
-qhnews.com##div[class^="fr slider_box"]
 fun.tv##div[class^="fs14_pp"]
 163.com,miercn.com,www.qidian.com##div[class^="gg"]
 enorth.com.cn##div[class^="guanggao"]
@@ -10471,7 +10465,6 @@ sdzbcg.com##table[height="41"]:last-child
 bcbay.com##table[id] + table[style="margin:3px auto;"]
 win007.com##table[id^="table_Ad"]
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
-travel.qingdaonews.com##table[style="height:200px; overflow:hidden;"]
 52life.cc##table[style="margin-top:0"]
 taohuabbs.info##table[style="width:100%;"]
 dijiuzww.com##table[style="width:770px;height:260px"]
@@ -10597,7 +10590,6 @@ ccreports.com.cn#@#.ad-main
 uedwin.com#@#.ad-r
 da-fan-shu.cn#@#.ad-s
 senao.com.tw#@#.ad-wrap
-qianyan001.com#@#.ad04
 mucanwenxue.com#@#.ad250
 acfun.tudou.com,acfun.tv#@#.ad250x250
 apk.tw#@#.ad300
