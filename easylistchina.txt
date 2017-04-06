@@ -547,11 +547,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||139y.com^$third-party
-||runiman.com^
-||3htai.com^
-||qdchunyu.com^
-||1lib.cn^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -686,6 +681,7 @@ ubmcmm.baidustatic.com
 ||138138138.top^
 ||139.159.32.82^
 ||139site.com^$third-party
+||139y.com^$third-party
 ||1503.net/code/
 ||1680go.com^
 ||170yy.com^
@@ -703,6 +699,7 @@ ubmcmm.baidustatic.com
 ||1kmb.cn^
 ||1kzh.com^
 ||1l1.cc^
+||1lib.cn^
 ||1lo0.net^$third-party
 ||1qwe3r.com^$third-party
 ||1uandun.com^
@@ -755,6 +752,7 @@ ubmcmm.baidustatic.com
 ||3dwwwgame.com^$third-party
 ||3g.990.net^
 ||3gmtr.com^
+||3htai.com^
 ||3p-link.com^$third-party
 ||3qmh.com^
 ||3vlm.com^$third-party
@@ -1531,6 +1529,7 @@ ubmcmm.baidustatic.com
 ||ptdrw.com^
 ||pubbirdf.com^
 ||pyzkk.com^
+||qdchunyu.com^
 ||qidou.com^$third-party
 ||qingqu.la^
 ||qiqiww.com^
@@ -1562,6 +1561,7 @@ ubmcmm.baidustatic.com
 ||rhgyg.com^
 ||rsccs.com^$third-party
 ||ruanwenclub.com^$third-party
+||runiman.com^
 ||ruxianke.com^
 ||rwjfs.com^
 ||s17cnzz.com^$third-party
@@ -2816,6 +2816,7 @@ mg*.6park.com/img/$image
 ||actoys.net/index.php?m=poster&
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
+||ad-api.cnblogs.com^
 ||ad-img.diyidan.net^
 ||ad-resource.huanqiu.com^
 ||ad.12306.cn/res/*.html
@@ -4390,6 +4391,7 @@ mg*.6park.com/img/$image
 ||jd-bbs.com/company/gif/topsound-
 ||jd.com/exsites?spread_type=
 ||jfrft.com/images/index_
+||jfrft.com/images/nono/
 ||jfrft.com/js/m_dilidili_main.js
 ||jfrft.com/js/main_list.js
 ||jfrft.com/js/main_video.js
@@ -5716,7 +5718,6 @@ mg*.6park.com/img/$image
 ||wanmcy.com/toolsda/
 ||wanwan.sina.com.cn/third_party/
 ||wanyx.com/Public/js/cqby.swf
-||xxbiquge.com^*.htm$script
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/plus/*.php?aid=
 ||wbzol.com/images/1120-
@@ -5906,6 +5907,7 @@ mg*.6park.com/img/$image
 ||xv98.com/js/hengfu
 ||xx978.info/images/468-60OK.gif
 ||xxbiquge.com/js/xbiquge.js
+||xxbiquge.com^*.htm$script
 ||xxdm.*/js/union/
 ||xxhh.com/static/assets/pics/moguzbad.jpg
 ||xxhh.com/xh.js
@@ -6144,11 +6146,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||ad-api.cnblogs.com^
-||jfrft.com/images/nono/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cnblogs.com##.sidebar-image
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9358,6 +9357,7 @@ qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 wedc.cc##.sidebar > .widgets:last-child
+cnblogs.com##.sidebar-image
 mywpku.com##.sidebar-recommended
 daweijita.com##.sidebar-right > .widget-box:first-child
 36kr.com##.sidebar-sponsored__list
