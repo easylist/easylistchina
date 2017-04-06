@@ -547,7 +547,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||sqext.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1611,6 +1610,7 @@ ubmcmm.baidustatic.com
 ||souacode.com^$third-party
 ||spcode.baidu.com^
 ||sphwq.net^$third-party
+||sqext.com^
 ||sscefsol.com^
 ||sscj123.com^$third-party
 ||ssdaili.com^
@@ -3768,6 +3768,7 @@ mg*.6park.com/img/$image
 ||fumanhua.*/images/g_js/$subdocument
 ||fumanhua.net/js/
 ||fun.ynet.com^
+||fun8.us^$domain=cartomad.com|cartonmad.com
 ||func.tw/image/func2.png
 ||funshion.net.cn/ad?
 ||fwindy.win/asd/
@@ -5698,6 +5699,7 @@ mg*.6park.com/img/$image
 ||vvvdj.com/sms/
 ||vzhuan.cn/html/$subdocument
 ||w010w.com.cn^$subdocument
+||w3cschool.cn/attachments/image/20170405/1491384200537518.gif
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wacowla.com/wp-content/uploads/*_320x60.
 ||wallstcn.com/image?url=http%3A%2F%2Fcbjs.
@@ -6147,14 +6149,7 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||fun8.us^$domain=cartomad.com|cartonmad.com
-||w3cschool.cn/attachments/image/20170405/1491384200537518.gif
 !------------------------Specific element hiding rules------------------------!
-w3cschool.cn##.content-abox
-kt51.com###box
-kt51.com###clickbgRight
-kt51.com###clickbgleft
-cartomad.com,cartonmad.com##TD[align="center"][height="102"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6508,7 +6503,7 @@ masok.cn###bottomLayer
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
-dnvod.eu,dxlwwang.com,tuku.cc,vzhuan.cn###box
+dnvod.eu,dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 cwyuni.tw###box34614 > [class^="box-"]
@@ -6539,8 +6534,8 @@ wlanwifi.net###chart + center
 i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"]
 fulishequ.com###china_ads_div405
 cqfishing.net,gpshk.cc###chs_bannerArea
-tuku.cc###clickbgRight
-tuku.cc###clickbgleft
+kt51.com,tuku.cc###clickbgRight
+kt51.com,tuku.cc###clickbgleft
 uuu9.com###cm1337
 zhidao.baidu.com###cms-company
 zhidao.baidu.com###cms-scroll
@@ -8261,6 +8256,7 @@ u-car.com.tw##.contad
 www.wangjing.cn##.content > div[style*="980px;"]
 sspai.com##.content > hr:nth-last-child(-n+4) ~ p
 cnbeta.com##.content > p:last-child > a[href]
+w3cschool.cn##.content-abox
 fullyu.com##.content-ads
 fullyu.com##.content-top-ads
 zdfans.com##.content.column2 > a[target="_blank"]
@@ -10505,6 +10501,7 @@ net767.com##table[width^="9"][height="68"]
 hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 xici.net##td.doc_sign
 cartoonad.com,cartoonmad.com##td[align="center"] > table[width="728"]
+cartomad.com,cartonmad.com##td[align="center"][height="102"]
 sinoca.com##td[align="center"][height="90"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
 linuxdiyf.com##td[bgcolor="#FFFFFF"] > a > img
