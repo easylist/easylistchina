@@ -3773,7 +3773,7 @@ mg*.6park.com/img/$image
 ||fumanhua.*/images/g_js/$subdocument
 ||fumanhua.net/js/
 ||fun.ynet.com^
-||fun8.us^$domain=cartomad.com|cartonmad.com
+||fun8.us^$domain=cartomad.com|cartonmad.com|cartoomad.com|cartoonad.com|cartoonmad.com
 ||func.tw/image/func2.png
 ||funshion.net.cn/ad?
 ||fwindy.win/asd/
@@ -6158,6 +6158,7 @@ mg*.6park.com/img/$image
 ||bai3.gushiwen.org^
 !------------------------Specific element hiding rules------------------------!
 gushiwen.org###ShowAd
+cartoonmad.com##TABLE[width="950"] > TBODY > TR > TD > TABLE[width="210"] > TBODY > TR > TD > TABLE[width="210"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
