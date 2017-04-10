@@ -545,9 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||xul478.com^
-||fenggejiaju.com^
-||mtty.com^$third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1161,6 +1158,7 @@ ubmcmm.baidustatic.com
 ||farm-cn.plista.com^
 ||fd7c.com^
 ||feitian001.com^$third-party
+||fenggejiaju.com^
 ||ffhtek.com^
 ||fjkst.com^
 ||fjmeyer.com^
@@ -1458,6 +1456,7 @@ ubmcmm.baidustatic.com
 ||mscimg.com^
 ||msltzer.cn^
 ||mstzym.com^
+||mtty.com^$third-party
 ||mtxsk.com^$third-party
 ||mxmrt.com^
 ||mycctvmedia.com^$third-party
@@ -1838,6 +1837,7 @@ ubmcmm.baidustatic.com
 ||xsu.cc^$third-party
 ||xtgreat.com^$third-party
 ||xtxa.net^
+||xul478.com^
 ||xulizui6.com^
 ||xxad.cc^
 ||xxhrd.com^
@@ -3009,6 +3009,7 @@ mg*.6park.com/img/$image
 ||bahamut.com.tw/B/2KU/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw/M/2KU/$~collapse,domain=www.gamer.com.tw
 ||bahamut.com.tw/s01/$~collapse,domain=www.gamer.com.tw
+||bai3.gushiwen.org^
 ||baidu.com/adver?
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiui/guesslike?
@@ -5271,6 +5272,7 @@ mg*.6park.com/img/$image
 ||shenleyuni.com^
 ||shfq.com/data/attachment/portal/
 ||shguanhong.net/upfiles/file/201607/2016071614
+||shicimingju.com/Public/js/buttom.js
 ||shicimingju.com/Public/js/left200.js
 ||shicimingju.com/Public/js/tianshi.js
 ||shm.com.cn/content/con*.js
@@ -6156,12 +6158,8 @@ mg*.6park.com/img/$image
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||bai3.gushiwen.org^
-||shicimingju.com/Public/js/buttom.js
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
-gushiwen.org###ShowAd
-cartoonmad.com##TABLE[width="950"] > TBODY > TR > TD > TABLE[width="210"] > TBODY > TR > TD > TABLE[width="210"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6255,6 +6253,7 @@ huarenjie.com###RightAd2
 sina.com.cn###SI_Comment_DA
 www.sina.com.cn###SI_EDU_AD
 qqhzg.com,xiaokuangyl.com###ShouYe_ShangBu > .themeauthor > table:first-child
+gushiwen.org###ShowAd
 upan.cc###ShowDIV
 ifeng.com###StreamMediaWrap
 webkaka.com###Table1
@@ -10495,6 +10494,7 @@ pt80.net##table[width="760px"]
 qqyanhuang.com##table[width="779"][height="25"]
 6park.com##table[width="89%"][bordercolor="#a0d880"]
 mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
+cartoonmad.com##table[width="950"] > tbody > tr > td > table[width="210"] > tbody > tr > td > table[width="210"]
 16sucai.com,bbxxbbs.net##table[width="960"]
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 cnjxol.com,verypsp.com##table[width="960"][bgcolor="#FFFFFF"]
