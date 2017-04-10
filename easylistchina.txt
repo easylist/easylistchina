@@ -545,7 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||qhaif.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -582,10 +581,9 @@ _popAds.
 /g.jsp?uid=$script,third-party
 /getcode.jsp?uid=$script,third-party
 /i.php?z=$script,third-party
-/js/cpc2_rp.js
-||wangdq.com^
 /js/cpc2_dl.js
 /js/cpc2_i.js
+/js/cpc2_rp.js
 /js/cpc_i.js
 /js/cpv_dl.js
 /js/cpv_fm_
@@ -1535,6 +1533,7 @@ ubmcmm.baidustatic.com
 ||pubbirdf.com^
 ||pyzkk.com^
 ||qdchunyu.com^
+||qhaif.com^
 ||qidou.com^$third-party
 ||qingqu.la^
 ||qiqiww.com^
@@ -1749,6 +1748,7 @@ ubmcmm.baidustatic.com
 ||vwws6.net^
 ||w3989.com^
 ||w65p.com^
+||wangdq.com^
 ||wangsufast.com^
 ||wantaico.com^
 ||wantfour.com^
@@ -2615,6 +2615,7 @@ mg*.6park.com/img/$image
 ||66rd.cn/pic/*.swf
 ||66wz.com/adv2/
 ||66wz.com/data/attachment/portal/
+||66yc.cc/yjs123/
 ||67.159.44.187/js/v1.js
 ||67.198.197.27^
 ||6701.com/galgameads/
@@ -3275,6 +3276,7 @@ mg*.6park.com/img/$image
 ||ccav5.com/static/js/floatImgAd.js
 ||ccb.com.cn/V5/images5/left0.gif
 ||ccb.com.cn/V5/images5/right0.gif
+||cckke.com/fanhao/v/ad
 ||ccr.yxdown.com^
 ||cctime.com/UpLoadFile/201$object
 ||cctime.com/UpLoadFile/2012/11/7/201211733483705.gif
@@ -4129,11 +4131,11 @@ mg*.6park.com/img/$image
 ||hz.shouyoutv.com^
 ||hzhyhm.com^
 ||hznzcn.com/moban/youxiajiao.js
+||i*.supfree.net^*.js
 ||i-gamer.net/promo_
 ||i-gamer.net^$domain=cartomad.com|cartonmad.com|cartoomad.com|cartoonad.com|cartoonmad.com
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
 ||i.syasn.com^
-||i*.supfree.net^*.js
 ||i322.com/ad_avshow/
 ||i8.com.cn/images/a.swf
 ||i8.com.cn/images/tiandijie.jpg
@@ -6158,12 +6160,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||66yc.cc/yjs123/
-||cckke.com/fanhao/v/ad
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-skinme.cc##.gg2
-shxd.net##.wordad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8531,7 +8529,7 @@ iqiyi.com##.gg-r
 hgitv.com##.gg09
 lcxw.cn,xinhuanet.com##.gg1
 hgitv.com##.gg12
-ts.cn,xinhuanet.com##.gg2
+skinme.cc,ts.cn,xinhuanet.com##.gg2
 ts.cn##.gg2-cj
 dedejs.com,sucaijiayuan.com##.gg250
 angelweb.cn##.gg250x250
@@ -9741,6 +9739,7 @@ weeiy.com##.widget_text:nth-child(5)
 hanfan.cc,ii-i.org##.widget_ui_textasb
 subhd.com##.win_content
 subhd.com##.win_win
+shxd.net##.wordad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
 shuaijiao.com##.wp.m-t20.h90
 cangjige.net,cangjige.win##.wp[style="height:36px;padding-top:15px;"]
