@@ -545,11 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||bskchina.cn^
-||axiba66.com^
-||s400cc.com^
-||kguke.com^
-||shanglinli.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -948,6 +943,7 @@ ubmcmm.baidustatic.com
 ||av8d.net^$third-party
 ||awkjs.com^
 ||axhxa.com^
+||axiba66.com^
 ||b5h7.com^$third-party
 ||b7nkd.cn^
 ||b9377h.com^
@@ -979,6 +975,7 @@ ubmcmm.baidustatic.com
 ||books.com.tw/exep/ap/$third-party
 ||bosiwangzi.cn^
 ||breezily168.com^
+||bskchina.cn^
 ||bttyue.com^$subdocument
 ||btyou.com^$third-party
 ||buzzads.com^$third-party
@@ -1369,6 +1366,7 @@ ubmcmm.baidustatic.com
 ||keyyou.net^
 ||kfluoa.com^
 ||kgcjgsa8.net^
+||kguke.com^
 ||khgj.cn^$third-party
 ||kicnse.com^
 ||kiees.com^$image,subdocument,third-party
@@ -1574,6 +1572,7 @@ ubmcmm.baidustatic.com
 ||ruxianke.com^
 ||rwjfs.com^
 ||s17cnzz.com^$third-party
+||s400cc.com^
 ||s8dj.com^$third-party
 ||s9w.cc^
 ||saferwet.com^
@@ -1590,6 +1589,7 @@ ubmcmm.baidustatic.com
 ||sexy-more.com^$third-party
 ||sfloushi.com^
 ||sgbfjs.info^
+||shanglinli.com^
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
 ||sharrysweb.com^
@@ -2441,6 +2441,7 @@ mg*.6park.com/img/$image
 ||360.cn/festival_zone.html
 ||360.cn/index/showjokes?callback=
 ||360buyimg.com/jzt/temp/js/cpc.js
+||360doc.com^*.html?t=
 ||360kan.com/special/
 ||360kan.com/swf/ShortVideo_ad_
 ||360safego.com^
@@ -6164,14 +6165,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||360doc.com^*.html?t=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-360doc.com##.doc360article_content > DIV[class]:first-child
-360doc.com##.ggwz
-v.baidu.com##DIV[id^="adv_asp_"]
-baidu.com###adTitleRight
-baidu.com##.v-s-tuiguang-wrap
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6329,6 +6324,7 @@ plu.cn###adMask
 3399.com###adPop
 55lady.net###adRight_0
 my0538.com###adSlideCont2
+baidu.com###adTitleRight
 gameapps.hk###adTopClickAreaLeft
 gameapps.hk###adTopClickAreaRight
 gameapps.hk###adTopClickAreaTop
@@ -8344,6 +8340,7 @@ letv.com##.dl_mobile
 itavcn.com##.dlggw-g
 dmfans.net##.dm_ads_wrap
 moe-acg.cc##.dmengslide-wrapper
+360doc.com##.doc360article_content > div[class]:first-child
 qq.com##.dongfengad
 iqiyi.com##.dove_ad
 iqiyi.com##.dove_banner
@@ -8580,6 +8577,7 @@ taian.com##.ggtp
 dealmoon.com,dnvod.eu##.ggw
 dnvod.eu##.ggw-l
 iqiyi.com##.ggwBox
+360doc.com##.ggwz
 douyu.com,douyutv.com##.giftbox
 zhumengwl.com##.git_banner
 zhumengwl.com##.git_rec
@@ -9674,6 +9672,7 @@ hackhome.com##.ul_ad
 131458.com##.ulfooter_top
 zhidao.baidu.com##.union-tg
 ifeng.com##.v-adbox
+baidu.com##.v-s-tuiguang-wrap
 0598yu.com##.v1100_ad
 ifeng.com##.vAdImg
 ifeng.com##.vAdbox
@@ -10176,6 +10175,7 @@ cbmland.com##div[id^="ads_"]
 actoys.net,mgbbs.cn,shangdu.com##div[id^="ads_d_"]
 chinayk.com,e0575.cn,eyuyan.com##div[id^="ads_r_"]
 52ch.net,xiancn.com##div[id^="adv"]
+v.baidu.com##div[id^="adv_asp_"]
 house.shangdu.com##div[id^="advertise"]
 ali213.net##div[id^="ali-ad-js-"]
 zhihujingxuan.com##div[id^="aup"]
@@ -11220,6 +11220,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
 ###cpro_container
 &pcn=
+/\.360doc\.cn\/[0-9a-z]{10,}\./$script,domain=360doc.cn|360doc.com
 ?pss=
 |http://*&uc=
 ||1.1010pic.com^
@@ -11254,7 +11255,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||milk.yesky.com.cn^
 ||mipujia.com^$third-party
 ||star-media.cn^$third-party
-/\.360doc\.cn\/[0-9a-z]{10,}\./$script,domain=360doc.cn|360doc.com
 ||yhzm.cc^
 ||yjbys.org^$third-party
 ||youbian.com^$third-party
