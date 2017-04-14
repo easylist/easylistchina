@@ -545,7 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||dshrx.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1108,6 +1107,7 @@ ubmcmm.baidustatic.com
 ||drmcmm.baidu.com^
 ||drwzn.com^$third-party
 ||drxrc.com^
+||dshrx.com^
 ||dugbvb.com^
 ||duiwai.baidu.com^
 ||duomai.com^$third-party
@@ -3491,6 +3491,7 @@ mg*.6park.com/img/$image
 ||d7ol.com/pics/ad/
 ||d7w.net/static/d7wad/
 ||da-fan-shu.cn/images/kuaijie.jpg
+||da.duowan.com/loc/
 ||da.mgtv.com^
 ||dabaoku.com^$object,script,subdocument
 ||dabin69.com/data/attachment/portal/
@@ -6017,6 +6018,7 @@ mg*.6park.com/img/$image
 ||youth.cn^$subdocument
 ||youthwant.com.tw/dodo.php?adjs=
 ||youtube.com/embed/*&autoplay=1&$domain=ck101.com
+||youtube.com/iframe_api$domain=nownews.com
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youxiaxiazai.com/db_top/index_top.htm
 ||youxiaxiazai.com/dm/
@@ -6168,8 +6170,6 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||da.duowan.com/loc/
-||youtube.com/iframe_api$domain=nownews.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -11310,8 +11310,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taobao.com|tmall.com
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||bagehd.com/iplookup.
-@@||youku.com/cms/player/userinfo/
-@@||youku.com/cms/playlog/get?
 @@||count.video.sina.com.cn^*?video_ids=
 @@||cupid.iqiyi.com/crossdomain.xml
 @@||cupid.iqiyi.com/show2?a=qc_
@@ -11337,5 +11335,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||tajs.qq.com/stats?$~third-party
 @@||tbcdn.cn^*/click_track.js
 @@||tmall.com/add?
+@@||youku.com/cms/player/userinfo/
+@@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
 !----------------------------------The End------------------------------------!
