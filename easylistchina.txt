@@ -545,13 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||qgss8.com^
-||gdskywings.com^
-||nngft.com^
-||qiailm.com^
-||sos0easy.com^
-||maibahe300cc.com^
-||smxsg.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1196,6 +1189,7 @@ ubmcmm.baidustatic.com
 ||gclick.cn^$third-party
 ||gd.189.cn^*.htm?SP=$third-party
 ||gdbly.com^
+||gdskywings.com^
 ||gdxxb.com^$third-party
 ||ge95.com^
 ||geotmt.com^$third-party
@@ -1439,6 +1433,7 @@ ubmcmm.baidustatic.com
 ||lyhdream.com^
 ||lyrymy.com^
 ||lzmm8.com^
+||maibahe300cc.com^
 ||mainbx.com^
 ||maisoncherry.com^
 ||mamamiyu.com^$third-party
@@ -1498,6 +1493,7 @@ ubmcmm.baidustatic.com
 ||nmpcdn.com^
 ||nmqbg.com^
 ||nnedbx.com^
+||nngft.com^
 ||noberlmall.com^
 ||nongsalei.com^
 ||nord-raum.com^$third-party
@@ -1546,7 +1542,9 @@ ubmcmm.baidustatic.com
 ||pubbirdf.com^
 ||pyzkk.com^
 ||qdchunyu.com^
+||qgss8.com^
 ||qhaif.com^
+||qiailm.com^
 ||qidou.com^$third-party
 ||qingqu.la^
 ||qiqiww.com^
@@ -1621,12 +1619,14 @@ ubmcmm.baidustatic.com
 ||sitemaji.com^$third-party
 ||sitemobia.com^
 ||skatehot.net^
+||smxsg.com^
 ||snmi.cn^$third-party
 ||snnnyy.com^
 ||snxyf.com^$third-party
 ||snyu.com^$third-party
 ||so9l.com^
 ||socdm.com^
+||sos0easy.com^
 ||souacode.com^$third-party
 ||spcode.baidu.com^
 ||sphwq.net^$third-party
@@ -3268,6 +3268,7 @@ mg*.6park.com/img/$image
 ||c2000.cn/c2000/
 ||c4d.cn/api.php?mod=ad&adid=
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
+||c4dsky.com/wp-content/uploads/2016/11/tvart-
 ||cacafly.net^
 ||cachead.com^
 ||caches.space/bootstrap3/js/bootstrap.js
@@ -3284,6 +3285,7 @@ mg*.6park.com/img/$image
 ||car.pchome.com.tw/iframe/news_iframe.
 ||cari.com.my/static/appbanner
 ||carnoc.com/noticejs/
+||cbfw.cn/gonggong/chibi/cf_
 ||cbfw.cn/gonggong/js/cf_flash.js
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccav1.com/wp-content/uploads/an-temp/
@@ -4503,6 +4505,7 @@ mg*.6park.com/img/$image
 ||jxgdw.com/images/jdgg.jpg
 ||jxnews.com.cn/jxcn/con_ad_title.js
 ||jyacht.com/flash/marina.swf
+||jyfw.cn/gonggong/jiayu/cf_
 ||jyfw.cn/gonggong/js/cf_flash.js
 ||jyfw.cn/nav/cf_
 ||jz5u.com/js/tl$script
@@ -5320,8 +5323,8 @@ mg*.6park.com/img/$image
 ||shumilou.co/style/cq.jpg
 ||shuqi6.com/static/jquery/gg.js
 ||shxd.net/img/myad.gif
-||simplecd.me/static/js/adcpm.js
 ||simplecd.*/static/js/default.js
+||simplecd.me/static/js/adcpm.js
 ||sina.cn/adfront/deliver.php?
 ||sina.cn/api/article/news_banner?
 ||sina.cn/cm/sinaads_
@@ -6177,13 +6180,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||jyfw.cn/gonggong/jiayu/cf_
-||cbfw.cn/gonggong/chibi/cf_
-||c4dsky.com/wp-content/uploads/2016/11/tvart-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cgown.com##.banner-gg
-cgown.com##A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8045,7 +8043,7 @@ hc360.com##.baidutuiguang
 cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
 baidu.com##.banner-cover
-91.com##.banner-gg
+91.com,cgown.com##.banner-gg
 toutiao.com##.banner-index-bottom
 crsky.com##.banner-leader
 fuli.us##.banner-post
@@ -9890,7 +9888,7 @@ zdfans.com##a[href*=".kiees."]
 tiexue.net##a[href*=".liangada."]
 iqiyi.com##a[href*=".oppo."]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.red,hacg.wiki,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cgown.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.red,hacg.wiki,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 nxing.cn##a[href*=".taobao.com/"]
 gmgard.com,hexieshe.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn,youku.com##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
