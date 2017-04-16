@@ -545,8 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||cqfangduan.com^
-||cqftonline.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1047,6 +1045,8 @@ ubmcmm.baidustatic.com
 ||cpro.baidustatic.com^
 ||cpv6.com^
 ||cpva.cc^
+||cqfangduan.com^
+||cqftonline.com^
 ||cqhnm.com^
 ||cqyhd.com^
 ||cr-nielsen.com^$third-party
@@ -5299,6 +5299,8 @@ mg*.6park.com/img/$image
 ||shenleyuni.com^
 ||shfq.com/data/attachment/portal/
 ||shguanhong.net/upfiles/file/201607/2016071614
+||shhgg.in/js/shangjia
+||shhgg.in/shlf1314/
 ||shicimingju.com/Public/js/buttom.js
 ||shicimingju.com/Public/js/left200.js
 ||shicimingju.com/Public/js/tianshi.js
@@ -6038,6 +6040,7 @@ mg*.6park.com/img/$image
 ||yubei8.com/img/
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
+||yunbofangbt.com^
 ||yundianb.com/hao/
 ||yundianb.com/tu/jia.gif
 ||yunfile.com/ex/pop/
@@ -6178,13 +6181,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||yunbofangbt.com^
-||shhgg.in/js/shangjia
-||shhgg.in/shlf1314/
 !------------------------Specific element hiding rules------------------------!
-shhgg.in###TopTipHolder
-blog.sina.cn###pl-float-bar
-hdcmct.org,chdbits.co##a[href*=".taobao"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -6281,6 +6278,7 @@ gushiwen.org###ShowAd
 upan.cc###ShowDIV
 ifeng.com###StreamMediaWrap
 webkaka.com###Table1
+shhgg.in###TopTipHolder
 7m.cn###Top_b
 csdn.net###Topic_Top
 qinzhou360.com###Txtadv-show
@@ -7142,6 +7140,7 @@ blog.sina.cn###pl-ad-after-comments
 blog.sina.cn###pl-adtop-bar
 blog.sina.cn###pl-blog-artad
 blog.sina.cn###pl-blog-tbyy
+blog.sina.cn###pl-float-bar
 weibo.com###pl_common_ali
 weibo.com###pl_login_video
 hao.360.cn###plane > .plane-hd
@@ -9890,6 +9889,7 @@ tiexue.net##a[href*=".junph."]
 zdfans.com##a[href*=".kiees."]
 tiexue.net##a[href*=".liangada."]
 iqiyi.com##a[href*=".oppo."]
+chdbits.co,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
 acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cgown.com,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.red,hacg.wiki,hexieshe.com,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,toutiao.com,tucao.tv,xxshe.com,youku.com,zalra.cn##a[href*=".taobao.com"]
 nxing.cn##a[href*=".taobao.com/"]
@@ -11281,7 +11281,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
 |http:$script,third-party,domain=storebt.com|xtzgjx.com|zzdxs.org
-|http:$script,third-party,xmlhttprequest,domain=33yq.com|50zw.la|55xs.com|8dushu.com|biquge.com|biquge.tw|biquwu.cc|biqugezw.com|bqg5200.com|btkitty.bid|dhzw.org|diggbt.ws|kewaishu.net|lewenxiaoshuo.com|liewen.cc|qu.la|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
+|http:$script,third-party,xmlhttprequest,domain=33yq.com|50zw.la|55xs.com|8dushu.com|biquge.com|biquge.tw|biqugezw.com|biquwu.cc|bqg5200.com|btkitty.bid|dhzw.org|diggbt.ws|kewaishu.net|lewenxiaoshuo.com|liewen.cc|qu.la|shenmabook.com|shumilou.co|vodtw.com|xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=33yq.com|biquge.tw|qu.la|shumilou.co|xxbiquge.com
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
