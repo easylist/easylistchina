@@ -545,8 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||myzk1.com^
-||xuehi.cn^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1475,6 +1473,7 @@ ubmcmm.baidustatic.com
 ||mycctvmedia.com^$third-party
 ||mytanwan.com^$third-party
 ||mytzdhz.cn^
+||myzk1.com^
 ||myzwqwe12.com^$third-party
 ||mzy2014.com^$third-party
 ||namemek.com^
@@ -1860,6 +1859,7 @@ ubmcmm.baidustatic.com
 ||xsu.cc^$third-party
 ||xtgreat.com^$third-party
 ||xtxa.net^
+||xuehi.cn^
 ||xul478.com^
 ||xulizui6.com^
 ||xxad.cc^
@@ -2923,6 +2923,7 @@ mg*.6park.com/img/$image
 ||alabout.com/images/*.gif
 ||alexa.cn/upfile/images/
 ||ali213.net/css/data/promotion.css
+||ali213.net/images/bg_lt.jpg
 ||ali213.net/pubjs/SetScreen
 ||ali213.net/static/js/*_ali213tv.js
 ||ali213.net/static/js/kktv
@@ -3939,6 +3940,7 @@ mg*.6park.com/img/$image
 ||gtimg.com/qqlive/
 ||gtimg.com/sports/000_AD/
 ||gtimg.com/sports/images/30090.jpg
+||gtimg.com/sports/qingyang/
 ||gtimg.com/v/pics/hv1/88/83/1734/112774603.jpg
 ||gtimg.com/web/default_fodders/300x600_$~collapse
 ||gtimg.com/www/mobi/js/app-bar-
@@ -5406,6 +5408,7 @@ mg*.6park.com/img/$image
 ||so100.cn/images/newshead.htm
 ||soaspx.com/images/hws.gif
 ||soaspx.com/images/iiszj.gif
+||soaspx.com/images/js/dropdown.js
 ||soduso.com/js/sat.js
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
@@ -6174,15 +6177,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||soaspx.com/images/js/dropdown.js
-||ali213.net/images/bg_lt.jpg
-||gtimg.com/sports/qingyang/
 !------------------------Specific element hiding rules------------------------!
-ali213.net###tmp_ggao
-qq.com##.member_ads
 gpcxw.com###AA2
-stheadline.com##.ad_w300
-hao.360.cn###header-patch
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6892,6 +6888,7 @@ lxty66.com###header + .tac.mb5
 ttmeiju.com###header > a
 3g.qq.com###header-mlcz
 2345.com###header-news
+hao.360.cn###header-patch
 060s.com###header4
 bdinfo.net###header_AD
 hnr.cn###header_banner_list
@@ -7383,6 +7380,7 @@ xxdm.com,xxdm.org###tiepianDIV
 wpsoso.com###tips
 xinhuanet.com###tisoad
 dict.cn###tjcd
+ali213.net###tmp_ggao
 hexun.com###tonglan_1 + .layout
 10.0.0.211###toolbar
 2345.com###tools-gameTmp
@@ -7850,7 +7848,7 @@ fulibac.com##.ad_two
 pjtime.com##.ad_txt
 bcbay.com##.ad_txt_box
 putclub.com##.ad_vipabc
-yinyuetai.com##.ad_w300
+stheadline.com,yinyuetai.com##.ad_w300
 itavcn.com##.ad_wordxin
 baike.com##.ad_xuanban
 tiexue.net##.ad_xuanfu
@@ -8978,6 +8976,7 @@ oschina.net##.mayun-jj
 hao.360.cn##.mbar-bd
 2345.com##.mco-ex-ndxh
 cnool.net##.meilai_box
+qq.com##.member_ads
 taihainet.com##.menu_bg + .box10 + .wrapper
 zdfans.com##.meta > .meta-info + div
 zdfans.com##.meta-info + p
