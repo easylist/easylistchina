@@ -455,7 +455,9 @@ _popAds.
 ##.bottomSponsor
 ##.bus_adsbox
 ##.cari-ads
+##.chat-ad
 ##.chat-right-ad
+##.chat-sysbroadcast-ad
 ##.chat-top-ad
 ##.comiis_adbox
 ##.con_ad
@@ -543,8 +545,6 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.chat-ad
-##.chat-sysbroadcast-ad
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -4005,6 +4005,8 @@ mg*.6park.com/img/$image
 ||haokan5.com/js/haokanjs/youxiajiao.js
 ||haokoo.com/images/mld.jpg
 ||haokoo.com/images/qchd
+||haokoo.com/images/ws640.jpg
+||haokoo.com/plus/rpad/
 ||haolepic.com/blz/
 ||haolepic.com/js/
 ||haoring03.com/ads/
@@ -6181,17 +6183,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||haokoo.com/plus/rpad/
-||haokoo.com/images/ws640.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-haokoo.com##DIV[style="margin-bottom:10px;height:250px;overflow:hidden;"]
-woshipm.com##.post-ads
-woshipm.com##.post-top-ad
-chinaz.com##.plate-layout
-chinaz.com##.txtAdBox
-chinaz.com##A[href^="http://click.aliyun.com/"]
-chinaz.com##.newsMainBox-textad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9087,6 +9080,7 @@ zhifang.com##.newhousegg002
 ali213.net##.newright
 kaifu.com##.news-t-adv
 2345.com##.newsArea
+chinaz.com##.newsMainBox-textad
 ifeng.com##.news_ADbox
 m.baidu.com,wuseng.com##.news_ad
 aguitar.cn##.news_b
@@ -9186,6 +9180,7 @@ bibiqi.com,ietv.cc##.pics1200
 16sucai.com##.pindao_ad2
 keywin.org##.pindaolist
 creaders.net##.pinglun > .btmlist-title
+chinaz.com##.plate-layout
 baofeng.com##.play-ads
 v.17173.com##.playAd
 17173.com##.playGame
@@ -9211,7 +9206,9 @@ loorin.com##.portal_block_summary > a[href^="http"]:not([href^="http://www.loori
 tgfcer.com##.portalbox
 jobbole.com##.post > .textwidget
 vmovier.com##.post-ad-bottom
+woshipm.com##.post-ads
 vmovier.com##.post-right-item + a[target="_blank"]
+woshipm.com##.post-top-ad
 ihacksoft.com,ipc.me##.post-top-gg
 163.com##.post_adtop_main
 gamme.com.tw##.post_adwrpt
@@ -9677,6 +9674,7 @@ m.hao123.com##.tuizhan
 tvhome.com##.tvAd
 zhiboba.cc##.tvpftgg1
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
+chinaz.com##.txtAdBox
 cntour2.com##.txtPicAd
 ltaaa.com##.txtads
 qixingquan.com##.tzb
@@ -9968,7 +9966,7 @@ qdmm.com,qidian.com##a[href^="http://avd.qidian.com/showavd.aspx"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
 tv.2345.com##a[href^="http://buy.2345.com/go/?"]
-cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
+chinaz.com,cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 qu.la##a[href^="http://download.350.com/"]
@@ -10311,6 +10309,7 @@ howfile.com##div[style="height:30px;padding:2px;border:1px dashed #555555"]
 housefindeasy.com##div[style="height:90px"]
 panzz.com##div[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
+haokoo.com##div[style="margin-bottom:10px;height:250px;overflow:hidden;"]
 toutiao.com##div[style="margin-bottom:16px; padding: 20px; background-color: #f4f5f6;"]
 zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
