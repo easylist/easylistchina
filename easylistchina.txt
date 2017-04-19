@@ -545,7 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||cxd-ailegou.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1061,6 +1060,7 @@ ubmcmm.baidustatic.com
 ||cstoa.com^
 ||csxjys.com^
 ||ctsywy.com^
+||cxd-ailegou.com^
 ||cxxtv.com^$third-party
 ||cyacc.com^
 ||cylinderlongcheng.com^
@@ -5324,6 +5324,7 @@ mg*.6park.com/img/$image
 ||shulihua.net/js/topcen.js
 ||shulihua.net/js/yegonggao.js
 ||shumilou.co/style/cq.jpg
+||shuowan.com/Public/shuo/20170411/58eca2e5ecfc4.gif
 ||shuqi6.com/static/jquery/gg.js
 ||shxd.net/img/myad.gif
 ||simplecd.*/static/js/default.js
@@ -6178,11 +6179,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||shuowan.com/Public/shuo/20170411/58eca2e5ecfc4.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-shuowan.com##.side_flash
-longzhu.com##A[href*=".admaster."]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9389,6 +9387,7 @@ firefoxchina.cn##.side-recommend
 17huohu.com,firefoxchina.cn##.side-tpth
 niutuku.com##.sideAD
 youthwant.com.tw##.side_adbox
+shuowan.com##.side_flash
 duba.com##.side_game
 duba.com##.side_other > .img
 duba.com##.side_taobao
@@ -9874,7 +9873,7 @@ people.com.cn##a[href*=".516a.com/"]
 hexieshe.com,xxshe.com##a[href*=".51bi.com"]
 mop.com##a[href*=".7477.com"]
 oupeng.com##a[href*=".adbxb."]
-163.com,bilibili.com##a[href*=".admaster."]
+163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 techweb.com.cn##a[href*=".aliyun.com/"]
 iqiyi.com##a[href*=".banggo."]
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
@@ -11241,8 +11240,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||52lubo.cn^
 ||a.fengyx.com^
 ||ap*.pl520.com^
-||cp.greenxf.cn^
 ||bd1.nxing.cn^
+||cp.greenxf.cn^
 ||d6.mobaders.com^
 ||daima.chazidian.com^
 ||daima.huoche.net^
@@ -11264,8 +11263,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||milk.yesky.com.cn^
 ||mipujia.com^$third-party
 ||star-media.cn^$third-party
-||yhzm.cc^
 ||sundxs.com^$third-party
+||yhzm.cc^
 ||youbian.com^$third-party
 ! Caoporn.com
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
