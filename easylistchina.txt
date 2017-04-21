@@ -2056,7 +2056,7 @@ ubmcmm.baidustatic.com
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
 /[0-9]+\.gif/$image,domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
-/\/[a-z0-9]{9,}\.swf/$domain=dnvod.eu
+/\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
 /\?([a-z]+=[0-9]+&){3,}/$script,domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
@@ -3586,10 +3586,10 @@ mg*.6park.com/img/$image
 ||dmfans.net/template/haokandemanhhua/images/g_js/
 ||dmhy*.aewb.cn^*?$image
 ||dn-geekpark-new.qbox.me/uploads/ad/
-||dnvod.eu/upload/gaming/
-||dnvod.eu^*.gif$object-subrequest
-||dnvod.eu^*.jpg$object-subrequest
-||dnvod.eu^*/201$object-subrequest
+||dnvod.tv/upload/gaming/
+||dnvod.tv^*.gif$object-subrequest
+||dnvod.tv^*.jpg$object-subrequest
+||dnvod.tv^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic/*_978x60.
 ||dnwx.com/pic_ad/
@@ -6553,7 +6553,7 @@ masok.cn###bottomLayer
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
-dnvod.eu,dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
+dnvod.tv,dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 cwyuni.tw###box34614 > [class^="box-"]
@@ -7083,14 +7083,14 @@ haosou.com,so.com,youdao.com###mohe-etao_shangye
 haosou.com,so.com###mohe-m-etao_shangye
 haosou.com,so.com###mohe-medicine_sy > .cont
 nick18.com,niko18.com###mov > .content
-dnvod.eu,itavcn.com,jmnews.com.cn,xt700.com###msg_win
-dnvod.eu###msg_winw
+dnvod.tv,itavcn.com,jmnews.com.cn,xt700.com###msg_win
+dnvod.tv###msg_winw
 hkgolden.com###mtblock1
 yahoo.com###my-adsMBAR
 cpplay.com###myFocus336
 qqjia.com###myadsL
-dnvod.eu###myaudient
-dnvod.eu###myaudient2
+dnvod.tv###myaudient
+dnvod.tv###myaudient2
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
@@ -8134,7 +8134,7 @@ e23.cn##.bdggtb
 baidu.com##.bds-list-ads
 yesky.com##.bdtj
 pinshan.com##.bea_adv2
-dnvod.eu##.bfq-r
+dnvod.tv##.bfq-r
 uc123.com##.bg-wrapper
 jrj.com.cn##.bg2424
 duba.com##.bgOpen
@@ -8257,7 +8257,7 @@ sina.com.cn##.clearAd
 caikuu.com##.clearfix + .recommend
 hunantv.com,mgtv.com##.click-s-r1
 hunantv.com,mgtv.com##.click-t
-dnvod.eu##.clickbg
+dnvod.tv##.clickbg
 tieba.baidu.com##.client_ad_banner
 tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
@@ -8550,7 +8550,7 @@ qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
 sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
-1kkk.com,40407.com,5068.com,88148.com,china.com,cx9zhou.com,dhzw.org,dnvod.eu,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
+1kkk.com,40407.com,5068.com,88148.com,china.com,cx9zhou.com,dhzw.org,dnvod.tv,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
 elecfans.com##.gg-01
 morningpost.com.cn##.gg-2
 baidu.com##.gg-content
@@ -8604,8 +8604,8 @@ eastday.com##.gglist
 weather.com.cn##.ggt
 55188.com,g138.com##.ggtishiall
 taian.com##.ggtp
-dealmoon.com,dnvod.eu##.ggw
-dnvod.eu##.ggw-l
+dealmoon.com,dnvod.tv##.ggw
+dnvod.tv##.ggw-l
 iqiyi.com##.ggwBox
 360doc.com##.ggwz
 douyu.com,douyutv.com##.giftbox
@@ -9253,7 +9253,7 @@ qixingquan.com##.qxq_cb
 qixingquan.com##.qxq_h
 im286.net##.qybj
 mop.com##.r-adv
-dnvod.eu##.r-gg
+dnvod.tv##.r-gg
 ahtv.cn,bzfl1.cc,sexbarss.net##.r1
 biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
 7hcn.com##.rCont
@@ -10028,7 +10028,7 @@ xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 muchong.com##a[href^="http://www.zhuanyejun.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 ifeng.com##a[href^="http://yemei.tv/"]
-dnvod.eu##a[href^="http://yoyou."]
+dnvod.tv##a[href^="http://yoyou."]
 btdigg.pw##a[href^="http://yunbofangbt.com/"]
 dmzj.com##a[href^="http://zt.dmzj.com/test/jump.html?"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
