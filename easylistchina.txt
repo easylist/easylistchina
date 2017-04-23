@@ -545,8 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||klsdmr.com^
-/blog/showdetail.php?z=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -568,6 +566,7 @@ _popAds.
 /adscpc/*
 /adtmp/*
 /AShow.aspx?AID=
+/blog/showdetail.php?z=$script,third-party
 /c/i.php?id=$script,third-party
 /center?advId=
 /code/cpc.asp?
@@ -1389,6 +1388,7 @@ ubmcmm.baidustatic.com
 ||kkcaicai.com^
 ||kld666.com^
 ||kldmm.com^
+||klsdmr.com^
 ||kmadou.com^
 ||kmwqxqh.com^
 ||kod4pc293.com^
@@ -4815,6 +4815,9 @@ mg*.6park.com/img/$image
 ||motelppp.com/Content/img/hd
 ||mp3.haogeba.com^$image,object
 ||mql5.com/data?
+||msdn.hk/templets/msdn/css/index.js
+||msdn.hk/templets/msdn/css/msdng.js
+||msdn.hk/templets/msdn/js/gg.js
 ||mshow.fang.com/s?z=
 ||msn.com/homep_ad
 ||mt30.com/ok/
@@ -5032,6 +5035,7 @@ mg*.6park.com/img/$image
 ||pipi.cn/player/
 ||pixfs.net/js/adsbyfalcon.
 ||pixfs.net/js/mib.min.js
+||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pjtime.com/js/show_ad
 ||playad.xjmg.com^
@@ -5366,7 +5370,7 @@ mg*.6park.com/img/$image
 ||sina.com/rm/
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
-||sinaimg.cn/large/$domain=360zhibo.com|ballive.com|chakd.com|qqlubo.net
+||sinaimg.cn/large/$domain=360zhibo.com|ballive.com|chakd.com|qqlubo.net|zhainanfulishe.net
 ||sinaimg.cn/large/*.gif$domain=mp4ba.la|seehd.co
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/005SEx68jw1eu85tbdd2rg30d001oaa0.jpg
@@ -6200,13 +6204,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||pixfs.net/js/mib_falcon
-||msdn.hk/templets/msdn/css/index.js
-||msdn.hk/templets/msdn/css/msdng.js
-||msdn.hk/templets/msdn/js/gg.js
-||sinaimg.cn/large/$domain=zhainanfulishe.net
 !------------------------Specific element hiding rules------------------------!
-msdn.hk##.gg1
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8573,7 +8571,7 @@ iqiyi.com##.gg-r
 5068.com,top.qidian.com##.gg01
 5068.com,hgitv.com##.gg02
 hgitv.com##.gg09
-lcxw.cn,xinhuanet.com##.gg1
+lcxw.cn,msdn.hk,xinhuanet.com##.gg1
 hgitv.com##.gg12
 skinme.cc,ts.cn,xinhuanet.com##.gg2
 ts.cn##.gg2-cj
@@ -11304,7 +11302,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||yhzm.cc^
 ||youbian.com^$third-party
 ! BT Kitty
-|http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.pw|btlibrary.co|btkitty.kim|diggbt.ws|zhongzifuli.org
+|http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.pw|btkitty.kim|btlibrary.co|diggbt.ws|zhongzifuli.org
 ! Caoporn.com
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 ||caoimgs.com/images/*.gif
