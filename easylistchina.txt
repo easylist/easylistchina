@@ -545,7 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||shucaihangjia.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1620,6 +1619,7 @@ ubmcmm.baidustatic.com
 ||shiftrro.com^
 ||sho9wbox.com^$third-party
 ||show.kc.taotaosou.com^
+||shucaihangjia.com^
 ||shuihulu.com^$third-party
 ||shujuwu.com^$third-party
 ||si9377.com^
@@ -2501,6 +2501,7 @@ mg*.6park.com/img/$image
 ||3dm.huya.com^
 ||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
+||3dmgame.com/templets/xiazai/g/
 ||3dst.com/template/img/buy.gif
 ||3g.cn/baidualading/
 ||3g.qq.com/lview?
@@ -6205,11 +6206,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||3dmgame.com/templets/xiazai/g/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhangxinxu.com##DIV[id^="ad"]
-zhangxinxu.com##.ad_inner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7846,7 +7844,7 @@ putclub.com##.ad_fastReading
 8btc.com##.ad_global_top_left
 wanghualang.com##.ad_h_c
 tgfcer.com##.ad_headerbanner
-hb163.cn##.ad_inner
+hb163.cn,zhangxinxu.com##.ad_inner
 le.com##.ad_layer
 188bifen.com,hc360.com##.ad_left
 duba.com##.ad_leftTip_out
@@ -10210,7 +10208,7 @@ tzfdc.com.cn##div[id^="LMT_"]
 kunming.cn##div[id^="_picadv_"]
 vpser.net##div[id^="ab_thread"]
 ettoday.net##div[id^="abp"]
-makepolo.com,mycar168.com,pchome.net,qz828.com##div[id^="ad"]
+makepolo.com,mycar168.com,pchome.net,qz828.com,zhangxinxu.com##div[id^="ad"]
 58.com,pcpop.com##div[id^="ad_"]
 megatime.com.tw,pchome.com.tw##div[id^="ad_div_"]
 6.gy##div[id^="ad_dl"]
@@ -10590,7 +10588,7 @@ muchong.com##td[style="padding:10px;font-size:14px;"] > div > [style="color:gree
 muchong.com##td[style="padding:10px;font-size:14px;"] > div > a[href^="creditshow.php?action=view&logid="]
 muchong.com##td[style="padding:5px 10px;"] + td + td[style="padding-left:10px;"]:last-child
 findprice.com.tw##td[style="width: 342px; padding:0px 0px 0px 5px;border-left:1px solid #c9d7f1;"] > table > tbody > tr:nth-last-child(n+3)
-hkgolden.com##TD[style="width: 999px; vertical-align: top;"] > DIV[style="height:291px;"]
+hkgolden.com##td[style="width: 999px; vertical-align: top;"] > div[style="height:291px;"]
 tvboxnow.com##td[style="width:15%;height:100%;"]
 hkgolden.com##td[style^="background-color: #F3F2F1; height: 100px;"]
 vvvdj.com##td[valign="top"][bgcolor="#13161E"][align="center"]
@@ -10737,7 +10735,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||kfcclub.com.tw/web/*/ad
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
@@ -11060,6 +11057,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||js.tudouui.com/bin/player2/$object
 @@||jswenhui.com^*/ad/
 @@||kayixin.com^*/advert
+@@||kfcclub.com.tw/web/*/ad
 @@||kfcorder.com.tw^*/Advert
 @@||kukuplay.com/upload/*.*.swf
 @@||l.qq.com/lview?$domain=888.sports.qq.com
