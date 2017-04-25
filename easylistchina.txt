@@ -540,8 +540,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||papajia55.com^
-||gqswg.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1217,6 +1215,7 @@ ubmcmm.baidustatic.com
 ||gotonav.com^$third-party
 ||gouzhibao.cn^
 ||govgift.com^
+||gqswg.com^
 ||gs307.com^$third-party
 ||gso0.com^
 ||gtmucs.cn^
@@ -1531,6 +1530,7 @@ ubmcmm.baidustatic.com
 ||pababy.cn^$third-party
 ||pagechoice.net^$third-party
 ||panel-cn.com^
+||papajia55.com^
 ||pay838.com^
 ||pdsjycm.com^
 ||pedailyu.com^
@@ -1975,8 +1975,8 @@ ubmcmm.baidustatic.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
-/htmm/2022.php$popup
 /hndxweb/push$popup,third-party
+/htmm/2022.php$popup
 /item.htm?$popup,domain=tsdm.me|tsdm.net|tsdm.tw
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
@@ -2284,7 +2284,6 @@ mg*.6park.com/img/$image
 ||141h.com/data/attachment/noblock/cf/
 ||14bobo.com/js/
 ||1518.com/ss/
-||jb51.net/js/ggtop.js
 ||15hn.net/data/content
 ||15w.com/flash/
 ||15w.com/pages/adlive.
@@ -3504,6 +3503,7 @@ mg*.6park.com/img/$image
 ||ctanet.cn/aq/JS/
 ||ctfile.com/iz.php?
 ||ctrip.com/amd/*960x90.
+||cutv.com/html/ad_js/
 ||cwan.com/templets/shouye/misc/js/suspend.js
 ||cwan.com/templets/webgame/misc/js/indextip.js
 ||cww.net.cn/include/show.asp?boardID=
@@ -4446,9 +4446,10 @@ mg*.6park.com/img/$image
 ||javjunkies.com/FL$subdocument
 ||javl10.com/js/bnr_
 ||javlibrary.com/js/bnr_
-||jb51.net^*Loader.js
+||jb51.net/js/ggtop.js
 ||jb51.net/skin/office/js/botad.js
 ||jb51.net/templets/2016js/
+||jb51.net^*Loader.js
 ||jd-bbs.com/company/gif/topsound-
 ||jd.com/exsites?spread_type=
 ||jfrft.com/images/index_
@@ -5378,6 +5379,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/0060AzaUgw1f7ay8mig7dg30vo02s0wo.gif
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
 ||sinaimg.cn/large/006CZIQPgy1fbziwpw0b8g306y06yq7w.gif
+||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
 ||sinaimg.cn/large/5ff1c93agw1fb9yzvko7fj20xc08wjwi.jpg
 ||sinaimg.cn/large/5ff1c93agw1fbqnzzraosj205l02iaav.jpg
 ||sinaimg.cn/large/61e74233ly1fdq6hcf5klg20hs023q7i.gif
@@ -5698,6 +5700,7 @@ mg*.6park.com/img/$image
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uploads.duapp.com/images/$domain=52vip.net
 ||url.cn^$domain=shuajizhijia.com
+||urlpic.club/2016/upload/image/20170422/4220643630
 ||uschinapress.com/2014/0922/1411428929105.png
 ||uschinapress.com/2015/0115/1421375153170.gif
 ||uschinapress.com/2016/0608/1465408047836.gif
@@ -6203,15 +6206,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||urlpic.club/2016/upload/image/20170422/4220643630
-||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
-||cutv.com/html/ad_js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hacg.fi,hacg.red,hacg.wiki###text-22
-hacg.fi,hacg.red,hacg.wiki##.nivoSlider
-hacg.fi,hacg.red,hacg.wiki##A[href*="/gg/"]
-acg18.us##A[href*="/go/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7381,6 +7377,7 @@ pchome.com.tw###test2
 free.com.tw###text-124
 aijava.cn###text-15
 tumutanzi.com,wuleba.com###text-2
+hacg.fi,hacg.red,hacg.wiki###text-22
 blog.trendmicro.com.tw###text-27
 moe-acg.cc###text-3
 blog.trendmicro.com.tw###text-30
@@ -9120,6 +9117,7 @@ afzhan.com##.newsshow
 talkforex.com##.nge_border_right > div[style="height: 250px; position: relative;"]
 26lady.com##.ngg
 qdmm.com,qidian.com##.nightMask
+hacg.fi,hacg.red,hacg.wiki##.nivoSlider
 wallstreetcn.com##.node-main-ad
 admin5.com##.notice
 yes-news.com##.notification
@@ -9936,7 +9934,9 @@ kcwiki.moe##a[href*="/ad."]
 acg18.us##a[href*="/ad/"]
 mkzhan.com##a[href*="/adid/"]
 cangku.in,galacg.me##a[href*="/game"]
+hacg.fi,hacg.red,hacg.wiki##a[href*="/gg/"]
 ccav1.com##a[href*="/go"]
+acg18.us##a[href*="/go/"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 6park.com##a[href*="/ooo.php?"]
 6park.com##a[href*="/ppp.php?"]
