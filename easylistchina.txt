@@ -540,11 +540,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||yxxwyz.com^
-||qiqivv.com^
-||tab20.com^$third-party
-||rrsubway.com^
-||inte.sogoucdn.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1307,6 +1302,7 @@ ubmcmm.baidustatic.com
 ||imneinei.com^
 ||index8.cn^$third-party
 ||instreet.cn^$third-party
+||inte.sogoucdn.com^
 ||intentarget.com^$third-party
 ||ipaypay.cn^$third-party
 ||iprefer.com.tw^$third-party
@@ -1561,6 +1557,7 @@ ubmcmm.baidustatic.com
 ||qiailm.com^
 ||qidou.com^$third-party
 ||qingqu.la^
+||qiqivv.com^
 ||qiqiww.com^
 ||qiqiyii.com^
 ||qiyou.com^$third-party
@@ -1589,6 +1586,7 @@ ubmcmm.baidustatic.com
 ||rencai56.com^
 ||rhgyg.com^
 ||riqu2015.com^
+||rrsubway.com^
 ||rsccs.com^$third-party
 ||ruanwenclub.com^$third-party
 ||runiman.com^
@@ -1677,6 +1675,7 @@ ubmcmm.baidustatic.com
 ||t70123.com^
 ||ta80.com^$third-party
 ||taat00889.com^
+||tab20.com^$third-party
 ||tad.suning.com^
 ||tanchuang002.info^$third-party
 ||tanwanyx.com^$third-party
@@ -1938,6 +1937,7 @@ ubmcmm.baidustatic.com
 ||ywjxsp168.cn^
 ||yxdyk.com^$script,third-party
 ||yxszy.com^
+||yxxwyz.com^
 ||yy32.com^$third-party
 ||yy58ju.com^
 ||yyp17.com^
@@ -2181,6 +2181,7 @@ mg*.6park.com/img/$image
 |https:$script,third-party,xmlhttprequest,domain=btdb.in
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
+||000b.info/js/
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||0086crane.com/file/upload/201410/28/09-56-17-58-6723.swf
@@ -2942,6 +2943,8 @@ mg*.6park.com/img/$image
 ||alexa.cn/upfile/images/
 ||ali213.net/css/data/promotion.css
 ||ali213.net/images/bg_lt.jpg
+||ali213.net/js/common/zpro/zprotxtpicurl.js
+||ali213.net/js/data/3gcommon.js
 ||ali213.net/pubjs/SetScreen
 ||ali213.net/static/js/*_ali213tv.js
 ||ali213.net/static/js/kktv
@@ -3245,6 +3248,7 @@ mg*.6park.com/img/$image
 ||btbtt.*/upload/lilaixy.gif
 ||btbtt.*/view/image/backimg.jpg
 ||btbtt.*/view/image/QT_9198.jpg
+||btbtt.co/imgs.js
 ||btcherry.org/adm.js
 ||btexe.cc/static/js/
 ||btks.me/ac/
@@ -5531,6 +5535,8 @@ mg*.6park.com/img/$image
 ||szhk.com/include/taobao
 ||sznews.com/*.files/$image,object
 ||sznews.com/css/$script
+||szonline.net/banner_top.jpg
+||szonline.net/zhongyuan
 ||t.58xs.com/hot/
 ||t57.cn/cert.php?t=p
 ||tahua.net/data/attachment/portal/201703/21/233755lz041e6dp6eegl1p.jpg
@@ -5552,6 +5558,7 @@ mg*.6park.com/img/$image
 ||tc.cn/news/images/right.jpg
 ||tcjy66.cc^
 ||tcmap.com.cn/js/b_
+||technews.tw/wp-content/plugins/obox-mobile/themes/default/scripts/jquery.blockUI.js
 ||techug.com/erwqre.jpg
 ||techug.com/mug/
 ||techug.com/pad-linux.jpg
@@ -6211,16 +6218,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||000b.info/js/
-||szonline.net/banner_top.jpg
-||szonline.net/zhongyuan
-||ali213.net/js/data/3gcommon.js
-||ali213.net/js/common/zpro/zprotxtpicurl.js
-||btbtt.co/imgs.js
-||technews.tw/wp-content/plugins/obox-mobile/themes/default/scripts/jquery.blockUI.js
 !------------------------Specific element hiding rules------------------------!
-ali213.net##.zadmainholder
-ck101.com##.adfixWp
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7919,6 +7917,7 @@ chinaiiss.com##.add_pic
 inpai.com.cn##.addoc1
 shxd.net##.addown
 cwan.com##.ades
+ck101.com##.adfixWp
 chinaz.com##.adfixbug
 duba.com##.adfixed
 xineurope.com##.adft
@@ -9860,6 +9859,7 @@ cnlmjx.com##.yw_ad
 iguxuan.com##.yxjbox
 tvhome.com##.yy_adv_2
 ifeng.com##.yy_right_bottom
+ali213.net##.zadmainholder
 house.shangdu.com##.zbtad
 8264.com##.zbtlconlist_11
 g1080.com##.zdgx_right_bottom
