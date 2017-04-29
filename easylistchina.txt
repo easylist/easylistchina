@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/562723/7082094ff7346f23.gif
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -42,6 +41,7 @@
 .xyz/js/ads/
 /20160420_uho_bn.gif
 /2016v2/js/adm2.js
+/562723/7082094ff7346f23.gif
 /66bubu/ads/*
 /8drama_yahoo/*
 /8w5QL8HJF0vknl8Z/*
@@ -3119,6 +3119,7 @@ mg*.6park.com/img/$image
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
 ||banma.com/statics/scripts/common/dialogAdJs.js
+||banyungong.org/Scripts/tc.js
 ||baoliny.com/js/jing.js
 ||baxue.me/ad2016/
 ||bb.tuku.cc^
@@ -3249,13 +3250,13 @@ mg*.6park.com/img/$image
 ||btago.com/static/banner/
 ||btbt.tv/dd/
 ||btbtt.*/bt.js
+||btbtt.*/imgs.js
 ||btbtt.*/jslb.js
 ||btbtt.*/jstb.js
 ||btbtt.*/upload/400x75_
 ||btbtt.*/upload/lilaixy.gif
 ||btbtt.*/view/image/backimg.jpg
 ||btbtt.*/view/image/QT_9198.jpg
-||btbtt.*/imgs.js
 ||btcherry.org/adm.js
 ||btexe.cc/static/js/
 ||btks.me/ac/
@@ -3268,6 +3269,7 @@ mg*.6park.com/img/$image
 ||btrenren.com/js/index960_
 ||btspreadcn.com/images/x.jpg
 ||bttt99.com/style/s.js
+||buimg.com/562723/f54344b0cbbdff87.png
 ||buimg.com^$domain=ed2000.com|kisssub.org|moe-acg.cc|ref.so
 ||bukade.com/js/*_p_
 ||bukade.com/js/b_
@@ -5459,8 +5461,10 @@ mg*.6park.com/img/$image
 ||soft.mumayi.net/js/
 ||soft711.com/2013/
 ||softhy.net/hp/
+||sogou.*/js7/forAppDown.js
 ||sogou.com/acquireAdvertise.
 ||sogou.com/img_logo/wp.js
+||sogoucdn.com/imgu/*.swf
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
 ||sohu.com/interaction/get/
@@ -5514,6 +5518,8 @@ mg*.6park.com/img/$image
 ||stheadline.com^*/right_promo.js
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/info/*0x
+||stoneip.info/wp-content/uploads/2016/12/web-banner.jpg
+||stoneip.info/wp-content/uploads/2017/01/travelsim_
 ||storetorrent.org/static/best/795X60.gif
 ||storetorrent.org/static/js/best
 ||storm.mg/ad?
@@ -6226,15 +6232,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||stoneip.info/wp-content/uploads/2016/12/web-banner.jpg
-||stoneip.info/wp-content/uploads/2017/01/travelsim_
-||buimg.com/562723/f54344b0cbbdff87.png
-||banyungong.org/Scripts/tc.js
-||sogoucdn.com/imgu/*.swf
-||sogou.*/js7/forAppDown.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-v.sogou.com##A[href^="http://iwan.sogou.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10034,6 +10033,7 @@ hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
 moe-acg.cc##a[href^="http://game.moehuan.com/"] > img
 zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
+v.sogou.com##a[href^="http://iwan.sogou.com/"]
 people.com.cn##a[href^="http://jump.726p."]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://m.tianya.cn/g?f="]
