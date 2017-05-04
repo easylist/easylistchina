@@ -3624,7 +3624,6 @@ mg*.6park.com/img/$image
 ||docin.com/jsp_cn/ad/
 ||dodo8.com/inc/$script
 ||dol.tianya.cn/s?z=tianya&
-||ftimg.net/s?z=
 ||domecross.com/ad/
 ||domeng.cn/js/index_
 ||dongfangtai.com/js/duil.js
@@ -3828,6 +3827,7 @@ mg*.6park.com/img/$image
 ||free9.net/myc/myc.js
 ||fsehome.com/images/ad_tan.js
 ||ftchinese.com/m/marketing/
+||ftimg.net/s?z=
 ||ftxs.org/images/86dg980x100.jpg
 ||fububu.com/zb_users/*/ttz
 ||fububu.com/zb_users/THEME/LuSongSong/style/ads/
@@ -5045,6 +5045,7 @@ mg*.6park.com/img/$image
 ||picuphost.com^$domain=mmload.info
 ||pifa.fobshanghai.com/link/
 ||piimg.com/562723/92bbcd8f9e965644.jpg
+||piimg.com/588755/ba9d370dfd134a36.jpg
 ||piimg.com^$domain=acgura.us|kisssub.org|lsjsoso.me|ref.so
 ||pimg.tw/ifans/1399368662-4247048381.png
 ||pingpang.info/banner/
@@ -6214,18 +6215,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||piimg.com/588755/ba9d370dfd134a36.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-steamcn.com##.stcn_a_pr
-steamcn.com##.stcn_a_h
-gamer.com.tw###flyRightBox
-gamer.com.tw###flySalve
-gamer.com.tw###BH-bigbanner
-gamer.com.tw##.a-mercy-d
-hacg.fi,hacg.red,hacg.wiki###text-24
-fanyi.baidu.com##.hot-link-middle
-tucao.tv##DIV[class$="_poster"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6252,6 +6243,7 @@ zol.com.cn###Article_Top_Banner
 avmimi.com###ArticlesEx_box
 2345.com###BAIDU_DSPUI_FLOWBAR
 gamer.com.tw###BH-ad_banner
+gamer.com.tw###BH-bigbanner
 cncrk.com###BZlocationID1
 cnfol.com###CjAdvBt
 pjtime.com###Couplet_l_big
@@ -6821,6 +6813,8 @@ wannianli.com.cn###float_right
 360.cn###floatgg
 28hse.com###floating_left_div
 souqiu8.com###flv
+gamer.com.tw###flyRightBox
+gamer.com.tw###flySalve
 apk.tw###focus
 heshan.gov.cn###focusAd_03
 qq.com###focus_jordon
@@ -7387,6 +7381,7 @@ free.com.tw###text-124
 aijava.cn###text-15
 wuleba.com###text-2
 hacg.fi,hacg.red,hacg.wiki###text-22
+hacg.fi,hacg.red,hacg.wiki###text-24
 moe-acg.cc,tumutanzi.com###text-3
 vjmedia.com.hk###text-33
 zreading.cn###text-5
@@ -7642,6 +7637,7 @@ news.china.com.cn##.Wrapper > div[style]
 qq.com##._switchad
 m.sohu.com##._tg2
 m.sohu.com##._tgC_nav
+gamer.com.tw##.a-mercy-d
 ijia360.com##.a.fz0.mb15
 55188.com,g138.com##.a1_gg
 thinkphp.cn##.a6
@@ -8710,6 +8706,7 @@ www.infoq.com##.home_banner
 sosg.net##.home_promo_940x80
 sogou.com##.hospitalinfo
 duba.com##.hot-bottom
+fanyi.baidu.com##.hot-link-middle
 douyu.com,douyutv.com##.hot-sign-1
 douyu.com,douyutv.com##.hot-sign-2
 9766.com##.hot-site
@@ -9496,6 +9493,8 @@ baidu.com##.spread-wrap
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
 aisex.com##.sptable
 stockstar.com##.ss-ad-icon2
+steamcn.com##.stcn_a_h
+steamcn.com##.stcn_a_pr
 07073.com##.subarea_ad
 10jqka.com.cn##.subbanner
 cam4.tw##.subfoot-section
@@ -10076,6 +10075,7 @@ zhidao.baidu.com##div[class$="-ecom-ads"]
 anjuke.com##div[class$="-poster"]
 hualady.com##div[class$="300x250"]
 oschina.net##div[class$="Content"] > p[style="margin:0 0 10px 0;"]
+tucao.tv##div[class$="_poster"]
 qqread.com##div[class$="ad"]
 19lou.com##div[class$="ad-cycle"]
 pixnet.net##div[class*="-Ad-"]
@@ -10333,7 +10333,6 @@ haokoo.com##div[style="margin-bottom:10px;height:250px;overflow:hidden;"]
 zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 itnose.net##div[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
-ttmeiju.com##DIV[style^="margin-top:2"]
 thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
 52ch.net##div[style="margin-top:5px; height:80px;"]
 108.62.192.124,plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
@@ -10411,6 +10410,7 @@ huarenjie.net##div[style^="clear:both;overflow:hidden;position: fixed;top: 50px;
 580k.com##div[style^="height:285px;width:360px;"]
 zgfznews.com##div[style^="height:50px; width:1000px;"]
 shmet.com##div[style^="margin-top: -5px; margin-bottom: 10px; height: 60px"]
+ttmeiju.com##div[style^="margin-top:2"]
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 tuzuan.com##div[style^="width: 100%; height: 60px; overflow: hidden;"]
 07073.com##div[style^="width: 135px; height: 327px;"]
