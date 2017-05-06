@@ -535,8 +535,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||118.144.88.216^
-||nchte.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -662,6 +660,7 @@ ubmcmm.baidustatic.com
 ||116.55.227.242^
 ||116b.com^$third-party
 ||117.25.133.209^
+||118.144.88.216^
 ||118114.cn^$third-party
 ||1188.com^$third-party
 ||119.4.249.166^
@@ -1490,6 +1489,7 @@ ubmcmm.baidustatic.com
 ||namemek.com^
 ||nbjjd.com^
 ||ncachear.com^
+||nchte.com^
 ||ndtzx.com^
 ||ne9377.com^
 ||news.tagtoo.co^$third-party
@@ -1992,7 +1992,6 @@ ubmcmm.baidustatic.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-/tanchuan.htm$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/2022.php$popup
@@ -2001,6 +2000,7 @@ ubmcmm.baidustatic.com
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
 /pushstart.html?$popup,third-party
+/tanchuan.htm$popup,third-party
 |http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|avsdown.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|lamp99.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
 |http://*/?$popup,domain=linkbucks.com|zytpirwai.net
 |http://t.cn/$popup,domain=yifile.com
@@ -3271,6 +3271,7 @@ mg*.6park.com/img/$image
 ||btn.onlylady.com^
 ||btn.pchome.net^
 ||btrenren.com/js/index960_
+||btsou.net/static/image/*.gif
 ||btspreadcn.com/images/x.jpg
 ||bttt99.com/style/s.js
 ||buimg.com/562723/f54344b0cbbdff87.png
@@ -3759,6 +3760,7 @@ mg*.6park.com/img/$image
 ||eprice.com.tw/img/dis/file/
 ||eprice.com.tw/img/tw_m/ad/
 ||eprice.com.tw/js/swfobject-2.3.js
+||erebor.douban.com^
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
@@ -4144,6 +4146,7 @@ mg*.6park.com/img/$image
 ||hoopchina.com.cn/static/www/*340x230.
 ||hoopchina.com.cn/topn
 ||hoopchina.com.cn/web/ad/
+||hoopchina.com.cn/web/channel/nba/index/nbaposter/index.js
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hot.580k.com/share/Ad_
@@ -5448,6 +5451,7 @@ mg*.6park.com/img/$image
 ||slit.cn/d/js/images/thea
 ||slit.cn/slimages/
 ||slooti.com/upload/30/38/1446711674.gif
+||snwx8.com/xiaoyi/*0_
 ||so.open.163.com/v/list.htm?pid=
 ||so100.cn/images/a*.js
 ||so100.cn/images/newshead.htm
@@ -5810,6 +5814,7 @@ mg*.6park.com/img/$image
 ||wei2008.com/js/jump
 ||weibo.com/static/ali.html
 ||weike22.com/images/
+||weipaima.com/img/jc.png
 ||wendellyu.com/banner/
 ||wendu.cn/templates/wzdsb/js/yanue.pop.js
 ||wenweipo.com/img/banner/2016/20161101huishangbank.jpg
@@ -6221,14 +6226,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||btsou.net/static/image/*.gif
-||weipaima.com/img/jc.png
-||erebor.douban.com^
-||hoopchina.com.cn/web/channel/nba/index/nbaposter/index.js
-||snwx8.com/xiaoyi/*0_
 !------------------------Specific element hiding rules------------------------!
-bt177.net##.down_btns
-hupu.com###topPub
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7435,6 +7433,7 @@ bbs.houdao.com###top-banner
 teepr.com###topAdBlock
 2345.com###topHf
 elecfans.com###topJf
+hupu.com###topPub
 starbaby.cn###top_ad_show
 ck101.com,cq.xinhuanet.com###top_banner
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
@@ -8398,6 +8397,7 @@ pctowap.com##.dowap_ads
 360doc.cn##.dowloadBtn
 mianbao99.com##.downApp
 52pk.com##.down_adv
+bt177.net##.down_btns
 portablesoft.org##.downcenter
 yxzoo.com##.downgg
 7958.com.cn##.download_alert
