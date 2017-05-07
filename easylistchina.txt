@@ -12,9 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
-/xiaoyi/360_
-/xiaoyi/960_
-/web8/ad/*
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -251,9 +248,12 @@
 /View/img/b72890.jpg
 /W3Cfuns_Adv/*
 /wap_advpic/*
+/web8/ad/*
 /wp-content/themes/iMovies/js/tc_
 /wy96ad/*
 /xiaobaiAD.gif
+/xiaoyi/360_
+/xiaoyi/960_
 /xiazai_downloaderAD.
 /xxx169.php?
 /yangsheng/js/_banner.js
@@ -538,7 +538,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||resetgey.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1598,6 +1597,7 @@ ubmcmm.baidustatic.com
 ||reliancevalve.com^
 ||remotedu.cn^
 ||rencai56.com^
+||resetgey.com^
 ||rhgyg.com^
 ||riqu2015.com^
 ||rrsubway.com^
@@ -2400,6 +2400,7 @@ mg*.6park.com/img/$image
 ||201*.myhard.com^
 ||20150930.cf^
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
+||205.209.138.102^
 ||211600.com/data/attachment/portal/
 ||219.153.41.154/v1/
 ||219.153.41.175/*.js
@@ -5422,6 +5423,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/df8f080agw1f47u58kr42j20dw0dwadl.jpg
 ||sinaimg.cn/large/e6b79078ly1fdwzlienvfg20uk01odg0.gif
 ||sinaimg.cn/large/ed5e6a1dly1fdl3orv4u9j20r808cq6o.jpg
+||sinaimg.cn/mw1024/006NYgrsgy1ffahk0lf8og30i204677m.gif
 ||sinaimg.cn/mw690/7d1c8e96gw1ehjblxlj39j206y06ydgi.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d74zmij.jpg
@@ -6227,8 +6229,6 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||sinaimg.cn/mw1024/006NYgrsgy1ffahk0lf8og30i204677m.gif
-||205.209.138.102^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
