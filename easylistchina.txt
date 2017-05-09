@@ -11285,10 +11285,10 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
 ###cpro_container
 &pcn=
-/^http://[^/]+\/[0-9a-z]{40,}\.js$/$script
+/^http://[^/]+\/[0-9a-z]{40,}\.js/$script
 ?pss=
 |http://*&uc=
-|http://*=1*=1*=1*=1*.$subdocument
+|http://*=1*=1*=1*=1*%$subdocument
 ||1.1010pic.com^
 ||1.feihua.com^
 ||1.panduoduo.net^
