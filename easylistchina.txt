@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/wapifengas?
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -6246,6 +6247,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com^*/mip-*ad
 ||289.com/cqws/images/cqws-img.jpg
 ||toutiao.com/api/web_stars/?
+||ifengimg.com/p/ax_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
