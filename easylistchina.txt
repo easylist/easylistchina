@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/wapifengas?
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -249,6 +248,7 @@
 /View/img/b72890.jpg
 /W3Cfuns_Adv/*
 /wap_advpic/*
+/wapifengas?
 /web8/ad/*
 /wp-content/themes/iMovies/js/tc_
 /wy96ad/*
@@ -539,8 +539,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||mtburn.com^$third-party
-||zhao258.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1489,6 +1487,7 @@ ubmcmm.baidustatic.com
 ||mscimg.com^
 ||msltzer.cn^
 ||mstzym.com^
+||mtburn.com^$third-party
 ||mtty.com^$third-party
 ||mtxsk.com^$third-party
 ||mxmrt.com^
@@ -1984,6 +1983,7 @@ ubmcmm.baidustatic.com
 ||zgunion.cn^
 ||zgyemy.com^
 ||zgyiyi.com^$third-party
+||zhao258.com^
 ||zhihei.com^
 ||zhiong.net^
 ||zhuba8.com^
@@ -2457,6 +2457,7 @@ mg*.6park.com/img/$image
 ||265la.com/html/
 ||268de.com/js/
 ||27.255.67.120^
+||289.com/cqws/images/cqws-img.jpg
 ||28hse.com/adsman/www/images/
 ||2btu.com/gg.jpg
 ||2ccc.com/images/show/
@@ -3190,6 +3191,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com/tb/r/image/2014-12-03/87ae5de2d732714bb6dd4ff6ab1e50ac.jpg
 ||bdstatic.com/tb/r/image/2014-12-30/fa718abe3e4418298f785734279a2e8f.jpg
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
+||bdstatic.com^*/mip-*ad
 ||bdstatic.com^*/plugins/every_cookie_
 ||bdstatic.com^*/QSURrcmRKV.js
 ||bdstatic.com^*/tam-ogel/
@@ -3479,6 +3481,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnbetacdn.com/frontend/vipics/yijian_
+||cnblogs.com/units/
 ||cnchu.com/aps/
 ||cndzys.com/huanlian/
 ||cnfol.com/f=ud/Js/Ad
@@ -4239,6 +4242,7 @@ mg*.6park.com/img/$image
 ||ibook8.com*/piao*.js
 ||ibook8.com/js/b*.js
 ||ibook8.com/xia*.js
+||ibtibt.com/js/
 ||iciba.com/web/co/ci/
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||iclient.ifeng.com^
@@ -4275,6 +4279,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/mappa/
 ||ifengimg.com/md/*/v_responsive
 ||ifengimg.com/neiqian/*/embed.js
+||ifengimg.com/p/ax_
 ||ifengimg.com/static/news/js/advtrack
 ||ifengimg.com/tres/js/*/idemin_noif.js
 ||ifengimg.com/w702_h371/
@@ -4481,12 +4486,12 @@ mg*.6park.com/img/$image
 ||izzs.cc/wp-content/mm/
 ||j.6avz.com^
 ||j.ccnovel.com^
+||j12lib.com/js/bnr_
 ||ja.gamersky.com^
 ||jandan.net/static/gg
 ||jav11b.com/js/bnr_
 ||javazhijia.com/skin/bysj.jpg
 ||javjunkies.com/FL$subdocument
-||j12lib.com/js/bnr_
 ||javlibrary.com/js/bnr_
 ||jb51.net/js/ggtop.js
 ||jb51.net/skin/office/js/botad.js
@@ -5422,6 +5427,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/006CZIQPgy1fbziwpw0b8g306y06yq7w.gif
 ||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
 ||sinaimg.cn/large/5ff1c93agy1ffexaksv8mj206o02it96.jpg
+||sinaimg.cn/large/5ff1c93agy1fff9tu8o7bj20xc09q78w.jpg
 ||sinaimg.cn/large/61e74233ly1fdq6hcf5klg20hs023q7i.gif
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
@@ -5652,6 +5658,7 @@ mg*.6park.com/img/$image
 ||totheglory.im/pic/ttg-
 ||totheglory.im/pic/ttg_
 ||totuwo.com/wp-content/uploads/20*.gif
+||toutiao.com/api/web_stars/?
 ||toutiao.com^*/ad/
 ||tp.sgcn.com^
 ||tq121.com.cn/j/ad/
@@ -6243,17 +6250,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cnblogs.com/units/
-||bdstatic.com^*/mip-*ad
-||289.com/cqws/images/cqws-img.jpg
-||toutiao.com/api/web_stars/?
-||ifengimg.com/p/ax_
-||sinaimg.cn/large/5ff1c93agy1fff9tu8o7bj20xc09q78w.jpg
-||ibtibt.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gz0668.com###closexguide
-ifeng.com##.swiper-bottom
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6643,6 +6641,7 @@ fulishequ.com###china_ads_div405
 cqfishing.net,gpshk.cc###chs_bannerArea
 kt51.com,tuku.cc###clickbgRight
 kt51.com,tuku.cc###clickbgleft
+gz0668.com###closexguide
 uuu9.com###cm1337
 zhidao.baidu.com###cms-company
 zhidao.baidu.com###cms-scroll
@@ -9544,6 +9543,7 @@ cam4.tw##.subfoot-section
 etest8.com##.subtop2right
 qingdaonews.com##.surround
 2345.com##.swf_banner
+ifeng.com##.swiper-bottom
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.switch_radios + div[class]
 heiguang.com##.syAdTopTxt
 17jiaoyu.com##.sy_ad
@@ -10801,8 +10801,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com
-@@/advertisement.$domain=d1-dm.com
-@@/advertisement.$domain=gametower.com.tw
+@@/advertisement.$domain=d1-dm.com|gametower.com.tw
 @@/advertisement.js$domain=fharr.com
 @@/advertisement/*$domain=cits.cn|ininin.com|midea.com|muyingzhijia.com|yxjc.13322.com
 @@/advertising/*$domain=houdask.com
@@ -11301,7 +11300,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?://[^/]+\/[0-9a-z]{40,}\.js/$script
 /cpro.$popup,third-party
 ?pss=
-||bdjs.120askimages.com^
 |http://*%*=1*=1*=1*=1$subdocument
 |http://*&uc=
 |http://*=1*=1*=1*=1*%$subdocument
@@ -11318,6 +11316,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a.fengyx.com^
 ||ap*.pl520.com^
 ||bd1.nxing.cn^
+||bdjs.120askimages.com^
 ||chicken18.com^
 ||cp.greenxf.cn^
 ||d6.mobaders.com^
