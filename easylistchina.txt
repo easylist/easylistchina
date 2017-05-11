@@ -539,12 +539,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||9669.com^$script,third-party
-||mnxtu.com^
-||jackaow.com^
-||xhxnkyy.com^
-||dlrijiaele.com^
-||jhtcdj.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -861,6 +855,7 @@ ubmcmm.baidustatic.com
 ||9519.net^$third-party
 ||95558000.com^
 ||9665yx.com^$third-party
+||9669.com^$script,third-party
 ||9718.com^$third-party
 ||99909988.com^
 ||99lolo.com^
@@ -1107,6 +1102,7 @@ ubmcmm.baidustatic.com
 ||displink.com^$third-party
 ||dlads.cn^$third-party
 ||dleke.com^
+||dlrijiaele.com^
 ||dlzjdesign.com^
 ||dm1080p.com^$third-party
 ||dmtrck.com^$third-party
@@ -1330,6 +1326,7 @@ ubmcmm.baidustatic.com
 ||iuuff.com^
 ||j8j9.com^$third-party
 ||ja9377.com^
+||jackaow.com^
 ||jczzjx.com^
 ||jdlcg.cn^
 ||jdlhg.com^
@@ -1338,6 +1335,7 @@ ubmcmm.baidustatic.com
 ||jgchq.com^
 ||jghcy.com^
 ||jhakie.com^
+||jhtcdj.com^
 ||jhzl001.com^
 ||jiajv.net^
 ||jianbaimei.com^
@@ -1481,6 +1479,7 @@ ubmcmm.baidustatic.com
 ||mingxianshanghang.cn^
 ||mingysh.com^
 ||mlt01.com^
+||mnxtu.com^
 ||mobads.baidu.com^$third-party
 ||momzs.com^$third-party
 ||moodoocrv.com.cn^
@@ -1872,6 +1871,7 @@ ubmcmm.baidustatic.com
 ||xhbqczl.com^
 ||xhmrv.com^
 ||xhsxgmt.cn^
+||xhxnkyy.com^
 ||xhydrs.cn^
 ||xiaobiaoucai.cn^
 ||xiaoyang.mobi^
@@ -3137,6 +3137,7 @@ mg*.6park.com/img/$image
 ||baidud.cn/aoao/down_
 ||baiduyunpan.net/t/
 ||baifen.music.baidu.com^
+||baihei.net/data/attachment/album/
 ||baike.com/3g/ads/
 ||baike.com/iframeheightforad.
 ||baishuku.com/news/$script
@@ -3301,6 +3302,7 @@ mg*.6park.com/img/$image
 ||btspreadcn.com/images/x.jpg
 ||bttt99.com/style/s.js
 ||buimg.com/562723/f54344b0cbbdff87.png
+||buimg.com/588755/360bfd3735e94b25.jpg
 ||buimg.com^$domain=ed2000.com|kisssub.org|moe-acg.cc|ref.so
 ||bukade.com/js/*_p_
 ||bukade.com/js/b_
@@ -6072,6 +6074,7 @@ mg*.6park.com/img/$image
 ||yimuhe.com/n_ad/
 ||yinduabc.com/res_base/*/makemoney/
 ||yinfu.cc/sid/*.js
+||yinyuetai.com/others/admin/*_1200x100.
 ||yinyuetai.com/partner/$object-subrequest
 ||yinyuetai.com/proment/get-play-medias?*&position=overlay
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
@@ -6099,6 +6102,7 @@ mg*.6park.com/img/$image
 ||youth.cn/images/c.js
 ||youth.cn/images/m.js
 ||youth.cn/images/public_
+||youth.cn/include/adtop/
 ||youth.cn/qwtf2015/
 ||youth.cn^$subdocument
 ||youthwant.com.tw/dodo.php?adjs=
@@ -6256,17 +6260,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||baihei.net/data/attachment/album/
-||buimg.com/588755/360bfd3735e94b25.jpg
-||yinyuetai.com/others/admin/*_1200x100.
-||youth.cn/include/adtop/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-csai.cn##.keifu
-csai.cn##a[class^="gg"]
-csai.cn##div[class^="gg"]
-to8to.com##.right-float-ad
-tigtag.com###Home280x80_A16
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6318,6 +6313,7 @@ azo-diary.blogspot.com,azo-diary.blogspot.hk,azo-diary.blogspot.tw###HTML4
 indeepnight.com###HTML9
 zhoushan.cn###Headtop
 tigtag.com###Home1000x70_A29
+tigtag.com###Home280x80_A16
 tigtag.com###Home942x70_A1
 diyifanwen.com###Hzh1
 diyifanwen.com###Hzh2
@@ -8910,6 +8906,7 @@ jxedt.com##.jxpl
 jmw.com.cn##.keLan
 jmw.com.cn##.keLan-img
 jmw.com.cn##.keLan-img + .block
+csai.cn##.keifu
 iqilu.com##.kejie_ad
 v.ifeng.com##.keyword
 99tianji.com##.kf1
@@ -9349,6 +9346,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_timeliness2"]
 rfidworld.com.cn##.rfidADClass
 afzhan.com,fuliba.net,fulibba.com,hexieba.com,uliba.net,yiwugou.com##.right-banner
 image.baidu.com##.right-banner-area
+to8to.com##.right-float-ad
 tuicool.com##.right-link
 123.chinaso.com##.right-list6
 qidian.com##.right-op-wrap
@@ -9941,6 +9939,7 @@ bilibilijj.com##[style="height:100%;"]
 bilibilijj.com##a > img[style*="data"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
+csai.cn##a[class^="gg"]
 bilibili.com##a[data-target-url*=".taobao.com"]
 oschina.net##a[data-traceid$="_ad"]
 oschina.net##a[data-traceid*="_detail_above_text_link_"]
@@ -10199,7 +10198,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecr"][class*="game"]
 cbg.cn##div[class^="erweima"]
 loveshang.com##div[class^="float-ad-"]
 fun.tv##div[class^="fs14_pp"]
-163.com,miercn.com,www.qidian.com##div[class^="gg"]
+163.com,csai.cn,miercn.com,www.qidian.com##div[class^="gg"]
 enorth.com.cn##div[class^="guanggao"]
 fx678.com##div[class^="hc_ad_"]
 5iyq.com##div[class^="index_ad"]
@@ -10971,6 +10970,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||avmo.pw^$generichide
 @@||avso.pw^$generichide
 @@||bahamut.com.tw/JS/ad/mobileBigBanner.js
+@@||baidu.com/jquery/1.4.2/jquery.min.js
 @@||baidustatic.com/cpro/ui/baiduPatch.swf
 @@||baidustatic.com/js/os.js$domain=coladrive.com
 @@||baidustatic.com^$domain=xoyo.com
@@ -11114,7 +11114,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||lefile.cn/??*,
 @@||letv.com/tuiguang/$subdocument
 @@||letvcloud.com^*&showAd=
-@@||baidu.com/jquery/1.4.2/jquery.min.js
 @@||mail.wo.cn/ad/
 @@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
