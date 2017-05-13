@@ -10103,7 +10103,6 @@ muchong.com##a[href^="http://www.zhuanyejun.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 ifeng.com##a[href^="http://yemei.tv/"]
 dnvod.tv##a[href^="http://yoyou."]
-btdigg.pw##a[href^="http://yunbofangbt.com/"]
 dmzj.com##a[href^="http://zt.dmzj.com/test/jump.html?"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 linux.cn##a[href^="https://linux.cn/go/"]
@@ -11372,7 +11371,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||yhzm.cc^
 ||youbian.com^$third-party
 ! BT Kitty
-|http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.pw|btkitty.kim|btlibrary.co|diggbt.ws|savebt.com|storebt.com|torrentkitty.ws|zhongzifuli.org
+##A[href^="http://yunbofangbt."]
+|http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.co|btkitty.kim|btlibrary.co|diggbt.ws|savebt.com|storebt.com|torrentkitty.ws|zhongzifuli.org
 ! Caoporn.com
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 ||caoimgs.com/images/*.gif
