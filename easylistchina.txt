@@ -539,9 +539,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||rpaulfrank.com^
-||lflili.com^
-||shxinjie.cn^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1433,6 +1430,7 @@ ubmcmm.baidustatic.com
 ||letaoxiaochi.com^$third-party
 ||leturich.org^$subdocument
 ||leturich.org^$third-party
+||lflili.com^
 ||lhengilin.com^
 ||lhusy.com^
 ||lhzly.com^$third-party
@@ -1616,6 +1614,7 @@ ubmcmm.baidustatic.com
 ||resetgey.com^
 ||rhgyg.com^
 ||riqu2015.com^
+||rpaulfrank.com^
 ||rrsubway.com^
 ||rsccs.com^$third-party
 ||ruanwenclub.com^$third-party
@@ -1652,6 +1651,7 @@ ubmcmm.baidustatic.com
 ||shucaihangjia.com^
 ||shuihulu.com^$third-party
 ||shujuwu.com^$third-party
+||shxinjie.cn^
 ||si9377.com^
 ||sicentlife.com^
 ||sigbusa.com^
@@ -3278,6 +3278,7 @@ mg*.6park.com/img/$image
 ||bosw.net/js/bos/*960
 ||bp.blogspot.com^$domain=avmimi.com
 ||bpimg.com^$domain=ref.so
+||bqg5.cc/images/960-90.jpg
 ||bqimg.com^$domain=ifulidh.com
 ||brand.sogou.com/micro?yyid=
 ||bs.baidu.com/app-ads%
@@ -3565,6 +3566,7 @@ mg*.6park.com/img/$image
 ||cww.net.cn/include/show.asp?boardID=
 ||cww.net.cn/UpLoadFile/*.swf
 ||cye.com.cn/JS/AdsJS/
+||cyi.m.muyuge.com^
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
 ||d.107788.com^
 ||d.39.net/a.htm?
@@ -3674,6 +3676,7 @@ mg*.6park.com/img/$image
 ||doubleclick.tv002.com^
 ||douguo.net/upload/post/d/
 ||doupapa.com/js/swf/
+||douyu.com/member/gamegift/gameList/
 ||douyucdn.cn/upload/signs/*.swf
 ||douyutv.com/upload/signs/*.swf
 ||down.admin5.com/z/
@@ -4029,6 +4032,7 @@ mg*.6park.com/img/$image
 ||gtv.com.cn/public/images/2014-01/26/97_76841390730340.jpg
 ||gtv.com.cn/public/images/2014-03/20/71_12931395286234.jpg
 ||gtv.com.cn/public/images/2014-06/15/110_89471402801935.jpg
+||guancha.cn/images/weiweibook.jpg
 ||guang.lesports.com^
 ||guanggaolianmeng.net/plushuan/ad_js.php?aid=
 ||guangsuss.com/tpl/html/
@@ -4648,6 +4652,7 @@ mg*.6park.com/img/$image
 ||kviso.com/ddnew/kviso
 ||kviso.com/js/top.js
 ||kwflvcdn.000dn.com^*.flv$object-subrequest,third-party
+||kxgtbk.oss-cn-hangzhou.aliyuncs.com^
 ||kyocdn.com/addons/banner/
 ||kyocdn.com/forum/201312/20/151925t52ey4l34ck0lkgv.jpg
 ||l.qq.com/lview?
@@ -4802,6 +4807,7 @@ mg*.6park.com/img/$image
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
 ||mbalib.com/wiki/common/wikibits.js
+||mbd.baidu.com^$domain=xiaoyun.com
 ||mcncc.com/yeyou/*.htm
 ||media.*.gif$domain=6668.se
 ||media.cheshi-img.com^
@@ -6263,18 +6269,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mbd.baidu.com^$domain=xiaoyun.com
-||guancha.cn/images/weiweibook.jpg
-||douyu.com/member/gamegift/gameList/
-||kxgtbk.oss-cn-hangzhou.aliyuncs.com^
-||bqg5.cc/images/960-90.jpg
-||cyi.m.muyuge.com^
 !------------------------Specific element hiding rules------------------------!
-guancha.cn##.full_nav1
-hqew.com##DIV[class^="g-ad-"]
-xiaoyun.com##.link-ads
 gpcxw.com###AA2
-csdn.net###ad_pop
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6462,6 +6458,7 @@ fengbao.com###ad_lazyload
 babyhome.com.tw###ad_m_peacock
 udn.com###ad_mag
 100ksw.com###ad_move_sg
+csdn.net###ad_pop
 c114.net###ad_r1
 gagays.com###ad_rb_fixed
 400gb.com,bego.cc,ctfile.com,pipipan.com###ad_right_side
@@ -8585,6 +8582,7 @@ mei521.com##.fs_ad1
 ytbbs.com,ythouse.com##.ftop_ad
 duowan.com##.full-banner
 xiagaoqing.com##.full-width
+guancha.cn##.full_nav1
 gamme.com.tw##.fullad_ad
 quanmin.tv##.g-gg
 hiapk.com##.g2.mt20
@@ -8981,6 +8979,7 @@ muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 lywww.com##.lianmengclass
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
+xiaoyun.com##.link-ads
 zhidao.baidu.com##.link-banner
 m.qidian.com##.link_banner
 linux.cn##.linuxcnad
@@ -10211,6 +10210,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[class^="ecr"][class*="game"]
 cbg.cn##div[class^="erweima"]
 loveshang.com##div[class^="float-ad-"]
 fun.tv##div[class^="fs14_pp"]
+hqew.com##div[class^="g-ad-"]
 163.com,csai.cn,miercn.com,www.qidian.com##div[class^="gg"]
 enorth.com.cn##div[class^="guanggao"]
 fx678.com##div[class^="hc_ad_"]
@@ -11325,7 +11325,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?://[^/]+\/[0-9a-z]{40,}\.js/$script
 /cpro.$popup,third-party
 |http://*&uc=
-||dm.gzpinda.com^
 ||1.1010pic.com^
 ||1.feihua.com^
 ||1.panduoduo.net^
@@ -11346,6 +11345,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||daima.chazidian.com^
 ||daima.huoche.net^
 ||dm.92to.com^
+||dm.gzpinda.com^
 ||dm.jb51.net^
 ||dm.sanwen.net^
 ||dm.ws8.org^
