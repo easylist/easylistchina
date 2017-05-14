@@ -539,7 +539,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||hkfuy.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1266,6 +1265,7 @@ ubmcmm.baidustatic.com
 ||hi760.com^
 ||hiad.myweb.hinet.net^
 ||hivecn.cn^
+||hkfuy.com^
 ||hmp33.com^
 ||hn163fck.com^$third-party
 ||hnctsm.com^
@@ -3620,6 +3620,7 @@ mg*.6park.com/img/$image
 ||didown.com/rili-down.gif
 ||diediao.com/js/loading.html
 ||dig.chouti.com/advert
+||dilidili.wang/ad/
 ||dio66.net/images/*.gif
 ||dio88.net/images/*.gif
 ||dio99.com/images/*.gif
@@ -4716,6 +4717,7 @@ mg*.6park.com/img/$image
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
 ||lingdian98.com^
+||lingdianshuwu.com/js/content
 ||link.fobshanghai.com/bbsimage/
 ||linkhelper.cn/mmshow
 ||links.cn/mmshow
@@ -6270,11 +6272,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||lingdianshuwu.com/js/content
-||dilidili.wang/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iqshw.com##.iqshwad-div
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8878,6 +8877,7 @@ loldk.com##.intro-area > div[style="margin-top:7px;"]
 ifeng.com##.ipad_none:nth-last-child(2) > .titR > .js_recommendTag
 people.com.cn##.ipc_none
 iqiyi.com##.iqiyi-shangcheng
+iqshw.com##.iqshwad-div
 henan100.com##.itad
 oupeng.com##.item-list[href^="/go.do?"]
 zol.com.cn##.item-sale
@@ -11374,7 +11374,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||yhzm.cc^
 ||youbian.com^$third-party
 ! BT Kitty
-##A[href^="http://yunbofangbt."]
+##a[href^="http://yunbofangbt."]
 |http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.co|btkitty.kim|btlibrary.co|diggbt.ws|savebt.com|storebt.com|torrentkitty.ws|zhongzifuli.org
 ! Caoporn.com
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
