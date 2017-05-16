@@ -538,8 +538,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||fxmacd.com^
-||9ads.net^$third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -860,6 +858,7 @@ ubmcmm.baidustatic.com
 ||9718.com^$third-party
 ||99909988.com^
 ||99lolo.com^
+||9ads.net^$third-party
 ||9dtiny.cn^
 ||9ead.com^$third-party
 ||9w1an.com^$third-party
@@ -1194,6 +1193,7 @@ ubmcmm.baidustatic.com
 ||fujianryt.com^
 ||fv99.com^
 ||fwt0.com^
+||fxmacd.com^
 ||fxtducb.cn^
 ||fxxgw.com^$third-party
 ||fydgold132.com^
@@ -2522,6 +2522,7 @@ mg*.6park.com/img/$image
 ||360kan.com/swf/ShortVideo_ad_
 ||360safego.com^
 ||360zhibo.com/js/float
+||365kl.net/data/attachment/portal/
 ||365kl.net/template/eis_x3_city_a_1/eis/baobao.gif
 ||365rich.cn/ba.aspx
 ||365xs.org/js/xiayizhang.js
@@ -3191,6 +3192,7 @@ mg*.6park.com/img/$image
 ||bdimg.com/newmap/static/common/images/nav-ad_
 ||bdimg.com/site/games/yxtg/*.js
 ||bdimg.com^$domain=91fuli.xyz|diyifuli.top|idaohang.top|ifulione.com|ifulione.top|onedh.xyz|onefuli.top
+||bdsola.com/img/20170508.jpg
 ||bdsola.com/img/dbtnt.gif
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
 ||bdstatic.com/img/image/su/
@@ -6277,12 +6279,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||365kl.net/data/attachment/portal/
-||bdsola.com/img/20170508.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bdsola.com##DIV[style="margin:10px auto;width:960px"]
-tiboo.cn##.sectionAd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9442,6 +9440,7 @@ dict.cn##.search-right-ad7
 duba.com##.search_promotion
 ijia360.com##.search_radlist
 cnool.net##.second-banner
+tiboo.cn##.sectionAd
 btime.com##.seed-item
 zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
@@ -10417,6 +10416,7 @@ qidian.com##div[style="margin:0 auto;width:375px;height:63px;padding-top:5px"]
 gamersky.com##div[style="margin:0 auto;width:620px;height:75px;overflow:hidden;position:relative;"]
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
 morningpost.com.cn##div[style="margin:0;padding:0;width:648px;height:345px;overflow:hidden;background-color:#fff;"]
+bdsola.com##div[style="margin:10px auto;width:960px"]
 kaifu.tw##div[style="margin:15px; padding:2px;width:304px; height:254px; clear:both; margin:5px auto 20px;"]
 diyifanwen.com##div[style="margin:20px 0;padding:0;width:560px;height:250px;overflow:hidden;background-color:#f5f8fd;"]
 iplaysoft.com##div[style="margin:24px 0;padding:0;background:#f0f0f0;height:150px;width: 980px;border-radius: 6px"]
@@ -10800,9 +10800,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
-@@||ifengimg.com/ifeng/sources/inice_$domain=v.ifeng.com
-@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
@@ -11076,6 +11073,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||fumanhua.net/js/b.js
 @@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
+@@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||gamersky.com^*/dhgame_
 @@||ganji.com/findjob/send_resume.*&ad_type=
 @@||gaoqingkong.com/ads/300x250.js
@@ -11106,8 +11104,9 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||icbc.com.cn/ICBC_ADJS/
 @@||icbc.com.cn/Portal_Resources/Common/AdCss/
 @@||icbc.com.cn/Portal_Resources/Common/AdRes/
-@@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|www.ifeng.com
+@@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
+@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=now.com|xuite.net
 @@||img.ybbbs.com/2014/*app
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
@@ -11329,7 +11328,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?://[^\/]+\/[0-9a-z]{40,}\.js/$script
 /cpro.$popup,third-party
 |http://*&uc=
-||daima.dsxdn.com^
 ||1.1010pic.com^
 ||1.feihua.com^
 ||1.panduoduo.net^
@@ -11349,6 +11347,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||cp.greenxf.cn^
 ||d6.mobaders.com^
 ||daima.chazidian.com^
+||daima.dsxdn.com^
 ||daima.huoche.net^
 ||dm.92to.com^
 ||dm.gzpinda.com^
