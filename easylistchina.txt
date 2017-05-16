@@ -539,9 +539,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||qxjdlf.com^
-||9dtiny.cn^
-||k3851.com^$third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -862,6 +859,7 @@ ubmcmm.baidustatic.com
 ||9718.com^$third-party
 ||99909988.com^
 ||99lolo.com^
+||9dtiny.cn^
 ||9ead.com^$third-party
 ||9w1an.com^$third-party
 ||9xu.com^$third-party
@@ -1385,6 +1383,7 @@ ubmcmm.baidustatic.com
 ||jxlqgs.com^
 ||jxxiangchu.com^
 ||jystea.com^
+||k3851.com^$third-party
 ||kaixinjiehun.com^$third-party
 ||kawa11.space^
 ||kdly.net^$third-party
@@ -1606,6 +1605,7 @@ ubmcmm.baidustatic.com
 ||quansj.cn^
 ||qubilou.com^$third-party
 ||qucaigg.com^
+||qxjdlf.com^
 ||qxxys.com^
 ||qyctj.com^
 ||qzdfc.com^
@@ -2030,9 +2030,7 @@ ubmcmm.baidustatic.com
 /pushstart.aspx?$popup,third-party
 /pushstart.html?$popup,third-party
 /tanchuan.htm$popup,third-party
-|http:$popup,third-party,domain=76fengyun.com
-||76fengyun.com/vip.php$popup
-|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|88files.net|99files.net|avsdown.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|lamp99.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
+|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|76fengyun.com|88files.net|99files.net|avsdown.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|lamp99.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
 |http://*/?$popup,domain=linkbucks.com|zytpirwai.net
 |http://t.cn/$popup,domain=yifile.com
 |https:$popup,third-party,domain=jandown.com
@@ -2040,6 +2038,7 @@ ubmcmm.baidustatic.com
 ||189.cn/actpush/$popup,third-party
 ||300.bilibilijj.com^$popup
 ||550022.com^$popup
+||76fengyun.com/vip.php$popup
 ||9100300.com^$popup
 ||acgpost.taobao.com^$popup,domain=tsdm.me|tsdm.net|tsdm.tw
 ||ad.189so.cn^$popup
@@ -2619,6 +2618,7 @@ mg*.6park.com/img/$image
 ||51zxw.net/fzsplayer/adtextzxw.asp?
 ||520bdy.com/images/888
 ||520cc.me/ad/$~collapse
+||520xs.la/js/xf.js
 ||521000.com/co/
 ||5278.cc/index.js
 ||5278bbs.com/adpost_
@@ -2732,6 +2732,7 @@ mg*.6park.com/img/$image
 ||733dm.net/skin/middle.js
 ||75.125.41.29:8080/
 ||76.73.85.179/js/v1.js
+||76fengyun.com/jsa/
 ||76xh.com/skin/zxf/js/*Out.js
 ||76xh.com/skin/zxf/js/ad
 ||777g.me/cs/
@@ -6281,12 +6282,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||76fengyun.com/jsa/
-||520xs.la/js/xf.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iqshw.com##.iqshwad-comm
-vpser.net##DIV[id*="_thread"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6644,8 +6641,7 @@ masok.cn###bottomLayer
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
-btkitty.kim###box
-btdigg.co,btlibrary.co,diggbt.ws,dnvod.tv,dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
+btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,dnvod.tv,dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
 50sen.com###box-ads
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
@@ -8891,6 +8887,7 @@ loldk.com##.intro-area > div[style="margin-top:7px;"]
 ifeng.com##.ipad_none:nth-last-child(2) > .titR > .js_recommendTag
 people.com.cn##.ipc_none
 iqiyi.com##.iqiyi-shangcheng
+iqshw.com##.iqshwad-comm
 iqshw.com##.iqshwad-div
 henan100.com##.itad
 oupeng.com##.item-list[href^="/go.do?"]
@@ -10269,6 +10266,7 @@ baby-kingdom.com##div[id*="Banner Zone"] + script + a
 baby-kingdom.com##div[id*="Banner Zone"] + script + iframe
 baby-kingdom.com##div[id*="Banner Zone"] + script + object
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
+vpser.net##div[id*="_thread"]
 8684.cn,8684.com##div[id*="adid"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
@@ -11341,8 +11339,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?://[^\/]+\/[0-9a-z]{40,}\.js/$script
 /cpro.$popup,third-party
 |http://*&uc=
-||uniondm.cz88.net^
-||becode.qiushibaike.com^
 ||1.1010pic.com^
 ||1.feihua.com^
 ||1.panduoduo.net^
@@ -11357,6 +11353,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||ap*.pl520.com^
 ||bd1.nxing.cn^
 ||bdjs.120askimages.com^
+||becode.qiushibaike.com^
 ||chicken18.com^
 ||cp.greenxf.cn^
 ||d6.mobaders.com^
@@ -11385,6 +11382,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||s1.hiapk.com^
 ||star-media.cn^$third-party
 ||sundxs.com^$third-party
+||uniondm.cz88.net^
 ||xuehi.cn^$domain=wenkuxiazai.com
 ||yhzm.cc^
 ||youbian.com^$third-party
