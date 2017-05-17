@@ -538,7 +538,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||dandan13.top^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1080,6 +1079,7 @@ ubmcmm.baidustatic.com
 ||d8360.com^$third-party
 ||daima123.cc^
 ||dalianhengtai.com^
+||dandan13.top^
 ||dandan15.top^
 ||dante2007.com^
 ||dashet.com^
@@ -4434,6 +4434,7 @@ mg*.6park.com/img/$image
 ||iplaypy.com/uploads/allimg/160127/2-16012G50U0c1.jpg
 ||iplaypython.com/images/banner
 ||iq33.com/skin/logo201
+||iqilu.com/getZone.php
 ||iqilu.com/static_files/richmedia/
 ||iqiyi.com/common/flashplayer*_1380x
 ||iqiyi.com/common/flashplayer/*-banner-
@@ -6280,11 +6281,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||iqilu.com/getZone.php
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yzmg.com##.article-bottom-ads
-yzmg.com##.article-top-ads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8086,10 +8084,12 @@ tianya.cn##.art-view
 bkjia.com##.art_rightad1
 jj59.com##.art_tong
 sj33.cn##.artconad
+yzmg.com##.article-bottom-ads
 cnbeta.com##.article-global
 cyzone.cn##.article-middle-guanggao
 sina.cn##.article-sax
 51test.net##.article-show:nth-child(2n+3)
+yzmg.com##.article-top-ads
 sm.cn##.article.ali_row + #sc ~ .article.ali_row
 haha.mx##.article.mt-20
 xvna.com##.articleAD
@@ -11332,9 +11332,9 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?:\/\/(?!www[0-9]?\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{40,}\.js/$script
 /cpro.$popup,third-party
 |http://*&uc=
-||1.mgff.com^
 ||1.1010pic.com^
 ||1.feihua.com^
+||1.mgff.com^
 ||1.panduoduo.net^
 ||1.rengshu.com^
 ||1.win7china.com^
@@ -11394,8 +11394,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
 |http:$script,third-party,xmlhttprequest,domain=m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.81zw.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xs222.com|wap.xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.81zw.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xs222.com|wap.xxbiquge.com
-||sonomoyo.com^
 ||gyrtg.com^
+||sonomoyo.com^
 ||tuadong.com^
 ! Sex8.cc
 ###j-new-ad
@@ -11404,7 +11404,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##.a_sxp
 ##.a_sxpb
 ##.heg > .partner-list
-##A[href^="/astat.php?a="]
+##a[href^="/astat.php?a="]
 !-----------------------------Malware Domains rules---------------------------!
 ||146.148.85.61^
 ||akamaihd.net^*/gsd.html?d=
@@ -11428,6 +11428,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
+@@/setCookie?$domain=ctrip.com|ctrip.com.hk
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
@@ -11456,7 +11457,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||hm.baidu.com^$domain=ihome99.com
 @@||ipip.net/ping.php?
 @@||jd.com/setCookie?
-@@/setCookie?$domain=ctrip.com|ctrip.com.hk
 @@||kfcorder.com.tw/web/Script/Analytics.js
 @@||lobi.co/1/track/event/
 @@||msn.wrating.com/a1.js
