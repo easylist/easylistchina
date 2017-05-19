@@ -2214,6 +2214,7 @@ mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
 |http:$script,third-party,xmlhttprequest,domain=btdb.in
 |http:$subdocument,domain=pc6.com
+|http:$third-party,domain=icpmp.com
 |http://*.tk^$domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
@@ -3258,6 +3259,7 @@ mg*.6park.com/img/$image
 ||biz.lyd.com.cn/20
 ||biz.weibo.com^
 ||biz37.net^*.swf?uid=
+||bjcathay.com/s?z=
 ||bjmama.net/a/spc_
 ||bjmama.net/s/
 ||bjmxw.net/bd/
@@ -4526,6 +4528,7 @@ mg*.6park.com/img/$image
 ||javazhijia.com/skin/bysj.jpg
 ||javjunkies.com/FL$subdocument
 ||javlibrary.com/js/bnr_
+||jb51.net/js/beitou.js
 ||jb51.net/js/ggtop.js
 ||jb51.net/skin/office/js/botad.js
 ||jb51.net/templets/2016js/
@@ -4634,6 +4637,7 @@ mg*.6park.com/img/$image
 ||kanguba.com/file/js/ifr.asp
 ||kankanmi.com/js/zjgg
 ||kankantv.cc/330-50.gif
+||kankanwu.com/le/
 ||kanpp.net/Uploads/ad/
 ||kaoyan1v1.com/IAA/
 ||kcwiki.moe/commons/4/4f/DMMprepaidcard.jpg
@@ -4953,6 +4957,7 @@ mg*.6park.com/img/$image
 ||nanrenshu.com/rmb/st_dh.js
 ||narutom.com/v2/js/ca.js
 ||narutom.com/v2/v/$subdocument
+||nba98.com/res/js.js
 ||nbyayu.cn/player.swf
 ||ncdiy.com/webindex/300-250AD.swf
 ||neihanshe.cn/upload/2014-09-24/46d6992067f9ad73daffac4cd519e11b.jpg
@@ -5529,6 +5534,7 @@ mg*.6park.com/img/$image
 ||sogou.com/acquireAdvertise.
 ||sogou.com/img_logo/wp.js
 ||sogoucdn.com/imgu/*.swf
+||sogoucdn.com/wap/js/
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
 ||sohu.com/interaction/get/
@@ -6286,14 +6292,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||nba98.com/res/js.js
-||bjcathay.com/s?z=
-|http:$third-party,domain=icpmp.com
-||sogoucdn.com/wap/js/
-||jb51.net/js/beitou.js
-||kankanwu.com/le/
 !------------------------Specific element hiding rules------------------------!
-icpmp.com##DIV[id^="__"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -10293,6 +10292,7 @@ tigtag.com##div[id^="Home942x70_"]
 tzfdc.com.cn##div[id^="LMT_"]
 360che.com##div[id^="PAGE_AD_"]
 90bifen.com##div[id^="ShowTopAds_"]
+icpmp.com##div[id^="__"]
 kunming.cn##div[id^="_picadv_"]
 ettoday.net##div[id^="abp"]
 makepolo.com,mycar168.com,pchome.net,qz828.com,zhangxinxu.com##div[id^="ad"]
