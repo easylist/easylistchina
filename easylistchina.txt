@@ -3183,6 +3183,8 @@ mg*.6park.com/img/$image
 ||bbs169.com/*/images/
 ||bbs169.com^*.$script
 ||bbs169.com^*/*/*.gif
+||bbsbaba.com/js/1.js
+||bbsbaba.com/js/2.js
 ||bcbay.com/images/spring2017.jpg
 ||bcc.com.tw/imgs/adv/
 ||bccn.net/aab/
@@ -3506,6 +3508,7 @@ mg*.6park.com/img/$image
 ||cnbetacdn.com/banner
 ||cnbetacdn.com/frontend/250x200.png
 ||cnbetacdn.com/frontend/vipics/yijian_
+||cnblogs.com/blog/36987/201509/36987-20150913115252950-1736386654.jpg
 ||cnblogs.com/units/
 ||cnchu.com/aps/
 ||cndzys.com/huanlian/
@@ -5053,6 +5056,7 @@ mg*.6park.com/img/$image
 ||pcauto.com.cn/forum/fz/hots/
 ||pcbeta.com/static/image/microsoftstore/
 ||pccoo.cn/js/dlv1.0.js
+||pcgames.com.cn*/index.js
 ||pcgames.com.cn/g/
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/img/js/xpcadshow.js
@@ -5226,6 +5230,7 @@ mg*.6park.com/img/$image
 ||qiyipic.com/zongyi/fix/mxdj
 ||qiyipic.com/zongyi/fix/runningman20141008_bg02.jpg
 ||qiyipic.com/zongyi/fix/runningman20141008_bg03.jpg
+||qiyue.com/statics/js/3g.js
 ||qiyun.org/images/js/*.htm
 ||qk101.com/life/
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
@@ -6281,14 +6286,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||bbsbaba.com/js/1.js
-||bbsbaba.com/js/2.js
-||pcgames.com.cn*/index.js
-||qiyue.com/statics/js/3g.js
-||cnblogs.com/blog/36987/201509/36987-20150913115252950-1736386654.jpg
 !------------------------Specific element hiding rules------------------------!
-cnblogs.com##.focus-gg
-taoguba.com.cn##.wz_ad
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8574,6 +8572,7 @@ newcger.com##.focus + .block934
 sj998.com##.focus-320-240
 17173.com##.focus-ad-l
 17173.com##.focus-ad-r
+cnblogs.com##.focus-gg
 zhongkao.com##.focusBox
 17173.com##.focus_ad
 yinyuetai.com##.focus_bottom_banner
@@ -9884,6 +9883,7 @@ paipai.fm,paipaitxt.com##.wrapbg
 btbtt.co##.wrapper_bg_c
 image.baidu.com##.wrapper_dot_box.dot_black
 wallstreetcn.com##.wscn-page-ad
+taoguba.com.cn##.wz_ad
 liaoxuefeng.com##.x-promo-b
 autofan.com.cn##.xf_ad
 familydoctor.com.cn##.xg
@@ -10836,8 +10836,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/adshow/*$domain=kysec.cn|mndxy.org
 @@/adsshow/*$domain=veryeast.cn
 @@/advert.$domain=izo.tw
-@@/advert/*$domain=toread.com.cn
-@@/advert/*$domain=cctcw.cn|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn|youyuan.com
+@@/advert/*$domain=cctcw.cn|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn|toread.com.cn|youyuan.com
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
 @@/advertise/*$domain=sfbuy.com
@@ -11402,11 +11401,11 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
 |http:$script,third-party,xmlhttprequest,domain=m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.81zw.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xs222.com|wap.xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.81zw.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xs222.com|wap.xxbiquge.com
+||axkxy.com^
+||feifish66.com^
 ||gyrtg.com^
 ||sonomoyo.com^
 ||tuadong.com^
-||feifish66.com^
-||axkxy.com^
 ! Sex8.cc
 ###j-new-ad
 ##.a_sxfl
