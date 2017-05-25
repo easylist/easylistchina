@@ -5817,7 +5817,6 @@ mg*.6park.com/img/$image
 ||v4.cc/m/common.js
 ||v8gay.com/apps/misc.php?action=advert&
 ||van698.com/api.php?mod=js&bid=369
-||vanpeople.com/ad$subdocument
 ||vanpeople.com/images_site/adb/
 ||vansky.com/index_files/*.gif
 ||vas.funshion.com^
@@ -6311,6 +6310,10 @@ mg*.6park.com/img/$image
 ||mydrivers.com/news/2017/pc_dangbei.gif
 !------------------------Specific element hiding rules------------------------!
 mydrivers.com###thread_subject + DIV
+v1.cn##.db_right_ad
+v1.cn##.discussAd_bottom
+v1.cn##.discussAd_top
+v1.cn##.fullAd
 mydrivers.com##.btnNext + DIV:last-child
 vansky.com##.top-ad-link
 gpcxw.com###AA2
@@ -6897,7 +6900,6 @@ hao.360.cn###festival-theme > .left-entry
 hao.360.cn###festival-theme > .right-entry-wrap
 6665.com###fgdiy01
 6665.com###fgdiy09
-dl.vmall.com###filelist_marker
 elecfans.com###fix-tdkad
 comic.qq.com###fixed_right > div
 duba.com###fixedad
@@ -7887,7 +7889,6 @@ afzhan.com##.adContain
 hkgalden.com##.adContainer
 familydoctor.com.cn##.adExtra
 sina.com.cn##.adF
-v1.cn##.adFr01
 newcger.com##.adFullwidth90
 sina.com.cn##.adG
 sina.com.cn##.adH
@@ -8049,7 +8050,7 @@ bthave.com,uho.com.tw##.adsense
 qinbing.cn##.adspic_mid2
 ynet.com##.adt
 chinaz.com,yawin.cn##.adtext
-114la.com,3g.cn,78dm.net,php100.com,qzntv.com,qzwb.com,silver.org.cn,solidot.org,v1.cn,ylmf.com##.adv
+114la.com,3g.cn,78dm.net,php100.com,qzntv.com,qzwb.com,silver.org.cn,solidot.org,ylmf.com##.adv
 wdzj.com##.adv-img
 qq.com##.adv1000
 kdhome.net##.adv2
@@ -8058,13 +8059,10 @@ kdhome.net##.adv3
 myhack58.com##.adv32
 it165.net##.adv728a
 it165.net##.adv728b
-v1.cn##.advH198
-v1.cn##.advH250
 sohu.com##.adv_960
 kuai.xunlei.com##.adv_area
 le.com,letv.com##.adv_img
 kaifu.com##.adv_slide
-v1.cn##.advbigJs
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,ningmengzhibo.com##.advbox
 anjuke.com##.adver-content
 360che.com##.adver1000_60
@@ -8073,7 +8071,6 @@ anjuke.com##.adver-content
 360che.com##.adver300_150
 360che.com##.adver300_250
 360che.com##.adver600_80
-v1.cn##.adverBox300
 wyh.tv##.adverall
 jiaonan.net##.adverframe
 ce.cn,dianxinnews.com,eastmoney.com,expreview.com,like101.com.tw,sz.zj.cn,xywy.com##.advert
@@ -10274,7 +10271,6 @@ sun0769.com##div[class^="pagecenter sungg"]
 wasu.cn##div[class^="play_ads"]
 infoq.com##div[class^="related_sponsors"]
 qidian.com##div[class^="show_ggpic_"]
-vvic.com##div[class^="side"]
 86wan.com##div[class^="tonglan"]
 21cn.com##div[class^="topAds"]
 gamme.com.tw##div[class^="topad_"]
