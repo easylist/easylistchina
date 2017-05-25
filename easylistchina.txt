@@ -4956,6 +4956,7 @@ mg*.6park.com/img/$image
 ||mydrivers.com/news/2017/*-260.
 ||mydrivers.com/news/2017/*_580
 ||mydrivers.com/news/2017/*_677_210.
+||mydrivers.com/news/2017/pc_dangbei.gif
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
@@ -5033,6 +5034,7 @@ mg*.6park.com/img/$image
 ||onegreen.net/MyFile/
 ||oneinstack.com/ad_buttom.html
 ||onlinedown.net/Public/img/bomAD.jpg
+||ooqiu.com/ad_js/
 ||opinion.people.com.cn/GB/
 ||opticsky.cn/images/2015/gy-px201
 ||opticsky.cn/images/2016/240X60.png
@@ -5101,6 +5103,7 @@ mg*.6park.com/img/$image
 ||people.com.cn/img/gjt/
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/linode
+||peryi.com/s/?t=
 ||pfizer.com.tw^$subdocument
 ||pfp.sina.com.cn^$script,subdocument
 ||pg.udn.com/BT/*.swf
@@ -5723,6 +5726,7 @@ mg*.6park.com/img/$image
 ||trafficjam.cn^
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||ts.cn^*/site1/$object
+||tsdmw.net/img01/MP3/480-90.gif
 ||tt.biquge.la^
 ||tt1069.com/bbs/zgg_
 ||tt1069.com/or_pu_0604.js
@@ -5815,9 +5819,11 @@ mg*.6park.com/img/$image
 ||v1.cn/cms/*/js/ad_new.js
 ||v2ex.co/Kc9G5j9Y.gif
 ||v4.cc/m/common.js
+||v5bjq.com/Images/ggImg/$~collapse
 ||v8gay.com/apps/misc.php?action=advert&
 ||van698.com/api.php?mod=js&bid=369
 ||vanpeople.com/images_site/adb/
+||vansky.com/agdg/homegg/
 ||vansky.com/index_files/*.gif
 ||vas.funshion.com^
 ||vc52.cn/data/attachment/forum/201407/28/115351zb26p62jojh6oo49.gif
@@ -6305,24 +6311,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||v5bjq.com/Images/ggImg/$~collapse
-||vansky.com/agdg/homegg/
-||mydrivers.com/news/2017/pc_dangbei.gif
-||tsdmw.net/img01/MP3/480-90.gif
-||peryi.com/s/?t=
-||ooqiu.com/ad_js/
 !------------------------Specific element hiding rules------------------------!
-mydrivers.com###thread_subject + DIV
-v1.cn##.db_right_ad
-v1.cn##.discussAd_bottom
-v1.cn##.discussAd_top
-v1.cn##.fullAd
-hao123.com###lefttip-container
-hao123.com###siye
-mydrivers.com##.btnNext + DIV:last-child
-vansky.com##.top-ad-link
 gpcxw.com###AA2
-vjmedia.com.hk###author-spotlight + .clear + DIV
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6604,6 +6594,7 @@ baidu.com###asideLeft
 baidu.com###asideRight
 163.com###atleCB + .footer
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
+vjmedia.com.hk###author-spotlight + .clear + div
 ck101.com###av_a
 qq.com###ay-bottom-tips > .bd > .pic-box
 qq.com###ay-tips-close + h2
@@ -7149,6 +7140,7 @@ hao123.com###leftbannerv2
 ifeng.com###leftdl
 fqlook.cn###leftfloatad1
 www.wenxuecity.com###leftside
+hao123.com###lefttip-container
 letpub.com.cn###letpubjournalmessagebox
 techweb.com.cn###liepin
 sdgundam.cn###link-roll ~ .box-set-2
@@ -7445,6 +7437,7 @@ udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 hexieshe.com###single-main-content + p
 megatime.com.tw,pchome.com.tw###sixi
+hao123.com###siye
 etnet.com.hk###skinnerads
 12306.cn,club.pchome.net,kdslife.com###slideBox
 12306.cn###slideRBox
@@ -7517,6 +7510,7 @@ firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list + li[class]:not(.j_thread_list)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list:not([data-field])
+mydrivers.com###thread_subject + div
 ettoday.net###ticker_3
 xxdm.com,xxdm.org###tiepianDIV
 1ting.com###tingx_5
@@ -8331,6 +8325,7 @@ onlinedown.net##.btmAD
 ifeng.com##.btm_tg
 aizhan.com##.btn
 cssmoban.com##.btn-host
+mydrivers.com##.btnNext + div:last-child
 17173.com,gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
 btime.com##.business-box
@@ -8468,6 +8463,7 @@ bbs.it168.com##.daoh2 + .bor8
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
 zdfans.com##.db_post
+v1.cn##.db_right_ad
 96weixin.com##.dbgg
 games.qq.com##.dc-kf_list
 pan.baidu.com##.decrease-active
@@ -8479,6 +8475,8 @@ faxingw.cn##.detailgc
 wenku.baidu.com##.dialog-ad-hd
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.diamond-mall-aside
 bcbay.com##.discuss + table
+v1.cn##.discussAd_bottom
+v1.cn##.discussAd_top
 gs.chinanews.com.cn##.div1000_2 + .div980
 131458.com##.divGuanggao
 0597ok.com,5iyq.com##.div_ad
@@ -8635,6 +8633,7 @@ mei521.com##.fs_ad1
 ytbbs.com,ythouse.com##.ftop_ad
 duowan.com##.full-banner
 xiagaoqing.com##.full-width
+v1.cn##.fullAd
 guancha.cn##.full_nav1
 gamme.com.tw##.fullad_ad
 quanmin.tv##.g-gg
@@ -9738,6 +9737,7 @@ meizhou.com##.top + .w1000
 2345.com##.top > .fred
 midifan.com##.top-aaa
 baidu.com##.top-ad-cont
+vansky.com##.top-ad-link
 xiaomengku.com##.top-adv-box
 ku6.com##.top-aku6
 baidu.com##.top-banner-ad-wrap
