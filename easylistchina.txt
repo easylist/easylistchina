@@ -2110,10 +2110,6 @@ ubmcmm.baidustatic.com
 .com/tps/$domain=ocucn.com
 .com/x/$domain=17173.com|17173.tv.sohu.com
 .html|$domain=www.gamer.com.tw
-.m.liewen.cc^
-.m.muyuge.com^
-.m.xs222.com^
-.m.zwdu.com^
 .niusnews.com/upload/banners/
 .oeya.com/$domain=realtw.com
 .pcrookie.com/ad/
@@ -5960,7 +5956,6 @@ mg*.6park.com/img/$image
 ||wxrb.com/g/js/baidu.cbjs.m.js
 ||wyh.tv/image/upload/ad/
 ||wyzu.cn/js/3.js
-||wzbh.org/imgad/
 ||x.jd.com/static/js/auto.js
 ||x.jd.com/static/js/cpc.js
 ||x4399.com^*-*-
@@ -6322,6 +6317,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||histock.tw/JScript/AD/
+||wbzol.com/images/sx20170427.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 histock.tw###logo_21_ad_768x901_pnlAD1
@@ -6448,7 +6444,7 @@ ik123.com###aa960a
 2345.com###abanner
 hao.360.cn###activity
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###activity_countdown_head
-3773.com.cn,jqgcw.com,srzc.com,wenkudaquan.com,win7sky.com,wj001.com###ad
+3773.com.cn,jqgcw.com,srzc.com,wenkudaquan.com,wj001.com###ad
 ruten.com.tw###ad-467
 acfun.tv###ad-b
 itxueyuan.org###ad-beifeng-729-90
@@ -7498,7 +7494,6 @@ m.autohome.com.cn###tcw20l
 pchome.com.tw###test2
 free.com.tw###text-124
 aijava.cn###text-15
-wuleba.com###text-2
 hacg.fi,hacg.red,hacg.wiki###text-22
 hacg.fi,hacg.red,hacg.wiki###text-25
 hacg.fi,hacg.red,hacg.wiki###text-26
@@ -7509,7 +7504,6 @@ stoneip.info###text-57
 uisdc.com###text-6
 htcui.com,sea-group.org###text-7
 zreading.cn###text-8
-wuleba.com###text-9
 pbhz.com###text-html-widget-2
 acg18.us###text-html-widget-2 ~ .widget-box
 dsqnw.com###text-html-widget-9
@@ -11462,6 +11456,10 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
+.m.liewen.cc^
+.m.muyuge.com^
+.m.xs222.com^
+.m.zwdu.com^
 .m.bookben.com^
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]{5,}\.(?:com|cn|cc|net)(?:\/[0-9]{1,7}){1,4}(?:\.html|\.html\?ts=[0-9]+)?$/$script,third-party,xmlhttprequest
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
