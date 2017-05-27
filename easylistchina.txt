@@ -12,17 +12,17 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+.cn/ads/
+.cn/js/ads/
+.co/js/ads/
+.com/?ss=$script
+.com/a_d/
 .com/ads/ada.js
 .com/ads/adb.js
 .com/ads/add.js
 .com/ads/dui.js
 .com/ads/p1.js
 .com/ads/p2.js
-.cn/ads/
-.cn/js/ads/
-.co/js/ads/
-.com/?ss=$script
-.com/a_d/
 .com/java/shang1.js
 .com/java/xia1.js
 .com/java/youxia.js
@@ -543,7 +543,6 @@ _popAds.
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
-||33shangyou.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -736,6 +735,7 @@ ubmcmm.baidustatic.com
 ||321tui.com^$third-party
 ||32414.com^$third-party
 ||3399.com/act/$third-party
+||33shangyou.com^
 ||3600ys.com^$third-party
 ||360366.net^$third-party
 ||360baidus.com^
@@ -3308,6 +3308,7 @@ mg*.6park.com/img/$image
 ||bnext.com.tw/static/web/images/banners/
 ||bokon.net:1133/ga/
 ||bonbonme.com/js/g1313166/
+||bonbonyou.com/js/
 ||bookbao.cc/js/
 ||bookben.com/js/m/wap.js
 ||bookgew.com/hz1/tcby.js
@@ -4194,6 +4195,7 @@ mg*.6park.com/img/$image
 ||hinews.cn/js/09page/10pagesjbtj
 ||hinews.cn/out/*.js?
 ||hinews.cn/swf/0/*.swf
+||histock.tw/JScript/AD/
 ||hitsukirei.idv.st/dns/bar.htm
 ||hk-pub.com/forum/images/banner/
 ||hk01.com/assets/scripts/dfp_overlay.js
@@ -5888,6 +5890,7 @@ mg*.6park.com/img/$image
 ||wapzj.com/template/yudi_kanchai/style/icon27.jpg
 ||warting.com/plus/*.php?aid=
 ||wbzol.com/images/1120-
+||wbzol.com/images/sx20170427.jpg
 ||wbzol.com/swf/352X76.swf
 ||wdlm.cn/img/ad1/
 ||wdown.cn/falala/
@@ -6316,14 +6319,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||histock.tw/JScript/AD/
-||wbzol.com/images/sx20170427.jpg
-||bonbonyou.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-histock.tw###logo_21_ad_768x901_pnlAD1
-histock.tw###tbadword
-histock.tw##.bottom-right
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7168,6 +7165,7 @@ bukade.com###loadimg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###local_pb_top
 blog.163.com###loftertextlinkad
 elecfans.com###login-tip
+histock.tw###logo_21_ad_768x901_pnlAD1
 letv.com###logo_activity
 youku.com###lotteryToolbar
 youku.com###lotteryToolbarBig
@@ -7489,6 +7487,7 @@ t.qq.com###talkList > li[ispopula="1"][tv="2"]
 e23.cn###taobaorba
 findprice.com.tw###tb_ad
 23zw.com###tbad
+histock.tw###tbadword
 40407.com###tcdgg
 m.autohome.com.cn###tcw20l
 3g.qq.com###template_gdt_div1
@@ -8305,6 +8304,7 @@ biz.zjol.com.cn##.bot
 dianping.com##.bottom-contrainer
 liba.com##.bottom-pic
 115.com##.bottom-qcode > p
+histock.tw##.bottom-right
 3g.news.cn,m.news.cn##.bottomtitle
 freehao123.com##.box
 enread.com##.box > ul[style="width:100%;overflow:hidden;"]
@@ -11457,11 +11457,11 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
+.m.bookben.com^
 .m.liewen.cc^
 .m.muyuge.com^
 .m.xs222.com^
 .m.zwdu.com^
-.m.bookben.com^
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
 |http:$script,third-party,xmlhttprequest,domain=m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugego.com|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xs222.com|m.zwdu.com|wap.xxbiquge.com
 |https:$script,third-party,xmlhttprequest,domain=m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugego.com|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xs222.com|m.zwdu.com|wap.xxbiquge.com
