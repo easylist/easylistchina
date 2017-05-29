@@ -545,7 +545,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
-||lhafy.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -1455,6 +1454,7 @@ ubmcmm.baidustatic.com
 ||leturich.org^$subdocument
 ||leturich.org^$third-party
 ||lflili.com^
+||lhafy.com^
 ||lhengilin.com^
 ||lhusy.com^
 ||lhzly.com^$third-party
@@ -3875,6 +3875,7 @@ mg*.6park.com/img/$image
 ||faxingw.cn/js/jiafa
 ||faxingw.cn/js/wenba.js
 ||fcai.com/ifengIndex.html
+||fd173.cn^$third-party
 ||fdc.com.cn/cms/js/bbs/bbstonglan.js
 ||fdc.com.cn/cms/js/bbs/dl.js
 ||fdc.com.cn/cms/js/home_js/*_move_
@@ -3896,6 +3897,7 @@ mg*.6park.com/img/$image
 ||firefoxchina.cn^*_topbanner
 ||fj.sina.com.cn/iframe/63/
 ||fj007.com/money/
+||fj30.cn/o_1bgv6b7s72rbh3msi6ij6qcne.jpg
 ||fjlyfdc.com.cn/hxhad/
 ||flash.mycar168.com/data/js/
 ||flash8.net/flash8_a_d_s/
@@ -6318,14 +6320,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||fj30.cn/o_1bgv6b7s72rbh3msi6ij6qcne.jpg
-||fd173.cn^$third-party
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-eepw.com.cn###coverDiv
-eepw.com.cn###popBox
-acg18.us##A[href^="/jump/"]
-acg18.us##SCRIPT + A
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6783,6 +6779,7 @@ baidu.com,danyang.com###couplet-left
 baidu.com,danyang.com###couplet-right
 youxi.baidu.com###coupletBanner
 sg169.com###couprigth
+eepw.com.cn###coverDiv
 1688.com###cpm-ad
 1688.com###cpm-ad-2
 nownews.com###crazy-video
@@ -7306,6 +7303,7 @@ image.baidu.com###plz-head-banner
 gdzjdaily.com.cn###politicTopAd
 game2.cn###pop-flash
 aibang.com###popAd
+eepw.com.cn###popBox
 jdyou.com###popWrap
 qq.com###pop_apps_sponsors
 ebiotrade.com###pop_banner1
@@ -10110,6 +10108,7 @@ bigear.cn##a[href^="/?module=business&"]
 sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 shaoit.com##a[href^="/go/"]
+acg18.us##a[href^="/jump/"]
 muchong.com##a[href^="a"][target="_blank"][href$=".html"]
 muchong.com##a[href^="adlog."] > img[height="90"]
 muchong.com##a[href^="adlog.php?adid="]
@@ -10629,6 +10628,7 @@ blue-way.com.tw,like101.com.tw##p:first-child + [border="1"][width="100%"]
 muchong.com##p[onclick="view_ok();"]
 6.gy##p[style="text-align: center;"]
 lolshipin.com##script + .box:nth-child(2)
+acg18.us##script + a
 acg18.us##script + a[target="_blank"]
 qqlubo.net##script + br ~ a
 csj.xinhuanet.com##script + center > a > img
@@ -10869,7 +10869,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||ifeng.com^*?new=*?new=
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=tgfcer.com|wgun.net
@@ -11174,6 +11173,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||icbc.com.cn/ICBC_ADJS/
 @@||icbc.com.cn/Portal_Resources/Common/AdCss/
 @@||icbc.com.cn/Portal_Resources/Common/AdRes/
+@@||ifeng.com^*?new=*?new=
 @@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
@@ -11401,7 +11401,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 |http://*&uc=
 ||1.1010pic.com^
 ||1.feihua.com^
-||ikuailian.com^$third-party
 ||1.mgff.com^
 ||1.panduoduo.net^
 ||1.rengshu.com^
@@ -11425,7 +11424,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||daima.dsxdn.com^
 ||daima.huoche.net^
 ||dm.92to.com^
-||gzpinda.com^$third-party
 ||dm.jb51.net^
 ||dm.sanwen.net^
 ||dm.ws8.org^
@@ -11439,6 +11437,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||guang.sdsgwy.com^
 ||gunmi.cn^$third-party
 ||gzlykj.cn^
+||gzpinda.com^$third-party
+||ikuailian.com^$third-party
 ||jsm.9939.com^
 ||kuku99.com^$third-party
 ||lele999.com^
