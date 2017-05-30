@@ -6316,6 +6316,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||windows7en.com/images/
+||steamcn.com/data/attachment/common/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 zimuzu.tv###output > li > a[href^="http"]:not([href*="resource/"])
@@ -9625,8 +9626,7 @@ baidu.com##.spread-wrap
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.spreadad
 aisex.com##.sptable
 stockstar.com##.ss-ad-icon2
-steamcn.com##.stcn_a_hh
-steamcn.com##.stcn_a_prpr
+steamcn.com##DIV[class*="stcn_a_"]
 07073.com##.subarea_ad
 10jqka.com.cn##.subbanner
 cam4.tw##.subfoot-section
