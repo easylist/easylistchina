@@ -6322,6 +6322,7 @@ mg*.6park.com/img/$image
 ||chdbits.co/pic/A5banner.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+i.ifeng.com##.i_con[href^="http://dol.deliver.ifeng.com/"]
 eastday.com##.ad
 eastday.com##.video-mask
 zimuzu.tv###output > li > a[href^="http"]:not([href*="resource/"])
@@ -11176,7 +11177,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||icbc.com.cn/ICBC_ADJS/
 @@||icbc.com.cn/Portal_Resources/Common/AdCss/
 @@||icbc.com.cn/Portal_Resources/Common/AdRes/
-@@||ifeng.com^*?new=*?new=
+@@||ifeng.com^*?new=*?new=$domain=i.ifeng.com
 @@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
