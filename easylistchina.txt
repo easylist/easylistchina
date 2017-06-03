@@ -6318,6 +6318,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+acfun.cn##A[href^="https://click.dsp.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8180,8 +8181,7 @@ cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
 baidu.com##.banner-cover
 91.com,cgown.com##.banner-gg
-acfun.cn##.banner-href
-acfun.cn##.banner-href + .point
+acfun.cn##.banner-href[href^="http"]:not([href*=".acfun."])
 toutiao.com##.banner-index-bottom
 crsky.com##.banner-leader
 fuli.us##.banner-post
