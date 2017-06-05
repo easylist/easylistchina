@@ -510,6 +510,8 @@ _popAds.
 ##.tmall_ad_container
 ##.top-read-ad
 ##.topSponsor
+##.toy52_outer
+##.toy52apparel_ALL
 ##.twavt-ads
 ##.wf_ad_block
 ##.widget_ad_sidebar
@@ -545,8 +547,6 @@ _popAds.
 ##div[id^="ad_thread"]
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.toy52_outer
-##.toy52apparel_ALL
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -3654,6 +3654,7 @@ mg*.6park.com/img/$image
 ||db28.cn/cache/ads.js
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
+||dbw365.com/skin/yblog/js/thea
 ||dcfever.com/campaigns/
 ||ddooo.com/ddshow/
 ||ddshu.net/a_d_code/
@@ -4085,6 +4086,7 @@ mg*.6park.com/img/$image
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
 ||gtimg.com/news/news/2014ad/
 ||gtimg.com/newsapp_ls/0/27161189/0
+||gtimg.com/pingjs/ext2020/dc/module/GJ/GJtips.js
 ||gtimg.com/qqlive/
 ||gtimg.com/sports/000_AD/
 ||gtimg.com/sports/images/30090.jpg
@@ -5542,7 +5544,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a6a976a2tw1e2naxcbjyoj.jpg
 ||sinaimg.cn/unipro/
 ||sinaimg.cn/wap/online/cms/article/formal/js/economyClup.
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|18board.com|18p2p.com|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99kk3.com|99kk4.com|99ll1.com|99re.com|99vv1.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu15.com|avtb567.com|bejson.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|fulitxx.com|ifulidh.com|iidvd.com|izzs.cc|kiees.cn|lifan.moe|llj22.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|18board.com|18p2p.com|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|46bk.com|500xxxx.com|666hdhd.com|84fn.com|99kk3.com|99kk4.com|99ll1.com|99re.com|99vv1.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu15.com|avtb567.com|bejson.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|fulitxx.com|ifulidh.com|iidvd.com|ilxdh.com|izzs.cc|kiees.cn|lifan.moe|llj22.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|xinqixi.com|youb444.com|zhiboche.com
 ||sinaimg.cn^*.gif$domain=btshoufa.net
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
@@ -6323,11 +6325,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||sinaimg.cn^$domain=ilxdh.com
-||gtimg.com/pingjs/ext2020/dc/module/GJ/GJtips.js
-||dbw365.com/skin/yblog/js/thea
 !------------------------Specific element hiding rules------------------------!
-ilxdh.com##.recommend
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9415,7 +9413,7 @@ tvhome.com##.reading_Ad
 sina.com.cn##.real-time-window__ad
 finance.ifeng.com##.rec
 image.baidu.com##.recom
-image.baidu.com##.recommend
+ilxdh.com,image.baidu.com##.recommend
 hao123.com##.recommend-link
 le.com##.recommend-part-right
 passiontimes.hk##.rectAd300
