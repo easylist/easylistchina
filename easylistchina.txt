@@ -553,6 +553,7 @@ _popAds.
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 ||sdqoi2d.com^
+||qjjtc.com^
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
 .com/code.php?z=$script,third-party
@@ -2102,7 +2103,6 @@ ubmcmm.baidustatic.com
 ||img999.com^$popup,domain=tt1069.com
 ||iqiyi.com/track$popup
 ||jjwxc.net/jjad*.html$popup
-||kuai.xunlei.com/do_e_mu?data=$popup
 ||miaozhen.com^$popup,domain=iqiyi.com
 ||moezone.taobao.com^$popup,domain=tsdm.me|tsdm.net|tsdm.tw
 ||qidian.com/showavd.$popup
@@ -4440,7 +4440,6 @@ mg*.6park.com/img/$image
 ||img.eol.cn/images/ed/$~image
 ||img.hexun.com*/wszj/js.js
 ||img.ifeng.com/tres/html/
-||img.kuai.xunlei.com/img/v2/fen/
 ||img.meipic.net^
 ||img.sex169.info^*.gif
 ||img.ybbbs.com/2014/
@@ -8078,7 +8077,6 @@ myhack58.com##.adv32
 it165.net##.adv728a
 it165.net##.adv728b
 sohu.com##.adv_960
-kuai.xunlei.com##.adv_area
 le.com,letv.com##.adv_img
 kaifu.com##.adv_slide
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,ningmengzhibo.com##.advbox
@@ -10131,7 +10129,7 @@ tv.2345.com##a[href^="http://buy.2345.com/go/?"]
 chinaz.com,cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
-qu.la##a[href^="http://download.350.com/"]
+qu.la##A[href*=".350.com"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
