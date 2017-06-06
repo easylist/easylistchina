@@ -2106,8 +2106,7 @@ ubmcmm.baidustatic.com
 ||qx568.com^$popup
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
-||taobao.com^$popup,domain=bilibilijj.com|gaoqingkong.com|xianzhenyuan.cn
-||tmall.com^$popup,domain=xianzhenyuan.cn
+||taobao.com^$popup,domain=bilibilijj.com|gaoqingkong.com
 ||todayapp.tv^$popup,third-party
 ||uum6.com^$popup,domain=77file.com
 ||vnet.cn^*.html?$popup,third-party
@@ -6328,6 +6327,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||xianzhenyuan.cn/data/attachment/common/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -10039,7 +10039,6 @@ xiaohua.hao.360.cn##a[href$="?realtime"]
 bilibili.com##a[href$="_suning.html"]
 17173.com##a[href*="&ad_code="]
 neatstudio.com##a[href*="&cps_key="]
-xianzhenyuan.cn##a[href*=".1688.com"]
 loldk.com##a[href*=".2144.cn"]
 quanmin.tv##a[href*=".2144.cn/"]
 people.com.cn##a[href*=".516a.com/"]
@@ -10103,7 +10102,6 @@ hexieshe.com,xxshe.com##a[href="http://moe.hao123.com/"]
 hexieshe.com##a[href="http://moemoe.la/"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
-xianzhenyuan.cn##a[href="http://www.5d9.net/"]
 178.com##a[href="http://www.bigeye.tv/"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
 hexieshe.com,xxshe.com##a[href="http://www.linovel.com/"]
@@ -10177,7 +10175,6 @@ hexieshe.com,xxshe.com##a[href^="http://www.manluotuo.com/"]
 500.com##a[href^="http://www.qilin99.com/"]
 6park.com##a[href^="http://www.vava8.com"]
 dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
-xianzhenyuan.cn##a[href^="http://www.xianzhenyuan.cn/url/"]
 muchong.com##a[href^="http://www.zhuanyejun.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 ifeng.com##a[href^="http://yemei.tv/"]
@@ -11364,7 +11361,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||wubisheng.net/style/pagead.js
 @@||wuyou.com.cn/Js/ad.js
 @@||wzjzfw.com/player/*&showAd=
-@@||xianzhenyuan.cn/data/attachment/common/cf/*80bg.png
 @@||xianzhenyuan.cn^$generichide
 @@||xianzhenyuan.cn^$script,~third-party
 @@||xilinjie.com^$generichide
