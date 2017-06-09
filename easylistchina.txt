@@ -545,8 +545,8 @@ _popAds.
 ##a[href*="/?Intr="]
 ~ac.uk##a[href*="/?aff="]
 ##a[href*="/?intr="]
-##blockquote > .viccqhcqcjagwsczasmu[src$="/2016-0114-700X70.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]
-##blockquote > .viccqhcqcjagwsczasmu[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]
+##img[src$="/2016-0114-700X70.gif"] ~ A[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+##img[src$="/2016-0114-700X70.gif"] ~ SPAN[class^="f"] > span > A[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
