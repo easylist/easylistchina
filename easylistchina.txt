@@ -18,7 +18,6 @@
 .co/js/ads/
 .com/?ss=$script
 .com/a_d/
-/kuaiyuncn/ad/*
 .com/Ads/95060_
 .com/ads/ada.js
 .com/ads/adb.js
@@ -185,6 +184,7 @@
 /kan/js/dian.js
 /keke_winad/template/*layerModel.
 /kisssub/ads/*
+/kuaiyuncn/ad/*
 /lanye2015/images/kuan.jpg
 /lanye2015/images/lanyeht.jpg
 /lanye2015/images/qiniu.jpg
@@ -554,7 +554,6 @@ _popAds.
 ##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##A[href^="http://ganimgs.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -3425,6 +3424,7 @@ mg*.6park.com/img/$image
 ||caikuu.com/ckimages/*_zg
 ||camster.com/promos/
 ||candou.com/i/2000/
+||cao0002.com/vip/js/
 ||cao688.net/images//uploads/ad/
 ||cao688.net/images//uploads/index_banner/
 ||caoimg.com/images/
@@ -5975,6 +5975,7 @@ mg*.6park.com/img/$image
 ||wmzhe.com/contents/37/86/3786322c8c0b7e32151d0dd63c1496d6.gif
 ||wmzhe.com/contents/8d/94/8d94744f4da06d2d58371f9623499e9d.gif
 ||wo256.com/256_gg/*.gif
+||wobuka2.com/js/
 ||woxiu.com/xapi/get_pre_config.php
 ||woxiu.com/xapi/offsite_swf_more.php?
 ||wpdaxue.com/2015/03/wx0329.jpg
@@ -6341,20 +6342,14 @@ mg*.6park.com/img/$image
 ||zxip.com/2013_ad/
 ||zzc.cn/b1/live_b_
 ||zzidc.com/img/
+||zzidc.com/uploads/tuoguan
 ||zzidc.com^*0.gif
 ||zzimg.51.la^
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||zzidc.com/uploads/tuoguan
-||wobuka2.com/js/
-||ganimgs.com/images/*.gif
-||aaaimg.com/images*.gif
-||cao0002.com/vip/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ouyaoxiazai.com##.ad_show
-ouyaoxiazai.com##.qzhengfu
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8009,7 +8004,7 @@ cngba.com##.ad_ri
 bitauto.com,cnblogs.com,hc360.com##.ad_right
 1yiren.com##.ad_right_1
 1yiren.com##.ad_right_2
-orsoon.com##.ad_show
+orsoon.com,ouyaoxiazai.com##.ad_show
 orsoon.com##.ad_show_1
 orsoon.com##.ad_show_2
 163.com##.ad_sx_1
@@ -9419,6 +9414,7 @@ mop.com##.quickReply-ad
 qixingquan.com##.qxq_cb
 qixingquan.com##.qxq_h
 im286.net##.qybj
+ouyaoxiazai.com##.qzhengfu
 mop.com##.r-adv
 dnvod.tv##.r-gg
 ahtv.cn,bzfl1.cc,sexbarss.net##.r1
@@ -11494,8 +11490,11 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##a[href^="http://yunbofangbt."]
 |http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.co|btkitty.kim|btlibrary.co|cilidaquan.me|diggbt.ws|savebt.com|storebt.com|torrentkitty.ws|zhongzifuli.org
 ! Caoporn.com
+##a[href^="http://ganimgs.com/"]
 /images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
+||aaaimg.com/images*.gif
 ||caoimgs.com/images/*.gif
+||ganimgs.com/images/*.gif
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
