@@ -3425,6 +3425,7 @@ mg*.6park.com/img/$image
 ||caikuu.com/ckimages/*_zg
 ||camster.com/promos/
 ||candou.com/i/2000/
+||cao0001.com/vip/js/
 ||cao0002.com/vip/js/
 ||cao688.net/images//uploads/ad/
 ||cao688.net/images//uploads/index_banner/
@@ -4352,6 +4353,7 @@ mg*.6park.com/img/$image
 ||iecer.de^$domain=bzdiao.com
 ||ieche.com/global/*/ad/
 ||ieche.com/InAds/
+||ieforex.com/r/cms/www/red/red2/images/*0.
 ||ietv.cc/Runtime/Js/vod
 ||ietv.cc/Runtime/Js/web_bug.js
 ||ifanr.cn/wp-content/uploads/*/mina_
@@ -6350,14 +6352,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cao0001.com/vip/js/
-||ieforex.com/r/cms/www/red/red2/images/*0.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ieforex.com##.advert
-ieforex.com##.header > .left
-jrj.com.cn###comment > A:first-child
-jrj.com.cn##.piboxtwo
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6767,6 +6763,7 @@ zisai.com###comiis_ibox_swf
 0743ds.com###comiis_mf00
 gohubei.com###comiis_pd_kuxw01
 chcj.net###comiis_sfcs00
+jrj.com.cn###comment > a:first-child
 fuli.us,tianshit.com###comment-ad
 apk.tw###confirmOverla
 gate.baidu.com,m.baidu.com###container
@@ -8117,7 +8114,7 @@ anjuke.com##.adver-content
 360che.com##.adver600_80
 wyh.tv##.adverall
 jiaonan.net##.adverframe
-ce.cn,dianxinnews.com,eastmoney.com,expreview.com,like101.com.tw,sz.zj.cn,xywy.com##.advert
+ce.cn,dianxinnews.com,eastmoney.com,expreview.com,ieforex.com,like101.com.tw,sz.zj.cn,xywy.com##.advert
 liba.com##.advert-l
 liba.com##.advert-r
 dianxinnews.com##.advertTxt
@@ -8836,6 +8833,7 @@ jmw.com.cn##.head_3
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
 zdnet.com.cn##.headads
 biz.ifeng.com##.header
+ieforex.com##.header > .left
 onlylady.com##.header > .t2
 i.maxthon.cn##.header-hotkeys
 8btc.com##.header-prices
@@ -9347,6 +9345,7 @@ pinggu.org##.peixunopen1
 junshiqu.com##.pg08
 sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
 caikuu.com##.photo_abv
+jrj.com.cn##.piboxtwo
 ifeng.com##.pic1000
 ifeng.com##.pic280
 ifeng.com##.pic300
@@ -10258,6 +10257,7 @@ pixnet.net##div[class*="-ad-"]
 ganji.com##div[class*="-recommend"]
 ganpapa.com##div[class*="_9cb0d"]
 makepolo.com##div[class*="_ad"]
+steamcn.com##div[class*="_еee_"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
@@ -10266,7 +10266,6 @@ zhibo8.cc##div[class*="advert"]
 efu.com.cn##div[class*="banner-"]
 qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
-steamcn.com##DIV[class*="_еee_"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
@@ -10902,11 +10901,9 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||cnprint.org^$generichide
-@@.gif#$domain=cnprint.org
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
-@@.gif#$domain=tgfcer.com|wgun.net
+@@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
 @@/ad_file/*$domain=7net.com.tw|pxmart.com.tw
@@ -11123,6 +11120,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||cmbc.com.cn^*ads/
 @@||cmbchina.com/ads/
 @@||cmechina.net^$genericblock
+@@||cnprint.org^$generichide
 @@||cnr.cn/gg/
 @@||cntv.cn/include/video/js/cntv_Advertise.js
 @@||cntv.cn^*_ad.js
@@ -11501,24 +11499,20 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##a[href^="http://yunbofangbt."]
 |http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.co|btkitty.kim|btlibrary.co|cilidaquan.me|diggbt.ws|savebt.com|storebt.com|torrentkitty.ws|zhongzifuli.org
 ! Caoporn.com
-/moneymaker/js/player/zanting.js
-/media/player/xmlroll.php$domain=caoaee.com|caodee.com|caopee.com|caouoo.com
-/images/*.gif$domain=caoaee.com|caodee.com|caopee.com|caouoo.com
-||sinaimg.cn^$domain=caoaee.com|caodee.com|caopee.com|caouoo.com
-||ganimg.com/images/*.gif
-##A[href^="http://ganimg.com/"]
-##A[href^="https://aaaimg.com/"]
+##a[href^="http://ganimg.com/"]
 ##a[href^="http://ganimgs.com/"]
-/images/*.gif$domain=adultcao.com|cao.pe|caofoo.top|caohot.club|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
+##a[href^="https://aaaimg.com/"]
+/images/*.gif$domain=adultcao.com|cao.pe|caoaee.com|caodee.com|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|caouoo.com|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
+/media/player/xmlroll.php$domain=caoaee.com|caodee.com|caopee.com|caouoo.com
+/moneymaker/js/player/zanting.js
 ||aaaimg.com/images*.gif
 ||caoimgs.com/images/*.gif
+||ganimg.com/images/*.gif
 ||ganimgs.com/images/*.gif
-||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
+||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|cao.pe|caoaee.com|caodee.com|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|caouoo.com|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
 ! Caoporn.com
-caoaee.com,caodee.com,caopee.com,caouoo.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
+2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||qzdag.com^
 .m.bookben.com^
 .m.liewen.cc^
 .m.muyuge.com^
@@ -11539,6 +11533,7 @@ caoaee.com,caodee.com,caopee.com,caouoo.com##div[style="margin-top:5px;margin-bo
 ||mobiorg8.com^
 ||pomhz.com^
 ||qlonglong.com^
+||qzdag.com^
 ||sdkdm.com^
 ||sonomoyo.com^
 ||tuadong.com^
