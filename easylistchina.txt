@@ -6354,8 +6354,11 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||dilidili.wang/shouye/
 !------------------------Specific element hiding rules------------------------!
 acgnx.se##A[target="_blank"] > IMG[src^="/images/"]
+dilidili.wang###bkm
+dilidili.wang##.overflow-box > UL > LI > A[href^="http"]:not([href*=".dilidili."])
 gpcxw.com###AA2
 acg12.com##.da-container
 acg12.com##.xobda
