@@ -4693,7 +4693,6 @@ mg*.6park.com/img/$image
 ||juxia.com/public/js/foot.js
 ||juxia.com/public/js/juxia.js
 ||juxiangyou.com/service/material/
-||jx.xinhuanet.com/*banner/
 ||jxad.jx163.com^
 ||jxcn.cn/images/banner/
 ||jxcn.cn/js/hotpic_
@@ -6048,16 +6047,11 @@ mg*.6park.com/img/$image
 ||xilu.com/js/bd.js
 ||xilu.com/script/tag/2.0/func.js
 ||xineurope.com/static/image/banner/
-||xinhuanet.com/2013images/jfzj.swf
-||xinhuanet.com/2013images/ltxl.gif
-||xinhuanet.com/2014/iframe/AD-
 ||xinhuanet.com/2014xb/html/if_gg.htm
 ||xinhuanet.com/adxl/
 ||xinhuanet.com/ce/pcimage/mt.swf
-||xinhuanet.com/classad/
 ||xinhuanet.com/images2015/index980
 ||xinhuanet.com/jjimages/jc/js/fla.js
-||xinhuanet.com/statics/imags/zgyd_
 ||xinhuanet.com/v/script/coupletAd.js
 ||xinhuanet.com/v2/ads/
 ||xinhuanet.com^*/ad_
@@ -6362,6 +6356,8 @@ mg*.6park.com/img/$image
 ||xinhuanet.com^*/adv
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xinhuanet.com##.ad-box
+xinhuanet.com##.part-ad1
 tj.xinhuanet.com##.xhdf_num1_col3
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7093,7 +7089,6 @@ yahoo.com###hp-ad-right
 huanqiu.com###hqbl123
 ifeng.com###hslide_sPic_360
 ifeng.com###hslide_sPic_baidu
-xinhuanet.com###huazhongad
 narutom.com###hy_float
 qzone.qq.com###idQbossHotbar
 mzyz.com###idTransformView2
@@ -7415,9 +7410,8 @@ xiaohua.360.cn###right-fixed
 cnbeta.com###right1
 chcj.net,cs.com.cn,cssqt.com,dvbcn.com,mxwz.com,qiannao.com,qinbing.cn###rightDiv
 07073.com###rightDiv > div[style="height:250px"]
-cpd.com.cn,xinhuanet.com###right_ad1
-cpd.com.cn,xinhuanet.com###right_ad2
-xinhuanet.com###right_ad3
+cpd.com.cn###right_ad1
+cpd.com.cn###right_ad2
 cpd.com.cn###right_adt
 loldk.com###right_bottom
 discuss.com.hk,uwants.com###right_column
@@ -7567,7 +7561,6 @@ ettoday.net###ticker_3
 xxdm.com,xxdm.org###tiepianDIV
 1ting.com###tingx_5
 wpsoso.com###tips
-xinhuanet.com###tisoad
 dict.cn###tjcd
 ali213.net###tmp_ggao
 hexun.com###tonglan_1 + .layout
@@ -7664,7 +7657,6 @@ oh100.com###wzMid1
 zhiboche.com###wzad
 oh100.com###wztopL
 soft4fun.net###xad_mu
-xinhuanet.com###xiangguanad
 2kandy.com###xinnxi
 jmbbs.com###xjj_jmbbs2015_01
 xilinjie.com###xlj-spread
@@ -7856,7 +7848,6 @@ yiwugou.com##.ad-index-left
 yiwugou.com##.ad-index-right
 ifeng.com##.ad-list
 qq.com##.ad-long-pic
-xinhuanet.com##.ad-news01
 dntk.org##.ad-pc
 19lou.com##.ad-place-logo
 baidu.com##.ad-platform-tips
