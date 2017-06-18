@@ -557,8 +557,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||heib10.top^
-||12365chia.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -695,6 +693,7 @@ ubmcmm.baidustatic.com
 ||122.227.254.195^
 ||12291.com^$third-party
 ||12306media.com^
+||12365chia.com^
 ||123hala.com^
 ||124.232.160.178^
 ||12l22.net^$third-party
@@ -1294,6 +1293,7 @@ ubmcmm.baidustatic.com
 ||hbalx.cn^
 ||hbsimg.com^$third-party
 ||hcreditx.com^
+||heib10.top^
 ||heima8.com^$third-party
 ||hesxz.com^
 ||hfjuki.com^
@@ -2486,6 +2486,7 @@ mg*.6park.com/img/$image
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
 ||205.209.138.102^
 ||211600.com/data/attachment/portal/
+||219.138.173.204:8080/jiekou/api/kqzl.ashx
 ||219.153.41.154/v1/
 ||219.153.41.175/*.js
 ||219.238.159.181^*.html
@@ -6075,7 +6076,6 @@ mg*.6park.com/img/$image
 ||xmfish.com/chanel/www/cpm.html
 ||xnnews.com.cn/Templets/image/zyyy.swf
 ||xnnews.com.cn/Templets/js/*link
-||219.138.173.204:8080/jiekou/api/kqzl.ashx
 ||xntk.net^$script
 ||xoimg.com^$domain=18board.com|18p2p.com
 ||xp510.com/images/*.gif
@@ -6348,10 +6348,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zol.com.cn##._j_tmall_banner_pc
-xianliao.me###frame > .xianliao_component
-llss.me###text-22
-llss.me###text-25
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6964,6 +6960,7 @@ ettoday.net###for-ec
 uwants.com###foruminfo + div[align="center"]
 my0511.com###forumtextad
 qq.com###fr_ad
+xianliao.me###frame > .xianliao_component
 wcjbb.com###frame2TVWk2
 wcjbb.com###frame37boCx
 opbbs.in###frame435JTi
@@ -7526,8 +7523,8 @@ m.autohome.com.cn###tcw20l
 pchome.com.tw###test2
 free.com.tw###text-124
 aijava.cn###text-15
-hacg.fi,hacg.red,hacg.wiki###text-22
-hacg.fi,hacg.red,hacg.wiki###text-25
+hacg.fi,hacg.red,hacg.wiki,llss.me###text-22
+hacg.fi,hacg.red,hacg.wiki,llss.me###text-25
 hacg.fi,hacg.red,hacg.wiki###text-26
 moe-acg.cc,tumutanzi.com###text-3
 vjmedia.com.hk###text-33
@@ -7777,6 +7774,7 @@ avmimi.com,mm-cg.com##.UT_thread
 tuwan.com##.Video-r-ad
 dfdaily.com##.WEB1_TOPBANNER
 news.china.com.cn##.Wrapper > div[style]
+zol.com.cn##._j_tmall_banner_pc
 qq.com##._switchad
 m.sohu.com##._tg2
 m.sohu.com##._tgC_nav
@@ -10046,6 +10044,7 @@ bilibilijj.com##[onclick*=".taobao."]
 bilibilijj.com##[style*=" background-size: 100%"]
 bilibilijj.com##[style*="background-image:"]:not(.UserInfo)
 bilibilijj.com##[style="height:100%;"]
+acgnx.se##a > img[src^="/images/"]
 bilibilijj.com##a > img[style*="data"]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
@@ -10217,7 +10216,6 @@ btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
 houdao.com##a[style^="background:url"]
 bilibilijj.com##a[style^="height"][href="#"]
 html-js.com##a[style^="margin-top:20px;"]
-acgnx.se##A > IMG[src^="/images/"]
 creaders.net##a[title^="www.136888.com/"]
 duba.com##a[w="topad"]
 api.so.lianmeng.360.cn,pos.baidu.com##body
