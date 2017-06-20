@@ -11421,11 +11421,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?:[asw]|ns|search)\?(?:[a-z]{6}=.*?&){2}/$subdocument
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
 /cpro.$popup,third-party
-##iframe[id][style="border: 0px none; margin: 0px; vertical-align: bottom;"][width][height]
-##iframe[id][style="border:0;margin:0;vertical-align:bottom;"][width][height]
-##iframe[id][style="margin:0;"][allowtransparency="true"][src][width][height]:first-child:last-child
-##iframe[id][style="vertical-align:bottom;margin:0;"][width][height]
-##iframe[id][style^="border-top:"][style*="border-right:"][width][height]:first-child:last-child
 |http://*&uc=
 ||1.1010pic.com^
 ||1.feihua.com^
