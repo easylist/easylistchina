@@ -6345,9 +6345,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-weather.com.cn###adtop_r
-hs90.net###ad_zpy
-52jscn.com###diy1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6555,6 +6552,7 @@ baidu.com###ad_xbox_2
 baidu.com###ad_xbox_3
 qidian.com###ad_yxword
 qidian.com###ad_yxword_a
+hs90.net###ad_zpy
 141hongkong.com###adan
 localking.com.tw###adbannerurl
 dahanju.com,xskhome.com,yxdown.com###adbg
@@ -6582,6 +6580,7 @@ image.baidu.com###adsearch
 dahe.cn###adsg
 ishuati.com###adsh
 ynet.com###adt01
+weather.com.cn###adtop_r
 sina.com.cn###adtopad
 btspreadcn.com###adultwarningmask
 bumimi.com,dahanju.com,dm530.net,hxnews.com###adv
@@ -6856,7 +6855,7 @@ ck101.com,pchome.com.tw###div_superbar_swf
 123du.cc,bokon.net###divtop2
 360doc.com###divunderZcommondAd
 360doc.com###divyoulikead
-0562.cc,528500.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
+0562.cc,528500.com,52jscn.com,5imx.com,99nets.me,aayx.net,baihei.net,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
 d7w.net###diy10
 cbber.com###diy2
 gpshk.cc,oneplusbbs.com,xiaot.com###diy4
@@ -11418,14 +11417,14 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
 ###cpro_container
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?:[asw]|ns)\?.*?%[0-9A-Z]{2}%/$subdocument
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
+/cpro.$popup,third-party
 ##iframe[id][style="border: 0px none; margin: 0px; vertical-align: bottom;"][width][height]
 ##iframe[id][style="border:0;margin:0;vertical-align:bottom;"][width][height]
 ##iframe[id][style="margin:0;"][allowtransparency="true"][src][width][height]:first-child:last-child
 ##iframe[id][style="vertical-align:bottom;margin:0;"][width][height]
 ##iframe[id][style^="border-top:"][style*="border-right:"][width][height]:first-child:last-child
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?:[asw]|ns)\?.*?%[0-9A-Z]{2}%/$subdocument
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
-/cpro.$popup,third-party
 |http://*&uc=
 ||1.1010pic.com^
 ||1.feihua.com^
@@ -11487,7 +11486,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||yhzm.cc^
 ||youbian.com^$third-party
 ! BT Kitty
-btdigg.co,btlibrary.co,btkitty.kim,diggbt.ws,torrentkitty.ws###box
+btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ##a[href^="http://yunbofangbt."]
 |http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.co|btkitty.kim|btlibrary.co|cilidaquan.me|diggbt.ws|savebt.com|storebt.com|torrentkitty.ws|zhongzifuli.org
 ! Caoporn.com
@@ -11505,8 +11504,6 @@ btdigg.co,btlibrary.co,btkitty.kim,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||rbywg.com^
-||ksdsuzhou.com^
 .m.bookben.com^
 .m.liewen.cc^
 .m.muyuge.com^
@@ -11527,10 +11524,12 @@ btdigg.co,btlibrary.co,btkitty.kim,diggbt.ws,torrentkitty.ws###box
 ||inccnd.com^
 ||jifeidandar.com^
 ||jundazulin.com^
+||ksdsuzhou.com^
 ||mobiorg8.com^
 ||pomhz.com^
 ||qlonglong.com^
 ||qzdag.com^
+||rbywg.com^
 ||sdkdm.com^
 ||shumilou.co/style/html5.js
 ||sonomoyo.com^
