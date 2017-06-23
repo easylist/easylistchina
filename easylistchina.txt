@@ -556,9 +556,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||df3n43m.com^
-||il8r.com^
-||jindu179.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1122,6 +1119,7 @@ ubmcmm.baidustatic.com
 ||ddhtek.com^
 ||ddomm.com^
 ||detuns.com^
+||df3n43m.com^
 ||df77.com^
 ||df9377.com^$third-party
 ||dftoutiao.com^$third-party
@@ -1348,6 +1346,7 @@ ubmcmm.baidustatic.com
 ||ifocus.cn^$third-party
 ||iguang.tw^$third-party
 ||ihualun.com^
+||il8r.com^
 ||ilepai.com^$third-party
 ||image.qndown.com^$third-party
 ||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
@@ -1386,6 +1385,7 @@ ubmcmm.baidustatic.com
 ||jiankang13.com^$third-party
 ||jianmei123.com^
 ||jiexiyong.com^$third-party
+||jindu179.com^
 ||jisucn.com^$third-party
 ||jiudianhudong.com^$third-party
 ||jiuku.cc^
@@ -5559,6 +5559,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/5ff1c93agy1ffexaksv8mj206o02it96.jpg
 ||sinaimg.cn/large/5ff1c93agy1fff9tu8o7bj20xc09q78w.jpg
 ||sinaimg.cn/large/61e74233ly1fdq6hcf5klg20hs023q7i.gif
+||sinaimg.cn/large/673b17ccly1ffu8mb9g4zj20k8020whe
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/7d1c8e96gw1f8g6w9w7qkj208c06kt9o.jpg
@@ -6351,14 +6352,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||sinaimg.cn/large/673b17ccly1ffu8mb9g4zj20k8020whe
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-pqworld.com##.left-float
-pqworld.com##.left-float-tx
-ypppt.com##.login_panel
-autohome.com.cn###ad-top-1111
-autohome.com.cn##.side-bg-img
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6491,6 +6486,7 @@ ithome.com.tw###ad-on-top
 acfun.tudou.com,acfun.tv###ad-player-view
 kiwsy.com.hk###ad-popup-dialog
 kiwsy.com.hk###ad-popup-dialog-overlay
+autohome.com.cn###ad-top-1111
 acfun.tv###ad-top-index
 dbw.cn###ad-word
 baike.com###ad-xnsc
@@ -9067,6 +9063,8 @@ szonline.net##.layout_ad
 hz66.com##.lb_gg
 finance.ifeng.com##.lccs
 txtbook.com.cn##.ledu-advWrap
+pqworld.com##.left-float
+pqworld.com##.left-float-tx
 newxue.com##.left336280
 creaders.net##.leftContent
 iqiyi.com##.leftLink
@@ -9108,6 +9106,7 @@ sjzbus.com.cn##.litGg
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.live_show_aside
 hao123.cn##.llc
 tianya.cn##.load_m_top
+ypppt.com##.login_panel
 uc123.com##.logo > a
 wdzj.com##.logo-banner
 fashionguide.com.tw##.logo_ad
@@ -9579,6 +9578,7 @@ laifudao.com##.side-adinner
 guokr.com##.side-adv
 ruten.com.tw##.side-advertise
 iwan.baidu.com##.side-banner
+autohome.com.cn##.side-bg-img
 wallstreetcn.com##.side-money
 firefox.com.cn,firefoxchina.cn##.side-notice
 firefoxchina.cn##.side-promote
@@ -10265,7 +10265,6 @@ pixnet.net##div[class*="-ad-"]
 ganji.com##div[class*="-recommend"]
 ganpapa.com##div[class*="_9cb0d"]
 makepolo.com##div[class*="_ad"]
-steamcn.com##DIV[class*="stcn_"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
@@ -10274,6 +10273,7 @@ zhibo8.cc##div[class*="advert"]
 efu.com.cn##div[class*="banner-"]
 qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
+steamcn.com##div[class*="stcn_"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
@@ -11436,7 +11436,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
 /cpro.$popup,third-party
 |http://*&uc=
-||s11.cn^$third-party
 ||1.1010pic.com^
 ||1.feihua.com^
 ||1.mgff.com^
@@ -11489,6 +11488,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||mipujia.com^$third-party
 ||mn586.com^$third-party
 ||s1.hiapk.com^
+||s11.cn^$third-party
 ||star-media.cn^$third-party
 ||sundxs.com^$third-party
 ||uniondm.cz88.net^
@@ -11515,7 +11515,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||xztms.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11553,6 +11552,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||vichc.com^
 ||xacqp.com^
 ||xmcxz.com^
+||xztms.com^
 ||yunanfuwuqi.com^
 ||ztxbd.com^
 ! Sex8.cc
