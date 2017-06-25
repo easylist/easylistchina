@@ -556,7 +556,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||jjxgly.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1396,6 +1395,7 @@ ubmcmm.baidustatic.com
 ||jixing8.com^$third-party
 ||jixing8.net^$third-party
 ||jiyou2014.com^
+||jjxgly.com^
 ||jk939.com^
 ||jkmxy.com^
 ||jl027.com^
@@ -3637,6 +3637,7 @@ mg*.6park.com/img/$image
 ||cr173.com/js/
 ||cr173.com/show/
 ||cr173.com/skina/
+||cr173.com/skinb/
 ||creaders.net*/ad_func.js
 ||crsky.com/img/hezi
 ||crsky.com/theme/images/rd
@@ -3994,6 +3995,7 @@ mg*.6park.com/img/$image
 ||fx114.net/images/bangbaotao.jpg
 ||fx678.com/proxy
 ||fxxz.com/show/
+||fxxz.com/skin/know/all.js
 ||fydisk.com/img/*.gif
 ||fzbm.com/bbs/static/js/bma.js
 ||fzlol.com/images/$script
@@ -5878,6 +5880,7 @@ mg*.6park.com/img/$image
 ||upan.cc/images/pay/
 ||upantool.com/bay/
 ||upantool.com/playing/
+||upload.hxnews.com/2017/*.gif
 ||upload.jjxw.cn^*.swf
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uploads.duapp.com^$domain=52vip.net
@@ -6347,14 +6350,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cr173.com/skinb/
-||fxxz.com/skin/know/all.js
-||upload.hxnews.com/2017/*.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yinsha.com##.advcop01
-roodo.com##.right300_250ad
-lalilali.com##DIV[id*="_"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8096,6 +8093,7 @@ sohu.com##.adv_960
 le.com,letv.com##.adv_img
 kaifu.com##.adv_slide
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,ningmengzhibo.com##.advbox
+yinsha.com##.advcop01
 anjuke.com##.adver-content
 360che.com##.adver1000_60
 360che.com##.adver1000_65
@@ -9465,6 +9463,7 @@ qidian.com##.right-op-wrap
 muzhiwan.com##.right.w_246 > a
 tianya55.com##.right02
 news.ifeng.com##.right1
+roodo.com##.right300_250ad
 baby-kingdom.com##.right5
 baidu.com##.rightAd-skin
 iqiyi.com##.rightAdv
@@ -10355,6 +10354,7 @@ mcdulll.com,pixnet.net##div[id*="-ad-"]
 baby-kingdom.com##div[id*="Banner Zone"] + script + a
 baby-kingdom.com##div[id*="Banner Zone"] + script + iframe
 baby-kingdom.com##div[id*="Banner Zone"] + script + object
+lalilali.com##div[id*="_"]
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 vpser.net##div[id*="_thread"]
 8684.cn,8684.com##div[id*="adid"]
@@ -11418,7 +11418,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.textAd
 ck101.com,datehub.co,gamer.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
-||fjzimaoqu.cn^$third-party
 ###cpro_container
 ##iframe[id][marginwidth="0"][style*="vertical-align"][src*="?"][width][height]
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?:[asw]|ns|search)\?(?:[a-z]{6}=.*?&){2}/$subdocument
@@ -11461,6 +11460,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||fanpingbi*.gaokao.com^
 ||feidalu.com^
 ||firefang.cn^
+||fjzimaoqu.cn^$third-party
 ||fmgoal.com^
 ||fotao9.com^
 ||fuz.cc^$third-party
@@ -11505,8 +11505,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||ddg1277.com^
-||kafka8.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11520,6 +11518,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||24haitao.net^
 ||axkxy.com^
 ||ddanq.com^
+||ddg1277.com^
 ||dezfu.com^
 ||feifish66.com^
 ||gyrtg.com^
@@ -11528,6 +11527,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||inccnd.com^
 ||jifeidandar.com^
 ||jundazulin.com^
+||kafka8.com^
 ||ksdsuzhou.com^
 ||mobiorg8.com^
 ||pomhz.com^
