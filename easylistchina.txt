@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
-/vipgg/js/*
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -260,6 +259,7 @@
 /UyvHEGg1Hezr0yhlI.
 /UyvHEGg1Hezr0yhlI/*
 /View/img/b72890.jpg
+/vipgg/js/*
 /W3Cfuns_Adv/*
 /wap_advpic/*
 /web8/ad/*
@@ -3185,6 +3185,7 @@ mg*.6park.com/img/$image
 ||baidu.com/event/img/zwdzjs.jpg
 ||baidu.com/fanyiapp/image/wise_banner_
 ||baidu.com/feproxy/ad/list?
+||baidu.com/forum/pic/item/0cf431adcbef7609200cacc024dda3cc7cd99e6d.jpg
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/img/iknow/wenku*85.
 ||baidu.com/rec?platform=wise&ms=1&rset=ad&
@@ -6351,12 +6352,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||baidu.com/forum/pic/item/0cf431adcbef7609200cacc024dda3cc7cd99e6d.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yahoo.com###ysm-umu
-toutiao.com##.J_ad
-toutiao.com##DIV[ad_name]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7667,6 +7664,7 @@ webkaka.com###yhtools + .ucontent
 rjfcxxw.com###yimao > div[style]
 starbaby.cn###yindex_ads
 dm5.com###youce
+yahoo.com###ysm-umu
 0598yu.com###yu2015_ad_news_01
 zxba.cc###yx
 8video.tv###yytf
@@ -7752,6 +7750,7 @@ sj998.com##.Hr_1
 xiaodao.la##.HtmlMoKua.column.two-thirds
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
+toutiao.com##.J_ad
 toutiao.com##.J_add
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
@@ -10244,6 +10243,7 @@ gywb.cn##div.bill-box1.mb5
 cq.qq.com##div.clearfix[style*="1000"]
 7hcn.com##div[ac] > a[href^="http"]:not([href^="http://www.7hcn."])
 weibo.com##div[ad-data]
+toutiao.com##div[ad_name]
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 zongheng.com##div[alog-group="index_04_game"]
 anjuke.com##div[class$="-ad"]
@@ -10902,7 +10902,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -11299,6 +11298,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
+@@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@||saibeinews.com/index.php?m=poster&c=index&a=show_poster&id=2
 @@||sakai-hk.com/advertisement.js
 @@||sakai.club/advertisement.js
@@ -11511,9 +11511,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||htjsk.com^
-||jnsdkjzs.com^
-||netko0o.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11532,13 +11529,16 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||feifish66.com^
 ||gyrtg.com^
 ||hk9600.com^
+||htjsk.com^
 ||huayi65.com^
 ||inccnd.com^
 ||jifeidandar.com^
+||jnsdkjzs.com^
 ||jundazulin.com^
 ||kafka8.com^
 ||ksdsuzhou.com^
 ||mobiorg8.com^
+||netko0o.com^
 ||pomhz.com^
 ||qlonglong.com^
 ||qzdag.com^
