@@ -557,8 +557,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||iqu-operation.com^
-||ciajingman.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1049,6 +1047,7 @@ ubmcmm.baidustatic.com
 ||chmae.com^
 ||chnhty.com^
 ||chushoushijian.cn^
+||ciajingman.com^
 ||cifenqi.com^$third-party
 ||cj-cy.com^
 ||cloudad.asia^$third-party
@@ -1362,6 +1361,7 @@ ubmcmm.baidustatic.com
 ||intentarget.com^$third-party
 ||ipaypay.cn^$third-party
 ||iprefer.com.tw^$third-party
+||iqu-operation.com^
 ||iroby.com^
 ||is686.com^$third-party
 ||ishowbg.com^
@@ -3368,6 +3368,8 @@ mg*.6park.com/img/$image
 ||brand.sogou.com/micro?yyid=
 ||bs.baidu.com/app-ads%
 ||btago.com/static/banner/
+||btbbt.*/imgs.js
+||btbbt.*/view/image/QT_
 ||btbt.tv/dd/
 ||btbtt.*/bt.js
 ||btbtt.*/imgs.js
@@ -3569,6 +3571,7 @@ mg*.6park.com/img/$image
 ||cjn.cn^*/ad/
 ||ck101.com/topic/newgametreeallage.html
 ||ckcdn.com/c/html5_ad/
+||ckck.tv/inc/
 ||client.88tours.com^
 ||clm02.com/2014-A/goez-a005-9-23.jpg
 ||clouddn.com/960x60.gif
@@ -4620,9 +4623,12 @@ mg*.6park.com/img/$image
 ||javazhijia.com/skin/bysj.jpg
 ||javjunkies.com/FL$subdocument
 ||javlibrary.com/js/bnr_
+||jb51.net/good/arc.js
 ||jb51.net/good/soft.js
+||jb51.net/imgby/logo_
 ||jb51.net/js/beitou.js
 ||jb51.net/js/ggtop.js
+||jb51.net/skin/downsoft/js/*down.js
 ||jb51.net/skin/office/js/botad.js
 ||jb51.net/templets/2016js/
 ||jb51.net^*Loader.js
@@ -5571,6 +5577,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/61e74233ly1fdq6hcf5klg20hs023q7i.gif
 ||sinaimg.cn/large/673b17ccly1ffu8mb9g4zj20k8020whe
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
+||sinaimg.cn/large/7044f931gy1fgzi7n0j5gj20qo02i0u9.jpg
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/7d1c8e96gw1f8g6w9w7qkj208c06kt9o.jpg
 ||sinaimg.cn/large/7fab0e78gw1eza18r0p03g20rs02iglx.gif
@@ -5747,6 +5754,7 @@ mg*.6park.com/img/$image
 ||thinksaas.cn/images/upyun_
 ||thisav.com/0*.js
 ||thisav.com/index.js
+||thztv.net/6/luoliao.gif
 ||thztv.net/tool/
 ||tianjimedia.com/s?z=
 ||tianjinwe.com/images/qssx/
@@ -6351,18 +6359,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||jb51.net/skin/downsoft/js/*down.js
-||jb51.net/good/arc.js
-||jb51.net/imgby/logo_
-||sinaimg.cn/large/7044f931gy1fgzi7n0j5gj20qo02i0u9.jpg
-||thztv.net/6/luoliao.gif
-||btbbt.*/imgs.js
-||btbbt.*/view/image/QT_
-||ckck.tv/inc/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-thzav.com###fctrl_attachad + .c + DIV[style="WIDTH: 100%; padding-left:10px;"] > DIV:first-child
-zhainanfulishe.net##.textwidget > A[href^="http"]:not([href^="http://www.zhainanfulishe."])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6939,6 +6937,7 @@ iciba.com###ezfm
 lanqie.com###f_box
 apk.tw###favatarRight
 happy-yblog.blogspot.com,happy-yblog.blogspot.hk,happy-yblog.blogspot.tw###fbox-background
+thzav.com###fctrl_attachad + .c + div[style="WIDTH: 100%; padding-left:10px;"] > div:first-child
 hao.360.cn###festival-theme > .left-entry
 hao.360.cn###festival-theme > .right-entry-wrap
 6665.com###fgdiy01
@@ -8221,7 +8220,7 @@ baidu.com##.banner-cover
 acfun.cn##.banner-href[href^="http"]:not([href*=".acfun."])
 toutiao.com##.banner-index-bottom
 crsky.com##.banner-leader
-fuli.us##.banner-post
+fuli.us,zhumengwl.com##.banner-post
 big-cup.tv,g-cup.tv##.banner-table-block
 firefoxchina.cn##.banner-words
 fanyi.baidu.com,longzhu.com,tga.plu.cn##.banner-wrap
@@ -8779,7 +8778,6 @@ iqiyi.com##.ggwBox
 360doc.com##.ggwz
 douyu.com,douyutv.com##.giftbox
 zhumengwl.com##.git_banner
-zhumengwl.com##.banner-post
 anquan.org##.gj_download
 2345.com##.gl-couplet
 jiaju.shangdu.com##.global-ad-img
@@ -9739,6 +9737,7 @@ baidu.com##.text-link-ads
 henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
 sijihuisuo.club##.textbox > .box-title + p[align="center"]
+zhainanfulishe.net##.textwidget > a[href^="http"]:not([href^="http://www.zhainanfulishe."])
 alu.cn##.tg120x70
 alu.cn##.tg235x60
 alu.cn##.tg240x60
@@ -10407,7 +10406,7 @@ chinayk.com,e0575.cn,eyuyan.com##div[id^="ads_r_"]
 52ch.net,xiancn.com##div[id^="adv"]
 v.baidu.com##div[id^="adv_asp_"]
 ali213.net##div[id^="ali-ad-js-"]
-qbiao.com##DIV[id^="aup"]
+qbiao.com##div[id^="aup"]
 8591.com.tw##div[id^="baidu"]
 qianzhan.com##div[id^="baidu_ad_"]
 shm.com.cn##div[id^="baidu_clb_slot_"]
@@ -11432,9 +11431,9 @@ ck101.com,datehub.co,gamer.com.tw#@#.textAd
 ck101.com,datehub.co,gamer.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
-##SPAN + IFRAME[id][style*="vertical-align"][allowtransparency="true"][src*="?"][width][height]
 ###cpro_container
 ##iframe[id][marginwidth="0"][style*="vertical-align"][src*="?"][width][height]
+##span + iframe[id][style*="vertical-align"][allowtransparency="true"][src*="?"][width][height]
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?:[asw]|ns|search|[a-z0-9]{3})\?[a-z]{6}=\w+&[a-z]{6}=\w+&[a-z]{2}=/$subdocument
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
 /cpro.$popup,third-party
@@ -11520,8 +11519,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||nwwap.com^
-||yxhxs.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11550,6 +11547,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||ksdsuzhou.com^
 ||mobiorg8.com^
 ||netko0o.com^
+||nwwap.com^
 ||pomhz.com^
 ||qlonglong.com^
 ||qzdag.com^
@@ -11566,6 +11564,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||xmcxz.com^
 ||xztms.com^
 ||yunanfuwuqi.com^
+||yxhxs.com^
 ||ztxbd.com^
 ! Sex8.cc
 ###j-new-ad
