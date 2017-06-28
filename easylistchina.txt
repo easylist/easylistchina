@@ -557,8 +557,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||aomeng.net^$third-party
-||haiyunpush.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -965,6 +963,7 @@ ubmcmm.baidustatic.com
 ||amazingmagics.com^
 ||andmejs.com^$third-party
 ||anreson.net^
+||aomeng.net^$third-party
 ||aoparking.com^$third-party
 ||apkdo.com^
 ||aqgyju.cn^
@@ -1284,6 +1283,7 @@ ubmcmm.baidustatic.com
 ||gzqudou.com^
 ||h9377c.com^
 ||haiwengji.net^
+||haiyunpush.com^
 ||haiyunx.com^$third-party
 ||hanju18.net^
 ||hao123rt.com^
@@ -3046,6 +3046,7 @@ mg*.6park.com/img/$image
 ||aipai.com/app/www/templates/common/*_videos_
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
 ||aipai.com/common/html/commonAdForTfansTo.html
+||airav.cc/AirADPic/20*%
 ||airouba.com/public/js/global.js
 ||aitaotu.com/style/js/aitaotu
 ||aixifan.com/cms/*/w/1160/h/100
@@ -4222,6 +4223,7 @@ mg*.6park.com/img/$image
 ||hd-dwr.com/hb.png
 ||hd62.com/img/
 ||hdad.baike.com^
+||hdchina.club/styles/topshow/AD/
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/bfs/archive/$object-subrequest,domain=bilibili.com
@@ -6355,11 +6357,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||hdchina.club/styles/topshow/AD/
-||airav.cc/AirADPic/20*%
 !------------------------Specific element hiding rules------------------------!
-airav.cc##DIV[id^="Billing"]
-steamcn.com##div[class*="轻语工作室"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7538,7 +7536,6 @@ hacg.fi,hacg.red,hacg.wiki,llss.me###text-25
 hacg.fi,hacg.red,hacg.wiki###text-26
 moe-acg.cc,tumutanzi.com###text-3
 vjmedia.com.hk###text-33
-zreading.cn##.enhanced-text-widget:nth-child(3)
 stoneip.info###text-57
 uisdc.com###text-6
 htcui.com,sea-group.org###text-7
@@ -8599,6 +8596,7 @@ backchina.com##.eis_subnav_area
 winning11cn.com##.eis_topad
 eprice.com.tw##.emome-ad
 17huohu.com,firefoxchina.cn##.engine-jokes
+zreading.cn##.enhanced-text-widget:nth-child(3)
 hao123.com##.enter1
 rj.baidu.com##.entrance
 hexieba.com##.entry-common > div:not([id]):not([class])
@@ -10274,6 +10272,7 @@ chinatimes.com##div[class*="googlead_"]
 steamcn.com##div[class*="stcn_"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
+steamcn.com##div[class*="轻语"]
 iciba.com##div[class="ad_list"]
 ifeng.com##div[class="adbox02"]
 ithome.com.tw##div[class="span4"]
@@ -10377,6 +10376,7 @@ hc360.com##div[id^="Adv"]
 coladrive.com,colayun.com##div[id^="BAIDU_DUP_"]
 tiexue.net##div[id^="Baidu_"]
 www.zol.com.cn##div[id^="Bar"]
+airav.cc##div[id^="Billing"]
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##div[id^="Div"]
 ganji.com##div[id^="GcnADId"]
 didiaotv.com##div[id^="HTML"]:not(#HTML3)
