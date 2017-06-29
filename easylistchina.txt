@@ -6361,6 +6361,9 @@ mg*.6park.com/img/$image
 ||baidu.com/xda?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+steamcn.com##.index_navi_mid
+steamcn.com###wp + .wp
+steamcn.com##TD[id^="postmessage_"] > DIV[style^="margin-left:"]
 muchong.com##.xmc_viewthread_ad
 muchong.com##.hr_10 + .wrapper + .wrapper:nth-child(11)
 hc360.com,yaolan.com###AD
