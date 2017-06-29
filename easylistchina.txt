@@ -11436,7 +11436,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##IFRAME[scrolling="no"][allowtransparency="true"][src*="?"][width][height][frameborder="0"]
 ##iframe[id][marginwidth="0"][style*="vertical-align"][src*="?"][width][height]
 ##iframe[id][style*="vertical-align"][allowtransparency="true"][src*="?"][width][height]
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30}$/$subdocument
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,31}$/$subdocument
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
 /cpro.$popup,third-party
 |http://*&uc=
