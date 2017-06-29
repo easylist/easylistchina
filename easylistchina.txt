@@ -3960,7 +3960,6 @@ mg*.6park.com/img/$image
 ||firefoxchina.cn^*_topbanner
 ||fj.sina.com.cn/iframe/63/
 ||fj007.com/money/
-||fj30.cn/o_1bgv6b7s72rbh3msi6ij6qcne.jpg
 ||fjlyfdc.com.cn/hxhad/
 ||flash.mycar168.com/data/js/
 ||flash8.net/flash8_a_d_s/
@@ -6361,6 +6360,7 @@ mg*.6park.com/img/$image
 ||baidu.com/xda?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fj.china.com.cn##.ad7 ~ DIV[style]
 steamcn.com##.index_navi_mid
 steamcn.com###wp + .wp
 steamcn.com##TD[id^="postmessage_"] > DIV[style^="margin-left:"]
