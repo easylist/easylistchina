@@ -11420,9 +11420,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
 ||w.xiaopiaoyou.com^
 ###cpro_container
-##DIV[id][style="width: 100%;"] > IFRAME[class][scrolling="no"][allowtransparency="true"][src*="?"][width][height][frameborder="0"]
-##iframe[id][marginwidth="0"][style*="vertical-align"][src*="?"][width][height]
-##iframe[id][style*="vertical-align"][allowtransparency="true"][src*="?"][width][height]
+##DIV[id][style="width: 100%;"] > IFRAME[scrolling="no"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,31}$/$subdocument
 /cpro.$popup,third-party
