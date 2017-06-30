@@ -6360,8 +6360,7 @@ mg*.6park.com/img/$image
 ||wpwdf.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-aishx.top###b_login
-aishx.top###frameu9916W_left > .block.move-span:nth-child(-n+6)
+aishx.top###frameu9916W_left > .block:nth-child(-n+6)
 tieba.baidu.com##.fixed_bar[href*="/hbOpenApp/"]
 mop.com##.hot-rec-ad
 hc360.com,yaolan.com###AD
@@ -11426,7 +11425,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##A[href*="/cpro/"]
 ||w.xiaopiaoyou.com^
 ###cpro_container
-##DIV[id][style="width: 100%;"] > IFRAME[scrolling="no"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##DIV[id][style*="vertical-align"] > IFRAME[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,31}$/$subdocument
 /cpro.$popup,third-party
