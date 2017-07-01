@@ -558,7 +558,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||ltcprtc.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1505,6 +1504,7 @@ ubmcmm.baidustatic.com
 ||loandatec.com^
 ||log.interest.mix.sina.com.cn^
 ||lovestyl.com^
+||ltcprtc.com^
 ||lthxz.cn^
 ||lu.sogou.com^
 ||lu.sogoucdn.com^
@@ -5458,6 +5458,7 @@ mg*.6park.com/img/$image
 ||s-msn.com/msnportal/hp/luckyday/
 ||s-msn.com/portal/hp/2015/807.html
 ||s-msn.com/portal/xiatui.js
+||s.go.sohu.com^*/?callback=
 ||s.pacn.ws^*?$image,domain=dmhy.org
 ||s.yimg.com/*_160x800_$subdocument
 ||s.yimg.com/gs/apex/
@@ -6362,9 +6363,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||s.go.sohu.com^*/?callback=
 !------------------------Specific element hiding rules------------------------!
-m.sohu.com##.f_rec[href^="//m.sohu.com/promotion?"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8617,6 +8616,7 @@ e0575.com##.etxt_1
 8264.com##.ewmbox
 fanyi.baidu.com##.extra-banners
 user.qzone.qq.com##.f-single-biz
+m.sohu.com##.f_rec[href^="//m.sohu.com/promotion?"]
 sgcn.com,wangjing.cn##.fad
 mobile01.com##.fast-ad
 bumimi.com##.fav.l
@@ -11428,7 +11428,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.textAd
 ck101.com,datehub.co,gamer.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
-||w5sac788c1.360doc.cn^
 ###cpro_container
 ##div[id][style^="width: 100%;"][style*="vertical-align:"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js/$script,domain=~bittiger.io
@@ -11499,6 +11498,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||sundxs.com^$third-party
 ||uniondm.cz88.net^
 ||w.xiaopiaoyou.com^
+||w5sac788c1.360doc.cn^
 ||wda.ydt.com.cn^
 ||xuehi.cn^$domain=wenkuxiazai.com
 ||yhzm.cc^
@@ -11525,7 +11525,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||zizcy.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11576,6 +11575,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||xztms.com^
 ||yunanfuwuqi.com^
 ||yxhxs.com^
+||zizcy.com^
 ||ztxbd.com^
 ! Sex8.cc
 ###j-new-ad
