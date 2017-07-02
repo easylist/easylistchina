@@ -2283,7 +2283,7 @@ mg*.6park.com/img/$image
 |http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|aisex.com
-|http://rc.sz.zj.cn/*.swf$domain=bbs.sz.zj.cn
+|http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
 |http://sex169.*/*/*.$script
 |http://sex169.*/*/*/*.gif
 |http://t.cn/$domain=ady8.info|aikuhu.com
@@ -6367,6 +6367,9 @@ mg*.6park.com/img/$image
 ||ip.ws.126.net^$domain=zhibowu.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+zj.com##.adnav
+zj.com##.adnav2
+zj.com##.rt-banner
 zww.me##.zads-img
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
