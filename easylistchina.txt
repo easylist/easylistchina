@@ -561,7 +561,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||hnasd.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1334,6 +1333,7 @@ ubmcmm.baidustatic.com
 ||hkfuy.com^
 ||hmp33.com^
 ||hn163fck.com^$third-party
+||hnasd.com^
 ||hnctsm.com^
 ||hnyny.com^
 ||houdaolj.com^
@@ -3063,6 +3063,7 @@ mg*.6park.com/img/$image
 ||adpub.yaolan.com^
 ||adpubs.yaolan.com^
 ||ads-union.jd.com^
+||adsame1.cnr.cn^
 ||adsclick.yx.js.cn^
 ||adserve2.tom.com^
 ||adshows.21cn.com^
@@ -3758,6 +3759,7 @@ mg*.6park.com/img/$image
 ||dfad.dfdaily.com^
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/tg/rightAd_v2.js
+||dftoutiao.com/dfpcitv/
 ||dhtdig.xyz/static/jsaa/
 ||dhzw.org/m-
 ||dianxinnews.com/dpc01.jpg
@@ -6411,17 +6413,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||dftoutiao.com/dfpcitv/
-||adsame1.cnr.cn^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-renren.com###blogTwoAD02
-renren.com###blogTwoAD03
-renren.com###blogTwoAD04
-renren.com###blogTwoAD06
-renren.com###blogTwoAD09
-renren.com###googlest01
-mydigit.cn##.view-hover[channelid="aitao"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6769,6 +6762,11 @@ w3cplus.com###block-block-43
 drupalchina.cn###block-block-8
 gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
 blog.163.com###blog-163-com-toptips
+renren.com###blogTwoAD02
+renren.com###blogTwoAD03
+renren.com###blogTwoAD04
+renren.com###blogTwoAD06
+renren.com###blogTwoAD09
 so.com###bnbtm-banner
 microcontrol.cn###body > table[width="758"]
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id]
@@ -7107,6 +7105,7 @@ juqingbao.com###goog
 niwota.com###google_ad2
 gameapps.hk###google_side_ad2_top
 tgfcer.com###googlead
+renren.com###googlest01
 js0573.com###gotopl
 js0573.com###gotopr
 cnr.cn###gtop00
@@ -9966,6 +9965,7 @@ yinyuetai.com##.video_abl
 yinyuetai.com##.video_abr
 loldk.com##.video_ad_roll
 aipai.com##.video_gg
+mydigit.cn##.view-hover[channelid="aitao"]
 263y.com##.view_abc
 muchong.com##.viewad
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
@@ -10971,7 +10971,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@/adview_pic_$domain=lingjike.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
@@ -11006,7 +11005,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/advertisement/*$domain=cits.cn|ininin.com|midea.com|muyingzhijia.com|yxjc.13322.com
 @@/advertising/*$domain=houdask.com
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=123564.com|aewb.cn|btbt.tv|jkpan.com|liangzijievip.com|mahua.com|meijukankan.net|mfgun.com|qqzhibo.tk|ygo-sem.cn|ykit.cn
+@@/adview_pic_$domain=123564.com|aewb.cn|btbt.tv|jkpan.com|liangzijievip.com|lingjike.com|mahua.com|meijukankan.net|mfgun.com|qqzhibo.tk|ygo-sem.cn|ykit.cn
 @@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|re-vat.com|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/assets/adv/*$domain=4008927927.cn
@@ -11487,16 +11486,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.textAd
 ck101.com,datehub.co,gamer.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
-||d.mingyihui.net^
-||bd1.fengdu100.com^
-||img.zuowen8.com^
-||mpb1.iteye.com^
-||a.shenchuang.com^
-||a.qinghua5.com^
-||uc2.atobo.com.cn^
-||zq84.com^
-||b.cyone.com.cn^
-||chnci.com^$third-party
 ###cpro_container
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -11548,6 +11537,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a.duanmeiwen.com^
 ||a.fengyx.com^
 ||a.kejixun.com^
+||a.qinghua5.com^
+||a.shenchuang.com^
 ||a1.0s.net.cn^
 ||a1.liuxue86.com^
 ||a4.b2b168.com^
@@ -11555,10 +11546,12 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||adjb.5nd.com^
 ||aiwen.cc^
 ||ap*.pl520.com^
+||b.cyone.com.cn^
 ||b1.51scw.net^
 ||b17.shangc.net^
 ||baidu*.hntvchina.com^
 ||baidu-union-js.xiachufang.com^
+||bd1.fengdu100.com^
 ||bd1.jobui.com^
 ||bd1.nxing.cn^
 ||bd1.xiangha.com^
@@ -11574,8 +11567,10 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||cc.yac8.com^
 ||chicken18.com^
 ||chinacsky.com^
+||chnci.com^$third-party
 ||cp.greenxf.cn^
 ||cp.jfcdns.com^
+||d.mingyihui.net^
 ||d.xinshipu.com^
 ||d6.mobaders.com^
 ||daima.chazidian.com^
@@ -11609,6 +11604,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||gzpinda.com^$third-party
 ||home520.com^
 ||ikuailian.com^$third-party
+||img.zuowen8.com^
 ||ixpub.net^
 ||iy.com.cn^$third-party
 ||jb.dianshu119.com^
@@ -11634,6 +11630,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||mj-medlab.com^$third-party
 ||mmcc.yxlady.com^
 ||mn586.com^$third-party
+||mpb1.iteye.com^
 ||okkkk.com^
 ||p1.18zhongyao.com^
 ||qcrx.cn^
@@ -11650,6 +11647,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||sundxs.com^$third-party
 ||thetestpage.39.net^
 ||tiexing.com^$third-party
+||uc2.atobo.com.cn^
 ||uniondm.cz88.net^
 ||vvv.ieduw.com^
 ||w.xiaopiaoyou.com^
@@ -11664,6 +11662,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zhantai.com^$third-party
 ||zhihu.xmcimg.com^
 ||zhongkaowu.com^$third-party
+||zq84.com^
 ||zuiceshi.net^
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
@@ -11686,7 +11685,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-.m.zineworm.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11695,6 +11693,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 .m.txt99.org^
 .m.x81zw.com^
 .m.xs222.com^
+.m.zineworm.com^
 .m.zwdu.com^
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
 |http:$script,third-party,xmlhttprequest,domain=lwxiaoshuo.com|m.00ksw.net|m.33yq.com|m.50zw.la|m.55xs.com|m.67shu.com|m.88dushu.com|m.biqudu.com|m.biquge.com|m.biquge.com.tw|m.biquge.tw|m.biqugego.com|m.biqugezw.com|m.biquwu.cc|m.bqg5200.com|m.dhzw.org|m.kewaishu.net|m.lewenxiaoshuo.com|m.liewen.cc|m.qu.la|m.shenmabook.com|m.shumilou.co|m.snwx8.com|m.vodtw.com|m.xiaoxiaoshuwu.com|m.xs222.com|m.ybdu.com|m.zwdu.com|wap.xxbiquge.com
