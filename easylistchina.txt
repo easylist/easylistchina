@@ -561,7 +561,6 @@ _popAds.
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||leztc.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1506,6 +1505,7 @@ ubmcmm.baidustatic.com
 ||letaoxiaochi.com^$third-party
 ||leturich.org^$subdocument
 ||leturich.org^$third-party
+||leztc.com^
 ||lflili.com^
 ||lhafy.com^
 ||lhengilin.com^
@@ -2198,6 +2198,7 @@ ubmcmm.baidustatic.com
 .shuotxts.com%2Fad
 .wap.xxbiquge.com^
 /10jqka_info/html/ad_
+/11431a7ff0f5.swf$domain=tieba.baidu.com
 /18touch-guanggao.
 /2015new.js$domain=am5200.com|baby360.ru|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 /2tu/ads/*
@@ -5861,6 +5862,7 @@ mg*.6park.com/img/$image
 ||tingvoa.com/images/top_600_80.js
 ||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|fdzone.org|go543.com|jandown.com|mimima.com
 ||titan007.com/ad/
+||titan007.com/news.aspx
 ||tjzan.com/wxpic/asianyi.gif
 ||tk.504pk.com^
 ||tmbbs.com/data/attachment/portal/*.swf
@@ -6063,6 +6065,7 @@ mg*.6park.com/img/$image
 ||whnews.cn/wh_public/xuxu/
 ||whsfzx.com/img/top.js
 ||whsfzx.com/jj/
+||win007.com/mn/
 ||winba.me/wp-content/uploads/*/300x300.
 ||winba.me/wp-content/uploads/*/QQ%
 ||winba.me/wp-content/uploads/2015/10/image.jpg
@@ -6419,15 +6422,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-/11431a7ff0f5.swf$domain=tieba.baidu.com
-||titan007.com/news.aspx
-||win007.com/mn/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-toutiao.com##.J_ad > div
-toutiao.com##.J_qihu_ad > div
-mydigit.cn##.txtMes
-mydigit.cn##.view-hover[channelid="smzdm"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7832,12 +7828,14 @@ xiaodao.la##.HtmlMoKua.column.two-thirds
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
 toutiao.com##.J_ad
+toutiao.com##.J_ad > div
 toutiao.com##.J_add
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
 dianping.com##.J_mkt-group-2
 dianping.com##.J_mkt-group-3
 toutiao.com##.J_qihu_ad
+toutiao.com##.J_qihu_ad > div
 duba.com##.J_side_activity
 dbw.cn##.Jutop
 3d66.com##.King_Chance_LayerCont
@@ -9940,6 +9938,7 @@ tvhome.com##.tvAd
 zhiboba.cc##.tvpftgg1
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
 chinaz.com##.txtAdBox
+mydigit.cn##.txtMes
 cntour2.com##.txtPicAd
 ltaaa.com##.txtads
 qixingquan.com##.tzb
@@ -9981,6 +9980,7 @@ yinyuetai.com##.video_abr
 loldk.com##.video_ad_roll
 aipai.com##.video_gg
 mydigit.cn##.view-hover[channelid="aitao"]
+mydigit.cn##.view-hover[channelid="smzdm"]
 263y.com##.view_abc
 muchong.com##.viewad
 400gb.com,bego.cc,ctfile.com,fmdisk.com,pipipan.com##.viewfile_content_main_r > .row-fluid:nth-child(2)
@@ -11503,16 +11503,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.textAd
 ck101.com,datehub.co,gamer.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Baidu Union
-||d.tonghua5.com^
-||bd1.szhk.com^
-||1.cjcp.cn^
-||b1.91jucai.com^
-||meishiba.com.cn^$third-party
-||mo-tuo.com^
-||xbtw.com^
-||bdad.hao224.com^
-||yihubaiying.com^$third-party
-||wuliao.juqingba.cn^
 ###cpro_container
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -11527,6 +11517,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 |http://a.kj-cy.cn^
 ||06362.com^
 ||1.1010pic.com^
+||1.cjcp.cn^
 ||1.feihua.com^
 ||1.glook.cn^
 ||1.jeasyui.net^
@@ -11581,14 +11572,17 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||ap*.pl520.com^
 ||b.cyone.com.cn^
 ||b1.51scw.net^
+||b1.91jucai.com^
 ||b17.shangc.net^
 ||baidu*.hntvchina.com^
 ||baidu-union-js.xiachufang.com^
 ||bd1.fengdu100.com^
 ||bd1.jobui.com^
 ||bd1.nxing.cn^
+||bd1.szhk.com^
 ||bd1.wowoqq.com^
 ||bd1.xiangha.com^
+||bdad.hao224.com^
 ||bdcode.youke.com^
 ||bdjs.120askimages.com^
 ||bdjs.99.com.cn^
@@ -11606,6 +11600,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||cp.greenxf.cn^
 ||cp.jfcdns.com^
 ||d.mingyihui.net^
+||d.tonghua5.com^
 ||d.xinshipu.com^
 ||d6.mobaders.com^
 ||daima.chazidian.com^
@@ -11670,6 +11665,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||luolikong.net^$third-party
 ||ma1.meishij.net^
 ||mbs.weathercn.com^
+||meishiba.com.cn^$third-party
 ||milk.yesky.com.cn^
 ||mipujia.com^$third-party
 ||mj-medlab.com^$third-party
@@ -11677,6 +11673,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||mmcc.yxlady.com^
 ||mn586.com^$third-party
 ||mnkan.com^
+||mo-tuo.com^
 ||mpb1.iteye.com^
 ||nyhpyq.com^$third-party
 ||okkkk.com^
@@ -11708,8 +11705,11 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||w5sac788c1.360doc.cn^
 ||wap001.bytravel.cn^
 ||wda.ydt.com.cn^
+||wuliao.juqingba.cn^
+||xbtw.com^
 ||xuehi.cn^$domain=wenkuxiazai.com
 ||yhzm.cc^
+||yihubaiying.com^$third-party
 ||ykxwn.com^
 ||youbian.com^$third-party
 ||ypmeiwen.com^
@@ -11740,7 +11740,6 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||qloer.com^
 .m.biqugezw.com^
 .m.bookben.com^
 .m.liewen.cc^
@@ -11785,6 +11784,7 @@ btdigg.co,btkitty.kim,btlibrary.co,diggbt.ws,torrentkitty.ws###box
 ||oomyv.com^
 ||passwz.com^
 ||pomhz.com^
+||qloer.com^
 ||qlonglong.com^
 ||qzdag.com^
 ||rbywg.com^
