@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/ad-footer.js
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -6534,8 +6535,10 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||maoyun.tv/g3/960x90.png
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+zimuzu.tv##.top-box > DIV[style="text-align:center; margin:0 0 15px 0;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
