@@ -2358,7 +2358,8 @@ _yad_jsonp_
 fuli.*/wp-content/uploads/ad/
 mg*.6park.com/img/$image
 |http:$script,domain=189so.cn
-|http:$script,third-party,xmlhttprequest,domain=btdb.in|m.soduso.com
+|blob:$domain=btdb.to
+|http:$script,third-party,xmlhttprequest,domain=btdb.to|m.soduso.com
 |http:$subdocument,domain=pc6.com
 |http:$third-party,domain=icpmp.com
 |http://*.tk^$domain=144.217.84.47|149.56.45.111|a7s7.com|sex169.biz|sex169.info|sex169.net|sex169.org|sex169.pw|sex169.xyz|vidoe169.com
@@ -2369,7 +2370,7 @@ mg*.6park.com/img/$image
 |http://sex169.*/*/*.$script
 |http://sex169.*/*/*/*.gif
 |http://t.cn/$domain=ady8.info|aikuhu.com
-|https:$script,third-party,xmlhttprequest,domain=btdb.in
+|https:$script,third-party,xmlhttprequest,domain=btdb.to
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
 ||000b.info/js/
