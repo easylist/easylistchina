@@ -6557,8 +6557,10 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 ||99shumeng.net/uudHK/
 ||rmfans.cn/tbao/
+||dilidili.wang/uploads/allimg/*1008
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dilidili.wang##A[href*="Game"]
 yshw1.com###diynews_ad1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -10707,7 +10709,7 @@ da-fan-shu.cn##div[style*="468"][style*="60"]
 360che.com##div[style*="950"][style*="90"]
 pchome.com.tw##div[style*="982"][style*="85"]
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
-dilidili.wang##div[style*="fixed"]
+dilidili.wang##[style*="fixed"]
 bbhou.com##div[style*="height: 90px;"]
 bilibili.com##div[style*="height:"][data-loc-id]
 hbrc.com##div[style*="height:250px;"]
