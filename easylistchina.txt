@@ -563,6 +563,8 @@ _xiuno_com_ad/
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
+##img[src$="/2016-0114-700X70.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##img[src$="/81aa3b154678bd6816c5cfd80ed6f6d8.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/81aa3b154678bd6816c5cfd80ed6f6d8.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
@@ -6575,6 +6577,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+t66y.com##img[src$="/2016-0114-700X70.gif"] ~ br:nth-child(-n+226)
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
