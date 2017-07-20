@@ -563,8 +563,8 @@ _xiuno_com_ad/
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div[id^="ad_thread"]
-##img[src$="/2016-0114-700X70.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
-##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
+##img[src$="/81aa3b154678bd6816c5cfd80ed6f6d8.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+##img[src$="/81aa3b154678bd6816c5cfd80ed6f6d8.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
@@ -6569,6 +6569,9 @@ mg*.6park.com/img/$image
 ||news.yanqing-888.net^
 ||qnsb.com/news/index.php?m=poster&
 ||dilidili.wang/uploads/allimg/170718/window_bkm.jpg
+||piclect.com^*.gif$third-party
+||www1.wi.to^*.gif
+||sinaimg.cn/large/00637iPCgy1fgkzscfre3g30qo01odre.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 dilidili.wang##[style*="fixed"] *
@@ -10885,7 +10888,7 @@ m.sohu.com##img.brand
 eworldship.com##img[height="70"]
 szhk.com##img[id^="adp"]
 0756.la##img[lowsrc*="/ad-htm/"]
-t66y.com##img[src$="/2016-0114-700X70.gif"] ~ br:nth-child(-n+226)
+t66y.com##img[src$="/81aa3b154678bd6816c5cfd80ed6f6d8.gif"] ~ br:nth-child(-n+226)
 0898.net,cnstock.com,hall123.com,hc360.com,hi.people.com.cn,jojf.cn,xizi.com##img[width="1000"]
 jmbbs.com##img[width="1100"]
 54new.com##img[width="1280"][height="100"]
