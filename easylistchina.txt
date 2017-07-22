@@ -571,7 +571,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||jimeilm.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1455,6 +1454,7 @@ ubmcmm.baidustatic.com
 ||jianmei123.com^
 ||jiehantai.com^
 ||jiexiyong.com^$third-party
+||jimeilm.com^
 ||jindu179.com^
 ||jisucn.com^$third-party
 ||jiudianhudong.com^$third-party
@@ -2938,6 +2938,7 @@ mg*.6park.com/img/$image
 ||77file.com/jsa/
 ||77fkk5.com1.z0.glb.clouddn.com/bar/
 ||77kp.com/bd/
+||77kp.com/gg123/
 ||789xz.com/index2/img/xiazai
 ||78dm.net/images/mingren250.jpg
 ||78dm.net/uploads/imgs/2013/*250
@@ -4952,6 +4953,7 @@ mg*.6park.com/img/$image
 ||ktzhk.com/file/adv/
 ||ku6.com^*/index.shtml
 ||ku6img.com/data1/p8/cms/2016/1/5/pic_1451965769733.png
+||kuaidi100.com/images/kuaidi/201612081*4
 ||kuaidi100.com/js/share/i_new.js
 ||kuaidi100.com/mobile/mobileapi.do
 ||kuaihou.com/c/shuoming.js
@@ -5130,6 +5132,7 @@ mg*.6park.com/img/$image
 ||media.*.gif$domain=6668.se
 ||media.cheshi-img.com^
 ||medsci.cn/aimgs/$script
+||medsci.cn/images/wyg.jpg
 ||megalife.com.hk^$domain=hkgolden.com
 ||meijub.com/a/youxiajiao
 ||meijub.com/js/a/
@@ -5435,6 +5438,7 @@ mg*.6park.com/img/$image
 ||pingpang.info/bbs/UploadFile/2014-11/20141113852238131.jpg
 ||pingpang.info/uploadfile/TTW.gif
 ||pingwest.com/wp-content/uploads/*/ad.jpg
+||pingwest.com/wp-content/uploads/2017/07/WechatIMG
 ||pipi.cn/player/
 ||pixfs.net/js/adsbyfalcon.
 ||pixfs.net/js/mib.min.js
@@ -5851,6 +5855,7 @@ mg*.6park.com/img/$image
 ||softhy.net/hp/
 ||sogou.*/js7/forAppDown.js
 ||sogou.com/acquireAdvertise.
+||sogou.com/html/ext/agentsdk.js
 ||sogou.com/img_logo/wp.js
 ||sogoucdn.com/imgu/*.swf
 ||sogoucdn.com/wap/js/
@@ -6019,6 +6024,7 @@ mg*.6park.com/img/$image
 ||tompda.com/dev/bbsadv/
 ||tompda.com/tupian/2013-03-15/300.jpg
 ||tonnn.com/promotion2/*.js
+||top139.com/aliyun.jpg
 ||topthink.com/api/basic/ad_
 ||totheglory.im/pic/fangtuo.jpg
 ||totheglory.im/pic/ttg-
@@ -6582,16 +6588,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||pingwest.com/wp-content/uploads/2017/07/WechatIMG
-||sogou.com/html/ext/agentsdk.js
-||top139.com/aliyun.jpg
-||77kp.com/gg123/
-||medsci.cn/images/wyg.jpg
-||kuaidi100.com/images/kuaidi/201612081*4
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dakashangche.com##.gpost-below
-ifeng.com##.bomBox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8584,6 +8582,7 @@ ftchinese.com##.bn-ph
 yeeyi.com##.boardnav > #ct > .sd
 qq.com##.body-Top-Ad
 qdmm.com,qidian.com##.bodyRecWrap
+ifeng.com##.bomBox
 m.toutiao.com##.bonus-wrapper
 sfacg.com##.book_AD
 qidian.com##.booktitle_rect > .start_game
@@ -9043,6 +9042,7 @@ techug.com##.google-ad + .recent-container
 techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
 tiexue.net##.gousi
+dakashangche.com##.gpost-below
 owyb1688.com##.gray-show
 jiaodong.net##.grayB
 loldk.com##.grid-adv
@@ -11715,20 +11715,20 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ! Baidu Union
-||yun1.yahoo001.com^
-||pingbi.diudou.com^
 ###cpro_container
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,40}$/$subdocument
+/cpro.$popup,third-party
+/link?c=$image
+~baidu.com##a[href*="/cpro."]
+~baidu.com##a[href*="/cpro/"]
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,40}$/$subdocument
-/cpro.$popup,third-party
-/link?c=$image
 |http://*&uc=
 |http://a.kj-cy.cn^
 ||01.gxso.net^
@@ -11999,6 +11999,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||one.520319.cn^
 ||p1.18zhongyao.com^
 ||painiuimg.com^
+||pingbi.diudou.com^
 ||ptw.la^
 ||qcjslm.com^
 ||qooic.com^
@@ -12062,6 +12063,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||ykxwn.com^
 ||ypmeiwen.com^
 ||yulzs.com^
+||yun1.yahoo001.com^
 ||yunzuowen.com^$third-party
 ||zhantai.com^$third-party
 ||zhaoshang8.com^
@@ -12073,8 +12075,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zhuolaoshi.com^$third-party
 ||zq84.com^
 ||zuiceshi.net^
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
@@ -12094,7 +12094,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||book9.net^$third-party
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12124,6 +12123,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||aikan6.com^
 ||awyys.com^
 ||axkxy.com^
+||book9.net^$third-party
 ||cdgxq.com^
 ||changhehengqi.com^
 ||cindy17club.com^
