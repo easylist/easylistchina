@@ -12,6 +12,9 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
+/lapi/sign/signapi/getinfo
+/lapi/sign/brandapi/getinfo
+/resource/common/tongzhuo/game_info.json
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -3951,8 +3954,6 @@ mg*.6park.com/img/$image
 ||douguo.net/upload/post/d/
 ||doupapa.com/js/swf/
 ||douyu.com/member/gamegift/gameList/
-||douyucdn.cn/upload/signs/*.swf
-||douyutv.com/upload/signs/*.swf
 ||down.admin5.com/z/
 ||down12.com/common/js/bdvert.js
 ||downbank.cn/js/gong.js
@@ -6613,6 +6614,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
+||douyu*/upload/signs/*.swf
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
