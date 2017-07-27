@@ -2207,8 +2207,7 @@ ubmcmm.baidustatic.com
 /pushstart.aspx?$popup,third-party
 /pushstart.html?$popup,third-party
 /tanchuan.htm$popup,third-party
-|http:$popup,third-party,domain=77file.com
-|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|76fengyun.com|88files.net|99files.net|avsdown.com|downdvs.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
+|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|76fengyun.com|77file.com|88files.net|99files.net|avsdown.com|downdvs.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
 |http://*/?$popup,domain=linkbucks.com|zytpirwai.net
 |https:$popup,third-party,domain=jandown.com
 ||133gp.com^$popup
@@ -2734,6 +2733,7 @@ mg*.6park.com/img/$image
 ||39.net/test/k.js
 ||393gm.com/xinzeng/js/
 ||3987.com/images/
+||3987.com/statics/skin/*201
 ||3987.com/statics/tow_skin/new_img/20
 ||3987.com/vote/
 ||3boys2girls.com/newfile/image2010/banner_housead_
@@ -4306,6 +4306,7 @@ mg*.6park.com/img/$image
 ||gtimg.com/edu/pics/hv1/115/26/2077/135063670.png
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
 ||gtimg.com/news/news/2014ad/
+||gtimg.com/newsapp_bt/0/1846661534/641
 ||gtimg.com/newsapp_ls/0/27161189/0
 ||gtimg.com/pingjs/ext2020/dc/module/GJ/
 ||gtimg.com/qqlive/
@@ -6612,13 +6613,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||3987.com/statics/skin/*201
-||gtimg.com/newsapp_bt/0/1846661534/641
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-iask.sina.com.cn##.sj_680x250
-uuu9.com##.tgbox
-steamcn.com##DIV[class*="sonkwo_"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9927,6 +9923,7 @@ findprice.com.tw##.sitemajiad
 iask.sina.com.cn##.sj680x90
 iask.sina.com.cn##.sj_1000x90
 iask.sina.com.cn##.sj_300x250
+iask.sina.com.cn##.sj_680x250
 iask.sina.com.cn##.sj_680x90
 soku.com##.sk_banner
 fuli.us##.slick
@@ -10043,6 +10040,7 @@ outofmemory.cn##.tgBar
 sogou.com##.tgad-box
 www.sogou.com##.tgad-box + div
 sogou.com##.tgad-title
+uuu9.com##.tgbox
 putclub.com##.the_ad
 firefoxchina.cn##.theme-618 .theme-side-bg .mod
 firefoxchina.cn##.theme-side-bar-couplet
@@ -10587,6 +10585,7 @@ qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
 steamcn.com##div[class*="nitial_"]
 steamcn.com##div[class*="qingyu"]
+steamcn.com##div[class*="sonkwo_"]
 steamcn.com##div[class*="stcn_"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
@@ -11751,19 +11750,17 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ! Baidu Union
 ###cpro_container
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,40}$/$subdocument
-/cpro.$popup,third-party
-/link?c=$image
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}(?:=[^=]+){30,40}$/$subdocument
+/cpro.$popup,third-party
+/link?c=$image
 |http://*&uc=
 |http://a.kj-cy.cn^
 ||01.gxso.net^
@@ -12112,6 +12109,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zhuolaoshi.com^$third-party
 ||zq84.com^
 ||zuiceshi.net^
+~baidu.com##a[href*="/cpro."]
+~baidu.com##a[href*="/cpro/"]
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
