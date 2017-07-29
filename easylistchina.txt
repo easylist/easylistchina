@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-&is_need_ad=1&
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -1467,7 +1466,6 @@ ubmcmm.baidustatic.com
 ||jiankang13.com^$third-party
 ||jianmei123.com^
 ||jiehantai.com^
-||jiexiyong.com^$third-party
 ||jimeilm.com^
 ||jindu179.com^
 ||jisucn.com^$third-party
@@ -2321,7 +2319,6 @@ ubmcmm.baidustatic.com
 /cari/banner/*
 /cari/daybanner/*
 /config.$domain=4sefang2.com|bbb551.com|oms12345.com
-/contents/other/player/*.gif
 /cooperation/*$script,subdocument,domain=firefox.huanqiu.com
 /da.aspx|$domain=live8bo.com|live8bo.net|live8bo1.com|zqzq.com
 /dealer1.gif$domain=oldpig.org
@@ -2354,7 +2351,6 @@ ubmcmm.baidustatic.com
 /jquery.$domain=game.macx.cn
 /js/adBom.js$domain=myqcloud.com
 /js/index_$domain=ltwbook.com|ltxsw.com|ltxszw.com
-/js/layer.js$domain=99kk3.com|99kk4.com|99kk5.com|99kk6.com|99ll1.com|99re.com|99vv1.com
 /kocpc.myweb.hinet.net^
 /merchant.php$domain=bjmama.com
 /modules/video/player/nuevo/midroll.php?
@@ -3056,15 +3052,11 @@ mg*.6park.com/img/$image
 ||999v.me/cs
 ||99btgc01.info/uploads/*.gif
 ||99danji.com/otherhtml/
-||99kk*.com/img/*.gif
-||99ll1.com/img/*.gif
 ||99mst.com/upfiles/adv/main02.jpg
-||99re*.com/img/*.gif
 ||99shumeng.net/uudHK/
 ||99tianji.com/hack/
 ||99ting.cn/789uc/gg.js
 ||99ting.cn/image/*.gif
-||99vv1.com/img/*.gif
 ||9duw.com/pic/
 ||9ez.me/embd.php?type=
 ||9ht.com/skin2012/js/tlAd.js
@@ -3548,7 +3540,6 @@ mg*.6park.com/img/$image
 ||btsou.net/static/image/*.gif
 ||btspreadcn.com/images/x.jpg
 ||bttt99.com/style/s.js
-||buimg.com/1949/da2113bdb374cb7f.gif
 ||buimg.com/562723/f54344b0cbbdff87.png
 ||buimg.com/588755/360bfd3735e94b25.jpg
 ||buimg.com^$domain=55fcw.com|ed2000.com|kisssub.org|moe-acg.cc|ref.so
@@ -5849,7 +5840,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw690/a1916e89gw1dye4d74zmij.jpg
 ||sinaimg.cn/unipro/
 ||sinaimg.cn/wap/online/cms/article/formal/js/economyClup.
-||sinaimg.cn^$domain=11luba.com|174.139.109.38|18board.com|18p2p.com|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|46bk.com|500xxxx.com|55fcw.com|666hdhd.com|84fn.com|99kk3.com|99kk4.com|99kk5.com|99kk6.com|99ll1.com|99re.com|99vv1.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu15.com|avtb678.com|avtb789.com|bejson.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|freecctv.xyz|fulitxx.com|ifulidh.com|iidvd.com|ilxdh.com|izzs.cc|kiees.cn|lifan.moe|llj22.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|youb444.com
+||sinaimg.cn^$domain=11luba.com|174.139.109.38|18board.com|18p2p.com|208.94.244.98|22ccaa.com|345qyl.com|360bifen.cc|360bifen.com|46bk.com|500xxxx.com|55fcw.com|666hdhd.com|84fn.com|a3v4.top|ac168.info|acglover.top|aisex.com|aotu15.com|avtb678.com|avtb789.com|bejson.com|blz20.com|blz24.com|btago.com|cangjige.net|cangjige.win|caoliuzx.com|cililian.me|dydh.tv|ems183.cn|fdzone.org|freecctv.xyz|fulitxx.com|ifulidh.com|iidvd.com|ilxdh.com|izzs.cc|kiees.cn|lifan.moe|llj22.com|motelppp.com|neonan.com|niluba.cc|qqxbt.com|qyle9.com|rarbt.com|sbme.me|se533.com|shouyoutan.com|txtshu365.com|vx666.com|weike22.com|wszhibo.com|youb444.com
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
@@ -9960,7 +9951,6 @@ u148.net##.sponsor-abeam
 northnews.cn##.sponsor02
 sogou.com##.sponsored
 163.com##.sports_300x60_ad1
-99kk3.com,99kk4.com,99kk5.com,99kk6.com,99ll1.com,99re.com,99vv1.com##.spots
 haosou.com,so.com##.spread
 baidu.com##.spread-wrap
 2345.com##.spreadHotWords
@@ -11732,6 +11722,11 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
+! 99re.com
+99ff6.com,99ff7.com,99kk7.com,99re.com##.spots
+.gif|$domain=99ff6.com|99ff7.com|99kk7.com|99re.com
+||sinaimg.cn^$domain=99ff6.com|99ff7.com|99kk7.com|99re.com
+/js/layer.js$domain=99ff6.com|99ff7.com|99kk7.com|99re.com
 ! Aisex.com
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|go543.com
 ||imgur.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|go543.com
