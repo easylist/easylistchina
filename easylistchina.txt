@@ -6639,8 +6639,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jandan.net###cse-search-box + #adsense + UL
-wooyun.tangscan.cn##.footer-bottom > .list-inline > A
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7118,6 +7116,7 @@ nownews.com###crazy-video
 yahoo.com###crazyAD
 muchong.com###creditegg
 ipc.me###crumb_r
+jandan.net###cse-search-box + #adsense + ul
 wpsoso.com###cse-search-box > p
 chzhw.com###ct3 + #ty
 sojump.com###ctl01_ContentPlaceHolder1_divProMsg
@@ -8994,6 +8993,7 @@ haodou.com##.focus_img
 iciba.com##.foot_ad
 880sy.com##.foot_gg
 bokerb.com##.foot_td_1
+wooyun.tangscan.cn##.footer-bottom > .list-inline > a
 yipee.cc##.footer-sidebar-container
 yaolan.com##.footer_float_box
 7654.com##.footergg
@@ -10637,7 +10637,7 @@ zhibo8.cc##div[class*="advert"]
 efu.com.cn##div[class*="banner-"]
 qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
-steamcn.com##DIV[class*="qingyyu_"]
+steamcn.com##div[class*="qingyyu_"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
@@ -11807,19 +11807,17 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ! Baidu Union
 ###cpro_container
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
-/cpro.$popup,third-party
-/link?c=$image
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
+/cpro.$popup,third-party
+/link?c=$image
 |http://*&uc=
 |http://a.kj-cy.cn^
 ||01.gxso.net^
@@ -11876,6 +11874,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||7car.com.cn^
 ||888.izhufu.net^
 ||90370.com^$third-party
+||9669.cn^$third-party
 ||999d.com^$third-party
 ||9wushuo.com^
 ||a.5ykj.com^
@@ -11950,7 +11949,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||bdlm1.hc360.com^
 ||bdlncs1.familydoctor.com.cn^
 ||becode.qiushibaike.com^
-||9669.cn^$third-party
 ||bstatic.1kejian.com^
 ||bstatic.diyifanwen.com^
 ||c1.4qx.net^
@@ -12173,6 +12171,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zq84.com^
 ||zuiceshi.net^
 ||zxw51.com^$third-party
+~baidu.com##a[href*="/cpro."]
+~baidu.com##a[href*="/cpro/"]
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
