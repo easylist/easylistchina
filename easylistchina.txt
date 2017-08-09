@@ -3303,8 +3303,7 @@ mg*.6park.com/img/$image
 ||ashow.pcpop.com^
 ||asia-home.com.cn/js/yt/ytadshow
 ||asimgs.pplive.cn^$object,object-subrequest
-||asp300.com/2012adjs/
-||asp300.com/2012js/
+||asp300.net/2012js/
 ||aspjzy.com/jsweb/js/
 ||aspku.com/z/
 ||astrill.com/bnrs/
@@ -6658,8 +6657,11 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
+||asp300.net/2017js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+asp300.net##.tit01 > A
+asp300.net##.tit02 > A
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8524,7 +8526,6 @@ focus.cn##.aside-banners
 jingyan.baidu.com##.aside-pro-container
 anquan.org##.aside_profile_activity > div:first-child
 showtv.com.tw##.ask18
-asp300.com##.asp300-indexAD
 vx666.com##.async[href^="http"]
 57tvtv.com##.async[href^="https://www.zhanqun789.com/"]
 silver.org.cn##.atit_gg_index
@@ -9296,7 +9297,6 @@ avlang15.com##.index-info.cc > .tac
 bilibili.com##.index-promote
 panda.tv##.index-slider-link
 pinggu.org##.index-somelinks
-asp300.com##.index711-mask
 zahuishi.com##.index950x90
 zahuishi.com##.index960x90
 ydss.cn##.indexAd
