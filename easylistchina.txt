@@ -582,6 +582,7 @@ _xiuno_com_ad/
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
+##A[href^="https://hi.potvpn.com/?from="]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
 ||g3user.com^$third-party
@@ -3656,7 +3657,6 @@ mg*.6park.com/img/$image
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.shdsp.net/ad
-||cdn.xiaoz.me/wp-content/uploads/
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
@@ -6660,6 +6660,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 ||asp300.net/2017js/
 ||btc38.com/statics/img/partner/
+||xiaoz.me/wp-content/uploads/*_banner_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 cqmmgo.com##.ad-160x40
@@ -11316,6 +11317,7 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
+@@/adview_pic_$domain=xiaoz.me
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
