@@ -6178,7 +6178,6 @@ mg*.6park.com/img/$image
 ||uho.com.tw^$subdocument
 ||uisdc.com/wp-content/*-250-
 ||uisdc.com/wp-content/*-728
-||uisdc.com/wp-content/*-jzzx-
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||union.china.com.cn^
 ||untitled.dwstatic.com^
@@ -6680,6 +6679,7 @@ mg*.6park.com/img/$image
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 uisdc.com##.wztopshow
+uisdc.com##.textwidget > A[target="_blank"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
