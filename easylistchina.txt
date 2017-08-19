@@ -569,6 +569,7 @@ _xiuno_com_ad/
 ##a[href*="/?intr="]
 ##a[href="http://www.viidii.info/?http://buyu8005______com/?Extend=1278735&z"]
 ##a[href^="http://go.gotourl.xyz/"]
+##a[href^="http://www.upupoo.com/?"]
 ##a[href^="https://hi.potvpn.com/?from="]
 ##body[onload*="u()"] > #x
 ##div#ad_id
@@ -579,7 +580,6 @@ _xiuno_com_ad/
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##A[href^="http://www.upupoo.com/?"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
 .cn/show?id=$script,third-party
@@ -3958,6 +3958,8 @@ mg*.6park.com/img/$image
 ||downbank.cn/s1/yl.js
 ||downbluray.com/css/images/apple
 ||downcc.com/js/660
+||downhot.com/Res/js/arc.js
+||downhot.com/Res/js/main.js
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
 ||download.game.yy.com/crossdomain.xml
@@ -4700,6 +4702,7 @@ mg*.6park.com/img/$image
 ||imgroom.net/images/*.gif
 ||imgs.cc/images/ad_
 ||imgsrc.baidu.com/tieba/pic/item/$image
+||imgtuku.com/images/20*.gif
 ||imgur.com/4SbDoav.jpg
 ||imgur.com/df53F09.jpg
 ||imgur.com/hkYNDSj.gif
@@ -5033,6 +5036,13 @@ mg*.6park.com/img/$image
 ||letvimg.com^*_phone/
 ||lewenxiaoshuo.com/m-
 ||lezhuan.com/js/spread.js
+||lgmi.com/ggimg/
+||lgmi.com/images/*.swf
+||lgmi.com/left_right_
+||lgmi.com/right_ys
+||lgmi.com/syimg/
+||lgmi.com/tjyf200x207.asp
+||lgmi.com^*_gg
 ||lh168.net^*/attachment/portal/
 ||liangchan.net/aaddaadd/
 ||liangchan.net/adf/
@@ -5080,6 +5090,7 @@ mg*.6park.com/img/$image
 ||loldk.com/res/media/fanxing_
 ||loli.io^$domain=kisssub.org
 ||loli.net^$domain=acglover.top
+||lolshipin.com/zt/sxx/
 ||longbahao.com/asd.js
 ||longbahao.com/js/ad-
 ||longhoo.net/html/jzj/
@@ -6039,7 +6050,9 @@ mg*.6park.com/img/$image
 ||tiexue.net/domain-policy/
 ||tiexue.net/txgatj/
 ||tieyou.com/images/xiao_tuan_you.jpg
+||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
+||tigtag.com/images/pic2017/*/index.html
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
 ||tingchina.com/js/*220-
 ||tingchina.com/js/760
@@ -6645,27 +6658,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||imgtuku.com/images/20*.gif
-||lgmi.com/tjyf200x207.asp
-||lgmi.com/left_right_
-||lgmi.com/ggimg/
-||lgmi.com^*_gg
-||lgmi.com/syimg/
-||lgmi.com/right_ys
-||lgmi.com/images/*.swf
-||downhot.com/Res/js/arc.js
-||downhot.com/Res/js/main.js
-||tigtag.com/images/*1000x
-||tigtag.com/images/pic2017/*/index.html
-||lolshipin.com/zt/sxx/
 !------------------------Specific element hiding rules------------------------!
-tigtag.com##DIV[id^="Show300x"]
-xkcpw.cn##.a_pt > div > a
-xkcpw.cn##.a_pt > div > a + div
-lgmi.com###openwindows0
-lrshare.com##.asb-post
-dysfz.cc##.adv_bottom
-lgmi.com##DIV[id^="gg"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7626,6 +7619,7 @@ duba.com###oneTip
 duba.com###oneone
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
+lgmi.com###openwindows0
 ifeng.com###optimusPrimeContentId
 jiyingdm.com###otherWindowBox
 zimuzu.tv###output > li > a[href^="http"]:not([href*="resource/"])
@@ -8145,6 +8139,8 @@ thinkphp.cn##.a6
 chacuo.net##.a96090
 2345.com##.aPlayBtn[href^="http://g.wan."]
 0772fang.com##.a_banner
+xkcpw.cn##.a_pt > div > a
+xkcpw.cn##.a_pt > div > a + div
 91txh.com##.a_ssk_cn
 91txh.com##.a_ssk_pt
 muchong.com##.a_subject[href^="creditshow."]
@@ -8461,6 +8457,7 @@ myhack58.com##.adv32
 it165.net##.adv728a
 it165.net##.adv728b
 sohu.com##.adv_960
+dysfz.cc##.adv_bottom
 le.com,letv.com##.adv_img
 kaifu.com##.adv_slide
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,ningmengzhibo.com##.advbox
@@ -8537,6 +8534,7 @@ xuite.net##.articleExtAd
 toutiao.com##.article_link[ad-tag]
 toutiao.com##.article_link[data-tag="ad"]
 fulishequ.com##.asb-index-01
+lrshare.com##.asb-post
 78dm.net##.aside-add
 focus.cn##.aside-banners
 jingyan.baidu.com##.aside-pro-container
@@ -10819,6 +10817,7 @@ tigtag.com##div[id^="Home942x70_"]
 tzfdc.com.cn##div[id^="LMT_"]
 360che.com##div[id^="PAGE_AD_"]
 0594.com##div[id^="PCMSAD_"]
+tigtag.com##div[id^="Show300x"]
 90bifen.com##div[id^="ShowTopAds_"]
 icpmp.com##div[id^="__"]
 kunming.cn##div[id^="_picadv_"]
@@ -10857,7 +10856,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[id^="ecl-pc-game-"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 512ms.com,gusuwang.com##div[id^="fy_"]
-doyo.cn,keleyi.com##div[id^="gg"]
+doyo.cn,keleyi.com,lgmi.com##div[id^="gg"]
 51240.com##div[id^="ggwz"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
@@ -11870,19 +11869,20 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ! Baidu Union
-||muyingbk.com^$third-party
 ###cpro_container
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io|~payoneer.com
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
+/cpro.$popup,third-party
+/link?c=$image
+~baidu.com##a[href*="/cpro."]
+~baidu.com##a[href*="/cpro/"]
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io|~payoneer.com
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
-/cpro.$popup,third-party
-/link?c=$image
 |http://*&uc=
 |http://a.kj-cy.cn^
 ||01.gxso.net^
@@ -12168,6 +12168,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||mo-tuo.com^
 ||modzj.net^$third-party
 ||mpb1.iteye.com^
+||muyingbk.com^$third-party
 ||mxitie.com^$third-party
 ||mxpwx.com^$third-party
 ||mzcsdf.com^$third-party
@@ -12262,13 +12263,12 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zq84.com^
 ||zuiceshi.net^
 ||zxw51.com^$third-party
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
 |http:$script,third-party,xmlhttprequest,domain=alicili.org|btdigg.co|btkitty.pet|btlibrary.co|cilidaquan.me|diggbt.biz|savebt.com|storebt.pw|torrentkitty.red|zhongzicili.net
 ! Caoporn.com
+/images/*.gif$domain=2c2.website|2p8.space|adultgao.com|baocee.com|baofee.com|baonee.com|baopee.com|baowee.com|baoxee.com|baozoo.com|caoporn.com|caouoo.com|caoxee.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz
 /moneymaker/js/player/vast-
 /moneymaker/js/player/zanting.js
 ||aaaimg.com/images*.gif
@@ -12276,12 +12276,10 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||ganimg.com/images/*.gif
 ||ganimgs.com/images/*.gif
 ||haoimgs.com/images/*.gif
-/images/*.gif$domain=2c2.website|2p8.space|adultgao.com|baocee.com|baofee.com|baonee.com|baopee.com|baowee.com|baoxee.com|baozoo.com|caoporn.com|caouoo.com|caoxee.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultgao.com|baocee.com|baofee.com|baonee.com|baopee.com|baowee.com|baoxee.com|baozoo.com|caoporn.com|caouoo.com|caoxee.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||qhdop.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12367,6 +12365,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||oomyv.com^
 ||passwz.com^
 ||pomhz.com^
+||qhdop.com^
 ||qloer.com^
 ||qlonglong.com^
 ||qzdag.com^
