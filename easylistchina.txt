@@ -11899,19 +11899,17 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ! Baidu Union
 ###cpro_container
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io|~payoneer.com
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
-/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
-/cpro.$popup,third-party
-/link?c=$image
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z])(?=[0-9a-z]*[0-9])[0-9a-z]{40,62}\.js$/$script,domain=~bittiger.io|~payoneer.com
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
+/^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
+/cpro.$popup,third-party
+/link?c=$image
 |http://*&uc=
 |http://a.kj-cy.cn^
 ||01.gxso.net^
@@ -12291,6 +12289,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zq84.com^
 ||zuiceshi.net^
 ||zxw51.com^$third-party
+~baidu.com##a[href*="/cpro."]
+~baidu.com##a[href*="/cpro/"]
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
@@ -12299,17 +12299,17 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##a[href^="http://ganimg.com/"]
 ##a[href^="http://ganimgs.com/"]
 ##a[href^="https://aaaimg.com/"]
-/images/*.gif$domain=adultcao.com|cao.pe|caoaee.com|caodee.com|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|caouoo.com|gaohot.pro|k88.club|me88.pw|p5p.space|qq88.space|se88.space|tb001.xyz|te88.pw|vgao.xyz|vwan.xyz|wan1024.com|wan41.com
 /moneymaker/js/player/vast-
 /moneymaker/js/player/zanting.js
-2c2.website,2p8.space,adultcao.com,adultgao.com,cao.pe,caoaee.com,caodee.com,caofoo.top,caohot.club,caopee.com,caoporn.club,caoporn.com,caoporn.wales,caosee.club,caouoo.com,gaohot.pro,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,qq88.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz,wan1024.com,wan41.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
-baofee.com,baoxee.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ||aaaimg.com/images*.gif
 ||caoimgs.com/images/*.gif
 ||ganimg.com/images/*.gif
 ||ganimgs.com/images/*.gif
 ||haoimgs.com/images/*.gif
-||sinaimg.cn^$domain=2c2.website|2p8.space|adultcao.com|adultgao.com|baofee.com|baoxee.com|cao.pe|caoaee.com|caodee.com|caofoo.top|caohot.club|caopee.com|caoporn.club|caoporn.com|caoporn.wales|caosee.club|caouoo.com|gaohot.pro|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|qq88.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz|wan1024.com|wan41.com
+/images/*.gif$domain=2c2.website|2p8.space|adultgao.com|baocee.com|baofee.com|baonee.com|baopee.com|baowee.com|baoxee.com|baozoo.com|caoporn.com|caouoo.com|caoxee.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz
+||sinaimg.cn^$domain=2c2.website|2p8.space|adultgao.com|baocee.com|baofee.com|baonee.com|baopee.com|baowee.com|baoxee.com|baozoo.com|caoporn.com|caouoo.com|caoxee.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz
+! Caoporn.com
+2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
 .m.23sw.net^
 .m.3dllc.cc^
