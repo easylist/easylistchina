@@ -442,7 +442,7 @@ _xiuno_com_ad/
 ##.a_p
 ##.a_pb
 ##.a_pr
-~88liu.com,~briian.com##.a_pt
+~88liu.com,~briian.com,~xkcpw.cn##.a_pt
 ##.ad-above-footer
 ##.ad-below-adjacent-post
 ##.ad-below-header-menu
@@ -6660,6 +6660,8 @@ mg*.6park.com/img/$image
 ||lolshipin.com/zt/sxx/
 !------------------------Specific element hiding rules------------------------!
 tigtag.com##DIV[id^="Show300x"]
+xkcpw.cn##.a_pt > div > a
+xkcpw.cn##.a_pt > div > a + div
 lgmi.com###openwindows0
 lrshare.com##.asb-post
 dysfz.cc##.adv_bottom
