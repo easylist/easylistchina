@@ -568,6 +568,7 @@ _xiuno_com_ad/
 ~ac.uk##a[href*="/?aff="]
 ##a[href*="/?intr="]
 ##a[href="http://www.viidii.info/?http://buyu8005______com/?Extend=1278735&z"]
+##a[href^="http://ad.moemoe."]
 ##a[href^="http://go.gotourl.xyz/"]
 ##a[href^="http://www.upupoo.com/?"]
 ##a[href^="https://hi.potvpn.com/?from="]
@@ -580,7 +581,6 @@ _xiuno_com_ad/
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##A[href^="http://ad.moemoe."]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
 .cn/show?id=$script,third-party
@@ -3450,7 +3450,6 @@ mg*.6park.com/img/$image
 ||bego.cc/img/
 ||beijing-air.com/images/a/j
 ||beiwo.tv/Runtime/js/list01.js
-||qn.bejson.com^
 ||bejson.com/static/imgs/
 ||bendibao.com*/tuangou.gif
 ||bendibao.com/mo/adm_iframe.htm?
@@ -5608,6 +5607,7 @@ mg*.6park.com/img/$image
 ||qiyue.com/statics/js/3g.js
 ||qiyun.org/images/js/*.htm
 ||qk101.com/life/
+||qn.bejson.com^
 ||qncye.com/templets/default/js/mb.js
 ||qnsb.com/news/index.php?m=poster&
 ||qpic.cn/mblogpic/47a05e3dca9d6bc9e20e/2000
@@ -6674,7 +6674,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-fx168.com##.jy_fx168_tongyi_neiye_duilianAd_warp
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9414,6 +9413,7 @@ sucaijiayuan.com##.jsPart1Right
 qz930.com##.jsl_ad
 juksy.com##.juksy_ads
 jxedt.com##.jxpl
+fx168.com##.jy_fx168_tongyi_neiye_duilianAd_warp
 jmw.com.cn##.keLan
 jmw.com.cn##.keLan-img
 jmw.com.cn##.keLan-img + .block
@@ -12305,8 +12305,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||bueson.com^
-||cqgya.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12341,6 +12339,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||awyys.com^
 ||axkxy.com^
 ||book9.net^$third-party
+||bueson.com^
 ||ccmdgg.com^
 ||cdgxq.com^
 ||cdqjmc.com^
@@ -12349,6 +12348,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||cindy17club.com^
 ||cnzhqs.com^
 ||comesgo.com^
+||cqgya.com^
 ||cyylove.com^
 ||dbwmjj.com^
 ||ddanq.com^
@@ -12465,7 +12465,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
-@@||panda.tv/ajax_login?*&refer=http
 @@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
@@ -12498,6 +12497,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||mmstat.com/eg.js$domain=tudou.com|youku.com
 @@||msn.wrating.com/a1.js
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
+@@||panda.tv/ajax_login?*&refer=http
 @@||pingjs.qq.com^$~third-party
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
