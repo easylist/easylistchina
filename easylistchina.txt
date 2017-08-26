@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
-/naimabdd_1010/*
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -214,6 +213,7 @@
 /meinv/js/_ads_tuku.js
 /module/adsview/*
 /moneymaker-banners/ads_
+/naimabdd_1010/*
 /nanrenpeng/ads/*
 /new_site_topad^
 /paypic/*
@@ -3707,6 +3707,7 @@ mg*.6park.com/img/$image
 ||chinaz.com/imagead/
 ||chinaz.com/images/210x175.jpg
 ||chinaz.com/newshome/
+||chinaz.com/sc_images/sc_font.js
 ||chinaz.com/tool_img/alexa_a.js
 ||chinaz.com/tools_img/
 ||chinaz.com/zz_img/
@@ -4295,6 +4296,7 @@ mg*.6park.com/img/$image
 ||gopher.qiniudn.com/bar/submail-
 ||goto.www.iciba.com^
 ||gotourl.xyz^
+||gougou2018.com/js/item
 ||gouhb.com/skin/jww/images/20141029114*.png
 ||goupu.org/1commonfile/*.gif
 ||goupu.org/1commonfile/*.htm
@@ -6678,13 +6680,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||gougou2018.com/js/item
-||chinaz.com/sc_images/sc_font.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-gpsuu.com##DIV[class^="top_96"]
-8264.com##A[href*=".renrenjiang."]
-fawan.com###ynetG_B1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8038,6 +8035,7 @@ house.qq.com###yf
 webkaka.com###yhtools + .ucontent
 rjfcxxw.com###yimao > div[style]
 starbaby.cn###yindex_ads
+fawan.com###ynetG_B1
 dm5.com###youce
 yahoo.com###ysm-umu
 0598yu.com###yu2015_ad_news_01
@@ -10543,6 +10541,7 @@ tiexue.net##a[href*=".junph."]
 tiexue.net##a[href*=".liangada."]
 ifkjx.com##a[href*=".lolbaicai.com"]
 iqiyi.com##a[href*=".oppo."]
+8264.com##a[href*=".renrenjiang."]
 ifeng.com##a[href*=".sm.cn"]
 chdbits.co,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
@@ -10789,6 +10788,7 @@ infoq.com##div[class^="related_sponsors"]
 qidian.com##div[class^="show_ggpic_"]
 86wan.com##div[class^="tonglan"]
 21cn.com##div[class^="topAds"]
+gpsuu.com##div[class^="top_96"]
 gamme.com.tw##div[class^="topad_"]
 tuzuan.com##div[class^="tuzuanad"]
 sogou.com##div[class^="vr-shopping"]
@@ -11905,9 +11905,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a1.zhanzhang.net^
-||tansuo70.com^
-||1.zou114.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -11942,6 +11939,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||1.win7sky.com^
 ||1.xiaopin5.com^
 ||1.xilu.com^
+||1.zou114.com^
 ||1.zouning.net^
 ||1.zw3e.com^
 ||100669.com^$third-party
@@ -12008,6 +12006,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a1.qqjay.com^
 ||a1.vdolady.com^
 ||a1.yuuedu.com^
+||a1.zhanzhang.net^
 ||a4.b2b168.com^
 ||aa.jiankang.com^
 ||aa.tianya999.com^
@@ -12247,6 +12246,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||star-media.cn^$third-party
 ||static.ichehome.com^
 ||sundxs.com^$third-party
+||tansuo70.com^
 ||thetestpage.39.net^
 ||ticcdn.com^
 ||tiexing.com^$third-party
@@ -12483,11 +12483,11 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=taobao.com|tmall.com
 @@=mm_33231655_8000000_$domain=taobao.com
-@@||aixifan.com/acfun-H5/public/script/sensorsdata.
 @@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
+@@||aixifan.com/acfun-H5/public/script/sensorsdata.
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
 @@||alicdn.com/retcode/log/log.js
 @@||alicdn.com^*/click_track.js
