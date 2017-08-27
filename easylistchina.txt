@@ -11,8 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/scrollgg_index.js
-/js/bdgg/*
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -180,6 +178,7 @@
 /js/ads/zuoxiajiao.js
 /js/ads888/*
 /js/axdd.js
+/js/bdgg/*
 /js/bocaiadv.
 /js/btdigg.js
 /js/dyguosj/*
@@ -249,6 +248,7 @@
 /runtime/js/index960.js
 /Runtime/js/top960.js
 /scripts/youthad.js
+/scrollgg_index.js
 /show.js?aid=*&pushid=
 /show.js?sp=*&oid=
 /shunwang/css/newgames/img/welfare.png
@@ -586,7 +586,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||gaoxiaocup.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1321,6 +1320,7 @@ ubmcmm.baidustatic.com
 ||gamecps.com^$third-party
 ||gameone.com^$third-party
 ||gansha.co^$third-party
+||gaoxiaocup.com^
 ||gclick.cn^$third-party
 ||gd.189.cn^*.htm?SP=$third-party
 ||gdbly.com^
@@ -3763,6 +3763,7 @@ mg*.6park.com/img/$image
 ||cndzys.com/huanlian/
 ||cnfol.com/f=ud/Js/Ad
 ||cnfol.com/tui/
+||cnforex.com/assets/ezwinfx_
 ||cngold.org/cngold_float
 ||cngoldres.com/advservice/
 ||cngoldres.com/web/js/*_advs
@@ -5201,6 +5202,7 @@ mg*.6park.com/img/$image
 ||meitui.org^*.js
 ||meiyouad.com/static/pc/img/111.gif
 ||meiyouad.com/user/admin?
+||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mgbbs.cn/js/float.js
@@ -6682,15 +6684,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||cnforex.com/assets/ezwinfx_
-||meizhou.cn/comm/mygg/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-meizhou.cn##.toptonglan
-meizhou.cn##.tuwengg
-cnforex.com###expand_ad
-cnforex.com##.ad_977x91
-cnforex.com##.topad460X60
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7286,6 +7281,7 @@ chinabidding.com.cn###erweima_l
 chinabidding.com.cn###erweima_r
 anhuinews.com###ewm
 gpsdlm.com###ewmzong > a:first-child
+cnforex.com###expand_ad
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 iciba.com###ezfm
@@ -8355,6 +8351,7 @@ feng.com##.ad_654
 qq.com##.ad_670_90
 zyue.com##.ad_90
 cna.com.tw##.ad_970
+cnforex.com##.ad_977x91
 hupu.com##.ad_980
 cheshi.com##.ad_980105
 tpy888.cn##.ad_all
@@ -10275,6 +10272,7 @@ hdzc.net##.top_gg2
 jmw.com.cn##.top_pic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top_toutu_admarks + .tbui_slideshow_list
 163.com,changsha.cn,jrj.com.cn,kekenet.com,neotv.com.cn,sina.com.cn##.topad
+cnforex.com##.topad460X60
 huarenjie.com##.topadcss
 huarenjie.com##.topadcss + div[style="overflow:hidden"]
 qz828.com##.topadv
@@ -10287,6 +10285,7 @@ qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
 makaidong.com##.topimg
 hy5.com.cn##.toplogoad
 hy5.com.cn##.toppicad
+meizhou.cn##.toptonglan
 hy5.com.cn##.toptxtad
 jurong.cn,ld0766.com##.totalad
 wapwenku.baidu.com,wk.baidu.com##.tout
@@ -10305,6 +10304,7 @@ hualady.com##.tu_guangao2
 iask.sina.com.cn##.tui-nav-txt
 7060.la##.tuiguang
 m.hao123.com##.tuizhan
+meizhou.cn##.tuwengg
 tvhome.com##.tvAd
 zhiboba.cc##.tvpftgg1
 xinhuanet.com##.txt > ul > li > a[href^="http"]:not([href*=".xinhuanet."])
