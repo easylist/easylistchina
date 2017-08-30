@@ -586,7 +586,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||bjyikao.org^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1063,6 +1062,7 @@ ubmcmm.baidustatic.com
 ||bivitr.com^
 ||biyibia.com^
 ||bjxiaohua.com^$third-party
+||bjyikao.org^
 ||blogad.com.tw^$third-party
 ||bloggerads.net^$third-party
 ||bmw100.cn^$third-party
@@ -5695,6 +5695,8 @@ mg*.6park.com/img/$image
 ||rentiyishu99.net/e.js
 ||rentiyishu99.net/f.js
 ||repian.com/a/
+||replays.net/j/dazui
+||replays.net/j/pinglunshang.png
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.hunantv.com^
 ||res.ythouse.com/image/index/2012/
@@ -5881,6 +5883,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/7d1c8e96gw1f8g6w9w7qkj208c06kt9o.jpg
 ||sinaimg.cn/large/7fab0e78gw1eza18r0p03g20rs02iglx.gif
+||sinaimg.cn/large/828dc694gy1ficej1ib5yg20l402igod.gif
 ||sinaimg.cn/large/83e2e207jw1f98ya56rvkg208c08cwid.gif
 ||sinaimg.cn/large/8c8bd65d$domain=loldk.com
 ||sinaimg.cn/large/afdba6bfjw1f6opvuolasg20qo02idns.gif
@@ -6689,15 +6692,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||sinaimg.cn/large/828dc694gy1ficej1ib5yg20l402igod.gif
-||replays.net/j/dazui
-||replays.net/j/pinglunshang.png
 !------------------------Specific element hiding rules------------------------!
-id97.com##.ad-box
 gpcxw.com###AA2
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##STYLE[id^="s-"] + DIV[id]
-tbtdg.com###adblockWarning
-tbtdg.com##.reveal-modal-bg
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6918,6 +6914,7 @@ hs90.net###ad_zpy
 141hongkong.com###adan
 localking.com.tw###adbannerurl
 dahanju.com,xskhome.com,yxdown.com###adbg
+tbtdg.com###adblockWarning
 lzep.cn###add
 17yy.com###addiv
 rj.baidu.com###ader
@@ -8231,7 +8228,7 @@ baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
 html-js.com##.ad-blank
 zhidao.baidu.com##.ad-block-1
-15w.com,bookshi.com,iwan.baidu.com,qq.com,xinhuanet.com,zol.com.cn##.ad-box
+15w.com,bookshi.com,id97.com,iwan.baidu.com,qq.com,xinhuanet.com,zol.com.cn##.ad-box
 15w.com##.ad-box-r
 easou.com##.ad-charge
 acg12.com,newtalk.tw##.ad-container
@@ -9902,6 +9899,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##.res_top_banner
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_chris_prize_list"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.result-op[tpl="right_timeliness2"]
+tbtdg.com##.reveal-modal-bg
 rfidworld.com.cn##.rfidADClass
 afzhan.com,fuliba.net,fulibba.com,hexieba.com,uliba.net##.right-banner
 image.baidu.com##.right-banner-area
@@ -11165,6 +11163,7 @@ zhlzw.com##span[style^="float:left;height:"]
 hanzify.org##span[style^="float:right;"]
 www.tiexue.net##style + p + div[class]
 tiexue.net##style + script + div + div[class]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
@@ -12347,8 +12346,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||calculated.cn^
-||pdfbs.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12386,6 +12383,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||axkxy.com^
 ||book9.net^$third-party
 ||bueson.com^
+||calculated.cn^
 ||ccmdgg.com^
 ||cdgxq.com^
 ||cdqjmc.com^
@@ -12441,6 +12439,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||nwwap.com^
 ||oomyv.com^
 ||passwz.com^
+||pdfbs.com^
 ||pomhz.com^
 ||qhdop.com^
 ||qloer.com^
