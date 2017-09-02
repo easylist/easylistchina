@@ -6699,6 +6699,7 @@ mg*.6park.com/img/$image
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
 ||chinacar.com.cn/Public/index/images/banner_
+||timedate.cn/comm/ad_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 chinacar.com.cn##.advertising
@@ -11953,8 +11954,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-|http://*/vd/*?c=$image
-|https://*/vd/*?c=$image
 |http://*&uc=
 |http://a.kj-cy.cn^
 ||01.gxso.net^
