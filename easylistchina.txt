@@ -3137,6 +3137,8 @@ mg*.6park.com/img/$image
 ||ab.ahlife.com^*.swf
 ||abbao.cn^*adblock
 ||abc.hkepc.com^
+||abcache.com/tg/
+||abcache.com/youlaohu/
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acfun.*/adnew.aspx?id=
 ||acg.178.com^*/t_$subdocument,domain=~dmzj.com
@@ -3691,6 +3693,7 @@ mg*.6park.com/img/$image
 ||chinabidding.com.cn/public/static/images/lg296x265.jpg
 ||chinabyte.com/w/$subdocument
 ||chinabyte.com/w/a/201612/wangting.jpg
+||chinacar.com.cn/Public/index/images/banner_
 ||chinachugui.com/jsfiles/aods/
 ||chinaconcrete.cn/ggImg/
 ||chinadaily.com.cn/micro-reading/dzh/bd-taofang.gif
@@ -5010,6 +5013,8 @@ mg*.6park.com/img/$image
 ||kuaidi100.com/images/kuaidi/201612081*4
 ||kuaidi100.com/js/share/i_new.js
 ||kuaidi100.com/mobile/mobileapi.do
+||kuaidiwo.cn/kdwkxmlt.jpg
+||kuaidiwo.cn/kuaidiwo.jpg
 ||kuaihou.com/c/shuoming.js
 ||kuaihou.com/c/you1.js
 ||kuaihou.com/js/new/xiazai
@@ -5750,8 +5755,6 @@ mg*.6park.com/img/$image
 ||s-msn.com/msnportal/hp/luckyday/
 ||s-msn.com/portal/hp/2015/807.html
 ||s-msn.com/portal/xiatui.js
-||abcache.com/tg/
-||abcache.com/youlaohu/
 ||s.go.sohu.com^*/?callback=
 ||s.pacn.ws^*?$image,domain=dmhy.org
 ||s.yimg.com/*_160x800_$subdocument
@@ -6094,6 +6097,7 @@ mg*.6park.com/img/$image
 ||tigtag.com/images/pic1/
 ||tigtag.com/images/pic2017/*/index.html
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||timedate.cn/comm/ad_
 ||tingchina.com/js/*220-
 ||tingchina.com/js/760
 ||tingchina.com/js/990
@@ -6699,15 +6703,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||chinacar.com.cn/Public/index/images/banner_
-||timedate.cn/comm/ad_
-||kuaidiwo.cn/kuaidiwo.jpg
-||kuaidiwo.cn/kdwkxmlt.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cgown.com##A[href*="/go.php?"]
-chinacar.com.cn##.advertising
-chinacar.com.cn##.left_pouple_box
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8538,7 +8535,7 @@ dianxinnews.com##.advert_a
 hao123.com,sohu.com,tieba.baidu.com##.advertise
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 hkepc.com,inside.com.tw,sina.com.cn##.advertisement
-elecfans.com##.advertising
+chinacar.com.cn,elecfans.com##.advertising
 10086.cn##.advertisingOther_img
 ifeng.com##.advmark
 hexun.com,hexun.com.tw##.advp
@@ -9519,6 +9516,7 @@ yxlady.com##.left_bottom_gg3
 lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
+chinacar.com.cn##.left_pouple_box
 duba.com##.left_slidebar_con
 shaoit.com##.left_top > div > .menu > li:last-child
 hkwb.net##.leftadv2
@@ -10601,6 +10599,7 @@ acg18.us##a[href*="/ad/"]
 mkzhan.com##a[href*="/adid/"]
 cangku.in,galacg.me##a[href*="/game"]
 ccav1.com##a[href*="/go"]
+cgown.com##a[href*="/go.php?"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 6park.com##a[href*="/ooo.php?"]
 6park.com##a[href*="/ppp.php?"]
@@ -11945,15 +11944,11 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
 /cpro.$popup,third-party
-/tps/noexpire/*
 /link?c=$image
+/tps/noexpire/*
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a.75111.com^
-||1.kuaidiwo.cn^
-||1.arpun.com^
-||fpb1.chinacar.asia^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -11968,6 +11963,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||1.1010pic.com^
 ||1.201980.com^
 ||1.51sxue.cn^
+||1.arpun.com^
 ||1.cjcp.cn^
 ||1.codesdq.com^
 ||1.feihua.com^
@@ -11976,6 +11972,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||1.i1766.com^
 ||1.iqeq.com.cn^
 ||1.jeasyui.net^
+||1.kuaidiwo.cn^
 ||1.mgff.com^
 ||1.panduoduo.net^
 ||1.qt86.com^
@@ -12028,6 +12025,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||999d.com^$third-party
 ||9wushuo.com^
 ||a.5ykj.com^
+||a.75111.com^
 ||a.80982.org^
 ||a.armystar.com^
 ||a.duanmeiwen.com^
@@ -12177,6 +12175,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||fmgoal.com^
 ||fotao9.com^
 ||fpb.51edu.com^
+||fpb1.chinacar.asia^
 ||fuz.cc^$third-party
 ||g1.taijuba.com^
 ||gd.jqgc.com^
@@ -12373,8 +12372,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||fcrdb.com^
-.m.yuyouge.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12392,6 +12389,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 .m.wenxue6.com^
 .m.x81zw.com^
 .m.xs222.com^
+.m.yuyouge.com^
 .m.zineworm.com^
 .m.zwdu.com^
 .wap.yb3.cc^
@@ -12431,6 +12429,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||duoyidd.com^
 ||dzisou.com^
 ||esyzdb.com^
+||fcrdb.com^
 ||feifish66.com^
 ||fqzds.com^
 ||gadwhy.com^
