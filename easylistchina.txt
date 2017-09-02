@@ -11940,6 +11940,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?=[0-9a-z]*[a-z][0-9]+[a-z])(?:[0-9a-z]{10}|[0-9a-z]{26})\.js$/$script,domain=~github.io
 /^https?:\/\/(?!www[0-9]?)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[a-z0-9]{3}\?[a-z0-9]{3}=[^=^&]{2,3}&[a-z]{3}(?:=[^=]+){10,18}$/$subdocument
 /cpro.$popup,third-party
+/tps/noexpire/*
 /link?c=$image
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
