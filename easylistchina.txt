@@ -2241,6 +2241,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
+|http:$popup,third-party,domain=btdb.to
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -2438,7 +2439,7 @@ fuli.*/wp-content/uploads/ad/
 mg*.6park.com/img/$image
 |blob:$domain=btdb.to
 |http:$script,domain=189so.cn
-|http:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
+|http:$script,third-party,xmlhttprequest,domain=btdb.to
 |http:$script,third-party,xmlhttprequest,domain=m.soduso.com
 |http:$subdocument,domain=pc6.com
 |http:$third-party,domain=icpmp.com
@@ -2446,7 +2447,7 @@ mg*.6park.com/img/$image
 |http://*/ad_bj.js?
 |http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com
-|https:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
+|https:$script,third-party,xmlhttprequest,domain=btdb.to
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
 ||000b.info/js/
