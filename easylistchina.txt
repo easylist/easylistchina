@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
-/1linbAte_mplatk/*
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -51,6 +50,7 @@
 .tv/js/ads/
 .us/js/ads/
 .xyz/js/ads/
+/1linbAte_mplatk/*
 /20160420_uho_bn.gif
 /2016v2/js/adm2.js
 /22tu/ads/*
@@ -2508,6 +2508,7 @@ mg*.6park.com/img/$image
 ||1010pic.com/scripts/hd/yueyue3.js
 ||1024down.com/images/*.gif
 ||103.225.198.230:8080/index.html
+||104.216.179.228/vip/
 ||107.182.131.103/cache/?q=/images/
 ||108.171.248.234^
 ||108tec.com/zbs/floatcnoil_
@@ -4314,6 +4315,7 @@ mg*.6park.com/img/$image
 ||ghjie.com/images/2012/images/bg
 ||ghjie.com/JS/youcegg.js
 ||ghoffice.com/bbs/js/float.js
+||glzy8.com/img/ceo/js.js
 ||gmbbk.cn/img/top.js
 ||gmbbk.cn/jj/
 ||gmbuluo.com/js/liebiao
@@ -5305,6 +5307,7 @@ mg*.6park.com/img/$image
 ||moratame.tw/img/contents/banner
 ||motelppp.com/Content/img/hd
 ||mp3.haogeba.com^$image,object
+||mp4ba.net/static/js/mp4ba.js
 ||mql5.com/data?
 ||msdn.hk/templets/msdn/css/index.js
 ||msdn.hk/templets/msdn/css/msdng.js
@@ -5567,6 +5570,8 @@ mg*.6park.com/img/$image
 ||poster.weather.com.cn^
 ||potplayer.org/sc/
 ||poxiao.com/template/default/images/12345.js
+||ppddxx.com/ad777.js
+||ppddxx.com/tonglan
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||ppsj.com.cn/images/usa_250_120.gif
@@ -6735,18 +6740,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||ppddxx.com/ad777.js
-||ppddxx.com/tonglan
-||mp4ba.net/static/js/mp4ba.js
-||104.216.179.228/vip/
-||glzy8.com/img/ceo/js.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-moxing.net##.ad
-moxing.net##.pic_txt_list
-moxing.net##A[marked][href*=".taobao.com"]
-lbldy.com##.ad-pc
-biketo.com##.portal_block_summary > A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8266,7 +8261,7 @@ zuimeia.com##.activity-poster:not([href*="zuimeia."])
 2345.com##.activity-skin-trig
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
 2345.com##.acts11-sidefixed
-001cw.com,0379home.com,10jqka.com.cn,17173.com,17kk.cc,2345.cn,234fang.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,72bbb.com,72g.com,8btc.com,acfun.tv,acg.bz,acgbenzi.com,aohua.com.au,baiduyunpan.net,baike.com,banyungong.org,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dav01.com,discuss.com.hk,djwma.com,do189.com,dzwww.com,eastday.com,eworldship.com,focus.cn,gminfo.cn,gongkong.com,hanhuazu.cc,hkgalden.com,house.jschina.com.cn,huizhi123.com,iciba.com,ifeng.com,ipeen.com.tw,itavcn.com,jrj.com.cn,junshi.cc,jzclass.com,kumi.cn,kunming.cn,lawtv.com.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,sd888.org,shanhe.cc,shenchuang.com,sogou.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yqxs.net,zhuhai.gd.cn,zjstv.com##.ad
+001cw.com,0379home.com,10jqka.com.cn,17173.com,17kk.cc,2345.cn,234fang.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,72bbb.com,72g.com,8btc.com,acfun.tv,acg.bz,acgbenzi.com,aohua.com.au,baiduyunpan.net,baike.com,banyungong.org,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaqking.com,chinatimes.com,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dav01.com,discuss.com.hk,djwma.com,do189.com,dzwww.com,eastday.com,eworldship.com,focus.cn,gminfo.cn,gongkong.com,hanhuazu.cc,hkgalden.com,house.jschina.com.cn,huizhi123.com,iciba.com,ifeng.com,ipeen.com.tw,itavcn.com,jrj.com.cn,junshi.cc,jzclass.com,kumi.cn,kunming.cn,lawtv.com.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,moxing.net,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,sd888.org,shanhe.cc,shenchuang.com,sogou.com,tiexue.net,tpy888.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yqxs.net,zhuhai.gd.cn,zjstv.com##.ad
 photofans.cn##.ad-1-index
 163.com##.ad-1200-125
 163.com##.ad-1200-60
@@ -8301,7 +8296,7 @@ pixiv.net##.ad-footer + .hover-item
 huizhi123.com##.ad-hongbao
 ifeng.com##.ad-list
 qq.com##.ad-long-pic
-dntk.org##.ad-pc
+dntk.org,lbldy.com##.ad-pc
 19lou.com##.ad-place-logo
 baidu.com##.ad-platform-tips
 baofeng.com##.ad-pop-wrap
@@ -9859,6 +9854,7 @@ dealmoon.com,weibo.com##.pic_ad
 ctrip.com##.pic_banner
 gmw.cn##.pic_list_bd750
 chinaiiss.com##.pic_text
+moxing.net##.pic_txt_list
 baidu.com##.picad
 bibiqi.com,ietv.cc##.pics1200
 17173.com##.picshow:not([href*=".17173"])
@@ -9888,6 +9884,7 @@ zhan.com##.pop_shousuo
 qiuziti.com##.popularize
 camerabay.tv##.popupad
 anzhuo365.com,pzzc.net##.portal_block_summary
+biketo.com##.portal_block_summary > a[href*=".taobao.com"]
 loorin.com##.portal_block_summary > a[href^="http"]:not([href^="http://www.loorin."])
 tgfcer.com##.portalbox
 jobbole.com##.post > .textwidget
@@ -10758,6 +10755,7 @@ anzhuotan.com,shufazidian.com##a[href^="https://weidian.com/"]
 howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
 finance.sina.com.cn##a[href^="https://www.tigerbrokers.com/"]
 iqiyi.com##a[id^="100000"]
+moxing.net##a[marked][href*=".taobao.com"]
 360zhibo.com##a[name="thegg"]
 frdic.com,godic.net##a[onclick*="/ads/"]
 tvapk.net##a[onclick*="thread_banner"]
@@ -12429,7 +12427,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||zjkdaikuan.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12573,6 +12570,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||yyhqch.com^
 ||zgfszs.com^
 ||zizcy.com^
+||zjkdaikuan.com^
 ||zpoder.com^
 ||zsxpx.com^
 ||ztxbd.com^
