@@ -3473,6 +3473,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com^*/QSURrcmRKV.js
 ||bdstatic.com^*/tam-ogel/
 ||beareyes.com.cn/2/cat/js/*_centerl
+||beareyes.com.cn/2/cat/js/*_right
 ||beareyes.com.cn^*/ad/
 ||beephone.com.tw/ad-middle.php
 ||beephone.com.tw/ad-yahoo.php
@@ -4239,6 +4240,7 @@ mg*.6park.com/img/$image
 ||g.cnzz.cn/Static/js/*-
 ||g.hsw.cn^
 ||g.jinti.com/f/a/a
+||g.lznews.cn^
 ||g.mnw.cn^
 ||g.ousns.net^
 ||g.rexian.net.cn/js/
@@ -4388,6 +4390,7 @@ mg*.6park.com/img/$image
 ||gueizu.com/wp/img/xiazai
 ||guess.h.qhimg.com^
 ||guitarchina.com/1/*.gif
+||guokr.com/apis/flowingboard/flowingboard.json?name=post_sidepic
 ||guokr.com/baidu-cbjs/
 ||guqu.net/Cooperate/
 ||gusuwang.com/api/gsw_
@@ -6740,16 +6743,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||guokr.com/apis/flowingboard/flowingboard.json?name=post_sidepic
-||beareyes.com.cn/2/cat/js/*_right
-||g.lznews.cn^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-jyacht.com###playergg
-jyacht.com##.adve_3
-jyacht.com##.adve_4
-jyacht.com##.hot_reoc_adve
-703804.com##.hotad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7769,6 +7764,7 @@ hao.360.cn###plane-ria
 160.com###playBox
 tingroom.com###play_ggr
 7k7k.com###player-ad
+jyacht.com###playergg
 yxingqiu.com###playertipian
 youku.com###playlistIkuAD
 mail.qq.com###plp_ad_container
@@ -8567,6 +8563,8 @@ le.com,letv.com##.adv_img
 kaifu.com##.adv_slide
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,ningmengzhibo.com##.advbox
 yinsha.com##.advcop01
+jyacht.com##.adve_3
+jyacht.com##.adve_4
 anjuke.com##.adver-content
 360che.com##.adver1000_60
 360che.com##.adver1000_65
@@ -9366,7 +9364,9 @@ cnqiang.com##.hotBox
 itheat.com##.hot_ad
 itavcn.com##.hot_dealerxin
 duba.com##.hot_push > .hot_movie
+jyacht.com##.hot_reoc_adve
 bkjia.com,zol.com.cn##.hot_tj
+703804.com##.hotad
 iyaxi.com##.hotarticlead
 sogou.com##.hotel-pic
 sogou.com##.hotel_tit
@@ -12004,7 +12004,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||ty1.263y.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12366,6 +12365,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||trebleperfect.com^$third-party
 ||tt123.eastday.com^
 ||tui98.cn^
+||ty1.263y.com^
 ||u1.shuaiku.com^
 ||uc2.atobo.com.cn^
 ||un1.takefoto.cn^
@@ -12436,7 +12436,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||fyjyhm.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12499,6 +12498,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||fcrdb.com^
 ||feifish66.com^
 ||fqzds.com^
+||fyjyhm.com^
 ||gadwhy.com^
 ||gdsqwy.org^
 ||gyeet.com^
