@@ -589,8 +589,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||hot-eam.com^
-||sp96878.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1417,6 +1415,7 @@ ubmcmm.baidustatic.com
 ||hnctsm.com^
 ||hntymg.com^
 ||hnyny.com^
+||hot-eam.com^
 ||houdaolj.com^
 ||housefun.com.tw^$third-party
 ||hr41.cn^
@@ -1876,6 +1875,7 @@ ubmcmm.baidustatic.com
 ||socdm.com^
 ||sos0easy.com^
 ||souacode.com^$third-party
+||sp96878.com^
 ||spcode.baidu.com^
 ||sphwq.net^$third-party
 ||sqext.com^
@@ -4413,6 +4413,8 @@ mg*.6park.com/img/$image
 ||gywb.cn/gggl/
 ||hackhome.com/hz/*down
 ||hackhome.com/js/*top.js
+||hackhome.com/js/bhref.js
+||hackhome.com/js/dright.js
 ||hackhome.com/js/zt.js
 ||haha.mx/images/market/
 ||haha.mx/upload/data/detail_
@@ -6050,6 +6052,7 @@ mg*.6park.com/img/$image
 ||steamcn.com/img/
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||stheadline.com/*banner$script
+||stheadline.com/images/heading-jm
 ||stheadline.com^*/right_promo.js
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/info/*0x
@@ -6750,13 +6753,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||hackhome.com/js/bhref.js
-||hackhome.com/js/dright.js
-||stheadline.com/images/heading-jm
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ziyouge.com###toadsend
-zhihu.com##DIV[data-za-detail-view-path-is_ad]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8009,6 +8007,7 @@ xxdm.com,xxdm.org###tiepianDIV
 wpsoso.com###tips
 dict.cn###tjcd
 ali213.net###tmp_ggao
+ziyouge.com###toadsend
 hexun.com###tonglan_1 + .layout
 10.0.0.211###toolbar
 2345.com###tools-gameTmp
@@ -10916,6 +10915,7 @@ cqmmgo.com##div[data-id*="_adv_"]
 m.cnbeta.com##div[data-role="content"] > div[style^="text-align:"]
 oschina.net##div[data-tracepid="question_detai_above"]
 zhihu.com##div[data-type="ad"]
+zhihu.com##div[data-za-detail-view-path-is_ad]
 weibo.com##div[feedtype="ad"]
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 mail.126.com,mail.163.com##div[id$="_BannerDiv"]
@@ -11481,7 +11481,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||zimuku.net/ads.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -11984,6 +11983,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
+@@||zimuku.net/ads.js
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 ! 99re.com
 .gif|$domain=99ff6.com|99ff7.com|99ff8.com|99kk7.com|99re.com
@@ -12023,7 +12023,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a.ut8d.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12118,6 +12117,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a.shenchuang.com^
 ||a.shuoshuodaquan.net^
 ||a.thn21.com^
+||a.ut8d.com^
 ||a.xinwenge.net^
 ||a.xixiyishu.com^
 ||a.yangshengtang123.com^
@@ -12458,8 +12458,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||requested.cn^
-||gznsyh.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12529,6 +12527,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||gyeet.com^
 ||gyrtg.com^
 ||gzmzts.com^
+||gznsyh.com^
 ||hbyyzm.com^
 ||hk9600.com^
 ||hmttoly.com^
@@ -12572,6 +12571,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||qzdag.com^
 ||rbywg.com^
 ||represented.cn^
+||requested.cn^
 ||sdkdm.com^
 ||shumilou.co/style/html5.js
 ||smxay.com^
