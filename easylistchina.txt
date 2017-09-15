@@ -12,8 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
-/vlive.qqvideo.tc.qq.com/*
-/template/jiejiesao/aaaa/*
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -270,6 +268,7 @@
 /taobaoad.html
 /template/gg.js
 /template/html5/ads/*
+/template/jiejiesao/aaaa/*
 /template/paody/aaaa/all-top.js
 /templates/*/js/_banner.js
 /tigtag_custom/*_banner
@@ -282,6 +281,7 @@
 /u/_sponsor/*
 /View/img/b72890.jpg
 /vipgg/js/*
+/vlive.qqvideo.tc.qq.com/*
 /W3Cfuns_Adv/*
 /wap_advpic/*
 /web8/ad/*
@@ -450,6 +450,8 @@ _xiuno_com_ad/
 ##.a_pb
 ##.a_pr
 ~88liu.com,~briian.com,~xkcpw.cn##.a_pt
+##.a_sxc
+##.a_xsfl
 ##.ad-above-footer
 ##.ad-below-adjacent-post
 ##.ad-below-header-menu
@@ -511,6 +513,7 @@ _xiuno_com_ad/
 ##.google_adsense2
 ##.gpt_ads_box
 ##.hao123-unionad-pic
+##.heg > .div-list
 ##.his-sign-cont[data-dysign-adid]
 ##.index_alert_gg
 ##.indexad2
@@ -589,9 +592,6 @@ _xiuno_com_ad/
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.a_sxc
-##.a_xsfl
-##.heg > .div-list
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
 .cn/show?id=$script,third-party
@@ -2261,7 +2261,6 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
-|http:$popup,third-party,domain=76pan.com
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -2274,7 +2273,7 @@ ubmcmm.baidustatic.com
 /pushstart.html?$popup,third-party
 /tanchuan.htm$popup,third-party
 :701/gd_xueersi/$popup
-|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|76fengyun.com|77file.com|88files.net|99files.net|avsdown.com|btdb.to|downdvs.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
+|http:$popup,third-party,domain=520cc.me|520ccc.cc|5278.cc|5278bbs.com|67.212.233.37|76fengyun.com|76pan.com|77file.com|88files.net|99files.net|avsdown.com|btdb.to|downdvs.com|downhhh.com|imedown.info|jandown.com|javjunkies.com|jxedt.com|mimima.com|motelppp.com|qqxbt.com|rmdown.com|sju.wang|wwp5.com|xunfs.com
 |http://*/?$popup,domain=linkbucks.com|zytpirwai.net
 |https:$popup,third-party,domain=jandown.com
 ||133gp.com^$popup
@@ -2967,6 +2966,7 @@ mg*.6park.com/img/$image
 ||64.120.16.146/hsk_update/upload/*.gif
 ||64bobo.com/ckplay/js.jpg
 ||654mmm.com^
+||65yw.com/i.html
 ||66.fmx.cn/js/
 ||6620070.com/js/
 ||66384.com/templets/js/stats.js
@@ -4035,6 +4035,7 @@ mg*.6park.com/img/$image
 ||dragon-guide.net/pic001/hezuo/
 ||dragon-guide.net/pic001/pic/shangcheng/
 ||drupalchina.cn/sites/default/files/banner/
+||dsp.ali213.net^
 ||dsqnw.com/ac/
 ||dt123.net/fj/attachment/portal/201410/15/174736bs1sqrroxhsoz33q.jpg
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com|sexcar.cn
@@ -6765,12 +6766,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||65yw.com/i.html
-||dsp.ali213.net^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zimuku.net##DIV[style^="width:8"]
-gpsuu.com###main > .textMes
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7204,7 +7201,6 @@ gohubei.com###comiis_pd_kuxw01
 chcj.net###comiis_sfcs00
 jrj.com.cn###comment > a:first-child
 fuli.us,tianshit.com###comment-ad
-ithome.com##.indexV2 > div > a
 ithome.com###con > div[style="text-align:center"]
 apk.tw###confirmOverla
 gate.baidu.com,m.baidu.com###container
@@ -7666,7 +7662,7 @@ rising.cn###lowerrightAd
 my0511.com###lphybbschklogdiv
 playno1.com###m12
 chacuo.net###mailtooltipss
-g-years.com,ghoffice.com,mgbbs.cn,mydigit.cn,ntpcb.com###main > .textMes
+g-years.com,ghoffice.com,gpsuu.com,mgbbs.cn,mydigit.cn,ntpcb.com###main > .textMes
 e0575.cn###main > div:first-child
 qiannao.com###main > div[style="padding-left:20px;margin-top:10px;"]:first-child
 ksbbs.com###main > div[style^="height:65px"]
@@ -9466,6 +9462,7 @@ zahuishi.com##.index950x90
 zahuishi.com##.index960x90
 ydss.cn##.indexAd
 cwan.com##.indexTip
+ithome.com##.indexV2 > div > a
 hqdoor.com##.index_ad2
 mitbbs.ca,mitbbs.com##.index_add
 76xh.com,pengfu.com##.index_advertising
@@ -11200,6 +11197,7 @@ house365.com##div[style^="width:1200px;height:"]
 pc0359.cn##div[style^="width:301px;height:250px;"]
 avonline.org##div[style^="width:613px; height:"]
 jpwind.com##div[style^="width:730px; height:90px;"]
+zimuku.net##div[style^="width:8"]
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 9724.com##div[style^="width:9"][style*="height:82px;"]
 hbrc.com##div[style^="width:960px; height:90px; "]
