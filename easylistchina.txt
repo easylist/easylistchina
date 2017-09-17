@@ -2472,6 +2472,7 @@ mg*.6park.com/img/$image
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
 ||000b.info/js/
+||005.tv/templets/muban/js/jquery-1.8.3.js
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||020.com/960-
@@ -3853,6 +3854,7 @@ mg*.6park.com/img/$image
 ||coolpc.com.tw/img/topweb.html
 ||cp.eastmoney.com/wap/*.js
 ||cp.ifeng.com/iframe/getiframe
+||cp121.com/js2/
 ||cp1268.com/img/ad
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpd.com.cn/template/*.swf
@@ -3962,6 +3964,7 @@ mg*.6park.com/img/$image
 ||discuss.com.hk/yna*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||divcss5.com*/ibeifeng/
+||divcss5.com*/liping/
 ||diyijs.duapp.com^
 ||dj97.com/js/list_right_
 ||djccc.com/js/a*.js
@@ -4391,6 +4394,7 @@ mg*.6park.com/img/$image
 ||gtimg.com/newsapp_ls/0/27161189/0
 ||gtimg.com/pingjs/ext2020/dc/module/GJ/
 ||gtimg.com/qqlive/
+||gtimg.com/sports/000/
 ||gtimg.com/sports/000_AD/
 ||gtimg.com/sports/images/30090.jpg
 ||gtimg.com/sports/qingyang/
@@ -5342,6 +5346,7 @@ mg*.6park.com/img/$image
 ||msdn.hk/templets/msdn/js/gg.js
 ||mshow.fang.com/s?z=
 ||msn.com/homep_ad
+||mt30.com/good/
 ||mt30.com/ok/
 ||mtime.cn/tg/
 ||muimg.com^$domain=lsjsoso.me
@@ -6621,6 +6626,7 @@ mg*.6park.com/img/$image
 ||youxiaxiazai.com/dm/
 ||ysxs8.com/ysgg/
 ||ytbbs.com/images/index/
+||yuanlai521.com/tu/690-90.gif
 ||yubei8.com/bar3.js
 ||yubei8.com/boximg/
 ||yubei8.com/img/
@@ -6771,12 +6777,6 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||005.tv/templets/muban/js/jquery-1.8.3.js
-||divcss5.com*/liping/
-||mt30.com/good/
-||yuanlai521.com/tu/690-90.gif
-||gtimg.com/sports/000/
-||cp121.com/js2/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -11489,6 +11489,7 @@ loveshares.cc#@#.banner-site
 ishangman.com#@#.bottom_ad
 zdfans.com#@#.custom-ad
 douban.com#@#.download-ad
+petrochina.com.cn#@#.ggbox
 btbt.tv#@#.google-ad
 mo.babytoyhome.com#@#.google-ads
 apk.tw#@#.google_ad
@@ -11516,11 +11517,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-petrochina.com.cn#@#.ggbox
 !---------------------------------URL Whitelist-------------------------------!
-@@||petrochina.com.cn/advertisement_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||pubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvbs.com.tw
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -11880,6 +11878,7 @@ petrochina.com.cn#@#.ggbox
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk/player-$generichide
 @@||passiontimes.hk^*-ad.php?
+@@||petrochina.com.cn/advertisement_
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
 @@||pos.baidu.com^$domain=xoyo.com
@@ -11899,6 +11898,7 @@ petrochina.com.cn#@#.ggbox
 @@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@||poster.weather.com.cn/p_files/base/$image
 @@||pub.alimama.com/common/adzone/
+@@||pubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvbs.com.tw
 @@||pubimg-weichouji.sina.com/img/ad/
 @@||qbao.com/hp/pc/*Ad.$~third-party
 @@||qidian.com/ploy/20*.swf
@@ -12065,9 +12065,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||g.pgu.cc^
-||h1.kukuw.com^
-||chuangyixi.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12242,6 +12239,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||chicken18.com^
 ||chinacsky.com^
 ||chnci.com^$third-party
+||chuangyixi.com^
 ||cm.baidu.com^
 ||cod.southmoney.com^
 ||cp.greenxf.cn^
@@ -12303,6 +12301,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||fpb.51edu.com^
 ||fpb1.chinacar.asia^
 ||fuz.cc^$third-party
+||g.pgu.cc^
 ||g1.taijuba.com^
 ||gd.jqgc.com^
 ||gewuwen.com^
@@ -12318,6 +12317,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||gushifanyi.com^$third-party
 ||gzlykj.cn^
 ||gzpinda.com^$third-party
+||h1.kukuw.com^
 ||h1.tvhome.com^
 ||hao.315hyw.com^
 ||hapic1.jhkxwl.com^
@@ -12504,7 +12504,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||zywhjd.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12660,6 +12659,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zwkssb.com^
 ||zxhymh.com^
 ||zxjjzx.com^
+||zywhjd.com^
 ! Sex8.cc
 ###j-new-ad
 ##.a_sxfl
