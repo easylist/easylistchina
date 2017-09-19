@@ -462,6 +462,7 @@ _xiuno_com_ad/
 ##.ad-left-top
 ##.ad-right-down
 ##.ad-right-top
+##.ad-site
 ##.ad250left
 ##.ad250right
 ##.ad300left
@@ -593,7 +594,6 @@ _xiuno_com_ad/
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.ad-site
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
 .cn/show?id=$script,third-party
@@ -3923,6 +3923,7 @@ mg*.6park.com/img/$image
 ||db28.cn/cache/ads.js
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
+||dbw.cn/eap/js/ss/
 ||dbw365.com/skin/yblog/js/thea
 ||dcfever.com/campaigns/
 ||ddd.yuyouge.com^
@@ -4683,6 +4684,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com/a/201*.swf
 ||ifengimg.com/a/201*600.
 ||ifengimg.com/a/o.js
+||ifengimg.com/iamsImg/*_w100_h550.
 ||ifengimg.com/ifeng/sources/
 ||ifengimg.com/iis/iis_
 ||ifengimg.com/m/ax.js
@@ -4917,6 +4919,7 @@ mg*.6park.com/img/$image
 ||jb51.net/imgby/logo_
 ||jb51.net/js/beitou.js
 ||jb51.net/js/ggtop.js
+||jb51.net/jslib/jquery/
 ||jb51.net/skin/downsoft/js/*down.js
 ||jb51.net/skin/office/js/botad.js
 ||jb51.net/templets/2016js/
@@ -5495,6 +5498,7 @@ mg*.6park.com/img/$image
 ||p4p.sina.com.cn^
 ||p8u.hinet.net^
 ||paigu.com/assets/js/paigu.js
+||pan66.com/popup/
 ||panc.cc/ad/
 ||panda.kdnet.net^
 ||panda.tv/cmstatic/panda-plouto-config.js
@@ -6403,6 +6407,7 @@ mg*.6park.com/img/$image
 ||windows.net/script/p.js
 ||windows7en.com/160805/31-160P5004509403.gif
 ||windows7en.com/images/
+||windows7en.com/statistics/stats.js
 ||windows7en.com/templets/default/images/logo/xtzj.gif
 ||winvvv.com^$subdocument
 ||wishdown.com/images/*.gif
@@ -6778,14 +6783,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||jb51.net/jslib/jquery/
-||windows7en.com/statistics/stats.js
-||pan66.com/popup/
-||dbw.cn/eap/js/ss/
-||ifengimg.com/iamsImg/*_w100_h550.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dbw.cn##DIV[style=" width:630px; height:160px; overflow:hidden; border:#CCC 1px solid;"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11097,6 +11096,7 @@ hb.qq.com##div[style*="width:960px; height:90px;"]
 9ku.com##div[style*="width:960px; margin:12px"]
 gamersky.com##div[style*="width:970px;height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
+dbw.cn##div[style=" width:630px; height:160px; overflow:hidden; border:#CCC 1px solid;"]
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
 kafan.cn##div[style="FLOAT: left;width: 356px;HEIGHT: 290px;"]
 aohua.com.au##div[style="WIDTH: 960px; HEIGHT: 60px"]
@@ -12070,7 +12070,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||as1.wenku.baidu.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12194,6 +12193,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||aili.com^$third-party
 ||aiwen.cc^
 ||ap*.pl520.com^
+||as1.wenku.baidu.com^
 ||b.cyone.com.cn^
 ||b1.51scw.net^
 ||b1.91jucai.com^
