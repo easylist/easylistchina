@@ -596,8 +596,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||fzglqyy.com^
-||dilcn.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1219,6 +1217,7 @@ ubmcmm.baidustatic.com
 ||dian5000.com^$third-party
 ||dianxin.com^$third-party
 ||diaojiaoji168.com^
+||dilcn.net^
 ||dingge.cc^$third-party
 ||dingon.com.cn^
 ||displink.com^$third-party
@@ -1332,6 +1331,7 @@ ubmcmm.baidustatic.com
 ||fxxgw.com^$third-party
 ||fydgold132.com^
 ||fytza.cn^
+||fzglqyy.com^
 ||g1c5.com^
 ||g1f5.com^
 ||g35.cc^$third-party
@@ -2854,6 +2854,7 @@ mg*.6park.com/img/$image
 ||4hu8.com/js/jquery.js
 ||4hw.com.cn/4hw
 ||4kong.com/xk.jpg
+||4xiaoshuo.com/js/book.js
 ||500xxxx.com/go.js
 ||5011.net/template/images/*0.gif
 ||5068.com/*gg
@@ -3682,6 +3683,7 @@ mg*.6park.com/img/$image
 ||cctv.com/Library/a2.js
 ||cctv5.name/data/js/
 ||cctv5.name/js/*foot.js
+||cctv567.com/b/
 ||cctvpic.com/photoAlbum/page/performance/img/2013/11/20/1384944092228_124.jpg
 ||cdeledu.com/ADVC/
 ||cdn.dfile.cn/slot/
@@ -5580,6 +5582,7 @@ mg*.6park.com/img/$image
 ||picuphost.com^$domain=mmload.info
 ||picyq.com/index.php/Home/run/get_ad/
 ||pifa.fobshanghai.com/link/
+||pigol.cn/myinc/
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com/562723/92bbcd8f9e965644.jpg
 ||piimg.com/588755/38850da69a92f2bb.jpg
@@ -6784,18 +6787,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||4xiaoshuo.com/js/book.js
-||pigol.cn/myinc/
-||cctv567.com/b/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-maiche.com##A.some-img
-awaker.cn###jiji + DIV[style="padding: 20px"]
-m.thepaper.cn##SCRIPT[src="http://ad.thepaper.cn/s?z=paper&c=26"] + .t_news + .t_news
-xkcpw.cn##.a_pt > PR > A
-xkcpw.cn##.a_pt > PR > DIV > A
-xkcpw.cn##.a_pt > PR > DIV > DIV > A
-xkcpw.cn##.a_pt > PR > DIV > DIV > DIV > A
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7619,6 +7612,7 @@ tieba.baidu.com###j_light_see_index
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_ten_years
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_worldcup_info_banner
 freehao123.com###jieweigg
+awaker.cn###jiji + div[style="padding: 20px"]
 iqiyi.com###jingdongArea
 cnbeta.com###job_box
 aiyuke.com###js-ad-type4
@@ -8293,6 +8287,10 @@ chacuo.net##.a96090
 2345.com##.aPlayBtn[href^="http://g.wan."]
 0772fang.com##.a_banner
 tropica.cn##.a_mu1
+xkcpw.cn##.a_pt > pr > a
+xkcpw.cn##.a_pt > pr > div > a
+xkcpw.cn##.a_pt > pr > div > div > a
+xkcpw.cn##.a_pt > pr > div > div > div > a
 91txh.com##.a_ssk_cn
 91txh.com##.a_ssk_pt
 muchong.com##.a_subject[href^="creditshow."]
@@ -10665,6 +10663,7 @@ bilibilijj.com##[style="height:100%;"]
 acgnx.se##a > img[src^="/images/"]
 bilibilijj.com##a > img[style*="data"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
+maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
@@ -11297,6 +11296,7 @@ lolshipin.com##script + .box:nth-child(2)
 acg18.us##script + a
 qqlubo.net##script + br ~ a
 csj.xinhuanet.com##script + center > a > img
+m.thepaper.cn##script[src="http://ad.thepaper.cn/s?z=paper&c=26"] + .t_news + .t_news
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 bbs.my0511.com##span.smalltxt
 163.com##span[class^="gg"]
@@ -11533,7 +11533,6 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||pigol.cn/myinc/js/wap.js
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
@@ -11897,6 +11896,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||petrochina.com.cn/advertisement_
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
+@@||pigol.cn/myinc/js/wap.js
 @@||pos.baidu.com^$domain=xoyo.com
 @@||pos.baidu.com^*=965703&$domain=pctowap.com
 @@||pos.baidu.com^*=965707&$domain=pctowap.com
@@ -12521,7 +12521,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||beifmu.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12558,6 +12557,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||apmengxin.com^
 ||awyys.com^
 ||axkxy.com^
+||beifmu.com^
 ||book9.net^$third-party
 ||bueson.com^
 ||calculated.cn^
