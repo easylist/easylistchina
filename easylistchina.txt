@@ -596,7 +596,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||xiongyin.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2122,6 +2121,7 @@ ubmcmm.baidustatic.com
 ||xiliweisha.cn^
 ||xinasiaj.com^
 ||xingjuhe.com^
+||xiongyin.com^
 ||xitao3.com^$third-party
 ||xixianad.com^$third-party
 ||xjidian.com^
@@ -4150,6 +4150,7 @@ mg*.6park.com/img/$image
 ||epinv.com/wp-content/themes/ep/js/single.js
 ||epinv.com/wp-content/themes/ep/tu/*250.js
 ||epinv.com/wp-content/themes/ep/tu/*300.js
+||epinv.com/wp-content/themes/ep/tu/epzz.js
 ||epinv.com/wp-content/themes/ep/tu/yinshu.gif
 ||eprice.com.tw/img/dis/file/
 ||eprice.com.tw/img/tw_m/ad/
@@ -6788,15 +6789,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||epinv.com/wp-content/themes/ep/tu/epzz.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-epinv.com##.huadong > A
-yam.com##.axdBox
-epinv.com##.gave
-epinv.com##.epinv_b
-timedg.com###bigAdv
-pc0359.cn##.yinsu_yd
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7141,6 +7135,7 @@ gamersky.com###bgAdWrapClose
 kyofun.com###bg_ad_left
 kyofun.com###bg_ad_right
 eol.cn###big-ad-img
+timedg.com###bigAdv
 xxsy.net###bigbanner_1
 gdzjdaily.com.cn###bigblockAd
 bitauto.com###bitAd_background
@@ -8708,6 +8703,7 @@ chexun.com##.attr-outside-ad
 u17.com##.auto_ad
 liba.com##.avdert1190
 qiqu888.com##.ax-arc610161
+yam.com##.axdBox
 qiqu888.com##.axing_add_ad
 read01.com##.axslot
 pinshan.com##.b_adv
@@ -9138,6 +9134,8 @@ hexieba.com##.entry-common > div:not([id]):not([class])
 fuliba.net,fulibba.com,uliba.net##.entry-content > div[style^="float:right"]
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-header + p + p[style="text-align: center;"]
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-title > p
+epinv.com##.epgg ~ .huadong
+epinv.com##.epinv_b
 epinv.com##.epinv_f
 shulink.com##.er_g
 e0575.com##.etxt_1
@@ -9255,6 +9253,7 @@ sina.com.cn##.gamead1
 qidian.com##.games-op-wrap
 cpbl.com.tw##.gap_t10
 haosou.com,so.com##.garllery_ad
+epinv.com##.gave
 115.com##.gb-advs
 qzone.qq.com##.gb-bill-area
 17173.com##.gb-zqfix-box
@@ -9439,7 +9438,7 @@ hupu.com##.hp-header-banner
 tw.mall.yahoo.com##.hpad-wrapper
 0743ds.com##.hq-ad
 chinasmartgrid.com.cn##.ht60ad
-epinv.com##.epgg ~ .huadong
+epinv.com##.huadong > a
 9000wy.com##.huazhonghua
 skinme.cc##.huodong
 iqiyi.com##.hwLink
@@ -10609,6 +10608,7 @@ acg18.us##.yamiadie
 acg18.us##.yamiadie-below
 1kkk.com,dm5.com##.yddiv
 ydt.com.cn##.yfb_article_footer
+pc0359.cn##.yinsu_yd
 techweb.com.cn##.yipin
 ifeng.com##.yiyuan
 fx168.com##.yjl_fx168_head_navAd
@@ -11498,7 +11498,7 @@ ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
 zhaopin.com#@#.adsBox
 long7.qq.com#@#.adsbox
-123564.com,apk.tw,fxpan.com,mfgun.com,moa.tw#@#.adsbygoogle
+123564.com,apk.tw,epinv.com,fxpan.com,mfgun.com,moa.tw#@#.adsbygoogle
 qq.com#@#.adside
 youqu.net#@#.adtop
 4008927927.cn#@#.adv-box
@@ -11540,10 +11540,8 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-epinv.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||epinv.com/dl/$genericblock
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -11800,6 +11798,7 @@ epinv.com#@#.adsbygoogle
 @@||edu.cn/epstar/*/gg/
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||emome.net/files/advertising/
+@@||epinv.com/dl/$genericblock
 @@||feng.com/images/%*logo.png
 @@||feng.com/images/560a0b6b83143.png
 @@||feng.com/images/580de2ab8d68e.png
@@ -12084,9 +12083,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a.epinv.com^
-||d520m.xuexila.com^
-||bd3.chuiyue.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12168,6 +12164,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a.80982.org^
 ||a.armystar.com^
 ||a.duanmeiwen.com^
+||a.epinv.com^
 ||a.exam58.com^
 ||a.fengyx.com^
 ||a.fwsir.com^
@@ -12233,6 +12230,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||bd1.szhk.com^
 ||bd1.wowoqq.com^
 ||bd1.xiangha.com^
+||bd3.chuiyue.com^
 ||bdad.gaotie.net^
 ||bdad.hao224.com^
 ||bdcode.gaosan.com^
@@ -12272,6 +12270,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||d.tonghua5.com^
 ||d.xaoyo.com^
 ||d.xinshipu.com^
+||d520m.xuexila.com^
 ||d6.mobaders.com^
 ||daima.23yy.com^
 ||daima.chazidian.com^
@@ -12527,7 +12526,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||zgbsny.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12675,6 +12673,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||yunanfuwuqi.com^
 ||yxhxs.com^
 ||yyhqch.com^
+||zgbsny.com^
 ||zgfszs.com^
 ||zizcy.com^
 ||zjkdaikuan.com^
