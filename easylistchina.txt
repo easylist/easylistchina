@@ -6790,6 +6790,7 @@ mg*.6park.com/img/$image
 ||epinv.com/wp-content/themes/ep/tu/epzz.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+epinv.com##.gave
 epinv.com##.epinv_b
 timedg.com###bigAdv
 pc0359.cn##.yinsu_yd
@@ -9435,7 +9436,7 @@ hupu.com##.hp-header-banner
 tw.mall.yahoo.com##.hpad-wrapper
 0743ds.com##.hq-ad
 chinasmartgrid.com.cn##.ht60ad
-epinv.com##.huadong
+epinv.com##.epgg ~ .huadong
 9000wy.com##.huazhonghua
 skinme.cc##.huodong
 iqiyi.com##.hwLink
@@ -11536,8 +11537,10 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
+epinv.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||epinv.com/dl/$genericblock
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
