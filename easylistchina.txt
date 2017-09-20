@@ -6787,8 +6787,10 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
+||epinv.com/wp-content/themes/ep/tu/epzz.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+epinv.com##.epinv_b
 timedg.com###bigAdv
 pc0359.cn##.yinsu_yd
 hc360.com,yaolan.com###AD
@@ -11733,7 +11735,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||buyad.bi-xenon.cn^
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||cb.baidu.com^$object-subrequest,domain=baomihua.com|v.baidu.com
-@@||cbjs.baidu.com/js/m.js$domain=epinv.com|fxpan.com|pctowap.com|pic.tiexue.net
+@@||cbjs.baidu.com/js/m.js$domain=fxpan.com|pctowap.com|pic.tiexue.net
 @@||cbjs.baidu.com/js/o.js$domain=g3000.com.cn|jkpan.cc|missioncouver.com.cn
 @@||cbjs.baidu.com^$domain=excelhome.net
 @@||ccb.com^*^ad
@@ -11756,7 +11758,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/*AD
 @@||countrygarden.com.cn/ad/
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net|epinv.com|pctowap.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net|pctowap.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||csbew.com/a.htm?pv=1&sp=121743,$domain=mfgun.com
 @@||csbew.com/a.htm?pv=1&sp=121857,$domain=mfgun.com
@@ -11776,7 +11778,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||dolc.de/source/plugin/unadblock/
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$generichide,script,xmlhttprequest
-@@||dup.baidustatic.com/js/ds.js$domain=epinv.com
 @@||dushiwenxue.com/add/article/pagetop.js
 @@||dvbcn.com/caches/poster_js/23.js
 @@||dzwww.com/ad/jsfiles/fillCon.js
@@ -11890,7 +11891,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/$script,domain=download.mokeedev.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=gamer.com.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|mfgun.com|monnsutogatya.com|pc3mag.com
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=epinv.com|gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com|weithenn.org
+@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=gamer.com.tw|knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com|weithenn.org
 @@||papalah.com/ads.js
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
 @@||passiontimes.hk/player-$generichide
@@ -11902,16 +11903,10 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||pos.baidu.com^$domain=xoyo.com
 @@||pos.baidu.com^*=965703&$domain=pctowap.com
 @@||pos.baidu.com^*=965707&$domain=pctowap.com
-@@||pos.baidu.com^*=u1331029&$domain=epinv.com
-@@||pos.baidu.com^*=u2354095&$domain=epinv.com
 @@||pos.baidu.com^*?di=$domain=excelhome.net
 @@||pos.baidu.com^*?di=1147177&$domain=fxpan.com
 @@||pos.baidu.com^*?di=1147178&$domain=fxpan.com
 @@||pos.baidu.com^*?di=1167512&$domain=jkpan.cc
-@@||pos.baidu.com^*?di=144778&$domain=epinv.com
-@@||pos.baidu.com^*?di=164580&$domain=epinv.com
-@@||pos.baidu.com^*?di=739405&$domain=epinv.com
-@@||pos.baidu.com^*?di=90417&$domain=epinv.com
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@||poster.weather.com.cn/p_files/base/$image
@@ -12083,6 +12078,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
+||a.epinv.com^
 ||d520m.xuexila.com^
 ||bd3.chuiyue.com^
 ###cpro_container
