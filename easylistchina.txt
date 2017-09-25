@@ -3425,6 +3425,7 @@ mg*.6park.com/img/$image
 ||baidu.com/WerbungAjax/getBeitou?
 ||baidu.com/WerbungAjax/getTonglan?
 ||baidu.com/xda?
+||baidu.com/xpage/interface/get
 ||baidu.com/xpage/interface/getthirdad?
 ||baidu.com/xpage/interface/searchad?
 ||baidu.com^$domain=pos.baidu.com
@@ -4573,6 +4574,7 @@ mg*.6park.com/img/$image
 ||hkheadline.com/*promo/
 ||hkheadline.com^*/right_promo.js
 ||hktvmall.com/api/preroll/getList?
+||hmog.me/tb
 ||hn-pc.com/css/Fun_Div.js
 ||hongdou.gxnews.com.cn/upload/index/$~object-subrequest
 ||honglingjin.co.uk/wp-content/uploads/2014/06/87.jpg
@@ -6805,14 +6807,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||hmog.me/tb
-||baidu.com/xpage/interface/get
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-5378cc.com###diy1
-hmog.me##.side_widget:last-child
-hmog.me##A[href*=".taobao.com"]
-hmog.me##A[href^="http://www.masadora.net/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7351,7 +7347,7 @@ ck101.com,pchome.com.tw###div_superbar_swf
 123du.cc,bokon.net###divtop2
 360doc.com###divunderZcommondAd
 360doc.com###divyoulikead
-0562.cc,528500.com,52jscn.com,5imx.com,99nets.me,aayx.net,baihei.cc,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,qinzhou8.com,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
+0562.cc,528500.com,52jscn.com,5378cc.com,5imx.com,99nets.me,aayx.net,baihei.cc,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,qinzhou8.com,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
 17jita.com###diy1 + .bm
 d7w.net###diy10
 cbber.com###diy2
@@ -10196,6 +10192,7 @@ shuowan.com##.side_flash
 duba.com##.side_game
 duba.com##.side_other > .img
 duba.com##.side_taobao
+hmog.me##.side_widget:last-child
 qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
@@ -10740,7 +10737,7 @@ iqiyi.com##a[href*=".oppo."]
 ifeng.com##a[href*=".sm.cn"]
 chdbits.co,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cgown.com,cn163.net,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.red,hacg.wiki,hexieshe.com,hexieshe.xyz,hggard.com,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,nxing.cn,toutiao.com,tucao.tv,xxshe.info,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,aijava.cn,bz1080p.com,cangku.in,ccav1.com,cgown.com,cn163.net,cosersuki.org,d5yuansu.com,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.fi,hacg.red,hacg.wiki,hexieshe.com,hexieshe.xyz,hggard.com,hmog.me,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,nxing.cn,toutiao.com,tucao.tv,xxshe.info,youku.com,zalra.cn##a[href*=".taobao.com"]
 gmgard.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn,youku.com##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
@@ -10850,6 +10847,7 @@ acg12.com,acg18.us##a[href^="http://www.diyidan."]
 win007.com##a[href^="http://www.edewin.com/"]
 zhaopin.com##a[href^="http://www.ef.com.cn/"]
 dyhjw.com##a[href^="http://www.hjtd88.com/"]
+hmog.me##a[href^="http://www.masadora.net/"]
 6park.com##a[href^="http://www.vava8.com"]
 dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 muchong.com##a[href^="http://www.zhuanyejun.com/"]
