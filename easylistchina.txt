@@ -1163,7 +1163,6 @@ ubmcmm.baidustatic.com
 ||cpcv.cc^
 ||cpm360.com^$third-party
 ||cpms.cc^
-||eduad.baidu.com^
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
 ||cpv6.com^
@@ -1276,6 +1275,7 @@ ubmcmm.baidustatic.com
 ||easou.com^$third-party
 ||ecuc123.net^
 ||edncui.net^
+||eduad.baidu.com^
 ||eduzzjy.com^
 ||ee4kdushuba.com^$third-party
 ||eeee500.com^
@@ -3499,6 +3499,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com/tb/r/image/2014-12-03/87ae5de2d732714bb6dd4ff6ab1e50ac.jpg
 ||bdstatic.com/tb/r/image/2014-12-30/fa718abe3e4418298f785734279a2e8f.jpg
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
+||bdstatic.com^*/js/m.js
 ||bdstatic.com^*/mip-*ad
 ||bdstatic.com^*/plugins/every_cookie_
 ||bdstatic.com^*/QSURrcmRKV.js
@@ -6512,6 +6513,7 @@ mg*.6park.com/img/$image
 ||xiepp.com/JS/topshow.js
 ||xiexingcun.com/tyong.js
 ||xigua110.com/a/
+||xihabang.com/banner/
 ||xilinjie.com/partner/
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
@@ -6778,6 +6780,8 @@ mg*.6park.com/img/$image
 ||zmtiantang.com/static/m.js
 ||znz888.cn/modblock/
 ||zo66.com^
+||zol.com.cn/active/*guomei/script.js
+||zol.com.cn/active/*tmallmbp/script.js
 ||zol.com.cn/adrs/
 ||zolsky.com^*ad/*.js
 ||zongheng.com/ajax/recommend.game.
@@ -6802,6 +6806,7 @@ mg*.6park.com/img/$image
 ||zt220.com/zzs/
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||zuiacg.com/images/client/
+||zuidaima.com/images/1/201606/20160616135714978.gif
 ||zuishulou.com/assets/scripts/m.js
 ||zuoche.com/promo/*.jspx
 ||zww.me^*?action=Ajax_
@@ -6820,16 +6825,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||zol.com.cn/active/*guomei/script.js
-||zol.com.cn/active/*tmallmbp/script.js
-||xihabang.com/banner/
-||zuidaima.com/images/1/201606/20160616135714978.gif
-||bdstatic.com^*/js/m.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cnblogs.com##.h_ads
-cnblogs.com##.my_money
-ylfx.com##.info_logrt
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9416,6 +9413,7 @@ www.eastmoney.com##.h60
 mumayi.com##.h80
 jjwxc.net##.h8px + div[align="center"]
 www.eastmoney.com##.h90
+cnblogs.com##.h_ads
 kekenet.com##.h_news_c
 bkill.com##.half-ads
 cam4.tw##.hbanner
@@ -9569,6 +9567,7 @@ ijia360.com##.indexad_1
 chinairn.com##.industry
 itjsb.com##.info_ad
 wasu.cn##.info_ads
+ylfx.com##.info_logrt
 wangyeba.com##.innner950
 131458.com##.inq_01
 131458.com##.inq_02_C_z
@@ -9848,6 +9847,7 @@ techug.com##.mug
 pixiv.net##.multi-ads-area
 07073.com##.multi_adv
 cngold.com.cn##.myGuangGao
+cnblogs.com##.my_money
 cosxcos.com##.mya
 myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
@@ -12143,7 +12143,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a1.aluntan.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12246,6 +12245,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a.yixie8.com^
 ||a.yuzhainan.com^
 ||a1.0s.net.cn^
+||a1.aluntan.com^
 ||a1.azg168.cn^
 ||a1.gexing.me^
 ||a1.huanqiumil.com^
