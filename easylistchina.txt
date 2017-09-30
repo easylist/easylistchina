@@ -596,9 +596,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||bjtrld.com^
-||lygshgj.com^
-||5535aibo.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -853,6 +850,7 @@ ubmcmm.baidustatic.com
 ||52kmk.com^
 ||52lover.info^$third-party
 ||5399.com^$third-party
+||5535aibo.com^
 ||565882.com^$third-party
 ||57union.com^
 ||58.215.179.159^
@@ -1082,6 +1080,7 @@ ubmcmm.baidustatic.com
 ||bivitr.com^
 ||biyibia.com^
 ||bjedpt.com^
+||bjtrld.com^
 ||bjxiaohua.com^$third-party
 ||bjyikao.org^
 ||blogad.com.tw^$third-party
@@ -1647,6 +1646,7 @@ ubmcmm.baidustatic.com
 ||lx167.com^$third-party
 ||lxqcgj.com^
 ||lyaeccn.com^
+||lygshgj.com^
 ||lyhdream.com^
 ||lyrymy.com^
 ||lytubaobao.com^
@@ -6773,6 +6773,7 @@ mg*.6park.com/img/$image
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
 ||zhushou.360.cn/script/plugin_tiper.js
 ||zhzyw.org/js/InsertJS.js
+||zi.kfqdf.com^
 ||zimuku.net/fgm/960x90.jpg
 ||zimuzu.tv/public/rooms?
 ||zimuzu.tv/rrlx
@@ -6833,12 +6834,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||zi.kfqdf.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-elecfans.com##.ad-pcb
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##[data-enable-landurl] *
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##a[data-landurl]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6951,7 +6948,6 @@ baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-
 baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .c-abstract:nth-child(2) + .f13:last-child
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"] > .t > a[href^="http://www.baidu.com/baidu.php?"]
 duote.com###\32 345_ad
-baidu.com##DIV[id$="2"] ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 morningpost.com.cn###\33 60hot
 zongheng.com###\36 roomRecommend
 hao123.com###\5f _wgt_0_1
@@ -8408,6 +8404,7 @@ pixiv.net##.ad-footer + .hover-item
 huizhi123.com##.ad-hongbao
 ifeng.com##.ad-list
 qq.com##.ad-long-pic
+elecfans.com##.ad-pcb
 19lou.com##.ad-place-logo
 baidu.com##.ad-platform-tips
 baofeng.com##.ad-pop-wrap
@@ -10723,6 +10720,7 @@ instrument.com.cn##A[href^="http://image.instrument.com.cn/ad/adweb/AdCount/"]
 bilibilijj.com##[class$="_Game"]
 tiexue.net##[class*="junph"]
 gamme.com.tw##[class^="sidead_"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##[data-enable-landurl] *
 tiexue.net##[id*="junph"]
 shunwang.com##[id^="ad_"]
 jjwxc.net##[id^="adp_"]
@@ -10745,6 +10743,7 @@ wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
 hao123.com##a[class^="gameyixing-link-"]
 csai.cn##a[class^="gg"]
 sogou.com##a[data-action="ad"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##a[data-landurl]
 bilibili.com##a[data-target-url*=".taobao.com"]
 oschina.net##a[data-traceid$="_ad"]
 oschina.net##a[data-traceid*="_detail_above_text_link_"]
@@ -11043,6 +11042,7 @@ oschina.net##div[data-tracepid="question_detai_above"]
 zhihu.com##div[data-type="ad"]
 zhihu.com##div[data-za-detail-view-path-is_ad]
 weibo.com##div[feedtype="ad"]
+baidu.com##div[id$="2"] ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 mail.126.com,mail.163.com##div[id$="_BannerDiv"]
 mail.126.com,mail.163.com##div[id$="_FooterDiv"]
@@ -12613,7 +12613,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||hbttcc.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12689,6 +12688,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||gyrtg.com^
 ||gzmzts.com^
 ||gznsyh.com^
+||hbttcc.com^
 ||hbyyzm.com^
 ||hk9600.com^
 ||hmttoly.com^
