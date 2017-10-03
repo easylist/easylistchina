@@ -6852,12 +6852,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##a[data-type="ec_ad"]
-baidu.com##.sfc-image-content-adtext
-baidu.com##.sfc-image-content-waterfall-item > div:not([class]) > .sfc-image-content-cell
-baidu.com#?#.ec_wise_ad
-chinafix.com###diy_col_1-3
-chinafix.com###diynavtop
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7403,6 +7397,7 @@ d7w.net###diy10
 cbber.com###diy2
 gpshk.cc,oneplusbbs.com,xiaot.com###diy4
 cbber.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
+chinafix.com###diy_col_1-3
 5imx.com###diy_mxad02
 5imx.com###diy_mxad03
 5imx.com###diy_mxad04
@@ -7413,7 +7408,7 @@ cool-de.com###diy_vk_ad_top
 dz19.net###diyad2
 pingpang.info###diycity1103
 im286.net###diyflash
-0743ds.com,365kl.net,3dezu.com,52ch.net,bbs.qbaobei.com,chcj.net,cnyw.net,gz0668.com,luanren.com,mahoupao.net,mcncc.com,qilindao.com###diynavtop
+0743ds.com,365kl.net,3dezu.com,52ch.net,bbs.qbaobei.com,chcj.net,chinafix.com,cnyw.net,gz0668.com,luanren.com,mahoupao.net,mcncc.com,qilindao.com###diynavtop
 51nb.com###diynavtop + .t_rown[cellpadding="5"]
 bbs.pcbeta.com###diynavtop + style + div[class]
 yshw1.com###diynews_ad1
@@ -10209,6 +10204,8 @@ tiboo.cn##.sectionAd
 brtn.cn,btime.com##.seed-item
 zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
+baidu.com##.sfc-image-content-adtext
+baidu.com##.sfc-image-content-waterfall-item > div:not([class]) > .sfc-image-content-cell
 cctry.com##.sftop
 wbzol.com##.sg
 sogou.com##.sg-ad
@@ -10772,6 +10769,7 @@ oschina.net##a[data-traceid*="_detail_above_text_link_"]
 oschina.net##a[data-traceid="explore_right_bar_70"]
 oschina.net##a[data-traceid^="questionbanner"]
 oschina.net##a[data-tracepid^="index_banner_"]
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##a[data-type="ec_ad"]
 xiaohua.hao.360.cn##a[href$="?realtime"]
 bilibili.com##a[href$="_suning.html"]
 17173.com##a[href*="&ad_code="]
@@ -10941,6 +10939,7 @@ muchong.com##a[target="_blank"][style="display: inherit!important;"]
 a88.us,ac168.info,ac88.info,aisex.com,cnnice.biz,go543.com##a[target="_new"]
 creaders.net##a[title^="www.136888.com/"]
 duba.com##a[w="topad"]
+baidu.com#?#.ec_wise_ad
 api.so.lianmeng.360.cn,pos.baidu.com##body
 qzwb.com##body > .area[style^="height:60px;"]
 dm456.com##body > div[style^="height:90px;"]
