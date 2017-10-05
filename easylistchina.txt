@@ -6860,10 +6860,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-3qled.com###comiis_ad00
-3qled.com###comiisad02
-3qled.com###comiisad04a
-3qled.com###comiisad04s
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7294,6 +7290,7 @@ chinaqking.com###cnt-ad
 k73.com###colbt
 sina.com.tw###colorbox
 qq.com###comic_ad
+3qled.com###comiis_ad00
 haianw.com###comiis_haianw01
 haianw.com###comiis_haianw13
 haianw.com###comiis_haianw14
@@ -7301,6 +7298,9 @@ zisai.com###comiis_ibox_swf
 0743ds.com###comiis_mf00
 gohubei.com###comiis_pd_kuxw01
 chcj.net###comiis_sfcs00
+3qled.com###comiisad02
+3qled.com###comiisad04a
+3qled.com###comiisad04s
 jrj.com.cn###comment > a:first-child
 fuli.us,tianshit.com###comment-ad
 ithome.com###con > div[style="text-align:center"]
@@ -11659,9 +11659,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||google.*/translate_a/t?client=$xmlhttprequest,third-party
-@@||bing.com/translator/api/Translate/TranslateArray?$xmlhttprequest,third-party
-@@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -11853,6 +11850,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bilibilijj.com/APIword/$elemhide
 @@||bilibilijj.com/old$elemhide
+@@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw^$generichide
 @@||briian.com/advert.
 @@||buyad.bi-xenon.cn^
@@ -11938,6 +11936,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||gg.woniu.com^$domain=snail.com
 @@||gg.yxdown.com/count/countzt.js
 @@||gomein.net.cn^*,
+@@||google.*/translate_a/t?client=$third-party,xmlhttprequest
 @@||gov.cn^*/ad
 @@||gpsdlm.com/images/ad.
 @@||guancha.cn/ad/m_
@@ -12122,6 +12121,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||v1.cn/player/cloud/cloud_player
 @@||vast.btrll.com^$domain=hinet.net
 @@||webcrow.jp/adjs/ncskt.js
+@@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@||websetnet.com^$generichide
 @@||weibo.com/api/weipan/getAds
 @@||weike22.com/images/*_
@@ -12169,10 +12169,10 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 99cc2.com,99ff5.com,99ff6.com,99re.com,99ww6.com##.spots
 ||sinaimg.cn^$domain=99cc2.com|99ff5.com|99ff6.com|99re.com|99ww6.com
 ! Aisex.com
-||imgur.com^$domain=172.86.179.138|208.94.244.98|208.94.244.100|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
-||tinypic.com^$domain=172.86.179.138|208.94.244.98|208.94.244.100|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
-||sinaimg.cn^$domain=172.86.179.138|208.94.244.98|208.94.244.100|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
-|http://*/ts.js$domain=172.86.179.138|208.94.244.98|208.94.244.100|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
+|http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
+||imgur.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
+||sinaimg.cn^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
+||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ! Anti-adblock
 ck101.com,datehub.co,gamer.com.tw#@#.pub_300x250
 ck101.com,datehub.co,gamer.com.tw#@#.pub_300x250m
@@ -12203,9 +12203,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||bdm.911cha.com^
-||1.huilv.cc^
-||s1.86ditu.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12225,6 +12222,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||1.feihua.com^
 ||1.glook.cn^
 ||1.hnyouneng.com^
+||1.huilv.cc^
 ||1.i1766.com^
 ||1.iqeq.com.cn^
 ||1.jeasyui.net^
@@ -12372,6 +12370,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||bdjs.ylq.com^
 ||bdlm1.hc360.com^
 ||bdlncs1.familydoctor.com.cn^
+||bdm.911cha.com^
 ||becode.qiushibaike.com^
 ||becode.xiao84.com^
 ||bjs.9669.cn^
@@ -12562,6 +12561,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||rs1.rensheng5.com^
 ||ruan88.com^
 ||s.zixuntop.com^
+||s1.86ditu.com^
 ||s1.hiapk.com^
 ||s11.cn^$third-party
 ||sad.qeo.cn^
