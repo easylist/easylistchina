@@ -5279,6 +5279,7 @@ mg*.6park.com/img/$image
 ||lzep.cn/images/*/ad
 ||lzep.cn^*/2014ad/
 ||lzqss.net/data/attachment/portal/
+||lzyysw.com/upload/
 ||m.aty.sohu.com^
 ||m.autohome.com.cn/*/?hid=
 ||m.autohome.com.cn/ashx/by/Recommend/index.ashx?
@@ -5910,6 +5911,7 @@ mg*.6park.com/img/$image
 ||sccnn.com/SF/zt.jpg
 ||school*.chasedream.com^*.gif
 ||scibook.cn/tuiguang.
+||sciencenet.cn/html/js/n
 ||scol.com.cn/scol-3/js/08scol_text_
 ||sconline.com.tw/top/coolpc_
 ||script.cmfu.com/ADScript/
@@ -6858,12 +6860,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||lzyysw.com/upload/
-||sciencenet.cn/html/js/n
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sciencenet.cn##.mbanner
-sciencenet.cn##.rbanner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9828,6 +9826,7 @@ zhainanba.org##.marauto > p[style="text-align: left;"]
 like101.com.tw##.masonry-brick[style^="width: 212px; height: 216px;"]
 oschina.net##.mayun-jj
 265g.com##.mban
+sciencenet.cn##.mbanner
 hao.360.cn##.mbar-bd
 2345.com##.mco-ex-ndxh
 cnool.net##.meilai_box
@@ -10106,6 +10105,7 @@ g1080.com##.r_img_m
 douni.com##.rad_1
 mydigit.cn##.radi
 ananvod.com##.rbPicAll
+sciencenet.cn##.rbanner
 818today.com##.rbdyg
 yuqingcn.cn##.rboxad
 app01.com.tw##.rcAD
@@ -11940,8 +11940,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||gg.woniu.com^$domain=snail.com
 @@||gg.yxdown.com/count/countzt.js
 @@||gomein.net.cn^*,
-@@||translate.google.*/translate_a/t?client=$third-party,xmlhttprequest
-@@||translate.google.*/translate_tts?tk=$media,third-party
 @@||gov.cn^*/ad
 @@||gpsdlm.com/images/ad.
 @@||guancha.cn/ad/m_
@@ -12110,6 +12108,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||totheglory.im/pic/ttg_logo
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
+@@||translate.google.*/translate_a/t?client=$third-party,xmlhttprequest
+@@||translate.google.*/translate_tts?tk=$media,third-party
 @@||trip.cmbchina.com^$generichide
 @@||tt1069.com/adbrite.js
 @@||tt1069.com/ads.js
