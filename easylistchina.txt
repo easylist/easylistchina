@@ -598,8 +598,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||qzzljx.com^
-||waptime.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1829,6 +1827,7 @@ ubmcmm.baidustatic.com
 ||qytyf.com^
 ||qzdfc.com^
 ||qzkxt.com^
+||qzzljx.com^
 ||r5g.cc^$third-party
 ||rangeblessedness.men^
 ||rayli.com.cn^$third-party
@@ -2064,6 +2063,7 @@ ubmcmm.baidustatic.com
 ||wantaico.com^
 ||wantfour.com^
 ||wapadv.com^
+||waptime.net^
 ||wazero.online^
 ||wdzsb.com.cn^
 ||weareqy.com^$third-party
@@ -4502,6 +4502,7 @@ mg*.6park.com/img/$image
 ||hao123.com/ifeed/cpc?
 ||hao123.com/zt/
 ||hao123img.com/res/ecom/
+||hao123img.com/res/js/common/as.
 ||hao123img.com/res/js/common/erjiAdv.
 ||hao123img.com/static/common/js/cpc_
 ||hao6666.info^*.js
@@ -6295,6 +6296,7 @@ mg*.6park.com/img/$image
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tui.gtimg.com//res/
 ||tui22.com/b/
+||tui22.com/cc/
 ||tuicool.com/images/upload/*00.jpg
 ||tuicool.com/images/upload/*120.jpg
 ||tuicool.com/images/upload/*320.
@@ -6861,13 +6863,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||hao123img.com/res/js/common/as.
-||tui22.com/cc/
 !------------------------Specific element hiding rules------------------------!
-hackp.net###scbar_hot
-qq.com##.seeking-gg
-hacg.fi,hacg.wiki,llss.fun,llss.me##A[href^="/gg2/"]
-sina.com.cn##.m-p3-ad
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7228,7 +7224,6 @@ xinhuanet.com###bkLeft
 xinhuanet.com###bkRight
 xinhuanet.com###bkTop
 dilidili.wang###bkm
-w3cplus.com###home-page-widgets
 drupalchina.cn###block-block-8
 zaobao.com###block-views-zb2016-freefrom-block-1
 gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
@@ -7640,6 +7635,7 @@ hexun.com,hexun.com.tw###hexunCouplet01
 eepw.com.cn###hiddenLayer
 51caiju.com###hint + .AdTop-Article-QQ
 gamersky.com###hitix
+w3cplus.com###home-page-widgets
 t.qq.com###homeBannerNew
 ruanyifeng.com###homepage_pos
 2345.com###hongbao
@@ -8001,6 +7997,7 @@ alu.cn###sanjia
 javjunkies.com###sb1
 baby-kingdom.com###sbad
 sm.cn###sc + .article.ali_row
+hackp.net###scbar_hot
 wpsoso.com###scontent > div[style]
 chyangwa.net,motorfans.com.cn###scrollPics
 youxi.kugou.com###scrollUp
@@ -9803,6 +9800,7 @@ blog.163.com##.m-fixedPCAd
 moe123.net##.m-inner2[module="overview"]
 uc123.com##.m-link
 sina.com.cn##.m-p1-lb1-ad
+sina.com.cn##.m-p3-ad
 3g.cn##.mOrder > div > .list_block
 myexception.cn##.m_a
 sohu.com##.m_ad
@@ -10226,6 +10224,7 @@ qiuziti.com##.search_wordimg
 cnool.net##.second-banner
 tiboo.cn##.sectionAd
 brtn.cn,btime.com##.seed-item
+qq.com##.seeking-gg
 zealer.com##.series_app
 jq-school.com##.setfarme:nth-child(7)
 baidu.com##.sfc-image-content-adtext
@@ -10875,6 +10874,7 @@ zhiboba.cc##a[href^="//shang.qq.com/wpa/"]
 bigear.cn##a[href^="/?module=dantian&"]
 sdgundam.cn##a[href^="/aclk/"]
 ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
+hacg.fi,hacg.wiki,llss.fun,llss.me##a[href^="/gg2/"]
 shaoit.com##a[href^="/go/"]
 acg18.us##a[href^="/jp"]
 muchong.com##a[href^="a"][target="_blank"][href$=".html"]
@@ -11946,6 +11946,16 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||gg.woniu.com^$domain=snail.com
 @@||gg.yxdown.com/count/countzt.js
 @@||gomein.net.cn^*,
+@@||google.com/translate_$media,third-party,xmlhttprequest
+@@||google.de/translate_$media,third-party,xmlhttprequest
+@@||google.es/translate_$media,third-party,xmlhttprequest
+@@||google.fr/translate_$media,third-party,xmlhttprequest
+@@||google.it/translate_$media,third-party,xmlhttprequest
+@@||google.pn/translate_$media,third-party,xmlhttprequest
+@@||google.ps/translate_$media,third-party,xmlhttprequest
+@@||google.rs/translate_$media,third-party,xmlhttprequest
+@@||google.sn/translate_$media,third-party,xmlhttprequest
+@@||google.so/translate_$media,third-party,xmlhttprequest
 @@||gov.cn^*/ad
 @@||gpsdlm.com/images/ad.
 @@||guancha.cn/ad/m_
@@ -12114,16 +12124,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||totheglory.im/pic/ttg_logo
 @@||toy9090.com^*/NL.gif
 @@||toy9090.com^*/NR.gif
-@@||google.com/translate_$third-party,media,xmlhttprequest
-@@||google.sn/translate_$third-party,media,xmlhttprequest
-@@||google.pn/translate_$third-party,media,xmlhttprequest
-@@||google.so/translate_$third-party,media,xmlhttprequest
-@@||google.de/translate_$third-party,media,xmlhttprequest
-@@||google.es/translate_$third-party,media,xmlhttprequest
-@@||google.it/translate_$third-party,media,xmlhttprequest
-@@||google.fr/translate_$third-party,media,xmlhttprequest
-@@||google.ps/translate_$third-party,media,xmlhttprequest
-@@||google.rs/translate_$third-party,media,xmlhttprequest
 @@||trip.cmbchina.com^$generichide
 @@||tt1069.com/adbrite.js
 @@||tt1069.com/ads.js
