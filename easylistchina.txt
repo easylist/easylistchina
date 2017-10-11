@@ -598,7 +598,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||ff112244.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1320,6 +1319,7 @@ ubmcmm.baidustatic.com
 ||fembsflungod.com^
 ||fenggejiaju.com^
 ||fengxiangstore.com^$third-party
+||ff112244.com^
 ||ffhtek.com^
 ||fjkst.com^
 ||fjmeyer.com^
@@ -6874,8 +6874,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xueqiu.com##.regist-guide-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > STYLE[id^="s-"] + DIV[id]:nth-child(2)
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7350,6 +7348,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > [id*="00"]:not(.res
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div:not([id]) > div[id][data-rendered="true"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[class][style]:not([id])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > div[id*="00"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op)
+ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_left > style[id^="s-"] + div[id]:nth-child(2)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > table
 jpwind.com###content_right_ad2
@@ -10143,6 +10142,7 @@ chinaz.com##.red[href*=".wsisp.net/"]
 guba.eastmoney.com##.redian
 drupalchina.cn##.region-header-banner
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
+xueqiu.com##.regist-guide-container
 ithome.com##.related_buy
 tiexue.net##.reloadCont > div:first-child
 3g.cn##.reply_block
@@ -11021,7 +11021,7 @@ zhibo8.cc##div[class*="advert"]
 efu.com.cn##div[class*="banner-"]
 qinbing.cn##div[class*="gg"]
 chinatimes.com##div[class*="googlead_"]
-steamcn.com##DIV[class*="liz_"]
+steamcn.com##div[class*="liz_"]
 wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 sspai.com##div[class*="widget-color-bns"] > .colors:first-child:last-child
 iciba.com##div[class="ad_list"]
@@ -11126,7 +11126,7 @@ vpser.net##div[id*="_thread"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
-dnvod.tv##DIV[id][style*="top:"][style*="block"]
+dnvod.tv##div[id][style*="top:"][style*="block"]
 kuaidi100.com##div[id][style="width: 300px;float: right;"]
 iqiyi.com##div[id^="100000"]
 fengniao.com##div[id^="AD"]
@@ -12234,7 +12234,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||j.imdb.cn^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12516,6 +12515,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||img1.jintang114.org^
 ||ixpub.net^*.js
 ||iy.com.cn^$third-party
+||j.imdb.cn^
 ||j.yjbys.com^
 ||j1.piaobing.com^
 ||jb.dianshu119.com^
@@ -12698,7 +12698,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||sjczsc.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12833,6 +12832,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||sdkdm.com^
 ||sdytsh.com^
 ||shumilou.co/style/html5.js
+||sjczsc.com^
 ||smxay.com^
 ||sonomoyo.com^
 ||suwo0n.com^
@@ -12917,6 +12917,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
+@@||airav.cc/js/td_ga_tracker.js
 @@||aixifan.com/acfun-H5/public/script/sensorsdata.
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
 @@||alicdn.com/retcode/log/log.js
@@ -12963,5 +12964,4 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@||airav.cc/js/td_ga_tracker.js
 !----------------------------------The End------------------------------------!
