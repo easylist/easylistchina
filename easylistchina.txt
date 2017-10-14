@@ -2920,6 +2920,8 @@ mg*.6park.com/img/$image
 ||51test.net/js_new/*_content_up.js
 ||51test.net/js_new/*_right_middle.js
 ||51test.net/js_new/baidu/
+||51testing.com/templates/default/images/*.swf
+||51testing.com/templates/default/images/jx2_a.jpg
 ||51vob.com/js/hf.js
 ||51wan.com/img/js/xyadjs_
 ||51xuediannao.com/plus/mytag_js.php?aid=
@@ -3287,6 +3289,7 @@ mg*.6park.com/img/$image
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||airav.cc/AirADPic/*%
+||airav.cc/iframe/
 ||airouba.com/public/js/global.js
 ||aitaotu.com/style/js/aitaotu
 ||aixifan.com/cms/*/w/1160/h/100
@@ -3370,6 +3373,7 @@ mg*.6park.com/img/$image
 ||arpun.com/arpun/softinfo
 ||article.pchome.net/Index.php?c=Intel&
 ||as.sinahk.net^
+||asdfz.vpszt.com^
 ||ashow.pcpop.com^
 ||asia-home.com.cn/js/yt/ytadshow
 ||asimgs.pplive.cn^$object,object-subrequest
@@ -4702,6 +4706,7 @@ mg*.6park.com/img/$image
 ||iask.cn/fidjs/
 ||iask.cn^*/qiye.
 ||iask.sina.com.cn/hwj/
+||ibb.co^$domain=qylsp9.com
 ||ibook8.com*/piao*.js
 ||ibook8.com/js/b*.js
 ||ibook8.com/xia*.js
@@ -5063,6 +5068,7 @@ mg*.6park.com/img/$image
 ||js.shiwt.com/110.js
 ||js.tlt.cn/js/
 ||js.tv.itc.cn/site/play/v*/vip_discount_
+||js.url1175.info^
 ||js0573.com/images/cus/
 ||jsdy.abolezi.com^
 ||jssd.uumeitu.com^
@@ -6134,6 +6140,7 @@ mg*.6park.com/img/$image
 ||srzc.com/js/Adsjs/
 ||ssajax.cn/js/info/ads/
 ||ssnn.net^*-200-250.jpg
+||ssp.hinet.net^
 ||ssp.zf313.com^
 ||sspai.com/api/v1/recommends?*=article_
 ||sspai.com/attachment/sponsor/
@@ -6424,6 +6431,7 @@ mg*.6park.com/img/$image
 ||voc.com.cn/Frame/qqms_cs.html
 ||voc.com.cn/js/xc/
 ||vodtw.com/m-
+||vpszt.com/images/bbssidebar/
 ||vsimg.com/sjt.gif
 ||vupload.duowan.com^
 ||vvvdj.com/sms/
@@ -6656,6 +6664,7 @@ mg*.6park.com/img/$image
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
 ||yaojingweiba.com/front/mhlist_
+||yaojingweiba.com/inc/
 ||yaolan.com/wenku_debris/time_debris/images/mary
 ||yaolanimage.cn/assets/ask/js/ask_video_popup.js
 ||yaolanimage.cn/cms/image/960-90
@@ -6879,17 +6888,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||ssp.hinet.net^
-||airav.cc/iframe/
-||yaojingweiba.com/inc/
-||js.url1175.info^
-||vpszt.com/images/bbssidebar/
-||asdfz.vpszt.com^
-||ibb.co^$domain=qylsp9.com
-||51testing.com/templates/default/images/*.swf
-||51testing.com/templates/default/images/jx2_a.jpg
 !------------------------Specific element hiding rules------------------------!
-qylsp9.com##.ads
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8701,7 +8700,7 @@ doc88.com##.adpx250
 jzclass.com##.adr
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-0594.com,345qyl.com,778buy.com,acgura.us,aotu23.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qylsp8.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
+0594.com,345qyl.com,778buy.com,acgura.us,aotu23.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qylsp8.com,qylsp9.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 5icool.org##.ads300_show
@@ -11140,7 +11139,7 @@ baby-kingdom.com##div[id*="Banner Zone"] + script + object
 lalilali.com##div[id*="_"]
 feiwan.net##div[id*="_"][style]
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
-vpser.net##DIV[id*="_readth"]
+vpser.net##div[id*="_readth"]
 8684.cn,8684.com##div[id*="adid"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
