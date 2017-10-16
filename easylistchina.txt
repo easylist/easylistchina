@@ -12,10 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
-/shehuik618cn/images/c.js
-/shehuik618cn/images/ds.js
-/shehuik618cn/images/i.js
-/shehuik618cn/images/k.js
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -256,6 +252,10 @@
 /Runtime/js/top960.js
 /scripts/youthad.js
 /scrollgg_index.js
+/shehuik618cn/images/c.js
+/shehuik618cn/images/ds.js
+/shehuik618cn/images/i.js
+/shehuik618cn/images/k.js
 /show.js?aid=*&pushid=
 /show.js?sp=*&oid=
 /shunwang/css/newgames/img/welfare.png
@@ -602,7 +602,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||50zera.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -842,6 +841,7 @@ ubmcmm.baidustatic.com
 ||49ko.com^$third-party
 ||4ggww.com^
 ||4kt2.com^$subdocument
+||50zera.com^
 ||5125129.com^
 ||517m.cn^
 ||5188yy.com^$third-party
@@ -3531,6 +3531,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com/tb/r/image/2014-12-03/87ae5de2d732714bb6dd4ff6ab1e50ac.jpg
 ||bdstatic.com/tb/r/image/2014-12-30/fa718abe3e4418298f785734279a2e8f.jpg
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
+||bdstatic.com^*/her/static/indexher/pkg/treasure.
 ||bdstatic.com^*/js/m.js
 ||bdstatic.com^*/mip-*ad
 ||bdstatic.com^*/plugins/every_cookie_
@@ -5143,6 +5144,7 @@ mg*.6park.com/img/$image
 ||kokojia.com^$third-party
 ||koopan.com/%5Cad/
 ||ks.js.cn*/yytf/$object,script
+||ksiwnx.pw/gg_html/
 ||kt51.com/app.js
 ||ktzhk.com/file/adv/
 ||ku6.com^*/index.shtml
@@ -6512,6 +6514,7 @@ mg*.6park.com/img/$image
 ||wlnews.zjol.com.cn/wlrb/bbs/
 ||wo256.com/256_gg/*.gif
 ||wobuka2.com/js/
+||wokao.co/qq/qq.js
 ||woxiu.com/xapi/get_pre_config.php
 ||woxiu.com/xapi/offsite_swf_more.php?
 ||wpdaxue.com/2015/03/wx0329.jpg
@@ -6660,6 +6663,7 @@ mg*.6park.com/img/$image
 ||xzking.com/static/images/detail/soft_1168x90.gif
 ||y2.ifengimg.com/1d124ac5e89463af/2013/0125/rdn_51023a5071d32.jpg
 ||y3600.com/17
+||ya*.dwstatic.com^
 ||yaerwen.com/5200js/59.js
 ||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
 ||yam.com/ad_yam/
@@ -6893,15 +6897,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||ya*.dwstatic.com^
-||ksiwnx.pw/gg_html/
-||bdstatic.com^*/her/static/indexher/pkg/treasure.
-||wokao.co/qq/qq.js
 !------------------------Specific element hiding rules------------------------!
-wokao.co##.qq
 gpcxw.com###AA2
-hao123.com##.treasure-game
-hao123.com##.treasure-item
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10131,7 +10128,7 @@ qidian.com##.qd-game
 qdmm.com,qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
-whichav.com,whichav.net##.qq
+whichav.com,whichav.net,wokao.co##.qq
 zixuekaoshi.net##.qq_nr_lad
 tiexue.net##.qrcode
 ifeng.com##.qudaoTg
@@ -10595,6 +10592,8 @@ ifeng.com##.trade
 dict.baidu.com##.tran-download-ad
 fanyi.baidu.com##.trans-side-ad-wrap
 tw.yahoo.com##.travelads
+hao123.com##.treasure-game
+hao123.com##.treasure-item
 megatime.com.tw,pchome.com.tw##.tripplead
 ts.cn##.tsggding
 tvhome.com##.ttt
@@ -12262,7 +12261,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||c.mnjkw.cn^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12439,6 +12437,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||bjs.9669.cn^
 ||bstatic.1kejian.com^
 ||bstatic.diyifanwen.com^
+||c.mnjkw.cn^
 ||c1.4qx.net^
 ||c1.china.cn^
 ||c6.friok.com^
