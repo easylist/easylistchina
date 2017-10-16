@@ -602,8 +602,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||hbguohua.com^
-||jiangmg.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1427,6 +1425,7 @@ ubmcmm.baidustatic.com
 ||hascosafety.com^
 ||hauchi.com.tw^$third-party
 ||hbalx.cn^
+||hbguohua.com^
 ||hbngfy.com^
 ||hbsimg.com^$third-party
 ||hcreditx.com^
@@ -1529,6 +1528,7 @@ ubmcmm.baidustatic.com
 ||jiajv.net^
 ||jianbaimei.com^
 ||jianglishi.cn^$third-party
+||jiangmg.com^
 ||jiankang13.com^$third-party
 ||jianmei123.com^
 ||jiehantai.com^
@@ -4244,6 +4244,7 @@ mg*.6park.com/img/$image
 ||fang99.com^*/advjs/
 ||fangying.tv/assets/xzy-
 ||fanhaobao.net/wp-content/themes/xiu/js/single.js
+||fanhaojia.cc/afand/001.jpg
 ||fantizi5.com/js/ad*.js
 ||fantizi5.com/js/baiduad
 ||faxingw.cn/js/*0
@@ -5081,6 +5082,7 @@ mg*.6park.com/img/$image
 ||jsdy.abolezi.com^
 ||jssd.uumeitu.com^
 ||jsw.com.cn^*/index.htm
+||jsxf.org/images/
 ||jtyskq.com^*/js/_a.js
 ||junph.cn^$domain=tiexue.net
 ||junshi.cc/hz/
@@ -5382,6 +5384,7 @@ mg*.6park.com/img/$image
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||mimg.127.net/ggimg/all/img18/140218_yixin_780x96.jpg
 ||mini.hao123.com^
+||minixiazai.com/others/all_soft.js
 ||miniye.xjts.cn^
 ||misaka.cn^*/600px-
 ||missyuan.com/sy/
@@ -6899,14 +6902,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||jsxf.org/images/
-||fanhaojia.cc/afand/001.jpg
-||minixiazai.com/others/all_soft.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-ttmeiju.vip##.duilian
-ttmeiju.vip##DIV[style^="margin-top:2"]
-news.163.com##A[href^="http://g.163.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9223,7 +9220,7 @@ wmzhe.com##.downgs
 265g.com##.dr_top_text
 top81.com.cn##.dsmain_jph
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
-2cha.com,81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,silver.org.cn,ttmeiju.com,wendu.cn##.duilian
+2cha.com,81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,silver.org.cn,ttmeiju.com,ttmeiju.vip,wendu.cn##.duilian
 hnr.cn##.duilian_close
 0772fang.com##.duilian_l
 0772fang.com##.duilian_r
@@ -10946,6 +10943,7 @@ chinaz.com,cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
 3g.tianya.cn,m.tianya.cn##a[href^="http://dol.tianya.cn/"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
+news.163.com##a[href^="http://g.163.com/"]
 ali213.net##a[href^="http://g.s8dj.com/"]
 moe-acg.cc##a[href^="http://game.moehuan.com/"] > img
 zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
@@ -11393,7 +11391,7 @@ huarenjie.net##div[style^="clear:both;overflow:hidden;position: fixed;top: 50px;
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
 zgfznews.com##div[style^="height:50px; width:1000px;"]
 shmet.com##div[style^="margin-top: -5px; margin-bottom: 10px; height: 60px"]
-ttmeiju.com##div[style^="margin-top:2"]
+ttmeiju.com,ttmeiju.vip##div[style^="margin-top:2"]
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 tuzuan.com##div[style^="width: 100%; height: 60px; overflow: hidden;"]
 07073.com##div[style^="width: 135px; height: 327px;"]
@@ -12738,7 +12736,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||piaogj.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12860,6 +12857,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||passwz.com^
 ||pdfbs.com^
 ||pdkuai.com^
+||piaogj.com^
 ||plerv.com^
 ||pomhz.com^
 ||prazpf.cn^
