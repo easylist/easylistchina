@@ -3495,7 +3495,6 @@ mg*.6park.com/img/$image
 ||bbs.fengbao.com/image/bingzuan925X80.jpg
 ||bbs.hotavxxx.com/images/201*.gif
 ||bbs.voc.com.cn/s.js
-||winning11cn.com/temp/*.gif
 ||bbs.xbaodi.com/plugin.php
 ||bbs.xiashanet.com/js/adsview.js
 ||bbsbaba.com/js/1.js
@@ -3750,6 +3749,7 @@ mg*.6park.com/img/$image
 ||centoscn.com/uploads/allimg/
 ||centurys.net/promo_
 ||cfanclub.net/lmimages/yinsub.gif
+||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||chaling.cn/data/attachment/portal/
 ||chaling.cn/images/*.gif
@@ -3918,6 +3918,7 @@ mg*.6park.com/img/$image
 ||cpm.cm.kankan.com^
 ||cpm.cm.sandai.net^
 ||cpplay.com/inc/
+||cq.cm/temp/201
 ||cqfishing.net/data/attachment/portal/
 ||cqnews.net:8080/vplayerAdv/
 ||cqvip.com/viewserver/ViewAD
@@ -5187,6 +5188,7 @@ mg*.6park.com/img/$image
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
 ||langya.cn/images/ad_down.js
+||lanrenzhijia.com/Public/images/sucaihuo_
 ||lanseshuba.com/react.js
 ||laod.cn/wp-content/uploads/*/ad-
 ||laozuo.org/linode125.jpg
@@ -5429,6 +5431,7 @@ mg*.6park.com/img/$image
 ||mopxing.com/skin/sex/js/*content
 ||moratame.tw/img/contents/banner
 ||motelppp.com/Content/img/
+||movshow.com/*portal/
 ||mp3.haogeba.com^$image,object
 ||mp4ba.net/static/js/mp4ba.js
 ||mql5.com/data?
@@ -5766,6 +5769,7 @@ mg*.6park.com/img/$image
 ||qingkong.net/skin/htcs/images/980.jpg
 ||qiniudn.com/ad-zalra.jpg
 ||qitete.com/sp/
+||qiuball.com/JS/bmw/bet365.gif
 ||qiuyi.cn/Baojian/
 ||qixingquan.com/api.php?mod=ad&adid=
 ||qixingquan.com/partner/
@@ -6513,6 +6517,7 @@ mg*.6park.com/img/$image
 ||windows7en.com/images/
 ||windows7en.com/statistics/stats.js
 ||windows7en.com/templets/default/images/logo/xtzj.gif
+||winning11cn.com/temp/*.gif
 ||winvvv.com^$subdocument
 ||wishdown.com/images/*.gif
 ||wlnews.zjol.com.cn/bbs/
@@ -6902,21 +6907,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||cq.cm/temp/201
-||qiuball.com/JS/bmw/bet365.gif
-||chahua.org/aimg/
-||movshow.com/*portal/
-||lanrenzhijia.com/Public/images/sucaihuo_
 !------------------------Specific element hiding rules------------------------!
-cqsq.com###read_0 + A[target="_blank"]
-91lai.com##.D_guanggaotu11
-91lai.com##.D_guanggaotu2
-91lai.com##.D_guanggaotu3
-91lai.com##.showimgs
-tingvoa.com##A[href*="/%43%6c%69%63%6b%41%64?"]
-cnbeta.com###cb_share > .fl
 gpcxw.com###AA2
-cnsat.net###table2 > TBODY > TR > TD[colspan="2"][width^="32"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7320,6 +7312,7 @@ longzhu.com,tga.plu.cn###carousel
 dilidili.wang###carousel *
 cangku.in,galacg.me,moneyweekly.com.tw###carousel-example-generic
 bbs-mychat.com###cate_top > tr > .f_one
+cnbeta.com###cb_share > .fl
 sina.com.tw###cboxOverlay
 eworldship.com###ccrhshow
 dapenti.com###center > div[align="center"][target="_blank"]
@@ -7748,7 +7741,6 @@ qidian.com###j-topBgBox
 qidian.com###j-topHeadBox
 yaolan.com###j_focus_img
 tieba.baidu.com###j_light_see_index
-1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?##j_p_postlist > :-abp-properties(width: 739px;)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_star_bus_before
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_ten_years
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###j_worldcup_info_banner
@@ -8012,6 +8004,7 @@ lanqie.com###r_dbox
 163.com###r_mkaolaadv
 game2.cn###rb
 hnr.cn###rb_pics
+cqsq.com###read_0 + a[target="_blank"]
 sosg.net###read_728x90
 chinaqking.com###readerServiceDIV
 17173.com,sdgundam.cn###recommend
@@ -8144,6 +8137,7 @@ e0575.cn###t_2 + .tac
 voicetube.com###tab-ad-site
 sogou.com###tab857
 ezvivi.com###table1[width="336"]
+cnsat.net###table2 > tbody > tr > td[colspan="2"][width^="32"]
 net767.com###table6
 gametower.com.tw###tableAD
 dxlwwang.com###tagContent
@@ -8371,6 +8365,9 @@ ifeng.com##.ColGLAvt
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
 imeee.cn##.DA336
+91lai.com##.D_guanggaotu11
+91lai.com##.D_guanggaotu2
+91lai.com##.D_guanggaotu3
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.EC_newppim
 cnfol.com##.EtGA
 javjunkies.com##.FAd
@@ -10311,6 +10308,7 @@ zahuishi.com##.show2960x90
 5068.com##.showG
 51test.net##.show_content_declaration > p
 sucaijiayuan.com##.show_title
+91lai.com##.showimgs
 it165.net##.showinfo
 uwants.com##.showpx1
 aohua.com.au##.sidBoxNoborder
@@ -10886,6 +10884,7 @@ cnbeta.com##a[href*=".upyun."]
 letv.com##a[href*=".vip.com"]
 zhibo8.cc##a[href*=".wanjiashe."]
 tiexue.net##a[href*=".yueleyu."]
+tingvoa.com##a[href*="/%43%6c%69%63%6b%41%64?"]
 108.62.192.124,plus28.com##a[href*="/?Extend="]
 jisutiyu.com##a[href*="/Register?aff="]
 kcwiki.moe##a[href*="/ad."]
@@ -11467,6 +11466,7 @@ biz.zjol.com.cn##img[width="980"]
 0597kk.com##img[width^="37"][height="30"]
 apk.tw##ins.adsbygoogle
 ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div[id="1"] /deep/ div[id="1"]
+1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?##j_p_postlist > :-abp-properties(width: 739px;)
 fengniao.com##li > a[href="http://www.fengniao.com/topic/5345407.html"]
 image.so.com##li[class="waterfall_cell"]
 3g.qq.com##li[data-adtype="qbad"] > a[class^="type"]
@@ -12749,8 +12749,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||lyjz001.com^
-||zzhszj.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12858,6 +12856,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||legozu.com^
 ||listenother.com^
 ||lqmohun.com^
+||lyjz001.com^
 ||lzjycy.com^
 ||md0z4dh.com^
 ||mmhhjt.com^
@@ -12933,6 +12932,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zxhymh.com^
 ||zxjjzx.com^
 ||zywhjd.com^
+||zzhszj.com^
 ||zzsno1.com^
 ! Sex8.cc
 ###j-new-ad
