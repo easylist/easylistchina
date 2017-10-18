@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -880-80-4.jpg
-/58pic/index.php?m=searchAd&
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -57,6 +56,7 @@
 /22tu/ads/*
 /500ad/*
 /562723/7082094ff7346f23.gif
+/58pic/index.php?m=searchAd&
 /66bubu/ads/*
 /8drama_yahoo/*
 /9115gg/*
@@ -5485,6 +5485,7 @@ mg*.6park.com/img/$image
 ||n2.hk/promo/
 ||nanhai.hinews.cn/zt/img/
 ||nanren400.com/goto/
+||nanrenfuli.org/zb_users/upload/
 ||nanrenshu.com/rmb/st_dh.js
 ||narutom.com/v2/js/ca.js
 ||narutom.com/v2/v/$subdocument
@@ -5679,6 +5680,7 @@ mg*.6park.com/img/$image
 ||pimg.tw/ifans/1399368662-4247048381.png
 ||pingpang.info/banner/
 ||pingpang.info/bbs/UploadFile/2014-11/20141113852238131.jpg
+||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingpang.info/uploadfile/TTW.gif
 ||pingwest.com/wp-content/uploads/*/ad.jpg
 ||pingwest.com/wp-content/uploads/2017/07/WechatIMG
@@ -6616,6 +6618,7 @@ mg*.6park.com/img/$image
 ||xinyi.com/Public/config/Couplet/Index39.js
 ||xinyi.com/Public/config/Couplet/Index40.js
 ||xinyi.com/Public/config/Couplet/Index41.js
+||xinzheng8.pw^
 ||xitek.com/idzone/
 ||xitong8.com/theme/default/images/725x90.gif
 ||xitong8.com/theme/default/images/index_13.jpg
@@ -6908,18 +6911,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||xinzheng8.pw^
-||nanrenfuli.org/zb_users/upload/
-||pingpang.info/themes/v1.0/images/temp/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-weishangshijie.com###wad_left
-weishangshijie.com###wad_right
-weishangshijie.com##.ads228_1_r
-weishangshijie.com##.head_0905
-weishangshijie.com##.news_ads1200
-weishangshijie.com##.news_ads_1028
-weishangshijie.com##.nleft_ads
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8260,6 +8253,8 @@ aipai.com###videosRightDown
 jstv.com###vplayad
 zqzq.com###wAdTop1
 zqzq.com###wAdTop2
+weishangshijie.com###wad_left
+weishangshijie.com###wad_right
 kamlm.com###wanmeiffad1
 6park.com###weibozkinfo
 sd888.org###weixinL
@@ -8738,6 +8733,7 @@ yinsha.com##.adrt01
 0594.com,345qyl.com,778buy.com,acgura.us,aotu23.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qylsp8.com,qylsp9.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
+weishangshijie.com##.ads228_1_r
 5icool.org##.ads300_show
 eeyy.cc##.ads650
 51test.net##.ads960x90
@@ -9536,6 +9532,7 @@ pinggu.org##.hdbanner
 19lou.com,55bbs.com##.head-ad
 fbook.net##.head-d
 hkepc.com##.headBanner
+weishangshijie.com##.head_0905
 jmw.com.cn##.head_1b
 jmw.com.cn##.head_3
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
@@ -9997,6 +9994,8 @@ chinaz.com##.newsMainBox-textad
 afzhan.com##.newsRightAdv
 ifeng.com##.news_ADbox
 m.baidu.com,wuseng.com##.news_ad
+weishangshijie.com##.news_ads1200
+weishangshijie.com##.news_ads_1028
 aguitar.cn##.news_b
 zhcw.com##.news_blanck
 auto-online.com.tw##.news_content > div[style="width:728px;margin:10px auto"]
@@ -10009,6 +10008,7 @@ afzhan.com##.newsshow
 talkforex.com##.nge_border_right > div[style="height: 250px; position: relative;"]
 26lady.com##.ngg
 qdmm.com,qidian.com##.nightMask
+weishangshijie.com##.nleft_ads
 manqian.cn##.node-ad-bg
 wallstreetcn.com##.node-main-ad
 admin5.com##.notice
