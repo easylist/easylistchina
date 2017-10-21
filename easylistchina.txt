@@ -11,6 +11,9 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/secretmine_out.js
+/secretmine_20170816_202643.png
+/secretmine_20170831_220255.jpg
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -6929,6 +6932,8 @@ mg*.6park.com/img/$image
 ||dioimg.net^$domain=18board.com|18p2p.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+secretmine.net##.background-cover
+secretmine.net##CENTER > A:not([href*=".secretmine."]) > IMG
 oschina.net##.float_adbox
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
