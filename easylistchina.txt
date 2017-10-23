@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/uc123_no/*/index/js/activity.
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -289,6 +288,7 @@
 /tuiguang/*
 /tuzuan/ad/*
 /u/_sponsor/*
+/uc123_no/*/index/js/activity.
 /variety.tc.qq.com/*.mp4?vkey=
 /View/img/b72890.jpg
 /vipgg/js/*
@@ -2748,6 +2748,7 @@ mg*.6park.com/img/$image
 ||222.45.224.77^*.js
 ||222.47.26.21/m.js
 ||2233777.com/bak/ad/
+||2259h.com/js/jquery.js
 ||2300sjz.com/liv_loadfile/folder81/fold
 ||2324av.com/zz/
 ||2345.com/adbaidu.htm
@@ -3838,6 +3839,7 @@ mg*.6park.com/img/$image
 ||chuiyao.com/static/jsa/
 ||chunxiao.tv/1.aspx
 ||chyangwa.net/block/bb/
+||cibntv.net^*&duration=15&
 ||cidianwang.com/images/taobao/
 ||cidianwang.com/js/zdtop.js
 ||cilibaba.org/static/ad.
@@ -6752,6 +6754,7 @@ mg*.6park.com/img/$image
 ||you85.*/ling/
 ||youbiyao.*/gongyi.gif
 ||youiv.tv/image/*-960x80-
+||youku.com/adv
 ||youku.com/cms/tool/pub/get_putdata.
 ||youku.com/dress/
 ||youku.com/QVideo/~ajax/getDefaultItem?
@@ -6876,6 +6879,7 @@ mg*.6park.com/img/$image
 ||zhzyw.org/js/InsertJS.js
 ||zi.kfqdf.com^
 ||zimuku.net/fgm/960x90.jpg
+||zimuku.net/images/v2/js/b.js
 ||zimuzu.tv/public/rooms?
 ||zimuzu.tv/rrlx
 ||zisai.com/template/comiis_nby/ads/
@@ -6935,21 +6939,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||2259h.com/js/jquery.js
-||youku.com/adv
-||cibntv.net^*&duration=15&
-||zimuku.net/images/v2/js/b.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-265g.com##.phone_bgban
-999.com###db11
-999.com###db11_btm
-999.com##.top-swf
-xiaohx.net###open
-uc123.com###J_logoLeft
-uc123.com###J_shoppingPush
-uc123.com##.ads
-uc123.com##.side-hot
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7024,8 +7015,10 @@ jin10.com###J_ad_t
 xiami.com###J_albumSale
 gexing.com###J_bottomMes
 2345.com###J_go_erweima
+uc123.com###J_logoLeft
 2345.com###J_s11_foot
 2345.com###J_search_bd > div:last-child
+uc123.com###J_shoppingPush
 chem99.com###J_tcode
 2345.com###J_tip_stopXP
 61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
@@ -7461,6 +7454,8 @@ hao.360.cn###daily-hotword
 iask.sina.com.cn###daily_topic_flnr
 mydrivers.com###dangbei_down
 3g.cn###datit
+999.com###db11
+999.com###db11_btm
 vxingkong.com###dbpl
 ytbbs.com###dd1
 sogou.com###detailRightAd
@@ -7938,6 +7933,7 @@ duba.com###oneTip
 duba.com###oneone
 image.baidu.com###only-lady-sec
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###op_wiseapp
+xiaohx.net###open
 lgmi.com###openwindows0
 ifeng.com###optimusPrimeContentId
 jiyingdm.com###otherWindowBox
@@ -8772,7 +8768,7 @@ doc88.com##.adpx250
 jzclass.com##.adr
 gamme.com.tw##.adread
 yinsha.com##.adrt01
-0594.com,345qyl.com,778buy.com,acgura.us,aotu23.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qylsp8.com,qylsp9.com,qz930.com,sina.com,tpy888.cn,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
+0594.com,345qyl.com,778buy.com,acgura.us,aotu23.com,appinn.com,appledaily.com.tw,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,mnw.cn,oxgood.com,qylsp8.com,qylsp9.com,qz930.com,sina.com,tpy888.cn,uc123.com,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 weishangshijie.com##.ads228_1_r
@@ -10126,6 +10122,7 @@ kikinote.net##.pc_ad
 pinggu.org##.peixunopen1
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.per_list.j_per_list.per_list_frs
 junshiqu.com##.pg08
+265g.com##.phone_bgban
 sodao.com##.photo-see > div[style="text-align: center; margin-bottom: 10px;"]
 caikuu.com##.photo_abv
 jrj.com.cn##.piboxtwo
@@ -10377,6 +10374,7 @@ guokr.com##.side-adv
 ruten.com.tw##.side-advertise
 iwan.baidu.com##.side-banner
 autohome.com.cn##.side-bg-img
+uc123.com##.side-hot
 wallstreetcn.com##.side-money
 firefox.com.cn,firefoxchina.cn##.side-notice
 firefoxchina.cn##.side-promote
@@ -10609,6 +10607,7 @@ taihainet.com##.top-info
 eelly.com##.top-picture
 rj.baidu.com##.top-recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
+999.com##.top-swf
 hao123.com##.top-test
 ifeng.com##.top-tg
 52wubi.com##.top960
@@ -12337,7 +12336,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a.52wubi.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12418,6 +12416,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||9669.cn^$third-party
 ||999d.com^$third-party
 ||9wushuo.com^
+||a.52wubi.com^
 ||a.52zxw.com^
 ||a.5ykj.com^
 ||a.75111.com^
@@ -12811,7 +12810,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||cqhhct.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12864,6 +12862,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||cnzhqs.com^
 ||comesgo.com^
 ||cqgya.com^
+||cqhhct.com^
 ||cyylove.com^
 ||daskm.com^
 ||dbwmjj.com^
