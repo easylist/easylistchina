@@ -6942,6 +6942,8 @@ mg*.6park.com/img/$image
 ||shouji.com.cn/static/v2/images/sj_banner_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(赞助))
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(贊助))
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
