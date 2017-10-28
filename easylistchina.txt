@@ -3337,7 +3337,7 @@ mg*.6park.com/img/$image
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
-||alicdn.com^$domain=acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|zhev.com.cn
+||alicdn.com^$domain=acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|wenkuxiazai.com|zhev.com.cn
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alifeifei.net/s/*.js
@@ -5073,6 +5073,7 @@ mg*.6park.com/img/$image
 ||jj20.com/js/x
 ||jj59.com/sy/banner.js
 ||jj59.com/sy/ibanner.js
+||jjckb.cn/flash/1031ad/
 ||jjjaaa.com/aaa/
 ||jjjgame.com/images/ad11.jpg
 ||jjr123.com/javascript/dl.js
@@ -5714,6 +5715,7 @@ mg*.6park.com/img/$image
 ||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pjtime.com/js/show_ad
+||pk200.com/xb/tui.jpg
 ||playad.xjmg.com^
 ||playgm.cn/data/attachment/portal/
 ||plurk.com/Ads/
@@ -6560,6 +6562,7 @@ mg*.6park.com/img/$image
 ||wishdown.com/images/*.gif
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
+||wm114.cn/0images/hlbxd3.jpg
 ||wo256.com/256_gg/*.gif
 ||wobuka2.com/js/
 ||wokao.co/qq/qq.js
@@ -6756,6 +6759,7 @@ mg*.6park.com/img/$image
 ||yinyuetai.com/proment/get-play-medias?*&position=overlay
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
+||yiwenbaida.com/images/ryt.jpg
 ||yixiaoba.com/js/yxb_normal.js
 ||yixieshi.com/media/
 ||yjhas.net^$image
@@ -6956,18 +6960,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||yiwenbaida.com/images/ryt.jpg
-||wm114.cn/0images/hlbxd3.jpg
-||jjckb.cn/flash/1031ad/
-||alicdn.com^$domain=wenkuxiazai.com
-||pk200.com/xb/tui.jpg
 !------------------------Specific element hiding rules------------------------!
-xiaobaipan.com##.f_ad
-114.com.cn##.adve2
-114.com.cn##.adve3
-114.com.cn##.sdve
 gpcxw.com###AA2
-qzone.qq.com###top_tips_container
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8269,6 +8263,7 @@ xiashanet.com###top_content
 hiapk.com###top_gg
 duba.com###top_joke
 huaban.com###top_promotion
+qzone.qq.com###top_tips_container
 wendu.cn###topads
 tianjinwe.com###topadv
 aibang.com###topadv_baidu_aibang
@@ -8831,6 +8826,8 @@ le.com,letv.com##.adv_img
 kaifu.com##.adv_slide
 3gsc.com.cn,autohome.com.cn,gdzjdaily.com.cn,loveshang.com,ningmengzhibo.com##.advbox
 yinsha.com##.advcop01
+114.com.cn##.adve2
+114.com.cn##.adve3
 jyacht.com##.adve_3
 jyacht.com##.adve_4
 anjuke.com##.adver-content
@@ -9373,6 +9370,7 @@ e0575.com##.etxt_1
 fanyi.baidu.com##.extra-banners
 douyu.com##.f-sign-cont
 user.qzone.qq.com##.f-single-biz
+xiaobaipan.com##.f_ad
 m.sohu.com##.f_rec[href^="//m.sohu.com/promotion?"][href*="/f/"]
 infoq.com##.f_sponsorbox_top_2
 sgcn.com,wangjing.cn##.fad
@@ -10357,6 +10355,7 @@ firefox.com.cn,firefoxchina.cn##.sd-promote
 playno1.com##.sd.pph
 yeeyi.com##.sd.pph > .mbm.hm
 xianzhenyuan.cn##.sd_ad
+114.com.cn##.sdve
 pediy.com##.search
 baidu.com##.search-aside-adWrap
 map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
@@ -12382,8 +12381,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||321.jintang114.org^
-||52linglei.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12445,11 +12442,13 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||3.guidaye.com^
 ||3.ssqzj.com^
 ||301848.com^$third-party
+||321.jintang114.org^
 ||360640.com^
 ||4name.com^$third-party
 ||51dengshan.cn^
 ||51gxqm.com^
 ||51yhzp.com^$third-party
+||52linglei.com^
 ||52lubo.cn^
 ||55lu.com^
 ||5dian.org^
@@ -12863,9 +12862,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
 ! Novels
-||miaobige.com^$xmlhttprequest
-||anyysz.com^
-||zzsdjq.com^
 .m.23sw.net^
 .m.3dllc.cc^
 .m.beidouxin.com^
@@ -12901,6 +12897,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||aercxy.com^
 ||aicydb.com^
 ||aikan6.com^
+||anyysz.com^
 ||apmengxin.com^
 ||awyys.com^
 ||axkxy.com^
@@ -12983,6 +12980,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||lyjz001.com^
 ||lzjycy.com^
 ||md0z4dh.com^
+||miaobige.com^$xmlhttprequest
 ||mmhhjt.com^
 ||mobiorg8.com^
 ||myycrw.com^
@@ -13061,6 +13059,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zxjjzx.com^
 ||zywhjd.com^
 ||zzhszj.com^
+||zzsdjq.com^
 ||zzsno1.com^
 ! Sex8.cc
 ###j-new-ad
