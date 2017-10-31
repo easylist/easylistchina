@@ -2565,6 +2565,7 @@ mg*.6park.com/img/$image
 ||103.225.198.230:8080/index.html
 ||104.216.179.228/vip/
 ||107.182.131.103/cache/?q=/images/
+||107cine.com/front/js/layer.js
 ||108.171.248.234^
 ||108tec.com/zbs/floatcnoil_
 ||10jqka.com.cn/public/stock/red.html?
@@ -4014,7 +4015,6 @@ mg*.6park.com/img/$image
 ||dfad.dfdaily.com^
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/tg/rightAd_v2.js
-||eastday.com/gg_channel.html
 ||dhtdig.xyz/static/jsaa/
 ||dhzw.org/m-
 ||dianxinnews.com/dpc01.jpg
@@ -4177,6 +4177,7 @@ mg*.6park.com/img/$image
 ||easou.com/brandImage/ad/
 ||easou.com/online/banner/
 ||eastday.com/assets/js/resources/detail/
+||eastday.com/gg_channel.html
 ||eastday.com/k.js
 ||eastmoney.com/js/headbiggg_
 ||eat-travel.com.tw^$third-party
@@ -5555,6 +5556,7 @@ mg*.6park.com/img/$image
 ||nownews.com/public/combat300x600.gif
 ||nphoto.net/media/camfi/camfi_
 ||nrsfh.com/neirong/
+||nszmz.com/scrtips/05sun.js
 ||ntpcb.com/html/channel/citypark/images/p83_shouqian_
 ||nuqk.com/qiwen
 ||nvsheng.com/js/gg.js
@@ -6816,6 +6818,7 @@ mg*.6park.com/img/$image
 ||yxdm.tv/js/gad.js
 ||yxdown.com/cj/
 ||yxdown.com/open/*ad
+||yxdown.com/pc/news/js/news
 ||yxlady.com/cdd/
 ||yxtvg.com/types/
 ||yxzoo.com/style/js/fmt.js
@@ -6955,17 +6958,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||nszmz.com/scrtips/05sun.js
-||107cine.com/front/js/layer.js
-||yxdown.com/pc/news/js/news
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-107cine.com##.flow-other
-107cine.com##.flow_right > DIV[style="margin-top:20px;"]
-m.07073.com##.main_content_tit + DIV
-iteye.com###ad_pop
-0517w.com###diynavtop
-aipai.com###pop_guide
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7167,7 +7161,7 @@ fengbao.com###ad_lazyload
 babyhome.com.tw###ad_m_peacock
 udn.com###ad_mag
 100ksw.com###ad_move_sg
-csdn.net###ad_pop
+csdn.net,iteye.com###ad_pop
 c114.net###ad_r1
 gagays.com###ad_rb_fixed
 400gb.com,bego.cc,ctfile.com,pipipan.com###ad_right_side
@@ -7529,7 +7523,7 @@ cool-de.com###diy_vk_ad_top
 dz19.net###diyad2
 pingpang.info###diycity1103
 im286.net###diyflash
-0743ds.com,365kl.net,3dezu.com,52ch.net,bbs.qbaobei.com,chcj.net,chinafix.com,cnyw.net,gz0668.com,luanren.com,mahoupao.net,mcncc.com,qilindao.com###diynavtop
+0517w.com,0743ds.com,365kl.net,3dezu.com,52ch.net,bbs.qbaobei.com,chcj.net,chinafix.com,cnyw.net,gz0668.com,luanren.com,mahoupao.net,mcncc.com,qilindao.com###diynavtop
 51nb.com###diynavtop + .t_rown[cellpadding="5"]
 bbs.pcbeta.com###diynavtop + style + div[class]
 yshw1.com###diynews_ad1
@@ -8023,6 +8017,7 @@ qq.com###pop_apps_sponsors
 ebiotrade.com###pop_banner1
 cnplugins.com###pop_div
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pop_frame
+aipai.com###pop_guide
 hinet.net###pop_media_ad
 fun01.cc,up01.cc###popad
 univisa.com.cn###popup
@@ -9413,6 +9408,8 @@ oschina.net##.float_adbox
 iqiyi.com##.float_div
 iqiyi.com##.float_div_r
 pic.sogou.com##.floating
+107cine.com##.flow-other
+107cine.com##.flow_right > div[style="margin-top:20px;"]
 newcger.com##.focus + .block934
 sj998.com##.focus-320-240
 17173.com##.focus-ad-l
@@ -9952,6 +9949,7 @@ qq.com##.main_ad_bottom
 qq.com##.main_ad_top
 hongfen.org##.main_adser
 cnbeta.com##.main_content_left > .mt5[style="text-align:center;"]
+m.07073.com##.main_content_tit + div
 tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
 tianjinwe.com##.mainadv
@@ -12371,7 +12369,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ! Baidu Union
-||a.53yao.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12459,6 +12456,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||9wushuo.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
+||a.53yao.com^
 ||a.5ykj.com^
 ||a.75111.com^
 ||a.80982.org^
