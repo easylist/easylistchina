@@ -4068,8 +4068,12 @@ mg*.6park.com/img/$image
 ||dmhy.ml^*g?$image
 ||dmzj.com/js/m_BtmApp.js
 ||dn-geekpark-new.qbox.me/uploads/ad/
+||dnvod.tv/2b/
+||dnvod.tv/3a/
 ||dnvod.tv/a2/
+||dnvod.tv/d4/
 ||dnvod.tv/gb/
+||dnvod.tv/Scripts/jquery.public-
 ||dnvod.tv/upload/public/
 ||dnvod.tv/vod/*.MP4
 ||dnvod.tv^*.gif$object-subrequest
@@ -6961,15 +6965,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||dnvod.tv/2b/
-||dnvod.tv/d4/
-||dnvod.tv/3a/
-||dnvod.tv/Scripts/jquery.public-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-qzone.qq.com###top_tips_seat
-dnvod.tv##DIV[style*="important"]
-dnvod.tv#?#DIV[style*="important"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8270,6 +8267,7 @@ hiapk.com###top_gg
 duba.com###top_joke
 huaban.com###top_promotion
 qzone.qq.com###top_tips_container
+qzone.qq.com###top_tips_seat
 wendu.cn###topads
 tianjinwe.com###topadv
 aibang.com###topadv_baidu_aibang
@@ -11379,6 +11377,7 @@ hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
 dfpan.com##div[style*="img.com/"]
+dnvod.tv##div[style*="important"]
 tiexue.net##div[style*="overflow: hidden; position: fixed;"]
 iplaysoft.com##div[style*="width:3"][style*="height:2"]
 dbw.cn##div[style*="width:300px; height:250px; "]
@@ -11525,6 +11524,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
 zuoye.baidu.com##dl[class="card related"]
+dnvod.tv#?#DIV[style*="important"]
 bbs.my0511.com##embed[width="970"][height="70"]
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(贊助))
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(赞助))
@@ -11827,7 +11827,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||zimuku.net/ads.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12340,6 +12339,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
 @@||zimuku.net/ad/ads.js
+@@||zimuku.net/ads.js
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 ! 99re.com
 .gif|$domain=99cc2.com|99ff5.com|99ff6.com|99re.com|99ww6.com
