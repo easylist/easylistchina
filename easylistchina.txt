@@ -485,6 +485,8 @@ _xiuno_com_ad/
 ##.ad_hf
 ##.ad_home_current
 ##.ad_midd
+##.ad_right_1
+##.ad_right_2
 ##.ad_thread
 ##.adsense160
 ##.adsense200
@@ -603,11 +605,8 @@ _xiuno_com_ad/
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.ad_right_1
-##.ad_right_2
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||nthtcs.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1755,6 +1754,7 @@ ubmcmm.baidustatic.com
 ||nr1234.com^
 ||nsnmiaomu.cn^
 ||nterbx.com^
+||nthtcs.com^
 ||nunc-china.com^
 ||nxrhs.com^
 ||nydql.com^
@@ -4020,6 +4020,7 @@ mg*.6park.com/img/$image
 ||dfad.dfdaily.com^
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/tg/rightAd_v2.js
+||dftoutiao.com/dfpcitv/
 ||dhtdig.xyz/static/jsaa/
 ||dhzw.org/m-
 ||dianxinnews.com/dpc01.jpg
@@ -6966,12 +6967,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||dftoutiao.com/dfpcitv/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bookgew.com###AdsT
-141hongkong.com###dialog
-dianyingbar.com###tmall_1111
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -6991,7 +6988,7 @@ elecfans.com###AdHtmlRight
 bbs-tw.com###AdImg
 qq.com###AdRight-Article-QQ
 1677.net###AdsE
-1677.net###AdsT
+1677.net,bookgew.com###AdsT
 114la.com,ylmf.com###AdvLink
 diyifanwen.com###ArtTl
 zol.com.cn###Article_Top_Banner
@@ -7490,6 +7487,7 @@ ytbbs.com###dd1
 sogou.com###detailRightAd
 fwxgx.com###detail_ad_middle
 stockstar.com###dhwzl
+141hongkong.com###dialog
 ttmeiju.com###dialog-overlay
 iciba.com###dict_right5
 chzhw.com###diqilai
@@ -8250,6 +8248,7 @@ xxdm.com,xxdm.org###tiepianDIV
 1ting.com###tingx_5
 wpsoso.com###tips
 dict.cn###tjcd
+dianyingbar.com###tmall_1111
 ali213.net###tmp_ggao
 ziyouge.com###toadsend
 hexun.com###tonglan_1 + .layout
@@ -8526,6 +8525,7 @@ ifeng.com##.acAd1
 ifeng.com##.acPicBox
 jiaju.shangdu.com##.accordion
 2345.com##.act-navspec
+2345.com##.act-navspecS
 qq.com##.action_ad
 rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
@@ -11282,8 +11282,7 @@ airav.cc##div[id^="Billing"]
 ganji.com##div[id^="GcnADId"]
 didiaotv.com##div[id^="HTML"]:not(#HTML3)
 tigtag.com##div[id^="Home942x70_"]
-2345.com##DIV[id^="J_Topic"]
-2345.com##.act-navspecS
+2345.com##div[id^="J_Topic"]
 tzfdc.com.cn##div[id^="LMT_"]
 360che.com##div[id^="PAGE_AD_"]
 0594.com##div[id^="PCMSAD_"]
