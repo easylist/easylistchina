@@ -11,8 +11,8 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
--880-80-4.jpg
 -1688-wp-media/ads/
+-880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -2586,6 +2586,8 @@ mg*.6park.com/img/$image
 ||111cn.net/js/downc*.js
 ||112.126.66.58^*?mid=
 ||113.17.188.44/*.js
+||114la.com/static/images/sy_ad
+||114la.com/static/upd/file/2017-11/suning
 ||114so.cn/js/nm*.js
 ||114so.cn^$subdocument
 ||115.28.114.149^*_proxy.
@@ -2596,6 +2598,7 @@ mg*.6park.com/img/$image
 ||119.167.73.60/m_code/
 ||119g.com/fanwan/
 ||119g.com/fanwan1/dibubanner.js
+||119g.com/mypic/
 ||119xiazai.com^$subdocument
 ||11img.com/ad/
 ||120.27.*.html
@@ -3260,6 +3263,7 @@ mg*.6park.com/img/$image
 ||adm.zbinfo.net^
 ||admaimai.com/inc/adv
 ||admd.yam.com^
+||admin25.com/ad/
 ||admin5.com/a5dao/
 ||admin5.com/bd360qq/action/
 ||admin5.com/daohang/
@@ -6965,14 +6969,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||admin25.com/ad/
-||114la.com/static/images/sy_ad
-||114la.com/static/upd/file/2017-11/suning
-||119g.com/mypic/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-im286.net###diy1
-im286.net###diy110
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7520,9 +7518,10 @@ ck101.com,pchome.com.tw###div_superbar_swf
 123du.cc,bokon.net###divtop2
 360doc.com###divunderZcommondAd
 360doc.com###divyoulikead
-0562.cc,528500.com,52jscn.com,5378cc.com,5imx.com,99nets.me,aayx.net,baihei.cc,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,qinzhou8.com,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
+0562.cc,528500.com,52jscn.com,5378cc.com,5imx.com,99nets.me,aayx.net,baihei.cc,bbs.52life.cc,chaling.cn,chcj.net,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,qinzhou8.com,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
 17jita.com###diy1 + .bm
 d7w.net###diy10
+im286.net###diy110
 cbber.com###diy2
 gpshk.cc,oneplusbbs.com,xiaot.com###diy4
 cbber.com,qilanxiaozhu.net,qzss.cn,xiaot.com###diy_chart
@@ -11793,7 +11792,7 @@ youqu.net#@#.adtop
 anjia365.com#@#.adv_bg
 zalora.com.hk#@#.advertisement-block
 jd.com#@#.adwords
-oldpig.org,popart.hk#@#.afs_ads
+7-11.co,oldpig.org,popart.hk#@#.afs_ads
 dingdong.ganji.com#@#.banner
 loveshares.cc#@#.banner-site
 10.10.5.12#@#.banner_ad
@@ -11828,7 +11827,6 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-7-11.co#@#.afs_ads
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
