@@ -607,7 +607,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||hxgccl.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1473,6 +1472,7 @@ ubmcmm.baidustatic.com
 ||hw6.com^
 ||hwmwin.com^$third-party
 ||hxadt.com^
+||hxgccl.cn^
 ||hxqu.com^$third-party
 ||hxyifu.com^
 ||hxyx360.com^
@@ -2561,7 +2561,9 @@ mg*.6park.com/img/$image
 ||1.hao123.com^
 ||100.admin5.com^
 ||10000xing.cn/images/we
+||100ksw.com/inc/doc-
 ||100ksw.com/include/ksbdfd.js
+||100ksw.com/ksbd/ksbdparad.js
 ||100xuexi.com/CssModel/*Layout.js
 ||100yangsheng.com/a1/a.js
 ||101.78.195.135/js/
@@ -3872,6 +3874,7 @@ mg*.6park.com/img/$image
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net/images/K10/adv/
 ||club.pchome.net/*/localexchange.php$subdocument
+||cmm.xmfish.com^
 ||cmsjs.eastmoney.com^$subdocument
 ||cna5.cc/skins/js/
 ||cnbeta.com/assets/images/*_670_90.
@@ -4076,6 +4079,7 @@ mg*.6park.com/img/$image
 ||dmhy.ml^*g?$image
 ||dmzj.com/js/m_BtmApp.js
 ||dn-geekpark-new.qbox.me/uploads/ad/
+||dnvod.tv/04/
 ||dnvod.tv/2b/
 ||dnvod.tv/3a/
 ||dnvod.tv/a2/
@@ -4083,10 +4087,9 @@ mg*.6park.com/img/$image
 ||dnvod.tv/gb/
 ||dnvod.tv/Scripts/jquery.public-
 ||dnvod.tv/upload/public/
-||dnvod.tv^*.MP4|
-||dnvod.tv/04/
 ||dnvod.tv^*.gif$object-subrequest
 ||dnvod.tv^*.jpg$object-subrequest
+||dnvod.tv^*.MP4|
 ||dnvod.tv^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic/*_978x60.
@@ -4277,6 +4280,7 @@ mg*.6park.com/img/$image
 ||fangying.tv/assets/xzy-
 ||fanhaobao.net/wp-content/themes/xiu/js/single.js
 ||fanhaojia.cc/afand/001.jpg
+||fans.*.space/fans/*.php
 ||fantizi5.com/js/ad*.js
 ||fantizi5.com/js/baiduad
 ||faxingw.cn/js/*0
@@ -5219,6 +5223,7 @@ mg*.6park.com/img/$image
 ||lagou.com/js/cooperation/
 ||laiqi.net/templets/wap/js/laiqi.js
 ||laixi.com/tp/20
+||lancdn.com/ptm/
 ||lancdn.com/tmp
 ||lang56.com/js/
 ||language-center.com.tw/udn/
@@ -6972,17 +6977,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||fans.*.space/fans/*.php
-||100ksw.com/ksbd/ksbdparad.js
-||100ksw.com/inc/doc-
-||lancdn.com/ptm/
-||cmm.xmfish.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-landiannews.com##.NOTICE
-7654.com##.layer_bottom_img
-7654.com##.layer_main_img
-7654.com##.layer_mask
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8493,6 +8489,7 @@ edu.qq.com##.L
 cwan.com##.L_ad_12
 cwan.com##.L_ad_22
 shenchuang.com##.MainR_ad3
+landiannews.com##.NOTICE
 07073.com##.No1
 bing.com##.OpInNwWndw
 chinaz.com##.Postcon-ad
@@ -9867,6 +9864,9 @@ le.com##.lay_body[style^="width:490px;height:320px;"]
 le.com##.lay_body[style^="width:980px;height:100px;"]
 le.com##.lay_body[style^="width:980px;height:90px;"]
 le.com##.lay_title[style^="width:490px;height:60px;"]
+7654.com##.layer_bottom_img
+7654.com##.layer_main_img
+7654.com##.layer_mask
 firefoxchina.cn##.layout > .banner
 szonline.net##.layout_ad
 gkstk.com##.layui-layer
