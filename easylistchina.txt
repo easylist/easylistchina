@@ -6904,8 +6904,8 @@ mg*.6park.com/img/$image
 ||zhushou.360.cn/script/plugin_tiper.js
 ||zhzyw.org/js/InsertJS.js
 ||zi.kfqdf.com^
-||zimuku.net/fgm/960x90.jpg
-||zimuku.net/images/v2/js/b.js
+||zimuku.*/fgm/960x90.jpg
+||zimuku.*/images/v2/js/b.js
 ||zimuzu.tv/public/rooms?
 ||zimuzu.tv/rrlx
 ||zisai.com/template/comiis_nby/ads/
@@ -6970,6 +6970,8 @@ mg*.6park.com/img/$image
 ||imgggadpic.oss-cn-shenzhen.aliyuncs.com^
 !------------------------Specific element hiding rules------------------------!
 163.com##.tie-ad-bar
+zimuku.cn##DIV[style^="width:8"]
+zimuku.cn##.li[style^="width:8"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
