@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/ntes-ad-cloud.
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -221,6 +220,7 @@
 /naimabdd_1010/*
 /nanrenpeng/ads/*
 /new_site_topad^
+/ntes-ad-cloud.
 /paypic/*
 /pc/Tpl/baibaipc//js/*
 /pc/Tpl/baibaipc/js/*
@@ -3328,7 +3328,7 @@ mg*.6park.com/img/$image
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
-||alicdn.com^$domain=acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|wenkuxiazai.com|zhev.com.cn
+||alicdn.com^$domain=acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|wenkuxiazai.com|zhev.com.cn|zuqiu.me
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alifeifei.net/s/*.js
@@ -4886,6 +4886,7 @@ mg*.6park.com/img/$image
 ||imgchili.net/media/top.gif
 ||imgchr.com^$domain=iyejie.com
 ||imgf.gamersky.com^$image
+||imgggadpic.oss-cn-shenzhen.aliyuncs.com^
 ||imgkdiyoub999.com/ok/
 ||imgme.me/images/*.gif
 ||imgmega.com/i/*.gif$domain=18avhub.com|18avtube.com|mm-cg.com
@@ -5727,6 +5728,7 @@ mg*.6park.com/img/$image
 ||poco.cn/mypoco/myphoto/20140418/18/5589980820140418182334072.gif
 ||poco.cn/mypoco/myphoto/20140423/19/5589980820140423191248067.gif
 ||popme.163.com/js/vedioad_
+||popme.163.com^
 ||popomh.com/js/
 ||poppur.com/banner/962x100.gif
 ||poster.weather.com.cn^
@@ -6965,13 +6967,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||popme.163.com^
-||alicdn.com^$domain=zuqiu.me
-||imgggadpic.oss-cn-shenzhen.aliyuncs.com^
 !------------------------Specific element hiding rules------------------------!
-163.com##.tie-ad-bar
-zimuku.cn##DIV[style^="width:8"]
-zimuku.cn##.li[style^="width:8"]
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7820,6 +7816,7 @@ iqiyi.com###jingdongArea
 cnbeta.com###job_box
 aiyuke.com###js-ad-type4
 tigtag.com###js-dropdown
+163.com###js-ep3rdRank
 haosou.com,so.com###js-mod-fixed-float
 zhanqi.tv###js-room-flash-banner-panel
 100shuai.com###js_lol_ad
@@ -9517,7 +9514,6 @@ skinme.cc,ts.cn,xinhuanet.com##.gg2
 dedejs.com,sucaijiayuan.com##.gg250
 angelweb.cn##.gg250x250
 ifeng.com##.gg298
-163.com###js-ep3rdRank
 iqilu.com##.gg300250dbl
 chinasexq.com##.gg300x250
 lcxw.cn,ts.cn##.gg4
@@ -9883,7 +9879,7 @@ g1080.com##.leftlink
 muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 topsage.com##.leftrightbox
-zimuku.net##.li[style^="width:8"]
+zimuku.cn,zimuku.net##.li[style^="width:8"]
 lywww.com##.lianmengclass
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
 xiaoyun.com##.link-ads
@@ -10593,6 +10589,7 @@ cnool.net##.third-banner
 jbtalks.cc##.threadad
 m.tiexue.net##.threeImg.titleUp
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
+163.com##.tie-ad-bar
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
 2345.com,hao774.com##.tip_stopXP
 mail.qq.com##.tipbook-top
@@ -11507,7 +11504,7 @@ house365.com##div[style^="width:1200px;height:"]
 pc0359.cn##div[style^="width:301px;height:250px;"]
 avonline.org##div[style^="width:613px; height:"]
 jpwind.com##div[style^="width:730px; height:90px;"]
-zimuku.net##div[style^="width:8"]
+zimuku.cn,zimuku.net##div[style^="width:8"]
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 9724.com##div[style^="width:9"][style*="height:82px;"]
 hbrc.com##div[style^="width:960px; height:90px; "]
@@ -11823,8 +11820,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||jd.com/adclick?$popup,~third-party
-@@||zimuku.cn/ads.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12143,6 +12138,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||itc.cn/public_photo/advert/$domain=focus.cn
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||ja.gamersky.com/common/down_info.js
+@@||jd.com/adclick?$popup,~third-party
 @@||jdfood.com.tw/Upload/ADImages/*Image.jpg
 @@||jijidown.com/chrome/$elemhide
 @@||jinhongweiqi.com/ad/update/
@@ -12333,6 +12329,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhibowu.com/ad2.htm
+@@||zimuku.cn/ads.js
 @@||zimuku.net/ad/ads.js
 @@||zimuku.net/ads.js
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
