@@ -609,7 +609,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||chucity.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1151,6 +1150,7 @@ ubmcmm.baidustatic.com
 ||chinesean.com^$third-party
 ||chmae.com^
 ||chnhty.com^
+||chucity.com^
 ||chushoushijian.cn^
 ||ciajingman.com^
 ||cifenqi.com^$third-party
@@ -2621,6 +2621,7 @@ mg*.6park.com/img/$image
 ||126.com/get.do?*=themeHandler.
 ||126.net/house/hangzhou/ad/
 ||126.net/house/hrb/flash/*X
+||126.net/ntesrich/*/suning-
 ||126xiazai.com/static/rili-
 ||127.net/external/js6promote
 ||127.net/m/*/promPic.jpg
@@ -4969,6 +4970,7 @@ mg*.6park.com/img/$image
 ||ithome.com/file/js/lapin-load.js
 ||ithome.com/file/js/money/
 ||ithome.com/images/1068.jpg
+||ithome.com/images/hongbao/
 ||ithome.com/images/huawei.jpg
 ||ithome.com/js/lapin/hot.js
 ||ithome.com/js/recommend.js
@@ -6278,6 +6280,7 @@ mg*.6park.com/img/$image
 ||thinksaas.cn/images/upyun_
 ||thisav.com/0*.js
 ||thisav.com/index.js
+||thsi.cn/cb?/js/ifund/sideBarAd_
 ||thzok.com/6/
 ||thztv.net/tool/
 ||tianjimedia.com/s?z=
@@ -6958,18 +6961,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||126.net/ntesrich/*/suning-
-||thsi.cn/cb?/js/ifund/sideBarAd_
-||ithome.com/images/hongbao/
 !------------------------Specific element hiding rules------------------------!
-163.com###suning-bottom-banner
-160.com###w-advertisement
-160.com###w-btn-advertisement
-114la.com###GameAdv
-114la.com###Gamepng
-114la.com##.ontheMZ
-163.com##.idx_textlink_ad
-xitongzhijia.net##.m-red-packet
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7014,6 +7006,8 @@ chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatLa
 chinatp.com.cn###FloatRb
 angelweb.cn###G640x60
+114la.com###GameAdv
+114la.com###Gamepng
 aipai.com###GmAppBanner
 hupu.com###HCFull
 azofreeware.com###HTML1
@@ -8200,6 +8194,7 @@ sogou.com###spreadAd
 srzc.com###srzcad
 1616.net###stool
 showtv.com.tw###sub-ad
+163.com###suning-bottom-banner
 vfe3.com###swtleft
 yxdown.com###sy
 windowszj.com###system_type
@@ -8322,6 +8317,8 @@ loldk.com###video_right_ad
 loldk.com###video_right_ad2
 aipai.com###videosRightDown
 jstv.com###vplayad
+160.com###w-advertisement
+160.com###w-btn-advertisement
 zqzq.com###wAdTop1
 zqzq.com###wAdTop2
 weishangshijie.com###wad_left
@@ -9688,6 +9685,7 @@ m.toutiao.com##.icon_ad + div + a
 easylife.tw,ettoday.net##.idleAd
 isso.com.cn##.idxAdv
 haodou.com##.idx_ad_box
+163.com##.idx_textlink_ad
 163.com##.idx_tonglan_ad
 163.com##.idx_top_ad
 ifeng.com##.ifgBoxAdLis
@@ -9936,6 +9934,7 @@ moe123.net##.m-inner2[module="overview"]
 uc123.com##.m-link
 sina.com.cn##.m-p1-lb1-ad
 sina.com.cn##.m-p3-ad
+xitongzhijia.net##.m-red-packet
 3g.cn##.mOrder > div > .list_block
 myexception.cn##.m_a
 sohu.com##.m_ad
@@ -10099,6 +10098,7 @@ duba.com##.oneone-search
 pgzhibo.com##.onlineqq
 pgzhibo.com##.onlineqq_left
 udn.com##.only_web > .DisplayVideo
+114la.com##.ontheMZ
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##.op_tvplay_main
 ifeng.com##.opcPop_tit_zz
 news.sina.cn##.open
