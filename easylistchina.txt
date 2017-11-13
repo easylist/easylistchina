@@ -610,7 +610,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||lvehaisen.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1679,6 +1678,7 @@ ubmcmm.baidustatic.com
 ||lubosheng.cn^
 ||lucting.cn^
 ||lv711.net^$third-party
+||lvehaisen.com^
 ||lx167.com^$third-party
 ||lxqcgj.com^
 ||lyaeccn.com^
@@ -2760,6 +2760,7 @@ mg*.6park.com/img/$image
 ||2345.com/images/tgPic/gameTmp-
 ||2345.com/index.php?a=getDetailGg&
 ||2345.com/jifenimg/img/common/logo.png$third-party
+||2345.com/js/v6/tuia.js
 ||2345.com/right/site/like/gul_
 ||2345.com/xiaoimg/swf/flash/
 ||2345.com^*/activity/20171
@@ -2979,6 +2980,7 @@ mg*.6park.com/img/$image
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
 ||576tv.com/Scripts/home.js
+||57fx.com/img/20170508.jpg
 ||57tvtv.com/js/iso2.js
 ||57tvtv.com/k.js
 ||57tvtv.com/zhong.js
@@ -3756,6 +3758,7 @@ mg*.6park.com/img/$image
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.shdsp.net/ad
+||cdn.wuyou.ca^
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
@@ -4462,6 +4465,7 @@ mg*.6park.com/img/$image
 ||gongfupian.com/js/wuxiatui/
 ||goods.tudou.com/api?
 ||gopher.qiniudn.com/bar/submail-
+||goproxy.cc/api.php
 ||goto.www.iciba.com^
 ||gotourl.xyz^
 ||gougou2018.com/js/item
@@ -6984,16 +6988,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzsao.com/data/attachment/portal/201707/08/135857dkt8trrxk3g8zvq8.png
 ||zzzyk.com/js/
-||2345.com/js/v6/tuia.js
-||cdn.wuyou.ca^
-||57fx.com/img/20170508.jpg
-||goproxy.cc/api.php
 !------------------------Specific element hiding rules------------------------!
-51.ca##._51_a_c
 gpcxw.com###AA2
-smzdm.com##.beiwo
-smzdm.com##.side-stuff
-muchong.com###banner2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7314,6 +7310,7 @@ iwan.baidu.com###banner-info
 qidian.com###banner-two
 360.cn###banner0
 qidian.com###banner1
+muchong.com###banner2
 ksbbs.com,kshot.com###banner2_top
 qidian.com###banner3
 99tianji.com###banner_gg
@@ -8525,6 +8522,7 @@ avmimi.com,mm-cg.com##.UT_thread
 tuwan.com##.Video-r-ad
 dfdaily.com##.WEB1_TOPBANNER
 news.china.com.cn##.Wrapper > div[style]
+51.ca##._51_a_c
 zol.com.cn##._j_tmall_banner_pc
 qq.com##._switchad
 m.sohu.com##._tg2
@@ -9063,6 +9061,7 @@ e23.cn##.bdggtb
 baidu.com##.bds-list-ads
 yesky.com##.bdtj
 pinshan.com##.bea_adv2
+smzdm.com##.beiwo
 dnvod.tv##.bfq-r
 muchong.com##.bg > .wrapper:nth-child(17) > .forum_Post_index
 uc123.com##.bg-wrapper
@@ -10437,6 +10436,7 @@ wallstreetcn.com##.side-money
 firefox.com.cn,firefoxchina.cn##.side-notice
 firefoxchina.cn##.side-promote
 firefoxchina.cn##.side-recommend
+smzdm.com##.side-stuff
 17huohu.com,firefoxchina.cn##.side-tool-outer > div[class]:first-child
 17huohu.com,firefoxchina.cn##.side-tpth
 niutuku.com##.sideAD
@@ -12390,7 +12390,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{10,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||ka5188.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12720,6 +12719,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||jsf.cnlinfo.net^
 ||jskrnekewe.mofans.net^
 ||jsm.9939.com^
+||ka5188.com^
 ||kuhou.com^$third-party
 ||kuku99.com^$third-party
 ||kxji.com^$third-party
@@ -13120,6 +13120,7 @@ dj92cc.com,tingqq.com#@#.share_list
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@/analytics.php?$domain=xcar.com.cn
+@@/fingerprint2.min.js$domain=passport.vpgame.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -13179,5 +13180,4 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@/fingerprint2.min.js$domain=passport.vpgame.com
 !----------------------------------The End------------------------------------!
