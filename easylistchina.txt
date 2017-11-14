@@ -11129,7 +11129,6 @@ baidu.com#?#.ec_wise_ad
 api.so.lianmeng.360.cn,pos.baidu.com##body
 qzwb.com##body > .area[style^="height:60px;"]
 hdwan.net##body > div[style]
-dm456.com##body > div[style^="height:90px;"]
 wendu.cn##body > div[style^="width:1000px;"]
 18h.avmimi.com##body > p[align="center"]:first-child
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
@@ -11427,10 +11426,8 @@ housefindeasy.com##div[style="height:90px"]
 panzz.com##div[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
 haokoo.com##div[style="margin-bottom:10px;height:250px;overflow:hidden;"]
-zimuzu.tv##div[style="margin-bottom:1em; text-align:center;width:700px;overflow:hidden;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 itnose.net##div[style="margin-top:10px;border: 1px solid #CCC;background-color: #FFF;width: 1088px;padding:5px 5px 0px 5px;height:100px"]
-thzbbs.com##div[style="margin-top:5px"] > table[bordercolor="#999999"]
 52ch.net##div[style="margin-top:5px; height:80px;"]
 108.62.192.124,plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
@@ -11720,7 +11717,6 @@ cgvoo.com,mrmad.com.tw,pbhz.com#@##adsense
 182.18.61.50#@##adslist
 leduwo.com,wenku8.com,yaerwen.com#@##adtop
 union.58.com#@##advertise
-2d-gate.org#@##banner_ad
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
@@ -11829,6 +11825,7 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||g.alicdn.com^*/banner_ad_
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
@@ -11879,7 +11876,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/home/ads/*$domain=esunbank.com.tw
 @@/ima/*ad.$domain=feemoo.com|feimaott.com
 @@/images/*/*.gif$domain=67.228.203.174|iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
-@@/images/ad$domain=10pan.cc|789xz.com|gueizu.com|sju.wang|wwp5.com
+@@/images/ad$domain=789xz.com|gueizu.com|sju.wang|wwp5.com
 @@/images/ad/*$domain=9588.com|dod-tec.com|jxedt.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
@@ -12208,7 +12205,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||pos.baidu.com^*?di=1167512&$domain=jkpan.cc
 @@||pos.baidu.com^*?di=943217&$domain=missioncouver.com.cn
 @@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
-@@||poster.weather.com.cn/p_files/base/$image
 @@||pub.alimama.com/common/adzone/
 @@||pubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvbs.com.tw
 @@||pubimg-weichouji.sina.com/img/ad/
@@ -12847,8 +12843,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
-|http:$script,third-party,xmlhttprequest,domain=alicili.net|btdigg.xyz|btkitty.pet|btlibrary.ws|cilidaquan.pw|diggbt.fyi|savebt.com|storebt.pw|torrentkitty.uno|zhongzicili.me
-|https:$script,third-party,xmlhttprequest,domain=alicili.com|btdigg.fyi|btkitty.pet|btlibrary.pw|cilidaquan.pw|diggbt.fyi|savebt.com|storebt.pw|torrentkitty.red|zhongzicili.me
+|http:$script,third-party,xmlhttprequest,domain=alicili.net|btdigg.xyz|btkitty.pet|btlibrary.ws|cilidaquan.pw|diggbt.fyi|savebt.com|storebt.biz|torrentkitty.uno|zhongzicili.me
+|https:$script,third-party,xmlhttprequest,domain=alicili.com|btdigg.fyi|btkitty.pet|btlibrary.pw|cilidaquan.pw|diggbt.fyi|savebt.com|storebt.biz|torrentkitty.red|zhongzicili.me
 ||bjwwfx001.org.cn^
 ||bycxsh.com^
 ||ccbccb.cn^
@@ -13141,7 +13137,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||cupid.iqiyi.com/crossdomain.xml
 @@||cupid.iqiyi.com/show2?a=qc_
 @@||cupid.iqiyi.com/show2?e=
-@@||g.alicdn.com^*/banner_ad_
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||google-analytics.com/analytics.js$domain=komica.org|support.amd.com
 @@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
