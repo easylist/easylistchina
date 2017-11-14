@@ -2426,6 +2426,7 @@ ubmcmm.baidustatic.com
 /435f1c6f9f6b545254a00e426b9aeae1.
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
+/\.dnvod\.tv\/[^\.]+$/$object-subrequest,domain=dnvod.tv
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
@@ -2782,6 +2783,8 @@ mg*.6park.com/img/$image
 ||289.com/cqws/images/cqws-img.jpg
 ||28hse.com/adsman/www/images/
 ||2btu.com/gg.jpg
+||2ccc.com/images/aobi.gif
+||2ccc.com/images/sdo.jpg
 ||2ccc.com/images/show/
 ||2ccc.com/images/sino.gif
 ||2ccc.com/images/WebXone.gif
@@ -4083,6 +4086,7 @@ mg*.6park.com/img/$image
 ||dnvod.tv/91/
 ||dnvod.tv/a2/
 ||dnvod.tv/d4/
+||dnvod.tv/f9/
 ||dnvod.tv/gb/
 ||dnvod.tv/Scripts/jquery.public-
 ||dnvod.tv/Scripts/p1.js
@@ -6987,10 +6991,6 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||2ccc.com/images/aobi.gif
-||2ccc.com/images/sdo.jpg
-/\.dnvod\.tv\/[^\.]+$/$object-subrequest,domain=dnvod.tv
-||dnvod.tv/f9/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -8225,6 +8225,7 @@ srzc.com###srzcad
 1616.net###stool
 showtv.com.tw###sub-ad
 163.com###suning-bottom-banner
+265g.com###swiper-bot
 vfe3.com###swtleft
 yxdown.com###sy
 windowszj.com###system_type
@@ -10292,7 +10293,6 @@ ilxdh.com,image.baidu.com,xizi.com##.recommend
 tvsou.com##.recommend-img
 hao123.com##.recommend-link
 le.com##.recommend-part-right
-265g.com###swiper-bot
 passiontimes.hk##.rectAd300
 passiontimes.hk##.rectAd680
 chinaz.com##.red[href*=".wsisp.net/"]
@@ -10944,6 +10944,7 @@ bilibilijj.com##[onclick*=".taobao."]
 bilibilijj.com##[style*=" background-size: 100%"]
 bilibilijj.com##[style*="background-image:"]:not(.UserInfo)
 dilidili.wang##[style*="fixed"]
+dnvod.tv##[style*="important"]
 bilibilijj.com##[style="height:100%;"]
 acgnx.se##a > img[src^="/images/"]
 1haza.com##a > img[src^="/template/1haza/images/"]
@@ -11394,7 +11395,6 @@ hbrc.com##div[style*="height:250px;"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 hbrc.com##div[style*="height:260px;"]
 dfpan.com##div[style*="img.com/"]
-dnvod.tv##[style*="important"]
 tiexue.net##div[style*="overflow: hidden; position: fixed;"]
 iplaysoft.com##div[style*="width:3"][style*="height:2"]
 dbw.cn##div[style*="width:300px; height:250px; "]
@@ -13157,6 +13157,8 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||googletagmanager.com/gtm.js?$domain=support.amd.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
+@@||hk01.com^*/ga_trace.js
+@@||hk01.com^*/scripts/ga.js
 @@||hm.baidu.com^$domain=ihome99.com
 @@||ipip.net/ping.php?
 @@||jd.com/setCookie?
@@ -13183,6 +13185,4 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@||hk01.com^*/scripts/ga.js
-@@||hk01.com^*/ga_trace.js
 !----------------------------------The End------------------------------------!
