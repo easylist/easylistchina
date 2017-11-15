@@ -2533,7 +2533,6 @@ mg*.6park.com/img/$image
 |http:$script,third-party,xmlhttprequest,domain=m.soduso.com
 |http:$subdocument,domain=pc6.com
 |http:$third-party,domain=icpmp.com
-|http://*/83/$domain=am5200.com|haowan.ru|kv130.com|kv700.com|we5200.com|we560.com
 |http://*/ad_bj.js?
 |http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com
@@ -11797,6 +11796,7 @@ gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||120.132.57.41/pjk/pag/
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
@@ -11852,7 +11852,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img_ad/*$domain=tkec.com.tw
-@@/Loadads.$domain=webcars.com.cn
+@@/loadads.$domain=webcars.com.cn
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/pic/ad/*$domain=ybjk.com
 @@/pop.js|$domain=189.cn|ali213.net
@@ -13089,7 +13089,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=www.taobao.com|www.tmall.com
 @@=mm_33231655_8000000_$domain=www.taobao.com
-@@||120.132.57.41/pjk/pag/
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
@@ -13104,7 +13103,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||bagehd.com/iplookup.
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
-@@||count.video.sina.com.cn^*?video_ids=
 @@||cupid.iqiyi.com/crossdomain.xml
 @@||cupid.iqiyi.com/show2?a=qc_
 @@||cupid.iqiyi.com/show2?e=
@@ -13142,4 +13140,5 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
+@@||count.video.sina.com.cn^*?video_ids=
 !----------------------------------The End------------------------------------!
