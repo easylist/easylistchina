@@ -607,6 +607,8 @@ _xiuno_com_ad/
 ##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/47650fdad90b35b07d9339b792713f7e.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
+##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ A[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ SPAN[class^="f"] > span > A[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
@@ -6974,7 +6976,11 @@ mg*.6park.com/img/$image
 ||yorkbbs.ca/yorkads/
 ||55188.com/2017-1111/
 ||sina.cn^*/impress?
+||srimg.com/u/20171114/20070541.gif
+||sinaimg.cn/large/006VacwCgy1fjq23teqx6g30og028wt8.gif
+||sinaimg.cn/large/006ZdrOOgy1flbrubi93eg30m801oaff.gif
 !------------------------Specific element hiding rules------------------------!
+t66y.com##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ br:nth-child(-n+226)
 yorkbbs.ca##.textNewsBorder
 gpcxw.com###AA2
 55188.com##.g-pop
