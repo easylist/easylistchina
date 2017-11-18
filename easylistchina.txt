@@ -492,6 +492,7 @@ _xiuno_com_ad/
 ##.ad_right_1
 ##.ad_right_2
 ##.ad_thread
+##.ads > a > img[src*=".sinaimg."]
 ##.adsense160
 ##.adsense200
 ##.adsoho
@@ -512,6 +513,7 @@ _xiuno_com_ad/
 ##.chat-top-ad
 ##.comiis_adbox
 ##.con_ad
+##.content-video > .ads
 ##.content_ad_300
 ##.customSlideshow-ad-below
 ##.d_slidebanner
@@ -582,6 +584,7 @@ _xiuno_com_ad/
 ##.yd_ad6
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
 ##a[href*=".com/?Extend="]
@@ -610,11 +613,7 @@ _xiuno_com_ad/
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
-##.ads > A > IMG[src*=".sinaimg."]
-##.content-video > .ads
-~sinaimg.cn##A > IMG[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 !----------------------------------Ads-Union----------------------------------!
-||9w39.com^$third-party
 .8ox.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -981,6 +980,7 @@ ubmcmm.baidustatic.com
 ||9ead.com^$third-party
 ||9kff.com^
 ||9w1an.com^$third-party
+||9w39.com^$third-party
 ||9xu.com^$third-party
 ||a.youdao.com^
 ||a0b11.com^
@@ -5271,6 +5271,7 @@ mg*.6park.com/img/$image
 ||lecai.com/page/zhuanti/baidu/
 ||leju.com/abp/cmslead_new.js
 ||letv.com/pzt/hyhmzq/index.shtml
+||letv.com/s?ark=
 ||letv.com/s?ark=*&cis=
 ||letvcdn.com/js/*_focus_flash.js
 ||letvimg.com*gugwl/$object-subrequest
@@ -5984,6 +5985,7 @@ mg*.6park.com/img/$image
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
+||s1-a1.dnvod.tv^
 ||s1.pplive.cn/sta.js
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
@@ -6941,6 +6943,7 @@ mg*.6park.com/img/$image
 ||zjphoto.yinsha.com/upload/swf/
 ||zkrdy.com^
 ||zmtiantang.com/static/m.js
+||zmzjstu.com/g3/tool
 ||znz888.cn/modblock/
 ||zo66.com^
 ||zol.com.cn/active/*guomei
@@ -6989,9 +6992,6 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||zmzjstu.com/g3/tool
-||s1-a1.dnvod.tv^
-||letv.com/s?ark=
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -11832,7 +11832,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||nod32key.xyz^$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12187,6 +12186,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||netsh.org^$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@||news.u17i.com/advert/
 @@||noahedu.com/ad/$domain=noahedu.com
+@@||nod32key.xyz^$generichide
 @@||nthu.edu.tw/list_ad.php
 @@||omusic.com.tw/backend/uploadpic/adindex/
 @@||on.cc/html/AC_RunActiveContent.js
