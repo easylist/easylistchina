@@ -2402,7 +2402,7 @@ ubmcmm.baidustatic.com
 ||qx568.com^$popup
 ||sohu.com/i/?pvid=$popup
 ||son999.com^$popup,third-party
-||taobao.com^$popup,domain=bilibilijj.com|dlkoo.com|gaoqingkong.com|iqiyi.com
+||taobao.com^$popup,domain=bilibilijj.com|gaoqingkong.com|iqiyi.com
 ||tmall.com^$popup,domain=iqiyi.com
 ||todayapp.tv^$popup,third-party
 ||u26u.com^$popup,third-party
@@ -4088,7 +4088,6 @@ mg*.6park.com/img/$image
 ||djwma.com/qq.jpg
 ||djwma.com/tc.js
 ||dldl2.com/00tb/
-||dlkoo.com/down/copy
 ||dm.aizhan.com^
 ||dm1.tom61.com^
 ||dm456.com/install/loading.html
@@ -12881,6 +12880,16 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultgao.com|baocee.com|baofee.com|baonee.com|baopee.com|baowee.com|baoxee.com|baozoo.com|caoporn.com|caouoo.com|caoxee.com|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vgao.xyz|vlang.xyz|vwan.xyz
 ! Caoporn.com
 2c2.website,2p8.space,adultgao.com,baocee.com,baofee.com,baonee.com,baopee.com,baowee.com,baoxee.com,baozoo.com,caoporn.com,caouoo.com,caoxee.com,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vgao.xyz,vlang.xyz,vwan.xyz##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
+! Dlkoo.com
+dlkoo.com##INS[id^="tanxssp-outer-conmm_"]
+|http:$script,subdocument,third-party,domain=dlkoo.com
+||dlkoo.com/down/$subdocument
+@@||alicdn.com^*/tanxssp.js$domain=dlkoo.com
+@@||tanx.com/ex?i=$script,domain=dlkoo.com
+@@||dlkoo.com/down/Copyright.js
+@@||dlkoo.com/down/copy1117.js
+||dlkoo.com/down/copy
+||taobao.com^$popup,domain=dlkoo.com
 ! Novels
 .m.23sw.net^
 .m.3dllc.cc^
