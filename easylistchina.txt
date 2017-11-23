@@ -2629,6 +2629,7 @@ mg*.6park.com/img/$image
 ||114la.com/static/upd/file/2017-11/suning
 ||114so.cn/js/nm*.js
 ||114so.cn^$subdocument
+||114txt.com/hello/
 ||115.28.114.149^*_proxy.
 ||115.29.141.121^
 ||115.29.46.146^$subdocument
@@ -2831,6 +2832,7 @@ mg*.6park.com/img/$image
 ||33.autoimg.cn/homeurl/*.js
 ||33.autoimg.cn/t/Adhtmlnet/*.jpg
 ||33.autoimg.cn/t/Adhtmlnet/*.swf
+||3344mf.com/js/
 ||3344xu.com/js/
 ||3399.com/act/5599/js/kuang
 ||3399.com/act/fk/
@@ -2903,7 +2905,6 @@ mg*.6park.com/img/$image
 ||400516.com/data/attachment/album/
 ||40064008.com/topjs/
 ||4020.la/hi
-||114txt.com/hello/
 ||40407.com/plus/pthc/zqdl.php?
 ||40407.com/plus/rpad/
 ||40407.com/plus_rpad_
@@ -3443,6 +3444,7 @@ mg*.6park.com/img/$image
 ||autofan.com.cn/zhaoning/*.gif
 ||autofan.com.cn/zhaoning/20*.jpg
 ||autofan.com.cn/zhaoning/GG-
+||autohome.com.cn/api/liveplayer$domain=~live.autohome.com.cn
 ||autoimg.cn/ad.js
 ||autoimg.cn/admdfs/*.swf
 ||autoimg.cn/admdfs/Adhtmlnet/
@@ -4116,6 +4118,7 @@ mg*.6park.com/img/$image
 ||dnvod.tv/b9/
 ||dnvod.tv/d4/
 ||dnvod.tv/f9/
+||dnvod.tv/ffcX/
 ||dnvod.tv/gb/
 ||dnvod.tv/Home/ObtainPublic
 ||dnvod.tv/Scripts/jquery.public-
@@ -5565,6 +5568,7 @@ mg*.6park.com/img/$image
 ||narutom.com/v2/v/$subdocument
 ||nb.zol.com.cn/detail_*.html
 ||nba98.com/res/js.js
+||nbegame.com/nbead/
 ||nbyayu.cn/player.swf
 ||ncdiy.com/webindex/300-250AD.swf
 ||neihanshe.cn/upload/2014-09-24/46d6992067f9ad73daffac4cd519e11b.jpg
@@ -5803,6 +5807,7 @@ mg*.6park.com/img/$image
 ||pub.mop.com^
 ||pub.stockstar.com/feedback/
 ||pub.sxrtv.com/crossdomain.xml
+||public.dnvod.tv^$xmlhttprequest
 ||publish.ad.youth.cn^
 ||puudeng.com.tw^$subdocument
 ||q.cn/images/floater_
@@ -7008,15 +7013,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||public.dnvod.tv^$xmlhttprequest
-||dnvod.tv/ffcX/
-||nbegame.com/nbead/
-||3344mf.com/js/
-||autohome.com.cn/api/liveplayer$domain=~live.autohome.com.cn
 !------------------------Specific element hiding rules------------------------!
-autohome.com.cn###live_rec
 gpcxw.com###AA2
-fhm.com.tw###add-box
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7246,6 +7244,7 @@ localking.com.tw###adbannerurl
 dahanju.com,xskhome.com,yxdown.com###adbg
 tbtdg.com###adblockWarning
 lzep.cn###add
+fhm.com.tw###add-box
 17yy.com###addiv
 rj.baidu.com###ader
 iqiyi.com###adflash
@@ -7912,6 +7911,7 @@ cwyuni.tw###links-row-1 > div[id^="box"]:not(#box32499):not(#box1026387):not(#bo
 51cto.com###list4
 90bifen.com###live > table[cellspacing="0"][cellpadding="0"]
 marstv.com###live_ad
+autohome.com.cn###live_rec
 500.com###live_top_ad
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###lm
 bukade.com###loadimg
@@ -12404,7 +12404,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{10,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|muchong.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|sina.cn|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||sjzqu.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12803,6 +12802,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||shili.wanyx.com^
 ||shop265.com^
 ||shuqw.com^$third-party
+||sjzqu.com^
 ||ss.shicimingju.com^
 ||star-media.cn^$third-party
 ||static.365inews.com^
@@ -13190,6 +13190,7 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||hk01.com^*/ga_trace.js
 @@||hk01.com^*/scripts/ga.js
+@@||hm.baidu.com/h.js$domain=baomihua.com
 @@||hm.baidu.com^$domain=ihome99.com
 @@||ipip.net/ping.php?
 @@||jd.com/setCookie?
@@ -13216,5 +13217,4 @@ dj92cc.com,tingqq.com#@#.share_list
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
-@@||hm.baidu.com/h.js$domain=baomihua.com
 !----------------------------------The End------------------------------------!
