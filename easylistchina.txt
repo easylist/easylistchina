@@ -618,9 +618,6 @@ _xiuno_com_ad/
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
-||tudown.com^$third-party
-||quanbailing.com^$third-party
-||sums.suning.com^$third-party
 .8ox.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -1874,6 +1871,7 @@ ubmcmm.baidustatic.com
 ||qshxc.com^
 ||qtmojo.cn^
 ||qtmojo.com^$third-party
+||quanbailing.com^$third-party
 ||quansj.cn^
 ||qubilou.com^$third-party
 ||qucaigg.com^
@@ -1984,6 +1982,7 @@ ubmcmm.baidustatic.com
 ||sub.topber.com^
 ||subo.me^$third-party
 ||sucodb.com^
+||sums.suning.com^$third-party
 ||sunjianhao.com^
 ||superfastcdn.com^
 ||superfish.com^$third-party
@@ -2052,6 +2051,7 @@ ubmcmm.baidustatic.com
 ||ttfgames.cn^
 ||ttlowe.com^
 ||ttz.com^$third-party
+||tudown.com^$third-party
 ||tukeai.com^
 ||tukj.net^$third-party
 ||tvrom.cn^$third-party
@@ -3525,6 +3525,7 @@ mg*.6park.com/img/$image
 ||baidu.com^$subdocument,domain=dm5.com|dm5.hk
 ||baidu.com^*/interface/ad?
 ||baidud.cn/aoao/down_
+||baiduyunpan.com/images/201711011058787.jpg
 ||baiduyunpan.net/t/
 ||baifen.music.baidu.com^
 ||baihei.net/data/attachment/album/
@@ -7017,9 +7018,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||baiduyunpan.com/images/201711011058787.jpg
 !------------------------Specific element hiding rules------------------------!
-baiduyunpan.com##.bdyp-sygg-ul
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -9088,6 +9087,7 @@ cnscore.com##.bdbanner
 e23.cn##.bdggtb
 baidu.com##.bds-list-ads
 yesky.com##.bdtj
+baiduyunpan.com##.bdyp-sygg-ul
 pinshan.com##.bea_adv2
 smzdm.com##.beiwo
 dnvod.tv##.bfq-r
@@ -11858,7 +11858,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||adservice.google.com/adsid/integrator.js$domain=download.mokeedev.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12016,6 +12015,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||ads.seekjune.com^$~third-party
 @@||ads.ttx.cn/attachment/$domain=ttx.cn
 @@||adsense.woso.cn^$~third-party
+@@||adservice.google.com/adsid/integrator.js$domain=download.mokeedev.com
 @@||advert.kf5.com^
 @@||afpeng.alimama.com^$domain=crecgec.com
 @@||airchina.com.cn/dynamicAd/
@@ -13136,7 +13136,7 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ##.a_sxp
 ##.a_sxpb
 ##.heg > .partner-list
-##A[href^="/dasp.php?a="]
+##a[href^="/dasp.php?a="]
 ||www.wifi588.net^*.gif
 ! webrtc-ads
 $webrtc,domain=btdb.to
