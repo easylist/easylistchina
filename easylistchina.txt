@@ -619,8 +619,6 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||openxt.cn^
-||xtianqi.com.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1814,6 +1812,7 @@ ubmcmm.baidustatic.com
 ||onewhee.com^$third-party
 ||onlifjj.net^
 ||onsnv.com^
+||openxt.cn^
 ||oq68.com^
 ||orchidscape.net^
 ||ou188.com^
@@ -2232,6 +2231,7 @@ ubmcmm.baidustatic.com
 ||xq199.com^
 ||xsu.cc^$third-party
 ||xtgreat.com^$third-party
+||xtianqi.com.cn^
 ||xtxa.net^
 ||xuanmeiguoji.com^
 ||xul478.com^
@@ -7017,14 +7017,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
-52pk.com##.chang
-g138.com##.gg_head_l
-g138.com##.gg_head_m
-g138.com##.gg_head_r
-52pk.com##.duan
-52pk.com##.wxbox
 gpcxw.com###AA2
-52pk.com##.add
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8816,7 +8809,7 @@ qq.com##.adcent
 pchome.com.tw##.adcon
 ifeng.com##.adcoop
 jgzj.net##.adcss
-hao.rising.cn##.add
+52pk.com,hao.rising.cn##.add
 78dm.net##.add-980
 shunwang.com##.add-area
 fang.com##.add1200
@@ -9207,6 +9200,7 @@ iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 11luba.com,niluba.cc##.center > div:last-child
 huarenjie.com,huarenjie.net##.cfad
+52pk.com##.chang
 hao.rising.cn##.channel-adimg
 enread.com##.channel-nav > .back
 douban.com##.channel_promo
@@ -9368,6 +9362,7 @@ wmzhe.com##.downgs
 265g.com##.dr_top_text
 top81.com.cn##.dsmain_jph
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
+52pk.com##.duan
 2cha.com,81.cn,cnstock.com,dyhjw.com,hnr.cn,my0538.com,ofweek.com,silver.org.cn,ttmeiju.com,ttmeiju.vip,wendu.cn##.duilian
 hnr.cn##.duilian_close
 2345.com##.dzc-hn-cmoe
@@ -9586,9 +9581,9 @@ eeyy.com##.gg_bg
 xiaopi.com##.gg_box
 kisssub.org##.gg_canvas
 eastday.com##.gg_channel_r_b
-55188.com##.gg_head_l
-55188.com##.gg_head_m
-55188.com##.gg_head_r
+55188.com,g138.com##.gg_head_l
+55188.com,g138.com##.gg_head_m
+55188.com,g138.com##.gg_head_r
 china.cn##.gg_li
 eeyy.com##.gg_top
 360che.com##.ggbanner
@@ -10878,6 +10873,7 @@ paipai.fm,paipaitxt.com##.wrapbg
 btbbt.top,btbtt.co,btbtt.me,btbtt.net,btbtt.pw##.wrapper_bg_c
 image.baidu.com##.wrapper_dot_box.dot_black
 wallstreetcn.com##.wscn-page-ad
+52pk.com##.wxbox
 taoguba.com.cn##.wz_ad
 uisdc.com##.wztopshow
 autofan.com.cn##.xf_ad
@@ -12780,8 +12776,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||p1.18zhongyao.com^
 ||pb.shuxigua.com^
 ||pingbi.diudou.com^
-||ptw.la^
 ||psywed.com^
+||ptw.la^
 ||qcjslm.com^
 ||qooic.com^
 ||qq167.com^
