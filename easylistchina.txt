@@ -4385,7 +4385,6 @@ mg*.6park.com/img/$image
 ||fuli69.com/wp-content/uploads/sug
 ||fulibac.com/images/upload/ad/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
-||fulidang.com/ads/
 ||fulishequ.com/abc/images/
 ||fulisuo1.com^*.gif
 ||fulisuo7.top^*.gif
@@ -7021,6 +7020,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+chapaofan.com##A[href^="http"]:not([href*=".chapaofan."]) > IMG[src*=".sinaimg."]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9002,7 +9002,7 @@ inpai.com.cn##.baiduad3
 qqcyl123.com##.baiduadc
 hc360.com##.baidutuiguang
 100shuai.com##.bannar_gg
-3gsc.com.cn,591hx.com,7zhan.com,99.com.cn,aguitar.cn,cailianpress.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,fulidang.com,ganji.com,guitarchina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,kdnet.net,kumi.cn,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
+3gsc.com.cn,591hx.com,7zhan.com,99.com.cn,aguitar.cn,cailianpress.com,e0514.com,eastmoney.com,eroacg.com,expreview.com,ganji.com,guitarchina.com,iciba.com,iqiyi.com,jia360.com,joy.cn,kdnet.net,kumi.cn,marstv.com,newnet.cc,pengfu.com,safedom.net,tiboo.cn,tiexue.net,w3cfuns.com,xizi.com,zyue.com##.banner
 cnool.net##.banner-ad001
 iwan.baidu.com##.banner-container
 baidu.com##.banner-cover
@@ -9306,7 +9306,7 @@ tigtag.com##.custom-box02
 iplaysoft.com##.d250
 iplaysoft.com##.d250x90
 xgrb.cn##.d_2016_ggw
-fulidang.com,ihref.com##.d_banner
+ihref.com##.d_banner
 wn789.com##.d_textbanner
 weeiy.com##.d_textbanner + .widget_text
 acg12.com##.da-container
