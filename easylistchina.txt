@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/ab_my/pc_pf.js
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -67,6 +66,7 @@
 /9115gg/*
 /91ad_
 /a/p?adid=
+/ab_my/pc_pf.js
 /acmsd/*
 /ad-footer.js
 /ad-ish/group/all.json
@@ -624,7 +624,6 @@ _xiuno_com_ad/
 ##script + #rbbox
 ##script + .sptable[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
-||kf3msfm.com^
 .8ox.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
@@ -1639,6 +1638,7 @@ ubmcmm.baidustatic.com
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
 ||keyyou.net^
+||kf3msfm.com^
 ||kfluoa.com^
 ||kgcjgsa8.net^
 ||kguke.com^
@@ -2511,6 +2511,7 @@ ubmcmm.baidustatic.com
 /gamer/*$subdocument,domain=gamer.com.tw
 /gif/*$image,domain=txzqw.cc
 /gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
+/guang/*$domain=365xav.cf|myxav.gq|xav365.gq
 /gyw_index/*/images/ad_
 /homead/*_appledaily_bg.
 /html/taobao_focus_
@@ -2903,6 +2904,7 @@ mg*.6park.com/img/$image
 ||3d66.com/gx2013g/
 ||3dezu.cn/zt/8866.gif
 ||3dm.huya.com^
+||3dmgame.com/index.php?m=games&c=index&a=ztad&
 ||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
 ||3dmgame.com/templets/index/js/huandeng.js
@@ -3059,6 +3061,7 @@ mg*.6park.com/img/$image
 ||61.164.108.184^*.gif
 ||61.164.108.184^*.swf
 ||61.235.249.195^*/Default.aspx?id=
+||61.31.228.20/live/$~collapse,domain=520cc.me
 ||62422.cn/ggimg/
 ||63007.com/haodxi.js
 ||64.120.16.146/hsk_update/upload/*.gif
@@ -3346,6 +3349,7 @@ mg*.6park.com/img/$image
 ||aipai.com/app/www/templates/common/ifr/fans_640_40.html
 ||aipai.com/common/html/commonAdForTfansTo.html
 ||airav.cc/AirADPic/*%
+||airav.cc/AirADPic/*_300250_
 ||airav.cc/iframe/
 ||airouba.com/public/js/global.js
 ||aitaotu.com/style/js/aitaotu
@@ -3373,6 +3377,8 @@ mg*.6park.com/img/$image
 ||ali213.net^*/promotion/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/JS/
+||alicdn.com/mt/TB1onkZXz3z9KJjy0FmXXXiwXXa-529-46.png
+||alicdn.com/tfs/TB16PHEaBfH8KJjy1XbXXbLdXXa-467-150.png
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
@@ -4150,6 +4156,7 @@ mg*.6park.com/img/$image
 ||dongfangtai.com/js/duil.js
 ||dospy.com/hezuo/
 ||dota2.uuu9.com^$subdocument
+||doub.io/wp-content/uploads/
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -4313,6 +4320,7 @@ mg*.6park.com/img/$image
 ||ezaozi.com/detail/*.js
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
+||f1.com.tw/BANNER/$~collapse,domain=520cc.me
 ||facebook.com/v2.6/plugins/video.$domain=storm.mg
 ||faidns.com/image/site/faiscoAd/
 ||faloo.com/ou/site/
@@ -6136,6 +6144,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
 ||sinaimg.cn/large/006VacwCgy1fjq23teqx6g30og028wt8.gif
 ||sinaimg.cn/large/006ZdrOOgy1flbrubi93eg30m801oaff.gif
+||sinaimg.cn/large/006ZdrOOgy1flbrum925hg30pu01o0z0.gif
 ||sinaimg.cn/large/5431d036ly1fh6gmu6gxmg20tg02i3yr.gif
 ||sinaimg.cn/large/5431d036ly1fhxbxz31nkj20tg02ignm.jpg
 ||sinaimg.cn/large/5ff1c93agy1ffexaksv8mj206o02it96.jpg
@@ -7007,19 +7016,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||f1.com.tw/BANNER/$domain=520cc.me,~collapse
-||61.31.228.20/live/$domain=520cc.me,~collapse
-||alicdn.com/mt/TB1onkZXz3z9KJjy0FmXXXiwXXa-529-46.png
-||alicdn.com/tfs/TB16PHEaBfH8KJjy1XbXXbLdXXa-467-150.png
-||airav.cc/AirADPic/*_300250_
-||doub.io/wp-content/uploads/
-||3dmgame.com/index.php?m=games&c=index&a=ztad&
-||sinaimg.cn/large/006ZdrOOgy1flbrum925hg30pu01o0z0.gif
-/guang/*$domain=365xav.cf|myxav.gq|xav365.gq
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-88files.net##.ad1
-airav.cc###corner_cf
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7508,6 +7506,7 @@ jb51.net###contsec
 qq.com###coo_qqBrowser
 0597kk.com###cool_fixed
 360.cn###corner-flash
+airav.cc###corner_cf
 2345.com,hao774.com###corner_div
 motorfans.com.cn###countdowncontainer5
 sg169.com###coupleft
@@ -8640,7 +8639,7 @@ ifeng.com##.ad05
 ifeng.com##.ad06
 ifeng.com##.ad07
 ifeng.com##.ad08
-99files.net,actoys.net,beijing-air.com,bio1000.com,cwan.com,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
+88files.net,99files.net,actoys.net,beijing-air.com,bio1000.com,cwan.com,hepuwang.com,jjwxc.net,ncdiy.com,qingdaonews.com,tgbus.com##.ad1
 ifeng.com##.ad1000-2
 ifeng.com##.ad1000_2
 ifeng.com##.ad1000_box
@@ -11847,7 +11846,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||delivery.wasu.cn/crossdomain.xml
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12076,6 +12074,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||cztv.com/player/*.swf?ad=
 @@||damai.cn^*/TopAd/
 @@||daoju.qq.com/time/*/js/ad/
+@@||delivery.wasu.cn/crossdomain.xml
 @@||digiland.tw/advert.js
 @@||disney.com.tw/tv/global/swf/banner728x90.swf
 @@||dmhy.org/common/generate-captcha?
@@ -12360,8 +12359,8 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 /js/layer.js$domain=99b4.com|99bb4.com|99cc9.com|99re.com
 99b4.com,99bb4.com,99cc9.com,99re.com##.dmcenter
 99b4.com,99bb4.com,99cc9.com,99re.com##.spots
-||sinaimg.cn^$domain=99b4.com|99bb4.com|99cc9.com|99re.com
 ||chuantu.biz^$domain=99b4.com|99bb4.com|99cc9.com|99re.com
+||sinaimg.cn^$domain=99b4.com|99bb4.com|99cc9.com|99re.com
 ! Aisex.com
 |http://*/ts.js$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||imgur.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
