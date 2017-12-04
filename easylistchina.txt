@@ -2477,9 +2477,6 @@ ubmcmm.baidustatic.com
 /435f1c6f9f6b545254a00e426b9aeae1.
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
-/\.dnvod\.tv\/[^\.]+$/$object-subrequest,domain=dnvod.tv
-/\.dnvod\.tv\/\w{2}\/[\w-]+\./$image,object-subrequest,domain=dnvod.tv
-/\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
@@ -4123,28 +4120,6 @@ mg*.6park.com/img/$image
 ||dmhy.ml^*g?$image
 ||dmzj.com/js/m_BtmApp.js
 ||dn-geekpark-new.qbox.me/uploads/ad/
-||dnvod.tv/04/
-||dnvod.tv/2b/
-||dnvod.tv/34DH/
-||dnvod.tv/3a/
-||dnvod.tv/91/
-||dnvod.tv/a/o
-||dnvod.tv/a2/
-||dnvod.tv/b9/
-||dnvod.tv/BtT/
-||dnvod.tv/cSTR/
-||dnvod.tv/d4/
-||dnvod.tv/f9/
-||dnvod.tv/ffcX/
-||dnvod.tv/gb/
-||dnvod.tv/Home/ObtainPublic
-||dnvod.tv/sc3Xv/
-||dnvod.tv/Scripts/jquery.public-
-||dnvod.tv/upload/public/
-||dnvod.tv^*.gif$object-subrequest
-||dnvod.tv^*.jpg$object-subrequest
-||dnvod.tv^*.MP4|
-||dnvod.tv^*/201$object-subrequest
 ||dnwx.com*/ad$image
 ||dnwx.com/pic/*_978x60.
 ||dnwx.com/pic_ad/
@@ -5682,8 +5657,6 @@ mg*.6park.com/img/$image
 ||p.szonline.net^
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
-||p2.dnvod.tv^
-||p3.dnvod.tv^
 ||p4p.sina.com.cn^
 ||p8u.hinet.net^
 ||paigu.com/assets/js/paigu.js
@@ -5819,13 +5792,10 @@ mg*.6park.com/img/$image
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
 ||ptfish.com/08html/
-||pub.dnvod.tv^$xmlhttprequest
 ||pub.funshion.com^
 ||pub.mop.com^
 ||pub.stockstar.com/feedback/
 ||pub.sxrtv.com/crossdomain.xml
-||pub1.dnvod.tv^
-||public.dnvod.tv^$xmlhttprequest
 ||publish.ad.youth.cn^
 ||puudeng.com.tw^$subdocument
 ||q.cn/images/floater_
@@ -6024,10 +5994,6 @@ mg*.6park.com/img/$image
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
-||s1-a1.dnvod.tv^
-||s1-a2.dnvod.tv^
-||s1-a3.dnvod.tv^
-||s1-a4.dnvod.tv^
 ||s1.pplive.cn/sta.js
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
@@ -7034,10 +7000,11 @@ mg*.6park.com/img/$image
 ||vuejs.org/images/geekbang
 ||sogou.com/athena/
 ||sogoucdn.com/dhfe/
-||p4.dnvod.tv^
-||dnvod.tv/jXdH/
 !------------------------Specific element hiding rules------------------------!
-dnvod.tv##.dp
+dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
+itavcn.com,jmnews.com.cn,xt700.com###msg_win
+dealmoon.com##.ggw
+1kkk.com,40407.com,5068.com,88148.com,china.com,cnwnews.com,cx9zhou.com,dhzw.org,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
 vuejs.org###ad
 dilidili.wang##.ad-middle
 sogou.com###AD_0
@@ -7432,7 +7399,6 @@ masok.cn###bottomLayer
 51feibao.com###bottom_fu
 kdhome.net###bottomadv
 xiaopi.com###bottombar
-dnvod.tv,dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
 50sen.com###box-ads
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
@@ -7996,14 +7962,10 @@ so.com###mohe-etao_shangye
 so.com###mohe-m-etao_shangye
 so.com###mohe-medicine_sy > .cont
 nick18.com,niko18.com###mov > .content
-dnvod.tv,itavcn.com,jmnews.com.cn,xt700.com###msg_win
-dnvod.tv###msg_winw
 hkgolden.com###mtblock2
 yahoo.com###my-adsMBAR
 cpplay.com###myFocus336
 qqjia.com###myadsL
-dnvod.tv###myaudient
-dnvod.tv###myaudient2
 javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
@@ -9116,7 +9078,6 @@ yesky.com##.bdtj
 baiduyunpan.com##.bdyp-sygg-ul
 pinshan.com##.bea_adv2
 smzdm.com##.beiwo
-dnvod.tv##.bfq-r
 muchong.com##.bg > .wrapper:nth-child(14) > .forum_Post_index
 uc123.com##.bg-wrapper
 jrj.com.cn##.bg2424
@@ -9250,7 +9211,6 @@ sina.com.cn##.clearAd
 caikuu.com##.clearfix + .recommend
 hunantv.com,mgtv.com##.click-s-r1
 hunantv.com,mgtv.com##.click-t
-dnvod.tv##.clickbg
 tieba.baidu.com##.client_ad_banner
 tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
@@ -9373,7 +9333,6 @@ letv.com##.dl_mobile
 itavcn.com##.dlggw-g
 dmfans.net##.dm_ads_wrap
 moe-acg.cc##.dmengslide-wrapper
-dnvod.tv##.dnpub
 360doc.com##.doc360article_content > div[class]:first-child
 qq.com##.dongfengad
 iqiyi.com##.dove_ad
@@ -9572,7 +9531,6 @@ epinv.com##.gave
 qzone.qq.com##.gb-bill-area
 sucaijiayuan.com##.gbox1000
 ocucn.com##.getGold[style^="height:"]
-1kkk.com,40407.com,5068.com,88148.com,china.com,cnwnews.com,cx9zhou.com,dhzw.org,dnvod.tv,elecfans.com,ghjie.com,ifeng.com,iqilu.com,it168.com,jj59.com,kaifu.com,qzwb.com,shangdu.com,sina.com.cn,taodake.com,tianya.cn,zsnews.cn##.gg
 elecfans.com##.gg-01
 morningpost.com.cn##.gg-2
 baidu.com##.gg-content
@@ -9627,8 +9585,6 @@ eastday.com##.gglist
 weather.com.cn##.ggt
 55188.com,g138.com##.ggtishiall
 taian.com##.ggtp
-dealmoon.com,dnvod.tv##.ggw
-dnvod.tv##.ggw-l
 iqiyi.com##.ggwBox
 360doc.com##.ggwz
 douyu.com,douyutv.com##.giftbox
@@ -10320,7 +10276,6 @@ qixingquan.com##.qxq_h
 im286.net##.qybj
 ouyaoxiazai.com##.qzhengfu
 mop.com##.r-adv
-dnvod.tv##.r-gg
 9vip.top,ahtv.cn,bzfl1.cc,sexbarss.net##.r1
 biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
 7hcn.com##.rCont
@@ -10995,7 +10950,6 @@ bilibilijj.com##[onclick*=".taobao."]
 bilibilijj.com##[style*=" background-size: 100%"]
 bilibilijj.com##[style*="background-image:"]:not(.UserInfo)
 dilidili.wang##[style*="fixed"]
-dnvod.tv##[style*="important"]
 bilibilijj.com##[style="height:100%;"]
 acgnx.se##a > img[src^="/images/"]
 1haza.com##a > img[src^="/template/1haza/images/"]
@@ -11158,7 +11112,6 @@ dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 muchong.com##a[href^="http://www.zhuanyejun.com/"]
 ocucn.com##a[href^="http://www.zhuna.cn/rdirect.asp?type=hoteltxt&"]
 ifeng.com##a[href^="http://yemei.tv/"]
-dnvod.tv##a[href^="http://yoyou."]
 dmzj.com##a[href^="http://zt.dmzj.com/test/jump.html?"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 acfun.cn##a[href^="https://click.dsp.com/"]
@@ -11175,7 +11128,6 @@ frdic.com,godic.net##a[onclick*="/ads/"]
 tvapk.net##a[onclick*="thread_banner"]
 house365.com##a[style*="1200px;"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
-dnvod.tv##a[style="display:inline;visibility:visible"] > img
 btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
 houdao.com##a[style^="background:url"]
 bilibilijj.com##a[style^="height"][href="#"]
@@ -11335,7 +11287,6 @@ vpser.net##div[id*="_readth"]
 e23.cn##div[id*="adv"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##div[id*="lottery"]
 yaolan.com##div[id*="underHdAd"]
-dnvod.tv##div[id][style*="top:"][style*="block"]
 kuaidi100.com##div[id][style="width: 300px;float: right;"]
 iqiyi.com##div[id^="100000"]
 fengniao.com##div[id^="AD"]
@@ -11583,7 +11534,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="qunar_hotel"] > .c-border
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="right_qunar_hotel"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div[tpl^="soft"] > .c-border
 zuoye.baidu.com##dl[class="card related"]
-dnvod.tv#?#[style*="important"]
 bbs.my0511.com##embed[width="970"][height="70"]
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(贊助))
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(赞助))
@@ -12938,6 +12888,61 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/$subdocument
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
+! Dnvod.tv
+/\.dnvod\.tv\/[^\.]+$/$object-subrequest,domain=dnvod.tv
+/\.dnvod\.tv\/\w{2}\/[\w-]+\./$image,object-subrequest,domain=dnvod.tv
+/\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
+||dnvod.tv/04/
+||dnvod.tv/2b/
+||dnvod.tv/34DH/
+||dnvod.tv/3a/
+||dnvod.tv/91/
+||dnvod.tv/a/o
+||dnvod.tv/a2/
+||dnvod.tv/b9/
+||dnvod.tv/BtT/
+||dnvod.tv/cSTR/
+||dnvod.tv/d4/
+||dnvod.tv/f9/
+||dnvod.tv/ffcX/
+||dnvod.tv/gb/
+||dnvod.tv/Home/ObtainPublic
+||dnvod.tv/sc3Xv/
+||dnvod.tv/Scripts/jquery.public-
+||dnvod.tv/upload/public/
+||dnvod.tv^*.gif$object-subrequest
+||dnvod.tv^*.jpg$object-subrequest
+||dnvod.tv^*.MP4|
+||dnvod.tv^*/201$object-subrequest
+||p2.dnvod.tv^
+||p3.dnvod.tv^
+||pub.dnvod.tv^$xmlhttprequest
+||pub1.dnvod.tv^
+||public.dnvod.tv^$xmlhttprequest
+||s1-a1.dnvod.tv^
+||s1-a2.dnvod.tv^
+||s1-a3.dnvod.tv^
+||s1-a4.dnvod.tv^
+||p4.dnvod.tv^
+||dnvod.tv/jXdH/
+dnvod.tv##.dp
+dnvod.tv###box
+dnvod.tv###msg_win
+dnvod.tv###msg_winw
+dnvod.tv###myaudient
+dnvod.tv###myaudient2
+dnvod.tv##.bfq-r
+dnvod.tv##.clickbg
+dnvod.tv##.dnpub
+dnvod.tv##.gg
+dnvod.tv##.ggw
+dnvod.tv##.ggw-l
+dnvod.tv##.r-gg
+dnvod.tv##[style*="important"]
+dnvod.tv##a[href^="http://yoyou."]
+dnvod.tv##a[style="display:inline;visibility:visible"] > img
+dnvod.tv##div[id][style*="top:"][style*="block"]
+dnvod.tv#?#[style*="important"]
 !
 52biquge.com##A[href^="http://html.350.com/"]
 !
