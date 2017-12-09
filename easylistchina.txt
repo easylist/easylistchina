@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/ifengad/*
 -1688-wp-media/ads/
 -880-80-4.jpg
 -HollandOne_GIF2.gif
@@ -7010,6 +7011,10 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sogou.com/ask?id=
+||sogou.com/wap_ask_service?
+||ifengimg.com/b/b.js
+||ifeng.com/sc?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 sina.cn##.m_f_a[href^="http://saxs."]
