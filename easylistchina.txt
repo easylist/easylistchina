@@ -12931,7 +12931,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
-dnvod.tv##DIV[data-code]
 @@||hvvx.dnvod.tv/Movie/GetResource.ashx?device=0&id=*&type=htm
 @@||hcad.dnvod.tv/Movie/GetResource.ashx?device=0&id=*&type=htm
 /\.dnvod\.tv\/(?=[A-Z]*[a-zA-Z])(?=[a-z]*[a-zA-Z])[a-zA-Z]+\/\d+\.(gif|jpg|png)/$domain=dnvod.tv
@@ -12943,9 +12942,8 @@ dnvod.tv###myaudient
 dnvod.tv###myaudient2
 dnvod.tv##.bfq-r
 dnvod.tv##.clickbg
-dnvod.tv##.df[data-code]:not([id])
+dnvod.tv##DIV[data-code]:not([id])
 dnvod.tv##.dnpub
-dnvod.tv##.dp[data-code]
 dnvod.tv##.gg
 dnvod.tv##.ggw
 dnvod.tv##.ggw-l
