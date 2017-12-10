@@ -630,7 +630,6 @@ _xiuno_com_ad/
 ##script + .sptable_do_not_remove[cellpadding="5"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||hblinwei.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1477,6 +1476,7 @@ ubmcmm.baidustatic.com
 ||hauchi.com.tw^$third-party
 ||hbalx.cn^
 ||hbguohua.com^
+||hblinwei.com^
 ||hbngfy.com^
 ||hbsimg.com^$third-party
 ||hcreditx.com^
@@ -6182,6 +6182,7 @@ mg*.6park.com/img/$image
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
 ||sinajs.cn/t6/home/js/pl/guide/adforfqy/
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
+||singlove.com/qq/qq.js
 ||sinolub.com/index.php?m=poster&
 ||sinolub.com/uploadfile/201*.swf
 ||sisiww.com/template/*/portal/ad/
@@ -6675,6 +6676,7 @@ mg*.6park.com/img/$image
 ||xiangai365.com/ad_js/
 ||xiangshengw.com/cp.js
 ||xianliao.me/ads1?
+||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
 ||xianzhenyuan.cn/data/attachment/common/
 ||xiaodao.la/upload/1/146486/images/20170223/20170223000126702670.gif
@@ -7004,6 +7006,8 @@ mg*.6park.com/img/$image
 ||zuidaima.com/images/1/201606/20160616135714978.gif
 ||zuishulou.com/assets/scripts/m.js
 ||zuoche.com/promo/*.jspx
+||zuqiu.me/js/AD_
+||zuqiu.me/js/index_adfloat.js
 ||zww.me^*?action=Ajax_
 ||zx98.com/mm/
 ||zx98.com/tb0
@@ -7019,14 +7023,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||zuqiu.me/js/AD_
-||zuqiu.me/js/index_adfloat.js
-||xianliao.me/assets/js/lib/ne3u3.js
-||singlove.com/qq/qq.js
 !------------------------Specific element hiding rules------------------------!
-singlove.com##.qq
 gpcxw.com###AA2
-chinanews.com###dingtong
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7558,6 +7556,7 @@ stockstar.com###dhwzl
 141hongkong.com###dialog
 ttmeiju.com###dialog-overlay
 iciba.com###dict_right5
+chinanews.com###dingtong
 chzhw.com###diqilai
 3boys2girls.com###displayadb1
 3boys2girls.com###displayadbu3
@@ -10294,7 +10293,7 @@ qidian.com##.qd-game
 qdmm.com,qidian.com##.qd_sms_pop
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
-whichav.com,whichav.net,wokao.co##.qq
+singlove.com,whichav.com,whichav.net,wokao.co##.qq
 zixuekaoshi.net##.qq_nr_lad
 yiqikanba.cn##.qqanimate
 tiexue.net##.qrcode
@@ -12935,10 +12934,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
-@@||hvvx.dnvod.tv/Movie/GetResource.ashx?device=0&id=*&type=htm
-@@||hcad.dnvod.tv/Movie/GetResource.ashx?device=0&id=*&type=htm
-/\.dnvod\.tv\/(?=[A-Z]*[a-zA-Z])(?=[a-z]*[a-zA-Z])[a-zA-Z]+\/\d+\.(gif|jpg|png)/$domain=dnvod.tv
-/^https?:\/\/(?!www\.)[0-9a-z-]+\.dnvod\.tv\/Movie\/\w+/$xmlhttprequest,domain=dnvod.tv
 dnvod.tv###box
 dnvod.tv###msg_win
 dnvod.tv###msg_winw
@@ -12946,20 +12941,24 @@ dnvod.tv###myaudient
 dnvod.tv###myaudient2
 dnvod.tv##.bfq-r
 dnvod.tv##.clickbg
-dnvod.tv##DIV[data-code]:not([id])
 dnvod.tv##.dnpub
 dnvod.tv##.gg
 dnvod.tv##.ggw
 dnvod.tv##.ggw-l
 dnvod.tv##.r-gg
+/\.dnvod\.tv\/(?=[A-Z]*[a-zA-Z])(?=[a-z]*[a-zA-Z])[a-zA-Z]+\/\d+\.(gif|jpg|png)/$domain=dnvod.tv
 /\.dnvod\.tv\/Movie\/\w+$/$xmlhttprequest,domain=dnvod.tv
 /\.dnvod\.tv\/[^\.]+$/$object-subrequest,domain=dnvod.tv
 /\.dnvod\.tv\/\w{2}\/[\w-]+\./$image,object-subrequest,domain=dnvod.tv
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
+/^https?:\/\/(?!www\.)[0-9a-z-]+\.dnvod\.tv\/Movie\/\w+/$xmlhttprequest,domain=dnvod.tv
+@@||hcad.dnvod.tv/Movie/GetResource.ashx?device=0&id=*&type=htm
+@@||hvvx.dnvod.tv/Movie/GetResource.ashx?device=0&id=*&type=htm
 dnvod.tv##[style*="important"]
 dnvod.tv##a[href^="http://yoyou."]
 dnvod.tv##a[style="display:inline;visibility:visible"] > img
 dnvod.tv##div[class][data-type="popup"]
+dnvod.tv##div[data-code]:not([id])
 dnvod.tv##div[id][style*="top:"][style*="block"]
 dnvod.tv#?#[style*="important"]
 ||dnvod.tv/04/
