@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/ifeng_jdttemplate.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -HollandOne_GIF2.gif
@@ -7030,6 +7031,8 @@ mg*.6park.com/img/$image
 ||ifengimg.com^*/feed.js
 ||ifengimg.com/m/img.js
 ||ax.*.ifeng.com^
+||api.m.sm.cn/rest?
+||ifengimg.com/wap/js/wp.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 oyksoft.com##A[href*=".taobao.com"]
