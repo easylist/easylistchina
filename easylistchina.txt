@@ -11,7 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/js/index_adfloat.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -HollandOne_GIF2.gif
@@ -200,6 +199,7 @@
 /js/dyguosj/*
 /js/ggtop.js
 /js/guanggao_gg.js
+/js/index_adfloat.js
 /js/jsstyle-$third-party
 /js/mob/cpc_bottom.js
 /js/pcbook.js?
@@ -4677,6 +4677,7 @@ mg*.6park.com/img/$image
 ||henghost.com^$third-party
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/gphqtc/
+||hexun.com/hxpage/index.html?fromhost=
 ||hexun.com/wxcms/ad/
 ||hexunimg.cn/m/images/ad_
 ||hf365.com//js/zt/dhmc_lrtk.js
@@ -6558,7 +6559,9 @@ mg*.6park.com/img/$image
 ||vodtw.com/m-
 ||vpszt.com/images/bbssidebar/
 ||vriooi.com/web/ad/ad.js
+||vsimg.com/h2.js
 ||vsimg.com/sh2.gif
+||vsimg.com/yt2.gif
 ||vuejs.org/images/geekbang
 ||vupload.duowan.com^
 ||vvvdj.com/sms/
@@ -6648,6 +6651,7 @@ mg*.6park.com/img/$image
 ||wpfl8.com/wp-content/themes/yunkl/ifphone.js
 ||wpjam.qiniudn.com/wpjam/banner/*g|
 ||wpwdf.com^
+||wudizuqiu.com/fyad
 ||wuhan.net.cn/guanggaojs/
 ||wuhan.net.cn/show.html
 ||wumii.cn/site_images/c/
@@ -7035,16 +7039,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||vsimg.com/h2.js
-||vsimg.com/yt2.gif
-||wudizuqiu.com/fyad
-||hexun.com/hxpage/index.html?fromhost=
 !------------------------Specific element hiding rules------------------------!
-acg12.com##A[style*="relative"]
-zhidao.baidu.com##.wgt-union + DIV[style="width: 250px;height: 250px;"]
-vs.cm##DIV[align="center"] > SCRIPT + A[href^="http"]
 gpcxw.com###AA2
-dilidili.wang#?#[style*="fixed"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10876,6 +10872,7 @@ zhidao.baidu.com##.wgt-bottom-ask
 zhidao.baidu.com##.wgt-bottom-union
 muzhi.baidu.com##.wgt-container
 zhidao.baidu.com##.wgt-union
+zhidao.baidu.com##.wgt-union + div[style="width: 250px;height: 250px;"]
 whnews.cn##.whnews_a_dv
 kikinote.net##.widget-3
 kikinote.net##.widget-6
@@ -11180,6 +11177,7 @@ frdic.com,godic.net##a[onclick*="/ads/"]
 tvapk.net##a[onclick*="thread_banner"]
 house365.com##a[style*="1200px;"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
+acg12.com##a[style*="relative"]
 btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
 houdao.com##a[style^="background:url"]
 bilibilijj.com##a[style^="height"][href="#"]
@@ -11200,6 +11198,7 @@ leduwo.com##br + #adtop
 secretmine.net##center > a:not([href*=".secretmine."]) > img
 cnbeta.com#?#.cnbeta-swiper-container-285x360 .swiper-slide:-abp-has(a[href^="http"]:not([href^="http://www.cnbeta."]))
 ipv6.baidu.com,www.baidu.com,www1.baidu.com#?##content_left > [style*="important"]
+dilidili.wang#?#[style*="fixed"]
 dilidili.wang#?#article:first-child
 steamcn.com##div > a[href*=".taobao.com"]
 acg18.us##div > a[href*="/go/"]
@@ -11210,6 +11209,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + d
 7hcn.com##div[ac] > a[href^="http"]:not([href^="http://www.7hcn."])
 weibo.com##div[ad-data]
 toutiao.com##div[ad_name]
+vs.cm##div[align="center"] > script + a[href^="http"]
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 zongheng.com##div[alog-group="index_04_game"]
 anjuke.com##div[class$="-ad"]
@@ -11840,7 +11840,7 @@ wed114.cn#@#.adpic
 ltn.com.tw#@#.adright
 money18.on.cc#@#.ads-bg
 zhaopin.com#@#.adsBox
-long7.qq.com#@#.adsbox
+80s.tt,long7.qq.com#@#.adsbox
 123564.com,apk.tw,epinv.com,fxpan.com,mfgun.com,moa.tw#@#.adsbygoogle
 qq.com#@#.adside
 gdmm.com,youqu.net#@#.adtop
@@ -11884,7 +11884,6 @@ gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-80s.tt#@#.adsbox
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
@@ -12961,9 +12960,9 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
 @@||dnvod.tv/Movie/Readyplay.aspx?id=$genericblock
+||dnvod.tv/Movie/$xmlhttprequest
 ||dnvod.tv^*.jpg$object-subrequest,domain=dnvod.tv
 ||s1-a4.dnvod.tv^$domain=dnvod.tv
-||dnvod.tv/Movie/$xmlhttprequest
 !
 dnvod.tv###box
 dnvod.tv###msg_win
