@@ -12975,7 +12975,7 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 @@||api.dnvod.tv^$xmlhttprequest
 @@||dnvod.tv/ActionProvider/$xmlhttprequest
-@@||dnvod.tv/Movie/Readyplay.aspx?id=$genericblock
+@@||dnvod.tv^*/Readyplay.aspx?id=$genericblock
 ||dnvod.tv/abb/$domain=dnvod.tv
 ||dnvod.tv/Movie/$xmlhttprequest
 ||dnvod.tv^$xmlhttprequest
