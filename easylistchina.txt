@@ -1915,7 +1915,6 @@ ubmcmm.baidustatic.com
 ||qzkxt.com^
 ||qzzljx.com^
 ||r5g.cc^$third-party
-||raeqqe.cn^
 ||rangeblessedness.men^
 ||rayli.com.cn^$third-party
 ||rdiqt.cn^
@@ -4892,6 +4891,7 @@ mg*.6park.com/img/$image
 ||ifengimg.com^*/pan.js
 ||ifengimg.com^*/rdn_*.js?
 ||ifengimg.com^*/shfwq
+||ifengimg.com^*/sources/inice_abc.js
 ||ifengimg.com^*/sparta.js
 ||ifengimg.com^*/yingguang-
 ||ifengimg.com^*600-2.swf
@@ -5316,7 +5316,6 @@ mg*.6park.com/img/$image
 ||leju.com/abp/cmslead_new.js
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letv.com/s?ark=
-||letv.com/s?ark=*&cis=
 ||letvcdn.com/js/*_focus_flash.js
 ||letvimg.com*gugwl/$object-subrequest
 ||letvimg.com/gugwl/*.swf
@@ -7045,14 +7044,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||ifengimg.com^*/sources/inice_abc.js
 !------------------------Specific element hiding rules------------------------!
-ithome.com##.rm-modal-bg
-ithome.com##.rm-modal-body
-mbd.baidu.com###content_wrapper + DIV + .default-container
-mbd.baidu.com##.related-news > SECTION:first-child + DIV
-3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
-3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7543,6 +7535,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr
 ipv6.baidu.com,www.baidu.com,www1.baidu.com###content_right > table > tbody > tr > td > table
 jpwind.com###content_right_ad2
 aa25.cn###content_top
+mbd.baidu.com###content_wrapper + div + .default-container
 jb51.net###contsec
 qq.com###coo_qqBrowser
 0597kk.com###cool_fixed
@@ -10366,6 +10359,7 @@ guba.eastmoney.com##.redian
 drupalchina.cn##.region-header-banner
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
 xueqiu.com##.regist-guide-container
+mbd.baidu.com##.related-news > section:first-child + div
 ithome.com##.related_buy
 tiexue.net##.reloadCont > div:first-child
 3g.cn##.reply_block
@@ -10408,6 +10402,8 @@ portablesoft.org##.rightside > :nth-child(n+2)
 biz.ifeng.com##.riodel
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
+ithome.com##.rm-modal-bg
+ithome.com##.rm-modal-body
 iqiyi.com##.rm-site-main
 playallvideos.com,pron.co##.rmedia
 allyingshi.com,zimuzu.tv##.room
@@ -10993,6 +10989,8 @@ meili.cn##.zw_300_ad
 19lou.com##.zx-link
 iqiyi.com##.zzVideo
 v7v3.com##.zzsl
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
+3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
 www.bilibilijj.com,www.jiji.party,www.jijidown.com##:not(form):not(textarea):not(br):not(canvas):not(html):not(body):not(div):not(img):not(input):not(a):not(span):not(iframe):not(ul):not(li):not(.BGZZ)
 yb983.com##A[href*="/ClickAd"]
@@ -12974,13 +12972,13 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
+/\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 @@||api.dnvod.tv^$xmlhttprequest
 @@||dnvod.tv/ActionProvider/$xmlhttprequest
-||dnvod.tv^$xmlhttprequest
-/\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 @@||dnvod.tv/Movie/Readyplay.aspx?id=$genericblock
 ||dnvod.tv/abb/$domain=dnvod.tv
 ||dnvod.tv/Movie/$xmlhttprequest
+||dnvod.tv^$xmlhttprequest
 ||dnvod.tv^*.jpg$object-subrequest,domain=dnvod.tv
 ||s1-a4.dnvod.tv^$domain=dnvod.tv
 !
