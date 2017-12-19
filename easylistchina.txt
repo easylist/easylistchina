@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/ifeng/m/sources/*
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -7038,6 +7039,8 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ifeng.com##.gg01
+news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 baidu.com##.afd-item
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
