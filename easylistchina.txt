@@ -12948,6 +12948,8 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
+||dnvod.tv^*.gif$object-subrequest,domain=dnvod.tv
+||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 @@||api.dnvod.tv^$xmlhttprequest
 @@||dnvod.tv/ListProvider/ajaxlist.async.ashx$xmlhttprequest
@@ -13012,8 +13014,6 @@ dnvod.tv#?#[style*="important"]
 ||dnvod.tv/sc3Xv/
 ||dnvod.tv/upload/public/
 ||dnvod.tv^*.MP4|
-||dnvod.tv^*.gif$object-subrequest
-||dnvod.tv^*/201$object-subrequest
 ||p2.dnvod.tv^
 ||p3.dnvod.tv^
 ||p4.dnvod.tv^
