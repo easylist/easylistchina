@@ -634,10 +634,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||bianxianmao.com^$third-party
-||700ok.net^
-||liliwoin.top^
-||jpav.date^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -933,6 +929,7 @@ ubmcmm.baidustatic.com
 ||6dvip.com^
 ||6huu.com^
 ||6travel.com^$third-party
+||700ok.net^
 ||70e.com^$third-party
 ||70lm.com^
 ||710070.com^$third-party
@@ -1133,6 +1130,7 @@ ubmcmm.baidustatic.com
 ||behe.com^$third-party
 ||bench-life.me^
 ||biandaosheng.com^
+||bianxianmao.com^$third-party
 ||biddingx.com^$third-party
 ||bigbos.top^
 ||billionfocus.com^
@@ -1622,6 +1620,7 @@ ubmcmm.baidustatic.com
 ||jointreport-switch.com^$third-party
 ||jossuer.net^
 ||joyfuldoors.com^
+||jpav.date^
 ||jqz9.com^
 ||jsadt.com^
 ||jsinfo.net^$third-party
@@ -1711,6 +1710,7 @@ ubmcmm.baidustatic.com
 ||lianjie.phpwind.com^$third-party
 ||lianle.com^$third-party
 ||lianmeng.360.cn^$domain=~lianmeng.360.cn
+||liliwoin.top^
 ||linkbide.com^
 ||linkpage.cn^
 ||linkvans.com^$third-party
@@ -3151,8 +3151,8 @@ mg*.6park.com/img/$image
 ||7scs.com/SCS/
 ||7scs.com/YD/
 ||7vk.com/detail/
-||7xdown.com/idcgg/
 ||7xdown.com/bz/
+||7xdown.com/idcgg/
 ||7xnksu.com1.z0.glb.clouddn.com/panda.jpg
 ||7xsf3h.com1.z0.glb.clouddn.com^
 ||7xsf4r.com1.z0.glb.clouddn.com/lianzi.mp4
@@ -6988,6 +6988,7 @@ mg*.6park.com/img/$image
 ||zmzjstu.com/g3/tool
 ||znz888.cn/modblock/
 ||zo66.com^
+||zol-img.com.cn/ad/
 ||zol.com.cn/active/*guomei
 ||zol.com.cn/active/*tmall
 ||zol.com.cn/adrs/
@@ -7035,12 +7036,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||zol-img.com.cn/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-pcauto.com.cn##.ivy-250
-china.com.cn##A[href*="dwz.cn"]
-78dm.net##.container-fluid > A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9301,6 +9298,7 @@ jfinfo.com##.contBottomFix
 ifeng.com##.cont_bottom_Yy
 ifeng.com##.cont_bottom_YySmall
 u-car.com.tw##.contad
+78dm.net##.container-fluid > a[href*=".taobao.com"]
 www.wangjing.cn##.content > div[style*="980px;"]
 cnbeta.com##.content > p:last-child > a[href]
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
@@ -9846,6 +9844,7 @@ oupeng.com##.item-list[href^="/go.do?"]
 zol.com.cn##.item-sale
 gansudaily.com.cn,gaominews.com##.itemFloat
 cnbeta.com##.items_area .time
+pcauto.com.cn##.ivy-250
 2345.com,pconline.com.cn##.ivyBaidu
 sina.cn##.j_article_cutpic
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_banner_post
@@ -10294,6 +10293,7 @@ blog.163.com##.postadlayer
 bbs.51cto.com##.postinfo05 + div[style]
 bbs.51cto.com##.postinfo06a
 ifxtx.com##.ppsy_content758
+7hcn.com##.pr > a[href^="http"]:not([href^="http://www.7hcn."])
 fqlook.cn##.pro_baidu
 duba.com##.pro_r_t
 pbhz.com##.product-nav-box
@@ -11061,6 +11061,7 @@ cgown.com##a[href*="/go.php?"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 dilidili.wang##a[href*="Game"]
 bejson.com##a[href*="aliyun"]
+china.com.cn##a[href*="dwz.cn"]
 tiexue.net##a[href*="game.tiexue."]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 m.baidu.com##a[href*="m.lecai.com"]
@@ -11202,7 +11203,6 @@ wpmee.com##div > a[href^="http://www.wpmee.com/i?a="]
 gywb.cn##div.bill-box1.mb5
 cq.qq.com##div.clearfix[style*="1000"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + div[id]
-7hcn.com##.pr > A[href^="http"]:not([href^="http://www.7hcn."])
 weibo.com##div[ad-data]
 toutiao.com##div[ad_name]
 vs.cm##div[align="center"] > script + a[href^="http"]
@@ -12950,8 +12950,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
-||dnvod.tv^*.gif$object-subrequest,domain=dnvod.tv
-||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 @@||api.dnvod.tv^$xmlhttprequest
 @@||dnvod.tv/ListProvider/ajaxlist.async.ashx$xmlhttprequest
@@ -12961,7 +12959,9 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dnvod.tv/abb/$domain=dnvod.tv
 ||dnvod.tv/Movie/$xmlhttprequest
 ||dnvod.tv^$xmlhttprequest
+||dnvod.tv^*.gif$object-subrequest,domain=dnvod.tv
 ||dnvod.tv^*.jpg$object-subrequest,domain=dnvod.tv
+||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
 ||s1-a4.dnvod.tv^$domain=dnvod.tv
 !
 dnvod.tv###box
