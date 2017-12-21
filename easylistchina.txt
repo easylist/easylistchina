@@ -7038,7 +7038,8 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-douban.com#?#.rec_topics:-abp-has(.rec_topics_name[href^="https://erebor.douban."])
+douban.com##.ad
+douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
 ifeng.com#?#.box_list:-abp-has(.tuig)
 ifeng.com##.box_list_pic > A[href^="http://dol.deliver."]
