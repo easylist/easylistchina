@@ -12949,7 +12949,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
-@@||api.dnvod.tv^$xmlhttprequest
 @@||dnvod.tv/ListProvider/ajaxlist.async.ashx$xmlhttprequest
 @@||dnvod.tv/Movie/Play.aspx?id=$genericblock
 @@||dnvod.tv^*/Readyplay.aspx?id=$genericblock
