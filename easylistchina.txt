@@ -12954,7 +12954,7 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 @@||dnvod.tv/Movie/Play.aspx?id=$genericblock
 @@||dnvod.tv^*/Readyplay.aspx?id=$genericblock
 ||dnvod.tv/abb/$domain=dnvod.tv
-/\.dnvod\.tv\/(?!(/listprovider/ajaxlist.async.ashx|ActionProvider))/$xmlhttprequest,~third-party
+/\.dnvod\.tv\/(?!(listprovider/ajaxlist.async.ashx|ActionProvider))/$match-case,xmlhttprequest,~third-party
 ||dnvod.tv^*.gif$object-subrequest,domain=dnvod.tv
 ||dnvod.tv^*.jpg$object-subrequest,domain=dnvod.tv
 ||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
