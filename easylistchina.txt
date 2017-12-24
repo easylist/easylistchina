@@ -3389,7 +3389,7 @@ mg*.6park.com/img/$image
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
-||alicdn.com^$domain=34bg.com|51dll.com|acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|viidii.info|wenkuxiazai.com|zhev.com.cn|zuqiu.me
+||alicdn.com^$domain=34bg.com|51dll.com|63ig.com|acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|viidii.info|wenkuxiazai.com|zhev.com.cn|zuqiu.me
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alifeifei.net/s/*.js
@@ -6161,6 +6161,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/5ff1c93agy1fff9tu8o7bj20xc09q78w.jpg
 ||sinaimg.cn/large/673b17ccly1ffu8mb9g4zj20k8020whe
 ||sinaimg.cn/large/686ee05djw1f9odmekuikg20qe046dh6.gif
+||sinaimg.cn/large/7044f931gy1fmmh7vj596j20dc02igmn.jpg
 ||sinaimg.cn/large/77f07ad7gw1et98teneeng20c8028mx3.gif
 ||sinaimg.cn/large/7d1c8e96gw1f8g6w9w7qkj208c06kt9o.jpg
 ||sinaimg.cn/large/7fab0e78gw1eza18r0p03g20rs02iglx.gif
@@ -6499,6 +6500,7 @@ mg*.6park.com/img/$image
 ||upan.cc/images/pay/
 ||upantool.com/bay/
 ||upantool.com/playing/
+||upload.cc/i/ABC56X.gif
 ||upload.hxnews.com/2017/*.gif
 ||upload.jjxw.cn^*.swf
 ||uploadhouse.com^*.gif$domain=wishct.com
@@ -6841,6 +6843,7 @@ mg*.6park.com/img/$image
 ||yjyc-ask.com/res/ads/
 ||yktang8.com^*.gif
 ||yktj.yzz.cn^
+||ylnet.com.cn/dl*.js
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
 ||ylzx8.cn/style/js/sad.js
@@ -6864,6 +6867,7 @@ mg*.6park.com/img/$image
 ||youth.cn^$subdocument
 ||youthwant.com.tw/dodo.php?adjs=
 ||youtube.com/embed/*&autoplay=1&$domain=ck101.com
+||youtube.com/embed/-YOaVlpvmRk?
 ||youtube.com/iframe_api$domain=nownews.com
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youxiaxiazai.com/db_top/index_top.htm
@@ -7040,15 +7044,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||youtube.com/embed/-YOaVlpvmRk?
-||upload.cc/i/ABC56X.gif
-||sinaimg.cn/large/7044f931gy1fmmh7vj596j20dc02igmn.jpg
-||ylnet.com.cn/dl*.js
-||alicdn.com^$domain=63ig.com
 !------------------------Specific element hiding rules------------------------!
-tsdm.me,tsdm.tw###pgt:first-child + DIV > P > A[href^="http"]:not([href*="tsdm"])
 gpcxw.com###AA2
-airav.cc###diy_right
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7617,6 +7614,7 @@ chinafix.com###diy_col_1-3
 5imx.com###diy_mxad04
 5imx.com###diy_mxad06
 5imx.com###diy_mxnewsad01
+airav.cc###diy_right
 0517w.com,lysq.com###diyad
 dz19.net###diyad2
 pingpang.info###diycity1103
@@ -8067,6 +8065,7 @@ tieba.baidu.com,wapp.baidu.com###pblist > li[class]:not(.j_post_list_item)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
 kaixindy.com###pege_ad1
 tsdm.me,tsdm.tw###pgt:first-child + div > a
+tsdm.me,tsdm.tw###pgt:first-child + div > p > a[href^="http"]:not([href*="tsdm"])
 ifeng.com###picAdposition
 muchong.com###pid1 > div > a[class]
 sina.com.cn###pip_taobao
@@ -12420,7 +12419,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{10,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|muchong.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|sina.cn|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||www1.qicheyinyue.wang^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12863,6 +12861,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||wenshenbang.com^$third-party
 ||wshufa.com^$third-party
 ||wuliao.juqingba.cn^
+||www1.qicheyinyue.wang^
 ||xbtw.com^
 ||xfyjz.cn^$third-party
 ||xiaoyutiao.com^
