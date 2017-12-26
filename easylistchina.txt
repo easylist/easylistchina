@@ -7060,6 +7060,9 @@ mg*.6park.com/img/$image
 ||ifengimg.com/ec678ccfb805f8ee201751.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ifeng.com#?#.i_con + div:-abp-has(span:-abp-contains(告))
+ifeng.com#?#.i_con:-abp-has(span:-abp-contains(告))
+ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ifeng.com##[style*="position"][style*="relative"]
 ifeng.com##[id^="dl"]
 m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
