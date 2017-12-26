@@ -634,7 +634,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||zz123.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2401,6 +2400,7 @@ ubmcmm.baidustatic.com
 ||zybpj.com^
 ||zymro.com^
 ||zytwq.net^$third-party
+||zz123.com^$third-party
 ||zzad.com^$third-party
 ||zzbaowen.com^
 ||zzrcz.com^
@@ -3470,6 +3470,10 @@ mg*.6park.com/img/$image
 ||av-5278.com/images/
 ||av11888.com/attachment/js/
 ||av30.xyz/cs/
+||avbb.fun/wp-content/themes/TubeAceDefault/js/*0
+||avbb.fun/wp-content/themes/TubeAceDefault/js/728_
+||avbb.fun/wp-content/themes/TubeAceDefault/js/av
+||avbb.fun/wp-content/themes/TubeAceDefault/js/single-
 ||avcity.twavtv.com/iframe/
 ||avonline.org/js/jquery.colorbox-
 ||avseesee.com/amandison.php
@@ -3906,6 +3910,7 @@ mg*.6park.com/img/$image
 ||chyangwa.net/block/bb/
 ||cidianwang.com/images/taobao/
 ||cidianwang.com/js/zdtop.js
+||ciliba.org/Public/static/js/common-v2.js
 ||cilibaba.org/static/ad.
 ||cilibaba.org/static/js/t
 ||cilipu.cc/tpl/template/image/ad.jpg
@@ -4019,6 +4024,7 @@ mg*.6park.com/img/$image
 ||cssqt.com/a/images/right
 ||ctags.cn/9/j2.js
 ||ctanet.cn/aq/JS/
+||ctfile.com/img/alipay_qhb.gif
 ||ctfile.com/iz.php?
 ||ctrip.com/amd/*960x90.
 ||cutv.com/html/ad_js/
@@ -7045,16 +7051,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||ciliba.org/Public/static/js/common-v2.js
-||avbb.fun/wp-content/themes/TubeAceDefault/js/*0
-||avbb.fun/wp-content/themes/TubeAceDefault/js/728_
-||avbb.fun/wp-content/themes/TubeAceDefault/js/av
-||avbb.fun/wp-content/themes/TubeAceDefault/js/single-
-||ctfile.com/img/alipay_qhb.gif
 !------------------------Specific element hiding rules------------------------!
-ctfile.com###alipay-qhb
 gpcxw.com###AA2
-hao.360.cn###daily-hotwords
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7328,6 +7326,7 @@ anjian.com,qq.com###advertisement
 cpplay.com###adxa
 104.com.tw###aidma_588
 ali213.net###ali-js-4
+ctfile.com###alipay-qhb
 shenchuang.com###all
 aizhan.com###all_text_content
 liisex.com###apDiv22
@@ -7570,7 +7569,7 @@ fzlimg.com###ctopadtop
 makaidong.com###cyWallsplugin
 cool18.com###d_right_ad
 hao.360.cn###daily-hotword
-6789.com###daily-hotwords
+6789.com,hao.360.cn###daily-hotwords
 iask.sina.com.cn###daily_topic_flnr
 mydrivers.com###dangbei_down
 3g.cn###datit
@@ -11883,7 +11882,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12133,6 +12131,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||emome.net/files/advertising/
 @@||epinv.com/dl/$genericblock
+@@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
 @@||feng.com/images/%*logo.png
 @@||feng.com/images/560a0b6b83143.png
 @@||feng.com/images/580de2ab8d68e.png
@@ -12429,7 +12428,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{10,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|muchong.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|sina.cn|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||a1.16700.net^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12550,6 +12548,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||a.yixie8.com^
 ||a.yuzhainan.com^
 ||a1.0s.net.cn^
+||a1.16700.net^
 ||a1.aluntan.com^
 ||a1.azg168.cn^
 ||a1.chajiaotong.com^
