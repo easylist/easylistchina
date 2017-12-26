@@ -5964,7 +5964,6 @@ mg*.6park.com/img/$image
 ||qzss.cn/ssad
 ||qzwb.com/gb/img/9465.files/1G3G.gif
 ||r3.ykimg.com^$object-subrequest
-||r3sub.com/images/banners/
 ||rakuten-static.com^$domain=cwyuni.tw
 ||rar8.net/htmljs/
 ||ratedxbiz.com/d/
@@ -13322,6 +13321,11 @@ ifeng.com,~imall.ifeng.com##a[href*="imall.ifeng."]
 ||shyanche.net^
 ||yljiaoluo.com^
 ||yqjxzw.com^
+! R3sub.com
+||scupio.com^$domain=r3sub.com
+||r3sub.com/images/banners/$domain=r3sub.com
+||h12-media.com^$domain=r3sub.com
+@@||r3sub.com^$genericblock,generichide
 ! Sex8.cc
 ###j-new-ad
 ##.a_sxfl
