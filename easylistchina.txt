@@ -7058,15 +7058,10 @@ mg*.6park.com/img/$image
 ||xitongzhijia.net/theme/2017/js/total_soft.js
 ||baidu.com^$domain=android100.org
 ||adpai.thepaper.cn^
-||ifengimg.com/ec678ccfb805f8ee201751.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+baidu.com##.sf-wrap > .c-back + DIV[id]:last-child
 acg18.us##.buyaoa-below
-ifeng.com##[id^="mobile_gg"]
-ifeng.com#?#.i_con + div:-abp-has(span:-abp-contains(告))
-ifeng.com#?#.i_con:-abp-has(span:-abp-contains(告))
-ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
-ifeng.com##[id^="dl"]
 m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -13043,6 +13038,12 @@ dnvod.tv#?#[style*="important"]
 ||s1-a2.dnvod.tv^
 ||s1-a3.dnvod.tv^
 ! Ifeng.com
+||ifengimg.com/ec678ccfb805f8ee201751.js
+ifeng.com##[id^="mobile_gg"]
+ifeng.com#?#.i_con + div:-abp-has(span:-abp-contains(告))
+ifeng.com#?#.i_con:-abp-has(span:-abp-contains(告))
+ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
+ifeng.com##[id^="dl"]
 ifeng.com###golddigger_bottom
 ifeng.com###linkrat_bottom
 ifeng.com##.i_con + :not(.i_con):not([href="javascript:void(0);"])
