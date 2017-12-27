@@ -7064,6 +7064,8 @@ mg*.6park.com/img/$image
 ||jsmri.com/template/anye_comiis/ads/
 !------------------------Specific element hiding rules------------------------!
 jsmri.com##.comiis_bananer
+v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
+v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 gpcxw.com###AA2
 webhek.com##A[href$="/tb.html"]
 webhek.com##A[href*=".taobao.com"]
