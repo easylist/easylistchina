@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/floatcaopron.js
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -147,6 +146,7 @@
 /float_r.js
 /floatad.$domain=~fwxgx.com
 /floatad2.
+/floatcaopron.js
 /frm_adv.aspx
 /fuliba/js/n1.js
 /g3/960x90-
@@ -3869,6 +3869,7 @@ mg*.6park.com/img/$image
 ||china.com/zh_cn/ads/
 ||china.com/zh_cn/etc/gghead
 ||chinaacc.com^$domain=100ksw.com
+||chinabidding.cn/gys.ad/
 ||chinabyte.com/w/$subdocument
 ||chinabyte.com/w/a/201612/wangting.jpg
 ||chinacar.com.cn/Public/index/images/banner_
@@ -4506,6 +4507,7 @@ mg*.6park.com/img/$image
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
 ||gk99.com/static/js/a-d-sys.js
+||glgoo.*/gimage/ad/
 ||glzy8.com/img/ceo/js.js
 ||gmbbk.cn/img/top.js
 ||gmbbk.cn/jj/
@@ -5783,6 +5785,8 @@ mg*.6park.com/img/$image
 ||piclect.com^*.gif$third-party
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||pics.xgo-img.com.cn^
+||picuphost.com/2016/upload/image/20170422/42206436302.gif
+||picuphost.com/imghost/upload/image/20171226/122600098149.gif
 ||picuphost.com^$domain=mmload.info
 ||picyq.com/index.php/Home/run/get_ad/
 ||pifa.fobshanghai.com/link/
@@ -6164,6 +6168,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
 ||sinaimg.cn/large/00637iPCgy1fgkzscfre3g30qo01odre.gif
 ||sinaimg.cn/large/006CZIQPgy1fbziwpw0b8g306y06yq7w.gif
+||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
 ||sinaimg.cn/large/006VacwCgy1fjq23teqx6g30og028wt8.gif
 ||sinaimg.cn/large/006ZdrOOgy1flbrubi93eg30m801oaff.gif
 ||sinaimg.cn/large/006ZdrOOgy1flbrum925hg30pu01o0z0.gif
@@ -7058,16 +7063,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||glgoo.*/gimage/ad/
-||picuphost.com/2016/upload/image/20170422/42206436302.gif
-||picuphost.com/imghost/upload/image/20171226/122600098149.gif
-||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
-||chinabidding.cn/gys.ad/
 !------------------------Specific element hiding rules------------------------!
-chinabidding.cn###erweima_l
-chinabidding.cn###erweima_r
-chinabidding.cn##.TB-focus
-chinabidding.cn##.ggw
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7689,8 +7685,8 @@ docin.com###endSwfAd
 123.sogou.com###engineHotWord
 ent.qq.com###ent_ad
 360kan.com,360kan.letv.com###erweima
-chinabidding.com.cn###erweima_l
-chinabidding.com.cn###erweima_r
+chinabidding.cn,chinabidding.com.cn###erweima_l
+chinabidding.cn,chinabidding.com.cn###erweima_r
 anhuinews.com###ewm
 cnforex.com###expand_ad
 www.pixnet.net###extradiv2
@@ -8594,6 +8590,7 @@ hackhome.com##.Qad
 3dmgame.com##.R1
 3jy.com##.Rad
 qidian.com##.RightAD
+chinabidding.cn##.TB-focus
 tuku.cc##.TLAD
 dfdaily.com##.TOP_BANNER
 avmimi.com##.TW_UTtoy
@@ -9647,7 +9644,7 @@ eastday.com##.gglist
 weather.com.cn##.ggt
 55188.com,g138.com##.ggtishiall
 taian.com##.ggtp
-dealmoon.com##.ggw
+chinabidding.cn,dealmoon.com##.ggw
 iqiyi.com##.ggwBox
 360doc.com##.ggwz
 douyu.com,douyutv.com##.giftbox
@@ -12450,7 +12447,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{10,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|muchong.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|sina.cn|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||dm1.yongkao.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12708,6 +12704,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||dm.sb580.com^
 ||dm.ws8.org^
 ||dm.zuowenku.net^
+||dm1.yongkao.com^
 ||dm50.jkyd.net^
 ||dm53.yxlady.com^
 ||dn3.ixinwei.com^
@@ -13052,14 +13049,13 @@ dnvod.tv#?#[style*="important"]
 ||s1-a2.dnvod.tv^
 ||s1-a3.dnvod.tv^
 ! Ifeng.com
-/\.ifengimg\.com\/[0-9a-z]{22}\.js/$script,domain=ifeng.com
-||ifengimg.com^*679.js
-.*.ifeng.com^$xmlhttprequest
 ifeng.com###golddigger_bottom
 ifeng.com###linkrat_bottom
+.*.ifeng.com^$xmlhttprequest
 ifeng.com##.i_con + :not(.i_con):not([href="javascript:void(0);"])
 ifeng.com##.i_con[href*=".ifeng.com/go?"]
 ifeng.com##.newbagicon
+/\.ifengimg\.com\/[0-9a-z]{22}\.js/$script,domain=ifeng.com
 ifeng.com##[data-cl]
 ifeng.com##[id^="dl"]
 ifeng.com##[id^="mobile_gg"]
@@ -13074,6 +13070,7 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ||ifeng.com^*?*cl=
 ||ifengimg.com/*1751.js
 ||ifengimg.com^*/m/sources
+||ifengimg.com^*679.js
 !
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
 |http:$script,third-party,xmlhttprequest,domain=3g.wenxuemm.com|lwxiaoshuo.com|m.00ksw.org|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.31wxw8.com|m.360118.com|m.37zw.net|m.3dllc.cc|m.3kw.cc|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.555zw.com|m.55xs.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.6mao.com|m.80txt.com|m.83zw.com|m.88106.com|m.88dushu.com|m.98xiaoshuo.com|m.99shumeng.net|m.aiquxs.com|m.amu520.com|m.aszw.org|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.cm|m.biquge.com.tw|m.biquge.info|m.biquge.tw|m.biqugego.com|m.biqugexsw.com|m.biqugezw.com|m.biqumo.com|m.biquwu.cc|m.blwenku.com|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5200.com|m.brquge.com|m.bxwx9.org|m.chuanyue8.net|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.duanwenxue.com|m.fhxiaoshuo.com|m.fhxsw.org|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haxwx2.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kewai.la|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.leduwo.com|m.lewenxiaoshuo.com|m.liewen.cc|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.mpzw.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.sanjiangge.com|m.shengyan.org|m.shenmabook.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.com|m.snwx8.com|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tmetb.net|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuemi.com|m.wenxuemm.com|m.wodeshucheng.com|m.wodexiaoshuo1.cc|m.x81zw.com|m.xbxwx.net|m.xiaoxiaoshuwu.net|m.xiashu.cc|m.xinshula.com|m.xs.la|m.xs222.tw|m.xuwange.com|m.xyshu8.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yuyouge.com|m.zbzw.com|m.zhenben.cc|m.zhuaji.org|m.zwdu.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|zaidudu.net
