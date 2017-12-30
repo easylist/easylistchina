@@ -7069,7 +7069,7 @@ mg*.6park.com/img/$image
 ||asp300.com/2012adimg/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sina.cn##.f_card_dd[data-videojc^="https://sax"]
+sina.cn##[data-videojc*="://sax"]
 youtubeto.com##A[style^="position: fixed; top: 0px; left: 0px; width:"]
 uraban.me##A[href*=".taobao.com"]
 hc360.com,yaolan.com###AD
@@ -10043,8 +10043,8 @@ xitongzhijia.net##.m-red-packet
 3g.cn##.mOrder > div > .list_block
 myexception.cn##.m_a
 sohu.com##.m_ad
-sina.cn##.m_f_a[data-href^="http://sax"]
-sina.cn##.m_f_a[href^="http://sax"]
+sina.cn##.m_f_a[data-href*="://sax"]
+sina.cn##.m_f_a[href*="://sax"]
 lgn.yy.com##.m_left
 163.com##.m_papa
 hupu.com##.m_text_ad
