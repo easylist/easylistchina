@@ -7069,7 +7069,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dnvod.tv#?#div[data-code]:not([id])
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -12988,6 +12987,8 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
 ||s1-a4.dnvod.tv^$domain=dnvod.tv
 !
+dnvod.tv##:not(#video) > div[data-code]
+dnvod.tv#?#:not(#video) > div[data-code]
 dnvod.tv###box
 dnvod.tv###msg_win
 dnvod.tv###msg_winw
@@ -13009,7 +13010,6 @@ dnvod.tv##[style*="important"]
 dnvod.tv##a[href^="http://yoyou."]
 dnvod.tv##a[style="display:inline;visibility:visible"] > img
 dnvod.tv##div[class][data-type="popup"]
-dnvod.tv##div[data-code]:not([id])
 dnvod.tv##div[data-code][data-img]
 dnvod.tv##div[id][style*="top:"][style*="block"]
 dnvod.tv#?#[style*="important"]
