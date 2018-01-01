@@ -12,8 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/31M/btjav.gif
-/gwunggou/*
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -61,6 +59,7 @@
 /20160420_uho_bn.gif
 /2016v2/js/adm2.js
 /22tu/ads/*
+/31M/btjav.gif
 /500ad/*
 /58pic/index.php?m=searchAd&
 /66bubu/ads/*
@@ -170,6 +169,7 @@
 /guanggao.
 /guanggao/*
 /guanggao2.
+/gwunggou/*
 /h/k.php?u=*&l=*&v=$third-party
 /hao123/template/erji/video_news/data/list.json
 /hao123_api/api/cpc/*
@@ -640,7 +640,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||zzyonghao.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2415,6 +2414,7 @@ ubmcmm.baidustatic.com
 ||zzad.com^$third-party
 ||zzbaowen.com^
 ||zzrcz.com^
+||zzyonghao.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
@@ -7067,8 +7067,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dakashangche.net##.gpost-below
-dakashangche.net##.gtop
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9661,13 +9659,14 @@ techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
 tiexue.net##.goushi
 tiexue.net##.gousi
-dakashangche.com##.gpost-below
+dakashangche.com,dakashangche.net##.gpost-below
 owyb1688.com##.gray-show
 jiaodong.net##.grayB
 loldk.com##.grid-adv
 bioon.com##.grid_6
 admin5.com##.grid_8 > .mb6
 putclub.com##.gtest
+dakashangche.net##.gtop
 58.com##.guaguabox
 97aa1.com,niu20.com##.guang4
 adreep.cn,baoliny.com,gasaq.com,hgitv.com,nen.com.cn,rznews.cn,sqkz.com##.guanggao
@@ -10036,8 +10035,6 @@ xitongzhijia.net##.m-red-packet
 3g.cn##.mOrder > div > .list_block
 myexception.cn##.m_a
 sohu.com##.m_ad
-sina.cn##[data-href*="://sax"]
-sina.cn##[href*="://sax"]
 lgn.yy.com##.m_left
 163.com##.m_papa
 hupu.com##.m_text_ad
@@ -11002,7 +10999,9 @@ instrument.com.cn##A[href^="http://image.instrument.com.cn/ad/adweb/AdCount/"]
 bilibilijj.com##[class$="_Game"]
 tiexue.net##[class*="junph"]
 gamme.com.tw##[class^="sidead_"]
+sina.cn##[data-href*="://sax"]
 sina.cn##[data-videojc*="://sax"]
+sina.cn##[href*="://sax"]
 tiexue.net##[id*="junph"]
 shunwang.com##[id^="ad_"]
 jjwxc.net##[id^="adp_"]
@@ -12980,8 +12979,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
 ||s1-a4.dnvod.tv^$domain=dnvod.tv
 !
-dnvod.tv##:not(#video) > div[data-code]
-dnvod.tv#?#:not(#video) > div[data-code]
 dnvod.tv###box
 dnvod.tv###msg_win
 dnvod.tv###msg_winw
@@ -12999,12 +12996,14 @@ dnvod.tv##.r-gg
 /\.dnvod\.tv\/\w{2}\/[\w-]+\./$image,object-subrequest,domain=dnvod.tv
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.dnvod\.tv\/Movie\/GetResource\.ashx\?device=0&id=\w+=htm/$xmlhttprequest,domain=dnvod.tv
+dnvod.tv##:not(#video) > div[data-code]
 dnvod.tv##[style*="important"]
 dnvod.tv##a[href^="http://yoyou."]
 dnvod.tv##a[style="display:inline;visibility:visible"] > img
 dnvod.tv##div[class][data-type="popup"]
 dnvod.tv##div[data-code][data-img]
 dnvod.tv##div[id][style*="top:"][style*="block"]
+dnvod.tv#?#:not(#video) > div[data-code]
 dnvod.tv#?#[style*="important"]
 ||dnvod.tv/04/
 ||dnvod.tv/1tJ/
