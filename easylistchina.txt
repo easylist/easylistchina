@@ -11,6 +11,7 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+/yy_transv/js/cmp.js
 /640_120_javhd.jpg
 -1688-wp-media/ads/
 -880-80-4.jpg
@@ -641,6 +642,7 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
+###toptb + DIV[align="center"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
 ||wzsygdl.com^
@@ -7074,6 +7076,7 @@ mg*.6park.com/img/$image
 ||azhibo.tv/arts/
 ||100.pncdn.cn^
 .bid^$domain=thisav.com
+||alicdn.com^$domain=thzvv.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
