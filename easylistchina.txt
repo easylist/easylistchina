@@ -11,8 +11,6 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/yy_transv/js/cmp.js
-/640_120_javhd.jpg
 -1688-wp-media/ads/
 -880-80-4.jpg
 -HollandOne_GIF2.gif
@@ -64,6 +62,7 @@
 /31M/btjav.gif
 /500ad/*
 /58pic/index.php?m=searchAd&
+/640_120_javhd.jpg
 /66bubu/ads/*
 /80sad/*
 /8drama_yahoo/*
@@ -323,6 +322,7 @@
 /xiaoyi/360_
 /xiaoyi/960_
 /ys_77jjss/*
+/yy_transv/js/cmp.js
 /z63/img/88.jpg
 /zahuishi/images/show38070.js
 /zhidiy_m_ad_
@@ -460,6 +460,7 @@ _xiuno_com_ad/
 ###textggs
 ###top_ads0
 ###toperAd2
+###toptb + div[align="center"]
 ###tr_ad1
 ###tr_ad10
 ###tr_ad11
@@ -494,6 +495,7 @@ _xiuno_com_ad/
 ##.ad-below-header-menu
 ##.ad-below-post-title
 ##.ad-below-related-post
+##.ad-couplet-common
 ##.ad-left-down
 ##.ad-left-top
 ##.ad-right-down
@@ -638,15 +640,11 @@ _xiuno_com_ad/
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
-##.ad-couplet-common
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
-###toptb + DIV[align="center"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||wzsygdl.com^
-||xwgbfrnppyoc.bid^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2235,6 +2233,7 @@ ubmcmm.baidustatic.com
 ||wyttech.cn^
 ||wywsdx.com^
 ||wzjijia.com^
+||wzsygdl.com^
 ||x-ssp.com^$third-party
 ||x6z6.com^
 ||x8ad.com^$third-party
@@ -2297,6 +2296,7 @@ ubmcmm.baidustatic.com
 ||xuanmeiguoji.com^
 ||xul478.com^
 ||xulizui6.com^
+||xwgbfrnppyoc.bid^
 ||xxad.cc^
 ||xxhrd.com^
 ||xxwkjl.com^
@@ -2500,6 +2500,7 @@ ubmcmm.baidustatic.com
 ||yy18.info^*thanks$popup
 !----------------------Specific advert blocking filters-----------------------!
 .adsame.libaclub.com^
+.bid^$domain=thisav.com
 .com/562723/$domain=banyungong.org
 .com/az.js$domain=btpkw.com|hrszyl.com|jiuzhiling.com|myt520.com|xtzgjx.com|zchot.com
 .com/tps/$domain=ocucn.com
@@ -2668,6 +2669,7 @@ mg*.6park.com/img/$image
 ||0x01e7.website^
 ||1.hao123.com^
 ||100.admin5.com^
+||100.pncdn.cn^
 ||10000xing.cn/images/we
 ||10086yule.com/js/
 ||100ksw.com/inc/doc-
@@ -3408,7 +3410,7 @@ mg*.6park.com/img/$image
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
-||alicdn.com^$domain=34bg.com|51dll.com|63ig.com|acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|nutgeek.com|viidii.info|wenkuxiazai.com|zhev.com.cn|zuqiu.me
+||alicdn.com^$domain=34bg.com|51dll.com|63ig.com|acglover.pw|ip.cn|jitapu.com|junying.com|mlook.mobi|nutgeek.com|thzvv.com|viidii.info|wenkuxiazai.com|zhev.com.cn|zuqiu.me
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alifeifei.net/s/*.js
@@ -3499,7 +3501,9 @@ mg*.6park.com/img/$image
 ||ax.ifeng.com^
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
+||azhibo.*/media/aimg/*.gif
 ||azhibo.*images/leisu.png
+||azhibo.tv/arts/
 ||b.baiy.net^
 ||b7yy.com/ad/
 ||b8yy.com/stlye/vnsr.gif
@@ -7072,11 +7076,6 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||azhibo.*/media/aimg/*.gif
-||azhibo.tv/arts/
-||100.pncdn.cn^
-.bid^$domain=thisav.com
-||alicdn.com^$domain=thzvv.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
@@ -12936,12 +12935,10 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ##a[href^="http://yunbofangbt."]
 |http:$script,third-party,xmlhttprequest,domain=alicili.pw|btdiggs.com|btlibrary.ws|cilidaquan.xyz|cnbtkitty.com|diggbt.fyi|diggbts.com|savebt.org|storebt.biz|torrentkitty.uno|zhongzicili.me|zhongzifuli.pw
 |https:$script,third-party,xmlhttprequest,domain=alicili.pw|btdiggs.com|btlibrary.ws|cilidaquan.xyz|cnbtkitty.com|diggbt.fyi|diggbts.com|savebt.org|storebt.biz|torrentkitty.uno|zhongzicili.me|zhongzifuli.pw
-||mengchengbao.com^
 ||0377shujuhuifu.top^
-||258ydh.com^
-||mlangw.net^
 ||2013sh.com^
 ||210189.com^
+||258ydh.com^
 ||bjwwfx001.org.cn^
 ||bycxsh.com^
 ||ccbccb.cn^
@@ -12953,6 +12950,8 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||hulemedia.com^
 ||ip.hivps.xyz^
 ||kuuad.com^
+||mengchengbao.com^
+||mlangw.net^
 ||pr33.cn^
 ||shanghuitianxia.cn^
 ||shunlige.com^
@@ -13057,8 +13056,6 @@ dnvod.tv#?#[style*="important"]
 ||s1-a2.dnvod.tv^
 ||s1-a3.dnvod.tv^
 ! Ifeng.com
-||ifengimg.com/cfb80
-||ifengimg.com/md86
 ifeng.com###golddigger_bottom
 ifeng.com###linkrat_bottom
 .*.ifeng.com^$xmlhttprequest
@@ -13081,6 +13078,8 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ||ifengimg.com/*1751.js
 ||ifengimg.com/9c86
 ||ifengimg.com/c867
+||ifengimg.com/cfb80
+||ifengimg.com/md86
 ||ifengimg.com^*/m/sources
 ||ifengimg.com^*679.js
 !
