@@ -13003,6 +13003,8 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.com/down/copy
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
+dnvod.tv##[data-code] > *:not([pluginspage="http://www.macromedia.com/go/getflashplayer"])
+dnvod.tv#?#[data-code] > *:not([pluginspage="http://www.macromedia.com/go/getflashplayer"])
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 /\.dnvod\.tv\/(?!(listprovider/ajaxlist.async.ashx|ActionProvider))/$match-case,~third-party,xmlhttprequest
 @@||dnvod.tv/Movie/Play.aspx?id=$genericblock
