@@ -3708,8 +3708,6 @@ mg*.6park.com/img/$image
 ||bmp1.ali213.net/js/
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bmp2.ali213.net/js/
-||bnext.com.tw/static/web/all.js
-||bnext.com.tw/static/web/images/banners/
 ||bokon.net:1133/ga/
 ||bonbonme.com/js/g1313166/
 ||bonbonyou.com/js/
@@ -7093,6 +7091,10 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+babyhome.com.tw##.ad-span-ec
+babyhome.com.tw##.ad-span-large
+babyhome.com.tw##.ad-span-square
+babyhome.com.tw##.info-span-03
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -12993,7 +12995,7 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 @@||dnvod.tv/Movie/Play.aspx?id=$genericblock
 @@||dnvod.tv^*/Readyplay.aspx?id=$genericblock
 dnvod.tv##[data-code] > :not([pluginspage="http://www.macromedia.com/go/getflashplayer"])
-dnvod.tv#?#[data-code] > *:not([pluginspage="http://www.macromedia.com/go/getflashplayer"])
+dnvod.tv#?#[data-code] > :not([pluginspage="http://www.macromedia.com/go/getflashplayer"])
 ||dnvod.tv/abb/$domain=dnvod.tv
 ||dnvod.tv^*.gif$object-subrequest,domain=dnvod.tv
 ||dnvod.tv^*.jpg$object-subrequest,domain=dnvod.tv
