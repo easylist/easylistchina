@@ -12993,6 +12993,9 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
 dnvod.tv##[data-code] > [target="_blank"]
+dnvod.tv#?#[data-code] > [target="_blank"]
+dnvod.tv##[data-code] > :not(object)
+dnvod.tv#?#[data-code] > :not(object)
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
 /\.dnvod\.tv\/(?!(listprovider/ajaxlist.async.ashx|ActionProvider))/$match-case,~third-party,xmlhttprequest
 @@||dnvod.tv/Movie/Play.aspx?id=$genericblock
