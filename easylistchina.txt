@@ -7089,7 +7089,8 @@ mg*.6park.com/img/$image
 ||alibaba.com/async/b2bad.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-58.com###jingzhun
+58.com#?#.ac_item:-abp-has(.jingpin)
+58.com###jzcon > #jingzhun
 58.com###jingzhun + .shangjiacon
 58.com###infolist > .recycleInfo
 58.com##.adInfo
