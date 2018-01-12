@@ -7089,16 +7089,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-58.com##.topinfos
-58.com#?#LI[sortid]:-abp-has(.icon-jingxuan)
-58.com#?#LI[sortid]:-abp-has(.icon-zhiding)
-58.com#?#.zzinfo:-abp-has(.zhiding_icon)
-58.com#?#tr[sortid]:-abp-has(> .t > .ico.accurate)
-58.com#?#LI[sortid]:-abp-has(.jinico)
-58.com#?#TR[logr]:-abp-has(> .t > .mt-p-tit > .jingpin)
-58.com##.S_table_ding_box
-58.com#?#.business_main:-abp-has(> .business_desc > .left > .ding_icon)
-58.com##.zhiding-border
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11036,7 +11026,6 @@ iqiyi.com##.zzVideo
 v7v3.com##.zzsl
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
-58.com#?#.ac_item:-abp-has(.jingpin)
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
 yb983.com##A[href*="/ClickAd"]
 tingvoa.com##A[href*="/ClickAd?"]
@@ -12434,6 +12423,19 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||zimuku.net/ads.js
 @@||zjol.com.cn^*/index.jsp?newsid=$elemhide
 lm-us.com#@#.advertisement_above_footer
+! 58.com
+58.com###rightRetui
+58.com#?#.ac_item:-abp-has(.jingpin)
+58.com##.topinfos
+58.com#?#LI[sortid]:-abp-has(.icon-jingxuan)
+58.com#?#LI[sortid]:-abp-has(.icon-zhiding)
+58.com#?#.zzinfo:-abp-has(.zhiding_icon)
+58.com#?#tr[sortid]:-abp-has(> .t > .ico.accurate)
+58.com#?#LI[sortid]:-abp-has(.jinico)
+58.com#?#TR[logr]:-abp-has(> .t > .mt-p-tit > .jingpin)
+58.com##.S_table_ding_box
+58.com#?#.business_main:-abp-has(> .business_desc > .left > .ding_icon)
+58.com##.zhiding-border
 ! 99re.com
 .gif|$domain=99b4.com|99bb4.com|99cc9.com|99re.com
 /js/layer.js$domain=99b4.com|99bb4.com|99cc9.com|99re.com
