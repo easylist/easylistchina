@@ -2839,6 +2839,7 @@ mg*.6park.com/img/$image
 ||2008xxx.com:888
 ||201*.myhard.com^
 ||20150930.cf^
+||2016.bkill.net^
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
 ||205.209.138.102^
 ||211600.com/data/attachment/portal/
@@ -3171,6 +3172,7 @@ mg*.6park.com/img/$image
 ||77fkk5.com1.z0.glb.clouddn.com/bar/
 ||77kp.com/bd/
 ||77kp.com/gg123/
+||77kpw.cc/pc/
 ||7893com.com/img/*.gif
 ||789xz.com/index2/img/xiazai
 ||78dm.net/channel/test?
@@ -3689,6 +3691,7 @@ mg*.6park.com/img/$image
 ||bjmama.net/s/
 ||bjmxw.net/bd/
 ||bjxxw.com/tpIndex/?s=/home/index/ads/
+||bkill.com/css/js/abcbl.js
 ||bkjia.com/bkjia/js/art_rightad
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
@@ -4791,6 +4794,7 @@ mg*.6park.com/img/$image
 ||hudong.pl.youku.com/jsapi/interact/playerPlugins.js
 ||hudong.pl.youku.com/n/interact/player/get/plugins?
 ||huhumh.com/js/
+||huimg.cn/e/hd.e.wap.
 ||huizu100.com/data/attachment/portal/
 ||hunantv.com/ui/2014/images/hao123.jpg
 ||huoche.net/Images/pc/ad_
@@ -7083,14 +7087,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||2016.bkill.net^
-||bkill.com/css/js/abcbl.js
-||huimg.cn/e/hd.e.wap.
-||77kpw.cc/pc/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-badmintoncn.com###bottomad_big
-makepolo.com##.cpc_tgs
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7475,6 +7473,7 @@ wapwenku.baidu.com,wk.baidu.com###bottomFixed
 auto.sina.com.cn###bottomInquryBar
 masok.cn###bottomLayer
 51feibao.com###bottom_fu
+badmintoncn.com###bottomad_big
 kdhome.net###bottomadv
 xiaopi.com###bottombar
 dxlwwang.com,kt51.com,tuku.cc,vzhuan.cn###box
@@ -9380,6 +9379,7 @@ wnacg.org##.couplet
 tigtag.com##.couplet_l
 tigtag.com##.couplet_r
 meishij.net##.cp_body_right
+makepolo.com##.cpc_tgs
 zuoye.baidu.com,zybang.com##.cpro
 bkill.com##.cross-ad
 timedg.com##.crossAdvertise
@@ -11920,7 +11920,7 @@ chinatimes.com#@#.page_ad
 fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 360zhibo.com#@#.rightad
-blogspot.com,blogspot.tw,blogspot.hk,blogspot.jp#@#.vertical-ads
+blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw#@#.vertical-ads
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
@@ -12483,8 +12483,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/(?:[0-9a-z]|[a-z]){9,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|muchong.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|sina.cn|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|ysts8.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||zzjs.makepolo.net^
-||bdx.playnext.cn^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12683,6 +12681,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||bdlm*.hc360.com^
 ||bdlncs1.familydoctor.com.cn^
 ||bdm.911cha.com^
+||bdx.playnext.cn^
 ||becode.qiushibaike.com^
 ||becode.xiao84.com^
 ||bjs.9669.cn^
@@ -12969,6 +12968,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||zq84.com^
 ||zuiceshi.net^
 ||zxw51.com^$third-party
+||zzjs.makepolo.net^
 ! BT Kitty
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##a[href^="http://yunbofangbt."]
