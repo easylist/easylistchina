@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-_naimabdd_
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -348,6 +347,7 @@ _naimabdd_
 =SOGOU_WAP_SETJSONADSLOT&
 _billboard_320x100.iframe.
 _mobilebanner_v1_550x60.jpg
+_naimabdd_
 _popAds.
 _xiuno_com_ad/
 |http://*.cc/ad/
@@ -648,7 +648,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||zhinengap.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2414,6 +2413,7 @@ ubmcmm.baidustatic.com
 ||zhaofuli.mobi^$third-party
 ||zhichi08.com^
 ||zhihei.com^
+||zhinengap.com^
 ||zhiong.net^
 ||zhjfad.com^
 ||zhuba8.com^
@@ -3789,6 +3789,7 @@ mg*.6park.com/img/$image
 ||bytravel.cn/js/ad_
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
+||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzfl-1.cc^*.gif
 ||bzfl.cc/da*.gif
 ||bzfl1.cc/da*.gif
@@ -7085,15 +7086,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-dilidili.wang##.right_top_ad
-yahoo.com##.js-stream-content > DIV > DIV > DIV > H3 > A[href^="https://hk.promotions."]
-yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜))
-hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
-hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
-backchina.com##A[href*=".cardbenefit.com/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -9934,6 +9928,8 @@ ifeng.com##.jp_list
 jrj.com.cn##.jrj-ad
 zhanqi.tv##.js-activity-show
 so.com##.js-show-data
+yahoo.com##.js-stream-content > div > div > div > h3 > a[href^="https://hk.promotions."]
+hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 sucaijiayuan.com##.jsPart1Right
 ifeng.com##.js_url[href^="http://dol.deliver."]
 qz930.com##.jsl_ad
@@ -10439,6 +10435,7 @@ sznews.com##.right_flash
 ifeng.com##.right_gg
 gucheng.com##.right_info
 163.com##.right_originalcolumn_ad
+dilidili.wang##.right_top_ad
 hkwb.net##.rightadv2
 xxsy.net##.rightbanner
 mail.sina.com.cn##.rightbottom
@@ -11091,6 +11088,7 @@ oupeng.com##a[href*=".adbxb."]
 techweb.com.cn##a[href*=".aliyun.com/"]
 iqiyi.com##a[href*=".banggo."]
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
+backchina.com##a[href*=".cardbenefit.com/"]
 bilibili.com##a[href*=".doubleclick."]
 jobbole.com##a[href*=".icketang.com/"]
 dapenti.com,iqiyi.com##a[href*=".jd.com"]
@@ -11679,6 +11677,7 @@ apk.tw##ins.adsbygoogle
 ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div[id="1"] /deep/ div[id="1"]
 jd.com#?#.gl-i-wrap:-abp-has(> .p-promo-flag)
 fengniao.com##li > a[href="http://www.fengniao.com/topic/5345407.html"]
+hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 image.so.com##li[class="waterfall_cell"]
 3g.qq.com##li[data-adtype="qbad"] > a[class^="type"]
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
@@ -11805,6 +11804,7 @@ zhangxinxu.com#?##topadout
 cartoomad.com##tr:last-child > td[align="right"] > table[width="732"]
 cartomad.com,cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 firefoxchina.cn##ul[track-key="adv_links"]
+yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜))
 zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 !---------------------------------CSS Whitelist-------------------------------!
 the-sun.on.cc#@##ContentAd1
