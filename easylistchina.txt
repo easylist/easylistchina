@@ -4034,7 +4034,6 @@ mg*.6park.com/img/$image
 ||cssqt.com/a/images/indexsd.gif
 ||cssqt.com/a/images/right
 ||ctags.cn/9/j2.js
-||ctanet.cn/aq/JS/
 ||ctfile.com/img/alipay_qhb.gif
 ||ctfile.com/iz.php?
 ||ctrip.com/amd/*960x90.
@@ -7083,8 +7082,10 @@ mg*.6park.com/img/$image
 ||zimuku.*/images/v2/js/bn.js
 ||chazidian.com/czd_gg.js
 ||ssgg.chazidian.com^
+||ctanet.cn/aqq/JS/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+ctanet.cn##A[href*="/GoTo.asp?ID="] > img
 acg18.us##A[href*=".caromag.cn"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -7618,7 +7619,6 @@ weather.com.cn###di_tan
 ttmeiju.com###dialog-overlay
 iciba.com###dict_right5
 chinanews.com###dingtong
-chzhw.com###diqilai
 3boys2girls.com###displayadb1
 3boys2girls.com###displayadbu3
 szhk.com###div01
@@ -8077,7 +8077,6 @@ live.win007.com###notify > a[target="_blank"]
 qq.com###nqsnqsad02
 ssnn.net###nrk_gg
 pt80.net###nv_forum > div[align="center"]
-chzhw.com###nview > a > img[style$="width:326px;"]
 3g.qq.com###omgad-wechat-bigpic
 duba.com###one-mid
 duba.com###oneTip
@@ -11158,7 +11157,6 @@ ainuody.com##a[href="http://www.zhuzhuquan.com.cn"]
 zhiboba.cc##a[href^="//shang.qq.com/wpa/"]
 bigear.cn##a[href^="/?module=dantian&"]
 sdgundam.cn##a[href^="/aclk/"]
-ctanet.cn##a[href^="/aq/GoTo.asp?ID="] > img
 hacg.wiki,llss.fun,llss.me,llss.tv##a[href^="/gg2/"]
 shaoit.com##a[href^="/go/"]
 acg18.us##a[href^="/jp"]
