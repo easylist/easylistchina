@@ -647,7 +647,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||sigo99.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2011,6 +2010,7 @@ ubmcmm.baidustatic.com
 ||si9377.com^
 ||sicentlife.com^
 ||sigbusa.com^
+||sigo99.com^
 ||sin114.com^$third-party
 ||sinaalicdn.com^
 ||sinaaliyun.cn^
@@ -3867,6 +3867,7 @@ mg*.6park.com/img/$image
 ||cheers.com.tw/assets/js/fancyapps-
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||chengruide.com/ad_js/
+||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
 ||chewen.com/pics/2013/09/13/02013091317191365.jpg
 ||chexun.com/delivery?
@@ -4004,6 +4005,7 @@ mg*.6park.com/img/$image
 ||codepub.com/file/code/20160520/114349135.jpg
 ||codezp.org/uploads/
 ||com.webmasterhome.cn/a1-
+||comefromchina.com/images/128bestbuy
 ||content.xilu.com^$object
 ||cool-de.com/api.php?mod=js&bid=
 ||coolaler.com.tw/index_ads/
@@ -4044,6 +4046,8 @@ mg*.6park.com/img/$image
 ||cwan.com/templets/shouye/misc/js/suspend.js
 ||cwan.com/templets/webgame/misc/js/indextip.js
 ||cww.net.cn/include/show.asp?boardID=
+||cww.net.cn/js/adspaces.js
+||cww.net.cn/js/urdev.js
 ||cww.net.cn/UpLoadFile/*.swf
 ||cye.com.cn/JS/AdsJS/
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
@@ -7083,13 +7087,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||chengtongled.com/gg/
-||cww.net.cn/js/adspaces.js
-||cww.net.cn/js/urdev.js
-||comefromchina.com/images/128bestbuy
 !------------------------Specific element hiding rules------------------------!
-comefromchina.com##.ad_navtext_11 > LI:nth-child(n+2)
-cww.net.cn##.ggbar
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8860,6 +8858,7 @@ ck101.com##.ad_logo
 78dm.net##.ad_logor
 sina.com.cn##.ad_main_top
 duba.com##.ad_middleModal
+comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 hb163.cn##.ad_panel_980
 letv.com##.ad_pop
 letv.com##.ad_pop_small
@@ -9675,6 +9674,7 @@ eastday.com##.gg_channel_r_b
 china.cn##.gg_li
 eeyy.com##.gg_top
 360che.com##.ggbanner
+cww.net.cn##.ggbar
 creaders.net##.ggbox1
 qidian.com##.ggbox740X80
 chazidian.com##.ggin
@@ -13130,11 +13130,11 @@ dnvod.tv#?#[style*="important"]
 ||s1-a2.dnvod.tv^
 ||s1-a3.dnvod.tv^
 ! Fuliba
-uliba.net###content > DIV:first-child > A:first-child:last-child
-uliba.net###content > UL[style="list-style-type: none;"]
+uliba.net###content > div:first-child > a:first-child:last-child
+uliba.net###content > ul[style="list-style-type: none;"]
 uliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
-uliba.net###sidebar > DIV:first-child
-uliba.net##.entry-content > DIV[style^="float:right"]
+uliba.net###sidebar > div:first-child
+uliba.net##.entry-content > div[style^="float:right"]
 uliba.net##.right-banner
 uliba.net##.tool_news1
 ! Ifeng.com
