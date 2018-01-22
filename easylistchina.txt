@@ -5339,6 +5339,7 @@ mg*.6park.com/img/$image
 ||letvimg.com/gugwl/*.swf
 ||letvimg.com^*/108x70$object
 ||letvimg.com^*_phone/
+||lewenxiaoshuo.com/file/script/
 ||lewenxiaoshuo.com/m-
 ||lezhuan.com/js/spread.js
 ||lgmi.com/ggimg/
@@ -6279,6 +6280,7 @@ mg*.6park.com/img/$image
 ||soxunlei.net/cd/
 ||sozi.cn/templets/sozi/js/js.js
 ||sp*.baidu.com^*.gif?
+||speedtest.cn/assets/images/ce_
 ||spn.com.cn/admin_new/imgs/b2.jpg
 ||spn.com.cn/media/jackmm.js
 ||sportscn.com/js/commerical
@@ -7078,13 +7080,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||lewenxiaoshuo.com/file/script/
-||speedtest.cn/assets/images/ce_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-speedtest.cn###add_r1
-speedtest.cn###add_r2
-speedtest.cn##.aP-box
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7316,6 +7313,8 @@ dahanju.com,xskhome.com,yxdown.com###adbg
 tbtdg.com###adblockWarning
 lzep.cn###add
 fhm.com.tw###add-box
+speedtest.cn###add_r1
+speedtest.cn###add_r2
 17yy.com###addiv
 rj.baidu.com###ader
 iqiyi.com###adflash
@@ -8632,6 +8631,7 @@ ijia360.com##.a.fz0.mb15
 55188.com,g138.com##.a1_gg
 thinkphp.cn##.a6
 chacuo.net##.a96090
+speedtest.cn##.aP-box
 2345.com##.aPlayBtn[href^="http://g.wan."]
 0772fang.com##.a_banner
 baixing.com##.a_d_s_hidden_link
@@ -11806,7 +11806,7 @@ mp4ba.la##td[width="300"][height="300"]
 enread.com##td[width="326"][height="250"]
 62422.cn##td[width="760"][height="75"]
 verycd.gdajie.com##th[colspan="3"]
-zhangxinxu.com#?##topAdOut
+zhangxinxu.com#?##topadout
 cartoomad.com##tr:last-child > td[align="right"] > table[width="732"]
 cartomad.com,cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 firefoxchina.cn##ul[track-key="adv_links"]
@@ -11940,8 +11940,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
-@@||ips.ifeng.com^*.mp4$domain=v.ifeng.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
@@ -12245,9 +12243,11 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+@@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|now.com|xuite.net
 @@||img.ybbbs.com/2014/*app
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
+@@||ips.ifeng.com^*.mp4$domain=v.ifeng.com
 @@||itc.*^prod=ad&$domain=ttkyy.net|wlbgt.com
 @@||itc.cn/public_photo/advert/$domain=focus.cn
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
