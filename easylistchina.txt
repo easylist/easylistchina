@@ -3811,7 +3811,6 @@ mg*.6park.com/img/$image
 ||cari.com.my/static/appbanner
 ||carnoc.com/noticejs/
 ||cbfw.cn/gonggong/chibi/cf_
-||cbfw.cn/gonggong/js/cf_flash.js
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.com/wp-content/uploads/bMShkpexGYJd/
@@ -7083,6 +7082,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn^$domain=avaotu.net
 !------------------------Specific element hiding rules------------------------!
 avaotu.net##.ads
+amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
