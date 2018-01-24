@@ -647,7 +647,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||symac.cn^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2056,6 +2055,7 @@ ubmcmm.baidustatic.com
 ||sxdyrq.com^
 ||sxz67.com^
 ||sykty.com^
+||symac.cn^$third-party
 ||symaw.cn^$third-party
 ||syofew6o.net^
 ||sytcyf.com^
@@ -3821,6 +3821,7 @@ mg*.6park.com/img/$image
 ||ccb.com.cn/V5/images5/right0.gif
 ||cckke.com/fanhao/v/ad
 ||ccr.yxdown.com^
+||cctime.com/UpLoadFile/201*.swf
 ||cctime.com/UpLoadFile/2012/11/7/201211733483705.gif
 ||cctv.com/Library/a2.js
 ||cctv5.name/data/js/
@@ -3921,6 +3922,7 @@ mg*.6park.com/img/$image
 ||chuiyao.com/static/jsa/
 ||chunxiao.tv/1.aspx
 ||chyangwa.net/block/bb/
+||cibntv.net/youku/*.mp4?
 ||cidianwang.com/images/taobao/
 ||cidianwang.com/js/zdtop.js
 ||ciliba.org/Public/static/js/common-v2.js
@@ -6521,6 +6523,7 @@ mg*.6park.com/img/$image
 ||uooyoo.com/hz/*str.js
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
+||upaiyun.com/newimg88/2017/11/yideng
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upan.cc/images/pay/
 ||upantool.com/bay/
@@ -7074,19 +7077,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cibntv.net/youku/*.mp4?
-||cctime.com/UpLoadFile/201*.swf
-||upaiyun.com/newimg88/2017/11/yideng
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-cnool.net##.bbslist-banner
-css88.com##.post-bottom
-css88.com##.thumb-leftsidebar-image02
-css88.com##.thumb-rightsidebar-image01
-css88.com##.top-post-link
-cctime.com###ad_three
-cctime.com###nav_banner
-cctime.com###top_banner
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7300,6 +7292,7 @@ lzep.cn###ad_side_r
 bioon.com###ad_tb
 qqlubo.net###ad_text_top
 taoguba.com.cn###ad_tgb_list
+cctime.com###ad_three
 8591.com.tw###ad_tips
 qidian.com###ad_tjword
 sina.com.cn###ad_tl_01
@@ -8057,6 +8050,7 @@ javjunkies.com###naked-ad
 narutom.com###naruto_desk
 yxad.com###nav
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="://www.ccav1."])
+cctime.com###nav_banner
 tgbus.com###neck_970
 40407.com###nei_fmt
 fun.tv###network-mobile
@@ -8391,7 +8385,7 @@ qidian.com###topGameOp
 elecfans.com###topJf
 hupu.com###topPub
 starbaby.cn###top_ad_show
-ck101.com###top_banner
+cctime.com,ck101.com###top_banner
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
 xiashanet.com###top_content
 hiapk.com###top_gg
@@ -9160,6 +9154,7 @@ jxedt.com##.bbad
 nick18.com##.bbs_entry_wrapper > table[width="100%"]
 pediy.com##.bbs_footer_advertising_column
 xilu.com##.bbs_topad
+cnool.net##.bbslist-banner
 hao.rising.cn##.bd-lmhot
 jrj.com.cn##.bd.pa10.bgn
 newxue.com##.bd500
@@ -10333,6 +10328,7 @@ tgfcer.com##.portalbox
 jobbole.com##.post > .textwidget
 vmovier.com##.post-ad-bottom
 woshipm.com##.post-ads
+css88.com##.post-bottom
 mop.com##.post-content[href*=".taobao.com"]
 vmovier.com##.post-right-item + a[target="_blank"]
 woshipm.com##.post-top-ad
@@ -10725,6 +10721,8 @@ cnool.net##.third-banner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
 jbtalks.cc##.threadad
 m.tiexue.net##.threeImg.titleUp
+css88.com##.thumb-leftsidebar-image02
+css88.com##.thumb-rightsidebar-image01
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
 163.com##.tie-ad-bar
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
@@ -10776,6 +10774,7 @@ zimuzu.tv##.top-box > div[style="text-align:center; margin:0 0 15px 0;"]
 taihainet.com##.top-info
 2345.com##.top-lvy
 eelly.com##.top-picture
+css88.com##.top-post-link
 rj.baidu.com##.top-recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
 999.com##.top-swf
@@ -11934,13 +11933,12 @@ chinatimes.com#@#.page_ad
 fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 360zhibo.com#@#.rightad
-blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw#@#.vertical-ads
+blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw#@#.vertical-ads
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 gamer.com.tw#@#a[href^="http://bs.serving-sys.com/"]
 gamer.com.tw#@#a[href^="https://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
-comic.tw#@#.vertical-ads
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
