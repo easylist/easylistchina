@@ -12,11 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-.mp4?ccode=*&duration=15&
-.mp4?ccode=*&duration=20&
-.mp4?ccode=*&duration=29&
-.mp4?ccode=*&duration=30&
-.mp4?ccode=*&duration=125&
 -880-80-4.jpg
 -HollandOne_GIF2.gif
 .cc/js/ads/
@@ -55,6 +50,11 @@
 .info/js/alls_foot.js
 .info/js/alls_top.js
 .js?advertID=
+.mp4?ccode=*&duration=125&
+.mp4?ccode=*&duration=15&
+.mp4?ccode=*&duration=20&
+.mp4?ccode=*&duration=29&
+.mp4?ccode=*&duration=30&
 .net/js/ads/
 .test15./
 .tv/js/ads/
@@ -2520,7 +2520,6 @@ ubmcmm.baidustatic.com
 !----------------------Specific advert blocking filters-----------------------!
 .adsame.libaclub.com^
 .bd-film.*/r/cms/www/movie/js/cms-sidebar
-|http://www.*.js|$script,third-party,domain=thisav.com
 .com/az.js$domain=btpkw.com|hrszyl.com|jiuzhiling.com|myt520.com|xtzgjx.com|zchot.com
 .com/tps/$domain=ocucn.com
 .gif|$domain=7mshipin.org|aotu28.com|avaotu.net
@@ -2648,6 +2647,7 @@ mg*.6park.com/img/$image
 |http://*/ad_bj.js?
 |http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|aikuhu.com
+|http://www.*.js|$script,third-party,domain=thisav.com
 |https:$script,domain=jb51.net
 |https:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
 ||000001.azureedge.net/script/common.js
@@ -3429,6 +3429,7 @@ mg*.6park.com/img/$image
 ||ali213.net/zpro/*.png$domain=down.ali213.net
 ||ali213.net^*/promotion/
 ||alibaba.com/async/b2bad.
+||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/mt/TB1onkZXz3z9KJjy0FmXXXiwXXa-529-46.png
@@ -3619,7 +3620,7 @@ mg*.6park.com/img/$image
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
 ||bdimg.com/site/games/yxtg/*.js
-||bdimg.com^$domain=91fuli.xyz|diyifuli.top|idaohang.top|ifulione.com|ifulione.top|onedh.xyz|onefuli.top
+||bdimg.com^$domain=91fuli.xyz|diyifuli.top|idaohang.top|ifulione.com|ifulione.top|jb51.net|onedh.xyz|onefuli.top
 ||bdsola.com/img/20170508.jpg
 ||bdsola.com/img/dbtnt.gif
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
@@ -5218,6 +5219,7 @@ mg*.6park.com/img/$image
 ||jyfw.cn/gonggong/jiayu/cf_
 ||jyfw.cn/gonggong/js/cf_flash.js
 ||jyfw.cn/nav/cf_
+||jyh007.com/public/js/bdssp.js
 ||jz5u.com/js/tl$script
 ||jz5u.com/new/
 ||k.16vcd.com^
@@ -6872,6 +6874,7 @@ mg*.6park.com/img/$image
 ||yixieshi.com/media/
 ||yjhas.net^$image
 ||yjyc-ask.com/res/ads/
+||ykimg.com/material/*/ad/
 ||yktang8.com^*.gif
 ||yktj.yzz.cn^
 ||ylnet.com.cn/dl*.js
@@ -7074,15 +7077,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||jyh007.com/public/js/bdssp.js
-||ykimg.com/material/*/ad/
-||alicdn.com/ad-product/
-||bdimg.com^$domain=jb51.net
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-infoq.com##.top-bar-promo
-chcj.com###comiis_sfcs00
-chcj.com###diy1
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7528,7 +7524,7 @@ haianw.com###comiis_haianw14
 zisai.com###comiis_ibox_swf
 0743ds.com###comiis_mf00
 gohubei.com###comiis_pd_kuxw01
-chcj.net###comiis_sfcs00
+chcj.com,chcj.net###comiis_sfcs00
 3qled.com###comiisad02
 3qled.com###comiisad04a
 3qled.com###comiisad04s
@@ -7641,7 +7637,7 @@ ck101.com,pchome.com.tw###div_superbar_swf
 123du.cc,bokon.net###divtop2
 360doc.com###divunderZcommondAd
 360doc.com###divyoulikead
-0562.cc,528500.com,52jscn.com,5378cc.com,5imx.com,99nets.me,baihei.net,bbs.52life.cc,chcj.net,cm868.com,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,qinzhou8.com,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
+0562.cc,528500.com,52jscn.com,5378cc.com,5imx.com,99nets.me,baihei.net,bbs.52life.cc,chcj.com,chcj.net,cm868.com,cnyw.net,cqfishing.net,dengfeng.cn,discuzlab.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.net,qilanxiaozhu.net,qinzhou8.com,txahz.com,wishct.com,ybvv.com,ytshe.com###diy1
 17jita.com###diy1 + .bm
 d7w.net###diy10
 im286.net###diy110
@@ -10771,6 +10767,7 @@ xiaomengku.com##.top-adv-box
 ku6.com##.top-aku6
 leiphone.com,sina.com.cn##.top-banner
 baidu.com##.top-banner-ad-wrap
+infoq.com##.top-bar-promo
 99danji.com,eeyy.com##.top-bg
 zimuzu.tv##.top-box > div[style="text-align:center; margin:0 0 15px 0;"]
 163.com##.top-gg
@@ -12504,7 +12501,6 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 !
 /^https?:\/\/(?!www\.)[0-9a-z-]+\.[0-9a-z-]+\.(?:com|com\.cn|cn|cc|net|org)\/[0-9a-z]{9,}\.js$/$script,domain=39yst.com|5tps.com|99.com.cn|9ht.com|9ku.com|admin5.com|csdn.net|cyone.com.cn|dugoogle.com|h4.com.cn|hc360.com|hunanweishi.cn|jandan.net|jf258.com|jianshen8.com|jy135.com|laobanfa.com|liuxue86.com|muchong.com|pingguolv.com|qeo.cn|ruiwen.com|sc115.com|sina.cn|warting.com|weather.com.cn|wenkuxiazai.com|wmxa.cn|xiachufang.com|xinshipu.com|xuexila.com|yac8.com|yjbys.com|ysts8.com|yuwenmi.com|yxlady.com|zhongyao1.com|zongheng.com|zuocai.tv
 ! Baidu Union
-||xc.gouchezj.com^
 ###cpro_container
 ##a[href*="/mobads.php?"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -12959,6 +12955,7 @@ ck101.com,datehub.co,gamer.com.tw#@#.text_ads
 ||wuliao.juqingba.cn^
 ||www1.qicheyinyue.wang^
 ||xbtw.com^
+||xc.gouchezj.com^
 ||xfyjz.cn^$third-party
 ||xiaoyutiao.com^
 ||xinju.cc^
@@ -13515,6 +13512,7 @@ dj92cc.com,tingqq.com#@#.share_list
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@/analytics.php?$domain=xcar.com.cn
+@@/fingerprint2.js$domain=fangcloud.com
 @@/fingerprint2.min.js$domain=passport.vpgame.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
@@ -13523,7 +13521,6 @@ dj92cc.com,tingqq.com#@#.share_list
 @@/urchin.js$domain=on.cc
 @@=mm_12852562_1778064_$domain=www.taobao.com|www.tmall.com
 @@=mm_33231655_8000000_$domain=www.taobao.com
-@@/fingerprint2.js$domain=fangcloud.com
 @@||126.net/images/blank.gif
 @@||7m.cn/v2/js/analyse.js
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
