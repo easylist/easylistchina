@@ -653,9 +653,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn^
-||0571hy.com^
-||dlads.cn^$third-party
-||mbai.cn^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -762,6 +759,7 @@ ubmcmm.baidustatic.com
 ||033.com^$third-party
 ||0451106.com^
 ||0531kt.com^
+||0571hy.com^
 ||0571yy.com^
 ||0591101.com^$third-party
 ||0592weixin.com^
@@ -1784,6 +1782,7 @@ ubmcmm.baidustatic.com
 ||mamamiyu.com^$third-party
 ||maskbaby.com.cn^
 ||mathtag.com^$third-party
+||mbai.cn^$third-party
 ||medi-8.net^$third-party
 ||media8.cn^$third-party
 ||mediav.com^$third-party
@@ -4184,6 +4183,7 @@ mg*.6park.com/img/$image
 ||downcc.com/images/700060.gif
 ||downhot.com/Res/js/arc.js
 ||downhot.com/Res/js/main.js
+||downkr.com/statics/images/download.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
 ||download.game.yy.com/crossdomain.xml
@@ -4224,6 +4224,7 @@ mg*.6park.com/img/$image
 ||dyguo.com/pc/nr336.js
 ||dyjqd.com/images/js/dyjqd.js
 ||dytt8.net/js2/
+||dz19.net/addimg/
 ||dzwww.com/data/js/asp_$script
 ||dzwww.com/k.js
 ||dzwww.com/static/image/foreground/yyq.jpg
@@ -4815,6 +4816,7 @@ mg*.6park.com/img/$image
 ||iask.cn/fidjs/
 ||iask.cn^*/qiye.
 ||iask.sina.com.cn/hwj/
+||ibaiducdn.com/Public/Assets/js/hz_xx.js
 ||ibb.co^$domain=qylsp9.com
 ||ibook8.com*/piao*.js
 ||ibook8.com/js/b*.js
@@ -5196,6 +5198,7 @@ mg*.6park.com/img/$image
 ||js0573.com/images/cus/
 ||jsdy.abolezi.com^
 ||jsmri.com/template/anye_comiis/ads/
+||jsqsuperglobalcdn.com/js/400biz.js
 ||jssd.uumeitu.com^
 ||jsw.com.cn^*/index.htm
 ||jsxf.org/images/
@@ -6647,6 +6650,7 @@ mg*.6park.com/img/$image
 ||wendellyu.com/banner/
 ||west.cn/vcp/getJScode/
 ||weste.net/js/showpagead.js
+||wew.dushiwenxue.net^
 ||wgun.net/data/yahoo_ad.html
 ||whichav.*/qq/qq.js
 ||whinfo.net.cn/ad20
@@ -7084,14 +7088,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||wew.dushiwenxue.net^
-||dz19.net/addimg/
-||downkr.com/statics/images/download.gif
-||jsqsuperglobalcdn.com/js/400biz.js
-||ibaiducdn.com/Public/Assets/js/hz_xx.js
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-tucao.tv##A[href^="http://www.tucao.tv/index.php?m=poster&"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11237,6 +11235,7 @@ win007.com##a[href^="http://www.edewin.com/"]
 zhaopin.com##a[href^="http://www.ef.com.cn/"]
 dyhjw.com##a[href^="http://www.hjtd88.com/"]
 hmog.me##a[href^="http://www.masadora.net/"]
+tucao.tv##a[href^="http://www.tucao.tv/index.php?m=poster&"]
 6park.com##a[href^="http://www.vava8.com"]
 dy2018.com,xiaopian.com##a[href^="http://www.xiacai.com/"]
 muchong.com##a[href^="http://www.zhuanyejun.com/"]
@@ -11959,9 +11958,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||exosrv.com/ads.js$domain=avgle.com
-@@||exosrv.com/ads-iframe-display.php?idzone=2725470&$subdocument,domain=avgle.com
-@@||exosrv.com/ads-iframe-display.$script,domain=avgle.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
@@ -12205,6 +12201,9 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||emome.net/files/advertising/
 @@||epinv.com/dl/$genericblock
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
+@@||exosrv.com/ads-iframe-display.$script,domain=avgle.com
+@@||exosrv.com/ads-iframe-display.php?idzone=2725470&$subdocument,domain=avgle.com
+@@||exosrv.com/ads.js$domain=avgle.com
 @@||feng.com/images/%*logo.png
 @@||feng.com/images/560a0b6b83143.png
 @@||feng.com/images/580de2ab8d68e.png
