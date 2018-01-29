@@ -4206,12 +4206,8 @@ mg*.6park.com/img/$image
 ||dufile.com/jsa/
 ||dup.baidustatic.com^
 ||dvbcn.com/index.php?m=poster&
-||dvbcn.com/phpcms/templates/2012/news.html
-||dvbcn.com/uploadfile/2015/0202/20150202050700880.png
-||dvbcn.com/yinyong/show/news_right_
 ||dvs.china.com^
 ||dvser.china.com^
-||dw138.com/a12345/
 ||dwstatic.com^*/p/livetip/
 ||dxlwwang.com/contact_js/contact.js
 ||dxlwwang.com/style/images/bar
@@ -7090,6 +7086,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+dianping.com##.votelist + .aside-box
 taobao.com##.mask.animated.swing
 douguo.com##.mbs
 dvbcn.com##.ad
@@ -7258,7 +7255,6 @@ vjmedia.com.hk###ad900
 yxdown.com###ad970x60
 dahe.cn###adArea1
 baidu.com###adCard
-doc88.com###adClose
 yeecloud.com###adFirefox
 qq.com###adImgHref
 baidu.com###adMainTopLeft
@@ -9029,7 +9025,7 @@ qzone.qq.com##.app-recommend
 tianya.cn##.app-tips
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.app_forum_top_nav_tab
 fanyi.baidu.com##.appbanner
-doc88.com,keywin.org##.appdownload
+keywin.org##.appdownload
 tiantianzhibo.com##.apprecomm
 etidol.com##.arProd
 gamefy.cn,sitv.com.cn##.area > div[style="float:left"] > a
@@ -9548,7 +9544,6 @@ douyu.com##.fishop-anchor-recommands-box
 hepan.com##.fivead
 elecfans.com##.fix-btmad
 12306.cn##.fix-yh
-opda.com##.fix_twice
 jjmmw.com##.fixed-ad
 163.com##.fixed_foot_ad
 oeofo.com##.fixediv
@@ -11431,7 +11426,6 @@ www.zol.com.cn##div[id^="Bar"]
 airav.cc##div[id^="Billing"]
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##div[id^="Div"]
 ganji.com##div[id^="GcnADId"]
-didiaotv.com##div[id^="HTML"]:not(#HTML3)
 tigtag.com##div[id^="Home942x70_"]
 2345.com##div[id^="J_Topic"]
 tzfdc.com.cn##div[id^="LMT_"]
@@ -11761,7 +11755,6 @@ bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
 zhuji.net##table[style="border-bottom:1px solid #dfdfdf; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf; "] ~ table
 xinwenren.com##table[style="height: 718px; width: 225px"]
 52life.cc##table[style="margin-top:0"]
-dijiuzww.com##table[style="width:770px;height:260px"]
 28xl.com##table[style^="width:678px; height:280px;"]
 jjwxc.net##table[style^="width:984px;"]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
@@ -12189,7 +12182,6 @@ zhuihd.com#@##adsense
 @@||dolc.de/source/plugin/unadblock/
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$generichide,script,xmlhttprequest
-@@||dvbcn.com/caches/poster_js/23.js
 @@||dzwww.com/ad/jsfiles/fillCon.js
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e701.net^$script,domain=2mn.im
