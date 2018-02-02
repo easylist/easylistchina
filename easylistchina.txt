@@ -4210,6 +4210,7 @@ mg*.6park.com/img/$image
 ||dxlwwang.com/style/js/jeminMain.
 ||dxrc.cn/ad1/
 ||dxrc.cn/images/sy.gif
+||dy2018.com/js17/
 ||dy2018.com/jsdd/
 ||dydab.com^
 ||dyguo.com/pc/*0.js
@@ -7080,12 +7081,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||dy2018.com/js17/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-zhidao.baidu.com##STYLE[id^="s-m"] + DIV[id^="m"]
-toutiao.com#?#.J_ad
-toutiao.com#?#.J_add
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11728,6 +11725,7 @@ www.tiexue.net##style + p + div[class]
 tiexue.net##style + script + div + div[class]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##style[id^="s-"] + script + script + div[id]
+zhidao.baidu.com##style[id^="s-m"] + div[id^="m"]
 3773.com.cn##table:nth-child(4) > tbody > tr > td[width="280"] > table > tbody > tr:nth-child(2n+1)
 cnjxol.com##table[background$="/searchbg.gif"] ~ table[height="5"]
 rmdown.com##table[bgcolor="#003366"]:nth-child(2)
@@ -11812,6 +11810,8 @@ enread.com##td[width="326"][height="250"]
 62422.cn##td[width="760"][height="75"]
 verycd.gdajie.com##th[colspan="3"]
 zhangxinxu.com#?##topadout
+toutiao.com#?#.J_ad
+toutiao.com#?#.J_add
 cartoomad.com##tr:last-child > td[align="right"] > table[width="732"]
 cartomad.com,cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 firefoxchina.cn##ul[track-key="adv_links"]
