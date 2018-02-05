@@ -7082,8 +7082,13 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||missevan.com^$domain=jijidown.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+jijidown.com##[-abp-properties="data:image/jpeg;base64,/9j/"]
+jijidown.com##[-abp-properties="data:image/gif;base64,R0lGODlhLAGaAPf/"]
+jijidown.com##[-abp-properties="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACaCAYAAAATmXWpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbW"]
+jijidown.com##[-abp-properties="data:image/jpeg;base64,/9j/"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11043,8 +11048,6 @@ tingvoa.com##A[href*="/ClickAd?"]
 loldk.com##A[href*="?ADTAG="]
 instrument.com.cn##A[href^="http://image.instrument.com.cn/ad/adweb/AdCount/"]
 3g.cn##A[id^="randomAd_"]
-jijidown.com##[-abp-properties="/data.{10000,}/"]
-jijidown.com##[-abp-properties='background-image:*data:*width']
 tiexue.net##[class*="junph"]
 gamme.com.tw##[class^="sidead_"]
 sina.cn##[data-href*="://sax"]
