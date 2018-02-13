@@ -7087,8 +7087,12 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+|https:$subdocument,domain=nod32key.xyz
+||popads.net^$domain=nod32key.xyz
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+nod32key.xyz##.AdBanner
+nod32key.xyz##.mobile-ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -12283,7 +12287,7 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||netsh.org^$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@||news.u17i.com/advert/
 @@||noahedu.com/ad/$domain=noahedu.com
-@@||nod32key.xyz^$generichide
+@@||nod32key.xyz^$genericblock,generichide
 @@||nthu.edu.tw^*ad
 @@||omusic.com.tw/backend/uploadpic/adindex/
 @@||online.unionpay.com/ads/$script
