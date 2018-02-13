@@ -13,7 +13,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
-/lapi/sign/web/getinfo
 -HollandOne_GIF2.gif
 .cc/js/ads/
 .cn/ads/
@@ -233,6 +232,7 @@
 /lapi/sign/brandapi/getinfo
 /lapi/sign/phonegameapi/getinfo
 /lapi/sign/signapi/getinfo
+/lapi/sign/web/getinfo
 /lenovo/pc/all.js
 /lenovo/pc/top.js
 /main.js?v=*&sp=*&ty=
@@ -2669,6 +2669,7 @@ mg*.6park.com/img/$image
 |http://www.*.js|$script,third-party,domain=thisav.com
 |https:$script,domain=jb51.net
 |https:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
+|https:$subdocument,domain=nod32key.xyz
 ||000001.azureedge.net/script/common.js
 ||000001.azureedge.net/script/p.js
 ||000b.info/js/
@@ -3457,8 +3458,8 @@ mg*.6park.com/img/$image
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/imgextra/i1/3491683832/TB2A4QaisjI8KJjSsppXXXbyVXa_
-||alicdn.com/tfs/TB1yql1kgvD8KJjy0FlXXagBFXa-234-71.png
 ||alicdn.com/tfs/TB1OuRKkm_I8KJjy0FoXXaFnVXa-525-48.png
+||alicdn.com/tfs/TB1yql1kgvD8KJjy0FlXXagBFXa-234-71.png
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
@@ -4535,6 +4536,7 @@ mg*.6park.com/img/$image
 ||goupu.org/1commonfile/guidebar/
 ||gp.jstv.com^
 ||gpcxw.com/file/js/img/*.gif
+||gpsuu.com/yhj.gif
 ||gpxz.com/js2/
 ||gpxz.com/skins/gupuxiazai/soft
 ||gq.com.tw/event/$subdocument
@@ -5487,6 +5489,7 @@ mg*.6park.com/img/$image
 ||meiyouad.com/user/admin?
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
+||metvb.com/js/bofangwei.js
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mgbbs.cn/js/float.js
 ||mhhf.net/fserFiles/711x90.jpg
@@ -5821,6 +5824,7 @@ mg*.6park.com/img/$image
 ||plurk.com/Ads/
 ||pmb*.tj.ali213.net/js/
 ||pme10.com/zbs/gs/ad_
+||popads.net^$domain=nod32key.xyz
 ||popme.163.com^
 ||popomh.com/js/
 ||poppur.com/banner/962x100.gif
@@ -7088,14 +7092,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-|https:$subdocument,domain=nod32key.xyz
-||popads.net^$domain=nod32key.xyz
-||metvb.com/js/bofangwei.js
-||gpsuu.com/yhj.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-nod32key.xyz##.AdBanner
-nod32key.xyz##.mobile-ad
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -8549,6 +8547,7 @@ wxrb.com##.ADtxt
 le.com,letv.com##.Ad
 kuai8.com##.Ad1
 cnfol.com##.AdAsideW300H250
+nod32key.xyz##.AdBanner
 aohua.com.au,qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 aohua.com.au##.AdTop-Article-QQ1
@@ -10137,6 +10136,7 @@ mnw.cn##.mnw_685
 mnw.cn##.mnw_960
 mnw.cn##.mnw_top_ads
 sogou.com##.mobad
+nod32key.xyz##.mobile-ad
 1905.com##.mobile_ad_promote
 www.sina.com.cn##.mod-01
 qq.com##.mod-ad-full
