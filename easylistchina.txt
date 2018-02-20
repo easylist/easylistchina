@@ -4385,8 +4385,6 @@ mg*.6park.com/img/$image
 ||float.sandai.net^$object-subrequest
 ||flxdaily.com/wp-content/plugins/flxdaily/script.js
 ||fobshanghai.com/bbsad/
-||focus.cn/api/ads?
-||focus.cn/common/js/adm
 ||forum.51nb.com/images/
 ||forum.techweb.com.cn/advtcnt.php
 ||fpdisplay.com/templates/default/js/palyflash_
@@ -5053,7 +5051,6 @@ mg*.6park.com/img/$image
 ||itc.cn/?prod=rtb&
 ||itc.cn/activity/activity_js/changyan_config_
 ||itc.cn/base/core/gg_
-||itc.cn^*_ad/src/*.swf
 ||iteye.com/iframe_ggbd/
 ||itheat.com/?show=
 ||ithome.com/file/js/lapin-load.js
@@ -7103,6 +7100,7 @@ mg*.6park.com/img/$image
 ||familydoctor.com.cn/c/a/000/ggw_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+focus.cn##.feed-item[node-type="ad-item"]
 fx678.com##DIV[class^="dl_"]
 fx678.com##DIV[id^="dl_"]
 hc360.com,yaolan.com###AD
@@ -12259,7 +12257,6 @@ gohome.com.hk,m.gamer.com.tw#@#div[id^="div-gpt-ad"]
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@||ips.ifeng.com^*.mp4$domain=v.ifeng.com
 @@||itc.*^prod=ad&$domain=ttkyy.net|wlbgt.com
-@@||itc.cn/public_photo/advert/$domain=focus.cn
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||ja.gamersky.com/common/down_info.js
 @@||jd.com/adclick?$popup,~third-party
