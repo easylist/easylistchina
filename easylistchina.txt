@@ -4389,7 +4389,6 @@ mg*.6park.com/img/$image
 ||forum.techweb.com.cn/advtcnt.php
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
-||fqlook.cn/d/file/201*.swf
 ||fragment.firefoxchina.cn/html/
 ||free9.net/images/pic/dhc2013.gif
 ||free9.net/myc/myc.js
@@ -7100,6 +7099,8 @@ mg*.6park.com/img/$image
 ||familydoctor.com.cn/c/a/000/ggw_
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fqlook.com##.mmver
+fqlook.com###leftfloatad1
 focus.cn##.feed-item[node-type="ad-item"]
 fx678.com##DIV[class^="dl_"]
 fx678.com##DIV[id^="dl_"]
@@ -7993,7 +7994,6 @@ sina.com.cn###left_focus_ad
 hao123.com###leftbannerv2
 wed114.cn###leftdiv
 ifeng.com###leftdl
-fqlook.cn###leftfloatad1
 www.wenxuecity.com###leftside
 hao123.com###lefttip-container
 letpub.com.cn###letpubjournalmessagebox
@@ -10364,7 +10364,6 @@ ifxtx.com##.ppsy_content758
 pcstore.com.tw##.priority
 pcstore.com.tw##.priority1
 pcstore.com.tw##.priority_ad
-fqlook.cn##.pro_baidu
 duba.com##.pro_r_t
 pbhz.com##.product-nav-box
 etidol.com##.products
@@ -10756,8 +10755,6 @@ www.duba.com##.tiyan_a
 youth.cn##.tj2_pic
 image.baidu.com##.tjad
 cnbeta.com##.tks
-fqlook.cn##.tl20160901
-fqlook.cn##.tl20160901 + .main_center_z
 qq.com##.tl_ad
 tieba.baidu.com##.tl_shadow + * + li[class]:not([class="tl_shadow"])
 tieba.baidu.com##.tl_spread
