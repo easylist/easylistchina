@@ -663,7 +663,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||walibao.com^$third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -2225,6 +2224,7 @@ ubmcmm.baidustatic.com
 ||w3989.com^
 ||w65p.com^
 ||waihui518.com^
+||walibao.com^$third-party
 ||wangdaizao.com^
 ||wangdq.com^
 ||wangsufast.com^
@@ -3294,6 +3294,7 @@ mg*.6park.com/img/$image
 ||91txh.com/sskother/pic/ad-
 ||91xiazai.com/qunyinguwuqi.jpg
 ||91xporn.com/fans/
+||91zmw.com/ps/
 ||92dp.com/dianping/videoad
 ||92dp.com/home/showga?
 ||92uq.com/Ads/
@@ -4435,6 +4436,7 @@ mg*.6park.com/img/$image
 ||game.466.com^$third-party
 ||game.tiexue.net/iframe/
 ||gameapps.hk/images/banners/
+||gameapps.hk/images/d/20170516/e334d088b4440fb9.png
 ||gameapps.hk/js/content_
 ||gameapps.hk/js/determine_page_
 ||gamefy.cn/cookiead.php
@@ -4470,6 +4472,7 @@ mg*.6park.com/img/$image
 ||gdmm.com/images/leftbottom.png
 ||gdt.qq.com^
 ||geehd.com/yaoqingma/kkkkk.html
+||geekpark.net/api/v1/ads
 ||geilwx.com/read/ad
 ||gexing.com/api/api_get_tankuang.php?
 ||gexing.com/i/*960x
@@ -4524,10 +4527,10 @@ mg*.6park.com/img/$image
 ||gotourl.xyz^
 ||gougou2018.com/js/item
 ||gouhb.com/skin/jww/images/20141029114*.png
+||goupu.org/1files/*.gif
+||goupu.org/1files/*.htm
 ||goupu.org/1files/*.swf
 ||goupu.org/1files/guidebar/
-||goupu.org/1files/*.htm
-||goupu.org/1files/*.gif
 ||gp.jstv.com^
 ||gpcxw.com/file/js/img/*.gif
 ||gpsuu.com/yhj.gif
@@ -6529,6 +6532,7 @@ mg*.6park.com/img/$image
 ||url.cn^$domain=shuajizhijia.com
 ||uschinapress.com/2014/0922/1411428929105.png
 ||uschinapress.com/2015/0115/1421375153170.gif
+||usnewsexpress.com/wp-content/uploads/*ad-
 ||uubird.cc/070321054151/kaiboer.gif
 ||uuu9.com/html/show.html#id=2|
 ||uuu9.com/news/css/news_content_in.js
@@ -7081,14 +7085,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||91zmw.com/ps/
-||geekpark.net/api/v1/ads
-||usnewsexpress.com/wp-content/uploads/*ad-
-||gameapps.hk/images/d/20170516/e334d088b4440fb9.png
 !------------------------Specific element hiding rules------------------------!
-gameapps.hk###top-ad-left
-gameapps.hk###top-ad-right
-usnewsexpress.com##.metaslider
 gpcxw.com###AA2
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
@@ -8374,6 +8371,8 @@ hexun.com###tonglan_1 + .layout
 2345.com###tools-gameTmp
 uuu9.com###top
 iyejie.com###top > div:not([id]):not([class])
+gameapps.hk###top-ad-left
+gameapps.hk###top-ad-right
 hao123.com###top-anim
 bbs.houdao.com###top-banner
 teepr.com###topAdBlock
@@ -10105,7 +10104,7 @@ douguo.com##.mbs
 2345.com##.mco-ex-ndxh
 cnool.net##.meilai_box
 qq.com##.member_ads
-cangku.in,galacg.me,hacg.cool##.metaslider
+cangku.in,galacg.me,hacg.cool,usnewsexpress.com##.metaslider
 hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
 hexieshe.com,hexieshe.xyz,xxshe.info##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
 baby-kingdom.com##.mian + .foot > .foot-top:first-child
@@ -10740,7 +10739,7 @@ youth.cn##.tj2_pic
 image.baidu.com##.tjad
 cnbeta.com##.tks
 qq.com##.tl_ad
-tieba.baidu.com##.tl_shadow + * + LI[class]:not([class="tl_shadow tl_shadow_new"])
+tieba.baidu.com##.tl_shadow + * + li[class]:not([class="tl_shadow tl_shadow_new"])
 tieba.baidu.com##.tl_spread
 esnai.com##.tlgg
 maxthon.cn##.tmall-nav-v2
