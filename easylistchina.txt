@@ -11820,7 +11820,6 @@ cgvoo.com,mrmad.com.tw,myself-bbs.com,pbhz.com,zhuihd.com#@##adsense
 182.18.61.50#@##adslist
 leduwo.com,wenku8.com,yaerwen.com#@##adtop
 union.58.com#@##advertise
-rjno1.com#@##banner_ad
 wenjian.cn#@##contentAd
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 game.macx.cn#@##google-ad
@@ -11929,6 +11928,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||rjno1.com^$generichide
+@@.gif#$domain=rjno1.com
 @@||ez3c.tw^$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
