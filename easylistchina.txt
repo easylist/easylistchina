@@ -7087,6 +7087,8 @@ mg*.6park.com/img/$image
 ||hh010.com/1/
 !------------------------Specific element hiding rules------------------------!
 hh010.com##.wp.a_hh_t
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + style + div[id]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
 gpcxw.com###AA2
 gamersky.com##.ngg_down
 hc360.com,yaolan.com###AD
