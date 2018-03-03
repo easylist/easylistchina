@@ -664,7 +664,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||cdnjsp.wang^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1213,6 +1212,7 @@ ubmcmm.baidustatic.com
 ||ccbaihehq.com^
 ||cctyly.com^
 ||cd-best.cn^
+||cdnjsp.wang^
 ||cdnny.com^
 ||cdyqc.com^
 ||cfboo.com^
@@ -4689,6 +4689,7 @@ mg*.6park.com/img/$image
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hf365.com/0/16/33/26/16332686_243404.gif
 ||hf365.com/swf/0/16/32/43/16324347_993754.swf
+||hh010.com/1/
 ||hi.people.com.cn/NMediaFile/*.gif
 ||hi.people.com.cn/NMediaFile/*.swf
 ||hiad.vmall.com^
@@ -7084,14 +7085,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||hh010.com/1/
 !------------------------Specific element hiding rules------------------------!
-hh010.com##.wp.a_hh_t
-hepuwang.com##.n5_dbhfad > .wapper
-ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + style + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
 gpcxw.com###AA2
-gamersky.com##.ngg_down
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -10176,6 +10171,7 @@ myday.com.tw##.myday_ad_right
 sydneytoday.com##.mygad
 abcsee.net##.myset
 2345.com,hao774.com##.mzdh_bottom
+hepuwang.com##.n5_dbhfad > .wapper
 123cha.com##.n_ads_box
 123cha.com##.n_ads_box + .box > .tbl > tbody > tr:last-child > td[bgcolor="#eeeeee"][width="350"]:last-child
 maplestage.com##.nav-left-module__info-wrapper___35CLR
@@ -10217,6 +10213,7 @@ mitbbs.ca,mitbbs.com##.newskuang2
 icnkr.com##.newsmainbox_midder_top
 afzhan.com##.newsshow
 talkforex.com##.nge_border_right > div[style="height: 250px; position: relative;"]
+gamersky.com##.ngg_down
 qdmm.com,qidian.com##.nightMask
 weishangshijie.com##.nleft_ads
 manqian.cn##.node-ad-bg
@@ -10947,6 +10944,7 @@ subhd.com##.win_win
 shxd.net##.wordad
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
 gpshk.cc##.wp > div:last-child > p[align="center"]
+hh010.com##.wp.a_hh_t
 shuaijiao.com##.wp.m-t20.h90
 tropica.cn##.wp1.a_t
 cangjige.net,cangjige.win##.wp[style="height:36px;padding-top:15px;"]
@@ -11263,6 +11261,7 @@ wpmee.com##div > a[href^="http://www.wpmee.com/i?a="]
 gywb.cn##div.bill-box1.mb5
 cq.qq.com##div.clearfix[style*="1000"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + div[id]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + style + div[id]
 weibo.com##div[ad-data]
 toutiao.com##div[ad_name]
 vs.cm##div[align="center"] > script + a[href^="http"]
@@ -11669,6 +11668,7 @@ hz0572.com##img[width="950"]
 biz.zjol.com.cn##img[width="980"]
 0597kk.com##img[width^="37"][height="30"]
 apk.tw##ins.adsbygoogle
+ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div[id="1"] /deep/ div[id="1"]
 jd.com#?#.gl-i-wrap:-abp-has(> .p-promo-flag)
 jijidown.com#?#:-abp-properties(data:image/gif;base64,R0lGODlhLAGaAPf/)
@@ -11926,12 +11926,9 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||rjno1.com^$generichide
-@@.gif#$domain=rjno1.com
-@@||ez3c.tw^$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
-@@.gif#$domain=cnprint.org|tgfcer.com|wgun.net
+@@.gif#$domain=cnprint.org|rjno1.com|tgfcer.com|wgun.net
 @@.png#$domain=9zvip.net|club.tgfcer.com
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
 @@/ad_file/*$domain=7net.com.tw|pxmart.com.tw
@@ -12167,6 +12164,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||exosrv.com/ads-iframe-display.$script,domain=avgle.com
 @@||exosrv.com/ads-iframe-display.php?idzone=2725470&$subdocument,domain=avgle.com
 @@||exosrv.com/ads.js$domain=avgle.com
+@@||ez3c.tw^$generichide
 @@||feng.com/images/5a826553042d2.png
 @@||feng.com/images/5a8288efb474a.png
 @@||feng.com/view.php?what=zone:241&
@@ -12305,6 +12303,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||rakuya.com.tw^*/common_ad.
 @@||ref.so/templates/ref/short_show/adview_
 @@||regapi.37.com/api/p_register.php?login_account=
+@@||rjno1.com^$generichide
 @@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
