@@ -4696,7 +4696,6 @@ mg*.6park.com/img/$image
 ||hinet.net/radio/getAdcode.do
 ||hinews.cn/eweb/img/*/1000x
 ||hinews.cn/js/09page/10pagesjbtj
-||hinews.cn/out/*.js?
 ||hinews.cn/swf/0/*.swf
 ||histock.tw/JScript/AD/
 ||hitsukirei.idv.st/dns/bar.htm
@@ -7078,6 +7077,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hinews.cn##DIV[id^="hi_gg_"]
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -11524,7 +11524,6 @@ huabian.com##div[style="height:250px;"]
 sj33.cn##div[style="height:250px;padding:10px 0 20px 0;"]
 loldk.com##div[style="height:270px;width:320px;position:relative;"]
 ipc.me##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
-howfile.com##div[style="height:30px;padding:2px;border:1px dashed #555555"]
 housefindeasy.com##div[style="height:90px"]
 panzz.com##div[style="height:90px; text-align:center; padding:10px 0px; border:1px solid #DBDBDB;"]
 dm456.com##div[style="height:90px;background-color:#f0f0f0;text-align:center;"]
