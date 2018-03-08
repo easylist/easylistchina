@@ -15,7 +15,6 @@
 -880-80-4.jpg
 .cc/js/ads/
 .cn/ads/
-.pw/ads/
 .cn/js/ads/
 .co/js/ads/
 .com/?ss=$script
@@ -57,6 +56,7 @@
 .mp4?ccode=*&duration=29&
 .mp4?ccode=*&duration=30&
 .net/js/ads/
+.pw/ads/
 .test15./
 .tv/js/ads/
 .us/js/ads/
@@ -1343,6 +1343,7 @@ ubmcmm.baidustatic.com
 ||dmtrck.com^$third-party
 ||dnvus.com^
 ||doniv.net^$third-party
+||door2new.net^
 ||dotmore.com.tw^$third-party,domain=~savebar.com.tw
 ||dou777.com^
 ||doubleadv.com^$third-party
@@ -1669,7 +1670,6 @@ ubmcmm.baidustatic.com
 ||jossuer.net^
 ||joyfuldoors.com^
 ||jqz9.com^
-||door2new.net^
 ||jsadt.com^
 ||jscsd.cn^
 ||jsinfo.net^$third-party
@@ -2560,9 +2560,8 @@ ubmcmm.baidustatic.com
 .bd-film.*/r/cms/www/movie/js/cms-sidebar
 .com/az.js$domain=btpkw.com|hrszyl.com|jiuzhiling.com|myt520.com|xtzgjx.com|zchot.com
 .com/tps/$domain=ocucn.com
-.gif|$third-party,domain=rmdown.com
 .gif|$domain=7mshipin.org|aotu42.com|avaotu.net
-.gif|$third-party,domain=avtb008.com
+.gif|$third-party,domain=avtb008.com|rmdown.com
 .html|$domain=www.gamer.com.tw
 .niusnews.com/upload/banners/
 .oeya.com/$domain=realtw.com
@@ -4811,6 +4810,7 @@ mg*.6park.com/img/$image
 ||ibook8.com*/piao*.js
 ||ibook8.com/js/b*.js
 ||ibook8.com/xia*.js
+||iciba.com/index.php?*=get_recommend&
 ||iciba.com/web/co/ci/
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||ickd.cn/act/
@@ -7081,13 +7081,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||iciba.com/index.php?*=get_recommend&
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-7654.com###gg_top
-7654.com##DIV[class^="sidebarimg"]
-docin.com##.cpro_mod
-isso.com.cn###wqd1496213529829serial
 hc360.com,yaolan.com###AD
 21yq.com,yaolan.com###AD1
 itavcn.com###ADE
@@ -7803,6 +7798,7 @@ xiazaizhijia.com###gg_1
 xiazaizhijia.com###gg_3
 yy.com###gg_left
 yy.com###gg_right
+7654.com###gg_top
 shouji56.com###gg_top_banner
 0dian8.org###ggad_l
 0dian8.org###ggad_r
@@ -8466,6 +8462,7 @@ iu91.co,sejie.com,sejie3.us,ukhuaren.co###wp > br
 iu91.co,sejie.com,sejie3.us,ukhuaren.co###wp > center > a
 528500.com###wp > div[align="center"]
 chcj.net,yixingjia.com###wp > table[width="960"]
+isso.com.cn###wqd1496213529829serial
 taoguba.com.cn###wrap_footer > div[style*="960"]
 ganpapa.com###wrapper + div
 gdzjdaily.com.cn###wrapper > div[style^="margin-top:6px;"]
@@ -9368,6 +9365,7 @@ tigtag.com##.couplet_r
 meishij.net##.cp_body_right
 makepolo.com##.cpc_tgs
 zuoye.baidu.com,zybang.com##.cpro
+docin.com##.cpro_mod
 bkill.com##.cross-ad
 timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
@@ -11357,6 +11355,7 @@ sun0769.com##div[class^="pagecenter sungg"]
 wasu.cn##div[class^="play_ads"]
 infoq.com##div[class^="related_sponsors"]
 qidian.com##div[class^="show_ggpic_"]
+7654.com##div[class^="sidebarimg"]
 86wan.com##div[class^="tonglan"]
 21cn.com##div[class^="topAds"]
 gpsuu.com##div[class^="top_96"]
@@ -11953,7 +11952,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=kysec.cn|mndxy.org
 @@/adsshow/*$domain=veryeast.cn
-@@||izo.tw/wp-content/advert1.js
 @@/advert/*$domain=cctcw.cn|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn|toread.com.cn
 @@/advert_$domain=cdcedu.cn|pisen.com.cn|wb.qq.com
 @@/advertise.$domain=123.138.234.240
@@ -12225,6 +12223,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@||ips.ifeng.com^*.mp4$domain=v.ifeng.com
 @@||itc.*^prod=ad&$domain=ttkyy.net|wlbgt.com
+@@||izo.tw/wp-content/advert1.js
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||ja.gamersky.com/common/down_info.js
 @@||jd.com/adclick?$popup,~third-party
