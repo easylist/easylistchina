@@ -7110,8 +7110,10 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||panda.tv/ajax_tfate_getcards?
+||sinaimg.cn^$domain=vpser.net
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xianzhenyuan.cn##A[href*=".tmall.com"]:not(#xztba)
 bejson.com##.left.validate + DIV
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -10523,7 +10525,7 @@ epinv.com##.scrollep
 firefox.com.cn,firefoxchina.cn##.sd-promote
 playno1.com##.sd.pph
 yeeyi.com##.sd.pph > .mbm.hm
-xianzhenyuan.cn##.sd_ad
+xianzhenyuan.cn##.sd_ad:not(#xztba)
 114.com.cn##.sdve
 pediy.com##.search
 baidu.com##.search-aside-adWrap
@@ -11147,7 +11149,7 @@ ifeng.com##a[href*=".sm.cn"]
 chdbits.co,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
 acg18.us,acgbuster.com,aijava.cn,ainuody.com,cangku.in,ccav1.com,cgown.com,cn163.net,cosersuki.org,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.wiki,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,llss.fun,llss.me,llss.tv,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,nxing.cn,oyksoft.com,souxue8.com,techug.com,toutiao.com,tucao.tv,uraban.me,webhek.com,xxshe.info,xxshe.xyz,youku.com,zalra.cn##a[href*=".taobao.com"]
-acgdoge.net,gmgard.com,hggard.com,iqiyi.com,tucao.tv,xianzhenyuan.cn,youku.com##a[href*=".tmall.com"]
+acgdoge.net,gmgard.com,hggard.com,iqiyi.com,tucao.tv,youku.com##a[href*=".tmall.com"]
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 cnbeta.com##a[href*=".upyun."]
 letv.com##a[href*=".vip.com"]
