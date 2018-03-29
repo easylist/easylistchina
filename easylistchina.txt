@@ -7157,6 +7157,9 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/ed5e6a1dly1fplxud1aj5j20r808cjtn.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+hacg.me###secondary img:not(.avatar)
+hacg.me##a[href*=".taobao.com"]
+hacg.me##a[href^="/gg2/"]
 llss.dog##.metaslider
 acg12.com##DIV[class] > A[href^="http"]:not([href*="acg12.com"])
 yahoo.com###ACT_crazy
