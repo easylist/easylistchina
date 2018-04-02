@@ -671,9 +671,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||chromc.com^
-||mtqys.com^
-||wffengtai.com.cn^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1251,6 +1248,7 @@ ubmcmm.baidustatic.com
 ||chinesean.com^$third-party
 ||chmae.com^
 ||chnhty.com^
+||chromc.com^
 ||chucity.com^
 ||chushoushijian.cn^
 ||ciajingman.com^
@@ -1858,6 +1856,7 @@ ubmcmm.baidustatic.com
 ||msltzer.cn^
 ||mstzym.com^
 ||mtburn.com^$third-party
+||mtqys.com^
 ||mtty.com^$third-party
 ||mtxsk.com^$third-party
 ||mu722.com^
@@ -2275,6 +2274,7 @@ ubmcmm.baidustatic.com
 ||weixiangzu.cn^
 ||weizhanle.com^$third-party
 ||werpig.com^
+||wffengtai.com.cn^
 ||wgnlz.com^
 ||wgnmp.com^
 ||whafwl.com^
@@ -2726,6 +2726,7 @@ mg*.6park.com/img/$image
 ||005.tv/templets/muban/js/jquery-1.8.3.js
 ||005.tv:60000/ad.js
 ||007.mx/flv/
+||007ds.com/js/js/
 ||007f.cn/js/
 ||020.com/960-
 ||020.com/yayang
@@ -5727,6 +5728,7 @@ mg*.6park.com/img/$image
 ||oiihk.com/anime/cm.js
 ||ok.432kkk.com^
 ||okbmf.com^*950_120
+||okooo.com/I/?method=system.data.ad&
 ||oldpig.org/live.html
 ||olevod.com/poppagen.php
 ||om.cn/api/ad-om/
@@ -6260,6 +6262,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/mw1024/006rogFpgy1ffpm4yksl5g30qo02igyn.gif
 ||sinaimg.cn/mw1024/006VdIwfgy1fiqkkhowdzg30qo02876g.gif
 ||sinaimg.cn/mw1024/c00f4a08gw1eu67cnu8xqg20l4028gr1.gif
+||sinaimg.cn/mw690/005th0Pegy1fmd666rsh2j30go05kn14.jpg
 ||sinaimg.cn/mw690/0067uwr2ly1fmewr156ymj30j90qodob.jpg
 ||sinaimg.cn/mw690/7d1c8e96gw1e6f70r8mwcj20qe082q40.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
@@ -7159,12 +7162,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||007ds.com/js/js/
-||okooo.com/I/?method=system.data.ad&
-||sinaimg.cn/mw690/005th0Pegy1fmd666rsh2j30go05kn14.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-wikdy.cn##A[href="http://www.tbb168.com"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -11259,6 +11258,7 @@ qqhjy.com##a[href="http://www.chaojkm.cn"]
 iidvd.com##a[href="http://www.crc6789.com/iidvd.htm"]
 gaoqingkong.com##a[href="http://www.gaoqingkong.com/html/11243.html"]
 cnsat.net##a[href="http://www.sdhanrui.cn/"]
+wikdy.cn##a[href="http://www.tbb168.com"]
 btmee.net##a[href="http://www.tk001.com/?btmee"]
 ainuody.com##a[href="http://www.zhuzhuquan.com.cn"]
 zhiboba.cc##a[href^="//shang.qq.com/wpa/"]
@@ -12041,14 +12041,11 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||huhupan.com/e/extend/down/$generichide
-@@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*=http%3A%2F%2Fsports.pptv.
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@.jpg#$domain=huhupan.com
-@@.gif#$domain=huhupan.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
-@@.gif#$domain=cnprint.org|rjno1.com|tgfcer.com|wgun.net
+@@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
+@@.jpg#$domain=huhupan.com
 @@.png#$domain=9zvip.net|club.tgfcer.com
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
 @@/ad_file/*$domain=7net.com.tw|pxmart.com.tw
@@ -12326,6 +12323,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||hhtt.cn/web.php/ad/show
 @@||hichannel.hinet.net^$object-subrequest
 @@||hkjc.com/banners/
+@@||huhupan.com/e/extend/down/$generichide
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw^$elemhide
 @@||ibon.com.tw/imageserver/images/ad_file/
@@ -12407,6 +12405,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pos.baidu.com^*?di=1147178&$domain=fxpan.com
 @@||pos.baidu.com^*?di=1167512&$domain=jkpan.cc
 @@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
+@@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*=http%3A%2F%2Fsports.pptv.
 @@||pub.alimama.com/common/adzone/
 @@||pubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvbs.com.tw
 @@||pubimg-weichouji.sina.com/img/ad/
