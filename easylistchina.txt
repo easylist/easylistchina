@@ -2595,7 +2595,6 @@ ubmcmm.baidustatic.com
 .mp4|$third-party,domain=eastday.com
 .niusnews.com/upload/banners/
 .oeya.com/$domain=realtw.com
-.pcrookie.com/ad/
 .qidian.com/bgImg.
 .qidian.com/bgOps.
 .qidian.com/floatOpBox.
@@ -5068,9 +5067,6 @@ mg*.6park.com/img/$image
 ||ishuhui.com/setting/get_conf/option/ad/
 ||isite.tw/wp-content/cache/minify/f37e2.js
 ||isite.tw/wp-content/cache/minify/fc30d.js
-||it.com.cn/dy4*/js/*0
-||it.com.cn/dy4*/js/youx.js
-||it.com.cn/js/*art
 ||it165.net/index.php?m=poster&
 ||it168.com/factory/ad/
 ||it168.com/forum/201412/19/151606lvf3btnnotc62rl6.jpg
@@ -5117,9 +5113,7 @@ mg*.6park.com/img/$image
 ||iwanad.baidu.com^
 ||iweihai.cn/js/float.js
 ||ixiumei.com/otherhtml/zd800-100.jpg
-||iyaxin.com^*/m.js
 ||iyaxin.com^*/o.js
-||iyaxin.com^*/os.js
 ||iyaya.info/newmshow.php
 ||iyejie.com/1024code.gif
 ||iyejie.com/xydlad.js
@@ -7152,6 +7146,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||itavcn.com/pic/news/201802/20180207/image/050N2.gif
+||abcache.com/xc/image/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 jin10.com##.jin-wdgg_h
@@ -8746,7 +8741,7 @@ baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
 html-js.com##.ad-blank
 zhidao.baidu.com##.ad-block-1
-bookshi.com,id97.com,iwan.baidu.com,qq.com,xinhuanet.com,zol.com.cn##.ad-box
+bookshi.com,iwan.baidu.com,qq.com,xinhuanet.com,zol.com.cn##.ad-box
 easou.com##.ad-charge
 acg12.com,newtalk.tw##.ad-container
 olevod.com##.ad-corner
@@ -8824,7 +8819,6 @@ tompda.com##.ad713
 hupu.com##.ad720-90
 ifeng.com##.ad728_tit
 pujia8.com##.ad740
-it.com.cn##.ad750
 chexun.com##.ad794
 ting89.com##.ad8
 ifeng.com,sohu.com##.ad950
@@ -10293,7 +10287,6 @@ auto-online.com.tw##.news_content > div[style="width:728px;margin:10px auto"]
 oschina.net##.news_detai_above_ad
 07073.com##.news_list1_tu
 mitbbs.ca,mitbbs.com##.newskuang2
-icnkr.com##.newsmainbox_midder_top
 afzhan.com##.newsshow
 talkforex.com##.nge_border_right > div[style="height: 250px; position: relative;"]
 gamersky.com##.ngg_down
@@ -11192,7 +11185,7 @@ iqiyi.com##a[href*=".oppo."]
 ifeng.com##a[href*=".sm.cn"]
 chdbits.co,hdcmct.org##a[href*=".taobao"]
 999.com##a[href*=".taobao."][href*="?"]
-acg18.us,acgbuster.com,aijava.cn,ainuody.com,cangku.in,ccav1.com,cgown.com,cn163.net,cosersuki.org,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.me,hacg.wiki,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,it.com.cn,jdunion.com,jitapu.com,jobbole.com,kisssub.org,llss.fun,llss.me,llss.tv,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,nxing.cn,oyksoft.com,souxue8.com,techug.com,toutiao.com,tucao.tv,uraban.me,webhek.com,xxshe.info,xxshe.xyz,youku.com,zalra.cn##a[href*=".taobao.com"]
+acg18.us,acgbuster.com,aijava.cn,ainuody.com,cangku.in,ccav1.com,cgown.com,cn163.net,cosersuki.org,dm1080p.com,galacg.me,gaoqingkong.com,gmgard.com,hacg.me,hacg.wiki,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,jdunion.com,jitapu.com,jobbole.com,kisssub.org,llss.fun,llss.me,llss.tv,mao-123.com,mengmao.org,moe-acg.cc,moe-acg.us,nxing.cn,oyksoft.com,souxue8.com,techug.com,toutiao.com,tucao.tv,uraban.me,webhek.com,xxshe.info,xxshe.xyz,youku.com,zalra.cn##a[href*=".taobao.com"]
 acgdoge.net,gmgard.com,hggard.com,iqiyi.com,tucao.tv,youku.com##a[href*=".tmall.com"]
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
 kdnet.net##a[href*=".tmall.com/?spm="] > img
@@ -11815,7 +11808,6 @@ rmdown.com##table[bgcolor="#003366"]:nth-child(2)
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
 my0511.com##table[bordercolor="#C0C0C0"][border="1"]
 pt80.net##table[cellpadding="2"][bordercolor="#DFC5A4"]
-ip138.com##table[cellpadding="3"][width="760"][align="center"]
 bbs.fobshanghai.com##table[cellpadding="4"][style="background: #D6E0EF"]
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jdbbs.com##table[cellspacing="5"][bordercolor="#9dbedd"]
@@ -11841,7 +11833,6 @@ nick20.com##table[width="702"][bgcolor="#D1DDAA"]
 cartonmad.com,cartoomad.com##table[width="728"][height="110"]
 cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height="100"]
 cartomad.com,cartoonmad.com##table[width="737"] > tbody > tr > td[valign="top"][height="118"]
-ip138.com##table[width="760"][height="23"][style="border:1px solid #008000"]
 pt80.net##table[width="760px"]
 5156edu.com##table[width="770"][bordercolordark="#FFFFFF"]
 qqyanhuang.com##table[width="779"][height="25"]
