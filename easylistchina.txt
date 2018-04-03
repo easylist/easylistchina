@@ -4852,14 +4852,12 @@ mg*.6park.com/img/$image
 ||iab03.com/zzz/
 ||iads.xinmin.cn^
 ||iapolo.com/myjs/
-||iapp.com.tw/iapp_ad.php
 ||iask.cn/fidjs/
 ||iask.cn^*/qiye.
 ||iask.sina.com.cn/hwj/
 ||ibaiducdn.com/Public/Assets/js/hz_xx.js
 ||ibb.co^$domain=qylsp9.com
 ||ibook8.com*/piao*.js
-||ibook8.com/js/b*.js
 ||ibook8.com/xia*.js
 ||iciba.com/index.php?*=get_recommend&
 ||iciba.com/web/co/ci/
@@ -4873,7 +4871,6 @@ mg*.6park.com/img/$image
 ||ieche.com/global/*/ad/
 ||ieche.com/InAds/
 ||ieforex.com/r/cms/www/red/red2/images/*0.
-||ifanr.cn/wp-content/uploads/*/mina_
 ||ifeng.com*/wapifeng
 ||ifeng.com/a_if/
 ||ifeng.com/bbsfile/js/ifeng_tip.js
@@ -5083,7 +5080,6 @@ mg*.6park.com/img/$image
 ||itc.cn/activity/activity_js/changyan_config_
 ||itc.cn/base/core/gg_
 ||itc.cn/w/u/0/old-insertAd-
-||iteye.com/iframe_ggbd/
 ||itheat.com/?show=
 ||ithome.com/file/js/lapin-load.js
 ||ithome.com/file/js/money/
@@ -5106,7 +5102,6 @@ mg*.6park.com/img/$image
 ||itongcheng.cc/amm/
 ||itopdog.cn/itopdog/ad.js
 ||itopdog.cn/itopdog/d*.js
-||itpub.net/popwin_js.php?
 ||ituba.cc/uploads/allimg/201610/603/
 ||itv.hexun.com
 ||ivy.pconline.com.cn^
@@ -7149,6 +7144,8 @@ mg*.6park.com/img/$image
 ||abcache.com/xc/image/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+iciba.com##.list-item > A[href^="http"]:not([href*=".iciba."])
+iciba.com##.list-item > A[href^="http"]:not([href*=".iciba."]) + .list-title
 jin10.com##.jin-wdgg_h
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -9314,7 +9311,6 @@ gusuwang.com,news.hexun.com##.business
 qq.com##.business-Article-QQ
 brtn.cn,btime.com##.business-box
 brtn.cn,btime.com##.business-item
-ipeen.com.tw##.buttom_special_AD-root
 zhaolianmeng.com##.buttonBar
 zealer.com##.buy_container
 sogou.com##.buy_mxx
@@ -12059,7 +12055,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/cms/ads/*$domain=17.com
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/fuckadblock.$domain=ck101.com|datehub.co|download.mokeedev.com
-@@/guanggao/*$domain=icbc.com.cn|igame.qq.com
+@@/guanggao/*$domain=igame.qq.com
 @@/home/ads/*$domain=esunbank.com.tw
 @@/ima/*ad.$domain=feemoo.com|feimaott.com
 @@/images/*/*.gif$domain=iu91.co|maichun5.info|mc88.info|myhhg.com|sejie.com|sejie3.us|ukhuaren.co|yh1.info|yh10.info
