@@ -6212,7 +6212,7 @@ mg*.6park.com/img/$image
 ||sina.com/rm/
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
-||sinaimg.cn/large/$domain=360zhibo.com|btshoufa.net|chakd.com|qqlubo.net|seehd.so|zhainanfulishe.net
+||sinaimg.cn/large/$domain=360zhibo.com|btshoufa.net|chakd.com|qqzhibo.net|seehd.so|zhainanfulishe.net
 ||sinaimg.cn/large/*.gif$domain=henbt.com|mp4ba.la
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/0060lm7Tgw1f8acu5ly62g308c03i0t0.gif
@@ -7143,6 +7143,8 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+qqzhibo.net###ad_float_left
+qqzhibo.net###ad_float_right
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -7353,7 +7355,7 @@ lzep.cn###ad_side_l
 lzep.cn###ad_side_r
 7lili.com###ad_taglist_1
 bioon.com###ad_tb
-qqlubo.net###ad_text_top
+qqzhibo.net###ad_text_top
 taoguba.com.cn###ad_tgb_list
 cctime.com###ad_three
 8591.com.tw###ad_tips
@@ -11776,7 +11778,7 @@ blue-way.com.tw,like101.com.tw##p:first-child + [border="1"][width="100%"]
 muchong.com##p[onclick="view_ok();"]
 lolshipin.com##script + .box:nth-child(2)
 acg18.us,sc115.com##script + a
-qqlubo.net##script + br ~ a
+qqzhibo.net##script ~ a
 csj.xinhuanet.com##script + center > a > img
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 bbs.my0511.com##span.smalltxt
