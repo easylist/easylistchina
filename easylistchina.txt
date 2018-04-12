@@ -7170,7 +7170,9 @@ mg*.6park.com/img/$image
 ||dftoutiao.com/dfpcitv/pcitv?jsonpcallback=
 ||mini.eastday.com^*?$subdocument,~third-party
 ||eastday.com/assets/js/dftongjiad.js
+||ft.com/a.html
 !------------------------Specific element hiding rules------------------------!
+ft.com##.bn-ph
 ipv6.baidu.com,www.baidu.com,www1.baidu.com##div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div + div[id]
 gpcxw.com###AA2
