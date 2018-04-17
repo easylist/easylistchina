@@ -2705,10 +2705,6 @@ ubmcmm.baidustatic.com
 /the_top$domain=28188.com|28188.net
 /tres/recommend/*$domain=ifeng.com
 /uniontgm.cmb.
-/videos/other/201710*.f4v
-/videos/other/2017110*.f4v
-/videos/other/2017120*.f4v
-/videos/other/20171228/*.f4v
 /vmind.qqvideo.tc.qq.com^
 /w234.js$domain=dilidili.wang
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
@@ -7196,6 +7192,7 @@ mg*.6park.com/img/$image
 .gif|$third-party,domain=33235.net
 !------------------------Specific element hiding rules------------------------!
 33235.net###header > CENTER
+i-part.com.tw##A[href*="goo.gl%2FW9SXr1&"]
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -7214,7 +7211,6 @@ sina.com.cn###AD_Background_Wall_BG_Link
 sina.com.cn###AD_Background_Wall_Banner
 51cto.com###ADsList
 i-part.com.tw###AdBanner785
-i-part.com.tw###AdBanner_Gold_New
 elecfans.com###AdHtmlRight
 bbs-tw.com###AdImg
 qq.com###AdRight-Article-QQ
