@@ -5089,7 +5089,6 @@ mg*.6park.com/img/$image
 ||iqiyi.com/player/cupid/common/flash980100.swf
 ||iqiyi.com/show2?cb=
 ||iqshw.com/d/js/m/thea
-||ishangman.com/images/aismd/
 ||ishowx.com/www/2015/js/top.js
 ||ishuaji.cn/public/images/banner.jpg
 ||ishuhui.com/cartoon/book-1/*/sp
@@ -7192,6 +7191,8 @@ mg*.6park.com/img/$image
 .gif|$third-party,domain=33235.net
 !------------------------Specific element hiding rules------------------------!
 33235.net###header > CENTER
+ithome.com#?#.new:-abp-has(> .date:-abp-contains(广告))
+ithome.com##.title > A[href^="https://lapin."]
 i-part.com.tw##A[href*="goo.gl%2FW9SXr1&"]
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
