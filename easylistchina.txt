@@ -7191,6 +7191,7 @@ mg*.6park.com/img/$image
 .gif|$third-party,domain=33235.net
 !------------------------Specific element hiding rules------------------------!
 33235.net###header > CENTER
+baidu.com###content_right > DIV > DIV[id^="m"]
 ithome.com#?#.new:-abp-has(> .date:-abp-contains(广告))
 ithome.com##.title > A[href^="https://lapin."]
 i-part.com.tw##A[href*="goo.gl%2FW9SXr1&"]
