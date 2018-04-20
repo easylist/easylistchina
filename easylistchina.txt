@@ -12,10 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/caoaa|
-/moneymaker/js/caoaa.js
-/images/s68760-4.jpg
-/images/s68950-3.jpg
 -880-80-4.jpg
 .cc/js/ads/
 .cn/ads/
@@ -127,6 +123,7 @@
 /cache/ad_js/*
 /caches/poster_js/*
 /caiguu_gg_
+/caoaa|
 /cdn-cgi/pe/bag2?*.adm.cnzz.
 /cdn-cgi/pe/bag2?*.humanding.com
 /cdn-cgi/pe/bag2?*.overture.com
@@ -193,6 +190,8 @@
 /ifeng_jdttemplate.js
 /ifengad/*
 /images//ads/*
+/images/s68760-4.jpg
+/images/s68950-3.jpg
 /images/ta1234.js
 /images/uploads/index_banner/a201*.gif
 /ina_ad_
@@ -252,6 +251,7 @@
 /meinv/js/_ads_tuku.js
 /module/adsview/*
 /moneymaker-banners/ads_
+/moneymaker/js/caoaa.js
 /nanrenpeng/ads/*
 /new_site_topad^
 /ntes-ad-cloud.
@@ -3936,6 +3936,7 @@ mg*.6park.com/img/$image
 ||c4d.cn/api.php?mod=ad&adid=
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||cacafly.net^
+||cachead.com^*.js
 ||caches.space/bootstrap3/js/bootstrap.js
 ||cai110.com/js/2
 ||caikuu.com/ckimages/*_gg
@@ -6823,6 +6824,7 @@ mg*.6park.com/img/$image
 ||xdowns.com/js/lefttuijian.js
 ||xdyjt.com^
 ||xfsub.com/bt/ad/
+||xfsub.com:88/js/*ad
 ||xfvcd.com/js/dd/
 ||xghylt.com/api.php?mod=ad&adid=
 ||xghylt.com/newad/
@@ -7201,12 +7203,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cachead.com^*.js
-||xfsub.com:88/js/*ad
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-xiaodao.la###HtmlMoKua_474064
-ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -7264,6 +7262,7 @@ zhoushan.cn###Headtop
 tigtag.com###Home1000x70_A29
 tigtag.com###Home280x80_A16
 tigtag.com###Home942x70_A1
+xiaodao.la###HtmlMoKua_474064
 xiaodao.la###HtmlMoKua_775790
 wofl86.com###HtmlMoKua_84082510
 diyifanwen.com###Hzh1
@@ -11773,6 +11772,7 @@ gpshk.cc##img[width="770"]
 biz.zjol.com.cn##img[width="980"]
 0597kk.com##img[width^="37"][height="30"]
 apk.tw##ins.adsbygoogle
+ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 jijidown.com#?#:-abp-properties(data:image/gif;base64,R0lGODlhLAGaAPf/)
 jijidown.com#?#:-abp-properties(data:image/jpeg;base64,/9j/)
 jijidown.com#?#:-abp-properties(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACaCA)
@@ -12021,15 +12021,12 @@ chinatimes.com#@#.page_ad
 fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 360zhibo.com#@#.rightad
-bee.coupons#@#.vertical-ads
-blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw#@#.vertical-ads
+bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw#@#.vertical-ads
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||piaotian.com/scripts/readindex/tongji.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
@@ -12374,7 +12371,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||omusic.com.tw/backend/uploadpic/adindex/
 @@||online.unionpay.com/ads/$script
 @@||pagead2.googlesyndication.com/pagead/$script,domain=download.mokeedev.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|mfgun.com|monnsutogatya.com|pc3mag.com|rjno1.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=123564.com|alotof.software|mfgun.com|monnsutogatya.com|pc3mag.com|rjno1.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com|weithenn.org
 @@||papalah.com/ads.js
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=tvb.com
@@ -12382,6 +12379,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||passiontimes.hk^*-ad.php?
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=10co.biz|10co.me
 @@||petrochina.com.cn/advertisement_
+@@||piaotian.com/scripts/readindex/tongji.js
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
 @@||pigol.cn/myinc/js/wap.js
@@ -13807,7 +13805,7 @@ duanwenxue.com##.qgzdwx
 ##a[href^="/dasp.php?a="]
 ||www.wifi588.net^*.gif
 ! webrtc-ads
-$webrtc,domain=50.7.31.228|50.7.31.230|cntvboxnow.com|btdb.to|tvboxnow.com
+$webrtc,domain=50.7.31.228|50.7.31.230|btdb.to|cntvboxnow.com|tvboxnow.com
 ! Wuzuowei.net
 @@||bdimg.com/libs/$domain=wuzuowei.net
 |http:$script,third-party,domain=wuzuowei.net
