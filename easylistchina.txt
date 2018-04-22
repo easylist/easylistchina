@@ -5215,7 +5215,6 @@ mg*.6park.com/img/$image
 ||jiazhao.com/statics/js/dzjiehun_2/r_bottom.js
 ||jiazhuang.com/Public/Home/bootinfo/
 ||jijistatic.duapp.com/Squall/1.jpg
-||jin10.com/assets/js/v1/commons.js
 ||jin10.com/board/json/index.js
 ||jin10.com/board/json/rili.js
 ||jinghua.cn/lib/js/news/ad_jh.html
@@ -7213,6 +7212,8 @@ mg*.6park.com/img/$image
 ||cdntxt.com/t2/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+www.jin10.com##.l-main_body > DIV[class]:not(.jin-timeline)
+www.jin10.com##.l-main_info > DIV[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
