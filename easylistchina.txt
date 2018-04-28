@@ -5297,7 +5297,6 @@ mg*.6park.com/img/$image
 ||junshi.cc/hz/
 ||junshi.cn/api/TTWeixin
 ||juqingw.com/js/tad
-||juweixin.com/static/679888.gif
 ||juxia.com/jxtp/indexbg.jpg
 ||juxia.com/public/js/foot.js
 ||juxia.com/public/js/juxia.js
@@ -7233,8 +7232,9 @@ mg*.6park.com/img/$image
 ||jrzj.com/img_index/index_
 ||jrzj.com/img_index/*adv
 ||jrzj.com/images/bgright_ad.jpg
+||juweixin.com/static/spk
 !------------------------Specific element hiding rules------------------------!
-jrzj.com##A[href^="http"]:not([href*=".jrzj.com"]) > IMG[src^="https://img."]
+jrzj.com##A[href^="http"]:not([href*=".jrzj."]) > IMG[src^="https://img."]
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
