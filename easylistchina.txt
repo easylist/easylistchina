@@ -5311,7 +5311,6 @@ mg*.6park.com/img/$image
 ||jxnews.com.cn/jxcn/con_ad_title.js
 ||jyacht.com/flash/marina.swf
 ||jyfw.cn/gonggong/jiayu/cf_
-||jyfw.cn/gonggong/js/cf_flash.js
 ||jyfw.cn/nav/cf_
 ||jyh007.com/public/js/bdssp.js
 ||jz5u.com/js/tl$script
@@ -7245,6 +7244,7 @@ mg*.6park.com/img/$image
 ||172xiaoyuan.com/images/30min.jpg
 !------------------------Specific element hiding rules------------------------!
 pniao.com##.moveOne_ad
+jmw.com.cn##[class^="advertising"]
 jlonline.com##.focusPic
 gpcxw.com###AA2
 7707890.com##.topad-list
@@ -8655,7 +8655,6 @@ gzmama.com###zone_right_couplet
 gzmama.com###zone_top_fullcolumn
 weather.com.cn###zu_dui
 jyacht.com###zy_topgg2
-jyacht.com###zyc1r_01_g1
 jyacht.com###zyc1r_03
 jyacht.com###zyc1r_05
 51.la###zztxt
@@ -10084,9 +10083,6 @@ ifeng.com##.js_url[href^="http://dol.deliver."]
 qz930.com##.jsl_ad
 juksy.com##.juksy_ads
 jxedt.com##.jxpl
-jmw.com.cn##.keLan
-jmw.com.cn##.keLan-img
-jmw.com.cn##.keLan-img + .block
 csai.cn##.keifu
 iqilu.com##.kejie_ad
 v.ifeng.com##.keyword
@@ -10811,7 +10807,6 @@ bcbay.com,creaders.net##.syzx
 17yy.com##.t2r_3
 suopao.org##.t5[style^="margin-top:8px;"]
 tgbus.com##.t8
-jorsindo.com##.t_f > strong:last-child
 pinggu.org##.t_fsz > table[width="100%"]:last-child
 bbs.fobshanghai.com##.t_infoline
 douyu.com,douyutv.com##.tab-content.promote
