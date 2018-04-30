@@ -2660,7 +2660,6 @@ ubmcmm.baidustatic.com
 /^http://m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http://www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http://www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
-/^https:\/\/www\.[0-9]{4}[a-z]\.com\/js\/jquery\.js$/$script,~third-party
 /a83b3cdeacac5a503717469ca5084ebc.
 /adcg/*
 /adnow.js$domain=50.7.31.228|tvboxnow.com
@@ -13441,7 +13440,7 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ! Mmvip
 .com/js/ddd.js
 .com/js/indextop.js
-/config.$domain=042ee.com|205ee.com|806aa.com|808ee.com
+/^https:\/\/www\.[0-9]{3,4}[a-z]{1,2}\.com\/js\/(?:config|jquery)\.js$/$script
 !
 @@||bdimg.com/libs/$domain=m.1200ksw.com|m.biqumo.com|m.maopuzw.com|m.qianrenge.cc|m.qu.la|m.shengyan.org|m.sjtxt.la|m.ttzw.com|m.xs.la|m.yssm.org
 @@||cdn.bootcss.com^$domain=qihaoqihao.com
