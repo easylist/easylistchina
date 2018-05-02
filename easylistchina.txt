@@ -13,7 +13,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
-.com/topjs/
 .cc/js/ads/
 .cn/ads/
 .cn/js/ads/
@@ -48,6 +47,7 @@
 .com/Runtime/js/psData.js
 .com/tonglan.js
 .com/tonglan2.js
+.com/topjs/
 .com/vipgg/
 .com/vodad.js
 .in/js/ads/
@@ -696,7 +696,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||forrerri.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1487,6 +1486,7 @@ ubmcmm.baidustatic.com
 ||fnkjj.com^
 ||focusprolight.com^
 ||food5.net^$third-party
+||forrerri.com^
 ||founseezb.cn^
 ||fqtra.com^
 ||fst360.com^
@@ -7241,8 +7241,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-solidot.org##.e_reply > .fr
-dilidili.wang##.elmnt-one > .shade > A[href^="http"]:not([href*=".dilidili."])
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -9605,6 +9603,7 @@ acg17.com,wpdaxue.com##.e3lan
 m.so.com##.e_idea_list
 so.com##.e_idea_wenda_detail_spread
 so.com##.e_idea_wenda_spread
+solidot.org##.e_reply > .fr
 easou.com##.easou_banner
 baidu.com##.ec-ad
 sm.cn##.ec-goods-list
@@ -9630,6 +9629,7 @@ fuyang.net##.eis_fbox_980
 playno1.com##.eis_mtm[style="border-top:1px dashed #CDCDCD;padding-top:10px; padding-bottom:15px"]
 backchina.com##.eis_subnav_area
 winning11cn.com##.eis_topad
+dilidili.wang##.elmnt-one > .shade > a[href^="http"]:not([href*=".dilidili."])
 eprice.com.tw##.emome-ad
 17huohu.com,firefoxchina.cn##.engine-jokes
 zreading.cn##.enhanced-text-widget:nth-child(3)
@@ -13449,8 +13449,6 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|chenhuixse.com|cyxse.com|hfxiaoshuo.com|hlxiaoshuo.net|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.31wxw8.com|m.360118.com|m.37zw.net|m.3dllc.cc|m.3kw.cc|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.555zw.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.6mao.com|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.99shumeng.net|m.aikantxt.la|m.aiquxs.com|m.amu520.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.cm|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqugezw.com|m.biqukan.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.bxwx9.org|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.org|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.fhxsw.org|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.haxwx2.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kewaishu.info|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.ldw.la|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.maopuzw.com|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.mobishu.com|m.panqishu.com|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shengyan.org|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.snwx8.com|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tmetb.net|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.wodexiaoshuo1.cc|m.x81zw.com|m.xbxwx.net|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zbzw.la|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuob.com|zhxiaoshuoa.com|zwdu.com
 |http:$script,third-party,domain=xtzgjx.com|zzdxs.org
 ! Novels
-||ehxyz.com^
-||pyerc.com^
 &waid=m.miaobige.com/
 .ca.bxwx3.org^
 .m.23sw.net^
@@ -13582,6 +13580,7 @@ duanwenxue.com##.qgzdwx
 ||dxmci.com^
 ||dydyhg.com^
 ||dzisou.com^
+||ehxyz.com^
 ||emgwq.com^
 ||erocw.com^
 ||esyzdb.com^
@@ -13721,6 +13720,7 @@ duanwenxue.com##.qgzdwx
 ||pomhz.com^
 ||pptte.com^
 ||prazpf.cn^
+||pyerc.com^
 ||qaqact.cn^
 ||qhdop.com^
 ||qinchugudao.com^
