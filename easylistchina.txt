@@ -7252,7 +7252,9 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||17500.cn/template/images/*_960X90.
+||jandan.net^*/moyu.png
 !------------------------Specific element hiding rules------------------------!
+jandan.net##A[href^="//api.jandan.net/money.php?"]
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -12724,6 +12726,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 |http://a.kj-cy.cn^
+||ccc.jandan.net^
 ||003store.com^
 ||01.gxso.net^
 ||06362.com^
@@ -12809,7 +12812,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||94ab.com^$third-party
 ||999d.com^$third-party
 ||9wushuo.com^
-||a*.jandan.net^*.js
 ||a.52wubi.com^
 ||a.52zxw.com^
 ||a.53yao.com^
@@ -13151,7 +13153,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ppt.tianya999.com^
 ||psywed.com^
 ||ptw.la^
-||q3.jandan.net^
 ||qcjslm.com^
 ||qooic.com^
 ||qq167.com^
@@ -13208,7 +13209,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||vvv.ieduw.com^
 ||w.xiaopiaoyou.com^
 ||w1.diaoyou.com^
-||w3.jandan.net^
 ||wap001.bytravel.cn^
 ||wda.ydt.com.cn^
 ||web8.net^$third-party
