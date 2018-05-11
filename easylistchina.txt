@@ -13335,9 +13335,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||taobao.com^$popup,domain=dlkoo.com
 ! Dnvod.tv
 /\.dnvod.tv\/upload\/video\/\d+\./$domain=dnvod.tv
-/\.dnvod\.tv\/(?!(listprovider/ajaxlist.async.ashx|ActionProvider))/$match-case,~third-party,xmlhttprequest
-@@||dnvod.tv/Movie/Play.aspx?id=$genericblock
-@@||dnvod.tv^*/Readyplay.aspx?id=$genericblock
 dnvod.tv##[data-code] > :not([pluginspage="http://www.macromedia.com/go/getflashplayer"])
 dnvod.tv##[data-code] > :not(object)
 dnvod.tv##[data-code] > [target="_blank"]
@@ -13362,11 +13359,7 @@ dnvod.tv##.gg
 dnvod.tv##.ggw
 dnvod.tv##.ggw-l
 dnvod.tv##.r-gg
-/\.dnvod\.tv\/(?=[A-Z]*[a-zA-Z])(?=[a-z]*[a-zA-Z])[a-zA-Z]+\/\d+\.(gif|jpg|png)/$domain=dnvod.tv
-/\.dnvod\.tv\/[^\.]+$/$object-subrequest,domain=dnvod.tv
-/\.dnvod\.tv\/\w{2}\/[\w-]+\./$image,object-subrequest,domain=dnvod.tv
 /\/[a-z0-9]{9,}\.swf/$domain=dnvod.tv
-/^https?:\/\/(?!www\.)[0-9a-z-]+\.dnvod\.tv\/Movie\/GetResource\.ashx\?device=0&id=\w+=htm/$xmlhttprequest,domain=dnvod.tv
 dnvod.tv##:not(#video) > div[data-code]
 dnvod.tv##[style*="important"]
 dnvod.tv##a[href^="http://yoyou."]
