@@ -12,8 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/blgg/*
-.org/topjs/
 -880-80-4.jpg
 .cc/js/ads/
 .cn/ads/
@@ -69,6 +67,7 @@
 .mp4?ccode=*&duration=29&
 .mp4?ccode=*&duration=30&
 .net/js/ads/
+.org/topjs/
 .pw/ads/
 .test15./
 .tv/js/ads/
@@ -126,6 +125,7 @@
 /baichuan/*$subdocument
 /Banner-pcbeta-
 /bcgg/*
+/blgg/*
 /botad.html
 /btba/ad/*
 /c/674_rlt.js
@@ -5285,6 +5285,7 @@ mg*.6park.com/img/$image
 ||jobtong.com/openSiteAd?
 ||jpm.cn/images/a/
 ||jpwind.com^*/scroll.js
+||jrj.com.cn/s?z=
 ||jrjimg.cn/common/foot/allfc.js
 ||jrjimg.cn/zqt-red-1000/js/v3/itg-widget.
 ||jrzj.com/images/bgright_ad.jpg
@@ -5340,10 +5341,12 @@ mg*.6park.com/img/$image
 ||kajila.cn/ad.html
 ||kan300.com/js/union.js
 ||kan300.com/js/union/
+||kan98.com/c.html
 ||kan98.com/index.php?m=content&c=index&a=*ad
 ||kan98.com/index.php?m=poster&
 ||kanguba.com/file/js/ifr.asp
 ||kankanmi.com/js/zjgg
+||kankantv.*/javascript/thea
 ||kankantv.cc/330-50.gif
 ||kankanwu.com/le/
 ||kanpb.com/skin/images/
@@ -5369,6 +5372,7 @@ mg*.6park.com/img/$image
 ||kiees.cn/k1.js
 ||kikicici.com/up_files/2013-11-25/
 ||kikinote.net/iframe
+||kiwsy.co/hotsearch_box.php
 ||kkkkmao.com/Runtime/js/
 ||kmplayer.cn/include/jscript/*-a.js
 ||knnwdyou.com^
@@ -5794,6 +5798,7 @@ mg*.6park.com/img/$image
 ||ofweek.com/pop/ad/
 ||oh100.com/m1.gif
 ||oiihk.com/anime/cm.js
+||oitool.com/other/1180x90.gif
 ||ok.432kkk.com^
 ||okbmf.com^*950_120
 ||okooo.com/I/?method=system.data.ad&
@@ -7185,6 +7190,7 @@ mg*.6park.com/img/$image
 ||zimuku.*/images/v2/js/b.js
 ||zimuku.*/images/v2/js/bn
 ||zimuku.*/images/zfbhb.jpg
+||zimushe.com/res/img/bmw.jpg
 ||zimuzu.tv/public/rooms?
 ||zimuzu.tv/rrlx
 ||zineworm.com^*&localtype=
@@ -7250,17 +7256,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||jrj.com.cn/s?z=
-||kankantv.*/javascript/thea
-||kiwsy.co/hotsearch_box.php
-||oitool.com/other/1180x90.gif
-||zimushe.com/res/img/bmw.jpg
-||kan98.com/c.html
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-yahoo.com##.sys_dict_native_ads
-wanqu.co##.brand-ad
-wanqu.co##.left-nav-panel:first-child
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -8691,7 +8688,6 @@ nod32key.xyz##.AdBanner
 aohua.com.au,qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 aohua.com.au##.AdTop-Article-QQ1
-juqingba.cn##.jqright1
 cnfol.com##.AdvDL
 pc6.com##.Advbox
 feixiangtv.com##.Advertisement
@@ -9387,6 +9383,7 @@ duba.com##.box_shopping
 fx678.com##.box_video
 nxing.cn##.boxclose
 uzzf.com##.boxl
+wanqu.co##.brand-ad
 sohu.com##.brandAd
 kehuan.net.cn##.bread_728x90
 le.com,letv.com##.broadcast-adv
@@ -10081,6 +10078,7 @@ eastmoney.com##.jjph_important
 m.autohome.com.cn##.jmp-promote
 qq.com##.jpBanner
 ifeng.com##.jp_list
+juqingba.cn##.jqright1
 jrj.com.cn##.jrj-ad
 zhanqi.tv##.js-activity-show
 hqew.com##.js-ad-tips
@@ -10141,6 +10139,7 @@ finance.ifeng.com##.lccs
 txtbook.com.cn##.ledu-advWrap
 pqworld.com##.left-float
 pqworld.com##.left-float-tx
+wanqu.co##.left-nav-panel:first-child
 bejson.com##.left.validate + div
 cnbeta.com##.left300
 newxue.com##.left336280
@@ -10813,6 +10812,7 @@ chinaxinge.com##.sy05
 chinaxinge.com##.sy07
 heiguang.com##.syAdTopTxt
 17jiaoyu.com##.sy_ad
+yahoo.com##.sys_dict_native_ads
 zhifang.com##.sytl
 bcbay.com,creaders.net##.syzx
 17ok.com##.t-bann
@@ -12101,7 +12101,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||poedb.tw/js/ads.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
@@ -12463,6 +12462,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
 @@||pigol.cn/myinc/js/wap.js
+@@||poedb.tw/js/ads.js
 @@||pos.baidu.com^$domain=xoyo.com
 @@||pos.baidu.com^*=965703&$domain=pctowap.com
 @@||pos.baidu.com^*=965707&$domain=pctowap.com
