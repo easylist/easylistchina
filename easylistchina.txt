@@ -3876,7 +3876,6 @@ mg*.6park.com/img/$image
 ||bitautoimg.com/ResourceFiles/0/*.gif
 ||bitautoimg.com/ResourceFiles/0/*.swf
 ||bitscn.com/js/a2
-||biz*.sandai.net^
 ||biz.gexing.com^
 ||biz.lyd.com.cn/20
 ||biz.weibo.com^
@@ -4210,7 +4209,6 @@ mg*.6park.com/img/$image
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpd.com.cn/template/*.swf
 ||cpm.cm.kankan.com^
-||cpm.cm.sandai.net^
 ||cpplay.com/inc/
 ||cq.cm/temp/201
 ||cqfishing.net/data/attachment/portal/
@@ -4542,7 +4540,6 @@ mg*.6park.com/img/$image
 ||flash8.net/flash8_a_d_s/
 ||flightclub.cn/WidgetHot?
 ||flighty.cn/images/
-||float.sandai.net^$object-subrequest
 ||flxdaily.com/wp-content/plugins/flxdaily/script.js
 ||fobshanghai.com/bbsad/
 ||forimg.com/js/content/
@@ -5339,9 +5336,6 @@ mg*.6park.com/img/$image
 ||k.16vcd.com^
 ||k.youku.com/player/getFlvPath/sid/*&vl=
 ||k1kan.cc/template/blank/ads/
-||k618.cn/gg$image
-||k618.cn/images/samplevk6.js
-||k618.cn/tlgg/
 ||k99.cc^$third-party
 ||kaixin001.com.cn/js/cpm-
 ||kajila.cn/ad.html
@@ -7263,6 +7257,8 @@ mg*.6park.com/img/$image
 ||as.g4.ifeng.com^
 ||g8f.ifeng.com^
 ||xigua110.com/js/
+.k618.cn/sytab/
+.k618.cn/zbggw/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 xigua110.com##A[href^="http://m.jiang.com/?"]
@@ -8011,7 +8007,7 @@ webkaka.com###head > div[style="padding-top:2px !important;padding-top:5px;"]
 elecfans.com###headJf
 sd888.org###head_guanggao_con
 tbxt.com###headad2
-k618.cn,solidot.org###headads
+solidot.org###headads
 lxty66.com###header + .tac.mb5
 ttmeiju.com###header > a
 33235.net###header > center
@@ -8517,7 +8513,6 @@ ref.so###tg2_main
 sina.com.cn###tg_tiger
 eastmoney.com###tgbottom
 paipai.fm###the-logo + .fr
-kmplayer.cn###thead
 firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###thread_list > .j_thread_list + li[class]:not(.j_thread_list)
@@ -11394,7 +11389,6 @@ pctowap.com##a[href^="http://ptw.la/"]
 ydt.com.cn##a[href^="http://static.ydt.com.cn/my/u.php?"]
 mop.com##a[href^="http://trackx.mop.com/"]
 9tour.cn##a[href^="http://union.zhuna.cn/"]
-kankan.com##a[href^="http://vip.kankan.com/topics/finance/"]
 qq.com##a[href^="http://www.10100000.com/"]
 zhanqi.tv##a[href^="http://www.2133."]
 40407.com##a[href^="http://www.40407.com/g.php?"]
@@ -11707,7 +11701,6 @@ hb.qq.com##div[style*="width:960px; height:90px;"]
 gamersky.com##div[style*="width:970px;height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
-kafan.cn##div[style="FLOAT: left;width: 356px;HEIGHT: 290px;"]
 aohua.com.au##div[style="WIDTH: 960px; HEIGHT: 60px"]
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 chinaz.com##div[style="background:#C91521;height:90px;"]
@@ -11828,7 +11821,6 @@ hiapk.com##font.jammer
 3g.cn##h6[style="font-size: 18px; line-height: 32px;"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
 javlibrary.com##iframe
-kankan.com##iframe[src^="http://misc.t.kankan.com/level_demo/iframe/welcometip.html"]
 m.sohu.com##img.brand
 eworldship.com##img[height="70"]
 szhk.com##img[id^="adp"]
