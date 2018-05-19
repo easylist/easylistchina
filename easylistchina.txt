@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+.com/image/ll/$script
 -880-80-4.jpg
 .cc/js/ads/
 .cn/ads/
@@ -4531,7 +4532,6 @@ mg*.6park.com/img/$image
 ||fdc.com.cn/cms/js/home_js/*_move_
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
-||fe2d.com/image/ll/
 ||feesoon.com/js/cnzz_
 ||feiwan.net/zqcom_style/ad/
 ||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
@@ -4778,7 +4778,6 @@ mg*.6park.com/img/$image
 ||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
 ||gz630.com/data/attachment/portal/
-||h5f2.com/image/ll/
 ||hackhome.com/hz/*down
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
@@ -13980,7 +13979,7 @@ duanwenxue.com##.qgzdwx
 ||shyanche.net^
 ||yljiaoluo.com^
 ||yqjxzw.com^
-! Rewrite filter
+! Rewrite filters
 ||iqiyi.com/show2?$rewrite=/abp?
 ! Sex8.cc
 ###j-new-ad
