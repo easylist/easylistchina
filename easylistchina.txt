@@ -413,7 +413,6 @@ _xiuno_com_ad/
 ###MsnDialog.ad
 ###MyMoveAd
 ###QQ_Full
-###player_banner[style*="fixed;"]
 ###aafoot.top_box
 ###aatop.top_box
 ###ad-SNSSplashAd
@@ -477,6 +476,7 @@ _xiuno_com_ad/
 ###olfullad
 ###overture_ads_bottom_td
 ###overture_ads_top_td
+###player_banner[style*="fixed;"]
 ###popup.t
 ###ptcmsad1
 ###qj960a
@@ -713,8 +713,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||shaqm.com^$third-party
-||bangbang521.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1224,6 +1222,7 @@ ubmcmm.baidustatic.com
 ||baizhu.cc^$third-party
 ||balmoralmkt.com^$third-party
 ||bang5mai.com^$third-party
+||bangbang521.com^
 ||baodaozhan.cn^$third-party
 ||bccyyc.com^
 ||bdpuaw.com^
@@ -2124,6 +2123,7 @@ ubmcmm.baidustatic.com
 ||shama5.com^
 ||shandongkuntuo.com^
 ||shanglinli.com^
+||shaqm.com^$third-party
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
 ||sharrysweb.com^
@@ -3362,6 +3362,7 @@ mg*.6park.com/img/$image
 ||77kpw.cc/pc/
 ||7893com.com/img/*.gif
 ||789xz.com/index2/img/xiazai
+||78dm.*_wandai
 ||78dm.net/channel/test?
 ||78dm.net/images/mingren250.jpg
 ||78dm.net/test.png
@@ -3746,6 +3747,8 @@ mg*.6park.com/img/$image
 ||baidu.com/forum/pic/item/0cf431adcbef7609200cacc024dda3cc7cd99e6d.jpg
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/img/iknow/wenku*85.
+||baidu.com/newspage/api/getadsdata?
+||baidu.com/newspage/api/getimagelandafd?
 ||baidu.com/newspage/api/getmobads?
 ||baidu.com/po/api/configure/show.jsonp
 ||baidu.com/rec?platform=wise&ms=1&rset=ad&
@@ -3849,6 +3852,7 @@ mg*.6park.com/img/$image
 ||bdstatic.com^*/mip-*ad
 ||bdstatic.com^*/plugins/every_cookie_
 ||bdstatic.com^*/QSURrcmRKV.js
+||bdstatic.com^*/static/itemrep/afdTuJiTuiJian/
 ||bdstatic.com^*/tam-ogel/
 ||beareyes.com.cn/2/cat/js/*_centerl
 ||beareyes.com.cn/2/cat/js/*_right
@@ -5390,6 +5394,7 @@ mg*.6park.com/img/$image
 ||kokojia.com^$third-party
 ||ks.js.cn*/yytf/$object,script
 ||ksiwnx.pw/gg_html/
+||kt51.com/images/kt51.gif
 ||ktzhk.com/file/adv/
 ||kuaidi100.com/images/kuaidi/201612081*4
 ||kuaidi100.com/js/share/i_new.js
@@ -5467,6 +5472,7 @@ mg*.6park.com/img/$image
 ||lgmi.com/right_ys
 ||lgmi.com/syimg/
 ||lgmi.com/tjyf200x207.asp
+||lgmi.com/windows/*-Advert.
 ||lgmi.com^*_gg
 ||lh168.net^*/attachment/portal/
 ||liangchan.net/aaddaadd/
@@ -7266,15 +7272,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||78dm.*_wandai
-||kt51.com/images/kt51.gif
-||lgmi.com/windows/*-Advert.
-||bdstatic.com^*/static/itemrep/afdTuJiTuiJian/
-||baidu.com/newspage/api/getadsdata?
-||baidu.com/newspage/api/getimagelandafd?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-oschina.net##DIV[name="floatAdbox"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -11685,6 +11684,7 @@ my0511.com##div[id^="topad"]
 u17.com##div[id^="u17-advert"]
 lnd.com.cn##div[id^="wflash"]
 eyuyao.com##div[id^="x_ad_"]
+oschina.net##div[name="floatAdbox"]
 muchong.com##div[onclick^="location.href='http://muchong.com/bbs/a"]
 tuwan.com##div[style$="height:90px;"]
 baike.com##div[style$="text-align:center; width: 1000px;"]
@@ -12113,6 +12113,7 @@ gdrc.com#@#.midAd
 hc360.com#@#.midad
 sjsmitaa.org#@#.module-ads
 mobile01.com#@#.navad
+eprice.com.hk#@#.one-ad
 chinatimes.com#@#.page_ad
 fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
@@ -12121,7 +12122,6 @@ bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
-eprice.com.hk#@#.one-ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
@@ -13455,8 +13455,6 @@ uliba.net##.entry-content > div[style^="float:right"]
 uliba.net##.right-banner
 uliba.net##.tool_news1
 ! Ifeng.com
-||dkg.ifeng.com^
-||ifengimg.com/sdk
 ifeng.com###golddigger_bottom
 ifeng.com###linkrat_bottom
 .*.ifeng.com^$xmlhttprequest
@@ -13477,6 +13475,7 @@ ifeng.com#?#.i_con:-abp-has(span:-abp-contains(告))
 ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 |blob:$domain=ifeng.com
 ||as.g5s.ifeng.com^
+||dkg.ifeng.com^
 ||ifeng.com^*?*cl=
 ||ifengimg.com/*1751.js
 ||ifengimg.com/6536a
@@ -13485,6 +13484,7 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ||ifengimg.com/cfb80
 ||ifengimg.com/d54c8
 ||ifengimg.com/md86
+||ifengimg.com/sdk
 ||ifengimg.com/sfs-6536a6d5.js
 ||ifengimg.com^*/m/sources
 ||ifengimg.com^*679.js
