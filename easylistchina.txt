@@ -7260,6 +7260,8 @@ mg*.6park.com/img/$image
 ||alicdn.com/tfscom/*.sina.
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sina.cn##.xc_da
+sina.cn##.dfz_sd_news > A[href*=".10086.cn"]
 focus.cn##.feed-list-item[data-ad-type]
 loldk.com##A[href^="http://www.esportsclub.cn/home/"]
 leiling.org##.ad__single-double-rectangle-wrap
