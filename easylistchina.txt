@@ -12656,7 +12656,7 @@ ck101.com,datehub.co,gamer.com.tw,pili.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw,pili.com.tw#@#.text_ads
 ! Avgle.com
 $webrtc,domain=avgle.com
-@@|http*://$domain=avgle.com
+@@||avgle.com/video/1$genericblock
 @@||avgle.com^$elemhide
 ||avgle.com^$csp=frame-src 'self' *.areyouahuman.com *.boudja.com *.recaptcha.net *.bluekai.com
 ! Baidu Promotion
