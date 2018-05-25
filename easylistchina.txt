@@ -712,7 +712,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||jianbangjiaoyu.com^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1722,6 +1721,7 @@ ubmcmm.baidustatic.com
 ||jiaheyonggu.com^
 ||jiajv.net^
 ||jianbaimei.com^
+||jianbangjiaoyu.com^
 ||jianduankm.com^
 ||jianglishi.cn^$third-party
 ||jiangmg.com^
@@ -3298,6 +3298,8 @@ mg*.6park.com/img/$image
 ||5mplayer.duapp.com/player/ad.xml
 ||5vdd.com//2345ws.jpg
 ||5vdd.com/zb_users/theme/NSnail/style/images/250x250.jpg
+||5w8s.com/newad2010/
+||5w8s.com/tophot.html
 ||5y9nfpes.52pk.com^
 ||5ydj.com/images/banner/
 ||6.cn/coop/pub/getMiniPage.php?src=
@@ -5704,6 +5706,7 @@ mg*.6park.com/img/$image
 ||mycodes.net/js/down_txt.js
 ||mycodes.net/js/hf_txt.js
 ||mydrivers.com/common/20170426193905.jpg
+||mydrivers.com/images/*_1100_90.
 ||mydrivers.com/images/amd.png
 ||mydrivers.com/images/huawei360V60P10.gif
 ||mydrivers.com/images/mi140V90.gif
@@ -7257,12 +7260,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mydrivers.com/images/*_1100_90.
-||5w8s.com/newad2010/
-||5w8s.com/tophot.html
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-hdzone.org##A[style*="fixed"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -11418,6 +11417,7 @@ frdic.com,godic.net##a[onclick*="/ads/"]
 tvapk.net##a[onclick*="thread_banner"]
 house365.com##a[style*="1200px;"]
 gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
+hdzone.org##a[style*="fixed"]
 acg12.com##a[style*="relative"]
 btago.com##a[style="width:610px;height:80px;display:block;margin:5px 0"]
 houdao.com##a[style^="background:url"]
@@ -12099,10 +12099,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||5w8s.com/myads/img/thunder
-@@||cdn.teads.tv/media/format.js$domain=download.mokeedev.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||imagesrv.adition.com^$domain=download.mokeedev.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
@@ -12211,6 +12208,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||58huanbao.com/skin/defaultcs2660/images/ad
 @@||590103.idv.tw/advertisement.js
 @@||5i5j.*/images/ad$domain=5i5j.com
+@@||5w8s.com/myads/img/thunder
 @@||61.164.108.104:4275/*/*.gif
 @@||61.164.108.184/tb/*.gif
 @@||70.86.24.120:8060/*/
@@ -12286,6 +12284,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|pctowap.com|pic.tiexue.net
 @@||cbjs.baidu.com/js/o.js$domain=jkpan.cc
 @@||ccb.com^*^ad
+@@||cdn.teads.tv/media/format.js$domain=download.mokeedev.com
 @@||changyou.com^$generichide
 @@||cheshi-img.com/home/home_base/ad_index_2017.js
 @@||china.com/dianbo/adv1.xml
@@ -12396,6 +12395,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
+@@||imagesrv.adition.com^$domain=download.mokeedev.com
 @@||imasdk.googleapis.com/js/sdkloader/$domain=download.mokeedev.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|now.com|udn.com|xuite.net
 @@||img.ybbbs.com/2014/*app
@@ -12641,11 +12641,11 @@ ck101.com,datehub.co,gamer.com.tw,pili.com.tw#@#.text_ad
 ck101.com,datehub.co,gamer.com.tw,pili.com.tw#@#.text_ads
 ! Avgle.com
 $webrtc,domain=avgle.com
+@@||avgle.com/video/$genericblock,generichide
+avgle.com##body > div[style*="fixed;"]
 avgle.com#@#a[href^="http://bongacams.com/track?"]
 avgle.com#@#img[src*=".php"]
-@@||avgle.com/video/$genericblock,generichide
 ||avgle.com/video/$domain=avgle.com,csp=frame-src 'self' *.areyouahuman.com *.recaptcha.net
-avgle.com##body > div[style*="fixed;"]
 ! Baidu Promotion
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > tbody
