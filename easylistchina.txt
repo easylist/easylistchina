@@ -13966,7 +13966,7 @@ duanwenxue.com##.qgzdwx
 ||yqjxzw.com^
 ! Rewrite filters
 /(\.iqiyi\.com)\/show2\?e=./$rewrite=$1/show2?e=.
-/videos/other/*$rewrite=/videos/othez/
+/\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
 @@||da.mgtv.com/crossdomain.xml
 @@||da.mgtv.com/m5/page
 @@||livew.l.qq.com/livemsg?ty=web&az
