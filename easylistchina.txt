@@ -7258,6 +7258,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+popart.hk###slideshow
 lifanmoe.bid##A[href^="http"]:not([href*="lifanmoe."]) > IMG[src*=".sinaimg."]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -12051,7 +12052,7 @@ anjia365.com#@#.adv_bg
 zalora.com.hk#@#.advertisement-block
 lm-us.com#@#.advertisement_above_footer
 jd.com#@#.adwords
-7-11.co,oldpig.org,popart.hk#@#.afs_ads
+7-11.co,oldpig.org#@#.afs_ads
 dingdong.ganji.com#@#.banner
 10.10.5.12#@#.banner_ad
 ishangman.com#@#.bottom_ad
@@ -12088,6 +12089,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||popart.hk/newweb/$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
