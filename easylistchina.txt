@@ -7257,6 +7257,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 oschina.net##A[href^="https://citiccard.wjx.cn/"]
 oschina.net##DIV[name="index_banner_bigger"]
 oschina.net##DIV[name="detail_show_footer"]
@@ -12089,6 +12090,8 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
+@@/adbar/*$domain=outlook.live.com
+@@||adnxs.com/ast/static/$domain=outlook.live.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
