@@ -669,6 +669,7 @@ _xiuno_com_ad/
 ##a[href*=".222bz.com/"]
 ##a[href*=".9xiazaiqi.com"]
 ##a[href*=".acuxrecv.cn"]
+##a[href*=".biwbmsyt.cn"]
 ##a[href*=".cangpie.com/"]
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/?p="][target="_blank"] > img[src$=".gif"]
@@ -707,13 +708,11 @@ _xiuno_com_ad/
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
-##A[href*=".biwbmsyt.cn"]
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||leamain.net^
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -1838,6 +1837,7 @@ ubmcmm.baidustatic.com
 ||lashou1000.com^
 ||le123.cn^$third-party
 ||le4le.com^
+||leamain.net^
 ||leeyuoxs.com^
 ||letaoxiaochi.com^$third-party
 ||leturich.org^$subdocument
@@ -5128,6 +5128,7 @@ mg*.6park.com/img/$image
 ||img2.titan007.com^
 ||img2.win007.com/image/*.jpg
 ||img588.net/images/*.gif
+||imgadsame.liba.com^
 ||imgbus.com^$domain=88files.net
 ||imgchili.net/media/image*.gif
 ||imgchili.net/media/top.gif
@@ -5440,6 +5441,7 @@ mg*.6park.com/img/$image
 ||lanrenzhijia.com/Public/images/sucaihuo_
 ||lanseshuba.com/react.js
 ||laod.cn/wp-content/uploads/*/ad-
+||laogu.com/cms/images/ad
 ||laozuo.org/banner/linode
 ||laozuo.org/wp-content/themes/weisaysimple/js/*-bottom.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
@@ -5591,6 +5593,7 @@ mg*.6park.com/img/$image
 ||meiju8.cc/js/pv
 ||meijub.com/a/youxiajiao
 ||meijub.com/js/a/
+||meipuw.com/style/ad
 ||meishichina.com/v3/
 ||meitu.com/js/floatxiuxiu.js
 ||meitui.org^*.js
@@ -5617,6 +5620,7 @@ mg*.6park.com/img/$image
 ||mini.eastday.com^*?$subdocument,~third-party
 ||mini.hao123.com^
 ||minixiazai.com/others/all_soft.js
+||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
 ||mipcdn.com^*/mip-*ad
 ||mipengine.baidu.com/common?
@@ -7251,15 +7255,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||laogu.com/cms/images/ad
-||imgadsame.liba.com^
-||minixiazai.com/statics/js/soft/index.js
-||meipuw.com/style/ad
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-mp4ba.la##.hd + TABLE
-pconline.com.cn##.ivy > A
-liba.com##.ad-split
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -8848,6 +8845,7 @@ tech2ipo.com##.ad-sitehome-right
 babyhome.com.tw##.ad-span-ec
 babyhome.com.tw##.ad-span-large
 babyhome.com.tw##.ad-span-square
+liba.com##.ad-split
 www.sogou.com##.ad-tab-box > #tabCon
 www.sogou.com##.ad-tab-box > #tabNav
 qq.com##.ad-text-box
@@ -9866,6 +9864,7 @@ kekenet.com##.h_news_c
 bkill.com##.half-ads
 cam4.tw##.hbanner
 pinggu.org##.hbj
+mp4ba.la##.hd + table
 ck101.com##.hd-bgimg
 sogou.com##.hd-slider > .slider-container
 youth.cn##.hd_pic
@@ -10029,6 +10028,7 @@ zol.com.cn##.item-sale
 gansudaily.com.cn##.itemFloat
 cnbeta.com##.items_area .time
 pconline.com.cn##.ivy > .ivy-wrap
+pconline.com.cn##.ivy > a
 pcauto.com.cn##.ivy-250
 2345.com,pconline.com.cn##.ivyBaidu
 sina.cn##.j_article_cutpic
@@ -13969,8 +13969,8 @@ duanwenxue.com##.qgzdwx
 ||yljiaoluo.com^
 ||yqjxzw.com^
 ! Rewrite filters
-/(\.youku\.com\/ups\/get\.json\?.*?)&os=Windows&osv=.*?&d=0&bt=pc&/$rewrite=$1&os=android&bt=phone&dq=hd2&
 /(\.iqiyi\.com)\/show2\?e=./$rewrite=$1/show2?e=.
+/(\.youku\.com\/ups\/get\.json\?.*?)&os=Windows&osv=.*?&d=0&bt=pc&/$rewrite=$1&os=android&bt=phone&dq=hd2&
 /\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
 @@||da.mgtv.com/crossdomain.xml
 @@||da.mgtv.com/m5/page
