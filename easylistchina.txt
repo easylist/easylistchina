@@ -716,6 +716,7 @@ _xiuno_com_ad/
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
+###modalgg
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
@@ -7250,6 +7251,7 @@ mg*.6park.com/img/$image
 ||alicdn.com^$domain=runoob.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+fuliba.net###sidebar > UL[style="list-style-type: none;"]
 baidu.com##.quality-elinks
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -7695,12 +7697,12 @@ gate.baidu.com,m.baidu.com###container
 jinhua.com.cn###container > div[style^="height:"]
 gg163.net###container > table[width="960"]
 jb51.net###contbot
-biquge001.com,fuliba.net,fulibba.com###content > a
+biquge001.com,fuliba.net###content > a
 shaoit.com###content > a[target="_blank"]
-fuliba.net,fulibba.com###content > div:first-child > a:first-child:last-child
+fuliba.net###content > div:first-child > a:first-child:last-child
 go-gddq.com###content > div[style="float: Right;"]
 winba.me###content > p:first-child
-fuliba.net,fulibba.com###content > ul[style="list-style-type: none;"]
+fuliba.net###content > ul[style="list-style-type: none;"]
 yes-news.com###content-728
 yes-news.com###content-728-top
 yes-news.com###content-ads-right
@@ -8153,7 +8155,7 @@ muchong.com###mask
 gzmama.com###mdvtips
 hinet.net###media_ad_popup_overlay
 qtfy30.cn###menu + a
-fuliba.net,fulibba.com###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
+fuliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
 51cto.com###message
 tv.sohu.com###miaozhenad
@@ -8395,7 +8397,7 @@ gaoqing.la###sidebar > .widget:nth-child(-n+3)
 pc360.net###sidebar > .widget:nth-child(3)
 jobbole.com###sidebar > .widget_text:first-child
 159i.com###sidebar > :not(form)
-fuliba.net,fulibba.com###sidebar > div:first-child
+fuliba.net###sidebar > div:first-child
 iplaysoft.com###sidebar > ul > .widget:first-child
 iplaysoft.com###sidebar > ul > .widget:nth-child(3)
 ipcfun.com###sidebar > ul > div[style]
@@ -9611,7 +9613,7 @@ eprice.com.tw##.emome-ad
 zreading.cn##.enhanced-text-widget:nth-child(3)
 hao123.com##.enter1
 rj.baidu.com##.entrance
-fuliba.net,fulibba.com##.entry-content > div[style^="float:right"]
+fuliba.net##.entry-content > div[style^="float:right"]
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-header + p + p[style="text-align: center;"]
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-title > p
 epinv.com##.epgg ~ .huadong
@@ -10530,7 +10532,7 @@ tiexue.net##.reloadCont > div:first-child
 3g.cn##.reply_block
 tbtdg.com##.reveal-modal-bg
 rfidworld.com.cn##.rfidADClass
-afzhan.com,fuliba.net,fulibba.com##.right-banner
+afzhan.com,fuliba.net##.right-banner
 image.baidu.com##.right-banner-area
 to8to.com##.right-float-ad
 tuicool.com##.right-link
@@ -10876,7 +10878,7 @@ muchong.com##.todayhot
 0898.net,gamefy.cn,hi.people.com.cn##.tonglan
 qilindao.com##.tonglanAd
 chinanews.com##.tonglan_advert
-fuliba.net,fulibba.com##.tool_news1
+fuliba.net##.tool_news1
 loldk.com##.tools-recommend
 golangtc.com,html-js.com##.top
 meizhou.com##.top + .w1000
