@@ -7256,8 +7256,11 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||yatu.tv/image/show/*_300_100.
+||2345.com/images/activity/20180618/search-actimg.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+2345.com##.act-market
+2345.com##.act-yguang
 nownews.com##A[href^="https://goo.gl/"]
 niotv.com##.epg_ad3
 niotv.com##.epg_ad_list
@@ -8784,8 +8787,7 @@ yaolan.com##.abstract_ad
 ifeng.com##.acAd1
 ifeng.com##.acPicBox
 jiaju.shangdu.com##.accordion
-2345.com##.act-navspec
-2345.com##.act-navspecS
+2345.com##DIV[class^="act-navspec"]
 qq.com##.action_ad
 rising.cn##.activity-ad
 hao.rising.cn##.activity-gt
