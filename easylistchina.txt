@@ -17,7 +17,6 @@
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
-.com/?ss=$script
 .com/a_d/
 .com/ad777.js
 .com/Ads/95060_
@@ -800,9 +799,10 @@ _xiuno_com_ad/
 :81/s/i.php?id=$script
 :9001/code/
 ubmcmm.baidustatic.com
-|http://*.*.cn/?ss=$script,third-party
+.com/?ss=$script
+.cn/?ss=$script,third-party
 |http://*.*.com/?q=*|*$script,third-party
-|http://*.*.net/?ss=$script,third-party
+.net/?ss=$script,third-party
 .cc/s.php?id=$script,third-party
 .cn/s.php?id=$script,third-party
 .com/s.php?id=$script,third-party
