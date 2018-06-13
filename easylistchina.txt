@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/js/common/gg.js
 -880-80-4.jpg
 .cc/js/ads/
 .cn/ads/
@@ -230,6 +229,7 @@
 /js/bdgg/*
 /js/bocaiadv.
 /js/btdigg.js
+/js/common/gg.js
 /js/dljj.js
 /js/dyguosj/*
 /js/ggtop.js
@@ -569,6 +569,7 @@ _xiuno_com_ad/
 ##.adsense160
 ##.adsense200
 ##.adsoho
+##.anniversary-wrap-2018
 ##.assort-ad
 ~winba.me##.baiduad
 ##.banner-ad-section
@@ -719,15 +720,18 @@ _xiuno_com_ad/
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/a1b45005bda18472821222856c6d4f99.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##script + #rbbox
-##.anniversary-wrap-2018
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+.cc/s.php?id=$script,third-party
+.cn/?ss=$script,third-party
+.cn/s.php?id=$script,third-party
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
+.com/?ss=$script
 .com/code.php?z=$script,third-party
 .com/cpc/*.ashx?$script,third-party
 .com/cpv/*.ashx?$script,third-party
@@ -736,17 +740,24 @@ _xiuno_com_ad/
 .com/jscode/$third-party
 .com/mediaController.php?pid=$script,third-party
 .com/pp.php?uid=$script,third-party
+.com/s.php?id=$script,third-party
 .com/show?id=$script,third-party
 .com/showpage.asp?u=$script,third-party
 .com/ssss.asp?u=$script,third-party
 .com/title/$script,third-party
 .com/vs.php?id=$script,third-party
+.info/s.php?id=$script,third-party
+.me/s.php?id=$script,third-party
+.net/?ss=$script,third-party
 .net/jscode/$third-party
+.net/s.php?id=$script,third-party
 .net/showpage.asp?u=$script,third-party
 .net/vs.php?id=$script,third-party
 .top/s.php?id=$script,third-party
+.tw/s.php?id=$script,third-party
 .vip/vs.php?id=$script,third-party
 .xyz/vs.php?id=$script,third-party
+//s.php?id=$script,third-party
 //vs.php?id=$script,third-party
 /99vjj/*$third-party
 /adposid/*
@@ -795,25 +806,14 @@ _xiuno_com_ad/
 /svr/popwin.aspx?$third-party
 /tourl.html?url=
 /v.php?z=$script,third-party
+://*:*/s.php?id=$script,third-party
 :8080/js/v1.js$third-party
 :8080/js/v2.1.js$third-party
 :81/c/i.php?id=$script
 :81/s/i.php?id=$script
 :9001/code/
 ubmcmm.baidustatic.com
-.com/?ss=$script
-.cn/?ss=$script,third-party
 |http://*.*.com/?q=*|*$script,third-party
-.net/?ss=$script,third-party
-.cc/s.php?id=$script,third-party
-.cn/s.php?id=$script,third-party
-.com/s.php?id=$script,third-party
-.info/s.php?id=$script,third-party
-.me/s.php?id=$script,third-party
-.net/s.php?id=$script,third-party
-.tw/s.php?id=$script,third-party
-//s.php?id=$script,third-party
-://*:*/s.php?id=$script,third-party
 |http://1*.*.*.*/show.js|$script,third-party
 |http://1.3.0.10^
 |http://js*/i.js?$script,third-party
@@ -6580,6 +6580,7 @@ mg*.6park.com/img/$image
 ||tonnn.com/promotion2/*.js
 ||top139.com/aliyun.jpg
 ||topthink.com/api/basic/
+||torrentkitty.tv/images/vpn.gif
 ||torrentkitty.tv/js/jquery.bpopup.
 ||totheglory.im/pic/fangtuo.jpg
 ||totheglory.im/pic/ttg-
@@ -7256,13 +7257,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||torrentkitty.tv/images/vpn.gif
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-bestcbooks.com##.sidebar:last-child
-paipai.fm###sideForum + DIV
-ncnews.com.cn##DIV[id^="ban"]
-cartoonmad.com##TD[align="center"][height="102"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -8402,6 +8398,7 @@ mgtv.com###side-join-ad
 iwan.baidu.com###side-xbox
 ck101.com###sideAds1
 ifeng.com###sideBar[class^="box_"]
+paipai.fm###sideForum + div
 cililian.me###side_right
 iyejie.com,pc360.net###sidebar > .widget:first-child
 gaoqing.la###sidebar > .widget:nth-child(-n+3)
@@ -8409,11 +8406,11 @@ pc360.net###sidebar > .widget:nth-child(3)
 jobbole.com###sidebar > .widget_text:first-child
 159i.com###sidebar > :not(form)
 fuliba.net###sidebar > div:first-child
+fuliba.net###sidebar > div:last-child
 iplaysoft.com###sidebar > ul > .widget:first-child
 iplaysoft.com###sidebar > ul > .widget:nth-child(3)
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
-fuliba.net###sidebar > DIV:last-child
 xici.net###sidebar-bd > #pbox:last-child
 elecfans.com###sidebar-firstad
 gaoqing.la###sidebar-follow
@@ -10711,6 +10708,7 @@ daweijita.com##.sidebar-right > .widget-box:first-child
 cangku.in,galacg.me##.sidebar-top
 52tian.net##.sidebar960
 steachs.com##.sidebar:first-child
+bestcbooks.com##.sidebar:last-child
 kocpc.com.tw##.sidebar:nth-child(2)
 kocpc.com.tw##.sidebar:nth-child(3)
 shangdu.com##.sidebarBanner
@@ -11604,6 +11602,7 @@ qbiao.com##div[id^="aup"]
 8591.com.tw##div[id^="baidu"]
 qianzhan.com##div[id^="baidu_ad_"]
 shm.com.cn##div[id^="baidu_clb_slot_"]
+ncnews.com.cn##div[id^="ban"]
 2345.com##div[id^="bd-search-ad"]
 yaolan.com##div[id^="bot_ad"]
 kankan.com##div[id^="cm"].banner
@@ -11920,7 +11919,7 @@ taobao.com#?#.item-ad
 hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 xici.net##td.doc_sign
 cartoonad.com,cartoonmad.com##td[align="center"] > table[width="728"]
-cartomad.com,cartonmad.com,comicnad.com##td[align="center"][height="102"]
+cartomad.com,cartonmad.com,cartoonmad.com,comicnad.com##td[align="center"][height="102"]
 sinoca.com##td[align="center"][height="90"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
 tsdm.me,tsdm.net,tsdm.tw##td[colspan="5"]:first-child:last-child
@@ -12086,7 +12085,6 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
-@@||tgfcer.com/advert.js
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
@@ -12536,6 +12534,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||tdx.com.cn/images/*ad$~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
+@@||tgfcer.com/advert.js
 @@||thisav.com^$generichide
 @@||timesdata.com/Public/*/ad$~third-party
 @@||tmall.com/go/*/banner.php
