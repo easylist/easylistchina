@@ -3577,7 +3577,6 @@ mg*.6park.com/img/$image
 ||adm*.autoimg.cn^$object
 ||adm.265g.com^
 ||adm.6park.com^
-||adm.72zx.com^
 ||adm.86wan.com^
 ||adm.cloud.cnfol.com^
 ||adm.xmfish.com^
@@ -7255,6 +7254,8 @@ mg*.6park.com/img/$image
 ||onlinedown.net/Public/js/headAd.js
 !------------------------Specific element hiding rules------------------------!
 nmgnews.com.cn###ad3
+orsoon.com###btn-down-one
+orsoon.com##DIV[class^="down-sect"]
 cctv.com##A[href*=".jaeapp.com"]
 ofweek.com##.adtext
 ofweek.com##.ui-slider
@@ -8982,9 +8983,7 @@ letv.com##.ad_pop_small
 ubetween.com##.ad_pt
 sogou.com##.ad_result
 bitauto.com,cnblogs.com,hc360.com##.ad_right
-9upk.com,orsoon.com,ouyaoxiazai.com##.ad_show
-orsoon.com##.ad_show_1
-orsoon.com##.ad_show_2
+9upk.com,ouyaoxiazai.com##.ad_show
 163.com##.ad_sx_1
 163.com##.ad_sx_2
 shm.com.cn##.ad_taobao
@@ -10716,7 +10715,6 @@ mopxing.com##.sideul1
 aibang.com##.similarlike
 sina.com.cn##.sinaads
 uuu9.com##.sindex_ad1
-onefunnyjoke.com##.single-bottom-responsive
 2000fun.com##.single-box
 kocpc.com.tw##.single_ads
 caibaojian.com##.single_top
@@ -11721,7 +11719,6 @@ zhidao.baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250
 muchong.com##div[style="padding:15px 0;border:1px solid #648EB2;width:760px;text-align:center;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 muchong.com##div[style="padding:8px 10px;font-size:14px; background: #fff; border: 1px solid #648EB2;"] > table > tbody > tr > td:first-child
-onlinedown.net##div[style="position: fixed;left:50%;margin-left:-645px;margin-top: -145px;top:50%;"]
 jijidown.com##div[style="position: fixed;right: 0;bottom: 0;"]
 ys168.com##div[style="position:fixed; width:170px; top: 330px;right:10px;font-size:9pt;text-align:left;"]
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
