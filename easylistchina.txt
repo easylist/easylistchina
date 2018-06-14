@@ -7253,6 +7253,7 @@ mg*.6park.com/img/$image
 ||panda.tv/ajax_tfate_getinfo?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+sports.qq.com##.focus_con > .item > A[href^="http"]:not([href*=".qq."])
 panda.tv##.index-slider-outlink
 pcsoft.com.cn##A[href="http://tokenin.io/"]
 pcsoft.com.cn##DIV[style^="width:100px;height:300px;position:fixed;"]
