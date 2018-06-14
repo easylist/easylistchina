@@ -2633,6 +2633,7 @@ ubmcmm.baidustatic.com
 ||zzrcz.com^
 ||zzyonghao.com^
 !------------------------------------Popups-----------------------------------!
+||taobao.com^$popup,domain=52movieba.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
@@ -7254,6 +7255,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/87c$domain=pniao.com
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+52movieba.com##A[href*=".taobao.com"]
 pniao.com##.tempWrap
 maomaomom.com###execphp-15
 maomaomom.com###execphp-21
