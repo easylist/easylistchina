@@ -727,8 +727,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||yishuifa.org^
-||seaxm.com^$third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -757,6 +755,7 @@ _xiuno_com_ad/
 .net/s.php?id=$script,third-party
 .net/showpage.asp?u=$script,third-party
 .net/vs.php?id=$script,third-party
+.org/s.php?id=$script,third-party
 .top/s.php?id=$script,third-party
 .tw/s.php?id=$script,third-party
 .vip/vs.php?id=$script,third-party
@@ -811,7 +810,6 @@ _xiuno_com_ad/
 /tourl.html?url=
 /v.php?z=$script,third-party
 ://*:*/s.php?id=$script,third-party
-.org/s.php?id=$script,third-party
 :8080/js/v1.js$third-party
 :8080/js/v2.1.js$third-party
 :81/c/i.php?id=$script
@@ -2147,6 +2145,7 @@ ubmcmm.baidustatic.com
 ||sdhzstone.net^
 ||sdqoi2d.com^
 ||sdycd.com^
+||seaxm.com^$third-party
 ||sexy-more.com^$third-party
 ||sfloushi.com^
 ||sgbfjs.info^
@@ -2541,6 +2540,7 @@ ubmcmm.baidustatic.com
 ||yiqifa.com^*.js$third-party
 ||yiqiv.com^$third-party
 ||yiranxian.cn^
+||yishuifa.org^
 ||yiwad.com^$third-party
 ||yiwuds.com^
 ||yixige.com^$third-party
@@ -7254,8 +7254,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
-sina.cn##.bannerAD
-sina.cn##.topad
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -9235,7 +9233,7 @@ jinhua.com.cn##.banner935
 80smp4.com,yaolan.com##.banner960
 iqiyi.com##.banner980
 box.poco.cn##.banner994
-niutuku.com##.bannerAD
+niutuku.com,sina.cn##.bannerAD
 afzhan.com##.bannerAdv
 tiboo.cn##.bannerD
 www.3dmgame.com##.banner_1
@@ -10942,7 +10940,7 @@ qidian.com##.top_game_info
 2345.com##.top_news
 jmw.com.cn##.top_pic
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top_toutu_admarks + .tbui_slideshow_list
-163.com,changsha.cn,jrj.com.cn,kekenet.com,neotv.com.cn,sina.com.cn##.topad
+163.com,changsha.cn,jrj.com.cn,kekenet.com,neotv.com.cn,sina.cn,sina.com.cn##.topad
 7707890.com##.topad-list
 cnforex.com##.topad460X60
 huarenjie.com##.topadcss
@@ -12114,8 +12112,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement/*$domain=cits.cn|ininin.com|midea.com|muyingzhijia.com|yxjc.13322.com
 @@/advertising/*$domain=315.sh.cn|houdask.com
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=reh.tw
-@@/adview_pic_$domain=123564.com|2hanju.com|lingjike.com|mahua.com|mh160.com|qqzhibo.tk|xiaoz.me|ygo-sem.cn|ykit.cn
+@@/adview_pic_$domain=123564.com|2hanju.com|lingjike.com|mahua.com|mh160.com|qqzhibo.tk|reh.tw|xiaoz.me|ygo-sem.cn|ykit.cn
 @@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/assets/adv/*$domain=4008927927.cn
