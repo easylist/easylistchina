@@ -714,6 +714,8 @@ _xiuno_com_ad/
 ~pniao.com##div[class^="ADTOPLB_"]
 ##div[id^="ad_thread"]
 ##header + .container > .ads:first-child
+##img[src$="/HWIl7a.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+##img[src$="/HWIl7a.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##img[src$="/2016-0114-700X70.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##img[src$="/21054077.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
@@ -7260,7 +7262,10 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||siimg.com/u/*.gif
+||xoimg.club/u/*.gif
 !------------------------Specific element hiding rules------------------------!
+t66y.com##img[src$="/HWIl7a.gif"] ~ br:nth-child(-n+226)
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
