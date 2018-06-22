@@ -13506,7 +13506,7 @@ ifeng.com##[data-cl]
 ifeng.com##[id^="dl"]
 ifeng.com##[id^="mobile_gg"]
 ifeng.com##[iscl]
-ifeng.com##[style*="position"][style*="fixed"]
+ifeng.com##[style*="position"][style*="fixed"]:not([id])
 ifeng.com##a[href*=".deliver."][style*="block"]
 ~g.ifeng.com,ifeng.com##a[href*="/g.ifeng."]
 ifeng.com,~imall.ifeng.com##a[href*="imall.ifeng."]
