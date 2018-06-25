@@ -3852,7 +3852,6 @@ mg*.6park.com/img/$image
 ||baixing.com/bb/*/?category=
 ||baixing.com/widget/
 ||baizhan.net/coop/hezuo/
-||ballbar.cc/js/t18.js
 ||ballive.*/addm/
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
@@ -5339,7 +5338,6 @@ mg*.6park.com/img/$image
 ||jinyici.com/qq.js
 ||jipinzw.com^*.php?aid=
 ||jisutiyu.com/app/js/*footer.js
-||jisutiyu.com/images/sda/
 ||jisuxz.com/170320/kaola58058.gif
 ||jisuxz.com/180226/b180226.js
 ||jisuxz.com/180226/downshare
@@ -5954,7 +5952,6 @@ mg*.6park.com/img/$image
 ||ppsj.com.cn/images/usa_250_120.gif
 ||ppsj.com.cn/ppsj728.gif
 ||pptv.com/game/aplus/client/gamedetail.html
-||ppty.tv/index/js/float.js
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||price.com.hk/dfp_price.php?
@@ -6093,7 +6090,6 @@ mg*.6park.com/img/$image
 ||qqxbt.com/Content/img/
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
-||qqzhibo.tk/js/t
 ||qt.biqugezw.com^
 ||qtfy30.cn/680_*.gif
 ||qtfy30.cn/980-90.gif
@@ -7261,7 +7257,11 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ballbar.cc/images/bb/
+||ballbar.cc/images/web
 !------------------------Specific element hiding rules------------------------!
+ballbar.cc###banner1
+ballbar.cc###banner2
 gpcxw.com###AA2
 ccav5.com##A[href*=".sinaimg."]
 yahoo.com###ACT_crazy
@@ -11264,7 +11264,6 @@ tiexue.net##a[href*=".yueleyu."]
 tingvoa.com##a[href*="/%43%6c%69%63%6b%41%64?"]
 108.62.192.122,23.81.209.214,plus28.com##a[href*="/?Extend="]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
-jisutiyu.com##a[href*="/Register?aff="]
 acg18.us##a[href*="/ad/"]
 cangku.in,galacg.me##a[href*="/game"]
 ccav1.com##a[href*="/go"]
@@ -11300,7 +11299,6 @@ xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 qmaile.com##a[href="http://tb.ibihao.cn/"]
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 pcsoft.com.cn##a[href="http://tokenin.io/"]
-jisutiyu.com##a[href="http://www.20080088.com/yzbm"]
 6park.com##a[href="http://www.b2ship.com"]
 qqhjy.com##a[href="http://www.chaojkm.cn"]
 iidvd.com##a[href="http://www.crc6789.com/iidvd.htm"]
@@ -12120,7 +12118,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement/*$domain=cits.cn|ininin.com|midea.com|muyingzhijia.com|yxjc.13322.com
 @@/advertising/*$domain=315.sh.cn|houdask.com
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=123564.com|2hanju.com|lingjike.com|mahua.com|mh160.com|qqzhibo.tk|reh.tw|xiaoz.me|ygo-sem.cn|ykit.cn
+@@/adview_pic_$domain=123564.com|2hanju.com|lingjike.com|mahua.com|mh160.com|reh.tw|xiaoz.me|ygo-sem.cn|ykit.cn
 @@/advs/*$domain=ciros.com.cn|dianxinos.com|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/assets/adv/*$domain=4008927927.cn
@@ -12513,7 +12511,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
 @@||sinaimg.cn/dy/deco/*/js/base.js
 @@||sinaimg.cn/dy/deco/*/js/require.js
-@@||sinaimg.cn/large/696b3be5jw1eiuo9zjz34g206e01yjra.gif
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||sipa.gov.tw/img/rightbanner/
