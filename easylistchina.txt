@@ -7272,6 +7272,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||fa999.cn/img/%E5%93%88%E5%93%A9640X150.jpg
+||jd100.com/cwmpc/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 halihali.cc##.guolewan
@@ -11672,7 +11673,7 @@ bilibili.com##div[style*="height:"][data-loc-id]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 dfpan.com##div[style*="img.com/"]
 tiexue.net##div[style*="overflow: hidden; position: fixed;"]
-1010jiajiao.com##div[style*="position:fixed; bottom:1px;"]
+1010jiajiao.com##DIV[style*="position:fixed;"][style*="bottom:1px;"]
 iplaysoft.com##div[style*="width:3"][style*="height:2"]
 divcss5.com,iplaypy.com##div[style*="width:336px;height:280px;"]
 wufangbo.com##div[style*="width:360px; height:300px;"]
