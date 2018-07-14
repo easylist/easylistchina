@@ -6224,9 +6224,6 @@ mg*.6park.com/img/$image
 ||sdbeta.com/statics/mystyle/js/1688.js
 ||sdgundam.cn/js/91.js
 ||sdo.com/static/image/mkads/
-||sdzbcg.com/images/bmby.jpg
-||sdzbcg.com/images/hwgy.jpg
-||sdzbcg.com/images/jnmy
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
 ||segmentfault.com/sponsor/
@@ -6457,7 +6454,6 @@ mg*.6park.com/img/$image
 ||suv.cn/data/js/64.js
 ||suv.cn/data/js/86.js
 ||synacast.com^
-||sz1001.net^*/soft_*.js
 ||szhk.com/565.jpg
 ||szhk.com/ads/
 ||szhk.com/iframe/
@@ -7259,6 +7255,8 @@ mg*.6park.com/img/$image
 ||icaile.com/z.php?id=
 ||xinjs.cn/2010/zzz.jpg
 !------------------------Specific element hiding rules------------------------!
+sdzbcg.com##TABLE[height="41"]:last-child
+sdzbcg.com##TD[width="580"][height="279"] > TABLE:nth-child(2n-1)
 kafan.cn###content_top
 smzdm.com##.banner-stuff
 gpcxw.com###AA2
@@ -11770,8 +11768,6 @@ uschinapress.com##img[width="290"]
 china.com.cn##img[width="300"][height="60"]
 guitarchina.com##img[width="420"][height="60"]
 aguitar.cn##img[width="470"][height="60"]
-sdzbcg.com##img[width="590"]
-sdzbcg.com##img[width="592"]
 china.com.cn##img[width="665"]
 gpshk.cc##img[width="770"]
 855699.com##img[width="922"]
@@ -11830,7 +11826,6 @@ news.lyd.com.cn##table[cellspacing="5"]:nth-child(3)
 jdbbs.com##table[cellspacing="5"][bordercolor="#9dbedd"]
 angelweb.cn##table[height="250"]
 guidaye.com##table[height="280"]
-sdzbcg.com##table[height="41"]:last-child
 bcbay.com##table[id] + table[style="margin:3px auto;"]
 win007.com##table[id^="table_Ad"]
 bbs-tw.com##table[ondragstart="window.event.returnValue=false"]
