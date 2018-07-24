@@ -604,7 +604,6 @@ _xiuno_com_ad/
 ##.chat-top-ad
 ##.comiis_adbox
 ##.con_ad
-##.content > .ads:first-child
 ##.content > a > .topline
 ##.content-video > .ads
 ##.content-video > .ads-player
@@ -657,7 +656,6 @@ _xiuno_com_ad/
 ##.ml_ad5
 ##.mlad
 ##.pagead_3
-##.panel + .ads
 ##.player + .sponsor
 ##.player-bottom-gg
 ##.privilege-promote
@@ -740,7 +738,6 @@ _xiuno_com_ad/
 ##div#ad_id
 ~pniao.net##div[class^="ADTOPLB_"]
 ##div[id^="ad_thread"]
-##header + .container > .ads:first-child
 ##img[src$="/2016-0114-700X70.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
 ##img[src$="/21054077.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
@@ -757,6 +754,7 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
+##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jsyxfdj.com^
@@ -3738,7 +3736,7 @@ mg*.6park.com/img/$image
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com/tps/TB19bnbJVXXXXXhXXXXXXXXXXXX-860-100.gif
-||alicdn.com^$domain=333lsg.com|34bg.com|46pj.com|51dll.com|555avtb.com|63ef.com|63ig.com|666avtb.com|69tang7.com|7mav2.com|acglover.me|aotu47.com|ccxx99.com|ip.cn|jitapu.com|junying.com|qqtenglong.com|qyl72.com|runoob.com|thz4.com|thztv.cc|viidii.info|vipthz.com|wenkuxiazai.com|yjizz77.com|zhev.com.cn|zhuankezhijia.com
+||alicdn.com^$domain=333lsg.com|34bg.com|46pj.com|51dll.com|555avtb.com|63ef.com|63ig.com|666avtb.com|69tang7.com|7mav2.com|acglover.me|aotu47.com|ccxx99.com|ip.cn|jitapu.com|junying.com|qqtenglong.com|runoob.com|thz4.com|thztv.cc|viidii.info|vipthz.com|wenkuxiazai.com|yjizz77.com|zhev.com.cn|zhuankezhijia.com
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alifeifei.net/s/*.js
@@ -7262,6 +7260,8 @@ mg*.6park.com/img/$image
 ||yibo5.cn/img0
 ||3123df.com/logo/
 ||baidu.com/newspage/api/getrelatednews?
+||cbu01.alicdn.com/img/ibank/2018/*_872274545.jpg
+||cbu01.alicdn.com/img/ibank/2018/*_1794478205.jpg
 !------------------------Specific element hiding rules------------------------!
 mbd.baidu.com##DIV[class^="_"][style="visibility: visible;"]
 gpcxw.com###AA2
