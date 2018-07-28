@@ -7255,8 +7255,11 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 ||baidu.com/xpage/interface/structrec?
 ||alicdn.com/openad/dsp-front-booth/
+||douyucdn.cn/dyfelocal/act/*/ad.png
 !------------------------Specific element hiding rules------------------------!
 yicai.com##.dfb-ad
+douyu.com##.imageItem-wrap[href*=".cr-nielsen.com/"]
+douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 3dmgame.com##.tonglona_1
 3dmgame.com##.tonglona_2
 3dmgame.com##.tonglona_3
