@@ -13942,6 +13942,10 @@ duanwenxue.com##.qgzdwx
 ||shyanche.net^
 ||yljiaoluo.com^
 ||yqjxzw.com^
+! Qq.com
+.dispatch.tc.qq.com/*.mp4?
+://apd-*.qq.com/
+||ltsdl.qq.com^*.ts
 ! Rewrite filters
 /(\.iqiyi\.com)\/show2\?e=./$rewrite=$1/show2?e=.
 /(\.youku\.com\/ups\/get\.json\?.*?)&os=Windows&osv=.*?&d=0&bt=pc&/$rewrite=$1&os=android&bt=phone&dq=hd2&
