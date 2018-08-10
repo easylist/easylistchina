@@ -7230,6 +7230,8 @@ mg*.6park.com/img/$image
 ||sogou.com/adlist?
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
+wn789.com##A[href^="http"]:not([href*="://www.wn789."]) > IMG
 ttmeiju.vip##DIV[style^="margin-top:2"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -9396,7 +9398,6 @@ iplaysoft.com##.d250
 iplaysoft.com##.d250x90
 xgrb.cn##.d_2016_ggw
 ihref.com##.d_banner
-wn789.com##.d_textbanner
 51.la##.da-item
 qingdaonews.com##.da30050
 qingdaonews.com##.da66050
