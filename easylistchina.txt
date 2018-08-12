@@ -6033,7 +6033,6 @@ mg*.6park.com/img/$image
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pjtime.com/js/show_ad
 ||pk200.com/xb/tui.jpg
-||playad.xjmg.com^
 ||plures.net/prod/player/live_page_adv
 ||pmb*.tj.ali213.net/js/
 ||pme10.com/zbs/gs/ad_
@@ -6846,7 +6845,6 @@ mg*.6park.com/img/$image
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
 ||xianzhenyuan.cn/data/attachment/common/
-||xiaodao.la/upload/1/146486/images/20170223/20170223000126702670.gif
 ||xiaopi.com/500/
 ||xiaopi.com/statics/skin_js/jquery.posrj.js
 ||xiaoshuotxt.*/skin/v3/js/
@@ -6858,7 +6856,6 @@ mg*.6park.com/img/$image
 ||xici.net/z/
 ||xiepp.com/JS/topshow.js
 ||xiexingcun.com/tyong.js
-||xigua110.com/a/
 ||xigua110.com/js/
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
@@ -6938,8 +6935,6 @@ mg*.6park.com/img/$image
 ||xz7.com/js/jctj.js
 ||xz7.com/js/top2.js
 ||xz7.com/js/xia
-||xz7.com/up/UploadPic/2014-5/201452517124193056.gif
-||xz7.com/up/UploadPic/2014-5/201452517141272046.gif
 ||xzbu.com/img/xueshu
 ||xzbu.com/xueshu/btxm.jpg
 ||xzbu.com/xueshu/zwyc.gif
@@ -7219,6 +7214,7 @@ mg*.6park.com/img/$image
 ||88ys.ml/ad/
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+xigua110.com##.ui-detail + .ui-detail-info
 xilinjie.com##.xlj-container-body > P + P
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -7271,8 +7267,7 @@ zhoushan.cn###Headtop
 tigtag.com###Home1000x70_A29
 tigtag.com###Home280x80_A16
 tigtag.com###Home942x70_A1
-xiaodao.la###HtmlMoKua_474064
-xd0.com,xiaodao.la###HtmlMoKua_775790
+xd0.com###HtmlMoKua_775790
 wofl86.com###HtmlMoKua_84082510
 diyifanwen.com###Hzh1
 diyifanwen.com###Hzh2
@@ -8623,7 +8618,6 @@ angelweb.cn##.GG960x90
 aiyuke.com##.GGad
 duoduopan.com,mcncc.com,twunbbs.com,wndflb.com##.GzList
 le.com,letv.com##.H-tg
-xiaodao.la##.HtmlMoKua.column.two-thirds
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
 toutiao.com##.J_ad
@@ -8905,8 +8899,6 @@ sina.com.tw##.adbig300_mid
 7jiu.com.hk,plays01.com##.adbox-bg
 ifeng.com##.adbox03
 qq.com##.adbutton-Aritcle-QQ
-xingk.cc##.adc_mf1
-xingk.cc##.adc_mf2
 qq.com##.adcent
 pchome.com.tw##.adcon
 ifeng.com##.adcoop
@@ -11112,7 +11104,6 @@ bilibili.com##a[href="/video/av8587236/?tg"]
 gaoqingkong.com##a[href="go?mm"]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 ccav1.com##a[href="http://duan.es/1v"]
-xigua110.com##a[href="http://m.xiacai.com"]
 muchong.com##a[href="http://muchong.com/bbs/purchase.php?f=index&w=top"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 techug.com,vaikan.com,webhek.com##a[href="http://t.cn/RBTIkvu"]
@@ -11160,7 +11151,6 @@ news.163.com##a[href^="http://g.163.com/"]
 moe-acg.cc##a[href^="http://game.moehuan.com/"] > img
 zhuhai.gd.cn##a[href^="http://hd.zhuhai.gd.cn/ad/"] > img
 pconline.com.cn##a[href^="http://ivy.pconline."]
-xigua110.com##a[href^="http://m.jiang.com/?"]
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 muchong.com##a[href^="http://muchong.com/bbs/a"] > img
