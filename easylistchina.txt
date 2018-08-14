@@ -6881,7 +6881,7 @@ mg*.6park.com/img/$image
 ||xinyi.com/Public/config/Couplet/Index40.js
 ||xinyi.com/Public/config/Couplet/Index41.js
 ||xinzheng8.pw^
-||xitek.com/idzoneasync/
+||xitek.com/idzone
 ||xitong8.com/theme/default/images/725x90.gif
 ||xitong8.com/theme/default/images/index_13.jpg
 ||xitongzhijia.net/theme/2017/images/temp/ad_
@@ -7208,6 +7208,8 @@ mg*.6park.com/img/$image
 ||douyu.com/japi/sign/web/getinfo
 !------------------------Specific element hiding rules------------------------!
 mysteel.com##DIV[id^="ad"]
+xitek.com##A[href*="/adclick"]
+xitek.com##A[href*="adclick"] + .info
 xizi.com##.banner1
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
