@@ -11887,6 +11887,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||cpro.baidustatic.com/cpro/ui/$domain=pctowap.com
+@@||pos.baidu.com^$script,domain=pctowap.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
@@ -12078,7 +12080,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||captcha.su.baidu.com^
 @@||cb.baidu.com^$object-subrequest,domain=baomihua.com|v.baidu.com
-@@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pctowap.com|pic.tiexue.net
+@@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||cbjs.baidu.com/js/o.js$domain=jkpan.com
 @@||ccb.com^*^ad
 @@||cdn.teads.tv/media/format.js$domain=download.mokeedev.com
@@ -12104,7 +12106,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||costco.com.tw/jsps/website/zh/images/location/AD
 @@||countrygarden.com.cn/ad/
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net|pctowap.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cruisecenter.com.tw/data/ad/
 @@||csbew.com/FrameWork/AFP/
@@ -12286,9 +12288,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pinduoduo.com/advert/$~third-party
 @@||poedb.tw/js/ads.js
 @@||popart.hk/newweb/$generichide
-@@||pos.baidu.com^*=965703&$domain=pctowap.com
-@@||pos.baidu.com^*=965707&$domain=pctowap.com
-@@||pos.baidu.com^*=u1671$domain=pctowap.com
 @@||pos.baidu.com^*?di=1147177&$domain=fxpan.com
 @@||pos.baidu.com^*?di=1147178&$domain=fxpan.com
 @@||pos.baidu.com^*?di=1167512&$domain=jkpan.com
