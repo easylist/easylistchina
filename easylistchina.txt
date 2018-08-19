@@ -3696,7 +3696,6 @@ mg*.6park.com/img/$image
 ||admin5.com/lib/js/*_article
 ||admin6.com/templates/index/default/images/100060.gif
 ||adminbuy.cn/images/
-||admx.baixing.com^
 ||adnetpub.yaolan.com^
 ||adp.cnki.net^
 ||adp.cnool.net^
@@ -5136,7 +5135,6 @@ mg*.6park.com/img/$image
 ||ibook8.com*/piao*.js
 ||ibook8.com/xia*.js
 ||icaile.com/z.php?id=
-||iciba.com/index.php?*=get_recommend&
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||ickd.cn/act/
 ||icnkr.com/cnkradv/
@@ -7227,6 +7225,7 @@ mg*.6park.com/img/$image
 ||zhuashi.oss-cn-beijing.aliyuncs.com^
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+iciba.com##.recommend-item:not([href*=".iciba."])
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -7511,7 +7510,6 @@ wx.sina.com.cn###artibody > .article-video
 zhuankebar.com###article-cnt > a
 doyo.cn###article_top_down
 tingvoa.com###articletopimg
-bdstatic.com###artnewdiv
 csdn.net###asideCustom36733263
 baidu.com###asideLeft
 baidu.com###asideRight
@@ -7620,7 +7618,6 @@ sina.com.tw###cboxOverlay
 eworldship.com###ccrhshow
 dapenti.com###center > div[align="center"][target="_blank"]
 huarenjie.com###cftoutiao
-wapbaike.baidu.com###chain + div[id]
 hao.rising.cn###change
 i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"]
 fulishequ.com###china_ads_div405
