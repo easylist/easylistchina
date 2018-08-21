@@ -6984,8 +6984,6 @@ mg*.6park.com/img/$image
 ||ygdy8.com/jsy/
 ||ygdy8.net/js1/
 ||yibo5.cn/img0
-||yigujin.cn/tp/2017/170531_1080.jpg
-||yigujin.cn/tp/2017/170604_zhuji250.jpg
 ||yikeyz.com/pm.js
 ||yimg.com/bf/homerun/ysm_
 ||yimg.com/cv/ae/default/*_STATIC-JPEG_
@@ -7004,7 +7002,6 @@ mg*.6park.com/img/$image
 ||yiren00.com/js/
 ||yiren02.com/js/
 ||yiren05.com/js/
-||yiwenbaida.com/images/ryt.jpg
 ||yixiaoba.com/js/yxb_normal.js
 ||yixieshi.com/media/
 ||yjhas.net^$image
@@ -7228,6 +7225,7 @@ mg*.6park.com/img/$image
 ||112.124.15.130/res/linuxde_www/images/cxy-ad.jpg
 !------------------------Specific element hiding rules------------------------!
 linuxde.net##.ad360x500
+yigujin.cn##A > IMG[src*="/abc/"]
 gpcxw.com###AA2
 10jqka.com.cn###topba1
 10jqka.com.cn##.ad1
@@ -10177,7 +10175,6 @@ baidu.com##.nav_ads
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 hao123.com##.navrecommend-hjw
 hao123.com##.navrecommend-top
-yigujin.cn##.nbs-flexisel-container
 tpy888.cn##.nead
 guidaye.com##.neirongs
 rising.cn##.new-1111
