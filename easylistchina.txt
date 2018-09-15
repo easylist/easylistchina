@@ -3167,8 +3167,6 @@ mg*.6park.com/img/$image
 ||19iiii.info/js/tonglan.js
 ||1bet2.com/d/file/p/
 ||1bet2.com/images/*.gif
-||1haza.com/template/1haza/images/g
-||1haza.com/template/1haza/js/topbanner.js
 ||1kejian.com/js/topA.js
 ||1ketang.com/Runtime/js/play
 ||2008xxx.com:888
@@ -7243,6 +7241,8 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/large/5ff1c93agy1fvacvg5b5lj20xc02idgg.jpg
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+1haza.com##.banner2
+1haza.com##.popup
 17house.com##.suiping
 17house.com##.zx_xrhb
 yahoo.com###ACT_crazy
@@ -8101,7 +8101,6 @@ jia360.com###mainADswitch
 hkgolden.com###mainTopicTable > tbody > tr:nth-child(3):not([id])
 hkgolden.com###mainTopicTable > tbody > tr[id] + tr:not([id])
 gaoqingkong.com###main_loading
-1haza.com###main_ly
 mail.pchome.com.tw###main_top_frame
 yimuhe.com###maincontent3 > div[style^="height"]
 map.baidu.com###mapBanner
@@ -11053,7 +11052,6 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 yigujin.cn##a > img[src*="/abc/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.se##a > img[src^="/images/"]
-1haza.com##a > img[src^="/template/1haza/images/"]
 doub.io##a > img[src^="https://img.doub.pw/thumbs/"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 maiche.com##a.some-img
