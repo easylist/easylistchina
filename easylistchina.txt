@@ -7237,8 +7237,11 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||live173.com//AD/
+||159i.com/video/usr/uploads/1-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+159i.com##.ab
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -8354,7 +8357,7 @@ elecfans.com###sidebar-firstad
 gaoqing.la###sidebar-follow
 jobbole.com###sidebar-recommend
 vikilife.com###sidebar-tab[style^="height:"]
-159i.com###sidebar1 > :not(form)
+159i.com##DIV[id^="sidebar"] > :not(form)
 iplaysoft.com###sidebar_scroll_bdad
 2345.com###sidel_lvy
 2345.com###sidenav > .activity-trig
@@ -11126,7 +11129,7 @@ haxiu.com##a[href*="?aid="]
 ruanyifeng.com##a[href*="?utm_source="]
 dilidili.wang##a[href*="Game"]
 xitek.com##a[href*="adclick"] + .info
-159i.com##a[href*="aiai69."]
+159i.com##a[href*="ai69"]
 bejson.com##a[href*="aliyun"]
 v.qq.com##a[href*="amway.com.cn"]
 cnbeta.com##a[href*="cloud.tencent."]
