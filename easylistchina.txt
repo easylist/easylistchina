@@ -754,7 +754,7 @@ _xiuno_com_ad/
 ##body[class|="view"] > .ad-box
 ##body[onload*="u()"] > #x
 ##div#ad_id
-~pniao.com,~pniao.net##div[class^="ADTOPLB_"]
+##div[class^="ADTOPLB_"]
 ##div[id^="ad_thread"]
 ##img[src$="/2016-0114-700X70.gif"] ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
 ##img[src$="/2016-0114-700X70.gif"] ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
@@ -11304,7 +11304,6 @@ ithome.com.tw##div[class="span4"]
 acg12.com##div[class] > a[href^="http"]:not([href*="acg12.com"])
 tieba.baidu.com##div[class][lgoinprompt="prompt"]
 cyol.com##div[class^="AD"]
-pniao.com,pniao.net##div[class^="ADTOPLB_"] a
 ali213.net##div[class^="GG"]
 mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
 ~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
