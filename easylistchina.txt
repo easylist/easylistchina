@@ -11,6 +11,8 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
+.dispatch.tc.qq.com/*.mp4?*sdtfrom=&
+://apd-*.qq.com/
 -1688-wp-media/ads/
 -880-80-4.jpg
 .bid/ads/
@@ -367,7 +369,7 @@
 /variety.tc.qq.com/*.mp4?
 /View/img/b72890.jpg
 /vipgg/js/*
-/vlive.qqvideo.tc.qq.com/*.mp4?
+/vlive.qqvideo.tc.qq.com/*.mp4?*sdtfrom=&
 /wap_advpic/*
 /wdzj_banners.js
 /web8/ad/*
@@ -5805,7 +5807,6 @@ mg*.6park.com/img/$image
 ||mikanani.me/images/upupoo
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
-||mimg.127.net/ggimg/all/img18/140218_yixin_780x96.jpg
 ||mini.eastday.com^*?$subdocument,~third-party
 ||mini.hao123.com^
 ||minixiazai.com/others/all_soft.js
@@ -7233,6 +7234,7 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||102tv.cn/js/main.js
+||ltsdl.qq.com^*.ts
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
 1688.com.au###pop-up
@@ -11963,13 +11965,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/show_ads_impl.js$domain=serve.netsh.org
 @@/store_ad/*$domain=pcstore.com.tw
 @@/unadblock/adjs_$domain=bingfeng.tw|hepan.com|hh010.com
-@@/video.dispatch.tc.qq.com/*.mp4?sdtfrom=v1000&$domain=qq.com
-@@/video.dispatch.tc.qq.com/*.mp4?sdtfrom=v1001&$domain=qq.com
-@@/video.dispatch.tc.qq.com/*.mp4?sdtfrom=v1010&$domain=qq.com
-@@/vlive.qqvideo.tc.qq.com/*.mp4?sdtfrom=v1000&$domain=qq.com
-@@/vlive.qqvideo.tc.qq.com/*.mp4?sdtfrom=v1001&$domain=qq.com
-@@/vlive.qqvideo.tc.qq.com/*.mp4?sdtfrom=v1010&$domain=qq.com
-@@/vlive.qqvideo.tc.qq.com/*.mp4?sdtfrom=v1090&$domain=lolfun.cn
 @@=mm_12852562_1778064_$domain=taojinbi.taobao.com
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
@@ -12174,7 +12169,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||forum.51nb.com/images/*/
 @@||friday.tw/backend/uploadpic/adindex/
 @@||fscinda.com/ad/$~third-party
-@@||g.163.com/jr?site=netease&affiliate=freemail
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com^*/banner_ad_
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
@@ -14085,10 +14079,6 @@ duanwenxue.com##.qgzdwx
 ||shyanche.net^
 ||yljiaoluo.com^
 ||yqjxzw.com^
-! Qq.com
-.dispatch.tc.qq.com/*.mp4?
-://apd-*.qq.com/
-||ltsdl.qq.com^*.ts
 ! Rewrite filters
 /(\.iqiyi\.com)\/show2\?e=./$rewrite=$1/show2?e=.
 /\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
