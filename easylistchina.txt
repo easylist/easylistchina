@@ -244,7 +244,6 @@
 /jdzjgg/*
 /jfjs/ad.js
 /jianshen8/images/information.jpg
-/jinhuatv/ad
 /jkbd-app/resources/images/a123/maiche
 /js/AD_tv.js
 /js/ads/dui.js
@@ -3243,14 +3242,9 @@ mg*.6park.com/img/$image
 ||3344mf.com/js/
 ||3344nr.com/js/
 ||3344xu.com/js/
-||3399.com/act/5599/js/kuang
-||3399.com/act/fk/
-||3399.com/Common/OnlineServer.html
 ||33av.net/Uploads/ad/
 ||33img.com^$domain=18board.com|18p2p.com
 ||33lc.com/bui/
-||33lc.com/statics/pos_js/
-||33lc.com/tupian/
 ||3520.cc/js/3520/
 ||360.cn/festival_zone.html
 ||360.cn/index/showjokes?callback=
@@ -7202,7 +7196,9 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 ||0606kk.com/js/index/index.js
 ||gd163.*/2018_ad/
+||4gamers.com.tw/site/api/aols/media?
 !------------------------Specific element hiding rules------------------------!
+4gamers.com.tw##.home-carousel-container
 gpcxw.com###AA2
 ifeng.com##.pao_ad_03
 ifeng.com##.slide_popo_modal
@@ -7369,7 +7365,6 @@ baidu.com###adMainTopLeft
 baidu.com###adMainTopRight
 plu.cn###adMask
 huanqiu.com###adP-Bot-right-float
-3399.com###adPop
 55lady.net###adRight_0
 baidu.com###adTitleRight
 gameapps.hk###adTopClickAreaLeft
@@ -7617,7 +7612,6 @@ elecfans.com###company-ad
 ithome.com###con > div[style="text-align:center"]
 apk.tw###confirmOverla
 gate.baidu.com,m.baidu.com###container
-jinhua.com.cn###container > div[style^="height:"]
 gg163.net###container > table[width="960"]
 jb51.net###contbot
 biquge001.com,fuliba.net###content > a
@@ -7970,9 +7964,7 @@ airav.cc###jssor_banner
 mh160.com###jusha1
 xianshuabao.com###justfy_left_banner
 58.com###jzcon > #jingzhun
-3721.cc###key2 > a
 pcstore.com.tw###keyad-right
-3721.cc###keywords > a
 0597kk.com###kk_content1_left_ad1
 0597kk.com###kk_head_ad
 0597kk.com###kk_oTransContainer2
@@ -8951,7 +8943,7 @@ hao123.com,sohu.com,tieba.baidu.com##.advertise
 bitauto.com##.advertise-nav-down
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 hkepc.com##.advertisement
-4gamers.com.tw,chinacar.com.cn,elecfans.com##.advertising
+chinacar.com.cn,elecfans.com##.advertising
 10086.cn##.advertisingOther_img
 ifeng.com##.advmark
 hexun.com,hexun.com.tw##.advp
@@ -9198,7 +9190,6 @@ baidu.com##.c-result[data-tpl="adv_wenku_fc"]
 suning.com##.c2c-recommend
 myexception.cn##.c_a_3
 aohua.com.au##.c_ad
-3lian.com##.cal2
 qihoo.com##.car-ercode
 duba.com##.car_ads
 16888.com##.cardataclass
@@ -9585,7 +9576,6 @@ acglala.com##.gg_img
 china.cn##.gg_li
 doub.io##.gg_slider_comad
 eeyy.com##.gg_top
-360che.com##.ggbanner
 cww.net.cn##.ggbar
 chazidian.com##.ggin
 eastday.com##.gglist
@@ -11894,7 +11884,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||2345.com/images/activity/20171111/open/j/close.png
 @@||33.autohome.com.cn/njs/10055.js
 @@||33.autohome.com.cn/njs/newget.js
-@@||3399.com/DataTransfer/Advertisement/
 @@||360buyimg.com/ad/$domain=jd.com
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^*??
