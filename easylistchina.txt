@@ -3324,7 +3324,6 @@ mg*.6park.com/img/$image
 ||508ii.com/discor_list.js
 ||50yxw.com/content/uploadfile/*.gif
 ||51.com/up/bdfmt/
-||5118img.com/assist/images/baiduxz/topbanner.jpg
 ||512ms.com/js/index_ggw_show.js
 ||51688.cc/ya/
 ||516qq.cn/theme/dd/
@@ -7192,6 +7191,11 @@ mg*.6park.com/img/$image
 ||51wangdai.com/Images/bad_*0
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+5118.com###seobigdata_d1_text_seoreport
+5118.com##.lianmeng-home-header
+5118.com##A[id][href^="http"]:not([href*=".5118.com"]) > img
+5118.com##A[id^="default-"]
+5118.com##A[id^="home-"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
