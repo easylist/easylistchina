@@ -7164,6 +7164,9 @@ mg*.6park.com/img/$image
 ||7scs.com/Public/img/list-
 !------------------------Specific element hiding rules------------------------!
 gpcxw.com###AA2
+szxx.com.cn###A0
+szxx.com.cn###A1
+szxx.com.cn###A2
 v2ex.com##.fr > A[href^="https://www.digitalocean.com/"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -11739,6 +11742,7 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+szxx.com.cn#@##divAd
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
