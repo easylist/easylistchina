@@ -7168,8 +7168,10 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 ||zimushe.com/res/other/
 ||jysjian.com/public//z
+||51credit.com/51api/creditcard.php?mod=
 !------------------------Specific element hiding rules------------------------!
 zimushe.com###rightFixed
+51credit.com##TBODY[id^="normalthread_"] + TBODY:not([id])
 r3sub.com##.ad
 apprcn.com##A[href*=".lizhi."]
 rjno1.com###rjnocheck
