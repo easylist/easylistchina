@@ -3220,7 +3220,6 @@ mg*.6park.com/img/$image
 ||2345.com/duoteimg/duotehtml/
 ||2345.com/dypcimg/ads/
 ||2345.com/images/activity/20180618/search-actimg
-||2345.com/images/activity/20181111/widget/open/a/mainbg.png
 ||2345.com/jifenimg/img/common/logo.png$third-party
 ||2345.com/right/site/like/gul_
 ||2345.com^*/activity/20171
@@ -7174,6 +7173,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2345.com##DIV[class*="act-open"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -7239,8 +7239,6 @@ duba.com###J_FloorWave
 duba.com###J_FloorWrap
 tmall.com###J_Recommend
 duba.com###J_S11
-2345.com###J_act_openJ_trig
-2345.com###J_act_plane_hb
 2345.com###J_acts11_footerfixed
 xiami.com###J_albumSale
 gaokao.com###J_fixed_popbox
@@ -9975,7 +9973,6 @@ cnbeta.com##.main_content_left > .mt5[style="text-align:center;"]
 m.07073.com##.main_content_tit + div
 tianya.cn##.main_xiangguan2
 qqjia.com##.mainad
-2345.com##.mainbg > .btn
 bbs.fobshanghai.com##.maintable > div:nth-child(7)
 iguang.tw##.mall
 baidu.com##.manual-spread
