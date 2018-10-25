@@ -736,6 +736,7 @@ _xiuno_com_ad/
 ##a[href*=".7wkw.com"]
 ##a[href*=".9xiazaiqi.com"]
 ##a[href*=".acuxrecv.cn"]
+##a[href*=".ahhxwavi.cn"]
 ##a[href*=".biwbmsyt.cn"]
 ##a[href*=".cangpie.com/"]
 ##a[href*=".com/?Extend="]
@@ -794,11 +795,9 @@ _xiuno_com_ad/
 ##script + .sptable[cellpadding="5"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
 ##script + .wea234
-##A[href*=".ahhxwavi.cn"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||17tuozhai.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -977,6 +976,7 @@ ubmcmm.baidustatic.com
 ||175bar.com^
 ||176um.com^
 ||178bx.cn^
+||17tuozhai.com^
 ||17un.co^
 ||17zhaole.com^$third-party
 ||180.76.171.28^
@@ -6086,6 +6086,7 @@ mg*.6park.com/img/$image
 ||qd.js.sanjiangge.com^
 ||qd.wanjuanba.com^
 ||qd.x4399.com^
+||qdaily.com/mount_details/pc/
 ||qdjimo.com/html/js/
 ||qdross.com/vip/
 ||qhf168.com/data/attachment/portal/
@@ -6441,6 +6442,7 @@ mg*.6park.com/img/$image
 ||sogou.com/wap_ask_service?
 ||sogoucdn.com/dhfe/
 ||sogoucdn.com/imgu/*.swf
+||sogoucdn.com/nstatic/js/tmallskin_
 ||sogoucdn.com/wap/js/
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
@@ -6679,6 +6681,7 @@ mg*.6park.com/img/$image
 ||udn.com/SSI/neckFrame
 ||udn.com^*/ad/
 ||uedfa.net/Static/imgs/affiliate/
+||ufanw.com/js/hongbao.js
 ||uho.com.tw^$subdocument
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||union.china.com.cn^
@@ -7186,19 +7189,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||qdaily.com/mount_details/pc/
-||sogoucdn.com/nstatic/js/tmallskin_
-||ufanw.com/js/hongbao.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ufanw.com###banne
-daohang.qq.com,hao.qq.com##DIV[id^="AD_"]
-qq.com###emailLogin > .hd-slider
-qq.com##.ads
-qq.com##.adword
-qq.com##.m[pbflag="guess"]
-dysfz.vip##DIV[onclick*=".taobao.com/"]
-halihali.tv##DIV[style="width: 100%;height: 90px;position: relative;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -7485,6 +7477,7 @@ ifeng.com###baidualading
 52pk.com###baidutop2
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
 newsmth.net###ban_ner
+ufanw.com###banne
 18avhub.com,18avtube.com,360.cn,adultwefong.com,avmimi.com,mm-cg.com,sports.qq.com,suopao.org,ting56.com,youxi.baidu.com,zgfznews.com###banner
 cwyuni.tw###banner > h2
 iwan.baidu.com###banner-box
@@ -7726,6 +7719,7 @@ image.baidu.com###ecomContainer
 hjenglish.com###editor_a4
 gcxa.cn###edu_ad63
 letv.com###egg
+qq.com###emailLogin > .hd-slider
 21cn.com###embed_hzh_div
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###encourage_entry
 hc360.com###endAccessories1
@@ -8873,7 +8867,7 @@ bigear.cn##.adpicright
 ifeng.com##.adpubpic
 doc88.com##.adpx250
 gamme.com.tw##.adread
-0594.com,acgura.us,aotu47.com,appinn.com,appledaily.com.tw,avaotu.net,chinamedevice.cn,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,qyule.fun,qz930.com,sina.com,sogou.com,tpy888.cn,uc123.com,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
+0594.com,acgura.us,aotu47.com,appinn.com,appledaily.com.tw,avaotu.net,chinamedevice.cn,cnodejs.org,danyang.com,fun01.cc,haokan5.com,hc360.com,meiyouad.com,qq.com,qyule.fun,qz930.com,sina.com,sogou.com,tpy888.cn,uc123.com,up01.cc,wasu.cn,wokao.co,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 shejidaren.com##.ads-post-foot
@@ -8942,7 +8936,7 @@ hexun.com,hexun.com.tw##.advp
 cngold.org,panjin.net,qq.com,tongxiang.net##.advs
 it165.net##.advyello
 itavcn.com##.advzone
-fx112.com##.adword
+fx112.com,qq.com##.adword
 123.sogou.com##.adword > a
 meizhou.com##.adwords + div
 gamme.com.tw##.adwrpt
@@ -9978,6 +9972,7 @@ uc123.com##.m-link
 sina.com.cn##.m-p1-lb1-ad
 sina.com.cn##.m-p3-ad
 alibaba.com##.m-product-item[data-eurl*=".alibaba."]
+qq.com##.m[pbflag="guess"]
 foodmate.net##.m[style="height:40px;"]
 myexception.cn##.m_a
 lgn.yy.com##.m_left
@@ -11308,7 +11303,7 @@ iqiyi.com##div[id^="100000"]
 fengniao.com##div[id^="AD"]
 house365.com##div[id^="AD-bottom"]
 it168.com##div[id^="ADV"]
-sogou.com##div[id^="AD_"]
+daohang.qq.com,hao.qq.com,sogou.com##div[id^="AD_"]
 hc360.com##div[id^="Adv"]
 tiexue.net##div[id^="Baidu_"]
 www.zol.com.cn##div[id^="Bar"]
@@ -11399,6 +11394,7 @@ eyuyao.com##div[id^="x_ad_"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name="index_banner_bigger"]
+dysfz.vip##div[onclick*=".taobao.com/"]
 muchong.com##div[onclick^="location.href='http://muchong.com/bbs/a"]
 tuwan.com##div[style$="height:90px;"]
 baike.com##div[style$="text-align:center; width: 1000px;"]
@@ -11471,6 +11467,7 @@ lanzou.com##div[style="text-align: center;border: 1px solid #eee;"]
 fg.cc##div[style="text-align:center;"]
 subhd.com##div[style="text-align:center;height:270px;padding:10px 0;"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
+halihali.tv##div[style="width: 100%;height: 90px;position: relative;"]
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 jijidown.com##div[style="width: 500px;"]:last-child
@@ -11752,7 +11749,7 @@ jd.com#@#.ads-content
 10co.biz,10co.me#@#.ads-top
 159i.com,zhaopin.com#@#.adsBox
 80s.ai,ft.com,ftchinese.com,long7.qq.com,wholehk.com#@#.adsbox
-alotof.software,android-doc.com,apk.tw,epinv.com,ff14angler.com,fxpan.com,moa.tw,playok.com#@#.adsbygoogle
+alotof.software,android-doc.com,apk.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,moa.tw,playok.com#@#.adsbygoogle
 qq.com#@#.adside
 gdmm.com,gkstk.com,youquba.net#@#.adtop
 anjia365.com#@#.adv_bg
@@ -11793,10 +11790,8 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
-haoweichi.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=haoweichi.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
@@ -12180,7 +12175,7 @@ haoweichi.com#@#.adsbygoogle
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||pagead2.googlesyndication.com/pagead/$script,xmlhttprequest,domain=download.mokeedev.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=alotof.software
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software|monnsutogatya.com|pc3mag.com|rjno1.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software|haoweichi.com|monnsutogatya.com|pc3mag.com|rjno1.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|mo.babytoyhome.com|weithenn.org
 @@||papalah.com/ads.js
 @@||passiontimes.hk/player-$generichide
