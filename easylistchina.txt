@@ -792,9 +792,8 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #rbbox
-##script + .sptable[cellpadding="5"]
+##.tips > TABLE[cellpadding="5"] > TBODY > TR > TD[onclick^="window.open('"]
 ##script + .sptable_do_not_remove[cellpadding="5"]
-##script + .wea234
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -7198,6 +7197,7 @@ mg*.6park.com/img/$image
 ||hiwenku.com/getRightAdv
 !------------------------Specific element hiding rules------------------------!
 ck101.com##.viewthread-leftfloatbox
+t66y.com##.tips
 hiwenku.com###bottom-advert
 hiwenku.com##.rightAdv
 szxx.com.cn###A0
