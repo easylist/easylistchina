@@ -4514,7 +4514,7 @@ mg*.6park.com/img/$image
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com|sexcar.cn
 ||duba.com/baidu
 ||duba.com/dhads?id=
-||duba.com/static/images/public/20181031/d89e1fc63013dd7653c54d2ada63c957.png
+/^https:\/\/www\.duba\.com\/static\/images\/public\/201[0-9]{5}\/[0-9a-z]{32}\.png/$domain=www.duba.com
 ||duba.com/static/v2/js/home/ad/ad.
 ||duba.com/static/v3/images/*.swf
 ||dufile.com/jsa/
