@@ -7223,8 +7223,13 @@ mg*.6park.com/img/$image
 ||fx168.com/am.js
 ||xiaoma.com/images/form/getclueforxiaomazonghe.js
 ||xiaoma.com/images/form/overlay
+/u/*.gif|$domain=t66y.com
+||mm7920.com:8888/upload/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+t66y.com#?#.f24:-abp-has(a[href*="mo5566"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+t66y.com#?#.f24:-abp-has(a[href*="mo5566"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
+t66y.com#?#.f24:-abp-has(a[href*="mo5566"]) ~ br:nth-child(-n+226)
 animewld.club##.header-img
 yxdm.tv##.adv2
 fx168.com###ImgText_01
