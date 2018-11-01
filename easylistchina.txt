@@ -2932,7 +2932,6 @@ ubmcmm.baidustatic.com
 /435f1c6f9f6b545254a00e426b9aeae1.
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
-/^http:\/\/m\.autohome\.com\.cn\/[a-z0-9]{30,32}\//$domain=m.autohome.com.cn
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /a83b3cdeacac5a503717469ca5084ebc.
@@ -3271,10 +3270,6 @@ mg*.6park.com/img/$image
 ||310v.com/images/wap_520x60.gif
 ||3134.cc/img/20170508.jpg
 ||315che.com/tree/ad.js
-||33.autohome.com.cn^$object,script
-||33.autoimg.cn/homeurl/*.js
-||33.autoimg.cn/t/Adhtmlnet/*.jpg
-||33.autoimg.cn/t/Adhtmlnet/*.swf
 ||3333vp.com/tc.js
 ||33405.com/js/layer.js
 ||33405.com/ps/
@@ -3658,7 +3653,6 @@ mg*.6park.com/img/$image
 ||adf.dahe.cn^
 ||adhome.1fangchan.com^
 ||adi*.cnool.net^
-||adm*.autoimg.cn^$object
 ||adm.265g.com^
 ||adm.6park.com^
 ||adm.86wan.com^
@@ -3817,9 +3811,6 @@ mg*.6park.com/img/$image
 ||auto.ifeng.com/uploadfile/201*.swf
 ||autohome.com.cn/api/liveplayer$domain=~live.autohome.com.cn
 ||autohome.com.cn/api/platformData/getFinanceBanner
-||autoimg.cn/ad.js
-||autoimg.cn/admdfs/*.swf
-||autoimg.cn/admdfs/Adhtmlnet/
 ||autoimg.cn/club/v1Content/images/young
 ||autoimg.cn/engine/root/fggxl.js
 ||autonet.com.tw/90/
@@ -5714,8 +5705,6 @@ mg*.6park.com/img/$image
 ||lzk.hl.cn/lctp/
 ||lzyysw.com/upload/
 ||m.aty.sohu.com^
-||m.autohome.com.cn/*/?hid=
-||m.autohome.com.cn/ashx/by/Recommend/index.ashx?
 ||m.kankanwu.com/js/
 ||m.mianbao99.com/js/detail.js
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
@@ -7402,7 +7391,6 @@ gameapps.hk###adTopClickAreaLeft
 gameapps.hk###adTopClickAreaRight
 gameapps.hk###adTopClickAreaTop
 sogou.com###adWindow
-autohome.com.cn###ad_990_tm
 sina.com.cn###ad_blk_fixed
 gdmm.com###ad_cover
 udn.com###ad_curtain
@@ -7410,13 +7398,10 @@ gpcxw.com###ad_dl
 gpcxw.com###ad_dl2
 house.jschina.com.cn###ad_dl_left
 house.jschina.com.cn###ad_dl_right
-autohome.com.cn###ad_fbanner_00
-autohome.com.cn###ad_fbutton_00
 qqzhibo.net###ad_float_left
 qqzhibo.net###ad_float_right
 88448.com###ad_forum_banner
 btime.com###ad_full_button_placehoder
-autohome.com.cn###ad_hytw_1
 autohome.com.cn###ad_ic_video
 lqz.cn###ad_index
 qqzhibo.net###ad_index_float_left
@@ -8378,7 +8363,6 @@ e23.cn###taobaorba
 findprice.com.tw###tb_ad
 histock.tw###tbadword
 40407.com###tcdgg
-m.autohome.com.cn###tcw20l
 3g.qq.com###template_gdt_div1
 pchome.com.tw###test2
 moe-acg.cc,tumutanzi.com###text-3
@@ -8452,7 +8436,6 @@ fuli.us###toubuads
 qidian.com###tr-banner
 tianya.cn###travel_float
 tsdm.me,tsdm.net,tsdm.tw###tsdmadv_img
-m.autohome.com.cn###tu94dq
 sohu.com###turn-ad
 tuyiyi.com###tuyiyi_zfb
 ali213.net###tv
@@ -9285,7 +9268,6 @@ zhangxinxu.com##.col-aside
 big-cup.tv,g-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
 ezprice.com.tw##.col-md-3
 gamefy.cn,sitv.com.cn##.col-vlist-l > span
-www.autohome.com.cn##.column > div[id^="s"]:first-child:last-child
 dospy.com##.com-adm
 www.kafan.cn##.comeing_show_box[style="padding:10px;"]
 jsmri.com##.comiis_bananer
@@ -9879,7 +9861,6 @@ jin10.com##.jin-wdgg + .jin-timeline
 jin10.com##.jin-wdgg_h
 oschina.net##.jj
 eastmoney.com##.jjph_important
-m.autohome.com.cn##.jmp-promote
 soyunpan.com##.jmwb
 qq.com##.jpBanner
 ifeng.com##.jp_list
@@ -10500,7 +10481,6 @@ laifudao.com##.side-adinner
 guokr.com##.side-adv
 ruten.com.tw##.side-advertise
 iwan.baidu.com##.side-banner
-autohome.com.cn##.side-bg-img
 uc123.com##.side-hot
 wallstreetcn.com##.side-money
 firefox.com.cn,firefoxchina.cn##.side-notice
@@ -11950,8 +11930,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||199it.com^$generichide
 @@||2018x.bid/adview.js
 @@||2345.com/images/activity/20171111/open/j/close.png
-@@||33.autohome.com.cn/njs/10055.js
-@@||33.autohome.com.cn/njs/newget.js
 @@||360buyimg.com/ad/$domain=jd.com
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^*??
@@ -12026,7 +12004,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||astyle.alicdn.com/??
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
 @@||atm.youku.com/cast/getFlvUrl.
-@@||autohome.com.cn/adfront/deliver?*%*%*%*%*%*%*%*&pageid=
 @@||av30.xyz/cs/2.js
 @@||banma.com/statics/js/??
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
