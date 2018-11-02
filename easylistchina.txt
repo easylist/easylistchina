@@ -2992,7 +2992,6 @@ ubmcmm.baidustatic.com
 /sungg/*$domain=sun0769.com
 /the_top$domain=28188.com|28188.net
 /tres/recommend/*$domain=ifeng.com
-/u/*.gif|$domain=t66y.com
 /uniontgm.cmb.
 /vmind.qqvideo.tc.qq.com^
 /w234.js$domain=dilidili.wang
@@ -11640,10 +11639,6 @@ hkgolden.com##span[id^="lineImage"]
 bilibili.com##span[style*="height:"][data-loc-id]
 hanzify.org##span[style^="float:right;"]
 power.baidu.com,zhidao.baidu.com##style[id^="s-m"] + div[id^="m"]
-t66y.com#?#.f24:-abp-has(a[href*="mo5566"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
-t66y.com#?#.f24:-abp-has(a[href*="mo5566"]) ~ br:nth-child(-n+226)
-t66y.com#?#.f24:-abp-has(a[href*="mo5566"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
-t66y.com#?#div:-abp-has(> script + table) td *
 cnjxol.com##table[background$="/searchbg.gif"] ~ table[height="5"]
 rmdown.com##table[bgcolor="#003366"]:nth-child(2)
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
@@ -14172,6 +14167,12 @@ duanwenxue.com##.qgzdwx
 ##.heg > .partner-list
 ##a[href^="/dasp.php?a="]
 ||www.wifi588.net^*.gif
+!#T66y.com
+/u/*.gif|$domain=t66y.com|u5k0.icu
+t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="mo5566"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+226)
+t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="mo5566"]) ~ br:nth-child(-n+226)
+t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="mo5566"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
+t66y.com,u5k0.icu#?#div:-abp-has(> script + table) td *
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|btdb.to|cntvboxnow.com|tvboxnow.com
 !#Wuzuowei.net
