@@ -6588,6 +6588,7 @@ mg*.6park.com/img/$image
 ||thesoccerline.com/images/*.gif
 ||thisav.com/0*.js
 ||thisav.com/index.js
+||thisav.com/nb/
 ||thyrsi.com^$domain=cnscg.com
 ||thzok.com/6/
 ||thztv.*/tool/
@@ -7224,10 +7225,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||thisav.com/nb/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-btyingshi.com##.aside > .card:last-child
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -9025,6 +9024,7 @@ toutiao.com##.article_link[data-tag="ad"]
 chongdiantou.com,wuzuowei.net##.asb
 fulishequ.com##.asb-index-01
 lrshare.com##.asb-post
+btyingshi.com##.aside > .card:last-child
 78dm.net##.aside-add
 focus.cn##.aside-banners
 baidu.com##.aside-inner > div[style*="height:"]
@@ -14176,7 +14176,7 @@ duanwenxue.com##.qgzdwx
 t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+160)
 t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ br:nth-child(-n+160)
 t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
-t66y.com,u5k0.icu#?#div:-abp-has(> script + table) td 
+t66y.com,u5k0.icu#?#div:-abp-has(> script + table) td
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|btdb.to|cntvboxnow.com|tvboxnow.com
 !#Wuzuowei.net
