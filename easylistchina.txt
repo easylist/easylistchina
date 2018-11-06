@@ -3617,7 +3617,6 @@ mg*.6park.com/img/$image
 ||a3v4.top/Picture/aiai.gif
 ||a4.yeshj.com^
 ||a5.yeshj.com^
-||ab.ahlife.com^*.swf
 ||abbao.cn^*adblock
 ||abc.hkepc.com^
 ||abcache.com/tg/
@@ -4537,6 +4536,7 @@ mg*.6park.com/img/$image
 ||dyjqd.com/images/js/dyjqd.js
 ||dyncdn.me/static/20/js/expla
 ||dysfz.vip/js/adtop_
+||dytt8.net/js1/
 ||dytt8.net/js2/
 ||dz19.net/addimg/
 ||dzwww.com/data/js/asp_$script
@@ -7225,11 +7225,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||dytt8.net/js1/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ali213.net##.qztf
-2345.com##div[class*="act-open"] > :not(.close)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10338,6 +10335,7 @@ muzhi.baidu.com##.quick-ask-2 + .android + div
 hualongxiang.com##.quick_reply_ad
 im286.net##.qybj
 ouyaoxiazai.com##.qzhengfu
+ali213.net##.qztf
 9vip.top,ahtv.cn,bzfl1.cc,sexbarss.net##.r1
 biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
 7hcn.com##.rCont
@@ -11256,6 +11254,7 @@ makepolo.com##div[class*="_ad"]
 silver.org.cn##div[class*="_gg"]
 vpser.net##div[class*="_textlink"]
 2345.com##div[class*="act-navspec"]
+2345.com##div[class*="act-open"] > :not(.close)
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
@@ -12118,6 +12117,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com^*/banner_ad_
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
+@@||gamepedia.com^$genericblock,generichide
 @@||gamersky.com^*/dhgame_
 @@||ganji.com/findjob/send_resume.*&ad_type=
 @@||gaoqingkong.com/ads/300x250.js
@@ -12216,7 +12216,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||mediav.com^$domain=dev.360.cn
 @@||meizu.com/fileserver/ad/img/
 @@||miaozhen.com^*/m.suning.
-@@||gamepedia.com^$genericblock,generichide
 @@||mm.maxthon.cn/ad/
 @@||mmy.la^*300*250
 @@||mnighthk.net/template/*/ad
