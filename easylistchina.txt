@@ -794,8 +794,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||adacgov.cn^
-||tianjieleather.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1242,6 +1240,7 @@ ubmcmm.baidustatic.com
 ||ad000000.com^
 ||ad8.cc^$third-party
 ||ad9377.com^
+||adacgov.cn^
 ||adbot.tw^
 ||adbxb.com^$third-party
 ||adchina.cc^$third-party
@@ -2456,6 +2455,7 @@ ubmcmm.baidustatic.com
 ||tianfus.com^$third-party
 ||tiangu99.com^
 ||tianji520.cn^$third-party
+||tianjieleather.com^
 ||tianqi777.com^
 ||tiantianedu.net^$third-party
 ||tianyanzs.com^
@@ -2859,7 +2859,6 @@ ubmcmm.baidustatic.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
-||p.ynb2dca.com^$popup
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/20*.php$popup
@@ -2916,6 +2915,7 @@ ubmcmm.baidustatic.com
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kuheju.com^$popup
 ||miaozhen.com^$popup,domain=iqiyi.com
+||p.ynb2dca.com^$popup
 ||puma.com^$popup,domain=hupu.com
 ||qx568.com^$popup
 ||sohu.com/i/?pvid=$popup
@@ -4089,10 +4089,10 @@ mg*.6park.com/img/$image
 ||btmule.org/Public/static/js/common.js
 ||btn.onlylady.com^
 ||btn.pchome.net^
-||btrenren.com/js/index960_
-||btspreadcn.com/images/zfb.jpg
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
+||btrenren.com/js/index960_
+||btspreadcn.com/images/zfb.jpg
 ||buimg.com^$domain=ed2000.com|kisssub.org|moe-acg.cc|ref.so
 ||bukade.com/js/*_p_
 ||bukade.com/js/b_
@@ -7297,8 +7297,6 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"])
-dysfz.vip#?#li:-abp-has(> h2 > a[href="http://www.dysfz.vip/movie23645.html"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11703,6 +11701,8 @@ dmzj.com,mycq.qq.com##div[style^="width:960px;"]
 21yq.com##div[style^="width:980px;height:80px;"]
 zuoye.baidu.com##dl[class="card related"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
+dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"])
+dysfz.vip#?#li:-abp-has(> h2 > a[href="http://www.dysfz.vip/movie23645.html"])
 bbs.my0511.com##embed[width="970"][height="70"]
 hiapk.com##font.jammer
 ifeng.com#?#.box_list:-abp-has(.tuig)
@@ -13316,7 +13316,6 @@ jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ##a[href^="http://yunbofangbt."]
 |http*://$script,subdocument,third-party,xmlhttprequest,domain=alicili.me|btdiggs.net|btlibrary.xyz|cilidaquan.co|cilidb.net|cilifanhao.co|cnbtkitty.me|cnbtkitty.pw|cnbtspread.xyz|cntorrentkitty.org|diggbt.cc|diggbts.xyz|feifeibt.cc|kikibt.cc|nanrenbt.cc|renrencili.cc|savebt.cc|storebt.co|storetorrents.com|torrentsearchweb.cc|torrentsearchweb.pw|zhainanbt.org|zhongzicili.xyz|zhongzifuli.co|zhongzishenqi.co|zhongzishenqi.net
 ||0377shujuhuifu.top^
-||gzhctryy.com^
 ||0531mnk.net^
 ||2013sh.com^
 ||210189.com^
@@ -13345,6 +13344,7 @@ jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ||gogolm.xyz^
 ||gotourls.bid^
 ||guangtui1999.com^
+||gzhctryy.com^
 ||h01ce.cn^
 ||harbinbaojia.net^
 ||hechaocheng.cn^
