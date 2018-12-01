@@ -7287,6 +7287,7 @@ mg*.6park.com/img/$image
 ||baidu.com/tcx?infos=adbanner
 ||xiexingcun.com/tyong.js
 ||xiexingcun.com/tongji.js
+||affyun.com/wp-content/uploads/*/ad-
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -10757,7 +10758,7 @@ mobanwang.com##.teagg
 duba.com##.tempAd
 3g.qq.com##.template_gdt_div_blue
 affyun.com##.text
-affyun.com##.text + a
+affyun.com##.text ~ a
 baidu.com##.text-advertise
 baidu.com##.text-link-ads
 yorkbbs.ca##.textNewsBorder
