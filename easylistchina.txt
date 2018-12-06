@@ -5361,8 +5361,6 @@ mg*.6park.com/img/$image
 ||itavcn.com/pic/news/*x80
 ||itavcn.com/pic/news/*x90
 ||itavcn.com/pic/news/201802/20180207/image/050N2.gif
-||itbaoku.cn/Content/img/201805291118771468x.png
-||itbaoku.cn/Content/img/aliyun
 ||itc.*^prod=ad&
 ||itc.cn/?prod=rtb&
 ||itc.cn/activity/activity_js/changyan_config_
@@ -7297,6 +7295,7 @@ mg*.6park.com/img/$image
 ||chinasexq.com/js/tpgg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+it1352.com##A[href^="http"]:not([href*="it1352."]) > IMG
 codejie.net##.s-ad-tit-box
 codejie.net##.h--banner
 szxx.com.cn###A1
@@ -10516,7 +10515,6 @@ douyu.com,douyutv.com##.row-4.theatre
 jia360.com##.row-ad01
 douyu.com,douyutv.com##.row.row-3
 howfile.com##.row1_right
-it1352.com##.row[style="line-height:35px;"] > .col-md-3
 honglingjin.co.uk##.rsads
 ld0766.com##.rsf_pull_screen_adv
 zj.com##.rt-banner
