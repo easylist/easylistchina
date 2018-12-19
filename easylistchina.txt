@@ -68,7 +68,6 @@
 .com/topjs/
 .com/vodad.js
 .com:2516/code/
-.dispatch.tc.qq.com/*.mp4?*sdtfrom=&
 .fun/ad/
 .in/js/ads/
 .info/ad.js
@@ -382,8 +381,6 @@
 /View/img/b72890.jpg
 /vipgg/*
 /vipgg/js/*
-/vlive.qqvideo.tc.qq.com/*.mp4?*sdtfrom=&
-/vlive.qqvideo.tc.qq.com/*.mp4?*sdtfrom=|
 /wap/js/gg/*
 /wap_advpic/*
 /wdzj_banners.js
@@ -5722,7 +5719,6 @@ mg*.6park.com/img/$image
 ||livku.com/g1000/
 ||ll.gxsky.com^
 ||llj22.com/1.gif
-||lmbsy.qq.com/flv/*.mp4?*sdtfrom=&
 ||lnd.com.cn/site1/*.swf
 ||lofter.com/mailEntryMobile.do
 ||logoquan.com/upload/prd/
@@ -14475,6 +14471,9 @@ duanwenxue.com##.qgzdwx
 ||shyanche.net^
 ||yljiaoluo.com^
 ||yqjxzw.com^
+!#Qq.com
+.qq.com/*.mp4?*sdtfrom=|
+.qq.com/*.mp4?*sdtfrom=&
 !#Rewrite filters
 /\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
 @@||da.mgtv.com/crossdomain.xml
