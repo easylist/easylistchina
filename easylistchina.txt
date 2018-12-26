@@ -7334,6 +7334,7 @@ mg*.6park.com/img/$image
 ||juejin.im/graphql
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+finance.sina.com.cn##.m-s-tab + DIV
 juejin.im##.sidebar-bd-entry
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -14632,7 +14633,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com^*/react-share-buttons.
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
-@@/^https?:\/\/(?!(img1|img2)).*?\.126\.net\//
 @@/analytics.php?$domain=xcar.com.cn
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com
 @@/fingerprint2.min.js$domain=neets.cc|passport.vpgame.com
