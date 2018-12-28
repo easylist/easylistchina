@@ -4538,7 +4538,6 @@ mg*.6park.com/img/$image
 ||downbank.cn/js/g.js
 ||downhot.com/Res/js/arc.js
 ||downhot.com/Res/js/main.js
-||downkr.com/statics/images/download.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
 ||download.game.yy.com/crossdomain.xml
@@ -7335,6 +7334,8 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+downkr.com###show_download_main_panel > .hidden-sm
+downkr.com###show_download_top_panel > .row > .hidden-xs
 dilidili.wang###newapp2018
 szxx.com.cn###A1
 szxx.com.cn###A2
