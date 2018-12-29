@@ -13,7 +13,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
-/m_dilidili_main.js
 .bid/ads/
 .cc/gg.php?id=
 .cc/js/ads/
@@ -293,6 +292,7 @@
 /lapi/sign/web/getinfo
 /lenovo/pc/all.js
 /lenovo/pc/top.js
+/m_dilidili_main.js
 /main.js?v=*&sp=*&ty=
 /main/s?
 /meinv/js/*_banner.js
@@ -5511,6 +5511,7 @@ mg*.6park.com/img/$image
 ||jpwind.com^*/scroll.js
 ||jrj.com.cn/s?z=
 ||jrjimg.cn/common/foot/allfc.js
+||jrjimg.cn/common/foot/wxXcxTg.js
 ||jrjimg.cn/zqt-red-1000/js/v3/itg-widget.
 ||jrzj.com/images/bgright_ad.jpg
 ||jrzj.com/img_index/*adv
@@ -7332,12 +7333,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||jrjimg.cn/common/foot/wxXcxTg.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-downkr.com###show_download_main_panel > .hidden-sm
-downkr.com###show_download_top_panel > .row > .hidden-xs
-dilidili.wang###newapp2018
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8204,6 +8201,7 @@ hc360.com###newAppBox1
 cam4.tw###newTippingViewer + div[data-ab]
 elecfans.com###newTopAdArea
 ishuaji.cn###new_banner
+dilidili.wang###newapp2018
 yaolan.com###newfix-dsp
 pigai.org###newnotice
 chinaqking.com###newsAD
@@ -8403,6 +8401,8 @@ maxthon.cn###shopping
 hao123.com###shortcut-box > .tip
 hao123.com###shortcut-tuiguang
 kaoyan1v1.com###showAD
+downkr.com###show_download_main_panel > .hidden-sm
+downkr.com###show_download_top_panel > .row > .hidden-xs
 100shuai.com###show_startgg
 dmzj.com###show_tip_bg
 hinews.cn###showgg
