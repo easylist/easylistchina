@@ -4745,7 +4745,6 @@ mg*.6park.com/img/$image
 ||firefoxchina.cn^*_couplet
 ||firefoxchina.cn^*_topbanner
 ||fj.sina.com.cn/iframe/63/
-||fj007.com/money/
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjlyfdc.com.cn/hxhad/
 ||flash.mycar168.com/data/js/
@@ -5316,7 +5315,6 @@ mg*.6park.com/img/$image
 ||img.86wan.com/img2/top.jpg
 ||img.90bfw.com^*.gif
 ||img.9duw.com^
-||img.china.alibaba.com/img/ibank/$domain=bbs.fobshanghai.com
 ||img.eol.cn/images/ed/$~image
 ||img.hexun.com*/wszj/js.js
 ||img.ifeng.com/tres/html/
@@ -6142,7 +6140,6 @@ mg*.6park.com/img/$image
 ||picuphost.com/imghost/upload/image/20171226/122600098149.gif
 ||picuphost.com^$domain=mmload.info
 ||picyq.com/index.php/Home/run/get_ad/
-||pifa.fobshanghai.com/link/
 ||pigol.cn/myinc/
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=acgura.us|kisssub.org|lsjsoso.me|ref.so
@@ -7370,8 +7367,11 @@ mg*.6park.com/img/$image
 ||gum.xbooks.to/js/pc/pc_tsuibi
 ||2345.com/js/index/activity/
 ||woozooo.com/img/m
+||4ci.cc^$domain=fanjian.net
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+fanjian.net##.bkgd-topapps
+fanjian.net##A[href*="/ad_click?"]
 soufun.com##.add1200
 soufun.com##.danmu_inbox
 2345.com###J_bgSug1st
@@ -9007,7 +9007,7 @@ ifeng.com##.ad_btn
 sina.com##.ad_c
 kekenet.com##.ad_catagory
 csdn.net##.ad_class
-aibibi.top,fj007.com##.ad_div
+aibibi.top##.ad_div
 gamme.com.tw##.ad_down
 putclub.com##.ad_fastReading
 tgfcer.com##.ad_headerbanner
@@ -9881,7 +9881,6 @@ sogou.com##.hd-slider > .slider-container
 youth.cn##.hd_pic
 pinggu.org##.hdbanner
 winning11cn.com##.hdc > div > div[align="center"]
-fbook.net##.head-d
 hkepc.com##.headBanner
 weishangshijie.com##.head_0905
 jmw.com.cn##.head_1b
@@ -11780,7 +11779,6 @@ ys168.com##div[style="position:fixed; width:200px; top: 330px;right:10px;font-si
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
 lanzou.com##div[style="text-align: center;border: 1px solid #eee;"]
-fg.cc##div[style="text-align:center;"]
 subhd.com##div[style="text-align:center;height:270px;padding:10px 0;"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 halihali.tv##div[style="width: 100%;height: 90px;position: relative;"]
@@ -11865,7 +11863,6 @@ bitauto.com##ins[type="ad_play"]
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
-fengniao.com##li > a[href="http://www.fengniao.com/topic/5345407.html"]
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 3g.qq.com##li[data-adtype="qbad"] > a[class^="type"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##li[data-daid]
