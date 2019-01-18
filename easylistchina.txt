@@ -6350,7 +6350,6 @@ mg*.6park.com/img/$image
 ||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
 ||r3.ykimg.com^$object-subrequest
 ||r3sub.com/images/ccc/
-||r3sub.com/images/dl.png
 ||r3sub.com/posters/0069810.jpg
 ||r3sub.com^*0.gif
 ||rainpat.com/Content/1360x55/
@@ -12181,6 +12180,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||r3sub.com^$generichide
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
