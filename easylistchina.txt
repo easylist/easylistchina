@@ -3000,7 +3000,6 @@ ubmcmm.baidustatic.com
 ||wy213.com^$popup,third-party
 ||xingshenfang.cn^$popup
 ||xiyouence.com^$popup,third-party
-||xldytt.com^$popup,domain=henbt.com
 ||yy18.info^*thanks$popup
 !----------------------Specific advert blocking filters-----------------------!
 .gif|$domain=7mshipin.org|viidii.info
@@ -6556,7 +6555,7 @@ mg*.6park.com/img/$image
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=360-bo.com|btshoufa.com|btshoufa.net|chakd.com|qqzhibo.net|seehd.so|xclient.info
-||sinaimg.cn/large/*.gif$domain=henbt.com|mp4ba.la|vip-free.com
+||sinaimg.cn/large/*.gif$domain=mp4ba.la|vip-free.com
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/006CZIQPgy1fbziwpw0b8g306y06yq7w.gif
 ||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
@@ -6783,7 +6782,7 @@ mg*.6park.com/img/$image
 ||tianyaui.com/global/broadcast/js/router.jsonp
 ||tianyaui.com/global/m/v3/static/js/list_
 ||tieba.baidu.com/f/urlcheck?
-||tietuku.$domain=fulisuo1.com|henbt.com|papa1024.com
+||tietuku.$domain=fulisuo1.com|papa1024.com
 ||tietuku.com/b975a9f7c494738b.gif
 ||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
@@ -7449,6 +7448,7 @@ mg*.6park.com/img/$image
 ||acv5e.cn^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+haochi123.com##A[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10981,7 +10981,6 @@ affyun.com##.text ~ a
 baidu.com##.text-advertise
 baidu.com##.text-link-ads
 yorkbbs.ca##.textNewsBorder
-henbt.com##.text_center > font:nth-of-type(-n+2)
 auto-online.com.tw##.text_links_h
 eyy5.cn##.textadlist
 maomaomom.com##.textwidget > table[width="1050"]
