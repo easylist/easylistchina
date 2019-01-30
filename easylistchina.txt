@@ -813,7 +813,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#999999"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||boyueguoji.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1414,6 +1413,7 @@ ubmcmm.baidustatic.com
 ||books.com.tw/exep/ap/$third-party
 ||borsendental.com^
 ||bosiwangzi.cn^
+||boyueguoji.com^
 ||bp776.com^
 ||breezily168.com^
 ||bs777.net^$third-party
@@ -5429,6 +5429,7 @@ mg*.6park.com/img/$image
 ||ioio.cc/adtui/
 ||ip-cdn.com/img/*01*.png
 ||ip-cdn.com/img/58ffc819264a68e2023efdea8a1a9b5f.png
+||ip-cdn.com/img/75119ce5209829f4dbb0a22819b1ec67.jpg
 ||ip-cdn.com/img/a_
 ||ip-cdn.com/img/jd_
 ||ip38.qiniudn.com/js/zzsc.js
@@ -7454,11 +7455,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||ip-cdn.com/img/75119ce5209829f4dbb0a22819b1ec67.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ditu.so.com##DIV[class^="index-adflag-"] + A
-isso.com.cn###wqd1519353145001serial
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8760,6 +8758,7 @@ iu91.co,sejie.com,sejie3.us,ukhuaren.co###wp > center > a
 528500.com###wp > div[align="center"]
 yixingjia.com###wp > table[width="960"]
 isso.com.cn###wqd1496213529829serial
+isso.com.cn###wqd1519353145001serial
 ganpapa.com###wrapper + div
 gdzjdaily.com.cn###wrapper > div[style^="margin-top:6px;"]
 btbtt.me###wrapper2 > .width
@@ -11690,6 +11689,7 @@ ifeng.com##div[class^="games_ad_"]
 163.com,csai.cn,miercn.com##div[class^="gg"]
 enorth.com.cn##div[class^="guanggao"]
 fx678.com##div[class^="hc_ad_"]
+ditu.so.com##div[class^="index-adflag-"] + a
 5iyq.com##div[class^="index_ad"]
 meiguoshenpo.com##div[class^="info_"]
 jzhome.cn##div[class^="main_gg"]
@@ -12239,7 +12239,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||ntu.edu.tw/modules/banner.php
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -12647,6 +12646,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||nod32key.xyz^$genericblock,generichide
 @@||nowscore.com/script/common/adHelper.js
 @@||nthu.edu.tw^*ad
+@@||ntu.edu.tw/modules/banner.php
 @@||olgame.tw^$generichide
 @@||online.unionpay.com/ads/$script
 @@||onln.cn/videoAd/
