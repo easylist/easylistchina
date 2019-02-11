@@ -3566,6 +3566,8 @@ mg*.6park.com/img/$image
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/js/
 ||5icool.org/uploadfile/poster/
+||5ilinglei.com/gg.html
+||5ilinglei.com/template/helen_te/ads/
 ||5ilog.com/qq/js/jsgg.js
 ||5imx.com/image/image/
 ||5ips.net/love/
@@ -5839,6 +5841,7 @@ mg*.6park.com/img/$image
 ||linuxeden.com/plus/web_js.php
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
+||liu16.com/vip.png
 ||liuxue86.com/css/liuxue_output.js
 ||live173.com//AD/
 ||live173.com/BANNER/
@@ -5847,6 +5850,7 @@ mg*.6park.com/img/$image
 ||ll.gxsky.com^
 ||llj22.com/1.gif
 ||lnd.com.cn/site1/*.swf
+||lnzq5.com/js/
 ||lofter.com/mailEntryMobile.do
 ||logoquan.com/upload/prd/
 ||loldyttw.net/blr.js
@@ -7089,6 +7093,8 @@ mg*.6park.com/img/$image
 ||whnews.cn/wh_public/dl/
 ||whnews.cn/wh_public/xuxu/
 ||wholehk.com/ptpptt.js
+||wigcw.cn/20180109150051.png
+||wigcw.cn/240X355.jpg
 ||williamlong.info/script/sidebar.js
 ||win007.com/mn/
 ||win0168.com/images/item.gif
@@ -7391,6 +7397,7 @@ mg*.6park.com/img/$image
 ||zfs.cn/8th/
 ||zgax.net/js/m/
 ||zgfznews.com/templates/fznews/dl/
+||zhaiiker.com^*_ads&
 ||zhainanba.org/ac/
 ||zhan.com/static/js/*_ad_modal.js
 ||zhandi.cc/Runtime/js/*vod
@@ -7493,20 +7500,8 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||liu16.com/vip.png
-||lnzq5.com/js/
-||5ilinglei.com/gg.html
-||5ilinglei.com/template/helen_te/ads/
-||zhaiiker.com^*_ads&
-||wigcw.cn/20180109150051.png
-||wigcw.cn/240X355.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-wigcw.cn##.alert-block
-wigcw.cn##A[href*=".gwents.com"]
-cnxz.cn##.showad
-cnxz.cn##[class*="-ad"]
-cnxz.cn###js_focusimg3
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8280,6 +8275,7 @@ tigtag.com###js-dropdown
 163.com###js-ep3rdRank
 so.com###js-mod-fixed-float
 zhanqi.tv###js-room-flash-banner-panel
+cnxz.cn###js_focusimg3
 100shuai.com###js_lol_ad
 ifeng.com###js_videopause_container
 airav.cc###jssor_banner
@@ -9322,6 +9318,7 @@ gamme.com.tw##.adwrpt
 baidu.com##.afd-item
 mgtv.com##.album-gg
 frdic.com##.alert
+wigcw.cn##.alert-block
 siku11.com##.alert-danger
 9vip.top##.alert-dismissible
 ckck.vip,eetop.cn##.alert_windows
@@ -10886,6 +10883,7 @@ qiushibaike.com##.shopwindow
 neonan.com##.shouhuan_ad
 miercn.com##.show-img-box
 zahuishi.com##.show2960x90
+cnxz.cn##.showad
 91lai.com##.showimgs
 uwants.com##.showpx1
 pcsoft.com.cn##.shuang11
@@ -11417,6 +11415,7 @@ www.wpdaxue.com##:not(.post-thumbnail) > a[target="_blank"] > img
 programmer-club.com.tw##A[href*="/ADRedirect."]
 24en.com##A[href*="/ClickAd?"]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
+cnxz.cn##[class*="-ad"]
 jmw.com.cn##[class^="advertising"]
 gamme.com.tw##[class^="sidead_"]
 sina.cn##[data-href*="://sax"]
@@ -11476,6 +11475,7 @@ cnbeta.com##a[href*=".ctyun."]
 idanmu.at##a[href*=".datealive.com.cn"]
 bilibili.com##a[href*=".doubleclick."]
 141jj.com##a[href*=".fulishesix.com"]
+wigcw.cn##a[href*=".gwents.com"]
 ctfile.com##a[href*=".henghost.com"]
 hanjutv.com##a[href*=".hujiang.com"]
 cctv.com##a[href*=".jaeapp.com"]
@@ -12317,8 +12317,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||sogoucdn.com^$script,domain=rjno1.com
-@@||baixing.net/combine/*,/css/ad-
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|rjno1.com|tgfcer.com|wgun.net
@@ -12495,6 +12493,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
 @@||atm.youku.com/cast/getFlvUrl.
 @@||av30.xyz/cs/2.js
+@@||baixing.net/combine/*,/css/ad-
 @@||banma.com/statics/js/??
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdstatic.com/??*,*,*,
@@ -12804,6 +12803,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||sjsmitaa.org/bin/showads.
 @@||sogou.com/adpub/cfg/sendmsg.
+@@||sogoucdn.com^$script,domain=rjno1.com
 @@||sozi.cn/images/ad/tj
 @@||sssbozh.com^$generichide
 @@||static.atm.youku.com^*.swf
@@ -13020,7 +13020,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ||a3.jandan.net^
 !
-||m1.27com.com^
 ###bd-hl-content
 ###container > #pic_container
 ###container > .item.title_normal
@@ -13547,6 +13546,7 @@ jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ||luolikong.net^$third-party
 ||luoshenbest.cn^
 ||lv.myapks.com^
+||m1.27com.com^
 ||m1.51kaowang.com^
 ||m1.bitequan.net.cn^
 ||m1.darfd.com^
