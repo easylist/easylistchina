@@ -7533,6 +7533,9 @@ mg*.6park.com/img/$image
 ||sinaimg.cn^$domain=av97.xyz
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mtrend.cn###toptabs1 > .kz_line
+mtrend.cn##.right_hongbao_xuanfu
+mtrend.cn##A[href^="http://tao.mtrend.cn/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -7632,7 +7635,6 @@ airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 th7.cn###PcPoPmarket
 aiyuke.com###Playerpad
 qzone.qq.com###QM_Container_100005
-mxwz.com###QwMove
 elecfans.com###Right2
 huarenjie.com###RightAd2
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -8334,7 +8336,7 @@ baidu.com###left-promotion
 hao.360.cn###left-ria-fixed
 sdgundam.cn###left-sponsor
 rising.cn###left50
-cs.com.cn,cssqt.com,mxwz.com,qinbing.cn,sonimei.cn###leftDiv
+cs.com.cn,cssqt.com,qinbing.cn,sonimei.cn###leftDiv
 hexun.com###leftFloat
 duba.com###leftHot
 51credit.com###leftLayerDown
@@ -8573,7 +8575,7 @@ qxfun.com###reward-me > figure:nth-child(n+2)
 2345.com###right > div:first-child
 90oo.com###right > div[style^="height:60px; width:750px;"]
 cnbeta.com###right1
-cs.com.cn,cssqt.com,mxwz.com,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
+cs.com.cn,cssqt.com,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 07073.com###rightDiv > div[style="height:250px"]
 zimushe.com###rightFixed
 kuai8.com###right_Ad
@@ -13066,6 +13068,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ||a3.jandan.net^
 !
+||x.mtrend.cn^
 ###bd-hl-content
 ###container > #pic_container
 ###container > .item.title_normal
