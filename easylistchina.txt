@@ -7563,6 +7563,9 @@ mg*.6park.com/img/$image
 ||hebtv.com/d/a/thea
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yz511.com##.ibtad
+yz511.com##.index_ad ~ TABLE
+yz511.com##.logo_y
 zhihu.com##.Pc-word
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -12414,6 +12417,7 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+yz511.com#@#.index_ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
