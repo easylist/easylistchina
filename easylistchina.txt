@@ -6565,7 +6565,6 @@ mg*.6park.com/img/$image
 ||rtbs.cn/bi.js
 ||ruanyifeng.com/9he/
 ||ruanyifeng.com/blog/checker.js
-||ruanyifeng.com/blog/images/
 ||rugao35.com/Public/config/Couplet/Index
 ||rugncn.ifeng.com^
 ||ruguoapp.com^$domain=aixiaoju.com
@@ -7596,6 +7595,7 @@ mg*.6park.com/img/$image
 ||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
 ||gg.g9mi6.com^
 ||inoreader.com/adv/$domain=inoreader.com
+||ruanyifeng.com/blog/images$rewrite=abp-resource:1x1-transparent-gif,~third-party
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 8boniu.com##.td_item
@@ -12930,7 +12930,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ref.so/templates/ref/short_show/adview_
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||rmdown.com/ads.js
-@@||ruanyifeng.com/blog/images/person2_s.jpg|
 @@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
