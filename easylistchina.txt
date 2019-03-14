@@ -1672,7 +1672,6 @@ ubmcmm.baidustatic.com
 ||e706.net^
 ||e708.net^
 ||e719.net^
-||e9377f.com^
 ||ea3721.com^$third-party
 ||easou.com^$third-party
 ||ecuc123.net^
@@ -3073,7 +3072,6 @@ ubmcmm.baidustatic.com
 .html|$domain=www.gamer.com.tw
 .k618.cn/sytab/
 .k618.cn/zbggw/
-.mp4|$third-party,domain=eastday.com
 .niusnews.com/upload/banners/
 .oeya.com/$domain=realtw.com
 .ppys.com/detail
@@ -7592,6 +7590,7 @@ mg*.6park.com/img/$image
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -15247,13 +15246,13 @@ $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.
 ||lopostone.com^
 ||qyqc4s.com^
 ||vuahb.com^
+!#Youku.com
+||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
 !#Taohuazu
 thzvv.net###fwin_content_imc_attachad > .f_c > div > div:first-child
 ||alicdn.com^$domain=thzvv.net
 ||chuantu.biz^$domain=thzvv.net
 ||sinaimg.cn^$domain=thzvv.net
-!#Youku.com
-||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
 !-----------------------------Malware Domains rules---------------------------!
 :11211/t.js?MAC=
 ||103.49.209.27^
