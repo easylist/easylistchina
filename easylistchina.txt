@@ -7591,6 +7591,8 @@ mg*.6park.com/img/$image
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
+||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
+||gg.g9mi6.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -15246,8 +15248,6 @@ $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.
 ||lopostone.com^
 ||qyqc4s.com^
 ||vuahb.com^
-!#Youku.com
-||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
 !#Taohuazu
 thzvv.net###fwin_content_imc_attachad > .f_c > div > div:first-child
 ||alicdn.com^$domain=thzvv.net
