@@ -15202,8 +15202,8 @@ duanwenxue.com##.qgzdwx
 .qq.com/*.mp4?*sdtfrom=|
 qq.com#@#.adsbox
 qq.com#@#.side_ad
+||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
 ||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com
-||qq.com^*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
 !#Rewrite filters
 !#Rjno1.com
 @@.gif#$domain=rjno1.com
