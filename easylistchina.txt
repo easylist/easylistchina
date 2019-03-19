@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/scr/wtixyd.js
 -880-80-4.jpg
 .bid/ads/
 .cc/gg.php?id=
@@ -6269,7 +6270,6 @@ mg*.6park.com/img/$image
 ||panpan.org/other/
 ||panpan.org/plus/img/
 ||panpan.org/templets/ad/
-||pantsu.cat/scr/wtixyd.js
 ||paopaoche.net/public/bd/article_inc.js
 ||paopaoche.net/skins/count.js
 ||partner.toutiao.com^
@@ -12481,6 +12481,7 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+nyaa.pt#@##banner_ad
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@||51jobcdn.com/im/images/ads/$domain=51job.com
