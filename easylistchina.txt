@@ -4278,7 +4278,6 @@ mg*.6park.com/img/$image
 ||bitautoimg.com/ResourceFiles/0/*.swf
 ||bitscn.com/js/a2
 ||biz.gexing.com^
-||biz.lyd.com.cn/20
 ||biz.weibo.com^
 ||biz37.net^*.swf?uid=
 ||bjcathay.com/s?z=
@@ -7678,6 +7677,7 @@ mg*.6park.com/img/$image
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+news.lyd.com.cn##SCRIPT + TABLE[width="300"] > TBODY > TR:first-child > TD > TABLE[width="300"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
