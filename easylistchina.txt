@@ -11,10 +11,10 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-/js/yzgg.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 .bid/ads/
+.cc/ad/
 .cc/gg.php?id=
 .cc/js/ads/
 .club/ads/
@@ -288,6 +288,7 @@
 /js/showgg.js
 /js/utils51.js
 /js/utils78.js
+/js/yzgg.js
 /jsadv/*
 /k120g270.
 /k300g250.
@@ -450,7 +451,6 @@ _billboard_320x100.iframe.
 _naimabdd_
 _popAds.
 _xiuno_com_ad/
-.cc/ad/
 |http://*.cn/ad/
 |http://*.hk/ad/$domain=~sunmobile.com.hk
 |http://*.in/ad/
@@ -593,6 +593,7 @@ _xiuno_com_ad/
 ###tr_ad8
 ###tr_ad9
 ###tripadvisor-ad
+###wp > .V-videoFloat
 ###xianliaome_ads
 ###xinnxi
 ##._cggp
@@ -843,15 +844,11 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #rbbox
-###wp > .V-videoFloat
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||luntan588.space^
-||zi63m.cn^
-||5rxk.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1175,6 +1172,7 @@ ubmcmm.baidustatic.com
 ||5leji.com^$third-party
 ||5mnh.com^$third-party
 ||5pub.com^
+||5rxk.cn^
 ||5x5q.com^
 ||60.190.139.164^
 ||61.152.223.15^
@@ -2187,6 +2185,7 @@ ubmcmm.baidustatic.com
 ||lu.sogoucdn.com^
 ||lubosheng.cn^
 ||lucting.cn^
+||luntan588.space^
 ||lv55p.cn^
 ||lv711.net^$third-party
 ||lvehaisen.com^
@@ -3017,6 +3016,7 @@ ubmcmm.baidustatic.com
 ||zhufushuo.com^
 ||zhululm.com^$third-party
 ||zhybzp.cn^
+||zi63m.cn^
 ||ziig.com.cn^
 ||zj66.net^$third-party
 ||zjhim.com^
@@ -4017,6 +4017,8 @@ _yad_jsonp_
 ||alicdn.com/img/ibank/2018/070/024/9064420070_1095372465.jpg
 ||alicdn.com/img/ibank/2018/384/982/9460289483_$rewrite=abp-resource:1x1-transparent-gif,domain=rmdown.com
 ||alicdn.com/imgextra/i1/3491683832/TB2A4QaisjI8KJjSsppXXXbyVXa_
+||alicdn.com/kf/HTB1K6klRMHqK1RjSZFE5jcGMXXal.gif
+||alicdn.com/kf/HTB1L2Bge13tHKVjSZSg5jX4QFXaq.gif
 ||alicdn.com/openad/dsp-front-booth/
 ||alicdn.com/tfscom/*.sina.
 ||alicdn.com/tps/*-950-90.
@@ -4533,6 +4535,7 @@ _yad_jsonp_
 ||chinaz.com^*_g/
 ||chinesetoday.cn/2017/ad/*.gif
 ||chiphell.com/activity/
+||chjtx.com/JTaro/gg.html
 ||chlpdq.com/20181024/PEGizk73/
 ||chnmoney.com/dfile/
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
@@ -7732,9 +7735,6 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||alicdn.com/kf/HTB1K6klRMHqK1RjSZFE5jcGMXXal.gif
-||alicdn.com/kf/HTB1L2Bge13tHKVjSZSg5jX4QFXaq.gif
-||chjtx.com/JTaro/gg.html
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
