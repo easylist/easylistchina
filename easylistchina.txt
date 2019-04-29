@@ -7738,6 +7738,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+leagueofmovie.com###leftfixedad
+leagueofmovie.com###rightfixedad
 szxx.com.cn###A1
 blog.csdn.net###article_content > LINK + A
 szxx.com.cn###A2
@@ -12657,6 +12659,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||leagueofmovie.com^$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
