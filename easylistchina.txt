@@ -15773,6 +15773,7 @@ qq.com#@#.side_ad
 ||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com
 !#Rewrite filters
 !#Rjno1.com
+@@||163.com^$domain=rjno1.com
 @@.gif#$domain=rjno1.com
 @@||127.net^$domain=rjno1.com
 @@||17173cdn.com^$domain=rjno1.com
@@ -15780,7 +15781,6 @@ qq.com#@#.side_ad
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjno1.com
 @@||rjno1.com^$generichide
 @@||rjno1.com^$script,~third-party
-rjno1.com#?#:-abp-properties(important)
 ||rjno1.com^$csp=script-src 'self' * 'unsafe-eval'
 !#Sex8.cc
 ###j-new-ad
