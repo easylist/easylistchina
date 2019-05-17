@@ -91,7 +91,6 @@
 .info/topjs/
 .js?advertID=
 .lu/ads/
-/frontend-jiucao/ps/psCreat.js
 .net/images/sgcrwj*.
 .net/js/ads/
 .org/topjs/
@@ -214,6 +213,7 @@
 /frm_adv.aspx
 /frontend-jiucao/img/banner.jpg
 /frontend-jiucao/ps/*.gif
+/frontend-jiucao/ps/psCreat.js
 /fuliba/js/n1.js
 /fx168_ad
 /g3/960x90-
@@ -858,7 +858,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||gw069.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1864,6 +1863,7 @@ ubmcmm.baidustatic.com
 ||gugulonger.cn^
 ||guidashu.com^
 ||guoshennet.com^
+||gw069.com^
 ||gwylm.com^
 ||gxejgs.com^
 ||gydag.com^
@@ -3644,7 +3644,6 @@ _yad_jsonp_
 ||4k123.com/data/attachment/forum/201802/23/104051hv9yy3p3dk9bd3zv.jpg
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
 ||4paradigm.com^$domain=sina.com.cn
-||5qqn.com/js/js/
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
 ||5068.com/*gg
@@ -3693,6 +3692,7 @@ _yad_jsonp_
 ||5278bbs.com/adpost_
 ||52av.tv/index.js
 ||52beiwo.com/gg.
+||52card.net/img/
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
 ||52dytt.net/images/bbs_btn.gif
@@ -3746,6 +3746,7 @@ _yad_jsonp_
 ||5imx.com/image/image/
 ||5ips.net/love/
 ||5iwanyouxi.com/Runtime/Js/
+||5qqn.com/js/js/
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
@@ -7023,6 +7024,7 @@ _yad_jsonp_
 ||ssports.iqiyi.com/crossdomain.xml
 ||sss.sege.xxx^
 ||sssvd.china.com^
+||stackpathdns.com/imgs/wondershareAd
 ||starbaby.cc/201608/36/f526d86de292e4.jpg
 ||starnnews.com/banner/
 ||stat.api.4399.com/crossdomain.xml
@@ -7172,6 +7174,7 @@ _yad_jsonp_
 ||topthink.com/api/basic/
 ||torrentkitty.*/images/vpn.gif
 ||torrentkitty.*/js/jquery.bpopup.
+||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
 ||totheglory.im/pic/picad/
 ||totheglory.im/pic/ttg-
@@ -7625,6 +7628,7 @@ _yad_jsonp_
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
 ||yiqikanba.cn/wp-content/uploads/*.gif
 ||yiren34.com/js/
+||yiwenbaida.com/images/pzz.gif
 ||yixiaoba.com/js/yxb_normal.js
 ||yixieshi.com/media/
 ||yiybb.com/inc/
@@ -7710,6 +7714,7 @@ _yad_jsonp_
 ||zcaijing.com/images/
 ||zczj.com/special/
 ||zdface.com/js/m/zw_banner.js
+||zdqx.com/statics/v1/images/gif/
 ||zdzdm.com/static/img/*ljs.jpg
 ||zeyi5.com/js/2412/
 ||zfs.cn/8th/
@@ -7824,15 +7829,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||52card.net/img/
-||stackpathdns.com/imgs/wondershareAd
-||totheglory.im/pic/business/
-||yiwenbaida.com/images/pzz.gif
-||zdqx.com/statics/v1/images/gif/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-zdqx.com###play-gif
-firefox.com.cn,firefoxchina.cn##.btn-email-show + P
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8807,6 +8805,7 @@ hao.360.cn,hao.360.com###plane-ria
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel > .tbui_slideshow_list
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_left_float
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###platform_spread_video
+zdqx.com###play-gif
 tingroom.com###play_ggr
 7k7k.com###player-ad
 jyacht.com###playergg
@@ -9935,6 +9934,7 @@ onlinedown.net##.btmAD
 ifeng.com##.btm_tg
 aizhan.com##.btn
 zdfans.com##.btn + .btn
+firefox.com.cn,firefoxchina.cn##.btn-email-show + p
 cssmoban.com##.btn-host
 subku.net##.btn-success
 mydrivers.com##.btnNext + div:last-child
@@ -12772,7 +12772,7 @@ htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 zalora.com.hk#@#.advertisement-block
 lm-us.com#@#.advertisement_above_footer
 jd.com#@#.adwords
-7-11.co,8maple.ru,oldpig.org#@#.afs_ads
+7-11.co,8maple.ru,bilibili.to,oldpig.org#@#.afs_ads
 epubit.com#@#.article_share
 dingdong.ganji.com#@#.banner
 10.10.5.12#@#.banner_ad
@@ -12810,7 +12810,6 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
-bilibili.to#@#.afs_ads
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
