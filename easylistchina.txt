@@ -858,8 +858,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||sdtbhbyb.com^
-||zhenhun.co^$third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -2502,6 +2500,7 @@ ubmcmm.baidustatic.com
 ||sdhzstone.net^
 ||sdjjr.com^
 ||sdqoi2d.com^
+||sdtbhbyb.com^
 ||sdxkdj.cn^
 ||sdycd.com^
 ||seaxm.com^$third-party
@@ -3042,6 +3041,7 @@ ubmcmm.baidustatic.com
 ||zhaibei112.top^
 ||zhandi.cc^$third-party
 ||zhao258.com^
+||zhenhun.co^$third-party
 ||zhfosenghtr.com^
 ||zhichi08.com^
 ||zhihei.com^
@@ -5063,6 +5063,7 @@ _yad_jsonp_
 ||firefoxchina.cn^*_couplet
 ||firefoxchina.cn^*_topbanner
 ||fj.sina.com.cn/iframe/63/
+||fjisu.com/js/wap-tg.js
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjlyfdc.com.cn/hxhad/
 ||fk5578.com/images/ad
@@ -5634,6 +5635,7 @@ _yad_jsonp_
 ||ifkdy.com/img/hydy
 ||ifooday.cn/index.php?m=poster&
 ||ifulidh.*/images/xb.jpg
+||igamepark.biz/ads_output.php
 ||ijia360.com/data/poster/
 ||ik123.com/js/dd.js
 ||ikafan.com/js/novel.js
@@ -6334,6 +6336,7 @@ _yad_jsonp_
 ||mydrivers.com/images/hongbao
 ||mydrivers.com/m/apptuijian.
 ||mydrivers.com/news/2017/db_
+||mydrivers.com/news/2018/wangluodianshi.gif
 ||mydrivers.com/www/gg_
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/Articleacb0
@@ -7562,6 +7565,7 @@ _yad_jsonp_
 ||xx978.info/images/468-60OK.gif
 ||xxdm6.com/js/union/
 ||xxdy8.cn/template/Datll/aaaa/
+||xxffo.com/nd/b_slett.php
 ||xxhh.com/xh.js
 ||xxx2.vip/style/vue.js
 ||xyfdcw.com.cn/userfiles/flash/
@@ -7691,6 +7695,7 @@ _yad_jsonp_
 ||yxdown.com/cj/
 ||yxdown.com/pc/news/js/news
 ||yxdown.com/zt/zt/js/zt.js
+||yxlady.com/wxetj/pcfarmgg.jpg
 ||yxtvg.com/js/s.js
 ||yxzoo.com/style/js/fmt.js
 ||yy18.info/yyads/
@@ -7831,16 +7836,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mydrivers.com/news/2018/wangluodianshi.gif
-||fjisu.com/js/wap-tg.js
-||yxlady.com/wxetj/pcfarmgg.jpg
-||xxffo.com/nd/b_slett.php
-||igamepark.biz/ads_output.php
 !------------------------Specific element hiding rules------------------------!
-m.mydrivers.com##BODY > DIV[style="padding:0px 0px 0px 0px;text-align:center;"]
 szxx.com.cn###A0
-70bt.cn###ShowAD
-70bt.cn##A[style="display: inline-block;position: relative"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -7947,6 +7944,7 @@ sina.com.cn###SI_Comment_DA
 www.sina.com.cn###SI_EDU_AD
 aishoujizy.com###ShouYe_ShangBu > .HtmlMoKua:first-child
 xiaokuangyl.com###ShouYe_ShangBu > .themeauthor > table:first-child
+70bt.cn###ShowAD
 gushiwen.org###ShowAd
 upan.cc###ShowDIV
 soopat.com###SoopatAside
@@ -12135,7 +12133,7 @@ gamersky.com##a[style*="display:inline-block;"][style*="z-index:1;"]
 hdzone.org##a[style*="fixed"]
 huaren.tv##a[style*="height:"]
 36dm.club,acgsou.com##a[style="color:red;"][href^="show-"]
-qmaile.com,wandhi.com##a[style="display: inline-block;position: relative"]
+70bt.cn,qmaile.com,wandhi.com##a[style="display: inline-block;position: relative"]
 hanjutv.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 houdao.com##a[style^="background:url"]
 html-js.com##a[style^="margin-top:20px;"]
@@ -12150,6 +12148,7 @@ api.so.lianmeng.360.cn,pos.baidu.com##body
 qzwb.com##body > .area[style^="height:60px;"]
 bkill.com##body > a:first-child
 tiexue.net##body > div[onclick]
+m.mydrivers.com##body > div[style="padding:0px 0px 0px 0px;text-align:center;"]
 hdwan.net##body > div[style]
 wendu.cn##body > div[style^="width:1000px;"]
 18h.avmimi.com##body > p[align="center"]:first-child
@@ -14321,16 +14320,15 @@ jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ##a[href*=".gotourls.bid"]
 ##a[href^="http://yunbofangbt."]
 btzhongzifuli.com,cililianbt.org,maomaobt.cc,sousoucili.com,zhainanzhongzi.cc##.photos
-|http*://$script,subdocument,third-party,xmlhttprequest,domain=zhongzicilila.cc|alicili.me|alicili.xyz|bittorrentsearchweb.com|btdigg.xyz|btdiggba.me|btdiggba.ws|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.me|btkittyba.pw|btkittyla.me|btkittys.ws|btlibrary.xyz|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidb.net|cilifanhao.ws|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|kikibt.me|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|renrencili.pw|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentsearchweb.xyz|zhainanbt.me|zhongzifuli.cc|zhongzishenqi.ws
+|http*://$script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili.xyz|bittorrentsearchweb.com|btdigg.xyz|btdiggba.me|btdiggba.ws|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.me|btkittyba.pw|btkittyla.me|btkittys.ws|btlibrary.xyz|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidb.net|cilifanhao.ws|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|kikibt.me|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|renrencili.pw|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentsearchweb.xyz|zhainanbt.me|zhongzicilila.cc|zhongzifuli.cc|zhongzishenqi.ws
 ||0377shujuhuifu.top^
-||265958.com^
-||hfxs01il.com^
 ||0531mnk.net^
 ||18dusun.com^
 ||2013sh.com^
 ||210189.com^
 ||258pct.com^
 ||258ydh.com^
+||265958.com^
 ||2pmob.com^
 ||360shopping.com.cn^
 ||60608787.com^
@@ -14370,6 +14368,7 @@ btzhongzifuli.com,cililianbt.org,maomaobt.cc,sousoucili.com,zhainanzhongzi.cc##.
 ||hdjxmf.com^
 ||hechaocheng.cn^
 ||henanfs.com^
+||hfxs01il.com^
 ||hgo7r.cn^
 ||hulemedia.com^
 ||ip.hivps.xyz^
@@ -14465,13 +14464,13 @@ dlkoo.cc##ins[id^="tanxssp-outer-conmm_"]
 ||dlkoo.cc/down/copy
 ||taobao.com^$popup,domain=dlkoo.cc
 !#Dlkoo.com
-@@||dlkoo.com/down/Copydown1
-@@||alicdn.com/t/img/TB1tWvVJFXXXXc_aXXXXXXXXXXX-40-26.png$domain=dlkoo.com
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.com
 @@||alicdn.com/t/img/TB1DmcoJXXXXXavXpXXXXXXXXXX-26-26.png$domain=dlkoo.com
+@@||alicdn.com/t/img/TB1tWvVJFXXXXc_aXXXXXXXXXXX-40-26.png$domain=dlkoo.com
 @@||alicdn.com^*/tanxssp.js$domain=dlkoo.com
 @@||dlkoo.com/down/copy0
 @@||dlkoo.com/down/copy1
+@@||dlkoo.com/down/Copydown1
 @@||dlkoo.com/down/Copyright.js
 @@||tanx.com/ex?i=$script,domain=dlkoo.com
 dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
