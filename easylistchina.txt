@@ -846,7 +846,7 @@ _xiuno_com_ad/
 ##body[onload*="u()"] > #x
 ##div#ad_id
 ##div#xinxi
-##div[class^="ADTOPLB_"]
+~ix8.la##div[class^="ADTOPLB_"]
 ##div[class^="hongbao_hd_"]
 ##div[id^="ad_thread"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -7851,8 +7851,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jupi.cc^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ix8.la##DIV[class^="ADTOPLB_"] > .bd
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
