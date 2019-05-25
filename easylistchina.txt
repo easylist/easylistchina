@@ -14497,9 +14497,6 @@ dnvod.tv#?#[data-code] > :not([pluginspage="http://www.macromedia.com/go/getflas
 dnvod.tv#?#[data-code] > :not(object)
 dnvod.tv#?#[data-code] > [target="_blank"]
 ||dnvod.tv/abb/$domain=dnvod.tv
-||dnvod.tv^*.gif$object-subrequest,domain=dnvod.tv
-||dnvod.tv^*.jpg$object-subrequest,domain=dnvod.tv
-||dnvod.tv^*/201$object-subrequest,domain=dnvod.tv
 ||s1-a4.dnvod.tv^$rewrite=abp-resource:blank-mp3,domain=dnvod.tv
 !
 dnvod.tv###box
