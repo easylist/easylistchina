@@ -4749,7 +4749,7 @@ _yad_jsonp_
 ||d3.sina.com.cn^$object,script
 ||d4.sina.com.cn^$object,script
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
-||d5.sina.com.cn^$object,object-subrequest,script
+||d5.sina.com.cn^$object,script
 ||d7w.net/static/d7wad/
 ||da-fan-shu.cn/images/kuaijie.jpg
 ||da.duowan.com/loc/
@@ -4848,7 +4848,6 @@ _yad_jsonp_
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
-||douban.com^*/rda/$object-subrequest
 ||doubanio.com^*/js/ad.
 ||douguo.net/upload/post/d/
 ||doupapa.com/js/swf/
@@ -5436,7 +5435,6 @@ _yad_jsonp_
 ||hmghmg.com/tb
 ||hmog.me/tb
 ||hn-pc.com/css/Fun_Div.js
-||hongdou.gxnews.com.cn/upload/index/$~object-subrequest
 ||hongyingbbs.com/img/top.js
 ||hongyingbbs.com/jj/
 ||hoopchina.com.cn/blogfile/2018*_1018_h_140_
@@ -6715,8 +6713,6 @@ _yad_jsonp_
 ||qyule.fun/v-content/
 ||qz828.com/css/2010/script/*ad
 ||qzone.la/Scripts/m.js
-||qzs.qq.com/qzone/biz/res/v.swf?loc=$object-subrequest
-||r3.ykimg.com^$object-subrequest
 ||r3sub.com/images/ccc/
 ||r3sub.com/posters/0069810.jpg
 ||r3sub.com^*0.gif
@@ -7619,7 +7615,6 @@ _yad_jsonp_
 ||yinduabc.com/res_base/*/makemoney/
 ||yingshidaquan.cc/Templet/js/
 ||yinyuetai.com/others/admin/*_1200x100.
-||yinyuetai.com/partner/$object-subrequest
 ||yinyuetai.com/proment/get-play-medias?*&position=overlay
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
@@ -7829,6 +7824,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zantj.com/diao
+||gxnews.com.cn/upload/index/*.swf
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 gaoqing.fm##DIV[style^="height:258px;background-image:"]
