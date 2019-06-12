@@ -16055,13 +16055,12 @@ qq.com#@#.side_ad
 ||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com
 !#Rewrite filters
 !#Rjno1.com
-@@.gif#$domain=rjno1.com
-@@||cctv.com^$script,domain=rjno1.com
-@@||cpro.baidu.com/cpro/ui/rt.js$domain=rjno1.com
-@@||googletagservices.com/activeview/js/current/osd.js$domain=rjno1.com
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=rjno1.com
+@@||images.sohu.com/bill/default/sohu-require.js$domain=rjno1.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjno1.com
+@@||google-analytics.com/analytics.js$domain=rjno1.com
+@@||googletagmanager.com/gtag/js$domain=rjno1.com
 @@||rjno1.com^$generichide
+@@.gif#$domain=rjno1.com
 @@||rjno1.com^$script,~third-party
 ||baidu.com^*/s.gif?$domain=rjno1.com
 ||hm.baidu.com^$domain=rjno1.com
