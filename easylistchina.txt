@@ -16063,10 +16063,9 @@ qq.com#@#.side_ad
 ||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com
 !#Rewrite filters
 !#Rjno1.com
-@@||images.sohu.com/bill/default/sohu-require.js$domain=rjno1.com
+@@||ipengtai.huanqiu.com/resource/js/base.js$domain=rjno1.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjno1.com
-@@||google-analytics.com/analytics.js$domain=rjno1.com
-@@||googletagmanager.com/gtag/js$domain=rjno1.com
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=rjno1.com
 @@||rjno1.com^$generichide
 @@.gif#$domain=rjno1.com
 @@||rjno1.com^$script,~third-party
