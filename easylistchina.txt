@@ -16092,7 +16092,7 @@ qq.com#@#.side_ad
 ||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com
 !#Rewrite filters
 !#Rjno1.com
-||rjno1.com^$csp=script-src 'self' https: 'sha256-QtcubFE+UobKx5ubPfdbF0tt7bg6LEIqbiJJLWIcT4U='
+||rjno1.com^$csp=style-src 'self' https:;script-src 'self' https:
 @@.gif#$domain=rjno1.com
 @@||adservice.google.com/adsid/integrator.js$domain=rjno1.com
 @@||googletagservices.com/activeview/js/current/osd.js$domain=rjno1.com
