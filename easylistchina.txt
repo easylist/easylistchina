@@ -12693,7 +12693,6 @@ se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 yule.iqiyi.com##div[style="width:970px;margin:0 auto;padding:10px 0;text-align:center;"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 duowan.com##div[style="width:980px;height:60px;margin:0 auto 10px;"]
-bingfeng.tw##DIV[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999;"]
 pc360.net##div[style^="border:none;height:90px;width:728px;"]
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
 eefocus.com##div[style^="float:left;width:300px;height:250px;"]
@@ -13084,7 +13083,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/show_ad_$domain=wb.qq.com
 @@/show_ads_impl.js$domain=serve.netsh.org
 @@/store_ad/*$domain=pcstore.com.tw
-@@/unadblock/adjs_$domain=bingfeng.tw|hepan.com
+@@/unadblock/adjs_$domain=hepan.com
 @@=mm_12852562_1778064_$domain=taojinbi.taobao.com
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
@@ -13217,7 +13216,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||beanfun.com/ADClient/
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
-@@||bingfeng.tw^$generichide
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
 @@||bootcss.com/dplayer/1.5.1/DPlayer.min.js$domain=jx.yylep.com
@@ -14545,7 +14543,10 @@ jandan.net,jintang114.org,makepolo.com,wayqq.cn##iframe[src*="?"]
 ||zxw51.com^$third-party
 ||zzc.9939.com^
 !#Bingfeng.tw
-@@||bingfeng.tw^*hideshowad$genericblock,generichide
+bingfeng.tw##DIV[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999;"]
+@@||bingfeng.tw^$generichide
+@@/unadblock/adjs_$domain=bingfeng.tw
+@@||bingfeng.tw^*hideshowad$genericblock
 bingfeng.tw##.wow-ad-link
 ||genieessp.com^$domain=bingfeng.tw
 !#Btkitty
