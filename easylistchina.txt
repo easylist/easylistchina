@@ -14856,7 +14856,7 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 /^https?:\/\/(www\.)?[a-z]{1,2}[0-9]{3,4}\.com\/js\/config\.js$/$script
 !#Mokeedev.com
 @@||download.mokeedev.com^$genericblock,generichide
-||googleads.g.doubleclick.net/pagead/ads?$domain=download.mokeedev.com
+|http*://$domain=googleads.g.doubleclick.net
 !
 @@||bdimg.com/libs/$domain=m.00ksw.net|m.biqumo.com|m.maopuzw.com|m.qianrenge.cc|m.qu.la|m.shengyan.org|m.sjtxt.la|m.ttzw.com|m.xs.la|m.yssm.org
 @@||cdn.$script,domain=147xs.com|biququ.info|m.ziyouge.com|qihaoqihao.com|xx31xs.org
