@@ -166,7 +166,6 @@
 /avbebe/ad/*
 /baichuan/*$subdocument
 /banner468x60_live173.
-/see200vipghajq/*
 /bbsweb/img/bbsad/*
 /bcgg/*
 /blgg/*
@@ -372,6 +371,7 @@
 /scripts/youthad.js
 /scrollgg_index.js
 /secretmine_out.js
+/see200vipghajq/*
 /shehuik618cn/images/c.js
 /shehuik618cn/images/ds.js
 /shehuik618cn/images/i.js
@@ -560,6 +560,7 @@ _xiuno_com_ad/
 ###lovexin14
 ###lovexin2
 ###lt-ad-radio
+###menu + #topBox
 ###miaov_float_layer
 ###micast_ads
 ###modalgg
@@ -761,6 +762,7 @@ _xiuno_com_ad/
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
+##.mod + #bottomBox
 ##.mylist > a[target="_bank"] > img[src*=".alicdn.com/"]
 ##.pagead_3
 ##.player + .sponsor
@@ -881,10 +883,8 @@ _xiuno_com_ad/
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
+##script + #coupletBox
 ##script + #rbbox
-###menu + #topBox
-##.mod + #bottomBox
-##SCRIPT + #coupletBox
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
@@ -4504,6 +4504,7 @@ _yad_jsonp_
 ||btbtdy.*/templets/btdy/js/ad
 ||btbtdy.*/templets/btdy/js/slade888.js
 ||btbttv.net/dd/
+||btbuluo.com/uploads/*.gif
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdx8.com/tmp/
 ||btjia.com/slade.js
@@ -7959,11 +7960,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||btbuluo.com/uploads/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-manmanw.net##.tlads
-zol.com.cn##.down-jisu
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10332,6 +10330,7 @@ iqiyi.com##.dove_videos
 pctowap.com##.dowap_ads
 360doc.cn##.dowloadBtn
 3d66.com##.down-adver
+zol.com.cn##.down-jisu
 xiaopi.com##.down-list
 mianbao99.com##.downApp
 fx110.com##.down_Hx
@@ -11772,6 +11771,7 @@ cnbeta.com##.tks
 qq.com##.tl_ad
 bdimg.com,tieba.baidu.com,tieba.com##.tl_shadow + * + li[class]:not([class="tl_shadow tl_shadow_new"]):not([class="tl_shadow tl_shadow_new "]):not([class="tl_shadow tl_shadow_new shadow"])
 tieba.baidu.com##.tl_spread
+manmanw.net##.tlads
 esnai.com##.tlgg
 maxthon.cn##.tmall-nav-v2
 duba.com,uu114.cn##.tmall_bg15
@@ -13009,7 +13009,7 @@ jd.com#@#.ads-content
 10co.biz,10co.me#@#.ads-top
 159i.com,techroomage.com,zhaopin.com#@#.adsBox
 liumingye.cn#@#.adsTest
-4gtv.tv,80s.ai,ft.com,ftchinese.com,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
+4gtv.tv,80s.ai,ft.com,ftchinese.com,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 alotof.software,android-doc.com,apk.tw,battlecats-db.com,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,moa.tw,playok.com#@#.adsbygoogle
 qq.com#@#.adside
 gdmm.com,gkstk.com,youquba.net#@#.adtop
@@ -13058,13 +13058,9 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
-kartinfo.me#@#.adsbox
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||3d66.com/??*-ad-
-@@||exosrv.com/iframe.php?*&size=300x250$domain=520cc.me
-@@||520cc.me/ad/520cc/myedetectads.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -13164,12 +13160,14 @@ kartinfo.me#@#.adsbox
 @@||360buyimg.com/ad/$domain=jd.com
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^*??
+@@||3d66.com/??*-ad-
 @@||4gtv.tv/4gtv/Data/GetAD.ashx
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
 @@||51job.com^$generichide
 @@||51jobcdn.com/im/images/ads/$domain=51job.com
 @@||520cc.cc/ad/520cc/myedetectads.js
+@@||520cc.me/ad/520cc/myedetectads.js
 @@||5278.cc/static/image/common/ad_close.gif
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -13349,7 +13347,7 @@ kartinfo.me#@#.adsbox
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
 @@||exosrv.com/ads-iframe-display.php?idzone=2970526&$domain=520cc.club|getrelax.club|xn--a-ko6aq37itxj.com
 @@||exosrv.com/ads.js$domain=520cc.club|getrelax.club|xn--a-ko6aq37itxj.com
-@@||exosrv.com/iframe.php?*&size=300x250$domain=520cc.cc
+@@||exosrv.com/iframe.php?*&size=300x250$domain=520cc.cc|520cc.me
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
 @@||fantasy.tv/videoAd/
