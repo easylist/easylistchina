@@ -1062,6 +1062,7 @@ ubmcmm.baidustatic.com
 ||123hala.com^
 ||124.232.160.178^
 ||12l22.net^$third-party
+||134.73.54.252^
 ||138138138.top^
 ||138lm.com^
 ||139.159.32.82^
@@ -1356,8 +1357,6 @@ ubmcmm.baidustatic.com
 ||a7shun.com^$third-party
 ||a907907.com^
 ||a9377j.com^
-||134.73.54.252^
-||htg-x.com^$third-party
 ||abctcqq.top^
 ||acasys88.cn^
 ||acgbase.com^$third-party
@@ -1959,7 +1958,6 @@ ubmcmm.baidustatic.com
 ||heima8.com^$third-party
 ||hejingroup.cn^
 ||hen360.com^$third-party
-||xing678.com^$third-party
 ||hesxz.com^
 ||heygugu.com^
 ||hfjuki.com^
@@ -1991,6 +1989,7 @@ ubmcmm.baidustatic.com
 ||hskj.net^
 ||hslyqs.com^
 ||hsmkj.net^$third-party
+||htg-x.com^$third-party
 ||huaerduo.com^
 ||huanqiucaizhi.com^
 ||huashengtai.net^
@@ -2929,6 +2928,7 @@ ubmcmm.baidustatic.com
 ||xilele.com^
 ||xiliweisha.cn^
 ||xinasiaj.com^
+||xing678.com^$third-party
 ||xingjuhe.com^
 ||xinlongrubber.com^
 ||xinyijiasc.cn^
@@ -3778,6 +3778,7 @@ _yad_jsonp_
 ||52wmb.com/2014js/cn_
 ||52z.com/images/52zgg/
 ||52zfls.com/data/content
+||52zpi.com/gg/
 ||52zy.com/other/js/
 ||5328t.com/js/jquery.js
 ||543et.com/detail/
@@ -6370,6 +6371,7 @@ _yad_jsonp_
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mm7920.com:8888/upload/*.gif
+||mmsao.me/lianmeng/
 ||mmtalk.net/images/banner
 ||mobile.sina.cn/public/files/image/600x150_
 ||mobile.sina.cn/public/files/image/620x300_
@@ -7953,11 +7955,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mmsao.me/lianmeng/
-||52zpi.com/gg/
 !------------------------Specific element hiding rules------------------------!
-52zpi.com##.wenziad
-1point3acres.com##.enhanced_header
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -10391,6 +10389,7 @@ dilidili.wang##.elmnt-one > .shade > a[href^="http"]:not([href*=".dilidili."])
 eprice.com.tw##.emome-ad
 firefoxchina.cn##.engine-jokes
 zreading.cn##.enhanced-text-widget:nth-child(2)
+1point3acres.com##.enhanced_header
 hao123.com##.enter1
 rj.baidu.com##.entrance
 hackhw.com##.entry-banner
@@ -11941,6 +11940,7 @@ hoteastday.com##.watermarh_ul
 10jqka.com.cn##.wbanner
 codeforge.cn##.webnotice-right
 ptbus.com##.weixin_ad
+52zpi.com##.wenziad
 baidu.com##.wgt-ads
 muzhi.baidu.com##.wgt-best-answer + script + div
 baidu.com##.wgt-bottom-ask
@@ -13057,7 +13057,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -13640,6 +13639,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||xia1ge.com^$generichide
 @@||xianzhenyuan.cn^$generichide
 @@||xianzhenyuan.cn^$script,~third-party
+@@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide
 @@||xilinjie.com^$generichide
 @@||xiuren.org^$generichide
