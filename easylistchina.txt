@@ -7945,12 +7945,6 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-fzdao.cn##.adlan
-fzdao.cn###datu
-duba.com##.hotTitle
-uu114.cn##.adfixed
-uu114.cn##.hotTitle
-fx678.com##.aside-store
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8419,6 +8413,7 @@ hao.360.cn###daily-hotword
 iask.sina.com.cn###daily_topic_flnr
 mydrivers.com###dangbei_down
 kpw6.com###daojs
+fzdao.cn###datu
 ytbbs.com###dd1
 4399.com###defaultbglink
 sogou.com###detailRightAd
@@ -9745,7 +9740,7 @@ putclub.com##.add_ad
 uzzf.com##.address_like:nth-child(-n+7)
 ck101.com##.adfixWp
 chinaz.com##.adfixbug
-duba.com##.adfixed
+duba.com,uu114.cn##.adfixed
 1kkk.com,dm5.com,dm5.hk##.adform_1
 1kkk.com,dm5.com,dm5.hk##.adform_2
 xineurope.com##.adft
@@ -9753,6 +9748,7 @@ xineurope.com##.adft
 ifeng.com##.adimg
 huanqiu.com##.adindexList
 sina.com##.aditem
+fzdao.cn##.adlan
 gkstk.com##.adleft
 jxedt.com##.adlink1
 jxedt.com##.adlink2
@@ -9899,6 +9895,7 @@ btyingshi.com##.aside > .card:last-child
 focus.cn##.aside-banners
 baidu.com##.aside-inner > div[style*="height:"]
 jingyan.baidu.com##.aside-pro-container
+fx678.com##.aside-store
 oschina.net##.aside-topjj
 anquan.org##.aside_profile_activity > div:first-child
 showtv.com.tw##.ask18
@@ -10691,6 +10688,7 @@ douyu.com,douyutv.com##.hot-sign-2
 piaoliang.com##.hot990
 lenovo.com.cn##.hotAd
 cnqiang.com##.hotBox
+duba.com,uu114.cn##.hotTitle
 itheat.com##.hot_ad
 itavcn.com##.hot_dealerxin
 duba.com##.hot_push > .hot_movie
@@ -13047,7 +13045,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||lager.com.tw/images/layer6_adbanner/
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -13444,6 +13441,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||kissjav.com^$generichide
 @@||kukuplay.com/upload/*.*.swf
 @@||l.qq.com/lview?$domain=888.sports.qq.com
+@@||lager.com.tw/images/layer6_adbanner/
 @@||landtop.com.tw/images/ad/
 @@||league-funny.com^$generichide
 @@||league-funny.com^$script,~third-party
@@ -14604,7 +14602,7 @@ bingfeng.tw##div[style="position: fixed; left: 0px; top: 0px; width: 100%; heigh
 ##a[href*=".gotourls.bid"]
 ##a[href^="http://yunbofangbt."]
 btzhongzifuli.com,cililianbt.org,maomaobt.cc,sousoucili.com,zhainanzhongzi.cc##.photos
-|http*://$script,subdocument,third-party,xmlhttprequest,domain=okbtkitty.me|alicili.me|alicilibt.com|bittorrentsearchweb.com|btdiggba.me|btdiggba.ws|btdiggcn.xyz|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.cc|btkittyba.me|btkittyba.net|btkittyba.pw|btkittyla.me|btkittyla.org|btkittyon.co|btkittyplus.cc|btlibrary.xyz|btlibrarys.cc|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidb.net|cilifanhao.ws|cilifanhaobt.xyz|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|godiggbt.org|godiggbts.cc|kikibt.me|kikibts.org|mybtlibrary.cc|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|newbtspread.ws|renrencili.pw|renrencili.xyz|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentsearchweb.xyz|zhainanbt.me|zhongzicilibt.org|zhongzicilicn.com|zhongzicilila.cc|zhongzicilila.co|zhongziciliso.net|zhongzifuli.cc|zhongzishenqi.ws
+|http*://$script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicilibt.com|bittorrentsearchweb.com|btdiggba.me|btdiggba.ws|btdiggcn.xyz|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.cc|btkittyba.me|btkittyba.net|btkittyba.pw|btkittyla.me|btkittyla.org|btkittyon.co|btkittyplus.cc|btlibrary.xyz|btlibrarys.cc|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidb.net|cilifanhao.ws|cilifanhaobt.xyz|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|godiggbt.org|godiggbts.cc|kikibt.me|kikibts.org|mybtlibrary.cc|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|newbtspread.ws|okbtkitty.me|renrencili.pw|renrencili.xyz|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentsearchweb.xyz|zhainanbt.me|zhongzicilibt.org|zhongzicilicn.com|zhongzicilila.cc|zhongzicilila.co|zhongziciliso.net|zhongzifuli.cc|zhongzishenqi.ws
 ||0377shujuhuifu.top^
 ||0531mnk.net^
 ||1711811.com^
