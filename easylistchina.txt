@@ -3580,6 +3580,7 @@ _yad_jsonp_
 ||2345.com/duoteimg/dtnew_recom_img/duoteself/
 ||2345.com/duoteimg/duotehtml/
 ||2345.com/duoteimg/img/*_ad_
+||2345.com/dypcimg/*gameRecommend.js
 ||2345.com/dypcimg/ads/
 ||2345.com/images/activity/20180618/search-actimg
 ||2345.com/images/m/global/new-hongbao/
@@ -7954,12 +7955,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||2345.com/dypcimg/*gameRecommend.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-3987.com##.showdown > .mt20:first-child
-2345.com###m_banner
-2345.com###m_banner_2
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8833,6 +8830,8 @@ dilidili.wang###m-box
 playno1.com###m12
 playno1.com###m2
 playno1.com###m7
+2345.com###m_banner
+2345.com###m_banner_2
 chacuo.net###mailtooltipss
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 e0575.cn###main > div:first-child
@@ -11546,6 +11545,7 @@ miercn.com##.show-img-box
 200sht.info,sehuatang.org##.show-text
 zahuishi.com##.show2960x90
 cnxz.cn##.showad
+3987.com##.showdown > .mt20:first-child
 91lai.com##.showimgs
 uwants.com##.showpx1
 pcsoft.com.cn##.shuang11
@@ -14647,8 +14647,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||zzc.9939.com^
 !#Bingfeng.tw
 @@/unadblock/adjs_$domain=bingfeng.tw
-@@||bingfeng.tw^$generichide
 @@||adsinstant.com/bingfeng/gm$domain=bingfeng.tw
+@@||bingfeng.tw^$generichide
 bingfeng.tw##.wow-ad-link
 bingfeng.tw##div[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999;"]
 !#Btkitty
