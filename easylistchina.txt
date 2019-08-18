@@ -3172,7 +3172,6 @@ ubmcmm.baidustatic.com
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/20*.php$popup
-/item.htm?$popup,domain=tsdm.me|tsdm.net|tsdm.tw
 /portalwlanad/pages/*$popup
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
@@ -8948,9 +8947,7 @@ bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_p
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
 pchome.net###pchome_970_90_a
 kaixindy.com###pege_ad1
-tsdm.love###pgt + div:not([id])
-tsdm.me,tsdm.tw###pgt:first-child + div > a
-tsdm.me,tsdm.tw###pgt:first-child + div > p > a[href^="http"]:not([href*="tsdm"])
+tsdm.live###pgt:first-child + div > a
 ifeng.com###picAdposition
 china.cn###pic_loop
 muchong.com###pid1 > div > a[class]
@@ -9290,7 +9287,6 @@ fuli.us###toubuads
 17ce.com###tp_wrap
 qidian.com###tr-banner
 tianya.cn###travel_float
-tsdm.me,tsdm.net,tsdm.tw###tsdmadv_img
 sohu.com###turn-ad
 ziqiangxuetang.com###tutorial_btm
 tuyiyi.com###tuyiyi_zfb
@@ -12925,7 +12921,6 @@ xici.net##td.doc_sign
 cartomad.com,cartonmad.com,cartoonmad.com,comicnad.com,conicsmad.com##td[align="center"][height="102"]
 sinoca.com##td[align="center"][height="90"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
-tsdm.me,tsdm.net,tsdm.tw##td[colspan="5"]:first-child:last-child
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
 tianshui.com.cn##td[height="420"]
 webkaka.com##td[id$="_SPONSOR"]
