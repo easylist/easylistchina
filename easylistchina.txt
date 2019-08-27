@@ -13,6 +13,9 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 /heituad/*
+/e/ecmsshop/zhuanpan/js/*
+/haojio/js/scoll_bg.js
+/haojio/images/KF-ZL.jpg
 -880-80-4.jpg
 .bid/ads/
 .cc/ad/
@@ -7174,8 +7177,6 @@ _yad_jsonp_
 ||ssnn.net^*-200-250.jpg
 ||ssp.hinet.net^
 ||ssp.zf313.com^
-||ssp28.pw/e/ecmsshop/zhuanpan/
-||ssp28.pw/haojio/js/scoll_bg.js
 ||sspai.com/api/v1/recommends?*=article_
 ||sspai.com/attachment/sponsor/
 ||ssports.iqiyi.com/crossdomain.xml
@@ -8016,6 +8017,7 @@ _yad_jsonp_
 ||wstimes.cn/public/wstimes/js/*ad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ssp28.pw,kpd122.com##.index-owl-carousel
 vod1769.com##.banner_img
 vod1769.com##DIV[id^="a"]
 szxx.com.cn###A1
@@ -11691,7 +11693,6 @@ iask.sina.com.cn##.sj_300x250
 iask.sina.com.cn##.sj_680x250
 fuli.us##.slick
 baidu.com##.slide-bner-adv-ret
-ssp28.pw##.slide-index
 ksbbs.com,kshot.com##.slideAdvert
 e0838.com##.slideInner
 cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
