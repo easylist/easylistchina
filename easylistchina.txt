@@ -897,10 +897,6 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||junkucm.com^
-||wsgblw.com^
-||wdymwzz.com^
-||zzsssy.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -2168,6 +2164,7 @@ ubmcmm.baidustatic.com
 ||juejdkio.com^$third-party
 ||juhepen.com^$third-party
 ||junfull.com^
+||junkucm.com^
 ||junnew.com^$third-party
 ||jusha.com^$third-party
 ||jutou5.com^
@@ -2878,6 +2875,7 @@ ubmcmm.baidustatic.com
 ||watchsk.com^
 ||wazero.online^
 ||wcnmd.top^
+||wdymwzz.com^
 ||wdzsb.com.cn^
 ||weareqy.com^$third-party
 ||webofxm.cn^
@@ -2918,6 +2916,7 @@ ubmcmm.baidustatic.com
 ||wrvdmh.cn^
 ||ws341.com^
 ||ws7j.com^
+||wsgblw.com^
 ||wstztt.com^
 ||wu36n.cn^
 ||wu65.com^
@@ -3203,6 +3202,7 @@ ubmcmm.baidustatic.com
 ||zzad.com^$third-party
 ||zzbaowen.com^
 ||zzrcz.com^
+||zzsssy.com^
 ||zzyonghao.com^
 !------------------------------------Popups-----------------------------------!
 .189.gd^*.html?p=$popup,third-party
@@ -6033,6 +6033,7 @@ _yad_jsonp_
 ||jmsyzj.com^
 ||jmydm.com/jspage/ftt.js
 ||jnlc.com/www/fund/newsmarket
+||jp2468.com/api/vip/vipshow.php
 ||jpm.cn/images/a/
 ||jpwind.com^*/scroll.js
 ||jrj.com.cn/h5Ad?
@@ -6411,6 +6412,7 @@ _yad_jsonp_
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||mima.club/tuijian/speedtest/
+||mingyg.cn/data/attachment/freeaddon_banner/
 ||mini.hao123.com^
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
@@ -6998,6 +7000,7 @@ _yad_jsonp_
 ||sealine.youku.com/yk/html?
 ||secretmine.net/wp-content/uploads/2019/08/secretmine_20190809_1565312910.jpg
 ||seek68.cn/img/*.gif
+||sefu8j.com/index.php?m=poster&
 ||segmentfault.com/sponsor/
 ||seqing.world/qq/qq.js
 ||sese277.info/photo/
@@ -8023,16 +8026,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||jp2468.com/api/vip/vipshow.php
-||mingyg.cn/data/attachment/freeaddon_banner/
-||sefu8j.com/index.php?m=poster&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-hanjutvn.com###widget-quan
-hanjutvn.com##.widget-topadding
-hanjutvn.com##.widget-xlxba
-py91.net##.widget_textads
-mingyg.cn###hzw_showmsg
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8780,6 +8775,7 @@ ifeng.com###hslide_sPic_360
 ifeng.com###hslide_sPic_baidu
 narutom.com###hy_float
 hz66.com###hzhead + .column
+mingyg.cn###hzw_showmsg
 qzone.qq.com###idQbossHotbar
 mzyz.com###idTransformView2
 nownews.com###idle-layer
@@ -9397,6 +9393,7 @@ baidu.com###wgt-ad-right-fixed
 baidu.com###wgt-left-promo
 51yfx.com###widget-gouwu
 iqiyi.com###widget-jingdongAd
+hanjutvn.com###widget-quan
 51yfx.com###widget-test
 heu8.com###widget_ada
 ccav1.com###widget_da
@@ -12059,9 +12056,11 @@ cbmay.com##.widget
 ilvruan.com##.widget-asst
 eefocus.com##.widget-bom2buy
 hao123.com##.widget-hlbar > span
+hanjutvn.com##.widget-topadding
 hao123.com##.widget-topbanner
 hanjutvn.com,taijuwang.com##.widget-unpadding
 didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;line-height: 30px;"]
+hanjutvn.com##.widget-xlxba
 web20share.com##.widget:nth-of-type(5)
 doub.io##.widgetRoller
 iplaysoft.com##.widget[style]
@@ -12077,6 +12076,7 @@ carrotchou.blog,daqianduan.com,landiannews.com,xingkbjm.com##.widget_media_image
 landiannews.com##.widget_metaslider_widget
 codeceo.com,fuli8.net##.widget_text:first-child
 fulibl.cc##.widget_text:last-child
+py91.net##.widget_textads
 aeink.com##.widget_ui_adsf
 daqianduan.com,koyi.pub,wuzuowei.net##.widget_ui_asb
 aeink.com##.widget_ui_textads
@@ -13147,6 +13147,7 @@ petrochina.com.cn#@#.ggbox
 btbttv.net#@#.google-ad
 mo.babytoyhome.com#@#.google-ads
 apk.tw#@#.google_ad
+adbug.cn#@#.google_ads
 mobile01.com#@#.googlead
 58pic.com,v.baidu.com#@#.has-ad
 wangzheli.com#@#.headad
@@ -13173,7 +13174,6 @@ bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-adbug.cn#@#.google_ads
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
