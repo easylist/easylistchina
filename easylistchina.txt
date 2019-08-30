@@ -2752,7 +2752,7 @@ ubmcmm.baidustatic.com
 ||tjhhr.com^
 ||tjqonline.cn^
 ||tkd777.cn^
-||to8to.com^$third-party
+||to8to.com^$subdocument,third-party
 ||togo666.com^
 ||tongdejiayuan.com^
 ||tongqing2015.com^
@@ -7340,7 +7340,7 @@ _yad_jsonp_
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmbbs.com/data/attachment/portal/*.swf
 ||tmdm.tv/fgr/
-||to8to.com/api/ggdata.
+||to8to.com/api/ggdata.$domain=~shejiben.com
 ||tohomh123.com/js/funasd.js
 ||tom*.com/js/advment.js
 ||tom.com/*TomFlashAd
@@ -13181,6 +13181,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@/adLoader.$domain=shejiben.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
