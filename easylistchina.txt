@@ -13179,8 +13179,11 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+numberempire.com#@##perm_ad
+numberempire.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=numberempire.com
 @@.adserver.$domain=litv.tv
 @@||oiihk.com^$generichide
 @@.com/adv/$domain=my.ctrip.com
