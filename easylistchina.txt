@@ -8112,6 +8112,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+|http*://$script,third-party,domain=wnacg.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -13469,6 +13470,9 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||blog.ztjal.info^$generichide
 @@||bootcss.com/dplayer/1.5.1/DPlayer.min.js$domain=jx.yylep.com
 @@||bootcss.com^$domain=kan-tv.com
+@@||disqus.com^$script,domain=wnacg.com
+@@||disquscdn.com^$script,domain=wnacg.com
+@@||bootcss.com^$domain=wnacg.com
 @@||briian.com/advert.
 @@||btsax.info^$generichide
 @@||buyad.bi-xenon.cn^
