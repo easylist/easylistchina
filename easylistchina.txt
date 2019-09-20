@@ -5028,10 +5028,6 @@ _yad_jsonp_
 ||dongfangtai.com/2018/
 ||dospy.com/hezuo/
 ||dota2.uuu9.com^$subdocument
-||doub.io/wp-content/themes/yusi1.0/js/jquery.min.js
-||doub.io/wp-content/uploads/
-||doub.pw/abc/
-||doub.pw/ss-jc23/
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -8115,6 +8111,8 @@ _yad_jsonp_
 |http*://$script,third-party,domain=wnacg.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+doubibackup.com###guangg_image
+doubibackup.com##A[href*="/rightad"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10745,7 +10743,6 @@ eastday.com##.gg_channel_r_b
 acglala.net##.gg_img
 china.cn##.gg_li
 324324.cn##.gg_sidebar
-doub.io##.gg_slider_comad
 eeyy.com##.gg_top
 cww.net.cn##.ggbar
 baidu.com##.ggbtm-vip-close
@@ -10786,7 +10783,7 @@ putclub.com##.gtest
 58.com##.guaguabox
 97aa1.com,niu20.com##.guang4
 runningmanzx.com##.guangao
-doub.io##.guangg
+doubibackup.com##.guangg
 adreep.cn,baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn,rznews.cn##.guanggao
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -11347,7 +11344,7 @@ i-part.com.tw##.newAd
 ifeng.com##.newAdImg
 steelcn.cn##.new_fixed
 halidown.com##.new_head_ad
-doub.io##.new_zixun
+doubibackup.com##.new_zixun
 zhicheng.com,zt5.com##.newa
 zhicheng.com##.newa2
 uimaker.com##.newbaidu
@@ -12151,7 +12148,7 @@ didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;lin
 hanjutvn.com##.widget-xlxba
 97hj.net##.widget-zfb
 web20share.com##.widget:nth-of-type(5)
-doub.io##.widgetRoller
+doubibackup.com##.widgetRoller
 iplaysoft.com##.widget[style]
 fulibl.com##.widget_banner
 hackhw.com##.widget_content_b
@@ -12305,7 +12302,6 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.se##a > img[src^="/images/"]
 ainuody.com##a > img[src^="http://wx"]
-doub.io##a > img[src^="https://img.doub.pw/thumbs/"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
@@ -12546,7 +12542,6 @@ aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="330"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="728"]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
-doub.io##a[title*="Toyo"]
 creaders.net##a[title^="www.136888.com/"]
 duba.com##a[w="topad"]
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
@@ -13264,6 +13259,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||doubibackup.com^$generichide
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
