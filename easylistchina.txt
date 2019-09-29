@@ -8127,6 +8127,8 @@ _yad_jsonp_
 ||88ys.cc/js/abcd.js
 ||supfree.net^$xmlhttprequest
 ||supfree.net/stat
+|http*://$script,third-party,domain=m.supfree.net
+||supfree.net/poland/mobile.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 acglala.net##A[href*=".taobao.com"]
@@ -13286,6 +13288,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||libs.baidu.com^$domain=m.supfree.net
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
