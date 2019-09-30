@@ -8143,6 +8143,8 @@ _yad_jsonp_
 ||alicdn.com^$domain=tv4.cc
 !------------------------Specific element hiding rules------------------------!
 ps110.ru##A[href="http://www.tw787.com/"]
+atyun.com###r_banner > UL > LI > A[href^="http"]:not([href*="atyun."])
+atyun.com##.coupletbox
 itkeyword.com##.ad_pop_left_txy
 szxx.com.cn###A0
 szxx.com.cn###A1
