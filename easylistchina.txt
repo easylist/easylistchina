@@ -3468,7 +3468,7 @@ _yad_jsonp_
 |http:$third-party,domain=icpmp.com
 |http://*/ad_bj.js?
 |http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
-|http://t.cn/$domain=ady8.info|aikuhu.com|cdsoso.me
+|http://t.cn/$domain=ady8.info|cdsoso.me
 |https:$script,domain=jb51.net
 |https:$subdocument,domain=nodkey.xyz
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
@@ -4152,7 +4152,6 @@ _yad_jsonp_
 ||abcache.com/tg/
 ||abcache.com/xc/image/
 ||abcache.com/youlaohu/
-||abcde.cn/info/uploadfile/poster/yun.png
 ||abdd*.com/js/abc/
 ||abminbuy.com/images/201*.gif
 ||abminbuy.com/images/jiazai.png
@@ -4308,7 +4307,6 @@ _yad_jsonp_
 ||aliyuncs.com^$domain=5kym.com
 ||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alu.cn*/aluad/
-||alu.cn/2011/js/categoryAdvert.js
 ||alu.cn/alutg/
 ||alu.cn/aluTrade/Fragments/ListAdvertisementProductsHandler.
 ||alu.cn/Ashx/AjaxGuangGao.
@@ -8157,6 +8155,7 @@ _yad_jsonp_
 ||qcmlw.com/js/service.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+aoshu.com##.bottomImg
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -9449,7 +9448,7 @@ iyejie.com###top > div:not([id]):not([class])
 gameapps.hk###top-ad-left
 gameapps.hk###top-ad-right
 hao123.com###top-anim
-abcde.cn,bbs.houdao.com###top-banner
+bbs.houdao.com###top-banner
 360.cn,hao.360.com###top-full-column-tips
 maxthon.cn###top-slider-ad
 teepr.com###topAdBlock
@@ -11369,7 +11368,6 @@ myday.com.tw##.myday_ad_950
 myday.com.tw##.myday_ad_left
 myday.com.tw##.myday_ad_right
 sydneytoday.com##.mygad
-abcsee.net##.myset
 ifooday.cn##.myzs
 2345.com,hao774.com##.mzdh_bottom
 hepuwang.com##.n5_dbhfad > .wapper
