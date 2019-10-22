@@ -919,6 +919,7 @@ _xiuno_com_ad/
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||recoco.it^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -13063,6 +13064,9 @@ douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban
 dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a:-abp-contains(红包))
 dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"])
 bbs.my0511.com##embed[width="970"][height="70"]
+twitter.com#?#article[role="article"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/推廣|推广/))
+twitter.com#?#div[data-testid="UserCell"]:-abp-contains(/推廣|推广/)
+twitter.com#?#div[data-testid="trend"]:-abp-contains(/推廣|推广/)
 facebook.com#?#.ego_section:-abp-has(a:-abp-contains(贊助))
 facebook.com#?#.ego_section:-abp-has(a:-abp-contains(赞助内容))
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(贊助))
