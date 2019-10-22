@@ -13064,16 +13064,14 @@ douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban
 dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a:-abp-contains(红包))
 dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"])
 bbs.my0511.com##embed[width="970"][height="70"]
-linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/广告|促銷內容/))
-linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/广告|促銷內容/))
+linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
+linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 twitter.com#?#article[role="article"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/推廣|推广/))
 twitter.com#?#div[data-testid="UserCell"]:-abp-contains(/推廣|推广/)
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/推廣|推广/)
-facebook.com#?#.ego_section:-abp-has(a:-abp-contains(贊助))
-facebook.com#?#.ego_section:-abp-has(a:-abp-contains(赞助内容))
-facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(贊助))
-facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(赞助内容))
+facebook.com#?#.ego_section:-abp-has(a:-abp-contains(/贊助|赞助内容/))
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href="#"]:-abp-contains(/贊助|赞助内容/))
 hiapk.com##font.jammer
 ifeng.com#?#.box_list:-abp-has(.tuig)
 sina.cn##iframe[id^="sinaadtk_"]
