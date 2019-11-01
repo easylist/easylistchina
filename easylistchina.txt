@@ -13,6 +13,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
+/uu114/ad/*
 .bid/ads/
 .cc/ad/
 .cc/gg.php?id=
@@ -924,6 +925,7 @@ _xiuno_com_ad/
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
+##.top_func_ad
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 .cc/s.php?id=$script,third-party
@@ -7640,7 +7642,6 @@ _yad_jsonp_
 ||uploads.duapp.com^$domain=52vip.net
 ||usnewsexpress.com/wp-content/uploads/*ad-
 ||usxpic.com/btimg/upload/image/20181018/101806323369.png
-||uu114.cn/static/*/ad.js
 ||uugtv.com/x/app/videoSpread?
 ||uulucky.com/show-
 ||uumtu.com/js/lqbz.js
@@ -8226,8 +8227,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||duba.com/wangmeng/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+newduba.cn##.pro_r_t
+newduba.cn##.fav_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -12151,7 +12155,6 @@ duba.com##.top_ad_tmall
 cngold.org##.top_bigad
 0772fang.com##.top_blft
 ifeng.com##.top_carousel
-duba.com,uu114.cn##.top_func_ad
 0579.cn,xizi.com##.top_gg
 2345.com##.top_news
 jmw.com.cn##.top_pic
