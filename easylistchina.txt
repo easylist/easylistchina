@@ -8230,6 +8230,8 @@ _yad_jsonp_
 ||duba.com/wangmeng/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wuhaozhan.net##A[onclick*=".tb.cn"]
+wuhaozhan.net##A[onclick*=".taobao.com"]
 newduba.cn##.pro_r_t
 newduba.cn##.fav_box
 szxx.com.cn###A1
@@ -12952,7 +12954,7 @@ eol.cn##div[id^="s1_"]
 secretmine.net##div[id^="secre-"]
 159i.com##div[id^="sidebar"] > :not(form)
 douyu.com,douyutv.com##div[id^="sign_p_"]
-wuhaozhan.net##div[id^="slideBox"]
+wuhaozhan.net##DIV[id^="slide"]
 suizhoushi.com##div[id^="sznew_ad"]
 ottawazine.com##div[id^="text-"]
 e0575.cn##div[id^="tid_"]
