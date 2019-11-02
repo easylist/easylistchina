@@ -625,7 +625,6 @@ _xiuno_com_ad/
 ###top_ads0
 ###top_box > a[onclick^="javascript"]
 ###toperAd2
-###toptb + div[align="center"]
 ###tr_ad1
 ###tr_ad10
 ###tr_ad11
@@ -922,7 +921,6 @@ _xiuno_com_ad/
 ##script + #rbbox
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##.top_func_ad
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -17077,12 +17075,14 @@ $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.
 ||qyqc4s.com^
 ||vuahb.com^
 !#Taohuazu
-thz6.cc###fwin_content_imc_attachad > .f_c > div > div:first-child
-thz6.cc##style + div[style="margin-bottom:5px"]
+###toptb + div[align="center"]
+##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
+thz999.com###fwin_content_imc_attachad > .f_c > div > div:first-child
+thz999.com##style + div[style="margin-bottom:5px"]
 ||alicdn.com/kf/HTB1pS6Zel1D3KVjSZFy5jbuFpXaO.gif
-||alicdn.com^$domain=thz6.cc
-||chuantu.biz^$domain=thz6.cc
-||sinaimg.cn^$domain=thz6.cc
+||alicdn.com^$domain=thz999.com
+||chuantu.biz^$domain=thz999.com
+||sinaimg.cn^$domain=thz999.com
 !-----------------------------Malware Domains rules---------------------------!
 /api/goods/v1/get.script.core?
 :11211/t.js?MAC=
