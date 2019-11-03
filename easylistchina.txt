@@ -11336,7 +11336,6 @@ firefox.com.cn,firefoxchina.cn##.main-promote-sites
 firefoxchina.cn##.main-promote-tmall
 news.hf365.com##.main-r > div:first-child
 51credit.com##.main-r-ka
-wuhaozhan.net##.main-right iframe
 expreview.com##.main-side-tao
 vuejs.org##.main-sponsor
 nxing.cn##.main:nth-child(-n+6)
@@ -12100,7 +12099,6 @@ manmanw.net##.tlads
 esnai.com##.tlgg
 maxthon.cn##.tmall-nav-v2
 duba.com,uu114.cn##.tmall_bg15
-wuhaozhan.net##.tmallhb2
 qq.com##.tmallredpacket
 qq.com##.tmallskin
 sxrom.com##.tmk
@@ -12959,7 +12957,6 @@ eol.cn##div[id^="s1_"]
 secretmine.net##div[id^="secre-"]
 159i.com##div[id^="sidebar"] > :not(form)
 douyu.com,douyutv.com##div[id^="sign_p_"]
-wuhaozhan.net##div[id^="slide"]
 suizhoushi.com##div[id^="sznew_ad"]
 ottawazine.com##div[id^="text-"]
 e0575.cn##div[id^="tid_"]
@@ -17065,6 +17062,11 @@ rvlev.com,t66y.com#?#div:-abp-has(> script + table) a
 rvlev.com,t66y.com#?#div:-abp-has(> script + table) h4
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
+!#wuhaozhan.net
+wuhaozhan.net##DIV[class*="main-right"] IFRAME
+wuhaozhan.net##DIV[class^="tmall"]
+wuhaozhan.net##DIV[id^="sli"]
+wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/红包|大奖/))
 !#Wuzuowei.net
 @@||bdimg.com/libs/$domain=wuzuowei.net
 |http:$script,third-party,domain=wuzuowei.net
