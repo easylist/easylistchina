@@ -12822,7 +12822,6 @@ ifeng.com##div[class^="games_ad_"]
 163.com,csai.cn,miercn.com##div[class^="gg"]
 enorth.com.cn##div[class^="guanggao"]
 fx678.com##div[class^="hc_ad_"]
-wuhaozhan.net##div[class^="hongbao"]
 ditu.so.com##div[class^="index-adflag-"] + a
 5iyq.com##div[class^="index_ad"]
 meiguoshenpo.com##div[class^="info_"]
@@ -13115,7 +13114,6 @@ dmzj.com,mycq.qq.com##div[style^="width:960px;"]
 21yq.com##div[style^="width:980px;height:80px;"]
 firefoxchina.cn##div[trace-key="ad_theme_skin_link"]
 zuoye.baidu.com##dl[class="card related"]
-wuhaozhan.net##dl[class^="item-fifth-dl"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 bbs.my0511.com##embed[width="970"][height="70"]
@@ -17098,10 +17096,14 @@ rvlev.com,t66y.com#?#div:-abp-has(> script + table) h4
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 !#wuhaozhan.net
 wuhaozhan.net##[onclick*=".taobao.com"]
-wuhaozhan.net##div[class*="lid"]
-wuhaozhan.net##div[class*="main-ri"] iframe
-wuhaozhan.net##div[class^="tm"]
-wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/红包|大奖/))
+wuhaozhan.net##A[href*="taobao"]
+wuhaozhan.net##DIV[class$="eBox"]
+wuhaozhan.net##[onclick*=".tb.cn"]
+wuhaozhan.net##div[class*="main-2"] iframe
+wuhaozhan.net##DIV[class*="hb"]
+wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/红包|大奖|双1/))
+wuhaozhan.net##div[class^="hongbao"]
+wuhaozhan.net##dl[class^="item-fifth-dl"]
 !#Wuzuowei.net
 @@||bdimg.com/libs/$domain=wuzuowei.net
 |http:$script,third-party,domain=wuzuowei.net
