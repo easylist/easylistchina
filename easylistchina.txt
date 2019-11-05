@@ -17093,13 +17093,17 @@ rvlev.com,t66y.com#?#div:-abp-has(> script + table) h4
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 !#wuhaozhan.net
+wuhaozhan.net##[onclick*="open"]
+||tmall.com^$popup,domain=wuhaozhan.net
+||taobao.com^$popup,domain=wuhaozhan.net
+wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/红包|大奖|双1|京东|锦鲤/))
+wuhaozhan.net##.pure-u-md-8-24 IFRAME
+wuhaozhan.net#?#:-abp-has(> .ad_top_close)
 wuhaozhan.net##[onclick*=".taobao.com"]
 wuhaozhan.net##A[href*="taobao"]
 wuhaozhan.net##DIV[class$="eBox"]
 wuhaozhan.net##[onclick*=".tb.cn"]
-wuhaozhan.net##div[class*="main-2"] iframe
 wuhaozhan.net##DIV[class*="hb"]
-wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/红包|大奖|双1/))
 wuhaozhan.net##div[class^="hongbao"]
 wuhaozhan.net##dl[class^="item-fifth-dl"]
 wuhaozhan.net##.home-list
