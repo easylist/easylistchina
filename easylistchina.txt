@@ -15103,7 +15103,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||zxw51.com^$third-party
 ||zzc.9939.com^
 !#bejson.com
-bejson.com#?#:-abp-has(>a:-abp-contains(/aliyun|云/))
+bejson.com#?#div:-abp-has(>a[target="_blank"])
 bejson.com#?#div[class^="media-body"]:-abp-has(a)
 ||bejson.com/static/3part/lay/layer
 !#Bingfeng.tw
