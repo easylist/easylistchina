@@ -3379,7 +3379,6 @@ ubmcmm.baidustatic.com
 ||133gp.com^$popup
 ||189.cn/actpush/$popup,third-party
 ||35.$popup,domain=dfpan.com
-||415.net^$popup
 ||76fengyun.com/vip.php$popup
 ||7866593178.com^$popup
 ||9100300.com^$popup
@@ -8262,6 +8261,7 @@ _yad_jsonp_
 ||zol-img.com.cn/detail/js/module/shaung11/js/shuang11Pop.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+chchzhan.com##A[style^="position:fixed;z-index:"]
 hao.su##.content-copyright + BLOCKQUOTE ~ A[href^="http"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -11946,7 +11946,6 @@ jianshen8.com##.sidebar > a
 fulibus.net##.sidebar > div:first-child
 xiaoz.me,xingkbjm.com##.sidebar a > img
 superlife.ca##.sidebar-ad-zone
-cyhour.com##.sidebar-all
 juejin.im##.sidebar-bd-entry
 portablesoft.org##.sidebar-box
 cnblogs.com##.sidebar-image
