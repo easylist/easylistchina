@@ -6782,7 +6782,7 @@ _yad_jsonp_
 ||newyx.net/j/down_yd.js
 ||newyx.newyx.net/j/
 ||nex.163.com/q?
-||nfmovies.com/pic/tu/pci
+||nfmovies.com/pic/tu/
 ||nfydd.com/template/wap1/js/dd.js
 ||nihaovcd.com/js/neirong
 ||ningmengzhibo.com/ement/beforeSearchEment.action
@@ -8314,6 +8314,8 @@ _yad_jsonp_
 ||bw66.cn/template/default_pc/bbs/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nfmovies.com###adright
+nfmovies.com###adleft
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13538,6 +13540,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||nfmovies.com^$generichide
+@@/fingerprint2.$domain=nfmovies.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
