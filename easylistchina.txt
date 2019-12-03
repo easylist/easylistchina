@@ -8335,9 +8335,11 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||bcb5.com/gg/
-||cdntxt2.com^*1/2.js
+||365yun.cdntxt2.com^*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+softwarebrother.com##.adsbygoogle
+softwarebrother.com##.popup_bottom_block
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13580,6 +13582,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||softwarebrother.com^$generichide
+@@/adblockDetector.$domain=softwarebrother.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
