@@ -12,6 +12,8 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/iframe/baidu_*.html
+/iframe/ss/baidu_*.html
 -880-80-4.jpg
 .bid/ads/
 .cc/ad/
@@ -5240,7 +5242,6 @@ _yad_jsonp_
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com|sexcar.cn
 ||duba.com/baidu
 ||duba.com/dhads?id=
-||duba.com/static/*/iframe/baidu_
 ||duba.com/static/*/images/*.swf
 ||duba.com/static/*/js/home/ad/ad.
 ||duba.com/static/images/public/20181110/14661d41048e09e2d523dd2e5f0c6310.png
