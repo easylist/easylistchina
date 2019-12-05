@@ -9817,7 +9817,6 @@ hao123.com###yixing-siye
 fawan.com###ynetG_B1
 dm5.com###youce
 yahoo.com###ysm-umu
-game735.com###ysmAD1433_1
 weather.com.cn###ytc
 eastday.com###yxxf_area
 iqiyi.com###zbsp
@@ -13481,7 +13480,6 @@ yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜))
 zhangxinxu.com#?#.top_da_out
 zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 !---------------------------------CSS Whitelist-------------------------------!
-game735.com#@##AdDiv
 the-sun.on.cc#@##ContentAd1
 hubei.gov.cn#@##ad-side
 greedio.com#@##adBox
@@ -13627,6 +13625,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@||ymso.cc^$generichide
+@@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
+@@||game735.com^$generichide
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
