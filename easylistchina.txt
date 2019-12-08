@@ -8387,7 +8387,11 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||iqiyi.com/videos/other/*.f4v$object
+||baidu.com/videoui/api/videopcads?
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.corneradv
+baidu.com##.pauseadv
+baidu.com##div[id^="toast"]
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
