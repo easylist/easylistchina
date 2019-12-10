@@ -4921,7 +4921,6 @@ _yad_jsonp_
 ||chexun.net/images/sales//cxgg/
 ||chidir.com^
 ||china.chemnet.com/cnbanner/
-||china.cn/js/common/*_pop
 ||china.com.cn*/ads_js/
 ||china.com.cn/2016ads/
 ||china.com.cn/statics/js/henan/ad/
@@ -9589,7 +9588,6 @@ hao123.com###shortcut-tuiguang
 kaoyan1v1.com###showAD
 downkr.com###show_download_main_panel > .hidden-sm
 downkr.com###show_download_top_panel > .row > .hidden-xs
-china.cn###show_loop
 dmzj.com###show_tip_bg
 hinews.cn###showgg
 rising.cn###shuangshiyibid
@@ -11088,7 +11086,6 @@ eastday.com##.gg_channel_r_b
 55188.com,g138.com##.gg_head_m
 55188.com,g138.com##.gg_head_r
 acglala.net##.gg_img
-china.cn##.gg_li
 324324.cn##.gg_sidebar
 eeyy.com##.gg_top
 cww.net.cn##.ggbar
@@ -11470,7 +11467,6 @@ muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 zimuku.cn##.li[style^="width:8"]
 5118.com##.lianmeng-home-header
-china.cn##.lianmeng_div
 lywww.com##.lianmengclass
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.life_helper
 lenovo.com.cn##.link-ad
@@ -11502,7 +11498,6 @@ huaren.tv##.live-client_right
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.live_show_aside
 ifeng.com##.ljPop
 hao123.cn##.llc
-china.cn##.lm_div
 tianya.cn##.load_m_top
 ypppt.com##.login_panel
 uc123.com##.logo > a
@@ -11804,7 +11799,7 @@ ifeng.com##.pic950
 down.ali213.net,patch.ali213.net##.picBg
 ifeng.com##.picNews
 dealmoon.com,weibo.com##.pic_ad
-china.cn,ctrip.com##.pic_banner
+ctrip.com##.pic_banner
 gmw.cn##.pic_list_bd750
 chinaiiss.com##.pic_text
 moxing.net##.pic_txt_list
@@ -11922,9 +11917,6 @@ csdn.net##.recommend-item-box[data-track-click*="http"]:not([data-track-click*="
 iciba.com##.recommend-item:not([href*=".iciba."])
 hao123.com##.recommend-link
 le.com##.recommend-part-right
-china.cn##.recommend_RightShow
-china.cn##.recommend_box
-china.cn##.recommend_video
 72g.com##.recommended
 passiontimes.hk##.rectAd680
 chinaz.com##.red[href*=".wsisp.net/"]
@@ -11971,7 +11963,6 @@ mtrend.cn##.right_hongbao_xuanfu
 gucheng.com##.right_info
 lahoo.ca##.right_multi_banner
 163.com##.right_originalcolumn_ad
-china.cn##.right_shop_box
 dilidili.wang##.right_top_ad
 hkwb.net##.rightadv2
 mail.sina.com.cn##.rightbottom
@@ -12068,7 +12059,6 @@ m.mydrivers.com##.share
 xilu.com##.shehuibanner
 hao.rising.cn##.shop-site
 teepr.com##.shop-widget
-china.cn##.shop_box
 gq.com.tw##.shopslide
 qiushibaike.com##.shopwindow
 neonan.com##.shouhuan_ad
@@ -15481,6 +15471,13 @@ gao1.cc,2c2.website,2p8.space,adultgao.com,caopop.com,caoporn.com,caouoo.com,cao
 ||ggtg8.com^
 ||haoimgs.com/images/*.gif
 ||paopic.com/imguang/
+!#china.cn
+china.cn###pic_banner
+china.cn##.extension_ul > .special
+china.cn##.feeds
+china.cn##.lianmeng_search
+china.cn##.ltp_box
+||china.cn/js/common/local_hydn/
 !#cilimao.one
 @@||qianpanso.cn/other/*.js$domain=cilimao.co|cilimao.one
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
