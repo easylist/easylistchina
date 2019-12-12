@@ -5055,7 +5055,6 @@ _yad_jsonp_
 ||cnscg.com/template/default/style/*960x
 ||cnscg.com/template/default/style/t6/*x*1
 ||cnscg.com/template/default/style/t6/other/
-||cnstock.com/img/news/ad-
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
 ||cnwnews.com/ad-nrtop/
@@ -8405,6 +8404,7 @@ _yad_jsonp_
 ||ggs.myzaker.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cnstock.com##.newslist[style="padding: 10px 0px;"]
 dcloud.net.cn##.aw-ad-item
 caibaojian.com##A[onclick*="aly"]
 chongbuluo.com###add
@@ -10853,7 +10853,7 @@ cr173.com##.downurl[data^="viewAds"]
 jxcn.cn,redianyule.com##.dsp_yxxf
 jinbaozy.com##.dtk-fixed-ads
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
-chaomi.cc,cnstock.com,cpnn.com.cn,cs.com.cn,dyhjw.com,hnr.cn,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn##.duilian
+chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,hnr.cn,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn##.duilian
 hnr.cn##.duilian_close
 cpnn.com.cn##.duilianop
 cpnn.com.cn##.duilians
@@ -12009,8 +12009,6 @@ duba.com##.s11_zb
 tbtdg.com##.s11text
 2345.com##.s12-fullNav
 wenda.tianya.cn##.s1Tit + .sideBox
-cnstock.com##.sBox-left
-cnstock.com##.sBox-right
 finance.ifeng.com##.sConRbox
 laozuo.org##.s_ad125
 baidu.com##.sam_iebrowser_banner
@@ -13358,7 +13356,7 @@ nicemoe.com##img[src*=".sinaimg."][style="width:100%;margin-top:0px;"]
 bccn.net##img[src*="data:"]
 moyu16.com##img[style="width:1238px;height:100px"]
 scsn.cn##img[style^="height:70px;width:"]
-cnstock.com,hall123.com,hc360.com,hi.people.com.cn,xizi.com##img[width="1000"]
+hall123.com,hc360.com,hi.people.com.cn,xizi.com##img[width="1000"]
 jmbbs.com##img[width="1100"]
 5eplay.com##img[width="1240"]
 54new.com##img[width="1280"][height="100"]
@@ -13910,7 +13908,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||costco.com.tw/jsps/website/zh/images/location/AD
 @@||countrygarden.com.cn/ad/
 @@||cpro.baidustatic.com/cpro/ui/$domain=www.pctowap.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=codejie.net|htqyy.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
@@ -14150,7 +14148,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||poedb.tw/js/
 @@||popart.hk/newweb/$generichide
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc|www.pctowap.com
-@@||pos.baidu.com^*?di=u2164214&$domain=codejie.net
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pptv.
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pttplay.com/js/momo/adsbygoogle.js
