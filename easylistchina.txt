@@ -715,6 +715,8 @@ _xiuno_com_ad/
 ##.afc_popup
 ##.anniversary-wrap-2018
 ##.artad
+##.asb-index
+##.asb-post
 ##.assort-ad
 ##.baiduad
 ##.banner-ad-section
@@ -858,6 +860,8 @@ _xiuno_com_ad/
 ##.widget_ad_sidebar
 ##.widget_adbox
 ~hrtsea.com##.widget_ui_ads
+##.widget_ui_asb
+##.widget_ui_textasb
 ##.wp > .ad-box
 ##.wp.a_f
 ##.wp.a_h
@@ -948,16 +952,10 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##.widget_ui_asb
-##.asb-post
-##.asb-index
-##.widget_ui_textasb
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||dszan.com^
-||bajieyy.cc^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1591,6 +1589,7 @@ ubmcmm.baidustatic.com
 ||baisuijk.com^
 ||baitaiad.com^$third-party
 ||baizhu.cc^$third-party
+||bajieyy.cc^
 ||balmoralmkt.com^$third-party
 ||bang5mai.com^$third-party
 ||bangbang521.com^
@@ -1872,6 +1871,7 @@ ubmcmm.baidustatic.com
 ||drwzn.com^$third-party
 ||drxrc.com^
 ||dshrx.com^
+||dszan.com^
 ||dugbvb.com^
 ||duiwai.baidu.com^
 ||duobaoqj.com^
@@ -6162,6 +6162,7 @@ _yad_jsonp_
 ||iocoder.cn/alert/js/alert.js
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
+||ionemanhua.com/js/xvideo.js
 ||ip.cn^$csp=style-src 'self' https:
 ||ip38.qiniudn.com/js/zzsc.js
 ||ipeen.com.tw/js/frame/ad-actions.js
@@ -6450,6 +6451,7 @@ _yad_jsonp_
 ||knnwdyou.com^
 ||kocpc.com.tw/adsbyso.js
 ||kokojia.com^$third-party
+||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||ks.js.cn*/yytf/$object,script
 ||ksiwnx.pw/gg_html/
 ||kt51.com/images/kt51.gif
@@ -8430,12 +8432,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||koyi.pub/wp-content/plugins/dh-anti-adblocker/
-||ionemanhua.com/js/xvideo.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-cztv.com###adsmall
-cztv.com##.drop_down_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8673,6 +8671,7 @@ yes-news.com###adsc4
 image.baidu.com###adsearch
 dahe.cn###adsg
 ishuati.com###adsh
+cztv.com###adsmall
 whsir.com###adswidget1-quick-adsense-2
 weather.com.cn###adtop_r
 dm530.net,it168.com###adv
@@ -10880,6 +10879,7 @@ pc0359.cn,pc6.com,ucbug.com##.downnow
 cr173.com,downcc.com##.downnowgaosu
 cr173.com##.downurl[data^="viewAds"]
 123.sogou.com,web.sogou.com##.dropBox_list > li > a > span[style="color:red"]
+cztv.com##.drop_down_ad
 jxcn.cn,redianyule.com##.dsp_yxxf
 jinbaozy.com##.dtk-fixed-ads
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
