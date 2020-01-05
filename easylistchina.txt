@@ -13773,9 +13773,11 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+shenfendaquan.com#@#.adsbygoogle
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shenfendaquan.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -14921,7 +14923,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||beijing.buzhi5.com^
 ||bhaoea.cn^
 ||bj*.9669.cn^
-||book.114la.cn^
 ||boy.fujieace.com^
 ||bstatic.1kejian.com^
 ||bt1.patexplorer.com^
@@ -14941,7 +14942,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||cby521.cn^
 ||cby521.com^
 ||cc.xiaodapei.com^
-||cdeme.com^$third-party
 ||cdn1.tvzhe.com^
 ||cee1.iteye.com^
 ||cfff.net^$third-party
