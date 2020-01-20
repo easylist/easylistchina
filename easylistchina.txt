@@ -5372,8 +5372,6 @@ _yad_jsonp_
 ||dajiazhao.com/login/reg.js
 ||dandanzan.com/res/*.js
 ||dangdang.com/adall.
-||danji6.com/style/style2016/js/gaosuxiazai.js
-||danji6.com/xingg/
 ||danlan.org/KFC/
 ||danmeixsw.com/js/mwap.js
 ||daqiso.com/ggbl/
@@ -14046,7 +14044,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|huanleren.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise/*$domain=sfbuy.com
-@@/advertisement.$domain=d1-dm.com|gametower.com.tw
+@@||d1-dm.com^$generichide
+@@/advertisement.$domain=gametower.com.tw
 @@/advertisement.js$domain=fharr.com|gimhoy.com
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
