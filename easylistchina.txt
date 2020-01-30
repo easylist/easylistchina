@@ -13,12 +13,8 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
-/fffddd4345/images/3.js
-/fffddd4345/images/2.js
-/fffddd4345/images/1.js
 .bid/ads/
 .cc/ad/
-/cm-pop-up-banners-
 .cc/gg.php?id=
 .cc/js/ads/
 .cloud/ads/
@@ -208,6 +204,7 @@
 /cdn-cgi/pe/bag2?*.overture.com
 /cdn-cgi/pe/bag2?*p.tanx.com$domain=~hdwan.net
 /clicktotal/ClickTotal.js
+/cm-pop-up-banners-
 /cms-gg.js
 /cnki/js/adDetail1124.js
 /common/cf/*$image,object,domain=~bingfeng.tw
@@ -238,6 +235,9 @@
 /ettoday/gemini/*
 /ezprice_ad.js
 /FduttjAlivqpo/*
+/fffddd4345/images/1.js
+/fffddd4345/images/2.js
+/fffddd4345/images/3.js
 /float_r.js
 /floatad.$domain=~fwxgx.com
 /floatad2.
@@ -8196,6 +8196,7 @@ _yad_jsonp_
 ||wyh.tv/image/upload/ad/
 ||wzbaohe.com/imgadnew/midad.js
 ||x3cn.com/data/attachment/portal/*.gif
+||x6img.com^$domain=picturedata.org
 ||x7w7.com/js/float
 ||x81zw.com/hf.js
 ||xc.macd.cn^
@@ -8354,6 +8355,7 @@ _yad_jsonp_
 ||yatu.tv/m/images/*300_100
 ||yaxi.net/hz/
 ||ybbs.ca/index/js/advReplay_
+||yccz.net/xml/
 ||yczbb.*/ggimg/
 ||ydss.cn/static/js/autoAd.js
 ||ydss.cn/test.www.jdpay.com
@@ -8623,17 +8625,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||x6img.com^$domain=picturedata.org
-||yccz.net/xml/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-duodada.com##[style^="width: 100%; height: auto; position: fixed;"]
-greenxiazai.com##.downbtn > A:last-child
-greenxiazai.com##.yinsu_xz
-tyenews.com##DIV[id^="custom_html-"]
-tyenews.com##DIV[id^="media_image-"]
-tyenews.com##DIV[id^="metaslider_widget-"]
-avtb2233.com###menu-main-content > li:nth-child(n+5)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -9536,6 +9529,7 @@ l114la.com###media
 hinet.net###media_ad_popup_overlay
 hexieshe.cn###media_image-2
 hexieshe.cn###media_image-3
+avtb2233.com###menu-main-content > li:nth-child(n+5)
 fuliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
 tv.sohu.com###miaozhenad
@@ -11036,6 +11030,7 @@ yesky.com##.down_referer
 yesky.com##.down_referrer
 dayanzai.me##.down_show_intro_first_box
 downza.cn##.down_top
+greenxiazai.com##.downbtn > a:last-child
 downza.cn##.downbtn-top
 portablesoft.org##.downcenter
 yxzoo.com##.downgg
@@ -12777,7 +12772,7 @@ chinayk.com##.yb_banner
 1kkk.com,dm5.com##.yddiv
 acg17.com##.yhq
 fdc.com.cn##.yifangbanner
-66huacai.com##.yinsu_xz
+66huacai.com,greenxiazai.com##.yinsu_xz
 pc0359.cn##.yinsu_yd
 ifeng.com##.yiyuan
 youku.com##.yk-AD-tong
@@ -12852,6 +12847,7 @@ zhangxinxu.com##[onclick*="Ad"]
 42xz.com##[onclick*="godownload"]
 ddooo.com##[onclick*="soft.ddooo."]
 lyreader.com##[onclick^="loadDownloadAPP"]
+duodada.com##[style^="width: 100%; height: auto; position: fixed;"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
 5dm.tv##a > img[src*=".sinaimg."]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
@@ -13341,6 +13337,7 @@ kankan.com##div[id^="cm"].banner
 nanrenwo.net##div[id^="content"]
 ifeng.com##div[id^="couplet3_"]
 jmnews.com.cn##div[id^="couplet_"]
+tyenews.com##div[id^="custom_html-"]
 banma.com##div[id^="disapper"]
 discuss.com.hk##div[id^="div-gpt-ad"] + div[id]
 gohome.com.hk##div[id^="div-gpt-ad"][style]
@@ -13361,6 +13358,8 @@ hinews.cn##div[id^="hi_gg_"]
 fx678.com##div[id^="hta_"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
+tyenews.com##div[id^="media_image-"]
+tyenews.com##div[id^="metaslider_widget-"]
 jd.com##div[id^="miaozhen"]
 4c.cn##div[id^="mid_ad"]
 pcauto.com.cn##div[id^="middle_ad_"]
@@ -13837,7 +13836,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||papi-service.jd.com/ads/
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -14323,6 +14321,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software|battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|haoweichi.com|league-funny.com|monnsutogatya.com|numberempire.com|pc3mag.com|shenfendaquan.com|tingfm.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
+@@||papi-service.jd.com/ads/
 @@||passiontimes.hk^$generichide
 @@||passiontimes.hk^*-ad.php?
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
