@@ -15745,6 +15745,7 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 googleads.g.doubleclick.net###mys-wrapper
 |http*://$domain=googleads.g.doubleclick.net
 !
+/^https?:\/\/[\w-]+\.[\w-]{5,}\.[\w-]+(\.[\w-]+)?\/[0-9]{1,2}\/[0-9]{5,6}\.js/$script,third-party
 (com?$script,third-party
 /1*.html?|$script,third-party,xmlhttprequest
 /1*.xhtml?|$script,third-party,xmlhttprequest
