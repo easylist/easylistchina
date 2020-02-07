@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/js/home/ad/ad.
 /n6b7/*.js
 -880-80-4.jpg
 .bid/ads/
@@ -5546,7 +5547,6 @@ _yad_jsonp_
 ||duba.com/dhads?id=
 ||duba.com/level2/rmd.js
 ||duba.com/static/*/images/*.swf
-||duba.com/static/*/js/home/ad/ad.
 ||duba.com/static/images/public/20181110/14661d41048e09e2d523dd2e5f0c6310.png
 ||duba.com/wangmeng/
 ||dufile.com/jsa/
@@ -12892,7 +12892,6 @@ jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
 qqhzg.com##a[href^="http"]:not([href*=".qqhzg."]) > img[src^="/upload/1/"]
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
-it1352.com##a[href^="http"]:not([href*="it1352."]) > img
 xiaoheizy.com##a[href^="http"]:not([href*="xiaoheizy.com"]) > img
 107cine.com##a[href^="http://107cine.com/ads/"]
 hepuwang.com##a[href^="http://ad."]
