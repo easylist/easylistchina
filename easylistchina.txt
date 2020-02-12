@@ -8582,6 +8582,8 @@ $script,third-party,xmlhttprequest,domain=btio.pw
 ||17ce.com/k
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+rrys2019.com###output > LI > A:not([href*="/resource/"])
+rrys2019.com###output > LI > a:not([href*="/resource/"]) + H2
 17ce.com###kr_wrap
 szxx.com.cn###A1
 szxx.com.cn###A2
