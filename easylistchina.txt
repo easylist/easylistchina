@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/apps/misc.php?action=advert&
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -1059,8 +1060,6 @@ _xiuno_com_ad/
 //s.php?id=$script,third-party
 //vs.php?id=$script,third-party
 /99vjj/*$third-party
-/:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,3}-[0-9]{2,3}-[0-9]\.html/$subdocument,third-party
-/:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,3}-[0-9]{2,3}\.js/$script,third-party
 /adposid/*
 /adscpc/*
 /adtmp/*
@@ -6989,7 +6988,6 @@ _yad_jsonp_
 ||netease.com/house-public/articleyunyans.js
 ||new-icon.ol-img.com/jslib/ad
 ||newasp.net/apps/counts.php?tid=
-||newasp.net/apps/misc.php?action=advert&
 ||newasp.net/misc/js/foot_
 ||news.cn/2018/images/2018rbqj_
 ||news.sina.com.cn/js/792/*head*.js
@@ -7966,7 +7964,6 @@ _yad_jsonp_
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v4.cc/m/common.js
 ||v4dwkcv.com/html/click/
-||v8gay.com/apps/misc.php?action=advert&
 ||vali*.cibntv.net^*.mp4?$media,domain=v.youku.com
 ||vali*.cibntv.net^*.mp4?$media,rewrite=abp-resource:blank-mp3,domain=player.youku.com
 ||vansky.com/agdg/homegg/
