@@ -9068,7 +9068,6 @@ qiannao.com###downTb + div
 ttdytt.net###downlink
 sm.cn###download-uc
 sm.cn###download-uc-v2
-zol.com.cn###downloader_main
 mogewu.com###downloadurl > dl:first-child
 nczsks.com###downyxjs
 langxi.org###drk_ledtd
@@ -10137,7 +10136,6 @@ vuejs.org##.ad-pagetop
 baidu.com##.ad-platform-tips
 baofeng.com##.ad-pop-wrap
 qidian.com##.ad-shell
-zol.com.cn##.ad-soft-box
 liba.com##.ad-split
 baidu.com##.ad-taishan
 qq.com##.ad-text-box
@@ -10919,7 +10917,6 @@ jinbaozy.com##.dtk-fixed-ads
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,ttzmz.vip,wendu.cn##.duilian
 cpnn.com.cn##.duilianop
 cpnn.com.cn##.duilians
-zol.com.cn##.dxlt-down
 cncrk.com##.dxzq
 2345.com##.dzc-hn-cmoe
 so.com##.e-buss
@@ -11617,8 +11614,6 @@ douguo.com##.mbs
 2345.com##.mco-ex-ndxh
 zhaiiker.com##.media-content[style*="0x"]
 cnool.net##.meilai_box
-zol.com.cn##.member-button-yellow
-zol.com.cn##.member-button1
 qq.com##.member_ads
 cnbeta.com##.meta > .fr
 cangku.in,galacg.me,llss.li,usnewsexpress.com##.metaslider
@@ -12367,7 +12362,6 @@ leiphone.com,sina.com.cn##.top-banner
 baidu.com##.top-banner-ad-wrap
 10jqka.com.cn##.top-bar-fl > .top-hot
 99danji.com,eeyy.com##.top-bg
-zol.com.cn##.top-box-xiazai
 163.com##.top-gg-area
 taihainet.com##.top-info
 2345.com##.top-lvy
@@ -13037,7 +13031,6 @@ jj59.com##div[class^="art_a"]
 265g.com##div[class^="ban"]
 cztv.com##div[class^="banner_"]
 elecfans.com##div[class^="banner_ad"]
-zol.com.cn##div[class^="box-top-xiaza"]
 ifeng.com##div[class^="container-"][content^="[object"]
 78dm.net##div[class^="couple-"]
 ifeng.com##div[class^="coupletBox"]
@@ -13424,7 +13417,6 @@ vs.cm##section[id^="ad_"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 r3sub.com##source + img
 bbs.my0511.com##span.smalltxt
-zol.com.cn##span[class^="down-dxlt"]
 163.com##span[class^="gg"]
 gamebase.com.tw##span[id^="aid_"]
 bilibili.com##span[style*="height:"][data-loc-id]
@@ -17539,6 +17531,10 @@ thzx.cc##style + div[style="margin-bottom:5px"]
 ||alicdn.com^$domain=thzx.cc
 ||chuantu.biz^$domain=thzx.cc
 ||sinaimg.cn^$domain=thzx.cc
+!#zol.com.cn
+zol.com.cn##A[class*="member-button"]
+zol.com.cn##DIV[class^="top-box-xiazai"]
+zol.com.cn##SPAN[class^="dxlt-down"]
 !-----------------------------Malware Domains rules---------------------------!
 /api/goods/v1/get.script.core?
 :11211/t.js?MAC=
