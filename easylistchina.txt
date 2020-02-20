@@ -8546,8 +8546,10 @@ _yad_jsonp_
 ||btmao.cc/Public/yd/
 ||chinapress.com.my/public/static_resources/img/600x337
 ||sifakaoshi360.com^$rewrite=abp-resource:blank-mp3,domain=baiduyunbo.com
+||17ce.com^*_banner/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+17ce.com#?#div:-abp-has(>div>ul>li>a:-abp-contains(/服|高/))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
