@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+:63666/960x150.
 -880-80-4.jpg
 /21kknb.php
 -90mh-gg.
@@ -1018,6 +1019,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##a[href*=".xlgqy.com/"]
 ##a[href*=".qpokok.com/"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -8545,6 +8547,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||bxw666.com/storage/*.gif
 ||23pili.com/gg.jpg
+||feifei6.com/a2020.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 23pili.com##.tuiguang
