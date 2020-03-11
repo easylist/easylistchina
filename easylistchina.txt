@@ -8148,11 +8148,6 @@ _yad_jsonp_
 ||weathercn.com/m_mobile/ad_image/
 ||web.900.la^
 ||webjx.com/zanzhushang/
-||webkaka.com*/click/$image
-||webkaka.com/info/script/articleAd.js
-||webkaka.com/script/cp.js
-||webkaka.com/sim/
-||webkaka.com^*x50.
 ||wehefei.com/htmlphp/tmall/
 ||wei2008.com/js/*0.
 ||wei2008.com/js/jump
@@ -8670,7 +8665,6 @@ _yad_jsonp_
 szxx.com.cn###A0
 xitongtiandi.net##.xzq
 smzy.com##.ad_show
-webkaka.com###tdmd
 ilxdh.com##A[href*=".taobao.com"]
 mtrend.cn###topictabs1
 szxx.com.cn###A1
@@ -9147,7 +9141,6 @@ findprice.com.tw###divBestBuy
 splaybow.com###divPrevious:last-child
 rfidworld.com.cn###divTopContainer
 nmgnews.com.cn###div_ad4
-webkaka.com###div_bottomad_m
 twpkinfo.com###div_close_cf
 qzone.qq.com###div_corner_ad_container
 3boys2girls.com###div_display
@@ -11935,8 +11928,6 @@ quanmin.tv##.p-room_ad
 quanmin.tv##.p-room_chatad
 quanmin.tv##.p-star_adWrap
 opticsky.cn##.p83_gridC > .cc
-webkaka.com##.pNavigateAd
-webkaka.com##.pTopTextAd
 jj59.com##.p_ad
 25xz.com##.p_ads
 actoys.net##.p_new_ad
@@ -12583,7 +12574,6 @@ sogou.com##.u-page-gg
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_aside
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.u9_head
 163.com##.uc-fixed-ad-wrap
-webkaka.com##.ucontent[style="padding-top:3px;padding-bottom:8px;"]
 udn.com##.udn-ads
 libaclub.com##.ui-adsame
 duowan.com##.ui-business
@@ -12814,7 +12804,6 @@ zhangxinxu.com##[onclick*="Ad"]
 42xz.com##[onclick*="godownload"]
 ddooo.com##[onclick*="soft.ddooo."]
 lyreader.com##[onclick^="loadDownloadAPP"]
-webkaka.com##[onclick^="url_ajax"]
 duodada.com##[style^="width: 100%; height: auto; position: fixed;"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
 5dm.tv##a > img[src*=".sinaimg."]
@@ -12875,7 +12864,6 @@ iqiyi.com##a[href*=".oppo."]
 zhibo8.cc##a[href*=".rd-game."]
 v.qq.com##a[href*=".renrendai.com"]
 makepolo.com##a[href*=".rong360.com"]
-webkaka.com##a[href*=".simcentric."]
 ccav5.com##a[href*=".sinaimg."]
 chdbits.co##a[href*=".taobao"]
 52movieba.com,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jinbaozy.com,jitapu.com,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
@@ -12896,7 +12884,6 @@ duba.com,newduba.cn##a[href*=".zhhainiao.com/"]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
 instrument.com.cn##a[href*="/ad/"]
 xitek.com##a[href*="/adclick"]
-webkaka.com##a[href*="/click/a_d_"]
 cangku.in,cangku.moe,galacg.me##a[href*="/game"]
 ccav1.com##a[href*="/go"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
@@ -13640,8 +13627,6 @@ sinoca.com##td[align="center"][height="90"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
 tianshui.com.cn##td[height="420"]
-webkaka.com##td[id$="_SPONSOR"]
-webkaka.com##td[id*="Mid"]
 win007.com##td[id^="Ad"]
 ningmengtiyu.com,ningmengzhibo.com##td[style="width: 50px;font-size: 12px;"]
 tvboxnow.com##td[style="width:15%;height:100%;"]
@@ -17877,7 +17862,23 @@ thzk.cc##style + div[style="margin-bottom:5px"]
 !#u
 !#v
 !#webkaka.com
+webkaka.com###tdmd
+$popup,third-party,domain=webkaka.com
 webkaka.com#?#:-abp-has(>[href*="100/"])
+||webkaka.com*/click/$image
+||webkaka.com/info/script/articleAd.js
+||webkaka.com/script/cp.js
+||webkaka.com/sim/
+||webkaka.com^*x50.
+webkaka.com###div_bottomad_m
+webkaka.com##.pNavigateAd
+webkaka.com##.pTopTextAd
+webkaka.com##.ucontent[style="padding-top:3px;padding-bottom:8px;"]
+webkaka.com##[onclick^="url_ajax"]
+webkaka.com##a[href*=".simcentric."]
+webkaka.com##a[href*="/click/a_d_"]
+webkaka.com##td[id$="_SPONSOR"]
+webkaka.com##td[id*="Mid"]
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 !#wuhaozhan.net
