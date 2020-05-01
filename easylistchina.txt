@@ -8841,6 +8841,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||myqqjd.com^$csp=script-src 'self' * 'unsafe-inline'
+$script,third-party,domain=ohmanhua.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 ddrk.me##P > A > IMG
@@ -14046,6 +14047,7 @@ i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+ohmanhua.com#@#.gg1000
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
