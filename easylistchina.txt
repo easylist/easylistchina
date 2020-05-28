@@ -4034,7 +4034,6 @@ $websocket,domain=5nj.com|cechi8.com
 /435f1c6f9f6b545254a00e426b9aeae1.
 /52meiju_7
 /934b2bc8de85e32ae7588f2eb955ee36.
-/\/frontend\/airav\/js\/[0-9a-z-_]+\.js/$script,domain=18comic.org|18comic.vip
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
 /a83b3cdeacac5a503717469ca5084ebc.
@@ -14853,6 +14852,10 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
+!#18comic.org
+||18comic.org/static/resources/images/300
+||18comic.*/static/resources/files/*0x
+||18comic.org/templates/frontend/airav/js/jquery.e1
 !#2345.com
 7255.com###J_search_bd > div:last-child
 7255.com###right > div:first-child
