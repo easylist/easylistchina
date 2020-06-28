@@ -8559,6 +8559,8 @@ _yad_jsonp_
 ||qhimgs1.com/t029762bc960d5104ef.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+kaitao.cn###ad-tit
+kaitao.cn##A[href*="/a.php?id="]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13827,6 +13829,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||kaitao.cn/public/wenda/ad/css/ds-un-detail.css
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
