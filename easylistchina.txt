@@ -8573,7 +8573,6 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-mydrivers.com##.news_info > p:last-of-type
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13599,7 +13598,7 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__
 m.mydrivers.com#?#.cnewsinfo > p:-abp-has(.f14_link + br + .f14_link)
 m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
-mydrivers.com#?#.news_info > p:-abp-has(.f14_link + br + .f14_link)
+mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> a)
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
