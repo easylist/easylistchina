@@ -12,6 +12,8 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+.com/Public/js/duileft.js
+.com/Public/js/duiright.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -1108,6 +1110,7 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##.mylist > A > IMG[width^="9"][height="80"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 .cc/s.php?id=$script,third-party
@@ -8704,6 +8707,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||pstatp.com/origin/1381500009611bc201d61
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
