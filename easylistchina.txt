@@ -3827,7 +3827,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|99files.net|avsdown.com|down
 !----------------------Specific advert blocking filters-----------------------!
 $image,domain=ip.cn
 $image,third-party,domain=lady1.top
-$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.manhuabei.com|m.supfree.net|ohmanhua.com|onemanhua.com|wltmv.com|xiepp.com
+$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.manhuabei.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=btsow.online
 $websocket,domain=5nj.com|cechi8.com
@@ -6442,7 +6442,6 @@ _yad_jsonp_
 ||iocoder.cn/alert/js/alert.js
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
-||ionemanhua.com/js/ad/
 ||ip.cn^$csp=style-src 'self' https:
 ||ip138.com/banner/
 ||ip138.com/idc/
@@ -7200,7 +7199,6 @@ _yad_jsonp_
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
 ||oneinstack.com/images/oneinstack-
-||onemanhua.com/js/ad/$image
 ||onetvb.com/assets/javascripts/
 ||onlinedown.net/Public/js/headAd.js
 ||onx8.com/theme/tange/add/
@@ -13979,7 +13977,6 @@ dingdong.ganji.com#@#.banner
 ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
-ohmanhua.com#@#.gg1000
 petrochina.com.cn#@#.ggbox
 1090ys1.com,bbt.tv,btbt.tv,l32c.cn,nixingle.com#@#.google-ad
 apk.tw#@#.google_ad
@@ -14076,7 +14073,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img_ad/*$domain=tkec.com.tw
 @@/jquery/*$domain=dm530.net|sobooks.cc
-@@/js/a_d/pic.png$domain=ohmanhua.com
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
@@ -14514,7 +14510,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ntust.edu.tw/bin/showads.
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
-@@||onemanhua.com^$xmlhttprequest
 @@||online.unionpay.com/ads/$script
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||orientaldaily.on.cc/js/oncc-ad.js
@@ -18011,6 +18006,12 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||yljiaoluo.com^
 ||yqjxzw.com^
 !#onemanhua.com
+||ionemanhua.com/js/ad/
+||onemanhua.com/js/ad/$image
+@@||onemanhua.com^$xmlhttprequest
+$script,third-party,domain=ohmanhua.com|onemanhua.com
+cocomanhua.com#@#.gg1000
+@@/js/a_d/pic.png$domain=ohmanhua.com
 @@.com/js/a_d/$domain=ohmanhua.com
 @@/js/ads/*$image,script,domain=onemanhua.com
 @@||cnzz.com^$script,domain=onemanhua.com
