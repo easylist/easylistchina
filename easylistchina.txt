@@ -3831,7 +3831,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|99files.net|avsdown.com|down
 !----------------------Specific advert blocking filters-----------------------!
 $image,domain=ip.cn
 $image,third-party,domain=lady1.top
-$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.manhuabei.com|m.supfree.net|wltmv.com|xiepp.com
+$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=btsow.online
 $websocket,domain=5nj.com|cechi8.com
@@ -8735,6 +8735,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+manhuabei.com##.ad
 pianhd.com###myCarousel
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -14254,7 +14255,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
-@@||cdn.staticfile.org^$script,domain=manhuabei.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||changyou.com^$generichide
 @@||chdbits.co/pic/cattrans.gif
