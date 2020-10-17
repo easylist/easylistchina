@@ -8748,6 +8748,7 @@ _yad_jsonp_
 ||alicdn.com^$domain=xiaomingming.org
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bde4.com##A[href*=".yabo816."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14011,6 +14012,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||jsdelivr.net^$domain=bde4.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
