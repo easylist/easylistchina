@@ -8826,6 +8826,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cmsky.com##.textwidget A[href^="http"]:not([href*="cmsky"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -9986,7 +9987,6 @@ hao.360.com###sidebar
 5izyw.com###sidebar > .box-b img
 iyejie.com###sidebar > .widget:first-child
 ainuody.com###sidebar > .widget:nth-child(-n+6)
-cmsky.com###sidebar > .wow > .widget:first-child
 jiecao123.com###sidebar > a
 fuliba.net###sidebar > div:first-child
 fuliba.net###sidebar > div:last-child
