@@ -15731,7 +15731,8 @@ bejson.com#?#:-abp-has(> [data-href*="://t.cn/"])
 bejson.com#?#:-abp-has(> a[href*="://t.cn/"])
 bejson.com##div[id^="shua"] + font[color="red"]
 bejson.com##div[id^="shuangshi"]
-bejson.com##ul[class^="top-link"]
+bejson.com##.t-small-margin > UL:first-child
+bejson.com##.alert-dismissable
 !#bde4.com
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.com
 ||bde4.com^$csp=script-src 'self' * 'unsafe-inline'
