@@ -938,8 +938,9 @@ _xiuno_com_ad/
 ##.mod + #bottomBox
 ##.my-cat.my-cat-header
 ##.mylist > a > img[width^="9"][height="80"]
-##.mylist > a[target="_bank"] > img[src*=".alicdn.com/"]
-##.mylist > a[target="_bank"] > img[src*="kanjiantu."]
+###hellobox > .mylist
+###mainbody:nth-child(5) > .mylist
+##.mylist + #topthree
 ##.newstyle > .container > a[target="_blank"]
 ##.overBanner.dowloadBtn
 ##.pagead_3
@@ -8889,6 +8890,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||radikal.ru^$domain=18board.com|18p2p.com
+||alicdn.com/img/ibank/*_1776866723.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 18board.com,18p2p.com##.altbg2 > TD[width="33%"]
