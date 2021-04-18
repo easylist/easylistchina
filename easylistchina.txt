@@ -8609,8 +8609,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||99kubo.tv/static/img/adsfree.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+99kubo.tv##DIV[style="width:970px; height:250px;"]
+99kubo.tv##TABLE[width="970"][height="260"]
+99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
 malimali.cc##A[href*=".taobao.com"]
 bibgame.com##.topicContent > FONT[color="red"]:last-child
 szxx.com.cn###A1
