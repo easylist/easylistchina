@@ -7084,7 +7084,7 @@ _yad_jsonp_
 ||mydrivers.com/2018/news/ad
 ||mydrivers.com/2020/news/8/kkj_msi.gif
 ||mydrivers.com/2021/news/*_300250.
-||mydrivers.com/2021/news/kkj_msi.gif
+||mydrivers.com/2021/*msi
 ||mydrivers.com/images/*_1100_90.
 ||mydrivers.com/images/hongbao
 ||mydrivers.com/images/icon/gg_
@@ -8738,6 +8738,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##.news_n + DIV[style*="height"]
 m.baidu.com##DIV[class*="fc-"][data-placeid]
 baidu.com##.swan-ad-fc-feed
 szxx.com.cn###A1
