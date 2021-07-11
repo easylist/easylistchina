@@ -13243,7 +13243,7 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
-onlinedown.net##a.qrcode_show
+onlinedown.net##.qrcode_show:not([href^="https://www.onlinedown."])
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
