@@ -8058,7 +8058,6 @@ _yad_jsonp_
 ||taporn.com/d/
 ||tb58.net/plugin.php?id=tb58_
 ||tbcdn.cn/mm/tanxssp-custom/sina_
-||tc.18moe.net^
 ||tcmap.com.cn/js/b_
 ||techritual.com/wp-content/uploads/*/HDcource_
 ||techug.com/mug/
@@ -8937,6 +8936,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+18moe.vip##A[href^="http"]:not([href*="18moe.vip"]) > IMG[src*="tc.18moe.net"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
