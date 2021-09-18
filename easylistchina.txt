@@ -8992,6 +8992,7 @@ _yad_jsonp_
 ||bavei.com/img/*.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+smzy.com##.u-gs-btn
 rsdown.cn##.bendown
 rsdown.cn##.listaddr
 opdown.com##.gxxz-btn
@@ -11351,7 +11352,6 @@ serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
 baidu.com##.content-adv
-hao.su##.content-copyright
 landian.vip##.content-gg
 it1352.com##.content-wrap > .hidden-sm:nth-child(-n+2)
 ptbus.com##.content14
@@ -12561,7 +12561,6 @@ pzzc.net##.portal_block_summary
 tgfcer.com##.portalbox
 netbardh.com##.pos-navbar-ad
 vmovier.com##.post-ad-bottom
-hao.su##.post-content > div[class^="a"]
 mop.com##.post-content[href*=".taobao.com"]
 vmovier.com##.post-right-item + a[target="_blank"]
 163.com##.post_adtop_main
@@ -13736,7 +13735,8 @@ mse.360.cn##a[id^="banner"]
 moxing.net##a[marked][href*=".taobao.com"]
 frdic.com,godic.net##a[onclick*="/ads/"]
 pcsoft.com.cn##a[onclick*="_ad"]
-caibaojian.com,cnblogs.com##a[onclick*="aliyun"]
+caibaojian.com##a[onclick*="aliyun"]
+cnblogs.com##A[href*=".gridsumdissector.com/"]
 caibaojian.com##a[onclick*="aly"]
 jokerlu.com,jokerlu1.com##a[onclick^="_czc."]
 52pk.com##a[onclick^="ga"]
