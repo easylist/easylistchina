@@ -9046,6 +9046,7 @@ _yad_jsonp_
 ||pianyuan.org/zfb.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+boyoushe.com##A[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 libvio.com##.hidden-log
 wltmv.com##.box_xf
 szxx.com.cn###A1
