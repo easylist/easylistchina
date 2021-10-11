@@ -9083,6 +9083,8 @@ _yad_jsonp_
 ||mydrivers.com/news/taobao_tab.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.tab[style^="background"]
+3dmgame.com#?#div[class]:-abp-has(> .bt:-abp-contains(高速))
 mydrivers.com##.taobao_tab
 szxx.com.cn###A1
 szxx.com.cn###A2
