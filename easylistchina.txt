@@ -9085,6 +9085,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hexun.com/hxpage_jrtj2020/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com###text-2
+423down.com###text-3
+423down.com##.content > a
 hexun.com###bottom_extension
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -11455,7 +11458,6 @@ rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
 91porny.com##.container-fluid.p-0[class*="mb-"]
-423down.com##.content > .entry + font[size]
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
