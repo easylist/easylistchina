@@ -12,6 +12,32 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/cari/banner/*
+/cari/daybanner/*
+/dhfun_ad/*
+/dzwww/ad_dzw_inner.js
+/avshow_cn1.gif
+/front/adv/getpmadvlist
+/game/aplus/pptv/*
+/homead/*_appledaily_bg.
+/html/taobao_focus_
+/ifengRotatorAd.js
+/modules/video/player/nuevo/midroll.php?
+/moneymaker/images/*.gif
+/moneymaker/js/fkpp.js
+/moneymaker/js/kppp.js
+/moneymaker/js/tmpp.js
+/moneymaker/js/videoplayer.js
+/adcg/*
+/nowscore/ad/*
+/opbb/float.js
+/opbb/obpp.tpl
+/sc_ifeng/*
+/uniontgm.cmb.
+:88/lighttpd/default/
+?method=baidu.ting.commercial.tactics&
+_!!1731999033.
+_yad_jsonp_
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -1015,9 +1041,6 @@ ubmcmm.baidustatic.com
 ##.bottomads + .leftd
 ##.bottomd > .closebox2
 ##.broadcastMe[style="width: 1200px;"]
-##.btn[href*=".papa9394.com"]
-##.btn[href*=".xxmh779.com/"]
-##.btn[href*="/viphktv.com/"]
 ##.bus_adsbox
 ##.buyaoa-below
 ##.cari-ads
@@ -1268,7 +1291,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".com/register/?i_code="] > img
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
-~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
 ##a[href*="/?intr="]
@@ -1323,6 +1345,10 @@ ubmcmm.baidustatic.com
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ! Contains domain names
+~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
+##.btn[href*=".papa9394.com"]
+##.btn[href*=".xxmh779.com/"]
+##.btn[href*="/viphktv.com/"]
 ##a[href$="/244017.cc"]
 ##a[href$="/88hjd7.com"]
 ##a[href$="/aa8a1j.com"]
@@ -4080,6 +4106,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 /pushstart.html?$popup,third-party
 /tanchuan.htm$popup,third-party
 :701/gd_xueersi/$popup
+! Contains domain names
 ||1024mzs.pw^$popup,third-party
 ||1024wanzhai.$popup,third-party
 ||133gp.com^$popup
@@ -4163,37 +4190,23 @@ $websocket,domain=5nj.com|cechi8.com
 .qidian.com/pageOps.
 /11431a7ff0f5.swf$domain=tieba.baidu.com
 /404.safedog.cn/sitedog_stat_new.html
-/435f1c6f9f6b545254a00e426b9aeae1.
-/934b2bc8de85e32ae7588f2eb955ee36.
 /\/images\/[0-9]/$image,domain=aae3.com
 /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/[0-9]{8}/[0-9a-z]{32}.swf/$domain=iqiyi.com
 /^http:\/\/www\.tt1069\.com\/(?!bbs)/$script,domain=tt1069.com
-/a83b3cdeacac5a503717469ca5084ebc.
 /ad_360_$domain=somanhua.com
-/adcg/*
 /adnow.js$domain=50.7.31.228|tvboxnow.com
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /aSer_$domain=9gui.net|miejw.com
 /assets/sidebar/*$domain=v2ex.com
-/avshow_cn1.gif
 /baha/*$subdocument,domain=gamer.com.tw
 /banner.js$domain=28188.com|28188.net
 /banner/*$domain=leiphone.com
 /biz_icon/*$domain=cs090.com|wm090.com
-/cari/banner/*
-/cari/daybanner/*
-/dhfun_ad/*
-/dzwww/ad_dzw_inner.js
 /EZ-YAHOO/*$domain=ezvivi.com
 /fake_app.mp4$domain=91porn.com
 /friends/*$image,domain=v2ex.com
-/front/adv/getpmadvlist
-/game/aplus/pptv/*
 /gamer/*$subdocument,domain=gamer.com.tw
 /gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
-/homead/*_appledaily_bg.
-/html/taobao_focus_
-/ifengRotatorAd.js
 /images/*.gif$domain=maichun5.info|myhhg.com
 /images/*.js$domain=hrszyl.com|jiuzhiling.com|myt520.com|zchot.com
 /images/*gamble$domain=50.7.31.228|tvboxnow.com
@@ -4203,18 +4216,8 @@ $websocket,domain=5nj.com|cechi8.com
 /images/sgcrwj*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|white-plus.net
 /img/skin/*_bg.$domain=firefox.com.cn|firefoxchina.cn
 /img/skin/tao$domain=firefox.com.cn|firefoxchina.cn
-/modules/video/player/nuevo/midroll.php?
-/moneymaker/images/*.gif
-/moneymaker/js/fkpp.js
-/moneymaker/js/kppp.js
-/moneymaker/js/tmpp.js
-/moneymaker/js/videoplayer.js
 /mydisplay.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
-/nowscore/ad/*
-/opbb/float.js
-/opbb/obpp.tpl
 /r/video/*$domain=youxi.baidu.com
-/sc_ifeng/*
 /sda/*$domain=chineseinla.com
 /sinaLoginReward2014.
 /sinaLoginReward2014_comment.
@@ -4223,7 +4226,6 @@ $websocket,domain=5nj.com|cechi8.com
 /sungg/*$domain=sun0769.com
 /the_top$domain=28188.com|28188.net
 /tres/recommend/*$domain=ifeng.com
-/uniontgm.cmb.
 /vmind.qqvideo.tc.qq.com^
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
 /web/ad/*$domain=gamer.com.tw
@@ -4235,11 +4237,7 @@ $websocket,domain=5nj.com|cechi8.com
 ://*btbtt.*/view/image/QT_
 ://dmhy.org^*.*?$image
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
-:88/lighttpd/default/
-?method=baidu.ting.commercial.tactics&
-_!!1731999033.
 _vmind.qqvideo.tc.qq.com^
-_yad_jsonp_
 hxsame.hexun.com$domain=~quote.hexun.com
 |http://*/ad_bj.js?
 |http://t.cn/$domain=ady8.info|cdsoso.me
