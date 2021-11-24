@@ -9154,10 +9154,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jsdelivr.net/npm/@bootcss/*/assets/img/aliyun
 ||py.cn/static/images/advert/
 ||py.cn/src/img/pyy/
+||pixabay.com/static/img/publisher/*_ad_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 pixabay.com##div[class*="sponsoredWithResults"]
 py.cn##.index-advert
+pixabay.com##.carbon-ad
 py.cn##.right-pops
 avgle.com###avyc
 unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
