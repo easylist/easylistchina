@@ -4230,7 +4230,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||122.228.200.55:8082/blr.gif
 ||123-bt.cn/Public/static/images/*-
 ||123.sogou.com/discover/?
-||12580sky.com/gg/
 ||126.com/get.do?*=themeHandler.
 ||126.net/house/hrb/flash/*X
 ||126.net/ntesrich/*/suning-
@@ -9045,6 +9044,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||localau.vip/tccenter/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+gw54.com#?#li:-abp-has(>.ads)
+gw54.com##.index-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10907,7 +10908,7 @@ jsphp.net##.adleft-wrap
 cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
 mobile01.com##.admicrobtn
-12580sky.com,ccoo.cn,hackhome.com,vipcn.com,xg3q.com##.adn
+12580sky.com,ccoo.cn,hackhome.com,vipcn.com##.adn
 zj.com##.adnav
 zj.com##.adnav2
 gaokao.com##.adout116
@@ -10937,7 +10938,7 @@ lenovo.com.cn##.adsense-wrap
 3dmgame.com##.adshop
 qinbing.cn##.adspic_mid2
 av.movie##.adss-160x600
-12580sky.com,chinaz.com,ofweek.com,xg3q.com,yawin.cn##.adtext
+12580sky.com,chinaz.com,ofweek.com,yawin.cn##.adtext
 92sucai.com##.adtg2
 gdmm.com##.adtop > .module
 nfuwow.com##.adtopnewnewbox
@@ -13533,7 +13534,6 @@ wanyx.com##.zx_box
 11px.cn##.zz
 iqiyi.com##.zzVideo
 11px.cn##.zz_nr
-12580sky.com,xg3q.com#?#li[class]:-abp-has(> .mark > h3 > a:-abp-contains(/广告|推荐/))
 159i.com#?#.style15:-abp-has(> img[src="//159i.com/images/arrow3.gif"])
 159i.com#?#:-abp-has(> img[src*="gif"])
 159i.com#?#div:-abp-has(> img+a)
@@ -13675,7 +13675,6 @@ duba.com,newduba.cn##a[href*=".zhhainiao.com/"]
 plus28.com##a[href*="/?Extend="]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
 kaitao.cn##a[href*="/a.php?id="]
-12580sky.com,xg3q.com##a[href*="/ad."]
 instrument.com.cn##a[href*="/ad/"]
 xitek.com##a[href*="/adclick"]
 bjnews.com.cn##a[href*="/ads/"]
