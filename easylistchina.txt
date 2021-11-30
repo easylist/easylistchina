@@ -965,6 +965,7 @@ ubmcmm.baidustatic.com
 ##._ggs
 ##._popIn_recommend_article_ad
 ##._popIn_recommend_article_ad_reserved
+###player > #ADtip
 ##.a_2mu
 ##.a_cn
 ##.a_fl
@@ -8397,8 +8398,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tom*.com/js/advment.js
 ||tom.com/*TomFlashAd
 ||tom.com/adsender/
-||tongchengoz.com/video/*.mp4$rewrite=abp-resource:blank-mp3,domain=localmv1.com
-||tongchengoz.com^$rewrite=abp-resource:blank-mp3,domain=localmv1.com
 ||tonghuacun.com/js/uc.js
 ||tonnn.com/promotion2/*.js
 ||toolfk.com/common/11/
@@ -9173,6 +9172,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||amazononline.xyz/mp4/*.mp4$rewrite=abp-resource:blank-mp3,domain=iyingshi7.tv|localmv1.com
+||localau.vip/tccenter/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
