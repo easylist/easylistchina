@@ -9335,6 +9335,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||news.cn^*_tlad.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##A[target="_blank"][href*="/images/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15483,6 +15484,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
 @@||gooogle.how^$generichide
+@@||939394.xyz^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.com/adplugin/swf/MediaPlugin.swf$domain=qq.com
