@@ -14125,7 +14125,7 @@ dzbhdm.net##a[href="https://www.dzbhdm.com/"] > img
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
-939394.xyz##a[href^="/"][href$="/"] > img[src*=".gif"]
+939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
 159i.com##a[href^="//159i.com/tz/"]
 jandan.net##a[href^="//api.jandan.net/money.php?"]
 bigear.cn##a[href^="/?module=dantian&"]
