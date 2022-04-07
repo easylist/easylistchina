@@ -9273,8 +9273,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||sucloud.xyz/js/tou.js
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
+||sogou.com/reventondc/inner/gamebrand?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 wodown.com###showa
 hurigirls99.xyz###undertd + div[style]
 hurigirls99.xyz###undertd
