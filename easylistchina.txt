@@ -4488,7 +4488,6 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 /tanchuan.htm$popup,third-party
 :701/gd_xueersi/$popup
 ||slipdashedundermine.com^$popup
-||taobao.com^$popup,domain=ifenpaidy.com
 ! Contains domain names
 ||1024mzs.pw^$popup,third-party
 ||1024wanzhai.$popup,third-party
@@ -4524,7 +4523,6 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 ||gd.ct10000.com^*/push/$popup,third-party
 ||gotourl.xyz^$popup
 ||greenet.cn^*_popu_$popup
-||haogo.cc^$popup,third-party
 ||hinet.net/product/promotion/$popup
 ||huancaicp.com/?pid=$popup
 ||ieeod0.com^$popup
@@ -9551,6 +9549,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ifenpaidy.com##.post > .div
+ifenpaidy.com##.btn-copy + .btn
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10541,7 +10541,6 @@ cnpingpang.com###new-flash
 hc360.com###newAppBox
 hc360.com###newAppBox1
 cam4.tw###newTippingViewer + div[data-ab]
-ifenpaidy.com###new_a
 yaolan.com###newfix-dsp
 kaolashuwu.com###newmodule
 pigai.org###newnotice
