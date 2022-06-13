@@ -1,12 +1,3 @@
----
-name: issue_template
-about: Issue_report
-title: 域名 Host name
-labels: ''
-assignees: ''
-
----
-
 <!-- 列出存在问题的网址 Just include the website URL in the Title line of this issue report -->
 
 ### 列出存在问题的网址 List the website(s) you're having issues:
@@ -16,11 +7,11 @@ assignees: ''
 
 ### 什么问题? What happens?
 
-<!-- Just a description of the issue when you visit the site. Or steps on reproducing this  -->
+<!-- 请描述问题,或描述如何重现问题. Just a description of the issue when you visit the site. Or steps on reproducing this  -->
 
 ### 列出你的订阅 List Subscriptions you're using:
 
-<!-- Which adblock lists are you're using? -->
+<!-- 你正在用哪些列表? Which adblock lists are you're using? -->
 
 ### 你的设置 Your settings
 
@@ -34,5 +25,5 @@ assignees: ''
 
 ### 附注 Other details:
 
-<!-- If you suspect certain filters (this helps spending time to debug it manually).
+<!-- 列出有问题的规则,截图,建议等. If you suspect certain filters (this helps spending time to debug it manually).
 If you have a screen shot of the issue or advert, this will help to highlight it. -->
