@@ -12,7 +12,6 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
-/smbaidu/*.js
 /images/ggzz/*.gif
 -1688-wp-media/ads/
 -880-80-4.jpg
@@ -1252,6 +1251,8 @@ ubmcmm.baidustatic.com
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
+##.mbads
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
