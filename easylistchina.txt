@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+||allyes.$third-party
 -1688-wp-media/ads/
 ||ssh.*.com^*!$script,third-party
 -880-80-4.jpg
@@ -2485,7 +2486,6 @@ ubmcmm.baidustatic.com
 ||aliyuncss.com^
 ||aliyunxin.com^
 ||alllget.com^$third-party
-||allyes.$third-party
 ||amarketing.top^
 ||amazingchang.com^
 ||andmejs.com^$third-party
@@ -17724,6 +17724,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||ecmeilin.xyz^
 ||prtgurh.cn^
 ||g-day.design^
 ||nuqqcgb.cn^
