@@ -13,6 +13,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+||ssh.*.com^*!$script,third-party
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -1795,10 +1796,81 @@ ubmcmm.baidustatic.com
 ||u0071.com^
 !2206
 !long-term
+||tanx.com^$third-party,domain=~1688.com|~alimama.com|~tmall.com|~www.taobao.com
+||114la.com^$third-party,domain=~ylmf.com
+||114lm.com^$third-party
+||alimama.alicdn.com^
+||alimama.cn^$third-party,domain=~alimama.com|~foctop.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~youhuiyouhui.com.cn
+||baiducom.bj.bcebos.com^
+||books.com.tw/exep/ap/$third-party
+||c.91wan.com^$third-party
+||darren01.oss-cn-beijing.aliyuncs.com^
+||first-hufu.oss-cn-shanghai.aliyuncs.com^
+||foreveryoung.gz01.bdysite.com^
+||gd.189.cn^*.htm?SP=$third-party
+||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
+||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
+||kiees.com^$image,subdocument,third-party
+||lianmeng.360.cn^$domain=~lianmeng.360.cn
+||lu.sogou.com^
+||lu.sogoucdn.com^
+||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
+||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
 ||huazitupian.oss-cn-hongkong.aliyuncs.com^
 ||imgtg.com^*.gif
 ||qwe0231141.bj.bcebos.com^
+||alime-pic.oss-cn-hangzhou.aliyuncs.com^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
+||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
+||niuza.com^$image,subdocument,third-party
+||oa-panther.data.aliyun.com^$third-party
+||p0y.cn^$image,domain=~ipinyou.com.cn
+||p0y.cn^*.swf
+||sums.suning.com^$third-party
+||to8to.com^$subdocument,third-party
+||tttppp.oss-cn-guangzhou.aliyuncs.com^
+||ubmcvideo.baidustatic.com^
+||video231.oss-cn-beijing.aliyuncs.com^
+||widget.ezprice.com.tw^$third-party
+||xyimg.net^$domain=~xy.com
+||yiqifa.com^$subdocument
+||yiqifa.com^*.js$third-party
+||ysm.ezprice.net^$third-party
+||7xi9g1.com1.z0.glb.clouddn.com^
+||a.youdao.com^
+||achicih.gitee.io^$third-party
+||adm.cnzz.net^$third-party
+||adrs.sdo.com^
+||ads.uc.cn^
+||aixuntupian.oss-cn-hongkong.aliyuncs.com^
+||atanx.alicdn.com^
+||cb.baidu.com^
+||cbjs.baidu.com^
+||cpro.baidu.com^
+||cpro.baidustatic.com^
+||d15cjcet1djbmv.cloudfront.net^
+||d26yfyk0ym2k1u.cloudfront.net^
+||d32bug9eb0g0bh.cloudfront.net^
+||drmcmm.baidu.com^
+||duiwai.baidu.com^
+||eduad.baidu.com^
+||eiv.baidu.com^
+||farm-cn.plista.com^
+||g1.tagtic.cn^
+||gg.miued.com^
+||hao123union.baidu.com^$third-party
+||hiad.myweb.hinet.net^
+||iprefer.com.tw^$third-party
+||mobads.baidu.com^$third-party
+||news.tagtoo.co^$third-party
+||pos.baidu.com^
+||re.taotaosou.com^
+||show.kc.taotaosou.com^
+||spcode.baidu.com^
+||static-cn.plista.com^
+||tad.suning.com^
+||wit.qq.com^$third-party
+||ys2000.cdn.bcebos.com^
 !
 ||3336672.com^
 ||3337729.com^
@@ -1832,7 +1904,6 @@ ubmcmm.baidustatic.com
 ||hechaocheng.cn^$third-party
 ||henanfs.com^
 ||hulemedia.com^
-||ip.hivps.xyz^
 ||jhwj88.com^
 ||jlhygy.com^
 ||juren0.com^
@@ -1884,7 +1955,6 @@ ubmcmm.baidustatic.com
 ||3337735.com^
 ||3337736.com^
 ||3337780.com^
-||alime-pic.oss-cn-hangzhou.aliyuncs.com^
 ||dietfd.com^
 ||qhdfxkj.com^
 ||qyqc4s.com^
@@ -1941,8 +2011,6 @@ ubmcmm.baidustatic.com
 ||11111fs.com^
 ||1133.cc^$third-party
 ||113o.com^
-||114la.com^$third-party,domain=~ylmf.com
-||114lm.com^$third-party
 ||114yeah.com^$third-party
 ||116b.com^$third-party
 ||118114.cn^$third-party
@@ -2100,7 +2168,6 @@ ubmcmm.baidustatic.com
 ||3alian.net^$third-party
 ||3c3c3.com^
 ||3dwwwgame.com^$third-party
-||3g.990.net^
 ||3gustis.xyz^
 ||3lga3.cn^
 ||3p-link.com^$third-party
@@ -2233,7 +2300,6 @@ ubmcmm.baidustatic.com
 ||7o2o.com^$third-party
 ||7t955.com^$third-party
 ||7wen.cn^
-||7xi9g1.com1.z0.glb.clouddn.com^
 ||8080i.com^$third-party
 ||80sjw.com^
 ||810236.com^$third-party
@@ -2313,7 +2379,6 @@ ubmcmm.baidustatic.com
 ||9wlm.com^
 ||9wotuan.com^
 ||9xu.com^$third-party
-||a.youdao.com^
 ||a0b11.com^
 ||a0b22.com^
 ||a0b33.com^
@@ -2333,7 +2398,6 @@ ubmcmm.baidustatic.com
 ||abcdlm.com^
 ||abiaobai.cn^$third-party
 ||acgbase.com^$third-party
-||achicih.gitee.io^$third-party
 ||acptkgp.com^
 ||acs86.com^$third-party
 ||ad-plus.cn^$third-party
@@ -2352,7 +2416,6 @@ ubmcmm.baidustatic.com
 ||adget.cn^
 ||adhouyi.com^$third-party
 ||aditizanna.com^
-||adm.cnzz.net^$third-party
 ||admin6.com^$third-party
 ||adnex.tech^
 ||adnow.cc^$third-party
@@ -2363,8 +2426,6 @@ ubmcmm.baidustatic.com
 ||adpush.cn^$third-party
 ||adreal.cn^
 ||adreep.cn^$third-party
-||adrs.sdo.com^
-||ads.uc.cn^
 ||ads80.com^$third-party
 ||adsage.com^$third-party
 ||adsbro.com^$third-party
@@ -2407,7 +2468,6 @@ ubmcmm.baidustatic.com
 ||ailehui9149.com^
 ||aimato.com^$third-party
 ||aishangcan.com^
-||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||ajaxcdn.org^
 ||ajwssds.com^
 ||akmh001.vip^
@@ -2417,8 +2477,6 @@ ubmcmm.baidustatic.com
 ||alexandraeden.com^
 ||alifixed.cn^
 ||alightin.com^
-||alimama.alicdn.com^
-||alimama.cn^$third-party,domain=~alimama.com|~foctop.com|~meidebi.com|~qinqintejia.com|~tanx.com|~taobao.com|~youhuiyouhui.com.cn
 ||alimb.top^
 ||alimc1.top^
 ||alisinak.com^
@@ -2448,7 +2506,6 @@ ubmcmm.baidustatic.com
 ||assigned.cn^
 ||asu05mm.cn^
 ||at98.com^
-||atanx.alicdn.com^
 ||atmib.com^
 ||auogiv.cn^
 ||auspiciousvp.com^
@@ -2466,7 +2523,6 @@ ubmcmm.baidustatic.com
 ||baiapk.com^
 ||baidu-image-qqcom.com^
 ||baiduace.com^
-||baiducom.bj.bcebos.com^
 ||baidujavascript.com^
 ||baidulao.com^
 ||baidutuapi.com^
@@ -2535,7 +2591,6 @@ ubmcmm.baidustatic.com
 ||bole8dns.com^
 ||boleimg.com^
 ||bolimen.top^
-||books.com.tw/exep/ap/$third-party
 ||bosatria.cn^
 ||bosiwangzi.cn^
 ||botsforger.com.cn^
@@ -2546,7 +2601,6 @@ ubmcmm.baidustatic.com
 ||bs777.net^$third-party
 ||bsfishing.cn^
 ||bsjgc.com^
-||bskchina.cn/js/
 ||bskeye.com^
 ||btmp4.net^
 ||btwan5.com^
@@ -2561,7 +2615,6 @@ ubmcmm.baidustatic.com
 ||bydonline.com^
 ||byqxqhb.cn^
 ||bznxc6721.xyz^
-||c.91wan.com^$third-party
 ||caiyifz.com^$third-party
 ||calistabeverly.com^
 ||cangnews.com^
@@ -2573,9 +2626,7 @@ ubmcmm.baidustatic.com
 ||cardniu.com^$third-party
 ||carolinebeverly.com^
 ||catherinebeverly.com^
-||cb.baidu.com^
 ||cbhif.com^
-||cbjs.baidu.com^
 ||cc599.com^
 ||cccccd.com^
 ||cchvc.net^
@@ -2638,7 +2689,6 @@ ubmcmm.baidustatic.com
 ||cnscdj.com^
 ||cnxad.com^$third-party
 ||cnxad.net^
-||cnzz.com.so^
 ||code222.com^
 ||code668.com^
 ||coinadv.com^$third-party
@@ -2649,14 +2699,11 @@ ubmcmm.baidustatic.com
 ||cpc.cc^$third-party
 ||cpm360.com^$third-party
 ||cppoc.com^
-||cpro.baidu.com^
-||cpro.baidustatic.com^
 ||cpv6.com^
 ||cqdzjc.com^
 ||cqfangduan.com^
 ||cqftonline.com^
 ||cqjjlsy.com^
-||cqtnfs.com^$domain=~agefans.tv
 ||cqwzjx.cn^
 ||cqyhd.com^
 ||cr-nielsen.com^$third-party
@@ -2692,10 +2739,7 @@ ubmcmm.baidustatic.com
 ||czshenyue.cn^
 ||czsmac.com^
 ||cztanchao.com^
-||d15cjcet1djbmv.cloudfront.net^
 ||d1ad.com^$third-party
-||d26yfyk0ym2k1u.cloudfront.net^
-||d32bug9eb0g0bh.cloudfront.net^
 ||d40.xyz^
 ||d58zz.com^
 ||d8360.com^$third-party
@@ -2715,7 +2759,6 @@ ubmcmm.baidustatic.com
 ||damumu.xyz^
 ||dante2007.com^
 ||daochengwowo.top^
-||darren01.oss-cn-beijing.aliyuncs.com^
 ||darwk.com^
 ||dashaowu.com^
 ||dashet.com^
@@ -2773,14 +2816,12 @@ ubmcmm.baidustatic.com
 ||dreamfull.cn^
 ||drebz4f.shop^
 ||drjgjngf.com^
-||drmcmm.baidu.com^
 ||drmfslx.cn^
 ||dslenggui.com^
 ||dspxxy.com^
 ||dsqzk.cn^
 ||dszan.com^
 ||dt243100.com^
-||duiwai.baidu.com^
 ||duojlm.com^
 ||duomai.com^$third-party
 ||duoquyouhui.cn^
@@ -2818,11 +2859,9 @@ ubmcmm.baidustatic.com
 ||ecuc123.net^
 ||edenhermosa.com^
 ||edo5.com^
-||eduad.baidu.com^
 ||eduzzjy.com^
 ||eeyy.com^$third-party
 ||egooad.com^$third-party
-||eiv.baidu.com^
 ||ejin56.com^$third-party
 ||ejktj.com^
 ||ellenhilary.com^
@@ -2857,7 +2896,6 @@ ubmcmm.baidustatic.com
 ||fanfanhuiben.com^
 ||fanli.in^
 ||fanwoyang.com^
-||farm-cn.plista.com^
 ||favourablequickdelve.com^
 ||fcheng.top^
 ||fd7c.com^
@@ -2870,7 +2908,6 @@ ubmcmm.baidustatic.com
 ||fensifuligo.com^
 ||fexiaen.com^
 ||fg-z.com^
-||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||fisher56.com^
 ||fjctlnn.top^
 ||fjdy.cc^
@@ -2883,7 +2920,6 @@ ubmcmm.baidustatic.com
 ||focusonus.top^
 ||food5.net^$third-party
 ||forever-k.com.cn^
-||foreveryoung.gz01.bdysite.com^
 ||forrerri.com^
 ||fpvdxd5.com^
 ||fqtra.com^
@@ -2906,7 +2942,6 @@ ubmcmm.baidustatic.com
 ||fzbymy.com^
 ||fzdeng.com^
 ||fzglqyy.com^
-||g1.tagtic.cn^
 ||g1c5.com^
 ||g1f5.com^
 ||g35.cc^$third-party
@@ -2921,7 +2956,6 @@ ubmcmm.baidustatic.com
 ||gasxf.com^
 ||gaycloud.cn^
 ||gclick.cn^$third-party
-||gd.189.cn^*.htm?SP=$third-party
 ||gdbly.com^
 ||gdgy56.com^
 ||gdskywings.com^
@@ -2934,7 +2968,6 @@ ubmcmm.baidustatic.com
 ||gf108.com^
 ||gfd80.com^
 ||gfshfg.com^
-||gg.miued.com^
 ||gg570.com^
 ||ggdydz.com^
 ||ggmm777.com^$third-party
@@ -3022,7 +3055,6 @@ ubmcmm.baidustatic.com
 ||hangoutairbags.com^
 ||hanjw1988.com^
 ||hanqidq.com^
-||hao123union.baidu.com^$third-party
 ||hao222.com^$third-party
 ||hao61.net^
 ||haokan3.cn^
@@ -3063,7 +3095,6 @@ ubmcmm.baidustatic.com
 ||hflwgg.xyz^
 ||hfoyjg.cn^
 ||hi760.com^
-||hiad.myweb.hinet.net^
 ||hikin.online^
 ||hivecn.cn^
 ||hjqsyyy.com^
@@ -3139,7 +3170,6 @@ ubmcmm.baidustatic.com
 ||hxtwl.cn^
 ||hxyifu.com^
 ||hxyx360.com^
-||hy-cn.cn/index.php?
 ||hyhfimgg.com^
 ||hylmimgg.com^
 ||hylmkele.com^
@@ -3184,8 +3214,6 @@ ubmcmm.baidustatic.com
 ||ilaohuyou.xyz^
 ||ilepai.com^$third-party
 ||ilinxi.cc^
-||image.qndown.com^$third-party
-||img.uu1001.cn^$third-party,domain=~1688.com|~alimama.com|~taobao.com
 ||imglele.xyz^
 ||imglolo.xyz^
 ||imgpipi.xyz^
@@ -3195,12 +3223,10 @@ ubmcmm.baidustatic.com
 ||imnvgma.cn^
 ||index8.cn^$third-party
 ||instreet.cn^$third-party
-||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
 ||intentarget.com^$third-party
 ||iojgo.com^
 ||iomsew.com^
 ||ipaypay.cn^$third-party
-||iprefer.com.tw^$third-party
 ||iqu-operation.com^
 ||iroby.com^
 ||is686.com^$third-party
@@ -3326,7 +3352,6 @@ ubmcmm.baidustatic.com
 ||juvbzle.cn^
 ||juxiangyou.com^$third-party
 ||juyiqiche.com.cn^
-||jwl.hk.cn^
 ||jx118114.net^
 ||jxjzny.com^
 ||jxlqgs.com^
@@ -3349,7 +3374,6 @@ ubmcmm.baidustatic.com
 ||keeearl.top^
 ||keeyekey.xyz^
 ||kefeng56.com^$third-party
-||kejet.$third-party
 ||kevinhewu.com^
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
@@ -3362,7 +3386,6 @@ ubmcmm.baidustatic.com
 ||kguke.com^
 ||khgj.cn^$third-party
 ||khufaw2.com^
-||kiees.com^$image,subdocument,third-party
 ||kilin.xyz^
 ||kingpolo.com.cn^
 ||kingwam.com^
@@ -3442,9 +3465,7 @@ ubmcmm.baidustatic.com
 ||liangxiaoru.cn^
 ||liangyi360.com^$third-party
 ||liangziweixg.com^
-||lianjie.phpwind.com^$third-party
 ||lianle.com^$third-party
-||lianmeng.360.cn^$domain=~lianmeng.360.cn
 ||lichenqx.com^
 ||lico-ys.com^
 ||lifu11.com^
@@ -3472,7 +3493,6 @@ ubmcmm.baidustatic.com
 ||llguandongyan.com^
 ||llqss.top^
 ||llyqy.top^
-||lm.35.com^$third-party
 ||lm213.com^
 ||lm245.com^
 ||lm335.com^
@@ -3496,7 +3516,6 @@ ubmcmm.baidustatic.com
 ||lm995.com^
 ||lnr1.com^$third-party
 ||loclog.cn^
-||log.interest.mix.sina.com.cn^
 ||logoduoduo.com^
 ||lolmp4.com^$third-party
 ||longbaojiachen.top^
@@ -3509,8 +3528,6 @@ ubmcmm.baidustatic.com
 ||lsaeb.com^
 ||lsxmg.com^
 ||ltcprtc.com^
-||lu.sogou.com^
-||lu.sogoucdn.com^
 ||luassane.cn^
 ||luoyuanedu.cn^
 ||lv711.net^$third-party
@@ -3547,7 +3564,6 @@ ubmcmm.baidustatic.com
 ||medi-8.net^$third-party
 ||media8.cn^$third-party
 ||mediaadjustment.com^
-||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
 ||meethanshi.com^
 ||meihaoxiangwang.com^
 ||meituangov.cn^
@@ -3557,7 +3573,6 @@ ubmcmm.baidustatic.com
 ||metmt.com^
 ||metro114.com^
 ||mezhai.net^
-||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
 ||mgwcn.com^
 ||miaolejieshui.cn^
 ||miaozhen.com^$third-party
@@ -3579,7 +3594,6 @@ ubmcmm.baidustatic.com
 ||mm2ah.com^
 ||mngjrn.cn^
 ||mnxtu.com^
-||mobads.baidu.com^$third-party
 ||moguozhi.com^
 ||mojing.xyz^
 ||momzs.com^$third-party
@@ -3617,7 +3631,6 @@ ubmcmm.baidustatic.com
 ||netcoretech.net^
 ||netdjs.net^
 ||netkantu.com^
-||news.tagtoo.co^$third-party
 ||newyiba.top^
 ||ni22.com^$third-party
 ||ni87.com^
@@ -3626,7 +3639,6 @@ ubmcmm.baidustatic.com
 ||niuguwang.net.cn^
 ||niulai0323166.space^
 ||niuxgame77.com^
-||niuza.com^$image,subdocument,third-party
 ||niwota.com^$third-party
 ||njaeqjx.com^
 ||njcyfpv.cn^
@@ -3648,7 +3660,6 @@ ubmcmm.baidustatic.com
 ||nmqbg.com^
 ||nnocsin.cn^
 ||nord-raum.com^$third-party
-||notice.uchome.manyou.com^
 ||npftmqv.cn^
 ||nphqw.cn^
 ||nr1234.com^
@@ -3665,7 +3676,6 @@ ubmcmm.baidustatic.com
 ||nydql.com^
 ||nzezn.com^
 ||nzydzsw.com^
-||oa-panther.data.aliyun.com^$third-party
 ||oceanbot-steam.com^
 ||ojbknb.com^
 ||ojbknx.com^
@@ -3690,8 +3700,6 @@ ubmcmm.baidustatic.com
 ||ovkwiz.xyz^
 ||oxrm.com^$third-party
 ||oystertown.net^
-||p0y.cn^$image,domain=~ipinyou.com.cn
-||p0y.cn^*.swf
 ||p3tt.com^
 ||pababy.cn^$third-party
 ||pagechoice.net^$third-party
@@ -3709,7 +3717,6 @@ ubmcmm.baidustatic.com
 ||penxiangge.com^
 ||pfiparts.com^
 ||pg88cdn.com^
-||pgcm58.com/maizhan/
 ||phagueq.cn^
 ||piclick.cn^$third-party
 ||pinyierp.com^
@@ -3723,7 +3730,6 @@ ubmcmm.baidustatic.com
 ||pofang.com^
 ||poke88.com^
 ||polkoa.com^
-||pos.baidu.com^
 ||poyang.cn^$third-party
 ||poyang.com^
 ||pro.cn^$third-party
@@ -3808,7 +3814,6 @@ ubmcmm.baidustatic.com
 ||rdance.cn^
 ||rdlbkvo.cn^
 ||rdsvsh.com^
-||re.taotaosou.com^
 ||rebdy.com^
 ||reendian.cn^
 ||rekanw.com^$third-party
@@ -3898,7 +3903,6 @@ ubmcmm.baidustatic.com
 ||sho9wbox.com^$third-party
 ||shouwangba.cn^
 ||shouyouyou.com^
-||show.kc.taotaosou.com^
 ||shuake.ink^
 ||shuangshiyihightgo.top^
 ||shucaihangjia.com^
@@ -3945,7 +3949,6 @@ ubmcmm.baidustatic.com
 ||soulplp.com^
 ||souyou.org^
 ||sparkyinchun.com^
-||spcode.baidu.com^
 ||sportsdream.top^
 ||spxnet.com^
 ||sq85.press^
@@ -3955,10 +3958,8 @@ ubmcmm.baidustatic.com
 ||ssaa.cc^$third-party
 ||sscj123.com^$third-party
 ||ssdaili.com^
-||ssh.*.com^*!$script,third-party
 ||sspsky.com^$third-party
 ||star8.net^$third-party
-||static-cn.plista.com^
 ||steadfastsystem.com^
 ||stgowan.com^
 ||stkexcy.cn^
@@ -3970,7 +3971,6 @@ ubmcmm.baidustatic.com
 ||subo.me^$third-party
 ||sudahj.com^
 ||sufficient.cn^
-||sums.suning.com^$third-party
 ||sun66387567606.site^
 ||sundady.online^
 ||sunyujia.top^
@@ -4013,13 +4013,10 @@ ubmcmm.baidustatic.com
 ||t58b.com^
 ||t70123.com^
 ||ta80.com^$third-party
-||tad.suning.com^
 ||tamedia.com.tw^$third-party
 ||tan1dian.com^
 ||tangyaols.com^
 ||tanwanyx.com^$third-party
-||tanx.com^$third-party,domain=~1688.com|~alimama.com|~tmall.com|~www.taobao.com
-||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
 ||taoguanda.com^
 ||taoguohe.com^
 ||taohanpai.com^
@@ -4068,7 +4065,6 @@ ubmcmm.baidustatic.com
 ||tlsgq.cn^
 ||tnarzc.com^
 ||tngmn.com^
-||to8to.com^$subdocument,third-party
 ||togo666.com^
 ||tongdejiayuan.com^
 ||tongdianku.com^
@@ -4076,8 +4072,6 @@ ubmcmm.baidustatic.com
 ||toolset.vip^
 ||toospk.com^
 ||toourbb.com^
-||top.baidu.com^$subdocument,third-party
-||top.taobao.com^$subdocument,third-party
 ||top267.com^
 ||top888.com^$third-party
 ||touchrom.com^$third-party
@@ -4085,7 +4079,6 @@ ubmcmm.baidustatic.com
 ||toutiao.xn--fiqs8s^
 ||towers-shield.com^
 ||tpe163.com^
-||tptoon.com/skin/js/footkk.
 ||tqpay.top^
 ||trackingpro.pro^
 ||trenhdg.com^
@@ -4096,7 +4089,6 @@ ubmcmm.baidustatic.com
 ||tsyndolls.com^
 ||ttahsdu.top^
 ||ttayy.cn^
-||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
 ||ttz.com^$third-party
 ||ttzhongbao.com^
@@ -4134,8 +4126,6 @@ ubmcmm.baidustatic.com
 ||tz88.store^
 ||tzxmhi.com^
 ||u-q.net.cn^
-||u.801t.com^$third-party
-||u.huoying666.com^
 ||u0056.com^
 ||u0067.com^
 ||u1n6ok.cn^
@@ -4145,7 +4135,6 @@ ubmcmm.baidustatic.com
 ||ubalh.com^
 ||uballcc.com^
 ||ubcpm.com^$third-party
-||ubmcvideo.baidustatic.com^
 ||uc138.com^$third-party
 ||uc610.com^
 ||uctrac.com^$third-party
@@ -4169,7 +4158,6 @@ ubmcmm.baidustatic.com
 ||uneede.com^
 ||unimhk.com^$third-party
 ||union-wifi.com^$third-party
-||union.zbj.com^$third-party
 ||union009.com^$third-party
 ||unionbig.com^$third-party
 ||unionli.com^$third-party
@@ -4188,7 +4176,6 @@ ubmcmm.baidustatic.com
 ||uzpmrbek.com^
 ||v-links.net^$third-party
 ||v.center^$third-party
-||v.xi666.com^$third-party
 ||vaedan.top^
 ||vainews.cn^
 ||valueur.com^
@@ -4200,7 +4187,6 @@ ubmcmm.baidustatic.com
 ||vf5c.com^$third-party
 ||vhpxa.top^
 ||victorjx.com^
-||video231.oss-cn-beijing.aliyuncs.com^
 ||vip1221.com^$third-party
 ||visadd.com^$third-party
 ||vlion.cn^$third-party
@@ -4256,14 +4242,11 @@ ubmcmm.baidustatic.com
 ||whycywhivu.pro^
 ||whytoss.com^
 ||whzxpm.cn^
-||wicp.net^*.swf
-||widget.ezprice.com.tw^$third-party
 ||wikigifth.com^
 ||winasdaq.com^$third-party
 ||winde.cc^
 ||windowsxi.com^
 ||windzq.com^
-||wit.qq.com^$third-party
 ||wjguc.com^
 ||wka8.com^
 ||wljj56.com^
@@ -4429,9 +4412,7 @@ ubmcmm.baidustatic.com
 ||xxgslt.com^
 ||xxhrd.com^
 ||xxsjsp.com^
-||xxx55tp.com^*.gif
 ||xxyxmdq.cn^
-||xyimg.net^$domain=~xy.com
 ||xylmdm.top^
 ||xytom.com^
 ||xz6d.com^
@@ -4492,8 +4473,6 @@ ubmcmm.baidustatic.com
 ||yinyating.top^
 ||yinyuehu.cn^
 ||yipanhaocai.com^
-||yiqifa.com^$subdocument
-||yiqifa.com^*.js$third-party
 ||yiqiv.com^$third-party
 ||yiran686.cn^
 ||yirendajiankang.com^
@@ -4536,12 +4515,10 @@ ubmcmm.baidustatic.com
 ||yqhlty.com^
 ||yqw88.com^
 ||yrehdfer.com^
-||ys2000.cdn.bcebos.com^
 ||ysgsq.cn^
 ||ysjkbk.com^
 ||ysjwj.com^
 ||yskanba.com^$script,third-party
-||ysm.ezprice.net^$third-party
 ||ysyjg.com^
 ||ytop8.com^
 ||ytyug.com^
@@ -4569,7 +4546,6 @@ ubmcmm.baidustatic.com
 ||ywak.com.cn^
 ||ywjxsp168.cn^
 ||ywxi.net^
-||yxdyk.com^$script,third-party
 ||yxgfcj.com^
 ||yxmspx.com^
 ||yxszy.com^
@@ -6598,7 +6574,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||doubleclick.ctfile.com^
 ||douguo.net/upload/post/d/
 ||doutula.com/img/upupoo/
-||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 ||douyu*/upload/signs/*.swf
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
