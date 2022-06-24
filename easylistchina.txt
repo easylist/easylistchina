@@ -13359,10 +13359,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||udn.com/common2/iframe/
 ||udn.com/SSI/neckFrame
 ||udn.com^*/ad/
-||ufanw.com/js/hongbao.js
 ||ufile.cc/crod.js
 ||uho.com.tw^$subdocument
-||ulifestyle.com.hk/images/*_300x100
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||union.591.com.tw/cpt?
 ||union.china.com.cn^
@@ -14033,6 +14031,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||qihengprint.cn/mxstatic/js/1.js
 !------------------------Specific element hiding rules------------------------!
+ufanw.com##.layui-layer
 szxx.com.cn###A0
 hao123.com##.insertad_wrapper
 ktsf.com###sow-slider-7
@@ -14906,7 +14905,6 @@ toolfk.com###layui-layer100001
 xixicai.top###left-box
 hao.360.com###left-float-animation
 hao.360.com###left-nav-place
-uzshare.com###left-panel
 baidu.com###left-promotion
 hao.360.cn###left-ria-fixed
 rising.cn###left50
@@ -19690,7 +19688,7 @@ dpp.org.tw#@##ad_small
 tt1069.com#@##adbrite
 abbao.cn,tt1069.com,xietui.com#@##adcontent
 nfmovies.com#@##adright
-hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,ugediao.com,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
+hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
 wenku8.net#@##adtop
 union.58.com#@##advertise
 fxykx.com,pantsu.cat#@##banner_ad
@@ -19982,7 +19980,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ad.ourgame.com^
 @@||ad.thsi.cn/siteHome/
 @@||ad.unimhk.com/show.php?$domain=mnighthk.net
-@@||ad2.uoocuniversity.com^$~third-party
 @@||ad4.on.cc/web/www/delivery/ajs.php
 @@||ad4.on.cc/web/www/delivery/fl.js
 @@||ad4.on.cc/web/www/delivery/spc.php
@@ -20309,7 +20306,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||news.u17i.com/advert/
 @@||newsmth.net/nForum/*/ADAgent_
 @@||niotv.com^$generichide
-@@||niucache.com/service/www/ad/
 @@||nixingle.com/zhenbuka/statics/js/guanggao.js
 @@||noahedu.com/ad/$~third-party
 @@||noahedu.com/advertising/
