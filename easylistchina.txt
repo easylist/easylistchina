@@ -9519,6 +9519,7 @@ _vmind.qqvideo.tc.qq.com^
 hxsame.hexun.com$domain=~quote.hexun.com
 |http://*/ad_bj.js?
 |http://t.cn/$domain=ady8.info|cdsoso.me
+||manwa.life/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*xav.*/guang/*.gif
@@ -14303,6 +14304,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+manwa.life##a[href*=".hyenadata.com/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
