@@ -14374,6 +14374,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tucao.lol/uploadfile/*/960-80.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 jb51.net##.tipsa_ds
 jb51.net##.topimg
 cupfox.app##.banner-box
@@ -18707,7 +18708,7 @@ iqiyi.com##.video-ad_left
 iqiyi.com##.video-ad_right
 av.movie##.video-banner
 eastday.com##.video-mask
-theporn.cc##.video-player-container > div:not([class])
+theporn.cc##.video-player-container > script + div
 porn5f.com##.video-promote-adv
 18av.pro##.video-server > .inplayer
 ali213.net##.video-window
