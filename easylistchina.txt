@@ -10824,7 +10824,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
 ||clb.biz/Public/static/js/common-v2.js
-||client.88tours.com^
 ||clouddn.com/960x60.gif
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudfront-666.kxcdn.com/v4.js
@@ -13608,15 +13607,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wkcdn.com/style_
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
-||wm114.cn/0images/hlbxd3.jpg
 ||wmcdn.net^$domain=liyuans.com
-||wmzhe.com/pics/ae/d3/
-||wmzhe.com/static/wmzhe/images/cjzg/
-||wmzhe.com/static/wmzhe/images/suishenbao/
 ||wn789.com/wp-content/uploads/*/SugarHosts
 ||wnacgs.com/data/game/
 ||woaidu.org/images/20180802/3.jpg
-||wobuka2.com/js/
 ||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
 ||wowad.wow-classic.com^
@@ -14108,6 +14102,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wanmei.la/a*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+techug.com,webhek.com##a[href*="/4r4.html"]
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
 baidu.com,bdimg.com#?#.j_thread_list:-abp-has(>.fengchao-wrap-feed)
 szxx.com.cn###A1
@@ -18930,7 +18925,7 @@ muchong.com##a[href^="http://muchong.com/bbs/a"] > img
 cnbeta.com##a[href^="http://note.youdao.com/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
 163.com##a[href^="http://popme.163.com/"]
-acglala.net,boke112.com,ruanyifeng.com,techug.com,vaikan.com,webhek.com##a[href^="http://t.cn/"]
+acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 zhlzw.com##a[href^="http://u.ctrip.com/"]
 265g.com##a[href^="http://union-click.jd.com/"]
@@ -19884,7 +19879,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/adblock_$domain=xingk.cc
 @@/adblockDetector.$domain=softwarebrother.com
 @@/adfile/*$domain=cidianwang.com
-@@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 @@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
@@ -19898,7 +19892,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/adsbygoogle.$domain=moa.tw
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=mndxy.org
-@@/adsimg/*$domain=wdxuexi.com
 @@/adslider/*$domain=firstbank.com.tw
 @@/adsystem/*$domain=adcenter.dhgate.com
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
@@ -20321,7 +20314,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||lnk2.cc^$generichide
 @@||loltmcheck.com/js/ads.js
 @@||macauo2o.com/advertise/
-@@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
@@ -20359,7 +20351,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||nceea.cn/Content/images/ad/
 @@||netded.com/plus/ad_js.php?aid=3|
 @@||netflav.com^$generichide
-@@||newad.mail.wo.cn^
 @@||news.u17i.com/advert/
 @@||newsmth.net/nForum/*/ADAgent_
 @@||niotv.com^$generichide
@@ -20525,7 +20516,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||vvic.com/monetize/ads/index/
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
-@@||websetnet.com^$generichide
 @@||weibo.com/api/weipan/getAds
 @@||weithenn.org^$generichide
 @@||weiyun001.com/banner_ads.js
@@ -20533,7 +20523,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||wenxuecity.com^$generichide
 @@||wgun.net^$elemhide
 @@||wholehk.com^$generichide
-@@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
 @@||wowsai.com/data/files/ad/
 @@||wuyong.fun^$generichide
 @@||wuyou.com.cn/Js/ad.js
