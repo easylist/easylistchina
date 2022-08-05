@@ -13326,7 +13326,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tcmap.com.cn/js/b_
 ||techritual.com/wp-content/uploads/*/HDcource_
-||techug.com/mug/
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengzhihh.com/image/*-950x277.
@@ -14102,6 +14101,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wanmei.la/a*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+techug.com##a[href*="/eee.html"]
+techug.com##a[href*="/222.html"]
 techug.com,webhek.com##a[href*="/4r4.html"]
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
 baidu.com,bdimg.com#?#.j_thread_list:-abp-has(>.fengchao-wrap-feed)
@@ -17545,7 +17546,6 @@ dnwx.com##.mt5_23
 meltoday.com,sydneytoday.com##.mtgad
 90oo.com##.mtswp_scbar_ad
 stockstar.com##.much_ad
-techug.com##.mug
 pixiv.net##.multi-ads-area
 china.com##.mxm
 cngold.com.cn##.myGuangGao
