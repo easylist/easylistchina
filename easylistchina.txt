@@ -1244,6 +1244,9 @@ ubmcmm.baidustatic.com
 ##.mediavAd_report
 ##.mediavfeed-newsitem
 ##.menutab_ad
+##.ads-after-content
+##.ads-before-content
+##.ads-after-header
 ##.ml_ad1
 ##.ml_ad3
 ##.ml_ad5
@@ -1504,7 +1507,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".1317yb.com"]
 ##a[href*=".222bz.com/"]
 ##a[href*=".3366722.com"]
-##a[href*=".41gw.com/"]
 ##a[href*=".51gogogou.com"]
 ##a[href*=".5599722.com"]
 ##a[href*=".613639.com/"]
@@ -13573,7 +13575,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wanmei.la/a*.js
 ||wanwan.sina.com.cn/third_party/
 ||wanyx.com/Public/js/fan.js
-||wdzj.com/wdzj/images/hezuo/
 ||we560.com/js/*.js
 ||weathercn.com/m_mobile/ad_image/
 ||web.900.la^
@@ -13581,7 +13582,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||webkaka.com/ad/
 ||wehefei.com/htmlphp/tmall/
 ||wei2008.com/js/*0.
-||wei2008.com/js/jump
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
 ||weibo.cn/status/banner?
@@ -14119,6 +14119,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||66game.cn/skinnew/js/ad.js
+||wpdaxue.com/img/*/txy-
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 woshipm.com##.article--heroAd
@@ -14740,7 +14741,6 @@ qq.com###focus_jordon
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net###focusslide
 bitauto.com###folieAdNews
 913e.com###footad_913e
-wdzj.com###footbanner
 jxedt.com###footer
 ttzmz.vip###footer > div[style]
 zhujiceping.com###footer-widget-box
@@ -15392,7 +15392,6 @@ showtv.com.tw###sub-ad
 163.com###suning-bottom-banner
 265g.com###swiper-bot
 yxdown.com###sy
-windowszj.com###system_type
 tw116.com###t365
 tucao.lol###t7_att
 firefoxchina.cn###tab-mod-tehui
@@ -16011,7 +16010,6 @@ xmfish.com##.adv-760
 xmfish.com##.adv-960
 yxdm.li##.adv-bt
 xinhuanet.com##.adv-column2
-wdzj.com##.adv-img
 yxdm.li##.adv0
 shouji56.com##.adv01 + a
 qq.com##.adv1000
@@ -16069,7 +16067,6 @@ weiyun001.com##.agency-list
 33lc.org##.ags
 wmzhe.com##.aibyte_ad
 moe.best##.alert
-wdzj.com##.alert-box-pop
 5217kdy1.xyz##.alert-success + center
 eetop.cn##.alert_windows
 ali213.net##.ali-photo-carousel-pic > li > a[href*=".fhyx."]
@@ -17396,7 +17393,6 @@ hao123.cn##.llc
 tianya.cn##.load_m_top
 ypppt.com##.login_panel
 uc123.com##.logo > a
-wdzj.com##.logo-banner
 chinamedevice.cn##.logo_ads
 silver.org.cn##.logo_dsaas
 qinbing.cn##.logo_right
@@ -17647,7 +17643,6 @@ wallstreetcn.com##.omg-container
 10jqka.com.cn,hepan.com##.onead
 duba.com##.oneone-search
 bilibili.com##.online + .adpos
-wdzj.com##.opentb
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
 read.qidian.com##.operation-wrap
@@ -17660,7 +17655,6 @@ fuliba2021.net,ypojie.com##.orbui-post-footer
 jdwx.info,motobuy.com.tw##.other
 6parknews.com##.other_list_ad
 cnbeta.com##.other_news
-wenxuecity.com##.otherposts > ul > li > a[target="_blank"]
 bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
 avsuggest.com,qiaobutang.com##.overlay
 udn.com##.overlay-container
@@ -18354,7 +18348,7 @@ smm.cn##.top_taishan_jinzhu
 qz828.com##.topadv
 itavcn.com##.topadvzone
 dayanzai.me##.topban
-21ic.com,pyccoo.cn,qq.com,wdzj.com##.topbanner
+21ic.com,pyccoo.cn,qq.com##.topbanner
 wenxuecity.com##.topbannerw
 kocpc.com.tw##.topbarad
 chromecj.com##.topblock
@@ -18653,7 +18647,6 @@ iqiyi.com##.zzVideo
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
 99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
 sina.com.cn##:not(.BigPic) > a[href*="sax.sina.com.cn/click?"]
-www.wpdaxue.com##:not(.post-thumbnail) > a[target="_blank"] > img
 iqiyi.com##:not(.qy-index-page) > div[id^="100000"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
 sogou.com##A[data-log*="PicAd"]
@@ -19534,7 +19527,6 @@ qq.com##img[data-module="advertisement"]
 gucheng.com##img[data-mv-ad]
 hsck.org##img[height="60px"]
 eworldship.com##img[height="70"]
-wishdown.com##img[href*=".41gw.com/"]
 szhk.com##img[id^="adp"]
 jspoo.com##img[id^="float_img_"]
 bukaivip.com##img[onclick]
