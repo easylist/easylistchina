@@ -14202,6 +14202,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||csx365.com/h
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
+baidu.com,bdimg.com#?#.l_post:-abp-has(div[class*=" fc-"])
 vikacg.com##div[id^="home-row-ads"]
 vikacg.com###home-row-lunbo
 pornlulu.com##.container-fluid > .links
