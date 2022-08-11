@@ -789,6 +789,11 @@ ubmcmm.baidustatic.com
 ||ssh.*.com^*!$script,third-party
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
+##a[target="_blank"][onclick*="广告点击"]
+###toptd.toptd
+###lefttd.lefttd
+###rightd.rightd
+###undertd.undertd
 ###ChapterView > .slide-baidu
 ###Layeraa1
 ###Layeraa2
