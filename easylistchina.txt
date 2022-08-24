@@ -1375,7 +1375,7 @@ ubmcmm.baidustatic.com
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
 ##A[href^="/e/public/ClickAd?adid="]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
-##a > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
+##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ~alicdn.com##a > img[width="960"][src*=".alicdn.com/"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
