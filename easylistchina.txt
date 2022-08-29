@@ -14568,6 +14568,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||qiyushangmao.top/public/1/plugins/js/common/plugins/jquery/jquery.dataTables.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+freedidi.com##a[href*="/bittly.cc"]
+freedidi.com##div[id^="text-"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -20311,6 +20313,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||freedidi.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freedidi.com 
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -20821,7 +20825,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
