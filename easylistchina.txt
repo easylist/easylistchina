@@ -11142,7 +11142,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bootcss.com^$domain=diyifuli.top|idaohang.top|ifulione.com|onedh.xyz
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
-||boylove.cc/Public/Uploads/img/*.gif
+||boylove.cc^*/img/20*.gif
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
 ||bpimg.com/4851/19f7543667f26682.jpg
@@ -14621,6 +14621,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+boylove.cc##.swiper-container
+boylove.cc##div[data-type="1"]
+boylove.cc###fake_avivid_waterfall_webpush
+boylove.cc##.zrrmdomi
+boylove.cc##._fuycatl
 ithome.com##.rds
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -15183,7 +15188,6 @@ maomaomom.com###execphp-21
 maomaomom.com###execphp-4
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
-boylove.cc###fake_avivid_waterfall
 apk.tw###favatarRight
 life.tw###fbFixedAd
 llysc.cn###fbi-top-fixed-ad
@@ -17533,7 +17537,6 @@ youivr.com##.header-widget-region
 iqiyi.com##.headerLink01
 iqiyi.com##.headerLink02
 jiegeng.com##.header__item--fr
-boylove.cc##.header_slide
 seehd.so##.header_wrap + .tac + table[align="center"]
 aguitar.cn,guitarchina.com##.headerbanner
 aguitar.cn##.headerbanner2
