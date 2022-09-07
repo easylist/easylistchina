@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/\.(com|cn|top)\/k\/[0-9]{6}$/$third-party,script
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -3207,6 +3208,11 @@ ubmcmm.baidustatic.com
 ||epdchc.cn^
 ||wujrx.xyz^
 ||dqh.ink^
+||ptzkjko.cn^
+||showcoopdb.xyz^
+||7v46.icu^
+||ykg5.cn^
+||9as3.xyz^
 !
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
