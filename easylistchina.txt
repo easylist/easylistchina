@@ -13059,7 +13059,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
 ||maxthonimg.com/v6/festival/
-||mbd.baidu.com^$domain=xiaoyun.com
 ||mcncc.com/yeyou/*.htm
 ||me680.com/js/*.js
 ||medsci.cn/aimgs/$script
@@ -14402,9 +14401,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
 ||xyzmh.xyz/mg/
-||xzbu.com/img/xueshu
-||xzbu.com/xueshu/btxm.jpg
-||xzbu.com/xueshu/zwyc.gif
 ||xzji.com/data/block_js/softShow_
 ||y3600.cz/2
 ||ya*.dwstatic.com^
@@ -14735,6 +14731,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xzbu.com##div[class^="xueshu-a"]
 myqqjd.com##.tg-site
 pianma.net##script ~ ul[style]
 bjxfqc.net##script ~ ul[style]
@@ -17958,7 +17955,6 @@ hao.360.com##.licai-right
 aiweibk.com##.lili
 hao4k.cn##.lineC_right
 lenovo.com.cn##.link-ad
-xiaoyun.com##.link-ads
 baidu.com##.link-banner
 guahao.com##.link-modal
 itdog.cn##.link_gg
