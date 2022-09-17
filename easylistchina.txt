@@ -10831,7 +10831,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||adm.6park.com^
 ||adm.beimg.com^
 ||adm.cloud.cnfol.com^
-||adm.xmfish.com^
 ||admaimai.com/inc/adv
 ||admd.housefun.com.tw^
 ||admd.yam.com^
@@ -13404,7 +13403,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pansoso.com^*pss.
 ||paopaoche.net/public/bd/article_inc.js
 ||paopaoche.net/skins/count.js
-||partner.toutiao.com^
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
 ||pc841.com/show/
@@ -14414,7 +14412,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xl720.com/tmp/
 ||xlpu.cc/adv/
 ||xmcimg.com/js/m.js
-||xmfish.com/chanel/www/cpm.html
 ||xmrc.com.cn/net/info/html/
 ||xng02.com/api.php?mod=ad&
 ||xnklgas.cn/common/getBannerList
@@ -14423,7 +14420,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xoimg.com^$domain=18board.com|18p2p.com
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
-||xp85.com/common/images/downad
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
 ||xpgod.com/statics/skin_js/xpgod/
@@ -14773,6 +14769,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xinmin.cn##span[style^="position:fixed;right"] + a
+xinmin.cn##span[style^="position:fixed;right"]
 novipnoad.com##.bg-ad
 novipnoad.com##.ad_single_title
 szxx.com.cn###A1
@@ -15694,7 +15692,6 @@ yimuhe.com###maincontent3 > div[style^="height"]
 taobao.com###mainsrp-shopstar
 map.baidu.com###mapBanner
 wenxuecity.com###marquee
-xmfish.com###marry_laping
 yaolan.com###maryAd
 muchong.com###mask
 k7d.com,kxdao.net,xiaolz.cn###masonry
@@ -16649,8 +16646,6 @@ gdmm.com##.adtop > .module
 nfuwow.com##.adtopnewnewbox
 wed114.cn##.adtwo
 114la.com,78dm.net,chinairn.com,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
-xmfish.com##.adv-760
-xmfish.com##.adv-960
 yxdm.live##.adv-bt
 xinhuanet.com##.adv-column2
 yxdm.live##.adv0
@@ -16933,7 +16928,6 @@ ydss.cn##.bm.bml.pbn > table > tbody > tr > td:nth-child(-n+2)
 jlmhk.com##.bn
 ft.com,ftchinese.com##.bn-ph
 yeeyi.com##.boardnav > #ct > .sd
-xmfish.com##.bobing-theme
 qq.com##.body-Top-Ad
 creaders.net##.border_b > tbody > tr > td[height^="2"]
 biz.zjol.com.cn##.bot
@@ -19481,7 +19475,6 @@ cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 ccav1.com##a[href="http://duan.es/1v"]
 github.com##a[href="http://gk.link/a/103EK"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
-xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 cjw123.com##a[href="http://tb.cjw123.com"]
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 playtv.com.cn##a[href="http://www.sdhanrui.cn/"]
@@ -20381,7 +20374,6 @@ u2mtv.com#@##slider-ad
 woego.cn#@##topAds
 buy.ccb.com#@##top_ad
 help.xunlei.com#@#.a_fr
-xinmin.cn#@#.a_p
 hahamx.cn#@#.ad-1
 diantai.ifeng.com#@#.ad-b
 pptstore.net#@#.ad-big
