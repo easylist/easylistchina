@@ -13477,8 +13477,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 ||pic.yupoo.com/showflash/
-||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
-||pic.zol-img.com.cn^$object
 ||picb.cc/uploads/2018/06/26/2zxrsi.jpg
 ||picgd.com/images/*.gif
 ||picgd.com/images/2018/12/01/h1pi5.png
@@ -14729,9 +14727,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zol.com.cn/adrs/
 ||zol.com.cn/channel/index.php?c=Active_Tmall&
 ||zol.com.cn/index.php?c=Gethot&
-||zol.com.cn/jd-tmall-
 ||zol.com.cn/js/ask/ask.js
-||zol.com.cn/mainpage/2017/corner/
 ||zolsky.com^*ad/*.js
 ||zongheng.com/ajax/recommend.game.
 ||zongheng.com/upload/ad/
@@ -14780,6 +14776,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||z4a.net/images/*/960-60.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zol.com.cn##.supervalue
 wap.zol.com.cn###waitrep
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -18668,7 +18665,6 @@ hmog.me##.side_widget:last-child
 qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 qiuquan.cc##.sidebar .aligncenter
-zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 element-plus.gitee.io##.sidebar > .page-content
 pupudy.com##.sidebar > .widget-textasst:nth-child(n+3)
 oneinstack.com##.sidebar > .widget:last-child
@@ -19212,7 +19208,6 @@ fx168.com##.yjl_fx168_focus_TodayNews_jiasheng
 youku.com##.yk-AD-tong
 hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
 9ku.com##.youFix
-zol.com##.youxuan-shop
 ysxs8.vip##.ysxs8_w960_1
 52ghai.com##.yttl_x_g
 xiadele.com##.yun-advertisement
@@ -19870,7 +19865,6 @@ it168.com##div[id^="ADV"]
 daohang.qq.com,hao.qq.com,sogou.com##div[id^="AD_"]
 hc360.com##div[id^="Adv"]
 tiexue.net##div[id^="Baidu_"]
-www.zol.com.cn##div[id^="Bar"]
 airav.cc##div[id^="Billing"]
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##div[id^="Div"]
 ganji.com##div[id^="GcnADId"]
