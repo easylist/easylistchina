@@ -12435,7 +12435,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||henghost.com^$third-party
-||hentaicomic.org/data/game/
 ||herogame.com^$subdocument,domain=gamer.com.tw
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -14398,7 +14397,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wmcdn.net^$domain=liyuans.com
-||wnacgs.com/data/game/
 ||woaidu.org/images/20180802/3.jpg
 ||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
@@ -22766,8 +22764,10 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@##adsbox
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@#.google-ads
+||wnacgcdn.top/data/game/
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.aasdwa
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@##adsbox
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.google-ads
 wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
 wnacg.com,wnacg.org##img[width="399"][height*="6"]
 wnacg.com,wnacg.org##script + div > a > img
@@ -22784,7 +22784,6 @@ wnacg.com,wnacg.org##script + div > a > img
 ||wnacg.*/zec/
 ||wnacg.org/img/500_60
 ||wnacg.org/img/wap
-||wnacg4.com/data/game/
 !#W
 !#x
 !#Y
