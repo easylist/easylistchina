@@ -14591,7 +14591,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yigujin.cn/faaa/
 ||yigujin.cn/img/abc/
 ||yigujin.cn/tp/*_hengchuangfuwqi.
-||yigujin.cn/tp/abc/*yun
 ||yigujin.cn/wp-content/themes/Three/js/cebian
 ||yigujin.cn/wp-content/themes/Three/js/dibu
 ||yigujin.cn/wp-content/themes/Three/js/singley
@@ -14614,10 +14613,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
 ||yiparts.com/Chance.php?aid=
-||yiqikanba.cn/wp-content/uploads/*.gif
 ||yiren34.com/js/
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
-||yiwenbaida.com/images/pzz.gif
 ||yixiaoba.com/js/yxb_normal.js
 ||yixieshi.com/media/
 ||yjcf360.com/ad.
@@ -14850,6 +14847,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cnblogs.com^*/sideColumnAd?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yigujin.cn##A[href^="http"]:not([href$=".html"]) > IMG[src*="/tp/"]
+yigujin.cn###cebianlan img[src*="/tp/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16057,7 +16056,6 @@ gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 appinn.com###sidebar a[rel^="sponsored"]
 mpyit.com###sidebar div[style*="background"]
 boke112.com###sidebar img
-yigujin.cn###sidebar img[src*="/abc/"]
 elecfans.com###sidebar-firstad
 gaoqing.la###sidebar-follow
 runoob.com###sidebar-right-re
@@ -19544,7 +19542,6 @@ fx112.com##a[href^="/union."]
 jrlt8.com##a[href^="ad."]
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
-yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/abc/"]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 90oo.com##a[href^="http"]:not([href*=".90oo."]) > img[src*="/tp/"]
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
