@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+://api.*.com/sh/*.js$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -3610,6 +3611,7 @@ ubmcmm.baidustatic.com
 ||qcmm09.com^
 ||anyany.cc^
 ||haoduofangs.com^$third-party
+||71sas.com^
 !
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
