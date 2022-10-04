@@ -3649,7 +3649,6 @@ ubmcmm.baidustatic.com
 ||2x8l63l0.cn^
 ||uq1g.top^
 ||mucinyak.com^
-||doerscharre.com^
 !
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
@@ -21289,10 +21288,10 @@ jmcomic1.city##a[href^="http"]:not([href*="jmcomic1."]) > img
 !#7
 !#8
 !#91porny.com
-###main:nth-child(3) > .container-fluid.mb-0.p-0
-###main:nth-child(3) > .container-fluid.mb-0.p-0 + .jsv-g1
-###main:nth-child(3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
-###main:nth-child(3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0 + .jsv-g1
+##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ##.btn-outline-primary[href*=".com:"]
 !#99re.com
 .gif|$domain=99a67.com|99re.com
