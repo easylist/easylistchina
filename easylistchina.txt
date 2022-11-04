@@ -716,6 +716,7 @@ ubmcmm.baidustatic.com
 ||ssh.*.com^*!$script,third-party
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
+##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ###ChapterView > .slide-baidu
 ###Layeraa1
 ###Layeraa2
@@ -10594,7 +10595,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||4gamers.com.tw/site/iframe-aols/
 ||4gtv.tv/4gTV_OTT.json
 ||4hw.com.cn/js/common.js
-||4i44.com/8hgae/
+||qqpian.com/8hgae/
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
 ||4paradigm.com^$domain=sina.com.cn
 ||500xxxx.com/go.js
@@ -20197,7 +20198,6 @@ ningmengzhibo.com##th[style="width: 80px;"][colspan="3"]
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 zdfans.com##ul[id^="gaosuxiazai"]
-jinbaodm.com##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 789ys.com,fffdm.com##ul[style]
 firefoxchina.cn##ul[track-key="adv_links"]
 v2ex.com#?#.box:-abp-has(>.inner>div>span[style]:-abp-contains(Sponsored))
