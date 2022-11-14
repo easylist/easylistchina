@@ -9855,7 +9855,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||1x6666.com/img/
 ||2008mm.com^*.js
 ||2008xxx.com:888
-||201*.myhard.com^
 ||2016.bkill.net^
 ||2018x.*/guang/
 ||202.102.26.253:8182/files/7/lhzs1k.jpg
@@ -11716,7 +11715,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||gg.kugou.com^
 ||gg.sonhoo.com^
 ||gg.uuu9.com^
-||gg.yxdown.com^
 ||gg123456789gg.com^*.js
 ||gg163.net/20*ad/
 ||gg163.net/js/163bbsad.js
@@ -12837,7 +12835,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mygeek.cn/pic_$domain=dapenti.com
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
-||myhard.com/s?z=
 ||myqcloud.com/ad/
 ||mysteelcdn.com/advert/
 ||mysteelcdn.com/common/*/js/img_ad.
@@ -13537,7 +13534,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sunofbeaches.com/ast/assistant/ad-item/
 ||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
-||sunrtb.*/s?m=
 ||super.cat898.com^
 ||super.kdnet.net^
 ||supfree.net/england/
@@ -13604,7 +13600,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||thisav.video/v3/nb/
 ||thyrsi.com^$domain=cnscg.com
 ||thztv.*/tool/
-||tianjimedia.com/s?z=
 ||tianmu.com/DA201
 ||tianqi*.com/static/banner/data_tuiguang.js
 ||tianshif.com/zeis/ts.gif
@@ -13980,7 +13975,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yerecpa.cn/uploadsb/app_adv/
 ||yes1.feng.com^$domain=feng.com
 ||yeshefb.com/template/conch/dd/
-||yesky.com/monitorjs/imp-
 ||yesky.com/s?z=
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/
@@ -14049,7 +14043,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yxbao.com/js/beitou.
 ||yxdd.com^$subdocument
 ||yxdown.com/cj/
-||yxdown.com/pc/news/js/news
 ||yxdown.com/zt/zt/js/zt.js
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxzp.net/left.js
@@ -14215,6 +14208,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||rkxy.com.cn/js/text_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yxdown.com##.news_tl
 yxdown.com##.r_b_fmt
 dmzj.com###khdDown
 poklw.com##img[alt="恰饭广告"]
@@ -14407,7 +14401,6 @@ baidu.com###ad_xbox_1
 baidu.com###ad_xbox_2
 baidu.com###ad_xbox_3
 localking.com.tw###adbannerurl
-yxdown.com###adbg
 tbtdg.com###adblockWarning
 chongbuluo.com###add
 chongbuluo.com###add + a
@@ -15447,7 +15440,6 @@ techbang.com###stickies
 showtv.com.tw###sub-ad
 163.com###suning-bottom-banner
 265g.com###swiper-bot
-yxdown.com###sy
 tw116.com###t365
 firefoxchina.cn###tab-mod-tehui
 steelcn.cn###table img
@@ -15576,7 +15568,6 @@ zqzq.com###wAdTop2
 weishangshijie.cn###wad_left
 weishangshijie.cn###wad_right
 wap.zol.com.cn###waitrep
-21ic.com###warp_con
 51live.com###waterMark
 chineseinla.com###weixin_ads2
 meijutt.net###weixin_clos
@@ -16672,9 +16663,6 @@ gz0668.com##.down_fixed
 xiazaizhijia.com##.down_list
 7x7n.com##.down_load_1
 7x7n.com##.down_load_2
-yesky.com##.down_referer
-yesky.com##.down_referer + .bottom
-yesky.com##.down_referrer
 dayanzai.me##.down_show_intro_first_box
 downza.cn##.down_soft_bottom
 downza.cn##.down_top
@@ -16987,8 +16975,7 @@ yxdown.com##.gsdown
 33lc.org,cncrk.com,kxdw.com##.gsdt
 jb51.net##.gsdw
 vpsdx.com##.gsfha3-form
-42xz.com,aiweibk.com,kuhou.com,pcsoft.com.cn,yesky.com##.gsxz
-yxdown.com##.gsxz_ydw
+42xz.com,aiweibk.com,kuhou.com,pcsoft.com.cn##.gsxz
 pcsoft.com.cn##.gsxzdl
 32r.com##.gsxzdz > ul > dt
 vpsdx.com##.gthfdsa
@@ -19730,7 +19717,6 @@ dailymotion.com#@#.ad_box
 eastday.com#@#.ad_center
 bfmusic.com.tw,workercn.cn#@#.ad_content
 mx-fm.com,ts.21cn.com#@#.ad_img
-yxdown.com#@#.ad_l
 workercn.cn#@#.ad_main
 fxedu.com.cn#@#.ad_r
 moe.gov.cn,qspfw.com#@#.ad_title
@@ -20143,7 +20129,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||genesyslogic.com^*/ads$~third-party
 @@||gg.wudizuqiu.com/72nba.js
-@@||gg.yxdown.com/count/countzt.js
 @@||ggg50.pw^$generichide
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||golangnote.com^$generichide
