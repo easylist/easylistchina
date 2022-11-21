@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/download-link-js/?v=$script,~third-party
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -12805,7 +12806,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfav88.com/yinzi/
 ||mg21.com/wp-content/uploads/ad/
-||mgjiasu.com/download-link-js/
 ||mh1234.com/gd/g_js/
 ||mh1234.com^*/wap*.js
 ||mh3666.com^*.jsonp
