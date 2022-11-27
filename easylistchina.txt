@@ -13,7 +13,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
-/app/pcBanner/getBannerConfig/v2
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -196,6 +195,7 @@
 /api/apiFetchAdsData
 /api/autosda.php
 /api/Video/GetAdsData?
+/app/pcBanner/getBannerConfig/v2
 /app_ad/slade.js
 /Appapi/jjlist.php
 /apps/misc.php?action=advert&
@@ -1207,6 +1207,7 @@ ubmcmm.baidustatic.com
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
+##.mobadsq
 ##.mod + #bottomBox
 ##.module-adslist
 ##.module-adslists
@@ -1430,7 +1431,6 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##.mobadsq
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -1493,6 +1493,7 @@ ubmcmm.baidustatic.com
 ||9795x.com^
 ||9eu7c.top^
 ||aiedwhb.cn^
+||aiupiyd.cn^
 ||albyprd.cn^
 ||b4jy.top^
 ||b53.xyz^
@@ -1524,6 +1525,7 @@ ubmcmm.baidustatic.com
 ||eapsmnw.cyou^
 ||eganilglw.cyou^
 ||egrnmic.cn^
+||eidphap.cn^
 ||epmf4.cn^
 ||eqnggnsw.fun^
 ||eqyzc.cyou^
@@ -1588,6 +1590,7 @@ ubmcmm.baidustatic.com
 ||kxizloe.cn^
 ||kyzx.xyz^
 ||kzngisyd.xyz^
+||lapsmnl.cyou^
 ||lejso.com^
 ||lgjxw.xyz^
 ||lhare.xyz^
@@ -1605,6 +1608,7 @@ ubmcmm.baidustatic.com
 ||lzngisyl.xyz^
 ||lzwdq.xyz^
 ||mbtpzcb.cn^
+||mhhsa.xyz^
 ||mqnggnsx.fun^
 ||mrhboe.xyz^
 ||myproteincn.com^
@@ -1630,6 +1634,7 @@ ubmcmm.baidustatic.com
 ||pinkboy.fun^
 ||pjjlbjd.cn^
 ||pmcppla.cn^
+||pnesemr.cn^
 ||pothouse.cn^
 ||pthezjl.cn^
 ||ptijx.xyz^
@@ -1667,6 +1672,8 @@ ubmcmm.baidustatic.com
 ||sganilglb.cyou^
 ||shuaige20221105.xyz^
 ||simi1234.com^
+||simi2345.com^
+||sjcm.fun^
 ||sjjk.ltd^
 ||sm3nq.cn^
 ||sqnggnsb.fun^
@@ -1690,6 +1697,7 @@ ubmcmm.baidustatic.com
 ||uqnggnst.fun^
 ||usbkngf.cn^
 ||usnczrq.cn^
+||utlove02.com^$third-party
 ||uyjhbawd.xyz^
 ||uzngisyt.xyz^
 ||v09.xyz^
@@ -1699,6 +1707,7 @@ ubmcmm.baidustatic.com
 ||vggzftw.cn^
 ||vjianshen1688.com^
 ||vqdjcy.com^
+||vqjxlie.cn^
 ||wapsmne.cyou^
 ||weilin.xin^
 ||wfhuzaj.cn^
@@ -1713,6 +1722,7 @@ ubmcmm.baidustatic.com
 ||wyqaafplm.live^
 ||wzdy.xyz^
 ||wzngisye.xyz^
+||xafc.xyz^
 ||xdaigua.cn^
 ||xf2pf.top^
 ||xhsrw.xyz^
@@ -1726,12 +1736,14 @@ ubmcmm.baidustatic.com
 ||ycyipha.cn^
 ||yfue99.xyz^
 ||ygcn.ltd^
+||yihehe.xyz^
 ||yijfdsu.cn^
 ||ynyikk.com^
 ||yoiqacw.cn^
 ||z66ggsh.top^
 ||zdy1.xyz^
 ||zgfckf.mobi^
+||zgfdczj.mobi^
 ||zhhgmh.mobi^
 ||zhvo.top^
 ||ziedwr.com^
@@ -1741,18 +1753,6 @@ ubmcmm.baidustatic.com
 ||zvxwvny.cn^
 ||zw2b9.cn^
 ||zzngisyq.xyz^
-||lapsmnl.cyou^
-||vqjxlie.cn^
-||xafc.xyz^
-||aiupiyd.cn^
-||mhhsa.xyz^
-||utlove02.com^$third-party
-||zgfdczj.mobi^
-||eidphap.cn^
-||simi2345.com^
-||sjcm.fun^
-||yihehe.xyz^
-||pnesemr.cn^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
@@ -14424,7 +14424,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-mm-cg.com##.ut1_img_content_js
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18598,6 +18597,7 @@ baidu.com##.under-tips
 autohome.com.cn##.union-ad-placeholder
 rijutv.co##.union-list-item
 baidu.com##.union-tg
+mm-cg.com##.ut1_img_content_js
 ilxdh.com,subaibai.com##.v-modal
 baidu.com##.v-s-tuiguang-wrap
 vuetifyjs.com##.v-sponsors
@@ -20154,7 +20154,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
 @@||99wbwc.com^$generichide
-@@||smsonline.cloud^$generichide
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@||9zvip.net^$elemhide
@@ -20602,6 +20601,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||sinopac.com/applyweb/OpenAccount/js/oas.
 @@||sjsmitaa.org/bin/showads.
+@@||smsonline.cloud^$generichide
 @@||smtcaw.com^$generichide
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
