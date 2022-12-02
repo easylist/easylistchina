@@ -1344,7 +1344,6 @@ ubmcmm.baidustatic.com
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
-##a[href*="://4"] > img[src*=".woshipm.com"]
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
@@ -1352,6 +1351,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/ads/adscenter."]
 ##a[href*="/register/?i_code="] > img
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
+##a[href*="://4"] > img[src*=".woshipm.com"]
 ##a[href*="://4"] > img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*="?channelCode="] > img[src*=".com"]
@@ -1456,8 +1456,8 @@ ubmcmm.baidustatic.com
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
-/\.zdx[0-9]{1,2}\.site:/$script,third-party
 /\.htkk[0-9]{1,2}\.top:/$script,third-party
+/\.zdx[0-9]{1,2}\.site:/$script,third-party
 ||23.234.217.11^
 ||23.234.217.12^
 !
@@ -1520,10 +1520,12 @@ ubmcmm.baidustatic.com
 ||bendan.shop^
 ||benditao.biz^
 ||bfsqtsn.cn^
+||bh2q.fun^
 ||binjlwz.cn^
 ||bjfc.xyz^
 ||bjws.xyz^
 ||bjzb.xyz^
+||bmmogb.xyz^
 ||bqnggnsv.fun^
 ||bvpaovs.cn^
 ||bvwxfok.cn^
@@ -1533,6 +1535,7 @@ ubmcmm.baidustatic.com
 ||cichiji.top^
 ||clvkg.xyz^
 ||clw99.mobi^
+||crleii.xyz^
 ||csgw.xyz^
 ||csiteadmin.com^
 ||cvbdw.xyz^
@@ -1552,6 +1555,7 @@ ubmcmm.baidustatic.com
 ||eganilglw.cyou^
 ||egrnmic.cn^
 ||eidphap.cn^
+||enzagpt.cn^
 ||epfmfqh.cn^
 ||epmf4.cn^
 ||eqnggnsw.fun^
@@ -1574,17 +1578,21 @@ ubmcmm.baidustatic.com
 ||gkofzfi.cn^
 ||glovemall.cn^
 ||gpsncbo.cn^
+||guanggao1257.com^
+||gyhyhyq.website^
 ||gzzb.xyz^
 ||h12h.fun^
 ||h6cp.icu^
 ||hbcl.ltd^
 ||hjgrc.xyz^
+||hmgzhqe.cn^
 ||hnws.xyz^
 ||hqdfh.mobi^
 ||hqqpw.mobi^
 ||hssebb.xyz^
 ||hsypwju.cn^
 ||htkk1.top^
+||htkk2.top^
 ||hxapafn.cn^
 ||i46.xyz^
 ||i7x3.fun^
@@ -1603,6 +1611,7 @@ ubmcmm.baidustatic.com
 ||j41.xyz^
 ||j721s.top^
 ||japsmna.cyou^
+||jghmrie.cn^
 ||jiedu.fun^
 ||jknmsdpo.xyz^
 ||jmm8a.xyz^
@@ -1629,6 +1638,7 @@ ubmcmm.baidustatic.com
 ||kyzx.xyz^
 ||kzngisyd.xyz^
 ||lapsmnl.cyou^
+||lbzx.xyz^
 ||lejso.com^
 ||lgjxw.xyz^
 ||lhare.xyz^
@@ -1681,6 +1691,7 @@ ubmcmm.baidustatic.com
 ||pyyhkn.com^
 ||q88j2.top^
 ||qapsmny.cyou^
+||qbcydxr.cn^
 ||qdc7y9x.xyz^
 ||qfgfpi.cn^
 ||qganilgly.cyou^
@@ -1702,6 +1713,7 @@ ubmcmm.baidustatic.com
 ||rgfqcly.cn^
 ||ribffmg.cn^
 ||riqnhxq.cn^
+||rkkhuwl.cn^
 ||rlllwby.cn^
 ||rmm7ss.top^
 ||rqnggnsz.fun^
@@ -1766,6 +1778,7 @@ ubmcmm.baidustatic.com
 ||wgpsfdg.cn^
 ||whrc.xyz^
 ||wocexaa.cn^
+||wotmvdc.cn^
 ||wpozwh.com^
 ||wqnggnse.fun^
 ||wxumevd.cn^
@@ -1810,19 +1823,6 @@ ubmcmm.baidustatic.com
 ||zvxwvny.cn^
 ||zw2b9.cn^
 ||zzngisyq.xyz^
-||qbcydxr.cn^
-||jghmrie.cn^
-||lbzx.xyz^
-||bmmogb.xyz^
-||htkk2.top^
-||bh2q.fun^
-||gyhyhyq.website^
-||wotmvdc.cn^
-||enzagpt.cn^
-||rkkhuwl.cn^
-||hmgzhqe.cn^
-||crleii.xyz^
-||guanggao1257.com^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
@@ -12342,6 +12342,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
 ||maxthonimg.com/v6/festival/
+||mcmod.cn/editor/upload/20221126/1669399546_2_ONBt.
 ||mcncc.com/yeyou/*.htm
 ||me680.com/js/*.js
 ||medsci.cn/aimgs/$script
@@ -13869,12 +13870,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mcmod.cn/editor/upload/20221126/1669399546_2_ONBt.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-itdog.cn##.page-wrapper > .col-12.mb-3
-91duba.com##.m_guess_like
-91duba.com###leftBar
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14715,6 +14712,7 @@ hao.360.cn###left-ria-fixed
 rising.cn###left50
 hbzhan.com###leftAdv
 jiaodong.net###leftBanner
+91duba.com###leftBar
 cs.com.cn,qinbing.cn,sonimei.cn###leftDiv
 duba.com###leftHot
 51credit.com###leftLayerDown
@@ -17071,6 +17069,7 @@ qq.com,sogou.com##.m[pbflag="bt_mai"]
 qq.com##.m[pbflag="guess"]
 foodmate.net##.m[style="height:40px;"]
 myexception.cn##.m_a
+91duba.com##.m_guess_like
 lgn.yy.com##.m_left
 163.com##.m_papa
 xitongzhijia.net##.m_swift
@@ -17318,6 +17317,7 @@ dmh8.me##.padding-0 > ul[style]
 cssmoban.com##.page-banner
 contents.internet.apps.samsung.com##.page-bar
 qidian.com##.page-ops
+itdog.cn##.page-wrapper > .col-12.mb-3
 boce.com##.page10Box1 > a[href^="http"]:not([href*="boce."])
 cngold.org##.pageAdv
 baidu.com##.pageLeftFixedAD
