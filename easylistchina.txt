@@ -12,6 +12,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/fn666/shouye.php
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -840,6 +841,8 @@ ubmcmm.baidustatic.com
 ###ks > .DaKuang
 ###ldgindexbuttom
 ###leftCouple
+##.txtguanggao
+##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ###leftCouple1
 ###leftCouplet
 ###leftFloat + #rightFloat
@@ -1925,6 +1928,10 @@ ubmcmm.baidustatic.com
 ||kdegznb.cn^
 ||wmgocya.cn^
 ||huilianji.com^
+||zk6.me^
+||kvmaa.com^
+||kveff.com^
+||u1885.com^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
