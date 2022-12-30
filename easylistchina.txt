@@ -13,6 +13,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/js/piaofu_bet.
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -820,6 +821,7 @@ ubmcmm.baidustatic.com
 ###gg_url
 ###googleAD1
 ###googleAD2
+##.link > .image[src*=".qhimg.com/"]
 ###googleAD3
 ###googleAdIndexTop
 ~jxedu.com###haoetv
@@ -2236,6 +2238,9 @@ ubmcmm.baidustatic.com
 ||discuz.fit^
 ||adbpfnh.cn^
 ||ttfkof.xyz^
+||5137395ccc.com^
+||88993aaa.com^
+||u1102.com^
 !
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
@@ -14255,6 +14260,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||61586.shop^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 manwa2.me##.ad-area > a
