@@ -15869,7 +15869,7 @@ hao.360.cn##.cangbao_redbags
 duba.com##.car_ads
 pixabay.com##.carbon-ad
 steamstats.cn##.card-link
-qq.com##.card-wrap[dt-params^="ad_creative_"]
+qq.com##[dt-params*="ad_creative_"]
 16888.com##.cardataclass
 htcui.com##.carousel
 byxx.com##.cataAD
@@ -16284,7 +16284,6 @@ sojson.com##.fly-hezuo
 followme.cn##.fm-banner-social
 1fzw.com##.focus-bots
 cnblogs.com##.focus-gg
-qq.com##.focus-item[dt-params^="ad_creative_"]
 zhongkao.com##.focusBox
 sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 lzdcctv.cn##.focusmo + table
