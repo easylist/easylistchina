@@ -648,7 +648,6 @@
 /yunfile/offline_banner/*
 /yy_transv/js/cmp.js
 /zahuishi/images/show38070.js
-/zhidiy_m_ad_
 /zz/*_box2.txt
 /zz/wenzi2.txt
 /zz/zuoxia2.txt
@@ -1335,6 +1334,7 @@ ubmcmm.baidustatic.com
 ##.wp_headline + .ad1
 ##.wrap.mt10.clearfix > .box.top_box
 ##.wrapper > a[target="_blank"] > .ads
+##.wwads-cn
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
 ##.wzad
@@ -13619,7 +13619,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhangxinxu.com/image/blog/*/sp-zf.
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
-||zhaolianmeng.com/plushuan/ad_js.php
 ||zhaozi.cn/d/js/mini/extended
 ||zhengjie.com/a_d?
 ||zhenjiang365.cn/*/ad_
@@ -13636,7 +13635,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhihu.com/node/Banner?
 ||zhimg.com^*_600x250
 ||zhimg.com^*adx
-||zhiys.com/img_new/mobilemo2.jpg
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
@@ -13659,7 +13657,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zimuku.*/images/v2/js/b.js
 ||zimuku.*/images/v2/js/bn
 ||zimuku.org/sp1.gif
-||zineworm.com^*&localtype=
 ||ziyuanm.com/js/g11.js
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjjhfc.com/js/zt.js
@@ -13698,7 +13695,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztyumn.ifeng.com^
 ||zuiacg.com/images/client/
-||zuidaima.com/images/1/201606/20160616135714978.
 ||zuofang05.com/template/mytheme/statics/image/1/
 ||zuoyebang.cc/static/question/pkg/wap-qb_
 ||zwwooooo.com/images/hengtian.
@@ -13720,6 +13716,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzbaike.com/sites/all/themes/zzbaike/images/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iplaysoft.com###link1111
+iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 zzbaike.com##.link2
 zzbaike.com##.left > .bottom[style]
 939394.xyz##IMG[src^="\\"]
@@ -15094,7 +15092,6 @@ yixingjia.com###wp > table[width="960"]
 wpjam.com###wpjam_blog_300x250_1
 ganpapa.com###wrapper + div
 btbtt.me###wrapper2 > .width
-zhaolianmeng.com###wzgg
 nczsks.com###wzyxjs
 liaoxuefeng.com###x-sponsor-a
 liaoxuefeng.com###x-sponsor-b
@@ -15885,7 +15882,6 @@ brtn.cn,btime.com##.business-box
 brtn.cn,btime.com##.business-item
 baidu.com##.businessvip-wrapper
 cool-de.com##.bustopads
-zhaolianmeng.com##.buttonBar
 zealer.com##.buy_container
 ithome.com##.bx-recom2
 porn5f.com##.bxslider
@@ -18014,7 +18010,6 @@ image.baidu.com##.wrapper_dot_box.dot_black
 wenku.baidu.com##.wubai-wrap
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
 ikjzd.com##.wv-right-content > .imgTop-right
-iplaysoft.com##.wwads-cn
 52pk.com##.wxbox
 taoguba.com.cn##.wz_ad
 eyy5.cn##.wzgg
