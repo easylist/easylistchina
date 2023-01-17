@@ -12,6 +12,8 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/bt*.com/imgs.js?t=
+.bt*.com/imgs.js?t=
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -10601,7 +10603,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||btbt.tv/dd/
 ||btbtdy.*/js/slade888.js
 ||btbtdy.*/templets/btdy/js/ad
-||btbtt*.com/imgs.js?t=
 ||btbuluo.com/uploads/*.gif
 ||btc.com/v1/poster/production/explorer-banner.
 ||btcfans.com/template/comiis_lssy/ad/
