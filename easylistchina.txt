@@ -1338,7 +1338,7 @@ ubmcmm.baidustatic.com
 ##.wp.a2_h
 ##.wp.a_f
 ##.wp.a_h
-~aircn.org,~steamcn.com##.wp.a_t
+~aircn.org,~steamcn.com,~x3cn.com##.wp.a_t
 ##.wp_headline + .ad1
 ##.wrap.mt10.clearfix > .box.top_box
 ##.wrapper > a[target="_blank"] > .ads
@@ -13675,7 +13675,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wx.sina.com.cn/iframe/pdps/
 ||wzbaohe.com/imgadnew/midad.js
 ||x-resource05.com/media_orange/server-img/*_1200_120.
-||x3cn.com/data/attachment/portal/*.gif
 ||x6img.com^$domain=picturedata.org
 ||xav*.icu/base/js/other.js
 ||xb20.tv/js/m-
@@ -13946,6 +13945,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+x3cn.com##div[style="margin:3px auto"] + table
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
