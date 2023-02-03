@@ -13,6 +13,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/res/kj/hf*.js?v=
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -1417,6 +1418,8 @@ ubmcmm.baidustatic.com
 ##a[id][href*="/?register="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
+##.ka-flo
+##.kjk-flo
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -1918,6 +1921,8 @@ ubmcmm.baidustatic.com
 ||thlnbzi.cn^
 ||tanghao.club^
 ||fqla.top^
+##a[href*="/296256.com:"]
+##a[href*="/265201.com:"]
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
