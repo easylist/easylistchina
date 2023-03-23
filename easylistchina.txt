@@ -13,6 +13,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/ylnew/*.js$image
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -17798,7 +17799,7 @@ duonaolive.com##[onclick^="track"]
 6090ba.com,duodada.com,fny4.cc##[ontouchstart]
 duodada.com##[style*="position: fixed; left: 0px;"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
-calmlab.com##[style="position:relative;z-index:2147483647"]
+calmlab.com##div[style*="important"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
