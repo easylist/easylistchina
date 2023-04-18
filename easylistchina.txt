@@ -13036,6 +13036,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+novipnoad.com##img[src*="/bd/"] + span
+novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
