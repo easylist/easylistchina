@@ -102,7 +102,6 @@
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .fun/ad/
-.fun/scripts/my_33.js
 .icu/ads/
 .in/js/ads/
 .info/ad.js
@@ -117,7 +116,6 @@
 .life/ads/
 .lu/ads/
 .me/gg.js
-.me/scripts/my_33.js
 .men/ads/
 .net/js/ads/
 .net/vh1/$script,third-party
@@ -1399,6 +1397,7 @@ newduba.cn###jq_youxi
 ##.wp.a2_h
 ##.wp.a_f
 ##.wp.a_h
+##.slider-ad[adid]
 ~aircn.org,~steamcn.com,~x3cn.com##.wp.a_t
 ##.wp_headline + .ad1
 ##.wpcom_ad_wrap
@@ -2144,7 +2143,7 @@ newduba.cn###jq_youxi
 ##a[href*="/x8345.cc"]
 ##a[href*="/x9658.cc"]
 ##a[href*="/xapps5.xyz"]
-##a[href*="/xchina.fun/redirect/ad"]
+##a[href*="/xchina.info/redirect/ad"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/ybhth689.com"]
 ##a[href*="/yigeyuming3880.top"]
@@ -12826,9 +12825,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xc.macd.cn^
 ||xc.mydrivers.com^
 ||xcar.com.cn/dsp/ad
-||xchina.co/plugins/jquery.modal/
 ||xchina.co/upload/ad/
-||xchina.fun/plugins/jquery.modal/jquery.modal.min.js
+/jquery.modal.$domain=8se.me|xchina.fun|xchina.co|1909.me|litu100.xyz|xchina.pro
 ||xchina.pro/upload/ad/
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdf.cn/v4/js/leyus/
@@ -16909,7 +16907,6 @@ duba.com##.slidebar + .extend
 talkfx.co##.slidebox
 cangku.moe##.slider
 v2rayssr.com##.slider-4-box1
-1909.me,litu100.xyz,xchina.co,xchina.pro##.slider-ad
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 1688.com##.sm-offer-item[p4p*=".1688."]
 codepub.com##.small-banner
@@ -18565,7 +18562,7 @@ lm-us.com#@#.advertisement_above_footer
 jd.com#@#.adwords
 epubit.com#@#.article_share
 dingdong.ganji.com#@#.banner
-xchina.co,xchina.fun#@#.banner_ad
+xchina.co,xchina.fun,xchina.pro#@#.banner_ad
 ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
