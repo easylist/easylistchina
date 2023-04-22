@@ -1478,6 +1478,7 @@ newduba.cn###jq_youxi
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
+##.book > #btmBox
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style$="2147483647;"][ontouchstart]
@@ -9622,7 +9623,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||avcao.cc/js/p.js
 ||avcity.twavtv.com/iframe/
 ||avdao.pw/dist/js/sc_check
-||avdb.me/ad/
 ||avjj26.com/api/?d=pc&c=advert&
 ||avple.video/asset/bann.js
 ||avseesee.com/amandison.php
@@ -9835,7 +9835,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
-||bku3.com/js/cctv-bf.js
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -12881,7 +12880,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xmcimg.com/js/m.js
 ||xmrc.com.cn/net/info/html/
 ||xng02.com/api.php?mod=ad&
-||xnklgas.cn/common/getBannerList
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
 ||xoimg.com^$domain=18board.com|18p2p.com
@@ -14148,7 +14146,6 @@ oschina.net###project_ad_banner
 firefoxchina.cn###promo
 firefox.com.cn,firefoxchina.cn###promote-top-list
 sina.cn###promotionCover
-kmbb70.com###publicIndexBanner
 xiazaizhijia.com###public_right_mid_ad
 bestopview.com###pubtextnone
 hao123.com###puzzleBox
@@ -21199,7 +21196,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||soufunimg.com/count/uvbforpc.js
-@@||ss999.me/i.php?i=
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$~third-party
 @@||tbcdn.cn^*/click_track.js
