@@ -1117,7 +1117,7 @@ newduba.cn###jq_youxi
 ##.banner-ad-section
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
-##.bannerliststyle[style^="min-height"]
+##div[role="listitem"] > div > div > .bannerliststyle
 ##.bdyp-sygg-ul
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
@@ -12713,7 +12713,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vip.luanren.com/data/*.gif
-||vip27j.xyz/dh.js
 ||vipdage.com/wp-content/uploads/ad/
 ||vipyearha.com/uploads/20*.gif
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
@@ -14204,7 +14203,6 @@ discuss.com.hk,uwants.com###right_column
 uc123.com###right_elevator
 gmw.cn###rightad1 + .contentColumnRight
 xc6b.com###rightbottbox
-hurigirls99.xyz###rightd
 ixueyi.com,shangxueba.com###rightfloatdiv
 ri1.site,www.wenxuecity.com###rightside
 nczsks.com###rightyxjs
@@ -14407,8 +14405,6 @@ ziqiangxuetang.com###tutorial_btm
 ali213.net###tv
 jb51.net,makaidong.com###txtlink
 vpsmm.com###uc
-hurigirls99.xyz###undertd
-hurigirls99.xyz###undertd + div[style]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
 cnbeta.com###upcoming_box
 axutongxue.com,axutongxue.net###uuuui
