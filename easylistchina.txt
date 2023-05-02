@@ -14,7 +14,6 @@
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1688-wp-media/ads/
-/mobile/lele.html
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -481,6 +480,7 @@
 /mfad/*
 /mmday/91porn_
 /mmday/hgame_
+/mobile/lele.html
 /mobile/mads.js
 /mobilegame/getroomapp?
 /module/adsview/*
@@ -1111,6 +1111,7 @@ newduba.cn###jq_youxi
 ##.artad
 ##.article-pop-up-ad
 ##.article_ad_top
+##.artplayer-plugin-ads
 ##.asb-index
 ##.asb-post
 ##.assort-ad
@@ -1394,7 +1395,6 @@ newduba.cn###jq_youxi
 ##.widget-topadding
 ##.widget-xlxba
 ##.widget_adbox
-##.artplayer-plugin-ads
 ~hrtsea.com##.widget_ui_ads
 ##.widget_ui_asb
 ##.widget_ui_aub
@@ -1581,6 +1581,7 @@ newduba.cn###jq_youxi
 ##a[href*=".bd379.vip"]
 ##a[href*=".btwuji.cc"]
 ##a[href*=".bucd.icu"]
+##a[href*=".bucd.top"]
 ##a[href*=".mmrjmh.com/"]
 ##a[href*=".oidmwq2v.cn"]
 ##a[href*=".tdchat.in"]
@@ -1605,8 +1606,10 @@ newduba.cn###jq_youxi
 ||7xwx.cn^
 ||88885aaa.com^
 ||8b4v.cn^
+||92f2m.top^
 ||92ph.cn^
 ||9603gg.cc^
+||9h622.top^
 ||9itan.cc^
 ||9vs0.cn^
 ||a3kd0.top^
@@ -1644,6 +1647,7 @@ newduba.cn###jq_youxi
 ||bekcd.xyz^
 ||bekco.xyz^
 ||betgdr.xyz^
+||bjwh8.xyz^
 ||bkae.top^
 ||blxfqq.com^
 ||bovhzz.xyz^
@@ -1656,10 +1660,12 @@ newduba.cn###jq_youxi
 ||cbhwekr.cn^
 ||ccohayo.xyz^
 ||cdcc3.com^
+||cderyu.club^
 ||cdfda.xyz^
 ||cdkke.xyz^
 ||cdn-99-pic.cc^
 ||cennv.cn^
+||ceodk.xyz^
 ||cfxkluv.cn^
 ||cge.cc^
 ||chaozhunbb.xyz^
@@ -1694,6 +1700,7 @@ newduba.cn###jq_youxi
 ||endio.xyz^
 ||evmnlpv.cn^
 ||excfig.xyz^
+||exwxrfz.cn^
 ||falal.cn^
 ||feiju12138.xyz^
 ||feild.xyz^
@@ -1802,6 +1809,7 @@ newduba.cn###jq_youxi
 ||mhegew.xyz^
 ||mindopu.com^
 ||moend.xyz^
+||mrbtkyn.xyz^
 ||mrgecm.xyz^
 ||mrruuov.cn^
 ||nagmopd.cn^
@@ -1826,6 +1834,7 @@ newduba.cn###jq_youxi
 ||pbgtpjz.cn^
 ||pedjqkl.xyz^
 ||peishuning1.cn^
+||pepnsnq.cn^
 ||pgjcbz.xyz^
 ||piaochong.co^
 ||pithjpf.cn^
@@ -1846,6 +1855,7 @@ newduba.cn###jq_youxi
 ||qingdou.ltd^
 ||qiwjiy.xyz^
 ||qkcaqq.xyz^
+||qkwsqq.com^
 ||qpoiwnelc.com^
 ||qqied.xyz^
 ||qwahk.com^
@@ -1899,6 +1909,7 @@ newduba.cn###jq_youxi
 ||uqelxct.cn^
 ||uqymady.cn^
 ||uu5731uu.com^
+||uu6921uu.com^
 ||uu7819uu.com^
 ||uu9735uu.com^
 ||uuuxyjh.cn^
@@ -1906,6 +1917,7 @@ newduba.cn###jq_youxi
 ||uzuarlv.cn^
 ||v0cf.xyz^
 ||vel7.xyz^
+||vifzrf.xyz^
 ||vjhjxh.xyz^
 ||vlinz.icu^
 ||vnlqcod.cn^
@@ -1976,6 +1988,7 @@ newduba.cn###jq_youxi
 ||zhemu.xyz^
 ||zhoubo01.cn^
 ||zhouduanyyds.com^
+||zhuxiao11.cn^
 ||zjqs.shop^
 ||zmfdjb.xyz^
 ||znnodl.xyz^
@@ -1986,19 +1999,6 @@ newduba.cn###jq_youxi
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
-||qkwsqq.com^
-||exwxrfz.cn^
-||vifzrf.xyz^
-||cderyu.club^
-||mrbtkyn.xyz^
-||ceodk.xyz^
-||bjwh8.xyz^
-||9h622.top^
-||zhuxiao11.cn^
-||pepnsnq.cn^
-##a[href*=".bucd.top"]
-||uu6921uu.com^
-||92f2m.top^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -12647,8 +12647,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-423down.com##a[href*="/go."] > img
-wnflb2023.com##.GzList
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14102,7 +14100,7 @@ aiyuke.com##.GGad
 3dmgame.com##.Gmaeinfobtn_tab > span
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zn503.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,zn503.com##.GzList
 le.com##.H-tg
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
@@ -17125,6 +17123,7 @@ techug.com##a[href*="/eee.html"]
 galacg.me##a[href*="/game"]
 55188.com##a[href*="/gg-link."]
 ccav1.com##a[href*="/go"]
+423down.com##a[href*="/go."] > img
 php.cn##a[href*="/go."]:not([href*="Fwww.php"])
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 cableabc.com##a[href*="/img1/"]
