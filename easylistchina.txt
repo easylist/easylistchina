@@ -12711,6 +12711,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yhdm44.com/123.html
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ruyo.net##.widget_custom_html
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13870,7 +13871,6 @@ ifeng.com###sideBar[class^="box_"]
 hao.360.com###sidebar
 xc6b.com###sidebar > .box-b img
 appinn.com###sidebar > .widget:first-child
-ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 ipcfun.com###sidebar > ul > div[style]
 iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 ipcfun.com###sidebar > ul > li[style]
