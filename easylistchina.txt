@@ -13,7 +13,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
-/html/709/*.js
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -382,6 +381,7 @@
 /hjstore/system/banner/*.txt
 /hm.js?$third-party,xmlhttprequest
 /homead/*_appledaily_bg.
+/html/709/*.js
 /html/taobao_focus_
 /huijiad/huijiad.
 /huya/main/widget/roomGg
@@ -1677,6 +1677,7 @@ newduba.cn###jq_youxi
 ||epoid.xyz^
 ||erfskhnpter.xyz^
 ||ertgbme.com^
+||erty0yx.com^
 ||esgher.fun^
 ||esgher.site^
 ||euitx.cn^
@@ -1691,6 +1692,7 @@ newduba.cn###jq_youxi
 ||fjsytjs.cn^
 ||fjtroip.cn^
 ||fuliwang.cc^
+||fvxlhn.xyz^
 ||fwepd.xyz^
 ||fwzvlp.xyz^
 ||ggdrfh5.com^
@@ -1707,6 +1709,7 @@ newduba.cn###jq_youxi
 ||hanwdsii.com^
 ||hdfdsdaw.com^
 ||hdpdrandpd.xyz^
+||hegk01a.top^
 ||hegk03a.top^
 ||hfqdipw.cn^
 ||hgehse.site^
@@ -1787,6 +1790,7 @@ newduba.cn###jq_youxi
 ||legdeh.fun^
 ||lgohse.fun^
 ||lhiefl.com^
+||lhotajl.icu^
 ||lifyeldl.top^
 ||liitwrz.icu^
 ||lkmhn.com^
@@ -1830,6 +1834,7 @@ newduba.cn###jq_youxi
 ||owlinggnomist.com^
 ||p11q.cn^
 ||parnett55.xyz^
+||pbtsjh.xyz^
 ||pcqsajr.icu^
 ||pcvzpj.xyz^
 ||pfqwbqs.cn^
@@ -1873,6 +1878,7 @@ newduba.cn###jq_youxi
 ||ssnnn.net^
 ||statisfile.com^
 ||svarub.xyz^
+||svvev3.com^
 ||tarqk5.com^
 ||tftran.shop^
 ||tfttbd.xyz^
@@ -1934,6 +1940,7 @@ newduba.cn###jq_youxi
 ||yuanxiang19.fun^
 ||yuifgh.fun^
 ||yyuivw6.com^
+||yzllux.xyz^
 ||zcvyzsyd.icu^
 ||zddpnf.xyz^
 ||zerolcp.cn^
@@ -1944,13 +1951,6 @@ newduba.cn###jq_youxi
 ||zifyeldq.top^
 ||ziravd.xyz^
 ||znyjmbh.icu^
-||hegk01a.top^
-||erty0yx.com^
-||svvev3.com^
-||lhotajl.icu^
-||pbtsjh.xyz^
-||fvxlhn.xyz^
-||yzllux.xyz^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -11743,6 +11743,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yigujin.cn/wp-content/themes/Three/js/singley
 ||yigujin.cn/wp-content/themes/Three/js/tuij
 ||yigujin.cn/wp-content/themes/Three/js/yierlin
+||yii666.com/ad/dynamic-
 ||yikeyz.com/pm.js
 ||yimg.com/cv/ae/default/*_STATIC-JPEG_
 ||yimg.com/cv/api/hk/fp_czy_ad/
@@ -11885,11 +11886,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
-||yii666.com/ad/dynamic-
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16114,6 +16113,7 @@ cnfol.com##.wid390AdBox
 cnfol.com##.wid595AdBox
 cnfol.com##.wid600Ad
 cbmay.com##.widget
+yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
 shejidaren.com##.widget-banner
 hao123.com##.widget-hlbar > span
 hao123.com##.widget-topbanner
@@ -17383,7 +17383,7 @@ ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
 petrochina.com.cn#@#.ggbox
-bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc#@#.google-ad
+bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc,yii666.com#@#.google-ad
 apk.tw#@#.google_ad
 adbug.cn#@#.google_ads
 mobile01.com#@#.googlead
@@ -17411,7 +17411,6 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
-yii666.com#@#.google-ad
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
