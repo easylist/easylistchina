@@ -13,7 +13,6 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
-/jianpian.obs.cn-
 -1316899192.cos.
 -1688-wp-media/ads/
 -90mh-gg.
@@ -408,6 +407,7 @@
 /javhd-jp-970x170.jpg
 /jdzjgg/*
 /jfjs/ad.js
+/jianpian.obs.cn-
 /jianshen8/images/plan_banner_
 /js/aa.htm$script
 /js/aahome.htm
@@ -1600,6 +1600,7 @@ newduba.cn###jq_youxi
 ##a[href*="/9966699.vip"]
 ##a[href*="/mug749.vip"]
 ||1267a.xyz^
+||1378a.xyz^
 ||1379a.xyz^
 ||1u5gy.xyz^
 ||3400.org^
@@ -1645,6 +1646,7 @@ newduba.cn###jq_youxi
 ||c9r05q.com^
 ||caider.fun^
 ||canser1.top^
+||canser5.top^
 ||ccnim.xyz^
 ||cdmjur.xyz^
 ||chiese.site^
@@ -1667,9 +1669,11 @@ newduba.cn###jq_youxi
 ||dehaer.site^
 ||destc8.icu^
 ||dffrahax.com^
+||dfgpifa.com^
 ||dfgymtx.icu^
 ||dgayibf.icu^
 ||dghhot.com^
+||dghkpp.xyz^
 ||dhjrvj.xyz^
 ||dhkipdsc.xyz^
 ||dojyiu8.com^
@@ -1684,6 +1688,7 @@ newduba.cn###jq_youxi
 ||eamqbaqzaewwq.top^
 ||eers0cy.com^
 ||eghyahl.cn^
+||eheb8.cn^
 ||ejolul.xyz^
 ||ekdky.cn^
 ||enhad.xyz^
@@ -1707,6 +1712,7 @@ newduba.cn###jq_youxi
 ||fhglcpf.icu^
 ||fjsytjs.cn^
 ||fjtroip.cn^
+||foirkrt.icu^
 ||fszpzd.xyz^
 ||fuliwang.cc^
 ||fvxlhn.xyz^
@@ -1736,6 +1742,7 @@ newduba.cn###jq_youxi
 ||hghjks2.com^
 ||hikykhz.icu^
 ||hiqua.xyz^
+||hjgkr0g.xyz^
 ||hjkiguy.com^
 ||hkkeafj.cn^
 ||hlnr9q.icu^
@@ -1834,6 +1841,7 @@ newduba.cn###jq_youxi
 ||misapopait.com^
 ||mlstx.cn^
 ||mmead.xyz^
+||mnhknds.com^
 ||moobtcnse.xyz^
 ||mrqbuf.xyz^
 ||mt4v4.com^
@@ -1846,6 +1854,7 @@ newduba.cn###jq_youxi
 ||nieae.xyz^
 ||nifyeldc.top^
 ||njogejt.icu^
+||nmdotj.xyz^
 ||nmkghh.com^
 ||nnfyxd.xyz^
 ||nnqwe.xyz^
@@ -1984,6 +1993,7 @@ newduba.cn###jq_youxi
 ||xtbzff.xyz^
 ||xukang09.cn^
 ||xukou.net^
+||yegziyf.cn^
 ||yh18h8s.com^
 ||yhhnjg.com^
 ||yjnhndt.com^
@@ -2004,16 +2014,6 @@ newduba.cn###jq_youxi
 ||zifyeldq.top^
 ||ziravd.xyz^
 ||znyjmbh.icu^
-||nmdotj.xyz^
-||dfgpifa.com^
-||canser5.top^
-||yegziyf.cn^
-||foirkrt.icu^
-||mnhknds.com^
-||dghkpp.xyz^
-||hjgkr0g.xyz^
-||eheb8.cn^
-||1378a.xyz^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -9615,6 +9615,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||inszu.com/js/qian/
 ||inte.sogou.com^
 ||iocoder.cn/alert/js/alert.js
+||ip.sb/assets/images/*_ads.
 ||ip138.com/banner/
 ||ip138.com/idc/
 ||ipeen.com.tw/js/frame/ad-actions.js
@@ -10195,6 +10196,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mitbbs.ca/ad_
 ||mitbbs.com/ad_
 ||miwifi.com^*ads/
+||mixer.sina.cn^
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||mkd88.cc/16.32.jpg
 ||mm.nwell.net^
@@ -10830,6 +10832,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||shulihua.net/js/yegonggao.js
 ||shuowan.com/Public/shuo/20160119/569dafddd13be.jpg
 ||sihbb.com/yang/
+||sina.cn/check?
 ||sina.cn/cm/sinaads_
 ||sina.cn/interface/*_game_wap_home_mid_list_in.
 ||sina.cn^*/impress?
@@ -11595,13 +11598,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||ip.sb/assets/images/*_ads.
-||mixer.sina.cn^
-||sina.cn/check?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-sina.cn##.callApp_fl_btn
-ip.sb##.rivencloud_ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13770,6 +13768,7 @@ cnblogs.com##.c_ad_block
 121xz.com##.c_money
 kdnet.net##.c_spread
 lenniu.com##.caClass
+sina.cn##.callApp_fl_btn
 hao.360.cn##.cangbao_redbags
 duba.com##.car_ads
 pixabay.com##.carbon-ad
@@ -15249,6 +15248,7 @@ portablesoft.org##.rightside > :nth-child(n+2)
 5588.tv##.ringhttu
 biz.ifeng.com##.riodel
 xxxxx520.com##.ripro_gg_wrap
+ip.sb##.rivencloud_ads
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
 ithome.com##.rm-modal-bg
@@ -19627,6 +19627,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||gias.jd.com/js/td.js
 @@||gifshow.com/rest/wd/common/log/collect/acfun
+@@||gk.sina.cn/v1/gkmatch?
 @@||google-analytics.com/analytics.js$domain=citytalk.tw|ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=lenovo.com.cn
 @@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
@@ -19689,7 +19690,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||viu.com^*/tracking/
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
-@@||gk.sina.cn/v1/gkmatch?
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
