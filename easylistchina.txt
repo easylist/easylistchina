@@ -11872,9 +11872,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||adimg.liba.com^
 ||xitongzhijia.net/theme/2020/js/10033_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+libaclub.com##.ui-ad
+libaclub.com#?#.ui-list-item:-abp-has(>.ui-list-item-title>a[onclick^="SendAd"])
 yuepuwang.com##.topban
 onlinedown.net##.king-soft-area
 szxx.com.cn###A1
