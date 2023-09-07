@@ -6662,7 +6662,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
 ||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 ||360buyimg.com/jzt/temp/js/
-||360buyimg.com^$domain=1024pz.com|chdbits.co|gw54.com|qianggou5.com|xgw5.com
+||360buyimg.com^$domain=1024pz.com|chdbits.co|qianggou5.com
 ||360doc.com^*.html?t=
 ||360kan.com/special/
 ||360kan.com/v1/block?blockid=544&
@@ -8940,7 +8940,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jd.com/exsites?spread_type=
 ||jd.com/static/js/auto.js
 ||jd.com/static/js/cpc.js
-||jd.com^$domain=gw54.com|xgw5.com
 ||jd100.com/cwmpc/
 ||jdwx.info/api.php?mod=ad&
 ||jia.com/js/common/article_home_adv.js
@@ -10828,6 +10827,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xgw5.com###app-card-list
+xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -12608,7 +12609,7 @@ cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
 ca168.com##.admarket
 mobile01.com##.admicrobtn
-ccoo.cn,gw54.com,hackhome.com,xgw5.com##.adn
+ccoo.cn,hackhome.com##.adn
 typecho.wiki##.adn-ar
 gaokao.com##.adout116
 bigear.cn##.adpicright
@@ -12638,7 +12639,7 @@ lenovo.com.cn##.adsense-wrap
 3dmgame.com##.adshop
 qinbing.cn##.adspic_mid2
 av.movie##.adss-160x600
-chinaz.com,gw54.com,ofweek.com,xgw5.com,yawin.cn##.adtext
+chinaz.com,ofweek.com,yawin.cn##.adtext
 92sucai.com##.adtg2
 gdmm.com##.adtop > .module
 nfuwow.com##.adtopnewnewbox
@@ -13188,7 +13189,6 @@ qingdaonews.com##.da30050
 qingdaonews.com##.da66050
 twavking.com##.da_single_video
 mobile01.com##.dable-side_theme
-gw54.com,xgw5.com##.dad
 lenovo.com.cn##.daily-hotwords
 map.baidu.com##.damoce-search-item
 acfun.cn##.danmu-activity
@@ -13725,7 +13725,7 @@ hoteastday.com##.incentive
 caixin.com##.incubator
 qqyy.com##.ind_ad
 faxingw.cn##.indadv1
-gw54.com,jojf.cn,xgw5.com##.index-ad
+jojf.cn##.index-ad
 ziyuanyo.com##.index-ad-text
 oschina.net##.index-ad-wrap
 cndesign.com##.index-add
@@ -16227,7 +16227,6 @@ weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-con
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 x6d.com#?#li:-abp-has(>.myad)
-xgw5.com,gw54.com#?#li:-abp-has(>.ads)
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(雅虎搜尋))
 yahoo.com#?#.stream-item:-abp-has(>div>div>div>span:-abp-contains(即日熱搜))
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
