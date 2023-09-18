@@ -17234,19 +17234,16 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-18comic.org,18comic.vip#?#a[href*="//"]:not([href*="18comic."]):-abp-has(>span+img)
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > span + img
-18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>ins+script)
-18comic.org,18comic.vip###guide-modal
-18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
+18comic.org,18comic.vip,18-comic.work##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18-comic.work###guide-modal
+18comic.org,18comic.vip,18-comic.work##.modal-backdrop
+18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,18-comic.work##a[href*="//"]:not([href*="comic."]) > img
+18comic.org,18comic.vip,18-comic.work##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18comic.*/media/albums/*?$media
-||jm-comic2.club/media/albums/*?$media
+||18-comic.work/media/albums/*?$media
 !#2
 !#3
 !#4
