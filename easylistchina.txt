@@ -9088,7 +9088,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||lcxw.cn/i/*dl.js
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
-||ldmnq.com/bbs/$third-party
 ||lecai.com/page/zhuanti/baidu/
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
@@ -10730,6 +10729,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+eprice.com.hk##.ad-end-article
+eprice.com.hk##.article__content > div[style*="text-align"]
+eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 hcbbs.com###framec9562h
 hcbbs.com###fwin_dialog
 szxx.com.cn###A1
