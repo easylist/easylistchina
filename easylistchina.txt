@@ -15635,7 +15635,7 @@ mydrivers.com##a[href*=".dangbei.com"]
 bilibili.com##a[href*=".doubleclick."]
 cnblogs.com##a[href*=".gridsumdissector.com/"]
 ctfile.com##a[href*=".henghost.com"]
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广 告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/广*告/))
 hanjutv2020.com##a[href*=".hujiang.com"]
 pexels.com##a[href*=".istockphoto.com"]
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
@@ -16470,7 +16470,6 @@ mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="htt
 mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
 nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
