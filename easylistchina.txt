@@ -11171,6 +11171,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||diamiu.com/wp-content/uploads/1200-200.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img
 element-plus.org##.page-content-main-a
 939394.xyz##body > table:first-child img
 vsping.com##.ad_01
