@@ -1666,7 +1666,6 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##a[href*=".wuluoyun.com/aff/"]
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -11583,6 +11582,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+imydl.com##a[href*=".wuluoyun.com/aff/"]
 2345.com###xxl_game-new
 hao123.com##.cmsad_wrapper
 szxx.com.cn###A1
@@ -17310,6 +17310,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||192.168.*/advertising_$stylesheet
 @@||199it.com^$generichide
 @@||1keydata.com^$generichide
+@@||imydl.com^$generichide
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||2345.com/images/activity/20171111/open/j/close.png
