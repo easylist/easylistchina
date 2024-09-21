@@ -10235,6 +10235,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /cuid/*$domain=colamanga.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cnyes.com#?#.content-main > div:-abp-has(>div[id^="div-gpt-ad"])
+cnyes.com#?#article > div:-abp-has(>div[id^="div-gpt-ad"])
 wenxuecity.com##.rightbannerw
 yeeyi.com##.js_handle_right
 raenonx.cc##div[style="display: flex; justify-content: center; align-items: center; position: relative;"] > iframe
