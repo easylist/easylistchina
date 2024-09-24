@@ -10269,6 +10269,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tsdm39.com/img01/MP3/GG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com#?#.container:-abp-has(>.bottom-section>.item_voice_room[data-yysid])
+baidu.com#?#.container_frs:-abp-has(>.voice_room_card_frs[data-url*="yylive"])
 cn.bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 cn.bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 hdhive.online#?#.mt-4:-abp-has(>.text-lg)
