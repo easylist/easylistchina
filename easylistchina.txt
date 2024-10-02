@@ -1726,6 +1726,7 @@ newduba.cn###jq_youxi
 ||mqwtgq.xyz^
 ||vrdfxioe.icu^
 ||ceryt111.fun^
+||kloojzn.icu^
 ||ieryt111.fun^
 ||cwwgqu.xyz^
 ||ckyriuf.icu^
@@ -10362,6 +10363,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tsdm39.com/img01/MP3/GG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wenxuecity.com##.sharewechat + .otherposts
 ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
 ysgc.fun,ysgc.tv##.myui-panel_bd > div > a[target="_blank"]
 msn.cn##gaming-discover-strip
@@ -15868,7 +15870,7 @@ weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_auth
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
-wenxuecity.com#?#div[class]:-abp-has(>.adlab_border)
+wenxuecity.com#?#div:-abp-has(>label[class^="adlab"])
 wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 x6d.com#?#li:-abp-has(>.myad)
