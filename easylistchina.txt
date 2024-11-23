@@ -10884,11 +10884,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/FCPXku.
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
+||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 cnys.tv###player_pause
 twkan.com##.txtcenter
 element-plus.org##.page-sidebar-layout
+element-plus.org#?#div:-abp-has(>.sponsor-item)
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
