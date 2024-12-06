@@ -1710,6 +1710,7 @@ newduba.cn###jq_youxi
 ##style + .vdgdo
 ##.tg-m.tg-site
 ##.tg-pc.tg-site
+##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
@@ -10999,7 +11000,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
-b0d8a0f6.com##div[id^="content_"]
 bing.com#?#.b_algo:-abp-has(.tpmeta:not(.tpmeta:-abp-has(.b_attribution)))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
