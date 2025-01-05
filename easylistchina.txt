@@ -8075,12 +8075,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||laogu.com/cms/images/ad
 ||laowang81.com/getfuolist
 ||laowangblog.com^*-ad
-||laozuo.org/banner/linode
-||laozuo.org/wp-content/themes/weisaysimple/js/*-bottom.js
-||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
-||laozuo.org/wp-content/themes/weisaysimple/js/content40width.js
-||laozuo.org/wp-content/themes/weisaysimple/js/index-top.js
-||laozuo.org/wp-content/themes/weisaysimple/js/sidebar
 ||law-lib.com/wstyle/images/gffirm.jpg
 ||lawtv.com.cn/jd_ceshi.html
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
@@ -8646,8 +8640,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ps123.net/MyFile/
 ||ps557.com/link/
 ||ps886.us/js/*.js
-||pstatp.com/large/pgc-image/e8bd997e82874259a66207d2f77f0c6c
-||pstatp.com/obj/game-files/e30c81a77b8c2d45ca8d6f99aae969dc
 ||pstatp.com/origin/1381500009611bc201d61
 ||pstatp.com/origin/13816000374e83a453717.jpg
 ||pstatp.com/origin/fef20000e7013b3511b6
@@ -8678,7 +8670,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||qhdlz.net/uploads/glxs/980x120.jpg
 ||qhimg.com/ssl/20212c7594890e1c.js
 ||qhimg.com/static/*/common/seed.js
-||qhimgs1.com/t029762bc960d5104ef.jpg
 ||qhimgs4.com/t01d8315ddb1a5adcce.gif
 ||qhnews.com/tupian/
 ||qhres.com/static/*/common/seed.js
@@ -9672,7 +9663,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
-||zpgjz.com/cdn/new1/4.gif
 ||zpiyi.com/public/js/global.js
 ||zrblog.net/gg/
 ||zsjjob.com/user/member/google.htm
@@ -9689,7 +9679,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
-.sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
 ||huo720.com/files/vidhub
 ||69shuba.cx^*/shu.js
@@ -9700,7 +9689,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ibaotu.com/revision/js/ad/
 ||51miz.com/index.php?m=Ad&
 ||wxc.cc/scripts/gg.
-||xmcdn.com/storages/97b8-customerservice/E7/5E/GKwRIJILApO8AALGLwMrioMa.
 ||cnki.net/spot/app/get/ads?
 ||cdncg.com^*/FCPXku.
 ||cdncg.com^*/kangmey
@@ -9710,6 +9698,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dangbei.net/2022/dbhezi.
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+laozuo.org###focusslide
+laozuo.org##.container[style="margin-bottom: 3px;"]
+laozuo.org##.widget_ui_orbui
 rouman5.com,roum20.xyz##div[style^="display: flex;"]
 rouman5.com,roum20.xyz##ins
 rouman5.com,roum20.xyz###headlessui-portal-root
@@ -13446,7 +13437,6 @@ duba.com##.s11_zb
 tbtdg.com##.s11text
 2345.com##.s12-fullNav
 finance.ifeng.com##.sConRbox
-laozuo.org##.s_ad125
 gucheng.com##.s_news_qc
 zww.me##.sad
 vansky.com##.safari_pop
