@@ -1744,6 +1744,7 @@ newduba.cn###jq_youxi
 ||fadjqqe.top^
 ||bcpxll.icu^
 ||uqkcqk.icu^
+||udyi.cn^
 ||uuso05080qhs.xyz^
 ||thimhudlop.com^
 ||qiuxl11.cn^
@@ -9470,6 +9471,7 @@ meijutt.*/js/pcjs/
 ||yximgs.com/bs2/adcarsku/*.gif
 !------------------------Specific element hiding rules------------------------!
 sojson.com##.a-d-img
+smsonline.cloud##.css-17anw56
 sixyin.com##.widget_custom_html
 baidu.com##a[class*="fengchaoContainer"]
 hcbbs.com##.pcbanner
@@ -16853,6 +16855,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 ||cilimao.*/amaod/
 !#CSP filters
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 !#ddooo.com
 ddooo.com##.gadat_list
