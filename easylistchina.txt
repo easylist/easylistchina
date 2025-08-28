@@ -10268,6 +10268,7 @@ meijutt.*/js/pcjs/
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 iplark.com##div[class^="banner"]
+iplark.com##body > div:not([class]):not([style])
 bilibili.com##.layerWrapperRoot > div[style^="width: 1220px;"]
 landiannews.com##.content-gg
 mydrivers.com##div[style="text-align: center;margin-top: 10px;"]
