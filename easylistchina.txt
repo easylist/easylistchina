@@ -10126,6 +10126,8 @@ meijutt.*/js/pcjs/
 /\/[a-z]+$/$script,third-party,domain=gimy.com.tw
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+baozimh.org#?#.relative:-abp-has(>.bg-red-500)
+baozimh.org##a[href*="g-mh.com"]
 qq.com##.maillist_ad_bar
 udn.com##.ec-section
 qqdsw8.cn##.joe_index__ad
