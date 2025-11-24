@@ -1658,8 +1658,7 @@ newduba.cn###jq_youxi
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
 ##div[role="listitem"] > div > div > .bannerliststyle
-##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="60px"]
+##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="position"][onclick^="window.open"]
