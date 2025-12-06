@@ -10486,6 +10486,7 @@ meijutt.*/js/pcjs/
 ||workers.dev^$domain=axiang.cc
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+hkcards.com##div[style="height:330px;min-height:330px;max-height:330px;"]
 sohu.com###bottomBanner
 orzice.com##.ad-guanggao
 orzice.com###jinzhu_top
@@ -10762,7 +10763,6 @@ mvcat.com###ad-jd
 ithome.com.tw###ad-on-top
 udn.com###ad-pall
 studygolang.com###ad-right1
-hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 kaitao.cn###ad-tit
 autohome.com.cn###ad-top-1111
 dayoo.com###ad-xl
@@ -16005,7 +16005,6 @@ zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 ||mydrivers.com/img/2005/202112011849.png
 !---------------------------------CSS Whitelist-------------------------------!
 hubei.gov.cn#@##ad-side
-hkcards.com#@##ad-slot
 abbao.cn#@##adContent
 gohome.com.hk,idv.st#@##adFrame
 2014.qq.com#@##adIframe
@@ -16126,6 +16125,7 @@ brandsales.58.com#@#div[id^="ad_"]
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||hkcards.com^$generichide
 @@/prebid.$script,domain=mingpao.com
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||jinritemai.com^$generichide
