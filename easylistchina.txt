@@ -6831,7 +6831,6 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
 hxsame.hexun.com$domain=~quote.hexun.com
 |http://*/ad_bj.js?
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
-||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
 ||007ds.com/js/js/
@@ -9195,7 +9194,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jd.com/static/js/auto.js
 ||jd.com/static/js/cpc.js
 ||jd100.com/cwmpc/
-||jdwx.info/api.php?mod=ad&
 ||jia.com/js/common/article_home_adv.js
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
@@ -11075,6 +11073,7 @@ meijutt.*/js/pcjs/
 ||ksou6.com/api/v1/ad/
 !------------------------Specific element hiding rules------------------------!
 xc6b.com##.cHeadImg
+dzdu.com###mv_box
 gh-proxy.com#?#.w-full:-abp-has(>a[rel$="sponsored"])
 3dmgame.com##.addownbox_gaosu
 3dmgame.com##.Gmaeinfobtn_tab > .patchshow
@@ -11928,7 +11927,6 @@ hao123.com###guesslikesite-block
 52asus.com###guiigo-black-mask
 szhk.com###h_banner
 hao123.com###hao123-gw11
-javhope.com###havhope
 macd.cn###hbad
 coolaler.com###hd
 gdmm.com###hd > .wp > .module
@@ -12653,7 +12651,7 @@ aiyuke.com##.GGad
 yahoo.com##.GeminiPortalStreamAd_handleViewport
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
 le.com##.H-tg
 chinaz.com##.HeaderAdvert
 diyifanwen.com##.Hzh1
@@ -14321,8 +14319,6 @@ opdown.com##.listaddrs
 3dmgame.com##.listlab > .img[href*="/yx."]
 58.com##.listpage_detail
 kpzpw.com##.littlebanner
-huaren.tv##.live-client_left
-huaren.tv##.live-client_right
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.live_show_aside
 ifeng.com##.ljPop
 lkong.com##.lkong-ads
@@ -14559,7 +14555,6 @@ prts.wiki##.nomobile[style*="810px;height:240"]
 zhicheng.com##.normal-banner
 admin5.com##.notice
 jbaaza.com##.notice-img
-yes-news.com##.notification
 haoxxoo.com##.nrad1
 haoxxoo.com##.nrad2
 newsmth.net##.ns-ad
@@ -14576,7 +14571,7 @@ baidu.com##.optimus
 2yjw.com,fuliba2021.net,itdog.cn,zhujiceping.com##.orbui
 fuliba2021.net,ypojie.com##.orbui-post-footer
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
-jdwx.info,motobuy.com.tw##.other
+motobuy.com.tw##.other
 6parknews.com##.other_list_ad
 bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
 qiaobutang.com##.overlay
@@ -15831,7 +15826,6 @@ edc1014070.pixnet.net##a[onmouseover*="_openBrWindow"]
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
 house365.com##a[style*="1200px;"]
 hdzone.org##a[style*="fixed"]
-huaren.tv##a[style*="height:"]
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href*="show-"]
 supercloudsms.com##a[href^="/redirect?"]
 wandhi.com##a[style="display: inline-block;position: relative"]
@@ -18222,7 +18216,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||qc1.cheshipin.com^
 ||qdzyspjx.com^
 ||qifake.com^
-||qiji1.jdwx.info^
 ||qiyeb.iaskbus.com^
 ||qiyegongqiu1.qiyegongqiu.com^
 ||qizhihaotian.com^*.js
